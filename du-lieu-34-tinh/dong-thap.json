@@ -1,0 +1,965 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–30.000đ/tô",
+   "mon": "Hủ tiếu Sa Đéc",
+   "nguon": "fptshop.com.vn, ecolotus.vn, nemtv.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "fptshop.com.vn / ecolotus.vn",
+    "nhan_xet": "Hủ tiếu Sa Đéc là món nhất định phải ăn ở Sa Đéc: sợi hủ tiếu dai, nước lèo ngọt xương, giá chỉ 20.000–30.000đ/tô. Điểm mạnh là quán Bà Sẩm nổi tiếng, ăn sáng đúng vị; điểm yếu là quán đông, đến sau 12h có thể hết. Hợp với mọi đối tượng, nên ăn sáng ở Bà Sẩm (188 Trần Hưng Đạo)."
+   },
+   "quan": [
+    {
+     "dia_chi": "188 Trần Hưng Đạo, Phường 1, TP Sa Đéc",
+     "gia": "20.000–30.000đ/tô",
+     "ten": "Hủ tiếu Bà Sẩm"
+    },
+    {
+     "dia_chi": "111 Trần Phú, Phường 1, TP Sa Đéc",
+     "gia": "20.000–30.000đ/tô",
+     "ten": "Hủ tiếu Cô Liên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng (tham khảo chung 20.000–30.000đ/phần)",
+   "mon": "Bánh tằm bì",
+   "nguon": "fptshop.com.vn, ecolotus.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "fptshop.com.vn / ecolotus.vn",
+    "nhan_xet": "Bánh tằm bì Sa Đéc sợi bánh mềm, bì thính, nước cốt dừa béo — món ăn sáng nhẹ nhàng, đúng chất Sa Đéc. Điểm yếu là giá riêng chưa kiểm được (tham khảo chung 20.000–30.000đ/phần), chỉ có một quán tham khảo là Chú Dũng. Hợp với ăn sáng, nên ăn kèm hủ tiếu cho đủ bữa."
+   },
+   "quan": [
+    {
+     "dia_chi": "49B Phan Bội Châu, Phường 1, TP Sa Đéc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh tằm bì Chú Dũng Sa Đéc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "35.000–60.000đ/xâu hoặc hộp 10 chiếc ~35.000đ (các nguồn ghi khác nhau)",
+   "mon": "Nem Lai Vung",
+   "nguon": "fptshop.com.vn, ecolotus.vn, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "fptshop.com.vn / ecolotus.vn / tadiha.com",
+    "nhan_xet": "Nem Lai Vung chua vừa, thơm lá ổi, mua về làm quà là chuẩn nhất Đồng Tháp. Điểm yếu là giá các nguồn ghi khác nhau theo đơn vị (35.000đ/hộp 10 chiếc vs 40.000–60.000đ/xâu) nên phải hỏi rõ đơn vị tính trước khi mua. Hợp với mua quà, nên mua ở cơ sở trên ĐT851 hoặc chợ Sa Đéc."
+   },
+   "quan": [
+    {
+     "dia_chi": "ĐT851, Tân Thành, huyện Lai Vung",
+     "gia": "40.000–60.000đ/xâu",
+     "ten": "Cơ sở nem Lai Vung"
+    },
+    {
+     "dia_chi": "7–12 Lạc Long Quân, TP Sa Đéc",
+     "gia": "~35.000đ/hộp 10 chiếc",
+     "ten": "Chợ Sa Đéc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, mùa nước nổi)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng tại Đồng Tháp (tham khảo chung miền Tây 120.000–250.000đ/nồi)",
+   "mon": "Lẩu cá linh bông điên điển",
+   "nguon": "bachhoaxanh.com, ecolotus.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bachhoaxanh.com / ecolotus.vn",
+    "nhan_xet": "Lẩu cá linh Đồng Tháp ngon nhất mùa nước nổi, ăn ở Cao Lãnh hay Đồng Sen đều được. Điểm yếu là giá riêng tại Đồng Tháp chưa kiểm được, tham khảo chung 120.000–250.000đ/nồi. Hợp với nhóm đi tháng 9–11, nên ăn ở Đầm Sen Cao Lãnh."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Mỹ Phú, TP Cao Lãnh",
+     "gia": "Hỏi giá trước",
+     "ten": "Khu Ẩm thực Sinh Thái Đầm Sen"
+    },
+    {
+     "dia_chi": "Số 1, ấp 1, xã Tân Kiều, huyện Tháp Mười",
+     "gia": "Hỏi giá trước",
+     "ten": "Khu du lịch Đồng Sen Tháp Mười"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng theo phần",
+   "mon": "Vịt nướng Sa Đéc",
+   "nguon": "bachhoaxanh.com, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bachhoaxanh.com / tadiha.com",
+    "nhan_xet": "Vịt nướng Sa Đéc da giòn, thịt thơm, là món trưa đáng thử ở Sa Đéc. Điểm yếu là giá riêng theo phần chưa kiểm được, chỉ có một quán tham khảo là A Tài. Hợp với ăn trưa nhóm, nên ăn ở A Tài (169 Nguyễn Cư Trinh)."
+   },
+   "quan": [
+    {
+     "dia_chi": "169 Nguyễn Cư Trinh, Khóm 5, Phường 1, TP Sa Đéc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Vịt nướng A Tài"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~15.000đ/bịch (200 g)",
+   "mon": "Bánh phồng tôm Sa Giang",
+   "nguon": "fptshop.com.vn, nemtv.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "fptshop.com.vn / nemtv.vn",
+    "nhan_xet": "Bánh phồng tôm Sa Giang là quà mang về chuẩn Sa Đéc: giòn, thơm tôm, giá chỉ ~15.000đ/bịch 200 g. Điểm mạnh là rẻ, dễ mua ở nhiều cửa hàng; điểm yếu là hàng nhái nhiều, nên mua ở cửa hàng Thịnh Phát hoặc Bích Vân cho chắc. Hợp với mua quà."
+   },
+   "quan": [
+    {
+     "dia_chi": "88/6 Trần Hưng Đạo, TP Sa Đéc",
+     "gia": "~15.000đ/bịch",
+     "ten": "Cửa hàng thương mại Thịnh Phát"
+    },
+    {
+     "dia_chi": "112 Điện Biên Phủ, Phường Mỹ Phú, TP Cao Lãnh",
+     "gia": "~15.000đ/bịch",
+     "ten": "Cửa hàng Bích Vân"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Cá lóc nướng (Đồng Sen)",
+   "nguon": "htt-furniture.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "htt-furniture.com",
+    "nhan_xet": "Cá lóc nướng ở Đồng Sen ăn giữa ao sen, vừa ăn vừa ngắm sen — không gian là điểm cộng lớn nhất. Điểm yếu là giá riêng chưa kiểm được, món này phụ thuộc vào khu du lịch Đồng Sen. Hợp với ăn trưa khi tham quan Đồng Sen, nên hỏi giá trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Số 1, ấp 1, xã Tân Kiều, huyện Tháp Mười",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Khu du lịch Đồng Sen Tháp Mười"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Theo giá thị trường/theo mùa (chưa kiểm được giá riêng)",
+   "mon": "Quýt hồng Lai Vung",
+   "nguon": "ecolotus.vn, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ecolotus.vn / tadiha.com",
+    "nhan_xet": "Quýt hồng Lai Vung ngọt thanh, vỏ mỏng, là đặc sản mua về dịp Tết. Điểm yếu là giá theo mùa, chưa kiểm được giá riêng; đi lệch mùa thì không có quýt chín. Hợp với mua quà dịp Tết, nên mua tại vườn Hai Kiệt."
+   },
+   "quan": [
+    {
+     "dia_chi": "1068a Long Khánh A, Long Hậu, huyện Lai Vung",
+     "gia": "Theo giá thị trường",
+     "ten": "Vườn quýt hồng Hai Kiệt"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Mứt chuối phồng",
+   "nguon": "nemtv.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nemtv.vn",
+    "nhan_xet": "Mứt chuối phồng Lai Vung dẻo, ngọt vừa, là món quà quê ít nơi có. Điểm yếu là giá riêng chưa kiểm được, chỉ có một cơ sở tham khảo là Tư Bông. Hợp với mua quà, nên mua ở ấp Tân Thạnh, Phong Hòa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Ấp Tân Thạnh, xã Phong Hòa, huyện Lai Vung",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Mứt chuối phồng Tư Bông"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Đồng Tháp khứ hồi",
+   "uoc_tinh": "230.000–360.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "320.000–730.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–800.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "60.000–200.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Xuồng/tàu tham quan (chia nhóm)",
+   "uoc_tinh": "50.000–200.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.310.000–2.740.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.300.000đ/chiều (tham khảo) + xe VCA — Sa Đéc/Cao Lãnh"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua vé tại quầy chính thức của khu du lịch, hỏi rõ giá đã gồm những gì; kiểm tra áo phao; mặc áo phao suốt chuyến.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xuồng, thuyền ở Tràm Chim, Xẻo Quýt, Gáo Giồng: giá thuê không thống nhất, phụ thu; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi mua; so giá 2-3 sạp; kiểm tra hàng trước khi trả tiền.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua sen, đặc sản ở làng hoa Sa Đéc và chợ Sa Đéc: giá hét cao với khách lạ, hàng không đúng mô tả."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Cao Lãnh, Sa Đéc hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Áo chống nắng, mũ, kem chống nắng",
+  "Áo mưa mỏng (mùa mưa tháng 5–10; mùa nước nổi tháng 9–11)",
+  "Giày/dép chống trơn",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (vé xuồng/tàu, chợ, quán nhỏ)",
+  "Thuốc chống muỗi (rừng tràm nhiều muỗi), thuốc cơ bản",
+  "Sạc dự phòng",
+  "Ống nhòm/máy ảnh nếu đi ngắm chim Tràm Chim"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn Bông Hồng Sa Đéc",
+   "Khách sạn Hương Sen",
+   "Maison en Bambou Phong – Le Vent (Nhà tre)"
+  ],
+  "diem": [
+   "Làng hoa kiểng Sa Đéc",
+   "Khu du lịch sinh thái Đồng Sen Tháp Mười",
+   "Cồn Thới Sơn",
+   "Chợ nổi Cái Bè"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn B.O.B Cao Lãnh",
+   "Khách sạn Bông Hồng Sa Đéc"
+  ],
+  "diem_chay": [
+   "Quảng trường Văn Miếu, Cao Lãnh (điểm xuất phát/về đích của giải)",
+   "Đường ven sông Tiền, Cao Lãnh",
+   "Đường quanh làng hoa Sa Đéc buổi sáng"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Nhân Dân — Ấn tượng giải chạy VPBank Đất Sen Hồng Music Marathon 2025 (16/10/2025); Tuổi Trẻ — 12.000 runner tham gia giải VPBank Đất Sen Hồng Music Marathon 2025 (16/8/2025) (ngày kiểm 08/11/2026)",
+    "ten": "VPBank Đất Sen Hồng Music Marathon",
+    "thoi_gian": "Tháng 10 hằng năm (mùa 2025: 10-12/10/2025, thi đấu chính 12/10/2025)"
+   }
+  ],
+  "nguon": "Báo Nhân Dân và Tuổi Trẻ về giải Đất Sen Hồng; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_trung_tam": "~25 km (Cao Lãnh)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 105 Tôn Đức Thắng, Phường 1, TP Cao Lãnh",
+   "dien_thoai": "0277 8527 777",
+   "gia": "Từ ~730.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách đi Tràm Chim/Xẻo Quýt/Gáo Giồng, công tác",
+   "khu_vuc": "cao-lanh",
+   "nguon": "traveloka.com, vietfuntravel.com.vn",
+   "nguon_dien_thoai": "tripi.vn, mytour.vn, ivexe.vn, netid.vn, phongkhambacsi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn B.O.B Cao Lãnh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~25 km (Cao Lãnh)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường 30/4, Phường 1, TP Cao Lãnh",
+   "dien_thoai": "0277 3536 667",
+   "gia": "~650.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách đi cụm Cao Lãnh",
+   "khu_vuc": "cao-lanh",
+   "nguon": "travelviet.net",
+   "nguon_dien_thoai": "travelviet.net, tripi.vn, mytour.vn, topbuzz.org, blogthanhcong.edu.vn (ngày kiểm 08/11/2026)",
+   "ten": "Thư Lê Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~25 km (Cao Lãnh)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Cao Lãnh (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": "091 190 9797",
+   "gia": "~460.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm ở Cao Lãnh",
+   "khu_vuc": "cao-lanh",
+   "nguon": "travelviet.net",
+   "nguon_dien_thoai": "tripi.vn, mytour.vn, bazantravel.com, vietnamtourism.com.vn, vietnam.atalink.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Trí Lê",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm Sa Đéc",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 251A Nguyễn Sinh Sắc, Khóm 2, Phường 2, TP Sa Đéc",
+   "dien_thoai": "0277 3868 288",
+   "gia": "Từ ~500.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, cặp đôi ở Sa Đéc",
+   "khu_vuc": "sa-dec",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "limoutrip.com + topdongthapaz.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Bông Hồng Sa Đéc",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~3–5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 26 ĐT848, ấp Phú Long, xã Tân Phú Đông, TP Sa Đéc",
+   "dien_thoai": "0277 3980 980",
+   "gia": "Từ ~600.000đ/đêm",
+   "hang": "Chưa kiểm được hạng (7 tầng, có villa sân vườn)",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "khu_vuc": "sa-dec",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "dulich.dongthap.gov.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Vạn Kim Long",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm Sa Đéc",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 109 Trần Thị Nhượng, Phường 1, TP Sa Đéc",
+   "dien_thoai": "0944 100 794",
+   "gia": "Từ ~320.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách bụi, cặp đôi tiết kiệm",
+   "khu_vuc": "sa-dec",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "limoutrip.com + vietnamtourism.com.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Hương Sen",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~3–5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 156, Tỉnh lộ ĐT848, ấp Khánh Nhơn, xã Tân Khánh Đông, TP Sa Đéc (trong KDL Hoa Kiểng Sa Đéc, ~3 ha)",
+   "dien_thoai": "0919 885 804",
+   "gia": "500.000–1.200.000đ/đêm (một nguồn ghi từ 180.000đ/người)",
+   "hang": "Homestay/farmstay",
+   "hop_voi": "Gia đình, nhóm bạn thích ở giữa làng hoa",
+   "khu_vuc": "lang-hoa-sa-dec",
+   "nguon": "motogo.vn, vungtautourism.com",
+   "nguon_dien_thoai": "tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Sadec Farmstay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~2–3 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Kế số 204A, Khóm Tân Hiệp, Tân Quý Đông, TP Sa Đéc",
+   "dien_thoai": "0939 298 388",
+   "gia": "~400.000đ/đêm (một nguồn ghi từ 300.000đ)",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, khách thích homestay tre giữa vườn",
+   "khu_vuc": "lang-hoa-sa-dec",
+   "nguon": "travelviet.net, vungtautourism.com",
+   "nguon_dien_thoai": "travelviet.net (ngày kiểm 08/11/2026)",
+   "ten": "Maison en Bambou Phong – Le Vent (Nhà tre)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Nhà cổ Huỳnh Thủy Lê (20.000đ vs 30.000đ)",
+  "Giá vé Làng hoa Sa Đéc (miễn phí vào làng vs 20.000–100.000đ/người cho vườn hoa riêng/dịch vụ)",
+  "Mùa sen Đồng Sen Tháp Mười (tháng 5–6 vs tháng 8–1)",
+  "Giờ mở cửa Nhà cổ Huỳnh Thủy Lê (7:00–17:00 vs 8:30–17:30)",
+  "Giờ mở cửa Tràm Chim, Gáo Giồng, Đồng Sen, Gò Tháp, Lăng Nguyễn Sinh Sắc",
+  "Tọa độ GPS: Gò Tháp chỉ có tọa độ xấp xỉ theo tọa độ công bố (10,583°B 105,8°Đ), cần kiểm lại; Làng hoa Sa Đéc và Đồng Sen chỉ có tọa độ mức khu vực",
+  "Địa giới sau sáp nhập 01/07/2025: đợt 06/11/2026 đã thêm 3 điểm khu vực Tiền Giang cũ (Chợ nổi Cái Bè, Chùa Vĩnh Tràng, Cồn Thới Sơn); các điểm khác thuộc khu vực này (Trại rắn Đồng Tâm, biển Tân Thành) vẫn chưa nhập",
+  "Giá vé riêng Cồn Thới Sơn và giá thuê ghe Chợ nổi Cái Bè chưa kiểm được",
+  "Chùa Lá Sen, Vườn chà là: chưa kiểm được địa chỉ + giá vé riêng nên chưa đưa vào",
+  "Khách sạn Trí Lê: địa chỉ chi tiết",
+  "Sadec Farmstay: 500.000–1.200.000đ/đêm vs từ 180.000đ/người — chưa rõ gồm những gì",
+  "Maison en Bambou Phong – Le Vent: ~400.000đ vs từ 300.000đ",
+  "Hạng sao các khách sạn Đồng Tháp (trừ Bông Hồng 3 sao)",
+  "Giá riêng các món bánh tằm bì, vịt nướng Sa Đéc, lẩu cá linh, cá lóc nướng Đồng Sen, quýt hồng, mứt chuối phồng",
+  "Giá nem Lai Vung (35.000đ/hộp 10 chiếc vs 40.000–60.000đ/xâu — đơn vị tính khác nhau)",
+  "Giá vé xe khách SG — Sa Đéc từng hãng (chỉ có SG — Cao Lãnh 115.000đ của Phương Trang)",
+  "Giá limousine SG — Sa Đéc/Cao Lãnh, giá taxi nội thành, giá thuê xe máy tay ga tại Đồng Tháp",
+  "Giá xe VCA — Sa Đéc/Cao Lãnh và giá xe Cần Thơ — Cao Lãnh/Sa Đéc",
+  "Tuyến xe khách thẳng Hà Nội — Đồng Tháp: chưa kiểm được có tuyến hay không"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Không có sân bay/ga tàu tại Đồng Tháp. Sân bay gần nhất: Cần Thơ (VCA, cách Cao Lãnh ~80 km, cách Sa Đéc ~90 km) hoặc Tân Sơn Nhất (SGN, cách Sa Đéc ~140 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ)",
+    "nguon": "vietair.com.vn, vietjetair.com",
+    "phuong_tien": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Sa Đéc/Cao Lãnh",
+    "thoi_gian": "Bay ~2h10 + xe VCA — Sa Đéc ~2 giờ, VCA — Cao Lãnh ~1,5–2 giờ"
+   },
+   {
+    "ghi_chu": "Phương án thay thế",
+    "gia": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Sa Đéc ~115.000–180.000đ/vé",
+    "nguon": "limody.vn",
+    "phuong_tien": "Máy bay HAN–SGN rồi xe lên Đồng Tháp",
+    "thoi_gian": "Bay ~2h05 + xe SG — Sa Đéc 3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến khích",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN — Đồng Tháp",
+    "thoi_gian": "Chưa kiểm được tuyến thẳng + thời gian/giá"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Hỏi rõ giá trọn gói trước khi lên xe; có thể đi taxi về Cần Thơ rồi bắt xe khách đi Cao Lãnh/Sa Đéc",
+    "gia": "Chưa kiểm được giá riêng tuyến VCA — Sa Đéc/Cao Lãnh",
+    "nguon": "vietair.com.vn",
+    "phuong_tien": "Taxi / xe công nghệ (từ VCA)"
+   },
+   {
+    "ghi_chu": "Đón tại bến xe Cần Thơ",
+    "gia": "Chưa kiểm được giá riêng (tham khảo tuyến Cần Thơ — Cao Lãnh ~100.000–150.000đ/vé)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách Cần Thơ — Cao Lãnh/Sa Đéc"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương Trang hotline 1900 6067; các hãng tuyến SG — Cao Lãnh/Sa Đéc chạy từ Bến xe Miền Tây",
+    "gia": "~115.000–180.000đ/vé (Phương Trang SG — Cao Lãnh 115.000đ; tuyến SG — Sa Đéc chưa kiểm được giá riêng từng hãng)",
+    "nguon": "limody.vn, vexesapa.vn",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Chưa kiểm được giá riêng tuyến SG — Sa Đéc/Cao Lãnh (tham khảo chung miền Tây ~180.000–250.000đ/vé)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc Trung Lương – Mỹ Thuận → QL1A → Sa Đéc/Cao Lãnh (qua cầu Mỹ Thuận)",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+    "thoi_gian": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ"
+   },
+   {
+    "ghi_chu": "Chỉ hợp khi kết hợp Cần Thơ; đa số khách đi xe khách thẳng",
+    "gia": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA)",
+    "nguon": "vietjetair.com",
+    "phuong_tien": "Máy bay + xe (qua Cần Thơ)",
+    "thoi_gian": "Bay SGN–VCA ~45–55 phút + xe VCA — Sa Đéc ~2 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Các điểm Đồng Tháp cách nhau 20–50 km, xe máy là phương tiện linh hoạt nhất; đổ xăng đầy trước khi đi Tràm Chim/Đồng Sen",
+   "gia": "~100.000–150.000đ/ngày (tham khảo chung miền Tây; chưa kiểm được mức riêng tại Sa Đéc/Cao Lãnh)",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "luxurytravel.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Chưa kiểm được mức riêng tại Đồng Tháp (tham khảo chung miền Tây ~150.000–200.000đ/ngày)",
+   "giay_to": "Như trên",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be phủ sóng hạn chế ở Cao Lãnh/Sa Đéc; hỏi giá trước khi đi",
+   "gia": "Chưa kiểm được bảng giá taxi riêng tại Sa Đéc/Cao Lãnh",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Mặc áo phao; tàu Tràm Chim đi theo đoàn/tuyến, hỏi trước giờ tàu",
+   "gia": "Xẻo Quýt: xuồng chèo 15.000đ/khách; Tràm Chim: thuê tàu 500.000đ (12 km) hoặc 800.000đ (21 km); xe điện Tràm Chim 30.000đ/người",
+   "giay_to": "",
+   "nguon": "nucuoimekong.com, tripi.vn",
+   "phuong_tien": "Xuồng/thuyền tham quan"
+  },
+  {
+   "ghi_chu": "Hợp nhóm 4–7 người đi Tràm Chim — Đồng Sen trong ngày",
+   "gia": "Chưa kiểm được mức riêng tại Đồng Tháp (tham khảo chung miền Tây xe 4 chỗ ~900.000–1.400.000đ/ngày)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày (trong tỉnh)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "sa-dec",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hoa Sa Đéc, xã Tân Quy Đông, TP Sa Đéc (hơn 60 ha, tồn tại hơn 100 năm)",
+   "gia_ve": "Miễn phí vào làng (một số nguồn ghi 20.000–100.000đ/người cho vườn hoa riêng/dịch vụ); xe Jeep, thuê dù, phí vào vườn hoa tính riêng tùy điểm",
+   "gio_mo_cua": "Cả ngày (đẹp nhất đầu tháng Chạp đến 23 tháng Chạp Âm lịch)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "lang-hoa-sa-dec",
+   "lat": 10.30476,
+   "lng": 105.75745,
+   "luu_y": "Tọa độ mức khu vực làng hoa. Đẹp nhất dịp Tết (tháng Chạp); hỏi giá từng vườn trước",
+   "nguon": "nucuoimekong.com, htt-furniture.com, mia.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / dulich9.com / tsttourist.com",
+    "nhan_xet": "Làng hoa Sa Đéc là điểm đẹp nhất Đồng Tháp nếu đi đúng mùa: tháng Chạp hoa rực cả làng, trồng trên giàn cao, thuyền chở hoa trên rạch — cảnh chỉ Sa Đéc mới có. Điểm yếu lớn nhất là lệch mùa thì vườn thưa hoa, nhiều du khách đi tháng thường thất vọng; giá vé mỗi vườn một khác (20.000–100.000đ). Hợp với người thích chụp ảnh, nên đi 15–20 tháng Chạp, tránh sau 23 tháng Chạp."
+   },
+   "ten": "Làng hoa kiểng Sa Đéc",
+   "thoi_gian": "2–3 giờ; đi buổi sáng hoặc chiều mát"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "sa-dec",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "255A Nguyễn Huệ, Phường 2 (một số nguồn ghi Phường 4), TP Sa Đéc",
+   "gia_ve": "20.000đ/người (gồm hướng dẫn viên + nước trà, mứt gừng; một nguồn ghi 30.000đ); ăn trưa/tối 100.000đ/người; nghỉ đêm 550.000–1.000.000đ/đêm",
+   "gio_mo_cua": "7:00–17:00 (một nguồn ghi 8:30–17:30)",
+   "hop_voi": "Người yêu kiến trúc/lịch sử, cặp đôi",
+   "id": "nha-co-huynh-thuy-le",
+   "lat": 10.29405,
+   "lng": 105.76853,
+   "luu_y": "Kiến trúc Đông — Tây cuối thế kỷ 19; chuyện tình trong tiểu thuyết 'Người tình' của Marguerite Duras; có dịch vụ nghỉ đêm tại nhà cổ",
+   "nguon": "htt-furniture.com, mia.vn, tripi.vn, travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / tripi.vn / travelviet.net",
+    "nhan_xet": "Nhà cổ Huỳnh Thủy Lê là điểm văn hóa đáng đi nhất Sa Đéc: kiến trúc Pháp–Hoa độc đáo, lại là bối cảnh tiểu thuyết 'L'Amant' nên có câu chuyện để kể. Điểm mạnh là có hướng dẫn viên và nước trà kèm vé; điểm yếu là giá vé các nguồn ghi 20.000đ vs 30.000đ, giờ mở cửa cũng ghi khác nhau. Hợp với người thích kiến trúc và văn học, nên đi buổi sáng, ghép với làng hoa."
+   },
+   "ten": "Nhà cổ Huỳnh Thủy Lê",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "cao-lanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 đường Phạm Hữu Lầu, Phường 4, TP Cao Lãnh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "lang-nguyen-sinh-sac",
+   "lat": 10.44609,
+   "lng": 105.63037,
+   "luu_y": "Nơi yên nghỉ của thân sinh Chủ tịch Hồ Chí Minh, di tích cấp quốc gia; ăn mặc lịch sự, giữ trang nghiêm",
+   "nguon": "htt-furniture.com, mia.vn, travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / travelviet.net",
+    "nhan_xet": "Lăng cụ Phó bảng Nguyễn Sinh Sắc trang nghiêm, khuôn viên rộng, cây xanh mát — hợp để viếng và tìm hiểu lịch sử, nhưng không có nhiều hoạt động giải trí. Điểm mạnh là miễn phí, không gian yên tĩnh; điểm yếu là giờ mở cửa chưa kiểm được chính thức, khách chỉ thích vui chơi sẽ thấy buồn. Hợp với người thích lịch sử và gia đình có người lớn tuổi, nên đi buổi sáng."
+   },
+   "ten": "Khu di tích Lăng cụ Phó bảng Nguyễn Sinh Sắc",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 48,
+   "cum": "cao-lanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp 4, xã Mỹ Hiệp (nay xã Mỹ Long theo geocode), huyện Cao Lãnh; cách trung tâm Cao Lãnh ~30 km",
+   "gia_ve": "Vào cổng 20.000đ/người lớn, 10.000đ/trẻ em; xuồng chèo trong rừng 15.000đ/khách; xe đạp đôi 20.000đ/chiếc/30 phút",
+   "gio_mo_cua": "7:00–18:00 (theo tripi.vn)",
+   "hop_voi": "Gia đình, nhóm bạn, người thích lịch sử/sinh thái",
+   "id": "xeo-quyt",
+   "lat": 10.3981,
+   "lng": 105.79979,
+   "luu_y": "Rừng tràm + di tích căn cứ kháng chiến; đi xuồng ba lá luồn rừng tràm là trải nghiệm chính; mang thuốc chống muỗi",
+   "nguon": "nucuoimekong.com, htt-furniture.com, mia.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nucuoimekong.com / mia.vn / tripi.vn",
+    "nhan_xet": "Xẻo Quýt là rừng tràm chiến khu cũ, đi xuồng ba lá len lỏi dưới tán tràm rất mát và yên — trải nghiệm khác hẳn Trà Sư vì ít khách và mang màu lịch sử. Điểm mạnh là vé rẻ (vào cổng 20.000đ, xuồng 15.000đ); điểm yếu là quy mô nhỏ hơn Trà Sư, mùa khô nước cạn thì xuồng đi ngắn. Hợp với gia đình và người thích sinh thái nhẹ nhàng, nên đi buổi sáng."
+   },
+   "ten": "Khu du lịch Xẻo Quýt",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "cao-lanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp 6, xã Gáo Giồng, huyện Cao Lãnh (cách trung tâm Cao Lãnh ~17 km); diện tích hơn 2.000 ha rừng tràm",
+   "gia_ve": "10.000–15.000đ/người",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày)",
+   "hop_voi": "Gia đình, nhóm bạn, người thích chim/sinh thái",
+   "id": "gao-giong",
+   "lat": 10.60862,
+   "lng": 105.6278,
+   "luu_y": "Được ví là 'lá phổi xanh'/'Đồng Tháp Mười thu nhỏ'; đi thuyền ngắm chim, ăn món địa phương",
+   "nguon": "htt-furniture.com, travelviet.net, himlamresort.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "travelviet.net / htt-furniture.com",
+    "nhan_xet": "Gáo Giồng rộng hơn 2.000 ha rừng tràm, đi xuồng ngắm chim là trải nghiệm chính — nhưng so với Tràm Chim và Trà Sư thì Gáo Giồng ít được nhắc tới, dịch vụ cũng đơn giản hơn. Điểm mạnh là vé rẻ (10.000–15.000đ), không gian rộng, ít đông; điểm yếu là giờ mở cửa chưa kiểm được chính thức, mùa khô chim ít. Hợp với người thích chim và sinh thái, nên đi sáng sớm mùa nước nổi."
+   },
+   "ten": "Khu du lịch sinh thái Gáo Giồng",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "dong-thap-muoi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khóm 4, thị trấn Tràm Chim, huyện Tam Nông; vùng đất ngập nước Ramsar",
+   "gia_ve": "20.000đ/người (trẻ em dưới 16 tuổi miễn phí); xe điện 30.000đ/người; thuê tàu 500.000đ (tuyến 12 km) hoặc 800.000đ (tuyến 21 km)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày; đi sáng sớm ngắm chim)",
+   "hop_voi": "Người thích chim/thiên nhiên, nhiếp ảnh",
+   "id": "tram-chim",
+   "lat": 10.68466,
+   "lng": 105.55638,
+   "luu_y": "Sếu đầu đỏ về mùa khô (tháng 12–4); mùa nước nổi tháng 9–11 sen súng nở; đi tàu phải đặt/đi theo đoàn, hỏi giá trước",
+   "nguon": "nucuoimekong.com, htt-furniture.com, mia.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nucuoimekong.com / mia.vn",
+    "nhan_xet": "Tràm Chim là vườn quốc gia Ramsar, mùa sếu đầu đỏ (tháng 12–4) là thời điểm vàng — nhưng sếu về ít và không phải ngày nào cũng thấy, nhiều du khách đi lệch mùa chỉ thấy đồng nước mênh mông. Điểm mạnh là hệ sinh thái đặc sắc, đi tàu ngắm chim buổi sáng rất đáng; điểm yếu là vé tàu 500.000–800.000đ/chuyến khá cao nếu đi ít người. Hợp với người thích chim và nhiếp ảnh, nên đi sáng sớm, ghép đoàn để chia tiền tàu."
+   },
+   "ten": "Vườn quốc gia Tràm Chim",
+   "thoi_gian": "Nửa ngày (3–4 giờ)"
+  },
+  {
+   "cach_trung_tam_km": 38,
+   "cum": "dong-thap-muoi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1, ấp 1, xã Tân Kiều, huyện Tháp Mười; ~11 ha ao hồ sen; cách trung tâm ~39 km (theo mia.vn)",
+   "gia_ve": "20.000đ/ngày thường, 30.000đ/ngày cuối tuần (thứ 6–Chủ nhật)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày)",
+   "hop_voi": "Cặp đôi, gia đình, người thích chụp ảnh",
+   "id": "dong-sen-thap-muoi",
+   "lat": 10.60289,
+   "lng": 105.8208,
+   "luu_y": "Tọa độ mức khu vực. Sen nở rộ tháng 5–6 (một nguồn ghi mùa sen tháng 8–1 — mâu thuẫn); có món cá lóc nướng, gỏi bông súng tại chỗ",
+   "nguon": "htt-furniture.com, mia.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / htt-furniture.com",
+    "nhan_xet": "Đồng Sen Tháp Mười đẹp nhất mùa sen nở (tháng 5–6): ao sen rộng, chụp ảnh áo dài/bà ba rất ăn. Điểm yếu là mùa sen các nguồn ghi mâu thuẫn (tháng 5–6 vs tháng 8–1), đi lệch mùa thì ao sen thưa, kém đẹp. Điểm mạnh là vé rẻ (20.000–30.000đ), gần Gò Tháp; điểm yếu là dịch vụ ăn uống trong khu còn đơn giản. Hợp với người thích chụp ảnh, nên kiểm mùa sen trước khi đi."
+   },
+   "ten": "Khu du lịch sinh thái Đồng Sen Tháp Mười",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "dong-thap-muoi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mỹ Hòa và Tân Kiều, huyện Tháp Mười",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày)",
+   "hop_voi": "Người thích lịch sử/tâm linh, khảo cổ",
+   "id": "go-thap",
+   "lat": 10.583,
+   "lng": 105.8,
+   "luu_y": "Quần thể tháp chùa, bia đá, tượng Phật, hầm mộ cổ; đi cùng cung Đồng Sen Tháp Mười Tọa độ xấp xỉ theo tọa độ công bố (10,583°B 105,8°Đ), cần kiểm lại.",
+   "nguon": "mia.vn, htt-furniture.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichbinhminh.com",
+    "nhan_xet": "Gò Tháp là di tích quốc gia đặc biệt gắn với văn hóa Óc Eo và Thiên Hộ Dương — giá trị lịch sử sâu, nhưng cảnh quan là gò đất và đền thờ, không hoành tráng về thị giác. Điểm mạnh là miễn phí, yên tĩnh, hợp tìm hiểu lịch sử; điểm yếu là ít biển chỉ dẫn và dịch vụ, khách chỉ thích check-in sẽ thấy nhạt. Hợp với người thích khảo cổ và lịch sử, nên đi buổi sáng, ghép với Đồng Sen."
+   },
+   "ten": "Khu di tích Gò Tháp",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 23,
+   "cum": "lai-vung-lap-vo",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vườn quýt hồng Hai Kiệt — 1068a Long Khánh A, Long Hậu, huyện Lai Vung",
+   "gia_ve": "Chưa kiểm được vé vào vườn riêng (ăn tại vườn/mua mang về tính theo giá thị trường)",
+   "gio_mo_cua": "Ban ngày (mùa quýt chín rộ dịp Tết)",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "vuon-quyt-hong-lai-vung",
+   "lat": 10.26871,
+   "lng": 105.6159,
+   "luu_y": "Quýt hồng là đặc sản Lai Vung; đi đúng mùa quýt chín mới đẹp; hỏi giá vào vườn + giá quýt trước",
+   "nguon": "ecolotus.vn, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ecolotus.vn / tadiha.com / dulich9.com",
+    "nhan_xet": "Vườn quýt hồng Lai Vung đáng đi nhất dịp Tết: quýt chín đỏ rực cả vườn, ăn tại chỗ và mua mang về đều ngon. Điểm mạnh là quýt hồng là đặc sản đúng gốc, giá theo mùa hợp lý; điểm yếu là ngoài mùa quýt thì vườn chỉ còn cây xanh, vé vào vườn riêng chưa kiểm được mức. Hợp với gia đình dịp Tết, nên đi tháng Chạp, hỏi giá trước khi hái."
+   },
+   "ten": "Vườn quýt hồng Lai Vung",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 28,
+   "cum": "lai-vung-lap-vo",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Định Yên, huyện Lấp Vò",
+   "gia_ve": "Miễn phí vào chợ (mua chiếu tính riêng)",
+   "gio_mo_cua": "Chợ họp ban ngày; chợ đêm chiếu có phiên riêng (chưa kiểm được lịch chính xác)",
+   "hop_voi": "Người thích làng nghề, mua đặc sản làm quà",
+   "id": "cho-chieu-dinh-yen",
+   "lat": 10.3079,
+   "lng": 105.53605,
+   "luu_y": "Làng nghề dệt chiếu truyền thống hơn 100 năm; mua chiếu trực tiếp tại chợ/làng",
+   "nguon": "mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn",
+    "nhan_xet": "Chợ chiếu Định Yên là chợ làng nghề độc đáo: chiếu thủ công, phiên chợ đêm có đốt đèn — nhưng chợ họp không phải ngày nào cũng đông, đi lệch phiên thì chỉ còn vài sạp. Điểm mạnh là miễn phí, mua chiếu tận gốc rẻ; điểm yếu là lịch chợ đêm chưa kiểm được chính xác, ít thông tin cập nhật. Hợp với người thích làng nghề, nên hỏi lịch phiên chợ trước khi đi."
+   },
+   "ten": "Chợ chiếu Định Yên",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "tien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Cái Bè, huyện Cái Bè (khu vực Tiền Giang cũ, nay thuộc tỉnh Đồng Tháp mới); bến đò đường Trưng Nữ Vương",
+   "gia_ve": "Miễn phí vào chợ; thuê ghe tham quan hỏi giá trước (chưa kiểm được mức riêng)",
+   "gio_mo_cua": "Nhộn nhịp 5:00–8:00 sáng",
+   "hop_voi": "Mọi đối tượng, người thích chợ nổi",
+   "id": "cho-noi-cai-be",
+   "lat": 10.32895,
+   "lng": 106.03384,
+   "luu_y": "Thuộc khu vực Tiền Giang cũ, cùng cụm sông Tiền với Sa Đéc, cách Sa Đéc ~35 km. Nhỏ và yên hơn Cái Răng, còn giữ nét chợ đầu mối trái cây. Phải đi sớm, sau 8h chợ vãn.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Cái Bè là chợ nổi 'thật' hơn Cái Răng: ít khách du lịch, ghe hàng vẫn buôn bán đúng nghĩa chứ không phải diễn cho khách xem. Điểm mạnh là không khí chân chất và trái cây đầu mối rẻ; điểm yếu là quy mô nhỏ, đi muộn là hết chợ, dịch vụ ăn uống trên ghe ít hơn Cái Răng. Hợp với người đã đi Cái Răng và muốn thấy chợ nổi còn nguyên bản, nên đi 5–7h sáng."
+   },
+   "ten": "Chợ nổi Cái Bè",
+   "thoi_gian": "1,5–2 giờ buổi sáng"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "tien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mỹ Phong, TP Mỹ Tho (khu vực Tiền Giang cũ, nay thuộc tỉnh Đồng Tháp mới)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng, người thích kiến trúc chùa",
+   "id": "chua-vinh-trang",
+   "lat": 10.36235,
+   "lng": 106.37349,
+   "luu_y": "Thuộc khu vực Tiền Giang cũ. Chùa cổ nổi tiếng nhất Tiền Giang, kiến trúc pha Á–Âu độc đáo, tượng Phật lớn. Đi cùng cụm Mỹ Tho với Cồn Thới Sơn trong ngày.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Vĩnh Tràng là ngôi chùa đẹp nhất vùng này nếu xét kiến trúc: cổng tam quan, tượng Phật, chạm khắc pha Việt–Hoa–Khmer–Pháp, chụp góc nào cũng ra ảnh. Điểm mạnh là miễn phí, khuôn viên rộng, mát; điểm yếu là khách đoàn đông, giờ cao điểm ồn và khó chụp ảnh vắng người. Hợp với mọi đối tượng, nên đi sáng sớm hoặc chiều muộn, ghép với Cồn Thới Sơn."
+   },
+   "ten": "Chùa Vĩnh Tràng",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "tien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thới Sơn, TP Mỹ Tho (khu vực Tiền Giang cũ, nay thuộc tỉnh Đồng Tháp mới); đi đò từ bến Mỹ Tho",
+   "gia_ve": "Chưa kiểm được giá vé riêng (đi tour ghép từ bến Mỹ Tho, hỏi giá trước)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "con-thoi-son",
+   "lat": 10.34029,
+   "lng": 106.31306,
+   "luu_y": "Thuộc khu vực Tiền Giang cũ. Cồn lớn nhất trong 4 cồn sông Tiền (Long–Lân–Quy–Phụng), vườn trái cây, đờn ca tài tử. Đi cùng cụm với Chùa Vĩnh Tràng và Cồn Phụng (Vĩnh Long) qua sông Tiền.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Thới Sơn là cồn 'quốc dân' của tour miền Tây: vườn trái cây, nghe đờn ca tài tử, ăn trái cây tại vườn — mọi thứ đều có, nhưng cũng vì thế mà cảm giác thương mại rõ nhất trong các cồn. Điểm mạnh là tiện, đi từ Mỹ Tho chỉ mất ít phút đò, phù hợp gia đình có người lớn tuổi; điểm yếu là đông khách đoàn, các điểm dừng na ná nhau. Hợp với khách lần đầu đi miền Tây, nên đi tour buổi sáng, tránh giờ trưa."
+   },
+   "ten": "Cồn Thới Sơn",
+   "thoi_gian": "2–3 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Làng hoa kiểng Sa Đéc",
+   "gio": "6:00-8:00 sáng, ánh sáng mềm trên vườn hoa",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Vườn quốc gia Tràm Chim",
+   "gio": "6:00-8:00 sáng chim hoạt động hoặc 16:30-18:00 chiều chim bay về tổ",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Khu du lịch sinh thái Đồng Sen Tháp Mười",
+   "gio": "7:00-9:00 sáng hoặc 16:00-17:30 chiều, sen nở đẹp, ánh sáng vàng",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào nhà cổ Huỳnh Thủy Lê và lăng cụ Phó bảng — tránh Tràm Chim, Gáo Giồng vì toàn xuồng ngoài trời.",
+  "diem": [
+   "Nhà cổ Huỳnh Thủy Lê",
+   "Khu di tích Lăng cụ Phó bảng Nguyễn Sinh Sắc",
+   "Chùa Vĩnh Tràng",
+   "Chợ chiếu Định Yên"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "lang-hoa-sa-dec",
+    "hoat_dong": "Làng hoa kiểng Sa Đéc (2–3 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Trưa",
+    "gan": "",
+    "hoat_dong": "Hủ tiếu Sa Đéc (Bà Sẩm) + bánh tằm bì Chú Dũng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "nha-co-huynh-thuy-le",
+    "hoat_dong": "Nhà cổ Huỳnh Thủy Lê (45–60 phút) + dạo chợ Sa Đéc mua nem Lai Vung, bánh phồng tôm Sa Giang",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Vịt nướng Sa Đéc (A Tài)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-nguyen-sinh-sac",
+    "hoat_dong": "Lăng cụ Phó bảng Nguyễn Sinh Sắc (1–1,5 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "xeo-quyt",
+    "hoat_dong": "Khu du lịch Xẻo Quýt (2–3 giờ, xuồng ba lá)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "gao-giong",
+    "hoat_dong": "Gáo Giồng (2–3 giờ, ngắm chim) hoặc về Cao Lãnh ăn lẩu cá linh",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Nghỉ Cao Lãnh",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "tram-chim",
+    "hoat_dong": "Vườn quốc gia Tràm Chim (nửa ngày, đi tàu)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "dong-sen-thap-muoi, go-thap",
+    "hoat_dong": "Đồng Sen Tháp Mười + Gò Tháp, về Sa Đéc trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Sa Đéc",
+  "best_season": "Tháng 9–11 (mùa nước nổi: Tràm Chim, Xẻo Quýt đẹp nhất); tháng Chạp Âm lịch (làng hoa Sa Đéc rực rỡ đón Tết); sếu đầu đỏ về Tràm Chim tháng 12–4; sen nở tháng 5–6",
+  "destination": "Đồng Tháp",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "dong-thap",
+  "lat": 10.31451,
+  "lng": 105.74633,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "nucuoimekong.com",
+   "htt-furniture.com",
+   "mia.vn",
+   "tripi.vn",
+   "fptshop.com.vn",
+   "ecolotus.vn",
+   "nemtv.vn",
+   "bachhoaxanh.com",
+   "tadiha.com",
+   "travelviet.net",
+   "traveloka.com",
+   "motogo.vn",
+   "vungtautourism.com",
+   "vietfuntravel.com.vn",
+   "limody.vn",
+   "vexesapa.vn",
+   "dulich9.com",
+   "tsttourist.com",
+   "dulichbinhminh.com"
+  ],
+  "province": "Đồng Tháp (tỉnh mới sau sáp nhập 01/07/2025: Đồng Tháp + Tiền Giang; đợt 06/11/2026 đã thêm 3 điểm khu vực Tiền Giang cũ)",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "sông nước",
+   "hoa",
+   "sinh thái",
+   "lịch sử"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 9–11 (mùa nước nổi: Tràm Chim, Xẻo Quýt đẹp nhất); tháng Chạp Âm lịch (làng hoa Sa Đéc rực rỡ đón Tết); sếu đầu đỏ về Tràm Chim tháng 12–4; sen nở tháng 5–6"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

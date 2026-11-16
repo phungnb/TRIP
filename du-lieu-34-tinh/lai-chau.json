@@ -1,0 +1,949 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng — hỏi giá trước khi gọi (tính theo con, tùy loại cá)",
+   "mon": "Pa pỉnh tộp (cá suối nướng)",
+   "nguon": "topz.com.vn, efly.vn, latravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topz.com.vn, efly.vn, latravel.com.vn",
+    "nhan_xet": "Món signature của Lai Châu — cá suối nướng mắc khén, thơm và lạ miệng, ai đến cũng nên thử một lần. Điểm trừ là giá tính theo con, không có mức chung nên dễ bị hét giá nếu không hỏi trước. Ăn theo nhóm sẽ hợp lý hơn gọi lẻ."
+   },
+   "quan": [
+    {
+     "dia_chi": "27 Trần Hưng Đạo, phường Đoàn Kết, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Thanh Sơn"
+    },
+    {
+     "dia_chi": "305 Trần Hưng Đạo, phường Đoàn Kết, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn Điểm Hẹn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–50.000đ/phần",
+   "mon": "Xôi tím",
+   "nguon": "topz.com.vn, efly.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topz.com.vn, efly.vn",
+    "nhan_xet": "Dẻo, thơm, màu tím tự nhiên từ lá cẩm — món ăn sáng rẻ và dễ tìm khắp TP Lai Châu. Điểm yếu là chất lượng tùy quán, có quán nấu khô. Hợp ăn sáng nhanh trước khi lên đường."
+   },
+   "quan": [
+    {
+     "dia_chi": "249 Trần Phú, TP Lai Châu",
+     "gia": "20.000–50.000đ/phần",
+     "ten": "Quán ăn Thanh Hồng"
+    },
+    {
+     "dia_chi": "154 Nguyễn Trãi, TP Lai Châu",
+     "gia": "50.000–100.000đ/phần",
+     "ten": "Nhà hàng Tình ca Tây Bắc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng — hỏi giá trước khi gọi",
+   "mon": "Lợn cắp nách",
+   "nguon": "efly.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; efly.vn, tripi.vn",
+    "nhan_xet": "Thịt chắc, thơm, nướng hoặc hấp đều ngon — món nhóm được nhiều du khách khen. Điểm trừ là giá không niêm yết, phải hỏi trước khi gọi. Hợp bữa tối ở homestay hoặc nhà hàng theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 58, phường Đoàn Kết, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Mộc quán"
+    },
+    {
+     "dia_chi": "305 Trần Hưng Đạo, phường Đoàn Kết, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn Điểm Hẹn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng — hỏi giá trước khi gọi",
+   "mon": "Gà Tây Bắc (gà bản nướng/luộc)",
+   "nguon": "efly.vn, latravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; efly.vn, latravel.com.vn",
+    "nhan_xet": "Gà bản thả đồi, thịt dai ngọt, nướng mắc khén rất hợp khẩu vị miền núi. Điểm yếu là giá theo con và tùy quán, không có mức chung. Nên đặt trước ở homestay để được giá rõ ràng."
+   },
+   "quan": [
+    {
+     "dia_chi": "7 Trần Phú, phường Tân Phong, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Gà Tây Bắc Lai Châu"
+    },
+    {
+     "dia_chi": "7 Trần Phú, phường Tân Phong, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Tùng Tám Tám"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Lẩu cá hồi / cá hồi",
+   "nguon": "tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; tripi.vn",
+    "nhan_xet": "Cá hồi nuôi ở vùng lạnh Ô Quy Hồ nên tươi, lẩu ăn ấm người sau một ngày đi đèo. Điểm trừ là giá chưa kiểm được và cá hồi ở đây không rẻ. Hợp nhóm 4–6 người ăn tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "25 Đường Bờ Hồ Thủy Sơn, phường Tân Phong, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Cánh Cọ Vàng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Thắng cố",
+   "nguon": "tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; tripi.vn",
+    "nhan_xet": "Món truyền thống của người Mông, vị đậm và lạ — đáng thử cho ai muốn hiểu ẩm thực bản địa. Điểm yếu là mùi nội tạng nặng, nhiều người ăn lần đầu không hợp. Chỉ hợp người ăn được nội tạng; ai kén mùi nên bỏ qua."
+   },
+   "quan": [
+    {
+     "dia_chi": "181 Nguyễn Hữu Thọ, phường Đông Phong, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Huy Râu"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–100.000đ/phần (theo 1 nguồn)",
+   "mon": "Cơm lam",
+   "nguon": "topz.com.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topz.com.vn, tripi.vn",
+    "nhan_xet": "Thơm mùi tre nứa, dẻo, ăn kèm thịt nướng rất hợp — dễ mua, dễ mang theo khi trekking. Điểm yếu là có quán làm khô, cứng. Nên mua ở nhà hàng lớn hoặc homestay thay vì hàng rong."
+   },
+   "quan": [
+    {
+     "dia_chi": "154 Nguyễn Trãi, TP Lai Châu",
+     "gia": "50.000–100.000đ/phần",
+     "ten": "Nhà hàng Tình ca Tây Bắc"
+    },
+    {
+     "dia_chi": "25 Đường Bờ Hồ Thủy Sơn, phường Tân Phong, TP Lai Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Cánh Cọ Vàng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/phần (mức chung bữa sáng, chưa kiểm được quán riêng)",
+   "mon": "Bánh cuốn / phở / xôi (ăn sáng)",
+   "nguon": "tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; tripi.vn",
+    "nhan_xet": "Bữa sáng quen thuộc, rẻ, ở đâu cũng có — an toàn cho người không ăn được đồ lạ. Điểm yếu là không có gì đặc sắc riêng của Lai Châu. Hợp bữa sáng nhanh trước giờ khởi hành."
+   },
+   "quan": [
+    {
+     "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Cơm bình dân Lệ Thủy"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–HAN khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+  },
+  {
+   "hang_muc": "Xe HN–Lai Châu khứ hồi",
+   "uoc_tinh": "500.000–900.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng, TP + 1 đêm homestay bản)",
+   "uoc_tinh": "300.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (cầu kính là khoản lớn nhất)",
+   "uoc_tinh": "100.000–600.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày / thuê ô tô theo ngày",
+   "uoc_tinh": "300.000–1.000.000đ (chưa kiểm được giá thuê ô tô)"
+  },
+  {
+   "hang_muc": "Phát sinh (taxi, xe ôm, mua đặc sản)",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.750.000–9.000.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+   "uoc_tinh": "Trừ ~2.000.000–5.000.000đ tiền bay; tổng còn ~1.750.000–4.000.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá nhiều sạp, mặc cả trước khi mua; kiểm hàng kỹ, ưu tiên mua ở cửa hàng/hợp tác xã có bảng giá",
+   "nguon": "kinh nghiệm chung du lịch Lai Châu; chưa tra được bài báo chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ phiên Sìn Hồ, chợ đêm San Thàng: giá nói thách với khách lạ, hàng thổ cẩm may sẵn gắn mác thủ công"
+  },
+  {
+   "cach_tranh": "Thuê xe số ở cửa hàng/homestay uy tín; kiểm tra phanh/lốp/đèn, chụp ảnh vết xước trước khi nhận; hỏi rõ cọc và phạm vi đi",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy ở TP Lai Châu đi Sìn Hồ, Ô Quy Hồ: giữ giấy tờ gốc, xe yếu leo đèo; trả xe bị bắt đền vết xước"
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá vé và các khoản thu thêm ngay tại quầy vé trước khi mua; giữ vé và hóa đơn",
+   "nguon": "dữ liệu tỉnh Lai Châu (giá vé chưa thống nhất giữa các nguồn, ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Cầu kính Rồng Mây (đỉnh Ô Quy Hồ): giá vé 500.000đ NL / 300.000đ TE, phụ thu trò chơi, chụp ảnh"
+  },
+  {
+   "cach_tranh": "Nhắn hỏi chủ nhà về đường vào (ô tô hay chỉ xe máy), phí đưa đón và tiện nghi thật trước khi đặt; đọc đánh giá gần nhất",
+   "nguon": "kinh nghiệm chung du lịch Lai Châu; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay bản Sin Suối Hồ, bản Vàng Pha: đặt online khác ảnh thật, đường vào khó, phụ thu đưa đón"
+  }
+ ],
+ "checklist": [
+  "Áo khoác ấm (đèo Ô Quy Hồ trên 2.000 m, lạnh và gió mạnh)",
+  "Áo mưa mỏng, giày leo núi/đi bộ (đường hang, thác trơn)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (chợ đêm, bản làng, quán nhỏ)",
+  "Sạc dự phòng, thuốc cơ bản, thuốc chống say xe (đường đèo dài)",
+  "Kem chống nắng, mũ",
+  "Hỏi giá trước khi gọi món/thuê xe; kiểm tra cầu kính Rồng Mây có mở cửa không trước ngày đi"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Homestay Nhà tổ chim (The Birdhouse Bungalow)"
+  ],
+  "diem": [
+   "Bản Sin Suối Hồ",
+   "Thác Tác Tình",
+   "Cánh đồng Mường Than (Than Uyên)",
+   "Cao nguyên Sìn Hồ"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn Mường Thanh Lai Châu",
+   "Hoàng Nhâm Luxury Hotel",
+   "Khách sạn Putaleng"
+  ],
+  "diem_chay": [
+   "Quảng trường Nhân dân tỉnh Lai Châu (điểm xuất phát marathon) buổi sáng sớm",
+   "Đường ven bản Sin Suối Hồ",
+   "Đường quanh chợ đêm San Thàng buổi tối"
+  ],
+  "giai": [
+   {
+    "nguon": "baolaichau.vn — Báo Lai Châu; baophapluat.vn — Lai Châu điều chỉnh thời gian tổ chức Giải Marathon lần thứ III năm 2026 (ngày kiểm 08/11/2026)",
+    "ten": "Giải Marathon tỉnh Lai Châu (Lời gọi đại ngàn, bước chân khát vọng) lần thứ III",
+    "thoi_gian": "tháng 11 hằng năm (2026: 15/11, cự ly 3/5/10/21/42 km, xuất phát Quảng trường Nhân dân tỉnh Lai Châu)"
+   }
+  ],
+  "nguon": "baolaichau.vn; baophapluat.vn (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Lai Châu (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Lê Duẩn, phường Tân Phong, TP Lai Châu",
+   "dien_thoai": "0213 3790 888",
+   "gia": "~600.000–1.200.000đ/đêm (có nguồn ghi từ 700.000đ/đêm)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Gia đình, khách muốn tiện nghi ngay trung tâm",
+   "khu_vuc": "trung-tam",
+   "nguon": "bibuvivu.com, nvktravel.com, tadiha.com",
+   "nguon_dien_thoai": "cẩm nang Sở KH&ĐT Lai Châu (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Mường Thanh Lai Châu",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0213 6269 999",
+   "gia": "~800.000–1.200.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách muốn ở trung tâm, tiện nghi cao hơn",
+   "khu_vuc": "trung-tam",
+   "nguon": "bibuvivu.com, taybac.tv",
+   "nguon_dien_thoai": "sổ tay Viettel Y-FEST 2026 của UBND tỉnh Lai Châu (ngày kiểm 08/11/2026)",
+   "ten": "Hoàng Nhâm Luxury Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0948 382 263",
+   "gia": "~200.000–400.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "bibuvivu.com, phunutoday.vn",
+   "nguon_dien_thoai": "limoutrip.com, mytour.vn, toplist.vn, tripi.vn, hesinhthaidoanhnghiep.com, edmsolutions.co (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Minh Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0984 948 297",
+   "gia": "~200.000–400.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "bibuvivu.com",
+   "nguon_dien_thoai": "limoutrip.com, mytour.vn, toplist.vn, tripi.vn, kinhnghiemdulich.vn, edmsolutions.co (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Putaleng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0914 522 122",
+   "gia": "~200.000–400.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "bibuvivu.com",
+   "nguon_dien_thoai": "kinhnghiemdulich.vn, alobus.com, idulich.vn, kenhhomestay.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Bình Long",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lai Châu ~30 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Sin Suối Hồ, xã Sin Suối Hồ, Phong Thổ",
+   "dien_thoai": "0982 394 333",
+   "gia": "~400.000–500.000đ/đêm/phòng (có nguồn ghi 475.000đ/đêm)",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn, gia đình muốn ngủ bản",
+   "khu_vuc": "sin-suoi-ho",
+   "nguon": "motogo.vn, travelviet.net, crystalbay.com",
+   "nguon_dien_thoai": "tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Vàng A Chỉnh Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lai Châu ~30 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Sin Suối Hồ, xã Sin Suối Hồ, Phong Thổ",
+   "dien_thoai": "0347 665 311",
+   "gia": "~650.000đ/đêm/phòng (có nguồn ghi ~1.200.000–1.500.000đ/đêm — mâu thuẫn, chưa thống nhất)",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, nhóm bạn, gia đình nghỉ dưỡng yên tĩnh",
+   "khu_vuc": "sin-suoi-ho",
+   "nguon": "motogo.vn, travelviet.net, mytour.vn, tripi.vn, taybac.tv, boki.vn",
+   "nguon_dien_thoai": "travelviet.net, tripi.vn, mytour.vn, taybac.tv, boki.vn đồng thuận (ngày kiểm 16/11/2026)",
+   "ten": "Homestay Nhà tổ chim (The Birdhouse Bungalow)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé cầu kính Rồng Mây đã chốt ngày 16/11/2026: 500.000đ NL / 300.000đ TE; thông tin tạm đóng từ 01/10/2026 (viet-go.com) — bắt buộc kiểm tra lại trước ngày đi",
+  "Giờ mở cửa: hang Pu Sam Cáp, thác Tác Tình, cao nguyên Sìn Hồ, bản Gia Khâu 1 — chưa kiểm được",
+  "Giá vé thác Tác Tình — chưa kiểm được mức hiện hành",
+  "Lịch họp chợ đêm San Thàng và chợ phiên Sìn Hồ — chưa kiểm được chính xác",
+  "Giá thuê xe máy/taxi/thuê ô tô tại Lai Châu — chưa kiểm được mức riêng (chỉ có mặt bằng chung vùng núi, chưa kiểm)",
+  "Giá xe Điện Biên–Lai Châu và khoảng cách TP Lai Châu–sân bay Điện Biên — chưa kiểm được con số chính xác",
+  "Số nhà của Hoàng Nhâm Luxury, Minh Sơn, Putaleng, Bình Long (TP Lai Châu) — chưa kiểm được",
+  "Giá riêng từng món: pa pỉnh tộp, lợn cắp nách, gà Tây Bắc, thắng cố, lẩu cá hồi — chưa kiểm được mức riêng từng quán",
+  "Chi phí trekking Pu Ta Leng (porter, hướng dẫn) — chưa kiểm được mức công khai",
+  "Giá vé máy bay SGN–HAN — chưa kiểm được mức hiện hành, chỉ là khoảng tham khảo chung",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 5 điểm từng null (trong đó 4 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 8 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Ô Quy Hồ phía Lai Châu (QL4D, Tam Đường): dài gần 50 km, cao khoảng 2.000 m, khoảng 30 khúc cua tay áo, dốc 10–15%, sương mù dày sáng sớm và chiều muộn, mùa đông có thể có băng tuyết; đi ban ngày 7:00–16:30, tốc độ dưới 40 km/h khi vào cua/xuống dốc, xuống dốc dùng số thấp hãm bằng động cơ. Đường lên cao nguyên Sìn Hồ: dốc dài, nhiều cua gấp, sương mù dày, đường hẹp — tay lái yếu nên thuê xe có tài xế địa phương, không đi ban đêm. Đường đi Than Uyên, Pu Ta Leng (trekking): dốc đá, trơn mùa mưa tháng 5–9, cần porter/hướng dẫn địa phương khi trekking. Kiểm tra phanh/lốp/đèn, đổ đầy xăng trước khi lên đèo vì gần như không có trạm xăng trên tuyến; mang CCCD/hộ chiếu và giấy tờ xe đầy đủ.",
+  "deo": [
+   "Đèo Ô Quy Hồ phía Lai Châu (QL4D Tam Đường): dài ~50 km, ~30 cua tay áo, dốc 10–15%, sương mù dày, mùa đông có băng tuyết",
+   "Đường lên cao nguyên Sìn Hồ: dốc dài, nhiều cua gấp, sương mù dày, đường hẹp",
+   "Đường đi Than Uyên, Pu Ta Leng: dốc đá, trơn mùa mưa, trekking cần hướng dẫn địa phương"
+  ],
+  "nguon": "visitsapa.com.vn — Kinh nghiệm đi đèo Ô Quy Hồ an toàn cho du khách (ngày kiểm 08/11/2026); dữ liệu tỉnh Lai Châu — Đèo Ô Quy Hồ, Cao nguyên Sìn Hồ (ngày kiểm 06/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Lai Châu không có sân bay. Sân bay gần nhất: Điện Biên (DIN, cách TP Lai Châu khoảng 180–200 km đường bộ QL12, chưa kiểm được con số chính xác) và Nội Bài (HAN). Từ bến xe Lai Châu (phường Tân Phong) vào trung tâm đi taxi/xe ôm, chưa kiểm được giá riêng.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Phúc An, Thế Anh, Ngân Hà, Khánh Thủy, Phong Khánh. Đón tại Bến xe Mỹ Đình; chuyến đầu ~06:30, chuyến cuối ~23:00",
+    "gia": "250.000–450.000đ/chiều (giường nằm 250.000–350.000đ; limousine cabin VIP tới 450.000đ)",
+    "nguon": "motortrip.vn, motogo.vn, limody.vn",
+    "phuong_tien": "Xe khách / giường nằm Hà Nội–Lai Châu",
+    "thoi_gian": "6,5–8 giờ, ~400–489 km"
+   },
+   {
+    "ghi_chu": "Hãng: Thế Anh (cabin VIP 450.000đ), Ngân Hà, Phong Khánh",
+    "gia": "350.000–450.000đ/chiều",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe limousine Hà Nội–Lai Châu",
+    "thoi_gian": "6,5–8 giờ"
+   },
+   {
+    "ghi_chu": "Chỉ hợp khi muốn rút ngắn chặng Hà Nội–Điện Biên bằng bay",
+    "gia": "Bay 900.000–2.700.000đ/chiều đã gồm thuế phí; xe Điện Biên–Lai Châu chưa kiểm được giá",
+    "nguon": "vietjet.net, vietnambooking.com",
+    "phuong_tien": "Máy bay HAN–Điện Biên + xe Điện Biên–Lai Châu",
+    "thoi_gian": "Bay ~55 phút–1h05 + xe ~4–5 giờ"
+   }
+  ],
+  "tu_san_bay": [],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án thực tế nhất hiện nay. Lai Châu không có sân bay; sân bay gần nhất là Điện Biên (DIN), đi đường bộ QL12 ~4–5 giờ (chưa kiểm được con số chính xác)",
+    "gia": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều đã gồm thuế phí (chưa kiểm được mức hiện hành, tùy thời điểm đặt); xe HN–Lai Châu 250.000–450.000đ/chiều",
+    "nguon": "motortrip.vn, motogo.vn",
+    "phuong_tien": "Máy bay SGN–HAN + xe khách Hà Nội–Lai Châu",
+    "thoi_gian": "Bay ~2h05 + xe 6,5–8 giờ"
+   },
+   {
+    "ghi_chu": "Chỉ hợp khi lịch bay thẳng khớp ngày đi; kiểm tra lại lịch bay trước khi chốt",
+    "gia": "Bay SGN–Điện Biên 1.290.000–2.990.000đ/chiều (chưa gồm thuế phí, Vietnam Airlines, khai thác từ 24/12/2025, 3–7 chuyến/tuần); xe Điện Biên–Lai Châu chưa kiểm được giá",
+    "nguon": "atrip.vn, vietnamairlines.com",
+    "phuong_tien": "Máy bay SGN–Điện Biên + xe Điện Biên–Lai Châu",
+    "thoi_gian": "Bay thẳng ~2h10 + xe đường bộ ~4–5 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đường đèo dài, dốc — ưu tiên xe số, kiểm tra phanh/lốp trước khi nhận xe, không đi đèo ban đêm",
+   "gia": "Chưa kiểm được mức riêng tại Lai Châu (mặt bằng chung vùng núi 100.000–180.000đ/ngày — chỉ tham khảo, chưa kiểm)",
+   "giay_to": "CCCD + bằng lái A1; giữ bản photo CCCD",
+   "nguon": "Chưa kiểm được nguồn riêng Lai Châu",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Tay ga leo đèo yếu hơn xe số; chỉ hợp đi trong TP và cung ngắn",
+   "gia": "Chưa kiểm được mức riêng tại Lai Châu",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "Chưa kiểm được nguồn riêng Lai Châu",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trước khi lên xe; số lượng xe ít hơn thành phố lớn",
+   "gia": "Chưa kiểm được mức riêng (đi lại chủ yếu trong TP, quãng ngắn)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lai Châu",
+   "phuong_tien": "Taxi nội thành TP Lai Châu"
+  },
+  {
+   "ghi_chu": "Nên thuê khi đi Sin Suối Hồ, Sìn Hồ, Than Uyên (đường xa, đèo dốc); thỏa thuận rõ lịch trình + giá trọn gói trước ngày đi",
+   "gia": "Chưa kiểm được mức riêng tại Lai Châu",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lai Châu",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Một số bản (Sin Suối Hồ) có thể thuê xe ôm từ chân dốc; hỏi giá trước",
+   "gia": "Chưa kiểm được mức riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lai Châu",
+   "phuong_tien": "Xe ôm / xe trung chuyển tới bản"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "tam-duong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 4D, xã Sơn Bình, Tam Đường (ranh giới Lai Châu – Lào Cai), dài gần 50 km, cao trên 2.000 m",
+   "gia_ve": "Miễn phí (điểm dừng ngắm cảnh ven đường)",
+   "gio_mo_cua": "24/7 (đường quốc lộ)",
+   "hop_voi": "Mọi đối tượng (đi xe qua đèo), người thích săn mây",
+   "id": "deo-o-quy-ho",
+   "lat": 22.36331,
+   "lng": 103.76311,
+   "luu_y": "Đèo dài, vực sâu, mây phủ quanh năm — không dừng xe giữa cua khuất, không đi đèo ban đêm khi mưa/sương dày",
+   "nguon": "booking.muongthanh.com, dulichviet.com.vn, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; booking.muongthanh.com, dulichviet.com.vn, ecotour.com.vn",
+    "nhan_xet": "Một trong tứ đại đỉnh đèo, cảnh xứng đáng với danh tiếng — biển mây buổi sáng và hoàng hôn đều đẹp. Điểm trừ là đèo đông xe lớn, dừng ngắm cảnh phải chọn đúng điểm dừng an toàn. Hợp nhất với người đi xe máy vững tay hoặc thuê ô tô có tài xế, tránh đi đèo ban đêm khi sương dày."
+   },
+   "ten": "Đèo Ô Quy Hồ (đèo Hoàng Liên Sơn)",
+   "thoi_gian": "1–2 giờ dừng ngắm cảnh; đẹp nhất sáng sớm săn mây"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "tam-duong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 4D, xã Sơn Bình, Tam Đường, trên đỉnh đèo Ô Quy Hồ",
+   "gia_ve": "500.000đ/người lớn, 300.000đ/trẻ em (1–1,4 m), dưới 1 m miễn phí; trò chơi riêng ~150.000đ/trò",
+   "gio_mo_cua": "7:00–17:30",
+   "hop_voi": "Người thích trải nghiệm mạo hiểm nhẹ, ngắm mây",
+   "id": "cau-kinh-rong-may",
+   "lat": 22.37242,
+   "lng": 103.75757,
+   "luu_y": "CẬP NHẬT 06/11/2026: khu du lịch đã hoạt động trở lại từ 01/10/2026 theo văn bản ngày 26/9/2026 của Công ty CP Tập đoàn Hoàng Liên Sơn (dự án liền kề Vườn Địa Đàng tạm dừng thi công; quyết định ghi rõ hoạt động 'cho đến khi có chỉ đạo mới') — vẫn BẮT BUỘC kiểm tra lại trước ngày đi. Có nguồn ghi tạm đóng từ 01/10/2026 — BẮT BUỘC kiểm tra lại trước ngày đi. Không hợp người sợ độ cao, yếu tim. Trò chơi riêng (zipline...) thu thêm ~150.000đ/trò",
+   "nguon": "junglebosstours.com, viet-go.com, ecotour.com.vn, divui.com, traveloka.com, asiamystika.com, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Báo Tiền Phong / Báo Hải Phòng 26/09/2026; thuonghieuvaphapluat.vn",
+    "nhan_xet": "Trải nghiệm độc nhất ở độ cao 2.200 m, view mây và đèo Ô Quy Hồ rất đáng tiền nếu trời quang. Điểm trừ lớn là giá vé cao (500.000đ/người lớn), lại từng suýt đóng cửa. Cập nhật 06/11/2026: khu du lịch đã hoạt động trở lại từ 01/10/2026 theo văn bản ngày 26/9/2026 của Tập đoàn Hoàng Liên Sơn — nhưng vẫn nên gọi xác nhận trước ngày đi vì quyết định mở lại ghi rõ 'cho đến khi có chỉ đạo mới'."
+   },
+   "ten": "Cầu kính Rồng Mây",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Đoàn Kết, TP Lai Châu (dưới chân núi Pu Sam Cáp, cao ~1.700 m)",
+   "gia_ve": "30.000đ/người (Cổng du lịch Lai Châu niêm yết khi tra 12/10/2026, chưa nêu thời điểm hiệu lực)",
+   "gio_mo_cua": "Chưa kiểm được giờ mở cửa",
+   "hop_voi": "Gia đình, nhóm bạn, người thích hang động",
+   "id": "pu-sam-cap",
+   "lat": 22.38584,
+   "lng": 103.41014,
+   "luu_y": "Hơn 10 hang lớn nhỏ; chỉ 3 hang tiêu biểu (Thiên Môn, Thiên Đường, Thủy Tinh) được nhắc nhiều — động Thủy Tinh địa hình hiểm trở, chưa khám phá nhiều, không tự ý vào khu chưa mở Tọa độ theo mã plus code Google Maps 7PJ59CP6+83J (đường Bế Văn Đàn, Nậm Loỏng).",
+   "nguon": "dulichviet.com.vn, booking.muongthanh.com, laichau.gov.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps (4.2/5); tours.aegeanair.com, mytour.vn, autourasia.fr",
+    "nhan_xet": "Hang đẹp và hoang sơ thật, thạch nhũ lớn, mát lạnh quanh năm — du khách quốc tế khen là điểm nhấn của Lai Châu, có tour chấm 4.9/5 (chỉ 7 đánh giá nên chưa đủ tin). Điểm yếu là đường vào dốc, tối, phải leo nhiều và động Thủy Tinh chưa khai thác an toàn. Chỉ hợp người khỏe, đi giày chắc; không hợp người sợ tối, sợ độ cao."
+   },
+   "ten": "Quần thể hang Pu Sam Cáp",
+   "thoi_gian": "1,5–2,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "phong-tho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Sin Suối Hồ, Phong Thổ, dưới chân núi Sơn Bạc Mây, cao ~1.500 m",
+   "gia_ve": "Vé vào bản 20.000đ/người lớn, trẻ em dưới 1 m miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức (ban ngày)",
+   "hop_voi": "Gia đình, nhóm bạn, người thích văn hóa bản địa",
+   "id": "sin-suoi-ho",
+   "lat": 22.51196,
+   "lng": 103.53316,
+   "luu_y": "Bản du lịch cộng đồng người Mông; chợ phiên cuối tuần; homestay bình quân 70.000–100.000đ/người/đêm. Đường lên bản dốc, đi xe tốt",
+   "nguon": "dulich.pro.vn, phanvantravel.com, bibuvivu.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulich.pro.vn, phanvantravel.com, bibuvivu.com",
+    "nhan_xet": "Bản Mông đẹp và sạch, homestay làm du lịch cộng đồng khá chỉn chu, săn mây buổi sớm rất đáng dậy sớm. Điểm trừ là đường lên dốc, xe yếu khó đi, cuối tuần có thể đông. Hợp gia đình và nhóm bạn muốn ngủ bản một đêm, không hợp người chỉ ghé vội trong ngày."
+   },
+   "ten": "Bản Sin Suối Hồ",
+   "thoi_gian": "Nửa ngày (nên ngủ lại 1 đêm)"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "tam-duong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hồ Thầu, Tam Đường",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ mở cửa",
+   "hop_voi": "Nhóm bạn, gia đình, người thích chụp ảnh",
+   "id": "thac-tac-tinh",
+   "lat": 22.34438,
+   "lng": 103.61138,
+   "luu_y": "Nước thác thay đổi theo mùa mưa/khô; đường vào có đoạn dốc, trơn khi mưa",
+   "nguon": "ecotour.com.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; ecotour.com.vn, dulichviet.com.vn",
+    "nhan_xet": "Thác đẹp, hoang sơ, ít người — hợp chụp ảnh và nghỉ chân trên cung Ô Quy Hồ. Điểm yếu là nước thất thường theo mùa, mùa khô ít nước, đường vào trơn khi mưa. Nên đi mùa mưa (tháng 5–9) nếu muốn thác nhiều nước."
+   },
+   "ten": "Thác Tác Tình",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "sin-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Sìn Hồ, Sìn Hồ",
+   "gia_ve": "Miễn phí tham quan khu vực chung",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người thích săn mây, chợ phiên vùng cao",
+   "id": "cao-nguyen-sin-ho",
+   "lat": 22.35951,
+   "lng": 103.25073,
+   "luu_y": "Được ví là 'Sa Pa thứ hai'; chợ phiên Sìn Hồ họp cuối tuần (cần xác nhận lại lịch họp). Đường từ TP Lai Châu lên Sìn Hồ quanh co, ~60 km Tọa độ xấp xỉ, cần kiểm lại — lấy theo trung tâm thị trấn Sìn Hồ.",
+   "nguon": "booking.muongthanh.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; booking.muongthanh.com, ecotour.com.vn",
+    "nhan_xet": "Được ví là 'Sa Pa thứ hai' nhưng thực tế còn rất hoang sơ, ít dịch vụ — đó vừa là điểm mạnh (yên tĩnh, chợ phiên đậm chất vùng cao) vừa là điểm yếu (đi lại, ăn ở phải tự lo). Hợp người thích khám phá chậm và săn mây; không hợp lịch trình gấp hoặc người cần tiện nghi."
+   },
+   "ten": "Cao nguyên Sìn Hồ",
+   "thoi_gian": "Nửa ngày (tính cả di chuyển)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã San Thàng, TP Lai Châu",
+   "gia_ve": "Miễn phí vào chợ; đồ ăn vặt 10.000–30.000đ/món (chưa kiểm được mức riêng từng quầy)",
+   "gio_mo_cua": "Tối thứ Sáu–thứ Bảy (theo nhiều nguồn — cần xác nhận lại lịch họp)",
+   "hop_voi": "Mọi đối tượng, người thích ẩm thực đường phố",
+   "id": "cho-dem-san-thang",
+   "lat": 22.39146,
+   "lng": 103.51064,
+   "luu_y": "Mang tiền mặt lẻ; hỏi giá trước khi gọi món/mua đồ",
+   "nguon": "nvktravel.com, laichau.gov.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nvktravel.com, laichau.gov.vn",
+    "nhan_xet": "Chợ đêm vui, đồ ăn vặt rẻ, không khí địa phương thật — đáng ghé một tối. Điểm trừ là quy mô nhỏ, chỉ họp tối thứ 6–thứ 7 theo nhiều nguồn (chưa xác nhận chắc lịch). Hợp mọi đối tượng; nhớ mang tiền mặt lẻ và hỏi giá trước."
+   },
+   "ten": "Chợ đêm San Thàng",
+   "thoi_gian": "1–2 giờ buổi tối"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Sùng Phài, TP Lai Châu",
+   "gia_ve": "Miễn phí (dịch vụ homestay/ăn uống tính riêng)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "ban-gia-khau-1",
+   "lat": 22.40804,
+   "lng": 103.39932,
+   "luu_y": "Bản du lịch cộng đồng người Giáy, gần trung tâm TP; tôn trọng sinh hoạt của dân bản Tọa độ xấp xỉ, cần kiểm lại — theo OpenStreetMap (Bản Tả Gia Khâu 1, phường Đoàn Kết); tên phường/xã không khớp hẳn file gốc (Sùng Phài) sau sắp xếp 2025.",
+   "nguon": "laichau.gov.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; laichau.gov.vn",
+    "nhan_xet": "Bản Giáy gần trung tâm, yên bình, hợp ghé nhẹ nửa buổi hoặc ngủ homestay để trải nghiệm sinh hoạt bản. Điểm yếu là ít điểm tham quan cụ thể, dễ thấy 'chưa có gì chơi' nếu đi vội. Hợp người thích chậm rãi, không hợp người muốn check-in nhanh."
+   },
+   "ten": "Bản Gia Khâu 1",
+   "thoi_gian": "1–2 giờ (hoặc ngủ lại homestay)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "than-uyen",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mường Than, Than Uyên",
+   "gia_ve": "Miễn phí (điểm ngắm cảnh ven đường/ruộng)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Người thích chụp ảnh ruộng lúa, đi đường dài",
+   "id": "canh-dong-muong-than",
+   "lat": 21.98,
+   "lng": 103.9,
+   "luu_y": "Cách TP Lai Châu ~100 km — chỉ hợp lịch trình có xe riêng/thuê ô tô, không ghép vội trong ngày về Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực xã Mường Than, Than Uyên.",
+   "nguon": "dulichviet.com.vn, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn, ecotour.com.vn",
+    "nhan_xet": "Ruộng bậc thang Than Uyên mùa lúa chín (tháng 9–10) rất đẹp và vắng hơn Mù Cang Chải hay Sa Pa. Điểm trừ lớn là cách TP Lai Châu ~100 km — đi về trong ngày rất mệt. Chỉ hợp lịch có xe riêng và ngủ lại Than Uyên, không nên ghép vội."
+   },
+   "ten": "Cánh đồng Mường Than (Than Uyên)",
+   "thoi_gian": "1–2 giờ; đẹp nhất tháng 9–10 lúa chín",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "tam-duong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tam Đường, cao 3.096 m — đỉnh cao thứ hai Việt Nam",
+   "gia_ve": "Chưa kiểm được mức vé/chi phí porter — đi theo tour/nhóm có hướng dẫn, không có giá lẻ công khai",
+   "gio_mo_cua": "Theo lịch tour (thường 2–3 ngày)",
+   "hop_voi": "Người đã có kinh nghiệm trekking, sức khỏe tốt",
+   "id": "dinh-pu-ta-leng",
+   "lat": 22.32106,
+   "lng": 103.62324,
+   "luu_y": "Mùa đẹp tháng 10–3, hoa đỗ quyên tháng 3–4. BẮT BUỘC có hướng dẫn/porter địa phương, không tự leo; chuẩn bị đồ leo núi, thuốc cơ bản Tọa độ xấp xỉ, cần kiểm lại — lấy theo Công viên Pu Ta Leng (khu vực chân núi/cổng trekking), không phải vị trí đỉnh.",
+   "nguon": "hanoietoco.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hanoietoco.com, ecotour.com.vn",
+    "nhan_xet": "Đỉnh cao thứ hai Việt Nam, cung trekking đẹp với rừng đỗ quyên tháng 3–4 — dân trekking đánh giá cao. Điểm yếu là cung khó, dài 2–3 ngày, bắt buộc có porter/hướng dẫn, chi phí chưa có giá công khai. Chỉ hợp người đã trekking và khỏe; người mới nên chọn Fansipan cáp treo thay vì cố leo."
+   },
+   "ten": "Đỉnh Pu Ta Leng (trekking)",
+   "thoi_gian": "2–3 ngày trekking",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã San Thàng, TP Lai Châu (bản người Giáy, ngay cạnh chợ đêm San Thàng)",
+   "gia_ve": "Miễn phí vào bản (homestay/ăn uống tính riêng)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn muốn ngủ bản gần trung tâm",
+   "id": "ban-san-thang",
+   "lat": 22.395,
+   "lng": 103.515,
+   "luu_y": "Bản du lịch cộng đồng người Giáy ngay sát TP Lai Châu, cùng cụm với chợ đêm San Thàng — tiện ghép buổi tối. Tọa độ xấp xỉ, cần kiểm lại. Tôn trọng sinh hoạt của dân bản.",
+   "nguon": "laichau.gov.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; laichau.gov.vn",
+    "nhan_xet": "Bản gần trung tâm nhất của Lai Châu nên rất tiện ghép với chợ đêm — ngủ homestay ở đây rồi sáng đi Pu Sam Cáp là lịch hợp lý. Điểm yếu là bản nhỏ, ít điểm tham quan riêng, dễ thấy 'chưa có gì chơi' nếu chỉ ghé vội. Hợp người muốn ngủ bản mà không muốn đi xa."
+   },
+   "ten": "Bản du lịch cộng đồng San Thàng",
+   "thoi_gian": "1–2 giờ (hoặc ngủ lại homestay)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "sin-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Sìn Hồ, Sìn Hồ (họp cuối tuần)",
+   "gia_ve": "Miễn phí vào chợ",
+   "gio_mo_cua": "Họp cuối tuần (cần xác nhận lại lịch họp)",
+   "hop_voi": "Người thích chợ phiên vùng cao, chụp ảnh",
+   "id": "cho-phien-sin-ho",
+   "lat": 22.35951,
+   "lng": 103.25073,
+   "luu_y": "Chợ phiên vùng cao đậm chất Sìn Hồ, cùng cụm với cao nguyên Sìn Hồ — nên đi sáng sớm. Tọa độ xấp xỉ, cần kiểm lại (lấy theo trung tâm thị trấn Sìn Hồ). Lịch họp chưa kiểm được chính xác, hỏi người dân/homestay trước.",
+   "nguon": "booking.muongthanh.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; booking.muongthanh.com, ecotour.com.vn",
+    "nhan_xet": "Chợ phiên là phần hồn của Sìn Hồ — đông vui, nhiều đồ địa phương, chụp ảnh rất ăn hình. Điểm yếu là lịch họp chưa chắc chắn và đường lên Sìn Hồ quanh co ~60 km. Chỉ hợp lịch 4N3Đ hoặc người đã lên Sìn Hồ, không nên đi riêng trong ngày."
+   },
+   "ten": "Chợ phiên Sìn Hồ",
+   "thoi_gian": "1–2 giờ buổi sáng",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "sin-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Vàng Pha, xã Nậm Mở, Sìn Hồ",
+   "gia_ve": "Miễn phí vào bản (homestay/ăn uống tính riêng)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Cặp đôi, gia đình muốn nghỉ dưỡng yên tĩnh ở bản",
+   "id": "ban-vang-pha",
+   "lat": 22.32,
+   "lng": 103.3,
+   "luu_y": "Bản người Mông ở Sìn Hồ, cùng cụm với cao nguyên Sìn Hồ; đã có homestay cao cấp (The Birdhouse Bungalow) trong file chỗ ở. Tọa độ xấp xỉ, cần kiểm lại. Đường núi quanh co, đi xe tốt.",
+   "nguon": "crystalbay.com, motogo.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; crystalbay.com",
+    "nhan_xet": "Bản yên tĩnh, view núi đẹp, hợp nghỉ dưỡng chậm hơn là check-in nhanh — homestay ở đây được khen về không gian. Điểm yếu là xa trung tâm (~60 km) và ít dịch vụ ngoài homestay. Chỉ hợp người đã lên Sìn Hồ và muốn ngủ lại, không hợp lịch gấp."
+   },
+   "ten": "Bản Vàng Pha (bản du lịch cộng đồng)",
+   "thoi_gian": "Nửa ngày (nên ngủ lại 1 đêm)",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đèo Ô Quy Hồ (đỉnh đèo, Cầu kính Rồng Mây)",
+   "gio": "5:00-6:30 săn mây, bình minh; 16:30-18:00 hoàng hôn",
+   "nguon": "visitsapa.com.vn — Kinh nghiệm đi đèo Ô Quy Hồ an toàn (săn mây 5:00–6:30) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cao nguyên Sìn Hồ",
+   "gio": "5:30-7:00 săn mây bình minh; 16:30-17:30 hoàng hôn trên cao nguyên",
+   "nguon": "dữ liệu tỉnh Lai Châu (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cánh đồng Mường Than (Than Uyên)",
+   "gio": "6:00-7:30 sáng sớm lúa chín tháng 9–10; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Lai Châu (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào hang Pu Sam Cáp và chợ đêm San Thàng — tránh đèo Ô Quy Hồ, cầu kính và trekking Pu Ta Leng vì mây mù, đường trơn.",
+  "diem": [
+   "Quần thể hang Pu Sam Cáp",
+   "Chợ đêm San Thàng",
+   "Bản Sin Suối Hồ"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "pu-sam-cap",
+    "hoat_dong": "Tới TP Lai Châu; hang Pu Sam Cáp",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "deo-o-quy-ho, cau-kinh-rong-may",
+    "hoat_dong": "Đèo Ô Quy Hồ + cầu kính Rồng Mây (kiểm tra mở cửa)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-dem-san-thang",
+    "hoat_dong": "Chợ đêm San Thàng (nếu đúng lịch) + ăn tối TP",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "sin-suoi-ho, thac-tac-tinh",
+    "hoat_dong": "Bản Sin Suối Hồ (đi sớm, về trong buổi sáng) hoặc thác Tác Tình",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về TP, trả phòng",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "pu-sam-cap",
+    "hoat_dong": "Tới TP Lai Châu, nhận phòng; tham quan quần thể hang Pu Sam Cáp (1,5–2,5 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ban-gia-khau-1",
+    "hoat_dong": "Bản Gia Khâu 1 (1–2 giờ); dạo trung tâm TP Lai Châu",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-dem-san-thang",
+    "hoat_dong": "Chợ đêm San Thàng (nếu đúng tối thứ 6–thứ 7) + xôi tím, pa pỉnh tộp",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "deo-o-quy-ho, cau-kinh-rong-may",
+    "hoat_dong": "Đi đèo Ô Quy Hồ, dừng ngắm cảnh; cầu kính Rồng Mây (2–3 giờ, kiểm tra lại có mở cửa không)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-tac-tinh, sin-suoi-ho",
+    "hoat_dong": "Thác Tác Tình (1–2 giờ); di chuyển về bản Sin Suối Hồ, ngủ homestay",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "sin-suoi-ho",
+    "hoat_dong": "Ăn tối tại homestay Sin Suối Hồ (gà bản, lợn cắp nách)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "sin-suoi-ho",
+    "hoat_dong": "Săn mây Sin Suối Hồ buổi sớm; tham quan bản, chợ phiên (nếu có)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về TP Lai Châu, mua đặc sản (thịt trâu gác bếp, xôi tím); trả phòng, về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "pu-sam-cap, cho-dem-san-thang",
+    "hoat_dong": "Như ngày 1 lịch trình 3N2Đ (trung tâm TP + Pu Sam Cáp + chợ đêm)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "deo-o-quy-ho, thac-tac-tinh, sin-suoi-ho",
+    "hoat_dong": "Như ngày 2 lịch trình 3N2Đ (Ô Quy Hồ + cầu kính + thác Tác Tình + ngủ Sin Suối Hồ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "sin-suoi-ho, cao-nguyen-sin-ho",
+    "hoat_dong": "Sin Suối Hồ buổi sớm; chiều đi cao nguyên Sìn Hồ, ngủ lại Sìn Hồ",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "cao-nguyen-sin-ho",
+    "hoat_dong": "Chợ phiên Sìn Hồ (nếu đúng lịch); chiều về TP Lai Châu, trả phòng",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Lai Châu",
+  "best_season": "Tháng 9–10 lúa chín Than Uyên; tháng 11–3 săn mây và trekking; tháng 3–4 hoa đỗ quyên Pu Ta Leng",
+  "destination": "TP Lai Châu, Lai Châu",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "lai-chau",
+  "lat": 22.39077,
+  "lng": 103.4964,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "booking.muongthanh.com",
+   "dulichviet.com.vn",
+   "ecotour.com.vn",
+   "motortrip.vn",
+   "motogo.vn",
+   "limody.vn",
+   "topz.com.vn",
+   "efly.vn",
+   "tripi.vn",
+   "bibuvivu.com",
+   "dulich.pro.vn",
+   "atrip.vn",
+   "vietnamairlines.com",
+   "vietjet.net",
+   "junglebosstours.com",
+   "viet-go.com",
+   "laichau.gov.vn"
+  ],
+  "province": "Lai Châu",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 9–10 lúa chín Than Uyên; tháng 11–3 săn mây và trekking; tháng 3–4 hoa đỗ quyên Pu Ta Leng"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

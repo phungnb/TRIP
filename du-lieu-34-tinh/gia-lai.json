@@ -1,0 +1,945 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–50.000đ/tô",
+   "mon": "Phở khô Gia Lai (phở hai tô)",
+   "nguon": "vietnambackpackers.vn, booking.muongthanh.com, topz.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "lofita.vn, vietnambackpackers.vn, booking.muongthanh.com, topz.com.vn",
+    "nhan_xet": "Phở khô là linh hồn ẩm thực Gia Lai: một tô phở trộn sốt sền sệt đậm đà, một tô nước lèo riêng; sợi phở dai, thịt bò hầm mềm. Lofita chấm 7,5–8,5/10 cho quán Phở Hồng ở Đà Nẵng, giá 35.000–50.000đ/tô. Điểm trừ là độ 'khô' và lượng rau không đồng đều giữa các lần; nên ăn tại quán Ngọc Sơn hoặc Hồng ở Pleiku."
+   },
+   "quan": [
+    {
+     "dia_chi": "15 Nguyễn Thái Học, TP Pleiku",
+     "gia": "25.000–35.000đ/tô",
+     "ten": "Phở khô Ngọc Sơn"
+    },
+    {
+     "dia_chi": "22–24 Nguyễn Văn Trỗi, TP Pleiku",
+     "gia": "25.000–35.000đ/tô",
+     "ten": "Phở khô Hồng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Gà 200.000–300.000đ/con; cơm lam 15.000–30.000đ/ống",
+   "mon": "Gà nướng cơm lam",
+   "nguon": "vietnambackpackers.vn, booking.muongthanh.com, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnambackpackers.vn, booking.muongthanh.com, vietsensetravel.com",
+    "nhan_xet": "Gà nướng cơm lam là món nhóm phải thử ở Pleiku: gà nướng thơm, cơm lam dẻo trong ống tre; gà 200.000–300.000đ/con. Quán Bazan và Plơi Têng được nhắc nhiều; nên đặt trước cuối tuần."
+   },
+   "quan": [
+    {
+     "dia_chi": "Hẻm 478–480 Lê Duẩn, TP Pleiku",
+     "gia": "Gà 250.000–300.000đ/con",
+     "ten": "Gà nướng cơm lam Gia Lai Bazan"
+    },
+    {
+     "dia_chi": "Làng Têng, xã Tân Sơn, TP Pleiku",
+     "gia": "Gà ~200.000–300.000đ/con",
+     "ten": "Quán Plơi Têng (PleiTiêng)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–30.000đ/ống",
+   "mon": "Cơm lam (ăn riêng)",
+   "nguon": "booking.muongthanh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "booking.muongthanh.com",
+    "nhan_xet": "Cơm lam dẻo thơm, 15.000–30.000đ/ống, hợp ăn kèm gà nướng hoặc ăn riêng. Quán H'Bla T'rưng và nghệ nhân Ksor Hnao được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Duẩn, phường Trà Bá, TP Pleiku",
+     "gia": "20.000–30.000đ/ống",
+     "ten": "Cơm lam gà nướng H'Bla T'rưng"
+    },
+    {
+     "dia_chi": "Hẻm 49/18 Trần Nguyên Hãn, phường Đống Đa, TP Pleiku",
+     "gia": "20.000–30.000đ/ống",
+     "ten": "Quán nghệ nhân Ksor Hnao"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–30.000đ/tô",
+   "mon": "Bún cua thối (bún cua Gia Lai)",
+   "nguon": "booking.muongthanh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "booking.muongthanh.com",
+    "nhan_xet": "Bún cua thối mùi nồng đặc trưng, ai ăn được sẽ nghiện, ai không quen sẽ khó chịu; 20.000–30.000đ/tô. Quán Chi (2 Phùng Hưng) được nhắc nhiều; nên thử một lần cho biết."
+   },
+   "quan": [
+    {
+     "dia_chi": "2 Phùng Hưng, phường Hội Thương, TP Pleiku",
+     "gia": "20.000–30.000đ/tô",
+     "ten": "Quán Chi"
+    },
+    {
+     "dia_chi": "Chợ Pleiku, TP Pleiku (chưa kiểm được tên cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bún cua khu vực chợ Pleiku"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–300.000đ/nồi",
+   "mon": "Lẩu xìn đạt (lẩu Lào)",
+   "nguon": "vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietsensetravel.com",
+    "nhan_xet": "Lẩu xìn đạt (lẩu Lào) là món nhóm buổi tối, 200.000–300.000đ/nồi; quán Nhà Tôi (439 Ngô Quyền) được nhắc nhiều. Nhược điểm là quán khu vực Nguyễn Thái Học chưa kiểm được tên cụ thể."
+   },
+   "quan": [
+    {
+     "dia_chi": "439 Ngô Quyền, xã Trà Đa, TP Pleiku",
+     "gia": "200.000–300.000đ/nồi",
+     "ten": "Quán Nhà Tôi – Đặc sản Lào"
+    },
+    {
+     "dia_chi": "Đường Nguyễn Thái Học, TP Pleiku (chưa kiểm được tên cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán lẩu khu vực Nguyễn Thái Học"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 80.000–150.000đ/phần",
+   "mon": "Salad tôm Biển Hồ",
+   "nguon": "vietsensetravel.com, topz.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietsensetravel.com, topz.com.vn",
+    "nhan_xet": "Salad tôm Biển Hồ tươi, lạ miệng, ~80.000–150.000đ/phần, hợp ăn trưa và tối. Nhược điểm là giá riêng chưa kiểm được; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "79 Ngô Quyền, TP Pleiku",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Làng Nướng Biển Hồ"
+    },
+    {
+     "dia_chi": "248 Cách Mạng Tháng Tám, TP Pleiku",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Lá"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 20.000–50.000đ/phần",
+   "mon": "Bánh xèo – bánh bèo Pleiku",
+   "nguon": "topz.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "topz.com.vn",
+    "nhan_xet": "Bánh xèo và bánh bèo Pleiku giòn và mềm, ~20.000–50.000đ/phần, hợp ăn xế và ăn tối. Nhược điểm là quán cụ thể chưa kiểm được tên; nên ăn ở khu vực chợ Pleiku."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Pleiku, TP Pleiku",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bánh xèo khu vực chợ Pleiku"
+    },
+    {
+     "dia_chi": "30 Nguyễn Viết Xuân, TP Pleiku",
+     "gia": "10.000–20.000đ/phần",
+     "ten": "Quán ăn vặt đường Nguyễn Viết Xuân"
+    }
+   ]
+  },
+  {
+   "buoi": "Uống sáng / chiều",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–35.000đ/ly",
+   "mon": "Cà phê Pleiku",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com",
+    "nhan_xet": "Cà phê Pleiku đậm đà, 15.000–35.000đ/ly, hợp uống sáng và chiều ngắm phố núi. Nhược điểm là quán cụ thể chưa kiểm được tên; nên uống ở khu vực Biển Hồ hoặc Hùng Vương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường đi Biển Hồ, TP Pleiku",
+     "gia": "15.000–30.000đ/ly",
+     "ten": "Quán cà phê khu vực Biển Hồ"
+    },
+    {
+     "dia_chi": "Đường Hùng Vương, TP Pleiku",
+     "gia": "15.000–35.000đ/ly",
+     "ten": "Quán cà phê trung tâm Pleiku"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/người",
+   "mon": "Thịt nướng – cơm đồng bào",
+   "nguon": "vietnambackpackers.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnambackpackers.vn",
+    "nhan_xet": "Thịt nướng và cơm đồng bào là bữa tối nhóm đậm chất Tây Nguyên, 150.000–300.000đ/người; quán Ia Gui và Ngói Nâu được nhắc nhiều. Nên đặt trước cuối tuần."
+   },
+   "quan": [
+    {
+     "dia_chi": "27 Phạm Ngọc Thạch, TP Pleiku",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Ia Gui"
+    },
+    {
+     "dia_chi": "120 Nguyễn Thái Học, TP Pleiku",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Ngói Nâu"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–Pleiku khứ hồi",
+   "uoc_tinh": "1.800.000–3.400.000đ"
+  },
+  {
+   "hang_muc": "Xe khách SG–Pleiku khứ hồi (nếu đi xe)",
+   "uoc_tinh": "600.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+   "uoc_tinh": "400.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "50.000–200.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng",
+   "uoc_tinh": "350.000–550.000đ"
+  },
+  {
+   "hang_muc": "Taxi/phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi xe khách)",
+   "uoc_tinh": "2.000.000–3.450.000đ/người"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi máy bay)",
+   "uoc_tinh": "3.200.000–6.850.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua tại cửa hàng có thương hiệu, bao bì, nguồn gốc rõ ràng; so giá 2-3 nơi trước khi mua số lượng lớn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua đặc sản, cà phê ở chợ Pleiku và khu vực Biển Hồ: cà phê trộn, giá hét cao với khách lạ."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh Biển Hồ, núi lửa Chư Đăng Ya dịp lễ hội hoa dã quỳ: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Pleiku và sân bay Pleiku hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác (Pleiku lạnh buổi sáng/tối, nhất là tháng 11–1)",
+  "Mũ, kem chống nắng, áo mưa mỏng",
+  "Giày đi bộ/trekking nhẹ (Chư Đăng Ya đường đất, thác Phú Cường đường rừng)",
+  "Tiền mặt lẻ (quán nhỏ, làng)",
+  "Thuốc chống côn trùng (đi thác, đồi chè)",
+  "Sạc dự phòng, thuốc cơ bản"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn Pleiku (khách sạn 3 sao trung tâm)",
+   "Khách sạn Tre Xanh"
+  ],
+  "diem": [
+   "Biển Hồ T'Nưng (hồ Tơ Nưng)",
+   "Biển Hồ chè (đồng chè Biển Hồ)",
+   "Thác Phú Cường",
+   "Thung lũng cỏ hồng Glar"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [],
+  "diem_chay": [
+   "Quảng trường Đại Đoàn Kết, Pleiku",
+   "Đường quanh Biển Hồ T'Nưng buổi sáng",
+   "Quảng trường Nguyễn Tất Thành, Quy Nhơn (điểm xuất phát/về đích của giải)"
+  ],
+  "giai": [
+   {
+    "nguon": "VnExpress 12/8/2026 + 14/9/2026; Báo Gia Lai 08/09/2026; UBND tỉnh Gia Lai công văn 10456; Báo Tin Tức (TTXVN) về mùa 2025 (15/6/2025) (ngày kiểm 08/11/2026)",
+    "ten": "VnExpress Marathon Quy Nhơn",
+    "thoi_gian": "Mùa 2026: 13/9/2026, tạm dừng cự ly 42 km, chỉ còn 5/10/21 km, ~8.000 VĐV (đã diễn ra xong); mùa 2027 chưa công bố — 'tháng 6 hằng năm' sai với 2026 (mùa 2025: 15/6/2025)"
+   }
+  ],
+  "nguon": "Báo Tin Tức về giải VnExpress Marathon Quy Nhơn; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: chỗ ở gần điểm xuất phát (Quảng trường Nguyễn Tất Thành, Quy Nhơn) chưa tra được — khách sạn Pleiku cách ~160 km nên đã gỡ khỏi danh sách, không bịa."
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm Pleiku",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "537 Hùng Vương, TP Pleiku",
+   "dien_thoai": "0269 3718 450",
+   "gia": "~800.000–1.600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "booking.muongthanh.com; muongthanh.com (danh sách chính thức ghi 537 Hùng Vương)",
+   "nguon_dien_thoai": "muongthanh.com + booking.muongthanh.com (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: gộp với Khách sạn Hoàng Anh Gia Lai (cùng SĐT 0269 3718 450; HAGL đổi biển 09/09/2024, Mường Thanh tiếp quản 08/2024 — Vietcap 11/09/2024; iVivu ghi rõ 'Khách sạn Hoàng Anh Gia Lai cũ'); địa chỉ đúng 537 Hùng Vương (muongthanh.com chính thức, iVivu, Chudu24).",
+   "ten": "Mường Thanh Grand Gia Lai (tên cũ: Khách sạn Hoàng Anh Gia Lai)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Pleiku",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "03 Nguyễn Tất Thành, phường Hoa Lư, TP Pleiku",
+   "dien_thoai": "0269 3827 779",
+   "gia": "~400.000–800.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "3 sao",
+   "hop_voi": "Khách tiết kiệm, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "danh sách cơ sở lưu trú TP Pleiku (ngày kiểm 08/11/2026) Cập nhật 08/11/2026: địa chỉ đúng 03 Nguyễn Tất Thành, phường Hoa Lư (tadiha.com, tripi.vn, mytour.vn).",
+   "ten": "Khách sạn Pleiku (khách sạn 3 sao trung tâm)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Biển Hồ ~2–5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường đi Biển Hồ, TP Pleiku (chưa kiểm được tên + số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách muốn ở gần Biển Hồ, dậy sớm săn sương",
+   "khu_vuc": "bien-ho",
+   "nguon": "wikidulich.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ khu vực Biển Hồ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Pleiku",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực trung tâm TP Pleiku (chưa kiểm được tên + địa chỉ cụ thể)",
+   "dien_thoai": null,
+   "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+   "hang": "Homestay (không hạng sao)",
+   "hop_voi": "Khách bụi, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "wikidulich.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Pleiku",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách thác Phú Cường ~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Chư Sê, huyện Chư Sê (chưa kiểm được tên + số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách đi cung thác Phú Cường",
+   "khu_vuc": "chu-se",
+   "nguon": "tourdulichmangden.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn tại thị trấn Chư Sê (đi thác Phú Cường)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Pleiku",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "18 Lê Lai, TP Pleiku",
+   "dien_thoai": "0269 3715 789",
+   "gia": "~500.000–900.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "3 sao",
+   "hop_voi": "Khách công tác, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "Google Travel + tripi.vn, alltop.vn, mytour.vn (ngày kiểm 08/11/2026) Cập nhật 08/11/2026: địa chỉ đúng 18 Lê Lai (Google Travel; Sở VHTTDL Gia Lai).",
+   "ten": "Khách sạn Tre Xanh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 6 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Biển Hồ T'Nưng (hồ Tơ Nưng), Thung lũng cỏ hồng Glar, Làng Plei Opp (làng Jrai), Eo Gió (Nhơn Lý, Quy Nhơn — Bình Định cũ), Bãi biển Kỳ Co (Nhơn Lý, Quy Nhơn — Bình Định cũ), Tháp Đôi (Quy Nhơn — Bình Định cũ)",
+  "Giá vé Biển Hồ T'Nưng, thác Phú Cường, thác Chín Tầng (chưa có mức chính thức 2026)",
+  "Giá thuê xe đạp quanh Biển Hồ; giá chèo thuyền Biển Hồ",
+  "Giá vé tàu HN–Pleiku (đường bộ) và giá xe khách HN–Pleiku/SG–Pleiku chính xác từng hãng",
+  "Giá taxi nội thành Pleiku theo km; giá thuê ô tô có tài xế riêng Pleiku",
+  "Địa chỉ + số nhà: khách sạn Hoàng Anh Gia Lai, Tre Xanh, nhà nghỉ Biển Hồ/Chư Sê, homestay Pleiku",
+  "Tên + địa chỉ: quán bún cua chợ Pleiku, quán bánh xèo chợ, quán cà phê Biển Hồ",
+  "Giờ mở cửa: Biển Hồ, chùa Minh Thành, thác Phú Cường/Chín Tầng",
+  "Mùa cỏ hồng Glar chính xác từng năm (tháng 11–12 theo nguồn, cần kiểm lại)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Eo Gió (Nhơn Lý, Quy Nhơn — Bình Định cũ), Bãi biển Kỳ Co (Nhơn Lý, Quy Nhơn — Bình Định cũ), Tháp Đôi (Quy Nhơn — Bình Định cũ) — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Gia Lai có đèo An Khê (quốc lộ 19, dốc đứng, cua gấp, tầm nhìn hạn chế ban đêm) và đèo Mang Yang (quốc lộ 19). Tháng 5/2026 xe khách bị tông rơi xuống vực sâu khoảng 40 m ở đèo An Khê làm 1 người chết, 11 người bị thương. Đi xe máy: đi chậm, không vượt ở cua khuất, không đi đèo ban đêm nếu không quen đường; mưa lớn có thể gây sạt lở, phong tỏa đèo.",
+  "deo": [
+   "Đèo An Khê (quốc lộ 19, dốc đứng, cua gấp, tầm nhìn hạn chế ban đêm; vụ xe khách rơi vực 10/5/2026: 1 người chết, 11 người bị thương)",
+   "Đèo Mang Yang (quốc lộ 19, dốc dài, cua liên tiếp)"
+  ],
+  "nguon": "VOV — Passenger bus plunges into ravine, 1 killed and 11 injured (11/5/2026): tai nạn ở km61+100 quốc lộ 19, đèo An Khê, xe rơi xuống vực khoảng 40 m; Báo Mới tổng hợp tin đèo An Khê: CSGT Gia Lai xử phạt nhiều vụ vượt ẩu, lấn làn trên đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu": "Sân bay Pleiku (PXU) cách trung tâm TP Pleiku ~6 km, rất gần. Lưu ý: từ 07/2025 tỉnh Bình Định sáp nhập vào Gia Lai — ga Quy Nhơn và sân bay Phù Cát nay thuộc địa giới Gia Lai nhưng cách Pleiku ~160 km.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air",
+    "gia": "Một chiều ~1.160.000–2.000.000đ (đã gồm thuế phí, theo bảng giá tháng 11/2026)",
+    "nguon": "efly.vn",
+    "phuong_tien": "Máy bay HAN–PXU (Pleiku)",
+    "thoi_gian": "Bay ~1h40"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Xe khách HN–Pleiku",
+    "thoi_gian": "~20–24 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Phương án đường bộ dài, không khuyến khích",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Tàu HN–ga Quy Nhơn + xe lên Pleiku",
+    "thoi_gian": "Tàu ~18–20 giờ + xe ~3–4 giờ (chưa kiểm được chính xác)"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Sân bay Pleiku nằm gần trung tâm",
+    "gia": "Taxi ~60.000–80.000đ/lượt",
+    "nguon": "efly.vn",
+    "phuong_tien": "Taxi sân bay Pleiku – trung tâm",
+    "thoi_gian": "~12 phút, ~6 km"
+   },
+   {
+    "ghi_chu": "Đặt trước qua khách sạn",
+    "gia": "250.000đ/xe 5 chỗ trở lên (chưa kiểm được giá chính xác)",
+    "nguon": "efly.vn",
+    "phuong_tien": "Xe đưa đón sân bay",
+    "thoi_gian": "~15 phút"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways; ~3 chuyến/ngày",
+    "gia": "Một chiều ~879.000–1.700.000đ (Vietjet từ 879.000đ; giá đã gồm thuế phí ~1.000.000–1.700.000đ)",
+    "nguon": "efly.vn, test.bestprice.vn",
+    "phuong_tien": "Máy bay SGN–PXU (Pleiku)",
+    "thoi_gian": "Bay ~1h10"
+   },
+   {
+    "ghi_chu": "Đi đêm, sáng tới Pleiku; bến xe Đức Long Pleiku",
+    "gia": "~300.000–500.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+    "nguon": "dulich9.com",
+    "phuong_tien": "Xe khách giường nằm SG–Pleiku",
+    "thoi_gian": "~10–12 giờ"
+   },
+   {
+    "ghi_chu": "Phương án dự phòng khi hết vé bay thẳng Pleiku",
+    "gia": "Bay ~900.000–1.900.000đ + xe ~150.000–250.000đ/người",
+    "nguon": "vietnambooking.com",
+    "phuong_tien": "Máy bay SG–BMV + xe Buôn Ma Thuột–Pleiku",
+    "thoi_gian": "Bay 1h + xe ~3–4 giờ (~180 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Tính theo chu kỳ 24 giờ; lễ Tết tăng ~20%",
+   "gia": "130.000–140.000đ/ngày (mặt bằng Pleiku 130.000–160.000đ/ngày)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vexere.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Đi Chư Đăng Ya đường đất — ưu tiên xe số",
+   "gia": "130.000–160.000đ/ngày (chưa kiểm được giá chính xác từng loại)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vexere.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh, taxi địa phương; Grab hạn chế",
+   "gia": "Chưa kiểm được giá/km riêng — taxi theo chuyến trong TP khoảng 30.000–80.000đ/chuyến",
+   "giay_to": "—",
+   "nguon": "chưa kiểm được nguồn giá riêng",
+   "phuong_tien": "Taxi nội thành Pleiku"
+  },
+  {
+   "ghi_chu": "Hợp cung Chư Đăng Ya + thác Phú Cường (đường xa)",
+   "gia": "500.000–1.000.000đ/ngày (theo mặt bằng chung, chưa kiểm được giá riêng Pleiku)",
+   "giay_to": "—",
+   "nguon": "vietthangtravel.com",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Có dịch vụ thuê xe đạp tại Biển Hồ theo nguồn — kiểm lại tại điểm",
+   "gia": "Chưa kiểm được giá thuê riêng",
+   "giay_to": "CCCD khi thuê",
+   "nguon": "tourdulichmangden.vn",
+   "phuong_tien": "Xe đạp quanh Biển Hồ"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": "7",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Biển Hồ, TP Pleiku",
+   "gia_ve": "Khoảng 10.000–30.000đ/người (chưa kiểm được mức chính thức 2026)",
+   "gio_mo_cua": "Khoảng 6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "bien-ho-tnung",
+   "lat": 14.0338,
+   "lng": 107.99962,
+   "luu_y": "Hồ miệng núi lửa cổ, 'đôi mắt Pleiku'; có dịch vụ thuê xe đạp, chèo thuyền (chưa kiểm được giá); gió mạnh buổi chiều. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "tourdulichmangden.vn, kinhdoanhnet.vn, ongvove.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tourdulichmangden.vn, kinhdoanhnet.vn, ongvove.com",
+    "nhan_xet": "Biển Hồ T'Nưng là 'đôi mắt Pleiku': hồ miệng núi lửa cổ, nước trong, đẹp nhất sáng sớm và hoàng hôn; hợp mọi đối tượng. Điểm trừ là giá vé chưa có mức chính thức 2026 (10.000–30.000đ), gió mạnh buổi chiều; nên đi sáng sớm."
+   },
+   "ten": "Biển Hồ T'Nưng (hồ Tơ Nưng)",
+   "thoi_gian": "1,5–2 giờ; đẹp nhất sáng sớm và hoàng hôn",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Chư Păh, TP Pleiku",
+   "gia_ve": "Miễn phí (chưa kiểm được phí gửi xe/dịch vụ)",
+   "gio_mo_cua": "Cả ngày; đẹp nhất sáng sớm",
+   "hop_voi": "Mọi đối tượng, nhiếp ảnh",
+   "id": "nui-lua-chu-dang-ya",
+   "lat": 14.12469,
+   "lng": 108.05961,
+   "luu_y": "Miệng núi lửa tắt cao ~500 m; tháng 10–11 hoa dã quỳ vàng rực + lúa chín — mùa đẹp nhất; đường đất, đi xe máy cẩn thận khi mưa",
+   "nguon": "tourdulichmangden.vn, kinhdoanhnet.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tourdulichmangden.vn, kinhdoanhnet.vn, wikidulich.com",
+    "nhan_xet": "Núi lửa Chư Đăng Ya đẹp nhất tháng 10–11 khi hoa dã quỳ vàng rực và lúa chín; miệng núi lửa tắt cao ~500 m, chụp ảnh rất ăn. Điểm trừ là ngoài mùa hoa chỉ là đồi trọc, đường đất trơn khi mưa; nên kiểm mùa trước khi đi."
+   },
+   "ten": "Núi lửa Chư Đăng Ya",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "13",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Chư Păh, TP Pleiku",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, cặp đôi",
+   "id": "bien-ho-che",
+   "lat": 14.06374,
+   "lng": 108.01212,
+   "luu_y": "Đồi chè xanh mướt bên Biển Hồ; đi buổi sáng sớm có sương; không giẫm luống chè",
+   "nguon": "tourdulichmangden.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tourdulichmangden.vn, wikidulich.com",
+    "nhan_xet": "Đồi chè Biển Hồ xanh mướt, sáng sớm có sương rất đẹp, miễn phí; hợp mọi đối tượng và cặp đôi. Điểm trừ là chỉ chơi 1–1,5 giờ; không giẫm luống chè."
+   },
+   "ten": "Biển Hồ chè (đồng chè Biển Hồ)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "2",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "68 Nguyễn Viết Xuân, TP Pleiku",
+   "gia_ve": "Miễn phí (chưa kiểm được phí nếu có)",
+   "gio_mo_cua": "Khoảng 6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-minh-thanh",
+   "lat": 13.96611,
+   "lng": 108.00666,
+   "luu_y": "Chùa có kiến trúc Nhật–Trung độc đáo, tháp 9 tầng; nơi tu hành — ăn mặc kín đáo, giữ yên lặng",
+   "nguon": "wikidulich.com, ongvove.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com, ongvove.com",
+    "nhan_xet": "Chùa Minh Thành kiến trúc Nhật–Trung độc đáo, tháp 9 tầng, chụp ảnh đẹp; miễn phí. Điểm trừ là nơi tu hành nên ăn mặc kín đáo, giữ yên lặng; lưu ý địa chỉ các nguồn ghi khác nhau (68 vs 348 Nguyễn Viết Xuân)."
+   },
+   "ten": "Chùa Minh Thành",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": "45",
+   "cum": "phia-dong-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Dun, huyện Chư Sê, TP Pleiku",
+   "gia_ve": "Khoảng 20.000–30.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Nhóm bạn, người thích thiên nhiên",
+   "id": "thac-phu-cuong",
+   "lat": 13.7094,
+   "lng": 108.06642,
+   "luu_y": "Thác cao ~45 m, đẹp nhất mùa mưa (tháng 5–9); mùa khô nước ít; đường rừng, mang giày chống trơn",
+   "nguon": "tourdulichmangden.vn, kinhdoanhnet.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tourdulichmangden.vn, kinhdoanhnet.vn, wikidulich.com",
+    "nhan_xet": "Thác Phú Cường cao ~45 m, đẹp nhất mùa mưa tháng 5–9; hợp nhóm bạn thích thiên nhiên. Điểm trừ là cách Pleiku ~45 km, mùa khô nước ít, đường rừng trơn; nên mang giày chống trơn."
+   },
+   "ten": "Thác Phú Cường",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "0",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Pleiku",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "quang-truong-dai-doan-ket",
+   "lat": 13.98156,
+   "lng": 108.00672,
+   "luu_y": "Quảng trường trung tâm, tượng Bác Hồ + nhà rông; điểm hẹn buổi tối của người Pleiku",
+   "nguon": "ongvove.com, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ongvove.com, wikidulich.com",
+    "nhan_xet": "Quảng trường trung tâm Pleiku, tượng Bác Hồ và nhà rông, điểm hẹn buổi tối của người dân; miễn phí, hợp mọi đối tượng. Điểm trừ là chỉ dạo 30–60 phút; nên ghé chiều tối."
+   },
+   "ten": "Quảng trường Đại Đoàn Kết",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": "20",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Glar, huyện Đăk Đoa, TP Pleiku",
+   "gia_ve": "Miễn phí (chưa kiểm được phí nếu có)",
+   "gio_mo_cua": "Cả ngày; cỏ hồng đẹp tháng 11–12",
+   "hop_voi": "Cặp đôi, nhiếp ảnh",
+   "id": "thung-lung-co-hong-glar",
+   "lat": 13.95146,
+   "lng": 108.13384,
+   "luu_y": "Cỏ hồng chỉ đẹp theo mùa (tháng 11–12); ngoài mùa chỉ là đồi cỏ thường — kiểm mùa trước khi đi. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "kinhdoanhnet.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "kinhdoanhnet.vn, wikidulich.com",
+    "nhan_xet": "Thung lũng cỏ hồng Glar đẹp tháng 11–12, chụp ảnh rất ăn; hợp cặp đôi và nhiếp ảnh. Điểm trừ lớn nhất là ngoài mùa chỉ là đồi cỏ thường — phải kiểm mùa trước khi đi, đừng đi sai mùa rồi thất vọng."
+   },
+   "ten": "Thung lũng cỏ hồng Glar",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "3",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hoa Lư, TP Pleiku",
+   "gia_ve": "Miễn phí tham quan (chưa kiểm được phí tour làng)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, người quan tâm văn hóa",
+   "id": "lang-plei-opp",
+   "lat": 13.99292,
+   "lng": 108.00413,
+   "luu_y": "Làng Jrai trong lòng TP Pleiku, có nhà rông; tham quan tôn trọng sinh hoạt dân làng, xin phép khi chụp ảnh người. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "ongvove.com, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ongvove.com, wikidulich.com",
+    "nhan_xet": "Làng Plei Opp là làng Jrai ngay trong lòng TP Pleiku, có nhà rông, hợp người quan tâm văn hóa. Điểm trừ là tham quan cần tôn trọng sinh hoạt dân làng, xin phép khi chụp ảnh người."
+   },
+   "ten": "Làng Plei Opp (làng Jrai)",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "7",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Pleiku",
+   "gia_ve": "Miễn phí (chưa kiểm được phí nếu có)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Nhóm bạn, người thích trekking nhẹ",
+   "id": "nui-ham-rong",
+   "lat": 13.88863,
+   "lng": 108.01591,
+   "luu_y": "Núi lửa cổ, view toàn cảnh Pleiku; đường lên dốc, nên đi sáng sớm",
+   "nguon": "kinhdoanhnet.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "kinhdoanhnet.vn, wikidulich.com",
+    "nhan_xet": "Núi Hàm Rồng là núi lửa cổ, view toàn cảnh Pleiku, leo nhẹ hợp nhóm bạn. Điểm trừ là đường lên dốc, chưa kiểm được phí; nên đi sáng sớm."
+   },
+   "ten": "Núi Hàm Rồng",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Ia Grai, TP Pleiku",
+   "gia_ve": "Khoảng 20.000–30.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Nhóm bạn, người thích trekking",
+   "id": "thac-chin-tang",
+   "lat": 14.06807,
+   "lng": 107.82692,
+   "luu_y": "Thác 9 tầng đẹp mùa mưa; đường khó, BẮT BUỘC có người bản địa dẫn theo nguồn — không tự đi",
+   "nguon": "wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / wikidulich.com",
+    "nhan_xet": "Thác Chín Tầng 9 tầng đẹp mùa mưa, hợp nhóm bạn thích trekking. Điểm trừ lớn nhất là đường khó, các nguồn yêu cầu bắt buộc có người bản địa dẫn — không tự đi."
+   },
+   "ten": "Thác Chín Tầng (thác La Nhí)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 180,
+   "cum": "quy-nhon-binh-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Nhơn Lý, TP Quy Nhơn (tỉnh Bình Định cũ, nay thuộc Gia Lai), cách Pleiku ~180 km",
+   "gia_ve": "Khoảng 22.000–30.000đ/người lớn (nguồn mâu thuẫn: 22.000đ / 25.000đ / 30.000đ); trẻ em ~10.000đ",
+   "gio_mo_cua": "Cả ngày; đẹp nhất sáng sớm và hoàng hôn",
+   "hop_voi": "Mọi đối tượng thích chụp ảnh, cặp đôi",
+   "id": "eo-gio",
+   "lat": 13.88188,
+   "lng": 109.29026,
+   "luu_y": "Thuộc Bình Định cũ — ĐI RIÊNG cụm Quy Nhơn, không ghép cùng cung Pleiku trong 3N2Đ (cách ~180 km); đường đá gồ ghề, mang giày chắc chắn; đi cùng Kỳ Co trong ngày; tọa độ xấp xỉ (điểm tra được là nhà nghỉ Eo Gió trong xã), cần kiểm lại",
+   "nguon": "taynguyenjob.vn, letsflytravel.vn, mobitrip.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "letsflytravel.vn, taynguyenjob.vn, mobitrip.vn, buulong.com.vn",
+    "nhan_xet": "Eo Gió là góc sống ảo đẹp nhất Quy Nhơn: đường đá ven biển ôm vịnh xanh ngắt, hùng vĩ hiếm nơi nào ở miền Trung có. Giá vé mâu thuẫn giữa các nguồn (22.000đ / 25.000đ / 30.000đ). Điểm trừ là đường đá gồ ghề, không có bãi tắm, khó đi với người già và trẻ nhỏ; nên đi sáng sớm và mang giày chắc chắn. Thuộc Bình Định cũ — đi riêng cụm Quy Nhơn."
+   },
+   "ten": "Eo Gió (Nhơn Lý, Quy Nhơn — Bình Định cũ)",
+   "thoi_gian": "1–1,5 giờ (đi bộ đường đá ven biển)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 180,
+   "cum": "quy-nhon-binh-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Nhơn Lý, TP Quy Nhơn (tỉnh Bình Định cũ, nay thuộc Gia Lai), cách Pleiku ~180 km",
+   "gia_ve": "Vé bãi 100.000đ/người lớn; cano khứ hồi từ bến Nhơn Lý 120.000–150.000đ/người (tour trọn gói 350.000–450.000đ, có nguồn ghi tour 725.000–900.000đ)",
+   "gio_mo_cua": "Cano chạy ban ngày, phụ thuộc thời tiết; đẹp nhất tháng 3–9",
+   "hop_voi": "Gia đình, nhóm bạn thích biển đảo",
+   "id": "ky-co",
+   "lat": 13.88351,
+   "lng": 109.2916,
+   "luu_y": "Thuộc Bình Định cũ — ĐI RIÊNG cụm Quy Nhơn, không ghép cùng cung Pleiku; tránh tháng 10–2 biển động; tọa độ xấp xỉ (trung tâm xã Nhơn Lý), cần kiểm lại",
+   "nguon": "letsflytravel.vn, tourhaigiang.com.vn, seo.vietjetair.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "letsflytravel.vn, tourhaigiang.com.vn, seo.vietjetair.com",
+    "nhan_xet": "Kỳ Co nước xanh ngọc, cát trắng, được gọi là 'thiên đường hạ giới' — đẹp thật nếu đi đúng mùa (tháng 3–9). Vé bãi 100.000đ, cano 120.000–150.000đ hoặc tour trọn gói 350.000–450.000đ (có nguồn ghi tour 725.000–900.000đ). Điểm trừ là mùa cao điểm tháng 6–8 rất đông, tháng 10–2 biển động; nên ra bến sớm và mang tiền mặt. Thuộc Bình Định cũ — đi riêng cụm Quy Nhơn."
+   },
+   "ten": "Bãi biển Kỳ Co (Nhơn Lý, Quy Nhơn — Bình Định cũ)",
+   "thoi_gian": "Nửa ngày (tắm biển, lặn ngắm san hô Bãi Dứa)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 170,
+   "cum": "quy-nhon-binh-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Hưng Đạo, TP Quy Nhơn (tỉnh Bình Định cũ, nay thuộc Gia Lai), cách Pleiku ~170 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu kiến trúc Chăm, gia đình",
+   "id": "thap-doi",
+   "lat": 13.78785,
+   "lng": 109.2114,
+   "luu_y": "Thuộc Bình Định cũ — ĐI RIÊNG cụm Quy Nhơn; tháp Chăm thế kỷ XII ngay trong TP Quy Nhơn; tọa độ xấp xỉ (đường Tháp Đôi), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Tháp Đôi là tháp Chăm thế kỷ XII ngay trong TP Quy Nhơn, kiến trúc độc đáo, hợp người yêu lịch sử Chăm. Điểm trừ là quy mô nhỏ, chỉ chơi 45–60 phút, chưa kiểm được giá vé; nên ghép cùng Eo Gió – Kỳ Co trong ngày Quy Nhơn."
+   },
+   "ten": "Tháp Đôi (Quy Nhơn — Bình Định cũ)",
+   "thoi_gian": "45–60 phút",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Biển Hồ T'Nưng",
+   "gio": "5:30-7:00 sáng bình minh trên hồ hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Núi lửa Chư Đăng Ya",
+   "gio": "6:00-8:00 sáng hoặc 16:00-17:30 chiều, mùa hoa dã quỳ cuối tháng 10 – đầu tháng 11 đẹp nhất (Tuần lễ Hoa Dã quỳ 2026: 30/10–8/11/2026)",
+   "nguon": "Tuổi Trẻ — Tuần lễ Hoa Dã quỳ 2026 (30/10–8/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Biển Hồ chè",
+   "gio": "6:00-8:00 sáng, sương mờ trên đồi chè",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào chùa Minh Thành và bảo tàng — tránh Biển Hồ chè, Chư Đăng Ya vì đường đất trơn. (Cập nhật 08/11/2026: bỏ Quảng trường Đại Đoàn Kết khỏi danh sách trú mưa vì ngoài trời, không mái che; tên bảo tàng ở quảng trường chưa tra được.)",
+  "diem": [
+   "Chùa Minh Thành",
+   "Làng Plei Opp (làng Jrai)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bien-ho-tnung, bien-ho-che",
+    "hoat_dong": "Biển Hồ T'Nưng (1,5–2 giờ) + Biển Hồ chè",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-minh-thanh, quang-truong-dai-doan-ket",
+    "hoat_dong": "Chùa Minh Thành (1 giờ) + Quảng trường Đại Đoàn Kết",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Phở khô Ngọc Sơn/Hồng + dạo phố núi",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "nui-lua-chu-dang-ya",
+    "hoat_dong": "Núi lửa Chư Đăng Ya (2–3 giờ, đi sớm)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-plei-opp, nui-ham-rong",
+    "hoat_dong": "Làng Plei Opp + núi Hàm Rồng",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Gà nướng cơm lam Bazan",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thac-phu-cuong",
+    "hoat_dong": "Thác Phú Cường (2–3 giờ, đi sớm)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thung-lung-co-hong-glar",
+    "hoat_dong": "Thung lũng cỏ hồng Glar (nếu đúng mùa) hoặc mua đặc sản, về trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Pleiku",
+  "best_season": "Tháng 9–tháng 12 (hoa dã quỳ nở tháng 10–11, lúa chín Chư Đăng Ya) và tháng 1–tháng 4 (mùa khô); thác đẹp nhất mùa mưa tháng 5–9",
+  "destination": "Gia Lai",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 7/13 điểm chính xác, 6 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "gia-lai",
+  "lat": 13.98076,
+  "lng": 108.00073,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "tourdulichmangden.vn",
+   "kinhdoanhnet.vn",
+   "ongvove.com",
+   "wikidulich.com",
+   "vietnambackpackers.vn",
+   "booking.muongthanh.com",
+   "vietsensetravel.com",
+   "vexere.com"
+  ],
+  "overview": "Phố núi Pleiku giữa cao nguyên: Biển Hồ miệng núi lửa, núi lửa Chư Đăng Ya, đồi chè, thác Phú Cường và văn hóa Jrai – Ba Na. Từ 07/2025 gồm cả tỉnh Bình Định cũ (biển Quy Nhơn) — file này chỉ làm khu vực Pleiku và cao nguyên.",
+  "province": "Gia Lai",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 9–tháng 12 (hoa dã quỳ nở tháng 10–11, lúa chín Chư Đăng Ya) và tháng 1–tháng 4 (mùa khô); thác đẹp nhất mùa mưa tháng 5–9"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "ten": "Đường dây nóng du lịch Gia Lai (Sở VHTTDL)",
+    "so": "0932 40 42 46",
+    "nguon": "Sở VHTTDL Gia Lai; UBND phường Pleiku vận động >100 cơ sở công khai số này, 31/10/2026 (ngày kiểm 08/11/2026)"
+   },
+   {
+    "ten": "Quản lý thị trường Gia Lai",
+    "so": "0913 469 475",
+    "nguon": "Sở VHTTDL Gia Lai (ngày kiểm 08/11/2026)"
+   },
+   {
+    "ten": "Ban Chỉ đạo 389 tỉnh Gia Lai",
+    "so": "0977 666 389 / 0978 666 389",
+    "nguon": "Sở VHTTDL Gia Lai (ngày kiểm 08/11/2026)"
+   }
+  ]
+ }
+}

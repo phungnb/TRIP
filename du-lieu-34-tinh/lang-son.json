@@ -1,0 +1,952 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–500.000đ/con (2 nguồn ghi khác nhau: 150.000–200.000đ/con vs 300.000–500.000đ/con)",
+   "mon": "Vịt quay lá mắc mật",
+   "nguon": "mytour.vn, nhahang.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Vịt quay lá mắc mật thơm nức, da giòn thịt mềm — món signature của Lạng Sơn, ai đến cũng nên thử. Điểm trừ là giá theo con, khá cao. Hợp bữa trưa/tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "128 Bắc Sơn, TP Lạng Sơn (1 nguồn ghi 164 Bắc Sơn — mâu thuẫn số nhà)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Vịt quay Hương Nga"
+    },
+    {
+     "dia_chi": "173 Bắc Sơn, phường Vĩnh Trại, TP Lạng Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Vịt quay Thủy Cửu"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô (1 nguồn ghi 35.000–40.000đ/phần)",
+   "mon": "Phở chua Lạng Sơn",
+   "nguon": "mytour.vn, nhahang.org, quynhthanhlimousine.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Phở chua Lạng Sơn ngọt thanh, giòn sần sật — món ăn sáng nổi tiếng, khác phở chua Cao Bằng ở vị. Điểm trừ là vị chua ngọt không phải ai cũng hợp. Hợp ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "73 Nhị Thanh, phường Tam Thanh, TP Lạng Sơn",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Phở Phượng"
+    },
+    {
+     "dia_chi": "Đường Lê Lai, TP Lạng Sơn (chưa kiểm được số nhà cụ thể)",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Phở chua đường Lê Lai"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–50.000đ/phần (1 nguồn ghi 10.000–20.000đ/phần — mâu thuẫn)",
+   "mon": "Bánh cuốn trứng",
+   "nguon": "mytour.vn, nhahang.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh cuốn trứng Lạng Sơn mềm, trứng lòng đào, ăn với nước chấm đậm — món sáng được khen nhiều. Điểm trừ là chỉ bán buổi sáng. Nên đi ăn sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "119 Bắc Sơn, TP Lạng Sơn",
+     "gia": "30.000–50.000đ/phần",
+     "ten": "Bánh cuốn Bà Loan"
+    },
+    {
+     "dia_chi": "14 Nguyễn Du, phường Vĩnh Trại, TP Lạng Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh cuốn Bà Thắm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–55.000đ/suất",
+   "mon": "Bánh áp chao",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh áp chao Lạng Sơn giòn, nhân thịt vịt — món vặt mùa lạnh. Điểm trừ là dầu mỡ nhiều. Hợp ăn vặt buổi chiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "252 Bà Triệu, phường Vĩnh Trại, TP Lạng Sơn (1 nguồn ghi 8 Thân Thừa Quý — mâu thuẫn)",
+     "gia": "15.000–55.000đ/suất",
+     "ten": "Quán Xuân Sửu"
+    },
+    {
+     "dia_chi": "Cổng trường Vĩnh Trại 1, đường Chu Văn An, TP Lạng Sơn",
+     "gia": "5.000–20.000đ/suất",
+     "ten": "Quán áp chao Vĩnh Trại"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá/phần hiện hành",
+   "mon": "Khâu nhục",
+   "nguon": "nhahang.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Khâu nhục mềm nhừ, béo thơm — món truyền thống của người Tày, Nùng, ăn với cơm trắng rất hợp. Điểm trừ là béo, người kiêng mỡ khó ăn. Hợp bữa trưa/tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "57 Phai Vệ, Đông Kinh, TP Lạng Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Thảo Viên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–180.000đ/kg",
+   "mon": "Lợn quay lá mắc mật",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Lợn quay lá mắc mật da giòn, thịt thơm — món tiệc của Lạng Sơn. Điểm trừ là giá theo kg, khá cao. Hợp bữa tiệc theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "215 Trần Đăng Ninh, TP Lạng Sơn",
+     "gia": "150.000–180.000đ/kg",
+     "ten": "Quán ông Gù (thịt lợn quay)"
+    },
+    {
+     "dia_chi": "128 Bắc Sơn, TP Lạng Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Vịt quay Hương Nga"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được quán riêng + giá",
+   "mon": "Nem nướng Hữu Lũng",
+   "nguon": "nhahang.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Nem nướng Hữu Lũng thơm, dai, ăn kèm rau sống — món đặc sản của Hữu Lũng. Điểm trừ là ít quán bán ở TP Lạng Sơn. Hợp ăn vặt."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Hữu Lũng (chưa kiểm được quán riêng)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Hữu Lũng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được quán riêng + giá",
+   "mon": "Bánh cao sằng",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh cao sằng mềm, nhân thịt — món sáng của người Tày. Điểm trừ là ít quán bán, phải hỏi người địa phương. Hợp ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Đông Kinh, TP Lạng Sơn (chưa kiểm được quán riêng)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Đông Kinh"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng (theo mùa)",
+   "mon": "Đào Mẫu Sơn / rượu Mẫu Sơn (mua làm quà)",
+   "nguon": "travel.mtrip.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đào Mẫu Sơn ngọt thơm theo mùa, rượu Mẫu Sơn nồng — mua làm quà rất hợp. Điểm trừ là đào chỉ có mùa hè, rượu giả nhiều. Nên mua ở cửa hàng tin cậy, đúng mùa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Đông Kinh, TP Lạng Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Đông Kinh"
+    },
+    {
+     "dia_chi": "Xã Công Sơn, Cao Lộc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Đỉnh Mẫu Sơn"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–HAN khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+  },
+  {
+   "hang_muc": "Xe HN–Lạng Sơn khứ hồi (limousine)",
+   "uoc_tinh": "340.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "600.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (chủ yếu miễn phí; Nhị Thanh + Thành Nhà Mạc)",
+   "uoc_tinh": "40.000–100.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày / taxi đi Mẫu Sơn, Đồng Đăng",
+   "uoc_tinh": "300.000–600.000đ (chưa kiểm được giá thuê ô tô)"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.830.000–9.000.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+   "uoc_tinh": "Tổng còn ~1.830.000–4.000.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá nhiều sạp trước khi mua, kiểm hàng kỹ tại chỗ, không mua đồ điện tử không bảo hành; giữ hóa đơn nếu mua giá trị cao",
+   "nguon": "kinh nghiệm chung du lịch Lạng Sơn; chưa tra được bài báo chính thống riêng về chợ Đông Kinh (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ Đông Kinh, chợ Kỳ Lừa: hàng giả, hàng nhái, giá nói thách; mua đồ điện tử, quần áo không kiểm kỹ"
+  },
+  {
+   "cach_tranh": "Thuê xe số ở cửa hàng có đánh giá tốt; kiểm tra phanh/lốp/đèn, chụp ảnh vết xước trước khi nhận; hỏi rõ cọc và phạm vi đi",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy đi Mẫu Sơn, Bắc Sơn: giữ giấy tờ gốc, xe yếu leo dốc; trả xe bị bắt đền vết xước"
+  },
+  {
+   "cach_tranh": "Hỏi giá giữ xe/chụp ảnh trước khi vào; ưu tiên điểm có bảng giá của địa phương/hợp tác xã du lịch cộng đồng",
+   "nguon": "kinh nghiệm chung du lịch Lạng Sơn; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Điểm chụp ảnh ở thung lũng Bắc Sơn, đỉnh Nà Lay, Mẫu Sơn: có người thu phí chụp ảnh/giữ xe không niêm yết"
+  },
+  {
+   "cach_tranh": "Đọc đánh giá gần nhất, nhắn hỏi chủ nhà về giá mùa cao điểm và phí phát sinh trước khi đặt",
+   "nguon": "kinh nghiệm chung du lịch Lạng Sơn; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay thung lũng Bắc Sơn, Hữu Liên: đặt online khác ảnh thật, phụ thu mùa lúa chín tháng 9–10"
+  }
+ ],
+ "checklist": [
+  "Áo khoác (Mẫu Sơn lạnh, sương mù quanh năm; tháng 11–1 có thể có băng giá)",
+  "Áo mưa mỏng, giày đi bộ (leo Thành Nhà Mạc, cột cờ Phai Vệ, động Tam Thanh)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy); mang CCCD/hộ chiếu khi ra cửa khẩu Hữu Nghị",
+  "Tiền mặt lẻ (chợ Đông Kinh, quán nhỏ)",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Hỏi giá, trả giá trước khi mua đồ ở chợ Đông Kinh"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Four Points by Sheraton Lang Son"
+  ],
+  "diem": [
+   "Thảo nguyên Hữu Liên (Đồng Lâm)",
+   "Thung lũng Bắc Sơn (đỉnh Nà Lay)",
+   "Chùa – động Tam Thanh",
+   "Ải Chi Lăng"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Lạng Sơn",
+   "Four Points by Sheraton Lang Son",
+   "Homestay thung lũng Bắc Sơn"
+  ],
+  "diem_chay": [
+   "Thảo nguyên Hữu Liên (Đồng Lâm)",
+   "Đường quanh thung lũng Bắc Sơn buổi sáng sớm",
+   "Quanh khu vực Cột cờ Phai Vệ, TP Lạng Sơn"
+  ],
+  "giai": [
+   {
+    "nguon": "bvhttdl.gov.vn — Khám phá Lạng Sơn qua các giải chạy việt dã (ngày kiểm 08/11/2026)",
+    "ten": "Mẫu Sơn Mount Paths",
+    "thoi_gian": "đầu năm (lần đầu đầu năm 2024; cự ly 10/25/42/70 km, cung đường qua TP Lạng Sơn, Cao Lộc, Lộc Bình)"
+   },
+   {
+    "nguon": "baolangson.vn — Hơn 770 VĐV tham gia giải chạy 2023; nhandan.vn — Lễ hội Mùa vàng Bắc Sơn 2026 (ngày kiểm 08/11/2026)",
+    "ten": "Giải chạy Mùa vàng Bắc Sơn (Xứ sở vàng, ngàn trải nghiệm)",
+    "thoi_gian": "tháng 10 hằng năm, gắn Lễ hội Mùa vàng Bắc Sơn (2026: 23/10–3/11; cự ly 5/10/21 km)"
+   },
+   {
+    "nguon": "vietnam.vn — Lang Son Geopark Ultra Trail Huu Lien 2025 (ngày kiểm 08/11/2026)",
+    "ten": "Lang Son Geopark Ultra Trail – Hữu Liên",
+    "thoi_gian": "tháng 12 (2025: 27–28/12; cự ly 5/15/30/60 km)"
+   }
+  ],
+  "nguon": "bvhttdl.gov.vn; baolangson.vn; vietnam.vn (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Lạng Sơn (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP, cách chợ Đông Kinh ~10 phút xe",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "68 Ngô Quyền, phường Vĩnh Trại, TP Lạng Sơn",
+   "dien_thoai": "0205 3866 668",
+   "gia": "~1.300.000–3.100.000đ/đêm (Traveloka: 1.306.877–3.136.506đ)",
+   "hang": "4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt; Traveloka ghi Luxury)",
+   "hop_voi": "Gia đình, khách đoàn, khách muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, trip.com, cuongdulich.com",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Lạng Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Lạng Sơn, bờ sông Kỳ Cung, gần Vincom (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0205 3782 999",
+   "gia": "~700.000–2.000.000đ/đêm (phòng tiêu chuẩn từ 700.000đ; suite tới 2.000.000đ)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình, khách công tác, khách nghỉ dưỡng",
+   "khu_vuc": "trung-tam",
+   "nguon": "cuongdulich.com",
+   "nguon_dien_thoai": "marriott.com (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: gộp với Vinpearl Lạng Sơn (cùng SĐT 0205 3782 999; đổi tên 2022 — vinpearl.com 22/06/2022).",
+   "ten": "Four Points by Sheraton Lạng Sơn (tên cũ: Vinpearl Lạng Sơn)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lạng Sơn ~70 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hữu Liên, Hữu Lũng",
+   "dien_thoai": "0984 419 471",
+   "gia": "Chưa kiểm được khoảng giá hiện hành",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn, gia đình đi thảo nguyên",
+   "khu_vuc": "huu-lien",
+   "nguon": "cuongdulich.com",
+   "nguon_dien_thoai": "bamboohillresort.com (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Bamboo Hill Hữu Liên",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lạng Sơn ~30 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đỉnh Mẫu Sơn, xã Công Sơn, Cao Lộc (chưa kiểm được tên cụ thể)",
+   "dien_thoai": null,
+   "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+   "hang": "Nhà nghỉ",
+   "hop_voi": "Nhóm bạn săn mây, ngủ lại đỉnh",
+   "khu_vuc": "mau-son",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ trên đỉnh Mẫu Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lạng Sơn ~14 km, gần cửa khẩu Hữu Nghị",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Đồng Đăng, Cao Lộc (chưa kiểm được tên + số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+   "hang": "Nhà nghỉ",
+   "hop_voi": "Khách đi cửa khẩu, chợ Đồng Đăng",
+   "khu_vuc": "dong-dang",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ tại Đồng Đăng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Lạng Sơn ~70 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Bắc Sơn (chưa kiểm được tên + địa chỉ cụ thể)",
+   "dien_thoai": null,
+   "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn ngắm lúa Bắc Sơn tháng 9–10",
+   "khu_vuc": "bac-son",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay thung lũng Bắc Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giờ mở cửa hầu hết các điểm Lạng Sơn — chưa kiểm được giờ chính thức",
+  "Giá vé cột cờ Phai Vệ — chưa kiểm được mức hiện hành",
+  "Giá vé thảo nguyên Hữu Liên — chưa kiểm được (khu vực mở, dịch vụ tính riêng)",
+  "Số nhà mâu thuẫn: vịt quay Hương Nga (128 vs 164 Bắc Sơn), quán Xuân Sửu (252 Bà Triệu vs 8 Thân Thừa Quý)",
+  "Giá vịt quay (150.000–200.000đ/con vs 300.000–500.000đ/con) và bánh cuốn trứng (10.000–20.000đ vs 20.000–50.000đ/phần) — mâu thuẫn giữa các nguồn",
+  "Hạng sao Mường Thanh Luxury Lạng Sơn (4 sao vs 5 sao) — mâu thuẫn, chưa chốt",
+  "Khoảng giá + tên của 4/7 chỗ ở (Bamboo Hill, nhà nghỉ Mẫu Sơn, nhà nghỉ Đồng Đăng, homestay Bắc Sơn) — chưa kiểm được",
+  "Giá riêng: khâu nhục, nem nướng Hữu Lũng, bánh cao sằng, đào/rượu Mẫu Sơn — chưa kiểm được; quán riêng của 3 món sau chưa kiểm được",
+  "Giá thuê xe máy/taxi/thuê ô tô tại Lạng Sơn — chưa kiểm được mức riêng",
+  "Giá vé máy bay SGN–HAN — chưa kiểm được mức hiện hành",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 3 điểm từng null (trong đó 2 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 9 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Lạng Sơn không có đèo dài như tứ đại đỉnh đèo Tây Bắc, nhưng đường lên đỉnh Mẫu Sơn (cao ~1.500 m) dốc, nhiều cua gấp, sương mù dày và đường trơn vào mùa đông (tháng 11–1 săn mây nhưng cũng là lúc mù dày nhất); chỉ đi ban ngày, xe số, kiểm tra phanh/lốp/đèn, tốc độ chậm, bấm còi ở cua khuất. Đèo Sài Hồ (QL4B, Lạng Sơn – Quảng Ninh): dốc, cua liên tục, xe tải lớn nhiều — không vượt ở đoạn khuất, giữ khoảng cách với xe tải. Đường đi thung lũng Bắc Sơn (đỉnh Nà Lay), thảo nguyên Hữu Liên: dốc đồi, đường đất đá trơn khi mưa; tránh đi ban đêm và mùa mưa tháng 6–8. Đường biên giới đi cửa khẩu Hữu Nghị, Đồng Đăng: tuân thủ biển báo, không dừng đỗ sai quy định khu vực cửa khẩu. Mang CCCD/hộ chiếu và giấy tờ xe đầy đủ.",
+  "deo": [
+   "Đường lên đỉnh Mẫu Sơn: dốc cao ~1.500 m, nhiều cua gấp, sương mù dày mùa đông, đường trơn",
+   "Đèo Sài Hồ (QL4B): dốc, cua liên tục, nhiều xe tải lớn",
+   "Đường lên đỉnh Nà Lay (thung lũng Bắc Sơn) và thảo nguyên Hữu Liên: dốc đồi, đường đất đá trơn khi mưa"
+  ],
+  "nguon": "dữ liệu tỉnh Lạng Sơn — Đỉnh Mẫu Sơn, thung lũng Bắc Sơn (ngày kiểm 06/11/2026); kinh nghiệm chung đường đèo Lạng Sơn (ngày kiểm 08/11/2026) (lưu ý: chi tiết đèo Sài Hồ chưa tra được nguồn tin cậy riêng, xem ghi chú)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Lạng Sơn không có sân bay, không có ga tàu khách tới trung tâm (ga Lạng Sơn chỉ chạy tàu liên vận hạn chế). Sân bay gần nhất: Nội Bài (HAN), cách TP Lạng Sơn ~150 km.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Quỳnh Thanh VIP Limo (1 tiếng 1 chuyến, 5:00–21:00, đón trả tận nơi), Ninh Quỳnh, Duy Quang, Huy Võ. Đón Mỹ Đình/Cầu Giấy/Long Biên",
+    "gia": "170.000–300.000đ/chiều (Quỳnh Thanh/Ninh Quỳnh 260.000đ; Duy Quang limousine 260.000đ; Huy Võ 240.000đ; Tiến Trọc 280.000đ)",
+    "nguon": "motortrip.vn, mobitrip.vn, vexere.com",
+    "phuong_tien": "Limousine Hà Nội–Lạng Sơn",
+    "thoi_gian": "2,5–3,5 giờ, ~150–160 km (cao tốc CT05 + QL1A)"
+   },
+   {
+    "ghi_chu": "Hãng: Đại An, Duy Quang Bus; 1 tiếng 1 chuyến, 5:00–19:00",
+    "gia": "170.000–190.000đ/chiều (Đại An 170.000đ; Duy Quang bus 190.000đ)",
+    "nguon": "motortrip.vn, mobitrip.vn",
+    "phuong_tien": "Xe bus 16 chỗ Hà Nội–Lạng Sơn",
+    "thoi_gian": "2,5–3,5 giờ"
+   },
+   {
+    "ghi_chu": "Cao tốc Bắc Giang – Lạng Sơn (CT05); xe máy đi QL1A cũ, không vào cao tốc",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe máy / ô tô riêng Hà Nội–Lạng Sơn",
+    "thoi_gian": "Ô tô ~2,5 giờ; xe máy ~3–4 giờ"
+   }
+  ],
+  "tu_san_bay": [],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án thực tế nhất. Lạng Sơn không có sân bay; sân bay gần nhất là Nội Bài",
+    "gia": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Lạng Sơn 170.000–300.000đ/chiều",
+    "nguon": "motortrip.vn, vexere.com",
+    "phuong_tien": "Máy bay SGN–HAN + xe limousine Hà Nội–Lạng Sơn",
+    "thoi_gian": "Bay ~2h05 + xe 2,5–3,5 giờ (~150–160 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đủ đi các điểm trong TP + Mẫu Sơn (30 km); đi Hữu Liên/Bắc Sơn nên thuê ô tô",
+   "gia": "Chưa kiểm được mức riêng tại Lạng Sơn (mặt bằng chung 100.000–180.000đ/ngày — chưa kiểm)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "Chưa kiểm được nguồn riêng Lạng Sơn",
+   "phuong_tien": "Thuê xe máy"
+  },
+  {
+   "ghi_chu": "Quãng trong TP ngắn; hỏi giá trước khi lên xe",
+   "gia": "Chưa kiểm được mức riêng tại Lạng Sơn",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lạng Sơn",
+   "phuong_tien": "Taxi nội thành TP Lạng Sơn"
+  },
+  {
+   "ghi_chu": "Nên thuê khi đi Mẫu Sơn + Đồng Đăng + Hữu Nghị trong 1 ngày, hoặc Hữu Liên/Bắc Sơn",
+   "gia": "Chưa kiểm được mức riêng tại Lạng Sơn",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lạng Sơn",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Đi chặng ngắn trong TP",
+   "gia": "Chưa kiểm được mức riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Lạng Sơn",
+   "phuong_tien": "Xe ôm"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Tam Thanh, phường Tam Thanh, TP Lạng Sơn (trong núi đá, leo 30 bậc đá)",
+   "gia_ve": "Miễn phí (theo intour.vn bảng giá 2025)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng, người thích tâm linh/lịch sử",
+   "id": "dong-tam-thanh",
+   "lat": 21.8558,
+   "lng": 106.74118,
+   "luu_y": "Trong động có tượng Phật tạc vào đá, bia Ma Nhai cổ; ngắm núi Tô Thị (nàng Tô Thị bồng con) từ khu vực này. Tọa độ ghi theo mức đường Tam Thanh, chưa phải tọa độ cổng chính xác",
+   "nguon": "intour.vn, tour.pro.vn, cuongdulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; intour.vn",
+    "nhan_xet": "Chùa – động trong núi đá ngay trung tâm TP, leo 30 bậc là tới — điểm tâm linh và lịch sử lâu đời của Lạng Sơn. Điểm trừ là quy mô nhỏ, đi nhanh là hết. Hợp ghé 30 phút–1 giờ trong ngày dạo TP."
+   },
+   "ten": "Chùa – động Tam Thanh",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Tam Thanh, TP Lạng Sơn (cách động Tam Thanh ~1,1 km)",
+   "gia_ve": "20.000đ/người lớn; trẻ em trên 1,2 m 20.000đ; dưới 1,2 m miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng",
+   "id": "dong-nhi-thanh",
+   "lat": 21.8565,
+   "lng": 106.752,
+   "luu_y": "Trong động có suối Ngọc Tuyền chảy qua, thạch nhũ hoang sơ Tọa độ xấp xỉ, cần kiểm lại — cách động Tam Thanh ~1,1 km.",
+   "nguon": "intour.vn, tour.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Động đẹp với thạch nhũ và thơ ca khắc trên vách đá, cách Tam Thanh ~1,1 km. Điểm trừ là vé 20.000đ/người và không gian động nhỏ hơn Tam Thanh. Hợp người yêu thơ ca và hang động, ghép với Tam Thanh."
+   },
+   "ten": "Động Nhị Thanh",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 14,
+   "cum": "dong-dang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Quốc Toản, thị trấn Đồng Đăng, Cao Lộc",
+   "gia_ve": "Miễn phí (theo intour.vn)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức; đông nhất dịp lễ hội đầu năm",
+   "hop_voi": "Mọi đối tượng, người đi lễ",
+   "id": "den-mau-dong-dang",
+   "lat": 21.95155,
+   "lng": 106.69672,
+   "luu_y": "Đền cổ trên đỉnh núi cạnh chợ Đồng Đăng; lễ hội đầu năm rất đông — đi sớm, giữ tư trang",
+   "nguon": "tour.pro.vn, intour.vn, dulichxanh.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đền Mẫu linh thiêng, lễ hội đầu năm rất đông — điểm tâm linh quan trọng của Lạng Sơn. Điểm trừ là lễ hội đông nghẹt, đi lại khó. Hợp đi lễ đầu năm; ngày thường ghé 30 phút."
+   },
+   "ten": "Đền Mẫu Đồng Đăng",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Ngô Thì Vị, phường Tam Thanh, TP Lạng Sơn",
+   "gia_ve": "20.000đ/người (theo cuongdulich.com)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người thích lịch sử, ngắm toàn cảnh TP",
+   "id": "thanh-nha-mac",
+   "lat": 21.85633,
+   "lng": 106.75119,
+   "luu_y": "Thành cổ còn sót đoạn tường + cổng; leo bậc đá dốc, mang giày bệt",
+   "nguon": "cuongdulich.com, tour.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; cuongdulich.com",
+    "nhan_xet": "Thành cổ nhà Mạc trên đồi, view TP Lạng Sơn — di tích lịch sử gắn với triều Mạc. Điểm trừ là thành còn ít, chủ yếu là tường và view. Hợp người yêu lịch sử, ghé 30 phút–1 giờ."
+   },
+   "ten": "Thành Nhà Mạc",
+   "thoi_gian": "1 giờ (leo ~100 bậc thang đá cổ)"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Vĩnh Trại, TP Lạng Sơn",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng, người thích ngắm toàn cảnh",
+   "id": "cot-co-phai-ve",
+   "lat": 21.858,
+   "lng": 106.748,
+   "luu_y": "Đứng trên đỉnh cột cờ ngắm toàn cảnh TP Lạng Sơn; leo bậc, mang giày bệt Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực núi Phai Vệ, phường Vĩnh Trại.",
+   "nguon": "tour.pro.vn, dulichhana.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cột cờ trên núi Phai Vệ, view toàn cảnh TP Lạng Sơn — đẹp nhất lúc hoàng hôn. Điểm trừ là phải leo núi, giá vé chưa kiểm được. Hợp người thích leo và chụp ảnh toàn cảnh."
+   },
+   "ten": "Cột cờ Phai Vệ",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "mau-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Công Sơn, Cao Lộc (cách TP Lạng Sơn ~30 km)",
+   "gia_ve": "Miễn phí (theo intour.vn)",
+   "gio_mo_cua": "Cả ngày (đi trong ngày)",
+   "hop_voi": "Cặp đôi, nhóm bạn, người thích săn mây",
+   "id": "dinh-mau-son",
+   "lat": 21.85415,
+   "lng": 106.95482,
+   "luu_y": "Được ví là 'Đà Lạt của Đông Bắc'; sương mù quanh năm, tháng 11–1 săn mây, có thể có băng giá mùa đông — mang áo ấm dày. Đặc sản: đào tiên, chè tuyết, rượu thảo mộc",
+   "nguon": "intour.vn, travel.mtrip.vn, cuongdulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; intour.vn",
+    "nhan_xet": "Đỉnh Mẫu Sơn mát lạnh quanh năm, mùa đông có thể có băng giá — điểm tránh nóng độc đáo của Lạng Sơn. Điểm trừ là cách TP ~30 km, đường đèo khó, dịch vụ trên đỉnh ít. Hợp người thích khí hậu lạnh và săn băng; nên đi mùa đông."
+   },
+   "ten": "Đỉnh Mẫu Sơn",
+   "thoi_gian": "Nửa ngày (tính cả di chuyển)"
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "chi-lang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Chi Lăng, Chi Lăng (QL1A, cách TP Lạng Sơn ~30 km về phía nam)",
+   "gia_ve": "Miễn phí (khu vực ngoài trời)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Người thích lịch sử, chụp ảnh",
+   "id": "ai-chi-lang",
+   "lat": 21.61542,
+   "lng": 106.54582,
+   "luu_y": "Hẻm núi lịch sử gắn với chiến thắng Chi Lăng; Quỷ Môn Quan gần đó. Tọa độ ghi theo mức cầu Ải Chi Lăng, chưa phải tọa độ điểm tham quan chính xác",
+   "nguon": "travel.mtrip.vn, tour.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Ải Chi Lăng gắn với chiến thắng lịch sử, núi đá hai bên hùng vĩ — điểm dừng chân ý nghĩa trên Quốc lộ 1A. Điểm trừ là khu vực ngoài trời, ít dịch vụ. Hợp dừng 30 phút trên đường Hà Nội – Lạng Sơn."
+   },
+   "ten": "Ải Chi Lăng",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 70,
+   "cum": "huu-lien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hữu Liên, Hữu Lũng",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành (khu vực đồng cỏ mở; dịch vụ homestay/chèo thuyền tính riêng)",
+   "gio_mo_cua": "Ban ngày; đẹp nhất mùa khô tháng 11–4 (hồ Nong Đùng cạn lộ đồng cỏ)",
+   "hop_voi": "Nhóm bạn, gia đình, người thích cắm trại/chèo thuyền",
+   "id": "thao-nguyen-huu-lien",
+   "lat": 21.69281,
+   "lng": 106.37716,
+   "luu_y": "Đồng cỏ rộng + hồ Nong Đùng; mùa mưa nước dâng, đường vào khó — hỏi homestay địa phương trước. Tọa độ ghi theo mức xã Hữu Liên",
+   "nguon": "cuongdulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đồng cỏ xanh mướt như thảo nguyên, hồ Nong Dùng trong vắt — điểm check-in mới nổi của Lạng Sơn. Điểm trừ là cách TP ~70 km, giá vé và dịch vụ chưa thống nhất. Hợp người thích chụp ảnh và cắm trại; nên đi mùa khô."
+   },
+   "ten": "Thảo nguyên Hữu Liên (Đồng Lâm)",
+   "thoi_gian": "Nửa ngày (tính cả di chuyển ~70 km)"
+  },
+  {
+   "cach_trung_tam_km": 17,
+   "cum": "dong-dang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 1A, thị trấn Đồng Đăng, Cao Lộc (cách TP ~17 km)",
+   "gia_ve": "Miễn phí check-in khu vực ngoài (không qua cửa khẩu)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cua-khau-huu-nghi",
+   "lat": 21.96824,
+   "lng": 106.71014,
+   "luu_y": "Chỉ chụp ảnh khu vực ngoài, cột mốc 1116 gần đó; KHÔNG tự ý vào khu vực kiểm soát; mang CCCD/hộ chiếu nếu có ý định làm thủ tục xuất cảnh (không nằm trong lịch trình này)",
+   "nguon": "tour.pro.vn, cuongdulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cửa khẩu quốc tế với Trung Quốc, check-in cột mốc và cổng chào — điểm biên giới ý nghĩa. Điểm trừ là không qua được cửa khẩu nếu không có giấy tờ, chỉ chụp ảnh khu vực ngoài. Hợp ghé 30 phút kèm đền Mẫu Đồng Đăng."
+   },
+   "ten": "Cửa khẩu quốc tế Hữu Nghị",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Đông Kinh, TP Lạng Sơn (chợ lớn nhất Lạng Sơn)",
+   "gia_ve": "Miễn phí vào chợ",
+   "gio_mo_cua": "Ban ngày (chợ ngày); chợ đêm Kỳ Lừa gần đó buổi tối",
+   "hop_voi": "Mọi đối tượng, người thích mua sắm",
+   "id": "cho-dong-kinh",
+   "lat": 21.85135,
+   "lng": 106.76127,
+   "luu_y": "Chợ biên mậu sầm uất: đồ da, điện tử, may mặc; hỏi giá, trả giá trước khi mua; giữ tư trang",
+   "nguon": "tour.pro.vn, dulichhana.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Chợ lớn nhất Lạng Sơn, đủ loại hàng Trung Quốc và đặc sản địa phương — mua sắm rẻ, mặc cả vui. Điểm trừ là đông, dễ móc túi, hàng giả nhiều. Hợp buổi sáng, hỏi giá và mặc cả trước khi mua."
+   },
+   "ten": "Chợ Đông Kinh",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Vĩnh Trại, TP Lạng Sơn (bên sông Kỳ Cùng, gần trung tâm)",
+   "gia_ve": "Miễn phí (chưa kiểm được phí dịch vụ nếu có)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày; lễ hội 22–27 tháng Giêng hằng năm",
+   "hop_voi": "Mọi đối tượng, người yêu tín ngưỡng",
+   "id": "den-ky-cung",
+   "lat": 21.849,
+   "lng": 106.758,
+   "luu_y": "Đền thờ thần sông Kỳ Cùng, gắn với lễ hội Kỳ Cùng – Tả Phủ lớn nhất Lạng Sơn (22–27 tháng Giêng). Tọa độ xấp xỉ, cần kiểm lại. Đi lễ đầu năm rất đông, đi sớm và giữ tư trang.",
+   "nguon": "dulichviet.com.vn, langson.gov.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Đền linh thiêng và gắn với lễ hội lớn nhất Lạng Sơn nên rất đáng ghé, nhất là dịp đầu năm. Điểm yếu là ngày thường khá vắng và ít hoạt động, đi nhanh là hết. Hợp ghé 1 giờ trong ngày dạo trung tâm TP."
+   },
+   "ten": "Đền Kỳ Cùng",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hoàng Văn Thụ, TP Lạng Sơn (trung tâm TP)",
+   "gia_ve": "Miễn phí vào chợ",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — họp cả ngày, đông nhất buổi sáng",
+   "hop_voi": "Mọi đối tượng, người thích mua sắm – ẩm thực",
+   "id": "cho-ky-lua",
+   "lat": 21.853,
+   "lng": 106.757,
+   "luu_y": "Chợ lớn và lâu đời của Lạng Sơn, cùng cụm trung tâm với động Tam Thanh và chợ Đông Kinh — tiện ghép buổi sáng. Tọa độ xấp xỉ, cần kiểm lại. Mua đặc sản (vịt quay, bánh, đào Mẫu Sơn theo mùa), nhớ mặc cả và hỏi giá trước.",
+   "nguon": "dulichviet.com.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Chợ Kỳ Lừa vui và nhiều đồ ăn đặc sản Lạng Sơn, giá mềm hơn khu du lịch — đáng ghé ăn sáng và mua quà. Điểm yếu là đông, dễ móc túi giờ cao điểm. Hợp buổi sáng, đi cùng chợ Đông Kinh trong một buổi."
+   },
+   "ten": "Chợ Kỳ Lừa",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 70,
+   "cum": "bac-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Bắc Sơn, Lạng Sơn (cách TP Lạng Sơn ~70 km)",
+   "gia_ve": "Miễn phí ngắm thung lũng (chưa kiểm được phí dịch vụ homestay/làng Quỳnh Sơn nếu có)",
+   "gio_mo_cua": "Cả ngày; đẹp nhất giữa tháng 7 và tháng 11 mùa lúa chín",
+   "hop_voi": "Người thích chụp ảnh ruộng lúa, gia đình, cặp đôi",
+   "id": "thung-lung-bac-son",
+   "lat": 21.90008,
+   "lng": 106.31892,
+   "luu_y": "Thung lũng lúa nổi tiếng với 'tấm thổ cẩm' nhiều màu do cấy – gặt lệch nhau; đỉnh Nà Lay cao ~600 m, 1.200 bậc, view toàn cảnh đẹp nhất lúc bình minh/hoàng hôn. Tọa độ xấp xỉ, cần kiểm lại (lấy theo trung tâm thị trấn Bắc Sơn). Mùa lúa chín chỉ kéo dài khoảng 1 tuần/vụ — căn đúng lịch. Đã có homestay làng Quỳnh Sơn trong file chỗ ở.",
+   "nguon": "authentiktravel.com, vamvo.com, nongthon.vietnamtourism.gov.vn, tracuuquyhoach.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "authentiktravel.com; nongthon.vietnamtourism.gov.vn",
+    "nhan_xet": "Bắc Sơn mùa lúa chín đẹp thật, không thua Mù Cang Chải mà vắng hơn nhiều — view từ Nà Lay lúc bình minh rất đáng leo 1.200 bậc. Điểm yếu là mùa lúa chín ngắn (khoảng 1 tuần/vụ) và cách TP Lạng Sơn ~70 km nên phải đi riêng 1 ngày. Chỉ nên đi đúng vụ lúa (giữa tháng 7, giữa tháng 11), ngoài mùa thì chỉ là thung lũng thường."
+   },
+   "ten": "Thung lũng Bắc Sơn (đỉnh Nà Lay)",
+   "thoi_gian": "Nửa ngày đến 1 ngày (leo Nà Lay ~45 phút–1 giờ, 1.200 bậc)",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đỉnh Mẫu Sơn",
+   "gio": "5:30-7:00 săn mây bình minh; 16:30-17:30 hoàng hôn trên biển mây",
+   "nguon": "dữ liệu tỉnh Lạng Sơn — mùa săn mây Mẫu Sơn tháng 11–1 (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Thung lũng Bắc Sơn (đỉnh Nà Lay)",
+   "gio": "5:30-7:00 bình minh trên biển mây, lúa chín tháng 9–10; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Lạng Sơn (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cột cờ Phai Vệ",
+   "gio": "16:30-18:00 hoàng hôn toàn cảnh TP Lạng Sơn",
+   "nguon": "dữ liệu tỉnh Lạng Sơn (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào động Tam Thanh, Nhị Thanh và đền Mẫu — tránh đỉnh Mẫu Sơn vì mây mù, đường đèo trơn.",
+  "diem": [
+   "Chùa – động Tam Thanh",
+   "Động Nhị Thanh",
+   "Đền Mẫu Đồng Đăng",
+   "Chợ Đông Kinh"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "dong-tam-thanh, dong-nhi-thanh",
+    "hoat_dong": "Chùa – động Tam Thanh + động Nhị Thanh",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thanh-nha-mac, cot-co-phai-ve, cho-dong-kinh",
+    "hoat_dong": "Thành Nhà Mạc + cột cờ Phai Vệ + chợ Đông Kinh",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối: vịt quay, phở chua",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "dinh-mau-son",
+    "hoat_dong": "Đỉnh Mẫu Sơn (nửa ngày)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "den-mau-dong-dang",
+    "hoat_dong": "Đền Mẫu Đồng Đăng; về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "dong-tam-thanh, dong-nhi-thanh",
+    "hoat_dong": "Tới TP Lạng Sơn; chùa – động Tam Thanh + động Nhị Thanh (2–3 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thanh-nha-mac, cot-co-phai-ve",
+    "hoat_dong": "Thành Nhà Mạc (1 giờ) + cột cờ Phai Vệ ngắm toàn cảnh TP",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-dong-kinh",
+    "hoat_dong": "Chợ Đông Kinh + ăn tối: vịt quay lá mắc mật, phở chua",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "dinh-mau-son",
+    "hoat_dong": "Đỉnh Mẫu Sơn săn mây (nửa ngày, ~30 km)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "den-mau-dong-dang, cua-khau-huu-nghi",
+    "hoat_dong": "Đền Mẫu Đồng Đăng + cửa khẩu Hữu Nghị (~14–17 km)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối TP: khâu nhục, bánh cuốn trứng",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ai-chi-lang",
+    "hoat_dong": "Ải Chi Lăng (1–1,5 giờ, ~30 km về phía nam)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "cho-dong-kinh",
+    "hoat_dong": "Mua đặc sản chợ Đông Kinh (đào Mẫu Sơn theo mùa, bánh khảo); trả phòng, về Hà Nội",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "dong-tam-thanh, dong-nhi-thanh, thanh-nha-mac, cho-dong-kinh",
+    "hoat_dong": "Như ngày 1 lịch trình 3N2Đ (Tam Thanh + Nhị Thanh + Thành Nhà Mạc + chợ Đông Kinh)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "dinh-mau-son, den-mau-dong-dang, cua-khau-huu-nghi",
+    "hoat_dong": "Như ngày 2 lịch trình 3N2Đ (Mẫu Sơn + Đồng Đăng + Hữu Nghị)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "thao-nguyen-huu-lien",
+    "hoat_dong": "Thảo nguyên Hữu Liên cả ngày (đi sớm ~70 km); ngủ homestay Hữu Liên",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ai-chi-lang",
+    "hoat_dong": "Ải Chi Lăng buổi sáng; chiều mua đặc sản, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Lạng Sơn",
+  "best_season": "Tháng 1–2 lễ hội đầu năm, hoa đào; tháng 5–6 đào Mẫu Sơn; tháng 9–10 lúa chín Bắc Sơn; tháng 11–1 săn mây Mẫu Sơn, trời hanh khô",
+  "destination": "TP Lạng Sơn, Lạng Sơn",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "lang-son",
+  "lat": 21.85357,
+  "lng": 106.75898,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "intour.vn",
+   "tour.pro.vn",
+   "cuongdulich.com",
+   "travel.mtrip.vn",
+   "dulichhana.com",
+   "dulichxanh.com.vn",
+   "mytour.vn",
+   "nhahang.org",
+   "quynhthanhlimousine.com",
+   "motortrip.vn",
+   "mobitrip.vn",
+   "vexere.com",
+   "traveloka.com",
+   "trip.com",
+   "meoeva.com"
+  ],
+  "province": "Lạng Sơn",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "văn hóa"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 1–2 lễ hội đầu năm, hoa đào; tháng 5–6 đào Mẫu Sơn; tháng 9–10 lúa chín Bắc Sơn; tháng 11–1 săn mây Mẫu Sơn, trời hanh khô"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

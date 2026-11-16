@@ -1,0 +1,945 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~30.000đ/đĩa",
+   "mon": "Chả tôm Thanh Hóa",
+   "nguon": "nghiepvukhachsan.com, vietnamairlines.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nghiepvukhachsan.com, vietnamairlines.com",
+    "nhan_xet": "Chả tôm là món phải thử ở Sầm Sơn: vỏ giòn, nhân tôm thịt thơm, ăn nóng mới ngon. Điểm trừ là nhiều quán làm sẵn để lâu sẽ ỉu; nên ăn tại quán đông khách buổi sáng và hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "43 đường Thanh Niên, TP Sầm Sơn",
+     "gia": "~30.000đ/đĩa",
+     "ten": "Nhà hàng Thanh Hợi"
+    },
+    {
+     "dia_chi": "Khu trung tâm, phường Sầm Sơn",
+     "gia": "~30.000đ/đĩa",
+     "ten": "Quán chả tôm khu trung tâm Sầm Sơn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Bánh cuốn tôm",
+   "nguon": "nghiepvukhachsan.com, vietnamairlines.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nghiepvukhachsan.com, vietnamairlines.com",
+    "nhan_xet": "Bánh cuốn tôm Sầm Sơn mỏng, nhân tôm tươi, hợp ăn sáng nhẹ. Nhược điểm là giá phần riêng chưa kiểm được ở nhiều quán; nên hỏi giá trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "182 Nguyễn Hồng Lễ, Sầm Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh cuốn Bà Lan"
+    },
+    {
+     "dia_chi": "10 Lê Lợi, Sầm Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh cuốn Hòa Thiện"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Giá theo gói, hỏi trước",
+   "mon": "Nem chua Thanh Hóa",
+   "nguon": "vietnamairlines.com, vigotrip.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnamairlines.com, vigotrip.com",
+    "nhan_xet": "Nem chua là đặc sản mua về làm quà số một của Thanh Hóa, chua vừa, thơm lá ổi. Lưu ý là nem chua ngon nhất khi ăn trong 1–2 ngày, mua ở cơ sở có tiếng và hỏi giá theo gói trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "17B Lê Hữu Lập, TP Thanh Hóa",
+     "gia": "Giá theo gói",
+     "ten": "Nem Chua Hạnh Kinh"
+    },
+    {
+     "dia_chi": "326 Trường Thi, TP Thanh Hóa",
+     "gia": "Giá theo gói",
+     "ten": "Nem Chua Cây Đa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Tôm 190.000–550.000đ/kg tùy loại; món khác hỏi giá theo cân trước",
+   "mon": "Hải sản Sầm Sơn",
+   "nguon": "vietnamairlines.com, dulich24.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnamairlines.com, dulich24.com.vn",
+    "nhan_xet": "Hải sản Sầm Sơn tươi, tôm cua ghẹ đủ loại, ăn tại nhà hàng ven biển rất đã. Điểm trừ lớn nhất là giá theo cân dễ bị chặt chém; bắt buộc hỏi giá và cân trước khi chế biến."
+   },
+   "quan": [
+    {
+     "dia_chi": "13 Trần Nhân Tông, TP Sầm Sơn",
+     "gia": "Hỏi giá theo cân trước",
+     "ten": "Nhà hàng Hồng Thanh"
+    },
+    {
+     "dia_chi": "Bãi tắm biển, khu phố Vinh Sơn, Sầm Sơn",
+     "gia": "Hỏi giá theo cân trước",
+     "ten": "Nhà hàng Ngọc Hà Vinh Sơn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá cái riêng",
+   "mon": "Bánh gai Tứ Trụ",
+   "nguon": "vanantravel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vanantravel.vn",
+    "nhan_xet": "Bánh gai dẻo, thơm lá gai, nhân đậu xanh dừa, mua làm quà tiện. Nhược điểm là giá cái riêng chưa kiểm được, hàng chợ dễ lẫn hàng làm sẵn lâu; nên mua ở chợ buổi sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Thánh Tông, Sầm Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Sầm Sơn"
+    },
+    {
+     "dia_chi": "TP Thanh Hóa",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ trung tâm TP Thanh Hóa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Nem nướng Thọ Xuân",
+   "nguon": "vietnamairlines.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnamairlines.com",
+    "nhan_xet": "Nem nướng thơm, ăn kèm rau sống và nước chấm, hợp ăn trưa hoặc mua về. Điểm trừ là chưa kiểm được giá riêng và quán cụ thể; nên mua ở chợ Thọ Xuân hoặc chợ trung tâm TP."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Thọ Xuân, Thanh Hóa",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Thọ Xuân"
+    },
+    {
+     "dia_chi": "TP Thanh Hóa",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ trung tâm TP Thanh Hóa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá cái riêng",
+   "mon": "Bánh tẻ Sầm Sơn",
+   "nguon": "dulich24.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich24.com.vn",
+    "nhan_xet": "Bánh tẻ dẻo, nhân thịt mộc nhĩ, hợp ăn sáng nhanh. Nhược điểm là giá cái riêng chưa kiểm được; nên mua ở chợ hải sản buổi sáng khi bánh mới."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Thánh Tông, Sầm Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ hải sản Sầm Sơn"
+    },
+    {
+     "dia_chi": "Khu trung tâm, phường Sầm Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Quán bánh khu trung tâm Sầm Sơn"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua làm quà / ăn kèm",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá hũ riêng",
+   "mon": "Mắm tép",
+   "nguon": "nghiepvukhachsan.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nghiepvukhachsan.com",
+    "nhan_xet": "Mắm tép Thanh Hóa đậm đà, ăn kèm thịt luộc và rau sống rất hợp; mua làm quà gọn nhẹ. Lưu ý là giá hũ riêng chưa kiểm được, nên hỏi giá và chọn hũ đóng kín."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Quảng Vinh / đường Lê Thánh Tông, Sầm Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Sầm Sơn"
+    },
+    {
+     "dia_chi": "Đường Lê Thánh Tông, phường Trung Sơn, Sầm Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Cửa hàng đặc sản TP Sầm Sơn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Gỏi cá Sầm Sơn",
+   "nguon": "dulich24.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich24.com.vn",
+    "nhan_xet": "Gỏi cá tươi, chua cay, hợp nhóm bạn ăn trưa ven biển. Điểm trừ là món sống nên chỉ ăn ở nhà hàng đông khách, cá tươi trong ngày; giá phần riêng chưa kiểm được."
+   },
+   "quan": [
+    {
+     "dia_chi": "43 đường Thanh Niên, TP Sầm Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Thanh Hợi"
+    },
+    {
+     "dia_chi": "Đường Nam Sông Mã, TP Sầm Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Mận Mận"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–THD khứ hồi",
+   "uoc_tinh": "1.700.000–4.700.000đ"
+  },
+  {
+   "hang_muc": "Xe sân bay Thọ Xuân – TP/Sầm Sơn khứ hồi",
+   "uoc_tinh": "600.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng Sầm Sơn/TP)",
+   "uoc_tinh": "700.000–2.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (hải sản là khoản lớn)",
+   "uoc_tinh": "600.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Thành nhà Hồ, Lam Kinh, Sun World)",
+   "uoc_tinh": "400.000–800.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2 ngày + xăng / xe đi Pù Luông",
+   "uoc_tinh": "300.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Taxi / phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.450.000–12.100.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (xe khách thay máy bay)",
+   "uoc_tinh": "Trừ ~1.700.000–4.700.000đ tiền bay, cộng xe HN–TH ~300.000–500.000đ khứ hồi"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Chỉ đi xe điện có đăng ký, đồng hồ tính tiền, bảng giá và QR thanh toán (theo phương án quản lý của phường Sầm Sơn); hỏi giá trước mọi dịch vụ, lấy vé giữ xe; từ 15/4–5/8/2026 cơ quan chức năng đã xử lý 12 vụ vi phạm, phạt 65,25 triệu đồng — phản ánh qua đường dây nóng của phường khi bị chặt chém; bãi xe Trung Mới từng bị phạt 20 triệu đồng vì thu phí sai quy định",
+   "nguon": "vietnam.vn — Báo Thanh Hóa: Không để chặt chém làm xấu hình ảnh du lịch Sầm Sơn (5/8/2026) (ngày kiểm 08/11/2026); bocongan.gov.vn — Công an tỉnh Thanh Hóa xử lý bãi xe Trung Mới (22/6/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Sầm Sơn: xe điện chèo kéo, ép giá; bãi giữ xe thu phí không đúng quy định; hải sản cân thiếu, bán cao hơn giá niêm yết"
+  },
+  {
+   "cach_tranh": "Hỏi giá/kg và phí chế biến trước khi chọn; yêu cầu cân lại trước mặt; ưu tiên quán có bảng giá niêm yết",
+   "nguon": "vietnam.vn — Báo Thanh Hóa (5/8/2026): vi phạm gồm bán cao hơn giá quy định, cân thiếu (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Hải sản Sầm Sơn, Hải Tiến, Hải Hòa tính theo cân: cân thiếu, giá sau chế biến cao hơn giá báo"
+  },
+  {
+   "cach_tranh": "Nhắn hỏi chủ nhà về đường vào (ô tô hay chỉ xe máy), bữa ăn và phí đưa đón trước khi đặt; đọc đánh giá gần nhất; mùa lúa chín tháng 9–10 giá tăng, đặt sớm",
+   "nguon": "kinh nghiệm chung du lịch Pù Luông; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay Pù Luông (bản Đôn, bản Hiêu): đặt online khác ảnh thật, đường vào khó, phụ thu ăn uống, đưa đón"
+  },
+  {
+   "cach_tranh": "Thuê xe số ở cửa hàng/homestay uy tín; kiểm tra phanh/lốp/đèn, chụp ảnh vết xước trước khi nhận; hỏi rõ cọc và phạm vi đi",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy đi Pù Luông, Thác Hiêu, suối cá thần: giữ giấy tờ gốc, xe yếu leo dốc; trả xe bị bắt đền vết xước"
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Đồ bơi, khăn tắm, kem chống nắng (biển Sầm Sơn nắng gắt)",
+  "Giày đi bộ (Thành nhà Hồ nắng, ít bóng cây; Pù Luông trekking)",
+  "Áo khoác mỏng, áo mưa mỏng",
+  "Tiền mặt lẻ (chợ Sầm Sơn, quán ven biển — hỏi giá hải sản theo cân trước)",
+  "Nước uống mang theo khi đi Thành nhà Hồ / Pù Luông",
+  "Sạc dự phòng, thuốc cơ bản, thuốc chống muỗi (Pù Luông)",
+  "Đặt phòng Sầm Sơn sớm dịp lễ 30/4–1/5 và hè cao điểm"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Pù Luông Retreat"
+  ],
+  "diem": [
+   "Bãi biển Sầm Sơn",
+   "Khu bảo tồn thiên nhiên Pù Luông",
+   "Suối cá thần Cẩm Lương",
+   "Hòn Trống Mái (núi Trường Lệ)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "FLC Luxury Hotel Sầm Sơn",
+   "FLC Grand Hotel Sầm Sơn",
+   "Pù Luông Retreat"
+  ],
+  "diem_chay": [
+   "Đường ven biển Sầm Sơn buổi sáng sớm",
+   "Đường quanh bản Đôn, Pù Luông buổi sáng sớm",
+   "Đường ven sông Mã, khu di tích Hàm Rồng"
+  ],
+  "giai": [
+   {
+    "nguon": "vietnam.vn — Báo Văn Hóa: Sam Son sẵn sàng cho giải chạy biển (26/2/2026) (ngày kiểm 08/11/2026)",
+    "ten": "Via Life Run Marathon – Sam Son Blue Sea",
+    "thoi_gian": "tháng 4 (2026: 4–5/4; cự ly 3/5/10/21/42 km, Quảng trường Sầm Sơn)"
+   },
+   {
+    "nguon": "vanphu.vn; vietnambiz.vn — Vlasta Race Nam Sầm Sơn 2025 (ngày kiểm 08/11/2026)",
+    "ten": "Vlasta Race – Nam Sầm Sơn",
+    "thoi_gian": "tháng 9 (2025: 21/9; cự ly 5/10 km, cung đường ven biển Nam Sầm Sơn)"
+   },
+   {
+    "nguon": "vietnamtrailseries.com — Vietnam Jungle Marathon (TikTok Vietnam Trail Series) (ngày kiểm 08/11/2026)",
+    "ten": "Vietnam Jungle Marathon (VJM) — Pù Luông",
+    "thoi_gian": "tháng 10 (2026: 17/10; cự ly 10/25/50/70 km, Khu bảo tồn thiên nhiên Pù Luông)"
+   }
+  ],
+  "nguon": "vietnam.vn; vanphu.vn; vietnamtrailseries.com (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Thanh Hóa (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Ngay bãi biển Sầm Sơn",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hồ Xuân Hương, phường Quảng Cư, Sầm Sơn, TP Thanh Hóa",
+   "dien_thoai": "0237 8788 888",
+   "gia": "~1.280.000–2.860.000đ/đêm (Studio Suite thấp điểm ~2.200.000đ, cao điểm ~2.860.000đ; ưu đãi có đợt từ ~1.280.000đ)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng cao cấp",
+   "khu_vuc": "sam-son",
+   "nguon": "elitetour.com.vn, bestprice.vn, khachsan.chudu24.com",
+   "nguon_dien_thoai": "samsonhotel.vn + tadiha.com + conddongnhahang.vn + dulich.pro.vn + truyenhinhcapsongthu.net + mytour.vn đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "FLC Luxury Hotel Sầm Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ngay bãi biển Sầm Sơn",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu FLC Sầm Sơn, phường Sầm Sơn, TP Thanh Hóa",
+   "dien_thoai": "0237 8788 888",
+   "gia": "~2.050.000–2.600.000đ/đêm (Grand Comfort/Studio Suite; Family Suite ~3.950.000–4.400.000đ)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng cao cấp",
+   "khu_vuc": "sam-son",
+   "nguon": "elitetour.com.vn, mytour.vn",
+   "nguon_dien_thoai": "traveloka.com (ngày kiểm 08/11/2026)",
+   "ten": "FLC Grand Hotel Sầm Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Thanh Hóa, cách Sầm Sơn ~16 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "27 Trần Phú, phường Điện Biên (Hạc Thành), TP Thanh Hóa",
+   "dien_thoai": "0237 8936 888",
+   "gia": "~1.500.000đ/đêm (có nguồn ghi từ ~1.200.000đ)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "mytour.vn, moma.vn",
+   "nguon_dien_thoai": "melia.com (ngày kiểm 08/11/2026)",
+   "ten": "Vinpearl Hotel Thanh Hóa",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trong thung lũng Pù Luông, cách TP ~130 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cổ Lũng, huyện Bá Thước (Pù Luông)",
+   "dien_thoai": "024 3823 9988",
+   "gia": "Chưa kiểm được khoảng giá riêng hiện hành — resort sinh thái Pù Luông thường ~1.000.000–2.500.000đ/đêm, kiểm lại trước khi đặt",
+   "hang": "Resort sinh thái",
+   "hop_voi": "Cặp đôi, gia đình nghỉ dưỡng núi",
+   "khu_vuc": "pu-luong",
+   "nguon": "travelbui.com",
+   "nguon_dien_thoai": "tadiha.com + handspan.com + dulichkhatvongviet.com + mytour.vn + ongvove.com + limoutrip.com + sinhtour.vn đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Pù Luông Retreat",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trong thung lũng Pù Luông",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cổ Lũng, huyện Bá Thước (Pù Luông)",
+   "dien_thoai": "0987 129 129",
+   "gia": "Chưa kiểm được khoảng giá riêng hiện hành",
+   "hang": "Homestay/resort sinh thái",
+   "hop_voi": "Nhóm bạn, gia đình",
+   "khu_vuc": "pu-luong",
+   "nguon": "travelbui.com",
+   "nguon_dien_thoai": "mia.vn + factsheet chính thức combo365.vn (ngày kiểm 08/11/2026)",
+   "ten": "Pù Luông Eco Garden",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trong bản Pù Luông",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Đôn, xã Cổ Lũng, huyện Bá Thước",
+   "dien_thoai": null,
+   "gia": "~200.000–400.000đ/người/đêm (chưa kiểm được giá riêng từng nhà)",
+   "hang": "Homestay nhà sàn",
+   "hop_voi": "Nhóm bạn, khách bụi thích ở nhà sàn",
+   "khu_vuc": "pu-luong",
+   "nguon": "travelbui.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay nhà sàn bản Đôn (Pù Luông)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 5 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Khu di tích Lam Kinh, Khu bảo tồn thiên nhiên Pù Luông, Suối cá thần Cẩm Lương, Biển Hải Tiến, Biển Hải Hòa",
+  "Giá vé Pù Luông: miễn phí vs 20.000đ — nguồn mâu thuẫn; giá tour trekking chưa kiểm được chi tiết",
+  "Giá vé suối cá Cẩm Lương, Bến En, Hàm Rồng, Hòn Trống Mái hiện hành",
+  "Giờ mở cửa Lam Kinh, suối cá Cẩm Lương, Bến En, Hàm Rồng",
+  "Giờ mở cửa Thành nhà Hồ: 7:00–17:30 vs 7:30–18:00 — nguồn khác nhau",
+  "Giá vé Sun World Sầm Sơn chi tiết từng trò (chỉ có mức từ 350.000đ)",
+  "Khoảng giá phòng Pù Luông Retreat, Pù Luông Eco Garden, homestay bản Đôn (chưa kiểm được mức riêng)",
+  "Giá thuê xe máy tại Thanh Hóa/Sầm Sơn và giá taxi TP–Sầm Sơn (chưa kiểm được bảng giá riêng)",
+  "Giá xe khách Hà Nội–Thanh Hóa từng hãng và giá tàu Hà Nội–Thanh Hóa / TP.HCM–Thanh Hóa",
+  "Giá ăn tại quán ở Thanh Hóa (nhiều món chỉ có tên quán, chưa kiểm được giá phần riêng)",
+  "Tên phường mới sau sáp nhập 2025 (TP Thanh Hóa, Sầm Sơn) — các nguồn ghi không thống nhất",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Đền Bà Triệu, Biển Hải Hòa, Thác Hiêu (bản Hiêu, Pù Luông) — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Ba Dội (QL15, đường lên Pù Luông qua Bá Thước): dốc dài, cua gấp liên tục, đường hẹp, sương mù và trơn mùa mưa — đi ban ngày, xe số, kiểm tra phanh/lốp/đèn, tốc độ chậm, bấm còi ở cua khuất, không vượt ở đoạn khuất tầm nhìn. Đường vào Pù Luông (bản Đôn, bản Hiêu, Thác Hiêu): đồi dốc, đường đất đá, có đoạn chỉ xe máy đi được; mùa mưa tháng 6–9 sạt lở, đường 530B từng nứt, sụt lún do mưa lớn tháng 9 (vết nứt dài hơn 1.000 m ở xã Đồng Lương) — kiểm tra dự báo và thông báo địa phương trước khi đi, tránh đi khi mưa lớn kéo dài. Đường đi Thành nhà Hồ, Lam Kinh, Bến En: đồi dốc nhẹ, đi chậm khi mưa. Mang CCCD/hộ chiếu và giấy tờ xe đầy đủ; đổ đầy xăng trước khi vào Pù Luông vì trạm xăng hiếm.",
+  "deo": [
+   "Đèo Ba Dội (QL15 lên Pù Luông): dốc dài, cua gấp liên tục, đường hẹp, sương mù, trơn mùa mưa",
+   "Đường vào Pù Luông (bản Đôn, bản Hiêu, Thác Hiêu): đồi dốc, đường đất đá, có đoạn chỉ xe máy đi được; sạt lở mùa mưa",
+   "Đường 530B khu vực Đồng Lương: mưa lớn tháng 9 gây nứt, sụt lún, nguy cơ sạt lở"
+  ],
+  "nguon": "dữ liệu tỉnh Thanh Hóa — Khu bảo tồn thiên nhiên Pù Luông, Thác Hiêu (ngày kiểm 06/11/2026); vietnam.vn — sạt lở đồi Na Lo, Na Nieng, xã Đồng Lương (mưa tháng 9) (ngày kiểm 08/11/2026) (lưu ý: chi tiết đèo Ba Dội chưa tra được nguồn tin cậy riêng, xem ghi chú)"
+ },
+ "di_den": {
+  "tu_ga_san_bay": [
+   {
+    "ghi_chu": "Sân bay Thọ Xuân, thị trấn Sao Vàng, Thọ Xuân",
+    "gia": "Taxi ~300.000–500.000đ/chuyến (chưa kiểm được mức cố định); xe buýt sân bay kiểm lại tại sân bay",
+    "nguon": "bestprice.vn, traveloka.com",
+    "phuong_tien": "Sân bay Thọ Xuân – TP Thanh Hóa",
+    "thoi_gian": "~45 km, 50–60 phút"
+   },
+   {
+    "ghi_chu": "Đi qua TP Thanh Hóa rồi ra Sầm Sơn (~16 km)",
+    "gia": "Taxi ~400.000–600.000đ/chuyến (chưa kiểm được mức cố định)",
+    "nguon": "bestprice.vn",
+    "phuong_tien": "Sân bay Thọ Xuân – Sầm Sơn",
+    "thoi_gian": "~60 km, 1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Ga trung tâm TP",
+    "gia": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Ga Thanh Hóa – trung tâm TP",
+    "thoi_gian": "~2–3 km"
+   }
+  ],
+  "tu_hn": [
+   {
+    "ghi_chu": "Bến Mỹ Đình/Giáp Bát – Bến xe Thanh Hóa / Sầm Sơn",
+    "gia": "~150.000–250.000đ/vé (chưa kiểm được hãng cụ thể tuyến này — xem mục chưa kiểm được)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Xe khách Hà Nội–Thanh Hóa / Sầm Sơn",
+    "thoi_gian": "3–4 giờ (~150 km)"
+   },
+   {
+    "ghi_chu": "Ga Thanh Hóa trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu Hà Nội–Thanh Hóa (ga Thanh Hóa)",
+    "thoi_gian": "~3–4 giờ"
+   },
+   {
+    "ghi_chu": "Đi cao tốc Hà Nội – Ninh Bình rồi QL1A",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "travelbui.com",
+    "phuong_tien": "Xe máy / ô tô riêng Hà Nội–Thanh Hóa",
+    "thoi_gian": "3–4 giờ (cao tốc)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Pacific Airlines (Vietjet ~7 chuyến/ngày). Sân bay Thọ Xuân cách TP Thanh Hóa ~45 km, 50–60 phút",
+    "gia": "Một chiều đã gồm thuế phí ~850.000–2.350.000đ; vé chưa thuế phí từ ~239.000đ (khuyến mãi)",
+    "nguon": "bestprice.vn, traveloka.com",
+    "phuong_tien": "Máy bay SGN–THD (sân bay Thọ Xuân)",
+    "thoi_gian": "Bay ~2 giờ (bay thẳng, ~12–13 chuyến/ngày)"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian; đa số nên bay",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Xe khách TP.HCM–Thanh Hóa",
+    "thoi_gian": "~25–30 giờ"
+   },
+   {
+    "ghi_chu": "Ga Thanh Hóa trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu TP.HCM–Thanh Hóa (ga Thanh Hóa)",
+    "thoi_gian": "~30–35 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê tại TP Thanh Hóa hoặc Sầm Sơn; hỏi rõ cọc và giờ trả",
+   "gia": "~100.000–150.000đ/ngày (mặt bằng chung miền Trung, chưa kiểm được bảng giá riêng tại Thanh Hóa)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày (chưa kiểm được bảng giá riêng tại Thanh Hóa)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh, taxi địa phương; hỏi giá trọn gói trước",
+   "gia": "~10.000–13.000đ/km (ước lượng); TP–Sầm Sơn ~16 km",
+   "giay_to": "",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / TP – Sầm Sơn"
+  },
+  {
+   "ghi_chu": "Chỉ đi xe điện có niêm yết giá hoặc thỏa thuận giá trước",
+   "gia": "Chưa kiểm được giá riêng — hỏi giá trước (nhiều nguồn cảnh báo xe điện Sầm Sơn không niêm yết)",
+   "giay_to": "",
+   "nguon": "travelbui.com",
+   "phuong_tien": "Xe điện Sầm Sơn (tham quan ven biển)"
+  },
+  {
+   "ghi_chu": "Pù Luông cách TP ~130 km, Thành nhà Hồ ~50 km — nên thuê xe theo ngày, đường núi quanh co",
+   "gia": "Chưa kiểm được mức riêng tại Thanh Hóa",
+   "giay_to": "",
+   "nguon": "travelbui.com",
+   "phuong_tien": "Thuê ô tô có tài xế đi Pù Luông / Thành nhà Hồ"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 16,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Sầm Sơn, TP Thanh Hóa, cách trung tâm TP ~16 km",
+   "gia_ve": "Miễn phí tắm biển; ghế dù/xe điện/hải sản tính riêng, hỏi giá trước",
+   "gio_mo_cua": "Mở cả ngày; tắm trong giờ cứu hộ quy định (không tắm buổi trưa và sau 17h)",
+   "hop_voi": "Gia đình, nhóm bạn, cặp đôi",
+   "id": "bien-sam-son",
+   "lat": 19.74674,
+   "lng": 105.9074,
+   "luu_y": "Sóng mạnh, có dòng chảy xa bờ ngày biển động; tắm trong khu có cờ và giờ quy định; hỏi giá trước với xe điện, ghế dù, hải sản theo cân",
+   "nguon": "travelbui.com, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichvtv.com, banduong.vn, nghean24h.vn",
+    "nhan_xet": "Bãi biển dài, cát mịn, tiện đi từ Hà Nội, hợp gia đình đi nghỉ cuối tuần. Điểm trừ lớn nhất vẫn là tiếng xấu cũ về chèo kéo, chặt chém — dù chính quyền đã siết (niêm yết giá, xử lý xe điện chèo kéo năm 2026) thì du khách vẫn nên hỏi giá trước mọi dịch vụ, nhất là xe điện và hải sản theo cân. Nên đi ngày thường, tránh cuối tuần hè khi bãi đón 60.000–70.000 khách/ngày."
+   },
+   "ten": "Bãi biển Sầm Sơn",
+   "thoi_gian": "Nửa ngày đến 1 ngày (bãi dài ~9 km, chia khu A–B–C–D)"
+  },
+  {
+   "cach_trung_tam_km": 17,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Chân núi Trường Lệ, phường Sầm Sơn, TP Thanh Hóa",
+   "gia_ve": "Chưa kiểm được giá vé riêng (khu vực núi Trường Lệ)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, người thích chụp ảnh",
+   "id": "hon-trong-mai",
+   "lat": 19.72639,
+   "lng": 105.89185,
+   "luu_y": "Đi cùng cung Sầm Sơn; leo đá cẩn thận, tránh trưa nắng",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelbui.com",
+    "nhan_xet": "Điểm check-in biểu tượng của Sầm Sơn, chụp ảnh đẹp, đi bộ nhẹ nhàng hợp mọi lứa tuổi. Nhược điểm là khu vực nhỏ, leo đá trơn khi mưa và trưa nắng gắt; nên ghép trong buổi sáng hoặc chiều mát cùng bãi biển chứ không nên đi riêng một buổi."
+   },
+   "ten": "Hòn Trống Mái (núi Trường Lệ)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 18,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đại lộ Nam Sông Mã, phường Quảng Tiến, Sầm Sơn, TP Thanh Hóa",
+   "gia_ve": "Từ 350.000đ/người (theo Traveloka; chưa kiểm được bảng giá chi tiết từng trò)",
+   "gio_mo_cua": "13:00–18:00 thứ 2–thứ 6; 9:00–18:00 thứ 7–CN (quy đổi trước 17:00)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "sun-world-sam-son",
+   "lat": 19.76014,
+   "lng": 105.8861,
+   "luu_y": "Kiểm giá vé theo ngày trước khi đi; hợp ghép cùng buổi chiều ở Sầm Sơn",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Traveloka / travelbui.com",
+    "nhan_xet": "Công viên nước + trò chơi hợp gia đình có trẻ nhỏ, tiện ghép buổi chiều sau khi tắm biển. Điểm yếu là giá vé chỉ có mức 'từ 350.000đ' chưa rõ từng trò, và giờ mở cửa buổi chiều nên buổi sáng không vào được; kiểm giá theo ngày trước khi đi."
+   },
+   "ten": "Sun World Sầm Sơn",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tây Đô (Vĩnh Tiến/Vĩnh Lộc cũ), huyện Vĩnh Lộc, cách TP Thanh Hóa ~50 km",
+   "gia_ve": "40.000đ/người từ 16 tuổi; 20.000đ/trẻ 8–15 tuổi; người cao tuổi giảm 50%; miễn phí trẻ dưới 8 tuổi (có nguồn cũ ghi 20.000–30.000đ)",
+   "gio_mo_cua": "7:00–17:30 (có nguồn ghi 7:30–18:00)",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "thanh-nha-ho",
+   "lat": 20.07461,
+   "lng": 105.60646,
+   "luu_y": "Di sản thế giới UNESCO (2011), xây cuối thế kỷ XIV bằng đá; cổng Nam là cổng chính; nắng gắt trưa hè, ít bóng cây — đi sáng sớm/chiều muộn, mang nước; miễn phí gửi xe từ 26/2/2026",
+   "nguon": "travelbui.com, zalopay.vn, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "travelbui.com, zalopay.vn, bestprice.vn",
+    "nhan_xet": "Di sản UNESCO bằng đá độc nhất, rất đáng đi với người yêu lịch sử — cổng Nam và tường đá nguyên khối ấn tượng hơn ảnh nhiều. Điểm trừ là nắng gắt, ít bóng cây, khuôn viên rộng đi bộ mỏi; nên đi sáng sớm, mang nước và mũ. Lưu ý giá vé các nguồn cũ ghi 20.000–30.000đ, nguồn mới ghi 40.000đ — lấy theo nguồn mới."
+   },
+   "ten": "Thành nhà Hồ (Thành Tây Đô)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Lam Sơn, huyện Thọ Xuân, cách TP Thanh Hóa ~50 km",
+   "gia_ve": "30.000đ/người từ 16 tuổi; 15.000đ/trẻ 8–15 tuổi; miễn phí gửi xe từ 26/2/2026",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "lam-kinh",
+   "lat": 19.92339,
+   "lng": 105.41,
+   "luu_y": "Kinh đô nhà Lê, lăng mộ vua Lê; ghép cùng cung Thành nhà Hồ trong ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelbui.com",
+    "nhan_xet": "Kinh đô nhà Lê yên tĩnh, cây xanh nhiều hơn Thành nhà Hồ, hợp đi chậm ngắm lăng mộ và kiến trúc cổ. Nhược điểm là ít dịch vụ, giờ mở cửa chưa kiểm được chính thức nên nên đi ban ngày; ghép cùng Thành nhà Hồ trong một ngày là vừa."
+   },
+   "ten": "Khu di tích Lam Kinh",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cổ Lũng, huyện Bá Thước (và Quan Hóa), cách TP Thanh Hóa ~130 km",
+   "gia_ve": "Miễn phí vào khu (có nguồn ghi vé 20.000đ/người lớn, 10.000đ/trẻ em — chưa thống nhất); tour trekking từ ~2.800.000đ/người (theo Traveloka, chưa kiểm được chi tiết)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Nhóm bạn, cặp đôi, người thích trekking nhẹ",
+   "id": "pu-luong",
+   "lat": 20.46993,
+   "lng": 105.22218,
+   "luu_y": "Lúa chín tháng 9–10; mùa lúa chín nên đặt homestay sớm; đường núi quanh co, nên thuê xe có tài xế. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "zalopay.vn, travelbui.com, traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, 2banh.vn, cuongdulich.com",
+    "nhan_xet": "Ruộng bậc thang đẹp nhất nhì miền Bắc–Trung, lúa chín tháng 9–10 vàng rực, lúa xanh tháng 5–6; homestay nhà sàn thân thiện, giá rẻ (50.000–150.000đ/người/đêm). Điểm trừ: tối buồn, sóng điện thoại yếu, ít hoạt động buổi tối; mùa lúa gặt xong (tháng 11–12) cảnh kém hẳn. Nên đặt phòng sớm mùa lúa chín và ở lại ít nhất 1 đêm."
+   },
+   "ten": "Khu bảo tồn thiên nhiên Pù Luông",
+   "thoi_gian": "1–2 ngày (ruộng bậc thang, guồng nước, bè tre suối Chàm, bản làng)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 80,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cẩm Lương, huyện Cẩm Thủy, cách TP Thanh Hóa ~80 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành thống nhất",
+   "gio_mo_cua": "6:00–17:00 (theo 1 nguồn)",
+   "hop_voi": "Gia đình, người yêu văn hóa dân gian",
+   "id": "suoi-ca-cam-luong",
+   "lat": 20.25196,
+   "lng": 105.3903,
+   "luu_y": "Suối cá thần linh thiêng — không bắt cá, không cho cá ăn đồ lạ; hỏi người trông suối trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / bestprice.vn",
+    "nhan_xet": "Suối cá thần lạ và thiêng, hợp gia đình có trẻ nhỏ tò mò và người thích văn hóa dân gian. Điểm yếu là quy mô nhỏ, chỉ chơi được 1,5–2 giờ, giá vé hiện hành chưa thống nhất; nên ghép trên đường đi chứ không nên đi riêng một chuyến xa."
+   },
+   "ten": "Suối cá thần Cẩm Lương",
+   "thoi_gian": "1,5–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 45,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Như Thanh, cách TP Thanh Hóa ~45 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn thích sinh thái",
+   "id": "ben-en",
+   "lat": 19.61893,
+   "lng": 105.54087,
+   "luu_y": "Hồ sông Mực đi thuyền là chính; kiểm dịch vụ thuyền trước ngày đi",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelbui.com",
+    "nhan_xet": "Hồ sông Mực rộng, rừng nguyên sinh, hợp gia đình thích sinh thái và đi thuyền ngắm đảo. Nhược điểm là dịch vụ thuyền chưa kiểm được trước ngày đi, ít thông tin giờ mở cửa và giá vé; nên gọi hỏi trước, đừng đến rồi mới tính."
+   },
+   "ten": "Vườn quốc gia Bến En",
+   "thoi_gian": "Nửa ngày (hồ sông Mực, đảo, rừng)"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Hoằng Hóa, cách TP Thanh Hóa ~20 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển yên tĩnh hơn Sầm Sơn",
+   "id": "bien-hai-tien",
+   "lat": 19.83798,
+   "lng": 105.9348,
+   "luu_y": "Biển hoang sơ hơn Sầm Sơn, ít dịch vụ hơn; hỏi giá hải sản trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichvietnam.com.vn, travelbui.com",
+    "nhan_xet": "Biển hoang sơ, yên tĩnh hơn hẳn Sầm Sơn, hợp người muốn tắm biển mà ngại đông đúc và chèo kéo. Đổi lại dịch vụ còn ít, quán ăn thưa, nên chuẩn bị đồ ăn nhẹ và hỏi giá hải sản trước; không hợp ai cần resort, vui chơi."
+   },
+   "ten": "Biển Hải Tiến",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hàm Rồng, TP Thanh Hóa",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "khu-di-tich-ham-rong",
+   "lat": 19.83709,
+   "lng": 105.793,
+   "luu_y": "Gắn với chiến dịch Hàm Rồng chống Mỹ; leo núi Ngọc ngắm sông Mã",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelbui.com",
+    "nhan_xet": "Điểm lịch sử ngay trong TP, leo núi Ngọc ngắm sông Mã đẹp, hợp buổi sáng nhẹ nhàng trước khi ra biển. Nhược điểm là giá vé và giờ mở cửa hiện hành chưa kiểm được; quy mô vừa, không nên kỳ vọng một buổi tham quan dài."
+   },
+   "ten": "Khu di tích Hàm Rồng (cầu Hàm Rồng, núi Ngọc, Thiền viện Trúc Lâm Hàm Rồng)",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Triệu Lộc, huyện Hậu Lộc, cách TP Thanh Hóa ~35 km",
+   "gia_ve": "Miễn phí (chưa kiểm được phí gửi xe/dịch vụ)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "den-ba-trieu",
+   "lat": 19.93204,
+   "lng": 105.8191,
+   "luu_y": "Đền thờ nữ anh hùng Triệu Thị Trinh (Bà Triệu); ghép cùng cung Thành nhà Hồ – Lam Kinh trong ngày",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / dulich9.com",
+    "nhan_xet": "Đền thờ Bà Triệu trang nghiêm, kiến trúc cổ đẹp, hợp người yêu lịch sử trên cung đường về phía tây (Thành nhà Hồ – Lam Kinh). Điểm trừ là ít thông tin du lịch, chưa kiểm được giá vé và giờ mở cửa; nên đi ban ngày và ghép cùng cung di tích."
+   },
+   "ten": "Đền Bà Triệu",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hải Hòa, thị xã Nghi Sơn, cách TP Thanh Hóa ~40 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển yên tĩnh",
+   "id": "bien-hai-hoa",
+   "lat": 19.39935,
+   "lng": 105.78419,
+   "luu_y": "Biển còn hoang sơ, ít dịch vụ, không chèo kéo như Sầm Sơn; có xóm chài kéo lưới buổi sáng; tọa độ xấp xỉ khu vực biển Nghi Sơn (điểm tra được gần nhất là biển Hải Bình), cần kiểm lại",
+   "nguon": "dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichvietnam.com.vn",
+    "nhan_xet": "Biển mới nổi, hoang sơ, không có cảnh bán hàng rong chèo kéo như Sầm Sơn, hải sản tươi giá phải chăng; hợp người thích biển quê, dậy sớm xem kéo lưới. Nhược điểm là dịch vụ còn rất ít, ít chỗ nghỉ ngay bãi; nên đi trong ngày từ TP Thanh Hóa."
+   },
+   "ten": "Biển Hải Hòa",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Hiêu, xã Cổ Lũng, huyện Bá Thước (Pù Luông), cách TP Thanh Hóa ~130 km",
+   "gia_ve": "Chưa kiểm được giá vé riêng",
+   "gio_mo_cua": "Cả ngày; đẹp nhất tháng 6 và tháng 9 (nước nhiều)",
+   "hop_voi": "Nhóm bạn, gia đình thích tắm suối",
+   "id": "thac-hieu-pu-luong",
+   "lat": 20.4646,
+   "lng": 105.22232,
+   "luu_y": "Đi cùng cung Pù Luông; suối trong, tắm được mùa hè; đường vào bản Hiêu ~25 km từ thị trấn Càng Nàng",
+   "nguon": "dulich9.com, vietmountaintravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, vietmountaintravel.com",
+    "nhan_xet": "Thác và suối ở bản Hiêu trong vắt, tắm được mùa hè, ruộng bậc thang quanh bản đẹp không kém bản Đôn; hợp nhóm bạn thích tắm suối. Điểm trừ là đường vào bản ~25 km, nước đẹp nhất tháng 6 và tháng 9, mùa khô nước ít; nên đi cùng cung Pù Luông."
+   },
+   "ten": "Thác Hiêu (bản Hiêu, Pù Luông)",
+   "thoi_gian": "1,5–2 giờ (tắm suối, ruộng bậc thang bản Hiêu)"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Bãi biển Sầm Sơn",
+   "gio": "5:30-7:00 bình minh trên biển; 16:30-18:00 hoàng hôn (tắm trong giờ cứu hộ quy định)",
+   "nguon": "dữ liệu tỉnh Thanh Hóa (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Khu bảo tồn thiên nhiên Pù Luông (bản Đôn)",
+   "gio": "6:00-8:00 sáng sớm sương trên ruộng bậc thang, lúa chín tháng 9–10; 16:00-17:30 nắng chiều",
+   "nguon": "dữ liệu tỉnh Thanh Hóa (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hòn Trống Mái (núi Trường Lệ)",
+   "gio": "5:30-7:00 bình minh; 16:30-17:30 hoàng hôn trên biển",
+   "nguon": "dữ liệu tỉnh Thanh Hóa (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào Lam Kinh, Thành nhà Hồ — tránh biển Sầm Sơn, Hải Tiến vì sóng to và Pù Luông vì đường núi trơn.",
+  "diem": [
+   "Khu di tích Lam Kinh",
+   "Thành nhà Hồ (Thành Tây Đô)",
+   "Khu di tích Hàm Rồng (cầu Hàm Rồng, núi Ngọc, Thiền viện Trúc Lâm Hàm Rồng)",
+   "Đền Bà Triệu"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bien-sam-son, hon-trong-mai",
+    "hoat_dong": "Biển Sầm Sơn tắm biển + Hòn Trống Mái (núi Trường Lệ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "sun-world-sam-son",
+    "hoat_dong": "Sun World Sầm Sơn",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn hải sản Sầm Sơn + chả tôm, dạo biển đêm",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thanh-nha-ho",
+    "hoat_dong": "Thành nhà Hồ (đi sáng sớm tránh nắng)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lam-kinh",
+    "hoat_dong": "Lam Kinh",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về TP Thanh Hóa, ăn nem chua + bánh cuốn tôm",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "pu-luong",
+    "hoat_dong": "Pù Luông (ruộng bậc thang, guồng nước, bè tre) — đi sớm, về trong ngày hoặc ở lại 1 đêm nếu muốn chậm",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Thanh Hóa / Sầm Sơn",
+  "best_season": "Biển Sầm Sơn tháng 5–8; Pù Luông lúa chín tháng 9–10, lúa xanh tháng 4–6; di tích đi quanh năm, tránh nắng gắt trưa hè",
+  "destination": "Thanh Hóa (trung tâm: TP Thanh Hóa / Sầm Sơn)",
+  "ghi_chu_dia_gioi": "Từ 1/7/2025 TP Thanh Hóa cũ chia thành các phường, khu trung tâm là phường Hạc Thành; Sầm Sơn là phường thuộc TP Thanh Hóa.",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 8/13 điểm chính xác, 5 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "thanh-hoa",
+  "lat": 19.8067,
+  "lng": 105.7852,
+  "ngay_kiem": "06/11/2026",
+  "province": "Thanh Hóa",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "văn hóa",
+   "lịch sử",
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Biển Sầm Sơn tháng 5–8; Pù Luông lúa chín tháng 9–10, lúa xanh tháng 4–6; di tích đi quanh năm, tránh nắng gắt trưa hè"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "bvdktinhthanhhoa.com.vn — website chính thức Bệnh viện Đa khoa tỉnh Thanh Hóa (ngày kiểm 08/11/2026)",
+    "so": "1900 1536",
+    "ten": "Bệnh viện Đa khoa tỉnh Thanh Hóa — Hotline"
+   },
+   {
+    "nguon": "bvdktinhthanhhoa.com.vn — website chính thức của bệnh viện (ngày kiểm 08/11/2026)",
+    "so": "0237 3951 467",
+    "ten": "Bệnh viện Đa khoa tỉnh Thanh Hóa — Phòng Kế hoạch Tổng hợp"
+   }
+  ]
+ }
+}

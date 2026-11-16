@@ -1,0 +1,957 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "70.000–100.000đ/người",
+   "mon": "Ram thịt nướng",
+   "nguon": "dulich9.com, top5quangngai.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, top5quangngai.com",
+    "nhan_xet": "Ram thịt nướng giòn, thịt nướng thơm, 70.000–100.000đ/người, hợp ăn trưa và tối. Nhược điểm là quán Quyên chưa kiểm được số nhà chính xác; nên hỏi dân địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "TP Quảng Ngãi (quán vỉa hè, chưa kiểm được số nhà chính xác)",
+     "gia": "70.000–100.000đ/người",
+     "ten": "Ram thịt nướng Quyên"
+    },
+    {
+     "dia_chi": "Góc ngã tư Quảng Trung – Lê Lợi, TP Quảng Ngãi",
+     "gia": "~20.000đ/chục (ram bắp)",
+     "ten": "Ram bắp khách sạn Trung Tâm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn xế",
+   "danh_gia_nguoi_dung": [],
+   "gia": "12.000–25.000đ/tô",
+   "mon": "Don Quảng Ngãi",
+   "nguon": "top5quangngai.com, vinwonders.com, bazantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "top5quangngai.com, vinwonders.com, bazantravel.com",
+    "nhan_xet": "Don là món lạ chỉ Quảng Ngãi mới có: don nhỏ xíu nấu canh, ăn kèm bánh tráng; giá rẻ 12.000–25.000đ/tô. Quán Don Cổ Lũy và Don Nghĩa Phú (cô Thành) được nhắc nhiều; nên ăn trưa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Hẻm 12, đường Trà Bồng Khởi Nghĩa, TP Quảng Ngãi",
+     "gia": "~20.000đ/tô, 14h tới ~20h",
+     "ten": "Don Cổ Lũy"
+    },
+    {
+     "dia_chi": "147 Nguyễn Công Phương, TP Quảng Ngãi",
+     "gia": "10.000–25.000đ/tô",
+     "ten": "Don Nghĩa Phú (Don cô Thành)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "12.000–25.000đ/phần",
+   "mon": "Ram bắp",
+   "nguon": "vinwonders.com, top5quangngai.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vinwonders.com, top5quangngai.com",
+    "nhan_xet": "Ram bắp giòn, nhân bắp ngọt, 12.000–25.000đ/phần, hợp ăn xế và ăn vặt. Quán 124 Phan Đình Phùng được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "124 Phan Đình Phùng, TP Quảng Ngãi",
+     "gia": "12.000–25.000đ, 14:00–21:30",
+     "ten": "Ram bắp 124 Phan Đình Phùng"
+    },
+    {
+     "dia_chi": "Góc ngã tư Quảng Trung – Lê Lợi, TP Quảng Ngãi",
+     "gia": "~20.000đ/chục",
+     "ten": "Ram bắp khách sạn Trung Tâm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "4.000đ/cái (quán ven biển) – 50.000đ/phần",
+   "mon": "Bánh xèo Quảng Ngãi",
+   "nguon": "bazantravel.com, top5quangngai.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bazantravel.com, top5quangngai.com",
+    "nhan_xet": "Bánh xèo Quảng Ngãi nhỏ, giòn, giá rẻ (4.000đ/cái ở quán ven biển – 50.000đ/phần); hợp ăn trưa và tối. Quán Hồng Sinh ở bãi Mỹ Khê được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "Bãi biển Mỹ Khê, Tịnh Khê, Quảng Ngãi",
+     "gia": "~4.000đ/cái",
+     "ten": "Bánh xèo Hồng Sinh Quán"
+    },
+    {
+     "dia_chi": "Cầu Bà Tá, xã Tịnh Hà, TP Quảng Ngãi",
+     "gia": "20.000–25.000đ/chục",
+     "ten": "Bánh xèo cầu Bà Tá"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn xế",
+   "danh_gia_nguoi_dung": [],
+   "gia": "5.000–35.000đ/cái hoặc phần",
+   "mon": "Bánh đập (bánh ướt) + bánh bèo chén",
+   "nguon": "top5quangngai.com, vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "top5quangngai.com, vinwonders.com",
+    "nhan_xet": "Bánh đập giòn ăn kèm bánh ướt mềm và bánh bèo chén là cặp ăn sáng đặc trưng Quảng Ngãi, 5.000–35.000đ/cái hoặc phần. Quán cô Kim (102 Lê Đại Hành) được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "102 Lê Đại Hành, TP Quảng Ngãi",
+     "gia": "7.000–10.000đ/cái",
+     "ten": "Bánh đập cô Kim"
+    },
+    {
+     "dia_chi": "Chợ Quảng Ngãi, TP Quảng Ngãi",
+     "gia": "10.000–35.000đ/phần",
+     "ten": "Bánh bèo chén khu vực chợ Quảng Ngãi"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–400.000đ/người",
+   "mon": "Hải sản Mỹ Khê – Lý Sơn",
+   "nguon": "dulich9.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, localtrips.org",
+    "nhan_xet": "Hải sản Mỹ Khê và Lý Sơn tươi, 150.000–400.000đ/người, hợp ăn trưa và tối. Điểm trừ là quán Biển Nhớ ở Lý Sơn chưa kiểm được địa chỉ chính xác; nên hỏi giá theo kg trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Bãi biển Mỹ Khê, Tịnh Khê, Quảng Ngãi",
+     "gia": "150.000–250.000đ/người",
+     "ten": "Quán hải sản ven biển Mỹ Khê"
+    },
+    {
+     "dia_chi": "Đảo Lý Sơn (chưa kiểm được địa chỉ chính xác)",
+     "gia": "200.000–300.000đ/người",
+     "ten": "Quán Biển Nhớ (Lý Sơn)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–20.000đ/phần",
+   "mon": "Bò hít",
+   "nguon": "vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vinwonders.com",
+    "nhan_xet": "Bò hít là món ăn vặt lạ của Quảng Ngãi, 15.000–20.000đ/phần, hợp ăn xế. Quán góc Trần Hưng Đạo – Phan Đình Phùng được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "152C Phan Đình Phùng, TP Quảng Ngãi",
+     "gia": "15.000–20.000đ",
+     "ten": "Bò hít góc ngã tư Trần Hưng Đạo – Phan Đình Phùng"
+    },
+    {
+     "dia_chi": "138 Lê Đại Hành, TP Quảng Ngãi",
+     "gia": "10.000–50.000đ",
+     "ten": "Quán ăn vặt đường Lê Đại Hành"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–50.000đ/tô",
+   "mon": "Mì Quảng Quảng Ngãi",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com",
+    "nhan_xet": "Mì Quảng Quảng Ngãi đậm đà, 25.000–50.000đ/tô, hợp ăn sáng và trưa. Nhược điểm là quán cụ thể chưa kiểm được tên và số nhà; nên ăn ở khu vực chợ Quảng Ngãi."
+   },
+   "quan": [
+    {
+     "dia_chi": "TP Quảng Ngãi (chưa kiểm được tên + số nhà cụ thể)",
+     "gia": "25.000–50.000đ/tô",
+     "ten": "Quán mì Quảng khu vực trung tâm"
+    },
+    {
+     "dia_chi": "Chợ Quảng Ngãi, TP Quảng Ngãi",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn khu vực chợ Quảng Ngãi"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 20.000–50.000đ/phần",
+   "mon": "Ốc hút Quảng Ngãi",
+   "nguon": "vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vinwonders.com",
+    "nhan_xet": "Ốc hút cay nồng, hợp ăn xế và ăn tối theo nhóm; giá ~20.000–50.000đ/phần. Nhược điểm là quán cụ thể chưa kiểm được tên và số nhà."
+   },
+   "quan": [
+    {
+     "dia_chi": "TP Quảng Ngãi (chưa kiểm được tên + số nhà cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ốc hút khu vực TP Quảng Ngãi"
+    },
+    {
+     "dia_chi": "Bãi biển Mỹ Khê, Tịnh Khê",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn vặt ven biển Mỹ Khê"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–Chu Lai khứ hồi + xe về TP",
+   "uoc_tinh": "1.800.000–3.600.000đ"
+  },
+  {
+   "hang_muc": "Xe khách/tàu SG–Quảng Ngãi khứ hồi (nếu đi đường bộ)",
+   "uoc_tinh": "600.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Tàu Sa Kỳ–Lý Sơn khứ hồi + cano đảo Bé",
+   "uoc_tinh": "400.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (1 đêm TP + 1 đêm Lý Sơn, chia đôi phòng)",
+   "uoc_tinh": "500.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "50.000–150.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng",
+   "uoc_tinh": "300.000–500.000đ"
+  },
+  {
+   "hang_muc": "Taxi/xe buýt/phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi đường bộ)",
+   "uoc_tinh": "2.050.000–3.950.000đ/người"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi máy bay)",
+   "uoc_tinh": "3.250.000–6.350.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua vé tại quầy/bến chính thức hoặc website của hãng tàu; đặt sớm dịp lễ; không mua vé qua cò.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Vé tàu cao tốc Sa Kỳ — Lý Sơn và tour đảo: giá vé, giá tour không thống nhất; dịp lễ hết vé, có cò vé hét giá cao."
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá thuê đã gồm những gì; kiểm tra xe trước khi nhận; xem dự báo thời tiết và hỏi người dân trước khi ra đảo Bé.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy, thuyền ra đảo Bé và các điểm ở Lý Sơn: giá thuê không thống nhất, phụ thu; thuyền ra đảo Bé phụ thuộc thời tiết."
+  },
+  {
+   "cach_tranh": "Hỏi giá theo kg trước khi cân, xem cân trước mặt, chốt tổng tiền trước khi chế biến; ưu tiên quán có bảng giá niêm yết.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn hải sản ở Lý Sơn và biển Mỹ Khê: cân thiếu, giá hải sản tươi sống hét cao với khách lạ."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  }
+ ],
+ "checklist": [
+  "CCCD/hộ chiếu (BẮT BUỘC khi mua vé tàu ra Lý Sơn)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác mỏng, mũ, kem chống nắng (nắng biển gắt)",
+  "Đồ bơi, dép lê (biển Mỹ Khê, Lý Sơn, đảo Bé)",
+  "Áo mưa mỏng, thuốc say sóng (tàu ra đảo)",
+  "Tiền mặt lẻ (trên đảo Lý Sơn nhiều quán chỉ nhận tiền mặt)",
+  "Sạc dự phòng, thuốc cơ bản"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn 2–3 sao trung tâm TP Quảng Ngãi",
+   "Homestay/khách sạn trên đảo Lý Sơn"
+  ],
+  "diem": [
+   "Đảo Lý Sơn (đảo Lớn)",
+   "Cổng Tò Vò – Hang Câu (Lý Sơn)",
+   "Biển Mỹ Khê (Quảng Ngãi)",
+   "Biển Sa Huỳnh – cánh đồng muối Sa Huỳnh"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Homestay/khách sạn trên đảo Lý Sơn",
+   "Central Hotel Quảng Ngãi",
+   "Nhà nghỉ cảng Sa Kỳ"
+  ],
+  "diem_chay": [
+   "Đường ven biển đảo Lý Sơn (cung đường của giải)",
+   "Biển Mỹ Khê, Quảng Ngãi buổi sáng sớm",
+   "Đường ven biển Sa Huỳnh"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Thanh Niên — Lý Sơn Half Marathon: Chạy giữa biển trời và nham thạch triệu năm (28/6/2026); VietnamPlus — Gần 1.800 vận động viên tham gia Giải chạy Lý Sơn Half Marathon (28/6/2026) (ngày kiểm 08/11/2026)",
+    "ten": "Lý Sơn Half Marathon — Theo dấu chân tiền tiêu",
+    "thoi_gian": "Tháng 6 hằng năm (mùa 2026: 28/6/2026)"
+   }
+  ],
+  "nguon": "Báo Thanh Niên và VietnamPlus về giải Lý Sơn Half Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Quảng Ngãi (khu vực trung tâm, chưa kiểm được số nhà chính xác)",
+   "dien_thoai": "0255 3829 999",
+   "gia": "~700.000–1.500.000đ/đêm (theo nguồn dulich9)",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, khách đoàn",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "vivulyson.com, cungphuot.info, tadiha.com, toplist.vn, tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Central Hotel Quảng Ngãi",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP, gần chợ và quán ram thịt nướng",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực đường Quang Trung – Phan Đình Phùng, TP Quảng Ngãi",
+   "dien_thoai": null,
+   "gia": "~250.000–500.000đ/đêm",
+   "hang": "2–3 sao",
+   "hop_voi": "Khách tiết kiệm, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com, localtrips.org",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn 2–3 sao trung tâm TP Quảng Ngãi",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát bãi Mỹ Khê, cách trung tâm ~12 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bãi biển Mỹ Khê, xã Tịnh Khê, TP Quảng Ngãi",
+   "dien_thoai": "0255 3677 999",
+   "gia": "~300.000–700.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "2–3 sao",
+   "hop_voi": "Gia đình tắm biển",
+   "khu_vuc": "my-khe",
+   "nguon": "phanvantravel.com, dulich9.com",
+   "nguon_dien_thoai": "mykheresort.com.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Mỹ Khê (ven biển)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách cảng Sa Kỳ ~1 km; tiện đi tàu sớm ra Lý Sơn",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực cảng Sa Kỳ, xã Bình Châu (nay xã Đông Sơn), TP Quảng Ngãi",
+   "dien_thoai": null,
+   "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách đi Lý Sơn",
+   "khu_vuc": "sa-ky",
+   "nguon": "mia.vn, nucuoimekong.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ cảng Sa Kỳ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trên đảo, thuê xe máy ngay tại chỗ ~150.000đ/ngày",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Lý Sơn (khu vực cầu cảng + thôn Đông)",
+   "dien_thoai": null,
+   "gia": "~250.000–600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Homestay/khách sạn mini (không hạng sao)",
+   "hop_voi": "Nhóm bạn, cặp đôi ở đảo 1–2 đêm",
+   "khu_vuc": "ly-son",
+   "nguon": "dulich9.com, lysontravel.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay/khách sạn trên đảo Lý Sơn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát bãi Sa Huỳnh, cách trung tâm ~60 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bãi biển Sa Huỳnh, phường Sa Huỳnh, TP Quảng Ngãi",
+   "dien_thoai": "0255 3860 311",
+   "gia": "~500.000–1.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "3 sao (chưa kiểm được hạng chính xác)",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng biển",
+   "khu_vuc": "sa-huynh",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "sahuynhbeachresort.com (ngày kiểm 08/11/2026)",
+   "ten": "Sa Huỳnh Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần biển Sa Huỳnh + đồng muối",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Sa Huỳnh / khu vực Đức Phổ, TP Quảng Ngãi",
+   "dien_thoai": null,
+   "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách đi cung nam Quảng Ngãi",
+   "khu_vuc": "sa-huynh",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ thị xã Đức Phổ (Sa Huỳnh)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 7 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Đảo Lý Sơn (đảo Lớn), Cổng Tò Vò – Hang Câu (Lý Sơn), Đảo Bé (An Bình), Biển Mỹ Khê (Quảng Ngãi), Thác Trắng (Minh Long), Khu du lịch sinh thái Suối Chí, Biển Bình Châu",
+  "Giá vé tàu Sa Kỳ–Lý Sơn: ĐÃ CẬP NHẬT theo nguồn 2026 — mặt bằng chung 203.000–237.000đ/lượt khách du lịch, Phú Quốc Express từ 160.000đ (từ 10/4/2026); các mức cũ 105.000đ / 145.000–250.000đ đã lỗi thời.",
+  "Giá cano đảo Bé; giá vé Thác Trắng; giá vé chùa Đục",
+  "Giá vé máy bay SG/HN–Chu Lai chính xác; giá taxi Chu Lai–Quảng Ngãi/Sa Kỳ",
+  "Giá vé tàu SG/HN–ga Quảng Ngãi 2026; giá xe khách HN–Quảng Ngãi",
+  "Địa chỉ + số nhà: Central Hotel, khách sạn Mỹ Khê, nhà nghỉ Sa Kỳ, homestay Lý Sơn, Sa Huỳnh Resort",
+  "Tên + số nhà: quán ram Quyên, quán Biển Nhớ Lý Sơn, quán mì Quảng, quán ốc hút",
+  "Giờ mở cửa: Sơn Mỹ, Thác Trắng, chùa Hang/Thới Lới",
+  "Khoảng cách TP Quảng Ngãi–cảng Sa Kỳ: 18 km vs 23 km vs 28 km (nguồn khác nhau)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Bảo tàng Tổng hợp Quảng Ngãi, Khu du lịch sinh thái Suối Chí, Biển Bình Châu — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Quảng Ngãi ven biển, không có đèo lớn. Đường lên đỉnh Thới Lới và chùa Hang ở Lý Sơn dốc, cua gấp — đi chậm, kiểm tra phanh; đường ven biển Sa Huỳnh — Mỹ Khê có đoạn cua khuất tầm nhìn.",
+  "deo": [],
+  "nguon": "Tỉnh ven biển, không có đèo lớn; đường lên đỉnh Thới Lới (Lý Sơn) dốc, cua gấp (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu": "Quảng Ngãi không có sân bay; sân bay gần nhất là Chu Lai (cách TP ~40 km). Ra Lý Sơn bắt buộc đi tàu từ cảng Sa Kỳ (cách TP ~18–23 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Bay ~900.000–1.800.000đ/chiều (tùy thời điểm, chưa kiểm được giá chính xác)",
+    "nguon": "nucuoimekong.com",
+    "phuong_tien": "Máy bay HAN–VCA (Chu Lai) + xe về Quảng Ngãi",
+    "thoi_gian": "Bay ~1h30 + xe ~1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Đi đêm tiết kiệm thời gian",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Xe khách HN–Quảng Ngãi",
+    "thoi_gian": "~18–20 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Ga Quảng Ngãi cách trung tâm ~2 km",
+    "gia": "Chưa kiểm được giá vé 2026 — tra dsvn.vn",
+    "nguon": "duongsatvietnam.vn",
+    "phuong_tien": "Tàu HN–ga Quảng Ngãi",
+    "thoi_gian": "~16–18 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Đặt xe trước khi bay",
+    "gia": "~400.000–600.000đ/chuyến (chưa kiểm được giá chính xác)",
+    "nguon": "nucuoimekong.com",
+    "phuong_tien": "Taxi Chu Lai – TP Quảng Ngãi",
+    "thoi_gian": "~1–1,5 giờ, ~40 km"
+   },
+   {
+    "ghi_chu": "Đi thẳng ra đảo nếu bay chuyến sáng",
+    "gia": "Chưa kiểm được giá riêng",
+    "nguon": "nucuoimekong.com",
+    "phuong_tien": "Taxi Chu Lai – cảng Sa Kỳ",
+    "thoi_gian": "35–40 phút, ~25–30 km"
+   },
+   {
+    "ghi_chu": "Hãng: Super Biển Đông, An Vĩnh Express, Siêu tốc Hòa Bình; tàu 7:30–15:30; mang CCCD",
+    "gia": "145.000–220.000đ/lượt (siêu tốc 200.000–250.000đ; tàu thường ~105.000đ)",
+    "nguon": "nucuoimekong.com, mia.vn",
+    "phuong_tien": "Tàu cao tốc Sa Kỳ – Lý Sơn",
+    "thoi_gian": "30–35 phút (siêu tốc) hoặc ~60–90 phút (tàu thường)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Sân bay Chu Lai (Quảng Nam cũ, nay thuộc TP Đà Nẵng) là sân bay gần Quảng Ngãi nhất",
+    "gia": "Bay ~700.000–1.500.000đ/chiều (tùy thời điểm, chưa kiểm được giá chính xác); taxi Chu Lai–Quảng Ngãi ~400.000–600.000đ/chuyến (chưa kiểm được)",
+    "nguon": "nucuoimekong.com, mia.vn",
+    "phuong_tien": "Máy bay SGN–VCA (Chu Lai) + xe về Quảng Ngãi",
+    "thoi_gian": "Bay ~1h20 + xe ~1–1,5 giờ (Chu Lai–Quảng Ngãi ~40 km)"
+   },
+   {
+    "ghi_chu": "Hãng tra được: Hoàng Long, Camel, The Sinh Tourist (theo nguồn cũ)",
+    "gia": "~260.000–500.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+    "nguon": "tiphay.vn, dulich9.com",
+    "phuong_tien": "Xe khách giường nằm SG–Quảng Ngãi",
+    "thoi_gian": "~16–18 giờ"
+   },
+   {
+    "ghi_chu": "Ga Quảng Ngãi cách trung tâm ~2 km; tàu Thống Nhất dừng hằng ngày",
+    "gia": "Ghế mềm ~500.000–800.000đ; giường nằm ~800.000–1.300.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+    "nguon": "duongsatvietnam.vn",
+    "phuong_tien": "Tàu SG–ga Quảng Ngãi",
+    "thoi_gian": "~16–18 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê ngay tại khách sạn ở TP (100.000–120.000đ/ngày theo nguồn)",
+   "gia": "100.000–150.000đ/ngày (đất liền); trên đảo Lý Sơn ~150.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "dulich9.com, vietthangtravel.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Đường đi Sa Huỳnh/Thác Trắng xa — ưu tiên xe số",
+   "gia": "120.000–250.000đ/ngày (chưa kiểm được giá chính xác)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vietthangtravel.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh, Grab",
+   "gia": "Chưa kiểm được giá/km riêng — Grab trong TP ~15.000–20.000đ/chuyến ngắn (theo nguồn)",
+   "giay_to": "—",
+   "nguon": "dulich9.com",
+   "phuong_tien": "Taxi nội thành Quảng Ngãi"
+  },
+  {
+   "ghi_chu": "Tuyến Mai Linh Bus #03; tiện đi tàu sớm ra Lý Sơn",
+   "gia": "~40–45 phút",
+   "giay_to": "~25.000đ/vé",
+   "nguon": "mia.vn",
+   "phuong_tien": "Xe buýt TP Quảng Ngãi – cảng Sa Kỳ (tuyến 03)"
+  },
+  {
+   "ghi_chu": "Hợp cung Sa Huỳnh + Mỹ Khê trong 1 ngày",
+   "gia": "500.000–1.000.000đ/ngày (theo nguồn vietthangtravel, chưa kiểm được chi tiết)",
+   "giay_to": "—",
+   "nguon": "vietthangtravel.com",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "dao",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện đảo Lý Sơn, cách cảng Sa Kỳ ~30 km đường biển",
+   "gia_ve": "Miễn phí tham quan đảo; tàu cao tốc Sa Kỳ–Lý Sơn ~160.000–237.000đ/lượt tùy hãng (Phú Quốc Express từ 160.000đ từ 10/4/2026; mặt bằng chung 203.000–237.000đ; nguồn cũ 105.000–250.000đ đã lỗi thời)",
+   "gio_mo_cua": "Tàu 7:30–15:30 hằng ngày (phụ thuộc thời tiết)",
+   "hop_voi": "Mọi đối tượng, người thích biển đảo",
+   "id": "dao-ly-son",
+   "lat": 15.37716,
+   "lng": 109.1261,
+   "luu_y": "Mang CCCD/hộ chiếu khi mua vé tàu; biển động tàu có thể hủy — kiểm tra thời tiết, đặt vé khứ hồi sớm. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com, nucuoimekong.com, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn, vietnamreviews.blog, taucaotoc.vn, danangtransfer.vn",
+    "nhan_xet": "Lý Sơn là điểm nhấn số một Quảng Ngãi: đảo núi lửa, biển trong, tỏi và hải sản ngon; nên ở lại 1 đêm. Giá tàu Sa Kỳ–Lý Sơn đã tăng mạnh năm 2026: mặt bằng chung 203.000–237.000đ/lượt khách du lịch, Phú Quốc Express từ 160.000đ (từ 10/4/2026) — các mức cũ 105.000đ và 145.000–220.000đ trong file cũ đã lỗi thời. Nên đặt vé khứ hồi sớm, mang CCCD, kiểm thời tiết vì biển động tàu có thể hủy."
+   },
+   "ten": "Đảo Lý Sơn (đảo Lớn)",
+   "thoi_gian": "1–2 ngày (nên ở lại 1 đêm)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "dao",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bờ tây đảo Lý Sơn",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày; đẹp nhất hoàng hôn (Tò Vò) và sáng sớm (Hang Câu)",
+   "hop_voi": "Mọi đối tượng, nhiếp ảnh",
+   "id": "cong-to-vo-hang-cau",
+   "lat": 15.37716,
+   "lng": 109.1261,
+   "luu_y": "Vách đá trơn khi có sóng; không leo ra mép đá xa khi biển động. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, phanvantravel.com",
+    "nhan_xet": "Cổng Tò Vò hoàng hôn và Hang Câu sáng sớm là hai góc chụp đẹp nhất Lý Sơn, miễn phí. Điểm trừ là vách đá trơn khi có sóng; không leo ra mép đá xa khi biển động."
+   },
+   "ten": "Cổng Tò Vò – Hang Câu (Lý Sơn)",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "dao",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Lý Sơn",
+   "gia_ve": "Miễn phí (Thới Lới, chùa Hang); chùa Đục chưa kiểm được vé",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "dinh-thoi-loi-chua-hang",
+   "lat": 15.38223,
+   "lng": 109.13154,
+   "luu_y": "Thới Lới là núi lửa lớn nhất Lý Sơn, có cột cờ + hồ miệng núi lửa; leo đỉnh mất ~30–45 phút",
+   "nguon": "phanvantravel.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "phanvantravel.com, localtrips.org",
+    "nhan_xet": "Đỉnh Thới Lới là miệng núi lửa lớn nhất Lý Sơn, có cột cờ và hồ miệng núi lửa, view toàn đảo; chùa Hang mát và linh thiêng. Điểm trừ là leo đỉnh mất 30–45 phút; nên đi sáng sớm tránh nắng."
+   },
+   "ten": "Đỉnh Thới Lới – chùa Hang (Lý Sơn)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "33",
+   "cum": "dao",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cách đảo Lớn Lý Sơn ~3 hải lý, đi cano ~10–15 phút",
+   "gia_ve": "Cano khứ hồi khoảng 100.000–150.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Cano chạy ban ngày, phụ thuộc thời tiết",
+   "hop_voi": "Mọi đối tượng, người thích lặn ngắm san hô",
+   "id": "dao-be-an-binh",
+   "lat": 15.42939,
+   "lng": 109.08063,
+   "luu_y": "Bãi biển đảo Bé trong và đẹp nhất Lý Sơn; mang đồ bơi, kem chống nắng; cano có thể hủy khi biển động. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com, lysontravel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, lysontravel.vn, mia.vn",
+    "nhan_xet": "Đảo Bé có bãi biển trong và đẹp nhất Lý Sơn, lặn ngắm san hô hợp mọi đối tượng. Cano khứ hồi ~100.000–150.000đ/người (có nguồn ghi 140.000đ khứ hồi theo mia.vn); cano có thể hủy khi biển động nên kiểm thời tiết trước."
+   },
+   "ten": "Đảo Bé (An Bình)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "12",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Cổ Lũy, xã Tịnh Khê, TP Quảng Ngãi",
+   "gia_ve": "Miễn phí vào bãi",
+   "gio_mo_cua": "Cả ngày; tắm đẹp nhất sáng sớm và chiều mát",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "bien-my-khe-quang-ngai",
+   "lat": 15.182,
+   "lng": 108.89071,
+   "luu_y": "Bãi dài ~7 km, rừng dương ven bờ; khác Mỹ Khê Đà Nẵng — ghi rõ khi tìm đường. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "phanvantravel.com, localtrips.org, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "phanvantravel.com, localtrips.org, dulich9.com",
+    "nhan_xet": "Biển Mỹ Khê Quảng Ngãi dài ~7 km, rừng dương ven bờ, yên tĩnh hơn Mỹ Khê Đà Nẵng; hợp gia đình. Lưu ý là dễ nhầm với Mỹ Khê Đà Nẵng khi tìm đường — ghi rõ Quảng Ngãi."
+   },
+   "ten": "Biển Mỹ Khê (Quảng Ngãi)",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "5",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phía bắc sông Trà Khúc, TP Quảng Ngãi",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "nui-thien-an",
+   "lat": 15.14812,
+   "lng": 108.81807,
+   "luu_y": "Biểu tượng Quảng Ngãi, chùa Thiên Ấn trên đỉnh; view toàn cảnh TP + sông Trà Khúc",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / phanvantravel.com",
+    "nhan_xet": "Núi Thiên Ấn là biểu tượng Quảng Ngãi, chùa trên đỉnh, view toàn cảnh TP và sông Trà Khúc; miễn phí, hợp mọi đối tượng. Điểm trừ là quy mô nhỏ, chỉ chơi 1–1,5 giờ; nên ghép cùng Thành cổ Châu Sa."
+   },
+   "ten": "Núi Thiên Ấn",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "12",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tịnh Khê (huyện Sơn Tịnh cũ), TP Quảng Ngãi",
+   "gia_ve": "Người lớn ~20.000đ; trẻ em ~10.000đ",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "khu-chung-tich-son-my",
+   "lat": 15.17933,
+   "lng": 108.8859,
+   "luu_y": "Di tích vụ thảm sát 16/3/1968 — giữ thái độ trang nghiêm; ghép cùng biển Mỹ Khê (cùng xã Tịnh Khê)",
+   "nguon": "phanvantravel.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "phanvantravel.com, localtrips.org",
+    "nhan_xet": "Khu chứng tích Sơn Mỹ là di tích vụ thảm sát 16/3/1968, không gian trang nghiêm, vé chỉ ~20.000đ; hợp mọi đối tượng tìm hiểu lịch sử. Nên giữ thái độ trang nghiêm và ghép cùng biển Mỹ Khê (cùng xã Tịnh Khê)."
+   },
+   "ten": "Khu chứng tích Sơn Mỹ",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "60",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Sa Huỳnh (thị xã Đức Phổ cũ), phía nam Quảng Ngãi",
+   "gia_ve": "Miễn phí vào bãi và đồng muối",
+   "gio_mo_cua": "Cả ngày; đồng muối đẹp nhất sáng sớm và hoàng hôn",
+   "hop_voi": "Mọi đối tượng, nhiếp ảnh",
+   "id": "bien-sa-huynh-dong-muoi",
+   "lat": 14.6899,
+   "lng": 109.06478,
+   "luu_y": "Vựa muối lớn nhất miền Trung (~110 ha); cát vàng đặc trưng; cách TP ~60 km — nên đi buổi sáng",
+   "nguon": "phanvantravel.com, localtrips.org, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "phanvantravel.com, localtrips.org, dulich9.com",
+    "nhan_xet": "Biển Sa Huỳnh cát vàng đặc trưng, đồng muối ~110 ha đẹp nhất sáng sớm và hoàng hôn; hợp nhiếp ảnh. Điểm trừ là cách TP ~60 km, nên đi buổi sáng."
+   },
+   "ten": "Biển Sa Huỳnh – cánh đồng muối Sa Huỳnh",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "70",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Minh Long, TP Quảng Ngãi",
+   "gia_ve": "Khoảng 20.000–30.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Nhóm bạn, người thích trekking nhẹ",
+   "id": "thac-trang-quang-ngai",
+   "lat": 14.93367,
+   "lng": 108.70236,
+   "luu_y": "Cách TP ~70 km đường núi; đẹp mùa mưa (tháng 5–9), mùa khô nước ít — cân nhắc nếu đi dưới 3 ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, localtrips.org",
+    "nhan_xet": "Thác Trắng đẹp mùa mưa (tháng 5–9), hợp nhóm bạn trekking nhẹ. Điểm trừ là cách TP ~70 km đường núi, mùa khô nước ít; cân nhắc nếu đi dưới 3 ngày."
+   },
+   "ten": "Thác Trắng (Minh Long)",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "7",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tịnh Châu, TP Quảng Ngãi",
+   "gia_ve": "Miễn phí (chưa kiểm được vé nếu có)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Người yêu lịch sử Chăm Pa",
+   "id": "thanh-co-chau-sa",
+   "lat": 15.16438,
+   "lng": 108.8448,
+   "luu_y": "Thành Chăm cổ; ít hạ tầng du lịch, nên ghép cùng núi Thiên Ấn",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / vietthangtravel.com",
+    "nhan_xet": "Thành cổ Châu Sa là thành Chăm cổ, hợp người yêu lịch sử Chăm Pa. Điểm trừ là ít hạ tầng du lịch; nên ghép cùng núi Thiên Ấn."
+   },
+   "ten": "Thành cổ Châu Sa",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "99 Lê Trung Đình, phường Nguyễn Nghiêm, TP Quảng Ngãi",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "bao-tang-tong-hop-quang-ngai",
+   "lat": 15.12472,
+   "lng": 108.80845,
+   "luu_y": "Bảo tàng tỉnh, trưng bày văn hóa Sa Huỳnh – Chăm Pa – kháng chiến; ghép cùng núi Thiên Ấn trong buổi sáng",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Bảo tàng tỉnh trưng bày văn hóa Sa Huỳnh – Chăm Pa – kháng chiến, hợp người yêu lịch sử ghép buổi sáng cùng núi Thiên Ấn. Điểm trừ là chưa kiểm được giá vé và giờ mở cửa hiện hành."
+   },
+   "ten": "Bảo tàng Tổng hợp Quảng Ngãi",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Nghĩa Hành, cách TP Quảng Ngãi ~25 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn thích suối rừng",
+   "id": "suoi-chi",
+   "lat": 14.98702,
+   "lng": 108.78273,
+   "luu_y": "Suối trong rừng, mát về mùa hè; tọa độ xấp xỉ (trung tâm huyện Nghĩa Hành), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Suối Chí trong rừng, mát về mùa hè, hợp gia đình và nhóm bạn tắm suối. Điểm trừ là chưa kiểm được giá vé và giờ mở cửa, tọa độ chỉ ở mức huyện; nên hỏi dân địa phương trước."
+   },
+   "ten": "Khu du lịch sinh thái Suối Chí",
+   "thoi_gian": "2–3 giờ (tắm suối, nghỉ mát)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Bình Châu, huyện Bình Sơn, cách TP Quảng Ngãi ~35 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển yên tĩnh",
+   "id": "bien-binh-chau",
+   "lat": 15.2349,
+   "lng": 108.91591,
+   "luu_y": "Biển gần cảng Sa Kỳ (cùng huyện Bình Sơn), ghép được với ngày đi Lý Sơn; tọa độ xấp xỉ (trung tâm xã Bình Châu), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Biển Bình Châu yên tĩnh, gần cảng Sa Kỳ nên ghép được với ngày đi Lý Sơn; hợp gia đình. Điểm trừ là ít dịch vụ, tọa độ chỉ ở mức xã; nên đi trong ngày."
+   },
+   "ten": "Biển Bình Châu",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Cổng Tò Vò – Hang Câu (Lý Sơn)",
+   "gio": "5:30-7:00 sáng bình minh hoặc 16:30-18:00 hoàng hôn trên biển",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Đảo Bé (An Bình)",
+   "gio": "7:00-9:00 sáng, nước trong, ánh sáng đẹp để chụp bãi biển",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Biển Sa Huỳnh – cánh đồng muối Sa Huỳnh",
+   "gio": "5:30-7:00 sáng, người dân thu hoạch muối, ánh sáng mềm",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa bão thì ở đất liền: bảo tàng Quảng Ngãi, khu chứng tích Sơn Mỹ — đừng ra Lý Sơn vì tàu có thể dừng.",
+  "diem": [
+   "Bảo tàng Tổng hợp Quảng Ngãi",
+   "Khu chứng tích Sơn Mỹ",
+   "Đỉnh Thới Lới – chùa Hang (Lý Sơn)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "nui-thien-an, thanh-co-chau-sa",
+    "hoat_dong": "Núi Thiên Ấn (1–1,5 giờ) + Thành cổ Châu Sa",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bien-my-khe-quang-ngai, khu-chung-tich-son-my",
+    "hoat_dong": "Biển Mỹ Khê tắm biển + Khu chứng tích Sơn Mỹ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ram thịt nướng + don Quảng Ngãi ở trung tâm TP",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "dao-ly-son, cong-to-vo-hang-cau",
+    "hoat_dong": "Tàu Sa Kỳ–Lý Sơn (7:30), tham quan Cổng Tò Vò – Hang Câu",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "dinh-thoi-loi-chua-hang",
+    "hoat_dong": "Đỉnh Thới Lới – chùa Hang, ngắm hoàng hôn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Hải sản Lý Sơn, nghỉ lại đảo",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "dao-be-an-binh",
+    "hoat_dong": "Đảo Bé (cano buổi sáng) hoặc dạo chợ hải sản Lý Sơn, tàu về đất liền 9h–10h",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bien-sa-huynh-dong-muoi",
+    "hoat_dong": "Biển Sa Huỳnh + cánh đồng muối (nếu kịp) rồi về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Quảng Ngãi",
+  "best_season": "Tháng 4–tháng 8 (biển êm, nắng đẹp; Lý Sơn đẹp nhất tháng 4–tháng 9); tránh tháng 10–tháng 12 mưa bão, biển động",
+  "destination": "Quảng Ngãi",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 6/13 điểm chính xác, 7 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "quang-ngai",
+  "lat": 15.15857,
+  "lng": 108.84689,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "phanvantravel.com",
+   "localtrips.org",
+   "dulich9.com",
+   "vietthangtravel.com",
+   "nucuoimekong.com",
+   "mia.vn",
+   "vinwonders.com",
+   "top5quangngai.com"
+  ],
+  "overview": "Quảng Ngãi: đảo núi lửa Lý Sơn là điểm nhấn, cộng biển Mỹ Khê – Sa Huỳnh, núi Thiên Ấn và chứng tích Sơn Mỹ.",
+  "province": "Quảng Ngãi",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 4–tháng 8 (biển êm, nắng đẹp; Lý Sơn đẹp nhất tháng 4–tháng 9); tránh tháng 10–tháng 12 mưa bão, biển động"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

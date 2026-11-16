@@ -1,0 +1,989 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–250.000đ/kg tại nguồn (một nguồn ghi 350.000–600.000đ/kg cho cua thịt, cao hơn cho cua gạch)",
+   "mon": "Cua Năm Căn (hấp sả/rang muối ớt)",
+   "nguon": "bangoaihomestay.vn, dulichviet.com.vn, buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bangoaihomestay.vn / dulichviet.com.vn / hellocamau.vn",
+    "nhan_xet": "Cua Năm Căn là món nhất định phải ăn ở Cà Mau: cua thịt chắc, gạch son béo. Nhưng giá là điểm mâu thuẫn nhất: có nguồn ghi 150.000–250.000đ/kg tại nguồn, có nguồn ghi 350.000–600.000đ/kg, và hellocamau.vn ghi cua thịt loại 1 là 300.000–450.000đ/kg, cua gạch son 450.000–600.000đ/kg — chênh nhau do loại cua và mùa. Điểm mạnh là ăn tại Năm Căn rẻ hơn ở TP.HCM 30–40%; điểm yếu là dễ bị hét giá nếu không hỏi trước. Hợp với nhóm ăn tối, nên ăn ở chợ Năm Căn và hỏi giá theo loại cua trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Năm Căn, huyện Năm Căn",
+     "gia": "150.000–250.000đ/kg tại nguồn",
+     "ten": "Chợ Năm Căn"
+    },
+    {
+     "dia_chi": "Ven Sông Gành Hào, TP Cà Mau",
+     "gia": "300.000–600.000đ/kg (tùy loại/mùa)",
+     "ten": "Các vựa hải sản ven Sông Gành Hào"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (ăn với cơm trắng)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–160.000đ/kg (một nguồn ghi 150.000–250.000đ/kg); hũ đóng sẵn 80.000–120.000đ/hũ",
+   "mon": "Ba khía muối Rạch Gốc",
+   "nguon": "bangoaihomestay.vn, dulichviet.com.vn, hellocamau.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bangoaihomestay.vn / dulichviet.com.vn / hellocamau.vn",
+    "nhan_xet": "Ba khía muối Rạch Gốc là món 'gây nghiện' của Cà Mau: mặn, chua, cay, ăn với cơm trắng là hết nồi. Điểm yếu là giá các nguồn ghi khác nhau (80.000–160.000đ/kg vs 150.000–250.000đ/kg) tùy loại và mùa. Hợp với ăn cơm và mua về, nên mua ở chợ Cà Mau hoặc chợ Rạch Gốc."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Lợi, TP Cà Mau",
+     "gia": "80.000–160.000đ/kg",
+     "ten": "Chợ Cà Mau"
+    },
+    {
+     "dia_chi": "Huyện Ngọc Hiển",
+     "gia": "80.000–160.000đ/kg",
+     "ten": "Chợ Rạch Gốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–400.000đ/nồi (2–4 người)",
+   "mon": "Lẩu mắm U Minh",
+   "nguon": "bazantravel.com, dulichviet.com.vn, buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bazantravel.com / dulichviet.com.vn",
+    "nhan_xet": "Lẩu mắm U Minh đậm vị mắm, rau đồng nhiều — ăn nhóm 2–4 người là vừa nồi. Điểm mạnh là giá 100.000–400.000đ/nồi tùy quán và số người; điểm yếu là mắm nặng mùi, ai không quen sẽ khó ăn. Hợp với nhóm ăn tối, nên ăn ở quán 91A Tôn Đức Thắng."
+   },
+   "quan": [
+    {
+     "dia_chi": "91A Tôn Đức Thắng, Phường 5, TP Cà Mau",
+     "gia": "100.000–200.000đ/nồi (theo bazantravel)",
+     "ten": "Quán lẩu mắm U Minh"
+    },
+    {
+     "dia_chi": "Ấp Rạch Mũi, xã Đất Mũi, huyện Ngọc Hiển",
+     "gia": "200.000–400.000đ/nồi",
+     "ten": "Nhà hàng Mũi Cà Mau"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–40.000đ/tô (một nguồn ghi 30.000–45.000đ/tô)",
+   "mon": "Bún nước lèo Cà Mau",
+   "nguon": "dulichviet.com.vn, bangoaihomestay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn / bangoaihomestay.vn",
+    "nhan_xet": "Bún nước lèo Cà Mau (quán Cây Sứa) là món sáng đúng chất: nước lèo ngọt, cá lóc, tôm — giá 25.000–40.000đ/tô. Điểm yếu là có nguồn ghi 30.000–45.000đ/tô, chênh nhẹ. Hợp với ăn sáng, nên ăn ở Cây Sứa (15 Lý Thường Kiệt)."
+   },
+   "quan": [
+    {
+     "dia_chi": "Số 15 Lý Thường Kiệt, Phường 6, TP Cà Mau",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Quán Cây Sứa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "35.000–50.000đ/tô",
+   "mon": "Cháo cá lóc",
+   "nguon": "bangoaihomestay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bangoaihomestay.vn",
+    "nhan_xet": "Cháo cá lóc Cà Mau ăn sáng ấm bụng, cá lóc đồng ngọt thịt, giá 35.000–50.000đ/tô. Điểm yếu là quán tên riêng chưa kiểm được, chỉ biết khu vực chợ Cà Mau. Hợp với ăn sáng, nên ăn quanh chợ Cà Mau buổi sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Lợi, TP Cà Mau (quán tên riêng chưa kiểm được)",
+     "gia": "35.000–50.000đ/tô",
+     "ten": "Các quán ăn quanh chợ Cà Mau"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Ốc len xào dừa",
+   "nguon": "bangoaihomestay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bangoaihomestay.vn",
+    "nhan_xet": "Ốc len xào dừa béo nước cốt dừa, ăn chơi buổi chiều rất hợp. Điểm yếu là giá riêng chưa kiểm được, chỉ có sạp ốc len ở chợ Cà Mau. Hợp với ăn vặt, nên ăn ở chợ Cà Mau."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Lợi, TP Cà Mau (sạp ốc len)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Cà Mau"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Cá lóc nướng trui U Minh",
+   "nguon": "viet-travel.congtan5918.workers.dev",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "viet-travel.congtan5918.workers.dev",
+    "nhan_xet": "Cá lóc nướng trui U Minh ăn giữa rừng tràm là đúng vị nhất: cá đồng nướng rơm, cuốn rau vườn. Điểm yếu là giá riêng chưa kiểm được, món này gắn với quán lẩu mắm U Minh. Hợp với nhóm ăn trưa sau khi đi U Minh Hạ."
+   },
+   "quan": [
+    {
+     "dia_chi": "91A Tôn Đức Thắng, Phường 5, TP Cà Mau",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán lẩu mắm U Minh"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "600.000–800.000đ/kg (loại 1)",
+   "mon": "Tôm khô Rạch Gốc",
+   "nguon": "hellocamau.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn",
+    "nhan_xet": "Tôm khô Rạch Gốc loại 1 dai, ngọt, là quà mang về đắt nhưng đáng: 600.000–800.000đ/kg. Điểm mạnh là tôm khô đúng gốc Rạch Gốc ngon hơn hàng chợ thường; điểm yếu là giá cao, dễ mua nhầm hàng pha. Hợp với mua quà, nên mua ở chợ Năm Căn hoặc chợ Cà Mau, nếm thử trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Năm Căn",
+     "gia": "600.000–800.000đ/kg (loại 1)",
+     "ten": "Chợ Năm Căn"
+    },
+    {
+     "dia_chi": "Đường Lê Lợi, TP Cà Mau",
+     "gia": "600.000–800.000đ/kg (loại 1)",
+     "ten": "Chợ Cà Mau"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–250.000đ/kg",
+   "mon": "Khô cá bổi U Minh",
+   "nguon": "hellocamau.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn",
+    "nhan_xet": "Khô cá bổi U Minh nướng lên thơm, mặn vừa, ăn với cơm trắng hoặc làm mồi nhậu đều hợp. Điểm mạnh là giá mềm 150.000–250.000đ/kg, dễ mang về; điểm yếu là khô cá bổi ngon thì phải chọn con dày thịt. Hợp với mua quà, nên mua ở chợ Cà Mau hoặc chợ Phường 8."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Lợi, TP Cà Mau",
+     "gia": "150.000–250.000đ/kg",
+     "ten": "Chợ Cà Mau"
+    },
+    {
+     "dia_chi": "TP Cà Mau",
+     "gia": "150.000–250.000đ/kg",
+     "ten": "Chợ Phường 8"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Cà Mau khứ hồi",
+   "uoc_tinh": "420.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "300.000–1.150.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "500.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "60.000–150.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày / xe đi Đất Mũi",
+   "uoc_tinh": "300.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ca nô/xuồng (chia nhóm)",
+   "uoc_tinh": "100.000–500.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.680.000–3.820.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.300.000đ/chiều (tham khảo) + xe Cần Thơ — Cà Mau 160.000đ/vé"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Thuê tàu tại bến chính thức, hỏi rõ giá đã gồm xăng, áo phao và thời gian chờ; kiểm tra áo phao trước khi lên tàu; mặc áo phao suốt chuyến.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê tàu, thuyền ra Đất Mũi, Hòn Khoai, Hòn Đá Bạc: giá thuê không thống nhất, phụ thu xăng, phí chờ; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Hỏi giá theo kg trước khi cân, xem cân trước mặt, chốt tổng tiền trước khi chế biến; ưu tiên quán có bảng giá niêm yết.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn hải sản ở chợ Cà Mau và khu vực Đất Mũi: cân thiếu, giá hải sản tươi sống hét cao với khách lạ."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Cà Mau và bến tàu Đất Mũi hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Áo chống nắng, mũ, kem chống nắng",
+  "Áo mưa mỏng (mùa mưa tháng 5–10)",
+  "Giày/dép chống trơn (đi rừng, cầu đảo)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (vé thuyền, chợ, quán nhỏ)",
+  "Thuốc chống muỗi (rừng U Minh nhiều muỗi), thuốc say sóng (nếu đi ca nô/tàu ra đảo), thuốc cơ bản",
+  "Sạc dự phòng",
+  "Xuất phát đi Đất Mũi từ sáng sớm (chặng ~110 km); hỏi trước giờ tàu/ca nô và thời tiết; mặc áo phao khi đi thuyền"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Mường Thanh Luxury Cà Mau"
+  ],
+  "diem": [
+   "Đầm Thị Tường",
+   "Khu du lịch Quốc gia Mũi Cà Mau",
+   "Hòn Đá Bạc",
+   "Chợ Cà Mau"
+  ],
+  "nguon": "Traveloka/Hotels.com xếp Mường Thanh Luxury Cà Mau là khách sạn lãng mạn cho cặp đôi; phòng Deluxe King/Grand Suite ghi 'Best for couples, honeymooners' (ngày kiểm 08/11/2026)"
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [],
+  "diem_chay": [
+   "Đường ven sông TP Cà Mau",
+   "Quảng trường Hùng Vương",
+   "Đường quanh khu tưởng niệm Chủ tịch Hồ Chí Minh"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Cà Mau — Khai mạc Giải Marathon Cà Mau năm 2025 - Cúp PetroVietNam (15/11/2025); Cộng đồng chạy bộ — Giải Marathon Cà Mau 2025 Cúp PETROVIETNAM (ngày kiểm 08/11/2026)",
+    "ten": "Marathon Cà Mau — Cúp Petrovietnam",
+    "thoi_gian": "Tháng 11 hằng năm (mùa 2025: 15-16/11/2025)"
+   }
+  ],
+  "nguon": "Báo Cà Mau về giải Marathon Cà Mau; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: chỗ ở gần điểm xuất phát (Quảng trường Hùng Vương, phường Bạc Liêu) chưa tra được — khách sạn TP Cà Mau cách ~60 km nên đã gỡ khỏi danh sách, không bịa."
+ },
+ "cho_o": [
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Lô C03A, Khu trung tâm hành chính – chính trị, Phường An Xuyên, TP Cà Mau",
+   "dien_thoai": "0290 2228 888",
+   "gia": "~1.150.000–1.650.000đ/đêm (Deluxe; Suite 2.200.000–9.750.000đ; một nguồn ghi từ 810.000–840.000đ)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách công tác, khách muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulichyenviet.com, khachsan.chudu24.com, traveloka.com",
+   "nguon_dien_thoai": "booking.muongthanh.com; masothue.com, tripi.vn, tadiha.com, toplist.vn đồng thuận (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: phường đúng là An Xuyên theo địa chỉ thuế chính thức (masothue.com, cập nhật 07/11/2026) và muongthanh.com.",
+   "ten": "Mường Thanh Luxury Cà Mau",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "207 Phan Ngọc Hiển, Phường 6, TP Cà Mau",
+   "dien_thoai": "0290 3567 666",
+   "gia": "~475.000–1.268.000đ/đêm (một nguồn ghi từ 902.231đ)",
+   "hang": "Chưa kiểm được hạng (một nguồn ghi 3 sao)",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "chonoicairang.com.vn, ivivu.com, traveloka.com, vietfuntravel.com.vn",
+   "nguon_dien_thoai": "website chính thức anhnguyethotel.com.vn (ngày kiểm 08/11/2026); hotline quản lý 0918 868 586",
+   "ten": "Khách sạn Ánh Nguyệt",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm, cách sân bay Cà Mau ~800 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "179 Phan Ngọc Hiển, Phường 6, TP Cà Mau",
+   "dien_thoai": "0290 3666 666",
+   "gia": "~380.000–900.000đ/đêm (một nguồn ghi 22–60 USD)",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "chonoicairang.com.vn, tadiha.com, ivivu.com",
+   "nguon_dien_thoai": "mytour.vn, tripi.vn, ksvadl.com đồng thuận; dulichcamau.info (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Quốc Tế",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "132 Ngô Quyền, Phường 9, TP Cà Mau (một nguồn ghi 151A Ngô Quyền, Phường 9 — mâu thuẫn số nhà)",
+   "dien_thoai": "0290 3589 777",
+   "gia": "~150.000–300.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "tadiha.com, cattour.vn, traveloka.com",
+   "nguon_dien_thoai": "toplist.vn, tadiha.com, mytour.vn, csdl.vietnamtourism.gov.vn, hellocamau.vn đồng thuận (ngày kiểm 08/11/2026). Lưu ý: một nguồn ghi 151A Ngô Quyền, khác 132 trong file.",
+   "ten": "Khách sạn Nam Kiều",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "229 Hùng Vương, Phường 7, TP Cà Mau",
+   "dien_thoai": "0290 3551 111",
+   "gia": "~270.000–600.000đ/đêm",
+   "hang": "2 sao (72 phòng, 7 tầng)",
+   "hop_voi": "Khách tiết kiệm, gia đình nhỏ",
+   "khu_vuc": "trung-tam",
+   "nguon": "tadiha.com, nucuoimekong.com",
+   "nguon_dien_thoai": "Google Travel; hellocamau.vn: 'Địa chỉ mới: 229 Hùng Vương' (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: địa chỉ đúng 229 Hùng Vương, không phải 299.",
+   "ten": "Khách sạn Hải Châu",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~50 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "QL1A, ấp Chống Mỹ, thị trấn Năm Căn, huyện Năm Căn",
+   "dien_thoai": "0290 3876 868",
+   "gia": "Từ ~501.500đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Khách đi Đất Mũi muốn nghỉ gần hơn",
+   "khu_vuc": "nam-can",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "tripi.vn, mytour.vn, trangtop.com, toplist.vn, hanoidep.vn đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Ozon",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "3 Lưu Tấn Tài, Phường 5, TP Cà Mau",
+   "dien_thoai": "0290 3650 650",
+   "gia": "Từ ~425.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "camautourism.vn (trang du lịch chính thức); quanlykhachsan.edu.vn (ngày kiểm 08/11/2026)",
+   "ten": "Sao Kim Hotel Cà Mau",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Xã Đất Mũi, ~110 km từ TP Cà Mau",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đất Mũi, huyện Ngọc Hiển (cách cột mốc Mũi Cà Mau ~3 km)",
+   "dien_thoai": "0819 828 249",
+   "gia": "~250.000–500.000đ/phòng/đêm (phòng đôi có điều hòa 300.000–500.000đ; dorm 100.000–150.000đ/người — các nguồn ghi khác nhau)",
+   "hang": "Homestay sinh thái cộng đồng",
+   "hop_voi": "Nhóm bạn, khách muốn đón bình minh cực Nam",
+   "khu_vuc": "dat-mui",
+   "nguon": "hellocamau.vn, bangoaihomestay.vn",
+   "nguon_dien_thoai": "số chính theo nhiều nguồn (mytour.vn, topcamauaz.com, sesoopen.com, tripday.vn, limoutrip.com), gọi trước để xác nhận; số phụ 0918 996 956; LOẠI 0918 719 972 (số Homestay Hương Đất Mũi) (ngày kiểm 16/11/2026)",
+   "ten": "Homestay Du lịch sinh thái Đất Mũi – Quách Văn Ngãi",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giờ mở cửa Hòn Đá Bạc (7:00–19:00 vs cả ngày)",
+  "Giờ mở cửa U Minh Hạ (7:30–17:00, một nguồn duy nhất)",
+  "Tọa độ GPS: Hòn Khoai, Đầm Thị Tường, Sân chim Ngọc Hiển, Chợ Cà Mau chỉ có tọa độ xấp xỉ (mức xã/đầm/đường), cần kiểm lại; Mũi Cà Mau chỉ có tọa độ mức xã Đất Mũi",
+  "Khoảng cách chính xác TP Cà Mau — Khai Long (~100 km, ước tính), TP Cà Mau — Sân chim Ngọc Hiển (~70 km, ước tính)",
+  "Giờ tàu Năm Căn — Hòn Khoai và giá vé tàu ra đảo",
+  "Địa giới sau sáp nhập 01/07/2025: đợt 06/11/2026 đã thêm 3 điểm khu vực Bạc Liêu cũ (Điện gió, Nhà Công tử, Chùa Xiêm Cán); Vườn chim Bạc Liêu và Nhà Mát vẫn chưa nhập",
+  "Giá vé cổng Điện gió Bạc Liêu (~20.000đ) chưa kiểm được mức chốt",
+  "Diện tích Sân chim Ngọc Hiển mâu thuẫn: 9,7 ha (Wikipedia) vs 130 ha (nhiều blog du lịch)",
+  "Giá phòng Mường Thanh Luxury Cà Mau (1.150.000–1.650.000đ vs từ 810.000–840.000đ — chênh lớn theo kênh/thời điểm)",
+  "Giá phòng Ánh Nguyệt (475.000–1.268.000đ vs từ 902.231đ)",
+  "Khách sạn Nam Kiều: số nhà mâu thuẫn 132 Ngô Quyền vs 151A Ngô Quyền",
+  "Hạng sao Ánh Nguyệt, Nam Kiều, Sao Kim",
+  "Chỗ ở tại Đất Mũi/U Minh Hạ: đợt 06/11/2026 đã thêm Homestay Quách Văn Ngãi (Đất Mũi); các homestay khác (Ba Ngoại, Nguyễn Hùng, Út Mười) chưa kiểm được giá riêng từng nhà nên chưa đưa vào",
+  "Giá cua Năm Căn (150.000–250.000đ/kg tại nguồn vs 300.000–450.000đ/kg cua thịt loại 1 vs 350.000–600.000đ/kg — chênh lớn theo loại/mùa)",
+  "Giá ba khía (80.000–160.000đ/kg vs 150.000–250.000đ/kg)",
+  "Giá riêng ốc len xào dừa, cháo cá lóc theo quán, cá lóc nướng trui U Minh",
+  "Quán cháo cá lóc: chỉ biết khu vực chợ Cà Mau, chưa kiểm được tên quán riêng",
+  "Giá vé xe khách TP Cà Mau — Đất Mũi/Năm Căn",
+  "Giá limousine SG — Cà Mau, giá taxi nội thành TP Cà Mau, giá thuê xe máy tay ga tại Cà Mau",
+  "Giá vé máy bay SGN–VCA",
+  "Tuyến xe khách thẳng Hà Nội — Cà Mau: chưa kiểm được có tuyến hay không"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Tỉnh ven biển đồng bằng, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "CẬP NHẬT 08/11/2026: Sân bay Cà Mau LÙI khai thác trở lại đến 0h ngày 18/12/2026 (văn bản ACV gửi UBND tỉnh Cà Mau ngày 06/11/2026 — mưa lớn tháng 10/2026 + thiếu vật liệu; bay hiệu chuẩn 26/11). Lịch bay mới sau 18/12 chưa có nguồn nào công bố — kiểm lại trước khi đặt. Vietnam Airlines khôi phục SGN–CAU hàng ngày bằng Airbus A321 (SGN 12:50 → CAU 13:55; CAU 14:50 → SGN 15:50), vé 924.000–964.000đ/chiều đã gồm phí theo kế hoạch cũ (nguoiquansat.vn, 04/11/2026) — giá sau 18/12 chưa rõ. Vietjet mở HAN–CAU 3 chuyến khứ hồi/tuần (thứ 3, 5, 7), VJ591 HAN 10:00 → CAU 12:15, VJ592 CAU 12:45 → HAN 15:00, A320, bay 2h15, vé khứ hồi ~2,4 triệu đồng; khai thác thường lệ từ 30/11/2026. BỎ ý 'VNA dự kiến mở HAN–CAU hàng ngày' — không có cơ sở (nguồn duy nhất là bản tiếng Anh tapchihangkhong.vn ghi HAN 12:50 → CAU 13:55 trùng y hệt giờ SGN–CAU, mà HAN–CAU ~1.344 km không bay được trong 65 phút — lỗi copy). Tần suất VASCO ATR-72 cũ đã lỗi thời (A321 thay ATR-72). (Nguồn: vietnam.vn, baotintuc.vn 06/11/2026; nguoiquansat.vn 07/11/2026; AeroRoutes 02/11/2026; thông báo Văn phòng miền Bắc Vietjet 01–03/11/2026 — ngày kiểm 08/11/2026.)",
+  "tu_hn": [
+   {
+    "ghi_chu": "MỚI: sân bay lùi mở lại tới 18/12/2026 (văn bản ACV 06/11/2026) — kiểm lại lịch bay trước khi đặt",
+    "gia": "Vietjet HAN–CAU 3 chuyến khứ hồi/tuần (thứ 3, 5, 7), VJ591 HAN 10:00 → CAU 12:15, VJ592 CAU 12:45 → HAN 15:00, A320, vé khứ hồi ~2,4 triệu đồng; khai thác thường lệ từ 30/11/2026 — nhưng sân bay lùi mở lại tới 18/12/2026, lịch bay sau 18/12 chưa công bố",
+    "nguon": "AeroRoutes 02/11/2026; thông báo Văn phòng miền Bắc Vietjet 01–03/11/2026; vietnam.vn, baotintuc.vn 06/11/2026 (ngày kiểm 08/11/2026)",
+    "phuong_tien": "Máy bay HAN–CAU (trực tiếp)",
+    "thoi_gian": "Bay 2h15"
+   },
+   {
+    "ghi_chu": "Phương án thay thế (bay tới Cần Thơ rồi đi xe)",
+    "gia": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ); xe Cần Thơ — Cà Mau 160.000đ/vé",
+    "nguon": "vietair.com.vn, limotrip.vn",
+    "phuong_tien": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Cà Mau",
+    "thoi_gian": "Bay ~2h10 + xe VCA — Cà Mau ~4–5 giờ"
+   },
+   {
+    "ghi_chu": "Phương án thay thế",
+    "gia": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Cà Mau ~210.000đ/vé",
+    "nguon": "limody.vn",
+    "phuong_tien": "Máy bay HAN–SGN rồi xe lên Cà Mau",
+    "thoi_gian": "Bay ~2h05 + xe SG — Cà Mau 7–8 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến khích",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN — Cà Mau",
+    "thoi_gian": "Chưa kiểm được tuyến thẳng + thời gian/giá"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Xe giường nằm 44 chỗ; đón tại bến xe Cần Thơ",
+    "gia": "160.000đ/vé, ~4 giờ; giờ khởi hành 14:30, 15:00, 16:00, 18:00, 19:00, 20:00 (theo limotrip)",
+    "nguon": "limotrip.vn",
+    "phuong_tien": "Xe khách Cần Thơ — Cà Mau (Phương Trang)"
+   },
+   {
+    "ghi_chu": "Đi đường thủy là trải nghiệm riêng; đặt trước cuối tuần; mặc áo phao",
+    "gia": "Thuê ca nô TP Cà Mau — Đất Mũi 1.500.000–2.500.000đ/chuyến (đoàn 8–12 người); ca nô xuyên rừng Năm Căn — Đất Mũi 3.250.000đ/tàu (đoàn 1–5 khách)",
+    "nguon": "saigonstartravel.com, nucuoimekong.com",
+    "phuong_tien": "Ca nô/tàu thủy TP Cà Mau — Đất Mũi"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Sân bay lùi mở lại tới 18/12/2026 (văn bản ACV 06/11/2026) — kiểm lại lịch bay trước khi đặt",
+    "gia": "924.000–964.000đ/chiều đã gồm phí (VNA, A321, hàng ngày — theo kế hoạch cũ; giá sau 18/12/2026 chưa rõ)",
+    "nguon": "nguoiquansat.vn 04/11/2026, lecourrier.vn (ngày kiểm 08/11/2026)",
+    "phuong_tien": "Máy bay SGN–CAU (trực tiếp)",
+    "thoi_gian": "Bay ~1 giờ (SGN 12:50 → CAU 13:55)"
+   },
+   {
+    "ghi_chu": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây; nên đi chuyến đêm",
+    "gia": "~210.000đ/vé (Phương Trang, 16 chuyến/ngày theo limody)",
+    "nguon": "limody.vn, nucuoimekong.com",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "7–8 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Chưa kiểm được giá riêng tuyến SG — Cà Mau (tham khảo chung miền Tây ~300.000–500.000đ/vé)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "7–8 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc → QL1A → Cần Thơ → Sóc Trăng/Bạc Liêu → Cà Mau (~410 km theo nucuoimekong)",
+    "gia": "Thuê xe 4 chỗ có tài xế SG — Cà Mau ~2.600.000đ/chiều (tham khảo)",
+    "nguon": "xelientinh247.vn, nucuoimekong.com",
+    "phuong_tien": "Xe máy / ô tô riêng (QL1A)",
+    "thoi_gian": "Ô tô 7–8 giờ; xe máy ~10–12 giờ"
+   },
+   {
+    "ghi_chu": "Phương án thay thế khi muốn rút ngắn thời gian xe",
+    "gia": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA); xe Cần Thơ — Cà Mau 160.000đ/vé, ~4 giờ (Phương Trang)",
+    "nguon": "limotrip.vn",
+    "phuong_tien": "Máy bay SGN–VCA + xe về Cà Mau",
+    "thoi_gian": "Bay ~45–55 phút + xe VCA — Cà Mau ~4–5 giờ (~180 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đất Mũi cách TP ~110 km — đi xe máy phải xuất phát sớm, đổ xăng đầy, mang áo mưa",
+   "gia": "~100.000–150.000đ/ngày (tham khảo chung miền Tây; chưa kiểm được mức riêng tại Cà Mau)",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "luxurytravel.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Chưa kiểm được mức riêng tại Cà Mau (tham khảo chung miền Tây ~150.000–200.000đ/ngày)",
+   "giay_to": "Như trên",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trước khi đi; Grab/Be phủ sóng hạn chế",
+   "gia": "Chưa kiểm được bảng giá taxi riêng tại TP Cà Mau",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Đường Hồ Chí Minh (QL1A nối dài) đã thông xe tới Đất Mũi; đi ô tô/xe khách thuận tiện hơn xe máy cho chặng 110 km",
+   "gia": "Chưa kiểm được giá riêng tuyến TP — Đất Mũi (tham khảo xe Cần Thơ — Cà Mau 160.000đ/vé)",
+   "giay_to": "",
+   "nguon": "hellocamau.vn, limotrip.vn",
+   "phuong_tien": "Xe khách TP Cà Mau — Đất Mũi/Năm Căn"
+  },
+  {
+   "ghi_chu": "Mặc áo phao tuyệt đối; đặt trước cuối tuần",
+   "gia": "Ca nô Năm Căn — Đất Mũi 3.250.000đ/tàu (1–5 khách); vỏ lãi xuyên rừng đước 800.000–1.200.000đ/chiếc (4–5 người); thuê xuồng Đầm Thị Tường ~200.000đ/thuyền",
+   "giay_to": "",
+   "nguon": "nucuoimekong.com, saigonstartravel.com, hellocamau.vn",
+   "phuong_tien": "Ca nô/vỏ lãi xuyên rừng"
+  },
+  {
+   "ghi_chu": "Hợp nhóm 4–7 người đi Đất Mũi — U Minh Hạ trong 2 ngày",
+   "gia": "Chưa kiểm được mức riêng tại Cà Mau (tham khảo chung miền Tây xe 4 chỗ ~900.000–1.400.000đ/ngày)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày (trong tỉnh)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường 1, TP Cà Mau",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "6:00–22:00 (vườn chim); ngắm chim đẹp nhất 16:30–17:30 chiều",
+   "hop_voi": "Mọi đối tượng",
+   "id": "vuon-chim-tp-ca-mau",
+   "lat": 9.18515,
+   "lng": 105.13734,
+   "luu_y": "Vườn chim hình thành từ 1995, hơn 7.500 cá thể; hàng ngàn cò trắng, cồng cộc, le le bay về tổ lúc chiều tà ngay giữa lòng phố",
+   "nguon": "hellocamau.vn, thienhuongtourist.com, utotech.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / thienhuongtourist.com",
+    "nhan_xet": "Vườn chim trong lòng TP Cà Mau là điểm ngắm chim về tổ tiện nhất miền Tây: 16:30–17:30 hàng nghìn con chim bay về, đứng ngay trong thành phố cũng xem được. Điểm mạnh là miễn phí, không cần đi xa; điểm yếu là chỉ đẹp đúng khung giờ chim về, đến sớm hay muộn đều chỉ thấy cây. Hợp với mọi đối tượng, nên đi 16:30–17:30, ghép với chợ Cà Mau buổi sáng."
+   },
+   "ten": "Khu tưởng niệm Chủ tịch Hồ Chí Minh + Vườn chim TP Cà Mau",
+   "thoi_gian": "1 giờ (16:30–17:30 ngắm chim về tổ)"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Lê Lợi, TP Cà Mau (chợ trung tâm; chợ Phường 8 là điểm mua đặc sản)",
+   "gia_ve": "Miễn phí vào chợ (mua sắm/ăn uống tính riêng)",
+   "gio_mo_cua": "Mở từ 4h sáng đến ~12h trưa (buổi sáng là chính)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-ca-mau",
+   "lat": 9.17773,
+   "lng": 105.14562,
+   "luu_y": "Mua hải sản tươi, ba khía, tôm khô giá gốc buổi sáng; hỏi giá trước; chợ đêm Phường 8, đường Ngô Quyền tập trung nhiều quán ngon Tọa độ xấp xỉ (điểm trên đường Lê Lợi, khu vực chợ), cần kiểm lại.",
+   "nguon": "bangoaihomestay.vn, hellocamau.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bangoaihomestay.vn / hellocamau.vn",
+    "nhan_xet": "Chợ Cà Mau họp từ 4h sáng, là nơi mua ba khía, tôm khô, khô cá bổi đúng gốc và ăn bún nước lèo Cây Sứa buổi sáng. Điểm mạnh là hàng đặc sản phong phú, giá mềm hơn mua ở nhà hàng; điểm yếu là chợ đông, mùi hải sản nồng, phải mặc cả. Hợp với người thích ẩm thực và mua đặc sản, nên đi 5–8h sáng."
+   },
+   "ten": "Chợ Cà Mau",
+   "thoi_gian": "1–1,5 giờ buổi sáng",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 108,
+   "cum": "dat-mui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Mũi, xã Đất Mũi, huyện Ngọc Hiển; cách TP Cà Mau ~105–110 km theo đường Hồ Chí Minh (QL1A nối dài)",
+   "gia_ve": "Vé vào cổng 30.000đ/người lớn, 15.000đ/trẻ em 6–16 tuổi (miễn phí trẻ ≤6 tuổi); xe điện trong KDL 10.000đ/khách/lượt",
+   "gio_mo_cua": "6:00–18:00 hằng ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "mui-ca-mau",
+   "lat": 8.59973,
+   "lng": 104.75603,
+   "luu_y": "Tọa độ mức xã Đất Mũi, chưa phải tọa độ mốc GPS 0001 chính xác. Điểm cực Nam đất liền Việt Nam: mốc GPS 0001, Cột cờ Hà Nội, biểu tượng con tàu, mốc điểm cuối đường Hồ Chí Minh; ca nô xuyên rừng đước Năm Căn — Đất Mũi 3.250.000đ/tàu (đoàn 1–5 khách)",
+   "nguon": "hellocamau.vn, nucuoimekong.com, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / bangoaihomestay.vn / saigonstartravel.com",
+    "nhan_xet": "Mũi Cà Mau là điểm 'một lần trong đời': cột mốc GPS 0001, cực Nam Tổ quốc, ngắm bình minh biển Đông và hoàng hôn biển Tây trong cùng ngày. Điểm mạnh là ý nghĩa thiêng liêng và cảnh rừng đước; điểm yếu là xa (110 km từ TP Cà Mau), nắng gắt giữa trưa 10–14h, đi trong ngày rất mệt. Hợp với mọi người Việt ít nhất một lần, nên đi tháng 2–4, xuất phát 7–8h sáng, ở lại Đất Mũi 1 đêm nếu được."
+   },
+   "ten": "Khu du lịch Quốc gia Mũi Cà Mau",
+   "thoi_gian": "3–4 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "dat-mui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quần đảo Hòn Khoai, huyện Ngọc Hiển (đi tàu từ Năm Căn)",
+   "gia_ve": "Miễn phí tham quan đảo (vé tàu tính riêng, chưa kiểm được giá)",
+   "gio_mo_cua": "Ban ngày (đi tàu theo giờ, hỏi trước)",
+   "hop_voi": "Người thích đảo hoang sơ, phượt",
+   "id": "hon-khoai",
+   "lat": 8.4333,
+   "lng": 104.8167,
+   "luu_y": "Đảo lớn gồm nhiều hòn nhỏ, còn hoang sơ; phải hỏi trước giờ tàu Năm Căn — Hòn Khoai và thời tiết Tọa độ xấp xỉ theo tọa độ công bố (8°26′B 104°49′Đ), cần kiểm lại.",
+   "nguon": "intour.vn, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / datmuixanh.com / vovworld.vn",
+    "nhan_xet": "Hòn Khoai là cụm đảo hoang sơ, cao 318 m, có hải đăng và rừng nguyên vẹn — đẹp và lạ, nhưng đi lại khó nhất Cà Mau: phải đi tàu từ Rạch Gốc 45–60 phút, giờ tàu và giá vé chưa kiểm được, đảo là khu quân sự nên cần xin phép. Điểm mạnh là cảnh hoang sơ và giá trị lịch sử; điểm yếu là không phải cứ muốn là đi được. Hợp với người thích khám phá và phượt biển, nên hỏi kỹ thủ tục và giờ tàu trước, đừng đi liều."
+   },
+   "ten": "Đảo Hòn Khoai",
+   "thoi_gian": "Nửa ngày (tính cả tàu)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "dat-mui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đất Mũi, huyện Ngọc Hiển (ven biển Đất Mũi)",
+   "gia_ve": "Chưa kiểm được giá vé riêng",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn thích biển",
+   "id": "khai-long",
+   "lat": 8.56693,
+   "lng": 104.82872,
+   "luu_y": "Khu du lịch biển gần Đất Mũi; ghép cùng cung Đất Mũi trong ngày; hỏi giá trước",
+   "nguon": "tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / tripi.vn",
+    "nhan_xet": "Khai Long có bãi cát bồi dài 3 km và hàng dương xanh — bãi biển hiếm hoi của Đất Mũi, chụp ảnh và tắm biển nhẹ được. Điểm mạnh là nằm trên cung đường về Đất Mũi nên tiện ghé; điểm yếu là giá vé chưa kiểm được, dịch vụ còn đơn giản, mùa mưa sóng lớn. Hợp với gia đình đi Đất Mũi, nên ghé buổi chiều, tắm xong về Năm Căn nghỉ."
+   },
+   "ten": "Khu du lịch Khai Long",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "u-minh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Khánh Lâm, Khánh An, Trần Hợi, Khánh Bình Tây Bắc (huyện U Minh và Trần Văn Thời); cách TP Cà Mau ~40 km về phía Tây Bắc; rộng hơn 8.285 ha",
+   "gia_ve": "Vé vào cổng 20.000đ/người (NQ 13/2025 của HĐND tỉnh Cà Mau — theo rà soát vai 3 ngày 08/11/2026; các nguồn công khai crystalbay.com, intour.vn cũng ghi 20.000đ; một số nguồn ghi 20.000–30.000đ hoặc 20.000–50.000đ — kiểm lại tại cổng); vỏ lãi tham quan rừng 300.000đ/chuyến; phà 600.000đ/chuyến; câu cá 200.000đ/vé",
+   "gio_mo_cua": "7:30–17:00 (theo một nguồn; chưa kiểm được chính thức)",
+   "hop_voi": "Người thích rừng tràm/thiên nhiên, gia đình",
+   "id": "u-minh-ha",
+   "lat": 9.29292,
+   "lng": 104.90276,
+   "luu_y": "Rừng tràm trên đất than bùn, khác U Minh Thượng (Kiên Giang cũ); đài quan sát cao 24 m ngắm toàn cảnh rừng; trải nghiệm gác kèo ong lấy mật; mùa khô (tháng 11–4) nước rút, đi xuồng hạn chế; ngày nước lên cao có thể tạm ngừng dịch vụ thuyền",
+   "nguon": "hellocamau.vn, vietfuntravel.com.vn, saigonstartravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / vietfuntravel.com.vn",
+    "nhan_xet": "U Minh Hạ là rừng tràm ngập nước lớn, đi vỏ lãi xuyên rừng và lên đài quan sát là trải nghiệm chính — hoang sơ và yên tĩnh hơn hẳn các khu du lịch đông khách. Điểm mạnh là hệ sinh thái đặc sắc, vé cổng rẻ (20.000đ — chốt theo NQ 13/2025, kiểm 08/11/2026); điểm yếu là vỏ lãi 300.000đ/chuyến khá cao nếu đi ít người, mùa khô nước cạn thì xuồng đi hạn chế. Hợp với người thích rừng và sinh thái, nên đi sáng sớm, ghép đoàn chia tiền vỏ lãi."
+   },
+   "ten": "Vườn quốc gia U Minh Hạ",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "u-minh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Kim Hòn, xã Khánh Bình Tây, huyện Trần Văn Thời; cách TP Cà Mau ~50 km",
+   "gia_ve": "20.000–25.000đ/người (bỏ nguồn 'miễn phí' không tên — các nguồn có tên hellocamau.vn, intour.vn, tripi.vn đều ghi 20.000–25.000đ; kiểm 08/11/2026)",
+   "gio_mo_cua": "7:00–19:00 (một nguồn ghi cả ngày)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "hon-da-bac",
+   "lat": 9.17678,
+   "lng": 104.80436,
+   "luu_y": "Cụm 3 đảo nhỏ (Hòn Trọi, Hòn Ông Ngộ, Hòn Đá Bạc) nối bằng cầu bộ hành dài ~500 m; đá granit xếp chồng; có chùa Hang và đền thờ Ông Nam Hải; gắn lịch sử kháng chiến chống Mỹ",
+   "nguon": "hellocamau.vn, htt-furniture.com, intour.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / intour.vn / tripi.vn",
+    "nhan_xet": "Hòn Đá Bạc là cụm đảo đá với truyền thuyết và cảnh biển đẹp, đi bộ qua cầu ra đảo ngắm hoàng hôn rất đáng. Điểm mạnh là gần TP Cà Mau (~50 km), vé rẻ; điểm yếu là giá vé 20.000–25.000đ (nguồn 'miễn phí' không tên đã bỏ — kiểm 08/11/2026); giờ mở cửa các nguồn vẫn ghi khác nhau (7:00–19:00 vs cả ngày). Hợp với gia đình và người thích biển đảo, nên đi buổi chiều ngắm hoàng hôn."
+   },
+   "ten": "Hòn Đá Bạc",
+   "thoi_gian": "2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 45,
+   "cum": "u-minh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ranh giới huyện Trần Văn Thời, Cái Nước và Phú Tân; dài ~12 km, đầm nước lớn nhất Đồng bằng sông Cửu Long ('biển Hồ giữa đồng bằng')",
+   "gia_ve": "Miễn phí (thuê xuồng ~200.000đ/thuyền)",
+   "gio_mo_cua": "Cả ngày; đẹp nhất hoàng hôn",
+   "hop_voi": "Cặp đôi, gia đình, người thích hoàng hôn/sông nước",
+   "id": "dam-thi-tuong",
+   "lat": 9.0167,
+   "lng": 105.0167,
+   "luu_y": "Đi thuyền máy khám phá đời sống ngư dân, ngắm hoàng hôn; ăn hải sản địa phương ven đầm Tọa độ xấp xỉ (điểm giữa đầm, ranh giới xã Trần Văn Thời — Phú Mỹ), cần kiểm lại.",
+   "nguon": "hellocamau.vn, htt-furniture.com, utotech.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellocamau.vn / dulichviet.com.vn / dantri.com.vn",
+    "nhan_xet": "Đầm Thị Tường rộng 700 ha, được gọi là 'biển Hồ giữa đồng bằng' — đi xuồng ngắm hoàng hôn trên đầm là trải nghiệm yên bình hiếm có. Điểm mạnh là cảnh đầm mênh mông, ít khách du lịch; điểm yếu là dịch vụ còn thô sơ, thuê xuồng ~200.000đ/thuyền phải hỏi giá trước, khu du lịch sinh thái đang quy hoạch nên nhiều hạng mục chưa xong. Hợp với người thích hoàng hôn và không gian rộng, nên đi chiều muộn."
+   },
+   "ten": "Đầm Thị Tường",
+   "thoi_gian": "2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "u-minh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Quyền Thiện, xã Biển Bạch Đông, huyện Thới Bình; diện tích ~16 ha, ~20 loài chim",
+   "gia_ve": "Đường bộ 20.000đ/người; đường thủy 50.000đ/người",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Người thích chim/thiên nhiên",
+   "id": "vuon-co-tu-su",
+   "lat": 9.42294,
+   "lng": 105.06733,
+   "luu_y": "Vườn cò tư nhân lớn; đi đường bộ hoặc đường thủy; chim về tổ chiều tối",
+   "nguon": "htt-furniture.com, utotech.vn, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "htt-furniture.com / utotech.vn / bestprice.vn",
+    "nhan_xet": "Vườn cò Tư Sự rộng 16 ha, ~20 loài chim — điểm ngắm cò về tổ buổi chiều ở Thới Bình, ít khách hơn các vườn chim nổi tiếng. Điểm mạnh là vé rẻ (đường bộ 20.000đ, đường thủy 50.000đ), không gian yên tĩnh; điểm yếu là xa trung tâm, ít thông tin cập nhật, phải đi đúng giờ cò về mới đẹp. Hợp với người thích chim và nhiếp ảnh, nên đi chiều 16–17h."
+   },
+   "ten": "Vườn cò Tư Sự",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 70,
+   "cum": "dat-mui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Ngọc Hiển",
+   "gia_ve": "Chưa kiểm được giá vé (một nguồn ghi 'đang cập nhật')",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người thích chim/thiên nhiên",
+   "id": "san-chim-ngoc-hien",
+   "lat": 8.75589,
+   "lng": 104.99895,
+   "luu_y": "Một trong những vườn chim tự nhiên lớn nhất nước; đi cùng cung Đất Mũi; hỏi trước đường đi + giá vé Tọa độ xấp xỉ (điểm trung tâm xã Tân Ân Tây, ấp Tân Tiến), cần kiểm lại.",
+   "nguon": "intour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vi.wikipedia.org / vietgiaitri.com / hellocamau.vn",
+    "nhan_xet": "Sân chim Ngọc Hiển được nhiều nguồn gọi là một trong những sân chim lớn nhất cả nước, nhưng thông tin về nó mâu thuẫn: diện tích có nguồn ghi 9,7 ha (Wikipedia), có nguồn ghi 130 ha; giá vé và giờ mở cửa chưa kiểm được. Điểm mạnh là hệ sinh thái rừng ngập mặn quý hiếm; điểm yếu là khó tiếp cận thông tin, xa TP Cà Mau (~70–80 km). Hợp với người thích chim và nghiên cứu sinh thái, nên hỏi kỹ đường đi và giờ tham quan trước, đừng đi liều."
+   },
+   "ten": "Sân chim Ngọc Hiển",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "bac-lieu-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Ven Biển, xã Vĩnh Trạch Đông, TP Bạc Liêu (khu vực Bạc Liêu cũ, nay thuộc tỉnh Cà Mau mới)",
+   "gia_ve": "Khoảng 20.000đ/người (theo nguồn công khai — chưa kiểm được mức chốt)",
+   "gio_mo_cua": "Ban ngày; đẹp nhất chiều muộn hoàng hôn",
+   "hop_voi": "Mọi đối tượng, người thích chụp ảnh",
+   "id": "dien-gio-bac-lieu",
+   "lat": 9.24362,
+   "lng": 105.82182,
+   "luu_y": "Thuộc khu vực Bạc Liêu cũ, cách TP Cà Mau ~60 km, cùng cụm với Nhà Công tử và Chùa Xiêm Cán trong ngày Bạc Liêu. Tuabin gió khổng lồ trên biển, gió mạnh, nắng gắt — mang mũ, áo chống nắng. Hỏi giá vé tại cổng trước khi vào.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Điện gió Bạc Liêu là điểm chụp ảnh 'ăn tiền' nhất của cụm Bạc Liêu: hàng chục tuabin trắng khổng lồ trên mặt biển, hoàng hôn xuống là có ảnh đẹp không cần chỉnh nhiều. Điểm yếu là ngoài chụp ảnh thì không còn hoạt động gì khác, nắng gió rất gắt giữa trưa. Hợp với người thích chụp ảnh và check-in, nên đi 16–17h, ghép với Nhà Công tử và Chùa Xiêm Cán trong ngày."
+   },
+   "ten": "Cánh đồng điện gió Bạc Liêu",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "bac-lieu-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "13 Điện Biên Phủ, Phường 3, TP Bạc Liêu (khu vực Bạc Liêu cũ, nay thuộc tỉnh Cà Mau mới)",
+   "gia_ve": "Người lớn ~30.000đ, trẻ em 20.000đ (dulich.pro.vn, zoomtravel.vn, luhanhvietnam.com.vn; một số nguồn 2026 ghi 45.000đ người lớn — nucuoimekong.com, vietnamairlines.com — chưa thống nhất, hỏi giá tại cổng; kiểm 08/11/2026)",
+   "gio_mo_cua": "08:00–17:30 hằng ngày (dulich.pro.vn, zoomtravel.vn; một số nguồn ghi 06:30–18:30 hoặc 07:00–21:00 — chưa thống nhất; kiểm 08/11/2026)",
+   "hop_voi": "Người thích lịch sử, kiến trúc Pháp",
+   "id": "nha-cong-tu-bac-lieu",
+   "lat": 9.28383,
+   "lng": 105.72359,
+   "luu_y": "Thuộc khu vực Bạc Liêu cũ. Nhà của Công tử Bạc Liêu Trần Trinh Huy, kiến trúc Pháp đầu thế kỷ 20, nội thất gỗ quý. Hỏi giá vé tại cổng trước khi vào.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn / dulich.pro.vn",
+    "nhan_xet": "Nhà Công tử Bạc Liêu đáng xem vì kiến trúc và câu chuyện 'đốt tiền nấu trứng' quá nổi tiếng, nội thất gỗ và đồ cổ còn giữ được khá nguyên vẹn. Điểm yếu là nhà không lớn, xem kỹ cũng chỉ hết khoảng một giờ, và giá vé các nguồn ghi khác nhau (30.000đ vs 45.000đ người lớn) nên phải hỏi tại cổng. Hợp với người thích lịch sử và kiến trúc Pháp, nên ghép với Chùa Xiêm Cán và điện gió trong ngày Bạc Liêu."
+   },
+   "ten": "Nhà Công tử Bạc Liêu",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 55,
+   "cum": "bac-lieu-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Vĩnh Trạch Đông, TP Bạc Liêu (khu vực Bạc Liêu cũ, nay thuộc tỉnh Cà Mau mới)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng, người thích kiến trúc Khmer",
+   "id": "chua-xiem-can",
+   "lat": 9.25362,
+   "lng": 105.79808,
+   "luu_y": "Thuộc khu vực Bạc Liêu cũ. Ngôi chùa Khmer lớn và đẹp nhất Bạc Liêu, vàng rực, chạm khắc tinh xảo. Đi cùng cụm với điện gió (cùng xã Vĩnh Trạch Đông). Ăn mặc lịch sự, giữ yên lặng.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Xiêm Cán là ngôi chùa Khmer đẹp nhất mà mình thấy ở miền Tây: vàng rực cả khuôn viên, chạm khắc tinh xảo, chụp ảnh góc nào cũng nổi. Điểm mạnh là miễn phí, khuôn viên rộng và yên tĩnh hơn hẳn chùa Âng ở Trà Vinh vì ít khách đoàn; điểm yếu là xa trung tâm Bạc Liêu, đi lại phải thuê xe. Hợp với người thích kiến trúc Khmer và chụp ảnh, nên đi buổi sáng, ghép với điện gió cùng xã."
+   },
+   "ten": "Chùa Xiêm Cán",
+   "thoi_gian": "45–60 phút"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Khu du lịch Quốc gia Mũi Cà Mau",
+   "gio": "5:30-7:00 sáng đón bình minh ở cực Nam hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Đầm Thị Tường",
+   "gio": "16:30-18:00 hoàng hôn trên đầm",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Vườn quốc gia U Minh Hạ",
+   "gio": "7:00-9:00 sáng, ánh sáng xuyên rừng tràm",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa miền Tây rào ngắn — trú chợ, nhà cổ, chùa có mái; tránh đi rừng U Minh, Đất Mũi khi mưa to vì đường trơn, cano hạn chế.",
+  "diem": [
+   "Chợ Cà Mau",
+   "Nhà Công tử Bạc Liêu",
+   "Chùa Xiêm Cán"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "cho-ca-mau",
+    "hoat_dong": "Chợ Cà Mau (4h–12h, ăn bún nước lèo Cây Sứa, mua ba khía/tôm khô)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "vuon-chim-tp-ca-mau",
+    "hoat_dong": "Khu tưởng niệm Bác Hồ + Vườn chim TP Cà Mau (16:30–17:30 ngắm chim về tổ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu mắm U Minh (91A Tôn Đức Thắng)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "",
+    "hoat_dong": "Xuất phát sớm đi Đất Mũi (~110 km, 2,5–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "mui-ca-mau",
+    "hoat_dong": "Khu du lịch Quốc gia Mũi Cà Mau (3–4 giờ: mốc GPS 0001, Cột cờ Hà Nội, biểu tượng con tàu) + ăn cua Năm Căn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về Năm Căn nghỉ (Khách sạn Ozon) hoặc về TP Cà Mau",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "u-minh-ha",
+    "hoat_dong": "Vườn quốc gia U Minh Hạ (2–3 giờ, đài quan sát, vỏ lãi)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "hon-da-bac, dam-thi-tuong",
+    "hoat_dong": "Hòn Đá Bạc (2 giờ) + Đầm Thị Tường ngắm hoàng hôn (chọn 1 nếu gấp), về TP Cà Mau trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Cà Mau",
+  "best_season": "Tháng 12–tháng 4 (mùa khô, ít mưa, thuận tiện tham quan ngoài trời); ba khía ngon nhất tháng 7–8 Âm lịch; tránh tháng 5–10 mưa nhiều, đường rừng trơn",
+  "destination": "Cà Mau",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "ca-mau",
+  "lat": 9.17744,
+  "lng": 105.14915,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "hellocamau.vn",
+   "nucuoimekong.com",
+   "dulichviet.com.vn",
+   "vietfuntravel.com.vn",
+   "saigonstartravel.com",
+   "htt-furniture.com",
+   "intour.vn",
+   "tripi.vn",
+   "utotech.vn",
+   "thienhuongtourist.com",
+   "bestprice.vn",
+   "bangoaihomestay.vn",
+   "buulong.com.vn",
+   "bazantravel.com",
+   "dulichyenviet.com",
+   "khachsan.chudu24.com",
+   "traveloka.com",
+   "tadiha.com",
+   "cattour.vn",
+   "ivivu.com",
+   "limody.vn",
+   "limotrip.vn",
+   "vietair.com.vn",
+   "xelientinh247.vn",
+   "datmuixanh.com",
+   "dantri.com.vn",
+   "nguoiquansat.vn",
+   "lecourrier.vn",
+   "e.tapchihangkhong.vn"
+  ],
+  "province": "Cà Mau (tỉnh mới sau sáp nhập 01/07/2025: Cà Mau + Bạc Liêu; đợt 06/11/2026 đã thêm 3 điểm khu vực Bạc Liêu cũ)",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "rừng",
+   "sinh thái",
+   "địa lý"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "vnexpress.net",
+  "thang_dep_nhat": "Tháng 12–4 (mùa khô); ba khía ngon nhất tháng 7–8 âm lịch"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

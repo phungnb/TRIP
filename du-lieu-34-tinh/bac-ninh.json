@@ -1,0 +1,966 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn vặt / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "5.000–15.000đ/cái (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Bánh phu thê (Đình Bảng)",
+   "nguon": "webtretho.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Bánh phu thê Đình Bảng là bánh cưới truyền thống: vỏ nếp dẻo, nhân đậu xanh dừa, ngọt vừa. Mua làm quà hợp nhất, nên mua ở cơ sở lâu đời. Điểm trừ: bánh làm sẵn để lâu sẽ cứng, nên mua trong ngày."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu phố Thượng, Từ Sơn (Đình Bảng)",
+     "gia": "~5.000–15.000đ/cái",
+     "ten": "Bánh phu thê Minh Thu"
+    },
+    {
+     "dia_chi": "Khu phố Hạ, Từ Sơn (Đình Bảng)",
+     "gia": "~5.000–15.000đ/cái",
+     "ten": "Bánh phu thê Bà Liễn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/phần (chưa kiểm được mức hiện hành)",
+   "mon": "Nem Bùi (nem thính)",
+   "nguon": "webtretho.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Nem Bùi là đặc sản làng Bùi Xá: thịt lợn thính thơm, ăn kèm lá sung và tương ớt. Món nhậu và mua làm quà đều hợp. Điểm trừ: nem để lâu sẽ chua, nên mua trong ngày và ăn sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Ninh Xá, Thuận Thành (làng Bùi)",
+     "gia": "30.000–50.000đ/phần (khoảng tham khảo)",
+     "ten": "Nem Bùi làng Bùi Xá"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "5.000–10.000đ/cái (chưa kiểm được mức hiện hành)",
+   "mon": "Bánh tẻ làng Chờ (Yên Phong)",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Bánh tẻ làng Chờ dẻo, thơm lá dong, nhân thịt mộc nhĩ vừa miệng. Rẻ, ăn sáng hoặc mua làm quà. Điểm trừ: chỉ ngon khi ăn nóng, để nguội sẽ cứng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Chờ, Yên Phong",
+     "gia": "5.000–10.000đ/cái (khoảng tham khảo)",
+     "ten": "Bánh tẻ làng Chờ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "300.000–500.000đ/con (chưa kiểm được mức hiện hành; gà giống quý, giá theo con)",
+   "mon": "Gà Hồ (gà tiến vua)",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Gà Hồ là giống gà quý tiến vua: thịt chắc, da giòn, chân to. Ăn một lần cho biết là đáng, nhất là gà luộc. Điểm trừ: giá rất cao theo con, phải đặt trước ở nhà hàng có ghi rõ nguồn gà Hồ (xã Song Hồ, Thuận Thành) trên thực đơn và báo giá theo con trước khi đặt."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Lạc Vệ, Tiên Du",
+     "gia": "300.000–500.000đ/con (khoảng tham khảo, đặt trước)",
+     "ten": "Nhà hàng gà Hồ khu vực Lạc Vệ / Tiên Du"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–40.000đ/tô",
+   "mon": "Bún riêu cua / bún cá Bắc Ninh",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún riêu cua Bắc Ninh đậm vị cua đồng, ăn sáng bình dân. Quán trung tâm thành phố được người địa phương ăn nhiều. Điểm trừ: mỗi quán một vị, nên hỏi người địa phương chỉ quán ngon."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Trần Hưng Đạo, TP Bắc Ninh",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Quán bún trung tâm TP Bắc Ninh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–35.000đ/tô (chưa kiểm được mức hiện hành)",
+   "mon": "Cháo cá Tích Giang / cháo gà",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Cháo cá Tích Giang là món sáng nhẹ nhàng: cháo nhừ, cá thơm, ít tanh. Hợp người lớn tuổi và trẻ nhỏ. Điểm trừ: ít quán chuyên, nên ăn buổi sáng sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực chợ Nhớn, TP Bắc Ninh",
+     "gia": "20.000–35.000đ/tô",
+     "ten": "Quán cháo trung tâm TP Bắc Ninh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "5.000–10.000đ/cái (chưa kiểm được mức hiện hành)",
+   "mon": "Bánh khúc làng Diềm",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Bánh khúc làng Diềm thơm mùi lá khúc, nhân đậu xanh thịt mỡ, ăn sáng nóng hổi là ngon nhất. Rẻ, mua ở làng Diềm là chuẩn. Điểm trừ: chỉ có theo mùa lá khúc, không phải lúc nào cũng có."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Hòa Long, TP Bắc Ninh",
+     "gia": "5.000–10.000đ/cái (khoảng tham khảo)",
+     "ten": "Bánh khúc làng Diềm"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/chai (chưa kiểm được mức hiện hành)",
+   "mon": "Tương Đình Tổ (tương bần Bắc Ninh)",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Tương Đình Tổ là tương truyền thống: thơm, ngọt hậu, chấm rau luộc và thịt luộc rất hợp. Mua làm quà nên mua ở cơ sở lâu đời. Điểm trừ: tương ngon có vị mặn rõ, ai ăn nhạt sẽ thấy gắt."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Đình Tổ, Thuận Thành",
+     "gia": "30.000–60.000đ/chai (khoảng tham khảo)",
+     "ten": "Cơ sở tương Đình Tổ"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HN khứ hồi + xe HN–BN khứ hồi",
+   "uoc_tinh": "3.200.000–5.300.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng TP Bắc Ninh ~400.000–900.000đ/đêm)",
+   "uoc_tinh": "400.000–900.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (món địa phương rẻ; gà Hồ 1 bữa ~150.000–250.000đ/người)",
+   "uoc_tinh": "400.000–800.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (hầu hết miễn phí; gửi xe + trải nghiệm làng nghề)",
+   "uoc_tinh": "50.000–200.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày / taxi",
+   "uoc_tinh": "200.000–500.000đ"
+  },
+  {
+   "hang_muc": "Mua đặc sản (bánh phu thê, tranh Đông Hồ, gốm)",
+   "uoc_tinh": "100.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.350.000–8.100.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (xe/tàu khứ hồi thay máy bay)",
+   "uoc_tinh": "120.000–400.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua tại cơ sở có biển hiệu, hỏi rõ tranh vẽ tay hay in; so giá 2-3 nhà trước khi mua.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua đồ lưu niệm, tranh Đông Hồ, gốm Phù Lãng ở làng nghề: hàng in máy giả tranh vẽ tay, giá hét cao với khách lạ."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh đền Đô, chùa Phật Tích và hội Lim dịp lễ hội đông khách: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Bắc Ninh và khu vực hội Lim hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác nhẹ (đi lễ đầu năm trời lạnh); ô/áo mưa mỏng",
+  "Giày đi bộ (leo núi Phật Tích, đi làng nghề)",
+  "Tiền mặt lẻ (công đức, gửi xe, mua tranh/gốm ở làng — nhiều nơi chỉ nhận tiền mặt)",
+  "Ăn mặc lịch sự khi vào chùa/đền (không áo hai dây/quần ngắn)",
+  "Đặt tour miễn phí 'Tinh hoa văn hóa Bắc Ninh' trước nếu muốn có xe + hướng dẫn viên",
+  "Đi lễ hội (Lim, chùa Dâu, Phật Tích) thì đi sớm, gửi xe xa và đi bộ vào"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [],
+  "diem": [
+   "Hội Lim (đồi Lim, Tiên Du)",
+   "Chùa Phật Tích (tượng Phật đá thời Lý)",
+   "Đền Đô (đền thờ 8 vua Lý)",
+   "Làng tranh Đông Hồ"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn Mường Thanh Luxury Bắc Ninh",
+   "Khách sạn Le Indochina Bắc Ninh"
+  ],
+  "diem_chay": [
+   "Quảng trường Trung tâm Văn hóa Kinh Bắc (điểm xuất phát giải)",
+   "Đường ven sông Đuống",
+   "Khu vực đền Đô buổi sáng sớm"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Tin Tức (TTXVN) — Hơn 5.000 người tham gia các giải chạy khám phá miền Quan họ (16/3/2025); UBND TP Bắc Ninh, công văn 416/UBND-VHTT (ngày kiểm 08/11/2026)",
+    "ten": "Bắc Ninh Legacy Marathon — Dấu chân miền Quan họ",
+    "thoi_gian": "Tháng 3 hằng năm (mùa 2025: 16/3/2025)"
+   }
+  ],
+  "nguon": "Báo Tin Tức về giải Bắc Ninh Legacy Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP Bắc Ninh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Huyền Quang, TP Bắc Ninh",
+   "dien_thoai": "0222 3665 566",
+   "gia": "~1.000.000–1.800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "muongthanh.com + booking.muongthanh.com + Google (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Mường Thanh Luxury Bắc Ninh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Bắc Ninh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Bắc Ninh",
+   "dien_thoai": "0222 3629 999",
+   "gia": "~900.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác (gần khu công nghiệp)",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "tripi.vn, mytour.vn, bacninhtoplist.com, holidaycheck (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Le Indochina Bắc Ninh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Lý Thái Tổ / Trần Hưng Đạo, TP Bắc Ninh",
+   "dien_thoai": null,
+   "gia": "~500.000–900.000đ/đêm (khoảng tham khảo)",
+   "hang": "3 sao",
+   "hop_voi": "Khách đoàn, gia đình đi lễ hội",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn trung tâm TP Bắc Ninh 3 sao",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Bắc Ninh ~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Từ Sơn",
+   "dien_thoai": "0222 3761 588",
+   "gia": "~400.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3 sao",
+   "hop_voi": "Khách thăm đền Đô, Đông Hồ, bánh phu thê",
+   "khu_vuc": "tu-son",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "gắn với Từ Sơn Luxury Hotel, 46 Vườn hoa Lê Hồng Phong (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Từ Sơn (gần đền Đô, làng Đông Hồ)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Bắc Ninh",
+   "dien_thoai": null,
+   "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+   "hang": "Khách sạn 2 sao / nhà nghỉ",
+   "hop_voi": "Khách tiết kiệm, đi lễ 1 ngày",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ/khách sạn giá vừa TP Bắc Ninh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hòa Long, TP Bắc Ninh",
+   "dien_thoai": null,
+   "gia": "~300.000–600.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Homestay",
+   "hop_voi": "Khách muốn trải nghiệm làng Quan họ",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay làng Quan họ Diềm / Hòa Long",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Yên Phong",
+   "dien_thoai": null,
+   "gia": "~600.000–1.200.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách công tác khu công nghiệp",
+   "khu_vuc": "yen-phong",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu công nghiệp Yên Phong (Sam Sung)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá phòng khách sạn Bắc Ninh: chưa tra được nguồn giá cụ thể từng khách sạn — tất cả giá trong file là khoảng tham khảo chung, cần kiểm lại trên nền tảng đặt phòng",
+  "Giá các món: nem Bùi, bánh tẻ, gà Hồ, bánh khúc, tương Đình Tổ — chỉ có khoảng tham khảo, chưa tra được quán + giá cụ thể",
+  "Giờ mở cửa chính xác: chùa Dâu (6:00–22:00 vs 7:00–18:00), chùa Phật Tích, chùa Bút Tháp, đền Đô, Bảo tàng Bắc Ninh",
+  "Giá vé xe HN–Bắc Ninh (limousine/xe khách/tàu/buýt) và phí cao tốc — chưa kiểm được mức hiện hành",
+  "Giá trải nghiệm in tranh Đông Hồ / làm gốm Phù Lãng — chưa kiểm được mức cụ thể",
+  "Địa giới sau sáp nhập 2025: Bắc Ninh gồm Bắc Giang cũ — các điểm ở khu vực Bắc Giang cũ (chùa Vĩnh Nghiêm, Tây Yên Tử, Đồng Cao...) chưa đưa vào file này, cần bổ sung đợt sau",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 12/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Làng nghề đúc đồng Đại Bái, Khu du lịch tâm linh – sinh thái Tây Yên Tử, Làng gốm Thổ Hà. Chưa có tọa độ (null): Khu du lịch tâm linh – sinh thái Tây Yên Tử, Làng gốm Thổ Hà. Cần kiểm lại bằng bản đồ trước khi ghim app.",
+  "Tour miễn phí 'Tinh hoa văn hóa Bắc Ninh': cách đăng ký cụ thể, lịch chạy 2026 — chưa kiểm được chi tiết"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Bắc Ninh không có sân bay. Bay tới Nội Bài rồi đi xe ~45–60 phút (~40 km), hoặc đi tàu tới ga Bắc Ninh.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Bến Gia Lâm/Long Biên – bến xe Bắc Ninh; nhiều chuyến/ngày",
+    "gia": "~60.000–120.000đ/vé (xe khách); limousine ~100.000–150.000đ/vé (chưa kiểm được mức hiện hành chính xác)",
+    "nguon": "Chưa kiểm được mức hiện hành chính xác — xem mục 9",
+    "phuong_tien": "Xe limousine/xe khách HN–Bắc Ninh",
+    "thoi_gian": "~45–60 phút (~30 km, QL1A/cao tốc HN–BG)"
+   },
+   {
+    "ghi_chu": "Ga Hà Nội/Long Biên/Gia Lâm – ga Bắc Ninh; tàu đi Lạng Sơn/Đồng Đăng/Hải Phòng đều dừng",
+    "gia": "~30.000–80.000đ/vé tùy hạng (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức hiện hành — xem mục 9",
+    "phuong_tien": "Tàu hỏa HN–Bắc Ninh",
+    "thoi_gian": "~1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Rẻ nhất, hợp đi 1 ngày",
+    "gia": "~10.000–20.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức hiện hành — xem mục 9",
+    "phuong_tien": "Xe buýt HN–Bắc Ninh (tuyến 10A, 54...)",
+    "thoi_gian": "~1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Phí cao tốc ~50.000–100.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Ô tô riêng (cao tốc HN–Bắc Ninh)",
+    "thoi_gian": "~45 phút"
+   }
+  ],
+  "tu_lan_can": [
+   {
+    "ghi_chu": "Hợp ghép tour Kinh Bắc: Bắc Ninh – Hưng Yên (Phố Hiến)",
+    "gia": "Xe khách ~50.000–100.000đ/vé (chưa kiểm được)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Từ Hải Dương cũ / Hưng Yên sang Bắc Ninh",
+    "thoi_gian": "~1–1,5 giờ (QL5/QL38)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé bay một chiều ~1.500.000–2.500.000đ + xe limousine/taxi ~150.000–300.000đ",
+    "nguon": "traveloka.com",
+    "phuong_tien": "Máy bay SGN–HAN + xe HN–Bắc Ninh",
+    "thoi_gian": "Bay ~2 giờ + xe ~1–1,5 giờ (HN–BN ~30 km)"
+   },
+   {
+    "ghi_chu": "Không khuyến nghị",
+    "gia": "Chưa kiểm được mức tổng",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Tàu hỏa SG–Bắc Ninh (tuyến Bắc–Nam)",
+    "thoi_gian": "~30 giờ (ga Bắc Ninh trên tuyến HN–Lạng Sơn/HN–Đồng Đăng)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Các điểm cách nhau 10–25 km, xe máy là phương tiện chính; đường làng nhỏ",
+   "gia": "~80.000–120.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be có ở TP Bắc Ninh; về các xã nên thỏa thuận giá trọn chuyến",
+   "gia": "~11.500–16.000đ/km; đi lại 3N2Đ ước tính ~300.000–600.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab / Be"
+  },
+  {
+   "ghi_chu": "Tuyến TP Bắc Ninh – Từ Sơn – Thuận Thành – Tiên Du",
+   "gia": "~10.000–20.000đ/lượt (chưa kiểm được mức chính xác)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được mức chính xác — xem mục 9",
+   "phuong_tien": "Xe buýt nội tỉnh"
+  },
+  {
+   "ghi_chu": "4 tuyến: Văn hóa–Phật giáo, Gốm và di sản, Quan họ, Văn hóa–Sinh thái",
+   "ghi_chu2": "",
+   "gia": "Miễn phí (từ 2025, có xe đưa đón + hướng dẫn viên; đăng ký qua Sở VHTTDL)",
+   "nguon": "baodautu.vn",
+   "phuong_tien": "Tour miễn phí 'Tinh hoa văn hóa Bắc Ninh'"
+  },
+  {
+   "ghi_chu": "Hợp gia đình đi lễ hội, nhiều điểm trong ngày",
+   "gia": "Xe 4 chỗ ~900.000–1.200.000đ/ngày (khoảng chung miền Bắc)",
+   "giay_to": "",
+   "nguon": "agotourist.com (khoảng chung)",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "thuan-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thanh Khương, Thuận Thành (phường Trí Quả theo nguồn mới), cách TP Bắc Ninh ~20 km",
+   "gia_ve": "Miễn phí (công đức tùy tâm); gửi xe máy 5.000–10.000đ, ô tô 15.000–20.000đ",
+   "gio_mo_cua": "~6:00–22:00 (một số nguồn ghi 7:00–18:00 — mâu thuẫn, xem mục 9); lễ hội tháng 4 âm lịch",
+   "hop_voi": "Khách hành hương, người yêu lịch sử Phật giáo, gia đình",
+   "id": "chua-dau",
+   "lat": 21.0358692,
+   "lng": 106.0425161,
+   "luu_y": "Chùa cổ từ thế kỷ 2, trung tâm Phật giáo đầu tiên, thờ Tứ Pháp (Pháp Vân – Pháp Vũ – Pháp Lôi – Pháp Điện); tháp Hòa Phong cổ",
+   "nguon": "phanvantravel.com, vietnamairlines.com, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Dâu được xem là chùa cổ nhất Việt Nam, gắn với trung tâm Phật giáo Luy Lâu thời xưa. Không gian cổ kính, yên tĩnh, hợp người thích lịch sử và kiến trúc. Lễ hội tháng 4 âm lịch đông vui; ngày thường vắng, tham quan khoảng 1 giờ là đủ."
+   },
+   "ten": "Chùa Dâu (chùa cổ nhất Việt Nam)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "tien-du",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Phật Tích, Tiên Du, cách TP Bắc Ninh ~10 km; trên núi Lạn Kha",
+   "gia_ve": "Miễn phí vào chùa; vé lên tượng Phật trên đỉnh núi (nếu thu theo mùa lễ hội) 10.000–20.000đ",
+   "gio_mo_cua": "~6:00–22:00 (một số nguồn ghi 7:00–18:00 — mâu thuẫn)",
+   "hop_voi": "Khách hành hương, gia đình, người thích leo núi nhẹ",
+   "id": "chua-phat-tich",
+   "lat": 21.0936546,
+   "lng": 106.0262578,
+   "luu_y": "Tượng Phật A Di Đà bằng đá thời Lý (cao 1,87 m) là bảo vật quốc gia; tượng Phật ngoài trời cao 27 m trên đỉnh; hội chùa mùng 3–5 Tết, tục khán hoa mẫu đơn",
+   "nguon": "phanvantravel.com, vietnamairlines.com, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Phật Tích trên núi Lạn Kha, nổi tiếng với tượng Phật A Di Đà bằng đá thời Lý. View từ chùa nhìn xuống đồng bằng đẹp, đường lên núi có bậc đá. Hợp đi buổi sáng, kết hợp với làng Đông Hồ gần đó."
+   },
+   "ten": "Chùa Phật Tích (tượng Phật đá thời Lý)",
+   "thoi_gian": "1,5–2 giờ (leo núi + tham quan)"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "thuan-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Bút Tháp, Thuận Thành, cách TP Bắc Ninh ~25 km",
+   "gia_ve": "Miễn phí; lễ hội 23–24/3 âm lịch",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc cổ",
+   "id": "chua-but-thap",
+   "lat": 21.0610828,
+   "lng": 106.0221975,
+   "luu_y": "Chùa thế kỷ 17, tháp đá Bút Tháp và tượng Quan Âm nghìn mắt nghìn tay nổi tiếng",
+   "nguon": "phanvantravel.com, tour.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Bút Tháp cổ kính, nổi tiếng với tượng Quan Âm nghìn mắt nghìn tay và tháp đá. Không gian yên tĩnh, ít khách du lịch hơn các chùa lớn. Hợp người thích kiến trúc cổ và chụp ảnh; nên đi buổi sáng cho mát."
+   },
+   "ten": "Chùa Bút Tháp",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "tu-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Đình Bảng, TP Từ Sơn (nay thuộc Bắc Ninh), cách TP Bắc Ninh ~15 km",
+   "gia_ve": "Miễn phí vào đền; gửi xe ô tô 30.000đ, xe máy 10.000đ (theo báo chí đầu xuân 2026)",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác); lễ hội 14–16/3 âm lịch",
+   "hop_voi": "Người yêu lịch sử, gia đình, học sinh",
+   "id": "den-do",
+   "lat": 21.107029,
+   "lng": 105.9597712,
+   "luu_y": "Thờ 8 vua nhà Lý; thủy đình hát Quan họ dịp lễ hội; gần làng tranh Đông Hồ và bánh phu thê Đình Bảng",
+   "nguon": "phanvantravel.com, vietnam.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Đô thờ 8 vua Lý, kiến trúc đẹp và là nơi hiểu về triều Lý rõ nhất. Lễ hội tháng 3 âm lịch có rước kiệu lớn, rất đông. Ngày thường vắng, tham quan khoảng 1 giờ; nên ghé nhà trưng bày trong khuôn viên."
+   },
+   "ten": "Đền Đô (đền thờ 8 vua Lý)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hòa Long, TP Bắc Ninh",
+   "gia_ve": "Miễn phí; nghe Quan họ tùy buổi biểu diễn (thường dịp lễ hội)",
+   "gio_mo_cua": "Cả ngày (không gian làng); đình làng mở theo giờ sinh hoạt",
+   "hop_voi": "Mọi đối tượng, người yêu dân ca, gia đình",
+   "id": "lang-quan-ho-diem",
+   "lat": 21.2149989,
+   "lng": 106.0501072,
+   "luu_y": "Cái nôi dân ca Quan họ (UNESCO 2009); đình làng cổ; hội Lim gần đó tháng 1 âm lịch",
+   "nguon": "vietnamairlines.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng Diềm là quê của quan họ, nghe hát quan họ ngay tại làng mới thấy hết cái hay. Nên đi đúng dịp hội Lim hoặc có đoàn hát mời, còn ngày thường làng khá yên ắng, ít hoạt động cho khách lẻ. Hợp người yêu văn hóa dân gian, đi cùng người địa phương giới thiệu sẽ hay hơn."
+   },
+   "ten": "Làng Quan họ Diềm (làng Viêm Xá)",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "thuan-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Song Hồ, Thuận Thành, cách TP Bắc Ninh ~20 km",
+   "gia_ve": "Miễn phí vào làng; mua tranh 20.000–200.000đ/bức tùy cỡ (chưa kiểm được mức hiện hành); trải nghiệm in tranh ~30.000–50.000đ (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–18:00 (các xưởng; chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ, người thích thủ công, nhóm bạn",
+   "id": "lang-tranh-dong-ho",
+   "lat": 21.0656558,
+   "lng": 106.0768977,
+   "luu_y": "Tranh dân gian in khắc gỗ (Đám cưới chuột, Gà đàn...); nên ghé xưởng nghệ nhân thay vì chỉ mua ở chợ",
+   "nguon": "phanvantravel.com, baodautu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TTXVN / baotintuc.vn / VOV",
+    "nhan_xet": "Làng tranh Đông Hồ đang hồi sinh nhờ các nghệ nhân như gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Thị Oanh; được xem nghệ nhân in tranh thủ công là trải nghiệm đáng giá nhất. Điểm trừ: chỉ còn vài gia đình giữ nghề, nên liên hệ trước để chắc có người hướng dẫn. Mua tranh nên mua tại nhà nghệ nhân, tránh hàng in máy bán dọc đường."
+   },
+   "ten": "Làng tranh Đông Hồ",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "que-vo",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Phù Lãng, Quế Võ, cách TP Bắc Ninh ~15 km",
+   "gia_ve": "Miễn phí vào làng; mua gốm theo giá xưởng; trải nghiệm làm gốm ~30.000–100.000đ (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ, người thích thủ công",
+   "id": "lang-gom-phu-lang",
+   "lat": 21.1498628,
+   "lng": 106.2554963,
+   "luu_y": "Gốm men nâu da lươn đặc trưng; lò gốm cổ vẫn đốt củi",
+   "nguon": "baodautu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng gốm Phù Lãng nổi tiếng với men da lươn và gốm sành nung củi, khác hẳn gốm Bát Tràng. Làng còn giữ lò cổ và không gian làng nghề thật, ít thương mại. Nên ghé xưởng của nghệ nhân để xem nung lò; đường vào làng nhỏ, nên đi xe máy."
+   },
+   "ten": "Làng gốm Phù Lãng",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Làng Cổ Mễ, phường Vũ Ninh, TP Bắc Ninh",
+   "gia_ve": "Miễn phí (công đức tùy tâm); gửi xe theo bảng giá ban quản lý",
+   "gio_mo_cua": "~6:00–22:00 (mùa lễ đầu năm mở sớm, đông; chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người làm ăn đầu năm",
+   "id": "den-ba-chua-kho",
+   "lat": 21.2052334,
+   "lng": 106.0850561,
+   "luu_y": "Đền thờ bà Chúa Kho – nơi giữ kho lương thời Lý; đầu năm rất đông người vay lộc, đi sớm tránh kẹt",
+   "nguon": "tour.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Bà Chúa Kho nổi tiếng linh thiêng về cầu tài lộc, đầu năm rất đông người đi lễ vay tiền Bà Chúa Kho. Lễ xong nên đi sớm vì đường vào đền nhỏ, dễ tắc. Ai không đi lễ thì chỉ cần ghé 30 phút ngắm kiến trúc là đủ."
+   },
+   "ten": "Đền Bà Chúa Kho",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "tien-du",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Lim, Tiên Du, cách TP Bắc Ninh ~12 km",
+   "gia_ve": "Miễn phí (lễ hội 12–13 tháng Giêng âm lịch hằng năm)",
+   "gio_mo_cua": "Lễ hội 2 ngày (12–13 tháng Giêng); ngày thường đồi Lim tham quan tự do",
+   "hop_voi": "Người yêu Quan họ, gia đình, nhóm bạn",
+   "id": "hoi-lim",
+   "lat": 21.1424508,
+   "lng": 106.01986,
+   "luu_y": "Lễ hội Quan họ lớn nhất Bắc Ninh: hát Quan họ trên đồi, dưới thuyền; ngày hội đông, gửi xe xa, đi bộ vào",
+   "nguon": "vietnamairlines.com, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Hội Lim (13 tháng Giêng âm lịch) là lễ hội quan họ lớn nhất Bắc Ninh, hát quan họ trên đồi Lim rất hay. Điểm trừ: ngày hội đông nghẹt, gửi xe và đi lại khó khăn. Nên đi từ sáng sớm, mang ô che nắng và chuẩn bị tinh thần chen lấn."
+   },
+   "ten": "Hội Lim (đồi Lim, Tiên Du)",
+   "thoi_gian": "Nửa ngày (dịp hội)"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Lý Thái Tổ, TP Bắc Ninh",
+   "gia_ve": "Miễn phí (chưa kiểm được mức hiện hành — có thể thu vé theo đợt triển lãm)",
+   "gio_mo_cua": "~8:00–17:00 (chưa kiểm được chính xác; thường đóng thứ Hai)",
+   "hop_voi": "Người yêu lịch sử, học sinh, gia đình",
+   "id": "bao-tang-bac-ninh",
+   "lat": 21.1841232,
+   "lng": 106.0747379,
+   "luu_y": "Điểm đầu 4 tuyến tour miễn phí 'Tinh hoa văn hóa Bắc Ninh' (từ 2025); trưng bày Quan họ, làng nghề, lịch sử Kinh Bắc",
+   "nguon": "baodautu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Bảo tàng nhỏ, trưng bày quan họ và lịch sử Bắc Ninh gọn gàng, hợp ghé 1 giờ khi ở trung tâm thành phố. Ít khách, yên tĩnh. Điểm trừ là trưng bày chưa nhiều tương tác, trẻ nhỏ dễ chán."
+   },
+   "ten": "Bảo tàng Bắc Ninh",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "tu-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tương Giang, Từ Sơn, cách TP Bắc Ninh ~12 km",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu lịch sử",
+   "id": "chua-tieu-son",
+   "lat": 21.1344734,
+   "lng": 105.9928554,
+   "luu_y": "Nơi gắn với Thiền sư Vạn Hạnh – thầy của Lý Công Uẩn; nằm trong tuyến tour Văn hóa – Phật giáo",
+   "nguon": "baodautu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Tiêu Sơn cổ, gắn với Thiền sư Vạn Hạnh, không gian yên tĩnh trên núi Tiêu. Ít khách du lịch, hợp người thích chùa cổ và leo núi nhẹ. Đường lên có bậc đá, nên đi buổi sáng."
+   },
+   "ten": "Chùa Tiêu Sơn (chùa Tiêu)",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "gia-binh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đại Bái, Gia Bình, cách TP Bắc Ninh ~25 km",
+   "gia_ve": "Miễn phí vào làng; mua đồ đồng theo giá xưởng",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người thích làng nghề, nhóm bạn",
+   "id": "lang-dai-bai",
+   "lat": 21.0833,
+   "lng": 106.2,
+   "luu_y": "Làng đúc đồng nổi tiếng (đỉnh, chuông, tượng); nằm trong tuyến tour Văn hóa – Sinh thái Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "baodautu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng đúc đồng Đại Bái giữ nghề đúc đồng truyền thống, xem thợ đúc và gò đồng là trải nghiệm hay. Làng nghề thật nên không có nhiều dịch vụ du lịch; nên liên hệ xưởng trước. Mua đồ đồng nên hỏi rõ đồng thật hay mạ, giá theo cân."
+   },
+   "ten": "Làng nghề đúc đồng Đại Bái",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "bac-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Làng Đức La, xã Trí Yên, huyện Yên Dũng (khu vực Bắc Giang cũ, nay thuộc tỉnh Bắc Ninh)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~7:00–17:30",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc cổ và Phật giáo Trúc Lâm",
+   "id": "chua-vinh-nghiem",
+   "lat": 21.21472,
+   "lng": 106.32361,
+   "luu_y": "Chùa lưu giữ bộ mộc bản kinh Phật hơn 3.000 ván (UNESCO Ký ức thế giới); quần thể Yên Tử – Vĩnh Nghiêm – Côn Sơn Kiếp Bạc được UNESCO ghi danh Di sản Thế giới năm 2025",
+   "nguon": "nguoikesu.com, aroundus.com, vietnamnet.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Vĩnh Nghiêm là trung tâm Phật giáo Trúc Lâm, lưu giữ bộ ván kinh cổ quý và kiến trúc gỗ đẹp. Điểm mạnh: cổ kính, yên tĩnh, vừa được UNESCO ghi danh cùng Yên Tử - Côn Sơn Kiếp Bạc. Điểm trừ: xa trung tâm, ít khách lẻ; nên đi cùng tour hoặc xe riêng."
+   },
+   "ten": "Chùa Vĩnh Nghiêm (chùa Đức La)",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "bac-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Tây Yên Tử, huyện Sơn Động (khu vực Bắc Giang cũ, nay thuộc tỉnh Bắc Ninh)",
+   "gia_ve": "Vé tham quan 40.000đ; vé chùa Đồng 40.000đ; cáp treo 200.000đ/chiều, 290.000đ/khứ hồi (theo gostay.vn — chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "7:00–17:00",
+   "hop_voi": "Khách hành hương, người thích leo núi và săn mây",
+   "id": "tay-yen-tu",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Cách TP Bắc Ninh ~90 km, đường xa; cabin cáp treo không có điều hòa nên đi mùa xuân hoặc thu cho mát; định vị rõ phía Tây Yên Tử để tránh nhầm sang phía Quảng Ninh Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "gostay.vn, mia.vn, bachhoaxanh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "gostay.vn / mia.vn / bachhoaxanh.com",
+    "nhan_xet": "Tây Yên Tử là mặt Tây của dãy Yên Tử, hoang sơ và hùng vĩ hơn phía Quảng Ninh, có cáp treo lên chùa Đồng. Điểm mạnh: chùa Thượng săn mây đẹp, tháp chuông Hoa Nghiêm mới. Điểm trừ: xa (cách Bắc Ninh ~90 km), cáp treo khá đắt và cabin không có điều hòa, mùa hè nóng; nên đi mùa xuân hoặc thu."
+   },
+   "ten": "Khu du lịch tâm linh – sinh thái Tây Yên Tử",
+   "thoi_gian": "1 ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "bac-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Vân Hà, huyện Việt Yên (khu vực Bắc Giang cũ, nay thuộc tỉnh Bắc Ninh)",
+   "gia_ve": "Miễn phí vào làng (chưa kiểm được giá trải nghiệm làm gốm)",
+   "gio_mo_cua": "~8:00–17:00",
+   "hop_voi": "Người thích làng nghề, gốm sành nung củi",
+   "id": "lang-gom-tho-ha",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Làng nghề thật ven sông Cầu, ít dịch vụ du lịch; đường vào làng nhỏ, nên đi xe máy Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng gốm Thổ Hà nổi tiếng với gốm sành nung củi và chum vại lớn, khác hẳn gốm Bát Tràng. Điểm mạnh: làng nghề thật ven sông Cầu, xem lò nung cổ. Điểm trừ: ít dịch vụ du lịch, đường vào làng nhỏ; nên đi xe máy và hỏi người địa phương."
+   },
+   "ten": "Làng gốm Thổ Hà",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đền Đô",
+   "gio": "6:00-8:00 sáng hoặc 16:30-18:00 chiều, ánh sáng mềm, ít đông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Làng tranh Đông Hồ",
+   "gio": "7:00-9:00 sáng, ánh sáng xuyên qua xưởng làm tranh",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Chùa Phật Tích",
+   "gio": "16:30-18:00 hoàng hôn nhìn xuống đồng bằng",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào chùa/đền và bảo tàng — tránh làng nghề ngoài trời và đồi Lim vì trơn trượt.",
+  "diem": [
+   "Chùa Dâu (chùa cổ nhất Việt Nam)",
+   "Chùa Phật Tích (tượng Phật đá thời Lý)",
+   "Chùa Bút Tháp",
+   "Đền Đô (đền thờ 8 vua Lý)",
+   "Bảo tàng Bắc Ninh"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "chua-dau, chua-but-thap",
+    "hoat_dong": "Chùa Dâu + chùa Bút Tháp (Thuận Thành)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-tranh-dong-ho, den-do",
+    "hoat_dong": "Làng tranh Đông Hồ + đền Đô (Từ Sơn)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "den-ba-chua-kho",
+    "hoat_dong": "TP Bắc Ninh; đền Bà Chúa Kho",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "chua-phat-tich, lang-quan-ho-diem",
+    "hoat_dong": "Chùa Phật Tích + làng Quan họ Diềm",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-gom-phu-lang",
+    "hoat_dong": "Làng gốm Phù Lãng; tối về Hà Nội",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "chua-dau",
+    "hoat_dong": "Chùa Dâu + thành cổ Luy Lâu (Thuận Thành)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-but-thap, lang-tranh-dong-ho",
+    "hoat_dong": "Chùa Bút Tháp + làng tranh Đông Hồ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về TP Bắc Ninh; ăn tối trung tâm",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "chua-phat-tich, hoi-lim",
+    "hoat_dong": "Chùa Phật Tích (leo núi Lạn Kha) + hội Lim/đồi Lim (nếu đúng mùa)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-quan-ho-diem, bao-tang-bac-ninh, den-ba-chua-kho",
+    "hoat_dong": "Làng Quan họ Diềm + Bảo tàng Bắc Ninh; đền Bà Chúa Kho",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "lang-quan-ho-diem",
+    "hoat_dong": "Nghe Quan họ (nếu có biểu diễn)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "den-do",
+    "hoat_dong": "Đền Đô + bánh phu thê Đình Bảng (Từ Sơn)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-gom-phu-lang, lang-dai-bai",
+    "hoat_dong": "Làng gốm Phù Lãng hoặc làng đúc đồng Đại Bái; về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-dau, chua-but-thap, lang-tranh-dong-ho",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (Thuận Thành: chùa Dâu – Bút Tháp – Đông Hồ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-phat-tich, lang-quan-ho-diem, den-ba-chua-kho",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Phật Tích – Quan họ Diềm – Bà Chúa Kho)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "den-do, lang-gom-phu-lang",
+    "hoat_dong": "Như ngày 3 của lịch trình 3N2Đ (Đền Đô – Phù Lãng/Đại Bái)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-tieu-son, lang-dai-bai",
+    "hoat_dong": "Chùa Tiêu Sơn + làng Đại Bái (nếu chưa đi); hoặc ghép sang Phố Hiến (Hưng Yên); về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Bắc Ninh",
+  "best_season": "Tháng 1–3 âm lịch (mùa lễ hội: hội Lim, hội chùa Dâu, hội chùa Phật Tích) và tháng 9–11 (mát); tránh tháng 6–8 nóng",
+  "destination": "Bắc Ninh, Bắc Ninh",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "bac-ninh",
+  "lat": 21.1861,
+  "lng": 106.0763,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Đất Kinh Bắc: chùa cổ nhất Việt Nam (chùa Dâu), Quan họ – di sản UNESCO, làng tranh Đông Hồ, làng gốm Phù Lãng, đền Đô thờ 8 vua Lý. Hầu hết điểm tham quan miễn phí; hợp đi 1–2 ngày từ Hà Nội, ghép thành 3N2Đ cùng làng nghề.",
+  "province": "Bắc Ninh",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "văn hóa",
+   "tâm linh",
+   "làng nghề"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 1–3 âm lịch (mùa lễ hội: hội Lim, hội chùa Dâu, hội chùa Phật Tích) và tháng 9–11 (mát); tránh tháng 6–8 nóng"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

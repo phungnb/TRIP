@@ -1,0 +1,1001 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–30.000đ/tô",
+   "mon": "Phở chua Cao Bằng",
+   "nguon": "190travel.com, vinhdeloctravel.com.vn, msquare.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Phở chua ngọt thanh, thịt vịt quay và lạc rang — món signature của Cao Bằng, ăn lạ miệng và dễ ăn. Điểm trừ là vị chua ngọt không phải ai cũng hợp. Hợp ăn sáng hoặc trưa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Lý Thường Kiệt, khối 3, TP Cao Bằng (Tổ 4, phường Hợp Giang)",
+     "gia": "25.000–30.000đ/tô, 6:00–11:00",
+     "ten": "Phở chua Quyên"
+    },
+    {
+     "dia_chi": "Ven cầu Sông Hiến, phường Hợp Giang, TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng, 6:00–11:00",
+     "ten": "Phở chua Huyên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000đ/suất (theo 1 nguồn)",
+   "mon": "Bánh cuốn trứng Cao Bằng",
+   "nguon": "190travel.com, vinhdeloctravel.com.vn, msquare.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vnexpress.net",
+    "nhan_xet": "Bánh cuốn trứng ăn với nước hầm xương thay vì nước mắm — khác biệt và ngon, nhiều du khách khen là món ngon nhất Cao Bằng. Điểm trừ là chỉ bán buổi sáng, hết sớm. Nên đi ăn sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Hoàng Đình Giong, TP Cao Bằng",
+     "gia": "20.000đ/suất, 6:00–12:00",
+     "ten": "Bánh cuốn Cô Hải"
+    },
+    {
+     "dia_chi": "Tổ 4, phường Tân Giang, TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng, 6:00–10:00",
+     "ten": "Bánh cuốn Bà Lan"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá/con hiện hành",
+   "mon": "Vịt quay 7 vị",
+   "nguon": "190travel.com, msquare.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Vịt quay 7 vị thơm, da giòn, thịt mềm — món nổi tiếng nhất Cao Bằng, mua về làm quà cũng được. Điểm trừ là giá theo con, khá cao. Hợp bữa trưa/tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Quốc lộ 3 cũ, phường Đề Thám, TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng, 8:00–22:00",
+     "ten": "Quán vịt quay Dũng Liên"
+    },
+    {
+     "dia_chi": "Tổ 7, phường Ngọc Xuân, TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng, 10:00–22:00",
+     "ten": "Nhà hàng Huy Linh Vịt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng theo tô",
+   "mon": "Phở vịt quay",
+   "nguon": "msquare.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Phở vịt quay đậm đà, thịt vịt thơm — món ăn sáng chắc bụng. Điểm trừ là giá tùy quán. Hợp ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Ngã 4 phố Vườn Cam, đường Hoàng Văn Thụ, TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Phở vịt quay Cao Bằng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt (đặc biệt mùa đông)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Bánh áp chao",
+   "nguon": "190travel.com, vinhdeloctravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh áp chao giòn rụm, nhân thịt vịt — món ăn vặt mùa lạnh được khen nhiều. Điểm trừ là dầu mỡ nhiều, ăn nhiều dễ ngán. Hợp ăn vặt buổi chiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "Trung tâm TP Cao Bằng (chưa kiểm được quán riêng)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Xanh"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá/kg hiện hành",
+   "mon": "Lạp xưởng hun khói (mua làm quà)",
+   "nguon": "190travel.com, quynhthanhlimousine.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Lạp xưởng hun khói thơm mùi gừng và mắc khén, mua làm quà rất hợp. Điểm trừ là nhiều hàng pha, chất lượng không đều. Nên mua ở cửa hàng quen hoặc chợ lớn."
+   },
+   "quan": [
+    {
+     "dia_chi": "Trung tâm TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Xanh"
+    },
+    {
+     "dia_chi": "TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Hòa Chung"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Bánh khảo (mua làm quà)",
+   "nguon": "quynhthanhlimousine.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh khảo ngọt thanh, để được lâu — món quà truyền thống của Cao Bằng. Điểm trừ là ngọt, người kiêng đường khó ăn. Hợp mua làm quà."
+   },
+   "quan": [
+    {
+     "dia_chi": "TP Cao Bằng (chưa kiểm được địa chỉ cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh khảo Thanh Tâm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được quán riêng + giá",
+   "mon": "Xôi trám",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Xôi trám dẻo, trám bùi béo — món theo mùa, ăn lạ miệng. Điểm trừ là chỉ có mùa trám (tháng 9–10), ngoài mùa khó tìm. Hợp ăn sáng mùa thu."
+   },
+   "quan": [
+    {
+     "dia_chi": "Trung tâm TP Cao Bằng (chưa kiểm được quán riêng)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Xanh"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá/kg hiện hành",
+   "mon": "Hạt dẻ Trùng Khánh (mua làm quà, theo mùa)",
+   "nguon": "quynhthanhlimousine.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hạt dẻ Trùng Khánh to, bùi, thơm — mua làm quà rất được ưa chuộng. Điểm trừ là chỉ có mùa thu, ngoài mùa toàn hàng cũ hoặc hàng nơi khác. Chỉ nên mua đúng mùa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Trung tâm TP Cao Bằng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Xanh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / ăn tối (món mùa lạnh)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "10.000–15.000đ/bát (theo mytour.vn, baocaobang.vn, caobangtourism.vn)",
+   "mon": "Coóng phù (bánh trôi Cao Bằng)",
+   "nguon": "mytour.vn, baocaobang.vn, caobangtourism.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn; baocaobang.vn, caobangtourism.vn",
+    "nhan_xet": "Bánh trôi nhân lạc – vừng chan nước đường gừng, ăn nóng giữa mùa lạnh Cao Bằng rất hợp — món vặt rẻ mà nhiều người nhớ nhất sau chuyến đi. Điểm yếu là chỉ ngon đúng mùa lạnh, mùa hè ít quán bán. Nên ăn ở quán lâu đời (bà Hợp, cô Diệp) thay vì hàng rong lạ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Hoàng Văn Thụ, phố Vườn Cam 2, phường Hợp Giang, TP Cao Bằng (gần cổng sân vận động)",
+     "gia": "Khoảng 15.000đ/bát",
+     "ten": "Quán bà Hợp"
+    },
+    {
+     "dia_chi": "Góc phố Lý Tự Trọng, phường Hợp Giang, TP Cao Bằng (gần Nhà hàng Thu Tường)",
+     "gia": "10.000–15.000đ/bát",
+     "ten": "Quán cô Diệp"
+    },
+    {
+     "dia_chi": "Chợ Xanh, TP Cao Bằng",
+     "gia": "10.000–15.000đ/bát",
+     "ten": "Quán cô Nồ / cô Như"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–HAN khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+  },
+  {
+   "hang_muc": "Xe HN–Cao Bằng khứ hồi",
+   "uoc_tinh": "600.000–800.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "500.000–1.600.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Bản Giốc + Ngườm Ngao + Pác Bó)",
+   "uoc_tinh": "85.000–200.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày (xe số)",
+   "uoc_tinh": "360.000–540.000đ"
+  },
+  {
+   "hang_muc": "Thuê ô tô đi Bản Giốc/Pác Bó (nếu không tự chạy xe máy)",
+   "uoc_tinh": "Chưa kiểm được mức riêng"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (tự chạy xe máy)",
+   "uoc_tinh": "4.095.000–9.310.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+   "uoc_tinh": "Tổng còn ~2.095.000–4.310.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Thuê xe số đời mới ở cửa hàng có đánh giá tốt; kiểm tra phanh/lốp/đèn/xích, chụp ảnh vết xước trước khi nhận; hỏi rõ cọc và phạm vi đi (Bản Giốc, Pác Bó, Bảo Lạc)",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao; thuexemayhagiang.vn — bảng giá thuê xe vùng Đông Bắc tham khảo (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy ở TP Cao Bằng và đi thác Bản Giốc: giữ giấy tờ gốc, xe yếu leo đèo Mã Phục, Khau Cốc Chà; trả xe bị bắt đền vết xước"
+  },
+  {
+   "cach_tranh": "Mua vé tại quầy chính thức (theo dữ liệu tỉnh: vé 40.000đ/người lớn, bè máy 50.000đ/người); hỏi giá trước mọi dịch vụ ngoài vé; không vượt khu vực cho phép ở thác biên giới",
+   "nguon": "dữ liệu tỉnh Cao Bằng (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Khu vực thác Bản Giốc (biên giới): có người mời đi bè, chụp ảnh, bán đồ lưu niệm giá cao không niêm yết"
+  },
+  {
+   "cach_tranh": "Nhắn hỏi chủ nhà về đường vào, bữa ăn gồm những gì và giá trước khi đặt; đọc đánh giá gần nhất",
+   "nguon": "kinh nghiệm chung du lịch Cao Bằng; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay làng đá Khuổi Ky, làng rèn Phúc Sen: đặt online khác ảnh thật, đường vào hẹp, phụ thu ăn uống"
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món, ưu tiên quán có bảng giá; với hải sản/đặc sản tính theo kg thì chốt giá/kg trước",
+   "nguon": "kinh nghiệm chung du lịch Cao Bằng; chưa tra được bài báo chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ vùng cao và quán ăn dọc QL4A, QL3: giá theo cân/khách không niêm yết, hỏi giá sau khi ăn"
+  }
+ ],
+ "checklist": [
+  "Áo khoác (sáng/tối lạnh, nhất là tháng 11–2)",
+  "Áo mưa mỏng, giày đi bộ (hang động, đường thác trơn)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (bản làng, chợ, quán nhỏ)",
+  "Sạc dự phòng, thuốc cơ bản, thuốc chống say xe (đường đèo dài)",
+  "Kem chống nắng",
+  "Đổ xăng đầy trước khi đi Bản Giốc/Pác Bó (cây xăng thưa trên đường đèo)"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Bang Giang EcoGreen Hotel",
+   "Indigen Riverside Hotel Cao Bang",
+   "Bảo Ngọc Diamond Hotel"
+  ],
+  "diem": [
+   "Thác Bản Giốc",
+   "Hồ Thang Hen",
+   "Động Ngườm Ngao",
+   "Núi Mắt Thần (núi Thủng)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Cao Bằng",
+   "Bang Giang EcoGreen Hotel",
+   "Homestay tại làng đá Khuổi Ky"
+  ],
+  "diem_chay": [
+   "Phố đi bộ Kim Đồng (TP Cao Bằng) buổi sáng sớm",
+   "Đường ven hồ Thang Hen",
+   "Đường quanh khu di tích Pác Bó (suối Lê Nin)"
+  ],
+  "giai": [
+   {
+    "nguon": "racejungle.com — Ultra Trail Cao Bang 2025; Sở Văn hóa, Thể thao và Du lịch tỉnh Cao Bằng — Thông cáo báo chí giải Non nước Cao Bằng 2025 (ngày kiểm 08/11/2026)",
+    "ten": "Giải chạy Siêu đường mòn Non nước Cao Bằng (Ultra Trail Cao Bang)",
+    "thoi_gian": "tháng 11 hằng năm (2025: 28–30/11, cự ly 10–160 km, xuất phát khu vực thác Bản Giốc/Trùng Khánh)"
+   }
+  ],
+  "nguon": "racejungle.com — Ultra Trail Cao Bang 2025 (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Cao Bằng (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP, phố đi bộ",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "42 Kim Đồng, phường Thục Phán, TP Cao Bằng",
+   "dien_thoai": "0206 3888 088",
+   "gia": "Từ ~1.110.000đ/đêm (có nguồn ghi từ ~1.597.222đ/đêm; suite cao hơn)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "vivutour.vn, trip.com",
+   "nguon_dien_thoai": "booking.muongthanh.com + csdl.vietnamtourism.gov.vn + FB Mường Thanh (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Cao Bằng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "Từ ~500.000đ/đêm (chưa kiểm được khoảng trên)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "expedia.co.id",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Bang Giang EcoGreen Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần sông Bằng Giang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hợp Giang, TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0825 522 533",
+   "gia": "Từ ~700.000đ/đêm (chưa kiểm được khoảng trên)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com",
+   "nguon_dien_thoai": "hesinhthaidoanhnghiep.com (ngày kiểm 08/11/2026)",
+   "ten": "Indigen Riverside Hotel Cao Bang",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0206 3853 431",
+   "gia": "Chưa kiểm được khoảng giá hiện hành",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "top-rated.online",
+   "nguon_dien_thoai": "bazantravel.com, mytour.vn, wikivoyage, ấn phẩm Sở VHTTDL Cao Bằng (ngày kiểm 08/11/2026)",
+   "ten": "Bằng Giang Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0889 185 186",
+   "gia": "Chưa kiểm được khoảng giá hiện hành",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com",
+   "nguon_dien_thoai": "mytour.vn, toplist.vn, ongvove.com + poster FB chính thức của khách sạn (ngày kiểm 08/11/2026)",
+   "ten": "Bảo Ngọc Diamond Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Chưa kiểm được khoảng cách tới trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "10 Đồng Khê, Tân Giang, TP Cao Bằng",
+   "dien_thoai": "0915 345 200",
+   "gia": "Chưa kiểm được khoảng giá hiện hành",
+   "hang": "Homestay",
+   "hop_voi": "Khách bụi, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com",
+   "nguon_dien_thoai": "travelviet.net (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Tit Mit",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Cao Bằng ~90 km, gần thác Bản Giốc",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Làng đá Khuổi Ky, xã Đàm Thủy, Trùng Khánh",
+   "dien_thoai": "0375 814 059",
+   "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn muốn ngủ gần thác",
+   "khu_vuc": "trung-khanh",
+   "nguon": "Chưa kiểm được nguồn riêng",
+   "nguon_dien_thoai": "gắn với \"Khuổi Ky Homestay\" (ngày kiểm 08/11/2026)",
+   "ten": "Homestay tại làng đá Khuổi Ky",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Cao Bằng ~30 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Pác Rằng, xã Phúc Sen, Quảng Hòa (Quốc lộ 3, cách TP Cao Bằng ~30 km)",
+   "dien_thoai": null,
+   "gia": "~200.000–400.000đ/đêm/phòng (theo ongvove.com; chưa kiểm được tên nhà cụ thể)",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn, gia đình muốn ngủ làng nghề",
+   "khu_vuc": "quang-hoa",
+   "nguon": "ongvove.com, caobangtourism.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay tại làng rèn Phúc Sen (bản Pác Rằng)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giờ mở cửa hầu hết các điểm Cao Bằng — chưa kiểm được giờ chính thức",
+  "Giá vé núi Mắt Thần (có thu phí không) — chưa kiểm được",
+  "Khoảng giá của 6/7 chỗ ở (trừ Mường Thanh Luxury) — chỉ có mức 'từ' hoặc chưa kiểm được; tên + giá homestay Khuổi Ky chưa kiểm được",
+  "Giá vịt quay 7 vị theo con, bánh áp chao, lạp xưởng, bánh khảo, xôi trám, hạt dẻ — chưa kiểm được mức riêng; quán riêng của bánh áp chao/xôi trám chưa kiểm được",
+  "Giá xe khách Hà Nội–Cao Bằng theo từng hãng (trừ Duy Quang limousine 400.000đ) — chưa kiểm được",
+  "Giá taxi/thuê ô tô tại Cao Bằng — chưa kiểm được mức riêng",
+  "Giá vé máy bay SGN–HAN — chưa kiểm được mức hiện hành",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 7 điểm từng null (trong đó 3 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 9 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này.",
+  "Cập nhật 06/11/2026: đã bổ sung 1 chỗ ở và 1 món ăn có giá kiểm được từ nguồn công khai để bớt mỏng."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Mã Phục (QL3, đường TP Cao Bằng – Trùng Khánh đi thác Bản Giốc): dốc, nhiều cua gấp, sương mù sáng sớm; đi chậm, bấm còi ở cua khuất, không vượt ở đoạn khuất tầm nhìn. Đèo Khau Cốc Chà (đèo 14 tầng, QL4A, xã Xuân Trường, Bảo Lạc): dài chỉ khoảng 2,5 km nhưng có 14 khúc cua tay áo xếp thành 15 tầng dốc, một bên vách núi một bên vực sâu; đường đã mở rộng 5 m và rải nhựa (2011) nên đi được, nhưng phải đi số thấp, tốc độ chậm, không dừng xe giữa cua để chụp ảnh — muốn ngắm toàn cảnh thì đi bộ lên điểm ngắm Pác Thốc (khoảng 1 km, 30 phút leo dốc). Mùa khô tháng 11–4 là thời điểm đi đèo này thuận nhất; mùa mưa tháng 5–9 đường trơn, sương mù che kín toàn bộ đèo. Các tuyến đi Pác Bó, hồ Thang Hen: dốc đá, hẹp; kiểm tra phanh/lốp/đèn, đổ đầy xăng trước khi vào tuyến đèo dài; mang CCCD/hộ chiếu và giấy tờ xe đầy đủ.",
+  "deo": [
+   "Đèo Khau Cốc Chà (đèo 14 tầng, QL4A Bảo Lạc): 2,5 km, 14 cua tay áo, 15 tầng dốc, một bên vực sâu",
+   "Đèo Mã Phục (QL3 đi Bản Giốc): dốc, nhiều cua gấp, sương mù sáng sớm",
+   "Đèo Khau Liêu và đường đi Pác Bó, hồ Thang Hen: dốc đá, hẹp, trơn mùa mưa"
+  ],
+  "nguon": "hagiangalitravel.com — Khau Coc Cha Pass 2026 (dẫn Báo Cao Bằng 30/3/2023; Nhân Dân 20/4/2021) (ngày kiểm 08/11/2026); travelviet.net — Đèo Khau Cốc Chà (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Cao Bằng không có sân bay, không có ga tàu. Sân bay gần nhất: Nội Bài (HAN), cách TP Cao Bằng ~280 km. Bến xe Cao Bằng ở trung tâm TP.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Duy Quang Limousine (xe 9 chỗ VIP, 1 tiếng 1 chuyến, 4:00–20:00); đón trả tận nơi",
+    "gia": "400.000đ/chiều",
+    "nguon": "mobitrip.vn",
+    "phuong_tien": "Limousine Hà Nội–Cao Bằng",
+    "thoi_gian": "6–7 giờ, ~280 km"
+   },
+   {
+    "ghi_chu": "Hãng: Duy Quang (bus 16–18 chỗ); các hãng khác chưa kiểm được tên + giá riêng",
+    "gia": "300.000–400.000đ/chiều (chưa kiểm được mức riêng từng hãng)",
+    "nguon": "mobitrip.vn, coxe.vn",
+    "phuong_tien": "Xe khách Hà Nội–Cao Bằng",
+    "thoi_gian": "6–7 giờ"
+   }
+  ],
+  "tu_san_bay": [],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án thực tế nhất. Cao Bằng không có sân bay; sân bay gần nhất là Nội Bài",
+    "gia": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Cao Bằng 300.000–400.000đ/chiều",
+    "nguon": "mobitrip.vn, coxe.vn",
+    "phuong_tien": "Máy bay SGN–HAN + xe khách Hà Nội–Cao Bằng",
+    "thoi_gian": "Bay ~2h05 + xe 6–7 giờ (~280 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Xe số phổ biến: Wave Alpha, Future; thuê càng lâu càng rẻ (theo Vexere)",
+   "gia": "~180.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vexere.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Xe ga phổ biến: Air Blade, Vision; leo đèo yếu hơn xe số",
+   "gia": "~250.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vexere.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Winner 150, Exciter — chỉ hợp người đã quen xe côn",
+   "gia": "~380.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "vexere.com",
+   "phuong_tien": "Thuê xe máy — côn tay"
+  },
+  {
+   "ghi_chu": "Quãng trong TP ngắn; đi Bản Giốc/Pác Bó nên thuê ô tô theo ngày",
+   "gia": "Chưa kiểm được mức riêng tại Cao Bằng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Cao Bằng",
+   "phuong_tien": "Taxi nội thành TP Cao Bằng"
+  },
+  {
+   "ghi_chu": "Nên thuê khi đi Bản Giốc – Ngườm Ngao – Khuổi Ky (90 km) hoặc Pác Bó (50 km); thỏa thuận giá trọn gói trước",
+   "gia": "Chưa kiểm được mức riêng tại Cao Bằng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Cao Bằng",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "trung-khanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đàm Thủy, Trùng Khánh (sông Quây Sơn, biên giới Việt – Trung); thác cao ~53 m, 3 tầng",
+   "gia_ve": "40.000đ/người lớn, 20.000đ/trẻ em (từ 04/07/2026, TB 138/TB-BQLKDLTBG); bè máy 50.000đ/người",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức thống nhất (ban ngày)",
+   "hop_voi": "Mọi đối tượng, gia đình, người thích chụp ảnh",
+   "id": "thac-ban-gioc",
+   "lat": 22.85098,
+   "lng": 106.72597,
+   "luu_y": "Thác biên giới — không vượt qua khu vực cho phép, không tắm ở khu vực cấm; mùa khô nước ít hơn",
+   "nguon": "coxe.vn, phanvantravel.com, caobangecotravel.com, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác đẹp nhất Việt Nam, mùa mưa tháng 8–9 nước nhiều và hùng vĩ — đứng gần thác mới thấy hết quy mô. Điểm trừ là mùa khô ít nước, vé 40.000đ + bè 50.000đ/người, cuối tuần đông. Nên đi tháng 8–9, đi sớm tránh đông."
+   },
+   "ten": "Thác Bản Giốc",
+   "thoi_gian": "2–3 giờ; đẹp nhất tháng 8–9 (nước lớn)"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "trung-khanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Gun, xã Đàm Thủy, Trùng Khánh; cách thác Bản Giốc ~3–5 km",
+   "gia_ve": "45.000đ/người lớn, 25.000đ/trẻ em",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng, gia đình",
+   "id": "dong-nguom-ngao",
+   "lat": 22.84502,
+   "lng": 106.70615,
+   "luu_y": "Hang dài khảo sát 2.144 m, thạch nhũ đẹp; đường trong động trơn, mang giày bám tốt",
+   "nguon": "coxe.vn, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Động dài và đẹp, thạch nhũ lớn, đi bộ trong động mát lạnh — hợp ghép với thác Bản Giốc vì chỉ cách 3–5 km. Điểm trừ là trong động tối và ẩm, đường trơn. Hợp mọi đối tượng, mang giày chắc."
+   },
+   "ten": "Động Ngườm Ngao",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "ha-quang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trường Hà, Hà Quảng",
+   "gia_ve": "Miễn phí vé vào cửa từ 04/07/2026 (Thông báo 232/TB-BQLCDTQGĐB); xe điện 20.000đ/người",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng, người quan tâm lịch sử",
+   "id": "khu-di-tich-pac-bo",
+   "lat": 22.975,
+   "lng": 106.05,
+   "luu_y": "Di tích quốc gia đặc biệt; đi bộ nhiều, mang giày bệt; giữ trang nghiêm tại khu di tích Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực hang Cốc Bó – suối Lê Nin. Vé vào cửa miễn phí từ 04/07/2026 (Thông báo 232/TB-BQLCDTQGĐB).",
+   "nguon": "coxe.vn, phanvantravel.com, thegioicombo.vn, Báo Cao Bằng, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vietsensetravel.com",
+    "nhan_xet": "Di tích lịch sử quan trọng, suối Lê Nin xanh ngọc và hang Cốc Bó — cảnh đẹp và ý nghĩa, nhiều du khách khen nước suối trong vắt. Vé vào cửa miễn phí từ 04/07/2026 (Thông báo 232/TB-BQLCDTQGĐB). Hợp mọi đối tượng, dành 2–3 giờ."
+   },
+   "ten": "Khu di tích Pác Bó (suối Lê Nin – hang Cốc Bó)",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "quang-hoa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Quốc Toản, Quảng Hòa (huyện Trà Lĩnh cũ)",
+   "gia_ve": "30.000đ/người (vietsensetravel.com)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Cặp đôi, nhóm bạn, người thích chụp ảnh",
+   "id": "ho-thang-hen",
+   "lat": 22.75815,
+   "lng": 106.29481,
+   "luu_y": "Hồ trên núi trong quần thể 36 hồ; nước hồ thay đổi theo mùa; đường vào có đoạn dốc",
+   "nguon": "thegioicombo.vn, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hồ trên núi với 36 hồ lớn nhỏ theo truyền thuyết, nước xanh, yên tĩnh — hợp nghỉ ngơi và chụp ảnh. Điểm trừ là dịch vụ ít. Hợp người thích yên tĩnh, ghép với núi Mắt Thần."
+   },
+   "ten": "Hồ Thang Hen",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "quang-hoa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Quốc Toản, Quảng Hòa (khu vực Trà Lĩnh)",
+   "gia_ve": "Chưa kiểm được có thu phí không (1 nguồn ghi miễn phí — chưa kiểm được chắc chắn)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Nhóm bạn, người thích chụp ảnh, cắm trại",
+   "id": "nui-mat-than",
+   "lat": 22.77821,
+   "lng": 106.31129,
+   "luu_y": "Núi đá có lỗ thủng lớn giữa đỉnh; khu vực đồng cỏ rộng, hợp picnic; không leo lên vách đá Theo OpenStreetMap (Núi Thủng, xã Trà Lĩnh).",
+   "nguon": "thegioicombo.vn, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Núi Thủng với 'mắt thần' giữa núi, đồng cỏ xanh dưới chân — góc chụp độc đáo nhất Cao Bằng. Điểm trừ là đường vào khó, mùa mưa lầy, chưa rõ có thu phí không. Hợp người thích chụp ảnh và khám phá; nên đi mùa khô."
+   },
+   "ten": "Núi Mắt Thần (núi Thủng)",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "quang-hoa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Quốc Toản, Quảng Hòa (QL3, hướng TP Cao Bằng – Trà Lĩnh)",
+   "gia_ve": "Miễn phí (điểm dừng ven đường)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng (đi xe qua đèo)",
+   "id": "deo-ma-phuc",
+   "lat": 22.72443,
+   "lng": 106.33852,
+   "luu_y": "Đèo có 7 tầng dốc quanh co — đi chậm, không dừng xe giữa cua khuất",
+   "nguon": "thegioicombo.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đèo 7 tầng uốn lượn, view núi đẹp — điểm dừng chân trên đường đi Thang Hen. Điểm trừ là đèo nguy hiểm, cua gấp, không nên dừng xe giữa cua. Hợp dừng 15 phút chụp ảnh."
+   },
+   "ten": "Đèo Mã Phục",
+   "thoi_gian": "30–60 phút dừng ngắm cảnh"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "trung-khanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đàm Thủy, Trùng Khánh (gần thác Bản Giốc)",
+   "gia_ve": "40.000đ/người (vietsensetravel.com)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "lang-da-khuoi-ky",
+   "lat": 22.85421,
+   "lng": 106.70138,
+   "luu_y": "Làng người Tày với nhà trình tường bằng đá; tôn trọng sinh hoạt dân làng, hỏi trước khi chụp ảnh trong nhà",
+   "nguon": "thegioicombo.vn, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Làng đá cổ của người Tày, nhà sàn đá độc đáo, còn giữ nếp sống truyền thống — trải nghiệm văn hóa thật. Điểm trừ là làng còn hoang sơ ít dịch vụ. Hợp người thích văn hóa, ghép với thác Bản Giốc."
+   },
+   "ten": "Làng đá Khuổi Ky",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "trung-khanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đàm Thủy, Trùng Khánh (gần thác Bản Giốc)",
+   "gia_ve": "Miễn phí (chưa kiểm được có thu phí gửi xe không)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-phat-tich-ban-gioc",
+   "lat": 22.8515,
+   "lng": 106.722,
+   "luu_y": "Chùa trên đồi nhìn xuống thác; ăn mặc lịch sự, giữ yên lặng Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực đồi gần thác Bản Giốc.",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Chùa trên đồi nhìn xuống thác Bản Giốc, kiến trúc đẹp, không khí trang nghiêm — view thác từ chùa rất tốt. Điểm trừ là phải leo bậc, chưa rõ phí gửi xe. Hợp ghé 1 giờ kèm thác Bản Giốc."
+   },
+   "ten": "Chùa Phật Tích Trúc Lâm Bản Giốc",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "ha-quang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trong khu di tích Pác Bó, xã Trường Hà, Hà Quảng",
+   "gia_ve": "Miễn phí vé vào cửa từ 04/07/2026 (vé chung khu di tích Pác Bó)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Mọi đối tượng",
+   "id": "suoi-le-nin",
+   "lat": 22.97357,
+   "lng": 106.04915,
+   "luu_y": "Suối trong xanh dưới chân núi Các Mác; không tắm, không xả rác",
+   "nguon": "coxe.vn, vietxanh-vietgreentour.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Suối nước xanh ngọc trong vắt, cá bơi thấy rõ — điểm đẹp nhất trong khu Pác Bó. Điểm trừ là không được tắm, chỉ ngắm và chụp ảnh. Hợp mọi đối tượng, đi kèm Pác Bó."
+   },
+   "ten": "Suối Lê Nin",
+   "thoi_gian": "30–60 phút (trong lịch trình Pác Bó)"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Kim Đồng, phường Hợp Giang, TP Cao Bằng",
+   "gia_ve": "Miễn phí vào phố; đồ ăn vặt 10.000–30.000đ/món (chưa kiểm được mức riêng từng quầy)",
+   "gio_mo_cua": "Buổi tối cuối tuần (chưa kiểm được lịch chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "pho-di-bo-kim-dong",
+   "lat": 22.665,
+   "lng": 106.26,
+   "luu_y": "Khu trung tâm TP, gần Mường Thanh Luxury; hỏi giá trước khi mua đồ Tọa độ xấp xỉ, cần kiểm lại — lấy theo trung tâm TP Cao Bằng, đường Kim Đồng.",
+   "nguon": "vivutour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Phố đi bộ trung tâm TP Cao Bằng, tối đông vui, đồ ăn vặt rẻ — hợp dạo mát buổi tối sau ngày đi thác. Điểm trừ là quy mô nhỏ, ít hoạt động hơn phố đi bộ thành phố lớn. Hợp mọi đối tượng."
+   },
+   "ten": "Phố đi bộ Kim Đồng",
+   "thoi_gian": "1–2 giờ buổi tối",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "quang-hoa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Phúc Sen, Quảng Hòa (Quốc lộ 3, cách TP Cao Bằng ~30 km)",
+   "gia_ve": "Miễn phí vào làng (theo caobangtourism.vn và nhiều nguồn; vietsensetravel.com ghi 50.000đ/người cho bản Pác Rằng — chưa thống nhất); trải nghiệm làm thợ rèn 50.000–100.000đ/người",
+   "gio_mo_cua": "Cả ngày (theo caobangtourism.vn: 7:00–18:00)",
+   "hop_voi": "Gia đình, người thích làng nghề",
+   "id": "lang-ren-phuc-sen",
+   "lat": 22.71,
+   "lng": 106.43,
+   "luu_y": "Làng rèn truyền thống nổi tiếng nhất Cao Bằng, cùng cụm Quảng Hòa với hồ Thang Hen và núi Mắt Thần — tiện ghép trong ngày. Tọa độ xấp xỉ, cần kiểm lại. Xem rèn thật ở các hộ gia đình, mua dao/kéo làm quà; hỏi giá trước khi mua.",
+   "nguon": "caobangtourism.vn, tripi.vn, mytour.vn, ongvove.com, vietsensetravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps (4.1/5); caobangtourism.vn, tripi.vn",
+    "nhan_xet": "Làng rèn thật, không phải điểm dựng cho du lịch — xem thợ rèn tay, nghe tiếng búa, mua được dao tốt làm quà. Điểm yếu là đường đi hơi khó và giá vé bản Pác Rằng các nguồn ghi mâu thuẫn (miễn phí vs 50.000đ). Hợp ghép với Thang Hen – núi Mắt Thần trong ngày."
+   },
+   "ten": "Làng rèn Phúc Sen (bản Pác Rằng)",
+   "thoi_gian": "1,5–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "ha-quang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trường Hà, Hà Quảng (gần khu di tích Pác Bó, cách TP Cao Bằng ~50 km)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Gia đình có trẻ nhỏ, học sinh, người yêu lịch sử",
+   "id": "khu-di-tich-kim-dong",
+   "lat": 22.96,
+   "lng": 106.06,
+   "luu_y": "Nơi yên nghỉ của anh Kim Đồng (Nông Văn Dền), đội trưởng đầu tiên của Đội Thiếu niên Tiền phong, cùng cụm Hà Quảng với Pác Bó và suối Lê Nin — tiện ghép trong ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulichviet.com.vn, baocaobang.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Điểm nhỏ nhưng ý nghĩa giáo dục lớn, nhất là với gia đình có trẻ nhỏ — đi kèm Pác Bó rất hợp. Điểm yếu là quy mô nhỏ, ít thông tin hướng dẫn nếu đi tự túc. Hợp ghép 1 giờ trong ngày Pác Bó, không đi riêng."
+   },
+   "ten": "Khu di tích Kim Đồng (mộ anh Kim Đồng)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "quang-hoa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Quốc Toản, Quảng Hòa (cách TP Cao Bằng ~30 km, gần hồ Thang Hen)",
+   "gia_ve": "Miễn phí vào làng (chưa kiểm được phí trải nghiệm làm hương nếu có)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Gia đình, người thích làng nghề, chụp ảnh",
+   "id": "lang-huong-phia-thap",
+   "lat": 22.745,
+   "lng": 106.31,
+   "luu_y": "Làng nghề làm hương truyền thống của người Nùng, cùng cụm Quảng Hòa với hồ Thang Hen và núi Mắt Thần — tiện ghép trong ngày. Tọa độ xấp xỉ, cần kiểm lại. Mua hương làm quà, hỏi giá trước.",
+   "nguon": "caobangtourism.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; caobangtourism.vn",
+    "nhan_xet": "Làng hương đẹp và thơm, bó hương phơi đầy sân chụp ảnh rất ăn hình — trải nghiệm làng nghề thật. Điểm yếu là ít review công khai và giá trải nghiệm chưa rõ. Hợp ghép với Thang Hen – núi Mắt Thần, không nên đi riêng."
+   },
+   "ten": "Làng hương Phia Tháp",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Thác Bản Giốc",
+   "gio": "8:00-10:00 nắng xiên, thác nhiều nước nhất tháng 8–9; 15:30-17:00 nắng chiều",
+   "nguon": "dữ liệu tỉnh Cao Bằng (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Thang Hen",
+   "gio": "6:00-7:30 bình minh, mặt hồ lặng, sương nhẹ; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Cao Bằng (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Núi Mắt Thần (núi Thủng)",
+   "gio": "7:00-9:00 sáng sớm; 16:00-17:30 nắng chiều xuyên qua lỗ thủng",
+   "nguon": "dữ liệu tỉnh Cao Bằng (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa to thì thác Bản Giốc và suối Lê Nin nước đục, đường đèo trơn — ở lại Pác Bó, chùa Phật Tích và phố Kim Đồng.",
+  "diem": [
+   "Khu di tích Pác Bó (suối Lê Nin – hang Cốc Bó)",
+   "Chùa Phật Tích Trúc Lâm Bản Giốc",
+   "Khu di tích Kim Đồng (mộ anh Kim Đồng)",
+   "Phố đi bộ Kim Đồng"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "",
+    "hoat_dong": "Tới TP Cao Bằng; ăn sáng phở chua",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "khu-di-tich-pac-bo, suoi-le-nin",
+    "hoat_dong": "Khu di tích Pác Bó + suối Lê Nin",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "pho-di-bo-kim-dong",
+    "hoat_dong": "Phố đi bộ Kim Đồng; vịt quay 7 vị",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thac-ban-gioc, dong-nguom-ngao",
+    "hoat_dong": "Thác Bản Giốc + động Ngườm Ngao (đi sớm, ~90 km)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về TP, trả phòng",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "",
+    "hoat_dong": "Tới TP Cao Bằng, nhận phòng; ăn sáng phở chua + bánh cuốn trứng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "khu-di-tich-pac-bo, suoi-le-nin",
+    "hoat_dong": "Khu di tích Pác Bó + suối Lê Nin (2–3 giờ, ~50 km)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "pho-di-bo-kim-dong",
+    "hoat_dong": "Phố đi bộ Kim Đồng; ăn tối vịt quay 7 vị",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "thac-ban-gioc, dong-nguom-ngao",
+    "hoat_dong": "Đi Trùng Khánh (~90 km); thác Bản Giốc (2–3 giờ) + động Ngườm Ngao (1–1,5 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-da-khuoi-ky, chua-phat-tich-ban-gioc",
+    "hoat_dong": "Làng đá Khuổi Ky + chùa Phật Tích Trúc Lâm Bản Giốc",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về TP Cao Bằng (hoặc ngủ homestay Khuổi Ky nếu đã đặt trước)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-thang-hen, nui-mat-than",
+    "hoat_dong": "Hồ Thang Hen + núi Mắt Thần (cụm Quảng Hòa, ~30–35 km)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "deo-ma-phuc",
+    "hoat_dong": "Đèo Mã Phục trên đường về; mua đặc sản (bánh khảo, lạp xưởng, hạt dẻ); trả phòng, về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "khu-di-tich-pac-bo, pho-di-bo-kim-dong",
+    "hoat_dong": "Như ngày 1 lịch trình 3N2Đ (Pác Bó + phố đi bộ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "thac-ban-gioc, dong-nguom-ngao, lang-da-khuoi-ky",
+    "hoat_dong": "Như ngày 2 lịch trình 3N2Đ (Bản Giốc + Ngườm Ngao + Khuổi Ky), ngủ lại Khuổi Ky",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-da-khuoi-ky",
+    "hoat_dong": "Sáng ở Khuổi Ky; chiều về TP, nghỉ ngơi",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-thang-hen, nui-mat-than, deo-ma-phuc",
+    "hoat_dong": "Hồ Thang Hen + núi Mắt Thần + đèo Mã Phục; chiều mua đặc sản, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Cao Bằng",
+  "best_season": "Tháng 8–9 thác Bản Giốc nhiều nước nhất; tháng 9–10 lúa chín; tháng 11–12 hoa dã quỳ, tam giác mạch; tháng 3 hoa lê, hoa mận",
+  "destination": "TP Cao Bằng, Cao Bằng",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "cao-bang",
+  "lat": 22.66499,
+  "lng": 106.26085,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "coxe.vn",
+   "phanvantravel.com",
+   "thegioicombo.vn",
+   "tamviettourist.com",
+   "vietmountaintravel.com",
+   "190travel.com",
+   "msquare.vn",
+   "vinhdeloctravel.com.vn",
+   "quynhthanhlimousine.com",
+   "vivutour.vn",
+   "trip.com",
+   "expedia.co.id",
+   "top-rated.online",
+   "mobitrip.vn",
+   "vexere.com"
+  ],
+  "province": "Cao Bằng",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "thác"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 8–9 thác Bản Giốc nhiều nước nhất; tháng 9–10 lúa chín; tháng 11–12 hoa dã quỳ, tam giác mạch; tháng 3 hoa lê, hoa mận"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "phongkhambacsi.vn — danh bạ bệnh viện (website chính thức benhviendakhoahanoicaobang.com.vn) (ngày kiểm 08/11/2026)",
+    "so": "0206 3858 115",
+    "ten": "Bệnh viện Đa khoa Hà Nội – Cao Bằng"
+   }
+  ]
+ }
+}

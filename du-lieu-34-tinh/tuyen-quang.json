@@ -1,0 +1,929 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–150.000đ/phần (theo mặt bằng cơm lam; chưa kiểm được giá riêng tại Tuyên Quang)",
+   "mon": "Cơm lam Sơn Dương",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cơm lam Sơn Dương dẻo thơm, ăn kèm thịt nướng — món ăn kèm không thể thiếu khi đi Tân Trào. Điểm trừ là chất lượng tùy quán. Hợp ăn khi đi ATK Tân Trào."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu du lịch suối khoáng Phú Lâm, huyện Yên Sơn",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Cơm lam Hạnh Vượng"
+    },
+    {
+     "dia_chi": "Xã Tân Trào, huyện Sơn Dương",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn khu Tân Trào"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Giá theo kg/phần, hỏi trước (chưa kiểm được mức cố định)",
+   "mon": "Cá lăng sông Gâm / cá nướng sông Gâm",
+   "nguon": "vietthangtravel.com, boki.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cá lăng sông Gâm thịt chắc, nướng thơm — món ngon nhất vùng Na Hang. Điểm trừ là giá theo kg, khá cao. Hợp bữa tối ở homestay ven hồ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tổ 2, TP Tuyên Quang",
+     "gia": "Giá theo món, hỏi trước",
+     "ten": "Nhà hàng Dũng Cá Sông Lô"
+    },
+    {
+     "dia_chi": "Đường Phạm Văn Đồng, TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Tràng An"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Gỏi cá bỗng sông Lô",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Gỏi cá bỗng chua thanh, cá tươi — món lạ miệng của Tuyên Quang. Điểm trừ là gỏi cá sống, người yếu bụng không nên ăn. Chỉ hợp người ăn được gỏi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Chiêm Hóa, Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng ven sông Lô"
+    },
+    {
+     "dia_chi": "Tổ 2, TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Dũng Cá Sông Lô"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Vịt bầu Minh Hương",
+   "nguon": "vietthangtravel.com, boki.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Vịt bầu Minh Hương thịt mềm, thơm — món đặc sản của Hàm Yên. Điểm trừ là ít quán bán ở TP Tuyên Quang. Hợp ăn khi đi qua Hàm Yên."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Phạm Văn Đồng, TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Tràng An"
+    },
+    {
+     "dia_chi": "Xã Minh Hương, huyện Hàm Yên",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn xã Minh Hương"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá cái riêng",
+   "mon": "Bánh gai Chiêm Hóa",
+   "nguon": "vietthangtravel.com, boki.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh gai Chiêm Hóa dẻo, thơm lá gai, nhân đậu dừa — món quà truyền thống. Điểm trừ là ngọt, người kiêng đường khó ăn. Hợp mua làm quà."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Chiêm Hóa, Tuyên Quang",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Chiêm Hóa"
+    },
+    {
+     "dia_chi": "TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Tam Cờ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Nộm da trâu",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Nộm da trâu giòn sần sật, chua cay — món nhậu lạ miệng của Tuyên Quang. Điểm trừ là da trâu dai, người răng yếu khó ăn. Hợp ăn kèm bia, theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Phạm Văn Đồng, phường Hưng Thành, TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Biển Rừng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt (món theo mùa)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Bánh nếp nhân trứng kiến",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bánh nếp nhân trứng kiến béo ngậy, lạ miệng — món theo mùa độc đáo. Điểm trừ là chỉ có mùa trứng kiến (tháng 4–5). Chỉ hợp người muốn thử món lạ, đúng mùa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Lâm Bình, Tuyên Quang",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ phiên vùng cao Lâm Bình"
+    },
+    {
+     "dia_chi": "TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Tam Cờ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn kèm / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Lạp xưởng Suối Khoáng",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Lạp xưởng Suối Khoáng thơm, dai — món quà của vùng Mỹ Lâm. Điểm trừ là nhiều hàng pha. Nên mua ở cửa hàng quen."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Phú Lâm, huyện Yên Sơn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Cửa hàng đặc sản khu suối khoáng Mỹ Lâm"
+    },
+    {
+     "dia_chi": "TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ trung tâm TP Tuyên Quang"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Hoa kè hấp thịt",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hoa kè hấp thịt thơm, lạ miệng — món truyền thống của người Tày. Điểm trừ là ít quán bán, phải hỏi người địa phương. Hợp người muốn thử món lạ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Số 64 tổ 16, đường 17 tháng 8, phường Minh Xuân, TP Tuyên Quang",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hẻm Quán Tuyên Quang"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–HAN khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ"
+  },
+  {
+   "hang_muc": "Xe Hà Nội–Tuyên Quang khứ hồi",
+   "uoc_tinh": "300.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng trung tâm)",
+   "uoc_tinh": "330.000–1.550.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan + thuyền hồ Na Hang",
+   "uoc_tinh": "200.000–600.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng / xe đi Na Hang",
+   "uoc_tinh": "300.000–800.000đ"
+  },
+  {
+   "hang_muc": "Taxi / phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.730.000–9.850.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (không bay SG–HN)",
+   "uoc_tinh": "Trừ ~2.000.000–5.000.000đ tiền bay, tổng còn ~1.730.000–4.850.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Chỉ thuê ở cửa hàng uy tín có hợp đồng rõ ràng; kiểm tra phanh/lốp/đèn, chụp ảnh/quay video toàn bộ vết xước trước khi nhận; hỏi rõ tiền cọc (thường 1–5 triệu hoặc giữ giấy tờ), phí giao/nhận xe khác điểm; giá tham khảo xe số 180.000–300.000đ/ngày, xe côn 350.000–400.000đ, xe địa hình 450.000–550.000đ/ngày; người nước ngoài cần giấy phép vùng biên theo quy định",
+   "nguon": "thuexemayhagiang.vn — Thuê xe máy Hà Giang du lịch tự túc (giá 150.000–550.000đ/ngày) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy chạy Hà Giang Loop (nay thuộc Tuyên Quang sau sáp nhập Hà Giang 2025): nhiều cửa hàng không yêu cầu bằng lái, chỉ giữ CCCD/hộ chiếu làm cọc; xe cũ, trả xe bị bắt đền vết xước có sẵn"
+  },
+  {
+   "cach_tranh": "Thỏa giá trước khi đồng ý chụp ảnh/tết tóc/đội vòng hoa; từ chối lịch sự nếu không muốn; điểm dừng dốc Thẩm Mã không mất vé, chỉ trả phí dịch vụ đã thỏa thuận",
+   "nguon": "hagiangalitravel.com — Tham Ma Pass 2026 (dẫn VietNamNet tháng 7/2025) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Dốc Thẩm Mã: trẻ em và người dân mời chụp ảnh cùng giỏ hoa, tết tóc, đội vòng hoa rồi thu phí cao không báo trước (có trường hợp bị thu 200.000đ/người)"
+  },
+  {
+   "cach_tranh": "Hỏi giá thuyền và xe ôm xuống bến trước khi đi; đoạn đường xuống bến dốc, nhiều cua hẹp — tay lái yếu nên đi xe ôm địa phương; tránh xuống bến khi có cảnh báo mưa lớn hoặc sạt lở",
+   "nguon": "travel.com.vn — Đèo Mã Pí Lèng: kinh nghiệm khám phá (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Đi thuyền sông Nho Quế, hẻm Tu Sản: giá thuyền, xe ôm xuống bến nhiều mức, mời chào dai dẳng"
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi mua; đọc đánh giá gần nhất, nhắn hỏi chủ nhà về giá mùa cao điểm trước khi đặt phòng",
+   "nguon": "kinh nghiệm chung du lịch Hà Giang; chưa tra được bài báo chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ phiên vùng cao, homestay Đồng Văn – Mèo Vạc: giá nói thách, đặt online khác ảnh thật, phụ thu mùa hoa tam giác mạch tháng 10–11"
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có bảng giá, quán đông khách địa phương",
+   "nguon": "kinh nghiệm chung du lịch Hà Giang (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Cơm, ăn uống dọc QL4C: quán không niêm yết giá, gọi món không hỏi giá trước"
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Giày trekking / giày chống trượt (Thác Mơ, Bản Ba, hồ Na Hang)",
+  "Áo khoác, áo mưa mỏng (mưa rừng bất chợt)",
+  "Đồ bơi + khăn (suối khoáng Mỹ Lâm)",
+  "Tiền mặt lẻ (bến thuyền Na Hang, chợ, quán ven đường)",
+  "Thuốc chống muỗi, kem chống nắng",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Đặt thuyền hồ Na Hang trước vào cuối tuần/lễ"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Nature Na Hang Homestay"
+  ],
+  "diem": [
+   "Hồ Na Hang (hồ thủy điện Tuyên Quang)",
+   "Thác Mơ (thác Pác Ban)",
+   "Suối khoáng Mỹ Lâm",
+   "Thác Bản Ba"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Grand Tuyên Quang",
+   "Khách sạn Royal Palace Tuyên Quang",
+   "Nature Na Hang Homestay"
+  ],
+  "diem_chay": [
+   "Đường quanh hồ Na Hang buổi sáng sớm",
+   "Đường ven sông Nho Quế (đoạn an toàn, ban ngày)",
+   "Quảng trường TP Tuyên Quang buổi sáng sớm"
+  ],
+  "giai": [
+   {
+    "nguon": "vietnamnews.vn — Ha Giang Ultra Trail and Marathon 2026; racejungle.com — Hà Giang Discovery Marathon (ngày kiểm 08/11/2026)",
+    "ten": "Hà Giang Discovery Marathon & Ultra Trail Hà Giang",
+    "thoi_gian": "tháng 4 (2026: 3–5/4; trail 25/42/55/70 km ngày 4/4 và road 6/12/21 km ngày 5/4, xuất phát trung tâm xã Mèo Vạc — nay thuộc tỉnh Tuyên Quang)"
+   },
+   {
+    "nguon": "baotintuc.vn — 2.300 VĐV tham gia giải Marathon quốc tế Chạy trên cung đường Hạnh phúc 2022 (ngày kiểm 08/11/2026)",
+    "ten": "Giải Marathon quốc tế Chạy trên cung đường Hạnh phúc (Hà Giang)",
+    "thoi_gian": "tháng 10 (2022: 9/10, cự ly 6/12/21/42 km, huyện Mèo Vạc — nay thuộc tỉnh Tuyên Quang)"
+   }
+  ],
+  "nguon": "vietnamnews.vn; racejungle.com; baotintuc.vn (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Tuyên Quang (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "207 đường Bình Thuận, tổ 13, phường Minh Xuân, TP Tuyên Quang",
+   "dien_thoai": "0207 3816 688",
+   "gia": "~615.000–1.550.000đ/đêm (Trip.com từ ~615.000đ; vietnambooking từ ~1.552.000đ)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com, vietnambooking.com, kayak.com",
+   "nguon_dien_thoai": "booking.muongthanh.com + muongthanh.com + holidaymocchau.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Tuyên Quang",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Tuyên Quang",
+   "dien_thoai": "0971 157 157",
+   "gia": "~560.000–570.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình, khách công tác, khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com",
+   "nguon_dien_thoai": "hesinhthaidoanhnghiep.com + ticotravel.com.vn + Báo Tuyên Quang (ngày kiểm 08/11/2026) Cập nhật 08/11/2026: gộp với Royal Tuyên Quang Hotel (cùng SĐT 0971 157 157); giá dưới tên cũ một nguồn ghi 330.000–350.000đ/đêm — chưa thống nhất, hỏi tại quầy.",
+   "ten": "Khách sạn Royal Palace Tuyên Quang (tên cũ: Royal Tuyên Quang Hotel)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "25 Nguyễn Trãi, phường Tân Quang, TP Tuyên Quang",
+   "dien_thoai": "0207 3818 199",
+   "gia": "~300.000–500.000đ/đêm (chưa kiểm được khoảng chính xác); cho thuê xe máy 80.000–100.000đ/ngày",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Khách tiết kiệm, phượt",
+   "khu_vuc": "trung-tam",
+   "nguon": "motogo.vn",
+   "nguon_dien_thoai": "motortrip.vn + khamphadisan.com.vn + didaudalat.com + dulich9.com + giahuy.org + conghien.thethaovanhoa.vn + motogo.vn + atlascreativegroup.co đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Tân Trang",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 10, phố Bình Ca, phường Nông Tiến, TP Tuyên Quang",
+   "dien_thoai": "0915 868 489",
+   "gia": "~250.000–400.000đ/đêm (chưa kiểm được khoảng chính xác); cho thuê xe máy 80.000–140.000đ/ngày",
+   "hang": "Nhà nghỉ",
+   "hop_voi": "Khách phượt, tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "motogo.vn, giahuy.org",
+   "nguon_dien_thoai": "motortrip.vn + hoianit.com (ngày kiểm 08/11/2026)",
+   "ten": "Minh Thanh Guest House",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP ~13 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Phú Lâm, huyện Yên Sơn (suối khoáng Mỹ Lâm)",
+   "dien_thoai": "0207 3876 369",
+   "gia": "~500.000–1.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Resort",
+   "hop_voi": "Gia đình nghỉ dưỡng khoáng nóng",
+   "khu_vuc": "my-lam",
+   "nguon": "dulichvtv.com",
+   "nguon_dien_thoai": "mytuyenquang.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khu nghỉ dưỡng suối khoáng Mỹ Lâm",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Tuyên Quang ~110 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Nà Va, xã Thượng Lâm, gần bến thuyền du lịch hồ Na Hang",
+   "dien_thoai": "0988 486 112",
+   "gia": "600.000–850.000đ/phòng/đêm (theo dulichvtv.com)",
+   "hang": "Homestay",
+   "hop_voi": "Gia đình, cặp đôi đi hồ Na Hang",
+   "khu_vuc": "na-hang",
+   "nguon": "dulichvtv.com",
+   "nguon_dien_thoai": "fanpage Du lịch Na Hang (ngày kiểm 08/11/2026)",
+   "ten": "Nature Na Hang Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Tuyên Quang ~110 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Tân Quang, xã Thái Bình, huyện Yên Sơn (gần hồ Na Hang)",
+   "dien_thoai": "0398 157 225",
+   "gia": "450.000–650.000đ/phòng riêng (theo dulichvtv.com); sàn tập thể 100.000–120.000đ/khách",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn, gia đình muốn ở nhà sàn người Tày",
+   "khu_vuc": "lam-binh",
+   "nguon": "dulichvtv.com",
+   "nguon_dien_thoai": "travelviet.net + tripi.vn + toplist.vn + motogo.vn + kinhnghiemdulich.vn + tadiha.com đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Pài Bjooc Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé hồ Na Hang: miễn phí vs 30.000–50.000đ — nguồn mâu thuẫn",
+  "Giá vé Thác Mơ: miễn phí vs 20.000đ — nguồn mâu thuẫn",
+  "Giá vé Thác Bản Ba, Động Song Long, suối khoáng Mỹ Lâm hiện hành (chỉ có 1 nguồn 2025)",
+  "Giờ mở cửa hồ Na Hang, Thác Bản Ba, Động Song Long, Thành nhà Mạc, Đền Pác Tạ",
+  "VinWonders Tuyên Quang: giá vé + giờ mở cửa chưa công bố (dự kiến 11/2026)",
+  "Giá ăn tại quán ở Tuyên Quang (hầu hết món chỉ có tên quán, chưa kiểm được giá phần riêng)",
+  "Khoảng giá phòng Tân Trang, Minh Thanh, Royal Palace, khu Mỹ Lâm (chưa kiểm được mức chính xác)",
+  "Giá xe khách TP Tuyên Quang – Na Hang / Tân Trào từng tuyến",
+  "Các điểm Hà Giang (Đồng Văn, Lũng Cú, Mã Pí Lèng) nay thuộc tỉnh Tuyên Quang — chưa làm file riêng, không đưa vào lịch trình này",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 10 điểm từng null (trong đó 7 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 9 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này.",
+  "Cập nhật 06/11/2026: đã bổ sung 2 chỗ ở và 0 món ăn có giá kiểm được từ nguồn công khai để bớt mỏng."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Mã Pí Lèng (QL4C, Đồng Văn – Mèo Vạc, nay thuộc tỉnh Tuyên Quang sau sáp nhập Hà Giang 2025): dài khoảng 20 km, đỉnh cao khoảng 1.200–1.600 m, 9 khúc cua, một bên vách đá dựng đứng một bên vực sâu hẻm Tu Sản và sông Nho Quế; đi trong khung 7:00–16:30 vì toàn tuyến không có đèn chiếu sáng, sương đêm xuống rất nhanh; xuống dốc dùng xe số, đi số thấp (số 1–2), không rà phanh liên tục; gặp sương mù thì bật đèn chiếu gần/đèn sương mù, giảm tốc độ, giữ khoảng cách. Dốc Thẩm Mã (Yên Minh – Đồng Văn): nhiều khúc cua tay áo liên tiếp, dốc đứng — đi chậm, không dừng xe giữa cua để chụp ảnh. Dốc Bắc Sum (Quản Bạ): dốc dài, cua gấp, sương mù. Mùa mưa tháng 6–8 đường trơn, sạt lở; Đài Khí tượng Thủy văn tỉnh Tuyên Quang ngày 7/11/2026 cảnh báo mưa lớn gây lũ quét, sạt lở đất đá ở khu vực đồi núi dốc — hạn chế đi qua khu vực có nguy cơ sạt lở, ven suối khi mưa lớn. Mang CCCD/hộ chiếu (người nước ngoài cần giấy phép vùng biên), giấy tờ xe đầy đủ; đổ đầy xăng trước khi vào tuyến đèo dài vì ATM và trạm xăng hiếm ở vùng cao.",
+  "deo": [
+   "Đèo Mã Pí Lèng (QL4C Đồng Văn – Mèo Vạc): dài ~20 km, 9 khúc cua, một bên vực sâu hẻm Tu Sản, không có đèn chiếu sáng",
+   "Dốc Thẩm Mã (Yên Minh – Đồng Văn): nhiều cua tay áo liên tiếp, dốc đứng",
+   "Dốc Bắc Sum (Quản Bạ) và đường đi hồ Na Hang: dốc dài, cua gấp, sương mù, sạt lở mùa mưa tháng 6–8"
+  ],
+  "nguon": "travel.com.vn — Đèo Mã Pí Lèng: kinh nghiệm khám phá (ngày kiểm 08/11/2026); 2banh.vn — 4 cung đường đèo thách thức (ngày kiểm 08/11/2026); baotintuc.vn — Mưa lớn tiềm ẩn nguy cơ lũ quét và sạt lở đất đá (Đài Khí tượng Thủy văn tỉnh Tuyên Quang, 7/11/2026) (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "tu_ga_san_bay": [
+   {
+    "ghi_chu": "Sân bay gần nhất; chưa kiểm được xe thẳng Nội Bài–Tuyên Quang",
+    "gia": "Taxi/xe ghép ~600.000–1.000.000đ/chuyến (chưa kiểm được mức cố định)",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Sân bay Nội Bài – TP Tuyên Quang",
+    "thoi_gian": "~130 km, 2,5–3,5 giờ"
+   },
+   {
+    "ghi_chu": "Bến xe trung tâm TP",
+    "gia": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Bến xe Tuyên Quang – trung tâm TP",
+    "thoi_gian": "~1–2 km"
+   }
+  ],
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng tra được: Vũ Hán Group (giường nằm 200.000đ, chuyến tối 19:00/19:15), Cường An Limousine (150.000–200.000đ, 7 chuyến/ngày), Bằng Phấn (limousine/cabin), Gobus (xe 7 chỗ 300.000đ). Điểm đón: VP Mỹ Đình, VP Giáp Bát",
+    "gia": "150.000–300.000đ/vé tùy hạng (ghế thường 150.000đ, giường nằm 200.000đ, xe 7 chỗ ghép 300.000đ)",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe khách / limousine Hà Nội–Tuyên Quang",
+    "thoi_gian": "2,5–4,5 giờ (~130–160 km tùy lộ trình)"
+   },
+   {
+    "ghi_chu": "Hãng: Hưng Thành (~70.000đ), Cầu Mè (~230.000–250.000đ, chuyến đêm), Vũ Hán Group",
+    "gia": "~70.000đ/vé (Hưng Thành); xe ghép cao hơn",
+    "nguon": "limousineamazing.com, limotrip.vn",
+    "phuong_tien": "Xe khách Việt Trì–Tuyên Quang (nối tuyến)",
+    "thoi_gian": "1–2,5 giờ (~85–95 km, QL2)"
+   },
+   {
+    "ghi_chu": "Đi qua Việt Trì; đường lên Na Hang xa, nên thuê ô tô",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe máy / ô tô riêng Hà Nội–Tuyên Quang",
+    "thoi_gian": "2,5–3,5 giờ (cao tốc + QL2)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Không có bay thẳng tới Tuyên Quang; sân bay gần nhất Nội Bài (cách TP Tuyên Quang ~130 km)",
+    "gia": "Bay một chiều đã gồm thuế phí ~1.000.000–2.500.000đ; xe HN–Tuyên Quang 150.000–300.000đ",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Máy bay SGN–HAN + xe Hà Nội–Tuyên Quang",
+    "thoi_gian": "Bay ~2 giờ + xe 2,5–4,5 giờ"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian; đa số nên bay",
+    "gia": "SG–HN ~700.000–1.000.000đ + nối xe 150.000–300.000đ",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe khách TP.HCM–Hà Nội rồi nối xe",
+    "thoi_gian": "SG–HN ~30–35 giờ + nối xe 2,5–4,5 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Minh Thanh Guest House: xe số 80.000–100.000đ; Lô Giang (2 đường 17/8): xe số 90.000–120.000đ; Mai Sơn (04 Nguyễn Trãi): xe số 90.000–120.000đ",
+   "gia": "~80.000–150.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "motogo.vn, motortrip.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Minh Thanh: xe ga 130.000–140.000đ; Lô Giang: xe ga 120.000–150.000đ; Mai Sơn: xe ga 140.000–150.000đ",
+   "gia": "~120.000–200.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "motogo.vn, motortrip.vn",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trọn gói trước khi lên xe",
+   "gia": "~10.000–13.000đ/km (ước lượng, chưa kiểm được bảng giá hãng tại TP)",
+   "giay_to": "",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Taxi nội thành Tuyên Quang"
+  },
+  {
+   "ghi_chu": "Đặt thuyền tại bến Na Hang; đi hồ là phương tiện chính ở Na Hang – Lâm Bình",
+   "gia": "Thuê thuyền lẻ 100.000–200.000đ/người; thuyền riêng 900.000–1.900.000đ/thuyền",
+   "giay_to": "Mặc áo phao",
+   "nguon": "mytour.vn, dulichvtv.com",
+   "phuong_tien": "Thuyền hồ Na Hang"
+  },
+  {
+   "ghi_chu": "Na Hang cách TP ~110 km, Tân Trào ~40 km; nên thuê ô tô có tài xế theo ngày nếu đi Na Hang",
+   "gia": "Chưa kiểm được giá từng tuyến",
+   "giay_to": "",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Xe khách TP – Na Hang / Tân Trào"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Tân Lập, xã Tân Trào, huyện Sơn Dương, cách TP Tuyên Quang ~40 km",
+   "gia_ve": "Vé tham quan 20.000đ/người lớn, trẻ dưới 1,2 m miễn phí (có nguồn ghi miễn phí + 20.000đ xe điện nội khu)",
+   "gio_mo_cua": "7:00–17:00",
+   "hop_voi": "Người yêu lịch sử, gia đình, học sinh",
+   "id": "atk-tan-trao",
+   "lat": 21.77455,
+   "lng": 105.44424,
+   "luu_y": "Di tích quốc gia đặc biệt, nơi Bác Hồ về xây căn cứ 1945; có hướng dẫn viên miễn phí theo một số nguồn — hỏi tại điểm Tọa độ xấp xỉ, cần kiểm lại — lấy theo trung tâm xã Tân Trào.",
+   "nguon": "intour.com.vn, mytour.vn, vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Khu di tích Tân Trào, nơi diễn ra Quốc dân Đại hội và lễ ra mắt Chính phủ lâm thời — giá trị lịch sử lớn, đình Tân Trào và lán Nà Nưa đều đáng xem. Điểm trừ là cách TP ~40 km, vé 20.000đ/người theo một nguồn (trẻ dưới 1,2 m miễn phí). Hợp mọi đối tượng, dành nửa ngày."
+   },
+   "ten": "Khu di tích lịch sử Tân Trào (ATK Tân Trào)",
+   "thoi_gian": "Nửa ngày (lán Nà Lừa, đình Tân Trào, cây đa Tân Trào, nhà trưng bày)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 110,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Na Hang và xã Vĩnh Yên, huyện Na Hang, cách TP Tuyên Quang ~110 km",
+   "gia_ve": "Vào khu du lịch sinh thái: có nguồn ghi miễn phí, có nguồn ghi 30.000–50.000đ/người; thuê thuyền 100.000–200.000đ/người lẻ, thuyền riêng 900.000–1.900.000đ/thuyền tùy chỗ; chèo kayak ~200.000đ/giờ",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi thuyền ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn, người thích hồ – thuyền",
+   "id": "ho-na-hang",
+   "lat": 22.3204,
+   "lng": 105.30298,
+   "luu_y": "Hồ rộng ~3.000 ha; đặt thuyền trước vào cuối tuần/lễ; mặc áo phao; mưa lũ tháng 6–8 hạn chế đi thuyền Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực hồ Nà Hang (theo OpenStreetMap).",
+   "nguon": "mytour.vn, dulichvtv.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; soctrangtourism.vn, buulong.com.vn",
+    "nhan_xet": "Hồ Na Hang được ví như 'Hạ Long trên núi', nước xanh, núi đá vôi — đi thuyền ngắm hồ là trải nghiệm đẹp nhất Tuyên Quang. Điểm trừ là giá vé/thuyền các nguồn ghi mâu thuẫn (miễn phí vs thu phí, thuyền 300.000–800.000đ/người/lượt theo một nguồn). Nên hỏi giá thuyền tại bến trước khi đi."
+   },
+   "ten": "Hồ Na Hang (hồ thủy điện Tuyên Quang)",
+   "thoi_gian": "Nửa ngày đến 1 ngày (đi thuyền ngắm vách đá vôi, thác, bản làng)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 110,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Na Hang, huyện Na Hang (QL279)",
+   "gia_ve": "Miễn phí (có nguồn ghi 20.000đ/người — chưa thống nhất); gửi xe 20.000–30.000đ",
+   "gio_mo_cua": "7:00–18:00",
+   "hop_voi": "Nhóm bạn, gia đình thích suối – thác",
+   "id": "thac-mo",
+   "lat": 22.35,
+   "lng": 105.384,
+   "luu_y": "Thác như dải lụa giữa đại ngàn; đường trekking trơn khi mưa, mang giày chống trượt Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực thị trấn Na Hang.",
+   "nguon": "intour.com.vn, vinwonders.com, phuquoctv.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác Mơ (Pác Ban) ngay thị trấn Na Hang, nước mát — hợp nghỉ chân sau khi đi thuyền hồ. Điểm trừ là giá vé các nguồn ghi mâu thuẫn (miễn phí vs 20.000đ). Hợp ghé 1 giờ kèm hồ Na Hang."
+   },
+   "ten": "Thác Mơ (thác Pác Ban)",
+   "thoi_gian": "1,5–2,5 giờ (trekking ~1 giờ tới thác)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Chiêm Hóa, cách TP Tuyên Quang ~60 km",
+   "gia_ve": "30.000đ/người (theo 1 nguồn 2025; chưa kiểm được mức hiện hành thống nhất)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Nhóm bạn, gia đình thích check-in hoang sơ",
+   "id": "thac-ban-ba",
+   "lat": 22.14925,
+   "lng": 105.30636,
+   "luu_y": "Thác 3 tầng, hợp picnic; đường rừng, mang đồ ăn nước uống tự túc Tọa độ xấp xỉ, cần kiểm lại — lấy theo trung tâm huyện Chiêm Hóa.",
+   "nguon": "dulichvtv.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác Bản Ba 3 tầng, nước trắng xóa giữa rừng — thác đẹp nhất Chiêm Hóa. Điểm trừ là cách TP ~60 km, vé 30.000đ theo 1 nguồn 2025 (chưa kiểm mức hiện hành). Hợp người thích thác; nên đi mùa mưa."
+   },
+   "ten": "Thác Bản Ba",
+   "thoi_gian": "2–3 giờ (thác cao ~300 m, rộng ~200 m theo nguồn)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 13,
+   "cum": "nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Phú Lâm, huyện Yên Sơn, cách TP Tuyên Quang ~13 km",
+   "gia_ve": "Vé tắm khoáng ~100.000đ/người (theo 1 nguồn 2025; chưa kiểm được mức hiện hành); dịch vụ tắm bùn/chăm sóc sức khỏe tính riêng",
+   "gio_mo_cua": "7:00–18:00 (theo 1 nguồn; chưa kiểm được chính thức)",
+   "hop_voi": "Gia đình, người lớn tuổi, khách nghỉ dưỡng",
+   "id": "suoi-khoang-my-lam",
+   "lat": 21.76589,
+   "lng": 105.12363,
+   "luu_y": "Nước khoáng nóng tự nhiên; không ngâm quá lâu; người huyết áp cao hỏi ý kiến nhân viên",
+   "nguon": "dulichvtv.com, vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Suối khoáng nóng Mỹ Lâm, tắm khoáng thư giãn — hợp gia đình và người lớn tuổi sau ngày đi Na Hang. Điểm trừ là vé tắm ~100.000đ theo 1 nguồn 2025 (chưa kiểm mức hiện hành). Không ngâm quá lâu."
+   },
+   "ten": "Suối khoáng Mỹ Lâm",
+   "thoi_gian": "2–3 giờ (tắm khoáng, nghỉ dưỡng)"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 8, phường Tân Quang, TP Tuyên Quang",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử",
+   "id": "thanh-nha-mac",
+   "lat": 21.81924,
+   "lng": 105.21497,
+   "luu_y": "Di tích thành cổ nhà Mạc ngay trong TP; ghép cùng dạo phố buổi chiều",
+   "nguon": "intour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thành nhà Mạc thế kỷ 16, dấu tích cổ ngay trung tâm TP — hợp ghé nhanh khi dạo TP. Điểm trừ là thành còn ít, chủ yếu là đoạn tường và cổng. Hợp người yêu lịch sử, ghé 30 phút."
+   },
+   "ten": "Thành nhà Mạc",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Khuôn Hà, huyện Na Hang",
+   "gia_ve": "Miễn phí (theo bảng giá INTOUR)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người yêu tâm linh, khách đi hồ Na Hang",
+   "id": "den-pac-ta",
+   "lat": 22.38175,
+   "lng": 105.39785,
+   "luu_y": "Đền bên hồ Na Hang — ghép cùng cung đi thuyền hồ",
+   "nguon": "intour.com.vn, vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đền Pác Tạ bên hồ Na Hang, gắn truyền thuyết tình yêu — view hồ đẹp, không khí trang nghiêm. Điểm trừ là xa TP (~100 km), phải đi kèm hồ Na Hang. Hợp ghé 30 phút trên tuyến thuyền."
+   },
+   "ten": "Đền Pác Tạ",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 105,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Na Hang",
+   "gia_ve": "40.000đ/người (theo 1 nguồn 2025; chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Nhóm bạn, người thích hang động",
+   "id": "dong-song-long",
+   "lat": 22.38,
+   "lng": 105.35,
+   "luu_y": "Hang động trong cung Na Hang; mang đèn pin, giày chống trượt Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực lòng hồ Na Hang.",
+   "nguon": "dulichvtv.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Động Song Long trên hồ Na Hang, thạch nhũ đẹp — hợp ghép tuyến thuyền hồ. Điểm trừ là vé 40.000đ theo 1 nguồn 2025 (chưa kiểm mức hiện hành). Hợp người thích hang động."
+   },
+   "ten": "Động Song Long",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 110,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Lâm Bình, cách TP Tuyên Quang ~110 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Nhóm bạn, người thích thác – suối",
+   "id": "thac-khuoi-nhi",
+   "lat": 22.47717,
+   "lng": 105.25006,
+   "luu_y": "Thác trong khu Na Hang – Lâm Bình; đường rừng, nên đi cùng người địa phương Tọa độ xấp xỉ, cần kiểm lại — lấy theo trung tâm huyện Lâm Bình.",
+   "nguon": "vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác Khuổi Nhi ở Lâm Bình, hoang sơ, ít khách — hợp người thích khám phá. Điểm trừ là giá vé chưa kiểm được, đường vào khó. Nên đi cùng người địa phương."
+   },
+   "ten": "Thác Khuổi Nhi",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Tuyên Quang (khu vực trung tâm)",
+   "gia_ve": "Chưa công bố chính thức (dự kiến mở từ tháng 11/2026)",
+   "gio_mo_cua": "Dự kiến từ tháng 11/2026, chưa công bố giờ hoạt động chính thức",
+   "hop_voi": "Gia đình có trẻ nhỏ (dự kiến)",
+   "id": "vinwonders-tuyen-quang",
+   "lat": 21.82,
+   "lng": 105.21,
+   "luu_y": "Khu mới, chưa mở cửa ổn định tại thời điểm kiểm — KHÔNG đưa vào lịch trình chính, chỉ ghi để theo dõi Tọa độ xấp xỉ, cần kiểm lại — vị trí chính xác của công viên chưa xác định được, tạm lấy trung tâm TP Tuyên Quang; công viên dự kiến mở từ tháng 11/2026, chưa kiểm được đã mở cửa hay chưa.",
+   "nguon": "vinwonders.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Khu vui chơi mới của TP Tuyên Quang, dự kiến mở từ tháng 11/2026 — nếu đã mở thì là điểm vui chơi lớn nhất tỉnh. Điểm trừ lớn nhất: chưa kiểm được đã mở cửa hay chưa, giá vé chưa công bố chính thức. Bắt buộc kiểm tra lại trước ngày đi, không đưa vào lịch trình chính khi chưa xác nhận."
+   },
+   "ten": "VinWonders Tuyên Quang (khu vui chơi mới)",
+   "thoi_gian": "Chưa kiểm được",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "53 phố Lý Nam Đế, phường Tân Quang, TP Tuyên Quang",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày; lễ hội 11–16 tháng 2 âm lịch hằng năm",
+   "hop_voi": "Mọi đối tượng, người yêu tín ngưỡng",
+   "id": "den-ha",
+   "lat": 21.82,
+   "lng": 105.215,
+   "luu_y": "Đền thờ Mẫu Thượng Ngàn (công chúa Phương Dung, con vua Hùng), xây năm 1738, di tích kiến trúc nghệ thuật cấp quốc gia (1991/1994), ngay trung tâm TP — tiện ghép buổi chiều. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulichdiaphuong.com, izumi.edu.vn, vigotrip.com, topxuyenviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichdiaphuong.com, izumi.edu.vn",
+    "nhan_xet": "Đền Hạ cổ kính, kiến trúc chạm khắc gỗ tinh xảo, lại ngay trung tâm TP nên rất tiện ghé sau Thành nhà Mạc. Điểm yếu là ngày thường vắng, lễ hội tháng 2 âm lịch mới đông vui. Hợp ghé 1 giờ, đặc biệt dịp đầu năm."
+   },
+   "ten": "Đền Hạ (Đền Tam Kỳ / Đền Hiệp Thuận)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 7, xã Hưng Thành, TP Tuyên Quang (cách trung tâm ~3 km)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Mọi đối tượng, phật tử, người thích kiến trúc cổ",
+   "id": "chua-an-vinh",
+   "lat": 21.8,
+   "lng": 105.22,
+   "luu_y": "Chùa cổ lớn nhất TP Tuyên Quang, khởi dựng đầu thế kỷ XVIII (bia năm 1720), kiến trúc chữ Đinh, còn lưu chuông đồng thời Thiệu Trị và nhiều hiện vật — cùng cụm trung tâm với Đền Hạ và Thành nhà Mạc. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulichdiaphuong.com, izumi.edu.vn, vigotrip.com, topxuyenviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichdiaphuong.com, izumi.edu.vn",
+    "nhan_xet": "Chùa An Vinh cổ và đẹp, kiến trúc chữ Đinh cùng nhiều hiện vật cũ — đáng ghé cho người thích chùa cổ. Điểm yếu là ít thông tin hướng dẫn cho khách tham quan tự túc. Hợp ghép 1 giờ với Đền Hạ trong buổi chiều ở TP."
+   },
+   "ten": "Chùa An Vinh (An Vinh Thiền Tự)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 97,
+   "cum": "ha-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Việt Quang, Bắc Quang (Hà Giang cũ, nay thuộc Tuyên Quang; cách TP Tuyên Quang ~97 km theo Quốc lộ 2)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày; đẹp nhất mùa hè khi nhiều nước",
+   "hop_voi": "Người thích thác hoang sơ, đi cung Hà Giang",
+   "id": "thac-thi-bac-quang",
+   "lat": 22.32,
+   "lng": 104.89,
+   "luu_y": "Thác 4 tầng từ dãy Tây Côn Lĩnh, cách trung tâm huyện Bắc Quang chỉ ~1,5 km — là điểm gần nhất của khu vực Hà Giang cũ tính từ TP Tuyên Quang, trên đường đi Hà Giang theo Quốc lộ 2. CHỈ hợp lịch 4N3Đ hoặc đi trên cung Hà Giang, không đi riêng trong ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "originvietnam.com, sinhtour.vn, pystravel.vn, hagiangamazingtours.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "originvietnam.com; sinhtour.vn, pystravel.vn",
+    "nhan_xet": "Thác Thí đẹp và hoang sơ thật, 4 tầng nước trắng giữa rừng nguyên sinh — xứng đáng nếu đang trên đường đi Hà Giang. Điểm yếu là cách TP Tuyên Quang ~97 km nên không thể ghép vội, và dịch vụ quanh thác còn ít. Chỉ hợp lịch 4N3Đ hoặc cung Hà Giang, nên đi mùa hè khi thác nhiều nước."
+   },
+   "ten": "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đèo Mã Pí Lèng (điểm dừng ngắm sông Nho Quế)",
+   "gio": "6:00-8:00 sáng sớm, nắng xiên xuống hẻm Tu Sản; 16:00-17:30 hoàng hôn; đẹp nhất tháng 10–11",
+   "nguon": "travel.com.vn — Đèo Mã Pí Lèng (tháng 10–11 thời tiết đẹp, ít mây mù) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Na Hang",
+   "gio": "6:00-7:30 bình minh, mặt hồ lặng; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Tuyên Quang (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Khu di tích lịch sử Tân Trào (ATK Tân Trào)",
+   "gio": "7:00-9:00 sáng sớm mát; 15:30-17:00 chiều muộn (giờ mở cửa 7:00–17:00)",
+   "nguon": "dữ liệu tỉnh Tuyên Quang (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào khu di tích Tân Trào và đền/chùa trong thành phố — tránh đi thuyền hồ Na Hang vì mưa to, nước dâng.",
+  "diem": [
+   "Khu di tích lịch sử Tân Trào (ATK Tân Trào)",
+   "Thành nhà Mạc",
+   "Đền Hạ (Đền Tam Kỳ / Đền Hiệp Thuận)",
+   "Chùa An Vinh (An Vinh Thiền Tự)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "thanh-nha-mac",
+    "hoat_dong": "Thành nhà Mạc + dạo TP Tuyên Quang",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "suoi-khoang-my-lam",
+    "hoat_dong": "Suối khoáng Mỹ Lâm tắm khoáng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn cá lăng sông Gâm / nộm da trâu ở TP Tuyên Quang",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "ho-na-hang, den-pac-ta",
+    "hoat_dong": "Hồ Na Hang đi thuyền cả ngày + Đền Pác Tạ, ăn cơm lam trên thuyền/bến",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Nghỉ Na Hang hoặc về TP, ăn vịt bầu Minh Hương",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thac-mo",
+    "hoat_dong": "Thác Mơ trekking buổi sáng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "atk-tan-trao",
+    "hoat_dong": "ATK Tân Trào (lán Nà Lừa, đình Tân Trào), về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Tuyên Quang",
+  "best_season": "Tháng 9–11 (mát, hồ Na Hang trong) và tháng 3–5; mùa cam sành Hàm Yên tháng 10–12; tránh mưa lũ tháng 6–8 khi đi thuyền hồ",
+  "destination": "Tuyên Quang (trung tâm: TP Tuyên Quang)",
+  "ghi_chu_dia_gioi": "Từ 2025 tỉnh Hà Giang sáp nhập vào Tuyên Quang — các điểm Hà Giang (Đồng Văn, Lũng Cú, Mã Pí Lèng) nay thuộc tỉnh Tuyên Quang nhưng nằm xa trung tâm, không đưa vào lịch trình 3N2Đ này; cần file riêng nếu làm.",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ trung tâm là tọa độ ước lượng theo TP Tuyên Quang; tọa độ từng địa danh chưa kiểm được chính xác nên để null, không bịa.",
+  "id": "tuyen-quang",
+  "lat": 21.8239,
+  "lng": 105.2149,
+  "ngay_kiem": "06/11/2026",
+  "province": "Tuyên Quang (sau sáp nhập 2025 gồm cả Hà Giang)",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "hồ",
+   "lịch sử",
+   "sinh thái"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 9–11 (mát, hồ Na Hang trong) và tháng 3–5; mùa cam sành Hàm Yên tháng 10–12; tránh mưa lũ tháng 6–8 khi đi thuyền hồ"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

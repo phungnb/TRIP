@@ -1,0 +1,1103 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–50.000đ/tô",
+   "mon": "Bánh đa cua",
+   "nguon": "tiphay.vn, adavigo.com, didulich.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps",
+    "nhan_xet": "Bánh đa cua là món số 1 Hải Phòng: nước cua đậm đà, bánh đa đỏ dai, đầy đủ chả lá lốt, chả cá, tóp mỡ. Review trên Foody khá mâu thuẫn về từng quán: quán vỉa hè 15.000đ được khen rẻ ngon, quán gần ga giá 50.000-70.000đ bị chê đắt và không ổn định. Nên ăn quán vỉa hè buổi sáng theo người địa phương chỉ."
+   },
+   "quan": [
+    {
+     "dia_chi": "179 Cầu Đất, Ngô Quyền",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Bánh đa cua bể Bà Cụ"
+    },
+    {
+     "dia_chi": "42 Hoàng Văn Thụ, Hồng Bàng",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Bánh đa cua Bề Bề"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "2.000–5.000đ/cái",
+   "mon": "Bánh mì cay (bánh mì que)",
+   "nguon": "tiphay.vn, adavigo.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bánh mì que Hải Phòng nhỏ xíu, pate béo, chấm tương ớt là món ăn vặt gây nghiện. Giá rẻ, mua chục cái ăn chơi. Điểm trừ: ăn nhiều dễ ngấy vì pate béo, nên ăn kèm thêm rau."
+   },
+   "quan": [
+    {
+     "dia_chi": "57 Lê Lợi, Ngô Quyền",
+     "gia": "3.000–5.000đ/cái",
+     "ten": "Bánh mì cay Bà Già"
+    },
+    {
+     "dia_chi": "184 Hàng Kênh, Lê Chân",
+     "gia": "2.000–5.000đ/cái",
+     "ten": "Bánh mì cay Ông Cuông"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–40.000đ/tô",
+   "mon": "Bún cá cay",
+   "nguon": "tiphay.vn, adavigo.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bún cá cay Hải Phòng: cá rán giòn, nước dùng cay nhẹ, chua thanh. Ăn sáng hợp nhất, quán Thắng Tồ được nhiều người nhắc. Điểm trừ: cá rán để lâu sẽ mềm, nên ăn lúc vừa rán."
+   },
+   "quan": [
+    {
+     "dia_chi": "49 Lạch Tray, Ngô Quyền",
+     "gia": "20.000–30.000đ/tô",
+     "ten": "Bún cá cay Thắng Tồ"
+    },
+    {
+     "dia_chi": "66 Lê Lợi, Ngô Quyền",
+     "gia": "20.000–30.000đ/tô",
+     "ten": "Bún cá cay Lê Lợi"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–100.000đ/phần",
+   "mon": "Nem cua bể",
+   "nguon": "tiphay.vn, adavigo.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Nem cua bể là món làm nên tên tuổi Hải Phòng: vỏ giòn, nhân cua thơm, ăn kèm bún và nước chấm. Điểm trừ: giá cao và nhiều hàng làm nem sẵn đông lạnh, ăn không ngon bằng nem rán tại chỗ. Nên ăn tại quán có rán trực tiếp."
+   },
+   "quan": [
+    {
+     "dia_chi": "88 Trần Nhật Duật, Ngô Quyền",
+     "gia": "80.000–100.000đ/phần",
+     "ten": "Nem cua bể Thuận Yến"
+    },
+    {
+     "dia_chi": "92 Trần Nhật Duật, Ngô Quyền",
+     "gia": "50.000–70.000đ/phần",
+     "ten": "Nga Nem Cua Bể"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "10.000–20.000đ/phần",
+   "mon": "Bánh đúc tàu",
+   "nguon": "tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bánh đúc tàu là món vặt lạ của Hải Phòng: bánh đúc mềm, chan nước mắm chua ngọt với thịt băm và đu đủ. Rẻ, ăn chơi buổi chiều. Điểm trừ: chỉ có vài hàng vỉa hè, không phải lúc nào cũng mở."
+   },
+   "quan": [
+    {
+     "dia_chi": "159 Cát Dài, Lê Chân",
+     "gia": "10.000–20.000đ/phần",
+     "ten": "Bánh đúc vỉa hè Cát Dài"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–30.000đ/ổ (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Pate Cột Đèn (bánh mì pate)",
+   "nguon": "webtretho.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Pate Cột Đèn là pate ngon nhất Hải Phòng theo nhiều người địa phương: béo, thơm, không tanh. Ăn với bánh mì nóng là chuẩn. Điểm trừ: quán gốc thường đông buổi sáng, phải chờ."
+   },
+   "quan": [
+    {
+     "dia_chi": "180 Nguyễn Công Trứ, Lê Chân",
+     "gia": "~15.000–30.000đ/ổ",
+     "ten": "Pate Cột Đèn"
+    },
+    {
+     "dia_chi": "29 Chùa Hàng, Lê Chân",
+     "gia": "~15.000–30.000đ/ổ",
+     "ten": "Pate Cột Đèn (cơ sở 2)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–350.000đ/người (tùy món, theo giá chợ)",
+   "mon": "Hải sản Cát Bà (bề bề, ghẹ, tu hài)",
+   "nguon": "catbaexpress.com, itimaker.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog du lich",
+    "nhan_xet": "Hải sản Cát Bà tươi vì gần bến cá, bề bề và ghẹ là hai món đáng ăn nhất. Điểm trừ: giá theo chợ, mùa cao điểm bị đội giá; nên hỏi giá và cân trước khi chế biến, tránh quán chèo kéo ở bến tàu."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 1/4, thị trấn Cát Bà (nhiều quán ven biển)",
+     "gia": "100.000–350.000đ/người",
+     "ten": "Nhà hàng hải sản thị trấn Cát Bà"
+    },
+    {
+     "dia_chi": "Bến Cái Bèo, Cát Hải",
+     "gia": "Theo giá chợ, mua về chế biến",
+     "ten": "Chợ hải sản Cái Bèo"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~10.000đ/cái",
+   "mon": "Bánh bèo Hải Phòng",
+   "nguon": "didulich.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bánh bèo Hải Phòng khác bánh bèo miền Trung: bánh dẻo, nhân thịt mộc nhĩ, chan nước mắm. Rẻ, ăn vặt buổi chiều ở chợ Cát Bi là chuẩn. Điểm trừ: bánh để lâu sẽ dai, nên ăn nóng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Cát Bi, Hải Phòng",
+     "gia": "~10.000đ/cái",
+     "ten": "Bánh bèo chợ Cát Bi"
+    },
+    {
+     "dia_chi": "Phố Chu Văn An, Hồng Bàng",
+     "gia": "~10.000đ/cái",
+     "ten": "Bánh bèo Chu Văn An"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / tráng miệng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–25.000đ/ly (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Chè dừa dầm",
+   "nguon": "didulich.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Chè dừa dầm là món giải khát nổi tiếng Hải Phòng: dừa non, thạch, trân châu, sữa dừa béo ngậy. Ăn sau bữa hải sản là hợp. Điểm trừ: ngọt khá gắt, ai không ăn ngọt nên dặn ít đường."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực Lạch Tray – Cầu Đất, Hải Phòng",
+     "gia": "15.000–25.000đ/ly",
+     "ten": "Chè dừa dầm (quán vỉa hè trung tâm)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–100.000đ/đĩa (tùy loại ốc)",
+   "mon": "Ốc Hải Phòng",
+   "nguon": "didulich.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Ốc Hải Phòng là văn hóa ăn đêm: đủ loại ốc, xào me, xào dừa, luộc chấm mắm gừng. Quán ốc chợ Cát Bi và phố Lê Lợi được nhiều người khen. Điểm trừ: giá tính theo đĩa, ăn nhiều sẽ tốn; nên hỏi giá trước với ốc lạ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Cát Bi, Hải Phòng",
+     "gia": "30.000–100.000đ/đĩa",
+     "ten": "Ốc chợ Cát Bi"
+    },
+    {
+     "dia_chi": "Đường Lê Lợi, Ngô Quyền",
+     "gia": "30.000–100.000đ/đĩa",
+     "ten": "Ốc phố Lê Lợi"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HP khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ"
+  },
+  {
+   "hang_muc": "Tàu/phà/xe ra Cát Bà khứ hồi (từ trung tâm HP)",
+   "uoc_tinh": "200.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng trung tâm/Cát Bà ~400.000–1.000.000đ/đêm)",
+   "uoc_tinh": "400.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (food tour rẻ; hải sản Cát Bà 1 bữa 150.000–350.000đ)",
+   "uoc_tinh": "450.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Lan Hạ, Vườn quốc gia, Đồ Sơn...)",
+   "uoc_tinh": "200.000–700.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.550.000–9.050.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (tàu/limousine khứ hồi thay máy bay)",
+   "uoc_tinh": "240.000–600.000đ (rẻ hơn bay ~1.800.000–4.400.000đ)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá theo kg trước khi cân, xem cân trước mặt, chốt tổng tiền trước khi chế biến; ưu tiên quán có bảng giá niêm yết; tránh quán chèo kéo ở bãi tắm.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn hải sản ở Cát Bà, Đồ Sơn: cân thiếu, giá hải sản tươi sống hét cao với khách lạ; quán ven bãi Cát Cò đông khách dễ bị tính giá cao."
+  },
+  {
+   "cach_tranh": "Thuê tàu tại bến chính thức, hỏi rõ giá đã gồm những gì; kiểm tra áo phao trước khi lên tàu; mặc áo phao suốt chuyến.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê tàu, thuyền ra vịnh Lan Hạ: giá thuê không thống nhất, phụ thu; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Hải Phòng, ga Hải Phòng và bến phà Cát Bà hét giá cao, chở vòng."
+  },
+  {
+   "cach_tranh": "So giá 2-3 sạp trước khi mua; kiểm tra hàng kỹ; hỏi rõ giá theo kg hay theo gói.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua hải sản khô, đồ lưu niệm ở chợ Cát Bà: giá chênh nhiều giữa các sạp, hàng kém chất lượng đội giá cao."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Đồ bơi, khăn tắm, kem chống nắng (đi Cát Bà/Đồ Sơn)",
+  "Giày leo núi nhẹ (Ngự Lâm, Pháo đài Thần Công)",
+  "Áo khoác gió (đi tàu/phà ra đảo gió mạnh)",
+  "Tiền mặt lẻ (chợ Cát Bi, quán nhỏ, phà)",
+  "Thuốc say sóng (nếu đi tàu ra Cát Bà khi biển động)",
+  "Kiểm tra thời tiết biển trước ngày ra đảo — bão thì tàu dừng"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Sheraton Hai Phong",
+   "Mercure Hai Phong",
+   "Flamingo Cat Ba Beach Resort"
+  ],
+  "diem": [
+   "Đảo Cát Bà – Vịnh Lan Hạ",
+   "Bãi tắm Cát Cò 1, 2, 3",
+   "Bãi biển Đồ Sơn (khu 1, 2, 3) + Đồi Rồng",
+   "Đảo Hòn Dấu"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Sheraton Hai Phong",
+   "Melia Vinpearl Hai Phong Rivera",
+   "Pullman Hai Phong Grand Hotel"
+  ],
+  "diem_chay": [
+   "Đường ven biển Đồ Sơn",
+   "Khu vực hồ Tam Bạc, trung tâm TP Hải Phòng buổi sáng sớm",
+   "Đường ven biển Cát Bà"
+  ],
+  "giai": [
+   {
+    "nguon": "VnExpress — VnExpress Marathon Hai Phong 2025 sees record 134 sub-3 finishers (23/12/2025); Báo Gia Lai — Phạm Thị Hồng Lệ phá kỷ lục tại VnExpress Marathon Hải Phòng 2025 (21/12/2025) (ngày kiểm 08/11/2026)",
+    "ten": "VnExpress Marathon Hải Phòng",
+    "thoi_gian": "Tháng 12 hằng năm (mùa 2025: 21/12/2025)"
+   }
+  ],
+  "nguon": "VnExpress về giải VnExpress Marathon Hải Phòng; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Hải Phòng (khu vực Hồng Bàng/Ngô Quyền)",
+   "dien_thoai": "0225 3266 888",
+   "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo theo VnExpress — chưa kiểm được khoảng trên)",
+   "hang": "5 sao",
+   "hop_voi": "Khách công tác, cặp đôi/gia đình muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "marriott.com (ngày kiểm 08/11/2026)",
+   "ten": "Sheraton Hai Phong",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Hải Phòng",
+   "dien_thoai": "0225 3266 288",
+   "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo — chưa kiểm được khoảng trên)",
+   "hang": "5 sao",
+   "hop_voi": "Khách nghỉ dưỡng trong thành phố",
+   "khu_vuc": "trung-tam",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "melia.com (ngày kiểm 08/11/2026)",
+   "ten": "Melia Vinpearl Hai Phong Rivera",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Hải Phòng",
+   "dien_thoai": "0225 3266 555",
+   "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo)",
+   "hang": "5 sao",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "all.accor.com / pullman.accor.com (ngày kiểm 08/11/2026)",
+   "ten": "Pullman Hai Phong Grand Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Hải Phòng",
+   "dien_thoai": "0225 3240 999",
+   "gia": "~1.200.000–2.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "all.accor.com (ngày kiểm 08/11/2026)",
+   "ten": "Mercure Hai Phong",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~30 km + phà/cáp treo",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bãi tắm Cát Cò 1, thị trấn Cát Bà",
+   "dien_thoai": "0225 3888 686",
+   "gia": "Từ ~1.500.000đ/đêm (trung bình theo VnExpress; cuối tuần/lễ cao hơn nhiều)",
+   "hang": "Resort 4–5 sao",
+   "hop_voi": "Gia đình, cặp đôi nghỉ dưỡng biển",
+   "khu_vuc": "cat-ba",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "hotelscombined.com + Tripadvisor (ngày kiểm 08/11/2026)",
+   "ten": "Flamingo Cat Ba Beach Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~30 km + phà/cáp treo",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Cát Bà",
+   "dien_thoai": "0225 3887 360",
+   "gia": "Từ ~1.500.000đ/đêm (khoảng tham khảo)",
+   "hang": "5 sao",
+   "hop_voi": "Khách nghỉ dưỡng cao cấp",
+   "khu_vuc": "cat-ba",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "mytour.vn, toplist.vn, ongvove.com (ngày kiểm 08/11/2026)",
+   "ten": "Hôtel Perle d'Orient Cat Ba – MGallery",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~20 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu du lịch Đồi Rồng, phường Đồ Sơn",
+   "dien_thoai": "0225 3529 999",
+   "gia": "Từ ~2.500.000đ/đêm (theo VnExpress)",
+   "hang": "Resort 5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng biển cao cấp",
+   "khu_vuc": "do-son",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "dreamdragonresort.com (ngày kiểm 08/11/2026)",
+   "ten": "Dream Dragon Resort (Đồi Rồng)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~20 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Đồ Sơn",
+   "dien_thoai": "0225 3864 678",
+   "gia": "~1.000.000đ/đêm (quanh mức theo VnExpress)",
+   "hang": "Resort",
+   "hop_voi": "Gia đình, nhóm bạn đi biển Đồ Sơn",
+   "khu_vuc": "do-son",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "tripi.vn, tadiha.com, mytour.vn, limoutrip.com, noithatkendesign.vn, congdongnhahang.vn (ngày kiểm 08/11/2026)",
+   "ten": "Hòn Dấu Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm hoặc Đồ Sơn (~20 km)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP và Đồ Sơn",
+   "dien_thoai": null,
+   "gia": "~300.000–700.000đ/đêm (theo VnExpress)",
+   "hang": "Khách sạn 2–3 sao",
+   "hop_voi": "Khách tiết kiệm, food tour 1–2 ngày",
+   "khu_vuc": "trung-tam",
+   "nguon": "vnexpress.net",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu trung tâm giá vừa (Hải Âu / nhà khách Hải Quân / BIDV Đồ Sơn...)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Pháo đài Thần Công (40.000–80.000đ, các nguồn mâu thuẫn)",
+  "Giá vé đảo Khỉ (~120.000đ theo 1 nguồn, chưa đối chiếu)",
+  "Giá vé khu Đồi Rồng (công viên chủ đề) và giá thuyền ra Hòn Dấu",
+  "Giá taxi từ sân bay Cát Bi về trung tâm; giá xe buýt sân bay; phí cao tốc HN–HP hiện hành",
+  "Giá phòng các khách sạn 5 sao trung tâm: chỉ có mức 'từ ~2.000.000đ' theo 1 nguồn, chưa có khoảng trên",
+  "Giá thuê xe đạp trên đảo Cát Bà; phí phà chở xe máy/ô tô ra Cát Bà",
+  "Giờ mở cửa chính xác: Vườn quốc gia Cát Bà, Pháo đài Thần Công, chợ Cát Bi buổi tối",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 9/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Bãi tắm Cát Cò 1, 2, 3, Pháo đài Thần Công, Biệt thự Bảo Đại (Đồ Sơn), Đảo Khỉ (đảo Cát Dứa), Đảo Cò Chi Lăng Nam, Làng gốm Chu Đậu. Chưa có tọa độ (null): Đảo Cò Chi Lăng Nam, Làng gốm Chu Đậu. Cần kiểm lại bằng bản đồ trước khi ghim app.",
+  "Giá tàu hỏa SG–HP (phải đổi tàu ở Hà Nội) — chưa tra được mức tổng",
+  "Địa giới sau sáp nhập 2025: Hải Phòng gồm Hải Dương cũ — các điểm ở khu vực Hải Dương cũ (Côn Sơn – Kiếp Bạc...) chưa đưa vào file này, cần bổ sung đợt sau"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "TP Hải Phòng đồng bằng ven biển, không có đèo. Đường lên đảo Cát Bà qua phà và đường ven biển có đoạn dốc, cua — đi chậm khi mưa; đường lên đỉnh Ngự Lâm trong vườn quốc gia Cát Bà dốc, trơn khi mưa.",
+  "deo": [],
+  "nguon": "TP ven biển đồng bằng, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay quốc tế Cát Bi (HPH) cách trung tâm TP Hải Phòng ~12 km, ~20–30 phút đi xe.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Ga Hà Nội – ga Hải Phòng; tàu chạy nhiều chuyến/ngày; hợp food tour",
+    "gia": "Ghế ngồi 120.000–300.000đ tùy hạng (ghế cứng/mềm điều hòa/toa đặc biệt)",
+    "nguon": "vnexpress.net",
+    "phuong_tien": "Tàu hỏa HN–HP",
+    "thoi_gian": "~2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "Hãng: Hoàng Long, Hải Âu, Hoàng Phương, Hải Phòng Travel, Cát Bà Limousine",
+    "gia": "Từ ~230.000đ/người; xe 9–11 chỗ, đưa đón tại nhà",
+    "nguon": "vnexpress.net",
+    "phuong_tien": "Xe limousine HN–HP",
+    "thoi_gian": "~1,5–2 giờ (cao tốc HN–HP)"
+   },
+   {
+    "ghi_chu": "Bến Gia Lâm/Nước Ngầm – bến xe Hải Phòng",
+    "gia": "Từ ~180.000đ/người",
+    "nguon": "vnexpress.net",
+    "phuong_tien": "Xe khách HN–HP",
+    "thoi_gian": "~2 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Phí cao tốc ~200.000–250.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức phí hiện hành — xem mục 9",
+    "phuong_tien": "Ô tô riêng (cao tốc HN–HP)",
+    "thoi_gian": "~1,5 giờ (~105 km)"
+   }
+  ],
+  "tu_lan_can": [
+   {
+    "ghi_chu": "Tuyến Hạ Long – Cát Bà qua vịnh, hợp ghép 2 điểm",
+    "gia": "Phà ~60.000–80.000đ/người (theo mia.vn); tàu cao tốc riêng theo tour",
+    "nguon": "mia.vn",
+    "phuong_tien": "Từ Hạ Long (Quảng Ninh) sang Cát Bà",
+    "thoi_gian": "Tàu/phà Tuần Châu – Gia Luận ~30–45 phút; xe Hạ Long – bến phà ~1 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "~20–30 phút",
+    "gia": "~150.000–250.000đ/chuyến (12 km; chưa kiểm được mức chính xác)",
+    "nguon": "Chưa kiểm được mức chính xác — xem mục 9",
+    "phuong_tien": "Taxi từ sân bay Cát Bi về trung tâm"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "~10.000–30.000đ/lượt (chưa kiểm được mức chính xác)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Xe buýt sân bay / buýt nội thành"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietjet Air, Vietnam Airlines (bay hằng ngày)",
+    "gia": "Khứ hồi từ ~2.000.000đ (theo VnExpress); một chiều tùy thời điểm, thường ~1.000.000–2.500.000đ (chưa kiểm được khoảng chính xác)",
+    "nguon": "vnexpress.net",
+    "phuong_tien": "Máy bay SGN–HPH",
+    "thoi_gian": "Bay ~2 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến nghị — bay là phương án chính",
+    "gia": "Chưa kiểm được mức tổng",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Tàu hỏa SG–HP (qua Hà Nội)",
+    "thoi_gian": "~35 giờ trở lên (không có tàu thẳng, phải đổi tàu ở Hà Nội)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đi Cát Bà nên thuê xe máy trên đảo (giá tương tự); phà chở xe máy tính phí riêng",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be có ở trung tâm; ra Cát Bà/Đồ Sơn nên thỏa thuận giá trọn chuyến",
+   "gia": "~11.500–16.000đ/km; đi lại 3N2Đ trong thành phố ước tính ~200.000–500.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab / Be"
+  },
+  {
+   "ghi_chu": "Tổng HN–Cát Bà ~2–3 giờ gồm phà; cuối tuần chờ phà lâu",
+   "gia": "Phà ~60.000–80.000đ/người; ô tô tính riêng theo loại xe (chưa kiểm được)",
+   "nguon": "mia.vn",
+   "phuong_tien": "Phà Đình Vũ / Cái Viềng ra Cát Bà"
+  },
+  {
+   "ghi_chu": "Cáp treo dài, view vịnh; chạy theo giờ, dừng khi gió bão",
+   "gia": "~200.000đ/khứ hồi (theo mia.vn; chưa kiểm được mức hiện hành)",
+   "nguon": "mia.vn",
+   "phuong_tien": "Cáp treo Cát Hải – Cát Bà (Sun World)"
+  },
+  {
+   "ghi_chu": "~50 phút; đặt trước 1 ngày vào cuối tuần/lễ",
+   "gia": "~250.000đ/chiều (theo itimaker.com)",
+   "nguon": "itimaker.com",
+   "phuong_tien": "Tàu cao tốc Bến Bính – Cát Bà"
+  },
+  {
+   "ghi_chu": "Hợp đi quanh thị trấn Cát Bà và bãi Cát Cò",
+   "gia": "~30.000–50.000đ/ngày (chưa kiểm được mức cụ thể)",
+   "giay_to": "Cần CCCD/CMND khi thuê",
+   "nguon": "Chưa kiểm được mức cụ thể — xem mục 9",
+   "phuong_tien": "Xe đạp trên đảo Cát Bà"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "cat-ba",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Cát Hải (đặc khu Cát Hải), cách trung tâm TP Hải Phòng ~30 km; thị trấn Cát Bà",
+   "gia_ve": "Vé thăm vịnh Lan Hạ 120.000đ/người lớn, 60.000đ/trẻ em; tour ghép thăm vịnh 1 ngày từ ~800.000đ/khách (gồm kayak, ăn trưa); thuê tàu riêng 2,5 giờ từ ~2.200.000đ",
+   "gio_mo_cua": "Tour vịnh chạy ban ngày, thường 8:00–17:00 (giờ chính xác tùy tour — kiểm lại khi đặt)",
+   "hop_voi": "Mọi đối tượng, cặp đôi, gia đình, nhóm bạn",
+   "id": "cat-ba",
+   "lat": 20.7239613,
+   "lng": 107.0497823,
+   "luu_y": "Mùa hè cuối tuần phà/cáp treo rất đông, nên đi sớm; kiểm tra thời tiết — biển động thì tàu vịnh dừng chạy",
+   "nguon": "catbaexpress.com, mia.vn, itimaker.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / travelbits.info / kisstour.com",
+    "nhan_xet": "Cát Bà là cửa ngõ đẹp nhất để chơi vịnh Lan Hạ, yên tĩnh hơn hẳn Hạ Long vì ít tàu. Thị trấn nhỏ, mùa hè cuối tuần đông và hay kẹt phà/cáp treo. Nên ở lại 2 đêm: 1 ngày đi vịnh, 1 ngày vào vườn quốc gia hoặc tắm biển."
+   },
+   "ten": "Đảo Cát Bà – Vịnh Lan Hạ",
+   "thoi_gian": "1–2 ngày (đi vịnh Lan Hạ + tắm biển + Vườn quốc gia)"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "cat-ba",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Cát Bà, huyện Cát Hải",
+   "gia_ve": "Vé thăm toàn vườn 160.000đ/người lớn, 80.000đ/trẻ em; vé đỉnh Ngự Lâm + rừng kim giao + động Trung Trang 120.000đ/người lớn, 60.000đ/trẻ em; tuyến Phù Long – rừng ngập mặn – động Thiên Long 80.000đ/người lớn",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người thích trekking, nhóm bạn, gia đình có trẻ lớn",
+   "id": "vuon-quoc-gia-cat-ba",
+   "lat": 20.8063272,
+   "lng": 107.0383362,
+   "luu_y": "Leo Ngự Lâm ~500 bậc, mang giày leo núi, nước; mùa mưa đường trơn",
+   "nguon": "catbaexpress.com, itimaker.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / travelbits.info",
+    "nhan_xet": "Đi rừng và leo đỉnh Ngự Lâm là trải nghiệm khác hẳn biển đảo, view từ đỉnh rất đáng công leo. Đường rừng nóng ẩm, nhiều muỗi, nên đi sáng sớm và mang nước. Ít gặp voọc Cát Bà ngoài đời thật, đừng kỳ vọng sẽ thấy."
+   },
+   "ten": "Vườn quốc gia Cát Bà (đỉnh Ngự Lâm, động Trung Trang)",
+   "thoi_gian": "2–4 giờ (leo Ngự Lâm khứ hồi ~2 giờ)"
+  },
+  {
+   "cach_trung_tam_km": 32,
+   "cum": "cat-ba",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Cát Bà, huyện Cát Hải",
+   "gia_ve": "Miễn phí tắm biển; gửi xe, tắm tráng, thuê ghế tính riêng (chưa kiểm được mức)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, gia đình có trẻ nhỏ",
+   "id": "bai-tam-cat-co",
+   "lat": 20.7267,
+   "lng": 107.0517,
+   "luu_y": "Cát Cò 1 gần trung tâm nhất, đông nhất; Cát Cò 3 yên tĩnh hơn Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "catbaexpress.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / kisstour.com / blog du lich",
+    "nhan_xet": "Ba bãi Cát Cò nhỏ, gần thị trấn, tiện tắm buổi chiều sau khi đi vịnh về. Cát và nước ở mức tạm được, không so được với biển miền Trung. Cuối tuần đông, bãi 2 thường đông nhất; muốn vắng thì đi sáng sớm."
+   },
+   "ten": "Bãi tắm Cát Cò 1, 2, 3",
+   "thoi_gian": "1–2 giờ/bãi",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 32,
+   "cum": "cat-ba",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đỉnh núi thị trấn Cát Bà, huyện Cát Hải",
+   "gia_ve": "Chưa kiểm được mức hiện hành — các nguồn ghi ~40.000–80.000đ/người (mâu thuẫn, xem mục 9)",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người thích ngắm toàn cảnh, cặp đôi, nhóm bạn",
+   "id": "phao-dai-than-cong",
+   "lat": 20.7292,
+   "lng": 107.0489,
+   "luu_y": "Đường lên dốc, đi xe máy/ô tô; ngắm toàn cảnh vịnh Lan Hạ và thị trấn Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "catbaexpress.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / kisstour.com / blog du lich",
+    "nhan_xet": "Điểm ngắm toàn cảnh thị trấn Cát Bà và vịnh Lan Hạ từ trên cao, hợp chụp ảnh hoàng hôn. Đường lên dốc, ít bóng mát. Một số nguồn năm 2026 báo điểm này đóng cửa theo đợt, nên hỏi lễ tân khách sạn trước khi leo lên."
+   },
+   "ten": "Pháo đài Thần Công",
+   "thoi_gian": "1–1,5 giờ; đẹp nhất hoàng hôn",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "do-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Đồ Sơn, cách trung tâm TP Hải Phòng ~20 km",
+   "gia_ve": "Bãi tắm chính không thu phí vào cửa; gửi xe ~10.000–20.000đ; khu Đồi Rồng / công viên chủ đề thu vé riêng (chưa kiểm được mức)",
+   "gio_mo_cua": "Cả ngày (bãi tắm); khu vui chơi theo giờ riêng",
+   "hop_voi": "Gia đình, nhóm bạn, người thích biển gần thành phố",
+   "id": "do-son",
+   "lat": 20.685962,
+   "lng": 106.7954013,
+   "luu_y": "Mùa hoa phượng (tháng 5–6) đường ra Đồ Sơn rất đẹp; biển Đồ Sơn không trong bằng Cát Bà",
+   "nguon": "mia.vn, vnexpress.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / dulich9.com / haiphongreview.com",
+    "nhan_xet": "Đồ Sơn là biển gần Hà Nội nhất, hợp đi về trong ngày để ăn hải sản và hóng gió. Điểm yếu ai cũng nói: nước biển đục do phù sa, cát xám lẫn sạn, tắm không sướng như biển miền Trung. Review trên Foody và các blog khá mâu thuẫn: người khen không khí và hải sản, người chê nước bẩn và rác theo mùa. Khu Đồi Rồng mới được khen hơn vì bãi nhân tạo sạch và cát trắng."
+   },
+   "ten": "Bãi biển Đồ Sơn (khu 1, 2, 3) + Đồi Rồng",
+   "thoi_gian": "Nửa ngày–1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 21,
+   "cum": "do-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đồi Vung, phường Đồ Sơn",
+   "gia_ve": "Chưa kiểm được mức hiện hành; thuê đồ hoàng tộc chụp ảnh ~30.000đ/lượt (theo VnExpress)",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người yêu lịch sử, cặp đôi chụp ảnh",
+   "id": "biet-thu-bao-dai-do-son",
+   "lat": 20.7083,
+   "lng": 106.7633,
+   "luu_y": "Trên đồi, view 4 hướng biển; đi bộ lên dốc Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vnexpress.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Biệt thự cổ trên đồi Vung, view biển đẹp và yên tĩnh, hợp người thích kiến trúc và chụp ảnh. Khuôn viên không lớn, tham quan khoảng 30-45 phút là đủ. Nên ghé kết hợp khi đã tới Đồ Sơn, không đáng đi riêng một chuyến."
+   },
+   "ten": "Biệt thự Bảo Đại (Đồ Sơn)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "do-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ngoài khơi Đồ Sơn, đi thuyền từ bến Đồ Sơn",
+   "gia_ve": "Vé tham quan 20.000đ/người lớn, 10.000đ/trẻ em (chưa gồm tiền thuyền — chưa kiểm được)",
+   "gio_mo_cua": "Đi thuyền theo giờ, ban ngày (giờ chính xác chưa kiểm được)",
+   "hop_voi": "Nhóm bạn, người thích khám phá đảo nhỏ",
+   "id": "hon-dau",
+   "lat": 20.6672371,
+   "lng": 106.815891,
+   "luu_y": "Đảo có hải đăng và rừng nguyên sinh; thuyền phụ thuộc thời tiết",
+   "nguon": "catbaexpress.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Hòn Dấu nhỏ, nổi tiếng nhờ ngọn hải đăng trăm tuổi và rừng nguyên sinh. Đi thuyền ra đảo nhanh, hợp nửa buổi. Điểm trừ là dịch vụ trên đảo ít, nên mang nước và đồ ăn nhẹ; ai say sóng nên cân nhắc vì thuyền nhỏ."
+   },
+   "ten": "Đảo Hòn Dấu",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "75 Lương Khánh Thiện, phường Cầu Đất (trung tâm TP)",
+   "gia_ve": "Miễn phí tham quan khu vực ga (từ 10/5/2025 ga trở thành điểm du lịch); vé tàu đi Hà Nội riêng",
+   "gio_mo_cua": "Cả ngày (khu vực công cộng); tàu chạy theo lịch",
+   "hop_voi": "Người yêu kiến trúc, giới trẻ check-in",
+   "id": "ga-hai-phong",
+   "lat": 20.8559573,
+   "lng": 106.6873896,
+   "luu_y": "Ga xây thời Pháp, kiến trúc cổ; tàu Hà Nội–Hải Phòng là cách đi food tour phổ biến",
+   "nguon": "vnexpress.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Ga xe lửa cổ từ thời Pháp, kiến trúc đẹp, là điểm check-in quen thuộc của giới trẻ Hải Phòng. Tham quan bên ngoài miễn phí, 15-20 phút là đủ. Hợp ghé khi đi tàu Hà Nội - Hải Phòng, không cần xếp lịch riêng."
+   },
+   "ten": "Ga Hải Phòng (ga xe lửa cổ)",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Cát Bi, phường Cát Bi (nay thuộc khu vực trung tâm mở rộng)",
+   "gia_ve": "Miễn phí vào chợ; món ăn vặt 10.000–40.000đ/món",
+   "gio_mo_cua": "Chợ ngày ~6:00–18:00; khu ẩm thực đông nhất buổi chiều–tối (giờ chính xác chưa kiểm được)",
+   "hop_voi": "Người thích ẩm thực đường phố, nhóm bạn",
+   "id": "cho-cat-bi",
+   "lat": 20.8239144,
+   "lng": 106.7120669,
+   "luu_y": "Thiên đường ăn vặt Hải Phòng: bánh bèo, chè, ốc; mang tiền mặt lẻ",
+   "nguon": "didulich.net, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog du lich",
+    "nhan_xet": "Chợ ẩm thực đúng nghĩa Hải Phòng: bánh đa cua, bánh bèo, ốc, chè dừa dầm đều có. Giá rẻ, đồ tươi, nhưng chợ đông, nóng và hơi lộn xộn. Nên đi buổi sáng, hỏi giá trước với hàng hải sản và mang tiền mặt."
+   },
+   "ten": "Chợ Cát Bi (chợ ẩm thực)",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quảng trường Nhà hát Lớn, đường Trần Hưng Đạo, trung tâm TP",
+   "gia_ve": "Tham quan bên ngoài miễn phí",
+   "gio_mo_cua": "Quảng trường 24/7",
+   "hop_voi": "Mọi đối tượng, người chụp ảnh",
+   "id": "nha-hat-lon-hai-phong",
+   "lat": 20.8571215,
+   "lng": 106.6818106,
+   "luu_y": "Biểu tượng thành phố, kiến trúc Pháp; khu vực trung tâm food tour",
+   "nguon": "vnexpress.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Quảng trường Nhà hát Lớn là trung tâm của Hải Phòng, buổi tối đông người dạo chơi và chụp ảnh. Kiến trúc Pháp đẹp nhưng bên trong ít mở cửa tham quan. Hợp ghé buổi tối kết hợp ăn vặt quanh khu trung tâm."
+   },
+   "ten": "Nhà hát Lớn Hải Phòng + Quảng trường",
+   "thoi_gian": "30 phút"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện An Lão cũ, cách trung tâm ~25 km về phía tây",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Ban ngày (chưa kiểm được chính xác)",
+   "hop_voi": "Người thích leo núi nhẹ, ngắm cảnh đồng lúa",
+   "id": "nui-voi",
+   "lat": 20.8403474,
+   "lng": 106.570821,
+   "luu_y": "Có chùa/chùa trên núi (Phúc Linh); đi xe máy/ô tô; đường lên dốc",
+   "nguon": "itimaker.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Núi Voi là điểm leo núi nhẹ gần thành phố, có hang động và chùa, hợp người thích vận động nửa ngày. Đường lên có đoạn dốc và trơn khi mưa. Dịch vụ quanh núi còn ít, nên chuẩn bị nước và đồ ăn trước."
+   },
+   "ten": "Núi Voi (An Lão)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "cat-ba",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vịnh Lan Hạ, từ bến Cái Bèo đi thuyền ~30–45 phút",
+   "gia_ve": "Vé tham quan ~120.000đ/khách theo 1 nguồn (chưa kiểm được mức hiện hành); thường đi kèm tour vịnh",
+   "gio_mo_cua": "Ban ngày, theo tour",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "dao-khi",
+   "lat": 20.7333,
+   "lng": 107.0833,
+   "luu_y": "Khỉ hoang trên đảo, không cho ăn/chọc; tắm biển bãi cát nhỏ Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "catbaexpress.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Đảo Khỉ nhỏ trong vịnh Lan Hạ, nổi tiếng vì đàn khỉ ra bãi đón khách và bãi tắm đẹp. Hợp ghé trong tour vịnh nửa ngày hoặc 1 ngày. Lưu ý giữ chặt đồ ăn và túi xách vì khỉ hay giật đồ; không cho khỉ ăn đồ lạ."
+   },
+   "ten": "Đảo Khỉ (đảo Cát Dứa)",
+   "thoi_gian": "1–2 giờ (kèm tour vịnh)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 65,
+   "cum": "hai-duong-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Chí Linh (khu vực Hải Dương cũ, nay thuộc TP Hải Phòng)",
+   "gia_ve": "Vé vào khu vực suối Côn Sơn khoảng 10.000đ/người (theo phản hồi du khách trên Facebook — chưa kiểm được mức niêm yết); vào đền/chùa miễn phí (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–17:30; lễ hội mùa xuân (tháng Giêng) và mùa thu (tháng 8 âm lịch)",
+   "hop_voi": "Khách hành hương, gia đình, người yêu lịch sử",
+   "id": "con-son-kiep-bac",
+   "lat": 21.1505234,
+   "lng": 106.3820711,
+   "luu_y": "Lễ hội rất đông, nên đi ngày thường; khu vực suối Côn Sơn cấm nấu nướng ven suối; quần thể vừa được UNESCO ghi danh Di sản Thế giới năm 2025 cùng Yên Tử – Vĩnh Nghiêm",
+   "nguon": "baohaiphong.vn, Facebook",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "baohaiphong.vn / Google Maps",
+    "nhan_xet": "Côn Sơn - Kiếp Bạc là quần thể tâm linh và lịch sử lớn nhất vùng Hải Dương cũ, vừa được UNESCO ghi danh cùng Yên Tử - Vĩnh Nghiêm năm 2025. Điểm mạnh: chùa Côn Sơn yên tĩnh trong rừng thông, đền Kiếp Bạc linh thiêng, suối Côn Sơn mát. Lễ hội mùa thu rất đông; đi ngày thường sẽ thong thả hơn nhiều."
+   },
+   "ten": "Khu di tích Côn Sơn – Kiếp Bạc",
+   "thoi_gian": "Nửa ngày đến 1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 55,
+   "cum": "hai-duong-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thanh Miện (khu vực Hải Dương cũ, nay thuộc TP Hải Phòng)",
+   "gia_ve": "Khoảng 20.000–30.000đ/người (chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "~7:00–18:00; cò về tổ đẹp nhất lúc chiều tối",
+   "hop_voi": "Người yêu thiên nhiên, chụp ảnh",
+   "id": "dao-co-chi-lang-nam",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Đi buổi chiều để xem cò về tổ; dịch vụ quanh đảo ít, mang nước và đồ ăn nhẹ Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đảo Cò Chi Lăng Nam là đảo cò độc đáo: hàng nghìn con cò về tổ lúc chiều tối, cảnh rất đẹp. Điểm mạnh: yên tĩnh, gần gũi thiên nhiên, hợp chụp ảnh hoàng hôn. Điểm trừ: dịch vụ ít, nên đi buổi chiều và về trước tối; mùa cò đông nhất là cuối năm."
+   },
+   "ten": "Đảo Cò Chi Lăng Nam",
+   "thoi_gian": "2–3 giờ (đi buổi chiều)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "hai-duong-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Nam Sách (khu vực Hải Dương cũ, nay thuộc TP Hải Phòng)",
+   "gia_ve": "Miễn phí vào làng; trải nghiệm làm gốm khoảng 50.000–100.000đ/người (chưa kiểm được)",
+   "gio_mo_cua": "~8:00–17:00",
+   "hop_voi": "Người thích làng nghề, mua gốm men ngọc",
+   "id": "lang-gom-chu-dau",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Làng nhỏ, ít khách du lịch; nên liên hệ trước để chắc có nghệ nhân hướng dẫn Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng gốm Chu Đậu nổi tiếng với men ngọc và gốm vẽ tay, từng xuất khẩu đi nhiều nước từ thế kỷ 15. Điểm mạnh: xem nghệ nhân làm gốm và mua gốm men ngọc làm quà. Điểm trừ: làng nhỏ, ít khách du lịch, nên liên hệ trước để chắc có người hướng dẫn."
+   },
+   "ten": "Làng gốm Chu Đậu",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đảo Cát Bà – Vịnh Lan Hạ",
+   "gio": "5:30-7:00 sáng bình minh trên vịnh hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bãi tắm Cát Cò 1, 2, 3",
+   "gio": "5:30-7:00 sáng hoặc 16:30-18:00 hoàng hôn, ánh sáng đẹp, ít đông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bãi biển Đồ Sơn",
+   "gio": "5:30-7:00 sáng bình minh hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa to, biển động thì ở lại trung tâm: nhà hát Lớn, chợ Cát Bi — đừng ra Cát Bà/Đồ Sơn vì tàu/phà có thể dừng.",
+  "diem": [
+   "Nhà hát Lớn Hải Phòng + Quảng trường",
+   "Chợ Cát Bi (chợ ẩm thực)",
+   "Biệt thự Bảo Đại (Đồ Sơn)",
+   "Khu di tích Côn Sơn – Kiếp Bạc"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ga-hai-phong",
+    "hoat_dong": "Food tour trung tâm: bánh đa cua, bánh mì cay, ga Hải Phòng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "cat-ba",
+    "hoat_dong": "Đi Cát Bà; vịnh Lan Hạ nửa ngày",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cat-ba",
+    "hoat_dong": "Hải sản Cát Bà",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "bai-tam-cat-co, vuon-quoc-gia-cat-ba",
+    "hoat_dong": "Bãi Cát Cò + Vườn quốc gia (Ngự Lâm) hoặc đảo Khỉ",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về đất liền; tối về Hà Nội/TP.HCM",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ga-hai-phong, nha-hat-lon-hai-phong",
+    "hoat_dong": "Ga Hải Phòng + Nhà hát Lớn; food tour buổi sáng: bánh đa cua, bánh mì cay",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "cho-cat-bi",
+    "hoat_dong": "Chợ Cát Bi ăn vặt (bánh bèo, ốc, chè dừa dầm); bún cá cay",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "ga-hai-phong",
+    "hoat_dong": "Nem cua bể + ốc Hải Phòng; dạo trung tâm",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "cat-ba",
+    "hoat_dong": "Đi Cát Bà (phà/cáp treo/tàu cao tốc); vịnh Lan Hạ tour nửa ngày (kayak, tắm biển)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bai-tam-cat-co, phao-dai-than-cong",
+    "hoat_dong": "Bãi Cát Cò tắm biển; Pháo đài Thần Công ngắm hoàng hôn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cat-ba",
+    "hoat_dong": "Hải sản thị trấn Cát Bà",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "vuon-quoc-gia-cat-ba",
+    "hoat_dong": "Vườn quốc gia Cát Bà leo đỉnh Ngự Lâm (2 giờ) hoặc động Trung Trang",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "do-son, biet-thu-bao-dai-do-son",
+    "hoat_dong": "Về đất liền, ghé Đồ Sơn tắm biển + Biệt thự Bảo Đại; tối về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "ga-hai-phong, cho-cat-bi",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (food tour trung tâm Hải Phòng)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "cat-ba, bai-tam-cat-co",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Cát Bà – Lan Hạ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "vuon-quoc-gia-cat-ba, do-son",
+    "hoat_dong": "Như ngày 3 của lịch trình 3N2Đ (Vườn quốc gia + Đồ Sơn)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "dao-khi, nui-voi",
+    "hoat_dong": "Đảo Khỉ + làng chài Cái Bèo; núi Voi (nếu còn thời gian); về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Hải Phòng (gồm Cát Bà)",
+  "best_season": "Tháng 5–8 (tắm biển, hoa phượng nở) và tháng 9–11 (mát, ít đông); tránh tháng 6–7 cao điểm bão trên vịnh Bắc Bộ",
+  "destination": "Hải Phòng, Hải Phòng",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "hai-phong",
+  "lat": 20.8449,
+  "lng": 106.6881,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Thành phố cảng với food tour nổi tiếng, bãi biển Đồ Sơn và đảo Cát Bà – vịnh Lan Hạ (Di sản UNESCO cùng Hạ Long từ 2024). Trung tâm thành phố hợp food tour 1 ngày; Cát Bà cần ít nhất 1–2 ngày riêng.",
+  "province": "Hải Phòng",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "thành phố",
+   "ẩm thực"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 5–8 (tắm biển, hoa phượng nở) và tháng 9–11 (mát, ít đông); tránh tháng 6–7 cao điểm bão trên vịnh Bắc Bộ"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

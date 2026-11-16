@@ -1,0 +1,948 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/tô",
+   "mon": "Cháo lươn / súp lươn Vinh",
+   "nguon": "dulich9.com, hellotripvietnam.vn, thoitiet247.edu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, hellotripvietnam.vn",
+    "nhan_xet": "Cháo lươn là linh hồn ẩm thực Vinh: lươn xào nghệ thơm, cháo đặc sệt, cay nhẹ. Quán Bà Liễu lâu đời 20+ năm, chỉ bán tối 18:00–22:00, nên đến trước 19h kẻo chờ lâu; lưu ý địa chỉ các nguồn mâu thuẫn (87 Mai Hắc Đế vs 67 Nguyễn Văn Cừ)."
+   },
+   "quan": [
+    {
+     "dia_chi": "87 Mai Hắc Đế, TP Vinh (có nguồn ghi 67 Nguyễn Văn Cừ — mâu thuẫn địa chỉ)",
+     "gia": "30.000–45.000đ/tô; bán tối 18:00–22:00",
+     "ten": "Cháo lươn Bà Liễu"
+    },
+    {
+     "dia_chi": "154 Mai Hắc Đế, phường Quán Bàu, TP Vinh",
+     "gia": "30.000–60.000đ/tô",
+     "ten": "Quán lươn Hồng Sơn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/tô (chưa kiểm được giá riêng từng quán)",
+   "mon": "Miến lươn",
+   "nguon": "luxtour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "luxtour.com.vn",
+    "nhan_xet": "Miến lươn giòn dai, lươn chiên thơm, hợp ăn trưa hoặc tối. Nhược điểm là giá riêng từng quán chưa kiểm được; nên hỏi giá trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "11B Lê Mao, TP Vinh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Lươn Đồng Xứ Nghệ Hoa Lan"
+    },
+    {
+     "dia_chi": "218 đường Bình Minh, Cửa Lò",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán lươn Trung Hạnh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–25.000đ/phần",
+   "mon": "Bánh mướt",
+   "nguon": "hellotripvietnam.vn, dulichhonmat.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellotripvietnam.vn, dulichhonmat.com",
+    "nhan_xet": "Bánh mướt mỏng mềm, ăn kèm giò chả và nước mắm, giá rẻ 15.000–25.000đ/phần, hợp ăn sáng. Điểm trừ là quán ngon thường đông buổi sáng; nên đi sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "36 Trần Hưng Đạo, TP Vinh",
+     "gia": "15.000–25.000đ/phần",
+     "ten": "Bánh mướt Bà Mận"
+    },
+    {
+     "dia_chi": "66 Hà Huy Tập, TP Vinh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh Mướt & Bánh Cuốn Nóng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–200.000đ/kg (đủ 4 người ăn kèm, theo 1 nguồn)",
+   "mon": "Mực nhảy nướng Cửa Lò",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com",
+    "nhan_xet": "Mực nhảy tươi sống nướng tại chỗ là trải nghiệm đáng tiền nhất ở Cửa Lò, ngọt và giòn. Lưu ý là giá theo kg (150.000–200.000đ/kg), nên chọn mực còn bơi và hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Bình Minh, Cửa Lò, TP Vinh",
+     "gia": "150.000–200.000đ/kg",
+     "ten": "Quán hải sản ven biển đường Bình Minh"
+    },
+    {
+     "dia_chi": "Đường số 6, Thu Thủy, Cửa Lò",
+     "gia": "Giá theo kg, hỏi trước",
+     "ten": "Chợ hải sản Cửa Lò"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Hến xúc bánh đa Đô Lương",
+   "nguon": "vietgiaitri.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietgiaitri.com",
+    "nhan_xet": "Hến xúc bánh đa giòn, cay nhẹ, hợp ăn vặt buổi chiều. Điểm trừ là chỉ có ít quán chuyên, giá phần riêng chưa kiểm được."
+   },
+   "quan": [
+    {
+     "dia_chi": "203 Phan Chu Trinh (Phan Châu Trinh), TP Vinh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Bà Lý"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn kèm / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Giá theo kg, hỏi trước",
+   "mon": "Giò bê Nam Đàn",
+   "nguon": "thucphamtuphuong.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "thucphamtuphuong.com",
+    "nhan_xet": "Giò bê thơm, chắc thịt, mua làm quà tiện và để được lâu. Lưu ý là giá theo kg, nên mua ở cửa hàng có tiếng và hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "52 Phan Đăng Lưu, TP Vinh",
+     "gia": "Giá theo kg",
+     "ten": "Cửa hàng Giò bê Nam Đàn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá tô riêng",
+   "mon": "Cháo nghêu Cửa Lò",
+   "nguon": "thoitiet247.edu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "thoitiet247.edu.vn",
+    "nhan_xet": "Cháo nghêu ngọt nước, hợp ăn sáng sau khi tắm biển. Nhược điểm là giá tô riêng chưa kiểm được, quán ven biển đông mùa hè; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Cửa Lò, TP Vinh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn khu Cửa Lò"
+    },
+    {
+     "dia_chi": "Đường số 6, Thu Thủy, Cửa Lò",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ hải sản Cửa Lò"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Giá theo kg, hỏi trước khi gọi",
+   "mon": "Hải sản Cửa Lò (tôm, cua, ghẹ)",
+   "nguon": "dulichhonmat.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichhonmat.com",
+    "nhan_xet": "Hải sản Cửa Lò tươi, chợ hải sản mua được giá tốt nếu biết trả giá. Điểm trừ là nhà hàng ven biển mùa cao điểm giá nhích lên; bắt buộc hỏi giá theo kg trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Bình Minh, Cửa Lò, TP Vinh",
+     "gia": "Giá theo kg, hỏi trước",
+     "ten": "Nhà hàng hải sản đường Bình Minh"
+    },
+    {
+     "dia_chi": "178 Mai Thúc Loan, Nghi Thu, Cửa Lò",
+     "gia": "Giá theo kg, hỏi trước",
+     "ten": "Quán hải sản Mai Thúc Loan"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua làm quà / ăn kèm",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá chai riêng",
+   "mon": "Tương Nam Đàn",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com",
+    "nhan_xet": "Tương Nam Đàn đậm đà, mua làm quà đặc trưng xứ Nghệ. Lưu ý là giá chai riêng chưa kiểm được; nên mua ở chợ Kim Liên hoặc chợ trung tâm Vinh."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Kim Liên, huyện Nam Đàn",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ Kim Liên"
+    },
+    {
+     "dia_chi": "TP Vinh",
+     "gia": "Chưa kiểm được giá",
+     "ten": "Chợ trung tâm TP Vinh"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–VII khứ hồi",
+   "uoc_tinh": "1.600.000–4.000.000đ"
+  },
+  {
+   "hang_muc": "Xe sân bay Vinh – TP/Cửa Lò khứ hồi",
+   "uoc_tinh": "200.000–500.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng Vinh/Cửa Lò)",
+   "uoc_tinh": "700.000–2.400.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (hải sản là khoản lớn)",
+   "uoc_tinh": "500.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Lan Châu, VinWonders Cửa Hội)",
+   "uoc_tinh": "150.000–500.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2 ngày + xăng / xe buýt",
+   "uoc_tinh": "200.000–500.000đ"
+  },
+  {
+   "hang_muc": "Taxi / phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.500.000–9.500.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (xe khách/tàu thay máy bay)",
+   "uoc_tinh": "Trừ ~1.600.000–4.000.000đ tiền bay, cộng xe HN–Vinh ~500.000–700.000đ khứ hồi"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá/kg hải sản và giá dịch vụ trước khi gọi/nhận; ưu tiên quán có bảng giá niêm yết; theo dữ liệu tỉnh, câu mực 100.000–200.000đ/người",
+   "nguon": "dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Biển Cửa Lò mùa cao điểm: hải sản tính theo cân, ghế dù, phao, câu mực giá không niêm yết, hỏi giá sau khi dùng"
+  },
+  {
+   "cach_tranh": "Thỏa giá và tuyến đường trước khi lên xe; ưu tiên xe có bảng giá/đồng hồ",
+   "nguon": "kinh nghiệm chung du lịch Nghệ An; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe điện, xe ôm quanh Cửa Lò, Quảng trường Hồ Chí Minh: giá thỏa thuận miệng, đi vòng, tính thêm phí"
+  },
+  {
+   "cach_tranh": "Đọc đánh giá gần nhất, nhắn hỏi chủ nhà về giá cuối tuần/lễ và phí phát sinh trước khi đặt",
+   "nguon": "kinh nghiệm chung du lịch Nghệ An; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay, khách sạn Cửa Lò: đặt online khác ảnh thật, phụ thu cuối tuần, lễ, mùa hè"
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá vé, giờ thuyền và khoản thu thêm tại quầy trước khi mua; kiểm giờ thuyền trước",
+   "nguon": "dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Đảo Lan Châu, đảo Hòn Ngư: giá thuyền, vé tham quan nhiều mức (65.000–105.000đ/người theo dữ liệu tỉnh), phụ thu không báo trước"
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Đồ bơi, khăn tắm, kem chống nắng (biển Cửa Lò nắng gắt, gió Lào hè có thể 35–40°C)",
+  "Giày đi bộ (Kim Liên, Pù Mát)",
+  "Áo khoác mỏng, áo mưa mỏng",
+  "Tiền mặt lẻ (chợ Cửa Lò, quán ven biển — hỏi giá hải sản theo cân trước)",
+  "Thuốc chống muỗi (Pù Mát)",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Đặt phòng Cửa Lò sớm dịp hè cao điểm và lễ"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [],
+  "diem": [
+   "Bãi biển Cửa Lò",
+   "Đảo Lan Châu",
+   "Bãi Lữ",
+   "Đảo Hòn Ngư (đảo Song Ngư)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Melia Vinpearl Cua Hoi Beach Resort",
+   "Mường Thanh Grand Cửa Lò",
+   "Mường Thanh Luxury Sông Lam"
+  ],
+  "diem_chay": [
+   "Đại lộ Vinh – Cửa Lò buổi sáng sớm",
+   "Đường ven biển Cửa Lò buổi sáng sớm",
+   "Quảng trường Hồ Chí Minh (TP Vinh) buổi sáng sớm"
+  ],
+  "giai": [
+   {
+    "nguon": "vnexpress.net — VnExpress Marathon Grand Tour Nghệ An 2026 (ngày kiểm 08/11/2026)",
+    "ten": "VnExpress Marathon Grand Tour Nghệ An",
+    "thoi_gian": "tháng 9 (2026: 27/9; cự ly 5/10/21/42 km, xuất phát và về đích Quảng trường Hồ Chí Minh, tuyến Vinh – Cửa Lò)"
+   },
+   {
+    "nguon": "ticket.irace.vn — Giải Marathon Nghệ An 2026 Cửa Lò – Biển Xanh Vẫy Gọi (ngày kiểm 08/11/2026)",
+    "ten": "Giải Marathon Nghệ An — Cửa Lò Biển Xanh Vẫy Gọi",
+    "thoi_gian": "tháng 7 (2026: 26/7; xuất phát Quảng trường Bình Minh, phường Cửa Lò)"
+   },
+   {
+    "nguon": "nghean.gov.vn — Khai mạc giải marathon Hành trình về Làng Sen 2024 (ngày kiểm 08/11/2026)",
+    "ten": "Giải Marathon Hành trình về Làng Sen",
+    "thoi_gian": "tháng 6 (2024: 8–9/6; cự ly 5/10/21/42 km, Cửa Lò – Làng Sen)"
+   }
+  ],
+  "nguon": "vnexpress.net; ticket.irace.vn; nghean.gov.vn (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Ngay bãi biển Cửa Hội, cách trung tâm Vinh ~18 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Bình Minh, phường Nghi Hải, Cửa Hội, TP Vinh",
+   "dien_thoai": "0238 8764 888",
+   "gia": "~1.640.000–2.400.000đ/đêm",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng biển cao cấp",
+   "khu_vuc": "cua-hoi",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "melia.com (ngày kiểm 08/11/2026)",
+   "ten": "Melia Vinpearl Cua Hoi Beach Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ngay bãi biển Cửa Lò, cách sân bay Vinh ~10 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "232 đường Bình Minh, phường Nghi Thu, Cửa Lò, TP Vinh",
+   "dien_thoai": "0238 3948 666",
+   "gia": "~895.000–1.500.000đ/đêm (249 phòng)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn",
+   "khu_vuc": "cua-lo",
+   "nguon": "traveloka.com, vietnambooking.com, trip.com",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Cửa Lò",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Vinh, cách ga Vinh ~4 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "13 Quang Trung, TP Vinh",
+   "dien_thoai": "0238 3737 666",
+   "gia": "~770.000–1.730.000đ/đêm (Superior 770.000đ; Suite tới ~3.690.000đ)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, viptrip.com.vn",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Sông Lam",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Vinh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "2 đường Trường Thi, TP Vinh",
+   "dien_thoai": "0238 3562 299",
+   "gia": "~1.200.000–1.490.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Phương Đông",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Vinh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "74 đường Lê Hồng Phong, phường Hưng Bình, TP Vinh",
+   "dien_thoai": "0238 3588 686",
+   "gia": "~780.000đ/đêm trở lên",
+   "hang": "4 sao (có nguồn ghi 3 sao)",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "holidaymocchau.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Thanh Niên Vinh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP Vinh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "1 đường Phan Bội Châu, TP Vinh",
+   "dien_thoai": "0238 3535 666",
+   "gia": "~680.000đ/đêm trở lên (có nguồn ghi trung bình ~499.000đ)",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, vietnambooking.com",
+   "nguon_dien_thoai": "holidaymocchau.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Mường Thanh Vinh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Vinh ~15 km, gần Kim Liên",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Kim Liên, huyện Nam Đàn (gần Làng Sen)",
+   "dien_thoai": "0238 3952 899",
+   "gia": "Chưa kiểm được khoảng giá riêng hiện hành",
+   "hang": "Resort",
+   "hop_voi": "Gia đình đi Kim Liên",
+   "khu_vuc": "nam-dan",
+   "nguon": "vietnambooking.com",
+   "nguon_dien_thoai": "ngheantoplist.net, cungphuot.info, mytour.vn, tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Sài Gòn Kim Liên Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 6 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Đảo Lan Châu, Bãi Lữ, Khu di tích Kim Liên (Làng Sen quê Bác), Thành cổ Vinh, Đảo Hòn Ngư (đảo Song Ngư), Khu du lịch sinh thái Diễn Lâm (Mường Thanh Safari)",
+  "Giá vé Pù Mát: vé chung 40.000–50.000đ vs vé theo khu 10.000/30.000/50.000đ — nguồn khác nhau",
+  "Giờ mở cửa Pù Mát: 8:00–17:00 vs 8:00–22:00 — nguồn khác nhau",
+  "Giờ mở cửa Kim Liên: 7:00–17:00 hè / 7:30–17:00 đông vs 8:00–11:30 & 14:00–16:30 (thứ 3–5, 7, CN) — nguồn khác nhau",
+  "Giá vé VinWonders Cửa Hội: từ 80.000đ vs từ 140.000đ — nguồn khác nhau",
+  "Giờ mở cửa VinWonders Cửa Hội: 8:00–23:00 vs 9:00–12:00 & 13:00–22:00 — nguồn khác nhau",
+  "Địa chỉ cháo lươn Bà Liễu: 87 Mai Hắc Đế vs 67 Nguyễn Văn Cừ — nguồn mâu thuẫn",
+  "Khoảng giá phòng Sài Gòn Kim Liên Resort (chưa kiểm được mức riêng)",
+  "Giá thuê xe máy tại Vinh/Cửa Lò và giá xe khách Hà Nội–Vinh từng hãng",
+  "Giá tàu Hà Nội–Vinh / TP.HCM–Vinh hiện hành",
+  "Giá ăn tại quán ở Nghệ An (nhiều món chỉ có tên quán, chưa kiểm được giá phần riêng)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Đảo Hòn Ngư (đảo Song Ngư), Đền Cuông, Khu du lịch sinh thái Diễn Lâm (Mường Thanh Safari) — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Nghệ An không có đèo dài như Tây Bắc, nhưng đèo Đá Đẽo (QL15, Con Cuông – Tương Dương, đường đi Pù Mát) dốc, cua gấp liên tục, đường hẹp, xe tải lớn nhiều, sương mù và trơn mùa mưa — đi ban ngày, xe số, kiểm tra phanh/lốp/đèn, tốc độ chậm, bấm còi ở cua khuất, không vượt ở đoạn khuất tầm nhìn. Đường đi Vườn quốc gia Pù Mát, thác Khe Kèm: đồi dốc, đường đất đá trơn khi mưa; tránh đi ban đêm và mùa mưa tháng 6–9. Đường ven biển Cửa Lò – Cửa Hội – Bãi Lữ: đông xe mùa hè, đi chậm, chú ý người qua đường. Mùa bão tháng 8–10 không tắm biển khi có cảnh báo biển động. Mang CCCD/hộ chiếu và giấy tờ xe đầy đủ.",
+  "deo": [
+   "Đèo Đá Đẽo (QL15, Con Cuông – Tương Dương, đường đi Pù Mát): dốc, cua gấp liên tục, đường hẹp, nhiều xe tải",
+   "Đường đi Vườn quốc gia Pù Mát, thác Khe Kèm: đồi dốc, đường đất đá trơn khi mưa",
+   "Đường ven biển Cửa Lò – Cửa Hội – Bãi Lữ: đông xe mùa hè, chú ý người qua đường"
+  ],
+  "nguon": "dữ liệu tỉnh Nghệ An — Vườn quốc gia Pù Mát, thác Khe Kèm (ngày kiểm 06/11/2026); kinh nghiệm chung QL15 đèo Đá Đẽo (ngày kiểm 08/11/2026) (lưu ý: chi tiết đèo Đá Đẽo chưa tra được nguồn tin cậy riêng, xem ghi chú)"
+ },
+ "di_den": {
+  "tu_ga_san_bay": [
+   {
+    "ghi_chu": "Sân bay gần nhất cho cả Nghệ An và Hà Tĩnh",
+    "gia": "Taxi ~100.000–200.000đ/chuyến (chưa kiểm được mức cố định)",
+    "nguon": "getgotripvietnam.com",
+    "phuong_tien": "Sân bay Vinh – trung tâm TP Vinh",
+    "thoi_gian": "~7 km, 15–20 phút"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Taxi ~150.000–250.000đ/chuyến (chưa kiểm được mức cố định)",
+    "nguon": "getgotripvietnam.com",
+    "phuong_tien": "Sân bay Vinh – Cửa Lò",
+    "thoi_gian": "~10–15 km, 20–30 phút"
+   },
+   {
+    "ghi_chu": "Ga trung tâm TP",
+    "gia": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Ga Vinh – trung tâm TP",
+    "thoi_gian": "~2–3 km"
+   }
+  ],
+  "tu_hn": [
+   {
+    "ghi_chu": "Bến Mỹ Đình/Giáp Bát – Bến xe Vinh",
+    "gia": "~250.000–350.000đ/vé (chưa kiểm được hãng cụ thể tuyến này)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Xe khách Hà Nội–Vinh",
+    "thoi_gian": "5–6 giờ (~300 km)"
+   },
+   {
+    "ghi_chu": "Ga Vinh trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu Hà Nội–Vinh (ga Vinh)",
+    "thoi_gian": "~5–6 giờ"
+   },
+   {
+    "ghi_chu": "Sân bay Vinh cách trung tâm TP ~7 km",
+    "gia": "Chưa kiểm được giá vé hiện hành (ít chuyến, thường phải nối chuyến)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Máy bay HAN–VII",
+    "thoi_gian": "Bay ~1 giờ"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways. Sân bay Vinh cách trung tâm TP ~7 km, cách Cửa Lò ~10–15 km",
+    "gia": "Một chiều đã gồm thuế phí ~800.000–2.000.000đ (Vietjet từ ~790.000đ chưa thuế phí; Vietnam Airlines cao hơn)",
+    "nguon": "vietair.com.vn, traveloka.com",
+    "phuong_tien": "Máy bay SGN–VII (sân bay Vinh)",
+    "thoi_gian": "Bay ~1 giờ 50 phút (bay thẳng)"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian; đa số nên bay",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Xe khách TP.HCM–Vinh",
+    "thoi_gian": "~28–32 giờ"
+   },
+   {
+    "ghi_chu": "Ga Vinh trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu TP.HCM–Vinh (ga Vinh)",
+    "thoi_gian": "~28–32 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê tại TP Vinh hoặc Cửa Lò; hỏi rõ cọc và giờ trả",
+   "gia": "~100.000–150.000đ/ngày (mặt bằng chung miền Trung, chưa kiểm được bảng giá riêng tại Vinh)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày (chưa kiểm được bảng giá riêng tại Vinh)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trọn gói trước; xe buýt Vinh–Cửa Lò 5.000–20.000đ/lượt tùy tuyến (theo 1 nguồn)",
+   "gia": "~10.000–13.000đ/km (ước lượng); Vinh–Cửa Lò ~15 km",
+   "giay_to": "",
+   "nguon": "hqtravel.com.vn",
+   "phuong_tien": "Taxi Vinh – Cửa Lò"
+  },
+  {
+   "ghi_chu": "Rẻ nhất đi Cửa Lò từ Vinh; kiểm tuyến tại bến",
+   "gia": "5.000–20.000đ/lượt tùy tuyến",
+   "giay_to": "",
+   "nguon": "hqtravel.com.vn",
+   "phuong_tien": "Xe buýt Vinh – Cửa Lò"
+  },
+  {
+   "ghi_chu": "Pù Mát cách Vinh ~130 km — nên thuê xe theo ngày hoặc đi tour",
+   "gia": "Chưa kiểm được mức riêng tại Vinh",
+   "giay_to": "",
+   "nguon": "luhanhvietnam.com.vn",
+   "phuong_tien": "Thuê ô tô có tài xế đi Pù Mát / Kim Liên"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Cửa Lò (Nghi Thu/Nghi Thủy), TP Vinh, cách trung tâm Vinh ~15 km",
+   "gia_ve": "Miễn phí tắm biển; ghế/phao/dịch vụ tính riêng; câu mực 100.000–200.000đ/người",
+   "gio_mo_cua": "Mở cả ngày; tắm đẹp nhất tháng 4–9",
+   "hop_voi": "Gia đình, nhóm bạn, cặp đôi",
+   "id": "bien-cua-lo",
+   "lat": 18.79418,
+   "lng": 105.72519,
+   "luu_y": "Tránh tháng 10–12 biển động, gió mùa mạnh; tắm trong khu có cứu hộ",
+   "nguon": "luhanhvietnam.com.vn, zalopay.vn, 190travel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "pystravel.vn, topdiemden.com, mytour.vn",
+    "nhan_xet": "Bãi biển 'quốc dân' của Bắc Trung Bộ: cát trắng mịn, sóng êm, dốc thoải nên trẻ nhỏ tắm an toàn, chợ hải sản và nhà hàng dọc đường Bình Minh rất tiện. Điểm trừ là hè và lễ cực đông, giá dịch vụ mùa cao điểm nhích lên; nên đi ngày thường hoặc sáng sớm, tránh tháng 10–12 biển động."
+   },
+   "ten": "Bãi biển Cửa Lò",
+   "thoi_gian": "Nửa ngày đến 1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 16,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Cửa Lò, TP Vinh (cuối bãi biển Cửa Lò)",
+   "gia_ve": "Vé tham quan đảo 65.000–105.000đ/người tùy đoàn (có nguồn ghi 105.000đ lẻ)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Cặp đôi, gia đình thích chụp ảnh",
+   "id": "dao-lan-chau",
+   "lat": 18.81944,
+   "lng": 105.71951,
+   "luu_y": "Đảo đẹp nhất Cửa Lò; đi thuyền ra đảo, kiểm giờ thuyền trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "intour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "intour.com.vn, topmap.vn",
+    "nhan_xet": "Đảo đẹp nhất Cửa Lò, chụp ảnh hoàng hôn rất ăn ảnh, hợp cặp đôi và gia đình thích đi thuyền. Nhược điểm là giá vé các nguồn ghi khác nhau (65.000–105.000đ), giờ thuyền chưa kiểm được chính thức; nên hỏi giờ thuyền trước và đi ban ngày."
+   },
+   "ten": "Đảo Lan Châu",
+   "thoi_gian": "1,5–2,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 18,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Bình Minh, bãi biển Cửa Hội, phường Nghi Hải, TP Vinh",
+   "gia_ve": "Từ 80.000–140.000đ/người tùy dịch vụ (các nguồn ghi khác nhau)",
+   "gio_mo_cua": "8:00–23:00 (có nguồn ghi 9:00–12:00 và 13:00–22:00)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "vinwonders-cua-hoi",
+   "lat": 18.77285,
+   "lng": 105.75128,
+   "luu_y": "Khu vui chơi + cáp treo ra đảo; kiểm giá vé theo ngày trước khi đi",
+   "nguon": "190travel.com, traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "190travel.com, traveloka.com",
+    "nhan_xet": "Khu vui chơi + cáp treo ra đảo hợp gia đình có trẻ nhỏ, chơi được nửa ngày. Điểm yếu là giá vé các nguồn ghi khác nhau (80.000–140.000đ) và giờ mở cửa mâu thuẫn (8:00–23:00 vs 9:00–12:00 và 13:00–22:00); kiểm giá và giờ theo ngày trước khi đi."
+   },
+   "ten": "VinWonders Cửa Hội",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Nghi Yên, huyện Nghi Lộc, cách TP Vinh ~25 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Cặp đôi, gia đình thích biển yên tĩnh",
+   "id": "bai-lu",
+   "lat": 18.86733,
+   "lng": 105.63674,
+   "luu_y": "Biển yên hơn Cửa Lò, ít dịch vụ hơn; hỏi giá trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, topdiemden.com",
+    "nhan_xet": "Bãi Lữ được ví là 'thiên đường nghỉ dưỡng' của Nghệ An: núi ôm biển, yên tĩnh, resort biệt lập hợp cặp đôi nghỉ dưỡng. Điểm trừ là ít dịch vụ công cộng, giá vé chưa kiểm được; không hợp ai thích biển đông vui, ăn uống rẻ."
+   },
+   "ten": "Bãi Lữ",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Kim Liên, huyện Nam Đàn, cách TP Vinh ~15 km",
+   "gia_ve": "Miễn phí tham quan; phí hướng dẫn viên 100.000đ/đoàn (theo 1 nguồn)",
+   "gio_mo_cua": "Mùa hè 7:00–17:00; mùa đông 7:30–17:00 (có nguồn ghi 7:30–17:00)",
+   "hop_voi": "Mọi đối tượng, gia đình, học sinh",
+   "id": "lang-sen-kim-lien",
+   "lat": 18.68535,
+   "lng": 105.56964,
+   "luu_y": "Quê hương Chủ tịch Hồ Chí Minh; ăn mặc lịch sự, giữ yên lặng trong nhà tưởng niệm. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "luhanhvietnam.com.vn, zalopay.vn, 190travel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "topdiemden.com, luhanhvietnam.com.vn",
+    "nhan_xet": "Điểm đến lịch sử – tâm linh số một Nghệ An, nhà tranh vách nứa và ao sen rất yên bình; tháng 5 sen nở là đẹp nhất. Điểm trừ là mùa lễ và cuối tuần đông, tham quan cần giữ yên lặng; nên đi sáng sớm và ghép cùng Truông Bồn trong ngày."
+   },
+   "ten": "Khu di tích Kim Liên (Làng Sen quê Bác)",
+   "thoi_gian": "2–3 giờ (làng Sen, làng Hoàng Trù cách ~2 km)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Chi Khê, huyện Con Cuông, cách TP Vinh ~130 km",
+   "gia_ve": "Vé cổng 10.000đ/người lớn, 5.000đ/trẻ em; thác Khe Kèm 30.000đ/người; khu rừng nguyên sinh 50.000đ/người (có nguồn ghi vé chung 40.000–50.000đ)",
+   "gio_mo_cua": "8:00–17:00 (có nguồn ghi 8:00–22:00)",
+   "hop_voi": "Nhóm bạn, người thích rừng nguyên sinh",
+   "id": "vuon-quoc-gia-pu-mat",
+   "lat": 19.03515,
+   "lng": 104.7426,
+   "luu_y": "Khu dự trữ sinh quyển thế giới (UNESCO); đường xa, nên đi 2 ngày hoặc tour; thuê thuyền sông Giăng 100.000–150.000đ/ngày",
+   "nguon": "luhanhvietnam.com.vn, zalopay.vn, intour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "luhanhvietnam.com.vn, zalopay.vn, intour.com.vn",
+    "nhan_xet": "Rừng nguyên sinh UNESCO, trekking và thuyền sông Giăng rất đáng đi với người thích thiên nhiên hoang sơ. Điểm trừ là cách Vinh ~130 km, nên đi 2 ngày hoặc theo tour; giá vé các nguồn ghi khác nhau (vé chung 40.000–50.000đ vs vé theo khu 10.000/30.000/50.000đ)."
+   },
+   "ten": "Vườn quốc gia Pù Mát",
+   "thoi_gian": "1–2 ngày (trekking, thuyền sông Giăng)"
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vườn quốc gia Pù Mát, huyện Con Cuông",
+   "gia_ve": "30.000đ/người (vé riêng thác; có nguồn ghi trong vé Pù Mát)",
+   "gio_mo_cua": "8:00–17:00",
+   "hop_voi": "Nhóm bạn, gia đình",
+   "id": "thac-khe-kem",
+   "lat": 18.98828,
+   "lng": 104.84234,
+   "luu_y": "Thác hoang sơ trong rừng Pù Mát; đi cùng cung Pù Mát, đường rừng trơn khi mưa",
+   "nguon": "zalopay.vn, intour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / zalopay.vn, intour.com.vn",
+    "nhan_xet": "Thác hoang sơ trong rừng Pù Mát, nước mát, hợp nhóm bạn trekking nhẹ. Điểm trừ là đường rừng trơn khi mưa, phải đi cùng cung Pù Mát; mùa khô nước ít nên cân nhắc nếu chỉ đi trong ngày."
+   },
+   "ten": "Thác Khe Kèm",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Vinh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Mở cả ngày (không gian công cộng)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "quang-truong-ho-chi-minh",
+   "lat": 18.67133,
+   "lng": 105.69192,
+   "luu_y": "Điểm check-in trung tâm TP; tối đông, giữ tư trang",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / traveloka.com",
+    "nhan_xet": "Quảng trường trung tâm TP Vinh, dạo mát chiều tối đẹp, hợp mọi đối tượng và check-in nhanh. Nhược điểm là ngoài ngắm cảnh và chụp ảnh thì không có nhiều hoạt động; tối đông nên giữ tư trang."
+   },
+   "ten": "Quảng trường Hồ Chí Minh",
+   "thoi_gian": "1 giờ; đẹp nhất chiều tối"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Vinh",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử",
+   "id": "thanh-co-vinh",
+   "lat": 18.69795,
+   "lng": 105.67504,
+   "luu_y": "Thành cổ thời Nguyễn, chỉ còn cổng thành và hào; ghép cùng dạo trung tâm Vinh. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / traveloka.com",
+    "nhan_xet": "Thành cổ thời Nguyễn ngay trung tâm, hợp người yêu lịch sử ghép cùng dạo phố Vinh. Điểm trừ là chỉ còn cổng thành và hào, quy mô nhỏ, giá vé và giờ mở cửa chưa kiểm được; chỉ nên ghé 1 giờ."
+   },
+   "ten": "Thành cổ Vinh",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Đô Lương, cách TP Vinh ~30 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình, học sinh",
+   "id": "khu-di-tich-truong-bon",
+   "lat": 18.79084,
+   "lng": 105.40911,
+   "luu_y": "Di tích thanh niên xung phong chống Mỹ; ăn mặc lịch sự, giữ yên lặng",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / traveloka.com",
+    "nhan_xet": "Di tích thanh niên xung phong cảm động, không gian trang nghiêm, hợp gia đình và học sinh tìm hiểu lịch sử. Điểm trừ là giá vé và giờ mở cửa chưa kiểm được chính thức; nên đi ban ngày, ăn mặc lịch sự."
+   },
+   "ten": "Khu di tích Truông Bồn",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 19,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ngoài khơi Cửa Lò, đi thuyền/cano từ cảng Cửa Lò (~4 km)",
+   "gia_ve": "Cano/thuyền ra đảo chưa kiểm được giá riêng — hỏi tại cảng Cửa Lò",
+   "gio_mo_cua": "Đi ban ngày, phụ thuộc thời tiết",
+   "hop_voi": "Gia đình, nhóm bạn thích đảo gần bờ",
+   "id": "hon-ngu",
+   "lat": 18.76557,
+   "lng": 105.73377,
+   "luu_y": "Đảo có chùa Ngư; đi cùng ngày với biển Cửa Lò; tọa độ xấp xỉ (điểm tra được là đường Song Ngư trên đất liền, đảo nằm ngoài khơi), cần kiểm lại",
+   "nguon": "topdiemden.com, topmap.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "topdiemden.com, topmap.vn",
+    "nhan_xet": "Đảo Song Ngư ngoài khơi Cửa Lò có chùa Ngư, hợp đi thuyền nửa buổi ngắm biển và viếng chùa. Điểm trừ là cano/thuyền chưa kiểm được giá riêng, phụ thuộc thời tiết; nên hỏi tại cảng Cửa Lò trước và đi ban ngày."
+   },
+   "ten": "Đảo Hòn Ngư (đảo Song Ngư)",
+   "thoi_gian": "2–3 giờ (đi + viếng chùa Ngư)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Diễn An, huyện Diễn Châu, cách TP Vinh ~40 km",
+   "gia_ve": "Chưa kiểm được giá vé riêng",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử – tâm linh, gia đình",
+   "id": "den-cuong",
+   "lat": 18.90366,
+   "lng": 105.60431,
+   "luu_y": "Đền thờ An Dương Vương, gần biển Diễn Châu; ghép cùng cung biển Bãi Lữ – Diễn Châu",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Đền thờ An Dương Vương cổ kính, yên tĩnh, hợp người yêu lịch sử – tâm linh trên cung Diễn Châu. Điểm trừ là chưa kiểm được giá vé và giờ mở cửa; nên ghép cùng Bãi Lữ hoặc Diễn Lâm trong ngày."
+   },
+   "ten": "Đền Cuông",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Diễn Lâm, huyện Diễn Châu, cách TP Vinh ~60 km",
+   "gia_ve": "Chưa kiểm được bảng giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "dien-lam",
+   "lat": 19.15372,
+   "lng": 105.51265,
+   "luu_y": "Khu sinh thái + safari gần Đền Cuông (cùng huyện Diễn Châu); tọa độ xấp xỉ (điểm tra được là công viên nước trong khu), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Khu sinh thái + safari hợp gia đình có trẻ nhỏ, chơi được cả ngày. Điểm trừ là chưa kiểm được bảng giá vé và giờ mở cửa hiện hành, cách Vinh ~60 km; nên gọi hỏi trước và đi sớm."
+   },
+   "ten": "Khu du lịch sinh thái Diễn Lâm (Mường Thanh Safari)",
+   "thoi_gian": "Nửa ngày–1 ngày (safari, công viên nước)",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Bãi biển Cửa Lò",
+   "gio": "5:30-7:00 bình minh trên biển; 16:30-18:00 hoàng hôn (tắm đẹp nhất tháng 4–9)",
+   "nguon": "dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Đảo Lan Châu",
+   "gio": "6:00-8:00 sáng sớm nắng xiên; 16:30-17:30 hoàng hôn trên đảo",
+   "nguon": "dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bãi Lữ",
+   "gio": "5:30-7:00 bình minh; 16:30-18:00 hoàng hôn ven biển",
+   "nguon": "dữ liệu tỉnh Nghệ An (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào khu di tích Kim Liên và Truông Bồn — tránh biển Cửa Lò, Bãi Lữ vì sóng to.",
+  "diem": [
+   "Khu di tích Kim Liên (Làng Sen quê Bác)",
+   "Khu di tích Truông Bồn",
+   "Đền Cuông",
+   "VinWonders Cửa Hội"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "quang-truong-ho-chi-minh, thanh-co-vinh",
+    "hoat_dong": "Quảng trường Hồ Chí Minh + Thành cổ Vinh, ăn bánh mướt",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-sen-kim-lien",
+    "hoat_dong": "Làng Sen Kim Liên (quê Bác)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn cháo lươn Bà Liễu ở TP Vinh",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "bien-cua-lo, dao-lan-chau",
+    "hoat_dong": "Biển Cửa Lò tắm biển + Đảo Lan Châu",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn mực nhảy nướng + hải sản Cửa Lò, dạo chợ đêm Cửa Lò",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "vinwonders-cua-hoi, bai-lu",
+    "hoat_dong": "VinWonders Cửa Hội buổi sáng (hoặc Bãi Lữ nếu thích biển yên)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Mua tương Nam Đàn / giò bê làm quà, về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Vinh / Cửa Lò",
+  "best_season": "Biển Cửa Lò tháng 4–9; đi chung tháng 2–4 và tháng 9–11 mát nhất; tránh tháng 10–12 biển động, gió mùa",
+  "destination": "Nghệ An (trung tâm: TP Vinh / Cửa Lò)",
+  "ghi_chu_dia_gioi": "Từ 2025 Cửa Lò sáp nhập vào TP Vinh (phường Cửa Lò); các nguồn cũ vẫn ghi 'thị xã Cửa Lò'.",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 7/13 điểm chính xác, 6 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "nghe-an",
+  "lat": 18.6739,
+  "lng": 105.6929,
+  "ngay_kiem": "06/11/2026",
+  "province": "Nghệ An",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "văn hóa",
+   "lịch sử",
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Biển Cửa Lò tháng 4–9; đi chung tháng 2–4 và tháng 9–11 mát nhất; tránh tháng 10–12 biển động, gió mùa"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "bvnghean.vn (website chính thức, theo mytour.vn — Top 9 Hospitals in Vinh City) (ngày kiểm 08/11/2026)",
+    "so": "1900 9234",
+    "ten": "Bệnh viện Hữu nghị Đa khoa Nghệ An — Tổng đài"
+   },
+   {
+    "nguon": "mytour.vn — Top 9 Hospitals for Quality Healthcare in Vinh City, Nghệ An (website benhvien115.vn) (ngày kiểm 08/11/2026)",
+    "so": "0238 3518 887",
+    "ten": "Bệnh viện Đa khoa 115 Nghệ An — Cấp cứu"
+   }
+  ]
+ }
+}

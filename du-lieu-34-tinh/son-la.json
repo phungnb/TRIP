@@ -1,0 +1,977 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–150.000đ/đĩa",
+   "mon": "Bê chao",
+   "nguon": "dulich9.com, vanantravel.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; suntravelgroup.vn",
+    "nhan_xet": "Bê non chao giòn ngoài mềm trong, chấm tương gừng — món signature của Mộc Châu, ai đến cũng nên thử. Điểm trừ là giá theo đĩa khá cao (150.000–200.000đ theo nguồn). Hợp bữa trưa/tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "100.000–150.000đ/người",
+     "ten": "Quán 70 Nam Hưng"
+    },
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "~100.000đ/người",
+     "ten": "Quán Xuân Bắc 181"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–120.000đ/đĩa",
+   "mon": "Cá suối",
+   "nguon": "vanantravel.vn, buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cá suối chiên giòn, ăn cả xương, thơm mùi lá — món dân dã được khen. Điểm trừ là giá tùy quán, không niêm yết. Hợp ăn trưa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "80.000–120.000đ/đĩa",
+     "ten": "Quán 70 Nam Hưng"
+    },
+    {
+     "dia_chi": "Số 45 đường Thị trấn Mộc Châu (1 nguồn ghi tỉnh Điện Biên — lỗi nguồn, cần kiểm lại)",
+     "gia": "80.000–110.000đ/con",
+     "ten": "Nhà hàng Thường Hiền"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "250.000đ/người (set 6 món); mua mang về ~350.000đ/kg",
+   "mon": "Cá hồi",
+   "nguon": "dulich9.com, sharehomevn.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cá hồi Mộc Châu tươi, làm gỏi hoặc lẩu đều ngon — khí hậu mát nên cá chắc thịt. Điểm trừ là giá không rẻ. Hợp nhóm ăn tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "Km179, Quốc lộ 6 (giáp Vân Hồ – Mộc Châu)",
+     "gia": "100.000–250.000đ/người",
+     "ten": "Nhà hàng Cá hồi 64"
+    },
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "100.000–250.000đ/người",
+     "ten": "Quán Xuân Bắc 181"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~100.000đ/người; lẩu trâu 2 người 150.000–200.000đ",
+   "mon": "Thịt trâu / lẩu trâu",
+   "nguon": "dulich9.com, buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Trâu gác bếp và lẩu trâu đậm vị Tây Bắc, ăn ấm người mùa lạnh. Điểm trừ là thịt trâu dai, người răng yếu khó ăn. Hợp bữa tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Mộc Châu (chưa kiểm được số nhà cụ thể)",
+     "gia": "~100.000đ/người",
+     "ten": "Nhà hàng 75 Mộc Châu"
+    },
+    {
+     "dia_chi": "Số 45 đường Thị trấn Mộc Châu",
+     "gia": "Lẩu trâu 150.000–200.000đ/2 người",
+     "ten": "Nhà hàng Thường Hiền"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng theo đĩa",
+   "mon": "Rau cải mèo",
+   "nguon": "mytour.vn, dulichmocchau.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Rau cải mèo đắng nhẹ, xào tỏi hoặc luộc chấm chẩm chéo — món rau đặc trưng của Mộc Châu. Điểm trừ là vị đắng, người không quen khó ăn. Hợp ăn kèm thịt nướng."
+   },
+   "quan": [
+    {
+     "dia_chi": "316 Trần Huy Liệu, thị trấn Mộc Châu",
+     "gia": "80.000–250.000đ/người (cả bữa)",
+     "ten": "Nhà hàng Đông Hải"
+    },
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán 70 Nam Hưng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Gà đồi nướng",
+   "nguon": "buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Gà đồi thả vườn, thịt dai ngọt, nướng mắc khén — món nhóm được khen nhiều. Điểm trừ là giá theo con, phải hỏi trước. Hợp bữa tối ở homestay."
+   },
+   "quan": [
+    {
+     "dia_chi": "Số 45 đường Thị trấn Mộc Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Thường Hiền"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Nậm pịa",
+   "nguon": "sharehomevn.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Món truyền thống của người Thái, vị đắng đặc trưng — đáng thử cho ai muốn hiểu ẩm thực bản địa. Điểm yếu là vị đắng và mùi nặng, đa số khách lần đầu không ăn được. Chỉ hợp người ăn được đồ đắng; ai kén nên bỏ qua."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Mộc Châu (chưa kiểm được số nhà cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng 75 Mộc Châu"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Cơm lam",
+   "nguon": "dulichmocchau.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cơm lam Mộc Châu dẻo thơm, ăn kèm thịt nướng rất hợp. Điểm yếu là chất lượng tùy quán. Hợp mua mang theo khi đi thác."
+   },
+   "quan": [
+    {
+     "dia_chi": "316 Trần Huy Liệu, thị trấn Mộc Châu",
+     "gia": "80.000–250.000đ/người (cả bữa)",
+     "ten": "Nhà hàng Đông Hải"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / tráng miệng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Sữa chua nếp cẩm",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Sữa chua nếp cẩm Mộc Châu nổi tiếng, chua ngọt vừa, ăn mát — món tráng miệng nên thử. Điểm trừ là nhiều hàng nhái thương hiệu. Nên mua ở cửa hàng lớn, có thương hiệu rõ ràng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán 70 Nam Hưng"
+    },
+    {
+     "dia_chi": "Tiểu khu Chiềng Đi, thị trấn Nông trường Mộc Châu",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Xuân Bắc 181"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–HAN khứ hồi",
+   "uoc_tinh": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+  },
+  {
+   "hang_muc": "Xe HN–Mộc Châu khứ hồi",
+   "uoc_tinh": "500.000–600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "600.000–1.800.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (cầu kính Bạch Long là khoản lớn nhất)",
+   "uoc_tinh": "150.000–700.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.000.000–9.750.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+   "uoc_tinh": "Tổng còn ~2.000.000–4.750.000đ/người (1 nguồn ước tính ~2.500.000–3.500.000đ/người)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua ở cửa hàng có bảng giá niêm yết hoặc trong siêu thị địa phương; yêu cầu cân lại trước mặt, hỏi giá/kg trước khi chọn; không mua hàng rong không có giá",
+   "nguon": "kinh nghiệm chung du lịch Mộc Châu; chưa tra được bài báo chính thống riêng về chặt chém ở Mộc Châu (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ và điểm bán đặc sản Mộc Châu (mận, đào, sữa, chè): hàng cân thiếu, giá nói thách với khách lạ, mận non gắn mác mận chín"
+  },
+  {
+   "cach_tranh": "Thuê ở homestay/khách sạn đang ở hoặc cửa hàng có đánh giá tốt; chụp ảnh toàn bộ vết xước, kiểm tra phanh/lốp/đèn trước khi nhận; đặt cọc tiền thay vì để giấy tờ gốc nếu được",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao; wikidulich.com — Kinh nghiệm thuê xe máy ở Sapa (mẫu thủ tục chung vùng Tây Bắc) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy ở Mộc Châu: giữ giấy tờ gốc, xe cũ, trả xe bị bắt đền vết xước có sẵn"
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá vé trọn gói và các khoản thu thêm ngay tại quầy vé trước khi mua; giữ vé và hóa đơn",
+   "nguon": "dữ liệu tỉnh Sơn La (giá vé Cầu kính Bạch Long chưa thống nhất giữa các nguồn, ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Cầu kính Bạch Long và các điểm check-in thu phí: giá vé nhiều mức, phụ thu chụp ảnh/trang phục không báo trước"
+  },
+  {
+   "cach_tranh": "Nhắn hỏi chủ nhà về đường vào (ô tô hay chỉ xe máy), phí đưa đón và tiện nghi thật trước khi đặt; đọc đánh giá gần nhất",
+   "nguon": "kinh nghiệm chung du lịch Mộc Châu; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay ở Hang Táu, bản Pá Phách: đặt online khác ảnh thật, đường vào khó, phụ thu đưa đón"
+  }
+ ],
+ "checklist": [
+  "Áo khoác (Mộc Châu se lạnh buổi sáng/tối, nhất là tháng 12–2)",
+  "Áo mưa mỏng, giày đi bộ (đường thác, hang trơn)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (vườn mận, bản làng, quán nhỏ)",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Kem chống nắng",
+  "Hỏi giá vé cầu kính Bạch Long + thác Dải Yếm tại quầy (nhiều mức mâu thuẫn)"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Phoenix Mộc Châu Resort",
+   "Mộc Sa Mộc Châu Hotel"
+  ],
+  "diem": [
+   "Đồi chè trái tim",
+   "Rừng thông Bản Áng (Phoenix)",
+   "Thác Dải Yếm",
+   "Thung lũng mận Nà Ka"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Mộc Châu (Mường Thanh Holiday Mộc Châu)",
+   "Thảo Nguyên Resort Mộc Châu",
+   "Phoenix Mộc Châu Resort"
+  ],
+  "diem_chay": [
+   "Đồi chè trái tim (đích VTM)",
+   "Rừng thông Bản Áng buổi sáng sớm",
+   "Đường quanh thung lũng mận Nà Ka"
+  ],
+  "giai": [
+   {
+    "nguon": "thongtindoingoai.sonla.gov.vn — Cổng thông tin đối ngoại tỉnh Sơn La; vietnamtrailseries.com (ngày kiểm 08/11/2026)",
+    "ten": "Vietnam Trail Marathon (VTM) — Mộc Châu",
+    "thoi_gian": "tháng 1 hằng năm (2026: 31/1; cự ly 5–70 km, xuất phát khu vực Mường Thanh Holiday Mộc Châu, về đích Đồi chè trái tim)"
+   }
+  ],
+  "nguon": "thongtindoingoai.sonla.gov.vn — Vietnam Trail Marathon tại Mộc Châu (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Sơn La (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm thị trấn Nông trường",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hoàng Quốc Việt, thị trấn Nông trường Mộc Châu",
+   "dien_thoai": "0212 2258 886",
+   "gia": "~1.180.000–5.000.000đ/đêm (Traveloka ghi từ 1.277.778đ/đêm)",
+   "hang": "4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt)",
+   "hop_voi": "Gia đình, khách đoàn, khách muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "ongvove.com, traveloka.com, melodious.edu.vn",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Mộc Châu (Mường Thanh Holiday Mộc Châu)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Khu Phiêng Luông",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phiêng Luông, Mộc Châu (tiểu khu 32, thị trấn Nông trường)",
+   "dien_thoai": "0212 3869 666",
+   "gia": "~800.000–1.800.000đ/đêm (có nguồn ghi từ 615.000đ/đêm; villa tới 6.000.000đ/đêm)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình/nhóm bạn nghỉ dưỡng, khách đoàn",
+   "khu_vuc": "trung-tam",
+   "nguon": "ongvove.com, vietgoing.com, melodious.edu.vn",
+   "nguon_dien_thoai": "travelviet.net, sinhtour.vn, mytour.vn, quanlykhachsan.edu.vn, toiphuot.net, giaoducthoidai.vn + trang resort mocchautour.vn (ngày kiểm 08/11/2026) Cập nhật 08/11/2026: gộp với Thảo Nguyên Hotel Mộc Châu (cùng SĐT 0212 3869 666, cùng khu Phiêng Luông); giá dưới tên cũ một nguồn ghi từ ~700.000đ/đêm.",
+   "ten": "Thảo Nguyên Resort Mộc Châu (tên cũ: Thảo Nguyên Hotel Mộc Châu)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Khu Bản Áng",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Rừng thông Bản Áng, xã Đông Sang, Mộc Châu",
+   "dien_thoai": "0212 2488 666",
+   "gia": "~800.000–1.500.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình nghỉ dưỡng ven rừng thông",
+   "khu_vuc": "ban-ang",
+   "nguon": "vietgoing.com, ongvove.com",
+   "nguon_dien_thoai": "tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Phoenix Mộc Châu Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thị trấn",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Mộc Châu (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "Từ ~700.000đ/đêm (chưa kiểm được khoảng trên)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "vietgoing.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Mộc Sa Mộc Châu Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Khu Thảo Nguyên",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thảo Nguyên, Mộc Châu",
+   "dien_thoai": "0965 885 995",
+   "gia": "Từ ~750.000đ/đêm (chưa kiểm được khoảng trên)",
+   "hang": "4 sao (theo Hoteles.com)",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "hoteles.com, vietgoing.com",
+   "nguon_dien_thoai": "mocchauecogarden.com (ngày kiểm 08/11/2026)",
+   "ten": "Mộc Châu Eco Garden",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thị trấn Nông trường",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xóm 2, tiểu khu Cơ quan, thị trấn Nông trường Mộc Châu",
+   "dien_thoai": "0971 660 008",
+   "gia": "~80.000đ/người/đêm",
+   "hang": "Homestay",
+   "hop_voi": "Khách bụi, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "adamviettravel.vn",
+   "nguon_dien_thoai": "tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Bơ House (homestay)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Khu Mường Sang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mường Sang, Mộc Châu (khu cầu kính Bạch Long)",
+   "dien_thoai": "1900 2829",
+   "gia": "Chưa kiểm được khoảng giá hiện hành",
+   "hang": "Resort",
+   "hop_voi": "Gia đình, khách muốn ở gần cầu kính",
+   "khu_vuc": "phia-tay",
+   "nguon": "hoteles.com",
+   "nguon_dien_thoai": "fanpage chính thức Mộc Châu Island (ngày kiểm 08/11/2026)",
+   "ten": "Mộc Châu Island – Mountain Park and Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé thác Dải Yếm (20.000đ / 80.000đ / 150.000đ cùng tồn tại) và Happy Land (~100.000đ — chưa kiểm được chắc chắn)",
+  "Giá vé Ngũ Động Bản Ôn và Hang Táu — chưa kiểm được mức riêng",
+  "Giờ mở cửa hầu hết các điểm Mộc Châu — chưa kiểm được giờ chính thức",
+  "Hạng sao Mường Thanh Mộc Châu (4 sao vs 5 sao) — mâu thuẫn, chưa chốt",
+  "Tên hãng xe + giờ chạy chi tiết tuyến Hà Nội–Mộc Châu; giá limousine tuyến này — chưa kiểm được",
+  "Địa chỉ Nhà hàng Thường Hiền: 1 nguồn ghi tỉnh Điện Biên (lỗi nguồn) — cần kiểm lại",
+  "Giá riêng: rau cải mèo, gà đồi, nậm pịa, sữa chua nếp cẩm — chưa kiểm được giá riêng theo đĩa",
+  "Khoảng giá trên của Thảo Nguyên Hotel, Mộc Sa Hotel, Mộc Châu Eco Garden, Mộc Châu Island Resort — chưa kiểm được",
+  "Giá taxi/thuê ô tô tại Mộc Châu — chưa kiểm được mức riêng",
+  "Giá vé máy bay SGN–HAN — chưa kiểm được mức hiện hành",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 4 điểm từng null (trong đó 3 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 9 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Pha Đin (QL6, ranh giới Sơn La – Điện Biên) dài 32 km, điểm cao nhất 1.648 m, một bên vách núi một bên vực sâu, có 8 cung đường cua nguy hiểm với bán kính cong dưới 15 m và nhiều khúc cua tay áo, cua chữ A, chữ Z, có đoạn chỉ đủ một ô tô đi qua; lưng chừng đèo thường mịt mờ mây phủ. Hiện có tuyến QL6 mới thấp hơn đèo cũ 200–400 m, ít dốc hơn — nếu tay lái yếu nên đi tuyến mới, chỉ chinh phục đèo Pha Đin cũ khi thời tiết tốt, ban ngày, xe số, kiểm tra phanh/lốp/đèn, tốc độ chậm, bấm còi ở cua khuất. Các tuyến Mộc Châu – Sơn La, đường lên Pha Luông, Ngũ Động Bản Ôn: dốc, trơn khi mưa, tránh đi ban đêm và mùa mưa tháng 5–9 khi có cảnh báo sạt lở. Mang CCCD/hộ chiếu và giấy tờ xe đầy đủ; đổ xăng trước khi vào đoạn đèo dài.",
+  "deo": [
+   "Đèo Pha Đin (QL6 Sơn La – Điện Biên): dài 32 km, cao 1.648 m, 8 cung cua nguy hiểm bán kính <15 m, sương mù thường trực",
+   "Đường lên đỉnh Pha Luông (trekking) và Ngũ Động Bản Ôn: dốc đá, trơn khi mưa",
+   "QL6 đoạn Mộc Châu – Sơn La và đường vào Hang Táu, Thác Nàng Tiên: dốc, hẹp, trơn mùa mưa"
+  ],
+  "nguon": "2banh.vn — 4 cung đường đèo thách thức các dân phượt thủ; dailytourviet.vn — 3 con đèo nguy hiểm nhất vùng Tây Bắc (đèo Pha Đin) (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Mộc Châu không có sân bay. Sân bay gần nhất: Nội Bài (HAN), cách Mộc Châu ~180 km (đi xe khách 4–5 giờ). Không có ga tàu tới Mộc Châu.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Xe chạy từ Bến xe Mỹ Đình; chưa kiểm được tên hãng cụ thể và giờ chạy chi tiết — hỏi bến xe trước ngày đi",
+    "gia": "~250.000–300.000đ/chiều (khứ hồi 500.000–600.000đ/người theo 1 nguồn)",
+    "nguon": "nguoiquansat.vn",
+    "phuong_tien": "Xe khách Hà Nội–Mộc Châu",
+    "thoi_gian": "4–5 giờ, ~180 km (QL6)"
+   },
+   {
+    "ghi_chu": "Chưa kiểm được tên hãng cụ thể",
+    "gia": "Chưa kiểm được mức riêng (mặt bằng chung tuyến HN–Tây Bắc 300.000–400.000đ/chiều — chưa kiểm)",
+    "nguon": "Chưa kiểm được nguồn riêng tuyến này",
+    "phuong_tien": "Limousine Hà Nội–Mộc Châu",
+    "thoi_gian": "4–5 giờ"
+   },
+   {
+    "ghi_chu": "QL6 qua Hòa Bình, đèo Thung Khe; tránh chạy đèo ban đêm/ngày mưa",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "cattour.vn",
+    "phuong_tien": "Xe máy / ô tô riêng Hà Nội–Mộc Châu (QL6)",
+    "thoi_gian": "Ô tô 4–5 giờ; xe máy 5–6 giờ"
+   }
+  ],
+  "tu_san_bay": [],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án thực tế nhất. Mộc Châu không có sân bay; sân bay gần nhất là Nội Bài",
+    "gia": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Mộc Châu ~250.000–300.000đ/chiều",
+    "nguon": "nguoiquansat.vn",
+    "phuong_tien": "Máy bay SGN–HAN + xe khách Hà Nội–Mộc Châu",
+    "thoi_gian": "Bay ~2h05 + xe 4–5 giờ (~180 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Xe số leo dốc tốt, tiết kiệm xăng; nhiều cửa hàng tặng 1 lít xăng, áo mưa, mũ bảo hiểm",
+   "gia": "100.000–120.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "buulong.com.vn, motortrip.vn, xemayanthanhphat.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Tay ga hợp đi trong thị trấn; leo đèo yếu hơn xe số",
+   "gia": "120.000–200.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "buulong.com.vn, xemayanthanhphat.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Quãng giữa các điểm 5–25 km; thỏa thuận giá trọn gói theo ngày nếu đi nhiều điểm",
+   "gia": "Chưa kiểm được mức riêng tại Mộc Châu",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Mộc Châu",
+   "phuong_tien": "Taxi nội vùng Mộc Châu"
+  },
+  {
+   "ghi_chu": "Nên thuê khi đi thác Nàng Tiên, Hang Táu, Pha Luông (đường khó)",
+   "gia": "Chưa kiểm được mức riêng tại Mộc Châu",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Mộc Châu",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Bắt buộc với Hang Táu; nên thỏa thuận giá khứ hồi",
+   "gia": "Chưa kiểm được mức riêng (thường tính theo chuyến, hỏi giá trước)",
+   "giay_to": "",
+   "nguon": "phanvantravel.com",
+   "phuong_tien": "Xe ôm vào bản/điểm khó"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tiểu khu Mía Đường, thị trấn Nông trường Mộc Châu",
+   "gia_ve": "20.000–30.000đ/người (nhiều đồi chè khác miễn phí)",
+   "gio_mo_cua": "Ban ngày (đẹp nhất 7:00–10:00 và 15:00–17:00)",
+   "hop_voi": "Cặp đôi, gia đình, giới trẻ check-in",
+   "id": "doi-che-trai-tim",
+   "lat": 20.89052,
+   "lng": 104.6862,
+   "luu_y": "Đồi chè đang canh tác — không giẫm luống chè; thuê trang phục dân tộc ~20.000–30.000đ/bộ (theo 1 nguồn)",
+   "nguon": "sinhtour.vn, phanvantravel.com, skypetips.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đồi chè hình trái tim chụp ảnh rất ăn hình, nhất là sáng sớm có sương — điểm check-in nổi nhất Mộc Châu. Điểm trừ là đông khách cuối tuần, nhiều đồi chè khác miễn phí mà cũng đẹp không kém. Hợp cặp đôi và người thích chụp ảnh; nên đi sớm tránh đông."
+   },
+   "ten": "Đồi chè trái tim",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mường Sang, Mộc Châu (QL43)",
+   "gia_ve": "Chưa kiểm được mức hiện hành — các nguồn ghi 20.000đ / 80.000đ / 150.000đ (gồm khu thác). Khoảng: 80.000–150.000đ/người lớn. Cầu kính Tình Yêu tính riêng ~100.000đ",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Cặp đôi, gia đình, nhóm bạn",
+   "id": "thac-dai-yem",
+   "lat": 20.81849,
+   "lng": 104.59244,
+   "luu_y": "Mùa khô nước cạn nhưng lộ phiến đá rêu — hợp chụp ảnh; đường xuống thác trơn khi mưa",
+   "nguon": "sinhtour.vn, phanvantravel.com, skypetips.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác đẹp, mùa mưa nước trắng xóa rất ấn tượng, gần trung tâm Mộc Châu. Điểm trừ là giá vé các nguồn ghi mâu thuẫn (20.000đ vs 80.000đ) và mùa khô ít nước. Nên đi tháng 5–9, tránh mùa khô."
+   },
+   "ten": "Thác Dải Yếm",
+   "thoi_gian": "1,5–2,5 giờ; đẹp nhất mùa mưa tháng 5–8 (nước lớn)"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mường Sang, Mộc Châu",
+   "gia_ve": "Vé cầu kính ~550.000đ/người lớn (ngày thường), trẻ em 1–1,4 m ~350.000đ; vé tham quan khu (chưa gồm cầu kính) ~100.000đ. Khoảng: 550.000–650.000đ/người lớn",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người thích trải nghiệm mạo hiểm, ngắm cảnh",
+   "id": "cau-kinh-bach-long",
+   "lat": 20.84914,
+   "lng": 104.57142,
+   "luu_y": "Cầu kính dài, cao — không hợp người sợ độ cao; vé cuối tuần/lễ có thể cao hơn ngày thường",
+   "nguon": "phanvantravel.com, skypetips.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cầu kính dài nhất thế giới từng được ghi nhận, view thung lũng rất đẹp — trải nghiệm đáng tiền nếu trời quang. Điểm trừ là vé ~550.000đ/người khá đắt, cuối tuần đông và xếp hàng lâu. Hợp người thích mạo hiểm nhẹ và có ngân sách; người sợ độ cao nên bỏ qua."
+   },
+   "ten": "Cầu kính Bạch Long (Mộc Châu Island)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đông Sang, Mộc Châu",
+   "gia_ve": "80.000–98.000đ/người (trẻ dưới 1 m miễn phí theo 1 nguồn)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Cặp đôi, gia đình, nhóm bạn",
+   "id": "rung-thong-ban-ang",
+   "lat": 20.82724,
+   "lng": 104.63031,
+   "luu_y": "Có hồ, khu cắm trại; hợp picnic nửa ngày",
+   "nguon": "phanvantravel.com, skypetips.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Rừng thông và hồ Bản Áng yên bình, hợp dã ngoại, đạp xe và nghỉ dưỡng — khu Phoenix làm dịch vụ khá tốt. Điểm trừ là vé 80.000–98.000đ/người không rẻ và cuối tuần đông. Hợp gia đình có trẻ nhỏ; nên đi buổi sáng mát."
+   },
+   "ten": "Rừng thông Bản Áng (Phoenix)",
+   "thoi_gian": "1,5–2,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "van-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Chiềng Khoa, Vân Hồ",
+   "gia_ve": "30.000đ/người",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Nhóm bạn, người thích thác hoang sơ",
+   "id": "thac-nang-tien",
+   "lat": 20.84208,
+   "lng": 104.82576,
+   "luu_y": "Đường vào Vân Hồ có đoạn khó đi; hỏi người dân địa phương trước khi vào",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thác 3 tầng nước xanh ngọc, đẹp nhất trong các thác quanh Mộc Châu — nhiều du khách khen là thác đẹp nhất vùng. Điểm trừ là cách trung tâm ~25 km, đường vào có đoạn khó. Hợp người thích thác và chụp ảnh; nên đi mùa mưa."
+   },
+   "ten": "Thác Nàng Tiên",
+   "thoi_gian": "1,5–2,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Mộc Châu (khu vực Tà Số — chưa kiểm được địa chỉ chính xác)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành (thường thuê xe ôm vào bản)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Nhóm bạn, người thích trải nghiệm bản làng hoang sơ",
+   "id": "hang-tau",
+   "lat": 20.885,
+   "lng": 104.665,
+   "luu_y": "Bản không điện, không sóng điện thoại; đường vào xấu, phải đi xe ôm/xe địa hình; mang đủ nước, sạc dự phòng Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực ngã ba Tà Số – Hang Táu (bản Tà Số 1, xã Chiềng Hắc).",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "antamtour.vn, aivivu.com, kamesteps.com; Google Maps",
+    "nhan_xet": "Làng Mông nguyên thủy, không điện không sóng — yên bình và khác biệt hoàn toàn với Mộc Châu ồn ào. Điểm trừ là đường vào 3–4 km đường đất đá gập ghềnh, ô tô không vào được, phải thuê xe ôm hoặc đi bộ. Chỉ hợp người thích trải nghiệm thật và đi xe tốt; người say xe hoặc đi ô tô nên cân nhắc."
+   },
+   "ten": "Hang Táu (làng nguyên thủy)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Nông trường Mộc Châu",
+   "gia_ve": "Vườn mận tư nhân 30.000–50.000đ/người (tiền hái/mua quả tính riêng)",
+   "gio_mo_cua": "Ban ngày; đẹp nhất tháng 1–2 hoa mận, tháng 5–6 mận chín",
+   "hop_voi": "Cặp đôi, gia đình, người thích chụp ảnh",
+   "id": "thung-lung-man-na-ka",
+   "lat": 20.89682,
+   "lng": 104.65334,
+   "luu_y": "Hoa/quả theo mùa — ngoài mùa chỉ còn đồi cây; hỏi chủ vườn trước",
+   "nguon": "phanvantravel.com, cattour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thung lũng mận đẹp nhất mùa hoa tháng 1–2 và mùa mận chín tháng 5–6 — chụp ảnh và hái mận đều vui. Điểm trừ là ngoài 2 mùa đó thì chỉ là vườn mận thường, vé vườn 30.000–50.000đ/người. Chỉ nên đi đúng mùa hoa hoặc mùa quả."
+   },
+   "ten": "Thung lũng mận Nà Ka",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Lùn, xã Mường Sang, Mộc Châu (chưa kiểm được số nhà)",
+   "gia_ve": "~100.000đ/người (combo cổng + 5 trò — theo 1 nguồn 2026; chưa kiểm được chắc chắn)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "happy-land",
+   "lat": 20.8366,
+   "lng": 104.58436,
+   "luu_y": "Khu vui chơi + hoa theo mùa; kiểm tra giá combo tại quầy",
+   "nguon": "phanvantravel.com, cattour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Khu vui chơi – hoa rộng, nhiều góc check-in, hợp gia đình có trẻ nhỏ. Điểm trừ là vé combo ~100.000đ/người (theo 1 nguồn 2026, chưa kiểm chắc) và nhiều trò mang tính dựng cảnh. Hợp gia đình; người thích thiên nhiên hoang sơ có thể thấy không cần thiết."
+   },
+   "ten": "Happy Land Mộc Châu",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đông Sang, Mộc Châu (chưa kiểm được địa chỉ chính xác)",
+   "gia_ve": "Chưa kiểm được mức riêng (nhiều nguồn gộp trong khoảng vé tham quan 30.000–100.000đ)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Nhóm bạn, người thích hang động",
+   "id": "ngu-dong-ban-on",
+   "lat": 20.84,
+   "lng": 104.645,
+   "luu_y": "Hệ thống 5 hang động; đường vào có đoạn dốc, mang đèn pin/giày bám tốt Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực xã Đông Sang, gần Rừng thông Bản Áng.",
+   "nguon": "nguoiquansat.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hệ thống 5 hang động liên hoàn, thạch nhũ đẹp, ít khách — hợp người thích khám phá hang. Điểm trừ là địa chỉ chính xác và giá vé chưa kiểm được, đường vào khó tìm. Nên đi cùng người địa phương hoặc hỏi kỹ trước."
+   },
+   "ten": "Ngũ Động Bản Ôn",
+   "thoi_gian": "1,5–2,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "van-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tân Xuân, Vân Hồ (biên giới Việt – Lào)",
+   "gia_ve": "Chưa kiểm được mức vé/chi phí porter — cần xin phép đồn biên phòng, đi theo nhóm có hướng dẫn",
+   "gio_mo_cua": "Theo lịch tour (thường 2 ngày 1 đêm)",
+   "hop_voi": "Người đã có kinh nghiệm trekking",
+   "id": "dinh-pha-luong",
+   "lat": 20.7833,
+   "lng": 104.1833,
+   "luu_y": "Đỉnh cao ~2.000 m, view biên giới; BẮT BUỘC xin phép biên phòng trước, không tự leo; mang giấy tờ tùy thân Tọa độ xấp xỉ, cần kiểm lại — đỉnh biên giới Việt – Lào, xã Tân Xuân, Vân Hồ.",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Đỉnh biên giới nổi tiếng của dân trekking, view mây và núi đá vôi rất đẹp. Điểm trừ là cung khó, phải xin phép đồn biên phòng, chi phí porter chưa có giá công khai. Chỉ hợp người đã trekking và khỏe; người mới không nên tự đi."
+   },
+   "ten": "Đỉnh Pha Luông (trekking)",
+   "thoi_gian": "2 ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 6, phường Mộc Sơn, Mộc Châu (ngay sát trung tâm thị trấn)",
+   "gia_ve": "Khoảng 10.000–15.000đ/người (các nguồn ghi 10.000đ, có nguồn ghi 15.000đ — chưa thống nhất)",
+   "gio_mo_cua": "Khoảng 6:00–17:00 (theo nguồn cũ, chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình, người thích hang động",
+   "id": "hang-doi-moc-chau",
+   "lat": 20.849,
+   "lng": 104.63,
+   "luu_y": "Di tích quốc gia, mệnh danh 'Tây Thiên đệ nhất động', diện tích gần 7.000 m², 3 khoang lớn với thạch nhũ đẹp. Tọa độ xấp xỉ, cần kiểm lại. Leo 240 bậc, đường dốc và trơn khi mưa — mang giày chắc, người yếu tim/khó đi lại cân nhắc.",
+   "nguon": "yootek.vn, sinhtour.vn, tripi.vn, travel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps (4/5); yootek.vn, tripi.vn, sinhtour.vn",
+    "nhan_xet": "Hang đẹp và rẻ, ngay trung tâm Mộc Châu nên rất đáng ghép vào buổi sáng hoặc chiều — nhiều du khách khen thạch nhũ và không gian mát. Điểm yếu là phải leo 240 bậc khá dốc, trong hang tối và ẩm. Hợp gia đình khỏe; người sợ tối hoặc khó leo nên cân nhắc."
+   },
+   "ten": "Hang Dơi (Động Sơn Mộc Hương)",
+   "thoi_gian": "1–1,5 giờ (leo 240 bậc thang)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "van-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Chiềng Yên, Vân Hồ (cách Mộc Châu ~35 km)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Nhóm bạn, người thích thác hoang sơ",
+   "id": "thac-tat-nang",
+   "lat": 20.79,
+   "lng": 104.52,
+   "luu_y": "Thác ở Vân Hồ, cùng cụm với thác Nàng Tiên và đỉnh Pha Luông — hợp ghép trong ngày đi Vân Hồ. Tọa độ xấp xỉ, cần kiểm lại. Đường vào có đoạn khó, mùa mưa trơn; hỏi người dân trước khi vào.",
+   "nguon": "dulichviet.com.vn, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Thác hoang sơ, ít người, nước đẹp vào mùa mưa — hợp người thích khám phá hơn là check-in đông đúc. Điểm yếu là thông tin ít, giá vé và đường đi chưa kiểm được chắc. Chỉ hợp đi cùng người địa phương hoặc nhóm đã quen đường rừng."
+   },
+   "ten": "Thác Tạt Nàng",
+   "thoi_gian": "1,5–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "van-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đông Sang, Vân Hồ (cách Mộc Châu ~25 km)",
+   "gia_ve": "Miễn phí vào bản (dịch vụ homestay/ăn uống tính riêng)",
+   "gio_mo_cua": "Cả ngày; đẹp nhất tháng 11–12 mùa hoa cải trắng",
+   "hop_voi": "Người thích chụp ảnh, gia đình",
+   "id": "ban-pa-phach",
+   "lat": 20.8,
+   "lng": 104.58,
+   "luu_y": "Bản người Mông nổi tiếng với đồi hoa cải trắng nở tháng 11–12, cùng cụm Vân Hồ với thác Nàng Tiên. Tọa độ xấp xỉ, cần kiểm lại. Ngoài mùa hoa thì bản yên bình nhưng ít điểm chơi; đi xe tốt vì đường đồi.",
+   "nguon": "dulichviet.com.vn, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Mùa hoa cải trắng tháng 11–12 thì Pá Phách rất đẹp và đáng đi, ảnh lên hình tốt hơn nhiều điểm khác ở Mộc Châu. Điểm yếu là ngoài mùa hoa thì không có gì nổi bật, dễ thất vọng nếu đi sai mùa. Chỉ nên đi đúng mùa hoa, ghép cùng thác Nàng Tiên trong ngày."
+   },
+   "ten": "Bản Pá Phách (bản hoa cải)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đồi chè trái tim",
+   "gio": "7:00-10:00 sáng sớm có sương; 15:00-17:00 nắng chiều",
+   "nguon": "dữ liệu tỉnh Sơn La (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Thác Dải Yếm",
+   "gio": "8:00-10:00 nắng xiên qua thác; đẹp nhất mùa mưa tháng 5–8 nước lớn",
+   "nguon": "dữ liệu tỉnh Sơn La (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Rừng thông Bản Áng (Phoenix)",
+   "gio": "6:30-8:00 bình minh trên hồ; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Sơn La (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào hang Dơi và Ngũ Động Bản Ôn — tránh đồi chè, thác và Pha Luông vì đường đất trơn. (Sơn La ít điểm trong nhà, chỉ 2 điểm chắc chắn.)",
+  "diem": [
+   "Hang Dơi (Động Sơn Mộc Hương)",
+   "Ngũ Động Bản Ôn"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "doi-che-trai-tim, rung-thong-ban-ang",
+    "hoat_dong": "Đồi chè trái tim + rừng thông Bản Áng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-dai-yem, cau-kinh-bach-long",
+    "hoat_dong": "Thác Dải Yếm + cầu kính Bạch Long",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối: bê chao, cá suối",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thung-lung-man-na-ka, thac-nang-tien",
+    "hoat_dong": "Thung lũng mận Nà Ka (theo mùa) hoặc thác Nàng Tiên",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về, trả phòng",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "doi-che-trai-tim",
+    "hoat_dong": "Tới Mộc Châu, nhận phòng; đồi chè trái tim (1–1,5 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "rung-thong-ban-ang, thung-lung-man-na-ka",
+    "hoat_dong": "Rừng thông Bản Áng (1,5–2,5 giờ); thung lũng mận Nà Ka (theo mùa)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối: bê chao, cá suối tại quán 70 / Xuân Bắc 181",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thac-dai-yem, cau-kinh-bach-long",
+    "hoat_dong": "Thác Dải Yếm (1,5–2,5 giờ) + cầu kính Bạch Long (2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "happy-land, ngu-dong-ban-on",
+    "hoat_dong": "Happy Land (2–3 giờ) hoặc Ngũ Động Bản Ôn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối: cá hồi 64 / lẩu trâu",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thac-nang-tien",
+    "hoat_dong": "Thác Nàng Tiên (1,5–2,5 giờ, Vân Hồ)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Mua đặc sản (sữa chua, mận theo mùa); trả phòng, về Hà Nội",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "doi-che-trai-tim, rung-thong-ban-ang, thung-lung-man-na-ka",
+    "hoat_dong": "Như ngày 1 lịch trình 3N2Đ (đồi chè + Bản Áng + Nà Ka)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "thac-dai-yem, cau-kinh-bach-long, happy-land",
+    "hoat_dong": "Như ngày 2 lịch trình 3N2Đ (Dải Yếm + Bạch Long + Happy Land)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "thac-nang-tien, hang-tau",
+    "hoat_dong": "Thác Nàng Tiên buổi sáng; chiều Hang Táu (nửa ngày)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ngu-dong-ban-on",
+    "hoat_dong": "Ngũ Động Bản Ôn; chiều mua đặc sản, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "Mộc Châu",
+  "best_season": "Tháng 1–2 hoa đào, hoa mận; tháng 5–8 mận chín, thác nhiều nước; tháng 9–11 hoa tam giác mạch, dã quỳ, hồng chín; tháng 12 hoa cải trắng",
+  "destination": "Mộc Châu, Sơn La",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "son-la",
+  "lat": 20.85459,
+  "lng": 104.61838,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "sinhtour.vn",
+   "phanvantravel.com",
+   "skypetips.com",
+   "cattour.vn",
+   "nguoiquansat.vn",
+   "dulich9.com",
+   "vanantravel.vn",
+   "mytour.vn",
+   "dulichmocchau.net",
+   "buulong.com.vn",
+   "sharehomevn.com",
+   "ongvove.com",
+   "vietgoing.com",
+   "traveloka.com",
+   "hoteles.com",
+   "adamviettravel.vn",
+   "motortrip.vn",
+   "xemayanthanhphat.com"
+  ],
+  "province": "Sơn La",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 1–2 hoa đào, hoa mận; tháng 5–8 mận chín, thác nhiều nước; tháng 9–11 hoa tam giác mạch, dã quỳ, hồng chín; tháng 12 hoa cải trắng"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "Sở Y tế tỉnh Sơn La — Thông báo cơ sở đủ điều kiện hoạt động tiêm chủng (văn bản đăng trên storage-vnportal.vnpt.vn) (ngày kiểm 08/11/2026)",
+    "so": "0212 3852 326",
+    "ten": "Bệnh viện Đa khoa tỉnh Sơn La"
+   },
+   {
+    "nguon": "suckhoe.thebank.vn — danh bạ Bệnh viện Đa khoa Thảo Nguyên (ngày kiểm 08/11/2026)",
+    "so": "0212 3866 046",
+    "ten": "Bệnh viện Đa khoa Thảo Nguyên (Mộc Châu)"
+   }
+  ]
+ }
+}

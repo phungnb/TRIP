@@ -1,0 +1,950 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn chiều / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–45.000đ/tô",
+   "mon": "Bún đỏ Buôn Ma Thuột",
+   "nguon": "bookingdaklak.com, ninhtito.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bookingdaklak.com, ninhtito.com, mytour.vn",
+    "nhan_xet": "Bún đỏ là món phải ăn ở Buôn Ma Thuột: sợi bún đỏ gạch cua, nước dùng đậm đà, 20.000–45.000đ/tô, hợp ăn chiều và tối. Quán Vân (79 Lê Hồng Phong) và Thúy được nhắc nhiều; nên đi chiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "79 Lê Hồng Phong, TP Buôn Ma Thuột",
+     "gia": "25.000–45.000đ/tô, 15:00–02:00",
+     "ten": "Bún đỏ Vân (Bún đỏ cô Vân)"
+    },
+    {
+     "dia_chi": "1 Phan Đình Giót, TP Buôn Ma Thuột",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Bún đỏ Thúy"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–80.000đ/người (tùy số đĩa)",
+   "mon": "Bánh ướt thịt nướng (bánh ướt chồng dĩa)",
+   "nguon": "bookingdaklak.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bookingdaklak.com, mytour.vn",
+    "nhan_xet": "Bánh ướt thịt nướng chồng dĩa là trải nghiệm vui: ăn bao nhiêu đĩa tính tiền bấy nhiêu, 15.000–80.000đ/người tùy số đĩa. Quán Ông Ù và Ban Mê 90 được nhắc nhiều; nên đi nhóm đông."
+   },
+   "quan": [
+    {
+     "dia_chi": "43–45 Trần Nhật Duật, TP Buôn Ma Thuột",
+     "gia": "15.000–30.000đ",
+     "ten": "Bánh ướt Ông Ù"
+    },
+    {
+     "dia_chi": "90A Lê Thánh Tông, TP Buôn Ma Thuột",
+     "gia": "20.000–50.000đ",
+     "ten": "Bánh ướt Ban Mê 90"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "40.000–70.000đ/tô",
+   "mon": "Bún chìa",
+   "nguon": "bookingdaklak.com, ninhtito.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bookingdaklak.com, ninhtito.com",
+    "nhan_xet": "Bún chìa giò heo to, nước dùng ngọt, 40.000–70.000đ/tô, hợp ăn sáng. Quán Cô Chua (226 Nguyễn Tất Thành) và Bà Mô được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "226 Nguyễn Tất Thành, TP Buôn Ma Thuột",
+     "gia": "40.000–70.000đ/tô",
+     "ten": "Bún chìa Cô Chua"
+    },
+    {
+     "dia_chi": "200 Lý Thường Kiệt, TP Buôn Ma Thuột",
+     "gia": "~60.000đ/tô",
+     "ten": "Bún chìa Bà Mô"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Gà 200.000–250.000đ/con; cơm lam 15.000–30.000đ/ống",
+   "mon": "Gà nướng cơm lam",
+   "nguon": "ninhtito.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ninhtito.com, mytour.vn",
+    "nhan_xet": "Gà nướng cơm lam ở buôn Akõ Dhông thơm ngon, gà 200.000–250.000đ/con, cơm lam 15.000–30.000đ/ống; hợp ăn trưa và tối theo nhóm. Quán Tân An Viên được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "Cuối đường Trần Nhật Duật, buôn Akõ Dhông, TP Buôn Ma Thuột",
+     "gia": "~500.000đ/bữa nhóm (theo nguồn Ninh Tito)",
+     "ten": "Gà nướng cơm lam Tân An Viên"
+    },
+    {
+     "dia_chi": "Buôn Akõ Dhông, TP Buôn Ma Thuột",
+     "gia": "Gà 200.000–250.000đ/con",
+     "ten": "Quán gà nướng khu vực buôn Akõ Dhông"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 150.000–300.000đ/người",
+   "mon": "Bò nhúng me",
+   "nguon": "ninhtito.com, bookingdaklak.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ninhtito.com, bookingdaklak.com",
+    "nhan_xet": "Bò nhúng me chua ngọt lạ miệng, ~150.000–300.000đ/người, hợp ăn tối theo nhóm. Quán Cà Te (140 Lê Thánh Tông) được nhắc nhiều; giá riêng chưa kiểm được."
+   },
+   "quan": [
+    {
+     "dia_chi": "140 Lê Thánh Tông, TP Buôn Ma Thuột",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bò nhúng me Cà Te"
+    },
+    {
+     "dia_chi": "TP Buôn Ma Thuột (chưa kiểm được tên cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bò nhúng me khu vực trung tâm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–22.000đ/tô",
+   "mon": "Bánh canh cá dầm",
+   "nguon": "ninhtito.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ninhtito.com",
+    "nhan_xet": "Bánh canh cá dầm ngọt nước, cá dầm mềm, 15.000–22.000đ/tô, hợp ăn sáng và trưa. Quán Hương (63 Hai Bà Trưng) được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "63 Hai Bà Trưng, TP Buôn Ma Thuột",
+     "gia": "15.000–22.000đ/tô",
+     "ten": "Bánh canh cá dầm Hương"
+    },
+    {
+     "dia_chi": "Chợ Buôn Ma Thuột, TP Buôn Ma Thuột",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bánh canh khu vực chợ Buôn Ma Thuột"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/người (chưa kiểm được giá chính xác)",
+   "mon": "Cơm đồng bào Ê Đê",
+   "nguon": "bookingdaklak.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bookingdaklak.com, mytour.vn",
+    "nhan_xet": "Cơm đồng bào Ê Đê là bữa ăn văn hóa, 150.000–300.000đ/người, hợp ăn trưa và tối theo nhóm; khu du lịch Ko Tam được nhắc nhiều. Nhược điểm là giá chính xác chưa kiểm được."
+   },
+   "quan": [
+    {
+     "dia_chi": "Buôn Akõ Dhông, TP Buôn Ma Thuột",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng cơm đồng bào khu vực buôn Akõ Dhông"
+    },
+    {
+     "dia_chi": "Km 8, Quốc lộ 26, TP Buôn Ma Thuột",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Khu du lịch Ko Tam"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–400.000đ/nồi (chưa kiểm được giá chính xác)",
+   "mon": "Lẩu cá lăng sông Sêrêpốk",
+   "nguon": "bookingdaklak.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "bookingdaklak.com",
+    "nhan_xet": "Lẩu cá lăng sông Sêrêpốk ngọt thịt, 200.000–400.000đ/nồi, hợp ăn tối theo nhóm. Nhược điểm là quán cụ thể chưa kiểm được tên; nên hỏi dân địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Buôn Đôn, huyện Buôn Đôn (chưa kiểm được tên cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán lẩu cá lăng khu vực Buôn Đôn"
+    },
+    {
+     "dia_chi": "TP Buôn Ma Thuột",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn khu vực trung tâm BMT"
+    }
+   ]
+  },
+  {
+   "buoi": "Uống sáng / chiều",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–50.000đ/ly (cà phê kem chưa kiểm được giá riêng)",
+   "mon": "Cà phê Buôn Ma Thuột (cà phê kem)",
+   "nguon": "ninhtito.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ninhtito.com, mytour.vn",
+    "nhan_xet": "Cà phê Buôn Ma Thuột đậm đà, cà phê kem béo thơm, 15.000–50.000đ/ly; hợp uống sáng và chiều. Nên uống ở Làng Cà phê Trung Nguyên hoặc khu vực Bảo tàng Cà phê."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lý Thái Tổ, TP Buôn Ma Thuột",
+     "gia": "Theo menu, 20.000–60.000đ/ly",
+     "ten": "Làng Cà phê Trung Nguyên"
+    },
+    {
+     "dia_chi": "Đường Nguyễn Đình Chiểu, TP Buôn Ma Thuột",
+     "gia": "20.000–50.000đ/ly",
+     "ten": "Quán cà phê khu vực Bảo tàng Cà phê"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–BMT khứ hồi",
+   "uoc_tinh": "1.800.000–3.800.000đ"
+  },
+  {
+   "hang_muc": "Xe khách SG–BMT khứ hồi (nếu đi xe)",
+   "uoc_tinh": "500.000–800.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+   "uoc_tinh": "500.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Bảo tàng Cà phê là khoản lớn nhất)",
+   "uoc_tinh": "200.000–400.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng",
+   "uoc_tinh": "300.000–500.000đ"
+  },
+  {
+   "hang_muc": "Taxi/phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi xe khách)",
+   "uoc_tinh": "2.100.000–3.900.000đ/người"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi máy bay)",
+   "uoc_tinh": "3.400.000–7.200.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi rõ giá tour đã gồm những gì trước khi mua; cân nhắc chọn tour ngắm voi, thăm buôn làng thay vì cưỡi voi.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê voi, cưỡi voi và tour ở Buôn Đôn: giá không thống nhất, chèo kéo; cưỡi voi gây tranh cãi về phúc lợi động vật."
+  },
+  {
+   "cach_tranh": "Mua tại cửa hàng có thương hiệu, bao bì, nguồn gốc rõ ràng; so giá 2-3 nơi trước khi mua số lượng lớn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua cà phê, đặc sản ở chợ Buôn Ma Thuột và khu vực Bảo tàng Thế giới Cà phê: cà phê trộn, giá hét cao với khách lạ."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Buôn Ma Thuột và sân bay Buôn Ma Thuột hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác mỏng (BMT lạnh buổi sáng/tối)",
+  "Mũ, kem chống nắng, áo mưa mỏng",
+  "Giày đi bộ (thác Dray Nur đường đá trơn; Buôn Đôn cầu treo)",
+  "Đồ bơi (nếu tắm thác — kiểm quy định tại điểm)",
+  "Tiền mặt lẻ (quán nhỏ, buôn làng)",
+  "Thuốc chống côn trùng, thuốc cơ bản, sạc dự phòng"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn 3 sao trung tâm Buôn Ma Thuột",
+   "Lak Tented Camp (hồ Lắk)"
+  ],
+  "diem": [
+   "Hồ Lắk",
+   "Bảo tàng Thế giới Cà phê",
+   "Thác Dray Nur",
+   "Buôn Akõ Dhông (buôn Cô Thôn)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Buôn Ma Thuột",
+   "Khách sạn Dakruco",
+   "Khách sạn Sài Gòn – Ban Mê"
+  ],
+  "diem_chay": [
+   "Quảng trường 10/3, TP Buôn Ma Thuột (điểm xuất phát giải)",
+   "Đường quanh hồ Ea Kao",
+   "Đường ven hồ Lắk buổi sáng"
+  ],
+  "giai": [
+   {
+    "nguon": "Sở VH-TT-DL Đắk Lắk — Điều lệ giải chạy bộ Buôn Ma Thuột Half Marathon 2025; Báo Đắk Lắk — Thông điệp từ những bước chạy (24/6/2025) (ngày kiểm 08/11/2026)",
+    "ten": "Buôn Ma Thuột Half Marathon — 50 năm Bản Hùng ca Tây Nguyên",
+    "thoi_gian": "Tháng 6 (mùa 2025: 8/6/2025)"
+   }
+  ],
+  "nguon": "Điều lệ giải của Sở VH-TT-DL Đắk Lắk; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm, cách Bảo tàng Cà phê ~2 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "81 Nguyễn Tất Thành, TP Buôn Ma Thuột",
+   "dien_thoai": "0262 3961 555",
+   "gia": "~1.000.000–2.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "5 sao (chưa kiểm được hạng chính xác)",
+   "hop_voi": "Gia đình, khách đoàn",
+   "khu_vuc": "trung-tam",
+   "nguon": "booking.muongthanh.com",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Buôn Ma Thuột",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "30 Nguyễn Chí Thanh, TP Buôn Ma Thuột",
+   "dien_thoai": "0262 3970 888",
+   "gia": "~800.000–1.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "mytour.vn, tripi.vn + FB chính thức Dakruco Hotel (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Dakruco",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "01–03 Phan Chu Trinh, TP Buôn Ma Thuột",
+   "dien_thoai": "0262 3685 666",
+   "gia": "~800.000–1.600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "mytour.vn, tripi.vn + FB chính thức (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Sài Gòn – Ban Mê",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm, gần chợ Buôn Ma Thuột",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực đường Lê Thánh Tông – Nguyễn Tất Thành, TP Buôn Ma Thuột",
+   "dien_thoai": null,
+   "gia": "~500.000–900.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi, khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "localtrips.org",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn 3 sao trung tâm Buôn Ma Thuột",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát hồ Lắk, cách trung tâm ~56 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ven hồ Lắk, thị trấn Liên Sơn, huyện Lắk",
+   "dien_thoai": "0262 6255 552",
+   "gia": "~1.000.000–2.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Khu cắm trại/glamping (không hạng sao)",
+   "hop_voi": "Cặp đôi, nhóm bạn thích glamping",
+   "khu_vuc": "ho-lak",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "mia.vn, blog.vexere.com, limoutrip.com, tripi.vn, mytour.vn, Google Travel (ngày kiểm 08/11/2026)",
+   "ten": "Lak Tented Camp (hồ Lắk)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực trung tâm TP Buôn Ma Thuột (chưa kiểm được tên + địa chỉ cụ thể)",
+   "dien_thoai": null,
+   "gia": "~250.000–600.000đ/đêm (chưa kiểm được)",
+   "hang": "Homestay (không hạng sao)",
+   "hop_voi": "Khách bụi, nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "localtrips.org",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Buôn Ma Thuột",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát khu du lịch Buôn Đôn, cách trung tâm ~40 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực Buôn Đôn, huyện Buôn Đôn (chưa kiểm được tên + số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách muốn ở lại Buôn Đôn 1 đêm",
+   "khu_vuc": "buon-don",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ Buôn Đôn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 6 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Khu du lịch Buôn Đôn (Bản Đôn), Thác Dray Sáp (thác Chồng), Hồ Lắk, Biệt điện Bảo Đại (hồ Lắk), Tháp Nhạn (Tuy Hòa — Phú Yên cũ), Bãi biển Tuy Hòa (Phú Yên cũ)",
+  "Giá vé Bảo tàng Thế giới Cà phê: mâu thuẫn mạnh — nguồn cũ 70.000–75.000đ, nguồn 2026 ghi 150.000đ/người lớn, gói trải nghiệm 200.000–350.000đ; lấy 150.000đ theo nguồn mới, cần xác nhận lại tại quầy.",
+  "Giá vé Buôn Đôn: 30.000–50.000đ vs 40.000đ; giá vé Yok Đôn, Dray Sáp, Biệt điện Bảo Đại (chưa có mức chính thức)",
+  "Giá vé tàu/xe khách HN–BMT; giá xe khách SG–BMT chính xác từng hãng",
+  "Giá taxi nội thành BMT theo km; giá thuê ô tô có tài xế riêng BMT",
+  "Địa chỉ + số nhà: Mường Thanh Luxury BMT, Dakruco, Sài Gòn–Ban Mê, Lak Tented Camp, nhà nghỉ Buôn Đôn, homestay BMT",
+  "Giá bò nhúng me, cơm đồng bào, lẩu cá lăng, cà phê kem (chưa có mức riêng)",
+  "Giờ mở cửa: Bảo tàng Cà phê, Buôn Đôn, chùa Khải Đoan, Làng Cà phê Trung Nguyên",
+  "Khoảng cách sân bay BMV–trung tâm: 8 km vs 10 km (nguồn khác nhau)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Tháp Nhạn (Tuy Hòa — Phú Yên cũ), Bãi biển Tuy Hòa (Phú Yên cũ), Gành Đá Đĩa (Tuy An — Phú Yên cũ) — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đắk Lắk có đèo Phượng Hoàng (quốc lộ 26, dài khoảng 12 km, cua tay áo liên tiếp, một bên vực sâu) và đèo Hà Lan (quốc lộ 26, dốc dài, cua gấp). Đi xe máy: đi chậm, không vượt ở cua khuất, kiểm tra phanh; mùa mưa dễ sạt lở, đất đá tràn mặt đường — xem dự báo và hỏi người dân trước khi qua đèo.",
+  "deo": [
+   "Đèo Phượng Hoàng (quốc lộ 26, dài khoảng 12 km, cua tay áo liên tiếp, từng được gọi là 'đèo tử thần'; mưa lớn gây sạt lở, đất đá tràn đường)",
+   "Đèo Hà Lan (quốc lộ 26, dốc dài, cua gấp)"
+  ],
+  "nguon": "Tuổi Trẻ — Mưa lớn cận kề, các tuyến đèo ở Khánh Hòa hiện nay ra sao? (08/11/2026): đèo Phượng Hoàng nối Đắk Lắk — Khánh Hòa, km35+500 quốc lộ 26 qua xã Ea Trang từng sạt lở, đất bùn tràn đường; Đèo Cả — tùy bút Hầm Phượng Hoàng: đèo dài khoảng 12 km, cua tay áo, một bên vực sâu (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu": "Sân bay Buôn Ma Thuột (BMV) cách trung tâm ~8–10 km. Lưu ý: từ 07/2025 tỉnh Phú Yên sáp nhập vào Đắk Lắk — sân bay Tuy Hòa nay thuộc địa giới Đắk Lắk nhưng cách Buôn Ma Thuột ~180 km.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air",
+    "gia": "Một chiều ~1.299.000–2.600.000đ (Vietnam Airlines 1.299.000đ/chiều chưa thuế phí theo nguồn VietAIR; đã gồm thuế phí ~1.780.000đ theo nguồn khác)",
+    "nguon": "vietair.com.vn, vietnambooking.com",
+    "phuong_tien": "Máy bay HAN–BMV",
+    "thoi_gian": "Bay ~1h50"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Xe khách HN–Buôn Ma Thuột",
+    "thoi_gian": "~24–28 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Phương án đường bộ dài, không khuyến khích",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Tàu HN–ga Nha Trang + xe lên BMT",
+    "thoi_gian": "Tàu ~24 giờ + xe ~4–5 giờ (chưa kiểm được chính xác)"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Sân bay Buôn Ma Thuột (BMV), xã Hòa Thắng",
+    "gia": "100.000–120.000đ/chuyến",
+    "nguon": "vietnambooking.com, vietair.com.vn",
+    "phuong_tien": "Taxi sân bay BMV – trung tâm",
+    "thoi_gian": "~20 phút, ~8–10 km"
+   },
+   {
+    "ghi_chu": "Tuyến ít, kiểm giờ trước",
+    "gia": "8.000–10.000đ/lượt",
+    "nguon": "vietnambooking.com",
+    "phuong_tien": "Xe buýt sân bay",
+    "thoi_gian": "~30 phút"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air; ~3–5 chuyến/ngày",
+    "gia": "Một chiều đã gồm thuế phí ~896.000–1.905.000đ (Vietjet 896.000–1.544.000đ; Vietnam Airlines 1.054.000–1.905.000đ)",
+    "nguon": "vietnambooking.com, vietair.com.vn",
+    "phuong_tien": "Máy bay SGN–BMV",
+    "thoi_gian": "Bay ~1h–1h05"
+   },
+   {
+    "ghi_chu": "Đi đêm, sáng tới BMT; bến xe phía Nam Buôn Ma Thuột",
+    "gia": "~250.000–400.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+    "nguon": "dulich9.com",
+    "phuong_tien": "Xe khách giường nằm SG–Buôn Ma Thuột",
+    "thoi_gian": "~7–9 giờ"
+   },
+   {
+    "ghi_chu": "QL14 qua Bình Phước – Đắk Nông; đèo dốc, tránh chạy đêm",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "dulich9.com",
+    "phuong_tien": "Xe máy/ô tô riêng SG–BMT (QL14)",
+    "thoi_gian": "Ô tô ~7–8 giờ; xe máy ~9–11 giờ (~350 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Giao xe tận sân bay/trung tâm miễn phí theo nhiều cửa hàng",
+   "gia": "80.000–150.000đ/ngày (Wave/Sirius 120.000–150.000đ/ngày theo nguồn BMT)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "atdanang.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Đi Buôn Đôn/hồ Lắk đường xa — ưu tiên xe số",
+   "gia": "120.000–150.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "atdanang.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh, taxi địa phương; Grab hạn chế",
+   "gia": "Chưa kiểm được giá/km riêng — taxi sân bay–trung tâm 100.000–120.000đ/chuyến",
+   "giay_to": "—",
+   "nguon": "vietnambooking.com",
+   "phuong_tien": "Taxi nội thành Buôn Ma Thuột"
+  },
+  {
+   "ghi_chu": "Hợp gia đình đi Buôn Đôn + hồ Lắk",
+   "gia": "Xe 4 chỗ ~900.000đ/ngày; 7 chỗ ~1.000.000đ/ngày (theo mặt bằng chung, chưa kiểm được giá riêng BMT)",
+   "giay_to": "—",
+   "nguon": "chưa kiểm được nguồn giá riêng",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Trung tâm BMT nhỏ, đi bộ được quanh chợ + Bảo tàng Cà phê",
+   "gia": "Chưa kiểm được giá thuê riêng",
+   "giay_to": "—",
+   "nguon": "bookingdaklak.com",
+   "phuong_tien": "Xe đạp / đi bộ quanh trung tâm"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": "2",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Nguyễn Đình Chiểu, TP Buôn Ma Thuột",
+   "gia_ve": "Người lớn ~150.000đ (nguồn 2026; nguồn cũ ghi 70.000–75.000đ — mâu thuẫn); trẻ em 40.000đ (7–12 tuổi); gói tham quan + trải nghiệm 200.000–350.000đ (theo mia.vn)",
+   "gio_mo_cua": "Khoảng 8:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người yêu cà phê",
+   "id": "bao-tang-ca-phe",
+   "lat": 12.69115,
+   "lng": 108.04458,
+   "luu_y": "Kiến trúc nhà dài Ê Đê độc đáo; có khu thử cà phê (tính phí riêng)",
+   "nguon": "phanvantravel.com, localtrips.org, datviettour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor, mia.vn, datviettour.com.vn, localtrips.org",
+    "nhan_xet": "Bảo tàng Thế giới Cà phê kiến trúc nhà dài Ê Đê độc đáo, check-in rất đẹp, trưng bày hơn 10.000 hiện vật cà phê; TripAdvisor chấm 3,4/5. Giá vé mâu thuẫn mạnh: nguồn cũ 70.000–75.000đ, nguồn 2026 ghi 150.000đ/người lớn (trẻ em 40.000đ), gói trải nghiệm 200.000–350.000đ — lấy 150.000đ theo nguồn mới. Điểm trừ là nhiều review chê nội dung lan man, mang nặng quảng bá Trung Nguyên; người chỉ thích chụp ảnh có thể chỉ cần uống cà phê bên ngoài (55.000–90.000đ) mà không mua vé."
+   },
+   "ten": "Bảo tàng Thế giới Cà phê",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": "40",
+   "cum": "phia-tay-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Krông Na, huyện Buôn Đôn, TP Buôn Ma Thuột",
+   "gia_ve": "Người lớn 30.000–50.000đ; trẻ em ~20.000đ (nguồn khác ghi 40.000đ)",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "buon-don",
+   "lat": 12.87904,
+   "lng": 107.79489,
+   "luu_y": "Nhà dài, cầu treo qua sông Sêrêpốk, nhà sàn cổ vua voi Ama Kông; KHÔNG cưỡi voi — chỉ tham quan văn hóa. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "datviettour.com.vn, phanvantravel.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "datviettour.com.vn, phanvantravel.com, localtrips.org",
+    "nhan_xet": "Buôn Đôn có nhà dài, cầu treo qua sông Sêrêpốk và nhà sàn cổ vua voi Ama Kông; hợp mọi đối tượng tìm hiểu văn hóa. Điểm trừ là giá vé các nguồn ghi khác nhau (30.000–50.000đ); tuyệt đối không cưỡi voi — chỉ tham quan văn hóa."
+   },
+   "ten": "Khu du lịch Buôn Đôn (Bản Đôn)",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Dray Sáp, huyện Krông Ana, TP Buôn Ma Thuột",
+   "gia_ve": "30.000–50.000đ/người",
+   "gio_mo_cua": "6:00–18:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "thac-dray-nur",
+   "lat": 12.54462,
+   "lng": 107.89758,
+   "luu_y": "Thác rộng ~250 m, cao hơn 30 m; đẹp nhất mùa mưa; đường đá trơn, mang giày chống trơn",
+   "nguon": "datviettour.com.vn, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "datviettour.com.vn, phanvantravel.com",
+    "nhan_xet": "Thác Dray Nur rộng ~250 m, cao hơn 30 m, đẹp nhất mùa mưa; hợp mọi đối tượng. Điểm trừ là đường đá trơn, nên mang giày chống trơn; ghép cùng Dray Sáp trong nửa ngày."
+   },
+   "ten": "Thác Dray Nur",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "25",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Dray Sáp, huyện Krông Ana, TP Buôn Ma Thuột",
+   "gia_ve": "Khoảng 30.000–50.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Khoảng 6:00–18:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "thac-dray-sap",
+   "lat": 12.5641,
+   "lng": 107.98384,
+   "luu_y": "Thác đôi với Dray Nur, cách nhau ~1 km đường rừng; ghép 2 thác trong nửa ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "localtrips.org, datviettour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "localtrips.org, datviettour.com.vn",
+    "nhan_xet": "Thác Dray Sáp là thác đôi với Dray Nur, cách nhau ~1 km đường rừng; hợp ghép trong nửa ngày. Điểm trừ là giá vé chính thức chưa kiểm được (30.000–50.000đ); nên đi cùng Dray Nur."
+   },
+   "ten": "Thác Dray Sáp (thác Chồng)",
+   "thoi_gian": "1,5–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "56",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Liên Sơn, huyện Lắk, TP Buôn Ma Thuột",
+   "gia_ve": "Vào khu hồ ~10.000đ/người; chèo thuyền độc mộc ~150.000đ/30 phút/2 người",
+   "gio_mo_cua": "Cả ngày; thuyền độc mộc chạy ban ngày",
+   "hop_voi": "Mọi đối tượng, cặp đôi",
+   "id": "ho-lak",
+   "lat": 12.40931,
+   "lng": 108.17386,
+   "luu_y": "Hồ nước ngọt lớn nhất Tây Nguyên; có buôn làng M'nông ven hồ; Biệt điện Bảo Đại trên đồi cạnh hồ. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "datviettour.com.vn, phanvantravel.com, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "datviettour.com.vn, phanvantravel.com, localtrips.org",
+    "nhan_xet": "Hồ Lắk là hồ nước ngọt lớn nhất Tây Nguyên, hoàng hôn đẹp, chèo thuyền độc mộc (~150.000đ/30 phút/2 người) là trải nghiệm đáng nhớ; hợp mọi đối tượng và cặp đôi. Điểm trừ là Biệt điện Bảo Đại trên đồi cạnh hồ nên ghép cùng; nên đi chiều mát."
+   },
+   "ten": "Hồ Lắk",
+   "thoi_gian": "2–3 giờ; đẹp nhất hoàng hôn",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "56",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đồi trên hồ Lắk, thị trấn Liên Sơn, huyện Lắk",
+   "gia_ve": "Khoảng 10.000đ/người",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "biet-dien-bao-dai",
+   "lat": 12.40931,
+   "lng": 108.17386,
+   "luu_y": "Nơi nghỉ của vua Bảo Đại khi đi săn; view toàn cảnh hồ Lắk; ghép cùng hồ Lắk. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / phanvantravel.com",
+    "nhan_xet": "Biệt điện Bảo Đại là nơi nghỉ của vua Bảo Đại khi đi săn, view toàn cảnh hồ Lắk; hợp ghép cùng hồ Lắk. Điểm trừ là quy mô nhỏ, chỉ chơi 45–60 phút, giá vé ~10.000đ; tọa độ chưa tra được chính xác nên dùng tọa độ khu vực hồ Lắk."
+   },
+   "ten": "Biệt điện Bảo Đại (hồ Lắk)",
+   "thoi_gian": "45–60 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "40",
+   "cum": "phia-tay-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Buôn Đôn, TP Buôn Ma Thuột",
+   "gia_ve": "Khoảng 60.000đ/người (chưa kiểm được mức chính thức)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Người thích thiên nhiên, trekking",
+   "id": "vuon-quoc-gia-yok-don",
+   "lat": 12.87365,
+   "lng": 107.80909,
+   "luu_y": "Vườn quốc gia rừng khộp lớn nhất VN; đi theo tour/hướng dẫn viên, không tự trekking sâu",
+   "nguon": "datviettour.com.vn, localtrips.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "datviettour.com.vn, localtrips.org",
+    "nhan_xet": "Vườn quốc gia Yok Đôn là rừng khộp lớn nhất Việt Nam, trekking và đạp xe xuyên rừng hợp người thích thiên nhiên. Điểm trừ là phải đi theo tour hoặc hướng dẫn viên, không tự trekking sâu; giá vé ~60.000đ chưa kiểm được mức chính thức."
+   },
+   "ten": "Vườn quốc gia Yok Đôn",
+   "thoi_gian": "Nửa ngày–1 ngày"
+  },
+  {
+   "cach_trung_tam_km": "1",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "117 Phan Bội Châu, TP Buôn Ma Thuột",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Khoảng 6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-khai-doan",
+   "lat": 12.6817,
+   "lng": 108.03879,
+   "luu_y": "Chùa lớn nhất Đắk Lắk, kiến trúc cung đình Huế + nhà dài Tây Nguyên; nơi tu hành — ăn mặc kín đáo",
+   "nguon": "mytour.vn, datviettour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn, datviettour.com.vn",
+    "nhan_xet": "Chùa Sắc Tứ Khải Đoan là chùa lớn nhất Đắk Lắk, kiến trúc cung đình Huế kết hợp nhà dài Tây Nguyên, miễn phí; hợp mọi đối tượng. Điểm trừ là nơi tu hành nên ăn mặc kín đáo."
+   },
+   "ten": "Chùa Sắc Tứ Khải Đoan",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": "3",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cuối đường Trần Nhật Duật, TP Buôn Ma Thuột",
+   "gia_ve": "Miễn phí vào buôn (ăn uống/dịch vụ tính riêng)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, người quan tâm văn hóa Ê Đê",
+   "id": "buon-ako-dhong",
+   "lat": 12.69716,
+   "lng": 108.04706,
+   "luu_y": "Buôn Ê Đê giữa lòng TP, nhà dài truyền thống; có quán gà nướng cơm lam; tôn trọng sinh hoạt dân làng",
+   "nguon": "ninhtito.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "ninhtito.com, mytour.vn",
+    "nhan_xet": "Buôn Akõ Dhông là buôn Ê Đê giữa lòng TP, nhà dài truyền thống, có quán gà nướng cơm lam; miễn phí vào buôn, hợp mọi đối tượng. Điểm trừ là cần tôn trọng sinh hoạt dân làng; ăn uống và dịch vụ tính riêng."
+   },
+   "ten": "Buôn Akõ Dhông (buôn Cô Thôn)",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": "2",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Lý Thái Tổ, TP Buôn Ma Thuột",
+   "gia_ve": "Miễn phí vào cổng; đồ uống/dịch vụ tính riêng",
+   "gio_mo_cua": "Khoảng 7:00–21:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người yêu cà phê",
+   "id": "lang-ca-phe-trung-nguyen",
+   "lat": 12.70155,
+   "lng": 108.06087,
+   "luu_y": "Khuôn viên cà phê, thác nước, nhà sàn; thử cà phê chồn (giá cao, hỏi trước)",
+   "nguon": "mytour.vn, datviettour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn, datviettour.com.vn",
+    "nhan_xet": "Làng Cà phê Trung Nguyên khuôn viên đẹp, thác nước và nhà sàn, hợp người yêu cà phê dạo chơi; miễn phí vào cổng. Điểm trừ là cà phê chồn giá cao, nên hỏi giá trước."
+   },
+   "ten": "Làng Cà phê Trung Nguyên",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 180,
+   "cum": "tuy-hoa-phu-yen-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Tuy Hòa (tỉnh Phú Yên cũ, nay thuộc Đắk Lắk), cách Buôn Ma Thuột ~180 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Cả ngày; đẹp nhất hoàng hôn",
+   "hop_voi": "Mọi đối tượng, nhiếp ảnh",
+   "id": "thap-nhan",
+   "lat": 13.08324,
+   "lng": 109.29985,
+   "luu_y": "Thuộc Phú Yên cũ — ĐI RIÊNG cụm Tuy Hòa, không ghép cùng cung Buôn Ma Thuột trong 3N2Đ (cách ~180 km); tháp Chăm trên núi Nhạn, view toàn cảnh TP Tuy Hòa; tọa độ xấp xỉ (khu vực đường Lê Trung Kiên), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Tháp Nhạn là tháp Chăm trên núi Nhạn, view toàn cảnh TP Tuy Hòa, đẹp nhất lúc hoàng hôn; hợp mọi đối tượng và nhiếp ảnh. Điểm trừ là chưa kiểm được giá vé; thuộc Phú Yên cũ — đi riêng cụm Tuy Hòa."
+   },
+   "ten": "Tháp Nhạn (Tuy Hòa — Phú Yên cũ)",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 180,
+   "cum": "tuy-hoa-phu-yen-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Tuy Hòa (tỉnh Phú Yên cũ, nay thuộc Đắk Lắk), cách Buôn Ma Thuột ~180 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "bien-tuy-hoa",
+   "lat": 13.1493,
+   "lng": 109.2918,
+   "luu_y": "Thuộc Phú Yên cũ — ĐI RIÊNG cụm Tuy Hòa; bãi dài, cát trắng, ít đông hơn các bãi miền Trung khác; tọa độ xấp xỉ (điểm tra được là bãi Mỹ Á, xã An Phú), cần kiểm lại",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Bãi biển Tuy Hòa dài, cát trắng, ít đông hơn các bãi miền Trung khác; hợp gia đình đi trong ngày. Điểm trừ là dịch vụ còn đơn giản; thuộc Phú Yên cũ — đi riêng cụm Tuy Hòa."
+   },
+   "ten": "Bãi biển Tuy Hòa (Phú Yên cũ)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 215,
+   "cum": "tuy-hoa-phu-yen-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã An Ninh Đông, huyện Tuy An (tỉnh Phú Yên cũ, nay thuộc Đắk Lắk), cách Tuy Hòa ~35 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Cả ngày; đẹp nhất sáng sớm và chiều mát",
+   "hop_voi": "Mọi đối tượng, nhiếp ảnh",
+   "id": "ganh-da-dia",
+   "lat": 13.35431,
+   "lng": 109.29368,
+   "luu_y": "Thuộc Phú Yên cũ — ĐI RIÊNG cụm Tuy Hòa (cách Tuy Hòa ~35 km, cách Buôn Ma Thuột ~215 km); ghềnh đá bazan hình tổ ong độc đáo, đi sáng sớm tránh nắng",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Gành Đá Đĩa là ghềnh đá bazan hình tổ ong độc đáo, chụp ảnh rất ăn; hợp mọi đối tượng. Điểm trừ là nắng gắt, chưa kiểm được giá vé; nên đi sáng sớm. Thuộc Phú Yên cũ — đi riêng cụm Tuy Hòa, cách Tuy Hòa ~35 km."
+   },
+   "ten": "Gành Đá Đĩa (Tuy An — Phú Yên cũ)",
+   "thoi_gian": "1,5–2 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Thác Dray Nur",
+   "gio": "7:00-9:00 sáng, ánh sáng xuyên qua hơi nước thác",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Lắk",
+   "gio": "5:30-7:00 sáng bình minh trên hồ hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bảo tàng Thế giới Cà phê",
+   "gio": "7:00-9:00 sáng hoặc 16:00-17:30 chiều, ánh sáng đẹp trên kiến trúc",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào Bảo tàng Cà phê và chùa Khải Đoan — tránh thác Dray Nur/Dray Sáp vì đường trơn, nước xiết.",
+  "diem": [
+   "Bảo tàng Thế giới Cà phê",
+   "Chùa Sắc Tứ Khải Đoan",
+   "Làng Cà phê Trung Nguyên",
+   "Buôn Akõ Dhông (buôn Cô Thôn)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-ca-phe, lang-ca-phe-trung-nguyen",
+    "hoat_dong": "Bảo tàng Thế giới Cà phê (1,5–2 giờ) + Làng Cà phê Trung Nguyên",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-khai-doan, buon-ako-dhong",
+    "hoat_dong": "Chùa Khải Đoan + buôn Akõ Dhông",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bún đỏ Vân + bánh ướt thịt nướng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "buon-don",
+    "hoat_dong": "Buôn Đôn — cầu treo, nhà dài (2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-dray-nur, thac-dray-sap",
+    "hoat_dong": "Thác Dray Nur + Dray Sáp (2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Gà nướng cơm lam buôn Akõ Dhông",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-lak, biet-dien-bao-dai",
+    "hoat_dong": "Hồ Lắk — thuyền độc mộc + Biệt điện Bảo Đại",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về trung tâm, mua cà phê làm quà, trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Buôn Ma Thuột",
+  "best_season": "Tháng 11–tháng 4 (mùa khô; Lễ hội Cà phê thường tháng 3); thác đẹp nhất mùa mưa tháng 5–9",
+  "destination": "Đắk Lắk",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 7/13 điểm chính xác, 6 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "dak-lak",
+  "lat": 12.67939,
+  "lng": 108.04461,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "datviettour.com.vn",
+   "localtrips.org",
+   "phanvantravel.com",
+   "bookingdaklak.com",
+   "ninhtito.com",
+   "mytour.vn",
+   "vietnambooking.com",
+   "vietair.com.vn"
+  ],
+  "overview": "Thủ phủ cà phê Buôn Ma Thuột: Bảo tàng Thế giới Cà phê, Buôn Đôn, thác Dray Nur – Dray Sáp, hồ Lắk và văn hóa Ê Đê – M'nông. Từ 07/2025 gồm cả tỉnh Phú Yên cũ (biển Tuy Hòa) — file này chỉ làm khu vực Buôn Ma Thuột và cao nguyên.",
+  "province": "Đắk Lắk",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "văn hóa"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "ivivu.com, phanvantravel.com, travelbui.com (kiểm lại 08/11/2026); meta.best_season (06/11/2026)",
+  "thang_dep_nhat": "Mùa khô tháng 11–4, đẹp nhất tháng 12–3 (hoa dã quỳ tháng 12, hoa cà phê tháng 2–3, Lễ hội Cà phê tháng 3); thác đẹp nhất mùa mưa tháng 5–9."
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

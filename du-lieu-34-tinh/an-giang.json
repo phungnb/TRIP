@@ -1,0 +1,981 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–25.000đ/tô (một nguồn ghi 30.000–50.000đ/tô tại chợ Châu Đốc)",
+   "mon": "Bún cá Châu Đốc (bún nước lèo)",
+   "nguon": "mytour.vn, tripi.vn, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tripi.vn",
+    "nhan_xet": "Bún cá Châu Đốc là món sáng đúng chất: nước lèo ngọt cá, thịt cá lóc, bông điên điển theo mùa. Điểm mạnh là rẻ (15.000–25.000đ/tô); điểm yếu là giá tại chợ Châu Đốc có nguồn ghi 30.000–50.000đ/tô, chênh gấp đôi nên hỏi giá trước. Hợp với ăn sáng, nên ăn ở Bún cá Vân."
+   },
+   "quan": [
+    {
+     "dia_chi": "105 Phan Đình Phùng, phường Châu Phú B, TP Châu Đốc",
+     "gia": "15.000–25.000đ/tô",
+     "ten": "Bún cá Vân"
+    },
+    {
+     "dia_chi": "22 Nguyễn Thái Học, phường Mỹ Bình, TP Long Xuyên",
+     "gia": "15.000–25.000đ/tô",
+     "ten": "Quán bún cá Châu Đốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–150.000đ/phần 4 người (một nguồn ghi 150.000–300.000đ)",
+   "mon": "Lẩu mắm Châu Đốc",
+   "nguon": "mytour.vn, tripi.vn, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tripi.vn",
+    "nhan_xet": "Lẩu mắm Châu Đốc đậm đà, rau đồng nhiều loại — ăn nhóm 4 người là vừa. Điểm mạnh là 100.000–150.000đ/phần 4 người rất rẻ; điểm yếu là có nguồn ghi 150.000–300.000đ, và mắm nặng mùi nên ai không quen sẽ khó ăn. Hợp với nhóm thích món đậm vị, nên ăn ở Hội quán Châu Đốc."
+   },
+   "quan": [
+    {
+     "dia_chi": "64 Hoàng Diệu, phường Châu Phú B, TP Châu Đốc",
+     "gia": "100.000–150.000đ/phần",
+     "ten": "Hội quán Châu Đốc"
+    },
+    {
+     "dia_chi": "121 Trưng Nữ Vương, phường Châu Phú B, TP Châu Đốc",
+     "gia": "100.000–150.000đ/phần",
+     "ten": "Quán ăn Bảy Bồng 2"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–150.000đ/món (một nguồn ghi 150.000–300.000đ/người)",
+   "mon": "Bò bảy món Núi Sam",
+   "nguon": "mytour.vn, tripi.vn, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tripi.vn",
+    "nhan_xet": "Bò bảy món Núi Sam là món 'phải ăn' khi lên núi Sam: 7 món từ một con bò, nướng, nhúng, tái chanh đủ kiểu. Điểm yếu là giá các nguồn ghi khác nhau lớn (50.000–150.000đ/món vs 150.000–300.000đ/người) nên hỏi giá trước. Hợp với nhóm ăn tối sau khi viếng Miếu Bà, nên ăn ở Tư Thiêng."
+   },
+   "quan": [
+    {
+     "dia_chi": "654 Khóm Vĩnh Tây, phường Núi Sam, TP Châu Đốc",
+     "gia": "50.000–150.000đ/món",
+     "ten": "Quán bò Tư Thiêng"
+    },
+    {
+     "dia_chi": "Tân Lộ Kiều Lương, phường Núi Sam, TP Châu Đốc",
+     "gia": "50.000–150.000đ/món",
+     "ten": "Quán bò 7 món Trường Nhựt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Bánh bò thốt nốt",
+   "nguon": "mytour.vn, klook.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / klook.com",
+    "nhan_xet": "Bánh bò thốt nốt thơm đường thốt nốt, mềm xốp — món ăn vặt đặc trưng Bảy Núi. Điểm yếu là giá riêng chưa kiểm được, bánh bán ở chợ nên chất lượng tùy sạp. Hợp với ăn xế và mua về, nên mua ở chợ Châu Đốc hoặc chợ Tịnh Biên."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Bạch Đằng, phường Châu Phú A, TP Châu Đốc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Châu Đốc"
+    },
+    {
+     "dia_chi": "350 Khóm Xuân Hòa, huyện Tịnh Biên",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Tịnh Biên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Gỏi sầu đâu",
+   "nguon": "klook.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "klook.com",
+    "nhan_xet": "Gỏi sầu đâu đắng nhẹ, lạ miệng — món này kén người ăn nhưng ai ăn quen thì nhớ. Điểm yếu là giá riêng chưa kiểm được, sầu đâu theo mùa. Hợp với người thích món lạ miền Tây, nên ăn ở Hội quán Châu Đốc."
+   },
+   "quan": [
+    {
+     "dia_chi": "64 Hoàng Diệu, phường Châu Phú B, TP Châu Đốc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hội quán Châu Đốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô",
+   "mon": "Canh chua cá linh bông điên điển (mùa nước nổi)",
+   "nguon": "mytour.vn, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tiphay.vn",
+    "nhan_xet": "Canh chua cá linh bông điên điển là món mùa nước nổi đúng nghĩa: chua thanh, cá linh non, bông điên điển giòn. Điểm mạnh là giá mềm 30.000–50.000đ/tô; điểm yếu là chỉ có mùa nước nổi. Hợp với ăn trưa tháng 9–11, nên ăn ở Bảy Bồng 2."
+   },
+   "quan": [
+    {
+     "dia_chi": "121 Trưng Nữ Vương, phường Châu Phú B, TP Châu Đốc",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Quán ăn Bảy Bồng 2"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~100.000–200.000đ/kg",
+   "mon": "Mắm Châu Đốc",
+   "nguon": "mytour.vn, tiphay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tiphay.vn",
+    "nhan_xet": "Mắm Châu Đốc là đặc sản mua về số một: mắm cá linh, cá sặc, ba khía đủ loại, mua ở chợ đầu mối giá tốt. Điểm mạnh là 100.000–200.000đ/kg, nhiều loại để chọn; điểm yếu là mùi nặng, mang về phải đóng gói kỹ. Hợp với mua quà, nên mua ở chợ Châu Đốc buổi sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Bạch Đằng, phường Châu Phú A, TP Châu Đốc",
+     "gia": "~100.000–200.000đ/kg",
+     "ten": "Chợ Châu Đốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Tung lò mò (lạp xưởng bò, người Chăm)",
+   "nguon": "dicungdien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dicungdien.com",
+    "nhan_xet": "Tung lò mò là lạp xưởng bò của người Chăm, vị đặc trưng không giống lạp xưởng thường — mua ở làng Chăm mới đúng gốc. Điểm yếu là giá riêng chưa kiểm được, hàng làm sẵn ít. Hợp với mua về và ăn xế, nên mua tại làng Chăm Châu Giang."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Châu Phong, thị xã Tân Châu (mua tại làng)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Làng Chăm Châu Giang"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, mùa nước nổi)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng tại Châu Đốc (tham khảo chung miền Tây 120.000–250.000đ/nồi)",
+   "mon": "Lẩu cá linh bông điên điển",
+   "nguon": "viet-travel.congtan5918.workers.dev",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "viet-travel.congtan5918.workers.dev",
+    "nhan_xet": "Lẩu cá linh Châu Đốc ngon nhất mùa nước nổi, ăn ở Hội quán Châu Đốc là tiện nhất. Điểm yếu là giá riêng tại Châu Đốc chưa kiểm được, tham khảo chung 120.000–250.000đ/nồi. Hợp với nhóm đi tháng 9–11."
+   },
+   "quan": [
+    {
+     "dia_chi": "64 Hoàng Diệu, phường Châu Phú B, TP Châu Đốc",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hội quán Châu Đốc"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Châu Đốc khứ hồi",
+   "uoc_tinh": "240.000–310.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "300.000–2.050.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "200.000–560.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Phà + xe Cần Thơ — Châu Đốc phát sinh",
+   "uoc_tinh": "50.000–150.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.440.000–4.320.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.300.000đ/chiều (tham khảo) + xe VCA — Châu Đốc 120.000–210.000đ/vé"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá và chốt giá trước khi mua; mua ở sạp có bảng giá niêm yết; tránh mua khi bị vây chèo kéo, đi theo nhóm đông.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua đồ lễ, nhang đèn và đặc sản quanh Miếu Bà Chúa Xứ Núi Sam và chợ Châu Đốc dịp lễ hội Vía Bà (tháng 4 âm lịch): giá bị hét cao, cân thiếu, chèo kéo mua thêm."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá và lộ trình trước khi lên xe; tránh xe không biển hiệu.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi dù ở bến xe Châu Đốc và khu vực núi Sam hét giá cao gấp nhiều lần, nhất là khách đi lẻ buổi tối."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng; không chuyển cọc cho tài khoản cá nhân lạ.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Mua vé tại quầy chính thức của khu du lịch, hỏi rõ vé đã gồm những gì; giữ vé và biên lai để đối chiếu.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuyền, xuồng tham quan rừng tràm Trà Sư và chợ nổi: giá vé, giá thuê thuyền riêng không thống nhất, phụ thu phát sinh."
+  }
+ ],
+ "checklist": [
+  "Áo chống nắng, mũ, kem chống nắng",
+  "Áo mưa mỏng (mùa mưa tháng 5–10; mùa nước nổi tháng 9–11)",
+  "Giày bệt leo chùa/núi",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (phà, chợ, quán nhỏ, lễ vật)",
+  "Thuốc chống muỗi (rừng tràm Trà Sư nhiều muỗi), thuốc cơ bản",
+  "Sạc dự phòng",
+  "Ăn mặc lịch sự khi vào miếu/chùa; đi lễ Vía Bà đặt phòng trước 1–2 tuần"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn Victoria Châu Đốc",
+   "Victoria Núi Sam Lodge"
+  ],
+  "diem": [
+   "Rừng tràm Trà Sư",
+   "Tà Pạ (cánh đồng — hồ — chùa Tà Pạ)",
+   "Bãi biển Mũi Nai",
+   "Miếu Bà Chúa Xứ Núi Sam"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn Victoria Châu Đốc",
+   "Khách sạn Châu Phố"
+  ],
+  "diem_chay": [
+   "Đường ven sông Châu Đốc",
+   "Khu vực núi Sam (buổi sáng sớm)",
+   "Đường quanh rừng tràm Trà Sư"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Lao Động — 3.500 vận động viên dự cuộc đua 'Về vùng huyền tích' (16/12/2024) (ngày kiểm 08/11/2026)",
+    "ten": "Nông thôn Việt Half Marathon Tri Tôn — Về vùng Huyền Tích",
+    "thoi_gian": "Tháng 1 hằng năm (mùa 2025: 4-5/1/2025)"
+   }
+  ],
+  "nguon": "Báo Lao Động về giải Tri Tôn; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_trung_tam": "~6–7 km (tới Miếu Bà)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 Lê Lợi, phường Châu Phú B, TP Châu Đốc (bờ sông Hậu)",
+   "dien_thoai": "0296 3865 010",
+   "gia": "~1.700.000–2.050.000đ/đêm (Deluxe từ 2.440.000đ; một số nguồn ghi từ 1.500.000đ hoặc 3.200.000đ)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, cặp đôi muốn nghỉ dưỡng ven sông, khách hành hương cao cấp",
+   "khu_vuc": "trung-tam-chau-doc",
+   "nguon": "khachsan.chudu24.com, traveloka.com, vivutour.vn, homecredit.vn",
+   "nguon_dien_thoai": "sdl.angiang.gov.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Victoria Châu Đốc",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Sát Miếu Bà",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vĩnh Đông 1, phường Núi Sam, TP Châu Đốc",
+   "dien_thoai": "0296 3575 888",
+   "gia": "~1.400.000–2.000.000đ/đêm (một nguồn ghi 1.500.000–3.000.000đ)",
+   "hang": "4 sao (lodge)",
+   "hop_voi": "Cặp đôi, gia đình đi lễ Núi Sam",
+   "khu_vuc": "nui-sam",
+   "nguon": "traveloka.com, vietfuntravel.com.vn, tadiha.com, 2banh.vn",
+   "nguon_dien_thoai": "danhgiathuonghieu.vn, travel.rakuten.com (ngày kiểm 08/11/2026)",
+   "ten": "Victoria Núi Sam Lodge",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~6–7 km (tới Miếu Bà)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "86 Bạch Đằng, TP Châu Đốc",
+   "dien_thoai": "0296 3561 561",
+   "gia": "Từ ~325.000đ/đêm (Planet of Hotels ghi từ ~$13, trung bình ~$24 ~600.000đ)",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách bụi, khách hành hương tiết kiệm",
+   "khu_vuc": "trung-tam-chau-doc",
+   "nguon": "2banh.vn",
+   "nguon_dien_thoai": "vietnam.com.co, vietnamtourism.com.vn, kenhhomestay.com, danhsach.top (ngày kiểm 08/11/2026)",
+   "ten": "The CK Hotel (tên cũ: Khách sạn Trung Nguyễn)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Chưa kiểm được",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Châu Đốc (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": "0296 3564 139",
+   "gia": "Từ ~990.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Gia đình, khách hành hương",
+   "khu_vuc": "trung-tam-chau-doc",
+   "nguon": "vietfuntravel.com.vn",
+   "nguon_dien_thoai": "mytour.vn, tripi.vn, mia.vn, chauphohotel.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Châu Phố",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~6–7 km (tới Miếu Bà)",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 7, đường Lê Đại Cương, khóm Vĩnh Đông 2, phường Núi Sam, TP Châu Đốc (khu Núi Sam, cách chợ Châu Đốc ~6–7 km, không phải gần chợ)",
+   "dien_thoai": "0979 017 395",
+   "gia": "Từ ~529.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm, khách đi Núi Sam/Miếu Bà",
+   "khu_vuc": "trung-tam-chau-doc",
+   "nguon": "traveloka.com, leadtour.vn, iVivu (ngày kiểm 08/11/2026)",
+   "nguon_dien_thoai": "leadtour.vn (ngày kiểm 08/11/2026)",
+   "ten": "Phi Mai Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Chưa kiểm được",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "63 Trương Nguyệt Anh, phường Châu Phú A, TP Châu Đốc",
+   "dien_thoai": "0296 6260 066",
+   "gia": "Chưa kiểm được khoảng giá",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách hành hương bình dân",
+   "khu_vuc": "trung-tam-chau-doc",
+   "nguon": "2banh.vn",
+   "nguon_dien_thoai": "kenhhomestay.com; dulichvietnam.com.vn (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: số cũ 0296 3897 897 không nguồn nào khớp — số đúng 0296 6260 066.",
+   "ten": "Khách sạn Hải Châu",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm Châu Đốc, cách Miếu Bà ~5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "96 Đống Đa, TP Châu Đốc",
+   "dien_thoai": "0296 3568 111",
+   "gia": "Từ ~550.000đ/đêm (các nguồn ghi 550.000–1.050.000đ/đêm — chênh lớn theo kênh/thời điểm)",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, khách muốn ở trung tâm Châu Đốc, view sông",
+   "khu_vuc": "chau-doc",
+   "nguon": "traveloka.com, vietnambooking.com, datviettour.com.vn",
+   "nguon_dien_thoai": "sdl.angiang.gov.vn + Google Travel + nhiều nguồn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Hùng Cường",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm Long Xuyên, ~60 km từ Châu Đốc",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "130 Trần Hưng Đạo, Phường Mỹ Bình, TP Long Xuyên",
+   "dien_thoai": "0296 6252 999",
+   "gia": "Từ ~800.000–1.200.000đ/đêm (theo nguồn công khai)",
+   "hang": "3 sao",
+   "hop_voi": "Khách công tác, gia đình nghỉ tại Long Xuyên",
+   "khu_vuc": "long-xuyen",
+   "nguon": "datviettour.com.vn",
+   "nguon_dien_thoai": "mia.vn (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Hòa Bình",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Trà Sư (tham quan 120.000đ vs 100.000đ; tàu máy/xuồng chèo 60.000đ vs 50.000đ)",
+  "Giá vé cáp treo Núi Cấm chiều xuống (120.000đ vs 140.000đ)",
+  "Giờ mở cửa Trà Sư (6:30–17:30 vs 7:00–17:00/17:15; một nguồn ghi 5:00–21:00, không dùng)",
+  "Giờ mở cửa Miếu Bà Chúa Xứ (5:00–22:00, một nguồn duy nhất)",
+  "Khoảng cách chính xác Châu Đốc — Tà Pạ (~45–50 km, ước tính) và Châu Đốc — chợ nổi Long Xuyên (~60 km)",
+  "Địa giới sau sáp nhập 01/07/2025: đợt 06/11/2026 đã thêm 3 điểm khu vực Kiên Giang cũ (Mũi Nai, Thạch Động, Cổng Tam Quan Rạch Giá); Phú Quốc, Nam Du, Hà Tiên (các điểm còn lại) chưa nhập vì xa cụm Châu Đốc, đi riêng",
+  "Giá vé riêng Thạch Động và giá dịch vụ ghế/tắm Mũi Nai chưa kiểm được",
+  "Chùa Huỳnh Đạo, Búng Bình Thiên, chợ Tịnh Biên: chưa kiểm được đủ địa chỉ + giá vé riêng nên chưa đưa vào",
+  "Giá phòng Victoria Châu Đốc (từ 1.700.000đ vs 2.050.000đ vs 3.200.000đ — chênh lớn theo thời điểm/kênh)",
+  "Giá phòng Hùng Cường (550.000đ vs 700.000–1.000.000đ vs 1.048.500đ — chênh lớn theo kênh)",
+  "Khách sạn Châu Phố, Phi Mai, Hải Châu: địa chỉ chi tiết; Hải Châu chưa kiểm được khoảng giá",
+  "Giá bún cá (15.000–25.000đ/tô vs 30.000–50.000đ/tô tại chợ Châu Đốc)",
+  "Giá lẩu mắm (100.000–150.000đ/phần 4 người vs 150.000–300.000đ)",
+  "Giá bò bảy món (50.000–150.000đ/món vs 150.000–300.000đ/người)",
+  "Giá bánh bò thốt nốt, gỏi sầu đâu, tung lò mò, lẩu cá linh tại Châu Đốc",
+  "Giá vé xe khách SG — Châu Đốc (120.000–155.000đ xe lẻ vs tour trọn gói ghi tới 550.000đ — chưa tách được giá xe thuần)",
+  "Giá limousine SG — Châu Đốc, giá taxi nội thành Châu Đốc, giá thuê xe máy tay ga tại Châu Đốc",
+  "Giá taxi/xe riêng tuyến VCA — Châu Đốc",
+  "Tuyến xe khách thẳng Hà Nội — Châu Đốc: chưa kiểm được có tuyến hay không"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "An Giang không có đèo mang tên riêng, nhưng đường lên Núi Cấm/Núi Sam dốc, nhiều cua gấp (đường lên Núi Cấm được báo/dân địa phương gọi là 'cung đèo'). Đi núi Sam, núi Cấm bằng xe máy: đường dốc lên núi hẹp, nhiều khúc cua — đi chậm, kiểm tra phanh trước khi lên, không đi khi mưa lớn.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo mang tên riêng; đường lên núi Sam, núi Cấm dốc, nhiều cua gấp (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Không có sân bay/ga tàu tại vùng Châu Đốc — Núi Sam. Sân bay gần nhất: Cần Thơ (VCA, cách Châu Đốc ~120 km, ~3 giờ đi xe) hoặc Tân Sơn Nhất (SGN, cách Châu Đốc ~245 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ); xe VCA — Châu Đốc ~120.000–210.000đ/vé",
+    "nguon": "vietair.com.vn, limotrip.vn",
+    "phuong_tien": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Châu Đốc",
+    "thoi_gian": "Bay ~2h10 + xe VCA — Châu Đốc ~3 giờ (~120 km)"
+   },
+   {
+    "ghi_chu": "Phương án thay thế",
+    "gia": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Châu Đốc 120.000–155.000đ/vé",
+    "nguon": "limody.vn",
+    "phuong_tien": "Máy bay HAN–SGN rồi xe lên Châu Đốc",
+    "thoi_gian": "Bay ~2h05 + xe SG — Châu Đốc 5–6 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến khích",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN — Châu Đốc",
+    "thoi_gian": "Chưa kiểm được tuyến thẳng + thời gian/giá"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Đón tại bến xe Cần Thơ",
+    "gia": "120.000–210.000đ/vé, ~3 giờ; giờ khởi hành 14:00, 15:00, 16:00, 18:00 (theo limotrip)",
+    "nguon": "limotrip.vn",
+    "phuong_tien": "Xe khách Cần Thơ — Châu Đốc (Phương Trang)"
+   },
+   {
+    "ghi_chu": "Hỏi rõ giá trọn gói trước khi lên xe",
+    "gia": "Chưa kiểm được giá riêng tuyến VCA — Châu Đốc (tham khảo thuê xe 4 chỗ SG — Châu Đốc 2.000.000đ/chiều)",
+    "nguon": "xelientinh247.vn",
+    "phuong_tien": "Taxi / xe riêng (từ VCA)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây",
+    "gia": "~120.000–155.000đ/vé (Phương Trang 155.000đ, 34 chuyến/ngày; nguồn khác ghi 120.000–150.000đ)",
+    "nguon": "limody.vn, 2banh.vn, klook.com",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "5–6 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Chưa kiểm được giá riêng tuyến SG — Châu Đốc (tham khảo chung miền Tây ~180.000–300.000đ/vé)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "5–6 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc → QL1A → Cần Thơ/Long Xuyên → QL91 → Châu Đốc",
+    "gia": "Thuê xe 4 chỗ có tài xế SG — Châu Đốc ~2.000.000đ/chiều (tham khảo)",
+    "nguon": "xelientinh247.vn",
+    "phuong_tien": "Xe máy / ô tô riêng (QL1A + QL91)",
+    "thoi_gian": "Ô tô 5–6 giờ; xe máy ~7–8 giờ"
+   },
+   {
+    "ghi_chu": "Saigon Star Travel — tour hành hương Miếu Bà + Lăng Thoại Ngọc Hầu + Chợ Tịnh Biên + Núi Cấm hoặc Trà Sư",
+    "gia": "Tour trọn gói từ 1.090.000đ/khách (giường tầng trên), 1.190.000đ (tầng dưới)",
+    "nguon": "saigonstartravel.com",
+    "phuong_tien": "Tour xe giường nằm 1 ngày 1 đêm (đi tối thứ 7)",
+    "thoi_gian": "Đi tối thứ 7, về hôm sau"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Các điểm cách nhau 25–40 km (Trà Sư, Núi Cấm), xe máy linh hoạt nhất; đường Tri Tôn/Tà Pạ quanh co",
+   "gia": "~100.000–150.000đ/ngày (tham khảo chung miền Tây; chưa kiểm được mức riêng tại Châu Đốc)",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "luxurytravel.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Chưa kiểm được mức riêng tại Châu Đốc (tham khảo chung miền Tây ~150.000–200.000đ/ngày)",
+   "giay_to": "Như trên",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trước khi đi; Grab/Be phủ sóng hạn chế",
+   "gia": "Chưa kiểm được bảng giá taxi riêng tại Châu Đốc",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Phà là cửa ngõ qua làng Chăm Châu Giang",
+   "gia": "5.000–30.000đ/lượt tùy phương tiện",
+   "giay_to": "",
+   "nguon": "klook.com",
+   "phuong_tien": "Phà Châu Giang (qua làng Chăm)"
+  },
+  {
+   "ghi_chu": "Không tự chạy xe máy/ô tô lên đỉnh Núi Cấm; cáp treo 7:00–17:00",
+   "gia": "Trà Sư: tàu máy 60.000đ + xuồng chèo 60.000đ/khách/lượt; Núi Cấm: cáp treo khứ hồi 300.000đ/người lớn, xe lên đỉnh khứ hồi ~180.000đ/người lớn",
+   "giay_to": "",
+   "nguon": "mia.vn, dulich.pro.vn",
+   "phuong_tien": "Xuồng Trà Sư / cáp treo Núi Cấm"
+  },
+  {
+   "ghi_chu": "Hợp nhóm 4–7 người đi Trà Sư — Núi Cấm trong ngày",
+   "gia": "Chưa kiểm được mức riêng tại An Giang (tham khảo chung miền Tây xe 4 chỗ ~900.000–1.400.000đ/ngày)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày (trong tỉnh)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "chau-doc-nui-sam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Vòng Núi Sam, phường Núi Sam (nay phường Vĩnh Tế), TP Châu Đốc",
+   "gia_ve": "Miễn phí vào miếu (lễ vật, giữ xe tính riêng; coi chừng người mời mua lễ/xin xăm/coi bói — đồ lễ nên mua ở sạp có niêm yết giá)",
+   "gio_mo_cua": "5:00–22:00 (theo viet-travel, cập nhật 09/2026)",
+   "hop_voi": "Người hành hương, gia đình, mọi đối tượng",
+   "id": "mieu-ba-chua-xu",
+   "lat": 10.68202,
+   "lng": 105.07975,
+   "luu_y": "Lễ hội Vía Bà 22–27 tháng 4 Âm lịch (năm 2026: 19–24/5 dương lịch), rất đông — đặt phòng trước; UNESCO ghi danh di sản văn hóa phi vật thể 04/12/2024",
+   "nguon": "nucuoimekong.com, travelbui.com, viet-travel.congtan5918.workers.dev",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "foody.vn / laodong.vn / buulong.com.vn",
+    "nhan_xet": "Miếu Bà Chúa Xứ là trung tâm tín ngưỡng lớn nhất Nam Bộ, linh thiêng và lúc nào cũng đông — đi viếng thì đáng, đi chơi thì nên cân nhắc. Điểm mạnh là không gian trang nghiêm, lễ vía Bà (22–27 tháng 4 Âm lịch) đã được UNESCO ghi danh; điểm yếu là rất đông, khói nhang nồng, quanh miếu nhiều người chèo kéo mua lễ, giá cả đắt đỏ (theo phản ánh trên Foody). Hợp với khách hành hương, nên đi ban đêm sau 12h cho thanh tịnh, tránh mùa lễ nếu sợ chen lấn, giữ kỹ tư trang."
+   },
+   "ten": "Miếu Bà Chúa Xứ Núi Sam",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "chau-doc-nui-sam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Vòng Núi Sam, phường Núi Sam, TP Châu Đốc (sát Miếu Bà)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày (đi cùng cung Miếu Bà)",
+   "hop_voi": "Người thích lịch sử, khách hành hương",
+   "id": "lang-thoai-ngoc-hau",
+   "lat": 10.68239,
+   "lng": 105.07923,
+   "luu_y": "Nơi an nghỉ của Thoại Ngọc Hầu — vị quan có công đào kênh Vĩnh Tế; đi bộ vài phút từ Miếu Bà",
+   "nguon": "saigonstartravel.com, travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "saigonstartravel.com / travelbui.com",
+    "nhan_xet": "Lăng Thoại Ngọc Hầu nằm sát Miếu Bà, là nơi an nghỉ của người khai phá vùng đất này — đi cùng cung Miếu Bà thì tiện, nhưng ít người biết nên thường vắng. Điểm mạnh là miễn phí, kiến trúc cổ, không gian yên tĩnh; điểm yếu là ít thông tin trưng bày, đi không có người kể thì khó cảm hết. Hợp với người thích lịch sử, nên ghép với Miếu Bà và Chùa Tây An trong cùng buổi."
+   },
+   "ten": "Lăng Thoại Ngọc Hầu",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "chau-doc-nui-sam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Vòng Núi Sam, phường Núi Sam, TP Châu Đốc",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích kiến trúc/tâm linh",
+   "id": "chua-tay-an",
+   "lat": 10.68147,
+   "lng": 105.0811,
+   "luu_y": "Xây năm 1847, mái vòm và tháp mang dáng kiến trúc Ấn Độ pha lối Việt, di tích kiến trúc nghệ thuật cấp quốc gia",
+   "nguon": "travelbui.com, dicungdien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "travelbui.com / dicungdien.com",
+    "nhan_xet": "Chùa Tây An cổ kính, kiến trúc pha Ấn–Hồi độc đáo ngay chân núi Sam — đẹp và yên hơn Miếu Bà nhiều. Điểm mạnh là miễn phí, khuôn viên mát, chụp ảnh đẹp; điểm yếu là ít được quảng bá nên nhiều đoàn bỏ qua. Hợp với người thích kiến trúc chùa, nên đi cùng cung Miếu Bà — Lăng Thoại Ngọc Hầu."
+   },
+   "ten": "Chùa Tây An (Tây An Cổ Tự)",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "chau-doc-nui-sam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Sườn núi Sam, QL91, phường Núi Sam, TP Châu Đốc",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích tâm linh/truyền thuyết, gia đình",
+   "id": "chua-hang",
+   "lat": 10.67684,
+   "lng": 105.07309,
+   "luu_y": "Di tích Lịch sử — Văn hóa cấp Quốc gia; gắn truyền thuyết đôi rắn thần; leo bậc đá lên chùa, mang giày bệt",
+   "nguon": "nucuoimekong.com, dicungdien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nucuoimekong.com / dicungdien.com",
+    "nhan_xet": "Chùa Hang (Phước Điền Tự) nằm trên sườn núi Sam, có hang đá và tượng Phật — đi lên vừa viếng vừa ngắm cảnh Châu Đốc từ trên cao. Điểm mạnh là miễn phí, không gian núi non mát mẻ; điểm yếu là phải leo bậc đá, người lớn tuổi và trẻ nhỏ nên đi chậm. Hợp với khách hành hương và người thích leo núi nhẹ, nên đi buổi sáng."
+   },
+   "ten": "Chùa Hang — Phước Điền Tự",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "chau-doc-nui-sam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Bạch Đằng, phường Châu Phú A, TP Châu Đốc",
+   "gia_ve": "Miễn phí vào chợ (mua sắm/ăn uống tính riêng)",
+   "gio_mo_cua": "Chợ họp ban ngày, đông nhất buổi sáng",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-chau-doc",
+   "lat": 10.71089,
+   "lng": 105.11831,
+   "luu_y": "Chợ mắm nổi tiếng — nhiều loại mắm cá linh, cá lóc, cá sặc (100.000–200.000đ/kg); hỏi giá trước khi mua",
+   "nguon": "mytour.vn, tiphay.vn, travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn / tiphay.vn / travelbui.com",
+    "nhan_xet": "Chợ Châu Đốc là chợ đầu mối mắm lớn nhất miền Tây — đi chợ buổi sáng, nếm mắm, mua đặc sản mới đúng chất Châu Đốc. Điểm mạnh là hàng hóa phong phú, giá mềm, người bán nhiệt tình; điểm yếu là chợ đông, mùi mắm nồng, dễ bị mời mua liên tục. Hợp với người thích ẩm thực và mua đặc sản, nên đi sáng sớm, mặc cả nhẹ nhàng."
+   },
+   "ten": "Chợ Châu Đốc",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 28,
+   "cum": "bay-nui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Văn Trà, xã An Cư (xã Văn Giáo theo một số nguồn), huyện Tịnh Biên; cách Châu Đốc 20–30 km theo QL91 và đường Tân Lộ Kiều Lương",
+   "gia_ve": "Vé vào cổng 120.000đ/khách (điều chỉnh từ 100.000đ tháng 07/2026); tàu máy 70.000đ/khách/lượt; xuồng chèo tay 70.000đ/khách/lượt; trọn gói 200.000–260.000đ/người (mức mới nhất 07/2026 là 260.000đ — sundaygo.vn; các nguồn khác ghi 200.000–250.000đ — kiểm 08/11/2026); trẻ em dưới 1,3 m miễn phí vé cổng",
+   "gio_mo_cua": "6:30–17:30 (một số nguồn ghi 7:00–17:00/17:15)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "rung-tram-tra-su",
+   "lat": 10.58439,
+   "lng": 105.05902,
+   "luu_y": "Đẹp nhất mùa nước nổi tháng 9–11 (bèo xanh phủ mặt nước); khung giờ vàng 7:00–9:00 và 15:30–17:00 (chim về tổ); đi tắc ráng rồi đổi xuồng chèo vào lối nhỏ",
+   "nguon": "izitour.com, ivivu.com, mia.vn, tourdulichbentre.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "mia.vn / tourdulichbentre.com / sundaygo.vn",
+    "nhan_xet": "Trà Sư là điểm sinh thái đẹp nhất An Giang mùa nước nổi: xuồng chèo len qua thảm bèo xanh, chim về tổ chiều tà — cảnh này không nơi nào giống. Điểm mạnh là trải nghiệm xuồng ba lá rất đáng tiền; điểm yếu là vé tổng (vào cổng 120.000đ + tàu 70.000đ + xuồng 70.000đ = 260.000đ theo giá mới nhất 07/2026; các nguồn khác ghi trọn gói 200.000–250.000đ), mùa khô bèo thưa thì kém đẹp hẳn. Hợp với người thích thiên nhiên và chụp ảnh, nên đi tháng 9–11, sáng sớm 7–9h hoặc chiều 15:30–17h."
+   },
+   "ten": "Rừng tràm Trà Sư",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 37,
+   "cum": "bay-nui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã An Hảo, huyện Tịnh Biên; cách Châu Đốc ~37 km, cách Long Xuyên ~63 km; núi cao nhất dãy Thất Sơn (705 m)",
+   "gia_ve": "Vé vào cổng 20.000đ/người lớn, 10.000đ/trẻ em 1–1,3 m; cáp treo khứ hồi 300.000đ/người lớn, 200.000đ/trẻ em (lên 180.000đ, xuống 120.000–140.000đ — các nguồn ghi khác nhau); xe lên đỉnh khứ hồi ~180.000đ/người lớn",
+   "gio_mo_cua": "Cáp treo 7:00–17:00 hằng ngày",
+   "hop_voi": "Gia đình, người lớn tuổi (đi cáp treo), người thích leo núi/tâm linh",
+   "id": "nui-cam",
+   "lat": 10.4886,
+   "lng": 105.02272,
+   "luu_y": "Tọa độ cổng vào KDL. Trên núi có chùa Vạn Linh, chùa Phật Lớn, hồ Thủy Liêm, Vồ Thiên Tuế; đi cáp treo ~15 phút; không tự chạy xe máy/ô tô lên đỉnh; đi bộ leo mất 1,5–2 giờ",
+   "nguon": "dulich.pro.vn, thamhiemmekong.com, klook.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / thamhiemmekong.com / klook.com",
+    "nhan_xet": "Núi Cấm là nóc nhà miền Tây (705 m), lên đỉnh bằng cáp treo ngắm toàn cảnh Bảy Núi — trải nghiệm đáng tiền nhất An Giang sau Trà Sư. Điểm mạnh là cáp treo tiện, trên đỉnh có chùa Vạn Linh và tượng Phật Di Lặc lớn; điểm yếu là vé cáp treo khứ hồi 300.000đ khá cao, giá chiều xuống các nguồn ghi 120.000đ vs 140.000đ. Hợp với gia đình và người thích núi, nên đi sáng sớm, tránh ngày lễ đông."
+   },
+   "ten": "Khu du lịch Lâm Viên Núi Cấm",
+   "thoi_gian": "Nửa ngày (3–4 giờ)"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "bay-nui",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Châu Phong, thị xã Tân Châu; qua phà Châu Giang từ Châu Đốc",
+   "gia_ve": "Miễn phí tham quan làng; vé phà 5.000–30.000đ/lượt tùy phương tiện",
+   "gio_mo_cua": "Ban ngày; tránh giờ làm lễ ở thánh đường",
+   "hop_voi": "Người thích văn hóa Chăm/Hồi giáo, nhiếp ảnh",
+   "id": "lang-cham-chau-giang",
+   "lat": 10.70991,
+   "lng": 105.12872,
+   "luu_y": "Tọa độ bến phà Châu Giang, mức khu vực. Thánh đường Jamiul Azhar Mosque miễn phí tham quan, tránh giờ làm lễ; thử món tung lò mò (lạp xưởng bò)",
+   "nguon": "dicungdien.com, klook.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dicungdien.com / klook.com",
+    "nhan_xet": "Làng Chăm Châu Giang là trải nghiệm văn hóa độc nhất: thánh đường Hồi giáo, dệt thổ cẩm, món tung lò mò — khác hẳn mọi điểm còn lại ở An Giang. Điểm mạnh là miễn phí tham quan làng, người Chăm thân thiện; điểm yếu là phải qua phà Châu Giang, nên tránh giờ làm lễ ở thánh đường. Hợp với người thích văn hóa và ẩm thực, nên đi buổi sáng, ăn mặc kín đáo khi vào thánh đường."
+   },
+   "ten": "Làng Chăm Châu Giang (Châu Phong)",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 48,
+   "cum": "tri-ton-long-xuyen",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Núi Tô, huyện Tri Tôn",
+   "gia_ve": "Miễn phí (tham quan tự do)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích chụp ảnh/phượt, cặp đôi",
+   "id": "ta-pa",
+   "lat": 10.40018,
+   "lng": 104.98309,
+   "luu_y": "Lúa chín đẹp nhất cuối tháng 11–đầu tháng 12; hồ Tà Pạ, chùa Tà Pạ trên đồi; đường Tri Tôn quanh co, đi xe máy cẩn thận",
+   "nguon": "travelbui.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "travelbui.com",
+    "nhan_xet": "Tà Pạ đẹp nhất khi lúa chín (cuối tháng 11–đầu tháng 12): cánh đồng, hồ Tà Pạ xanh ngọc và chùa Tà Pạ trên đồi tạo thành một khung hình hiếm có ở miền Tây. Điểm mạnh là miễn phí, cảnh hoang sơ; điểm yếu là xa Châu Đốc (~48 km), đường Tri Tôn nhỏ, đi lệch mùa lúa thì cảnh kém hẳn. Hợp với người thích chụp ảnh và phượt, nên đi mùa lúa chín, ghép với chợ nổi Long Xuyên."
+   },
+   "ten": "Tà Pạ (cánh đồng — hồ — chùa Tà Pạ)",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "tri-ton-long-xuyen",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trên sông Hậu, TP Long Xuyên (bến phà Ô Môi)",
+   "gia_ve": "Thuê ghe 150.000–200.000đ/chuyến (tùy ghe, nên thỏa giá trước)",
+   "gio_mo_cua": "Họp sáng sớm (đi từ ~5–6h)",
+   "hop_voi": "Người thích chợ nổi/sông nước",
+   "id": "cho-noi-long-xuyen",
+   "lat": 10.39292,
+   "lng": 105.42772,
+   "luu_y": "Chợ nổi còn giữ nét buôn bán thật, ít du lịch hóa hơn Cái Răng; đi từ Long Xuyên, có thể ghép cùng ngày về Châu Đốc",
+   "nguon": "dicungdien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dicungdien.com",
+    "nhan_xet": "Chợ nổi Long Xuyên nhỏ và yên hơn Cái Răng, còn giữ nét chợ họp sớm cho dân địa phương — ai thích sự chân chất sẽ thích, ai thích náo nhiệt sẽ thấy vắng. Điểm mạnh là thuê ghe rẻ (150.000–200.000đ/chuyến), không khí buổi sáng trong lành; điểm yếu là xa Châu Đốc (~60 km), chợ tan sớm. Hợp với người thích chợ nổi nguyên bản, nên đi 5–6h sáng từ Long Xuyên."
+   },
+   "ten": "Chợ nổi Long Xuyên",
+   "thoi_gian": "1,5–2 giờ buổi sáng"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "kien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Pháo Đài, TP Hà Tiên (khu vực Kiên Giang cũ, nay thuộc tỉnh An Giang mới)",
+   "gia_ve": "Miễn phí vào bãi (ghế, tắm nước ngọt tính riêng, chưa kiểm được mức riêng)",
+   "gio_mo_cua": "Cả ngày; tắm đẹp nhất buổi chiều",
+   "hop_voi": "Gia đình, nhóm bạn, khách thích biển",
+   "id": "mui-nai",
+   "lat": 10.37915,
+   "lng": 104.4822,
+   "luu_y": "Thuộc khu vực Kiên Giang cũ, xa Châu Đốc ~90 km — nên đi trong ngày riêng Hà Tiên hoặc ngủ lại Hà Tiên. Bãi cát đen đặc trưng, nước không trong như Phú Quốc; có cáp treo lên núi Tà Bàng ngắm vịnh. Tránh mùa mưa sóng lớn.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Mũi Nai đáng đi vì nó là bãi biển 'độc': cát đen, hai núi kẹp vịnh, hoàng hôn đẹp, khác hẳn bãi cát trắng quen thuộc. Điểm yếu phải nói thẳng: nước biển không trong, cát đen nên nhiều người mới tới hơi thất vọng nếu kỳ vọng tắm biển như Phú Quốc. Hợp với người thích ngắm cảnh và chụp hoàng hôn hơn là tắm; nên đi chiều muộn, ghép với Thạch Động trong ngày Hà Tiên."
+   },
+   "ten": "Bãi biển Mũi Nai",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 85,
+   "cum": "kien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "QL80, phường Mỹ Đức, TP Hà Tiên (khu vực Kiên Giang cũ, nay thuộc tỉnh An Giang mới)",
+   "gia_ve": "Chưa kiểm được giá vé riêng",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích truyền thuyết, hang động, gia đình",
+   "id": "thach-dong",
+   "lat": 10.40977,
+   "lng": 104.47517,
+   "luu_y": "Thuộc khu vực Kiên Giang cũ. Núi đá vôi gắn truyền thuyết Thạch Sanh, có chùa Tiên Sơn trong hang. Đi cùng cụm Hà Tiên với Mũi Nai. Đường lên dốc đá, mang giày chống trơn.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Thạch Động nhỏ nhưng có hồn: hang đá, chùa trong lòng núi, câu chuyện Thạch Sanh mà trẻ con nào cũng biết — đi với trẻ nhỏ rất hợp. Điểm yếu là quy mô nhỏ, leo dốc đá trơn, chỉ ở lại được khoảng một giờ là hết thứ xem. Hợp với gia đình có trẻ em và người thích truyền thuyết, nên ghép với Mũi Nai trong cùng buổi chiều Hà Tiên."
+   },
+   "ten": "Thạch Động (Thạch Động Thôn Vân)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 95,
+   "cum": "kien-giang-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "339 Nguyễn Trung Trực, phường Vĩnh Lạc, TP Rạch Giá (khu vực Kiên Giang cũ, nay thuộc tỉnh An Giang mới; trung tâm tỉnh đặt tại Rạch Giá)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, khách quá cảnh Rạch Giá",
+   "id": "cong-tam-quan-rach-gia",
+   "lat": 9.99803,
+   "lng": 105.0918,
+   "luu_y": "Thuộc khu vực Kiên Giang cũ; Rạch Giá là trung tâm hành chính của tỉnh An Giang mới. Cổng là biểu tượng thành phố, chỉ là điểm ghé chụp ảnh, không cần đi riêng. Kết hợp ăn hải sản Rạch Giá và đi phà ra Phú Quốc/Nam Du nếu có thời gian.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Cổng Tam Quan là biểu tượng của Rạch Giá, chụp ảnh kỷ niệm thì được, nhưng nói thẳng: ngoài cổng ra thì khu vực này không có gì để tham quan lâu. Điểm mạnh là miễn phí, nằm ngay trung tâm, tiện ghé khi quá cảnh; điểm yếu là nếu đi riêng 95 km từ Châu Đốc chỉ để xem cổng thì không đáng. Hợp với khách đang ở Rạch Giá hoặc đi phà ra đảo, nên ghé buổi tối khi lên đèn."
+   },
+   "ten": "Cổng Tam Quan (Rạch Giá)",
+   "thoi_gian": "30 phút ghé chụp ảnh"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Rừng tràm Trà Sư",
+   "gio": "7:00-9:00 sáng (chim hoạt động, tia nắng xuyên lá) hoặc 15:30-17:00 chiều (hoàng hôn, chim bay về tổ)",
+   "nguon": "Phan Văn Travel — Trải nghiệm du lịch Trà Sư An Giang; Thám Hiểm Mekong — Hướng dẫn du lịch Rừng Tràm Trà Sư (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Miếu Bà Chúa Xứ Núi Sam",
+   "gio": "5:30-7:00 sáng hoặc 16:30-18:00 chiều, tránh nắng gắt giữa trưa",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam (bình minh khoảng 5:30, hoàng hôn khoảng 17:30); chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Chợ Châu Đốc",
+   "gio": "6:00-8:00 sáng lúc chợ họp đông và ánh sáng mềm",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì ghé chùa/miếu và chợ có mái — tránh Trà Sư, Núi Cấm, Tà Pạ vì đường trơn và toàn ngoài trời. (Cập nhật 08/11/2026: bỏ Chùa Hang vì nằm trên sườn núi, phải leo bậc đá, ngoài trời một phần.)",
+  "diem": [
+   "Chùa Tây An (Tây An Cổ Tự)",
+   "Miếu Bà Chúa Xứ Núi Sam",
+   "Lăng Thoại Ngọc Hầu",
+   "Chợ Châu Đốc"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "mieu-ba-chua-xu, lang-thoai-ngoc-hau, chua-tay-an",
+    "hoat_dong": "Miếu Bà Chúa Xứ (1–1,5 giờ) + Lăng Thoại Ngọc Hầu + Chùa Tây An",
+    "ngay": 1
+   },
+   {
+    "buoi": "Trưa",
+    "gan": "",
+    "hoat_dong": "Bún cá Châu Đốc (Bún cá Vân)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-hang, cho-chau-doc",
+    "hoat_dong": "Chùa Hang (45–60 phút) + chợ Châu Đốc mua mắm",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu mắm Châu Đốc (Hội quán Châu Đốc)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "rung-tram-tra-su",
+    "hoat_dong": "Rừng tràm Trà Sư 6:00–9:00 (2–3 giờ, tắc ráng + xuồng chèo)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "nui-cam",
+    "hoat_dong": "Núi Cấm (cáp treo lên đỉnh, 3–4 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bò bảy món Núi Sam (Tư Thiêng)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-cham-chau-giang",
+    "hoat_dong": "Phà Châu Giang → Làng Chăm Châu Giang + Thánh đường Jamiul Azhar (1,5–2 giờ)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "ta-pa, cho-noi-long-xuyen",
+    "hoat_dong": "Tà Pạ (Tri Tôn) hoặc chợ nổi Long Xuyên (chọn 1), về Châu Đốc trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Châu Đốc",
+  "best_season": "Tháng 9–11 (mùa nước nổi: Trà Sư bèo xanh đẹp nhất); tháng 3–5 (mùa khô, đường núi dễ đi); lễ hội Vía Bà Chúa Xứ 22–27 tháng 4 Âm lịch; lúa Tà Pạ chín cuối tháng 11–đầu tháng 12",
+  "destination": "An Giang",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "an-giang",
+  "lat": 10.71132,
+  "lng": 105.11912,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "nucuoimekong.com",
+   "travelbui.com",
+   "viet-travel.congtan5918.workers.dev",
+   "saigonstartravel.com",
+   "dicungdien.com",
+   "izitour.com",
+   "ivivu.com",
+   "mia.vn",
+   "tourdulichbentre.com",
+   "dulich.pro.vn",
+   "thamhiemmekong.com",
+   "klook.com",
+   "mytour.vn",
+   "tripi.vn",
+   "tiphay.vn",
+   "limody.vn",
+   "limotrip.vn",
+   "2banh.vn",
+   "khachsan.chudu24.com",
+   "traveloka.com",
+   "vivutour.vn",
+   "homecredit.vn",
+   "vietfuntravel.com.vn",
+   "tadiha.com",
+   "vietair.com.vn",
+   "xelientinh247.vn",
+   "foody.vn",
+   "laodong.vn",
+   "sundaygo.vn",
+   "vietnambooking.com"
+  ],
+  "province": "An Giang (tỉnh mới sau sáp nhập 01/07/2025: An Giang + Kiên Giang, trung tâm tỉnh đặt ở Rạch Giá; đợt 06/11/2026 đã thêm 3 điểm khu vực Kiên Giang cũ)",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "tâm linh",
+   "sông nước",
+   "sinh thái"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 9–11 (mùa nước nổi: Trà Sư bèo xanh đẹp nhất); tháng 3–5 (mùa khô, đường núi dễ đi); lễ hội Vía Bà Chúa Xứ 22–27 tháng 4 Âm lịch; lúa Tà Pạ chín cuối tháng 11–đầu tháng 12"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "ten": "Sở Du lịch An Giang",
+    "so": "02973 781 999 / 02973 504 569",
+    "nguon": "sdl.angiang.gov.vn, trang liên hệ chính thức (ngày kiểm 08/11/2026)"
+   }
+  ]
+ }
+}

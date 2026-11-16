@@ -1,0 +1,991 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–300.000đ/nồi (2–4 người)",
+   "mon": "Lẩu mắm Cần Thơ",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn, vietnambooking.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Lẩu mắm Cần Thơ là món 'mặt tiền' của ẩm thực Cần Thơ: mắm đậm, rau đồng đủ loại, ăn nhóm 2–4 người. Điểm mạnh là nhiều quán ngon (Dạ Lý, Má Năm), giá 100.000–300.000đ/nồi; điểm yếu là mắm nặng mùi, ai không quen sẽ khó ăn. Hợp với nhóm ăn tối, nên ăn ở Dạ Lý (89 đường 3/2)."
+   },
+   "quan": [
+    {
+     "dia_chi": "89 đường 3/2, quận Ninh Kiều",
+     "gia": "100.000–300.000đ/nồi",
+     "ten": "Lẩu mắm Dạ Lý"
+    },
+    {
+     "dia_chi": "98 Huỳnh Cương, quận Ninh Kiều",
+     "gia": "100.000–300.000đ/nồi",
+     "ten": "Quán Má Năm"
+    },
+    {
+     "dia_chi": "162 Trần Ngọc Quế, quận Ninh Kiều",
+     "gia": "100.000–300.000đ/nồi",
+     "ten": "Lẩu mắm 162 Trần Ngọc Quế"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "10.000–35.000đ/cái",
+   "mon": "Bánh cống Cần Thơ",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Bánh cống Cần Thơ giòn rụm, nhân tôm thịt, chấm nước mắm chua ngọt — món ăn vặt nổi tiếng nhất Cần Thơ. Điểm mạnh là rẻ (10.000–35.000đ/cái), quán Cô Út lâu đời; điểm yếu là bánh chiên dầu nên ăn nhiều dễ ngán. Hợp với ăn sáng và ăn vặt, nên ăn ở Cô Út (86/38 Lý Tự Trọng)."
+   },
+   "quan": [
+    {
+     "dia_chi": "86/38 Lý Tự Trọng, quận Ninh Kiều",
+     "gia": "10.000–35.000đ/cái",
+     "ten": "Bánh cống Cô Út"
+    },
+    {
+     "dia_chi": "32 Đề Thám, quận Ninh Kiều",
+     "gia": "10.000–35.000đ/cái",
+     "ten": "Bánh cống Huê Viên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–40.000đ/tô",
+   "mon": "Bún tôm khô Cái Răng",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / foody.vn",
+    "nhan_xet": "Bún tôm khô ăn trên ghe chợ nổi Cái Răng buổi sáng là trải nghiệm đúng chất: vừa ăn vừa xem ghe buôn qua lại. Điểm mạnh là giá 20.000–40.000đ/tô, tôm khô ngọt nước; điểm yếu là du khách phản ánh giá ăn trên ghe có khi cao gấp đôi đất liền. Hợp với ăn sáng khi đi chợ nổi, nên hỏi giá trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Quận Cái Răng (quán trên ghe/ven chợ)",
+     "gia": "20.000–40.000đ/tô",
+     "ten": "Chợ Cái Răng"
+    },
+    {
+     "dia_chi": "150 Xô Viết Nghệ Tĩnh, quận Ninh Kiều",
+     "gia": "20.000–40.000đ/tô",
+     "ten": "Quán bún tôm khô"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, mùa nước nổi)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "120.000–250.000đ/nồi",
+   "mon": "Lẩu cá linh bông điên điển",
+   "nguon": "dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn",
+    "nhan_xet": "Lẩu cá linh Cần Thơ ngon nhất mùa nước nổi, ăn ở quán lẩu mắm 162 Trần Ngọc Quế là tiện. Điểm mạnh là giá 120.000–250.000đ/nồi rõ ràng; điểm yếu là chỉ có mùa nước nổi. Hợp với nhóm đi tháng 9–11."
+   },
+   "quan": [
+    {
+     "dia_chi": "162 Trần Ngọc Quế, quận Ninh Kiều",
+     "gia": "120.000–250.000đ/nồi",
+     "ten": "Lẩu mắm 162 Trần Ngọc Quế"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "120.000–300.000đ/nồi",
+   "mon": "Lẩu vịt nấu chao",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Lẩu vịt nấu chao Thành Giao là món 'độc quyền' Cần Thơ: vịt nấu chao béo, thơm, ăn với bún và rau — ai tới Cần Thơ cũng nên thử một lần. Điểm mạnh là quán lâu đời, giá 120.000–300.000đ/nồi; điểm yếu là quán trong hẻm, đông giờ tối. Hợp với nhóm ăn tối, nên ăn ở hẻm 1/8 Lý Tự Trọng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Hẻm 1/8 Lý Tự Trọng, quận Ninh Kiều",
+     "gia": "120.000–300.000đ/nồi",
+     "ten": "Lẩu vịt nấu chao Thành Giao"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~30.000–50.000đ/phần",
+   "mon": "Nem nướng Cái Răng",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Nem nướng Cái Răng thơm, cuốn bánh tráng rau sống — món ăn trưa nhẹ nhàng, giá ~30.000–50.000đ/phần. Điểm mạnh là quán Thanh Vân lâu đời; điểm yếu là nem nướng thì nhiều nơi có, không riêng Cần Thơ. Hợp với ăn trưa, nên ăn ở Thanh Vân (17 Hòa Bình)."
+   },
+   "quan": [
+    {
+     "dia_chi": "17 Hòa Bình, quận Ninh Kiều",
+     "gia": "~30.000–50.000đ/phần",
+     "ten": "Nem nướng Thanh Vân"
+    },
+    {
+     "dia_chi": "98 Đề Thám, quận Ninh Kiều",
+     "gia": "~30.000–50.000đ/phần",
+     "ten": "Nem nướng Hai Vân"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Hủ tiếu mực Thanh Bình",
+   "nguon": "dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn",
+    "nhan_xet": "Hủ tiếu mực Thanh Bình lạ miệng: mực tươi, nước lèo ngọt — món sáng khác biệt so với hủ tiếu thường. Điểm yếu là giá riêng chưa kiểm được, địa chỉ chỉ có đường Nguyễn Văn Linh, không có số nhà. Hợp với ăn sáng, nên hỏi người địa phương chỉ đường."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Nguyễn Văn Linh, quận Ninh Kiều (không có số nhà trong nguồn)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hủ tiếu mực Thanh Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (chợ đêm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Ốc nướng tiêu",
+   "nguon": "dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn",
+    "nhan_xet": "Ốc nướng tiêu chợ đêm Ninh Kiều cay thơm, ăn chơi buổi tối rất hợp. Điểm yếu là giá riêng chưa kiểm được, ốc chợ đêm chất lượng tùy sạp. Hợp với ăn tối ở chợ đêm, nên ăn ở sạp đông khách."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Hai Bà Trưng, quận Ninh Kiều",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ đêm Ninh Kiều"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, miệt vườn)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Cá lóc nướng trui",
+   "nguon": "dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn",
+    "nhan_xet": "Cá lóc nướng trui ở Cồn Sơn và Mỹ Khánh là món ăn miệt vườn đúng nghĩa: cá nướng rơm, ăn tại nhà vườn. Điểm yếu là giá riêng chưa kiểm được, món này tính trong tour hoặc theo phần tại chỗ. Hợp với nhóm ăn trưa miệt vườn, nên ăn ở Cồn Sơn."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Bùi Hữu Nghĩa, quận Bình Thủy",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Cồn Sơn"
+    },
+    {
+     "dia_chi": "335 Lộ Vòng Cung, Mỹ Khánh, Phong Điền",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Làng du lịch Mỹ Khánh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (trải nghiệm làm bánh)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng",
+   "mon": "Bánh xèo miền Tây",
+   "nguon": "dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / thamhiemmekong.com",
+    "nhan_xet": "Bánh xèo miền Tây ở Cồn Sơn đặc biệt ở chỗ được tự tay đổ bánh: bánh xèo ngũ sắc từ nguyên liệu tự nhiên, giòn rụm. Điểm yếu là giá riêng chưa kiểm được, trải nghiệm làm bánh tính phí riêng. Hợp với gia đình có trẻ nhỏ, nên làm bánh ở Cồn Sơn buổi sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Bùi Hữu Nghĩa, quận Bình Thủy (trải nghiệm làm bánh xèo)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Cồn Sơn"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Cần Thơ khứ hồi",
+   "uoc_tinh": "260.000–330.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "250.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan + thuyền chợ nổi",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.310.000–3.030.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.300.000đ/chiều (tham khảo)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Thuê thuyền tại bến Ninh Kiều chính thức, hỏi rõ giá theo người hay theo thuyền, đã gồm những gì; kiểm tra áo phao; đi sớm 5h-5h30 để gặp chợ đông nhất.",
+   "nguon": "Phan Văn Travel — Kinh nghiệm du lịch chợ nổi Cái Răng Cần Thơ (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê thuyền đi chợ nổi Cái Răng: giá thuê thuyền riêng bị hét cao, thuyền ghép bị chèo kéo mua tour kèm; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn uống ở bến Ninh Kiều, chợ đêm Ninh Kiều: giá không niêm yết, phụ thu với khách du lịch."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Cần Thơ và sân bay Cần Thơ hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Áo chống nắng, mũ, kem chống nắng",
+  "Áo mưa mỏng (mùa mưa tháng 5–10)",
+  "Giày/dép chống trơn (đi thuyền, cồn)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (vé thuyền, chợ, quán nhỏ)",
+  "Thuốc chống muỗi, thuốc say sóng (nếu đi thuyền chợ nổi), thuốc cơ bản",
+  "Sạc dự phòng",
+  "Dậy sớm 5:00 đi chợ nổi Cái Răng (chợ tan sau 8:00); hỏi giá tàu trước khi lên; mặc áo phao khi đi thuyền"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "De Rivé Homestay"
+  ],
+  "diem": [
+   "Bến Ninh Kiều",
+   "Chợ nổi Cái Răng",
+   "Cồn Sơn",
+   "Vườn ca cao Mười Cương"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Cần Thơ",
+   "Wink Hotel Cần Thơ Centre",
+   "Tru by Hilton Cần Thơ"
+  ],
+  "diem_chay": [
+   "Đường Sông Hậu, Công viên Sông Hậu (điểm xuất phát/về đích của giải)",
+   "Bến Ninh Kiều buổi sáng sớm",
+   "Đường ven sông Cần Thơ"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Công Lý — Gần 10 nghìn VĐV tham gia giải Marathon quốc tế di sản Cần Thơ 2025; Thế Giới Chạy Bộ — Tổng hợp giải chạy tháng 12/2025 (ngày kiểm 08/11/2026)",
+    "ten": "Marathon Quốc tế Di sản Cần Thơ (Can Tho Heritage Marathon)",
+    "thoi_gian": "Tháng 12 hằng năm (mùa 2025: 21/12/2025)"
+   }
+  ],
+  "nguon": "Báo Công Lý về giải Can Tho Heritage Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_trung_tam": "~2 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu E1, Cồn Cái Khế, quận Ninh Kiều",
+   "dien_thoai": "0292 3688 888",
+   "gia": "~1.500.000–11.500.000đ/đêm (Deluxe ~1.500.000đ; Suite cao hơn)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách công tác, khách muốn tiện nghi cao",
+   "khu_vuc": "con-cai-khe",
+   "nguon": "dulich.pro.vn, vinpearl.com",
+   "nguon_dien_thoai": "muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Cần Thơ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "~1.500.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Khách trẻ, khách công tác",
+   "khu_vuc": "ninh-kieu",
+   "nguon": "mytour.vn, dulich.pro.vn",
+   "nguon_dien_thoai": "chưa tra được — số duy nhất tìm được 0931 666 900 là hotline đặt phòng của Vietgoing, không phải số khách sạn (ngày kiểm 08/11/2026)",
+   "ten": "Wink Hotel Cần Thơ Centre",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~2 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực Cái Khế, quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": "0292 3933 355",
+   "gia": "~989.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "cai-khe",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "hilton.com (ngày kiểm 08/11/2026); khách sạn này trước là SOJO Hotel Can Tho, cùng số/địa chỉ 112 Trần Phú",
+   "ten": "Tru by Hilton Cần Thơ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~0,5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Ninh Kiều, gần Bến Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "~550.000–700.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm, gia đình nhỏ",
+   "khu_vuc": "ninh-kieu",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026)",
+   "ten": "LION 17 Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "~250.000–350.000đ/đêm",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm, nhóm bạn",
+   "khu_vuc": "ninh-kieu",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "chưa tra được — tìm kiếm không trả về kết quả liên quan (ngày kiểm 08/11/2026)",
+   "ten": "ON Hotel Cần Thơ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~0,3 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Ninh Kiều, 2 phút tới Bến Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": "0789 664 777",
+   "gia": "~350.000–500.000đ/đêm",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, nhóm bạn",
+   "khu_vuc": "ninh-kieu",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "antamtour.vn (nguồn đơn lẻ, địa chỉ khớp khu vực Bến Ninh Kiều) (ngày kiểm 08/11/2026)",
+   "ten": "De Rivé Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~12 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cầu Rạch Sung, xã Nhơn Nghĩa, huyện Phong Điền",
+   "dien_thoai": "0919 777 421",
+   "gia": "~600.000–2.300.000đ/đêm (phòng riêng/bungalow)",
+   "hang": "Homestay",
+   "hop_voi": "Gia đình, nhóm bạn thích sông nước",
+   "khu_vuc": "phong-dien",
+   "nguon": "mytour.vn, dulich.pro.vn",
+   "nguon_dien_thoai": "travelistul.com, bookaweb.com (ngày kiểm 08/11/2026)",
+   "ten": "Mekong Daniel's Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Phong Điền (địa chỉ đường cụ thể chưa kiểm được)",
+   "dien_thoai": "0968 693 769",
+   "gia": "~1.300.000–1.600.000đ/đêm",
+   "hang": "Homestay",
+   "hop_voi": "Gia đình, nhóm bạn thích nghỉ dưỡng sinh thái",
+   "khu_vuc": "phong-dien",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "website chính thức vamxangrustic.com (ngày kiểm 08/11/2026); hotline phụ 0867 093 969",
+   "ten": "Vàm Xáng Rustic Home",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Làng du lịch Mỹ Khánh (6 mức khác nhau: 70.000đ / 90.000đ / 100.000đ / 120.000đ / 139.000đ / 149.000đ — mâu thuẫn lớn)",
+  "Giá vé Nhà cổ Bình Thủy (15.000đ vs 20.000đ)",
+  "Giờ mở cửa Thiền viện Trúc Lâm Phương Nam (6:00–17:00 vs 7:00–22:00 vs 8:00–17:00)",
+  "Giá thuê tàu chợ nổi Cái Răng (500.000–900.000đ/tàu vs 600.000đ/ghe nhỏ–1.490.000đ/tàu vs tour ghép ~100.000đ/khách)",
+  "Tọa độ GPS: Vườn cò Bằng Lăng chỉ có tọa độ xấp xỉ (điểm cầu Bằng Lăng), cần kiểm lại",
+  "Khoảng cách sân bay Cần Thơ — Bến Ninh Kiều (~8 km theo vietair/vietjet vs 22–23 km và 40–50 phút theo dvn)",
+  "Giá taxi sân bay Cần Thơ — trung tâm (120.000–180.000đ vs 270.000đ)",
+  "Địa chỉ đường cụ thể của Wink Hotel Cần Thơ Centre, Tru by Hilton Cần Thơ, LION 17 Hotel, ON Hotel, De Rivé Homestay, Vàm Xáng Rustic Home",
+  "Hạng sao LION 17 Hotel, ON Hotel, De Rivé Homestay, Vàm Xáng Rustic Home",
+  "Giá phòng Mường Thanh Luxury Cần Thơ — khoảng rộng 1.500.000–11.500.000đ/đêm theo hạng phòng, chưa kiểm được giá từng hạng",
+  "Giá vé riêng Khu du lịch Ông Đề chưa kiểm được",
+  "Giá riêng hủ tiếu mực Thanh Bình, ốc nướng tiêu, cá lóc nướng trui, bánh xèo miền Tây",
+  "Hủ tiếu mực Thanh Bình: địa chỉ chỉ có đường Nguyễn Văn Linh, không có số nhà trong nguồn",
+  "Giá vé limousine SG — Cần Thơ, giá vé máy bay SGN–VCA, giá thuê xe 4 chỗ SG — Cần Thơ",
+  "Bảng giá taxi nội thành Cần Thơ",
+  "Giá thuê xe máy riêng tại Cần Thơ (xe số/tay ga) — dùng tham khảo chung miền Tây",
+  "Giá đò Cồn Sơn riêng (thường tính trong vé tham quan)"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Thành phố đồng bằng sông nước, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay quốc tế Cần Thơ: 179B Lê Hồng Phong, phường Bình Thủy, quận Bình Thủy. Cách trung tâm ~8 km theo vietair/vietjet; dvn ghi 22–23 km tới Bến Ninh Kiều và 40–50 phút — mâu thuẫn, xem mục chưa kiểm được.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng; sân bay VCA cách trung tâm ~8 km",
+    "gia": "~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ)",
+    "nguon": "vietair.com.vn, vietjetair.com",
+    "phuong_tien": "Máy bay HAN–VCA (Cần Thơ)",
+    "thoi_gian": "Bay ~2h10; ~2 chuyến/ngày (Vietjet/Vietnam Airlines)"
+   },
+   {
+    "ghi_chu": "Không khuyến khích; đa số nguồn khuyên bay",
+    "gia": "~1.450.000đ/vé (theo viet-travel)",
+    "nguon": "viet-travel.congtan5918.workers.dev",
+    "phuong_tien": "Xe khách HN — Cần Thơ",
+    "thoi_gian": "~26h30"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Hỏi giá trước khi lên xe",
+    "gia": "120.000–180.000đ/chuyến (vietair) vs 270.000đ/chuyến (dvn) — mâu thuẫn",
+    "nguon": "vietair.com.vn, dvn.com.vn",
+    "phuong_tien": "Taxi sân bay"
+   },
+   {
+    "ghi_chu": "Rẻ nhất; hợp khách đi một mình, ít hành lý",
+    "gia": "5.000đ/lượt; chạy 5:30–18:30, ~55 phút/chuyến",
+    "nguon": "vietair.com.vn",
+    "phuong_tien": "Xe buýt sân bay — trung tâm"
+   },
+   {
+    "ghi_chu": "Hỏi giá trước",
+    "gia": "40.000–70.000đ/chuyến",
+    "nguon": "vietair.com.vn",
+    "phuong_tien": "Xe ôm / xe công nghệ"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây; nhiều chuyến trong ngày",
+    "gia": "Phương Trang 130.000–165.000đ/vé (limody ghi 130.000đ, 76 chuyến/ngày; limotrip ghi 145.000đ/165.000đ); Thành Bưởi ~130.000đ/vé",
+    "nguon": "limody.vn, limotrip.vn",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "3–3,5 giờ (một nguồn ghi 4 giờ)"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Chưa kiểm được giá riêng tuyến SG — Cần Thơ (tham khảo chung miền Tây ~300.000–500.000đ/vé)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc TP.HCM — Trung Lương — Mỹ Thuận → QL1A → Cần Thơ",
+    "gia": "Thuê xe 4 chỗ có tài xế SG — Cần Thơ chưa kiểm được giá riêng (tham khảo SG — Cà Mau ~2.600.000đ/chiều)",
+    "nguon": "xelientinh247.vn",
+    "phuong_tien": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+    "thoi_gian": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ"
+   },
+   {
+    "ghi_chu": "Sân bay Cần Thơ cách trung tâm ~8 km (theo vietair/vietjet); một nguồn ghi 22–23 km tới Bến Ninh Kiều và 40–50 phút — mâu thuẫn",
+    "gia": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA)",
+    "nguon": "vietair.com.vn, vietjetair.com, dvn.com.vn",
+    "phuong_tien": "Máy bay SGN–VCA",
+    "thoi_gian": "Bay ~45–55 phút + vào trung tâm ~30–50 phút"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê tại Ninh Kiều, gần Bến Ninh Kiều có nhiều điểm cho thuê",
+   "gia": "~100.000–150.000đ/ngày (tham khảo chung miền Tây; chưa kiểm được mức riêng tại Cần Thơ)",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "luxurytravel.vn, 2banh.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày (tham khảo chung miền Tây; chưa kiểm được mức riêng tại Cần Thơ)",
+   "giay_to": "Như trên",
+   "nguon": "luxurytravel.vn",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be phủ sóng tốt tại Ninh Kiều; hỏi giá trước khi đi",
+   "gia": "Chưa kiểm được bảng giá taxi riêng tại Cần Thơ",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Đi sáng sớm 5:00–8:00; bến tàu 25 Hai Bà Trưng, Tân An, Ninh Kiều",
+   "gia": "Thuê tàu 2h 500.000–900.000đ/tàu (dulich.pro.vn); hoặc 600.000đ/ghe nhỏ–1.490.000đ/tàu (nucuoimekong 2026); tour ghép ~100.000đ/khách; vé lẻ ~30.000–50.000đ/người",
+   "giay_to": "",
+   "nguon": "dulich.pro.vn, nucuoimekong.com",
+   "phuong_tien": "Tàu/thuyền chợ nổi Cái Răng"
+  },
+  {
+   "ghi_chu": "Đi đò từ bến Cồn Sơn, đường Bùi Hữu Nghĩa",
+   "gia": "Chưa kiểm được giá riêng (thường tính trong vé tham quan Cồn Sơn)",
+   "giay_to": "",
+   "nguon": "dulich.pro.vn",
+   "phuong_tien": "Đò Cồn Sơn"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "ninh-kieu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Ninh Kiều (bến du thuyền đường Hai Bà Trưng, Tân An); công viên Ninh Kiều là điểm ngắm đèn buổi tối",
+   "gia_ve": "Miễn phí vào công viên (thuê tàu dạo sông tính riêng)",
+   "gio_mo_cua": "Cả ngày; đẹp nhất 18:00–22:00 ngắm đèn, tượng Bác Hồ và cầu Cần Thơ",
+   "hop_voi": "Mọi đối tượng",
+   "id": "ben-ninh-kieu",
+   "lat": 10.05165,
+   "lng": 105.77329,
+   "luu_y": "Bến tàu du lịch Cần Thơ tại 25 Hai Bà Trưng; tàu du lịch Cần Thơ — chợ nổi Cái Răng xuất phát từ đây",
+   "nguon": "phanvantravel.com, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "phanvantravel.com / dulich.pro.vn",
+    "nhan_xet": "Bến Ninh Kiều là 'mặt tiền' của Cần Thơ: tối lên đèn, tượng Bác Hồ, cầu Cần Thơ phía xa — dạo mát buổi tối rất dễ chịu. Điểm mạnh là miễn phí, ngay trung tâm, nhiều quán ăn xung quanh; điểm yếu là ban ngày nắng và không có gì đặc sắc, chỉ đẹp khi lên đèn. Hợp với mọi đối tượng, nên đi 18–22h, ghép với chợ đêm Ninh Kiều."
+   },
+   "ten": "Bến Ninh Kiều",
+   "thoi_gian": "1–2 giờ buổi tối"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "cai-rang",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trên sông Cần Thơ, quận Cái Răng; bến tàu du lịch tại 25 Hai Bà Trưng, Tân An, Ninh Kiều",
+   "gia_ve": "Miễn phí vào chợ (thuê tàu tính riêng); thuê tàu 2h 500.000–900.000đ/tàu theo dulich.pro.vn; hoặc 600.000đ/ghe nhỏ–1.490.000đ/tàu theo nucuoimekong 2026; tour ghép ~100.000đ/khách; vé lẻ ~30.000–50.000đ/người",
+   "gio_mo_cua": "Họp chợ từ 5:00 sáng; đẹp nhất 5:00–8:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-noi-cai-rang",
+   "lat": 10.00581,
+   "lng": 105.7455,
+   "luu_y": "Chợ nổi lớn nhất miền Tây; đi sáng sớm để xem chợ nhộn nhịp, ăn sáng trên ghe; nên đi tàu riêng hoặc tour ghép; mang theo áo mưa nếu trời mưa",
+   "nguon": "dulich.pro.vn, nucuoimekong.com, nhungoc-dulichcantho.github.io",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "foody.vn / 2banh.vn / dulich.pro.vn",
+    "nhan_xet": "Chợ nổi Cái Răng là biểu tượng của Cần Thơ, từng lọt top chợ ấn tượng thế giới — nhưng du khách phản ánh chợ đã vãn hơn trước, và giá ăn trên ghe khá cao (bún 40.000đ/tô theo phản ánh trên Foody, gấp đôi đất liền). Điểm mạnh là không khí buôn bán trên sông buổi sớm rất đáng trải nghiệm; điểm yếu là phải dậy 4h30, thuê tàu riêng 500.000–900.000đ khá cao, đi ghép 30.000–50.000đ/người thì rẻ hơn. Hợp với khách lần đầu tới Cần Thơ, nên đi 5–7h, đi ghép hoặc thuê ghe nhỏ để tự do."
+   },
+   "ten": "Chợ nổi Cái Răng",
+   "thoi_gian": "2–3 giờ (đi tàu)"
+  },
+  {
+   "cach_trung_tam_km": 0.5,
+   "cum": "ninh-kieu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hai Bà Trưng (khu vực Bến Ninh Kiều), quận Ninh Kiều",
+   "gia_ve": "Miễn phí vào chợ (ăn uống/mua sắm tính riêng)",
+   "gio_mo_cua": "Từ 18:00 hằng ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-dem-ninh-kieu",
+   "lat": 10.03242,
+   "lng": 105.78774,
+   "luu_y": "Chợ đêm sầm uất, ăn vặt, hải sản, quà lưu niệm; đi kèm Bến Ninh Kiều buổi tối",
+   "nguon": "dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn",
+    "nhan_xet": "Chợ đêm Ninh Kiều vui nhất về đêm: đồ ăn vặt, ốc nướng tiêu, quần áo — đi dạo sau bữa tối rất hợp. Điểm mạnh là ngay Bến Ninh Kiều, giá bình dân; điểm yếu là hàng hóa na ná các chợ đêm khác, đông đúc cuối tuần. Hợp với mọi đối tượng, nên đi 18–22h, ăn ốc nướng tiêu và dạo bộ."
+   },
+   "ten": "Chợ đêm Ninh Kiều",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1.5,
+   "cum": "ninh-kieu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 36 Hòa Bình, quận Ninh Kiều",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "8:00–18:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-munir-ansay",
+   "lat": 10.03346,
+   "lng": 105.78393,
+   "luu_y": "Ngôi chùa Khmer nổi tiếng, kiến trúc vàng rực rỡ; chụp ảnh đẹp; ăn mặc lịch sự khi vào chùa",
+   "nguon": "dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn",
+    "nhan_xet": "Chùa Munir Ansay là chùa Khmer đẹp ngay trung tâm Ninh Kiều, kiến trúc vàng rực, chụp ảnh rất nổi. Điểm mạnh là miễn phí, tiện đường, giờ mở cửa rõ ràng (8–18h); điểm yếu là chùa không lớn, xem 1 giờ là hết. Hợp với người thích kiến trúc Khmer, nên ghép với Bến Ninh Kiều trong cùng buổi."
+   },
+   "ten": "Chùa Munir Ansay (Chùa Khmer)",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "binh-thuy",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 142/144 Bùi Hữu Nghĩa, phường Bình Thủy, quận Bình Thủy",
+   "gia_ve": "15.000–20.000đ/người (các nguồn ghi 15.000đ / 20.000đ)",
+   "gio_mo_cua": "7:00–17:00",
+   "hop_voi": "Người thích kiến trúc cổ/điện ảnh",
+   "id": "nha-co-binh-thuy",
+   "lat": 10.06709,
+   "lng": 105.74979,
+   "luu_y": "Nhà cổ xây 1870, kiến trúc Đông–Tây; từng là bối cảnh phim 'Người tình' (L'Amant, 1992)",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Nhà cổ Bình Thủy là nhà cổ đẹp nhất Cần Thơ: kiến trúc Pháp–Việt, vườn lan, từng là bối cảnh phim — chụp ảnh rất ăn. Điểm mạnh là vé rẻ (15.000–20.000đ), gần Đình Bình Thủy; điểm yếu là nhà không lớn, ngày lễ đông. Hợp với người thích nhà cổ và chụp ảnh, nên đi buổi sáng, ghép với Đình Bình Thủy."
+   },
+   "ten": "Nhà cổ Bình Thủy",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "phong-dien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mỹ Khánh, huyện Phong Điền",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "6:00–17:00 (một nguồn ghi 7:00–22:00; một nguồn ghi 8:00–17:00)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "thien-vien-truc-lam-phuong-nam",
+   "lat": 9.99043,
+   "lng": 105.70398,
+   "luu_y": "Thiền viện lớn nhất miền Tây, rộng ~40.000 m²; kiến trúc gỗ truyền thống; ăn mặc lịch sự",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Thiền viện Trúc Lâm Phương Nam là thiền viện lớn nhất miền Tây, kiến trúc gỗ trầm mặc, không gian yên tĩnh — hợp để viếng và tĩnh tâm. Điểm mạnh là miễn phí, khuôn viên rộng; điểm yếu là giờ mở cửa các nguồn ghi mâu thuẫn lớn (6–17h vs 7–22h vs 8–17h), đi xa 15 km mà đóng cửa thì uổng. Hợp với người thích thiền và kiến trúc, nên đi buổi sáng và kiểm giờ trước."
+   },
+   "ten": "Thiền viện Trúc Lâm Phương Nam",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "phong-dien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 335 Lộ Vòng Cung, xã Mỹ Khánh, huyện Phong Điền",
+   "gia_ve": "100.000–149.000đ/người lớn (các nguồn ghi 70.000đ / 90.000đ / 100.000đ / 120.000đ / 139.000đ / 149.000đ — mâu thuẫn lớn); trẻ em thấp hơn",
+   "gio_mo_cua": "7:30–17:00",
+   "hop_voi": "Gia đình, nhóm bạn, trẻ em",
+   "id": "lang-du-lich-my-khanh",
+   "lat": 9.9912,
+   "lng": 105.70609,
+   "luu_y": "Khu du lịch sinh thái lớn: vườn trái cây, đờn ca tài tử, đua heo, đua chó, câu cá sấu, nhà cổ; nên đi buổi sáng",
+   "nguon": "mykhanh.com, dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "wanderlog.com / dulich9.com / mykhanh.com",
+    "nhan_xet": "Mỹ Khánh là khu du lịch miệt vườn lớn nhất Cần Thơ, được đánh giá 4,0/5 trên Google Maps với 6.139 bài đánh giá (kiểm trực tiếp Google Maps ngày 08/11/2026; Wanderlog tổng hợp 6.131 đánh giá, cùng mức 4,0/5) — nhưng giá vé là điểm mâu thuẫn nhất cả file: 6 mức từ 70.000đ tới 149.000đ, và mọi trò chơi tính riêng nên gia đình 4 người dễ tốn gần 1 triệu. Điểm mạnh là nhiều trò cho trẻ nhỏ (đua heo, xiếc khỉ, trượt thảm cầu vồng) và món cá lóc nướng trui, lẩu mắm được khen; điểm yếu là trò xiếc khỉ, đua chó bị một số du khách quốc tế chê là ngược đãi động vật. Hợp với gia đình có trẻ nhỏ, nên đi buổi sáng, chuẩn bị thêm 200.000–300.000đ/người cho trò chơi."
+   },
+   "ten": "Làng du lịch Mỹ Khánh",
+   "thoi_gian": "3–4 giờ (nửa ngày)"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "binh-thuy",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cù lao trên sông Hậu, phường Bùi Hữu Nghĩa, quận Bình Thủy (đi đò từ bến Cồn Sơn, đường Bùi Hữu Nghĩa)",
+   "gia_ve": "Vé từ 20.000đ/người (vé tham quan + trải nghiệm tính riêng theo điểm; làm bánh xèo, cá lóc bay tính phí riêng)",
+   "gio_mo_cua": "Ban ngày (đi đò theo giờ)",
+   "hop_voi": "Gia đình, nhóm bạn, trẻ em",
+   "id": "con-son",
+   "lat": 10.07957,
+   "lng": 105.74356,
+   "luu_y": "Cồn Sơn nổi tiếng với cá lóc bay, làm bánh xèo, vườn trái cây, bè cá; trải nghiệm cộng đồng; hỏi giá từng điểm trước",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dantri.com.vn / nucuoimekong.com / tourdulichbentre.com",
+    "nhan_xet": "Cồn Sơn là mô hình du lịch cộng đồng hay nhất Cần Thơ: mỗi nhà một nghề, cá lóc bay, làm bánh dân gian, ăn cơm nhà — đúng chất 'về quê chơi'. Điểm mạnh là không bán vé cổng chung, tiền trả trực tiếp cho từng nhà vườn, trải nghiệm thật; điểm yếu là phải đi đò, mỗi điểm thu phí riêng nên tổng chi phí cần tính trước. Hợp với gia đình và nhóm bạn, nên đi nửa ngày buổi sáng, đặt tour 280.000–360.000đ/khách nếu muốn gọn."
+   },
+   "ten": "Cồn Sơn",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "phong-dien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Mỹ Ái, xã Mỹ Khánh, huyện Phong Điền",
+   "gia_ve": "50.000đ/người (bao gồm tham quan + thưởng thức sô-cô-la)",
+   "gio_mo_cua": "7:00–12:00",
+   "hop_voi": "Gia đình, trẻ em, người thích ẩm thực",
+   "id": "vuon-ca-cao-muoi-cuong",
+   "lat": 9.98916,
+   "lng": 105.70919,
+   "luu_y": "Vườn ca cao lâu đời, tự làm sô-cô-la thủ công; nên đi buổi sáng; mua sô-cô-la về làm quà",
+   "nguon": "dulichviet.com.vn, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn / dulich.pro.vn",
+    "nhan_xet": "Vườn ca cao Mười Cương nhỏ mà đặc biệt: xem quy trình làm sô-cô-la thủ công từ trái ca cao tươi, uống ca cao nóng tại vườn — trải nghiệm hiếm ở miền Tây. Điểm mạnh là vé 50.000đ đã gồm thưởng thức sô-cô-la, chủ vườn nhiệt tình; điểm yếu là chỉ mở buổi sáng (7–12h), quy mô nhỏ, đi 1–2 giờ là hết. Hợp với người thích ẩm thực và gia đình có trẻ nhỏ, nên đi buổi sáng, ghép với Mỹ Khánh."
+   },
+   "ten": "Vườn ca cao Mười Cương",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "thot-not",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ấp Thới Bình 1, phường Thuận An, quận Thốt Nốt",
+   "gia_ve": "20.000đ/người lớn, 10.000đ/trẻ em",
+   "gio_mo_cua": "5:00–19:30; chỉ đẹp 16:00–17:00 cò về tổ",
+   "hop_voi": "Người thích chim/thiên nhiên",
+   "id": "vuon-co-bang-lang",
+   "lat": 10.29138,
+   "lng": 105.51392,
+   "luu_y": "Vườn cò lớn, hàng ngàn con cò trắng bay về tổ lúc hoàng hôn; đi chiều tối mới thấy cò; đường xa, nên ghép cùng ngày về Thốt Nốt Tọa độ xấp xỉ (điểm cầu Bằng Lăng, khu vực vườn cò), cần kiểm lại.",
+   "nguon": "dulich.pro.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich.pro.vn / dulichviet.com.vn",
+    "nhan_xet": "Vườn cò Bằng Lăng đẹp nhất lúc 16–17h khi hàng nghìn con cò bay về tổ — cảnh này rất đáng xem, nhưng ngoài khung giờ đó thì vườn chỉ còn cây và ao. Điểm mạnh là vé rẻ (20.000đ), xa trung tâm nên yên tĩnh; điểm yếu là xa (~40 km), phải đi đúng giờ, dịch vụ ít. Hợp với người thích chim và nhiếp ảnh, nên đi chiều, đến trước 16h."
+   },
+   "ten": "Vườn cò Bằng Lăng",
+   "thoi_gian": "1–2 giờ (đi chiều)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "phong-dien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Tuyến Rạch Ông Đề, xã Mỹ Khánh, huyện Phong Điền (cùng cụm Phong Điền với Mỹ Khánh)",
+   "gia_ve": "Chưa kiểm được giá vé riêng (tham khảo chung khu Phong Điền 30.000–50.000đ/người — chưa xác nhận)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn, khách thích trò chơi dân gian",
+   "id": "kdl-ong-de",
+   "lat": 9.99221,
+   "lng": 105.70745,
+   "luu_y": "Cùng cụm Phong Điền, cách Mỹ Khánh chỉ vài phút. Nổi tiếng trò chơi dân gian và tát mương bắt cá. Trùng lặp nhiều hoạt động với Mỹ Khánh — nếu ít ngày thì chọn 1 trong 2, ưu tiên Mỹ Khánh nếu đi đoàn đông, Ông Đề nếu thích không gian nhỏ, ít khách hơn.",
+   "nguon": "dulich9.com, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com / dulich.pro.vn",
+    "nhan_xet": "Ông Đề là phiên bản nhỏ và 'đời' hơn của Mỹ Khánh: cũng tát mương, bắt cá, trò chơi dân gian, nhưng ít khách đoàn hơn nên chơi thoải mái, không phải xếp hàng. Điểm yếu là quy mô nhỏ hơn hẳn Mỹ Khánh, ít trò, và giá vé chưa có mức niêm yết rõ ràng trên mạng nên phải hỏi tại chỗ. Hợp với nhóm bạn và gia đình thích không gian riêng tư; nếu chỉ có 2 ngày ở Cần Thơ thì chọn Mỹ Khánh hoặc Ông Đề, đừng đi cả hai."
+   },
+   "ten": "Khu du lịch sinh thái Ông Đề",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "binh-thuy",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Hẻm 46 đường Xóm Lưới, phường Bình Thủy, quận Bình Thủy (cùng cụm Bình Thủy với Nhà cổ Bình Thủy)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích lịch sử, kiến trúc đình làng",
+   "id": "dinh-binh-thuy",
+   "lat": 10.07246,
+   "lng": 105.75248,
+   "luu_y": "Cùng cụm Bình Thủy, cách Nhà cổ Bình Thủy vài phút đi bộ/xe. Đình cổ hơn 100 năm, lễ hội đình Bình Thủy (lễ Kỳ Yên) rằm tháng 4 Âm lịch rất lớn. Ghép với Nhà cổ Bình Thủy trong cùng buổi.",
+   "nguon": "dulichviet.com.vn, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn / dulich.pro.vn",
+    "nhan_xet": "Đình Bình Thủy là điểm dừng chân ngắn nhưng đáng: đình cổ, kiến trúc gỗ, không khí đình làng Nam Bộ còn nguyên, khác hẳn cảm giác khu du lịch. Điểm mạnh là miễn phí, yên tĩnh, ghép tiện với Nhà cổ Bình Thủy; điểm yếu là ngoài lễ Kỳ Yên ra thì ngày thường khá vắng, ít hoạt động. Hợp với người thích lịch sử và kiến trúc cổ, nên đi buổi sáng, tránh đi riêng một chuyến chỉ để xem đình."
+   },
+   "ten": "Đình Bình Thủy (Long Tuyền cổ miếu)",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": 0.5,
+   "cum": "ninh-kieu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "32 Hai Bà Trưng, phường Tân An, quận Ninh Kiều (ngay Bến Ninh Kiều)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng, khách dạo Bến Ninh Kiều",
+   "id": "chua-ong-can-tho",
+   "lat": 10.03018,
+   "lng": 105.78753,
+   "luu_y": "Ngay Bến Ninh Kiều, đi bộ từ chợ đêm Ninh Kiều vài phút. Chùa người Hoa hơn 100 năm, nhang vòng lớn treo trần là điểm chụp ảnh đặc trưng. Ăn mặc lịch sự, giữ yên lặng.",
+   "nguon": "dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn",
+    "nhan_xet": "Chùa Ông là điểm ghé tiện nhất Cần Thơ: nằm ngay Bến Ninh Kiều, đi bộ từ chợ đêm là tới, kiến trúc Hoa với nhang vòng treo trần rất đặc trưng. Điểm mạnh là miễn phí và tiện đường; điểm yếu là chùa nhỏ, xem 30 phút là hết, khói nhang khá nồng nên người nhạy cảm nên đứng ngoài sân. Hợp với mọi đối tượng, nên ghép vào buổi tối dạo Bến Ninh Kiều thay vì đi riêng."
+   },
+   "ten": "Chùa Ông (Quảng Triệu Hội Quán)",
+   "thoi_gian": "30 phút"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Chợ nổi Cái Răng",
+   "gio": "5:30-7:00 sáng là giờ vàng, chợ nhộn nhịp nhất, ánh sáng mềm và sương mờ trên sông",
+   "nguon": "Phan Văn Travel — Kinh nghiệm du lịch chợ nổi Cái Răng Cần Thơ; Bửu Long — Hình ảnh chợ nổi Cần Thơ đẹp nhất (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bến Ninh Kiều",
+   "gio": "5:00-6:30 sáng bình minh trên sông Hậu hoặc 17:00-18:30 hoàng hôn và lên đèn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cồn Sơn",
+   "gio": "7:00-9:00 sáng, ánh sáng đẹp trên vườn trái cây và bè cá",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa miền Tây thường rào ngắn buổi chiều — trú chùa, nhà cổ có mái rồi ra chợ nổi sáng sớm hôm sau.",
+  "diem": [
+   "Nhà cổ Bình Thủy",
+   "Chùa Munir Ansay (Chùa Khmer)",
+   "Thiền viện Trúc Lâm Phương Nam",
+   "Chùa Ông (Quảng Triệu Hội Quán)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ben-ninh-kieu",
+    "hoat_dong": "Bánh cống Cô Út (86/38 Lý Tự Trọng), dạo Bến Ninh Kiều",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "nha-co-binh-thuy, chua-munir-ansay",
+    "hoat_dong": "Nhà cổ Bình Thủy (142 Bùi Hữu Nghĩa) + Chùa Munir Ansay (36 Hòa Bình)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-dem-ninh-kieu",
+    "hoat_dong": "Lẩu mắm Dạ Lý (89 đường 3/2) + Chợ đêm Ninh Kiều (ốc nướng tiêu)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "cho-noi-cai-rang",
+    "hoat_dong": "Chợ nổi Cái Răng (5:00–8:00, ăn bún tôm khô trên ghe)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "lang-du-lich-my-khanh, vuon-ca-cao-muoi-cuong",
+    "hoat_dong": "Làng du lịch Mỹ Khánh (3–4 giờ) + Vườn ca cao Mười Cương",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu vịt nấu chao Thành Giao (Hẻm 1/8 Lý Tự Trọng)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "con-son",
+    "hoat_dong": "Cồn Sơn (cá lóc bay, làm bánh xèo)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "thien-vien-truc-lam-phuong-nam",
+    "hoat_dong": "Thiền viện Trúc Lâm Phương Nam + nem nướng Thanh Vân, về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Cần Thơ (Bến Ninh Kiều)",
+  "best_season": "Tháng 9–tháng 11 (mùa nước nổi, chợ nổi nhộn nhịp, trái cây nhiều); quanh năm đều đi được; tránh tháng 5–10 mưa nhiều",
+  "destination": "Cần Thơ",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "can-tho",
+  "lat": 10.05165,
+  "lng": 105.77329,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "phanvantravel.com",
+   "nucuoimekong.com",
+   "dulich.pro.vn",
+   "nhungoc-dulichcantho.github.io",
+   "2banh.vn",
+   "vinpearl.com",
+   "mykhanh.com",
+   "mytour.vn",
+   "soctrangtourism.vn",
+   "dvn.com.vn",
+   "dulichviet.com.vn",
+   "dulichfun.com",
+   "wikidulich.com",
+   "vietnambooking.com",
+   "dulich9.com",
+   "intour.vn",
+   "bestprice.vn",
+   "190travel.com",
+   "vietair.com.vn",
+   "vietjetair.com",
+   "honghainam.com",
+   "viet-travel.congtan5918.workers.dev",
+   "vegiagoc.com",
+   "buulong.com.vn",
+   "ongvove.com",
+   "datviettour.com.vn",
+   "vietgoing.com",
+   "foody.vn",
+   "wanderlog.com",
+   "dantri.com.vn",
+   "thamhiemmekong.com"
+  ],
+  "province": "Cần Thơ (thành phố trực thuộc Trung ương; đợt 06/11/2026 đã thêm 3 điểm gần trong thành phố)",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "sông nước",
+   "thành phố",
+   "chợ nổi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "thienhuongtourist.com; phanvantravel.com; luhanhvietnam.com.vn",
+  "thang_dep_nhat": "Tháng 9–11 (mùa nước nổi)"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "Website chính thức bvtwct.vn (trang Khoa Cấp cứu) — hotline 0901 215 115; bệnh viện đảm nhận cấp cứu ngoại viện 115 cho TP Cần Thơ (ngày kiểm 08/11/2026)",
+    "so": "0901 215 115",
+    "ten": "Bệnh viện Đa khoa Trung ương Cần Thơ"
+   }
+  ]
+ }
+}

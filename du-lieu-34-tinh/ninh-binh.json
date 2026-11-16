@@ -1,0 +1,982 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–400.000đ/kg (món lẻ 80.000–200.000đ/phần tùy món)",
+   "mon": "Thịt dê núi Ninh Bình",
+   "nguon": "bestprice.vn, traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / TripAdvisor",
+    "nhan_xet": "Thịt dê núi là món số 1 Ninh Bình: dê leo núi nên thịt chắc, ít mỡ, tái chanh và dê nướng là hai món đáng ăn nhất. Nhà hàng Chính Thư được nhiều du khách khen. Điểm trừ: giá cao, dê không rõ nguồn gốc sẽ hôi; nên ăn ở nhà hàng có ghi rõ nguồn dê núi Ninh Bình, đông khách địa phương (ví dụ Nhà hàng Chính Thư được nhiều du khách khen)."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thôn Khê Thượng, xã Ninh Xuân, Hoa Lư (đường Tràng An)",
+     "gia": "150.000–300.000đ/người (dê tái chanh, dê nướng, cơm cháy)",
+     "ten": "Nhà hàng Chính Thư"
+    },
+    {
+     "dia_chi": "Xã Trường Yên, Hoa Lư",
+     "gia": "200.000–400.000đ/kg",
+     "ten": "Nhà hàng Cường Dê"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "35.000–45.000đ/túi (mua về); ăn tại quán 30.000–80.000đ/phần",
+   "mon": "Cơm cháy Ninh Bình",
+   "nguon": "bestprice.vn, traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Cơm cháy Ninh Bình giòn rụm, ăn kèm sốt dê hoặc ruốc là món mua về làm quà hợp nhất. Ăn tại quán nóng hổi là ngon nhất. Điểm trừ: cơm cháy để lâu sẽ ỉu, nên mua loại đóng gói hút chân không."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thôn Khê Thượng, xã Ninh Xuân, Hoa Lư",
+     "gia": "Cơm cháy sốt dê ~50.000–80.000đ/phần",
+     "ten": "Nhà hàng Chính Thư"
+    },
+    {
+     "dia_chi": "Phố Tam Cốc, Hoa Lư",
+     "gia": "100.000–200.000đ/người (cơm cháy chà bông, gỏi dê)",
+     "ten": "Quán cơm cháy Tam Cốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/phần (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Gỏi cá nhệch (Kim Sơn)",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Gỏi cá nhệch Kim Sơn là món đặc sản lạ: cá nhệch tươi, thính thơm, ăn kèm rau. Hợp người thích khám phá. Điểm trừ: gỏi cá sống, chỉ ăn ở nhà hàng làm gỏi trong ngày từ cá nhệch tươi; người yếu bụng nên cân nhắc."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Phát Diệm, Kim Sơn",
+     "gia": "150.000–300.000đ/phần (khoảng tham khảo)",
+     "ten": "Nhà hàng khu vực Kim Sơn – Phát Diệm"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Miến lươn / bún thang lươn",
+   "nguon": "traveloka.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Miến lươn Ninh Bình: lươn đồng giòn, nước dùng ngọt, ăn sáng là chuẩn. Quán trung tâm thành phố được người địa phương ăn nhiều. Điểm trừ: lươn theo mùa, trái mùa ít và đắt."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Trần Hưng Đạo, TP Ninh Bình (nhiều quán, kiểm lại số nhà khi tới)",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Quán miến lươn trung tâm TP Ninh Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–150.000đ/đĩa (chưa kiểm được mức hiện hành)",
+   "mon": "Ốc núi Ninh Bình",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Ốc núi Ninh Bình là món lạ: ốc đá giòn, ngọt, xào sả ớt hoặc hấp. Ăn trưa ở khu Hoa Lư - Tam Cốc là hợp. Điểm trừ: ốc theo mùa mưa, mùa khô ít; giá khá cao theo đĩa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Ninh Hải, Hoa Lư",
+     "gia": "80.000–150.000đ/đĩa (khoảng tham khảo)",
+     "ten": "Nhà hàng khu vực Hoa Lư – Tam Cốc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–120.000đ/phần (chưa kiểm được mức hiện hành)",
+   "mon": "Cá rô Tổng Trường (cá rô chiên giòn)",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Cá rô Tổng Trường chiên giòn, ăn kèm rau sống và nước chấm chua ngọt, là món trưa bình dân ngon. Điểm trừ: cá rô nhiều xương dăm, ăn phải cẩn thận."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Trường Yên, Hoa Lư (khu vực cố đô)",
+     "gia": "50.000–120.000đ/phần (khoảng tham khảo)",
+     "ten": "Quán cá rô Tổng Trường"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô",
+   "mon": "Bún chả quạt / bún mọc",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún chả quạt Ninh Bình: chả quạt thơm mùi than, nước chấm vừa miệng, ăn sáng bình dân. Điểm trừ: ít quán chuyên, nên hỏi người địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lương Văn Tụy, TP Ninh Bình",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Quán bún trung tâm TP Ninh Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Nem chua ~30.000–50.000đ/chục (chưa kiểm được mức hiện hành); rượu Kim Sơn ~100.000–200.000đ/chai (chưa kiểm được)",
+   "mon": "Rượu Kim Sơn / nem chua Yên Mạc (mua về)",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Rượu Kim Sơn thơm, nhẹ, nem chua Yên Mạc chua vừa là cặp quà đặc sản Ninh Bình. Mua ở cửa hàng đặc sản có tên tuổi. Điểm trừ: rượu giả và nem làm sẵn nhiều, nên mua ở cửa hàng đặc sản có ghi rõ cơ sở sản xuất và hạn dùng trên nhãn."
+   },
+   "quan": [
+    {
+     "dia_chi": "Trung tâm TP Ninh Bình",
+     "gia": "Theo giá chợ",
+     "ten": "Chợ Ninh Bình / cửa hàng đặc sản"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HN khứ hồi + limousine HN–NB khứ hồi",
+   "uoc_tinh": "3.300.000–5.700.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng trung tâm/Tam Cốc ~400.000–1.000.000đ/đêm)",
+   "uoc_tinh": "400.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (dê núi 1 bữa 150.000–300.000đ/người)",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Tràng An 300k + Tam Cốc 250k + Hang Múa 100–150k + Bái Đính xe điện...)",
+   "uoc_tinh": "650.000–900.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy/xe đạp 2–3 ngày",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "5.050.000–9.200.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (limousine/tàu khứ hồi thay máy bay)",
+   "uoc_tinh": "220.000–700.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua vé tại quầy chính thức của khu du lịch, hỏi rõ vé đã gồm những gì; tip là tự nguyện, không bắt buộc.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê thuyền ở Tràng An, Tam Cốc: giá vé, tiền tip bị chèo kéo thêm; thuyền ghép bị ép mua tour kèm."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh Tràng An, Tam Cốc, Hang Múa dịp cao điểm: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Ninh Bình và khu vực Tam Cốc hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Giày leo núi nhẹ (Hang Múa ~500 bậc, Yên Tử không thuộc tỉnh này nhưng Bái Đính đi bộ nhiều)",
+  "Áo khoác gió + áo mưa mỏng (đi thuyền gặp mưa rào)",
+  "Kem chống nắng, mũ (đi thuyền giữa trưa nắng gắt)",
+  "Tiền mặt lẻ (tip người chèo thuyền 50.000–100.000đ/thuyền, gửi xe, quán nhỏ)",
+  "Thuốc chống muỗi (Cúc Phương, Thung Nham buổi chiều)",
+  "Đồ bơi không cần thiết — Ninh Bình không có biển"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Tam Coc Garden Resort",
+   "Homestay Tam Cốc (khu vực Ninh Hải)"
+  ],
+  "diem": [
+   "Tam Cốc – Bích Động (thuyền qua 3 hang, ruộng lúa)",
+   "Hang Múa (đỉnh Ngọa Long, ~500 bậc)",
+   "Đầm Vân Long (thuyền ngắm voọc)",
+   "Nhà thờ đá Phát Diệm"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Tam Coc Garden Resort",
+   "Emeralda Resort Ninh Binh",
+   "Homestay Tam Cốc (khu vực Ninh Hải)"
+  ],
+  "diem_chay": [
+   "Đường Tràng An, khu vực Cố đô Hoa Lư (cung đường của giải)",
+   "Đường ven sông Ngô Đồng, Tam Cốc buổi sáng sớm",
+   "Đường quanh chùa Bái Đính"
+  ],
+  "giai": [
+   {
+    "nguon": "Trang web chính thức tranganmarathon.com — Trang An Marathon 2025: hơn 10.000 VĐV, khởi tranh sáng 9/11/2025 tại Cố đô Hoa Lư; Vietnam News — Runners go the extra mile in rain-soaked heritage marathon (11/11/2025) (ngày kiểm 08/11/2026)",
+    "ten": "Tràng An Marathon — Foot Strike from the Heritage",
+    "thoi_gian": "Tháng 11 hằng năm (mùa 2025: 9/11/2025)"
+   },
+   {
+    "nguon": "Sở VH-TT tỉnh Ninh Bình (vhtt.ninhbinh.gov.vn) — Giải chạy Ninh Bình Heritage Half Marathon 2025 thành công tốt đẹp (ngày kiểm 08/11/2026)",
+    "ten": "Ninh Bình Heritage Half Marathon — Chạy giữa lòng di sản",
+    "thoi_gian": "Tháng 8 hằng năm (mùa 2025: 31/8/2025)"
+   }
+  ],
+  "nguon": "Trang web chính thức tranganmarathon.com và Sở VH-TT Ninh Bình; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Cách trung tâm TP ~8 km, ngay Tam Cốc",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tam Cốc, xã Ninh Hải, Hoa Lư",
+   "dien_thoai": "0378 253 555",
+   "gia": "~1.500.000–3.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Resort 4 sao",
+   "hop_voi": "Cặp đôi, gia đình nghỉ dưỡng",
+   "khu_vuc": "tam-coc",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "wanderlog, limo24h.vn, mytour.vn, tripi.vn, cattour.vn đồng thuận (ngày kiểm 08/11/2026); hotline phụ 0964 773 366",
+   "ten": "Tam Coc Garden Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~17 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu Vân Long, Gia Viễn (gần đầm Vân Long)",
+   "dien_thoai": "0229 3658 333",
+   "gia": "~2.000.000–4.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Resort 5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng",
+   "khu_vuc": "van-long",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "luhanhvietnam.com.vn, dulich.pro.vn, tripi.vn, kayak, vietnamtotravel.com đồng thuận (ngày kiểm 08/11/2026); hotline phụ 0968 699 690",
+   "ten": "Emeralda Resort Ninh Binh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Hưng Đạo / Lương Văn Tụy, TP Ninh Bình",
+   "dien_thoai": null,
+   "gia": "~500.000–1.200.000đ/đêm (khoảng tham khảo)",
+   "hang": "3–4 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách đi Tràng An/Tam Cốc",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, bestprice.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn trung tâm TP Ninh Bình 3–4 sao",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~8 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Ninh Hải, Hoa Lư (quanh bến Tam Cốc)",
+   "dien_thoai": null,
+   "gia": "~300.000–800.000đ/đêm (khoảng tham khảo)",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, nhóm bạn, khách thích ở gần sông",
+   "khu_vuc": "tam-coc",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Tam Cốc (khu vực Ninh Hải)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~7 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trường Yên, Hoa Lư",
+   "dien_thoai": null,
+   "gia": "~300.000–700.000đ/đêm (khoảng tham khảo)",
+   "hang": "Homestay",
+   "hop_voi": "Gia đình nhỏ, nhóm bạn",
+   "khu_vuc": "hoa-lu",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Tràng An (khu vực Trường Yên)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm TP ~12 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Gần chùa Bái Đính, Gia Viễn",
+   "dien_thoai": null,
+   "gia": "~600.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách hành hương Bái Đính, gia đình",
+   "khu_vuc": "gia-vien",
+   "nguon": "bestprice.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Bái Đính (khu vực Gia Viễn)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Ninh Bình",
+   "dien_thoai": null,
+   "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+   "hang": "Khách sạn 2 sao / nhà nghỉ",
+   "hop_voi": "Khách tiết kiệm, đi phượt",
+   "khu_vuc": "trung-tam",
+   "nguon": "bestprice.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ/khách sạn giá vừa trung tâm TP",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Tràng An: 250.000đ (nhiều nguồn giữa 2026) vs 300.000đ (từ 01/01/2026 theo paidaidmc.com) — file dùng 300.000đ, cần xác nhận tại quầy",
+  "Giá vé Tam Cốc: 250.000đ trọn gói vs 150.000đ vé vào + 150.000đ thuyền — bảng giá tỉnh không ghi rõ đã gồm thuyền chưa",
+  "Giá vé Hang Múa: 100.000đ vs 150.000đ (từ 01/04/2026) — mâu thuẫn",
+  "Giá vé Thung Nham (250.000đ theo 1 nguồn), Vân Long (100.000đ theo bảng giá 03/2025), Bái Đính (xe điện, Bảo Tháp) — chưa đối chiếu bảng giá chính thức",
+  "Giá thuê xe đạp: 30.000–50.000đ/ngày (homestay) vs 80.000đ/ngày (1 nguồn) — mâu thuẫn",
+  "Giá các món: gỏi cá nhệch, ốc núi, cá rô Tổng Trường, miến lươn — chỉ có khoảng tham khảo, chưa tra được quán + giá cụ thể",
+  "Địa chỉ cụ thể quán miến lươn, bún chả quạt ở trung tâm TP — chưa kiểm được số nhà",
+  "Giờ mở cửa chính xác: Tràng An, Tam Cốc, Bái Đính, Cúc Phương, Vân Long, Thung Nham",
+  "Địa giới sau sáp nhập 2025: Ninh Bình gồm Hà Nam + Nam Định cũ — các điểm ở khu vực Hà Nam/Nam Định cũ (Tam Chúc, chùa Địa Tạng, biển Hải Hậu...) chưa đưa vào file này, cần bổ sung đợt sau",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 12/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Hang Múa (đỉnh Ngọa Long, ~500 bậc), Đầm Vân Long (thuyền ngắm voọc), Chùa Bích Động. Chưa có tọa độ (null): không còn. Cần kiểm lại bằng bản đồ trước khi ghim app."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Ninh Bình không có đèo lớn, nhưng dốc lên Hang Múa (đỉnh Ngọa Long, khoảng 500 bậc đá, không có bóng râm) rất dốc và trơn khi mưa — leo chậm, mang nước, giày bám tốt, tránh leo giữa trưa 11:00-14:00 vì nắng gắt; đường lên chùa Bái Đính có đoạn dốc dài.",
+  "deo": [
+   "Dốc lên Hang Múa (đỉnh Ngọa Long, khoảng 500 bậc đá, không bóng râm, trơn khi mưa; tránh leo 11:00-14:00)"
+  ],
+  "nguon": "Jungle Boss Tours — Hang Múa Ninh Bình: giờ mở cửa 06:00-19:00, hạn chế leo giữa trưa 11:00-14:00 vì nắng nóng; bình minh 6:00-8:00, hoàng hôn 16:30-18:00 (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Ninh Bình không có sân bay. Bay tới Nội Bài (Hà Nội) rồi đi xe/tàu xuống Ninh Bình (~95 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Bình Minh, Tràng An Limousine, Duy Khang, Ninh Bình Car Limo; đón tận nơi Hà Nội, trả Tam Cốc/Tràng An; chuyến đầu ~04:50, cuối ~21:00",
+    "gia": "150.000–350.000đ/vé (Bình Minh 150.000đ; Tràng An 175.000đ; Duy Khang VIP 170.000–250.000đ; Discovery 250.000đ)",
+    "nguon": "motortrip.vn, vietnamspot.ru",
+    "phuong_tien": "Xe limousine HN–Ninh Bình",
+    "thoi_gian": "~1,5–2 giờ (92 km, cao tốc AH1)"
+   },
+   {
+    "ghi_chu": "Ga Hà Nội (120 Lê Duẩn) – ga Ninh Bình; ~6 chuyến/ngày",
+    "gia": "Ghế mềm điều hòa 110.000–150.000đ; giường nằm 160.000–280.000đ",
+    "nguon": "vietnamspot.ru, traveloka.com",
+    "phuong_tien": "Tàu hỏa HN–Ninh Bình",
+    "thoi_gian": "~2 giờ 10–2 giờ 30"
+   },
+   {
+    "ghi_chu": "Bến Giáp Bát/Nước Ngầm – bến xe Ninh Bình; hãng Sao Việt, Xe Cầu Vàng, Quế Anh, Hùng Thanh",
+    "gia": "120.000–180.000đ/vé (xe buýt công cộng); limousine cao hơn (xem trên)",
+    "nguon": "vietnamspot.ru",
+    "phuong_tien": "Xe khách HN–Ninh Bình",
+    "thoi_gian": "~2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "Hợp nhóm 3–4 người",
+    "gia": "~700.000–1.100.000đ/xe (Grab cả xe)",
+    "nguon": "vietnamspot.ru",
+    "phuong_tien": "Grab/ô tô riêng HN–Ninh Bình",
+    "thoi_gian": "~1,5–2 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Đặt trước; nhiều hãng đón tại Nội Bài",
+    "gia": "~200.000–350.000đ/vé (đón tại sân bay, theo hãng limousine HN–NB)",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe limousine đón tại Nội Bài đi Ninh Bình"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé bay một chiều ~1.500.000–2.500.000đ + limousine ~150.000–350.000đ",
+    "nguon": "traveloka.com, motortrip.vn",
+    "phuong_tien": "Máy bay SGN–HAN + limousine HN–Ninh Bình",
+    "thoi_gian": "Bay ~2 giờ + xe ~1,5–2 giờ"
+   },
+   {
+    "ghi_chu": "Ga Ninh Bình nằm trên tuyến Thống Nhất; chỉ hợp người dư thời gian",
+    "gia": "Ghế mềm ~1.000.000–1.300.000đ; giường nằm ~1.300.000–2.400.000đ (khoảng theo tuyến dài, chưa kiểm được mức 2026 chính xác)",
+    "nguon": "duongsatvietnam.vn (khoảng theo tuyến Bắc–Nam)",
+    "phuong_tien": "Tàu hỏa SG–Ninh Bình (tuyến Bắc–Nam)",
+    "thoi_gian": "~30 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Phương tiện chính đi Tràng An – Tam Cốc – Hang Múa; đường quê phẳng, dễ đi",
+   "gia": "80.000–120.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1",
+   "nguon": "bestprice.vn, traveloka.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "100.000–150.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hợp cung Tam Cốc – Bích Động – Thung Nham; nhiều homestay cho thuê ngay tại chỗ",
+   "gia": "~30.000–80.000đ/ngày (mức 80.000đ/ngày theo 1 nguồn; homestay thường cho thuê 30.000–50.000đ/ngày — mâu thuẫn, xem mục 9)",
+   "giay_to": "Cần CCCD/CMND khi thuê",
+   "nguon": "bestprice.vn",
+   "phuong_tien": "Thuê xe đạp"
+  },
+  {
+   "ghi_chu": "Grab có ở trung tâm TP; ra các điểm xa nên thỏa thuận giá trọn chuyến",
+   "gia": "Mở cửa ~11.000–12.000đ; ~11.500–16.000đ/km; Tam Cốc cách trung tâm ~8 km, Grab ~50.000đ/chuyến",
+   "giay_to": "",
+   "nguon": "vietnamspot.ru, soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Bái Đính ~60.000đ/khứ hồi (chưa kiểm được); Tam Cốc xe điện khứ hồi bãi xe – đền ~150.000đ (từ 15/02/2026, theo vietnamspot.ru)",
+   "giay_to": "",
+   "nguon": "vietnamspot.ru, paidaidmc.com",
+   "phuong_tien": "Xe điện tham quan (Bái Đính, Tam Cốc)"
+  },
+  {
+   "ghi_chu": "Hợp gia đình đi Cúc Phương + Phát Diệm trong ngày",
+   "gia": "Xe 4 chỗ ~900.000–1.200.000đ/ngày (khoảng chung miền Bắc)",
+   "giay_to": "",
+   "nguon": "agotourist.com (khoảng chung)",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trường Yên, Hoa Lư, cách trung tâm TP Ninh Bình ~7 km về phía tây",
+   "gia_ve": "Người lớn 300.000đ (từ 01/01/2026, đã gồm thuyền; một số nguồn giữa 2026 vẫn ghi 250.000đ — mâu thuẫn, xem mục 9); trẻ em 1–1,3 m và người trên 60 tuổi 150.000đ; dưới 1 m miễn phí. 3 tuyến cùng giá; thuyền riêng ~1.000.000đ/thuyền",
+   "gio_mo_cua": "Bán vé ~7:00–17:00; thuyền chạy ban ngày",
+   "hop_voi": "Mọi đối tượng; gia đình, cặp đôi, nhóm bạn",
+   "id": "trang-an",
+   "lat": 20.2508226,
+   "lng": 105.9266234,
+   "luu_y": "Di sản hỗn hợp UNESCO duy nhất Đông Nam Á (2014); tuyến 1: 9 hang + đền Trần; tuyến 2: 4 hang; tuyến 3: hang Đột dài hơn 1 km; thuyền 4 khách + người chèo, tip 50.000–100.000đ/thuyền là lịch sự",
+   "nguon": "vietnamspot.ru, paidaidmc.com, vietnam-tour-guide.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / vietnam-tour-guide.com / backpackandsnorkel.com",
+    "nhan_xet": "Tràng An là trải nghiệm thuyền đẹp và tổ chức tốt nhất Ninh Bình: nước trong, hang động và đền chùa xen kẽ, người chèo thuyền chuyên nghiệp, ít chèo kéo. Nên đi tuyến 2 hoặc 3 buổi sáng sớm để vắng và mát; mùa nước cao một số tuyến có thể đóng. Ngồi thuyền 2-3 giờ nên mang mũ, nước và áo khoác mỏng."
+   },
+   "ten": "Quần thể Tràng An (đi thuyền qua hang động)",
+   "thoi_gian": "2,5–3,5 giờ (1 tuyến)"
+  },
+  {
+   "cach_trung_tam_km": 8,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Ninh Hải, Hoa Lư, cách trung tâm ~7–9 km về phía tây nam",
+   "gia_ve": "Người lớn 250.000đ (theo bảng giá tỉnh 2025; có nguồn ghi 150.000đ vé vào + 150.000đ thuyền = 300.000đ/2 người); trẻ em 1–1,3 m ~120.000–125.000đ; kèm xe điện 350.000đ/người lớn. Bảng giá không ghi rõ đã gồm thuyền chưa — hỏi tại quầy",
+   "gio_mo_cua": "Bán vé ~7:00–17:00",
+   "hop_voi": "Mọi đối tượng; cặp đôi chụp ảnh, gia đình",
+   "id": "tam-coc",
+   "lat": 20.2176747,
+   "lng": 105.9294811,
+   "luu_y": "Thuyền 2 khách, người chèo chèo bằng chân; lúa chín vàng tháng 5–6; người chèo mời mua hàng trên sông, cứ từ chối lịch sự; tip 50.000–100.000đ/thuyền",
+   "nguon": "vietnamspot.ru, vivre-au-vietnam.com, vietnam-tour-guide.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / vietnam-tour-guide.com / backpackandsnorkel.com",
+    "nhan_xet": "Tam Cốc đẹp nhất mùa lúa chín tháng 5-6, khi ruộng vàng hai bên sông Ngô Đồng. Điểm trừ được nhiều du khách quốc tế phàn nàn: người chèo thuyền đôi khi dừng giữa sông bán hàng và đòi tiền tip. Đi trước 9h sáng hoặc sau 15h sẽ vắng và dễ chịu hơn; nên thỏa thuận rõ giá trước khi lên thuyền."
+   },
+   "ten": "Tam Cốc – Bích Động (thuyền qua 3 hang, ruộng lúa)",
+   "thoi_gian": "1,5–2 giờ đi thuyền"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Khê Đầu Hạ, xã Ninh Xuân, Hoa Lư, gần Tam Cốc",
+   "gia_ve": "100.000đ/người lớn (một số nguồn 2026 ghi 150.000đ từ 01/04/2026 — mâu thuẫn, xem mục 9); gửi xe máy 10.000đ, xe đạp 5.000đ",
+   "gio_mo_cua": "~6:00–19:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người thích leo núi nhẹ, cặp đôi chụp ảnh, nhóm bạn",
+   "id": "hang-mua",
+   "lat": 20.2217,
+   "lng": 105.9333,
+   "luu_y": "~500 bậc đá lên đỉnh rồng; view toàn cảnh Tam Cốc; đi sáng sớm hoặc chiều muộn tránh nắng; không hợp người sợ độ cao/người lớn tuổi yếu Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "daytripsvietnam.com, vivre-au-vietnam.com, paidaidmc.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Hang Múa là điểm ngắm toàn cảnh Tam Cốc từ trên cao, góc chụp đẹp nhất Ninh Bình. Điểm trừ: leo gần 500 bậc đá dốc và nắng gắt, cuối tuần đông nghẹt. Nên đi sáng sớm hoặc chiều muộn, mang nước và giày bám tốt; người yếu sức nên cân nhắc."
+   },
+   "ten": "Hang Múa (đỉnh Ngọa Long, ~500 bậc)",
+   "thoi_gian": "1–1,5 giờ (leo + ngắm cảnh)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trường Yên, Hoa Lư, cách trung tâm ~10 km",
+   "gia_ve": "20.000đ/người lớn",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người yêu lịch sử, gia đình, học sinh",
+   "id": "co-do-hoa-lu",
+   "lat": 20.283483,
+   "lng": 105.8995986,
+   "luu_y": "Kinh đô Đại Cồ Việt thế kỷ 10; đi kèm Tràng An cùng cụm Trường Yên",
+   "nguon": "vivre-au-vietnam.com, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Cố đô Hoa Lư là nơi hiểu lịch sử nhà Đinh - Tiền Lê, đền Đinh và đền Lê nằm giữa núi đá vôi đẹp. Khuôn viên rộng, tham quan 1-1,5 giờ. Nên đi buổi sáng, kết hợp Tràng An gần đó; buổi trưa nắng gắt vì ít bóng mát."
+   },
+   "ten": "Cố đô Hoa Lư (đền Đinh – đền Lê)",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "gia-vien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Gia Sinh, Gia Viễn (nay thuộc Ninh Bình), cách trung tâm ~12 km",
+   "gia_ve": "Vào khuôn viên miễn phí; xe điện ~60.000đ/khứ hồi (chưa kiểm được mức hiện hành); lên Bảo Tháp riêng ~50.000đ (chưa kiểm được)",
+   "gio_mo_cua": "~6:00–21:00 (mùa lễ hội mở sớm hơn; chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, gia đình, người lớn tuổi (đi xe điện)",
+   "id": "chua-bai-dinh",
+   "lat": 20.2728394,
+   "lng": 105.8640252,
+   "luu_y": "Chùa lớn nhất Đông Nam Á với tượng Phật Di Lặc, hành lang La Hán 500 vị; lễ hội tháng 1–3 âm lịch cực đông; mang giày đi bộ",
+   "nguon": "paidaidmc.com, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "justfly.vn / vietnamtravelgroup.com.vn / Facebook",
+    "nhan_xet": "Chùa Bái Đính rất lớn và hoành tráng, nhiều kỷ lục châu Á, hợp hành hương đầu năm. Điểm trừ được bàn nhiều: khuôn viên quá rộng nên bắt buộc đi xe điện, và có phản ánh trên mạng về giá xe điện bị đội lên cao trong dịp lễ (tới vài trăm nghìn/người) so với mức niêm yết khoảng 30.000đ/chiều. Review mâu thuẫn: người khen tổ chức bài bản, người chê thương mại. Nên đi ngày thường, hỏi rõ giá xe điện tại quầy trước khi mua."
+   },
+   "ten": "Chùa Bái Đính",
+   "thoi_gian": "2–3 giờ (khuôn viên rất rộng)"
+  },
+  {
+   "cach_trung_tam_km": 17,
+   "cum": "gia-vien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Gia Vân, Gia Viễn, cách trung tâm ~17 km",
+   "gia_ve": "100.000đ/người (theo bảng giá tỉnh 03/2025; chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Ban ngày, thuyền chạy ~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người yêu thiên nhiên, cặp đôi, gia đình",
+   "id": "van-long",
+   "lat": 20.2833,
+   "lng": 105.8667,
+   "luu_y": "Khu Ramsar, nơi sống của voọc mông trắng; đi chiều muộn dễ thấy voọc; yên tĩnh hơn Tràng An/Tam Cốc nhiều Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "paidaidmc.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Đầm Vân Long yên tĩnh hơn hẳn Tràng An và Tam Cốc, hợp ngắm hoàng hôn và xem voọc. Thuyền nhỏ, đi nhẹ nhàng khoảng 1 giờ. Điểm trừ: voọc khó thấy, dịch vụ ít. Nên đi buổi chiều, mang ống nhòm nếu có."
+   },
+   "ten": "Đầm Vân Long (thuyền ngắm voọc)",
+   "thoi_gian": "1–1,5 giờ đi thuyền",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Hải Nham, xã Ninh Hải, Hoa Lư, gần Tam Cốc",
+   "gia_ve": "250.000đ/người (theo paidaidmc.com, 2026; chưa kiểm được bảng giá chính thức)",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ, người yêu chim/thiên nhiên",
+   "id": "thung-nham",
+   "lat": 20.2203769,
+   "lng": 105.8926094,
+   "luu_y": "Đi buổi chiều để xem chim về; có hang Bụt, vườn hoa, khu vui chơi trẻ em",
+   "nguon": "paidaidmc.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Thung Nham hợp gia đình có trẻ nhỏ: vườn chim, hang động và không gian xanh rộng. Chim về tổ lúc chiều tối là khoảnh khắc đẹp nhất. Điểm trừ: vé vào và vé thuyền tách riêng, tổng chi phí cao hơn tưởng; nên đi từ 15h để kịp xem chim về."
+   },
+   "ten": "Thung Nham (vườn chim, hang Bụt)",
+   "thoi_gian": "2–3 giờ; chim về tổ lúc hoàng hôn (~17:00–18:00)"
+  },
+  {
+   "cach_trung_tam_km": 8,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Ninh Hải, Hoa Lư, gần bến Tam Cốc",
+   "gia_ve": "Miễn phí (gửi xe ~5.000–10.000đ)",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người yêu chùa cổ",
+   "id": "chua-bich-dong",
+   "lat": 20.2183,
+   "lng": 105.9417,
+   "luu_y": "Chùa cổ thế kỷ 15 trên núi đá, 3 tầng chùa Hạ–Trung–Thượng; đi kèm tuyến Tam Cốc Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vietnamspot.ru",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Bích Động cổ kính, nằm trong núi đá, hợp đi bộ nhẹ nhàng sau khi chơi Tam Cốc. Không gian nhỏ, tham quan 30-45 phút. Nên đi buổi sáng, leo lên chùa Thượng để ngắm toàn cảnh ruộng lúa."
+   },
+   "ten": "Chùa Bích Động",
+   "thoi_gian": "45–60 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 45,
+   "cum": "nho-quan",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cúc Phương, huyện Nho Quan (nay thuộc Ninh Bình), cách trung tâm ~45 km",
+   "gia_ve": "Người lớn 60.000đ; học sinh/sinh viên 20.000đ; trẻ em 10.000đ (chưa kiểm được mức hiện hành chính xác); xe đạp thuê trong vườn ~30.000–50.000đ/ngày (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–17:00 (trung tâm cứu hộ linh trưởng mở tới ~17:00)",
+   "hop_voi": "Gia đình có trẻ nhỏ, người yêu rừng/thiên nhiên",
+   "id": "cuc-phuong",
+   "lat": 20.3162835,
+   "lng": 105.6176593,
+   "luu_y": "Rừng nguyên sinh lâu đời nhất Việt Nam; mùa bướm tháng 4–5; mùa đom đóm tháng 5–6; mang giày leo, thuốc chống muỗi",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Cúc Phương là vườn quốc gia lâu đời nhất Việt Nam, rừng nguyên sinh và trung tâm cứu hộ linh trưởng đáng xem. Mùa bướm tháng 4-5 rất đẹp. Điểm trừ: đường rừng dài, muỗi nhiều, nên đi tour có hướng dẫn viên; tự đi dễ lạc và mệt."
+   },
+   "ten": "Vườn quốc gia Cúc Phương",
+   "thoi_gian": "Nửa ngày–1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "gia-vien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Gia Thịnh, Gia Viễn, cách trung tâm ~20 km",
+   "gia_ve": "Tắm suối nước nóng ~100.000–200.000đ/người (chưa kiểm được mức hiện hành); thuyền ra suối riêng",
+   "gio_mo_cua": "Ban ngày (chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình, người lớn tuổi, khách nghỉ dưỡng",
+   "id": "kenh-ga",
+   "lat": 20.3293593,
+   "lng": 105.8144471,
+   "luu_y": "Suối khoáng nóng tự nhiên; hợp đi mùa đông; ít khách du lịch hơn các điểm chính",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Kênh Gà hợp nghỉ dưỡng nhẹ: suối nước nóng và động Vân Trình trong một buổi. Nước nóng tốt cho người lớn tuổi. Điểm trừ: cơ sở vật chất cũ, dịch vụ chưa đồng đều. Nên đi mùa đông, tránh cuối tuần đông."
+   },
+   "ten": "Kênh Gà (suối nước nóng) + động Vân Trình",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "kim-son",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Phát Diệm, huyện Kim Sơn (nay thuộc Ninh Bình), cách trung tâm ~30 km",
+   "gia_ve": "Miễn phí tham quan",
+   "gio_mo_cua": "~7:00–17:00 (tránh giờ lễ; chưa kiểm được chính xác)",
+   "hop_voi": "Người yêu kiến trúc, cặp đôi chụp ảnh",
+   "id": "nha-tho-phat-diem",
+   "lat": 20.0930035,
+   "lng": 106.0794722,
+   "luu_y": "Quần thể nhà thờ đá – gỗ cuối thế kỷ 19, kiến trúc đình chùa Việt; giữ yên lặng trong giờ lễ",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Nhà thờ đá Phát Diệm là công trình độc đáo: nhà thờ Công giáo xây theo kiến trúc đình chùa Việt, bằng đá và gỗ. Không gian yên tĩnh, chụp ảnh đẹp. Hợp ghé 1 giờ khi đi Kim Sơn; nên đi buổi sáng để ánh sáng đẹp."
+   },
+   "ten": "Nhà thờ đá Phát Diệm",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 8,
+   "cum": "hoa-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Ninh Hải, Hoa Lư (đường quê ven sông Ngô Đồng)",
+   "gia_ve": "Thuê xe đạp ~30.000–50.000đ/ngày (chưa kiểm được mức cụ thể)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Cặp đôi, nhóm bạn, người thích đạp xe",
+   "id": "tam-coc-bich-dong-xe-dap",
+   "lat": 20.2163426,
+   "lng": 105.937457,
+   "luu_y": "Đường làng phẳng, lúa 2 bên; mùa lúa chín tháng 5–6 đẹp nhất",
+   "nguon": "bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Cung xe đạp Tam Cốc - Bích Động - Thung Nham là cách chill nhất để cảm Ninh Bình: đường quê ven sông, ruộng lúa hai bên. Nên đạp sáng sớm hoặc chiều muộn, thuê xe tại Tam Cốc. Tránh đạp giữa trưa hè vì nắng gắt và ít chỗ trú."
+   },
+   "ten": "Cung xe đạp Tam Cốc – Bích Động – Thung Nham",
+   "thoi_gian": "2–3 giờ đạp xe"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "ha-nam-nam-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Ba Sao, huyện Kim Bảng (khu vực Hà Nam cũ, nay thuộc tỉnh Ninh Bình)",
+   "gia_ve": "Miễn phí vào cổng; xe điện 50.000đ/lượt (một số nguồn ghi 90.000đ khứ hồi — mâu thuẫn, chưa kiểm được); thuyền 200.000đ/người; du thuyền 270.000–400.000đ/người (theo wikidulich.com, dulich9.com — chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "~7:00–18:00",
+   "hop_voi": "Khách hành hương, người thích check-in và ngắm cảnh hồ núi",
+   "id": "chua-tam-chuc",
+   "lat": 20.5641197,
+   "lng": 105.8196687,
+   "luu_y": "Diện tích rất rộng, bắt buộc mua vé thuyền hoặc xe điện để vào khu chùa chính; cuối tuần đông như hội chợ, mùa hè nắng gắt vì cây còn non; nên đi ngày thường tháng 9–11 và leo 299 bậc lên chùa Ngọc",
+   "nguon": "wikidulich.com, dulich9.com, soctrangtourism.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / dulich9.com / soctrangtourism.vn",
+    "nhan_xet": "Chùa Tam Chúc hoành tráng, cảnh hồ núi đẹp, nhất là leo 299 bậc lên chùa Ngọc ngắm toàn cảnh. Điểm trừ được nhiều review nhắc: vé vào miễn phí nhưng bắt buộc mua vé thuyền 200.000đ hoặc xe điện, cuối tuần đông như hội chợ, mùa hè nắng gắt vì cây còn non. Nên đi ngày thường tháng 9-11, đi thuyền lượt đi và xe điện lượt về cho tiết kiệm."
+   },
+   "ten": "Chùa Tam Chúc",
+   "thoi_gian": "Nửa ngày đến 1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "ha-nam-nam-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Lộc Vượng, TP Nam Định (khu vực Nam Định cũ, nay thuộc tỉnh Ninh Bình)",
+   "gia_ve": "Miễn phí (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–17:30; lễ khai ấn 14–15 tháng Giêng",
+   "hop_voi": "Khách hành hương, người yêu lịch sử nhà Trần",
+   "id": "den-tran-nam-dinh",
+   "lat": 20.4559664,
+   "lng": 106.1679446,
+   "luu_y": "Lễ khai ấn đầu năm rất đông và chen lấn; ngày thường vắng vẻ, tham quan 1 giờ là đủ",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Trần Nam Định là nơi thờ các vua Trần, lễ khai ấn đầu năm nổi tiếng cả nước. Điểm mạnh: kiến trúc cổ, không gian linh thiêng. Điểm trừ: lễ khai ấn đông nghẹt và chen lấn; ngày thường vắng vẻ, tham quan 1 giờ là đủ."
+   },
+   "ten": "Đền Trần Nam Định",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 55,
+   "cum": "ha-nam-nam-dinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Giao Thiện, huyện Giao Thủy (khu vực Nam Định cũ, nay thuộc tỉnh Ninh Bình)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "~7:00–17:00; mùa chim di cư tháng 11–4",
+   "hop_voi": "Người yêu thiên nhiên, xem chim di cư",
+   "id": "vuon-quoc-gia-xuan-thuy",
+   "lat": 20.2279425,
+   "lng": 106.5826006,
+   "luu_y": "Điểm dừng chân của chim di cư quốc tế, đẹp nhất tháng 11–4; phải đi cùng hướng dẫn viên địa phương mới xem được chim; nên mang ống nhòm; dịch vụ ít",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Xuân Thủy là vườn quốc gia đất ngập nước, điểm dừng chân của chim di cư quốc tế, đẹp nhất tháng 11-4. Điểm mạnh: xem chim, rừng ngập mặn, không gian yên tĩnh. Điểm trừ: xa, dịch vụ ít, phải đi cùng hướng dẫn viên địa phương mới xem được chim; nên mang ống nhòm."
+   },
+   "ten": "Vườn quốc gia Xuân Thủy",
+   "thoi_gian": "Nửa ngày"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Hang Múa",
+   "gio": "6:00-8:00 sáng bình minh, ít đông, không khí trong lành; hoặc 16:30-18:00 hoàng hôn, nắng đỏ cuối chiều",
+   "nguon": "Jungle Boss Tours — Hang Múa Ninh Bình: bình minh (6:00-8:00), hoàng hôn (16:30-18:00) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Tam Cốc – Bích Động",
+   "gio": "6:00-8:00 sáng, sương mờ trên sông Ngô Đồng; mùa lúa chín tháng 5-6 đẹp nhất",
+   "nguon": "Jungle Boss Tours — Hang Múa Ninh Bình (thời điểm đẹp tháng 5-6 mùa lúa chín) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Quần thể Tràng An",
+   "gio": "7:00-9:00 sáng, ánh sáng mềm trên hang động và sông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì tránh đi thuyền Tràng An/Tam Cốc và leo Hang Múa (đỉnh Ngọa Long, ~500 bậc) (đá trơn) — trú chùa, nhà thờ đá, đền có mái.",
+  "diem": [
+   "Chùa Bái Đính",
+   "Nhà thờ đá Phát Diệm",
+   "Chùa Bích Động",
+   "Cố đô Hoa Lư (đền Đinh – đền Lê)"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "trang-an, co-do-hoa-lu",
+    "hoat_dong": "Tràng An đi thuyền + Cố đô Hoa Lư",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "tam-coc, chua-bich-dong",
+    "hoat_dong": "Tam Cốc đi thuyền + chùa Bích Động",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Dê núi + cơm cháy",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "hang-mua",
+    "hoat_dong": "Hang Múa leo đỉnh + đạp xe Tam Cốc",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-bai-dinh, thung-nham",
+    "hoat_dong": "Chùa Bái Đính (rút gọn) hoặc Thung Nham; tối về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "trang-an",
+    "hoat_dong": "Tới Ninh Bình; Tràng An đi thuyền tuyến 1 hoặc 2 (2,5–3,5 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "co-do-hoa-lu",
+    "hoat_dong": "Cố đô Hoa Lư (1–1,5 giờ); ăn dê núi + cơm cháy buổi tối",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Dạo trung tâm TP Ninh Bình",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "tam-coc, chua-bich-dong",
+    "hoat_dong": "Tam Cốc đi thuyền (1,5–2 giờ) + chùa Bích Động",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "hang-mua, tam-coc-bich-dong-xe-dap",
+    "hoat_dong": "Hang Múa leo đỉnh Ngọa Long ngắm hoàng hôn; đạp xe cung Tam Cốc – Thung Nham",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối khu Tam Cốc",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "chua-bai-dinh",
+    "hoat_dong": "Chùa Bái Đính (2–3 giờ, đi xe điện)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "van-long",
+    "hoat_dong": "Đầm Vân Long đi thuyền (1–1,5 giờ); về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "trang-an, co-do-hoa-lu",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (Tràng An + Hoa Lư)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "tam-coc, hang-mua",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Tam Cốc + Hang Múa)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-bai-dinh, van-long",
+    "hoat_dong": "Như ngày 3 của lịch trình 3N2Đ (Bái Đính + Vân Long)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "cuc-phuong, nha-tho-phat-diem",
+    "hoat_dong": "Cúc Phương (nửa ngày–1 ngày) hoặc nhà thờ Phát Diệm; về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Ninh Bình (Tam Cốc)",
+  "best_season": "Tháng 5–6 (lúa Tam Cốc chín vàng) và tháng 9–11 (mát, ít mưa); tháng 1–3 âm lịch mùa lễ hội Bái Đính (rất đông)",
+  "destination": "Ninh Bình, Ninh Bình",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "ninh-binh",
+  "lat": 20.2506,
+  "lng": 105.9745,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Cố đô Hoa Lư với núi đá vôi – sông ngầm: Tràng An (UNESCO), Tam Cốc, Hang Múa, Bái Đính, Vân Long. Đi thuyền là trải nghiệm chính; các điểm tập trung trong bán kính ~10 km, hợp đi xe máy/xe đạp.",
+  "province": "Ninh Bình",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "sông",
+   "lịch sử"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "bamozo.vn; vietnambackpackerhostels.com",
+  "thang_dep_nhat": "Cuối tháng 4–đầu tháng 6 (lúa Tam Cốc chín vàng); tháng 9–11 mát, ít mưa"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

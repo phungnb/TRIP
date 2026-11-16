@@ -1,0 +1,969 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–40.000đ/tô (có nguồn ghi 35.000–100.000đ tùy tô đặc biệt)",
+   "mon": "Bánh canh Trảng Bàng",
+   "nguon": "dulichbinhminh.com, vienmaytinh.com, buulong.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichbinhminh.com",
+    "nhan_xet": "Sợi bánh canh dai, giò heo và huyết — món trứ danh Trảng Bàng, quán Năm Dung/Út Huệ đông khách. Điểm yếu: giá tô đặc biệt tới 100.000đ, quán đông giờ trưa. Hợp ăn sáng/trưa trên đường QL22; đi sớm đỡ chờ."
+   },
+   "quan": [
+    {
+     "dia_chi": "90 Nguyễn Văn Rốp, Trảng Bàng",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Bánh canh Năm Dung"
+    },
+    {
+     "dia_chi": "88 Nguyễn Văn Rốp, Trảng Bàng",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Bánh canh Út Huệ"
+    },
+    {
+     "dia_chi": "300–301 QL22, Trảng Bàng",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Bánh canh Cô Ba"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–150.000đ/phần cuốn (bánh lẻ 10.000–30.000đ/100g)",
+   "mon": "Bánh tráng phơi sương cuốn thịt heo",
+   "nguon": "dulichbinhminh.com, saodaily.com, thesamhouse.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichbinhminh.com; saodaily.com",
+    "nhan_xet": "Bánh tráng dẻo phơi sương cuốn thịt luộc, rau rừng — món 'phải thử' khi qua Trảng Bàng. Điểm yếu: phần cuốn 80.000–150.000đ, mua lẻ làm quà 50.000–60.000đ/kg cần hỏi rõ loại. Hợp ăn trưa/tối; mua về ở Minh Nhựt (QL22B)."
+   },
+   "quan": [
+    {
+     "dia_chi": "90 Nguyễn Văn Rốp, Trảng Bàng",
+     "gia": "100.000–120.000đ/phần",
+     "ten": "Quán Năm Dung"
+    },
+    {
+     "dia_chi": "38 QL22, Trảng Bàng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Hoàng Minh"
+    },
+    {
+     "dia_chi": "QL22B, KP Rạch Sơn, Gò Dầu (mua về)",
+     "gia": "50.000–60.000đ/túi 1 kg",
+     "ten": "Bánh tráng Minh Nhựt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/kg hoặc /đĩa",
+   "mon": "Bò tơ Tây Ninh",
+   "nguon": "dulichbinhminh.com, saodaily.com, thesamhouse.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichbinhminh.com",
+    "nhan_xet": "Bò tơ mềm, món nướng/lẩu hợp nhóm, quán Năm Sánh lâu đời. Điểm yếu: giá theo kg/đĩa 150.000–300.000đ, địa chỉ Năm Sánh 2 nguồn ghi khác nhau (QL22B vs 30/4 nối dài). Hợp nhóm ăn tối; hỏi địa chỉ trước khi đi."
+   },
+   "quan": [
+    {
+     "dia_chi": "QL22B, Hiệp Trường, Hòa Thành (có nguồn ghi đường 30/4 nối dài, phường 2)",
+     "gia": "50.000–200.000đ/món",
+     "ten": "Bò tơ Năm Sánh"
+    },
+    {
+     "dia_chi": "68 Nguyễn Trãi, phường 4, TP Tây Ninh",
+     "gia": "150.000–300.000đ",
+     "ten": "Bò tơ Sáu Tâm"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–60.000đ/gói (khoảng chung, chưa kiểm được mức niêm yết)",
+   "mon": "Muối tôm Tây Ninh",
+   "nguon": "vienmaytinh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vienmaytinh.com",
+    "nhan_xet": "Muối tôm cay mặn, mua về làm quà rẻ (25.000–60.000đ/gói). Điểm yếu: chưa kiểm được mức niêm yết, hàng giả/nhái nhiều ở sạp dọc QL22. Hợp mua về; mua ở sạp lớn, chợ Tây Ninh, hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Tây Ninh / các sạp bánh tráng QL22, Trảng Bàng",
+     "gia": "Hỏi giá trước",
+     "ten": "Chợ Tây Ninh / sạp QL22"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–40.000đ/phần",
+   "mon": "Bánh tráng nướng / bánh tráng trộn",
+   "nguon": "dulichbinhminh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichbinhminh.com",
+    "nhan_xet": "Ăn vặt rẻ, nhiều quầy ở chợ Tây Ninh, đường 30/4. Điểm yếu: chất lượng tùy quầy, giá 15.000–40.000đ chỉ là khoảng chung. Hợp ăn xế."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 30/4, TP Tây Ninh",
+     "gia": "15.000–40.000đ/phần, hỏi giá trước",
+     "ten": "Khu vực chợ Tây Ninh, đường 30/4"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–60.000đ/phần",
+   "mon": "Cơm / món chay (khu vực Tòa Thánh, núi Bà)",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; phanvantravel.com",
+    "nhan_xet": "Quán cơm chay quanh Tòa Thánh và chân núi Bà, phần 25.000–60.000đ. Điểm yếu: quán không có địa chỉ cố định, món chay đơn giản. Hợp ăn trưa khi đi lễ/chùa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực Hòa Thành / chân núi Bà Đen",
+     "gia": "25.000–60.000đ/phần, hỏi giá trước",
+     "ten": "Quán cơm Hòa Thành / chân núi Bà Đen"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô",
+   "mon": "Hủ tiếu / phở (ăn sáng TP Tây Ninh)",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; phanvantravel.com",
+    "nhan_xet": "Ăn sáng bình dân ở TP Tây Ninh, tô 30.000–50.000đ. Điểm yếu: chỉ là khoảng chung, không có quán cụ thể. Hợp ăn sáng nhanh."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 30/4, phường 3, TP Tây Ninh",
+     "gia": "30.000–50.000đ/tô, hỏi giá trước",
+     "ten": "Khu vực đường 30/4, phường 3"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được khoảng giá riêng",
+   "mon": "Thằn lằn núi Bà Đen (món lạ, tùy quán)",
+   "nguon": "Chưa kiểm được",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps",
+    "nhan_xet": "Món lạ đặc sản núi Bà, khách tò mò hay hỏi. Điểm yếu: chưa kiểm được giá, chỉ ăn khi quán có giấy phép/nguồn rõ ràng — không ăn thịt rừng không rõ nguồn. Hợp người thích món lạ; hỏi rõ nguồn gốc trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực chân núi Bà Đen",
+     "gia": "Hỏi giá trước",
+     "ten": "Quán khu vực chân núi Bà Đen"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế",
+   "danh_gia_nguoi_dung": [],
+   "gia": "10.000–30.000đ/phần",
+   "mon": "Trái cây / nước mía (dọc QL22)",
+   "nguon": "dulichbinhminh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichbinhminh.com",
+    "nhan_xet": "Trái cây và nước mía dọc QL22 rẻ, giải khát trên đường. Điểm yếu: giá tùy quán, 10.000–30.000đ chỉ là khoảng chung. Hợp dừng chân trên đường đi."
+   },
+   "quan": [
+    {
+     "dia_chi": "QL22, Trảng Bàng – Gò Dầu",
+     "gia": "10.000–30.000đ/phần, hỏi giá trước",
+     "ten": "Quán ven QL22"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Tây Ninh khứ hồi",
+   "uoc_tinh": "Chưa kiểm được — khoảng ước tính 160.000–300.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+   "uoc_tinh": "400.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (cáp treo Bà Đen là khoản lớn nhất)",
+   "uoc_tinh": "450.000–700.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.760.000–3.850.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–SGN (hạng mục lớn nhất)",
+   "uoc_tinh": "Chưa kiểm được mức trong đợt này"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua vé cáp treo tại quầy chính thức hoặc website Sun World; gửi xe ở bãi chính thức có bảng giá; hỏi giá ăn uống trước khi gọi món.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Dịch vụ quanh núi Bà Đen dịp lễ Vía Bà, Tết: vé cáp treo, giữ xe, quán ăn tăng giá; cò vé, cò xe chèo kéo."
+  },
+  {
+   "cach_tranh": "Mua tại cửa hàng có thương hiệu, bao bì rõ ràng; so giá 2-3 nơi trước khi mua số lượng lớn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, mua đặc sản (bánh tráng, muối tôm) ở khu vực Tòa Thánh, chợ Tây Ninh: giá hét cao với khách lạ, hàng giả thương hiệu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Tây Ninh và chân núi Bà Đen hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Giày leo núi / giày đi bộ tốt",
+  "Mũ/nón, kem chống nắng",
+  "Quần dài/váy kín, khăn choàng (vào Tòa Thánh, chùa Bà)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ",
+  "Nước uống, thuốc cơ bản",
+  "Sạc dự phòng",
+  "Đồ cắm trại nếu đi hồ Dầu Tiếng qua đêm"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Sunrise Tây Ninh Hotel",
+   "HANZ Premium Mai Vy Hotel"
+  ],
+  "diem": [
+   "Núi Bà Đen (Sun World Ba Den Mountain)",
+   "Hồ Dầu Tiếng",
+   "Thung lũng Ma Thiên Lãnh",
+   "Tòa Thánh Cao Đài"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Melia Vinpearl Tây Ninh",
+   "Melia Vinpearl Tây Ninh Resort & Villas (chân núi Bà Đen)",
+   "Sài Gòn Tây Ninh Hotel"
+  ],
+  "diem_chay": [
+   "Quảng trường ga đi cáp treo núi Bà Đen (điểm xuất phát/về đích của giải)",
+   "Thung lũng Ma Thiên Lãnh buổi sáng sớm",
+   "Đường quanh hồ Dầu Tiếng"
+  ],
+  "giai": [
+   {
+    "nguon": "Bộ VH-TT-DL (bvhttdl.gov.vn) — Tây Ninh tổ chức giải chạy marathon đạt chuẩn quốc tế (09/7/2025); Sun World — Runners are ready to participate in the marathon race at Ba Den Mountain (ngày kiểm 08/11/2026)",
+    "ten": "Ba Den Mountain International Marathon (Baden Mountain International Marathon)",
+    "thoi_gian": "Tháng 8 hằng năm (mùa 2025: 2-3/8/2025, thi đấu chính 3/8/2025)"
+   }
+  ],
+  "nguon": "Bộ VH-TT-DL và Sun World về giải Ba Den Mountain Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm; cách núi Bà Đen ~12,7 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "90 Lê Duẩn, KP5, phường 3, TP Tây Ninh",
+   "dien_thoai": "0276 3728 888",
+   "gia": "~1.250.000–3.900.000đ/đêm (khoảng rộng theo nguồn)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng",
+   "khu_vuc": "trung-tam",
+   "nguon": "trip.com, traveloka.com, ezcloud.vn",
+   "nguon_dien_thoai": "vinpearl.com (ngày kiểm 08/11/2026)",
+   "ten": "Melia Vinpearl Tây Ninh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm ~11 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực chân núi Bà Đen, phường Bình Minh (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "2.500.000–6.000.000đ/đêm (1 nguồn, chưa kiểm được khoảng hẹp)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình nghỉ dưỡng, khách đi núi sớm",
+   "khu_vuc": "chan-nui-ba-den",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Melia Vinpearl Tây Ninh Resort & Villas (chân núi Bà Đen)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Tây Ninh (chưa kiểm được số nhà chính xác)",
+   "dien_thoai": null,
+   "gia": "700.000–1.200.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Sài Gòn Tây Ninh Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "81 Hoàng Lê Kha, phường 3, TP Tây Ninh",
+   "dien_thoai": "0276 3714 714",
+   "gia": "Từ ~1.168.200đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "truyenhinhcapsongthu.net",
+   "nguon_dien_thoai": "holidaycheck.de (ngày kiểm 08/11/2026)",
+   "ten": "Sunrise Tây Ninh Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "150 đường 30/4, phường 3, TP Tây Ninh",
+   "dien_thoai": null,
+   "gia": "Từ ~1.000.000đ/đêm",
+   "hang": "3–4 sao (nguồn mâu thuẫn)",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "truyenhinhcapsongthu.net, ezcloud.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "HANZ Premium Mai Vy Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Tây Ninh (số nhà chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "400.000–700.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Hòa Bình Hotel Tây Ninh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã điền cho toàn bộ địa danh; các điểm còn ở mức xấp xỉ xem trường toa_do_xap_xi trong JSON — cần kiểm lại bằng GPS thực tế",
+  "Giá vé cáp treo núi Bà Đen (Vân Sơn 400.000đ vs 450.000đ; vào cổng 10.000đ vs 16.000đ; giờ cáp treo 6:00–20:30 vs 7:00–17:30)",
+  "Giá vé xe khách/limousine/xe buýt SG–Tây Ninh; giá vé máy bay HAN–SGN",
+  "Giá thuê xe máy, taxi theo km, thuê ô tô riêng Tây Ninh",
+  "Giá vé Vườn quốc gia Lò Gò – Xa Mát, giờ mở cửa; khoảng cách chính xác",
+  "Địa chỉ/số nhà Sài Gòn Tây Ninh Hotel, Hòa Bình Hotel; hạng sao HANZ Mai Vy (3 vs 4 sao)",
+  "Giá thằn lằn núi, muối tôm niêm yết, giá xe điện nội khu núi Bà Đen",
+  "Địa chỉ chi tiết Melia Vinpearl Resort & Villas chân núi Bà Đen",
+  "Tên phường/xã mới sau sáp nhập Long An vào Tây Ninh (07/2025); địa giới hồ Dầu Tiếng qua 3 tỉnh"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tây Ninh đồng bằng, không có đèo. Đường lên núi Bà Đen dốc, nhiều cua — nên đi cáp treo; leo bộ cần giày bám tốt, mang nước, tránh leo trưa nắng và khi mưa (đá trơn).",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo; đường lên núi Bà Đen dốc, nên đi cáp treo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Không có sân bay/ga tàu khách trong tỉnh. Đi từ TP.HCM chủ yếu bằng xe khách/xe riêng theo QL22 (qua Củ Chi – Trảng Bàng) hoặc QL22B.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé máy bay tùy thời điểm (chưa kiểm được) + xe (chưa kiểm được)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Máy bay HAN–SGN + xe lên Tây Ninh",
+    "thoi_gian": "Bay ~2 giờ + xe SG–Tây Ninh 2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyên dùng",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Tàu HN–ga Sài Gòn + xe",
+    "thoi_gian": "Tàu ~30 giờ + xe 2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyên dùng",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN–Tây Ninh",
+    "thoi_gian": "~30–35 giờ (chưa kiểm được chính xác)"
+   }
+  ],
+  "tu_san_bay": [],
+  "tu_sg": [
+   {
+    "ghi_chu": "Bến xe An Sương / Miền Đông → bến xe Tây Ninh",
+    "gia": "Chưa kiểm được giá vé riêng (khoảng chung xe khách liên tỉnh ~80.000–150.000đ/lượt — chưa kiểm được)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách SG–Tây Ninh",
+    "thoi_gian": "2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "Đón tận nơi ở TP.HCM, trả ở TP Tây Ninh",
+    "gia": "Chưa kiểm được giá vé riêng",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe limousine SG–Tây Ninh",
+    "thoi_gian": "2–2,5 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → Củ Chi → Trảng Bàng (QL22) → Gò Dầu → TP Tây Ninh",
+    "gia": "Xăng + phí (chưa kiểm được mức chung)",
+    "nguon": "phanvantravel.com",
+    "phuong_tien": "Xe máy / ô tô riêng (QL22)",
+    "thoi_gian": "2–3 giờ"
+   },
+   {
+    "ghi_chu": "Tuyến buýt liên tỉnh, dừng nhiều điểm",
+    "gia": "Chưa kiểm được giá vé riêng",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe buýt SG–Tây Ninh",
+    "thoi_gian": "~3 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đi núi Bà Đen, Tòa Thánh, hồ Dầu Tiếng tiện bằng xe máy",
+   "gia": "~100.000–150.000đ/ngày (khoảng chung, chưa kiểm được mức riêng)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê xe máy (TP Tây Ninh)"
+  },
+  {
+   "ghi_chu": "Mai Linh, Vinasun; có Grab/Be (phủ sóng hạn chế hơn TP.HCM)",
+   "gia": "Chưa kiểm được mức theo km riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành"
+  },
+  {
+   "ghi_chu": "Đi chặng ngắn trong TP, ra chân núi",
+   "gia": "Chưa kiểm được mức riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Xe ôm / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Đi hồ Dầu Tiếng / Lò Gò nên thuê ô tô theo ngày",
+   "gia": "Chưa kiểm được mức riêng Tây Ninh",
+   "giay_to": "Bằng lái B2 + CCCD (tự lái)",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê ô tô tự lái / có tài xế"
+  },
+  {
+   "ghi_chu": "Di chuyển trong khu du lịch núi Bà Đen",
+   "gia": "Chưa kiểm được giá riêng",
+   "giay_to": "",
+   "nguon": "dulich.pro.vn",
+   "phuong_tien": "Xe điện nội khu núi Bà Đen"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 11,
+   "cum": "nui-ba-den",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Bình Minh / xã Thạnh Tân, TP Tây Ninh; ga cáp treo: khu phố Ninh Phú, phường Ninh Sơn",
+   "gia_ve": "Vào cổng người lớn 10.000đ, trẻ em 5.000đ (có nguồn ghi 16.000đ). Cáp treo Vân Sơn khứ hồi 400.000–450.000đ; Chùa Hang khứ hồi 250.000đ; combo 650.000đ",
+   "gio_mo_cua": "Thứ 2–6 6:00–20:30; thứ 7 5:30–21:00; CN 5:30–20:30 (lịch 28/9/2026; có nguồn ghi 7:00–17:30 — mâu thuẫn)",
+   "hop_voi": "Mọi đối tượng, hành hương, gia đình",
+   "id": "nui-ba-den",
+   "lat": 11.375,
+   "lng": 106.15,
+   "luu_y": "Tết và rằm tháng Giêng rất đông, xếp hàng 45–60 phút; tuyến Tâm An thứ 2–6 nghỉ",
+   "nguon": "roamdecide.com, dulich.pro.vn, phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "roamdecide.com; dulich.pro.vn; Google Maps",
+    "nhan_xet": "Nóc nhà Nam Bộ (986 m), cáp treo Vân Sơn lên đỉnh 8 phút, tượng Phật Bà và view mây đẹp — điểm đáng đi nhất Tây Ninh. Điểm yếu: giá cáp treo mâu thuẫn giữa các nguồn (Vân Sơn 400.000đ vs 450.000đ, vào cổng 10.000đ vs 16.000đ — ghi rõ trong file); Tết/rằm tháng Giêng xếp hàng 45–60 phút. Hợp mọi đối tượng; đi sớm trước 8h, tránh lễ lớn."
+   },
+   "ten": "Núi Bà Đen (Sun World Ba Den Mountain)",
+   "thoi_gian": "Nửa ngày–cả ngày; đỉnh cao 986 m",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 11,
+   "cum": "nui-ba-den",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Bình Minh / xã Thạnh Tân, TP Tây Ninh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "7:00–18:00 (nên đi ban ngày 6:00–17:00)",
+   "hop_voi": "Nhóm bạn, người thích trekking nhẹ",
+   "id": "ma-thien-lanh",
+   "lat": 11.365,
+   "lng": 106.135,
+   "luu_y": "Đường vào qua vách đá, suối Vàng; không đi một mình lúc tối",
+   "nguon": "vinpearl.com, mytour.vn, blog.vexere.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vinpearl.com; mytour.vn",
+    "nhan_xet": "Thung lũng giữa 3 ngọn núi, suối Vàng và vách đá — hoang sơ, chụp ảnh đẹp. Điểm yếu: đường vào khó, không nên đi một mình lúc tối; ít dịch vụ. Hợp nhóm bạn, người thích trekking nhẹ; đi ban ngày, mang giày tốt."
+   },
+   "ten": "Thung lũng Ma Thiên Lãnh",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 11,
+   "cum": "nui-ba-den",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Sườn núi Bà Đen, phường Bình Minh, TP Tây Ninh (cáp treo Chùa Hang hoặc leo bộ)",
+   "gia_ve": "Vào chùa miễn phí; cáp treo Chùa Hang khứ hồi 250.000đ người lớn",
+   "gio_mo_cua": "Theo giờ cáp treo Chùa Hang 6:00–17:30",
+   "hop_voi": "Hành hương, người lớn tuổi",
+   "id": "chua-linh-son-tien-thach",
+   "lat": 11.368,
+   "lng": 106.148,
+   "luu_y": "Ăn mặc kín đáo; lễ lớn rất đông",
+   "nguon": "roamdecide.com, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; roamdecide.com",
+    "nhan_xet": "Quần thể chùa Bà trên sườn núi, linh thiêng, cáp treo Chùa Hang 250.000đ khứ hồi tiện cho người lớn tuổi. Điểm yếu: lễ lớn rất đông; leo bộ mệt. Hợp hành hương, người lớn tuổi; đi cáp treo, ăn mặc kín đáo."
+   },
+   "ten": "Chùa Linh Sơn Tiên Thạch / quần thể chùa Bà (Chùa Hang)",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 4,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Phạm Hộ Pháp, phường Long Hoa, Hòa Thành, Tây Ninh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Tham quan ban ngày 6:00–18:00 (có nguồn ghi tới 22:00); lễ 6:00, 12:00, 18:00, 24:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "toa-thanh-cao-dai",
+   "lat": 11.3127,
+   "lng": 106.1323,
+   "luu_y": "Vào trong không mang giày dép; nam cửa phải, nữ cửa trái",
+   "nguon": "pystravel.vn, phanvantravel.com, blog.vexere.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; pystravel.vn; phanvantravel.com",
+    "nhan_xet": "Kiến trúc Cao Đài độc đáo bậc nhất Việt Nam, xem lễ 12h rất ấn tượng. Điểm yếu: vào trong không mang giày dép, nam nữ đi cửa riêng — khách không biết dễ lúng túng; giờ tham quan nguồn ghi tới 22h chưa thống nhất. Hợp mọi đối tượng; xem lễ 12:00, ăn mặc kín đáo."
+   },
+   "ten": "Tòa Thánh Cao Đài",
+   "thoi_gian": "1–1,5 giờ; xem lễ 12:00 đẹp nhất"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 22B, phường Hòa Thành, Tây Ninh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~6:00–18:00 hàng ngày",
+   "hop_voi": "Hành hương, gia đình",
+   "id": "chua-go-ken",
+   "lat": 11.335,
+   "lng": 106.115,
+   "luu_y": "Chùa hơn 100 năm; tượng Quan Thế Âm cao ~25 m",
+   "nguon": "pystravel.vn, vinpearl.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; pystravel.vn",
+    "nhan_xet": "Chùa hơn 100 năm, tượng Quan Âm ~25 m giữa hồ — yên tĩnh, ít đông hơn Tòa Thánh. Điểm yếu: quy mô nhỏ, tham quan 1 giờ là hết. Hợp hành hương, gia đình; ghép cùng cung Tòa Thánh – Bà Đen."
+   },
+   "ten": "Chùa Gò Kén (Thiền Lâm Tự)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 08 Trần Phú, phường Ninh Sơn, TP Tây Ninh",
+   "gia_ve": "30.000–60.000đ/người (mâu thuẫn: 40.000–60.000đ vs 30.000–50.000đ)",
+   "gio_mo_cua": "6:00–18:00 (thứ 2–6); 6:00–22:00 (thứ 7, CN, lễ Tết)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "long-dien-son",
+   "lat": 11.323,
+   "lng": 106.102,
+   "luu_y": "Khu vui chơi tổng hợp; hỏi giá từng trò",
+   "nguon": "vinpearl.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vinpearl.com; mytour.vn",
+    "nhan_xet": "Khu vui chơi tổng hợp gần trung tâm, trẻ nhỏ chơi được 2–3 giờ, vé 30.000–60.000đ rẻ. Điểm yếu: vé mâu thuẫn (30.000–50.000đ vs 40.000–60.000đ), trò chơi tính riêng nên tổng chi phí khó đoán. Hợp gia đình có trẻ nhỏ; hỏi giá từng trò trước."
+   },
+   "ten": "Khu du lịch Long Điền Sơn",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực trung tâm TP Tây Ninh (gần Melia Vinpearl, đường Lê Duẩn)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cong-vien-xuan-hong",
+   "lat": 11.311,
+   "lng": 106.099,
+   "luu_y": "Điểm dừng nhẹ buổi tối",
+   "nguon": "trip.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; trip.com",
+    "nhan_xet": "Công viên trung tâm, đi dạo buổi tối nhẹ nhàng, miễn phí. Điểm yếu: chỉ là điểm dừng phụ, không có gì tham quan sâu; tối ít đèn ở vài góc. Hợp đi dạo tối sau ăn; không cần dành riêng thời gian."
+   },
+   "ten": "Công viên Xuân Hồng / trung tâm TP Tây Ninh",
+   "thoi_gian": "30–60 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 38,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Dương Minh Châu / Tân Châu, Tây Ninh",
+   "gia_ve": "Miễn phí vào khu vực hồ; thuê lều/thuyền SUP chưa kiểm được giá",
+   "gio_mo_cua": "Tự do 24/7; đẹp nhất mùa khô tháng 12–4",
+   "hop_voi": "Nhóm bạn, gia đình cắm trại",
+   "id": "ho-dau-tieng",
+   "lat": 11.38,
+   "lng": 106.32,
+   "luu_y": "Hồ nhân tạo lớn nhất Việt Nam (~270 km²); cắm trại tự túc",
+   "nguon": "pystravel.vn, vinpearl.com, blog.vexere.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; pystravel.vn; vinpearl.com",
+    "nhan_xet": "Hồ nhân tạo lớn nhất Việt Nam (~270 km²), cắm trại và hoàng hôn đẹp, mùa khô tháng 12–4 là đẹp nhất. Điểm yếu: hồ trải 3 tỉnh, điểm cắm trại tự túc hoàn toàn, thuê lều/SUP chưa kiểm được giá. Hợp nhóm bạn cắm trại; mang đủ đồ, kiểm tra thời tiết."
+   },
+   "ten": "Hồ Dầu Tiếng",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 65,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Tân Biên, Tây Ninh (gần biên giới Campuchia)",
+   "gia_ve": "Chưa kiểm được mức vé",
+   "gio_mo_cua": "Chưa kiểm được giờ chính xác",
+   "hop_voi": "Người yêu rừng, nhóm bạn",
+   "id": "lo-go-xa-mat",
+   "lat": 11.6,
+   "lng": 106.02,
+   "luu_y": "Cần liên hệ ban quản lý trước; mang giấy tờ (khu vực biên giới)",
+   "nguon": "Chưa kiểm được",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps",
+    "nhan_xet": "Vườn quốc gia biên giới, rừng và chim đa dạng — hợp người yêu thiên nhiên thật sự. Điểm yếu: chưa kiểm được vé/giờ, cần liên hệ ban quản lý trước, mang giấy tờ (khu vực biên giới). Hợp nhóm yêu rừng; liên hệ trước, không đi tự phát."
+   },
+   "ten": "Vườn quốc gia Lò Gò – Xa Mát",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Gò Dầu / Bến Cầu, Tây Ninh",
+   "gia_ve": "Miễn phí tham quan khu vực ngoài cửa khẩu",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người đi đường, khách mua sắm",
+   "id": "cua-khau-moc-bai",
+   "lat": 11.065,
+   "lng": 106.165,
+   "luu_y": "Không qua biên giới nếu không có giấy tờ đầy đủ; điểm phụ",
+   "nguon": "Chưa kiểm được",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps",
+    "nhan_xet": "Điểm phụ tham quan ngoài cửa khẩu, mua sắm qua biên giới tiện nếu có giấy tờ. Điểm yếu: chỉ nên ghi làm điểm phụ, không đưa vào lịch trình chính; không qua biên giới nếu thiếu hộ chiếu/visa. Hợp người đi đường; tham quan ngoài 1–2 giờ là đủ."
+   },
+   "ten": "Cửa khẩu Mộc Bài / khu vực Gò Dầu (điểm phụ)",
+   "thoi_gian": "1–2 giờ (chỉ tham quan ngoài)"
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 62, xã Tân Lập, huyện Mộc Hóa, tỉnh Long An cũ (nay thuộc Tây Ninh)",
+   "gia_ve": "Vào cổng tham quan 85.000đ/người (1 nguồn, chưa kiểm được mức niêm yết riêng)",
+   "gio_mo_cua": "7:00–17:00",
+   "hop_voi": "Nhóm bạn, gia đình, người thích sinh thái",
+   "id": "lang-noi-tan-lap",
+   "lat": 10.83,
+   "lng": 105.97,
+   "luu_y": "Thuộc khu vực Long An cũ (sáp nhập vào Tây Ninh 07/2025), cách TP Tây Ninh ~100 km về phía tây nam (QL62 qua Mộc Hóa) — chỉ hợp đi riêng 1 ngày từ TP.HCM hoặc ghép cung biên giới, không ghép trong ngày Bà Đen; mùa nước nổi tháng 8–11 âm lịch đẹp nhất",
+   "nguon": "danviet.vn, dulichvietnam.com.vn, vietnamdiemhen.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "danviet.vn; dulichvietnam.com.vn; Google Maps",
+    "nhan_xet": "Rừng tràm Đồng Tháp Mười, cung đường xuyên rừng 5 km và cầu chữ X — mùa nước nổi tháng 8–11 âm lịch đẹp nhất, sen súng nở rộ. Điểm yếu: cách TP Tây Ninh ~100 km, chỉ hợp đi riêng 1 ngày từ TP.HCM hoặc ghép cung biên giới; vé vào cổng 85.000đ chỉ có 1 nguồn. Hợp nhóm bạn, gia đình; đi mùa nước nổi, giờ mở cửa 7:00–17:00."
+   },
+   "ten": "Làng nổi Tân Lập (Long An cũ)",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Bình Phong Thạnh, huyện Mộc Hóa, tỉnh Long An cũ (nay thuộc Tây Ninh), trong Khu bảo tồn dược liệu Đồng Tháp Mười",
+   "gia_ve": "Chưa kiểm được mức vé riêng — hỏi giá tại cổng",
+   "gio_mo_cua": "Ban ngày (chưa kiểm được giờ chính xác)",
+   "hop_voi": "Người thích sinh thái, chụp ảnh",
+   "id": "canh-dong-bat-tan",
+   "lat": 10.79,
+   "lng": 105.99,
+   "luu_y": "Thuộc khu vực Long An cũ (sáp nhập vào Tây Ninh 07/2025), cùng cụm Mộc Hóa với Làng nổi Tân Lập, cách TP Tây Ninh ~100 km; rừng tràm gió nguyên sinh, phim trường 'Cánh đồng bất tận'; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichvietnam.com.vn; Google Maps",
+    "nhan_xet": "Rừng tràm gió nguyên sinh duy nhất Việt Nam, phim trường 'Cánh đồng bất tận' — không gian dược liệu Đồng Tháp Mười đặc trưng. Điểm yếu: cùng cụm Mộc Hóa, xa TP Tây Ninh (~100 km), chưa kiểm được vé/giờ riêng. Hợp người thích sinh thái, chụp ảnh; ghép cùng Làng nổi Tân Lập 1 ngày."
+   },
+   "ten": "Khu du lịch Cánh Đồng Bất Tận (Long An cũ)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Đức Huệ, tỉnh Long An cũ (nay thuộc Tây Ninh), gần Đức Hòa",
+   "gia_ve": "Chưa kiểm được mức vé riêng — hỏi giá tại cổng",
+   "gio_mo_cua": "Ban ngày (chưa kiểm được giờ chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ",
+   "id": "vuon-thu-my-quynh",
+   "lat": 10.955,
+   "lng": 106.29,
+   "luu_y": "Thuộc khu vực Long An cũ (sáp nhập vào Tây Ninh 07/2025), cách TP Tây Ninh ~60 km về phía nam, cùng hướng Đức Huệ – Đức Hòa; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "Google Maps",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps",
+    "nhan_xet": "Vườn thú tư nhân lớn ở Long An cũ, nhiều loài thú, trẻ nhỏ thích. Điểm yếu: cách TP Tây Ninh ~60 km, chưa kiểm được vé/giờ riêng; review khen không gian rộng nhưng trò chơi ít. Hợp gia đình có trẻ nhỏ; ghép cung Đức Huệ – Đức Hòa."
+   },
+   "ten": "Vườn thú Mỹ Quỳnh (Long An cũ)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Núi Bà Đen",
+   "gio": "5:30-8:00 sáng săn mây và đón bình minh trên đỉnh (mùa khô tháng 11-3 đẹp nhất); hoặc 15:00-17:30 chiều ngắm hoàng hôn",
+   "nguon": "Sun World Ba Den Mountain — Nên đi núi Bà Đen mấy giờ: sáng sớm 5h30-8h00 săn mây, bình minh; chiều 15h00-17h30 hoàng hôn (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Tòa Thánh Cao Đài",
+   "gio": "7:00-9:00 sáng hoặc 16:00-17:30 chiều, ánh sáng đẹp trên kiến trúc",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Dầu Tiếng",
+   "gio": "5:30-7:00 sáng bình minh hoặc 16:30-18:00 hoàng hôn trên hồ",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào Tòa Thánh Cao Đài và chùa Gò Kén — tránh núi Bà Đen vì cáp treo có thể dừng khi mưa to, gió lớn.",
+  "diem": [
+   "Tòa Thánh Cao Đài",
+   "Chùa Gò Kén (Thiền Lâm Tự)",
+   "Chùa Linh Sơn Tiên Thạch / quần thể chùa Bà (Chùa Hang)"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "nui-ba-den",
+    "hoat_dong": "Núi Bà Đen (cáp treo đỉnh)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "toa-thanh-cao-dai",
+    "hoat_dong": "Tòa Thánh Cao Đài (lễ 18:00)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bánh canh Trảng Bàng / bò tơ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "chua-go-ken, ma-thien-lanh",
+    "hoat_dong": "Chùa Gò Kén + Ma Thiên Lãnh",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ho-dau-tieng",
+    "hoat_dong": "Hồ Dầu Tiếng (ngắn) hoặc về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "nui-ba-den, chua-linh-son-tien-thach",
+    "hoat_dong": "Cáp treo Vân Sơn lên đỉnh núi Bà Đen (nửa ngày) + chùa Bà",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ma-thien-lanh",
+    "hoat_dong": "Thung lũng Ma Thiên Lãnh (2–3 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bò tơ Năm Sánh (Hòa Thành)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "toa-thanh-cao-dai",
+    "hoat_dong": "Tòa Thánh Cao Đài, xem lễ 12:00",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-go-ken, long-dien-son",
+    "hoat_dong": "Chùa Gò Kén + Long Điền Sơn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bánh tráng phơi sương cuốn thịt",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "ho-dau-tieng",
+    "hoat_dong": "Hồ Dầu Tiếng (cắm trại/ngắm hoàng hôn, nửa ngày–cả ngày)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về, trả phòng",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "nui-ba-den, ma-thien-lanh",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "toa-thanh-cao-dai, chua-go-ken, long-dien-son",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "ho-dau-tieng",
+    "hoat_dong": "Hồ Dầu Tiếng (cắm trại qua đêm)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lo-go-xa-mat",
+    "hoat_dong": "Vườn quốc gia Lò Gò – Xa Mát (nửa ngày, liên hệ trước)",
+    "ngay": 4
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Mua bánh tráng/muối tôm về làm quà, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Tây Ninh",
+  "best_season": "Tháng 11–4 (mùa khô): leo núi, cắm trại hồ Dầu Tiếng; rằm tháng Giêng đông nhất ở núi Bà Đen",
+  "destination": "Tây Ninh, TP Tây Ninh",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "tay-ninh",
+  "lat": 11.313,
+  "lng": 106.096,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "roamdecide.com",
+   "dulich.pro.vn",
+   "phanvantravel.com",
+   "pystravel.vn",
+   "vinpearl.com",
+   "mytour.vn",
+   "blog.vexere.com",
+   "dulichbinhminh.com",
+   "saodaily.com",
+   "vienmaytinh.com",
+   "buulong.com.vn",
+   "thesamhouse.com",
+   "trip.com",
+   "traveloka.com",
+   "ezcloud.vn",
+   "truyenhinhcapsongthu.net"
+  ],
+  "province": "Tây Ninh",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "núi",
+   "tâm linh"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 11–4 (mùa khô): leo núi, cắm trại hồ Dầu Tiếng; rằm tháng Giêng đông nhất ở núi Bà Đen"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

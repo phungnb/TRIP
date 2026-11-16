@@ -1,0 +1,982 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Gà thương phẩm ~300.000–500.000đ/kg (chưa kiểm được mức hiện hành); món tại nhà hàng 150.000–350.000đ/phần",
+   "mon": "Gà Đông Tảo (gà chân to)",
+   "nguon": "webtretho.vn, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Gà Đông Tảo nổi tiếng vì chân to, da giòn, thịt chắc; ăn luộc hoặc hầm là ngon nhất. Điểm trừ: giá rất cao theo kg, phải đặt trước; nhiều nơi bán gà lai giả gà Đông Tảo. Nên ăn ở nhà hàng/trại gà ghi rõ nguồn gốc gà Đông Tảo (xã Đông Tảo, Khoái Châu) và báo giá theo kg trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "155 Chùa Chuông, TP Hưng Yên",
+     "gia": "Gà Đông Tảo hầm/luộc ~150.000–350.000đ/phần (khoảng tham khảo)",
+     "ten": "Nhà hàng Gà Tươi Mạnh Hoạch"
+    },
+    {
+     "dia_chi": "Huyện Khoái Châu (trại Trưởng, Tân Dân)",
+     "gia": "Mua gà giống/thương phẩm theo con, giá thỏa thuận",
+     "ten": "Trại gà Đông Tảo (Khoái Châu)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~100.000–200.000đ/kg (chưa kiểm được mức hiện hành)",
+   "mon": "Chả gà Tiểu Quan",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Chả gà Tiểu Quan là đặc sản lạ: chả gà dai, thơm, ăn kèm cơm hoặc mua làm quà. Điểm trừ: ít nơi bán, nên mua đúng cơ sở Tiểu Quan; chả để lâu sẽ khô."
+   },
+   "quan": [
+    {
+     "dia_chi": "Xã Tiểu Quan, huyện Khoái Châu (làng Tiểu Quan)",
+     "gia": "100.000–200.000đ/kg (khoảng tham khảo)",
+     "ten": "Chả gà Tiểu Quan"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô (chưa kiểm được mức hiện hành)",
+   "mon": "Bún thang lươn (Phố Hiến)",
+   "nguon": "webtretho.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún thang lươn Phố Hiến là món sáng đặc trưng: lươn đồng thơm, nước dùng ngọt thanh. Ăn sáng ở khu Phố Hiến là chuẩn. Điểm trừ: lươn theo mùa, trái mùa ít và giá cao."
+   },
+   "quan": [
+    {
+     "dia_chi": "330 Điện Biên (đường Điện Biên Phủ), TP Hưng Yên",
+     "gia": "30.000–50.000đ/tô (khoảng tham khảo)",
+     "ten": "Bún thang lươn Phố Hiến"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua làm quà (mùa tháng 7–8)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–80.000đ/kg tươi tùy mùa",
+   "mon": "Nhãn lồng Hưng Yên",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Nhãn lồng Hưng Yên là nhãn ngon nhất miền Bắc: cùi dày, ngọt đậm, thơm. Mùa nhãn tháng 7-8, ăn tại vườn là trải nghiệm đáng nhớ. Điểm trừ: ngoài mùa không có nhãn tươi; nhãn bán dọc đường nhiều hàng trộn nhãn thường."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Phố Hiến, TP Hưng Yên",
+     "gia": "50.000–80.000đ/kg",
+     "ten": "Chợ Phố Hiến"
+    },
+    {
+     "dia_chi": "TP Hưng Yên – Khoái Châu",
+     "gia": "50.000–80.000đ/kg (mua tại vườn)",
+     "ten": "Vườn nhãn ven đê sông Hồng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "5.000–15.000đ/cái (chưa kiểm được mức hiện hành)",
+   "mon": "Bánh dày Quán Gánh / bánh tẻ",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Bánh dày Quán Gánh dẻo, thơm, ăn kèm giò chả là món sáng bình dân. Rẻ, mua ở chợ Phố Hiến buổi sáng là chuẩn. Điểm trừ: bánh để lâu sẽ cứng, nên ăn trong ngày."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực chợ Phố Hiến, TP Hưng Yên",
+     "gia": "5.000–15.000đ/cái",
+     "ten": "Quán bánh trung tâm TP Hưng Yên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–200.000đ/phần (chưa kiểm được mức hiện hành)",
+   "mon": "Cá mòi / gỏi cá mòi (Kiến Xương – Thái Bình cũ)",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Gỏi cá mòi Kiến Xương là món lạ và ngon: cá mòi tươi, thính thơm, ăn kèm rau thơm. Hợp người thích khám phá ẩm thực. Điểm trừ: gỏi cá sống nên chỉ ăn ở quán làm gỏi trong ngày từ cá tươi, có đông khách địa phương ăn; người yếu bụng nên cân nhắc."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Kiến Xương (nay thuộc Hưng Yên)",
+     "gia": "100.000–200.000đ/phần (khoảng tham khảo)",
+     "ten": "Nhà hàng khu vực Kiến Xương"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–40.000đ/tô",
+   "mon": "Bún cá rô đồng",
+   "nguon": "Chưa kiểm được nguồn cụ thể — xem mục 9",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún cá rô đồng Hưng Yên: cá rô rán giòn, nước dùng ngọt thanh, rau cải. Ăn sáng bình dân, giá rẻ. Điểm trừ: cá rô nhiều xương dăm, ăn phải cẩn thận; trẻ nhỏ nên gọi cá lọc xương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Điện Biên Phủ, TP Hưng Yên",
+     "gia": "25.000–40.000đ/tô",
+     "ten": "Quán bún cá trung tâm TP Hưng Yên"
+    }
+   ]
+  },
+  {
+   "buoi": "Tráng miệng / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/hộp (long nhãn khô; chưa kiểm được mức hiện hành)",
+   "mon": "Chè sen long nhãn",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Chè sen long nhãn là món tráng miệng thanh mát: hạt sen bùi, long nhãn ngọt dịu. Mua long nhãn khô làm quà cũng hợp. Điểm trừ: chè nấu sẵn để lâu sẽ chua, nên ăn trong ngày."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phường Phố Hiến, TP Hưng Yên",
+     "gia": "30.000–60.000đ/hộp (khoảng tham khảo)",
+     "ten": "Cửa hàng đặc sản Phố Hiến"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HN khứ hồi + xe HN–HY khứ hồi",
+   "uoc_tinh": "3.100.000–5.300.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng TP Hưng Yên ~400.000–800.000đ/đêm)",
+   "uoc_tinh": "400.000–800.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (gà Đông Tảo 1 bữa ~150.000–350.000đ/người)",
+   "uoc_tinh": "400.000–800.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (hầu hết miễn phí; gửi xe + xe ôm)",
+   "uoc_tinh": "50.000–200.000đ"
+  },
+  {
+   "hang_muc": "Đi lại trong tỉnh (xe ôm/taxi/thuê xe máy)",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Mua đặc sản (nhãn lồng, chả gà, long nhãn)",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.200.000–7.800.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (xe khách khứ hồi thay máy bay)",
+   "uoc_tinh": "100.000–300.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá trước khi mua; so giá 2-3 sạp; kiểm tra hàng trước khi trả tiền.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua đặc sản nhãn lồng, đồ lưu niệm ở Phố Hiến và chợ Phố Hiến: giá hét cao với khách lạ, hàng không đúng loại."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh khu di tích Phố Hiến dịp lễ hội: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Hưng Yên hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác nhẹ (đi lễ đầu năm trời lạnh); ô/áo mưa mỏng (tránh tháng 6–10 mưa nhiều)",
+  "Giày đi bộ (cụm Phố Hiến đi bộ nhiều, đường đá cổ)",
+  "Tiền mặt lẻ (công đức, gửi xe, mua nhãn/chả gà ở chợ — nhiều nơi chỉ nhận tiền mặt)",
+  "Ăn mặc lịch sự khi vào đền/chùa",
+  "Đi đúng mùa: lễ hội Phố Hiến tháng 2–3 âm lịch; nhãn chín tháng 7–8 dương lịch — ngoài 2 mùa này Hưng Yên ít hoạt động, chỉ nên đi 1 ngày"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [],
+  "diem": [
+   "Vườn nhãn lồng Hưng Yên (mùa nhãn chín)",
+   "Phố Hiến cổ (dạo phố, chợ Phố Hiến)",
+   "Đền Dạ Trạch (đền Chử Đồng Tử)",
+   "Chùa Keo (Thần Quang tự)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn khu vực Văn Giang (Ecopark, giáp Hà Nội)",
+   "Khách sạn Phố Hiến"
+  ],
+  "diem_chay": [
+   "Khu đô thị Ecopark, Văn Giang (cung đường của giải)",
+   "Đường ven sông Hồng, TP Hưng Yên buổi sáng sớm",
+   "Khu vực hồ Bán Nguyệt, Phố Hiến"
+  ],
+  "giai": [
+   {
+    "nguon": "Website chính thức ecoparkmarathon.com — Ecopark City Trail 2025, race day 07/04/2025, Khu đô thị Ecopark, Văn Giang, Hưng Yên (ngày kiểm 08/11/2026)",
+    "ten": "Ecopark Marathon (Ecopark City Trail)",
+    "thoi_gian": "Tháng 4 hằng năm, dịp Giỗ Tổ Hùng Vương (mùa 2025: 7/4/2025)"
+   }
+  ],
+  "nguon": "Website chính thức ecoparkmarathon.com; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP, cách cụm Phố Hiến 1–2 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Điện Biên Phủ / Chu Mạnh Trinh, TP Hưng Yên",
+   "dien_thoai": null,
+   "gia": "~500.000–1.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách đi lễ, gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com (gợi ý khu vực, chưa có tên + giá cụ thể)",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn trung tâm TP Hưng Yên 3–4 sao",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ngay cụm di tích Phố Hiến, đi bộ được",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "58 Phạm Ngũ Lão, phường Phố Hiến, TP Hưng Yên",
+   "dien_thoai": "0221 3862 909",
+   "gia": "~400.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3 sao",
+   "hop_voi": "Khách đi lễ Phố Hiến",
+   "khu_vuc": "pho-hien",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "limoutrip.com, mytour.vn, tripi.vn, toplist.vn, tinbds.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Phố Hiến",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm thành phố",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP Hưng Yên",
+   "dien_thoai": null,
+   "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+   "hang": "Khách sạn 2 sao / nhà nghỉ",
+   "hop_voi": "Khách tiết kiệm, đi 1 ngày",
+   "khu_vuc": "trung-tam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ/khách sạn giá vừa TP Hưng Yên",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Hưng Yên ~30 km; cách Hà Nội ~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Văn Giang, Hưng Yên (khu đô thị Ecopark)",
+   "dien_thoai": null,
+   "gia": "~600.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng ven đô",
+   "khu_vuc": "van-giang",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu vực Văn Giang (Ecopark, giáp Hà Nội)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Hưng Yên ~15 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Khoái Châu",
+   "dien_thoai": null,
+   "gia": "~300.000–600.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Homestay",
+   "hop_voi": "Gia đình, nhóm bạn đi mùa nhãn",
+   "khu_vuc": "khoai-chau",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Homestay/farmstay Khoái Châu (vườn nhãn)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Hưng Yên ~35 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Thái Bình (nay thuộc tỉnh Hưng Yên sau sáp nhập 2025)",
+   "dien_thoai": null,
+   "gia": "~400.000–900.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách ghép tour Hưng Yên – Thái Bình (biển Cồn Vành, chùa Keo)",
+   "khu_vuc": "thai-binh",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Thái Bình cũ (khu vực TP Thái Bình, nay thuộc Hưng Yên)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách TP Hưng Yên ~25 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Văn Lâm",
+   "dien_thoai": null,
+   "gia": "~250.000–450.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Nhà nghỉ",
+   "hop_voi": "Khách đi đường, khách thăm chùa Thái Lạc",
+   "khu_vuc": "van-lam",
+   "nguon": "Chưa kiểm được nguồn giá cụ thể — xem mục 9",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Nhà nghỉ Văn Lâm (gần làng nghề, giáp Hà Nội)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Hưng Yên là tỉnh mỏng nhất đợt này: chỉ cụm Phố Hiến có dữ liệu chắc; các điểm ngoài trung tâm (Dạ Trạch, Thái Lạc, Phượng Hoàng, làng hương) ít nguồn, giờ mở cửa và giá vé chưa kiểm được",
+  "Giá phòng khách sạn Hưng Yên: chưa tra được nguồn giá cụ thể từng khách sạn — tất cả giá trong file là khoảng tham khảo chung",
+  "Giá các món: gà Đông Tảo theo kg/phần, chả gà Tiểu Quan, bún thang lươn, cá mòi, bánh dày — chỉ có khoảng tham khảo, chưa tra được quán + giá cụ thể (trừ nhà hàng Mạnh Hoạch 155 Chùa Chuông và bún thang lươn 330 Điện Biên)",
+  "Giờ mở cửa chính xác: toàn bộ di tích Phố Hiến (đền Mẫu, chùa Chuông, Văn Miếu, đền Trần, đền Thiên Hậu) — chưa có nguồn thống nhất",
+  "Giá xe limousine/buýt HN–Hưng Yên, phí cao tốc, giá buýt nội tỉnh — chưa kiểm được mức hiện hành (chỉ có xe khách ~50.000đ theo 1 nguồn)",
+  "Địa giới sau sáp nhập 2025: Hưng Yên gồm Thái Bình cũ — các điểm Thái Bình cũ (chùa Keo, biển Cồn Vành, đền Trần Thái Bình) chỉ nhắc tên trong lịch trình 4N3Đ, chưa có dữ liệu chi tiết (địa danh, giá vé, quán ăn) — cần bổ sung đợt sau",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 5/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Đền Mẫu (Hoa Dương Linh Từ) + Hồ Bán Nguyệt, Đền Trần (Phố Hiến), Đình – Chùa Hiến, Đền Dạ Trạch (đền Chử Đồng Tử), Chùa Thái Lạc, Làng hương xạ Cao Thôn (làng làm hương), Đền Phượng Hoàng (đền Phượng Hoàng – Tiên Lữ), Vườn nhãn lồng Hưng Yên (mùa nhãn chín), Bãi biển Cồn Vành, Đền Trần Thái Bình. Chưa có tọa độ (null): Bãi biển Cồn Vành, Đền Trần Thái Bình. Cần kiểm lại bằng bản đồ trước khi ghim app.",
+  "Ngày 3 của lịch trình 3N2Đ và ngày 4 của 4N3Đ dùng điểm Thái Bình cũ chưa có trong file — vi phạm quy tắc 'chỉ dùng địa danh đã có trong file', ghi rõ ở đây để điều phối viên quyết (bỏ hay bổ sung dữ liệu Thái Bình cũ)"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Hưng Yên không có sân bay. Bay tới Nội Bài rồi đi xe ~1,5–2 giờ (~60–70 km), hoặc đi thẳng từ Hà Nội (~60 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Bến Lương Yên/Gia Lâm – bến xe Hưng Yên; nhiều chuyến/ngày",
+    "gia": "~50.000đ/người (theo dulich9.com)",
+    "nguon": "dulich9.com",
+    "phuong_tien": "Xe khách HN–Hưng Yên",
+    "thoi_gian": "~1,5 giờ (~60–64 km)"
+   },
+   {
+    "ghi_chu": "Đón tận nơi Hà Nội",
+    "gia": "~100.000–150.000đ/vé (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức hiện hành — xem mục 9",
+    "phuong_tien": "Xe limousine HN–Hưng Yên",
+    "thoi_gian": "~1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Phí cao tốc ~50.000–100.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Ô tô riêng (cao tốc HN–HP, rẽ QL39)",
+    "thoi_gian": "~1 giờ"
+   },
+   {
+    "ghi_chu": "Tuyến buýt liên tỉnh, dừng nhiều",
+    "gia": "~20.000–40.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức hiện hành — xem mục 9",
+    "phuong_tien": "Xe buýt HN–Hưng Yên",
+    "thoi_gian": "~1,5–2 giờ"
+   }
+  ],
+  "tu_lan_can": [
+   {
+    "ghi_chu": "Hợp ghép tour Bắc Ninh – Phố Hiến",
+    "gia": "Xe khách ~50.000–100.000đ/vé (chưa kiểm được)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Từ Bắc Ninh sang Hưng Yên (ghép Kinh Bắc)",
+    "thoi_gian": "~1–1,5 giờ (QL38)"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Xe khách ~60.000–120.000đ/vé (chưa kiểm được)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Từ Hải Phòng sang Hưng Yên",
+    "thoi_gian": "~1,5–2 giờ (QL5/QL39)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé bay một chiều ~1.500.000–2.500.000đ + xe khách/limousine ~50.000–150.000đ",
+    "nguon": "traveloka.com, dulich9.com",
+    "phuong_tien": "Máy bay SGN–HAN + xe HN–Hưng Yên",
+    "thoi_gian": "Bay ~2 giờ + xe ~1–1,5 giờ (HN–HY ~60 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Cụm Phố Hiến đi bộ/xe ôm là đủ; ra Khoái Châu/Tiên Lữ mới cần xe máy",
+   "gia": "~80.000–120.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Cụm di tích Phố Hiến nằm trong bán kính 3 km — đi bộ hoặc xe ôm là tiện nhất",
+   "gia": "Xe ôm 15.000–20.000đ/chuyến ngắn (cụm Phố Hiến 1–2 km); taxi ~11.500–16.000đ/km",
+   "giay_to": "",
+   "nguon": "dulich9.com, soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Xe ôm / taxi trong TP Hưng Yên"
+  },
+  {
+   "ghi_chu": "Grab/Be ít xe ở Hưng Yên hơn Hà Nội; nên gọi taxi truyền thống hoặc xe ôm",
+   "gia": "~11.500–16.000đ/km; đi lại 3N2Đ ước tính ~200.000–500.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab"
+  },
+  {
+   "ghi_chu": "Tuyến TP Hưng Yên – Khoái Châu – Văn Lâm – Văn Giang",
+   "gia": "~10.000–20.000đ/lượt (chưa kiểm được mức chính xác)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được mức chính xác — xem mục 9",
+   "phuong_tien": "Xe buýt nội tỉnh"
+  },
+  {
+   "ghi_chu": "Hợp gia đình đi lễ hội + làng nghề trong ngày",
+   "gia": "Xe 4 chỗ ~900.000–1.200.000đ/ngày (khoảng chung miền Bắc)",
+   "giay_to": "",
+   "nguon": "agotourist.com (khoảng chung)",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Bãi Sậy, phường Phố Hiến, TP Hưng Yên, bên hồ Bán Nguyệt",
+   "gia_ve": "Miễn phí (công đức tùy tâm)",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác); lễ hội tháng 8 âm lịch",
+   "hop_voi": "Khách hành hương, cặp đôi chụp ảnh, gia đình",
+   "id": "den-mau",
+   "lat": 20.645,
+   "lng": 106.05,
+   "luu_y": "Đền thờ bà Dương Quý Phi (triều Tống, từ 1278), bên hồ Bán Nguyệt hình bán nguyệt tự nhiên hiếm có; điểm check-in đẹp nhất Phố Hiến Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "congthuong.vn, phobienphapluat.vn, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Mẫu bên hồ Bán Nguyệt là điểm tâm linh đẹp nhất Phố Hiến, không gian thoáng và yên tĩnh. Hợp đi buổi sáng hoặc hoàng hôn, kết hợp dạo hồ. Lễ hội đền Mẫu đầu năm đông, ngày thường vắng vẻ."
+   },
+   "ten": "Đền Mẫu (Hoa Dương Linh Từ) + Hồ Bán Nguyệt",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Nhân Dục, phường Phố Hiến, TP Hưng Yên",
+   "gia_ve": "Miễn phí (công đức tùy tâm)",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc cổ, gia đình",
+   "id": "chua-chuong",
+   "lat": 20.6557859,
+   "lng": 106.0504457,
+   "luu_y": "Chùa cổ thế kỷ 14, kiến trúc gỗ lim nguyên vẹn, 152 tượng Phật gỗ quý, bộ tượng La Hán đồ sộ; bia Kim Chung Tự dựng 1711",
+   "nguon": "dulich9.com, vietthangtravel.com, congthuong.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Chuông được mệnh danh là Phố Hiến đệ nhất danh lam, kiến trúc gỗ cổ và chuông đồng đẹp. Không gian nhỏ, tham quan 30-45 phút là đủ. Nên ghé buổi sáng khi nắng chiếu vào sân chùa, chụp ảnh đẹp."
+   },
+   "ten": "Chùa Chuông (Kim Chung Tự) – 'Phố Hiến đệ nhất danh lam'",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu phố Xích Đằng, phường Phố Hiến, TP Hưng Yên, cách chùa Chuông ~2 km",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác); Hội Xuân Văn Miếu đầu xuân (triển lãm thư pháp, ca trù)",
+   "hop_voi": "Người yêu lịch sử, học sinh, gia đình",
+   "id": "van-mieu-xich-dang",
+   "lat": 20.6622597,
+   "lng": 106.0492897,
+   "luu_y": "Văn miếu thế kỷ 17 thờ Khổng Tử, nơi thi hương trấn Sơn Nam; khuôn viên ~6.000 m², tam quan chồng diêm 2 tầng 8 mái; tượng thầy Chu Văn An đặt chính giữa đại bái",
+   "nguon": "congthuong.vn, vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Văn Miếu Xích Đằng là Văn Miếu của trấn Sơn Nam xưa, kiến trúc cổ kính nhưng quy mô nhỏ hơn Văn Miếu Hà Nội. Hợp người thích lịch sử giáo dục, ghé 30 phút kết hợp với chùa Chuông gần đó."
+   },
+   "ten": "Văn Miếu Xích Đằng",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Phố Hiến, TP Hưng Yên, soi bóng bên hồ Bán Nguyệt",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu lịch sử",
+   "id": "den-tran",
+   "lat": 20.6467,
+   "lng": 106.0489,
+   "luu_y": "Đền thờ nhà Trần, biểu tượng hào khí Đông A; thuộc di tích quốc gia đặc biệt Phố Hiến (xếp hạng 2014) Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "congthuong.vn, phobienphapluat.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Trần Phố Hiến soi bóng bên hồ Bán Nguyệt, không gian đẹp và linh thiêng. Lễ hội đền Trần đầu năm thu hút đông người. Ngày thường vắng, hợp đi dạo buổi chiều."
+   },
+   "ten": "Đền Trần (Phố Hiến)",
+   "thoi_gian": "45–60 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Phố Hiến, TP Hưng Yên, cạnh đền Mẫu",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc Hoa kiều",
+   "id": "den-thien-hau",
+   "lat": 20.6471017,
+   "lng": 106.0549758,
+   "luu_y": "Đền của cộng đồng người Hoa ở thương cảng Phố Hiến xưa; đi kèm cụm đền Mẫu trong buổi sáng",
+   "nguon": "dulich9.com, vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Thiên Hậu nhỏ, ngay cạnh đền Mẫu, gắn với cộng đồng người Hoa ở Phố Hiến xưa. Kiến trúc có nét riêng, tham quan nhanh 15-20 phút. Hợp ghé kết hợp khi đã tới đền Mẫu."
+   },
+   "ten": "Đền Thiên Hậu",
+   "thoi_gian": "30 phút"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Phố Hiến, TP Hưng Yên",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc cổ",
+   "id": "chua-hien",
+   "lat": 20.6483,
+   "lng": 106.0533,
+   "luu_y": "Một trong 16 di tích tiêu biểu của quần thể Phố Hiến; kiến trúc đình – chùa liền kề Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "phobienphapluat.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đình - chùa Hiến là một trong những di tích cổ nhất Phố Hiến, gắn với truyền thuyết về cây nhãn tổ. Không gian yên tĩnh, ít khách. Nên ghé khi đi bộ quanh khu Phố Hiến, không cần xếp lịch riêng."
+   },
+   "ten": "Đình – Chùa Hiến",
+   "thoi_gian": "30–45 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "pho-hien",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực phường Phố Hiến, TP Hưng Yên",
+   "gia_ve": "Miễn phí dạo phố; nhãn lồng mua tại chợ 50.000–80.000đ/kg tùy mùa",
+   "gio_mo_cua": "Cả ngày; chợ ~6:00–18:00",
+   "hop_voi": "Mọi đối tượng, người thích dạo phố cổ",
+   "id": "pho-hien-co",
+   "lat": 20.6625669,
+   "lng": 106.0584835,
+   "luu_y": "Thương cảng sầm uất thế kỷ 16–17; nay chỉ còn phố nhỏ, đi nhanh ~30 phút; mua nhãn lồng tươi ven đường mùa hè (tháng 7–8)",
+   "nguon": "dulich9.com, vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Dạo phố cổ Phố Hiến là cách cảm thương cảng xưa: nhà cổ, đền chùa san sát quanh hồ Bán Nguyệt. Điểm trừ: phố nhỏ, ít dịch vụ du lịch, nên đi cùng người địa phương hoặc tự tìm hiểu trước. Buổi tối khu vực hồ khá đẹp."
+   },
+   "ten": "Phố Hiến cổ (dạo phố, chợ Phố Hiến)",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "khoai-chau",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Dạ Trạch, huyện Khoái Châu, cách TP Hưng Yên ~15 km",
+   "gia_ve": "Miễn phí (lễ hội tháng 3 âm lịch)",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu truyền thuyết",
+   "id": "den-da-trach",
+   "lat": 20.7167,
+   "lng": 105.9667,
+   "luu_y": "Thờ Chử Đồng Tử – Tiên Dung, một trong Tứ bất tử; lễ hội lớn tháng 3 âm lịch Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Dạ Trạch thờ Chử Đồng Tử, gắn với truyền thuyết tình yêu nổi tiếng. Không gian ven sông Hồng thoáng mát, yên tĩnh. Lễ hội tháng 4 âm lịch đông vui; ngày thường vắng, tham quan khoảng 1 giờ."
+   },
+   "ten": "Đền Dạ Trạch (đền Chử Đồng Tử)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "van-lam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Lạc Hồng, huyện Văn Lâm, cách TP Hưng Yên ~25 km",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc cổ",
+   "id": "chua-thai-lac",
+   "lat": 20.9833,
+   "lng": 106.0167,
+   "luu_y": "Chùa cổ với tượng Quan Âm và kiến trúc gỗ; ít khách du lịch, yên tĩnh Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Thái Lạc nổi tiếng với kiến trúc gỗ và tượng cổ, ít khách du lịch biết tới. Không gian cổ kính, hợp người thích chùa cổ. Đường vào làng nhỏ, nên hỏi người địa phương."
+   },
+   "ten": "Chùa Thái Lạc",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Bảo Khê, TP Hưng Yên (nay thuộc Hưng Yên), cách trung tâm ~7 km",
+   "gia_ve": "Miễn phí tham quan làng; mua hương theo giá xưởng (chưa kiểm được mức)",
+   "gio_mo_cua": "~7:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ, người thích làng nghề, chụp ảnh",
+   "id": "lang-huong-xa",
+   "lat": 20.6,
+   "lng": 106.0167,
+   "luu_y": "Làng làm hương truyền thống, bó hương phơi đầy sân dịp Tết; chụp ảnh xin phép chủ nhà Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vietthangtravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng hương Cao Thôn rực rỡ vào mùa làm hương Tết, những bó hương đỏ phơi đầy sân là góc chụp ảnh đẹp. Nên đi tháng 11-12 âm lịch khi làng vào vụ; ngày thường ít hương phơi. Mua hương về làm quà nên hỏi giá trước."
+   },
+   "ten": "Làng hương xạ Cao Thôn (làng làm hương)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "tien-lu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Tiên Lữ, cách TP Hưng Yên ~20 km",
+   "gia_ve": "Miễn phí (lễ hội tháng 3 âm lịch)",
+   "gio_mo_cua": "~6:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương",
+   "id": "den-phuong-hoang",
+   "lat": 20.6833,
+   "lng": 106.1167,
+   "luu_y": "Đền cổ thờ tướng quân thời Hùng Vương; kiến trúc gỗ, khuôn viên rộng Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Phượng Hoàng thờ Đức Thánh Trần, không gian rộng và linh thiêng. Lễ hội đầu năm đông, ngày thường vắng. Hợp người đi lễ và thích kiến trúc đền cổ."
+   },
+   "ten": "Đền Phượng Hoàng (đền Phượng Hoàng – Tiên Lữ)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "khoai-chau",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Ven sông Hồng, khu vực TP Hưng Yên – Khoái Châu (nhiều vườn dọc đê)",
+   "gia_ve": "Vào vườn tham quan thường miễn phí/mua nhãn tại vườn 50.000–80.000đ/kg tùy mùa (theo dulich9.com)",
+   "gio_mo_cua": "Mùa nhãn tháng 7–8 dương lịch; ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn, người thích trải nghiệm vườn",
+   "id": "vuon-nhan-long",
+   "lat": 20.6833,
+   "lng": 106.0,
+   "luu_y": "Nhãn lồng Hưng Yên là đặc sản tiến vua; đi đúng mùa mới có nhãn tươi; hỏi giá trước khi hái/mua Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Vườn nhãn lồng Hưng Yên đẹp nhất mùa nhãn chín tháng 7-8, ăn nhãn tại vườn là trải nghiệm đáng nhớ. Ngoài mùa nhãn thì vườn chỉ là vườn cây, ít có gì xem. Nên liên hệ nhà vườn trước để chắc được vào tham quan và hái nhãn."
+   },
+   "ten": "Vườn nhãn lồng Hưng Yên (mùa nhãn chín)",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "thai-binh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Duy Nhất, huyện Vũ Thư (khu vực Thái Bình cũ, nay thuộc tỉnh Hưng Yên)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "~7:00–17:30; lễ hội mùng 4–8 tháng Giêng và 13–15 tháng 9 âm lịch",
+   "hop_voi": "Khách hành hương, người yêu kiến trúc gỗ cổ",
+   "id": "chua-keo",
+   "lat": 20.3912788,
+   "lng": 106.3018694,
+   "luu_y": "Di tích Quốc gia đặc biệt (công nhận 25/01/2026); kiến trúc gỗ 'nội công ngoại quốc' gần như nguyên vẹn; lễ hội rất đông, nên đi ngày thường để ngắm kiến trúc",
+   "nguon": "buulong.com.vn, Facebook",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "buulong.com.vn / Facebook",
+    "nhan_xet": "Chùa Keo là Di tích Quốc gia đặc biệt (công nhận 25/01/2026), bảo tàng sống của kiến trúc gỗ thời Lê với kết cấu nội công ngoại quốc gần như nguyên vẹn. Điểm mạnh: kiến trúc gỗ lim chạm khắc tinh xảo, lễ hội mùa xuân và mùa thu rất lớn. Điểm trừ: lễ hội đông nghẹt, ngày thường vắng vẻ; nên đi ngày thường để ngắm kiến trúc."
+   },
+   "ten": "Chùa Keo (Thần Quang tự)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "thai-binh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hưng Phú (Nam Phú cũ), huyện Tiền Hải (khu vực Thái Bình cũ, nay thuộc tỉnh Hưng Yên)",
+   "gia_ve": "Miễn phí; gửi xe máy 5.000–10.000đ (theo petrothaibinhhotel.vn — chưa kiểm được)",
+   "gio_mo_cua": "Cả ngày; đông khách nhất 14:00–15:00 mùa hè",
+   "hop_voi": "Người thích biển hoang sơ, cắm trại, ngắm bình minh",
+   "id": "con-vanh",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Biển phù sa, nước đục, cát nâu sẫm — không hợp ai kỳ vọng biển xanh cát trắng; ít dịch vụ, không có điểm nghỉ chân; thuộc Khu dự trữ sinh quyển châu thổ sông Hồng (UNESCO 2004) Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "dulichvietnam.com.vn, kinhtechungkhoan.vn, petrothaibinhhotel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichvietnam.com.vn / kinhtechungkhoan.vn / Google Maps",
+    "nhan_xet": "Cồn Vành là biển phù sa hoang sơ trong khu dự trữ sinh quyển châu thổ sông Hồng được UNESCO công nhận năm 2004. Điểm mạnh: bãi triều rộng, rừng ngập mặn, cào ngao và ngắm bình minh đẹp. Điểm trừ: nước đục phù sa, cát nâu sẫm, ít dịch vụ và không có chỗ nghỉ chân; Google 3.9/5 (~3.800 đánh giá). Hợp người thích thiên nhiên hoang sơ, không hợp ai kỳ vọng biển xanh cát trắng."
+   },
+   "ten": "Bãi biển Cồn Vành",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 45,
+   "cum": "thai-binh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tiến Đức, huyện Hưng Hà (khu vực Thái Bình cũ, nay thuộc tỉnh Hưng Yên)",
+   "gia_ve": "Miễn phí (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–17:30; lễ hội khai ấn tháng Giêng",
+   "hop_voi": "Khách hành hương, người yêu lịch sử nhà Trần",
+   "id": "den-tran-thai-binh",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Lễ khai ấn đầu năm rất đông; ngày thường vắng vẻ Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Đền Trần Thái Bình là nơi thờ các vua Trần, lễ hội khai ấn tháng Giêng nổi tiếng. Điểm mạnh: kiến trúc cổ, không gian linh thiêng, ít khách du lịch. Điểm trừ: lễ hội đông, ngày thường vắng; nên đi buổi sáng."
+   },
+   "ten": "Đền Trần Thái Bình",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đền Mẫu (Hoa Dương Linh Từ) + Hồ Bán Nguyệt",
+   "gio": "6:00-8:00 sáng hoặc 16:30-18:00 hoàng hôn trên hồ",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Chùa Chuông (Kim Chung Tự)",
+   "gio": "7:00-9:00 sáng, ánh sáng mềm trên kiến trúc cổ",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Phố Hiến cổ",
+   "gio": "16:00-17:30 chiều, ánh sáng vàng trên phố cổ",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào chùa Chuông, Văn Miếu Xích Đằng và các đền Phố Hiến — tránh vườn nhãn và bãi biển Cồn Vành.",
+  "diem": [
+   "Chùa Chuông (Kim Chung Tự) – 'Phố Hiến đệ nhất danh lam'",
+   "Văn Miếu Xích Đằng",
+   "Đền Mẫu (Hoa Dương Linh Từ) + Hồ Bán Nguyệt",
+   "Đền Trần (Phố Hiến)"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "den-mau, den-thien-hau, den-tran",
+    "hoat_dong": "Đền Mẫu + hồ Bán Nguyệt, đền Thiên Hậu, đền Trần",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-chuong, van-mieu-xich-dang, pho-hien-co",
+    "hoat_dong": "Chùa Chuông + Văn Miếu Xích Đằng; dạo phố Hiến, chợ Phố Hiến",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn gà Đông Tảo; nghỉ TP Hưng Yên",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "den-da-trach, lang-huong-xa",
+    "hoat_dong": "Đền Dạ Trạch hoặc làng hương Cao Thôn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "vuon-nhan-long",
+    "hoat_dong": "Mua nhãn lồng/chả gà làm quà; về Hà Nội",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "den-mau, den-thien-hau",
+    "hoat_dong": "Cụm Phố Hiến buổi sáng: đền Mẫu + hồ Bán Nguyệt, đền Thiên Hậu",
+    "ngay": 1
+   },
+   {
+    "buoi": "Trưa",
+    "gan": "",
+    "hoat_dong": "Ăn gà Đông Tảo (nhà hàng Mạnh Hoạch) / bún thang lươn",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-chuong, van-mieu-xich-dang, pho-hien-co",
+    "hoat_dong": "Chùa Chuông + Văn Miếu Xích Đằng; dạo phố Hiến cổ, chợ Phố Hiến",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Nghỉ TP Hưng Yên",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "den-tran, chua-hien",
+    "hoat_dong": "Đền Trần + đình – chùa Hiến (hoàn tất cụm Phố Hiến)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "den-da-trach, vuon-nhan-long, lang-huong-xa",
+    "hoat_dong": "Đền Dạ Trạch (Khoái Châu) + vườn nhãn lồng (mùa nhãn) hoặc làng hương Cao Thôn",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Nghỉ TP Hưng Yên; ăn tối trung tâm",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "chua-thai-lac, den-phuong-hoang",
+    "hoat_dong": "Chùa Thái Lạc (Văn Lâm) hoặc đền Phượng Hoàng (Tiên Lữ)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "pho-hien-co, vuon-nhan-long",
+    "hoat_dong": "Dạo chợ Phố Hiến, mua nhãn lồng/chả gà làm quà; về Hà Nội",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "den-mau, chua-chuong, van-mieu-xich-dang",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (cụm Phố Hiến buổi sáng + chiều)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "den-tran, den-da-trach, vuon-nhan-long",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Đền Trần – Dạ Trạch – vườn nhãn)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-thai-lac, den-phuong-hoang",
+    "hoat_dong": "Như ngày 3 của lịch trình 3N2Đ (Thái Lạc/Phượng Hoàng)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "pho-hien-co",
+    "hoat_dong": "Ngày tự do ở Phố Hiến: dạo phố cổ, chợ Phố Hiến, mua quà; tối về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Hưng Yên",
+  "best_season": "Tháng 2–3 âm lịch (lễ hội Phố Hiến) và tháng 7–8 dương lịch (mùa nhãn lồng chín); tránh tháng 6–10 mưa nhiều, nắng nóng ẩm",
+  "destination": "Hưng Yên, Hưng Yên",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "hung-yen",
+  "lat": 20.6464,
+  "lng": 106.0511,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Thương cảng Phố Hiến xưa ('Thứ nhất Kinh kỳ, thứ nhì Phố Hiến') với quần thể 16 di tích quốc gia trong bán kính ~3 km; nhãn lồng và gà Đông Tảo là đặc sản. Hợp đi 1 ngày từ Hà Nội; lịch 3N2Đ ghép thêm làng nghề và khu vực Thái Bình cũ.",
+  "province": "Hưng Yên",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "văn hóa",
+   "tâm linh",
+   "làng nghề"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 2–3 âm lịch (lễ hội Phố Hiến) và tháng 7–8 dương lịch (mùa nhãn lồng chín); tránh tháng 6–10 mưa nhiều, nắng nóng ẩm"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

@@ -1,0 +1,969 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~100.000–150.000đ/phần",
+   "mon": "Cá lóc nướng trui",
+   "nguon": "vietair.com.vn, mytour.vn, misskick.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietair.com.vn / mytour.vn",
+    "nhan_xet": "Cá lóc nướng trui là món 'quốc dân' miền Tây: cá đồng nướng rơm, thịt ngọt, cuốn bánh tráng rau sống — ăn ở Vĩnh Long đúng vị hơn ở Sài Gòn. Điểm mạnh là giá mềm (100.000–150.000đ/phần), quán nào cũng có; điểm yếu là cá nuôi thì thịt bở hơn cá đồng, nên hỏi quán trước. Hợp với nhóm bạn ăn tối, nên ăn ở Hương Quê hoặc quán 7 Bột."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Võ Thị Sáu, Phường 1, TP Vĩnh Long",
+     "gia": "~100.000–150.000đ/phần",
+     "ten": "Quán nướng 7 Bột"
+    },
+    {
+     "dia_chi": "88/1 Phạm Thái Bường, TP Vĩnh Long",
+     "gia": "~100.000–150.000đ/phần",
+     "ten": "Nhà hàng Hương Quê"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~150.000–200.000đ/phần",
+   "mon": "Cá tai tượng chiên xù",
+   "nguon": "misskick.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "misskick.vn / mytour.vn",
+    "nhan_xet": "Cá tai tượng chiên xù giòn rụm, xù lên như bông, chấm nước mắm chua ngọt — món này làm 'mặt tiền' cho mâm cơm miền Tây. Điểm yếu là giá 150.000–200.000đ/phần khá cao so với cá lóc, và cá nhỏ thì ít thịt. Hợp với nhóm ăn trưa, nên gọi kèm lẩu cua đồng cho đủ mâm."
+   },
+   "quan": [
+    {
+     "dia_chi": "88/1 Phạm Thái Bường, TP Vĩnh Long",
+     "gia": "~150.000–200.000đ/phần",
+     "ten": "Nhà hàng Hương Quê"
+    },
+    {
+     "dia_chi": "1 Phan Bội Châu, Phường 1, TP Vĩnh Long",
+     "gia": "~150.000–200.000đ/phần",
+     "ten": "Nhà hàng Phương Thủy"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~150.000–300.000đ/nồi",
+   "mon": "Lẩu cua đồng",
+   "nguon": "vietair.com.vn, misskick.vn, dulichbinhminh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietair.com.vn / misskick.vn",
+    "nhan_xet": "Lẩu cua đồng Vĩnh Long đậm vị cua đồng, rau vườn nhiều — ăn nhóm 3–4 người là vừa nồi. Điểm mạnh là giá 150.000–300.000đ/nồi chia ra rẻ; điểm yếu là cua đồng theo mùa, mùa ít cua thì nồi loãng. Hợp với nhóm bạn, nên ăn buổi tối ở quán Phó Cơ Điều."
+   },
+   "quan": [
+    {
+     "dia_chi": "67 Phó Cơ Điều, Phường 1, TP Vĩnh Long",
+     "gia": "~150.000–300.000đ/nồi",
+     "ten": "Quán lẩu cua đồng"
+    },
+    {
+     "dia_chi": "294D Nguyễn Văn Thiệt, Khóm 2, Phường 3, TP Vĩnh Long",
+     "gia": "220.000–300.000đ/nồi",
+     "ten": "Lẩu cua đồng Nguyễn Văn Thiệt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn xế",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~10.000đ/cái (bánh xèo hến); bánh xèo miền Tây 20.000–35.000đ/cái",
+   "mon": "Bánh xèo hến / bánh xèo miền Tây",
+   "nguon": "vietair.com.vn, mytour.vn, dulichbinhminh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietair.com.vn / mytour.vn",
+    "nhan_xet": "Bánh xèo hến Vĩnh Long rẻ và lạ: hến xào, bánh giòn, 10.000đ/cái ăn chơi được nhiều cái. Điểm mạnh là ăn ở chợ Vĩnh Long đúng chất địa phương; điểm yếu là bánh xèo miền Tây 20.000–35.000đ/cái thì nơi nào cũng có, không riêng Vĩnh Long. Hợp với ăn xế, nên ăn ở chợ buổi chiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 2/9, Phường 1, TP Vĩnh Long",
+     "gia": "20.000–30.000đ/cái",
+     "ten": "Chợ Vĩnh Long"
+    },
+    {
+     "dia_chi": "Cù lao An Bình, huyện Long Hồ",
+     "gia": "25.000–35.000đ/cái",
+     "ten": "Các quán miệt vườn Cù lao An Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~120.000–150.000đ/phần",
+   "mon": "Cá kèo nướng ống sậy",
+   "nguon": "tripi.vn, misskick.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn / misskick.vn",
+    "nhan_xet": "Cá kèo nướng ống sậy thơm mùi sậy, thịt cá kèo béo — món đặc trưng ít nơi làm đúng. Điểm yếu là giá 120.000–150.000đ/phần, cá kèo nhỏ nên ăn phải khéo; địa chỉ quán Phượng Thủy chưa kiểm được số nhà. Hợp với người thích món lạ, nên ăn ở Phương Thủy (1 Phan Bội Châu)."
+   },
+   "quan": [
+    {
+     "dia_chi": "1 Phan Bội Châu, Phường 1, TP Vĩnh Long",
+     "gia": "~120.000–150.000đ/phần",
+     "ten": "Nhà hàng Phương Thủy"
+    },
+    {
+     "dia_chi": "Đường Phan Bội Châu, Phường 1, TP Vĩnh Long (chưa kiểm được số nhà)",
+     "gia": "~120.000–150.000đ/phần",
+     "ten": "Quán Phượng Thủy"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, theo mùa)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng theo món (theo mùa, hỏi giá trước)",
+   "mon": "Nấm mối",
+   "nguon": "vietair.com.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietair.com.vn / mytour.vn",
+    "nhan_xet": "Nấm mối là món theo mùa, ngon thì rất ngon — ngọt tự nhiên, xào hay nấu cháo đều hợp — nhưng giá theo mùa và chưa kiểm được giá riêng tại Vĩnh Long. Điểm yếu là mùa nấm ngắn, đi lệch mùa thì không có; phải hỏi giá trước vì nấm mối đắt. Hợp với người đi đúng mùa nấm, nên hỏi Hương Quê trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "88/1 Phạm Thái Bường, TP Vĩnh Long",
+     "gia": "Hỏi giá trước (theo mùa)",
+     "ten": "Nhà hàng Hương Quê"
+    },
+    {
+     "dia_chi": "Cù lao An Bình, huyện Long Hồ",
+     "gia": "Hỏi giá trước (theo mùa)",
+     "ten": "Các quán miệt vườn Cù lao An Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm, mùa nước nổi)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng tại Vĩnh Long (tham khảo chung miền Tây 120.000–250.000đ/nồi)",
+   "mon": "Lẩu cá linh bông điên điển",
+   "nguon": "dulichbinhminh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichbinhminh.com",
+    "nhan_xet": "Lẩu cá linh bông điên điển chỉ có mùa nước nổi mới đúng vị: cá linh non, bông điên điển vàng, nước lẩu chua thanh. Điểm yếu là giá riêng tại Vĩnh Long chưa kiểm được, tham khảo chung miền Tây 120.000–250.000đ/nồi; đi lệch mùa thì không có cá linh thật. Hợp với nhóm đi tháng 9–11, nên ăn ở Vinh Sang hoặc quán miệt vườn An Bình."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tổ 14, ấp An Thuận, xã An Bình, huyện Long Hồ",
+     "gia": "Hỏi giá trước",
+     "ten": "Khu du lịch Vinh Sang"
+    },
+    {
+     "dia_chi": "Cù lao An Bình, huyện Long Hồ",
+     "gia": "Hỏi giá trước",
+     "ten": "Quán miệt vườn An Bình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng (trên ghe, 5–7h)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng (hỏi giá trước)",
+   "mon": "Bún bò viên Trà Ôn",
+   "nguon": "tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tadiha.com",
+    "nhan_xet": "Bún bò viên ăn trên ghe chợ nổi Trà Ôn 5–7h sáng là trải nghiệm đúng chất sông nước: vừa ăn vừa xem ghe buôn qua lại. Điểm yếu là giá chưa kiểm được, phải hỏi trước; món này chỉ có buổi sáng sớm. Hợp với người dậy sớm đi chợ nổi, nên ăn ngay trên ghe cho đúng vị."
+   },
+   "quan": [
+    {
+     "dia_chi": "44 Trưng Trắc, Lục Sĩ Thành, Trà Ôn (ăn trên ghe, sáng sớm 5–7h)",
+     "gia": "Hỏi giá trước",
+     "ten": "Chợ nổi Trà Ôn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / tham quan",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Vé vườn 30.000–50.000đ/người; trái cây mua mang về theo giá thị trường/theo mùa",
+   "mon": "Trái cây miệt vườn (ăn tại vườn)",
+   "nguon": "wikidulich.com, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / mia.vn",
+    "nhan_xet": "Ăn trái cây tại vườn Cù lao An Bình là trải nghiệm nên có: hái tại cây, ăn tại chỗ, chôm chôm/măng cụt mùa hè rất ngon. Điểm mạnh là vé vườn chỉ 30.000–50.000đ/người; điểm yếu là trái theo mùa, đi lệch mùa thì vườn thưa quả. Hợp với gia đình, nên đi tháng 5–7 mùa trái cây rộ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Long Hồ",
+     "gia": "Vé vườn 30.000–50.000đ/người",
+     "ten": "Vườn trái cây Cù lao An Bình"
+    },
+    {
+     "dia_chi": "Tổ 14, ấp An Thuận, xã An Bình, huyện Long Hồ",
+     "gia": "Vé vào 50.000đ/người lớn",
+     "ten": "Khu du lịch Vinh Sang"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Vĩnh Long khứ hồi",
+   "uoc_tinh": "260.000–440.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "300.000–650.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–800.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan + vườn trái cây",
+   "uoc_tinh": "100.000–250.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2 ngày",
+   "uoc_tinh": "260.000–500.000đ"
+  },
+  {
+   "hang_muc": "Phà + thuyền tham quan (chia nhóm)",
+   "uoc_tinh": "50.000–200.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.420.000–2.840.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.300.000đ/chiều (tham khảo) + xe VCA — Vĩnh Long"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Thuê thuyền tại bến chính thức, hỏi rõ giá đã gồm những gì; kiểm tra áo phao; mặc áo phao suốt chuyến.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê thuyền đi cù lao An Bình, chợ nổi Trà Ôn: giá thuê không thống nhất, phụ thu; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món/mua; ưu tiên quán có menu, bảng giá niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn uống, mua đặc sản ở chợ Vĩnh Long và khu du lịch Vinh Sang: giá không niêm yết, phụ thu với khách du lịch."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Vĩnh Long hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Áo chống nắng, mũ, kem chống nắng",
+  "Áo mưa mỏng (mùa mưa tháng 5–10)",
+  "Giày/dép đi vườn, chống trơn",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (chợ nổi, quán vườn, phà)",
+  "Thuốc chống muỗi, thuốc cơ bản",
+  "Sạc dự phòng",
+  "Dậy sớm 5h nếu đi chợ nổi Trà Ôn"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Mekong Riverside Homestay",
+   "Song Me Home (Sông Mê Home)",
+   "Ngọc Phượng Homestay"
+  ],
+  "diem": [
+   "Cù lao An Bình",
+   "Chợ nổi Trà Ôn",
+   "Làng gạch gốm Mang Thít",
+   "Cồn Phụng (Cồn Đạo Dừa)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn Cửu Long",
+   "Mekong Riverside Homestay"
+  ],
+  "diem_chay": [
+   "Sân vận động Vĩnh Long, đường Nguyễn Huệ (điểm xuất phát giải)",
+   "Đường Võ Văn Kiệt, TP Vĩnh Long buổi sáng sớm",
+   "Đường ven sông Tiền"
+  ],
+  "giai": [
+   {
+    "nguon": "Đại học Kinh tế TP.HCM (ueh.edu.vn) — Giải Bán Marathon Vĩnh Long mở rộng 2025 - Hành trình trái tim Mekong, thi đấu 04h30 ngày 27/4/2025 (ngày kiểm 08/11/2026)",
+    "ten": "Bán Marathon Vĩnh Long mở rộng — Hành trình trái tim Mekong",
+    "thoi_gian": "Tháng 4 (mùa 2025: 27/4/2025)"
+   }
+  ],
+  "nguon": "UEH về giải Bán Marathon Vĩnh Long; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_trung_tam": "Ngay trung tâm, sát bến phà An Bình",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 đường 1 Tháng 5, Phường 1, TP Vĩnh Long",
+   "dien_thoai": "0270 3823 656",
+   "gia": "Từ ~400.000đ/đêm (khoảng trên chưa kiểm được)",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, khách muốn tiện đi cù lao An Bình",
+   "khu_vuc": "trung-tam",
+   "nguon": "vietfuntravel.com.vn",
+   "nguon_dien_thoai": "trangtop.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Cửu Long",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Qua phà An Bình, ~4–6 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "145A/11 (số 11) Ấp Bình Lương, xã An Bình, huyện Long Hồ",
+   "dien_thoai": "0909 201 828",
+   "gia": "~471.000–650.000đ/đêm (Deluxe tới ~1.200.000đ)",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, gia đình thích miệt vườn, view sông",
+   "khu_vuc": "cu-lao-an-binh",
+   "nguon": "luxurytravel.vn, didodidays.com",
+   "nguon_dien_thoai": "mytour.vn + youtube.com (ngày kiểm 08/11/2026)",
+   "ten": "Mekong Riverside Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Qua phà An Bình, ~8–10 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "283/20 Ấp Bình Hòa, xã Bình Hòa Phước, huyện Long Hồ",
+   "dien_thoai": "0906 653 969",
+   "gia": "Từ ~828.000đ/đêm (khoảng trên chưa kiểm được)",
+   "hang": "Resort sinh thái",
+   "hop_voi": "Gia đình/nhóm bạn nghỉ dưỡng miệt vườn",
+   "khu_vuc": "cu-lao-an-binh",
+   "nguon": "luxurytravel.vn",
+   "nguon_dien_thoai": "hesinhthaidoanhnghiep.com (ngày kiểm 08/11/2026)",
+   "ten": "Riverside Park Eco Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Qua phà An Bình",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "An Thành, xã An Bình, huyện Long Hồ",
+   "dien_thoai": "0908 195 350",
+   "gia": "~450.000đ/phòng/đêm (khoảng trên chưa kiểm được)",
+   "hang": "Homestay",
+   "hop_voi": "Khách thích đổi gió, nhóm nhỏ",
+   "khu_vuc": "cu-lao-an-binh",
+   "nguon": "vietfuntravel.com.vn",
+   "nguon_dien_thoai": "nhanghiganday.vn (ngày kiểm 08/11/2026)",
+   "ten": "Phương Thảo Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Qua phà An Bình",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cù lao An Bình, huyện Long Hồ (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": "0937 837 865",
+   "gia": "~500.000đ/đêm cho 2 người (gồm ăn sáng, theo video 08/2026)",
+   "hang": "Homestay",
+   "hop_voi": "Cặp đôi, khách thích homestay vườn, ăn cơm nhà",
+   "khu_vuc": "cu-lao-an-binh",
+   "nguon": "facebook.com (KÚN ĐẾN ĐÂY)",
+   "nguon_dien_thoai": "google.es (ngày kiểm 08/11/2026)",
+   "ten": "Song Me Home (Sông Mê Home)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Qua phà An Bình",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "118C/10 Bình Lương, xã An Bình, huyện Long Hồ",
+   "dien_thoai": "0270 3823 611",
+   "gia": "~150.000–300.000đ/đêm",
+   "hang": "Homestay",
+   "hop_voi": "Khách bụi, cặp đôi tiết kiệm",
+   "khu_vuc": "cu-lao-an-binh",
+   "nguon": "luhanhvietnam.com.vn",
+   "nguon_dien_thoai": "trangtop.com (ngày kiểm 08/11/2026)",
+   "ten": "Ngọc Phượng Homestay",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_trung_tam": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Vĩnh Long (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": "0907 252 925",
+   "gia": "Từ ~350.000đ/phòng/2 người (khoảng trên chưa kiểm được)",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm ở trung tâm",
+   "khu_vuc": "trung-tam",
+   "nguon": "vietfuntravel.com.vn",
+   "nguon_dien_thoai": "toplist.vn + tripi.vn + wanderboat.ai + alltours.vn + blogthanhcong.edu.vn + tadiha.com đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Khánh Quỳnh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Khu du lịch Vinh Sang (50.000đ vs 70.000–100.000đ/người)",
+  "Giá vé Nhà cổ Cai Cường (miễn phí vs 20.000đ/người)",
+  "Giá vé tham quan Làng gạch gốm Mang Thít và Cù lao Mây",
+  "Giờ mở cửa Văn Thánh Miếu (có nguồn ghi Chủ nhật đóng cửa, chưa xác nhận)",
+  "Giờ mở cửa Vinh Sang (7:30–17:00 vs 9:00–18:00)",
+  "Giờ mở cửa Chùa Phật Ngọc Xá Lợi (cả ngày vs 7:00–19:00)",
+  "Tọa độ GPS: Làng gạch gốm Mang Thít và Cù lao Mây chỉ có tọa độ xấp xỉ (mức xã/cù lao), cần kiểm lại; Chợ nổi Trà Ôn và Cù lao An Bình chỉ có tọa độ mức khu vực",
+  "Khoảng cách chính xác từ TP Vĩnh Long tới Cù lao Mây, Mang Thít, Trà Ôn",
+  "Địa giới sau sáp nhập 01/07/2025: đợt 06/11/2026 đã thêm 3 điểm khu vực Bến Tre/Trà Vinh cũ (Cái Mơn, Cồn Phụng, Ao Bà Om); các điểm khác thuộc khu vực này vẫn chưa nhập",
+  "Giá vé cổng riêng Cồn Phụng và giá vé vườn riêng Làng hoa Cái Mơn chưa kiểm được",
+  "Khách sạn Khánh Quỳnh: địa chỉ chi tiết + khoảng giá trên",
+  "Song Me Home: địa chỉ chi tiết",
+  "Khách sạn Cửu Long: khoảng giá trên",
+  "Khách sạn Sài Gòn Vĩnh Long, Phước Thành, Vinh Sang: địa chỉ + giá riêng (chưa đưa vào)",
+  "Giá món nấm mối, lẩu cá linh bông điên điển, bún bò viên Trà Ôn tại Vĩnh Long",
+  "Địa chỉ quán Phượng Thủy: chưa kiểm được số nhà",
+  "Giá vé phà An Bình",
+  "Bảng giá taxi nội thành Vĩnh Long và giá thuê xe máy tay ga tại Vĩnh Long",
+  "Giá xe VCA (Cần Thơ) — Vĩnh Long và giá vé máy bay SGN–VCA",
+  "Tuyến xe khách thẳng Hà Nội — Vĩnh Long: chưa kiểm được có tuyến hay không"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng/ven biển, không có đèo.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng sông nước, không có đèo (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Không có sân bay/ga tàu tại Vĩnh Long. Sân bay gần nhất: Cần Thơ (VCA, cách TP Vĩnh Long ~40 km, ~1 giờ đi xe) hoặc Tân Sơn Nhất (SGN, ~135 km).",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo); xe VCA — Vĩnh Long chưa kiểm được giá riêng",
+    "nguon": "vietair.com.vn, vietjetair.com, viet-travel.congtan5918.workers.dev",
+    "phuong_tien": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Vĩnh Long",
+    "thoi_gian": "Bay ~2h10 + xe VCA — Vĩnh Long ~1 giờ"
+   },
+   {
+    "ghi_chu": "Phương án thay thế khi vé về Cần Thơ đắt/hết",
+    "gia": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Vĩnh Long 130.000–220.000đ/vé",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Máy bay HAN–SGN rồi xe lên Vĩnh Long",
+    "thoi_gian": "Bay ~2h05 + xe SG — Vĩnh Long 3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến khích",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN — Vĩnh Long",
+    "thoi_gian": "Chưa kiểm được tuyến thẳng + thời gian/giá"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Hỏi rõ giá trọn gói trước khi lên xe",
+    "gia": "Chưa kiểm được giá riêng tuyến VCA — Vĩnh Long (tham khảo taxi sân bay Cần Thơ về trung tâm Cần Thơ 120.000–270.000đ — các nguồn mâu thuẫn)",
+    "nguon": "vietair.com.vn, dvn.com.vn",
+    "phuong_tien": "Taxi / xe công nghệ (từ VCA)"
+   },
+   {
+    "ghi_chu": "Tuyến Vĩnh Long — Cần Thơ chạy dày; đón tại bến xe Cần Thơ",
+    "gia": "~100.000–120.000đ/vé, ~1 giờ",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Xe khách Cần Thơ — Vĩnh Long"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Bến xe Vĩnh Long trên QL1A, cách trung tâm ~2 km. Hotline Phương Trang 1900 6067; Thành Bưởi 1900 6079.",
+    "gia": "~120.000–220.000đ/vé (Phương Trang 130.000–150.000đ; Thành Bưởi 150.000–180.000đ; Tân Niên 180.000–220.000đ)",
+    "nguon": "vexesapa.vn, limody.vn",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "3–3,5 giờ (cao tốc Trung Lương – Mỹ Thuận – Cần Thơ; có nguồn ghi 3,5–4 giờ)"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "~180.000–220.000đ/vé (giường đôi/limousine VIP)",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc Trung Lương – Mỹ Thuận → QL1A → cầu Mỹ Thuận → TP Vĩnh Long",
+    "gia": "Chưa kiểm được giá thuê theo tuyến; thuê xe 4 chỗ có tài xế SG — Vĩnh Long ~1.250.000đ/chiều (tham khảo)",
+    "nguon": "vexesapa.vn, xelientinh247.vn",
+    "phuong_tien": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+    "thoi_gian": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ"
+   },
+   {
+    "ghi_chu": "Chỉ hợp khi đã có vé bay rẻ hoặc kết hợp Cần Thơ; đa số khách đi xe khách thẳng",
+    "gia": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA); xe VCA — Vĩnh Long ~1 giờ",
+    "nguon": "vietjetair.com",
+    "phuong_tien": "Máy bay + xe (qua Cần Thơ)",
+    "thoi_gian": "Bay SGN–VCA ~45–55 phút + xe ~1 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê theo chu kỳ 24 giờ; lễ Tết giá có thể tăng; nhiều cửa hàng giao xe tận khách sạn",
+   "gia": "~130.000–250.000đ/ngày",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "luxurytravel.vn",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Chưa kiểm được mức riêng tại Vĩnh Long (tham khảo chung miền Tây ~150.000–200.000đ/ngày)",
+   "giay_to": "Như trên",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng địa phương + Grab/Be (phủ sóng hạn chế hơn TP lớn); hỏi giá trước khi đi",
+   "gia": "Chưa kiểm được bảng giá taxi riêng tại Vĩnh Long",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành / xe công nghệ"
+  },
+  {
+   "ghi_chu": "Phà là cửa ngõ chính ra Cù lao An Bình; giờ chạy ban ngày, tối muộn có thể hết phà — hỏi trước",
+   "gia": "Chưa kiểm được giá vé phà riêng (thường chỉ vài nghìn–vài chục nghìn đồng/lượt xe máy)",
+   "giay_to": "",
+   "nguon": "wikidulich.com",
+   "phuong_tien": "Phà An Bình (qua cù lao)"
+  },
+  {
+   "ghi_chu": "Hỏi rõ lộ trình + thời gian + gồm ăn uống hay không trước khi thuê; mặc áo phao",
+   "gia": "Thuyền nhỏ ~350.000đ/chuyến; thuyền lớn ~850.000đ/chuyến (tour làng nghề An Bình); chợ nổi Trà Ôn 20.000–50.000đ/người",
+   "giay_to": "",
+   "nguon": "facebook.com (KÚN ĐẾN ĐÂY), gtop-stthay.mystrikingly.com",
+   "phuong_tien": "Thuyền/xuồng tham quan cù lao, chợ nổi"
+  },
+  {
+   "ghi_chu": "Hợp nhóm 4–7 người đi Trà Ôn — Mang Thít trong ngày",
+   "gia": "Chưa kiểm được mức riêng tại Vĩnh Long (tham khảo SG — Vĩnh Long 1 chiều ~1.250.000đ/xe 4 chỗ)",
+   "giay_to": "",
+   "nguon": "xelientinh247.vn",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày (trong tỉnh)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "287A QL80, ấp Vĩnh Hòa, xã Tân Ngãi, TP Vĩnh Long",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày (một nguồn ghi 7:00–19:00)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-phat-ngoc-xa-loi",
+   "lat": 10.26938,
+   "lng": 105.91565,
+   "luu_y": "Chùa lớn, tháp 9 tầng cao nhất miền Tây; ăn mặc lịch sự, giữ yên lặng",
+   "nguon": "intour.com.vn, thoitiet247.edu.vn, 190travel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "intour.com.vn / thoitiet247.edu.vn",
+    "nhan_xet": "Chùa lớn, tháp 9 tầng nhìn từ xa đã thấy, khuôn viên rộng và mát — đây là điểm chùa 'đáng đi nhất' Vĩnh Long nếu chỉ chọn một. Điểm yếu là ngoài tháp và chính điện thì ít hoạt động, đi nhanh sẽ thấy hơi trống. Hợp với mọi đối tượng, nên đi buổi sáng sớm cho mát, ghép với Văn Thánh Miếu trong cùng buổi."
+   },
+   "ten": "Chùa Phật Ngọc Xá Lợi",
+   "thoi_gian": "45–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Phú, Phường 4, TP Vĩnh Long",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Khoảng 8:00–16:00 (một nguồn ghi Chủ nhật đóng cửa — chưa kiểm được)",
+   "hop_voi": "Người yêu lịch sử/kiến trúc, học sinh",
+   "id": "van-thanh-mieu",
+   "lat": 10.24432,
+   "lng": 105.98427,
+   "luu_y": "Được gọi là 'Quốc Tử Giám của phương Nam', công trình thời Nguyễn; khuôn viên nhỏ, mát",
+   "nguon": "intour.com.vn, thoitiet247.edu.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "intour.com.vn / mytour.vn",
+    "nhan_xet": "Văn Thánh Miếu nhỏ, yên tĩnh, mang đúng chất 'Quốc Tử Giám phương Nam' — ai thích lịch sử sẽ thích, ai thích náo nhiệt sẽ thấy buồn. Điểm mạnh là miễn phí, ngay trung tâm, chụp ảnh cổ kính đẹp; điểm yếu là khuôn viên nhỏ, giờ mở cửa các nguồn ghi khác nhau, có nguồn ghi Chủ nhật đóng cửa chưa xác nhận. Hợp với người yêu lịch sử và học sinh, nên ghé 30–45 phút rồi đi tiếp."
+   },
+   "ten": "Văn Thánh Miếu",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 22 Nguyễn Chí Thanh, Phường 5, TP Vĩnh Long",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Người thích kiến trúc Hoa, khách hành hương",
+   "id": "that-phu-mieu",
+   "lat": 10.25476,
+   "lng": 105.97811,
+   "luu_y": "Chùa người Hoa lâu đời ở trung tâm; đi cùng cung Văn Thánh Miếu — Chợ Vĩnh Long",
+   "nguon": "khamphadisan.com.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "khamphadisan.com.vn / mytour.vn",
+    "nhan_xet": "Chùa Ông là chùa người Hoa lâu đời ngay trung tâm, kiến trúc chạm khắc đáng xem, nhưng quy mô nhỏ và ít thông tin hướng dẫn — đi không có người kể thì chỉ xem lướt. Điểm mạnh là tiện đường, ghép được với Văn Thánh Miếu và chợ Vĩnh Long; điểm yếu là giờ mở cửa chưa kiểm được chính thức. Hợp với khách hành hương và người thích kiến trúc Hoa, nên đi ban ngày."
+   },
+   "ten": "Chùa Ông — Thất Phủ Miếu",
+   "thoi_gian": "30 phút"
+  },
+  {
+   "cach_trung_tam_km": 9,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cầu Mỹ Thuận, phường Tân Hòa, TP Vĩnh Long (nối Vĩnh Long — Tiền Giang qua sông Tiền)",
+   "gia_ve": "Miễn phí (chỉ ngắm/chụp ảnh từ hai đầu cầu, không dừng xe giữa cầu)",
+   "gio_mo_cua": "24/7 (không gian giao thông)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cau-my-thuan",
+   "lat": 10.27289,
+   "lng": 105.9118,
+   "luu_y": "Chỉ là điểm ghé ngang chụp ảnh, không cần cố tình tìm đến; không dừng xe giữa cầu",
+   "nguon": "wikidulich.com, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / dulichviet.com.vn",
+    "nhan_xet": "Cầu Mỹ Thuận chỉ nên xem là điểm ghé ngang chụp ảnh 10–15 phút trên đường đi, không phải điểm đến riêng. Điểm mạnh là cầu dây văng đầu tiên của Việt Nam, chụp từ hai đầu cầu buổi chiều rất đẹp; điểm yếu là không được dừng xe giữa cầu, không có dịch vụ gì. Hợp với mọi đối tượng đi ngang tuyến SG — Vĩnh Long, đừng cố tình đi riêng một chuyến."
+   },
+   "ten": "Cầu Mỹ Thuận",
+   "thoi_gian": "10–15 phút ghé chụp ảnh"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "cu-lao-an-binh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Giữa sông Tiền và sông Cổ Chiên, huyện Long Hồ (gồm 4 xã An Bình, Bình Hòa Phước, Hòa Ninh, Đồng Phú), qua phà An Bình",
+   "gia_ve": "Miễn phí vào cù lao; vé tham quan vườn trái cây 30.000–50.000đ/người; tour thuyền: thuyền nhỏ ~350.000đ/chuyến, thuyền lớn ~850.000đ/chuyến",
+   "gio_mo_cua": "Cả ngày (vườn trái cây thường đón khách ban ngày)",
+   "hop_voi": "Gia đình, nhóm bạn, người thích miệt vườn",
+   "id": "cu-lao-an-binh",
+   "lat": 10.25995,
+   "lng": 105.97028,
+   "luu_y": "Tọa độ là bến phà An Bình, mức khu vực. Đi phà từ TP Vĩnh Long; hỏi giá vườn/thuyền trước; mang thuốc chống muỗi",
+   "nguon": "wikidulich.com, mia.vn, dulichviet.com.vn, facebook.com (KÚN ĐẾN ĐÂY)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Cù lao An Bình là 'linh hồn' của Vĩnh Long: vườn trái cây, homestay, đi phà, ăn cơm nhà — đúng chất miệt vườn. Điểm mạnh là ở lại 1 đêm homestay rất đáng; điểm yếu là dịch vụ rải rác từng nhà vườn, không có vé chung, phải hỏi giá từng chỗ. Hợp với gia đình và nhóm bạn, nên ở lại 1 đêm thay vì đi về trong ngày."
+   },
+   "ten": "Cù lao An Bình",
+   "thoi_gian": "Nửa ngày đến 1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "cu-lao-an-binh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 14, ấp An Thuận, xã An Bình, huyện Long Hồ (đầu cù lao An Bình)",
+   "gia_ve": "Người lớn 50.000đ, trẻ em (dưới 1,3 m) 35.000đ (ngưỡng trẻ em theo vinhsang.com — kiểm 08/11/2026; một nguồn ghi 70.000–100.000đ/người — mâu thuẫn, xem mục 9)",
+   "gio_mo_cua": "Khoảng 7:30–17:00 / 9:00–18:00 (các nguồn ghi khác nhau)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "kdl-vinh-sang",
+   "lat": 10.2703,
+   "lng": 105.95378,
+   "luu_y": "Có cưỡi đà điểu, chèo xuồng, bắt cá, vườn trái cây; một số trò/dịch vụ thu thêm",
+   "nguon": "intour.com.vn, thoitiet247.edu.vn, 190travel.com, vietnamairlines.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietfuntravel.com.vn / tintucmientay.baoangiang.com.vn",
+    "nhan_xet": "Vinh Sang là khu vui chơi miệt vườn vui nhất Vĩnh Long: cưỡi đà điểu, tát mương bắt cá, câu cá sấu — trẻ con mê, người lớn cũng vui. Giá vé cổng 50.000đ được nhiều nguồn xác nhận, nhưng có nguồn ghi 70.000–100.000đ, và trò chơi tính riêng từng trò nên tổng chi phí dễ đội lên. Hợp với gia đình có trẻ nhỏ, nên đi buổi sáng, mang đồ thay vì chơi tát mương."
+   },
+   "ten": "Khu du lịch Vinh Sang",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "cu-lao-an-binh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Bình Hòa Phước, huyện Long Hồ (cù lao An Bình)",
+   "gia_ve": "Miễn phí theo đa số nguồn; một nguồn ghi 20.000đ/người (mâu thuẫn)",
+   "gio_mo_cua": "Cả ngày (tham quan tự do)",
+   "hop_voi": "Người yêu kiến trúc/nhà cổ, cặp đôi chụp ảnh",
+   "id": "nha-co-cai-cuong",
+   "lat": 10.28966,
+   "lng": 106.00816,
+   "luu_y": "Nhà cổ xây khoảng năm 1855, đẹp nhất miền Tây; chỉ tham quan, ít hoạt động giải trí",
+   "nguon": "intour.com.vn, khamphadisan.com.vn, 190travel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "intour.com.vn / khamphadisan.com.vn",
+    "nhan_xet": "Nhà cổ Cai Cường đẹp và cổ kính thật — nhà gỗ hơn 150 năm, chạm khắc tinh xảo, chụp ảnh rất ăn. Điểm yếu là chỉ tham quan, không có hoạt động gì thêm, đi 30–60 phút là hết; giá vé các nguồn ghi mâu thuẫn (miễn phí vs 20.000đ). Hợp với người yêu nhà cổ và cặp đôi chụp ảnh, nên ghép với Vinh Sang và vườn trái cây trong cùng buổi."
+   },
+   "ten": "Nhà cổ Cai Cường",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 28,
+   "cum": "tra-on-mang-thit",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 44 Trưng Trắc, Lục Sĩ Thành, Trà Ôn (hạ lưu sông Hậu, dài ~300 m)",
+   "gia_ve": "Miễn phí vào chợ; thuê thuyền tham quan 20.000–50.000đ/người",
+   "gio_mo_cua": "Nhộn nhịp 5:00–7:00 sáng; đến muộn chợ tan",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-noi-tra-on",
+   "lat": 10.047,
+   "lng": 105.82761,
+   "luu_y": "Tọa độ khớp cầu Trà Ôn gần đó, mức khu vực. PHẢI đến sớm 5–7h sáng; ăn sáng trên ghe (bún bò viên)",
+   "nguon": "wikidulich.com, mia.vn, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / mia.vn / tadiha.com",
+    "nhan_xet": "Chợ nổi Trà Ôn nhỏ, còn nguyên chất chợ quê trên sông Hậu — ai thích Cái Răng sẽ thấy Trà Ôn yên và 'thật' hơn, nhưng cũng ít hàng, ít ghe hơn hẳn. Điểm mạnh là ăn bún bò viên trên ghe buổi sáng rất đáng nhớ; điểm yếu là phải dậy 5h, đến muộn là chợ tan, gần như không còn gì. Hợp với người thích chợ nổi và dậy sớm, nên đi 5–7h sáng, ghép với Mang Thít."
+   },
+   "ten": "Chợ nổi Trà Ôn",
+   "thoi_gian": "1–2 giờ buổi sáng"
+  },
+  {
+   "cach_trung_tam_km": 28,
+   "cum": "tra-on-mang-thit",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mang Thít / khu vực ven sông Cổ Chiên, huyện Mang Thít",
+   "gia_ve": "Chưa kiểm được vé tham quan riêng (một nguồn ghi 20.000–50.000đ/người cho tour làng nghề — chưa xác nhận)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích làng nghề/nhiếp ảnh",
+   "id": "lang-gom-mang-thit",
+   "lat": 10.19951,
+   "lng": 106.0778,
+   "luu_y": "Làng nghề gạch gốm truyền thống ven sông; đi thuyền ngắm lò gạch từ sông là trải nghiệm chính; hỏi giá tour thuyền trước Tọa độ xấp xỉ (điểm trung tâm xã Nhơn Phú, nơi tập trung lò gạch ven kênh Thầy Cai), cần kiểm lại.",
+   "nguon": "dulichviet.com.vn, mia.vn, wikidulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichviet.com.vn / mia.vn / luhanhvietnam.com.vn",
+    "nhan_xet": "Làng gạch gốm Mang Thít là điểm chụp ảnh độc nhất miền Tây: hàng trăm lò gạch đỏ như 'vương quốc đỏ' ven sông Cổ Chiên, nhưng phần lớn lò đã ngừng hoạt động nên cảm giác vừa đẹp vừa hoang tàn. Điểm mạnh là đi thuyền ngắm lò từ sông rất ấn tượng; điểm yếu là nóng, ít bóng mát, chưa có vé tham quan thống nhất. Hợp với người thích nhiếp ảnh và làng nghề, nên đi thuyền buổi sáng, mang nón và nước."
+   },
+   "ten": "Làng gạch gốm Mang Thít",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 23,
+   "cum": "tra-on-mang-thit",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Cù lao trên sông Hậu, huyện Trà Ôn",
+   "gia_ve": "Chưa kiểm được vé riêng",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích sinh thái nguyên sơ, miệt vườn",
+   "id": "cu-lao-may",
+   "lat": 9.95274,
+   "lng": 105.90417,
+   "luu_y": "Vẻ đẹp nguyên sơ, vườn trái cây, homestay địa phương; ít dịch vụ du lịch bài bản hơn An Bình — hỏi trước homestay/thuyền Tọa độ xấp xỉ (điểm trung tâm cù lao, xã Phú Thành), cần kiểm lại.",
+   "nguon": "vietnamairlines.com, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vietnamairlines.com / tadiha.com",
+    "nhan_xet": "Cù lao Mây nguyên sơ hơn An Bình nhiều: vườn trái cây, homestay địa phương, không khí yên tĩnh đúng nghĩa miệt vườn. Điểm mạnh là ít khách du lịch, giá mềm; điểm yếu là dịch vụ chưa bài bản, homestay và thuyền phải hỏi trước, không có thông tin niêm yết rõ. Hợp với người thích sinh thái nguyên sơ và đi chậm, nên liên hệ homestay trước, đừng đi liều buổi chiều muộn."
+   },
+   "ten": "Cù lao Mây",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "ben-tre-tra-vinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Vĩnh Thành, huyện Chợ Lách (khu vực Bến Tre cũ, nay thuộc tỉnh Vĩnh Long mới)",
+   "gia_ve": "Miễn phí vào làng; vườn hoa riêng thu phí theo nhà vườn (chưa kiểm được mức riêng)",
+   "gio_mo_cua": "Ban ngày; đẹp nhất tháng Chạp Âm lịch (trước Tết)",
+   "hop_voi": "Người thích hoa kiểng, nhiếp ảnh, gia đình",
+   "id": "lang-hoa-cai-mon",
+   "lat": 10.20868,
+   "lng": 106.21878,
+   "luu_y": "Thuộc khu vực Bến Tre cũ. Làng hoa lâu đời ven sông Cổ Chiên, cùng cụm di chuyển với Mang Thít — Trà Ôn. Tọa độ xấp xỉ (điểm khu vực nhà thờ Cái Mơn, trung tâm làng), cần kiểm lại. Hỏi giá vườn trước khi vào.",
+   "nguon": "mia.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / mytour.vn / dulich9.com",
+    "nhan_xet": "Cái Mơn là làng hoa kiểng lâu đời, đúng chất miệt vườn chứ không phải khu du lịch dựng sẵn — đi đúng mùa hoa Tết thì đẹp, đi lệch mùa thì chỉ còn vườn cây giống, dễ hụt hẫng. Điểm mạnh là không khí làng quê thật và hoa rẻ hơn chợ thành phố; điểm yếu là không có vé chung, mỗi vườn một giá, phải hỏi trước. Hợp với người thích chụp ảnh và mua hoa, nên đi tháng Chạp, tránh đi sau 23 tháng Chạp vì hoa đã xuất đi nhiều."
+   },
+   "ten": "Làng hoa kiểng Cái Mơn",
+   "thoi_gian": "1–2 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 55,
+   "cum": "ben-tre-tra-vinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tân Thạch, huyện Châu Thành (khu vực Bến Tre cũ, nay thuộc tỉnh Vĩnh Long mới); đi đò từ bến Tân Thạch",
+   "gia_ve": "Chưa kiểm được giá vé cổng riêng (đi theo tour ghép từ bến Mỹ Tho/Bến Tre, hỏi giá trước)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn, khách đi tour sông Tiền",
+   "id": "con-phung",
+   "lat": 10.33626,
+   "lng": 106.36929,
+   "luu_y": "Thuộc khu vực Bến Tre cũ. Nổi tiếng với di tích Đạo Dừa và vườn trái cây; đi cùng cụm với Cồn Thới Sơn (Tiền Giang cũ) qua sông Tiền. Nên đi tour ghép có hướng dẫn, tránh đi lẻ giờ trưa nắng.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Cồn Phụng đáng đi vì có câu chuyện Đạo Dừa độc nhất và vườn dừa mát, nhưng bản thân cồn khá nhỏ, đi tour ghép thì hay bị lùa theo lịch trình chung, ít thời gian tự do. Điểm mạnh là dễ kết hợp với Cồn Thới Sơn trong một buổi trên sông Tiền; điểm yếu là dịch vụ ăn uống trong tour thường bình dân, đừng kỳ vọng nhà hàng. Hợp với gia đình có trẻ nhỏ và khách lần đầu đi miền Tây, nên đi buổi sáng mát."
+   },
+   "ten": "Cồn Phụng (Cồn Đạo Dừa)",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "ben-tre-tra-vinh-cu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường 8, TP Trà Vinh (khu vực Trà Vinh cũ, nay thuộc tỉnh Vĩnh Long mới)",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày (Chùa Âng mở cửa cả ngày)",
+   "hop_voi": "Mọi đối tượng, người thích văn hóa Khmer",
+   "id": "ao-ba-om",
+   "lat": 9.91533,
+   "lng": 106.30559,
+   "luu_y": "Thuộc khu vực Trà Vinh cũ, xa nhất trong 3 điểm mở rộng (~60 km từ TP Vĩnh Long) — nên đi trong ngày riêng hoặc kết hợp Trà Vinh. Ao vuông vức, cây sao cổ thụ quanh bờ; đi lễ Ok Om Bok (rằm tháng 10 Âm lịch) rất đông.",
+   "nguon": "mia.vn, dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / dulichviet.com.vn",
+    "nhan_xet": "Ao Bà Om đẹp ở sự yên tĩnh: mặt ao phẳng, hàng sao cổ thụ rợp bóng, khác hẳn không khí chợ búa của các điểm miền Tây khác. Điểm mạnh là miễn phí, chụp ảnh đẹp cả ngày, chùa Âng Khmer ngay cạnh; điểm yếu là ngoài ao và chùa thì không còn gì khác để ở lại lâu, đi xa 60 km chỉ để xem ao thì hơi ít. Hợp với người thích văn hóa Khmer và chụp ảnh, nên ghép với chợ Trà Vinh hoặc chùa Hang trong cùng ngày."
+   },
+   "ten": "Ao Bà Om + Chùa Âng",
+   "thoi_gian": "1–1,5 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Cù lao An Bình",
+   "gio": "6:00-8:00 sáng, ánh sáng mềm trên vườn trái cây và sông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Chợ nổi Trà Ôn",
+   "gio": "5:30-7:00 sáng, chợ họp đông, ánh sáng đẹp trên sông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cầu Mỹ Thuận",
+   "gio": "16:30-18:00 hoàng hôn trên sông Tiền",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào chùa Phật Ngọc Xá Lợi, Văn Thánh Miếu và nhà cổ Cai Cường — tránh chợ nổi Trà Ôn và cù lao vì đi ghe ngoài trời.",
+  "diem": [
+   "Chùa Phật Ngọc Xá Lợi",
+   "Văn Thánh Miếu",
+   "Chùa Ông — Thất Phủ Miếu",
+   "Nhà cổ Cai Cường"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "chua-phat-ngoc-xa-loi, van-thanh-mieu, that-phu-mieu",
+    "hoat_dong": "Chùa Phật Ngọc Xá Lợi (45–60 phút) + Văn Thánh Miếu (30–45 phút) + Chùa Ông",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "cau-my-thuan",
+    "hoat_dong": "Cầu Mỹ Thuận ghé chụp ảnh (10–15 phút) + dạo chợ Vĩnh Long, ăn bánh xèo hến",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Cá lóc nướng trui / cá tai tượng chiên xù ở Nhà hàng Hương Quê",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "kdl-vinh-sang",
+    "hoat_dong": "Qua phà An Bình → Khu du lịch Vinh Sang (2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "nha-co-cai-cuong, cu-lao-an-binh",
+    "hoat_dong": "Nhà cổ Cai Cường + vườn trái cây, ăn trưa miệt vườn (lẩu cua đồng / lẩu cá linh mùa nước nổi)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Nghỉ homestay Cù lao An Bình (Mekong Riverside / Phương Thảo), ăn cơm nhà",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "cho-noi-tra-on",
+    "hoat_dong": "Chợ nổi Trà Ôn 5–7h (ăn bún bò viên trên ghe)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "lang-gom-mang-thit, cu-lao-may",
+    "hoat_dong": "Làng gạch gốm Mang Thít + Cù lao Mây (chọn 1), về TP Vĩnh Long, trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Vĩnh Long",
+  "best_season": "Tháng 11–tháng 4 (mùa khô, ít mưa); trái cây miệt vườn quanh năm, chôm chôm/măng cụt rộ tháng 5–7; chợ nổi Trà Ôn đẹp nhất sáng sớm mùa nước nổi tháng 9–11",
+  "destination": "Vĩnh Long",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "vinh-long",
+  "lat": 10.25259,
+  "lng": 105.97715,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "wikidulich.com",
+   "vietnamairlines.com",
+   "dulichviet.com.vn",
+   "mia.vn",
+   "tadiha.com",
+   "intour.com.vn",
+   "thoitiet247.edu.vn",
+   "mytour.vn",
+   "vietair.com.vn",
+   "misskick.vn",
+   "dulichbinhminh.com",
+   "vexesapa.vn",
+   "limody.vn",
+   "luxurytravel.vn",
+   "didodidays.com",
+   "vietfuntravel.com.vn",
+   "luhanhvietnam.com.vn",
+   "foody.vn",
+   "tintucmientay.baoangiang.com.vn"
+  ],
+  "province": "Vĩnh Long (tỉnh mới sau sáp nhập 01/07/2025: Vĩnh Long + Bến Tre + Trà Vinh; đợt 06/11/2026 đã thêm 3 điểm khu vực Bến Tre/Trà Vinh cũ)",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "sông nước",
+   "miệt vườn",
+   "chợ nổi",
+   "làng nghề"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 11–tháng 4 (mùa khô, ít mưa); trái cây miệt vườn quanh năm, chôm chôm/măng cụt rộ tháng 5–7; chợ nổi Trà Ôn đẹp nhất sáng sớm mùa nước nổi tháng 9–11"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

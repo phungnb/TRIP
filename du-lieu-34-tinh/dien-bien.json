@@ -1,0 +1,957 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Pa pỉnh tộp (cá nướng)",
+   "nguon": "booking.muongthanh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cá nướng mắc khén thơm, thịt chắc — món dễ ăn nhất trong các món Tây Bắc. Điểm trừ là giá tính theo con, phải hỏi trước. Hợp mọi đối tượng, ăn trưa hoặc tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "Mường Phăng, Điện Biên",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Anh Bằng"
+    },
+    {
+     "dia_chi": "Thanh Trường, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Dân Tộc Quán"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "250.000–350.000đ/con (1 nguồn ghi 20.000–500.000đ/người — mâu thuẫn, lấy khoảng theo con)",
+   "mon": "Gà nướng mắc khén",
+   "nguon": "booking.muongthanh.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Gà bản nướng mắc khén thơm nồng, da giòn thịt ngọt — được nhiều du khách khen là món ngon nhất Điện Biên. Điểm yếu là giá theo con, không niêm yết. Hợp bữa tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "563 đường 7-5, phường Tân Thanh, TP Điện Biên Phủ",
+     "gia": "250.000–350.000đ/con",
+     "ten": "Công Hoan Quán"
+    },
+    {
+     "dia_chi": "514 Võ Nguyên Giáp, phường Điện Biên Phủ, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Mường Thanh Grand Điện Biên Phủ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–120.000đ/phần",
+   "mon": "Xôi chim",
+   "nguon": "booking.muongthanh.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Xôi dẻo thơm, chim bồ câu hầm mềm — món lạ miệng, ăn no và ấm bụng. Điểm trừ là không phải quán nào cũng có, phải đặt trước. Hợp ăn tối, người muốn thử món đặc sản."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thanh Trường, TP Điện Biên Phủ",
+     "gia": "80.000–120.000đ/phần",
+     "ten": "Nhà hàng Dân Tộc Quán"
+    },
+    {
+     "dia_chi": "Phường Nam Thanh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán đối diện UBND phường Nam Thanh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "10.000–15.000đ/phần",
+   "mon": "Xôi nếp nương",
+   "nguon": "gacbepbamien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Nếp nương dẻo, thơm, ăn kèm thịt nướng hoặc muối vừng đều ngon — món ăn kèm không thể thiếu ở Điện Biên. Điểm yếu là chất lượng tùy quán. Hợp mọi bữa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thanh Trường, TP Điện Biên Phủ",
+     "gia": "10.000–15.000đ/phần",
+     "ten": "Nhà hàng Dân Tộc Quán"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Thịt lợn xay hấp lá chuối",
+   "nguon": "booking.muongthanh.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Thịt hấp lá chuối thơm, mềm, vị lạ — món bản địa ít nơi có. Điểm trừ là ít quán bán, phải hỏi người địa phương. Hợp người muốn thử món lạ."
+   },
+   "quan": [
+    {
+     "dia_chi": "236 Nguyễn Chí Thanh, phường Mường Thanh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Song Hỷ Điện Biên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Cá suối nướng / cá sông Đà",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cá tươi, nướng than thơm, ăn kèm rau rừng — món dân dã được khen nhiều. Điểm trừ là giá theo con, tùy loại cá. Hợp ăn tối theo nhóm."
+   },
+   "quan": [
+    {
+     "dia_chi": "68B tổ 6, phường Thanh Trường, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Hương Đồng Nội"
+    },
+    {
+     "dia_chi": "279A đường 7/5, phường Mường Thanh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Điện Biên Phủ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá/kg hiện hành",
+   "mon": "Thịt trâu gác bếp (mua làm quà)",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Trâu gác bếp chuẩn vị Tây Bắc, dai thơm mùi khói — mua làm quà rất hợp. Điểm trừ là giá cao và nhiều hàng giả, hàng pha. Nên mua ở cửa hàng quen hoặc nhờ người địa phương chỉ chỗ tin cậy."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thanh Minh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bà Bích Shop"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức riêng",
+   "mon": "Lẩu cá / lẩu gà (món nhóm)",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Lẩu ấm người, nguyên liệu tươi — hợp bữa tối sau ngày đi di tích. Điểm trừ là giá chưa kiểm được mức riêng. Hợp nhóm 4–6 người."
+   },
+   "quan": [
+    {
+     "dia_chi": "279A đường 7/5, phường Mường Thanh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Điện Biên Phủ"
+    },
+    {
+     "dia_chi": "236 Nguyễn Chí Thanh, phường Mường Thanh, TP Điện Biên Phủ",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Song Hỷ Điện Biên"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–Điện Biên khứ hồi (bay thẳng)",
+   "uoc_tinh": "2.580.000–5.980.000đ (chưa gồm thuế phí)"
+  },
+  {
+   "hang_muc": "Xe sân bay khứ hồi + taxi trong TP",
+   "uoc_tinh": "150.000–300.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+   "uoc_tinh": "600.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (bảo tàng, A1, hầm, Mường Phăng)",
+   "uoc_tinh": "150.000–250.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "300.000–900.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.330.000–10.130.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội bằng xe khách thay máy bay",
+   "uoc_tinh": "Xe khứ hồi 540.000–1.360.000đ thay cho vé bay HAN–DIN"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Mua ở cửa hàng có bảng giá niêm yết; yêu cầu cân lại trước mặt, hỏi giá/kg trước khi chọn",
+   "nguon": "kinh nghiệm chung du lịch Điện Biên; chưa tra được bài báo chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ và điểm bán đặc sản Điện Biên (gạo Điện Biên, thịt trâu gác bếp): hàng cân thiếu, giá nói thách"
+  },
+  {
+   "cach_tranh": "Thuê xe số ở cửa hàng/homestay uy tín; kiểm tra phanh/lốp/đèn, chụp ảnh vết xước trước khi nhận; hỏi rõ cọc và phạm vi đi",
+   "nguon": "kinh nghiệm chung thuê xe vùng cao (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy ở Điện Biên Phủ đi Mường Phăng, Pha Đin: giữ giấy tờ gốc, xe yếu leo đèo; trả xe bị bắt đền vết xước"
+  },
+  {
+   "cach_tranh": "Thuê thuyết minh tại điểm di tích (theo dữ liệu tỉnh, có thuyết minh tại chỗ); hỏi giá trước khi đồng ý đi cùng",
+   "nguon": "dữ liệu tỉnh Điện Biên (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, hướng dẫn tự phát ở đồi A1, hầm Đờ Cát: mời chào dai dẳng, thu phí hướng dẫn không báo trước"
+  },
+  {
+   "cach_tranh": "Nhắn hỏi chủ nhà về bữa ăn, phí đưa đón và tiện nghi thật trước khi đặt; đọc đánh giá gần nhất",
+   "nguon": "kinh nghiệm chung du lịch Điện Biên; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay bản Mển, bản du lịch cộng đồng: đặt online khác ảnh thật, phụ thu ăn uống, đưa đón"
+  }
+ ],
+ "checklist": [
+  "Áo khoác (sáng/tối se lạnh, nhất là tháng 12–3)",
+  "Áo mưa mỏng (tránh tháng 5–8 mùa mưa)",
+  "Giày đi bộ (leo đồi A1, D1, đường rừng Mường Phăng)",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (bản làng, quán nhỏ)",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Ăn mặc lịch sự khi vào di tích, nghĩa trang"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [],
+  "diem": [
+   "Hồ Pá Khoang",
+   "Suối khoáng nóng Uva",
+   "Cánh đồng Mường Thanh",
+   "Đồi A1"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Grand Điện Biên Phủ",
+   "Mường Thanh Luxury Điện Biên",
+   "Khách sạn Him Lam"
+  ],
+  "diem_chay": [
+   "Quanh Tượng đài Chiến thắng (đồi D1) và đồi A1 buổi sáng sớm",
+   "Đường ven cánh đồng Mường Thanh",
+   "Đường quanh hồ Pá Khoang"
+  ],
+  "giai": [
+   {
+    "nguon": "svhttdl.dienbien.gov.vn — Sở Văn hóa, Thể thao và Du lịch tỉnh Điện Biên (ngày kiểm 08/11/2026)",
+    "ten": "THACO Marathon Vì an toàn giao thông – Điện Biên Phủ",
+    "thoi_gian": "tháng 4 (2024: 14/4, cự ly 5/10/21/42/70 km, xuất phát Tượng đài Chiến thắng, đồi D1)"
+   },
+   {
+    "nguon": "tienphong.vn — Tiền Phong Marathon Điện Biên Discovery (ngày kiểm 08/11/2026)",
+    "ten": "Tiền Phong Marathon – Điện Biên Discovery",
+    "thoi_gian": "cuối tháng 12 – đầu tháng 1 (2026–2027: 31/12/2026–2/1/2027; cự ly 5/10/21/48 km)"
+   },
+   {
+    "nguon": "vietnam.vn — Giải chạy chinh phục đỉnh Pu Tó Cọ 2026 (ngày kiểm 08/11/2026)",
+    "ten": "Giải chạy địa hình chinh phục đỉnh Pu Tó Cọ – Theo dấu chân Đại tướng",
+    "thoi_gian": "tháng 11 (2026: 28/11, cự ly 6/16/26 km, xã Mường Phăng)"
+   }
+  ],
+  "nguon": "svhttdl.dienbien.gov.vn; tienphong.vn; vietnam.vn (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Điện Biên (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm TP, gần di tích",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "514 Võ Nguyên Giáp, phường Điện Biên Phủ, TP Điện Biên Phủ",
+   "dien_thoai": "0215 3810 043",
+   "gia": "~900.000–1.500.000đ/đêm (Traveloka ghi từ 1.200.000đ/đêm)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách muốn tiện nghi cao",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, abay.vn, greensm.com",
+   "nguon_dien_thoai": "holidaymocchau.muongthanh.com + mytour.vn, tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Điện Biên Phủ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "42 Trần Đăng Ninh, phường Thanh Bình, TP Điện Biên Phủ",
+   "dien_thoai": "0215 2216 666",
+   "gia": "Từ ~1.300.000đ/đêm (chưa kiểm được khoảng trên)",
+   "hang": "5 sao (theo 1 nguồn TikTok)",
+   "hop_voi": "Khách muốn tiện nghi cao, có bể bơi",
+   "khu_vuc": "trung-tam",
+   "nguon": "tiktok.com (vietnam.happy.tri)",
+   "nguon_dien_thoai": "muongthanh.com + Sở VHTTDL Điện Biên (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Điện Biên",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm ~4 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 6, phường Him Lam, TP Điện Biên Phủ",
+   "dien_thoai": "0215 3811 856 / 0215 3811 666",
+   "gia": "Từ ~600.000–870.000đ/đêm (phòng khách sạn); ~1.500.000đ/đêm (resort) — giá khác nhau theo loại phòng",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, khách muốn yên tĩnh, khách nghỉ dưỡng",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, abay.vn, greensm.com",
+   "nguon_dien_thoai": "0215 3811 856 Phòng Kinh doanh (Sở VHTTDL Điện Biên); 0215 3811 666 hotline đặt phòng (tripi.vn, limoutrip.com) — 2 đầu số của cùng 1 cơ sở (ngày kiểm 16/11/2026)",
+   "ten": "Khách sạn Him Lam (Him Lam Resort)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 3 Hoàng Công Chất, phường Mường Thanh, TP Điện Biên Phủ",
+   "dien_thoai": "0215 3952 999",
+   "gia": "Từ ~550.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách tiết kiệm, ở trung tâm",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, greensm.com",
+   "nguon_dien_thoai": "limoutrip.com, vietmountaintravel.com, tadiha.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn A1",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Điện Biên Phủ (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": null,
+   "gia": "~800.000đ/đêm (theo Agoda ~32 USD — chưa kiểm được khoảng)",
+   "hang": "Chưa kiểm được hạng sao chính thức",
+   "hop_voi": "Khách muốn ở trung tâm",
+   "khu_vuc": "trung-tam",
+   "nguon": "agoda.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Thanh Nam",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm TP",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Điện Biên Phủ (chưa kiểm được số nhà cụ thể)",
+   "dien_thoai": "0816 900 800",
+   "gia": "~200.000đ/người/đêm (theo Agoda ~8 USD — chưa kiểm được khoảng)",
+   "hang": "Hostel",
+   "hop_voi": "Khách bụi, đi một mình",
+   "khu_vuc": "trung-tam",
+   "nguon": "agoda.com, trip.com",
+   "nguon_dien_thoai": "frontierhostel.com (ngày kiểm 08/11/2026)",
+   "ten": "Frontier Hostel & Tours",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé đồi A1 (5.000đ nguồn cũ vs ~20.000đ nguồn 2025) và giá vé Bảo tàng (40.000đ — chưa có nguồn chính thức)",
+  "Giờ mở cửa hầm Đờ Cát và suối khoáng Uva — chưa kiểm được giờ chính thức thống nhất",
+  "Giá vé tắm suối khoáng Uva — chưa kiểm được mức hiện hành",
+  "Giá vé hồ Pá Khoang và bản Mển — chưa kiểm được mức hiện hành",
+  "Hãng Vietjet có khai thác HAN–Điện Biên không — 1 nguồn ghi có, chưa kiểm được chắc chắn",
+  "Số nhà Mường Thanh Luxury Điện Biên đã chốt 16/11/2026 (42 Trần Đăng Ninh, phường Thanh Bình); khoảng giá trên của Thanh Nam, Frontier Hostel — chưa kiểm được",
+  "Giá taxi/thuê ô tô tại Điện Biên Phủ — chưa kiểm được mức riêng",
+  "Giá riêng từng món tại các quán (pa pỉnh tộp, thịt lợn hấp lá chuối, cá suối, lẩu) — chưa kiểm được mức riêng",
+  "Suối Hua Pe (Thanh Luông) vs suối Uva (Noong Luống) — 2 điểm khác nhau, dễ nhầm; file này chỉ ghi Uva",
+  "Cập nhật 06/11/2026: đã điền tọa độ cho 3 điểm từng null (trong đó 2 điểm tọa độ xấp xỉ — xem trường toa_do_xap_xi và luu_y từng điểm, cần kiểm lại bằng GPS thực tế); không còn điểm nào null tọa độ.",
+  "Cập nhật 06/11/2026: đã thêm 3 điểm du lịch gần (xem cuối danh sách địa danh); đã thêm nhận xét của M cho 10 địa danh và 8 món ăn; đã thêm mảng danh_gia_nguoi_dung (rỗng) cho mọi địa danh, chỗ ở và món ăn để app lưu đánh giá thật sau này."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đèo Pha Đin phía Điện Biên (QL6, xã Tỏa Tình, Tuần Giáo): dài 32 km chung với phía Sơn La, điểm cao nhất 1.648 m, một bên vách núi một bên vực sâu, 8 cung cua nguy hiểm bán kính dưới 15 m, nhiều khúc cua tay áo, cua chữ A, chữ Z, có đoạn chỉ đủ một ô tô đi qua; lưng chừng đèo thường mịt mờ mây phủ, sương tan khoảng 8:30–9:00. Tuyến QL6 mới thấp hơn đèo cũ 200–400 m, ít dốc hơn — tay lái yếu nên đi tuyến mới. Đường đi Mường Phăng (Sở chỉ huy chiến dịch), hồ Pá Khoang, suối khoáng Uva: dốc, hẹp, trơn mùa mưa tháng 5–8; tránh đi ban đêm. Kiểm tra phanh/lốp/đèn, đổ đầy xăng trước khi vào tuyến đèo; mang CCCD/hộ chiếu và giấy tờ xe đầy đủ; tháng 3 hoa ban nở, đường đông khách, đi sớm tránh ùn tắc ở điểm dừng đèo.",
+  "deo": [
+   "Đèo Pha Đin phía Điện Biên (QL6, Tuần Giáo): dài 32 km, cao 1.648 m, 8 cung cua nguy hiểm, sương mù thường trực",
+   "Đường lên Sở chỉ huy Mường Phăng và hồ Pá Khoang: dốc, hẹp, trơn mùa mưa",
+   "QL6 đoạn Tuần Giáo – Điện Biên Phủ: đèo dốc, xe lớn nhiều"
+  ],
+  "nguon": "2banh.vn; dailytourviet.vn — đèo Pha Đin (ngày kiểm 08/11/2026); alltours.vn — Đèo Pha Đin huyền ảo mây vờn (sương tan 8:30–9:00) (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay Điện Biên Phủ (DIN), phường Thanh Trường, cách trung tâm TP ~4 km.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Vietnam Airlines (Vietjet cũng được ghi khai thác theo 1 nguồn — chưa kiểm được chắc chắn). Tần suất ~1–2 chuyến/ngày",
+    "gia": "900.000–2.700.000đ/chiều đã gồm thuế phí (Economy Light từ ~900.000đ; Classic ~1.300.000đ)",
+    "nguon": "vietjet.net, vietnambooking.com, ecotour.com.vn",
+    "phuong_tien": "Máy bay HAN–Điện Biên",
+    "thoi_gian": "Bay ~55 phút–1h05"
+   },
+   {
+    "ghi_chu": "Hãng: Ngân Hà, Hải Vân Express, Quang Tuấn, Đức Quyến, Năm Liên. Đón Mỹ Đình/Yên Nghĩa/Giáp Bát; đa số chạy tối 18:30–21:00",
+    "gia": "270.000–680.000đ/chiều (giường nằm phổ thông 270.000–450.000đ; limousine cabin/phòng đơn 500.000–680.000đ)",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Xe khách / giường nằm Hà Nội–Điện Biên",
+    "thoi_gian": "10–12 giờ, ~470–490 km"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Bắt tại cổng sân bay hoặc xe khách sạn; hỏi giá trước",
+    "gia": "70.000–80.000đ/chuyến",
+    "nguon": "vietnamairlines.com",
+    "phuong_tien": "Taxi sân bay Điện Biên (DIN) – trung tâm",
+    "thoi_gian": "~20 phút, ~4 km"
+   },
+   {
+    "ghi_chu": "Bắt tại cổng sân bay",
+    "gia": "50.000đ/chuyến",
+    "nguon": "vietnamairlines.com",
+    "phuong_tien": "Xe ôm sân bay – trung tâm",
+    "thoi_gian": "~20 phút, ~4 km"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Đường bay thẳng mới; kiểm tra lại lịch bay trước ngày đi vì tần suất theo nhu cầu",
+    "gia": "1.290.000–2.990.000đ/chiều (chưa gồm thuế phí; khai thác từ 24/12/2025, 3–7 chuyến/tuần)",
+    "nguon": "atrip.vn, vietjet.net",
+    "phuong_tien": "Máy bay SGN–Điện Biên (thẳng, Vietnam Airlines)",
+    "thoi_gian": "Bay ~2h10"
+   },
+   {
+    "ghi_chu": "Vietnam Airlines khai thác nối chuyến ~1 chuyến/ngày; chuyến sớm nhất SGN 06:15, tới Điện Biên ~14:05",
+    "gia": "SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); HAN–DIN 900.000–2.700.000đ/chiều đã gồm thuế phí",
+    "nguon": "vietnamairlines.com, vietnambooking.com",
+    "phuong_tien": "Máy bay SGN–HAN + HAN–Điện Biên (nối chuyến)",
+    "thoi_gian": "Bay SGN–HAN ~2h10 + HAN–DIN ~1h05 (+ thời gian nối chuyến)"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian; đa số nên bay thẳng/nối chuyến",
+    "gia": "Bay như trên + xe 270.000–680.000đ/chiều",
+    "nguon": "motortrip.vn",
+    "phuong_tien": "Máy bay SGN–HAN + xe khách Hà Nội–Điện Biên",
+    "thoi_gian": "Bay ~2h10 + xe 10–12 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đủ đi các di tích trong TP + hồ Pá Khoang; đi Mường Phăng nên thuê ô tô hoặc xe tốt",
+   "gia": "150.000–300.000đ/ngày (nguồn 2025)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "ecotour.com.vn",
+   "phuong_tien": "Thuê xe máy"
+  },
+  {
+   "ghi_chu": "Quãng trong TP ngắn; hỏi giá trước khi lên xe",
+   "gia": "Chưa kiểm được mức riêng tại Điện Biên Phủ",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Điện Biên",
+   "phuong_tien": "Taxi nội thành"
+  },
+  {
+   "ghi_chu": "Nên thuê khi đi Mường Phăng + Pá Khoang + bản Mển trong 1 ngày",
+   "gia": "Chưa kiểm được mức riêng tại Điện Biên",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Điện Biên",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  },
+  {
+   "ghi_chu": "Đi chặng ngắn trong TP",
+   "gia": "Chưa kiểm được mức riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được nguồn riêng Điện Biên",
+   "phuong_tien": "Xe ôm"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Mường Thanh, TP Điện Biên Phủ (khu vực cầu A1)",
+   "gia_ve": "Chưa kiểm được mức hiện hành — nguồn cũ ghi 5.000đ; nguồn 2025 ghi khoảng 20.000đ/người. Khoảng: 5.000–20.000đ",
+   "gio_mo_cua": "7:00–11:00 và 13:30–17:00 (theo Frommer's)",
+   "hop_voi": "Mọi đối tượng, người quan tâm lịch sử",
+   "id": "doi-a1",
+   "lat": 21.38171,
+   "lng": 103.01376,
+   "luu_y": "Còn hệ thống chiến hào, lô cốt và hố mìn lớn; đi cùng nghĩa trang liệt sĩ A1 — giữ trang nghiêm, ăn mặc lịch sự",
+   "nguon": "frommers.com, ecotour.com.vn, crystalbay.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Điểm lịch sử quan trọng nhất của Điện Biên Phủ — đứng trên đồi mới cảm nhận được tầm vóc trận đánh. Điểm trừ là giá vé các nguồn ghi mâu thuẫn (5.000đ cũ, 20.000đ mới) và nắng gắt buổi trưa. Nên đi sáng sớm hoặc chiều muộn, thuê thuyết minh tại chỗ sẽ hiểu sâu hơn nhiều."
+   },
+   "ten": "Đồi A1",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Thanh Trường, TP Điện Biên Phủ, cách đồi A1 ~1,5 km về phía tây bắc",
+   "gia_ve": "20.000đ/người lớn, trẻ em dưới 1,2 m miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức thống nhất",
+   "hop_voi": "Mọi đối tượng, người quan tâm lịch sử",
+   "id": "ham-do-cat",
+   "lat": 21.38611,
+   "lng": 103.00987,
+   "luu_y": "Hầm dài ~20 m, rộng ~8 m, 4 gian; trong cánh đồng Mường Thanh",
+   "nguon": "crystalbay.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hầm chỉ huy của De Castries còn khá nguyên vẹn, xem xong mới thấy rõ thế trận năm 1954. Điểm trừ là không gian hầm chật, tối, đi nhanh là hết. Hợp người yêu lịch sử; nên đi kèm đồi A1 và bảo tàng trong cùng buổi."
+   },
+   "ten": "Hầm Đờ Cát (hầm chỉ huy De Castries)",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Võ Nguyên Giáp, phường Mường Thanh, TP Điện Biên Phủ (đối diện nghĩa trang A1)",
+   "gia_ve": "40.000đ/người (theo vietnamoriginal; chưa kiểm được mức chính thức hiện hành)",
+   "gio_mo_cua": "7:30–11:00 và 13:30–16:30",
+   "hop_voi": "Mọi đối tượng, gia đình có trẻ nhỏ",
+   "id": "bao-tang-chien-thang",
+   "lat": 21.38093,
+   "lng": 103.01558,
+   "luu_y": "Trưng bày hiện vật, sa bàn, phim tư liệu; khởi công 2012, diện tích ~22.000 m²",
+   "nguon": "vietnamoriginal.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vietnamoriginal",
+    "nhan_xet": "Bảo tàng làm tốt, hiện vật và sa bàn rõ ràng, kiến trúc nón cối độc đáo — nhiều du khách khen là điểm nên đến nhất ở Điện Biên. Điểm yếu là giá vé chưa thống nhất giữa các nguồn (40.000đ theo một nguồn). Hợp mọi đối tượng, dành ít nhất 1,5 giờ."
+   },
+   "ten": "Bảo tàng Chiến thắng Điện Biên Phủ",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Võ Nguyên Giáp, phường Tân Thanh, TP Điện Biên Phủ",
+   "gia_ve": "Miễn phí (không gian ngoài trời)",
+   "gio_mo_cua": "Cả ngày (không gian ngoài trời)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "tuong-dai-chien-thang",
+   "lat": 21.39216,
+   "lng": 103.01625,
+   "luu_y": "Nằm trên đồi D1 ngay trung tâm TP; leo dốc, mang giày bệt",
+   "nguon": "ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Tượng đài trên đồi D1, view toàn cảnh TP Điện Biên Phủ và cánh đồng Mường Thanh — đẹp nhất lúc hoàng hôn. Điểm trừ là ngoài tượng đài và view thì không có nhiều hoạt động. Hợp ghé nhanh 30 phút chụp ảnh."
+   },
+   "ten": "Tượng đài Chiến thắng Điện Biên Phủ (đồi D1)",
+   "thoi_gian": "30–60 phút; đẹp nhất hoàng hôn"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Mường Thanh, TP Điện Biên Phủ, dưới chân đồi A1",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Mọi đối tượng",
+   "id": "nghia-trang-a1",
+   "lat": 21.38171,
+   "lng": 103.01376,
+   "luu_y": "Nơi an nghỉ của 644 chiến sĩ (đa số vô danh) — dâng hương, giữ yên lặng, ăn mặc lịch sự. Tọa độ ghi theo khu vực đồi A1, chưa phải tọa độ cổng chính xác",
+   "nguon": "vietnamoriginal.com, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Không gian trang nghiêm, nhiều du khách xúc động khi đến viếng — nên đi với thái độ tôn trọng, giữ yên lặng. Điểm yếu là ít thông tin hướng dẫn nếu đi tự túc. Hợp mọi đối tượng, đi kèm đồi A1."
+   },
+   "ten": "Nghĩa trang liệt sĩ A1",
+   "thoi_gian": "30 phút"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Pá Khoang, Điện Biên Phủ",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành (khu vực hồ mở)",
+   "gio_mo_cua": "Cả ngày (không gian mở)",
+   "hop_voi": "Cặp đôi, gia đình, nhóm bạn",
+   "id": "ho-pa-khoang",
+   "lat": 21.43586,
+   "lng": 103.11031,
+   "luu_y": "Hồ lớn ven TP, hợp picnic, chụp ảnh; đi xe máy/ô tô ~20 km",
+   "nguon": "ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Hồ đẹp, yên tĩnh, không khí mát — hợp nghỉ ngơi, cắm trại nhẹ sau khi tham quan di tích. Điểm trừ là dịch vụ còn ít, giá vé chưa rõ ràng. Hợp người thích thiên nhiên, không hợp người muốn dịch vụ đầy đủ."
+   },
+   "ten": "Hồ Pá Khoang",
+   "thoi_gian": "1,5–2,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Mường Phăng, Điện Biên Phủ",
+   "gia_ve": "100.000đ/người (theo 1 nguồn; miễn phí cựu chiến binh, người dưới 18 tuổi; giảm 50% người trên 60 tuổi)",
+   "gio_mo_cua": "Mùa hè 7:00–11:00 & 13:30–18:00; mùa đông 7:00–11:00 & 13:30–17:30",
+   "hop_voi": "Người quan tâm lịch sử",
+   "id": "so-chi-huy-muong-phang",
+   "lat": 21.44525,
+   "lng": 103.1579,
+   "luu_y": "Nằm trong rừng Mường Phăng, cách trung tâm ~35–40 km; đường đèo, đi ô tô/xe máy tốt",
+   "nguon": "bestprice.vn, ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Rừng nguyên sinh và lán chỉ huy của Đại tướng Võ Nguyên Giáp — giá trị lịch sử lớn, không khí rừng rất trong. Điểm trừ là cách TP ~35 km đường rừng, vé 100.000đ theo một nguồn (khá cao so với các điểm khác). Hợp người yêu lịch sử và thiên nhiên; nên đi nửa ngày riêng."
+   },
+   "ten": "Sở chỉ huy chiến dịch Điện Biên Phủ (Mường Phăng)",
+   "thoi_gian": "1,5–2 giờ (tính cả di chuyển ~35 km)"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Noong Luống, Điện Biên",
+   "gia_ve": "Chưa kiểm được mức vé tắm hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức",
+   "hop_voi": "Gia đình, người muốn thư giãn",
+   "id": "suoi-khoang-uva",
+   "lat": 21.28939,
+   "lng": 102.99798,
+   "luu_y": "Suối khoáng nóng tự nhiên; hỏi giá tắm/bể trước khi vào. Lưu ý: suối Hua Pe (Thanh Luông) là điểm khác, đừng nhầm",
+   "nguon": "ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Suối khoáng nóng giữa rừng, tắm khoáng sau ngày đi di tích rất thư giãn — được nhiều gia đình khen. Điểm trừ là giá tắm chưa kiểm được mức hiện hành. Hợp gia đình và người lớn tuổi; tránh ngâm quá lâu."
+   },
+   "ten": "Suối khoáng nóng Uva",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thanh Nưa, Điện Biên (cách TP ~10 km)",
+   "gia_ve": "Chưa kiểm được mức vé/dịch vụ hiện hành",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "ban-men",
+   "lat": 21.42,
+   "lng": 103.005,
+   "luu_y": "Bản Thái với nhà sàn, văn nghệ dân tộc; hỏi trước về ăn tối + ngủ lại tại bản Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực xã Thanh Nưa.",
+   "nguon": "ecotour.com.vn, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Bản Thái làm du lịch cộng đồng, nhà sàn, văn nghệ và ẩm thực bản địa — trải nghiệm văn hóa thật hơn ở trung tâm TP. Điểm trừ là dịch vụ và giá chưa thống nhất, ít review công khai. Hợp người muốn ngủ bản và tìm hiểu văn hóa Thái; nên liên hệ trước."
+   },
+   "ten": "Bản Mển (bản du lịch cộng đồng người Thái)",
+   "thoi_gian": "2–3 giờ (hoặc ngủ lại homestay)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Mường Thanh – Thanh Trường, TP Điện Biên Phủ",
+   "gia_ve": "Miễn phí (ngắm cảnh ven đường)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Mọi đối tượng, người thích chụp ảnh",
+   "id": "canh-dong-muong-thanh",
+   "lat": 21.38,
+   "lng": 103.018,
+   "luu_y": "Cánh đồng lớn nhất Tây Bắc; đi xe qua QL279 ngắm lúa, không đi vào ruộng Tọa độ xấp xỉ, cần kiểm lại — lấy theo khu vực trung tâm cánh đồng Mường Thanh (gần đồi A1).",
+   "nguon": "ecotour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; nguồn trong file",
+    "nhan_xet": "Cánh đồng lớn nhất Tây Bắc, lúa chín tháng 9–10 vàng rực — đẹp nhất khi nhìn từ đồi A1 hoặc tượng đài D1. Điểm trừ là nếu chỉ đi ngang đường thì khó cảm nhận hết, cần điểm ngắm cao. Hợp mùa lúa chín; ngoài mùa thì chỉ là đồng lúa thường."
+   },
+   "ten": "Cánh đồng Mường Thanh",
+   "thoi_gian": "30–60 phút; đẹp nhất tháng 9–10 lúa chín",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 100,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 6/279, xã Bình Thuận (ranh giới Điện Biên – Sơn La), cao hơn 1.000 m",
+   "gia_ve": "Chưa kiểm được mức vé Pha Đin Top hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người đi cung Điện Biên – Sơn La, người thích săn mây và check-in",
+   "id": "deo-pha-din",
+   "lat": 21.557,
+   "lng": 103.252,
+   "luu_y": "Một trong 'tứ đại đỉnh đèo' Tây Bắc, cách TP Điện Biên Phủ ~100 km — CHỈ hợp lịch 4N3Đ hoặc đi trên đường về Sơn La, không đi riêng trong ngày. Khu Pha Đin Top có vườn hoa, cầu tình yêu, xích đu vô cực, chợ phiên thứ 7 từ tháng 6/2026. Tọa độ xấp xỉ, cần kiểm lại. Đèo dốc, cua gấp, không đi ban đêm khi mưa/sương.",
+   "nguon": "baomoi.com (07/08/2026), travelviet.net, thuonghieuvang.net.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Báo Mới 07/08/2026; travelviet.net",
+    "nhan_xet": "Đèo đẹp đúng danh tiếng tứ đại đỉnh đèo, Pha Đin Top làm du lịch khá chỉn chu với nhiều góc check-in và chợ phiên thứ 7. Điểm yếu là quá xa TP Điện Biên Phủ (~100 km) nên nhiều lịch trình phải bỏ qua — chỉ đáng đi nếu đang trên cung về Sơn La. Nên đi sáng sớm săn mây, tránh trưa nắng gắt."
+   },
+   "ten": "Đèo Pha Đin và Khu du lịch Pha Đin Top",
+   "thoi_gian": "2–3 giờ (điểm dừng chân)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "ngoai-o",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bản Phủ, huyện Điện Biên (cách TP Điện Biên Phủ ~5 km)",
+   "gia_ve": "Chưa kiểm được mức vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "den-hoang-cong-chat",
+   "lat": 21.425,
+   "lng": 102.995,
+   "luu_y": "Đền thờ thủ lĩnh Hoàng Công Chất, di tích lịch sử gần trung tâm TP — tiện ghép buổi chiều sau các điểm Điện Biên Phủ. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulichviet.com.vn, dienbien.gov.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Đền nhỏ, yên tĩnh, gắn với nhân vật lịch sử địa phương nên hợp người đã đi hết cụm A1 – bảo tàng và muốn thêm một điểm văn hóa gần. Điểm yếu là ít thông tin hướng dẫn và ít review công khai. Chỉ nên ghé 1 giờ, không dành cả buổi."
+   },
+   "ten": "Đền Hoàng Công Chất (Bản Phủ)",
+   "thoi_gian": "1 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bắc qua sông Nậm Rốm, phường Mường Thanh, TP Điện Biên Phủ (gần đồi A1)",
+   "gia_ve": "Miễn phí (cầu giao thông, điểm check-in ven đường)",
+   "gio_mo_cua": "24/7 (cầu giao thông)",
+   "hop_voi": "Mọi đối tượng, người yêu lịch sử",
+   "id": "cau-muong-thanh",
+   "lat": 21.382,
+   "lng": 103.015,
+   "luu_y": "Cầu sắt gắn với chiến dịch Điện Biên Phủ, ngay cạnh đồi A1 — tiện ghép khi tham quan cụm trung tâm. Tọa độ xấp xỉ, cần kiểm lại. Chỉ dừng chụp ảnh ở vị trí an toàn, không dừng xe giữa cầu.",
+   "nguon": "dulichviet.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; dulichviet.com.vn",
+    "nhan_xet": "Điểm nhỏ nhưng ý nghĩa lịch sử thật, lại ngay cạnh đồi A1 nên ghé không tốn thêm thời gian. Điểm yếu là bản thân cầu không có hoạt động gì ngoài chụp ảnh. Hợp ghé 15 phút trên đường đi, không nên đi riêng."
+   },
+   "ten": "Cầu Mường Thanh (cầu sắt lịch sử)",
+   "thoi_gian": "15–30 phút dừng chụp ảnh",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đồi A1",
+   "gio": "6:30-8:00 sáng sớm mát, nắng xiên; 16:00-17:00 chiều muộn (tránh trưa nắng gắt)",
+   "nguon": "dữ liệu tỉnh Điện Biên (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Tượng đài Chiến thắng Điện Biên Phủ (đồi D1)",
+   "gio": "5:30-7:00 bình minh toàn cảnh TP; 16:30-18:00 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Điện Biên (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cánh đồng Mường Thanh",
+   "gio": "6:00-7:30 sáng sớm lúa chín tháng 9–10; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Điện Biên (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào bảo tàng và hầm Đờ Cát — tránh đèo Pha Đin và đồi A1 vì trơn.",
+  "diem": [
+   "Bảo tàng Chiến thắng Điện Biên Phủ",
+   "Hầm Đờ Cát (hầm chỉ huy De Castries)",
+   "Sở chỉ huy chiến dịch Điện Biên Phủ (Mường Phăng)",
+   "Đền Hoàng Công Chất (Bản Phủ)"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-chien-thang, doi-a1",
+    "hoat_dong": "Bảo tàng Chiến thắng + đồi A1 + nghĩa trang A1",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ham-do-cat, tuong-dai-chien-thang",
+    "hoat_dong": "Hầm Đờ Cát + tượng đài Chiến thắng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối TP: gà nướng mắc khén",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-pa-khoang, so-chi-huy-muong-phang",
+    "hoat_dong": "Hồ Pá Khoang hoặc sở chỉ huy Mường Phăng (chọn 1)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về, trả phòng",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-chien-thang, doi-a1, nghia-trang-a1",
+    "hoat_dong": "Tới Điện Biên Phủ; Bảo tàng Chiến thắng (1–1,5 giờ) + đồi A1 và nghĩa trang A1",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ham-do-cat, tuong-dai-chien-thang",
+    "hoat_dong": "Hầm Đờ Cát (30–60 phút) + tượng đài Chiến thắng trên đồi D1 lúc hoàng hôn",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn tối TP: gà nướng mắc khén, xôi chim",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "so-chi-huy-muong-phang",
+    "hoat_dong": "Sở chỉ huy Mường Phăng (1,5–2 giờ, ~35 km)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ho-pa-khoang, canh-dong-muong-thanh",
+    "hoat_dong": "Hồ Pá Khoang (1,5–2,5 giờ); ghé cánh đồng Mường Thanh lúc lúa chín (tháng 9–10)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "suoi-khoang-uva, ban-men",
+    "hoat_dong": "Suối khoáng nóng Uva thư giãn (1–2 giờ) hoặc ăn tối tại bản Mển",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ban-men",
+    "hoat_dong": "Bản Mển (2–3 giờ); mua đặc sản làm quà",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về, trả phòng",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "bao-tang-chien-thang, doi-a1, ham-do-cat, tuong-dai-chien-thang",
+    "hoat_dong": "Như ngày 1 lịch trình 3N2Đ (di tích trung tâm)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "so-chi-huy-muong-phang, ho-pa-khoang, suoi-khoang-uva",
+    "hoat_dong": "Như ngày 2 lịch trình 3N2Đ (Mường Phăng + Pá Khoang + suối khoáng)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "ban-men",
+    "hoat_dong": "Bản Mển cả ngày: tham quan bản, ăn trưa tại bản, ngủ lại homestay",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "canh-dong-muong-thanh",
+    "hoat_dong": "Cánh đồng Mường Thanh buổi sớm; mua đặc sản; chiều về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Điện Biên Phủ",
+  "best_season": "Tháng 3 hoa ban; tháng 9–10 lúa chín Mường Thanh; tháng 12–3 mùa khô, đi di tích và bản làng thuận tiện; tránh tháng 5–8 mùa mưa, đường đèo trơn",
+  "destination": "TP Điện Biên Phủ, Điện Biên",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "dien-bien",
+  "lat": 21.38171,
+  "lng": 103.01376,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "ecotour.com.vn",
+   "crystalbay.com",
+   "frommers.com",
+   "vietnamoriginal.com",
+   "bestprice.vn",
+   "traveloka.com",
+   "abay.vn",
+   "greensm.com",
+   "agoda.com",
+   "trip.com",
+   "booking.muongthanh.com",
+   "mytour.vn",
+   "gacbepbamien.com",
+   "motortrip.vn",
+   "atrip.vn",
+   "vietnamairlines.com",
+   "vietjet.net",
+   "vietnambooking.com"
+  ],
+  "province": "Điện Biên",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "lịch sử",
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 3 hoa ban; tháng 9–10 lúa chín Mường Thanh; tháng 12–3 mùa khô, đi di tích và bản làng thuận tiện; tránh tháng 5–8 mùa mưa, đường đèo trơn"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "phongkhambacsi.vn — danh bạ Bệnh viện Đa khoa tỉnh Điện Biên (ghi rõ đây là số tổng đài theo trang danh bạ, chưa đối chiếu trực tiếp website bệnh viện) (ngày kiểm 08/11/2026)",
+    "so": "1900 638 367",
+    "ten": "Bệnh viện Đa khoa tỉnh Điện Biên — Tổng đài"
+   }
+  ]
+ }
+}

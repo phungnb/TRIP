@@ -1,0 +1,1234 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–30.000đ/phần",
+   "mon": "Bánh mì xíu mại",
+   "nguon": "luhanhvietnam.com.vn, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; luhanhvietnam.com.vn; agotourist.com",
+    "nhan_xet": "Xíu mại nóng chấm bánh mì — món sáng 'phải thử' ở Đà Lạt, 15.000–20.000đ rẻ. Điểm yếu: quán Hoàng Diệu chỉ bán sáng 06:00–10:00, hết sớm; quán đông. Hợp ăn sáng; đi trước 9h."
+   },
+   "quan": [
+    {
+     "dia_chi": "26 và 37 Hoàng Diệu, Phường 5",
+     "gia": "15.000–20.000đ, chỉ bán sáng 06:00–10:00",
+     "ten": "Bánh mì xíu mại Hoàng Diệu (Bé Linh)"
+    },
+    {
+     "dia_chi": "72 Yersin, Phường 10",
+     "gia": "15.000–20.000đ",
+     "ten": "Bánh mì xíu mại Cô Hồng/Bà Hồng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn xế",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–60.000đ/phần",
+   "mon": "Bánh căn",
+   "nguon": "travel.com.vn, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; travel.com.vn; agotourist.com",
+    "nhan_xet": "Bánh căn giòn, nhân trứng/tôm/mực — ăn sáng/xế ấm bụng trời lạnh. Điểm yếu: quán Lệ giá 30.000–60.000đ (có nguồn ghi 35.000–65.000đ); chờ lâu giờ cao điểm. Hợp ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "27/44 Yersin, Phường 10",
+     "gia": "30.000–60.000đ",
+     "ten": "Bánh căn Lệ"
+    },
+    {
+     "dia_chi": "56 Tăng Bạt Hổ, Phường 1",
+     "gia": "20.000–35.000đ",
+     "ten": "Bánh căn xíu mại Cây Bơ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/phần",
+   "mon": "Bánh ướt lòng gà",
+   "nguon": "bachhoaxanh.com, caonguyentourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; bachhoaxanh.com",
+    "nhan_xet": "Bánh ướt mềm, lòng gà dai — món riêng Đà Lạt, quán Trang được nhắc nhiều nhất. Điểm yếu: địa chỉ quán Long 2 nguồn ghi khác nhau (ưu tiên Trang); giá 30.000–60.000đ. Hợp ăn trưa/xế."
+   },
+   "quan": [
+    {
+     "dia_chi": "15F Tăng Bạt Hổ, Phường 1 (CN2: 3B Mai Trang Sơn, Phường 5)",
+     "gia": "30.000–60.000đ, cách chợ ~400 m",
+     "ten": "Bánh ướt lòng gà Trang"
+    },
+    {
+     "dia_chi": "Hẻm 202 Phan Đình Phùng / 68 Trần Phú (2 nguồn ghi khác nhau, ưu tiên Trang)",
+     "gia": "~25.000–50.000đ",
+     "ten": "Bánh ướt lòng gà Long"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–400.000đ/nồi (2–4 người)",
+   "mon": "Lẩu gà lá é",
+   "nguon": "agotourist.com, hoadalattravel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; agotourist.com; hoadalattravel.vn",
+    "nhan_xet": "Lẩu gà lá é cay thơm, nồi 2–4 người 200.000–400.000đ — món tối nhóm 'phải thử'. Điểm yếu: nhiều quán cùng tên Tao Ngộ, phải ghi rõ cơ sở 5 Ba Tháng Tư; quán đông, chờ lâu. Hợp nhóm 2–4 người ăn tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "5 Ba Tháng Tư (đường 3/4), Phường 3 — ghi rõ cơ sở này, có nhiều quán cùng tên",
+     "gia": "Nồi 2 người 250.000đ, 3 người 300.000đ, 4 người 350.000đ",
+     "ten": "Lẩu gà lá é Tao Ngộ"
+    },
+    {
+     "dia_chi": "2B Chu Văn An, Phường 3",
+     "gia": "200.000–300.000đ/nồi",
+     "ten": "Lẩu gà lá é 668"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối / ăn vặt chợ đêm",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–25.000đ/cái (nhiều topping tới ~40.000đ/cái)",
+   "mon": "Bánh tráng nướng",
+   "nguon": "hoadalattravel.vn, vinpearl.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn; vinpearl.com",
+    "nhan_xet": "'Pizza Đà Lạt', ăn vặt chợ đêm, 15.000–25.000đ/cái. Điểm yếu: quầy chợ đêm đông, giá topping tới 40.000đ; ăn nhiều dễ ngán. Hợp ăn tối/chợ đêm."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Nguyễn Thị Minh Khai, Phường Xuân Hương",
+     "gia": "15.000–25.000đ/cái, 17:00–23:00",
+     "ten": "Chợ đêm Đà Lạt"
+    },
+    {
+     "dia_chi": "26 Hoàng Diệu, Phường 5",
+     "gia": "~20.000–40.000đ/cái, 15:30–18:30",
+     "ten": "Bánh tráng nướng Dì Đinh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/phần",
+   "mon": "Nem nướng",
+   "nguon": "agotourist.com, cuongdulich.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; agotourist.com",
+    "nhan_xet": "Nem nướng Đà Lạt cuốn rau, quán Bà Hùng đông khách nhất. Điểm yếu: giá 30.000–60.000đ tùy phần; quán đông giờ ăn. Hợp ăn trưa/tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "328 Phan Đình Phùng, Phường 2 (CN: 52 KQH Hoàng Văn Thụ, Phường 4; 3 Trần Hưng Đạo, Phường 3)",
+     "gia": "30.000–60.000đ, 09:30–21:00",
+     "ten": "Nem nướng Bà Hùng"
+    },
+    {
+     "dia_chi": "4 Bùi Thị Xuân",
+     "gia": "~40.000–45.000đ/phần",
+     "ten": "Nem nướng Bà Nghĩa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "~230.000–400.000đ cho 1 con gà + cơm lam, nhóm 2–4 người",
+   "mon": "Gà nướng cơm lam",
+   "nguon": "mia.vn, caonguyentourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mia.vn",
+    "nhan_xet": "Gà nướng + cơm lam ống tre — món nhóm đặc trưng Tây Nguyên, 230.000–400.000đ/nhóm 2–4 người. Điểm yếu: quán Tư Béo/Trên Đỉnh Đồi Trăng/Khương Duy ở 3 hướng khác nhau, cần chọn theo cung đường. Hợp nhóm ăn trưa/tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "321 Hai Bà Trưng",
+     "gia": "Gà ~230.000đ/con (1,2–1,4 kg)",
+     "ten": "Gà nướng ôm xôi Tư Béo"
+    },
+    {
+     "dia_chi": "27K Ngô Thì Sỹ, Phường 4",
+     "gia": "Món 80.000–250.000đ, cách chợ ~2,4 km",
+     "ten": "Nhà hàng Trên Đỉnh Đồi Trăng"
+    },
+    {
+     "dia_chi": "QL722, ngã ba Mangline, Phường 7 (CN2: Làng hoa Vạn Thành)",
+     "gia": "Món 35.000–200.000đ",
+     "ten": "Cơm lam gà nướng Khương Duy"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô",
+   "mon": "Bún bò ấp Ánh Sáng",
+   "nguon": "saigonstartravel.com, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; saigonstartravel.com; agotourist.com",
+    "nhan_xet": "Bún bò khu ấp Ánh Sáng, tô 30.000–50.000đ, ăn sáng ấm bụng. Điểm yếu: khu ấp nhỏ, quán Út Phi/Út Vân dễ nhầm. Hợp ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "10 ấp Ánh Sáng, Phường 1",
+     "gia": "~35.000–50.000đ/tô",
+     "ten": "Bún bò ấp Ánh Sáng — Quán Út Phi"
+    },
+    {
+     "dia_chi": "36/36A ấp Ánh Sáng, Phường 1",
+     "gia": "30.000–40.000đ/tô, 06:00–20:00",
+     "ten": "Bún bò Huế – Mì Quảng Út Vân"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–50.000đ/tô",
+   "mon": "Bánh canh",
+   "nguon": "zalopay.vn, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; zalopay.vn; agotourist.com",
+    "nhan_xet": "Bánh canh Xuân An hơn 30 năm, tô 30.000–44.000đ. Điểm yếu: quán Phan Rang chưa kiểm được số nhà + giá riêng; menu cũ 18.000–30.000đ đã lỗi thời. Hợp ăn sáng/trưa; ưu tiên Xuân An (15A Nhà Chung)."
+   },
+   "quan": [
+    {
+     "dia_chi": "15A Nhà Chung, Phường 3",
+     "gia": "30.000–44.000đ/tô, 07:00–21:30, hơn 30 năm",
+     "ten": "Bánh canh Xuân An"
+    },
+    {
+     "dia_chi": "Đường Trần Phú hoặc Hai Bà Trưng (chưa kiểm được số nhà cụ thể)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh canh Phan Rang"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối (chợ đêm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Sữa đậu nành nóng 7.000–15.000đ/ly; dâu tây lắc 15.000–20.000đ/hũ–ly; kem dâu tây 20.000đ/ly",
+   "mon": "Sữa đậu nành nóng / dâu tây",
+   "nguon": "vinwonders.com, namthientravel.com.vn, riviu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vinwonders.com; riviu.vn",
+    "nhan_xet": "Sữa đậu nành nóng chợ đêm là 'nghi thức' tối Đà Lạt, 7.000–15.000đ/ly. Điểm yếu: số nhà Hoa Sữa mâu thuẫn (64/50/3F Tăng Bạt Hổ); dâu tây lắc giá theo nguồn cũ. Hợp ăn tối chợ đêm; uống nóng, ngồi vỉa hè ngắm phố."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tăng Bạt Hổ, Phường 1 — số nhà mâu thuẫn (64 / 50 / 3F), cần kiểm lại",
+     "gia": "16:00–22:00, cách chợ đêm ~50 m",
+     "ten": "Sữa đậu nành Hoa Sữa"
+    },
+    {
+     "dia_chi": "276 Phan Đình Phùng",
+     "gia": "15.000–20.000đ/hũ (nguồn cũ)",
+     "ten": "Dâu tây lắc"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Đà Lạt khứ hồi (giường nằm)",
+   "uoc_tinh": "300.000–900.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3 sao)",
+   "uoc_tinh": "600.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Taxi sân bay / phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.800.000–4.150.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi máy bay thay xe khách (cộng thêm)",
+   "uoc_tinh": "~700.000–1.500.000đ/chiều"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay (hạng mục lớn nhất)",
+   "uoc_tinh": "~1.400.000–2.650.000đ/chiều"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Chỉ đặt qua ứng dụng/website đã kiểm chứng hoặc kênh chính thức của cơ sở lưu trú; gọi lại số điện thoại tìm độc lập (không dùng số người rao đưa) để xác nhận booking và tên chủ tài khoản nhận tiền trước khi chuyển cọc.",
+   "nguon": "dalat.vn — Cảnh giác thủ đoạn lừa tiền cọc khách sạn, villa, homestay (theo baolamdong.vn, Công an tỉnh Lâm Đồng) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc đặt phòng: kẻ gian lấy ảnh/video thật của khách sạn, villa, homestay ở Đà Lạt đăng lên các hội nhóm du lịch, giả làm chủ nhà, yêu cầu chuyển cọc 50% - 100% với lý do lễ/Tết hết phòng, rồi chặn liên lạc sát ngày khách đến."
+  },
+  {
+   "cach_tranh": "Hỏi giá thật kỹ và chỉ ăn ở quán có menu niêm yết giá; tránh ăn uống ở các hàng quán cóc sát chợ Đà Lạt khi chưa biết rõ giá.",
+   "nguon": "cuongdulich.com — Note ngay 5 KHÔNG để tránh dính 5 CÚ LỪA khi đi du lịch Đà Lạt (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chặt chém ở chợ đêm Đà Lạt: quán cóc sát chợ không niêm yết giá; từng có khách ăn 3 tô cháo bị tính 400.000đ."
+  },
+  {
+   "cach_tranh": "Tự chọn quán/homestay đã tìm hiểu trước, không đi theo giới thiệu của tài xế hay người chèo kéo dọc đường; vào vườn dâu thì hỏi giá vé và giá dâu trước khi hái.",
+   "nguon": "cuongdulich.com — Note ngay 5 KHÔNG để tránh dính 5 CÚ LỪA khi đi du lịch Đà Lạt (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Taxi và 'cò' vườn dâu: một số tài xế taxi làm cò, đưa khách tới quán ăn, quán cà phê, homestay hoặc vườn dâu để ăn hoa hồng; có chiêu 'tham quan thử dâu miễn phí' rồi bán dâu giá cao."
+  },
+  {
+   "cach_tranh": "Không chuyển cọc chỉ vì giá rẻ; khi nhận xe quay video liền mạch toàn bộ vết trầy, kiểm phanh/lốp/đèn/còi, chốt bằng tin nhắn rõ dòng xe, giá, giờ nhận-trả, tiền cọc và điều kiện hoàn cọc; chỉ đưa bản photo CCCD, không đưa bản gốc.",
+   "nguon": "hoadalattravel.vn — Lừa đảo thuê xe máy Đà Lạt: 12 dấu hiệu & cách tránh (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa đảo thuê xe máy: giá rẻ bất thường, thúc chuyển cọc ngay, không cho quay tình trạng xe lúc giao, giữ giấy tờ không lập biên nhận, sau đó dựng lỗi trầy xước để đòi tiền bồi thường."
+  },
+  {
+   "cach_tranh": "Nghi ngờ mọi phòng giá thấp bất thường kèm ảnh quá đẹp; đọc đánh giá thật, kiểm tra vị trí trên bản đồ và chính sách hoàn cọc trước khi chuyển tiền.",
+   "nguon": "cuongdulich.com — Note ngay 5 KHÔNG để tránh dính 5 CÚ LỪA khi đi du lịch Đà Lạt (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay giá rẻ 'treo đầu dê bán thịt chó': rao phòng đẹp lung linh chỉ 60.000đ/người trong khi mặt bằng Đà Lạt thường 300.000 - 600.000đ/đêm; đến nơi phòng dơ bẩn, tối tăm, xa trung tâm, không đòi lại được cọc."
+  }
+ ],
+ "checklist": [
+  "Áo khoác (lạnh buổi sáng/tối)",
+  "Áo mưa mỏng",
+  "Giày đi bộ / leo Langbiang",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ (chợ đêm, quán nhỏ)",
+  "Sạc dự phòng",
+  "Thuốc cơ bản",
+  "Kem chống nắng"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn Ngọc Phát",
+   "Nice Dream Hotel",
+   "Sandals Flora Hotel",
+   "Zen Valley Dalat",
+   "New Life Hotel",
+   "Homestay Thị Trấn Cổ"
+  ],
+  "diem": [
+   "Thung lũng Tình Yêu (TTC World, gồm Đồi Mộng Mơ)",
+   "Hồ Tuyền Lâm",
+   "Nhà thờ Domaine de Marie (Nhà thờ Mai Anh)",
+   "Đồi chè Cầu Đất (Cầu Đất Farm)"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn Ngọc Phát",
+   "Nice Dream Hotel",
+   "Sandals Flora Hotel"
+  ],
+  "diem_chay": [
+   "Quanh Hồ Xuân Hương (đường ven hồ bằng phẳng, trung tâm)",
+   "Hồ Tuyền Lâm (đường ven hồ, rừng thông, ít xe)",
+   "Đường lên núi Langbiang (dốc dài, tập leo dốc cho trail)"
+  ],
+  "giai": [
+   {
+    "nguon": "ticket.irace.vn — Giải siêu marathon địa hình Dalat Ultra Trail 2026; trailrunner.com — Dalat Ultra Trail (tổ chức hằng năm vào tháng 3) (ngày kiểm 08/11/2026)",
+    "ten": "Dalat Ultra Trail",
+    "thoi_gian": "tháng 3 hằng năm (mùa 2026: 27-29/3/2026, xuất phát tại Thung lũng Tình Yêu)"
+   },
+   {
+    "nguon": "vietnam.vn — Lâm Đồng Trail 2026 thu hút hơn 5.600 vận động viên; Lâm Đồng Trail 2026 gọi tên những nhà vô địch, 08/11/2026 (ngày kiểm 08/11/2026)",
+    "ten": "Lâm Đồng Trail",
+    "thoi_gian": "tháng 11 (mùa 2026: 7-8/11/2026, xuất phát tại Thung lũng Tình Yêu, các cự ly 5-85km)"
+   }
+  ],
+  "nguon": "Tên giải + thời gian theo ticket.irace.vn, trailrunner.com, vietnam.vn; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Đối diện Quảng trường Lâm Viên, sát Hồ Xuân Hương",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "10 Hồ Tùng Mậu, Phường Xuân Hương",
+   "dien_thoai": "02633 683 979",
+   "gia": "~800.000–1.600.000đ/đêm (Deluxe/Suite tới ~2.485.000đ)",
+   "hang": "3 sao",
+   "hop_voi": "Gia đình, cặp đôi muốn ở trung tâm, view hồ",
+   "khu_vuc": "trung-tam",
+   "nguon": "lamdongtours.com, dulichyenviet.com",
+   "nguon_dien_thoai": "website chính thức ngocphatdalathotel.com; Google Travel (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Ngọc Phát",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách chợ đêm ~110 m; Hồ Xuân Hương đi bộ vài phút",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "1 Nguyễn Thị Minh Khai, Phường Xuân Hương",
+   "dien_thoai": "0263 3822 379",
+   "gia": "~750.000–1.200.000đ/đêm (hạng cao hơn tới ~1.800.000–2.500.000đ)",
+   "hang": "3 sao",
+   "hop_voi": "Khách thích đi chợ đêm, cặp đôi/nhóm bạn",
+   "khu_vuc": "trung-tam",
+   "nguon": "newlifetravel.vn, vietgoing.com",
+   "nguon_dien_thoai": "dalattourism.vn; mytour.vn (ngày kiểm 08/11/2026)",
+   "ten": "Nice Dream Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Xuân Hương ~100 m, chợ đêm ~150 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "37–40 Nguyễn Thị Minh Khai, Phường Xuân Hương",
+   "dien_thoai": "0263 3558 816",
+   "gia": "~800.000–1.600.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi, khách muốn view chợ đêm",
+   "khu_vuc": "trung-tam",
+   "nguon": "newlifetravel.vn, mytour.vn",
+   "nguon_dien_thoai": "mytour.vn; WanderBoat (ngày kiểm 08/11/2026)",
+   "ten": "Sandals Flora Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Xuân Hương ~200 m, chợ ~300 m, Quảng trường Lâm Viên ~500 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "10 Phan Bội Châu, Phường Xuân Hương",
+   "dien_thoai": "0263 3665 588",
+   "gia": "~1.450.000–2.200.000đ/đêm (Suite tới ~3.870.000đ)",
+   "hang": "4 sao",
+   "hop_voi": "Khách muốn tiện nghi 4 sao ngay trung tâm",
+   "khu_vuc": "trung-tam",
+   "nguon": "dalattourism.vn, newlifetravel.vn",
+   "nguon_dien_thoai": "agotourist.com; dantri.com.vn; mytour.vn; tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Hôtel Colline",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Xuân Hương 100 m, chợ đêm 600–750 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "42 Phan Bội Châu, Phường Xuân Hương",
+   "dien_thoai": "0263 357 8888",
+   "gia": "~1.250.000–1.600.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách muốn hồ bơi/spa",
+   "khu_vuc": "trung-tam",
+   "nguon": "newlifetravel.vn, hoadalattravel.vn",
+   "nguon_dien_thoai": "trang đặt phòng chính thức booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Holiday Đà Lạt",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Xuân Hương ~2,24 km, Ga Đà Lạt ~1,44 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "38 Khe Sanh, Phường 10",
+   "dien_thoai": "0263 3577 277",
+   "gia": "~800.000–1.950.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi/gia đình muốn yên tĩnh, view thông, bungalow/villa",
+   "khu_vuc": "dong-da-khe-sanh",
+   "nguon": "tadiha.com, traveloka.com",
+   "nguon_dien_thoai": "fanpage chính thức Zen Valley Dalat; mytour.vn (ngày kiểm 08/11/2026)",
+   "ten": "Zen Valley Dalat",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Quảng trường Lâm Viên ~2,7 km; chợ cần đi xe ~5 phút",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "6 Đống Đa, Phường 3",
+   "dien_thoai": "0263 3586 888",
+   "gia": "~550.000–1.200.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Khách tiết kiệm, cặp đôi/gia đình muốn yên tĩnh, view đồi",
+   "khu_vuc": "dong-da-khe-sanh",
+   "nguon": "newlifetravel.vn, vietgoing.com",
+   "nguon_dien_thoai": "fanpage chính thức New Life Hotel - Đà Lạt by Manor Life; happygo24h.com (ngày kiểm 08/11/2026)",
+   "ten": "New Life Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Xuân Hương ~6,07 km; trung tâm ~6–8,5 km, đi xe ~20–30 phút",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "19 Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Phường 4",
+   "dien_thoai": "0263 3800 099",
+   "gia": "~1.150.000–2.000.000đ/đêm (villa 5,6–16,5 triệuđ/đêm)",
+   "hang": "4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt)",
+   "hop_voi": "Gia đình/nhóm bạn nghỉ dưỡng ven hồ",
+   "khu_vuc": "ho-tuyen-lam",
+   "nguon": "didaudalat.com, bestprice.vn",
+   "nguon_dien_thoai": "mia.vn; topdalat.vn; vietair.com.vn; agotourist.com; tripi.vn (ngày kiểm 08/11/2026)",
+   "ten": "Dalat Wonder Resort",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm ~6 km; ngay bờ Hồ Tuyền Lâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phân khu 7.9, Khu du lịch Hồ Tuyền Lâm, Phường 3",
+   "dien_thoai": "0263 3883 838",
+   "gia": "~1.300.000–1.950.000đ/đêm (villa 11,35–17,35 triệuđ/đêm)",
+   "hang": "4 sao (một số nguồn ghi 5 sao — mâu thuẫn, chưa chốt)",
+   "hop_voi": "Gia đình/đoàn, khách nghỉ dưỡng dài",
+   "khu_vuc": "ho-tuyen-lam",
+   "nguon": "agotourist.com, hoadalattravel.vn",
+   "nguon_dien_thoai": "motogo.vn; agotourist.com; tripi.vn; mytour.vn; vietair.com.vn (ngày kiểm 08/11/2026)",
+   "ten": "Terracotta Hotel & Resort Dalat",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Chưa kiểm được con số chính xác",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "31 Đặng Thái Thân, Đà Lạt",
+   "dien_thoai": "0901 399 179",
+   "gia": "Từ khoảng 400.000đ/đêm (chỉ 1 nguồn, chưa kiểm được khoảng trên)",
+   "hang": "Homestay",
+   "hop_voi": "Khách bụi, cặp đôi tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "abay.vn",
+   "nguon_dien_thoai": "dalat.vn — thư mục du lịch Đà Lạt (chỉ 1 nguồn có số; ngày kiểm 08/11/2026)",
+   "ten": "Homestay Thị Trấn Cổ",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé xe jeep Langbiang (100.000–120.000đ vs ~200.000đ)",
+  "Giá vé Làng Cù Lần (100.000đ / 150.000đ / 200.000đ)",
+  "Giá vé vào Đồi chè Cầu Đất (miễn phí hay 30.000đ)",
+  "Giá cáp treo Đồi Robin – Thiền viện Trúc Lâm (80.000/100.000đ vs 120.000/150.000đ)",
+  "Giá vé tham quan Thác Datanla (50.000đ vs 80.000đ)",
+  "Giá vé Thác Prenn (mô hình Tea Resort Prenn mới 110.000–288.000đ vs giá cũ)",
+  "Giờ mở cửa Thiền viện Trúc Lâm (5:00–21:00 vs 7:00–17:00)",
+  "Giờ mở cửa Quảng trường Lâm Viên (24/7 vs 7:00–22:00 vs 5:00–22:00)",
+  "Giờ mở cửa Ga Đà Lạt (4 khung khác nhau)",
+  "Giờ đóng chợ đêm Đà Lạt (23:00 vs 2:00–3:00 sáng)",
+  "Giờ mở cửa Thung lũng Tình Yêu và Làng Cù Lần",
+  "Tọa độ GPS: Đồi chè Cầu Đất, Nhà thờ Domaine de Marie, cổng KDL Langbiang",
+  "Diện tích Hồ Xuân Hương (25 / 32 / 43 ha)",
+  "Tên phường mới sau sáp nhập 07/2025",
+  "Homestay Thị Trấn Cổ: khoảng giá trên và khoảng cách tới Hồ Xuân Hương",
+  "Hạng sao Dalat Wonder và Terracotta (4 sao vs 5 sao)",
+  "Bánh canh Phan Rang: số nhà + giá riêng",
+  "Sữa đậu nành Hoa Sữa: số nhà mâu thuẫn (64 / 50 / 3F Tăng Bạt Hổ)",
+  "Bánh ướt lòng gà Long: 2 nguồn ghi địa chỉ khác nhau",
+  "Giá thuê xe máy điện theo ngày",
+  "Giá xe đưa đón sân bay chung cho mọi khách sạn",
+  "Số chuyến xe khách/ngày chính xác từng hãng TP.HCM–Đà Lạt",
+  "Địa danh Racehub: chưa tìm thấy file gốc — cần anh chỉ file/link"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đà Lạt nhiều dốc cao và đường đèo, sương mù dày buổi sáng và chiều tối, mưa làm mặt đường trơn — đã dặn trong dữ liệu tỉnh (dan_an_toan_xe_may). BỔ SUNG theo tình hình mới: đèo Prenn đang sạt lở, tháng 9/2026 UBND tỉnh Lâm Đồng đã công bố tình huống khẩn cấp về thiên tai đối với đèo Prenn; đến 03/11/2026 cơ quan chức năng vẫn rào chắn 2 làn (lưu thông 2 làn còn lại) để khắc phục sạt lở đoạn Km225+250, taluy cao 20-25m mất ổn định khi mưa. Qua đoạn này phải đi chậm, giữ khoảng cách, tuyệt đối không dừng chụp ảnh dưới chân taluy, tránh đi khi mưa lớn. Đèo Bảo Lộc (QL20, 10–15 km, khoảng 107 khúc cua gấp) và đèo Chuối mặt đường ẩm trơn do sương tích tụ — giữ tốc độ 30-40km/h ở điểm mù, không vượt ở cua khuất. Đèo Mimosa nhiều xe tải, thiếu đèn chiếu sáng sau 18h — tránh đi tối. Đèo Hòn Giao (Khánh Lê, 33km nối Nha Trang - Đà Lạt) dài, sương mù dày, chỉ đi ban ngày khi tay lái vững. Xuống dốc dài về số thấp (số 2-3), không rà phanh liên tục, không tắt máy thả trôi; thuê xe số leo dốc/đổ đèo an toàn hơn xe ga yếu; kiểm tra phanh, lốp, đèn trước khi nhận xe.",
+  "deo": [
+   "Đèo Prenn (QL20, cửa ngõ Đà Lạt) — sạt lở Km225+250, taluy 20-25m mất ổn định khi mưa; tình huống khẩn cấp công bố tháng 9/2026, đến 03/11/2026 vẫn rào chắn 2 làn để khắc phục",
+   "Đèo Bảo Lộc (QL20, 10–15 km, khoảng 107 khúc cua gấp) — dốc cao, cua gấp liên tiếp, mặt đường ẩm trơn do sương",
+   "Đèo Mimosa (đèo Prenn 2) — nhiều xe tải trọng lớn, thiếu đèn chiếu sáng sau 18h",
+   "Đèo Chuối (QL20, huyện Đạ Huoai) — cua gấp, mặt đường ẩm trơn do sương tích tụ",
+   "Đèo Hòn Giao / Khánh Lê (tỉnh lộ 723, Nha Trang - Đà Lạt, dài 33km) — đèo dài, sương mù dày, nhiều cua"
+  ],
+  "nguon": "baomoi.com (Báo Sài Gòn Giải Phóng) — Lâm Đồng khắc phục sạt lở trên đèo Prenn, quốc lộ 28, 03/11/2026; hoadalattravel.vn — Top 7 cung đường đèo Đà Lạt 2026; 2banh.vn — 8 cung đèo ngoạn mục đưa lối về Đà Lạt; 2banh.vn — 18 con đèo đẹp nhất Việt Nam (ngày kiểm 08/11/2026)"
+ },
+ "dan_an_toan_xe_may": "Đà Lạt nhiều dốc cao và đường đèo, sương mù dày buổi sáng và chiều tối, mưa làm mặt đường trơn. Thuê xe số (Wave, Sirius) leo dốc và đổ đèo an toàn hơn xe ga yếu; lên dốc giữ ga đều, xuống dốc dài về số thấp (số 2–3), không rà phanh liên tục, không tắt máy thả trôi; trời mưa đi chậm, giữ khoảng cách, bật đèn cos cả ban ngày. Kiểm tra phanh, lốp, đèn trước khi nhận xe. Đặt phòng trước 2–3 tuần nếu đi cuối tuần, 30–60 ngày nếu đi lễ/Tết. (Nguồn: xemayanthanhphat.com; agotourist.com; hoadalattravel.vn — ngày kiểm 08/11/2026.)",
+ "dan_an_toan_xe_may_chung": "Khung chung cho tỉnh miền núi/đèo: đường dốc, đèo quanh co, sương mù và mưa làm đường trơn — đi chậm, giữ khoảng cách, bật đèn khi sương mù; thuê xe số leo dốc tốt hơn xe ga yếu; xuống dốc dài về số thấp (số 2–3), không rà phanh liên tục, không tắt máy thả trôi; kiểm tra phanh, lốp, đèn trước khi nhận xe; đặt phòng trước 2–3 tuần vào cuối tuần, sớm hơn vào lễ/Tết. (Khung chung — không phải chi tiết riêng của từng tỉnh. Nguồn: xemayanthanhphat.com; agotourist.com; hoadalattravel.vn — ngày kiểm 08/11/2026.)",
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay Liên Khương đã mở cửa hoạt động trở lại từ 19/08/2026 sau thời gian tạm đóng để nâng cấp đường băng.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Một chiều đã gồm thuế phí ~1.400.000–2.650.000đ/chiều",
+    "nguon": "traveloka.com, vnpayapp.vn, vietnambooking.com",
+    "phuong_tien": "Máy bay HAN–DLI",
+    "thoi_gian": "Bay thẳng 1h50; ~8–12 chuyến/ngày"
+   },
+   {
+    "ghi_chu": "Chỉ phù hợp người có sức khỏe tốt và dư thời gian",
+    "gia": "~700.000–950.000đ/vé",
+    "nguon": "hoadalattravel.vn, dailyxehanoi.com, agotourist.com, sigo.vn",
+    "phuong_tien": "Xe khách",
+    "thoi_gian": "~20h30 đến 32 giờ, thường gặp nhất 30–32 giờ"
+   },
+   {
+    "ghi_chu": "Không có tàu thẳng HN–Đà Lạt. Thay thế: xuống ga Tháp Chàm rồi xe lên Đà Lạt ~80 km, ~2–2,5 giờ",
+    "gia": "Tàu 1.050.000–2.350.000đ tùy hạng; xe Nha Trang–Đà Lạt ~125.000–160.000đ/vé. Tổng ~1.200.000–2.600.000đ/người",
+    "nguon": "duongsatvietnam.vn, vetau247.vn, crystalbay.com",
+    "phuong_tien": "Tàu tới Nha Trang rồi xe lên Đà Lạt",
+    "thoi_gian": "Tàu HN–Nha Trang ~24–27 giờ + xe Nha Trang–Đà Lạt 3–4 giờ. Tổng ~28–35 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "~28–30 km, ~40–50 phút. Hỏi rõ giá trọn gói trước khi lên xe.",
+    "gia": "Gói đặt trước (Lado) ~155.000–190.000đ; gói chung ~200.000–280.000đ/chuyến; đồng hồ ~250.000–500.000đ/lượt; Grab/Be ~250.000–380.000đ",
+    "nguon": "saigonlocals.com, vietnambooking.com, latour.vn",
+    "phuong_tien": "Taxi"
+   },
+   {
+    "ghi_chu": "Điểm trả: Lê Thị Hồng Gấm (cạnh chợ) hoặc số 2 Lê Quý Đôn. ~45–60 phút; chạy theo giờ hạ cánh, khoảng 6h00–18h00.",
+    "gia": "~30.000–50.000đ/lượt (phổ biến 40.000–50.000đ)",
+    "nguon": "vietnambooking.com, saigonlocals.com, vietnamairlines.com",
+    "phuong_tien": "Xe buýt sân bay"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Không có mức chung — hỏi lễ tân. Ví dụ: Dalat Edensee 480.000đ/chiều/xe 4–7 chỗ; La Da Lat 520.000đ/chiều/xe 5 chỗ; xe riêng đặt trước ~300.000–450.000đ",
+    "nguon": "vietnamairlines.com, saigonlocals.com, khachsan.chudu24.com",
+    "phuong_tien": "Xe đưa đón khách sạn"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Số chuyến/ngày các nguồn mâu thuẫn — không chốt con số. Hotline Phương Trang 1900 6067.",
+    "gia": "Giường nằm từ ~180.000đ; Phương Trang ~290.000–300.000đ/vé; Thành Bưởi giường 325.000đ, phòng nằm 500.000đ",
+    "nguon": "motogo.vn, motortrip.vn, vexere.com, topdalat.vn",
+    "phuong_tien": "Xe khách / giường nằm",
+    "thoi_gian": "6–8 tiếng; phần lớn chạy đêm"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "~250.000–500.000đ/vé (phòng đôi VIP tới ~650.000–750.000đ); trung bình Vexere 11/2026 ~324.500–344.500đ/vé",
+    "nguon": "hoadalattravel.vn, motortrip.vn, vnpayapp.vn, vexere.com",
+    "phuong_tien": "Limousine",
+    "thoi_gian": "6–8 tiếng"
+   },
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Pacific Airlines, Bamboo Airways, Vietravel Airlines; chuyến sớm nhất ~06:10, muộn nhất ~19:50",
+    "gia": "Một chiều đã gồm thuế phí ~700.000–1.800.000đ (Vietjet ~717.000đ, Vietnam Airlines ~991.000đ)",
+    "nguon": "bestprice.vn, traveloka.com, vexere.com",
+    "phuong_tien": "Máy bay SGN–DLI",
+    "thoi_gian": "Bay ~50–55 phút"
+   },
+   {
+    "ghi_chu": "TP.HCM → cao tốc Long Thành – Dầu Giây → QL20 → đèo Chuối → đèo Bảo Lộc → đèo Prenn (~310–320 km). Xe máy xuất phát 4–5h sáng, ưu tiên xe số, KHÔNG đi cao tốc, tránh đèo ban đêm/ngày mưa.",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "buulong.com.vn, datxeviet.vn, lamdongtours.com",
+    "phuong_tien": "Xe máy / ô tô riêng (QL20)",
+    "thoi_gian": "Ô tô 6–7 tiếng; xe máy 7–10 tiếng"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê theo chu kỳ 24 giờ; lễ Tết tăng 30–50%; nhiều cửa hàng giao xe tận khách sạn miễn phí",
+   "gia": "~80.000–130.000đ/ngày",
+   "giay_to": "CCCD (hoặc hộ chiếu) + bằng lái A1; nên nộp bản photo CCCD",
+   "nguon": "vexere.com, agotourist.com, didaudalat.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Xe số leo dốc tốt hơn và rẻ hơn xe ga ~30.000–50.000đ/ngày",
+   "gia": "~120.000–150.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "vexere.com, agotourist.com",
+   "phuong_tien": "Thuê xe máy — tay ga phổ thông"
+  },
+  {
+   "ghi_chu": "Tiền cọc: nhiều nơi không yêu cầu cọc tiền mặt; một số nơi ~500.000–1.000.000đ",
+   "gia": "~150.000–200.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "vexere.com, agotourist.com, wikidulich.com",
+   "phuong_tien": "Thuê xe máy — tay ga 150cc / côn tay"
+  },
+  {
+   "ghi_chu": "Xe điện du lịch 4 bánh đã tạm ngừng từ đầu 2025 (Nghị định 165/2024/NĐ-CP) — không giới thiệu như dịch vụ đang chạy",
+   "gia": "Chưa kiểm được mức giá riêng",
+   "giay_to": "",
+   "nguon": "datxeviet.vn",
+   "phuong_tien": "Thuê xe máy điện theo ngày"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh, Thắng Lợi, Lado, Xanh SM; có Grab/Be",
+   "gia": "~11.500–13.500đ/km (dưới 20 km), ~9.000–10.000đ/km (trên 20 km); 3N2Đ bằng taxi ước tính ~300.000–600.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn, latour.vn",
+   "phuong_tien": "Taxi nội thành"
+  },
+  {
+   "ghi_chu": "Hồ chu vi hơn 5 km. Thuyền thiên nga ~50.000đ/giờ, xe ngựa ~100.000đ/chuyến",
+   "gia": "Thuê xe đạp đơn/đôi ~20.000–50.000đ/giờ; xe đạp thể thao theo ngày từ ~30.000–50.000đ (cần kiểm lại tại điểm thuê)",
+   "giay_to": "Cần mang CCCD/CMND khi thuê",
+   "nguon": "123tadi.com, ivivu.com, mytour.vn",
+   "phuong_tien": "Xe đạp / đi bộ quanh Hồ Xuân Hương"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Xe 4 chỗ ~500.000–950.000đ/ngày; xe 7 chỗ ~700.000–1.500.000đ/ngày. Lễ Tết tăng 50–80%",
+   "giay_to": "Bằng lái B2 trở lên; tiền cọc (thế chấp) thường 10.000.000–30.000.000đ",
+   "nguon": "agotourist.com, sigo.vn, danangtravelcar.com.vn",
+   "phuong_tien": "Thuê ô tô tự lái theo ngày"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "Xe 4 chỗ ~900.000đ/ngày, xe 7 chỗ ~1.000.000đ/ngày (nguồn khác: 4 chỗ 700.000–900.000đ, 7 chỗ 800.000–1.200.000đ). Quá giờ ~80.000–100.000đ/giờ",
+   "giay_to": "",
+   "nguon": "agotourist.com, taxininhthuan.vn",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Trung tâm TP. Đà Lạt, giáp Trần Quốc Toản, Nguyễn Thái Học, Bà Huyện Thanh Quan, Lê Đại Hành, Yersin",
+   "gia_ve": "Miễn phí; đạp vịt 60.000–120.000đ/giờ; xe đạp đôi ~20.000–25.000đ/giờ; xe ngựa ~200.000đ/chuyến 4–6 người",
+   "gio_mo_cua": "24/7",
+   "hop_voi": "Mọi đối tượng",
+   "id": "ho-xuan-huong",
+   "lat": 11.94187,
+   "lng": 108.44666,
+   "luu_y": "Sáng sớm/chiều tối gió mạnh, trời lạnh — mang áo khoác; hỏi giá đạp vịt/xe ngựa trước",
+   "nguon": "onelife.vn, vietnamonline.com, saigonstartravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn; agotourist.com",
+    "nhan_xet": "Hồ trung tâm Đà Lạt, đi bộ/đạp xe quanh hồ sáng sớm và hoàng hôn là trải nghiệm 'phải có'. Điểm yếu: diện tích hồ các nguồn ghi mâu thuẫn (25/32/43 ha); đạp vịt/xe ngựa phải hỏi giá trước. Hợp mọi đối tượng; đi 5h–8h hoặc hoàng hôn, mang áo khoác."
+   },
+   "ten": "Hồ Xuân Hương",
+   "thoi_gian": "1–2 giờ; đẹp nhất 5h–8h và hoàng hôn"
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Quốc Toản, bờ Hồ Xuân Hương (số nhà chưa thống nhất)",
+   "gia_ve": "Miễn phí; Doha Cafe 45.000–90.000đ (có nguồn ghi 20.000–60.000đ)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức thống nhất (24/7 / 7:00–22:00 / 5:00–22:00); Doha Cafe ~6:30–22:30",
+   "hop_voi": "Giới trẻ check-in, gia đình có trẻ nhỏ",
+   "id": "quang-truong-lam-vien",
+   "lat": 11.93947,
+   "lng": 108.44516,
+   "luu_y": "Tránh 11h–14h nắng gắt; tối đông, giữ tư trang",
+   "nguon": "blog.vexere.com, namthientravel.com.vn, tourdalattravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; blog.vexere.com",
+    "nhan_xet": "Quảng trường biểu tượng với nụ atiso, check-in đẹp nhất sáng sớm/chiều. Điểm yếu: giờ mở cửa mâu thuẫn (24/7 vs 7:00–22:00 vs 5:00–22:00); trưa nắng gắt, tối đông. Hợp giới trẻ, gia đình; đi 5h–7h hoặc 16h–18h."
+   },
+   "ten": "Quảng trường Lâm Viên",
+   "thoi_gian": "30–45 phút; đẹp nhất 5h–7h hoặc 16h–18h"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Nguyễn Thị Minh Khai, khu Hòa Bình, phường Xuân Hương",
+   "gia_ve": "Miễn phí vào chợ; bánh tráng nướng 15.000–35.000đ/chiếc; món ăn vặt 15.000–30.000đ/món",
+   "gio_mo_cua": "Chợ ngày ~6:00/7:00–17:00/18:00; chợ đêm ~18:00–23:00 (giờ đóng chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cho-da-lat",
+   "lat": 11.94299,
+   "lng": 108.43693,
+   "luu_y": "Hầu hết quầy chỉ nhận tiền mặt, mang tiền lẻ; hỏi giá trước",
+   "nguon": "hoadalattravel.vn, namthientravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Chợ ngày và chợ đêm là linh hồn ẩm thực Đà Lạt: bánh tráng nướng, sữa đậu nành, đặc sản. Điểm yếu: giờ đóng chợ đêm mâu thuẫn (23:00 vs 2:00–3:00 sáng); hầu hết quầy chỉ nhận tiền mặt. Hợp mọi đối tượng; mang tiền lẻ, hỏi giá trước."
+   },
+   "ten": "Chợ Đà Lạt / chợ đêm",
+   "thoi_gian": "Chợ ngày 1 giờ; chợ đêm 60–120 phút"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 Quang Trung, phường Xuân Hương",
+   "gia_ve": "Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn; trẻ em ~71.000đ",
+   "gio_mo_cua": "Chưa kiểm được giờ đóng chính xác (6:00–17:00 / 7:00–18:00 / 7:00–19:00 / 7:30–17:00). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ đêm 18:15, 20:20)",
+   "hop_voi": "Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",
+   "id": "ga-da-lat",
+   "lat": 11.94178,
+   "lng": 108.45375,
+   "luu_y": "Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa",
+   "nguon": "hoadalattravel.vn, namthientravel.com.vn, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Ga cổ đẹp nhất Việt Nam, tàu Đà Lạt–Trại Mát là trải nghiệm hoài cổ hiếm có. Điểm yếu: giờ mở cửa 4 khung khác nhau, tàu cần tối thiểu ~15–20 khách mới chạy — gọi hỏi ga trước. Hợp người yêu kiến trúc, gia đình; đi sáng, hỏi lịch tàu trước."
+   },
+   "ten": "Ga Đà Lạt",
+   "thoi_gian": "1–1,5 giờ (chỉ tham quan); 2–2,5 giờ nếu đi tàu"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 3–5–7 Mai Anh Đào, phường Lâm Viên (phường 8 cũ), quanh hồ Đa Thiện",
+   "gia_ve": "Người lớn 250.000đ; trẻ em 1–1,39 m và người trên 60 tuổi 125.000đ; dưới 1 m miễn phí; combo từ 225.000đ/người. Khoảng: 225.000–250.000đ/người lớn",
+   "gio_mo_cua": "Khoảng 7:00–17:30 (chưa kiểm được giờ đóng chính xác)",
+   "hop_voi": "Cặp đôi, gia đình, nhóm bạn",
+   "id": "thung-lung-tinh-yeu",
+   "lat": 11.97746,
+   "lng": 108.44978,
+   "luu_y": "Vé gồm xe điện, đạp vịt, cồng chiêng, game 9D; một số trò thu thêm; khu rất rộng, mang giày bệt",
+   "nguon": "vinpearl.com, travelbui.com, agotourist.com, travelfish.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; vinpearl.com; agotourist.com",
+    "nhan_xet": "Khu rộng 137 ha, cảnh quan và trò chơi nhiều, hợp cặp đôi/gia đình chơi nửa ngày. Điểm yếu: vé 225.000–250.000đ cao, một số trò thu thêm; khu rất rộng, đi bộ nhiều. Hợp cặp đôi, gia đình; mang giày bệt, đi 8h–10h hoặc 15h–17h."
+   },
+   "ten": "Thung lũng Tình Yêu (TTC World, gồm Đồi Mộng Mơ)",
+   "thoi_gian": "Nửa ngày (3–4 giờ); đẹp nhất 8h–10h hoặc 15h–17h"
+  },
+  {
+   "cach_trung_tam_km": 12,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "305 Langbiang, thị trấn Lạc Dương / phường Lang Biang. Đỉnh Núi Bà 2.167 m; đồi Radar 1.929–1.950 m",
+   "gia_ve": "Vé cổng người lớn 50.000đ, trẻ em 25.000đ. Xe jeep lên Radar khứ hồi 100.000–120.000đ/người (chưa kiểm được giá chính thức — có nguồn ghi ~200.000đ); bao xe 600.000–700.000đ/xe (tối đa 6 người)",
+   "gio_mo_cua": "7:00–17:00 (đa số nguồn; chưa kiểm được chính xác)",
+   "hop_voi": "Người thích ngắm toàn cảnh/săn mây, nhóm bạn, người leo núi nhẹ",
+   "id": "nui-langbiang",
+   "lat": 12.01964,
+   "lng": 108.42435,
+   "luu_y": "Jeep chỉ lên đồi Radar, KHÔNG lên đỉnh Núi Bà (leo bộ 3–4 giờ); jeep chỉ xuất phát khi đủ 5–6 khách",
+   "nguon": "hoadalattravel.vn, namthientravel.com.vn, agotourist.com, travelfish.org",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Ngắm toàn cảnh Đà Lạt từ đồi Radar, săn mây buổi sáng đẹp. Điểm yếu: jeep chỉ lên Radar, không lên đỉnh Núi Bà (leo bộ 3–4 giờ); giá jeep mâu thuẫn (100.000–120.000đ vs ~200.000đ); jeep chờ đủ 5–6 khách. Hợp người thích ngắm cảnh, nhóm bạn; đi sớm, hỏi giá jeep trước."
+   },
+   "ten": "Núi Langbiang",
+   "thoi_gian": "2–3 giờ (phổ thông); nửa ngày nếu leo bộ"
+  },
+  {
+   "cach_trung_tam_km": 22,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Suối Cạn, phường Lang Biang (xã Lát cũ), dưới chân núi Langbiang, ĐT722",
+   "gia_ve": "Chưa kiểm được mức hiện hành — các nguồn ghi 100.000đ / 150.000đ / 200.000đ. Khoảng: 100.000–200.000đ/người lớn. Jeep địa hình riêng 200.000đ/người",
+   "gio_mo_cua": "Khoảng 7:00–17:30 (chưa kiểm được chính xác)",
+   "hop_voi": "Gia đình, nhóm bạn, đoàn team-building",
+   "id": "lang-cu-lan",
+   "lat": 12.02588,
+   "lng": 108.3637,
+   "luu_y": "Đường Ankroet quanh co, dốc; gọi hotline KDL 0914 914 400 xác nhận giá trước ngày đi",
+   "nguon": "lamdongtours.com, hoadalattravel.vn, newlifetravel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Làng dưới chân Langbiang, không gian yên tĩnh, hợp gia đình/team-building nửa ngày. Điểm yếu: vé mâu thuẫn (100.000/150.000/200.000đ); đường Ankroet quanh co, dốc. Hợp gia đình, nhóm bạn; gọi hotline KDL xác nhận giá trước."
+   },
+   "ten": "Làng Cù Lần",
+   "thoi_gian": "2–4 giờ (nên dành nửa ngày tính cả di chuyển)"
+  },
+  {
+   "cach_trung_tam_km": 24,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Trường Thọ / thôn Cầu Đất, xã Xuân Trường (nay phường Xuân Trường), phía đông nam Đà Lạt, cao ~1.650 m",
+   "gia_ve": "Chưa kiểm được mức hiện hành — mâu thuẫn: miễn phí hay 30.000đ. Khoảng: 0–30.000đ vé vào. Tour trà 90.000đ/người; combo tour + nước 130.000đ; tour săn mây 250.000đ/người",
+   "gio_mo_cua": "7:30–17:00; săn mây 5:30–6:30 sáng (liên hệ trước)",
+   "hop_voi": "Giới trẻ check-in/săn mây, cặp đôi, gia đình",
+   "id": "doi-che-cau-dat",
+   "lat": 11.88348,
+   "lng": 108.55226,
+   "luu_y": "Nông trại đang hoạt động — không giẫm luống chè, không hái lá; đường xa, mang áo ấm",
+   "nguon": "tatravel.vn, mia.vn, fptshop.com.vn, newlifetravel.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mia.vn; tatravel.vn",
+    "nhan_xet": "Đồi chè săn mây đẹp nhất Đà Lạt, tour trà 90.000đ, combo săn mây 250.000đ. Điểm yếu: vé vào mâu thuẫn (miễn phí hay 30.000đ); tọa độ chỉ ở mức đường/thôn, chưa phải cổng farm chính xác. Hợp giới trẻ, cặp đôi; đi trước 8:30 sáng."
+   },
+   "ten": "Đồi chè Cầu Đất (Cầu Đất Farm)",
+   "thoi_gian": "1,5–2,5 giờ; đi trước 8:30 sáng hoặc sau 16:00",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu du lịch quốc gia Hồ Tuyền Lâm, phường Xuân Hương (phường 4 cũ), phía nam Đà Lạt",
+   "gia_ve": "Miễn phí vào khu hồ; gửi xe máy 5.000–10.000đ. Kayak ~150.000–500.000đ, thuyền 300.000–500.000đ/chuyến, thuyền thiên nga ~100.000đ/giờ, cắm trại từ 200.000đ/đêm",
+   "gio_mo_cua": "Khu hồ mở cả ngày/24h; kayak từ 8:30; cáp treo Đồi Robin 7:30–11:30 và 13:00–17:00 ngày thường, liền mạch 7:30–17:00 cuối tuần",
+   "hop_voi": "Cặp đôi, gia đình, nhóm bạn",
+   "id": "ho-tuyen-lam",
+   "lat": 11.89937,
+   "lng": 108.43714,
+   "luu_y": "Hồ rất rộng — chọn 1 điểm dừng (bến thuyền dưới Thiền viện); đi kayak mặc áo phao",
+   "nguon": "travelbui.com, mia.vn, saigonstartravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; travelbui.com; mia.vn",
+    "nhan_xet": "Hồ lớn yên tĩnh, kayak và cắm trại đẹp, hoàng hôn rất ăn ảnh. Điểm yếu: hồ rất rộng, phải chọn 1 điểm dừng; kayak 150.000–500.000đ tùy loại. Hợp cặp đôi, gia đình; đi sáng sớm hoặc hoàng hôn, mặc áo phao khi kayak."
+   },
+   "ten": "Hồ Tuyền Lâm",
+   "thoi_gian": "1,5–2,5 giờ; đẹp nhất sáng sớm hoặc hoàng hôn"
+  },
+  {
+   "cach_trung_tam_km": 6,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trúc Lâm Yên Tử, núi Phụng Hoàng, phường Xuân Hương (phường 3 cũ), trên Hồ Tuyền Lâm. Cáp treo Đồi Robin ~2,2 km, 12 phút/chiều",
+   "gia_ve": "Vào thiền viện miễn phí. Cáp treo chưa kiểm được mức hiện hành: 80.000đ/chiều, 100.000đ/khứ hồi (nhiều nguồn) vs 120.000đ/chiều, 150.000đ/khứ hồi (khảo sát 16/10/2026). Khoảng: 80.000–120.000đ/chiều; 100.000–150.000đ/khứ hồi",
+   "gio_mo_cua": "Chưa kiểm được — mâu thuẫn: 5:00–21:00 vs 7:00–17:00. Cáp treo 7:30–17:00 (nghỉ trưa 11:30–13:00 ngày thường), nhận khách cuối 16:45",
+   "hop_voi": "Mọi đối tượng",
+   "id": "thien-vien-truc-lam",
+   "lat": 11.9036,
+   "lng": 108.43674,
+   "luu_y": "Nơi tu hành — ăn mặc kín đáo, giữ yên lặng",
+   "nguon": "travelbui.com, hoadalattravel.vn, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Thiền viện trên Hồ Tuyền Lâm, yên tĩnh, đi cáp treo Đồi Robin là trải nghiệm đẹp. Điểm yếu: giờ mở cửa mâu thuẫn lớn (5:00–21:00 vs 7:00–17:00); cáp treo 80.000–120.000đ/chiều vs 120.000–150.000đ khứ hồi (khảo sát 16/10/2026). Hợp mọi đối tượng; ăn mặc kín đáo, đi cáp treo buổi sáng."
+   },
+   "ten": "Thiền viện Trúc Lâm",
+   "thoi_gian": "1–1,5 giờ (đi xe) hoặc 2 giờ nếu đi cáp treo khứ hồi"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quốc lộ 20, đèo Prenn, phường Xuân Hương (phường 3 cũ), phía nam Đà Lạt. Thác cao ~20 m; máng trượt Alpine Coaster số 1 ~1.200 m, số 3 ~2.400 m",
+   "gia_ve": "Vé tham quan 50.000đ/người lớn (nguồn cũ) vs 80.000đ (11/2026). Khoảng: 50.000–80.000đ/người lớn. Máng trượt số 1 khứ hồi 130.000đ; số 3 khứ hồi 250.000đ; High Rope 350.000–360.000đ; zipline ~1.000.000đ; canyoning ~1.650.000–1.886.000đ",
+   "gio_mo_cua": "Khoảng 7:15–17:00; máng trượt nhận khách đến ~16:30",
+   "hop_voi": "Gia đình, nhóm bạn, người thích mạo hiểm nhẹ",
+   "id": "thac-datanla",
+   "lat": 11.90417,
+   "lng": 108.44954,
+   "luu_y": "Vé tham quan và vé trò chơi tính riêng; số 1 và số 3 ở 2 ga khác nhau; đường xuống thác ~600 m, trơn khi mưa",
+   "nguon": "hoadalattravel.vn, newlifetravel.vn, mapcarta.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Thác đẹp, máng trượt Alpine Coaster là trò 'phải thử' ở Đà Lạt. Điểm yếu: vé tham quan 50.000đ (cũ) vs 80.000đ (11/2026); vé tham quan và vé trò tính riêng, số 1 và số 3 ở 2 ga khác nhau dễ nhầm. Hợp gia đình, nhóm bạn; đi 7:30–8:00 hoặc 11:30–12:30 tránh xếp hàng."
+   },
+   "ten": "Thác Datanla",
+   "thoi_gian": "2–3 giờ; đi 7:30–8:00 hoặc 11:30–12:30 để tránh xếp hàng"
+  },
+  {
+   "cach_trung_tam_km": 11,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 20 đường cao tốc Liên Khương – Prenn (QL20, Km 222), chân đèo Prenn, phường 3. Trong tổ hợp Tea Resort Prenn (~70 ha). Thác cao ~9–10 m, rộng ~20 m",
+   "gia_ve": "Giá cũ 30.000–50.000đ đã lỗi thời. Giá 2026: gói tham quan 110.000–288.000đ/người lớn tùy gói (Prenn Goodline 220.000đ ngày thường / 255.000đ lễ; + xe điện đền Hùng 270.000–299.000đ)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Gia đình, người lớn tuổi, đoàn riêng",
+   "id": "thac-prenn",
+   "lat": 11.87652,
+   "lng": 108.4701,
+   "luu_y": "Ghép cùng cung đèo Prenn (Datanla, Tuyền Lâm, Thiền viện); chọn gói vé trước ở quầy",
+   "nguon": "hoadalattravel.vn, mapcarta.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Thác trong tổ hợp Tea Resort Prenn mới, không gian rộng, hợp gia đình/người lớn tuổi. Điểm yếu: giá mới 110.000–288.000đ tùy gói, khác hẳn giá cũ 30.000–50.000đ; nhiều gói/combo dễ nhầm. Hợp gia đình; chọn gói vé trước ở quầy."
+   },
+   "ten": "Thác Prenn",
+   "thoi_gian": "2–3 giờ; bắt đầu từ 7:30 sáng"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 Ngô Quyền, phường 6 (phường Cam Ly theo tên mới), trên đồi Mai Anh. Kiến trúc Gothic Pháp + mái nhà rông, xây từ 1940",
+   "gia_ve": "Miễn phí (tọa độ chưa kiểm được chính xác — geocode lệch đường Mai Hắc Đế)",
+   "gio_mo_cua": "Tham quan tự do — khung tham khảo 7:00–17:00; nhiều nguồn ghi 7:00–11:00 & 14:00–17:00. Giờ lễ: ngày thường 17:00; Chủ nhật 5:45, 8:00 & 16:30",
+   "hop_voi": "Người yêu kiến trúc/lịch sử, cặp đôi chụp ảnh",
+   "id": "nha-tho-domaine",
+   "lat": 11.94848,
+   "lng": 108.43017,
+   "luu_y": "Nhà thờ + tu viện đang hoạt động — tránh giờ lễ, ăn mặc lịch sự",
+   "nguon": "hoadalattravel.vn, tatravel.vn, agotourist.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; hoadalattravel.vn",
+    "nhan_xet": "Nhà thờ đá hồng kiến trúc Gothic Pháp + mái nhà rông, chụp ảnh đẹp. Điểm yếu: tọa độ geocode lệch đường Mai Hắc Đế — chưa kiểm được chính xác; giờ tham quan nhiều khung (7:00–11:00 & 14:00–17:00). Hợp người yêu kiến trúc, cặp đôi; tránh giờ lễ."
+   },
+   "ten": "Nhà thờ Domaine de Marie (Nhà thờ Mai Anh)",
+   "thoi_gian": "30–60 phút; đẹp nhất 7:00–10:00 hoặc 14:00–16:00",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 1 Triệu Việt Vương, Đà Lạt, cách trung tâm ~2 km về phía tây nam",
+   "gia_ve": "30.000–60.000đ/người (các nguồn 2026 ghi khác nhau: 30.000đ theo tatinta.com 08/11/2026; 60.000đ người lớn/40.000đ trẻ em theo newlifetravel.vn, lamdongtours.com 11/2026 — kiểm lại tại cổng)",
+   "gio_mo_cua": "7:00–17:30 hằng ngày (newlifetravel.vn, tatravel.vn, tatinta.com; kiểm 08/11/2026)",
+   "hop_voi": "Người yêu lịch sử, gia đình",
+   "id": "dinh-bao-dai-3",
+   "lat": 11.9342,
+   "lng": 108.4318,
+   "luu_y": "Gần Đà Lạt, cùng cụm Hồ Tuyền Lâm – Crazy House – Thiền viện Trúc Lâm; 3 dinh dễ nhầm nhau (Dinh I/II/III ở 3 đồi khác nhau) — ghi rõ Dinh III; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "tripi.vn, vietfuntravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "tripi.vn; Google Maps; newlifetravel.vn",
+    "nhan_xet": "Dinh III là dinh Bảo Đại được tham quan nhiều nhất, kiến trúc Pháp và vườn thông đẹp, cách trung tâm ~2 km. Điểm yếu: giá vé các nguồn 2026 ghi khác nhau (30.000–60.000đ), nên hỏi tại cổng; 3 dinh dễ nhầm nhau (Dinh I/II/III ở 3 đồi khác nhau). Hợp người yêu lịch sử; ghép cùng Crazy House và Hồ Tuyền Lâm."
+   },
+   "ten": "Dinh Bảo Đại III (Dinh 3)",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 3 Huỳnh Thúc Kháng, Đà Lạt, cách chợ ~1,5–2 km",
+   "gia_ve": "Chưa kiểm được mức vé riêng — hỏi giá tại cổng",
+   "gio_mo_cua": "Ban ngày (chưa kiểm được giờ chính xác)",
+   "hop_voi": "Giới trẻ, gia đình có trẻ lớn",
+   "id": "biet-thu-hang-nga",
+   "lat": 11.937,
+   "lng": 108.4297,
+   "luu_y": "Gần Đà Lạt, cùng cụm Dinh III – Hồ Tuyền Lâm; lọt top 10 nhà kỳ lạ thế giới; cầu thang hẹp và dốc, không hợp người sợ độ cao/trẻ nhỏ chạy nhảy; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "tripi.vn, gtrip.vn, vietfuntravel.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "gtrip.vn; tripi.vn; Google Maps",
+    "nhan_xet": "Crazy House lọt top 10 nhà kỳ lạ thế giới, kiến trúc uốn lượn như cổ tích — điểm check-in độc nhất Đà Lạt. Điểm yếu: chưa kiểm được vé/giờ riêng; cầu thang hẹp và dốc, không hợp người sợ độ cao/trẻ nhỏ chạy nhảy. Hợp giới trẻ, gia đình có trẻ lớn; đi sáng, mang giày bệt."
+   },
+   "ten": "Biệt thự Hằng Nga (Crazy House)",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phía tây bắc Đà Lạt, hướng đi Làng Cù Lần – Langbiang (ĐT722), xã Lát cũ",
+   "gia_ve": "Miễn phí vào khu vực hồ; dịch vụ riêng thu thêm (chưa kiểm được)",
+   "gio_mo_cua": "Cả ngày; săn mây trước bình minh",
+   "hop_voi": "Người săn mây, nhiếp ảnh, nhóm bạn",
+   "id": "ho-suoi-vang",
+   "lat": 12.005,
+   "lng": 108.375,
+   "luu_y": "Gần Đà Lạt, cùng cung Suối Vàng – Làng Cù Lần – Langbiang (đã nhắc trong lịch trình 4N3Đ ngày 4); phải dậy rất sớm, đường đi tối và lạnh; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "dichoithoi.com, home.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "home.vn; Google Maps",
+    "nhan_xet": "Hồ Suối Vàng là điểm săn mây buổi sáng nổi tiếng, gần Làng Cù Lần – Langbiang. Điểm yếu: phải dậy rất sớm (trước bình minh), đường đi tối và lạnh; chưa kiểm được dịch vụ/giờ riêng. Hợp người săn mây, nhiếp ảnh; đi cùng cung Suối Vàng – Cù Lần, mang áo ấm."
+   },
+   "ten": "Hồ Suối Vàng",
+   "thoi_gian": "1,5–2,5 giờ (đi sáng sớm)",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Đồi chè Cầu Đất (Cầu Đất Farm)",
+   "gio": "Xuất phát 4:00-4:30 sáng, mây đẹp 5:00-6:30; mùa mây đẹp nhất tháng 8-12",
+   "nguon": "hoadalattravel.vn; caonguyentourist.com; newlifetravel.vn (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Xuân Hương",
+   "gio": "5:30-7:00 sáng sớm ánh sáng dịu, ít người; 16:30-18:00 hoàng hôn mặt hồ vàng ấm",
+   "nguon": "Kinh nghiệm chụp ảnh Đà Lạt — khung giờ vàng sáng sớm và chiều muộn (hoadalattravel.vn) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Tuyền Lâm",
+   "gio": "16:30-18:00 hoàng hôn, mặt hồ lặng phản chiếu rừng thông; sáng sớm 5:30-7:00 có sương mỏng trên mặt hồ",
+   "nguon": "Kinh nghiệm chụp ảnh Đà Lạt — khung giờ vàng sáng sớm và chiều muộn (hoadalattravel.vn) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "huong_dan_chia_tien_nhom": "Trước chuyến đi, cả nhóm lập quỹ chung: mỗi người đóng một khoản bằng nhau vào quỹ, cử 1 người giữ quỹ và ghi mọi khoản chi chung (ăn, xe, vé) vào một sổ chung (sổ giấy hoặc ghi chú điện thoại cả nhóm cùng xem được). Tiền ăn chung, tiền xe chung, vé tham quan chung thì trả từ quỹ; tiền riêng (mua sắm, ăn vặt riêng) mỗi người tự trả, không lấy từ quỹ. Cuối mỗi ngày, người giữ quỹ chốt sổ: đọc to các khoản đã chi trong ngày cho cả nhóm cùng đối chiếu. Cuối chuyến, tổng chi quỹ chia đều theo đầu người, thừa thì trả lại, thiếu thì mỗi người bù thêm phần bằng nhau. Giữ lại toàn bộ hóa đơn/biên lai đến khi chốt sổ xong.",
+ "khi_troi_mua": {
+  "dan": "Mưa nhỏ vẫn đi được các điểm có mái che trong trung tâm; mưa lớn thì bỏ thác, đồi chè và điểm xa, ở lại trung tâm ăn món nóng, ngồi cà phê ngắm mưa.",
+  "diem": [
+   "Ga Đà Lạt",
+   "Nhà thờ Domaine de Marie",
+   "Dinh Bảo Đại III",
+   "Biệt thự Hằng Nga (Crazy House)",
+   "Chợ Đà Lạt / chợ đêm"
+  ],
+  "nguon": "hoadalattravel.vn — 'Kinh nghiệm du lịch Đà Lạt mùa mưa' và '47 địa điểm du lịch Đà Lạt 2026' (ngày kiểm 08/11/2026)"
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ho-xuan-huong, quang-truong-lam-vien",
+    "hoat_dong": "Hồ Xuân Hương + Quảng trường Lâm Viên",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ga-da-lat, nha-tho-domaine",
+    "hoat_dong": "Ga Đà Lạt + Nhà thờ Domaine de Marie",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-da-lat",
+    "hoat_dong": "Chợ đêm + bánh tráng nướng + sữa đậu nành",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "thung-lung-tinh-yeu",
+    "hoat_dong": "Thung lũng Tình Yêu (hoặc Hồ Tuyền Lâm + Thiền viện Trúc Lâm — chọn 1 cụm)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-datanla, nui-langbiang",
+    "hoat_dong": "Thác Datanla (nếu chọn cụm Nam) hoặc Langbiang (nếu chọn cụm Bắc); tối về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ho-xuan-huong, quang-truong-lam-vien",
+    "hoat_dong": "Hồ Xuân Hương (đi bộ/đạp xe quanh hồ, 1–2 giờ) + Quảng trường Lâm Viên (30–45 phút)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ga-da-lat, nha-tho-domaine",
+    "hoat_dong": "Ga Đà Lạt (1–1,5 giờ) + Nhà thờ Domaine de Marie (30–60 phút)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cho-da-lat",
+    "hoat_dong": "Chợ đêm Đà Lạt (60–120 phút) + bánh tráng nướng + sữa đậu nành nóng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng sớm",
+    "gan": "doi-che-cau-dat",
+    "hoat_dong": "Đồi chè Cầu Đất săn mây (đi trước 8:30; 1,5–2,5 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Trưa–chiều",
+    "gan": "thung-lung-tinh-yeu",
+    "hoat_dong": "Thung lũng Tình Yêu (3–4 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "nui-langbiang",
+    "hoat_dong": "Núi Langbiang (jeep lên đồi Radar, 2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu gà lá é (nhóm 2–4 người)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-tuyen-lam, thien-vien-truc-lam",
+    "hoat_dong": "Hồ Tuyền Lâm (1,5–2,5 giờ) + Thiền viện Trúc Lâm (1–1,5 giờ, đi cáp treo Đồi Robin nếu thích)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-datanla",
+    "hoat_dong": "Thác Datanla (2–3 giờ, máng trượt)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về, trả phòng",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "ho-xuan-huong, quang-truong-lam-vien, ga-da-lat, cho-da-lat",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (trung tâm)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "doi-che-cau-dat, thung-lung-tinh-yeu, nui-langbiang",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (phía Bắc: Cầu Đất + Thung lũng Tình Yêu + Langbiang)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-tuyen-lam, thien-vien-truc-lam",
+    "hoat_dong": "Hồ Tuyền Lâm + Thiền viện Trúc Lâm",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "thac-datanla",
+    "hoat_dong": "Thác Datanla",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-cu-lan, ho-suoi-vang",
+    "hoat_dong": "Làng Cù Lần (nửa ngày, tính cả di chuyển) hoặc Hồ Suối Vàng",
+    "ngay": 4
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "dinh-bao-dai-3, biet-thu-hang-nga",
+    "hoat_dong": "Dinh Bảo Đại III + Biệt thự Hằng Nga (Crazy House), mua đặc sản, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "destination": "Đà Lạt, Lâm Đồng",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ngay_kiem": "05-06/11/2026",
+  "nguon_tong": [
+   "tatravel.vn",
+   "letsflytravel.vn",
+   "tripi.vn",
+   "newlifetravel.vn",
+   "abay.vn",
+   "hoadalattravel.vn",
+   "agotourist.com",
+   "gody.vn",
+   "booking.muongthanh.com",
+   "miti.vn",
+   "sigo.vn",
+   "dulichviet.com.vn",
+   "soctrangtourism.vn",
+   "motogo.vn",
+   "vexere.com",
+   "bestprice.vn",
+   "traveloka.com",
+   "lamdongtours.com",
+   "tatinta.com"
+  ],
+  "racehub": "CHƯA đối chiếu được với dữ liệu Racehub — đã tìm trong github-mining/racehub-repo (chỉ có danh sách tên tỉnh), racehub-page (chỉ có lịch giải chạy) và racehubrun.com (nền tảng chạy bộ, không có mục địa danh). Cần anh chỉ file/link.",
+  "region": "trung",
+  "status": "published"
+ },
+ "mua_thang": {
+  "mac_gi": "Mặc nhiều lớp: áo len mỏng hoặc áo nỉ + áo khoác chắn gió ban ngày; áo khoác dày + khăn choàng buổi tối; mang theo áo mưa mỏng hoặc ô gấp",
+  "mua": "Tháng chuyển giao từ mùa mưa (tháng 5–10) sang mùa khô (tháng 11–4); mưa giảm dần nhưng vẫn có thể mưa bất chợt buổi chiều",
+  "nguon": "newlifetravel.vn; weatherspark.com; worldweatheronline.com; thongxanhspa.com (ngày kiểm 08/11/2026)",
+  "nhiet_do": "Ban ngày 20–25°C; ban đêm và sáng sớm 14–16°C (13°C chỉ gặp ngày mưa), sương mù sáng sớm và chiều tối",
+  "thang": "11/2026"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "website Bệnh viện Hoàn Mỹ Đà Lạt — hoanmy.com/dalat (ngày kiểm 08/11/2026)",
+    "so": "0263 3510878",
+    "ten": "Bệnh viện Hoàn Mỹ Đà Lạt (khoa cấp cứu trực 24/24)"
+   }
+  ]
+ }
+}

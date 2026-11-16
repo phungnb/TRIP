@@ -1,0 +1,1080 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "300.000–410.000đ/kg (mua về); ăn tại quán 30.000–55.000đ/phần",
+   "mon": "Chả mực giã tay",
+   "nguon": "vinpearl.com, dulich9.com, tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Chả mực Hạ Long giã tay là đặc sản số 1 Quảng Ninh: dai, thơm mực, không pha bột. Mua về làm quà nên mua ở cửa hàng có ghi rõ nguồn gốc mực và giá niêm yết, giá khoảng 300.000-410.000đ/kg. Điểm trừ: nhiều hàng pha bột hoặc mực đông lạnh, ăn bở; nên ăn thử tại quán trước khi mua."
+   },
+   "quan": [
+    {
+     "dia_chi": "34 Đoàn Thị Điểm, Hòn Gai",
+     "gia": "30.000–55.000đ/phần",
+     "ten": "Bánh cuốn chả mực Bà Ngân"
+    },
+    {
+     "dia_chi": "18 Thương Mại, Hòn Gai",
+     "gia": "35.000–50.000đ/phần",
+     "ten": "Xôi chả mực Minh Hòa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–55.000đ/phần",
+   "mon": "Xôi chả mực",
+   "nguon": "tadiha.com, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Xôi chả mực là món sáng Hạ Long: xôi dẻo, chả mực giòn dai, hành phi thơm. Quán Bà Béo được nhiều người nhắc. Điểm trừ: ăn sáng muộn thường hết chả ngon, nên đi trước 8h."
+   },
+   "quan": [
+    {
+     "dia_chi": "Phố Thương Mại, Hòn Gai",
+     "gia": "20.000–55.000đ/phần",
+     "ten": "Xôi chả mực Bà Béo"
+    },
+    {
+     "dia_chi": "1 Lê Thánh Tông, Hòn Gai",
+     "gia": "30.000–40.000đ/phần (bún hải sản)",
+     "ten": "Ẩm thực làng chài"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/tô",
+   "mon": "Bún hải sản / bún bề bề",
+   "nguon": "vinpearl.com, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bún bề bề Hạ Long tươi, ngọt nước, giá bình dân. Ăn sáng là hợp nhất, quán Huy Chiên được nhiều người khen. Điểm trừ: bề bề theo mùa, trái mùa thịt ít và giá cao."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Thục Thoại, Hòn Gai (tổ 2 khu 6C)",
+     "gia": "40.000–60.000đ/tô",
+     "ten": "Bún bề bề Huy Chiên"
+    },
+    {
+     "dia_chi": "Cầu Trắng, Hà Tu, Hạ Long",
+     "gia": "40.000–50.000đ/tô",
+     "ten": "Bún bề bề Cầu Trắng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "70.000–120.000đ/phần",
+   "mon": "Bún xào ngán",
+   "nguon": "vinpearl.com, monkeymedia.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Ngán là đặc sản lạ của Quảng Ninh: con ngán giống ngao nhưng ngọt và béo hơn. Bún xào ngán thơm, lạ miệng, hợp người thích khám phá. Điểm trừ: không phải ai cũng ăn được vị ngán, giá khá cao theo mùa."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu đô thị Cái Dăm, Bãi Cháy (11 Phan Bội Châu)",
+     "gia": "100.000–440.000đ/người (thực đơn hải sản)",
+     "ten": "Nhà hàng Thiên Anh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "120.000–350.000đ/người",
+   "mon": "Hải sản Hạ Long (lẩu, nướng, hấp)",
+   "nguon": "suckhoecuocsong.vn, monkeymedia.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / TripAdvisor",
+    "nhan_xet": "Hải sản Hạ Long tươi và đa dạng, nhà hàng Hồng Hạnh được nhiều du khách khen vì giá niêm yết rõ ràng. Điểm trừ: nhà hàng khu Bãi Cháy mùa cao điểm giá cao, nên hỏi giá và cân trước; tránh quán không niêm yết."
+   },
+   "quan": [
+    {
+     "dia_chi": "Hòn Gai – Bãi Cháy (nhiều cơ sở: cs 1 Cột 5 Hòn Gai, cs 2, 3, 6)",
+     "gia": "200.000–350.000đ/người",
+     "ten": "Nhà hàng Hồng Hạnh"
+    },
+    {
+     "dia_chi": "66 Trần Hưng Đạo, Hòn Gai (chung cư Lideco: 76 Trần Hưng Đạo — 2 nguồn ghi khác nhau)",
+     "gia": "120.000–350.000đ/người",
+     "ten": "Nhà hàng Hương Duyên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–55.000đ/phần",
+   "mon": "Bánh cuốn chả mực",
+   "nguon": "vinpearl.com, suckhoecuocsong.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bánh cuốn chả mực là combo sáng đặc trưng Hạ Long: bánh cuốn mềm, chả mực dai giòn. Ăn sáng sớm là ngon nhất. Điểm trừ: quán nổi tiếng đông, phải chờ lâu cuối tuần."
+   },
+   "quan": [
+    {
+     "dia_chi": "Ngõ 1, Nhà Hát, Hạ Long",
+     "gia": "30.000–40.000đ/phần",
+     "ten": "Quán Cây Bàng"
+    },
+    {
+     "dia_chi": "Kiot C111 Phố cổ Sunworld, đường Hạ Long, Bãi Cháy",
+     "gia": "Từ ~50.000đ/phần",
+     "ten": "Chả mực 14+"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "60.000–300.000đ/món (tùy loại, theo giá chợ)",
+   "mon": "Sá sùng / sam biển",
+   "nguon": "vinpearl.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Sá sùng và sam biển là đặc sản đắt của Quảng Ninh, vị ngọt đậm, lạ miệng. Sam 7 món là trải nghiệm đáng thử một lần. Điểm trừ: giá cao và theo mùa, sam không tươi sẽ tanh; nên ăn ở nhà hàng có bể hải sản tươi sống nhìn thấy được, hỏi giá theo kg trước khi gọi món."
+   },
+   "quan": [
+    {
+     "dia_chi": "Bãi Cháy, Hạ Long (địa chỉ cụ thể chưa kiểm được số nhà)",
+     "gia": "200.000–300.000đ/người",
+     "ten": "Nhà hàng Phương Nam"
+    },
+    {
+     "dia_chi": "Bãi Cháy, Hạ Long",
+     "gia": "200.000–300.000đ/người; lẩu thuyền chài ~300.000đ/nồi",
+     "ten": "Nhà hàng Hoa Biển"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–50.000đ/tô",
+   "mon": "Bún cá cay Hạ Long (biến tấu)",
+   "nguon": "tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Foody / Google Maps / blog am thuc",
+    "nhan_xet": "Bún cá cay Hạ Long là biến tấu từ Hải Phòng, cá tươi vì gần biển. Ăn sáng nhanh gọn, giá bình dân. Điểm trừ: ít quán chuyên, nên ăn theo chỉ dẫn của người địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Hạ Long (địa chỉ cụ thể chưa kiểm được)",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Bún cá cay Ngự Uyển"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/món (chưa kiểm được mức hiện hành)",
+   "mon": "Gà đồi Tiên Yên / khâu nhục (đặc sản vùng)",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog am thuc",
+    "nhan_xet": "Gà đồi Tiên Yên thịt chắc, thơm, khâu nhục béo ngậy là món đãi khách của người Hoa vùng Tiên Yên. Hợp ăn trưa khi đi đường Hạ Long - Móng Cái. Điểm trừ: phải đặt trước vì làm mất thời gian, giá không rẻ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Huyện Tiên Yên, Quảng Ninh",
+     "gia": "150.000–300.000đ/món (khoảng tham khảo)",
+     "ten": "Nhà hàng khu vực Tiên Yên (trên đường Hạ Long – Móng Cái)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–300.000đ/người",
+   "mon": "Chả cá ót / lẩu thuyền chài",
+   "nguon": "suckhoecuocsong.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Lẩu thuyền chài là cách ăn hải sản đậm chất ngư dân Hạ Long: cá, mực, ngao nấu lẩu trên thuyền hoặc nhà hàng ven biển. Hợp ăn tối nhóm đông. Điểm trừ: giá theo người, ăn ít sẽ thấy đắt."
+   },
+   "quan": [
+    {
+     "dia_chi": "Bãi Cháy, Hạ Long",
+     "gia": "Lẩu ~300.000đ/nồi; 200.000–300.000đ/người",
+     "ten": "Nhà hàng Hoa Biển"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HN khứ hồi + xe HN–Hạ Long khứ hồi",
+   "uoc_tinh": "3.400.000–5.700.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng Bãi Cháy/Hòn Gai ~500.000–1.500.000đ/đêm)",
+   "uoc_tinh": "500.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (hải sản 1–2 bữa 200.000–350.000đ/người)",
+   "uoc_tinh": "600.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (tàu vịnh ~700.000–900.000đ + Bảo tàng + Sun World)",
+   "uoc_tinh": "800.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Đi lại nội thành + cáp treo Yên Tử (nếu đi)",
+   "uoc_tinh": "300.000–700.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "5.700.000–10.900.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu ngủ du thuyền 2N1Đ thay tàu ngày",
+   "uoc_tinh": "Cộng thêm ~1.000.000–2.500.000đ/người so với tàu ngày"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá từng món và xem cân trước khi chế biến; kiểm tra từng dòng hóa đơn trước khi trả; chụp lại hóa đơn; phản ánh qua đường dây nóng du lịch Quảng Ninh 0913 265 009.",
+   "nguon": "VietnamNet — Quảng Ninh: Bữa trưa gần 10 triệu đồng bị tố 'cân điêu, giá đểu' (06/04/2016): tàu bị phạt, tạm đình chỉ; đường dây nóng du lịch Quảng Ninh 0913 265 009 (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Ăn uống trên tàu du lịch vịnh Hạ Long: tàu Minh Hương từng bị đình chỉ vì gian lận hóa đơn — 3,2 kg thủy sâm giá 650.000đ/kg tính thành 3.080.000đ thay vì 2.080.000đ, tổng hóa đơn gần 10 triệu đồng; cân thiếu thực phẩm."
+  },
+  {
+   "cach_tranh": "Chọn nhà hàng có menu niêm yết giá từng món; hỏi giá trước khi gọi; giữ hóa đơn; nếu bị ép giá, gọi công an phường hoặc đường dây nóng du lịch.",
+   "nguon": "Dân Trí (đăng lại trên Pháp luật & Sức khỏe Đời sống) — Kết luận vụ khách chê bữa hải sản 2,3 triệu ở Hạ Long 'đắt', bị đuổi khỏi nhà hàng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Nhà hàng hải sản ở Bãi Cháy, Hòn Gai: vụ nhà hàng M.P (phường Hà Khẩu) bị khách tố bữa hải sản 2,3 triệu đồng 'đắt', chủ quán đuổi khách khi khách quay video; cơ quan chức năng yêu cầu niêm yết giá từng món thay vì bán theo mâm."
+  },
+  {
+   "cach_tranh": "So giá 2-3 sạp; sá sùng khô loại ngon giá khoảng 2-4 triệu đồng/kg, đừng tin giá rao đầu tiên; mua ở chợ Hạ Long 1, chợ Cái Dăm có uy tín.",
+   "nguon": "Tripmap — Sá sùng khô và hải sản khô Quảng Ninh: cách chọn, giá tham khảo, chợ mua (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Mua hải sản khô, sá sùng ở chợ Hạ Long, chợ Cái Dăm: giá chênh nhau rất lớn giữa các sạp, hàng loại một và loại thường dễ bị đánh tráo."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng/tàu.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; 100 triệu đồng là tổng của nhiều bị hại (từ tháng 6/2022), vụ tố giác cụ thể chỉ 8,86 triệu đồng (đặt 6 phòng + 11 vé tàu đi Cô Tô, 12/06/2023) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn, du thuyền đặt qua Facebook, Zalo: mạo danh chủ khách sạn, giá rẻ, yêu cầu cọc 30-50% rồi chặn liên lạc; nhiều vụ lừa đặt phòng ở Cô Tô, tổng khoảng 100 triệu đồng, đối tượng đã bị khởi tố."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Taxi dù, xe ôm ở bến xe Hạ Long, khu Bãi Cháy hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Đồ bơi, khăn tắm, kem chống nắng (tắm biển, đi vịnh)",
+  "Giày leo núi nhẹ (Yên Tử, Titop)",
+  "Áo khoác gió (đi tàu vịnh gió mạnh, Yên Tử trên cao lạnh)",
+  "Tiền mặt lẻ (chợ, quán nhỏ, vé qua cảng)",
+  "Thuốc say sóng (đi tàu vịnh/du thuyền)",
+  "Kiểm tra thời tiết + lệnh cấm tàu trước ngày ra vịnh (mùa bão 6–7)"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Vinpearl Resort & Spa Hạ Long",
+   "Khách sạn khu Bãi Cháy 3 sao",
+   "Du thuyền ngủ đêm vịnh Hạ Long (4–5 sao)",
+   "Homestay/khách sạn đảo Quan Lạn"
+  ],
+  "diem": [
+   "Vịnh Hạ Long (tàu tham quan VHL1/VHL2)",
+   "Vịnh Bái Tử Long",
+   "Đảo Quan Lạn (Minh Châu)",
+   "Đảo Cô Tô"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Khách sạn khu Bãi Cháy 4–5 sao (Mường Thanh, Novotel, Wyndham...)",
+   "Khách sạn khu Hòn Gai",
+   "Vinpearl Resort & Spa Hạ Long"
+  ],
+  "diem_chay": [
+   "Đường Trần Quốc Nghiễn ven vịnh Hạ Long (điểm xuất phát/về đích của giải)",
+   "Bãi biển Bãi Cháy buổi sáng sớm",
+   "Đường ven vịnh Bái Tử Long"
+  ],
+  "giai": [
+   {
+    "nguon": "Tuổi Trẻ — Khai mạc Giải Marathon Quốc Tế Di Sản Hạ Long 2025 (22/11/2025); Thương hiệu & Công luận — Giải Marathon quốc tế Di sản Hạ Long được cấp Nhãn Thế giới (13/10/2025) (ngày kiểm 08/11/2026)",
+    "ten": "Giải Marathon Quốc tế Di sản Hạ Long (Halong Bay Heritage Marathon)",
+    "thoi_gian": "Tháng 11 hằng năm (mùa 2025: 23/11/2025)"
+   },
+   {
+    "nguon": "Người Đưa Tin — Herbalife VN tiếp tục đồng hành cùng giải chạy VnExpress Marathon (VnExpress Marathon Hạ Long 2025, 30/5-1/6/2025) (ngày kiểm 08/11/2026)",
+    "ten": "VnExpress Marathon Hạ Long",
+    "thoi_gian": "Tháng 5-6 (mùa 2025: 30/5-1/6/2025)"
+   }
+  ],
+  "nguon": "Tuổi Trẻ về giải Halong Bay Heritage Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Cách trung tâm Bãi Cháy ~10 phút tàu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Rều, vịnh Hạ Long (đi tàu từ Bãi Cháy)",
+   "dien_thoai": "0203 3857 858",
+   "gia": "~2.600.000–3.250.000đ/đêm (Deluxe Garden/Ocean kèm buffet sáng, theo bảng giá tới 30/11/2026)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, cặp đôi nghỉ dưỡng cao cấp",
+   "khu_vuc": "bai-chay",
+   "nguon": "vinpearlresortvietnam.com",
+   "nguon_dien_thoai": "vinpearl.com; trang review cập nhật 06/11/2026 (ngày kiểm 08/11/2026); tổng đài 1900 2323 89 nhánh 3",
+   "ten": "Vinpearl Resort & Spa Hạ Long",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm khu du lịch Bãi Cháy, gần cảng tàu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hạ Long, phường Bãi Cháy",
+   "dien_thoai": null,
+   "gia": "~1.000.000–3.000.000đ/đêm (khoảng tham khảo, chưa kiểm được từng khách sạn)",
+   "hang": "4–5 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách đi vịnh",
+   "khu_vuc": "bai-chay",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu Bãi Cháy 4–5 sao (Mường Thanh, Novotel, Wyndham...)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần bãi biển Bãi Cháy, cảng tàu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Hạ Long / Vườn Đào, phường Bãi Cháy",
+   "dien_thoai": null,
+   "gia": "~500.000–1.000.000đ/đêm (khoảng tham khảo)",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi, gia đình nhỏ, khách tiết kiệm",
+   "khu_vuc": "bai-chay",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu Bãi Cháy 3 sao",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Bãi Cháy ~5 km qua cầu Bãi Cháy",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Quốc Nghiễn / Lê Thánh Tông, phường Hòn Gai",
+   "dien_thoai": null,
+   "gia": "~500.000–1.500.000đ/đêm (khoảng tham khảo)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách thích yên tĩnh, ăn uống địa phương rẻ hơn",
+   "khu_vuc": "hon-gai",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu Hòn Gai",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Bãi Cháy ~8 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Tuần Châu, TP Hạ Long",
+   "dien_thoai": "0366 604 585",
+   "gia": "~1.000.000–2.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Resort 4 sao",
+   "hop_voi": "Gia đình có trẻ nhỏ (gần khu vui chơi)",
+   "khu_vuc": "tuan-chau",
+   "nguon": "tructuyenvietnam.com",
+   "nguon_dien_thoai": "vnexpress.net, cafef.vn, kenh14.vn (bài 2026) (ngày kiểm 08/11/2026)",
+   "ten": "Resort Tuần Châu",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ngủ trên vịnh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xuất phát cảng Bãi Cháy/Tuần Châu",
+   "dien_thoai": null,
+   "gia": "~2.500.000–12.000.000đ/người/đêm tùy hạng du thuyền",
+   "hang": "Du thuyền",
+   "hop_voi": "Cặp đôi, gia đình muốn trải nghiệm vịnh trọn vẹn",
+   "khu_vuc": "bai-chay",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục danh mục, không phải một du thuyền cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Du thuyền ngủ đêm vịnh Hạ Long (4–5 sao)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hạ Long ~60 km + tàu",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Quan Lạn, Vân Đồn",
+   "dien_thoai": null,
+   "gia": "~300.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "Homestay/khách sạn nhỏ",
+   "hop_voi": "Nhóm bạn, cặp đôi thích biển hoang sơ",
+   "khu_vuc": "van-don",
+   "nguon": "mia.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay/khách sạn đảo Quan Lạn",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hạ Long ~35–40 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "TP Uông Bí",
+   "dien_thoai": null,
+   "gia": "~500.000–1.200.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+   "hang": "3–4 sao",
+   "hop_voi": "Khách hành hương Yên Tử, khách ở lại qua đêm mùa lễ hội",
+   "khu_vuc": "uong-bi",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Uông Bí (gần Yên Tử)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Hòn Gai hoặc Bãi Cháy",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hòn Gai / Bãi Cháy",
+   "dien_thoai": null,
+   "gia": "~300.000–600.000đ/đêm (khoảng tham khảo)",
+   "hang": "Homestay",
+   "hop_voi": "Nhóm bạn, gia đình nhỏ tiết kiệm",
+   "khu_vuc": "hon-gai",
+   "nguon": "phanvantravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay Hạ Long (khu Hòn Gai/Bãi Cháy)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Sun World Hạ Long (Công viên Rồng, cáp treo, combo đồi mặt trời) — các nguồn mâu thuẫn, chưa có bảng giá hiện hành",
+  "Giá vé bay SGN–VDO (Vân Đồn) và giá xe Vân Đồn–Hạ Long — chưa tra được",
+  "Giá xe khách HN–Hạ Long, phí cao tốc HN–Hạ Long hiện hành",
+  "Giá tàu Cái Rồng – Quan Lạn/Cô Tô hiện hành; giá tour vịnh Bái Tử Long",
+  "Giá vé vào khu giải trí Tuần Châu và giờ show chính xác (10:00/15:00/20:30 theo 1 nguồn)",
+  "Phí tham quan Yên Tử 0 đồng 2026–2028 (theo yeuhalong.com) — chưa đối chiếu văn bản chính thức",
+  "Thông tin 'Quảng Ninh thành thành phố trực thuộc trung ương từ 01/9/2026' (yeuhalong.com) — chưa đối chiếu nguồn chính thức, file vẫn ghi Quảng Ninh là tỉnh",
+  "Giờ mở cửa chính xác: Bảo tàng Quảng Ninh, Sun World, cáp treo Yên Tử",
+  "Địa chỉ nhà hàng Hương Duyên: 66 Trần Hưng Đạo vs 76 Trần Hưng Đạo — mâu thuẫn",
+  "Giá phòng từng khách sạn cụ thể ở Bãi Cháy/Hòn Gai — chỉ có khoảng chung theo khu vực",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 11/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Sun World Hạ Long (Công viên Rồng + Cáp treo Nữ Hoàng), Đảo Quan Lạn (Minh Châu), Hang Sửng Sốt, Làng chài Cửa Vạn. Chưa có tọa độ (null): Hang Sửng Sốt, Làng chài Cửa Vạn. Cần kiểm lại bằng bản đồ trước khi ghim app."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Quảng Ninh có đèo Bụt (quốc lộ 18, đoạn Hạ Long — Cẩm Phả, dốc dài, cua gấp) và đường lên Yên Tử (dốc dài, nhiều cua tay áo, sương mù dày buổi sáng, mặt đường trơn khi mưa). Đi xe máy: đi chậm, không vượt ở cua khuất, kiểm tra phanh; lên Yên Tử nên đi cáp treo nếu không quen đường đèo.",
+  "deo": [
+   "Đèo Bụt (quốc lộ 18, Hạ Long — Cẩm Phả, dốc dài, cua gấp)",
+   "Đường lên Yên Tử (dốc dài, nhiều cua tay áo, sương mù buổi sáng, trơn khi mưa)"
+  ],
+  "nguon": "Đèo Bụt và đường lên Yên Tử là tuyến đèo/dốc có thật của Quảng Ninh; chưa tra được bài báo riêng về tai nạn trên đèo Bụt (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay quốc tế Vân Đồn (VDO) cách Hạ Long ~50 km, ~1 giờ đi xe; ít chuyến hơn Nội Bài. Đa số khách từ TP.HCM bay ra Hà Nội rồi đi xe xuống Hạ Long.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Nhiều hãng, đón tận nơi Hà Nội; chuyến dày từ sáng sớm tới tối",
+    "gia": "~200.000–350.000đ/vé",
+    "nguon": "phanvantravel.com",
+    "phuong_tien": "Xe limousine HN–Hạ Long",
+    "thoi_gian": "~2–2,5 giờ (cao tốc ~155 km)"
+   },
+   {
+    "ghi_chu": "Bến Mỹ Đình/Gia Lâm – bến xe Hạ Long",
+    "gia": "~120.000–200.000đ/vé (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức hiện hành — xem mục 9",
+    "phuong_tien": "Xe khách HN–Hạ Long",
+    "thoi_gian": "~2,5–3,5 giờ"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Phí cao tốc ~250.000–350.000đ/lượt (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được mức phí hiện hành — xem mục 9",
+    "phuong_tien": "Ô tô riêng (cao tốc HN–Hạ Long)",
+    "thoi_gian": "~2 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "~1 giờ; nên đặt xe trước vì sân bay vắng",
+    "gia": "~500.000–800.000đ/chuyến (50 km; chưa kiểm được mức chính xác)",
+    "nguon": "Chưa kiểm được mức chính xác — xem mục 9",
+    "phuong_tien": "Taxi/xe riêng Vân Đồn – Hạ Long"
+   },
+   {
+    "ghi_chu": "Chạy theo giờ bay",
+    "gia": "~50.000–100.000đ/lượt (chưa kiểm được mức chính xác)",
+    "nguon": "Chưa kiểm được — xem mục 9",
+    "phuong_tien": "Xe buýt Vân Đồn – Hạ Long"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Phương án phổ biến nhất; xe limousine đón tại Nội Bài/sân bay",
+    "gia": "Vé bay một chiều ~1.500.000–2.500.000đ + xe limousine HN–Hạ Long ~200.000–350.000đ",
+    "nguon": "traveloka.com, phanvantravel.com",
+    "phuong_tien": "Máy bay SGN–HAN + xe HN–Hạ Long",
+    "thoi_gian": "Bay ~2 giờ + xe ~2–2,5 giờ (cao tốc HN–HP–Hạ Long ~155 km)"
+   },
+   {
+    "ghi_chu": "Ít chuyến, kiểm lịch bay trước; hợp đi Quan Lạn/Cô Tô",
+    "gia": "Vé một chiều tùy thời điểm (ít chuyến, giá thường cao hơn bay HN — chưa kiểm được khoảng)",
+    "nguon": "Chưa kiểm được khoảng giá — xem mục 9",
+    "phuong_tien": "Máy bay SGN–VDO (Vân Đồn)",
+    "thoi_gian": "Bay ~2 giờ + xe Vân Đồn–Hạ Long ~1 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Hợp đi Bãi Cháy – Hòn Gai – Tuần Châu; đường ven biển đẹp",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be có ở Hạ Long; đi Yên Tử/Uông Bí nên thuê xe trọn ngày",
+   "gia": "~11.500–16.000đ/km; đi lại 3N2Đ ước tính ~300.000–600.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab / Be"
+  },
+  {
+   "ghi_chu": "Mua tại cảng Bãi Cháy/Tuần Châu hoặc qua hãng tour; hỏi rõ đã gồm phí tham quan chưa",
+   "gia": "Tổng ~700.000–900.000đ/khách/tuyến 4–6 giờ (gồm phí tham quan + tàu + ăn trưa); du thuyền 2N1Đ từ ~1.900.000đ/khách",
+   "giay_to": "",
+   "nguon": "bestprice.vn",
+   "phuong_tien": "Tàu tham quan vịnh (ghép đoàn)"
+  },
+  {
+   "ghi_chu": "Tuyến Bãi Cháy – Hòn Gai – Tuần Châu",
+   "gia": "~10.000–20.000đ/lượt (chưa kiểm được mức chính xác)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được mức chính xác — xem mục 9",
+   "phuong_tien": "Xe buýt nội thành Hạ Long"
+  },
+  {
+   "ghi_chu": "Hợp đi Yên Tử + Bái Tử Long trong ngày",
+   "gia": "Xe 4 chỗ ~900.000–1.200.000đ/ngày; 7 chỗ ~1.000.000–1.500.000đ/ngày (khoảng chung miền Bắc)",
+   "giay_to": "",
+   "nguon": "agotourist.com (khoảng chung)",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "bai-chay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xuất phát từ cảng tàu Bãi Cháy hoặc Tuần Châu, TP Hạ Long",
+   "gia_ve": "Phí tham quan VHL1/VHL2/VHL5: 250.000đ/người; VHL3/VHL4: 200.000đ; VHL6: 150.000đ; VHL7: 600.000đ; VHL8: 70.000đ. Chưa gồm vé qua cảng 60.000đ/lượt và tiền tàu (tàu ghép 4–6 giờ thường tổng ~700.000–900.000đ/khách cả phí + tàu + ăn)",
+   "gio_mo_cua": "Tàu chạy ban ngày, thường 7:30–17:00; dừng chạy khi có bão/cảnh báo thời tiết",
+   "hop_voi": "Mọi đối tượng; gia đình, cặp đôi, nhóm bạn",
+   "id": "vinh-ha-long",
+   "lat": 20.9084384,
+   "lng": 107.0682782,
+   "luu_y": "VHL1: Thiên Cung – Đầu Gỗ – Đỉnh Hương; VHL2: Sửng Sốt – Titop; hỏi rõ tuyến + đã gồm phí tham quan chưa trước khi mua",
+   "nguon": "yeuhalong.com, tructuyenvietnam.com, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / dulichfun.com / mia.vn",
+    "nhan_xet": "Vịnh Hạ Long vẫn là điểm đáng đi nhất miền Bắc, cảnh đá vôi trên biển không nơi nào giống. Kinh nghiệm chung của du khách: tuyến 2 (6 tiếng, có Sửng Sốt và Ti Tốp) đáng hơn tuyến 1; bữa trưa trên tàu bình dân thường đơn giản nên mang thêm đồ ăn nhẹ. Nên đi tháng 3-5 hoặc 9-11, tránh tháng 6-7 vì bão có thể cấm tàu."
+   },
+   "ten": "Vịnh Hạ Long (tàu tham quan VHL1/VHL2)",
+   "thoi_gian": "4–6 giờ (tuyến ngày); 2 ngày 1 đêm nếu ngủ du thuyền"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "bai-chay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Bãi Cháy, TP Hạ Long (bãi nhân tạo dài ~1.000 m)",
+   "gia_ve": "Miễn phí vào bãi; ghế/dù/tắm tráng tính riêng (chưa kiểm được mức)",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "bai-chay",
+   "lat": 20.9447297,
+   "lng": 107.0447138,
+   "luu_y": "Bãi nhân tạo, cát không mịn như biển tự nhiên; đông nhất chiều hè",
+   "nguon": "bestprice.vn, tructuyenvietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Bãi tắm nhân tạo dài, tiện vì ngay khu du lịch Bãi Cháy, hợp gia đình có trẻ nhỏ. Nước biển ở mức tạm, không trong như biển đảo. Cuối tuần và mùa hè rất đông, giá dịch vụ quanh bãi cao; đi sáng sớm sẽ vắng và mát hơn."
+   },
+   "ten": "Bãi biển Bãi Cháy",
+   "thoi_gian": "1–2 giờ (tắm biển, dạo biển)"
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "bai-chay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Bãi Cháy, TP Hạ Long",
+   "gia_ve": "Công viên Rồng ~150.000đ/khách; cáp treo +150.000đ/khách (theo 1 nguồn cũ); combo đồi mặt trời 360.000đ/người lớn, 260.000đ/trẻ em (cáp treo +300.000đ) — các mức mâu thuẫn, cần kiểm lại tại quầy",
+   "gio_mo_cua": "~9:00–21:00 (giờ chính xác theo mùa — kiểm lại)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn thích trò chơi",
+   "id": "sun-world-ha-long",
+   "lat": 20.9517,
+   "lng": 107.0367,
+   "luu_y": "Cáp treo qua vịnh ngắm toàn cảnh Hạ Long; vòng quay Sun Wheel trên đồi Ba Đèo Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "tructuyenvietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Khu vui chơi lớn nhất Hạ Long, cáp treo Nữ Hoàng ngắm vịnh từ trên cao là điểm đáng tiền nhất. Công viên nước và công viên Rồng hợp gia đình có trẻ lớn. Điểm trừ: vé khá cao, một số trò đóng theo mùa và xếp hàng lâu vào cuối tuần."
+   },
+   "ten": "Sun World Hạ Long (Công viên Rồng + Cáp treo Nữ Hoàng)",
+   "thoi_gian": "Nửa ngày–1 ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 8,
+   "cum": "tuan-chau",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Tuần Châu, TP Hạ Long",
+   "gia_ve": "Khu giải trí Tuần Châu khách lẻ ~250.000đ/người (gồm show cá heo, trò chơi, phim 5D — theo 1 nguồn); công viên King Kong ~100.000đ/khách",
+   "gio_mo_cua": "Show: 10:00, 15:00, 20:30 hằng ngày (theo 1 nguồn — kiểm lại)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "tuan-chau",
+   "lat": 20.9284916,
+   "lng": 106.9701928,
+   "luu_y": "Đảo có bãi tắm riêng, khu vui chơi; cảng Tuần Châu cũng là điểm xuất phát tàu ra vịnh",
+   "nguon": "tructuyenvietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Tuần Châu tiện làm bến tàu đi vịnh và có bãi biển riêng, nhưng khu vui chơi trên đảo đã xuống cấp so với thời hoàng kim, nhiều du khách nhận xét chỉ còn hợp nghỉ dưỡng ngắn. Nên ở đây nếu đi tour vịnh xuất phát từ cảng Tuần Châu, không cần xếp riêng một ngày."
+   },
+   "ten": "Đảo Tuần Châu",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "hon-gai",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Quốc Nghiễn, phường Hòn Gai, TP Hạ Long (cạnh Cung Quy hoạch)",
+   "gia_ve": "Người lớn 40.000đ; học sinh–sinh viên 20.000đ; trẻ em 10.000đ/lượt",
+   "gio_mo_cua": "~8:00–17:00 (chưa kiểm được chính xác; đóng cửa thứ Hai theo một số nguồn)",
+   "hop_voi": "Mọi đối tượng, gia đình, người yêu lịch sử vùng mỏ",
+   "id": "bao-tang-quang-ninh",
+   "lat": 20.9486771,
+   "lng": 107.0975562,
+   "luu_y": "Kiến trúc kính đen nổi bật bên bờ vịnh; trưng bày than đá – lịch sử thợ mỏ",
+   "nguon": "tructuyenvietnam.com, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / blog du lich",
+    "nhan_xet": "Bảo tàng kiến trúc lạ, trưng bày than và lịch sử vùng mỏ khá hay, vé rẻ. Tham quan 1-1,5 giờ là đủ, hợp đi buổi trưa nắng hoặc ngày mưa. Điểm trừ là một số khu trưng bày ít tương tác, trẻ nhỏ dễ chán."
+   },
+   "ten": "Bảo tàng Quảng Ninh",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 40,
+   "cum": "uong-bi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thượng Yên Công, TP Uông Bí (nay thuộc Quảng Ninh)",
+   "gia_ve": "Phí tham quan Yên Tử 0 đồng giai đoạn 2026–2028 (theo yeuhalong.com); cáp treo khứ hồi 2 chặng 280.000đ/người lớn, 200.000đ/trẻ em; 1 chặng khứ hồi 180.000đ/người lớn; 1 chiều 1 chặng 100.000đ/người lớn",
+   "gio_mo_cua": "Cáp treo ~7:00–18:00 (theo mùa lễ hội kéo dài hơn — kiểm lại)",
+   "hop_voi": "Khách hành hương, người thích leo núi, gia đình",
+   "id": "yen-tu",
+   "lat": 21.1607827,
+   "lng": 106.7149285,
+   "luu_y": "Mùa lễ hội tháng 1–3 âm lịch rất đông; leo bộ từ chùa Hoa Yên lên chùa Đồng ~1,5–2 giờ, đường dốc đá",
+   "nguon": "yeuhalong.com, tructuyenvietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / dulich9.com / soctrangtourism.vn",
+    "nhan_xet": "Yên Tử là hành trình tâm linh đáng đi nhất Quảng Ninh: cáp treo 2 tuyến tiện, chùa Đồng trên đỉnh 1.068 m là đích đến. Đi cáp treo rồi vẫn phải leo vài trăm bậc cuối, người yếu sức nên tính trước. Tháng 1-3 âm lịch lễ hội đông nghẹt, xếp cáp treo có khi 30-60 phút; đi ngày thường tháng 4 hoặc 9-11 thoáng hơn nhiều."
+   },
+   "ten": "Khu di tích Yên Tử (chùa Đồng 1.068 m)",
+   "thoi_gian": "Nửa ngày–1 ngày (leo bộ + cáp treo)"
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "uong-bi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Quang Trung, TP Uông Bí",
+   "gia_ve": "Miễn phí vào chùa (công đức tùy tâm); gửi xe ~10.000–20.000đ",
+   "gio_mo_cua": "~7:00–21:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, gia đình",
+   "id": "chua-ba-vang",
+   "lat": 21.0685509,
+   "lng": 106.7642261,
+   "luu_y": "Chùa lớn trên núi, view thành phố Uông Bí; đông dịp lễ",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Chùa Ba Vàng to, mới và sạch sẽ, hợp hành hương và chụp ảnh kiến trúc. Lễ hội và khóa tu thu hút rất đông phật tử. Ai thích chùa cổ thì sẽ thấy nơi này hơi mới và thương mại; nên đi ngày thường để tránh đông."
+   },
+   "ten": "Chùa Ba Vàng",
+   "thoi_gian": "1–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "van-don",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phía đông bắc vịnh Hạ Long, xuất phát từ cảng Cái Rồng (Vân Đồn) hoặc Hòn Gai",
+   "gia_ve": "Phí tham quan theo tuyến, thường thấp hơn vịnh Hạ Long (chưa kiểm được bảng phí hiện hành); tour ghép ~700.000–1.000.000đ/khách/ngày (khoảng tham khảo)",
+   "gio_mo_cua": "Tàu chạy ban ngày, theo thời tiết",
+   "hop_voi": "Người thích vịnh vắng, cặp đôi, nhóm bạn",
+   "id": "vinh-bai-tu-long",
+   "lat": 20.9260645,
+   "lng": 107.2552099,
+   "luu_y": "Ít khách hơn Hạ Long, hoang sơ hơn; có đảo Quan Lạn, đền Cửa Ông gần đó",
+   "nguon": "yeuhalong.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Bái Tử Long là phương án yên tĩnh hơn Hạ Long: cùng đá vôi, cùng biển xanh nhưng ít tàu và ít khách hơn. Hợp người đã đi Hạ Long rồi và muốn đổi gió, hoặc muốn ngủ đêm trên vịnh vắng. Điểm trừ là ít lựa chọn tour và tàu, phải đặt trước."
+   },
+   "ten": "Vịnh Bái Tử Long",
+   "thoi_gian": "1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "van-don",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Vân Đồn, đi tàu từ cảng Cái Rồng ~45–60 phút",
+   "gia_ve": "Tàu cao tốc Cái Rồng – Quan Lạn ~150.000–200.000đ/chiều (chưa kiểm được mức hiện hành); bãi Minh Châu miễn phí",
+   "gio_mo_cua": "Tàu theo giờ, ban ngày",
+   "hop_voi": "Nhóm bạn, cặp đôi thích biển hoang sơ",
+   "id": "dao-quan-lan",
+   "lat": 21.0167,
+   "lng": 107.5167,
+   "luu_y": "Biển trong, cát trắng; đảo ít dịch vụ, mang tiền mặt; tàu dừng khi biển động Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Quan Lạn hoang sơ, bãi Minh Châu cát trắng mịn được nhiều du khách khen nhất vùng. Đảo còn ít dịch vụ, điện nước thỉnh thoảng chập chờn, hợp người thích yên tĩnh. Nên đi tháng 4-6, tránh tháng 7-9 vì bão có thể kẹt tàu."
+   },
+   "ten": "Đảo Quan Lạn (Minh Châu)",
+   "thoi_gian": "1–2 ngày (ngủ lại đảo)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "hon-gai",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Nối Bãi Cháy – Hòn Gai qua vịnh Cửa Lục, TP Hạ Long",
+   "gia_ve": "Miễn phí (đi xe qua cầu); chợ đêm Hòn Gai ăn vặt 15.000–50.000đ/món",
+   "gio_mo_cua": "Cầu 24/7; chợ đêm ~18:00–23:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cau-bai-chay",
+   "lat": 20.9601587,
+   "lng": 107.0657899,
+   "luu_y": "Cầu dây văng biểu tượng Hạ Long, đẹp nhất khi lên đèn buổi tối",
+   "nguon": "bestprice.vn, tructuyenvietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Cầu Bãi Cháy đẹp nhất lúc lên đèn buổi tối, ngắm từ phố Hòn Gai hoặc đi dọc bờ biển. Không phải điểm tham quan riêng, hợp ghé kết hợp khi dạo phố đêm Hòn Gai. Buổi tối cuối tuần khu vực cầu khá đông xe."
+   },
+   "ten": "Cầu Bãi Cháy + phố đêm Hòn Gai",
+   "thoi_gian": "30–60 phút buổi tối"
+  },
+  {
+   "cach_trung_tam_km": 90,
+   "cum": "van-don",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Cô Tô, đi tàu từ cảng Cái Rồng ~60–90 phút",
+   "gia_ve": "Tàu cao tốc ~250.000–300.000đ/chiều (chưa kiểm được mức hiện hành); bãi tắm miễn phí",
+   "gio_mo_cua": "Tàu theo giờ, ban ngày",
+   "hop_voi": "Nhóm bạn, cặp đôi thích biển đảo xa",
+   "id": "dao-co-to",
+   "lat": 20.9834694,
+   "lng": 107.7619117,
+   "luu_y": "Biển đẹp nhất miền Bắc nhưng xa, tàu phụ thuộc thời tiết; mùa bão (6–7) có thể kẹt đảo",
+   "nguon": "mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "wikidulich.com / dulich9.com / pinyourfootsteps.com",
+    "nhan_xet": "Cô Tô là đảo đẹp nhất Quảng Ninh: biển trong, cát trắng, nhất là bãi Vàn Chảy và đảo Cô Tô Con. Điểm trừ lớn là rủi ro thời tiết: tháng 7-9 bão có thể kẹt cả tuần, trên đảo hay mất điện và không có hiệu thuốc. Nên đi tháng 4-6, đặt phòng trước, mang thuốc cơ bản và thuốc say sóng."
+   },
+   "ten": "Đảo Cô Tô",
+   "thoi_gian": "2–3 ngày (ngủ lại đảo)"
+  },
+  {
+   "cach_trung_tam_km": 110,
+   "cum": "bien-gioi",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Bình Liêu, biên giới phía bắc Quảng Ninh, cách Hạ Long ~110 km",
+   "gia_ve": "Miễn phí leo mốc biên giới/cột cờ (chưa gồm xe ôm chở lên ~50.000–100.000đ/lượt — chưa kiểm được)",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Người thích trekking, phượt, săn cỏ lau (tháng 10–11)",
+   "id": "binh-lieu",
+   "lat": 21.5261707,
+   "lng": 107.4006001,
+   "luu_y": "Đường biên giới, mang CCCD; mùa cỏ lau tháng 10–11 đẹp nhất; đường núi quanh co",
+   "nguon": "phanvantravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Bình Liêu hợp phượt thủ và người thích săn mây, cỏ lau: sống lưng khủng long và cột mốc biên giới là điểm nhấn. Đường đi xa (cách Hạ Long ~110 km), đường núi quanh co, dịch vụ còn ít. Mùa cỏ lau tháng 10-11 đẹp nhất nhưng cũng đông nhất; đi ngày thường trong tuần sẽ vắng hơn."
+   },
+   "ten": "Bình Liêu (sống lưng khủng long, cỏ lau)",
+   "thoi_gian": "1–2 ngày (đi từ Hạ Long)"
+  },
+  {
+   "cach_trung_tam_km": 8,
+   "cum": "vinh-ha-long",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vịnh Hạ Long, cách cảng Bãi Cháy ~7–8 km về phía đông nam (đi tàu tuyến 2)",
+   "gia_ve": "Vé thắng cảnh tuyến 2 khoảng 290.000đ/người (chưa gồm tiền tàu; theo dulichfun.com, mia.vn — chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Theo giờ tàu tuyến 2 (thường 8:00–16:00)",
+   "hop_voi": "Người đi tour vịnh, thích tắm biển và ngắm toàn cảnh",
+   "id": "dao-ti-top",
+   "lat": 20.862601,
+   "lng": 107.067218,
+   "luu_y": "Leo khoảng 400 bậc lên đỉnh ngắm toàn cảnh vịnh; bãi cát nhỏ, mùa hè đông và nắng gắt; tọa độ theo Wikipedia (đảo Ti Tốp)",
+   "nguon": "Wikipedia, dulichfun.com, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichfun.com / mia.vn / TripAdvisor",
+    "nhan_xet": "Đảo Ti Tốp là điểm tắm biển và ngắm toàn cảnh vịnh Hạ Long từ trên cao sau khi leo khoảng 400 bậc. Điểm mạnh: bãi cát đẹp, view 360 độ đáng công leo. Điểm trừ: chỉ đi được theo tuyến 2, mùa hè đông và nắng gắt; nên đi buổi sáng."
+   },
+   "ten": "Đảo Ti Tốp",
+   "thoi_gian": "1–1,5 giờ trên đảo (trong tour tuyến 2)"
+  },
+  {
+   "cach_trung_tam_km": 14,
+   "cum": "vinh-ha-long",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đảo Bồ Hòn, vịnh Hạ Long, đối diện đảo Ti Tốp (đi tàu tuyến 2)",
+   "gia_ve": "Vé thắng cảnh tuyến 2 khoảng 290.000đ/người (chưa gồm tiền tàu; theo dulichfun.com, mia.vn — chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Theo giờ tàu tuyến 2 (thường 8:00–16:00)",
+   "hop_voi": "Mọi đối tượng đi tour vịnh",
+   "id": "hang-sung-sot",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Hang lớn nhất vịnh Hạ Long; cuối tuần đông, phải xếp hàng vào hang; đi bộ trong hang có đoạn trơn Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "dulichfun.com, mia.vn, paradisevietnam.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulichfun.com / mia.vn / TripAdvisor",
+    "nhan_xet": "Hang Sửng Sốt là hang lớn và đẹp nhất vịnh Hạ Long, thạch nhũ nhiều hình thù. Điểm mạnh: hang rộng, đi trong mát, hợp mọi lứa tuổi. Điểm trừ: nằm trong tuyến 2 nên phải đi tàu cả ngày; cuối tuần đông, phải xếp hàng vào hang."
+   },
+   "ten": "Hang Sửng Sốt",
+   "thoi_gian": "45–60 phút trong hang (trong tour tuyến 2)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "vinh-ha-long",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Vịnh Hạ Long, cách cảng Tuần Châu ~20 km đường biển (đi tour riêng)",
+   "gia_ve": "Đi theo tour riêng, giá theo tour (chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Theo giờ tour (thường 8:00–16:00)",
+   "hop_voi": "Người thích văn hóa ngư dân, chèo kayak",
+   "id": "lang-chai-cua-van",
+   "lat": null,
+   "lng": null,
+   "luu_y": "Làng chài nổi lớn nhất vịnh, xem nuôi trai lấy ngọc và chèo kayak quanh nhà bè; phải đặt tour trước Tọa độ xấp xỉ, cần kiểm lại (chưa xác định được tọa độ chính xác trên bản đồ công khai).",
+   "nguon": "mia.vn, Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn / Google Maps / blog du lich",
+    "nhan_xet": "Làng chài Cửa Vạn là làng chài nổi lớn nhất vịnh Hạ Long, xem nuôi trai lấy ngọc và chèo kayak quanh nhà bè. Điểm mạnh: trải nghiệm văn hóa ngư dân thật, yên tĩnh hơn các điểm đông khách. Điểm trừ: phải đi tour riêng, giá cao hơn tour tuyến 1-2; nên đặt tour trước."
+   },
+   "ten": "Làng chài Cửa Vạn",
+   "thoi_gian": "1–2 giờ (trong tour)",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Vịnh Hạ Long",
+   "gio": "5:30-7:00 sáng bình minh (sương mờ trên vịnh; mùa đông mặt trời mọc ~6:30) hoặc 16:30-17:30 hoàng hôn trên du thuyền (tháng 11, mặt trời lặn 17:12; khung 17:30-18:30 chỉ đúng mùa hè)",
+   "nguon": "Halong Hub — Halong Bay Sunset and Sunrise; Paradise Vietnam — Halong Bay Sunset: hoàng hôn khoảng 18h mùa hè, 17h30 mùa đông; weather.com 08/11/2026: tháng 11 mặt trời mọc 5:57, lặn 17:12 (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Bãi biển Bãi Cháy",
+   "gio": "16:30-18:00 hoàng hôn trên biển",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Khu di tích Yên Tử",
+   "gio": "6:00-8:00 sáng, sương mờ trên núi, ít đông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa to/bão thì tàu vịnh cấm chạy — ở lại bờ, đi bảo tàng, chùa; chỉ đi hang khi tàu vẫn chạy bình thường. (Cập nhật 08/11/2026: bỏ Hang Sửng Sốt vì mưa to/bão tàu cấm chạy thì không tới được.)",
+  "diem": [
+   "Bảo tàng Quảng Ninh",
+   "Chùa Ba Vàng"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-quang-ninh, bai-chay",
+    "hoat_dong": "Tới Hạ Long; Bảo tàng Quảng Ninh + Bãi Cháy",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "vinh-ha-long",
+    "hoat_dong": "Tàu vịnh Hạ Long tuyến VHL1 (4 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cau-bai-chay",
+    "hoat_dong": "Hải sản Hòn Gai",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "sun-world-ha-long, tuan-chau",
+    "hoat_dong": "Sun World cáp treo Nữ Hoàng hoặc Tuần Châu",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-quang-ninh",
+    "hoat_dong": "Tới Hạ Long; ăn sáng bún hải sản/xôi chả mực ở Hòn Gai",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bao-tang-quang-ninh, bai-chay",
+    "hoat_dong": "Bảo tàng Quảng Ninh + cầu Bãi Cháy; tắm biển Bãi Cháy",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cau-bai-chay",
+    "hoat_dong": "Hải sản Hòn Gai (Hồng Hạnh); chợ đêm Hòn Gai",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "vinh-ha-long",
+    "hoat_dong": "Tàu tham quan vịnh Hạ Long tuyến VHL2 (Sửng Sốt – Titop, 4–6 giờ) hoặc du thuyền 2N1Đ",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "sun-world-ha-long",
+    "hoat_dong": "Sun World cáp treo Nữ Hoàng ngắm vịnh về đêm (nếu còn sức)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "yen-tu",
+    "hoat_dong": "Yên Tử: cáp treo lên chùa Đồng (nửa ngày)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "tuan-chau",
+    "hoat_dong": "Về Hạ Long, ghé Tuần Châu (show cá heo) nếu còn thời gian; về",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "bao-tang-quang-ninh, bai-chay",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (Hòn Gai – Bãi Cháy)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "vinh-ha-long",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (vịnh Hạ Long)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "yen-tu, chua-ba-vang",
+    "hoat_dong": "Yên Tử + chùa Ba Vàng (Uông Bí)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "vinh-bai-tu-long, dao-quan-lan",
+    "hoat_dong": "Vịnh Bái Tử Long hoặc đảo Quan Lạn (1 ngày); tối về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "Hạ Long",
+  "best_season": "Tháng 9–11 (thu, trời trong, vịnh đẹp nhất) và tháng 3–5; tránh tháng 6–7 cao điểm bão, tàu vịnh có thể cấm chạy",
+  "destination": "Quảng Ninh, Quảng Ninh",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "quang-ninh",
+  "lat": 20.9599,
+  "lng": 107.0425,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Vịnh Hạ Long – Di sản UNESCO với gần 2.000 đảo đá vôi; Bãi Cháy – Tuần Châu sôi động, Hòn Gai trầm lắng với bảo tàng; Yên Tử là kinh đô Phật giáo Trúc Lâm. Đi vịnh bằng tàu/du thuyền là trải nghiệm chính.",
+  "province": "Quảng Ninh",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "núi",
+   "tâm linh"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "vinpearl.com; nvktravel.com",
+  "thang_dep_nhat": "Tháng 3–5 và tháng 9–11; tránh tháng 6–7 cao điểm bão"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "Website chính thức của bệnh viện (bvlvpqn.vn) — Điện thoại: 0203.3825489 – 0203.3825499 (ngày kiểm 08/11/2026)",
+    "so": "0203 3825 489",
+    "ten": "Bệnh viện Đa khoa tỉnh Quảng Ninh"
+   },
+   {
+    "ten": "Bệnh viện Đa khoa tỉnh Quảng Ninh (số thứ hai)",
+    "so": "0203 3825 499",
+    "nguon": "bvlvpqn.vn + Sở Y tế Quảng Ninh (ngày kiểm 08/11/2026)"
+   }
+  ]
+ }
+}

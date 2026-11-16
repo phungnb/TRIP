@@ -1,0 +1,989 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–65.000đ/tô",
+   "mon": "Mì Quảng",
+   "nguon": "mytour.vn, lofita.vn, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn, lofita.vn, zalopay.vn",
+    "nhan_xet": "Mì Quảng là món phải ăn ở Đà Nẵng: nước dùng sâm sấp, tôm thịt đậm đà, bánh tráng nướng giòn; quán Bà Mua được nhiều nguồn gọi là điểm đến hàng đầu. Giá 20.000–65.000đ/tô; nên ăn sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "19 Trần Bình Trọng (CN: 44 Lê Đình Dương, 231 Đống Đa, 259 Hồ Nghinh)",
+     "gia": "20.000–45.000đ/tô",
+     "ten": "Mì Quảng Bà Mua"
+    },
+    {
+     "dia_chi": "165–167 Núi Thành, quận Hải Châu",
+     "gia": "45.000–65.000đ/tô",
+     "ten": "Mì Quảng Quê Xưa"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–200.000đ/phần (tùy khẩu phần)",
+   "mon": "Bánh tráng cuốn thịt heo hai đầu da",
+   "nguon": "mytour.vn, elitetour.com.vn, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn, elitetour.com.vn, zalopay.vn",
+    "nhan_xet": "Bánh tráng cuốn thịt heo hai đầu da là đặc sản Đà Nẵng, ăn kèm mắm nêm; quán Đặc sản Trần và Bi Mỹ (chợ Cồn) được nhắc nhiều. Giá 30.000–200.000đ/phần tùy khẩu phần; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Trần? — các nguồn ghi nhiều cơ sở, chưa kiểm được địa chỉ chính xác từng cơ sở",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Đặc sản Trần"
+    },
+    {
+     "dia_chi": "Lô 50-51-52 D15A, chợ Cồn, 225 Ông Ích Khiêm, TP Đà Nẵng",
+     "gia": "30.000–60.000đ/phần",
+     "ten": "Bánh tráng cuốn Bi Mỹ (chợ Cồn)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "60.000đ/món trở lên; bữa hải sản 150.000–400.000đ/người",
+   "mon": "Hải sản Đà Nẵng",
+   "nguon": "elitetour.com.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "elitetour.com.vn, mytour.vn",
+    "nhan_xet": "Hải sản Đà Nẵng tươi, bữa hải sản 150.000–400.000đ/người; quán Năm Đảnh và Phước Thái được nhắc nhiều. Điểm trừ là quán đông mùa cao điểm; nên hỏi giá theo kg trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "139/59/38/10 Trần Quang Khải, Thọ Quang, Sơn Trà",
+     "gia": "Món từ ~60.000đ; hải sản theo thời giá",
+     "ten": "Hải sản Năm Đảnh"
+    },
+    {
+     "dia_chi": "18 Hồ Nghinh, Phước Mỹ, Sơn Trà",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hải sản Phước Thái"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 30.000–80.000đ/người",
+   "mon": "Bánh xèo – nem lụi Đà Nẵng",
+   "nguon": "zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "zalopay.vn",
+    "nhan_xet": "Bánh xèo Bà Dưỡng giòn rụm, nem lụi thơm, hợp ăn trưa và tối; giá ~30.000–80.000đ/người. Nhược điểm là giá riêng chưa kiểm được ở nhiều quán; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "280/23 Hoàng Diệu, TP Đà Nẵng (địa chỉ theo nguồn, chưa kiểm lại)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh xèo Bà Dưỡng"
+    },
+    {
+     "dia_chi": "Chợ Cồn, 290 Hùng Vương, TP Đà Nẵng",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bánh xèo khu vực chợ Cồn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–50.000đ/tô",
+   "mon": "Bún chả cá Đà Nẵng",
+   "nguon": "zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "zalopay.vn",
+    "nhan_xet": "Bún chả cá Đà Nẵng nước dùng ngọt thanh, chả cá dai, 20.000–50.000đ/tô, hợp ăn sáng và trưa. Quán bà Lữ và 109 Nguyễn Chí Thanh được nhắc nhiều."
+   },
+   "quan": [
+    {
+     "dia_chi": "319 Hùng Vương, TP Đà Nẵng (địa chỉ theo nguồn, chưa kiểm lại)",
+     "gia": "20.000–40.000đ/tô",
+     "ten": "Bún chả cá bà Lữ"
+    },
+    {
+     "dia_chi": "109 Nguyễn Chí Thanh, TP Đà Nẵng",
+     "gia": "20.000–50.000đ/tô",
+     "ten": "Bún chả cá 109 Nguyễn Chí Thanh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–50.000đ/tô",
+   "mon": "Bún mắm nêm",
+   "nguon": "elitetour.com.vn, zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "elitetour.com.vn, zalopay.vn",
+    "nhan_xet": "Bún mắm nêm đậm đà, mùi mắm nặng, hợp người ăn được mắm; 20.000–50.000đ/tô. Điểm trừ là mùi mắm nồng, người không quen nên cân nhắc."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Cồn, 225 Ông Ích Khiêm, TP Đà Nẵng",
+     "gia": "20.000–40.000đ/tô",
+     "ten": "Bún mắm nêm Bi Mỹ (chợ Cồn)"
+    },
+    {
+     "dia_chi": "K71/4 Lê Hữu Trác, TP Đà Nẵng (địa chỉ theo nguồn)",
+     "gia": "20.000–50.000đ/tô",
+     "ten": "Bún mắm nêm bà Thuyên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–60.000đ/tô",
+   "mon": "Cao lầu Hội An",
+   "nguon": "zalopay.vn, annesttravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "zalopay.vn, annesttravel.com, goodmorning-hoian.com",
+    "nhan_xet": "Cao lầu là món phải ăn ở Hội An: sợi mì dai, thịt xíu, rau sống; quán Thanh (26 Thái Phiên) được nhắc nhiều. Giá 30.000–60.000đ/tô; lưu ý có nguồn ghi cao lầu ở chợ Hội An chỉ 25.000–30.000đ — mâu thuẫn giá."
+   },
+   "quan": [
+    {
+     "dia_chi": "26 Thái Phiên, phố cổ Hội An",
+     "gia": "30.000–50.000đ/tô",
+     "ten": "Cao lầu Thanh"
+    },
+    {
+     "dia_chi": "Chợ Hội An, phố cổ Hội An",
+     "gia": "30.000–60.000đ/tô",
+     "ten": "Cao lầu chợ Hội An"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "7.000–25.000đ/cái; ốc hút 20.000–50.000đ/phần",
+   "mon": "Bánh tráng nướng / ốc hút chợ đêm",
+   "nguon": "zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "zalopay.vn",
+    "nhan_xet": "Bánh tráng nướng và ốc hút chợ đêm Helio là món ăn vặt vui, giá rẻ (7.000–25.000đ/cái, ốc hút 20.000–50.000đ/phần); hợp ăn tối và ăn vặt. Nên đi chợ đêm Helio buổi tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường 2 Tháng 9, TP Đà Nẵng",
+     "gia": "Theo món, 10.000–60.000đ",
+     "ten": "Chợ đêm Helio"
+    },
+    {
+     "dia_chi": "290 Hùng Vương, TP Đà Nẵng",
+     "gia": "7.000–50.000đ/món",
+     "ten": "Chợ Cồn — khu ăn vặt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–35.000đ/ly",
+   "mon": "Chè sầu riêng / chè Liên",
+   "nguon": "zalopay.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "zalopay.vn",
+    "nhan_xet": "Chè sầu riêng Liên (189 Hoàng Diệu) nổi tiếng Đà Nẵng, béo thơm, 15.000–35.000đ/ly; hợp ăn xế và ăn tối. Điểm trừ là quán đông, nên đi sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "189 Hoàng Diệu, TP Đà Nẵng",
+     "gia": "15.000–30.000đ/ly",
+     "ten": "Chè Liên"
+    },
+    {
+     "dia_chi": "Chợ Cồn, TP Đà Nẵng",
+     "gia": "15.000–35.000đ/ly",
+     "ten": "Chè sầu riêng khu vực chợ Cồn"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–Đà Nẵng khứ hồi",
+   "uoc_tinh": "1.200.000–2.600.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+   "uoc_tinh": "600.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "500.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Bà Nà là khoản lớn nhất)",
+   "uoc_tinh": "1.000.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng",
+   "uoc_tinh": "250.000–500.000đ"
+  },
+  {
+   "hang_muc": "Taxi/Grab/phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (không tính Bà Nà)",
+   "uoc_tinh": "3.100.000–5.500.000đ/người"
+  },
+  {
+   "hang_muc": "Tổng ước tính (có Bà Nà)",
+   "uoc_tinh": "4.100.000–7.000.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Với hải sản bán theo cân, đừng chỉ hỏi đơn giá/kg: yêu cầu cân thực tế trước mặt, quy đổi ra tổng số tiền và chốt tổng tiền ngay tại bàn trước khi đồng ý cho nhà bếp chế biến; chỉ ăn ở quán có niêm yết giá.",
+   "nguon": "soha.vn — Giải pháp 'chống chặt chém' khi ăn hải sản ở điểm du lịch, 06/10/2026 (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Hải sản bán theo cân dễ bị tính tiền bất ngờ: tổng tiền phụ thuộc trực tiếp vào khối lượng thực tế từng con, nên chỉ biết đơn giá/kg thì không hình dung được chi phí cuối cùng. Luật Giá 2023 quy định giá niêm yết phải minh bạch và gắn với số lượng/khối lượng thực tế — du khách có quyền kiểm tra đúng loại, đúng đơn vị tính, đúng khối lượng và đúng tổng tiền trước khi chế biến."
+  },
+  {
+   "cach_tranh": "Tự chọn quán đã tìm hiểu trước, tự đặt địa chỉ trên bản đồ; không đi theo taxi/xích lô tới quán 'quen' mà họ giới thiệu.",
+   "nguon": "vietnamnet.vn — Du khách tố bị tài xế taxi lừa đưa vào quán hải sản 'cân điêu' ở Nha Trang, 01/04/2024 (vụ việc ở Nha Trang, cùng kiểu thủ đoạn — dùng làm ví dụ cảnh báo cho Đà Nẵng) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán hải sản do tài xế giới thiệu để ăn hoa hồng: kiểu thủ đoạn đã xảy ra ở Nha Trang — tài xế chở khách tới quán 'quen' thay vì địa chỉ khách yêu cầu, quán cân gian hải sản. Ở Đà Nẵng, chợ Hàn và chợ Cồn được quản lý chặt, nhưng quán ăn ven biển do tài xế giới thiệu vẫn cần cảnh giác."
+  },
+  {
+   "cach_tranh": "Chỉ đưa bản photo CCCD hoặc tiền cọc thay giấy tờ gốc; khi nhận xe quay video liền mạch toàn bộ vết trầy, kiểm phanh/lốp/đèn/còi, hỏi rõ giờ trả xe và phí quá giờ trước khi thuê.",
+   "nguon": "checkin.vn — Kinh nghiệm thuê xe máy giúp bạn không mất tiền oan (nêu đích danh Đà Nẵng là điểm nóng) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe máy bị đòi bồi thường oan: không ít khách thuê nhận xe trục trặc giữa đường, bị đòi thêm phí vô lý hoặc bị đòi bồi thường thiệt hại không phải do mình gây ra; tuyệt đối không đưa bản gốc CMND/CCCD hoặc hộ chiếu cho bên cho thuê giữ."
+  },
+  {
+   "cach_tranh": "Hỏi giá và trả giá trước khi mua ở chợ Hàn, chợ Cồn; hàng khô, đặc sản nên so sánh vài sạp. Chợ Hàn được ban quản lý giám sát đặc biệt, hộ vi phạm chặt chém có thể bị đình chỉ buôn bán 3-30 ngày, nên ưu tiên mua ở các sạp trong chợ có niêm yết giá.",
+   "nguon": "tuoitre.vn — Những cái 'lạ' khiến du khách ùn ùn vào chợ Hàn Đà Nẵng, 06/11/2026 (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Chợ Hàn, chợ Cồn nói thách: chợ truyền thống bán đặc sản, hải sản khô thường hét giá cao với khách lạ; riêng chợ Hàn, ban quản lý cho biết buôn bán ở đây được UBND TP và các sở giám sát đặc biệt, hộ kinh doanh vi phạm (chặt chém, thái độ xấu) sẽ bị đình chỉ 3-30 ngày, nặng nhất mất hợp đồng."
+  },
+  {
+   "cach_tranh": "Liên hệ trực tiếp khách sạn qua website/số điện thoại chính thức để xác minh mã đặt chỗ trước khi thanh toán; không chuyển tiền khi chỉ thỏa thuận qua tin nhắn.",
+   "nguon": "congan.ninhbinh.gov.vn — Cảnh giác với thủ đoạn lừa đảo trong mùa du lịch 2026 (Công an tỉnh Ninh Bình) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc đặt phòng qua fanpage giả (cảnh báo chung, áp dụng cho Đà Nẵng): kẻ gian lập fanpage/website giả mạo khách sạn, resort uy tín, sao chép hình ảnh trang chính thống, rao giá rẻ bất thường rồi yêu cầu chuyển cọc, sau đó chặn liên lạc."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác mỏng (Bà Nà trên đỉnh lạnh, chênh nhiệt lớn)",
+  "Mũ, kem chống nắng, áo mưa mỏng",
+  "Giày đi bộ (Ngũ Hành Sơn nhiều bậc đá; Bà Nà đi bộ nhiều)",
+  "Đồ bơi (biển Mỹ Khê, Núi Thần Tài)",
+  "Tiền mặt lẻ (chợ Hàn/chợ Cồn)",
+  "Sạc dự phòng, thuốc cơ bản"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Furama Resort Đà Nẵng",
+   "Hilton Da Nang",
+   "Khách sạn 3 sao khu vực biển Mỹ Khê"
+  ],
+  "diem": [
+   "Phố cổ Hội An",
+   "Biển Mỹ Khê",
+   "Cầu Rồng",
+   "Bán đảo Sơn Trà – chùa Linh Ứng"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Luxury Đà Nẵng",
+   "Furama Resort Đà Nẵng",
+   "Novotel Danang Premier Han River"
+  ],
+  "diem_chay": [
+   "Đường ven biển Võ Nguyên Giáp (đường chạy ven biển chính, buổi sáng sớm mát)",
+   "Công viên Biển Đông (điểm xuất phát các giải lớn, gần bãi biển)",
+   "Cầu Rồng - sông Hàn (chạy ven sông buổi sáng sớm)"
+  ],
+  "giai": [
+   {
+    "nguon": "baodanang.vn — Ấn tượng cuộc thi Marathon quốc tế Đà Nẵng 2026, 23/03/2026; vietnam.vnanet.vn — Vietnamese athletes delivered standout performances at the Da Nang International Marathon 2026 (ngày kiểm 08/11/2026)",
+    "ten": "Marathon Quốc tế Đà Nẵng (Da Nang International Marathon)",
+    "thoi_gian": "tháng 3 hằng năm (mùa 2026: 21-22/3/2026, thi đấu chính 22/3, xuất phát Công viên Biển Đông; tổ chức từ 2013, do Sở Văn hóa, Thể thao và Du lịch phối hợp Công ty Pulse Active tổ chức)"
+   },
+   {
+    "nguon": "congly.vn — 13.000 vận động viên tham gia VnExpress Da Nang International Marathon Herbalife Cup 2026, 17/07/2026; e.vnexpress.net — VnExpress Marathon Da Nang returns with international ambitions, 22/05/2026 (ngày kiểm 08/11/2026)",
+    "ten": "VnExpress Đà Nẵng International Marathon Herbalife Cup",
+    "thoi_gian": "tháng 7 (mùa 2026: 17-19/07/2026, thi đấu chính 19/7, các cự ly 5km, 10km, 21km, 42km)"
+   }
+  ],
+  "nguon": "Tên giải + thời gian theo baodanang.vn, vietnam.vnanet.vn, congly.vn, e.vnexpress.net. Lưu ý: giải tháng 3 năm 2026 mang tên chính thức 'Marathon Quốc tế Đà Nẵng' (Da Nang International Marathon), các nguồn kiểm được không còn ghi tên nhà tài trợ Manulife trong tên giải 2026. Chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (gần Công viên Biển Đông / đường Võ Nguyên Giáp) (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Sát biển Mỹ Khê, cách Cầu Rồng ~3,5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "270 Võ Nguyên Giáp, phường Mỹ An, TP Đà Nẵng",
+   "dien_thoai": "0236 3956 789",
+   "gia": "~1.300.000–2.500.000đ/đêm (giá thấp mùa ~1.500.000–2.100.000đ)",
+   "hang": "5 sao (có nguồn ghi 4 sao — mâu thuẫn)",
+   "hop_voi": "Gia đình, khách nghỉ dưỡng biển",
+   "khu_vuc": "my-khe",
+   "nguon": "klook.com, dananghotelguide.com",
+   "nguon_dien_thoai": "booking.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Đà Nẵng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ven sông Hàn, cách Cầu Rồng ~1 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "36 Bạch Đằng, TP Đà Nẵng",
+   "dien_thoai": "0236 3929 999",
+   "gia": "~1.500.000–3.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "bestprice.vn",
+   "nguon_dien_thoai": "all.accor.com (ngày kiểm 08/11/2026)",
+   "ten": "Novotel Danang Premier Han River",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát biển Mỹ Khê",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "103–105 Võ Nguyên Giáp, TP Đà Nẵng",
+   "dien_thoai": "0236 3847 333",
+   "gia": "~2.500.000–5.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "5 sao",
+   "hop_voi": "Cặp đôi, khách nghỉ dưỡng cao cấp",
+   "khu_vuc": "my-khe",
+   "nguon": "bestprice.vn",
+   "nguon_dien_thoai": "furamavietnam.com; danangfantasticity.com (ngày kiểm 08/11/2026)",
+   "ten": "Furama Resort Đà Nẵng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ven sông Hàn phía Sơn Trà, cách Cầu Rồng ~2 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "962 Ngô Quyền, quận Sơn Trà, TP Đà Nẵng",
+   "dien_thoai": "0236 3929 929",
+   "gia": "~800.000–1.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn",
+   "khu_vuc": "son-tra",
+   "nguon": "klook.com, booking.muongthanh.com",
+   "nguon_dien_thoai": "nhiều nguồn đồng thuận (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Đà Nẵng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ven sông Hàn, trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "50 Bạch Đằng, TP Đà Nẵng",
+   "dien_thoai": "0236 3874 000",
+   "gia": "~2.000.000–4.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "5 sao",
+   "hop_voi": "Khách công tác, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "bestprice.vn",
+   "nguon_dien_thoai": "hilton.com (ngày kiểm 08/11/2026)",
+   "ten": "Hilton Da Nang",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách biển Mỹ Khê 100–300 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Võ Nguyên Giáp – Hồ Nghinh, TP Đà Nẵng (nhiều khách sạn 3 sao, chưa kiểm được tên cụ thể từng nhà)",
+   "dien_thoai": null,
+   "gia": "~600.000–1.200.000đ/đêm",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi, nhóm bạn",
+   "khu_vuc": "my-khe",
+   "nguon": "tourdulichgiare.com.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn 3 sao khu vực biển Mỹ Khê",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách biển Mỹ Khê ~200–500 m, nhiều quán ăn Tây",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu phố An Thượng, phường Mỹ An, TP Đà Nẵng",
+   "dien_thoai": null,
+   "gia": "~300.000–700.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Homestay (không hạng sao)",
+   "hop_voi": "Khách bụi, nhóm bạn, khách nước ngoài",
+   "khu_vuc": "my-khe",
+   "nguon": "annesttravel.com",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay khu vực An Thượng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 14 địa danh — 0 điểm còn null; 4 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Ngũ Hành Sơn, Phố cổ Hội An, Đèo Hải Vân, Núi Thần Tài (Suối khoáng nóng)",
+  "Giá vé Bà Nà Hills: ĐÃ XÁC NHẬN 1.000.000đ/người lớn theo nhiều nguồn 2026 (kisstour.com, antoursvietnam.com); nguồn cũ 950.000đ/900.000đ đã lỗi thời; vé dùng được 3 ngày liên tiếp từ 1/1/2026.",
+  "Giờ phun lửa Cầu Rồng: thứ 6–CN vs chỉ thứ 7–CN",
+  "Giá vé phố cổ Hội An + Thánh địa Mỹ Sơn + Bảo tàng Chăm 2026 (chưa có mức chính thức)",
+  "Giá vé Núi Thần Tài 2026",
+  "Giá xe khách SG/HN–Đà Nẵng và giá tàu chính xác từng hạng",
+  "Giá thuê ô tô có tài xế riêng Đà Nẵng",
+  "Hạng sao Mường Thanh Luxury Đà Nẵng: 4 sao vs 5 sao",
+  "Địa chỉ chính xác: Đặc sản Trần (nhiều cơ sở), bánh xèo Bà Dưỡng, bún chả cá bà Lữ, bún mắm nêm bà Thuyên",
+  "Giờ mở cửa: chùa Linh Ứng, chợ Hàn/chợ Cồn, Bảo tàng Chăm",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Chùa Cầu (Lai Viễn Kiều), Rừng dừa Bảy Mẫu, Làng gốm Thanh Hà — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Đà Nẵng có đèo Hải Vân ở cửa ngõ phía bắc (ranh giới với Huế) và đường đèo lên bán đảo Sơn Trà. Đèo Hải Vân dài khoảng 21km, đỉnh cao khoảng 500m, nhiều khúc cua tay áo, cua chữ U khuất tầm nhìn, xe tải lớn lưu thông nhiều. Mùa mưa tháng 9-12 sương mù dày đặc, mặt đường trơn — nên tránh đi đèo vào mùa này; không đi ban đêm vì sương mù và đèn xe yếu. Xuống dốc đi số thấp (số 1-2 với xe số), không âm côn thả trôi, không rà phanh liên tục; bóp còi trước cua khuất, không ôm cua rộng, không dừng xe giữa đường hoặc tại góc khuất để chụp ảnh (tháng 10/2026 có 6 người bị xử phạt vì ngồi giữa lòng đường trên đèo chụp ảnh). Kiểm tra phanh và lốp kỹ trước khi lên đèo; đường đèo không có chỗ sửa xe. Người chưa từng lái đèo thì đi ô tô hoặc thuê tài xế, không học lái đèo lần đầu ở đây. Đường lên bán đảo Sơn Trà (chùa Linh Ứng) cũng dốc dài, cua gấp — đi chậm, tránh đi tối và khi mưa.",
+  "deo": [
+   "Đèo Hải Vân (QL1A, ranh giới Đà Nẵng - Huế, dài khoảng 21km, đỉnh cao khoảng 500m) — nhiều cua tay áo, cua chữ U khuất tầm nhìn, xe tải lớn, sương mù dày mùa mưa tháng 9-12, nguy hiểm khi đi ban đêm",
+   "Đường lên bán đảo Sơn Trà (tới chùa Linh Ứng) — dốc dài, cua gấp, tránh đi tối và khi mưa"
+  ],
+  "nguon": "danangbest.com — Đèo Hải Vân: đường đi, điểm ngắm đẹp, kinh nghiệm phượt 2026; zuttoride.vn — Kinh nghiệm phượt đèo Hải Vân bằng xe máy; kinhtevadulich.vn — Cận cảnh 'khúc cua tử thần' trên đèo Hải Vân, 20/10/2026 (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu": "Sân bay quốc tế Đà Nẵng (DAD) cách trung tâm chỉ ~3–5 km. Từ 07/2025, Hội An và Mỹ Sơn thuộc địa giới TP Đà Nẵng.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Vietravel Airlines; 15–20 chuyến/ngày",
+    "gia": "Một chiều đã gồm thuế phí ~612.000–1.380.000đ",
+    "nguon": "vnpayapp.vn, vietnamtourism.com",
+    "phuong_tien": "Máy bay HAN–DAD",
+    "thoi_gian": "Bay ~1h20"
+   },
+   {
+    "ghi_chu": "Đi đêm tiết kiệm 1 đêm khách sạn",
+    "gia": "Chưa kiểm được giá vé 2026",
+    "nguon": "chưa kiểm được nguồn giá",
+    "phuong_tien": "Xe khách HN–Đà Nẵng",
+    "thoi_gian": "~16–18 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Ga Đà Nẵng cách trung tâm ~2 km",
+    "gia": "Ghế mềm ~500.000–800.000đ; giường nằm ~800.000–1.300.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+    "nguon": "duongsatvietnam.vn",
+    "phuong_tien": "Tàu HN–ga Đà Nẵng",
+    "thoi_gian": "~14–16 giờ"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Sân bay nằm trong TP, rất gần trung tâm — rẻ nhất trong 6 tỉnh",
+    "gia": "Taxi 60.000–150.000đ/xe; GrabCar 80.000–120.000đ; GrabBike 40.000–60.000đ",
+    "nguon": "vnpayapp.vn, vietnamtourism.com",
+    "phuong_tien": "Taxi/Grab sân bay DAD – trung tâm",
+    "thoi_gian": "10–15 phút, ~3–5 km"
+   },
+   {
+    "ghi_chu": "Rẻ nhất, hợp khách đi nhẹ",
+    "gia": "6.000–10.000đ/lượt (tuyến 02 đi chợ Hàn, 12, 11, R16)",
+    "nguon": "test.bestprice.vn",
+    "phuong_tien": "Xe buýt sân bay",
+    "thoi_gian": "~20–30 phút"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Vietravel Airlines; ~20–25 chuyến/ngày",
+    "gia": "Một chiều đã gồm thuế phí ~612.000–1.320.000đ (Vietjet từ ~581.000đ; Vietnam Airlines từ ~1.065.000đ)",
+    "nguon": "vnpayapp.vn, vietnamtourism.com",
+    "phuong_tien": "Máy bay SGN–DAD",
+    "thoi_gian": "Bay ~1h20–1h30"
+   },
+   {
+    "ghi_chu": "Bến xe trung tâm Đà Nẵng; hãng tra được: Phương Trang, Hoàng Long",
+    "gia": "~400.000–700.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+    "nguon": "annesttravel.com",
+    "phuong_tien": "Xe khách giường nằm SG–Đà Nẵng",
+    "thoi_gian": "~17–19 giờ"
+   },
+   {
+    "ghi_chu": "Ga Đà Nẵng cách trung tâm ~2 km",
+    "gia": "Ghế mềm ~600.000–900.000đ; giường nằm ~900.000–1.500.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+    "nguon": "duongsatvietnam.vn",
+    "phuong_tien": "Tàu SG–ga Đà Nẵng",
+    "thoi_gian": "~17–19 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Giao xe tận sân bay/khách sạn; gồm 2 mũ + 1 áo mưa theo nhiều cửa hàng",
+   "gia": "80.000–120.000đ/ngày (thuê từ 3 ngày: 80.000–100.000đ)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chothuexenambinh.com, atdanang.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Đi Sơn Trà nên thuê xe số khỏe; một số tuyến lên Sơn Trà hạn chế xe tay ga yếu",
+   "gia": "130.000–180.000đ/ngày (Vision 130.000–150.000đ; Air Blade 150.000–180.000đ)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chothuexenambinh.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hợp đi đèo Hải Vân",
+   "gia": "180.000–200.000đ/ngày (Exciter/Winner)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chothuexenambinh.com",
+   "phuong_tien": "Thuê xe máy — côn tay"
+  },
+  {
+   "ghi_chu": "Grab hoạt động tốt, tài xế tới trong 3–7 phút",
+   "gia": "Taxi đồng hồ ~11.000–14.000đ/km; GrabCar trung tâm–Mỹ Khê 80.000–150.000đ",
+   "giay_to": "—",
+   "nguon": "vietnamtourism.com",
+   "phuong_tien": "Taxi / Grab / Xanh SM"
+  },
+  {
+   "ghi_chu": "Tuyến đi Hội An ~30.000đ/lượt (chưa kiểm được chính xác); tuyến sân bay–chợ Hàn 6.000đ",
+   "gia": "6.000–10.000đ/lượt",
+   "giay_to": "—",
+   "nguon": "test.bestprice.vn, tourdulichgiare.com.vn",
+   "phuong_tien": "Xe buýt nội thành"
+  },
+  {
+   "ghi_chu": "Hợp gia đình đi Bà Nà + Hội An",
+   "gia": "Xe 4 chỗ ~800.000–1.200.000đ/ngày; 7 chỗ ~1.000.000–1.500.000đ/ngày (chưa kiểm được giá riêng Đà Nẵng)",
+   "giay_to": "—",
+   "nguon": "chưa kiểm được nguồn giá riêng",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": "40",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hòa Ninh, huyện Hòa Vang cũ, TP Đà Nẵng; cao ~1.487 m",
+   "gia_ve": "Cáp treo + vào cổng người lớn 950.000–1.000.000đ; trẻ em 1–1,4 m 750.000–800.000đ; combo buffet 1.300.000đ/người lớn (giá 2026, nguồn mới 1.000.000đ vs nguồn cũ 950.000đ)",
+   "gio_mo_cua": "Cáp treo từ ~8:00; khu vui chơi 8:00–22:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, gia đình",
+   "id": "ba-na-hills",
+   "lat": 15.99465,
+   "lng": 107.99645,
+   "luu_y": "Đi sớm tránh xếp hàng cáp treo; trên đỉnh lạnh, mang áo khoác; vé có thể nâng cấp 3 ngày liên tiếp (2026)",
+   "nguon": "happydaytourist.com, tourdulichgiare.com.vn, mybestplacestovisit.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "kisstour.com, antoursvietnam.com, dulich9.com, daytripsvietnam.com",
+    "nhan_xet": "Cáp treo dài nhất thế giới và Cầu Vàng đúng như ảnh, đi một lần rất đáng với người lần đầu đến Đà Nẵng. Nhưng giá vé là điểm gây tranh cãi nhất: nguồn 2026 mới ghi 1.000.000đ/người lớn (trẻ em 800.000đ), nguồn cũ ghi 950.000đ, có nguồn ghi 900.000đ — lấy theo nguồn mới 2026; vé từ 1/1/2026 dùng được 3 ngày liên tiếp. Điểm trừ khác: đông và xếp hàng cáp treo tới 1 giờ mùa cao điểm, buffet combo 1.300.000đ bị nhiều review chê đắt và trung bình. Nên đi sớm, đi ngày thường, tránh tháng 9–12 sương mù."
+   },
+   "ten": "Sun World Bà Nà Hills (Cầu Vàng)",
+   "thoi_gian": "Cả ngày (6–8 giờ)"
+  },
+  {
+   "cach_trung_tam_km": "8",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Huyền Trân Công Chúa, phường Hòa Hải (quận Ngũ Hành Sơn cũ)",
+   "gia_ve": "Thủy Sơn 40.000đ/người lớn; học sinh–sinh viên 10.000–20.000đ; động Âm Phủ riêng 20.000đ; thang máy ~15.000–30.000đ/lượt",
+   "gio_mo_cua": "7:00–17:30",
+   "hop_voi": "Mọi đối tượng",
+   "id": "ngu-hanh-son",
+   "lat": 16.00027,
+   "lng": 108.25893,
+   "luu_y": "Leo nhiều bậc đá — mang giày bệt, nước uống; chùa trong núi, ăn mặc kín đáo. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "happydaytourist.com, tourdulichgiare.com.vn, bestprice.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "happydaytourist.com, tourdulichgiare.com.vn, bestprice.vn",
+    "nhan_xet": "Ngũ Hành Sơn leo núi đá, hang động và chùa cổ rất đáng đi, vé Thủy Sơn chỉ 40.000đ — rẻ nhất trong các điểm lớn Đà Nẵng. Điểm trừ là leo nhiều bậc đá, nên mang giày bệt và nước; động Âm Phủ thu riêng 20.000đ."
+   },
+   "ten": "Ngũ Hành Sơn",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "10",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bán đảo Sơn Trà, TP Đà Nẵng",
+   "gia_ve": "Miễn phí vào chùa; gửi xe ~5.000–10.000đ",
+   "gio_mo_cua": "Cả ngày; chùa khoảng 6:00–21:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "ban-dao-son-tra",
+   "lat": 16.09867,
+   "lng": 108.27737,
+   "luu_y": "Tượng Phật Bà Quan Âm cao 67 m; đường đèo dốc, nhiều khỉ — không cho khỉ ăn, không để đồ ăn lộ thiên; cấm xe tay ga yếu lên đỉnh (theo quy định địa phương từng thời điểm)",
+   "nguon": "kisstour.com, junglebosstours.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "kisstour.com, junglebosstours.com",
+    "nhan_xet": "Bán đảo Sơn Trà miễn phí, chùa Linh Ứng với tượng Phật Bà 67 m và view biển đẹp; hợp mọi đối tượng đi nửa buổi. Điểm trừ là đường đèo dốc, nhiều khỉ, cấm xe tay ga yếu lên đỉnh theo từng thời điểm; không cho khỉ ăn và không để đồ ăn lộ thiên."
+   },
+   "ten": "Bán đảo Sơn Trà – chùa Linh Ứng",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "3",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Võ Nguyên Giáp, phường Mỹ An, TP Đà Nẵng",
+   "gia_ve": "Miễn phí vào bãi; ghế/dù ~30.000–50.000đ/giờ",
+   "gio_mo_cua": "Cả ngày; tắm đẹp nhất sáng sớm và chiều mát",
+   "hop_voi": "Mọi đối tượng",
+   "id": "bien-my-khe",
+   "lat": 16.05231,
+   "lng": 108.2479,
+   "luu_y": "Bãi biển đẹp nhất Đà Nẵng, sóng vừa; tắm trong khu vực có cứu hộ, cờ giới hạn",
+   "nguon": "happydaytourist.com, tourdulichgiare.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "happydaytourist.com, tourdulichgiare.com.vn",
+    "nhan_xet": "Mỹ Khê là bãi biển đẹp nhất Đà Nẵng, sóng vừa, cát mịn, tắm trong khu cứu hộ an toàn; hợp mọi đối tượng. Điểm trừ là cuối tuần đông, ghế/dù 30.000–50.000đ/giờ; nên tắm sáng sớm hoặc chiều mát."
+   },
+   "ten": "Biển Mỹ Khê",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "2",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Nguyễn Văn Linh – Bạch Đằng, phường Phước Ninh, TP Đà Nẵng",
+   "gia_ve": "Miễn phí; xem phun lửa/phun nước miễn phí",
+   "gio_mo_cua": "Cả ngày; phun lửa + phun nước 21:00 thứ 6, thứ 7, Chủ nhật (có nguồn ghi chỉ thứ 7–CN)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cau-rong",
+   "lat": 16.06115,
+   "lng": 108.22583,
+   "luu_y": "Đứng phía bờ đông (đường Trần Hưng Đạo) xem rõ nhất; cầu cấm xe lúc diễn ra show",
+   "nguon": "happydaytourist.com, kisstour.com, mybestplacestovisit.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "happydaytourist.com, kisstour.com",
+    "nhan_xet": "Cầu Rồng phun lửa và phun nước 21:00 thứ 6–7–CN miễn phí, xem từ bờ đông đường Trần Hưng Đạo là rõ nhất; hợp mọi đối tượng đi buổi tối. Lưu ý có nguồn ghi chỉ thứ 7–CN; nên kiểm lịch trước và đến sớm giữ chỗ."
+   },
+   "ten": "Cầu Rồng",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Hội An, TP Đà Nẵng (tỉnh Quảng Nam cũ); từ 07/2025 thuộc TP Đà Nẵng",
+   "gia_ve": "Miễn phí dạo phố; vé tham quan các điểm trong phố cổ 80.000đ (3 điểm) / 120.000đ (5 điểm + bảo tàng), dùng 3 ngày (theo cổng du lịch Đà Nẵng 2026)",
+   "gio_mo_cua": "Phố cổ cả ngày; điểm tham quan ~7:00–21:00",
+   "hop_voi": "Mọi đối tượng, cặp đôi",
+   "id": "pho-co-hoi-an",
+   "lat": 15.88533,
+   "lng": 108.32625,
+   "luu_y": "Đi chiều–tối đẹp nhất (đèn lồng); phố đi bộ khung giờ nhất định; ghép trong ngày 3 hoặc đi riêng 1 ngày. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "mybestplacestovisit.com, annesttravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "next-stop-anywhere.com, goodmorning-hoian.com",
+    "nhan_xet": "Phố cổ Hội An đèn lồng buổi tối rất đẹp, nhà cổ vàng và sông Hoài lãng mạn; hợp mọi đối tượng, cặp đôi. Điểm trừ là 10h–16h đông nghịt tour, nên đi trước 8h sáng hoặc sau 20h30. Vé tham quan 2026: 80.000đ (3 điểm) hoặc 120.000đ (5 điểm + bảo tàng), dùng 3 ngày; phố đi bộ 9h–21h30, tháng 10–11 hay ngập."
+   },
+   "ten": "Phố cổ Hội An",
+   "thoi_gian": "Nửa ngày–1 ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "40",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Duy Phú (huyện Duy Xuyên cũ), TP Đà Nẵng",
+   "gia_ve": "Khoảng 150.000đ/người lớn (khách nước ngoài; khách Việt 100.000đ theo Vinpearl — mâu thuẫn)",
+   "gio_mo_cua": "Khoảng 6:30–17:30",
+   "hop_voi": "Người yêu lịch sử, văn hóa Chăm",
+   "id": "thanh-dia-my-son",
+   "lat": 15.7742,
+   "lng": 108.10871,
+   "luu_y": "Di sản UNESCO; nắng gắt, mang mũ/nước; có xe điện trung chuyển trong khu",
+   "nguon": "annesttravel.com, mybestplacestovisit.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "TripAdvisor, vinpearl.com, next-stop-anywhere.com",
+    "nhan_xet": "Thánh địa Mỹ Sơn là di sản UNESCO của vương quốc Champa, không gian rừng núi yên bình, xe điện trung chuyển tiện; TripAdvisor chấm 4,2/5 với 3.715 review (kiểm trực tiếp TripAdvisor ngày 08/11/2026 — số đếm thay đổi theo ngày, các lần tra khác ghi 3.716–3.720). Giá vé mâu thuẫn: khách nước ngoài 150.000đ, khách Việt 100.000đ theo Vinpearl. Điểm trừ là nắng gắt, một số du khách thấy quy mô nhỏ so với kỳ vọng; nên đi sáng sớm và thuê hướng dẫn viên."
+   },
+   "ten": "Thánh địa Mỹ Sơn",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "1",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Chợ Hàn: đường Trần Phú, TP Đà Nẵng; chợ Cồn: 290 Hùng Vương, TP Đà Nẵng",
+   "gia_ve": "Miễn phí vào chợ; món ăn 10.000–60.000đ/món",
+   "gio_mo_cua": "Khoảng 6:00–19:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người thích ẩm thực/mua đặc sản",
+   "id": "cho-han-cho-con",
+   "lat": 16.0683,
+   "lng": 108.22384,
+   "luu_y": "Trả giá khi mua đặc sản khô; khu ẩm thực chợ Cồn nổi tiếng bánh tráng cuốn thịt heo",
+   "nguon": "happydaytourist.com, elitetour.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "happydaytourist.com, elitetour.com.vn",
+    "nhan_xet": "Chợ Hàn và chợ Cồn là thiên đường ăn vặt Đà Nẵng (10.000–60.000đ/món), mua đặc sản khô tiện; hợp mọi đối tượng. Điểm trừ là phải trả giá khi mua đặc sản khô; khu ẩm thực chợ Cồn nổi tiếng bánh tráng cuốn thịt heo."
+   },
+   "ten": "Chợ Hàn – chợ Cồn",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "2",
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 2 đường 2 Tháng 9, TP Đà Nẵng",
+   "gia_ve": "Khoảng 40.000–60.000đ/người (chưa kiểm được mức chính thức 2026)",
+   "gio_mo_cua": "Khoảng 7:00–17:00",
+   "hop_voi": "Người yêu lịch sử, văn hóa Chăm",
+   "id": "bao-tang-cham",
+   "lat": 16.04672,
+   "lng": 108.22239,
+   "luu_y": "Bảo tàng Chăm lớn nhất VN, ngay cầu Rồng; ghép cùng buổi dạo trung tâm",
+   "nguon": "junglebosstours.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / junglebosstours.com",
+    "nhan_xet": "Bảo tàng Chăm lớn nhất Việt Nam, ngay cầu Rồng, trưng bày điêu khắc Champa rất đáng xem với người yêu lịch sử; vé chỉ 40.000–60.000đ. Điểm trừ là giá vé chính thức 2026 chưa kiểm được; ghép cùng buổi dạo trung tâm."
+   },
+   "ten": "Bảo tàng Điêu khắc Chăm",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "25",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "QL1A, ranh giới Đà Nẵng – Huế",
+   "gia_ve": "Miễn phí (đi đèo); hầm Hải Vân có phí theo xe",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Nhóm bạn, người thích phượt",
+   "id": "deo-hai-van",
+   "lat": 16.16505,
+   "lng": 108.12927,
+   "luu_y": "Đèo dài ~20 km, nhiều khúc cua — chỉ đi ban ngày, xe tốt, không đi khi mưa to/sương mù; view vịnh Lăng Cô từ đỉnh đèo. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "junglebosstours.com, mybestplacestovisit.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "junglebosstours.com, mybestplacestovisit.com",
+    "nhan_xet": "Đèo Hải Vân dài ~20 km, view vịnh Lăng Cô từ đỉnh đèo rất đẹp, hợp nhóm bạn thích phượt. Điểm trừ là nhiều khúc cua, chỉ đi ban ngày, không đi khi mưa to hoặc sương mù; xe phải tốt."
+   },
+   "ten": "Đèo Hải Vân",
+   "thoi_gian": "1–2 giờ (đi + dừng chụp ảnh)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hòa Phú, huyện Hòa Vang cũ, TP Đà Nẵng",
+   "gia_ve": "Khoảng 400.000–500.000đ/người lớn (gói phổ thông, chưa kiểm được mức chính thức 2026)",
+   "gio_mo_cua": "Khoảng 8:00–18:00",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "nui-than-tai",
+   "lat": 15.96791,
+   "lng": 108.01966,
+   "luu_y": "Suối khoáng nóng + công viên nước; mang đồ bơi, khăn; không hợp lịch trình gấp. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "tourdulichgiare.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tourdulichgiare.com.vn",
+    "nhan_xet": "Núi Thần Tài suối khoáng nóng + công viên nước hợp gia đình và nhóm bạn nghỉ nửa ngày; vé 400.000–500.000đ. Điểm trừ là giá chính thức 2026 chưa kiểm được, không hợp lịch trình gấp."
+   },
+   "ten": "Núi Thần Tài (Suối khoáng nóng)",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Minh An, phố cổ Hội An, TP Đà Nẵng (tỉnh Quảng Nam cũ)",
+   "gia_ve": "Nằm trong vé tham quan phố cổ 80.000đ (3 điểm) / 120.000đ (5 điểm)",
+   "gio_mo_cua": "Phố cổ cả ngày; điểm tham quan ~7:00–21:00",
+   "hop_voi": "Mọi đối tượng",
+   "id": "chua-cau-hoi-an",
+   "lat": 15.87717,
+   "lng": 108.32603,
+   "luu_y": "Biểu tượng Hội An từ đầu thế kỷ XVII, mở lại năm 2024 sau trùng tu; đi sáng sớm trước 8h để vắng người",
+   "nguon": "next-stop-anywhere.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "next-stop-anywhere.com",
+    "nhan_xet": "Chùa Cầu là biểu tượng Hội An từ đầu thế kỷ XVII, mở lại năm 2024 sau trùng tu; nằm trong vé tham quan phố cổ. Điểm trừ là ban ngày đông, xếp hàng chụp ảnh; nên đi sáng sớm trước 8h."
+   },
+   "ten": "Chùa Cầu (Lai Viễn Kiều)",
+   "thoi_gian": "30–60 phút"
+  },
+  {
+   "cach_trung_tam_km": 33,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cẩm Thanh, Hội An, TP Đà Nẵng (tỉnh Quảng Nam cũ)",
+   "gia_ve": "Chưa kiểm được giá vé riêng — tour thuyền thúng thường ~100.000–200.000đ/người (kiểm lại trước ngày đi)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — đi ban ngày",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "rung-dua-bay-mau",
+   "lat": 15.8737,
+   "lng": 108.37481,
+   "luu_y": "Rừng dừa nước ven sông, đi thuyền thúng là chính; ghép cùng buổi chiều ở Hội An sau khi dạo phố cổ",
+   "nguon": "vinpearl.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vinpearl.com",
+    "nhan_xet": "Rừng dừa Bảy Mẫu đi thuyền thúng, xem múa thúng và câu cua rất vui, hợp gia đình có trẻ nhỏ. Điểm trừ là giá tour thuyền thúng chưa kiểm được (thường ~100.000–200.000đ/người); nên hỏi giá trước và ghép buổi chiều ở Hội An."
+   },
+   "ten": "Rừng dừa Bảy Mẫu",
+   "thoi_gian": "1,5–2 giờ (thuyền thúng, xem múa thúng, câu cua)"
+  },
+  {
+   "cach_trung_tam_km": 32,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Phạm Phán, phường Thanh Hà, Hội An, TP Đà Nẵng (tỉnh Quảng Nam cũ)",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành (có nguồn ghi ~35.000đ/người, chưa kiểm được)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Gia đình có trẻ nhỏ, người thích làng nghề",
+   "id": "lang-gom-thanh-ha",
+   "lat": 15.87674,
+   "lng": 108.30007,
+   "luu_y": "Làng gốm truyền thống ven sông Thu Bồn, có công viên đất nung; ghép cùng cung Hội An",
+   "nguon": "vinpearl.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vinpearl.com",
+    "nhan_xet": "Làng gốm Thanh Hà truyền thống ven sông Thu Bồn, xem làm gốm và tự nặn thử hợp gia đình có trẻ nhỏ. Điểm trừ là giá vé chưa kiểm được (có nguồn ghi ~35.000đ); nên ghép cùng cung Hội An."
+   },
+   "ten": "Làng gốm Thanh Hà",
+   "thoi_gian": "1–1,5 giờ (xem làm gốm, tự nặn thử)"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Biển Mỹ Khê",
+   "gio": "5:00-6:30 bình minh, mặt trời mọc từ phía biển, ánh sáng dịu, bãi còn vắng; 17:30-18:30 hoàng hôn mặt trời lặn sau núi phía tây",
+   "nguon": "soctrangtourism.vn — Hình ảnh bãi biển Mỹ Khê Đà Nẵng; mytour.danang.vn — Địa điểm chụp ảnh đẹp ở Đà Nẵng (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Cầu Rồng",
+   "gio": "18:15-19:00 blue hour đèn cầu lên, phản chiếu sông Hàn; cuối tuần 21:00 cầu phun lửa và nước (thứ 6, 7, Chủ nhật)",
+   "nguon": "friendstravelvietnam.com — 15 Best Photography Spots in Da Nang; travelbits.info — 7 Most Instagrammable Places in Da Nang (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Sun World Bà Nà Hills (Cầu Vàng)",
+   "gio": "7:30 chuyến cáp treo đầu tiên, buổi sáng sớm cầu nổi trên mây, ít khách; từ tháng 10 đến tháng 4 hay có mây",
+   "nguon": "localgrapher.com — 10 Best Da Nang Photo Spots (2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa Đà Nẵng hay kéo dài cả ngày — ưu tiên bảo tàng, chợ trong nhà, suối khoáng nóng; tránh đi đảo, đèo Hải Vân khi mưa to.",
+  "diem": [
+   "Bảo tàng Điêu khắc Chăm",
+   "Chợ Hàn – chợ Cồn",
+   "Núi Thần Tài (Suối khoáng nóng)",
+   "Phố cổ Hội An"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "bien-my-khe, ban-dao-son-tra",
+    "hoat_dong": "Biển Mỹ Khê tắm biển (2–3 giờ) + bán đảo Sơn Trà – chùa Linh Ứng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ngu-hanh-son",
+    "hoat_dong": "Ngũ Hành Sơn (2–3 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "cau-rong",
+    "hoat_dong": "Cầu Rồng (phun lửa 21:00 nếu đúng thứ 6/7/CN) + hải sản",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "ba-na-hills",
+    "hoat_dong": "Bà Nà Hills – Cầu Vàng (cả ngày)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Chợ đêm Helio + chè sầu riêng",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "pho-co-hoi-an",
+    "hoat_dong": "Phố cổ Hội An (nửa ngày) + cao lầu",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "cho-han-cho-con",
+    "hoat_dong": "Chợ Hàn/chợ Cồn mua đặc sản, về trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Đà Nẵng",
+  "best_season": "Tháng 1–tháng 8 (mùa khô; đẹp nhất tháng 2–tháng 5, biển êm, ít mưa)",
+  "destination": "Đà Nẵng",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 10/14 điểm chính xác, 4 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "da-nang",
+  "lat": 16.07463,
+  "lng": 108.22361,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "happydaytourist.com",
+   "tourdulichgiare.com.vn",
+   "junglebosstours.com",
+   "bestprice.vn",
+   "vnpayapp.vn",
+   "vietnamtourism.com",
+   "annesttravel.com",
+   "mybestplacestovisit.com"
+  ],
+  "overview": "Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo Sơn Trà, biển Mỹ Khê; từ 07/2025 gồm cả Hội An và Mỹ Sơn (tỉnh Quảng Nam cũ).",
+  "province": "Thành phố Đà Nẵng",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "thành phố"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "tiawellnessresort.com (trích Vietnam Tourism + số liệu WMO 1991–2020); annesttravel.com",
+  "thang_dep_nhat": "Tháng 2–5, đẹp nhất tháng 3–5"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "website Bệnh viện Đà Nẵng (theo tổng hợp en.danang.plus đối chiếu website của bệnh viện) (ngày kiểm 08/11/2026)",
+    "so": "0236 3821118",
+    "ten": "Bệnh viện Đà Nẵng (bệnh viện công tuyến đầu của thành phố)"
+   },
+   {
+    "nguon": "website Bệnh viện C Đà Nẵng (theo tổng hợp en.danang.plus đối chiếu website của bệnh viện) (ngày kiểm 08/11/2026)",
+    "so": "0236 3821480",
+    "ten": "Bệnh viện C Đà Nẵng (khoa Cấp cứu trực 24/24)"
+   }
+  ]
+ }
+}

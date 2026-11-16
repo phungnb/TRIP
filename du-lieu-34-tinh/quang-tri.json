@@ -1,0 +1,950 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–55.000đ/phần",
+   "mon": "Bánh khoái Quảng Trị",
+   "nguon": "tripi.vn, tadiha.com, sovaba.travel, dulich9.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn, tadiha.com, sovaba.travel, dulich9.com",
+    "nhan_xet": "Bánh khoái giòn tan, chấm nước mắm chua ngọt, là món đặc trưng nhất Quảng Trị; quán Dốc Ma được nhiều nguồn nhắc. Giá 25.000–55.000đ/phần; nên ăn nóng tại quán."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực cầu vượt đường sắt, TP Đông Hà (chưa kiểm được tên + số nhà cụ thể)",
+     "gia": "25.000–55.000đ/phần",
+     "ten": "Bánh khoái Dốc Ma (khu vực cầu vượt đường sắt, TP Đông Hà)"
+    },
+    {
+     "dia_chi": "Quốc lộ 9, Phường 1, TP Đông Hà",
+     "gia": "30.000–50.000đ/phần",
+     "ten": "Bánh khoái Tý Nguyên"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–40.000đ/tô",
+   "mon": "Cháo bột cá lóc (cháo vạc giường)",
+   "nguon": "tripi.vn, sovaba.travel",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn, sovaba.travel",
+    "nhan_xet": "Cháo bột cá lóc sợi bột dai, cá lóc ngọt thịt, 15.000–40.000đ/tô, hợp ăn sáng và trưa. Quán 103 Nguyễn Huệ (~25.000đ/tô, 6:00–20:30) và cháo cá O Nhớ được nhắc nhiều; nên đi sáng sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "103 Nguyễn Huệ, TP Đông Hà",
+     "gia": "~25.000đ/tô, 6:00–20:30",
+     "ten": "Cháo bột cá lóc 103 Nguyễn Huệ"
+    },
+    {
+     "dia_chi": "Kiệt 07 Nguyễn Chí Thanh, TP Đông Hà",
+     "gia": "~35.000đ/tô",
+     "ten": "Cháo cá O Nhớ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–30.000đ/phần",
+   "mon": "Bánh ướt Phương Lang",
+   "nguon": "sovaba.travel, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "sovaba.travel, tripi.vn",
+    "nhan_xet": "Bánh ướt Phương Lang mỏng mềm, ăn kèm chả và nước mắm, 20.000–30.000đ/phần, hợp ăn sáng. Quán 34 Trần Phú và đình ẩm thực chợ Đông Hà đều có; nên đi sáng."
+   },
+   "quan": [
+    {
+     "dia_chi": "34 Trần Phú, TP Đông Hà",
+     "gia": "20.000–30.000đ/phần",
+     "ten": "Quán Bánh ướt Phương Lang"
+    },
+    {
+     "dia_chi": "Chợ Đông Hà, TP Đông Hà",
+     "gia": "20.000–30.000đ/phần",
+     "ten": "Đình ẩm thực chợ Đông Hà"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–25.000đ/phần",
+   "mon": "Bún nghệ",
+   "nguon": "tripi.vn, cuahangbanhpia.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn, cuahangbanhpia.com",
+    "nhan_xet": "Bún nghệ vàng ươm, thơm nghệ, 20.000–25.000đ/phần, hợp ăn sáng và trưa. Nên ăn ở đình ẩm thực chợ Đông Hà hoặc chợ Phường 5."
+   },
+   "quan": [
+    {
+     "dia_chi": "Chợ Đông Hà, TP Đông Hà",
+     "gia": "20.000–25.000đ/phần",
+     "ten": "Đình ẩm thực chợ Đông Hà"
+    },
+    {
+     "dia_chi": "Phường 5, TP Đông Hà",
+     "gia": "20.000–25.000đ/phần",
+     "ten": "Chợ Phường 5"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn chiều",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 15.000–30.000đ/phần",
+   "mon": "Mít trộn",
+   "nguon": "tadiha.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tadiha.com",
+    "nhan_xet": "Mít trộn chua cay, giòn sần sật, hợp ăn xế buổi chiều (quán Lê Quý Đôn chỉ bán từ ~14h). Nhược điểm là giá riêng chưa kiểm được; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Lê Quý Đôn, TP Đông Hà, cạnh café Sao Xanh; chỉ bán buổi chiều từ ~14h",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán mít trộn đường Lê Quý Đôn"
+    },
+    {
+     "dia_chi": "Chợ Đông Hà, TP Đông Hà",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Đình ẩm thực chợ Đông Hà"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–40.000đ/tô",
+   "mon": "Canh ám (keng ám) làng Lam Thủy",
+   "nguon": "sovaba.travel",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "sovaba.travel",
+    "nhan_xet": "Canh ám làng Lam Thủy lạ miệng, 30.000–40.000đ/tô, hợp ăn trưa khi đi qua Hải Lăng. Nhược điểm là quán cụ thể chưa kiểm được tên và số nhà; nên hỏi dân địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Làng Lam Thủy, huyện Hải Lăng (chưa kiểm được tên + số nhà cụ thể)",
+     "gia": "30.000–40.000đ/tô",
+     "ten": "Quán tại làng Lam Thủy"
+    },
+    {
+     "dia_chi": "Huyện Hải Lăng, ven QL1A",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán ăn khu vực Hải Lăng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–300.000đ/người",
+   "mon": "Hải sản Cửa Tùng / Cửa Việt",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn",
+    "nhan_xet": "Hải sản Cửa Tùng và Cửa Việt tươi, giá 150.000–300.000đ/người, hợp ăn trưa và tối ven biển. Lưu ý là hỏi giá theo kg trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Bãi biển Cửa Tùng, xã Cửa Tùng, Vĩnh Linh",
+     "gia": "150.000–300.000đ/người",
+     "ten": "Quán hải sản ven biển Cửa Tùng"
+    },
+    {
+     "dia_chi": "Bãi biển Cửa Việt, xã Gio Việt, Gio Linh",
+     "gia": "150.000–300.000đ/người",
+     "ten": "Quán hải sản ven biển Cửa Việt"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn vặt / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–55.000đ/phần",
+   "mon": "Bánh lọc Quảng Trị",
+   "nguon": "cuahangbanhpia.com, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "cuahangbanhpia.com, tripi.vn",
+    "nhan_xet": "Bánh lọc dai, nhân tôm thịt, 25.000–55.000đ/phần, hợp ăn vặt và mua về. Nên mua ở chợ Quảng Trị hoặc chợ Đông Hà."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Trần Hưng Đạo, Phường 2, thị xã Quảng Trị",
+     "gia": "25.000–55.000đ/phần",
+     "ten": "Chợ Quảng Trị"
+    },
+    {
+     "dia_chi": "TP Đông Hà",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chợ Đông Hà"
+    }
+   ]
+  },
+  {
+   "buoi": "Uống sáng / chiều",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá riêng — khoảng 15.000–30.000đ/ly",
+   "mon": "Cà phê Khe Sanh",
+   "nguon": "tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn",
+    "nhan_xet": "Cà phê Khe Sanh thơm, đậm vị cao nguyên, 15.000–30.000đ/ly, hợp uống sáng và chiều. Nhược điểm là quán cụ thể chưa kiểm được số nhà; nên hỏi dân địa phương."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thị trấn Khe Sanh, huyện Hướng Hóa (chưa kiểm được số nhà)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Hải Café"
+    },
+    {
+     "dia_chi": "TP Đông Hà (chưa kiểm được số nhà)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Duy Café"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Đông Hà khứ hồi (giường nằm)",
+   "uoc_tinh": "1.100.000–2.000.000đ"
+  },
+  {
+   "hang_muc": "Bay SG–Huế khứ hồi + xe về Đông Hà (phương án khuyên dùng)",
+   "uoc_tinh": "1.600.000–4.000.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng)",
+   "uoc_tinh": "400.000–1.200.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày + xăng",
+   "uoc_tinh": "300.000–600.000đ"
+  },
+  {
+   "hang_muc": "Taxi/xe buýt/phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi xe khách)",
+   "uoc_tinh": "2.500.000–4.400.000đ/người"
+  },
+  {
+   "hang_muc": "Tổng ước tính (đi máy bay qua Huế)",
+   "uoc_tinh": "3.400.000–6.800.000đ/người"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh Thành Cổ Quảng Trị, địa đạo Vĩnh Mốc, biển Cửa Tùng dịp lễ 30/4: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá thuê đã gồm những gì trước khi dùng; thỏa thuận giá trước khi lên xe/thuyền.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê xe, thuyền ở biển Cửa Việt, Cửa Tùng: giá thuê không thống nhất, phụ thu."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Đông Hà hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác mỏng, mũ, kem chống nắng (nắng miền Trung gắt)",
+  "Áo mưa mỏng (mùa mưa tháng 9–11)",
+  "Giày đi bộ (địa đạo Vĩnh Mốc, Thành Cổ)",
+  "Tiền mặt lẻ (quán nhỏ, chợ — nhiều nơi không nhận chuyển khoản)",
+  "Nước uống, thuốc cơ bản",
+  "Sạc dự phòng"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Mường Thanh Grand Quảng Trị"
+  ],
+  "diem": [
+   "Biển Cửa Tùng",
+   "Biển Cửa Việt",
+   "Biển Mỹ Thủy",
+   "Cầu Hiền Lương – sông Bến Hải (vĩ tuyến 17)"
+  ],
+  "nguon": "Traveloka mô tả Mường Thanh Grand Quảng Trị là 'perfect choice for couples seeking a romantic getaway or a honeymoon retreat' (ngày kiểm 08/11/2026)"
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Grand Quảng Trị",
+   "Khách sạn Sài Gòn – Đông Hà",
+   "Khách sạn Hữu Nghị"
+  ],
+  "diem_chay": [
+   "Quảng trường Hồ Chí Minh, Đồng Hới (điểm xuất phát giải Quảng Trị International Marathon)",
+   "Đường Võ Nguyên Giáp ven biển Bảo Ninh",
+   "Đường ven sông Hiếu, Đông Hà buổi sáng sớm"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Phụ Nữ Thủ Đô — Herbalife Việt Nam đồng hành cùng Tiền Phong Marathon 2025: giải lần thứ 66 tại TP Đông Hà, Quảng Trị, hơn 7.000 VĐV (ngày kiểm 08/11/2026)",
+    "ten": "Tiền Phong Marathon lần thứ 66 — Khúc Khải Hoàn",
+    "thoi_gian": "Tháng 3 (mùa 2025: 30/3/2025 tại TP Đông Hà)"
+   },
+   {
+    "nguon": "Báo Dân Trí — 3.500 VĐV tranh tài ở Aqua Warriors và Quảng Trị International Marathon (01/8/2025) (ngày kiểm 08/11/2026)",
+    "ten": "Quảng Trị International Marathon — Camel Cup",
+    "thoi_gian": "Tháng 8 (mùa 2025: 3/8/2025 tại phường Đồng Hới)"
+   }
+  ],
+  "nguon": "Báo Dân Trí và Báo Phụ Nữ Thủ Đô về hai giải chạy Quảng Trị; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm Đông Hà, cách ga Đông Hà ~1,5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "68 Lê Duẩn, TP Đông Hà",
+   "dien_thoai": "0233 3898 888",
+   "gia": "~700.000–1.400.000đ/đêm (có nguồn ghi ~800.000–1.000.000đ)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách đoàn, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "efly.vn, traveloka.com, trip.com, truyenhinhcapsongthu.net",
+   "nguon_dien_thoai": "booking.muongthanh.com; tripi.vn, kayak.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Quảng Trị",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Đông Hà",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "01 Bùi Thị Xuân, Phường 2, TP Đông Hà",
+   "dien_thoai": "0233 3577 888",
+   "gia": "~700.000–1.500.000đ/đêm (có nguồn ghi từ ~936.000đ; cách chợ Đông Hà ~250 m)",
+   "hang": "4 sao (có nguồn ghi 3 sao)",
+   "hop_voi": "Khách tiết kiệm, khách công tác",
+   "khu_vuc": "trung-tam",
+   "nguon": "efly.vn, traveloka.com, truyenhinhcapsongthu.net",
+   "nguon_dien_thoai": "nhadatquangtri.vn, tripi.vn, toplist.vn, toiphuot.net, leadtour.vn đồng thuận; saigondonghahotel.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Sài Gòn – Đông Hà",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Đông Hà",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "68 Trần Hưng Đạo, Phường 1, TP Đông Hà",
+   "dien_thoai": "0233 3852 361",
+   "gia": "~300.000–600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "2–3 sao",
+   "hop_voi": "Khách bụi, khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "limoutrip.com (bài 07/11/2026), tripi.vn, toplist.vn, mytour.vn, nhadatquangtri.vn, toiphuot.net đồng thuận (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: địa chỉ đúng 68 Trần Hưng Đạo.",
+   "ten": "Khách sạn Hữu Nghị",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm Đông Hà",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "348 Lê Duẩn, Phường Đông Lễ, TP Đông Hà",
+   "dien_thoai": "0233 3854 531",
+   "gia": "~300.000–700.000đ/đêm (chưa kiểm được)",
+   "hang": "Chưa kiểm được hạng",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulich9.com",
+   "nguon_dien_thoai": "tripi.vn; nhadatquangtri.vn; limoutrip.com 07/11/2026 (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Nam Đông",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát bãi Cửa Tùng, cách Đông Hà ~30–35 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Cửa Tùng, huyện Vĩnh Linh (địa chỉ chi tiết chưa kiểm được)",
+   "dien_thoai": null,
+   "gia": "~200.000–500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Nhóm bạn, gia đình tắm biển",
+   "khu_vuc": "cua-tung",
+   "nguon": "inhat.vn",
+   "nguon_dien_thoai": "Số 0975 617 365 trong file cũ là số Google Travel của Mũi Si Homestays (Cửa Tùng), KHÔNG phải Sơn Thủy — đã gỡ (ngày kiểm 08/11/2026). SĐT riêng Sơn Thủy Homestay chưa tra được. Lưu ý: 'Sơn Thủy Retreat' (sonthuyretreat.vn, 0356 151 819) là cơ sở khác ở Thanh Thủy, Phú Thọ — không dùng.",
+   "ten": "Sơn Thủy Homestays (Mũi Si, Cửa Tùng)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Đông Hà ~65 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Km62 QL9, Lương Lễ, huyện Hướng Hóa",
+   "dien_thoai": null,
+   "gia": "~400.000–500.000đ/đêm (phòng đôi nhìn ra núi; theo inhat.vn)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách đi cung QL9, ở lại 1 đêm",
+   "khu_vuc": "khe-sanh",
+   "nguon": "inhat.vn",
+   "nguon_dien_thoai": "chưa tra được — cơ sở có thật (Km62 QL9 Lương Lễ, Airbnb host Hung) nhưng không tìm được SĐT ở bất kỳ nguồn nào (ngày kiểm 08/11/2026)",
+   "ten": "Retro Khe Sanh (Km62 QL9, Lương Lễ, Hướng Hóa)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát Thành Cổ, cách Đông Hà ~28 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực Thành Cổ, phường Quảng Trị (chưa kiểm được tên cụ thể)",
+   "dien_thoai": null,
+   "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+   "hang": "Nhà nghỉ (không hạng sao)",
+   "hop_voi": "Khách tham quan Thành Cổ – La Vang",
+   "khu_vuc": "thanh-co",
+   "nguon": "mytour.vn",
+   "nguon_dien_thoai": "chưa tra được — mục chung chung, không có tên cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Homestay/nhà nghỉ thị xã Quảng Trị",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 4 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Thành Cổ Quảng Trị, Đảo Cồn Cỏ, Cầu Đakrông – thác Chênh Vênh, Chợ Đông Hà",
+  "Giá vé + lịch tàu ra đảo Cồn Cỏ; thủ tục đăng ký",
+  "Giá vé tàu SG/HN–ga Đông Hà 2026; giờ tàu chính xác từng chuyến",
+  "Giá taxi nội thành Đông Hà theo km; giá thuê ô tô có tài xế riêng Quảng Trị",
+  "Địa chỉ + số nhà chính xác: khách sạn Hữu Nghị, Nam Đông Hà, homestay/nhà nghỉ thị xã Quảng Trị (địa chỉ Sài Gòn – Đông Hà đã xác minh: 01 Bùi Thị Xuân; Khe Sanh và Cửa Tùng đã có tên + địa chỉ)",
+  "Số nhà quán Bánh khoái Dốc Ma (khu vực cầu vượt đường sắt, TP Đông Hà — tên quán đã xác minh theo dulich9.com); quán mít trộn Lê Quý Đôn; quán canh ám Lam Thủy",
+  "Giờ mở cửa chính xác: Thành Cổ, Vĩnh Mốc, Nghĩa trang Trường Sơn, La Vang",
+  "Giá thuê xe máy riêng tại Đông Hà (dùng mặt bằng chung miền Trung)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Chợ Đông Hà, Công viên Fidel Castro, Biển Mỹ Thủy — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm.",
+  "Địa giới hành chính: từ 1/7/2025 Quảng Bình cũ sáp nhập vào Quảng Trị, trung tâm hành chính mới tại Đồng Hới (NQ 202/2025/QH15) — ĐÃ ĐỔI mốc trung tâm sang Đồng Hới ngày 08/11/2026; các khoảng cách trong file vẫn tính từ Đông Hà (mốc cũ), đang tính lại từ Đồng Hới; file vẫn chỉ phủ khu vực Quảng Trị cũ, chưa có điểm Quảng Bình cũ."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Quảng Trị có đèo Sa Mù (đường Hồ Chí Minh nhánh Tây, đoạn Hướng Hóa, dốc dài, cua gấp, sương mù dày đặc, tầm nhìn rất hạn chế — tên đèo bắt nguồn từ mù). Đi xe máy: đi chậm, bật đèn, không vượt ở cua khuất; mùa mưa dễ sạt lở, xem dự báo trước khi qua đèo.",
+  "deo": [
+   "Đèo Sa Mù (đường Hồ Chí Minh nhánh Tây, Hướng Hóa, dốc dài, cua gấp, sương mù dày, tầm nhìn hạn chế)"
+  ],
+  "nguon": "Đèo Sa Mù là tuyến đèo có thật trên đường Hồ Chí Minh nhánh Tây, nối xã Hướng Phùng – Hướng Việt (Hướng Hóa), cách Khe Sanh ~35 km (sknc.qdnd.vn 17/07/2026; mytour.vn); chưa tra được bài báo riêng về tai nạn trên đèo Sa Mù (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu": "Quảng Trị không có sân bay dân dụng; sân bay gần nhất là Phú Bài (Huế), cách Đông Hà ~80 km. Ga Đông Hà là ga chính trên tuyến Thống Nhất.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Hãng tra được: FUTA Hà Sơn (tuyến Đông Hà–Hà Nội)",
+    "gia": "Chưa kiểm được giá vé 2026 — cần hỏi nhà xe trước",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Xe khách HN–Đông Hà",
+    "thoi_gian": "~12–14 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Phương án khuyên dùng",
+    "gia": "Bay ~800.000–1.600.000đ/chiều (tùy thời điểm); xe Huế–Đông Hà ~100.000–200.000đ/người",
+    "nguon": "vnpayapp.vn, vexesapa.vn",
+    "phuong_tien": "Máy bay HN–Huế (Phú Bài) + xe Huế–Đông Hà",
+    "thoi_gian": "Bay ~1h15 + xe ~1h45"
+   },
+   {
+    "ghi_chu": "Ga Đông Hà ngay trung tâm",
+    "gia": "Chưa kiểm được giá vé 2026 — tra dsvn.vn trước ngày đi",
+    "nguon": "limoutrip.com",
+    "phuong_tien": "Tàu HN–ga Đông Hà",
+    "thoi_gian": "~11–13 giờ (chưa kiểm được chính xác từng tàu)"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "Đặt xe ghép trước; có xe chạy các khung 7h–11h và 13h–17h theo nguồn",
+    "gia": "Xe ghép ~150.000–250.000đ/ghế; taxi riêng chưa kiểm được giá trọn gói",
+    "nguon": "vexesapa.vn",
+    "phuong_tien": "Taxi sân bay Phú Bài (Huế) – Đông Hà",
+    "thoi_gian": "~1h45, ~80 km"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng tra được: Đức Trang, Tiến Đạt Thành, FUTA Hà Sơn, Phúc An Express. Tuyến dài nhất trong 6 tỉnh — chỉ hợp người dư thời gian",
+    "gia": "~550.000–1.000.000đ/vé (Đức Trang ~550.000đ; Tiến Đạt Thành 500.000–800.000đ; nguồn khác 850.000–1.000.000đ)",
+    "nguon": "vexesapa.vn, limoutrip.com, limousineamazing.com",
+    "phuong_tien": "Xe khách giường nằm SG–Đông Hà",
+    "thoi_gian": "~24–30 giờ"
+   },
+   {
+    "ghi_chu": "Phương án khuyên dùng: bay tới sân bay Phú Bài (Huế), rồi xe khách/xe ghép về Đông Hà",
+    "gia": "Bay ~700.000–1.800.000đ/chiều (tùy thời điểm); xe Huế–Đông Hà ~100.000–200.000đ/người (xe ghép 150.000–250.000đ/ghế)",
+    "nguon": "vnpayapp.vn, vexesapa.vn",
+    "phuong_tien": "Máy bay SG–Huế (Phú Bài) + xe Huế–Đông Hà",
+    "thoi_gian": "Bay ~1h20 + xe ~1h45 (cao tốc Cam Lộ – La Sơn)"
+   },
+   {
+    "ghi_chu": "Ga Đông Hà cách trung tâm ~1,5 km; tàu Thống Nhất Bắc–Nam dừng tại ga",
+    "gia": "Chưa kiểm được giá vé 2026 — khoảng ghế mềm/giường nằm theo bảng giá Đường sắt VN, cần tra dsvn.vn trước ngày đi",
+    "nguon": "limoutrip.com",
+    "phuong_tien": "Tàu SG–ga Đông Hà",
+    "thoi_gian": "~20–24 giờ (chưa kiểm được giờ chính xác từng tàu)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đường QL9 đi Khe Sanh đèo dốc — chỉ thuê xe tốt, kiểm phanh trước; lễ Tết tăng giá",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "motorvina.com, vexere.com",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "Đi trong TP và ra biển Cửa Việt/Cửa Tùng hợp; đường dài QL9 nên ưu tiên xe số",
+   "gia": "~120.000–180.000đ/ngày",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "motorvina.com",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hãng: Mai Linh và hãng địa phương; hỏi giá trước",
+   "gia": "Chưa kiểm được giá/km riêng — taxi theo chuyến trong TP khoảng 30.000–80.000đ/chuyến",
+   "giay_to": "—",
+   "nguon": "chưa kiểm được nguồn giá riêng",
+   "phuong_tien": "Taxi nội thành Đông Hà"
+  },
+  {
+   "ghi_chu": "Tuyến Đông Hà–Lao Bảo, Đông Hà–Vĩnh Linh chạy ~5h–21h",
+   "gia": "~10.000–30.000đ/lượt (chưa kiểm được chính xác)",
+   "giay_to": "—",
+   "nguon": "vexesapa.vn",
+   "phuong_tien": "Xe buýt nội tỉnh"
+  },
+  {
+   "ghi_chu": "Hợp cung QL9 (Khe Sanh) + Vĩnh Mốc trong 1 ngày; thỏa thuận giá + xăng trước",
+   "gia": "Chưa kiểm được giá riêng Quảng Trị — khoảng 800.000–1.200.000đ/ngày (xe 4–7 chỗ, theo mặt bằng chung miền Trung)",
+   "giay_to": "—",
+   "nguon": "chưa kiểm được nguồn giá riêng",
+   "phuong_tien": "Thuê ô tô có tài xế theo ngày"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 14,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Quảng Trị (thị xã Quảng Trị cũ), ven QL1A",
+   "gia_ve": "Miễn phí tham quan khuôn viên (chưa kiểm được vé riêng nếu có)",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người quan tâm lịch sử",
+   "id": "thanh-co-quang-tri",
+   "lat": 16.75875,
+   "lng": 107.18335,
+   "luu_y": "Di tích tưởng niệm 81 ngày đêm 1972 — giữ thái độ trang nghiêm, ăn mặc lịch sự. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "mytour.vn, dulich9.com, phongnhaviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, elitetour.com.vn, mytour.vn",
+    "nhan_xet": "Thành Cổ là di tích bi tráng nhất Quảng Trị: gần như bị san phẳng sau 81 ngày đêm năm 1972, chỉ còn cửa Đông và vài đoạn tường; không gian tưởng niệm rất xúc động. Hợp mọi đối tượng quan tâm lịch sử, nhưng không phải điểm 'chill' hay sống ảo — nên đi với thái độ trang nghiêm, ăn mặc lịch sự."
+   },
+   "ten": "Thành Cổ Quảng Trị",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "35",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Vịnh Mốc, xã Cửa Tùng (xã Vĩnh Thạch cũ, huyện Vĩnh Linh cũ), tỉnh Quảng Trị",
+   "gia_ve": "50.000đ/người lớn; trẻ em 20.000–25.000đ (các nguồn 2026 ghi khác nhau: 20.000đ theo dailytour.info, sovaba.travel; 25.000đ theo ecotour.com.vn, junglebosstours.com, bibuvivu.com — chưa thống nhất, hỏi tại quầy; kiểm 08/11/2026)",
+   "gio_mo_cua": "7:00–17:00 hằng ngày (junglebosstours.com, bibuvivu.com; kiểm 08/11/2026)",
+   "hop_voi": "Mọi đối tượng, gia đình có trẻ lớn",
+   "id": "dia-dao-vinh-moc",
+   "lat": 17.07426,
+   "lng": 107.1103,
+   "luu_y": "Địa đạo 3 tầng, sâu tới ~23 m, dài ~2 km; hầm thấp, hẹp — người sợ không gian kín, trẻ nhỏ, người lớn tuổi cân nhắc; mang đèn pin điện thoại",
+   "nguon": "dulich9.com, mytour.vn, phongnhaviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "ecotour.com.vn, TripAdvisor, dulich9.com",
+    "nhan_xet": "Địa đạo 3 tầng sâu tới 23 m, dài ~2 km, nơi người dân sống thật suốt chiến tranh (17 em bé chào đời trong hầm) — trải nghiệm độc nhất Việt Nam, TripAdvisor chấm 4,6/5 (380 đánh giá — kiểm trực tiếp TripAdvisor ngày 08/11/2026). Điểm trừ là hầm thấp hẹp, người sợ không gian kín và trẻ nhỏ nên cân nhắc; nên xem phim tư liệu ~20 phút trước khi xuống. Giá vé: 50.000đ/người lớn; trẻ em 20.000–25.000đ (các nguồn 2026 ghi khác nhau, chưa thống nhất — hỏi tại quầy)."
+   },
+   "ten": "Địa đạo Vĩnh Mốc",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Vĩnh Linh, bên QL1A, bắc qua sông Bến Hải",
+   "gia_ve": "50.000đ/người lớn; trẻ em tính 2 em/vé (bán vé trở lại từ 01/03/2026 sau trùng tu; dịp Tết Nguyên đán 2026 miễn phí — baoangiang.com.vn, giaoducthoidai.vn; vietnamtravel.org 09/2026; kiểm 08/11/2026)",
+   "gio_mo_cua": "Cả ngày (không gian mở)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "cau-hien-luong-ben-hai",
+   "lat": 17.00334,
+   "lng": 107.05169,
+   "luu_y": "Đi cùng ngày với Vĩnh Mốc (cách ~7 km); nắng gắt buổi trưa, mang mũ/nước",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn",
+    "nhan_xet": "Cầu Hiền Lương – sông Bến Hải là biểu tượng vĩ tuyến 17, ranh giới chia cắt 20 năm; đứng trên cầu cảm nhận lịch sử rất rõ. Điểm trừ là tham quan chỉ 30–45 phút, nắng gắt buổi trưa; nên ghép cùng Vĩnh Mốc trong ngày. Giá vé: 50.000đ/người lớn từ 01/03/2026 (trước đây miễn phí khi mới trùng tu xong dịp Tết 2026)."
+   },
+   "ten": "Cầu Hiền Lương – sông Bến Hải (vĩ tuyến 17)",
+   "thoi_gian": "30–45 phút"
+  },
+  {
+   "cach_trung_tam_km": "65",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị trấn Khe Sanh, huyện Hướng Hóa, trên QL9",
+   "gia_ve": "50.000đ/người (sovaba.travel 01/2026; vietnamtravel.org 09/2026; kiểm 08/11/2026)",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Người quan tâm lịch sử, nhóm bạn",
+   "id": "can-cu-khe-sanh",
+   "lat": 16.65357,
+   "lng": 106.72437,
+   "luu_y": "Cách Đông Hà ~65–80 km, đường QL9 đèo dốc; nên đi sáng sớm, ghép cầu Đakrông",
+   "nguon": "dulich9.com, mytour.vn, phongnhaviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "08/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn, phongnhaviet.com",
+    "nhan_xet": "Căn cứ Khe Sanh – sân bay Tà Cơn nằm ngay chiến trường thật, trưng bày máy bay và xe tăng thật nên ấn tượng hơn bảo tàng thường; hợp người quan tâm lịch sử quân sự. Điểm trừ là cách Đông Hà ~65 km đường đèo, giá vé 50.000đ/người (sovaba.travel 01/2026; vietnamtravel.org 09/2026); nên đi sáng sớm."
+   },
+   "ten": "Căn cứ Khe Sanh – sân bay Tà Cơn",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": "25",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Gio Linh (huyện Gio Linh cũ), gần QL1A",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Khoảng 7:00–17:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng",
+   "id": "nghia-trang-truong-son",
+   "lat": 16.95474,
+   "lng": 106.95291,
+   "luu_y": "Nơi tưởng niệm hơn 10.000 liệt sĩ — giữ yên lặng, trang phục lịch sự",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn",
+    "nhan_xet": "Nghĩa trang Quốc gia Trường Sơn với hơn 10.000 ngôi mộ liệt sĩ cho cảm giác choáng ngợp và xúc động, hợp mọi đối tượng đến tri ân. Không phải điểm vui chơi; nên giữ yên lặng, trang phục lịch sự, đi sáng sớm cho mát."
+   },
+   "ten": "Nghĩa trang Liệt sĩ Quốc gia Trường Sơn",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": "30–35",
+   "cum": "phia-bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cửa Tùng, huyện Vĩnh Linh",
+   "gia_ve": "Miễn phí vào bãi; ghế/dù chưa kiểm được giá",
+   "gio_mo_cua": "Cả ngày; tắm đẹp nhất sáng sớm và chiều mát",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "bien-cua-tung",
+   "lat": 17.01971,
+   "lng": 107.10956,
+   "luu_y": "Bãi còn hoang sơ, hạ tầng yếu, ít cứu hộ — chỉ tắm khu vực có người, hỏi dân địa phương về dòng chảy",
+   "nguon": "dulich9.com, mytour.vn, phongnhaviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn, conghien.thethaovanhoa.vn",
+    "nhan_xet": "Cửa Tùng được gọi là 'nữ hoàng bãi tắm' thời xưa, cát trắng, nước trong, còn hoang sơ và chưa khai thác nhiều. Điểm trừ là hạ tầng yếu, ít cứu hộ, một số đoạn nước gần bờ không sạch theo review; chỉ tắm khu vực có người và hỏi dân địa phương về dòng chảy."
+   },
+   "ten": "Biển Cửa Tùng",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "15",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Gio Việt, huyện Gio Linh",
+   "gia_ve": "Miễn phí vào bãi; hải sản tại quán ven biển 150.000–300.000đ/người",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "bien-cua-viet",
+   "lat": 16.91368,
+   "lng": 107.18754,
+   "luu_y": "Gần Đông Hà nhất trong các bãi biển; buổi chiều có chợ hải sản tươi",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com, mytour.vn, conghien.thethaovanhoa.vn",
+    "nhan_xet": "Cửa Việt là bãi biển gần Đông Hà nhất (~15 km), cát trắng mịn, buổi chiều có chợ hải sản tươi; hợp gia đình đi trong ngày. Điểm trừ là dịch vụ còn đơn giản; nên ăn hải sản tại quán ven biển và hỏi giá trước."
+   },
+   "ten": "Biển Cửa Việt",
+   "thoi_gian": "2–3 giờ"
+  },
+  {
+   "cach_trung_tam_km": "15",
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hải Phú, huyện Hải Lăng, gần QL1A",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Khoảng 5:00–21:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Khách hành hương, mọi đối tượng",
+   "id": "nha-tho-la-vang",
+   "lat": 16.70695,
+   "lng": 107.19547,
+   "luu_y": "Điểm hành hương Công giáo lớn; tránh giờ lễ nếu chỉ tham quan, ăn mặc kín đáo",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / dulich9.com, mytour.vn",
+    "nhan_xet": "Thánh địa La Vang là điểm hành hương Công giáo lớn, kiến trúc đẹp, không gian trang nghiêm; hợp khách hành hương và mọi đối tượng tham quan. Điểm trừ là tránh giờ lễ nếu chỉ tham quan, ăn mặc kín đáo."
+   },
+   "ten": "Nhà thờ La Vang (Thánh địa La Vang)",
+   "thoi_gian": "1 giờ"
+  },
+  {
+   "cach_trung_tam_km": "30",
+   "cum": "phia-dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện đảo Cồn Cỏ, cách bờ Vĩnh Linh ~30 km (tàu từ Cửa Tùng/Cửa Việt)",
+   "gia_ve": "Chưa kiểm được giá tàu + phí tham quan hiện hành; cần đăng ký trước với cơ quan chức năng",
+   "gio_mo_cua": "Chưa kiểm được lịch tàu cố định — phụ thuộc thời tiết",
+   "hop_voi": "Người thích biển đảo, khám phá",
+   "id": "dao-con-co",
+   "lat": 17.15373,
+   "lng": 107.34226,
+   "luu_y": "Đảo quân sự — KHÔNG tự đi tàu riêng; phải đăng ký theo đoàn/tour được phép, kiểm tra thời tiết trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "mytour.vn, phongnhaviet.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / mytour.vn, phongnhaviet.com",
+    "nhan_xet": "Đảo Cồn Cỏ hoang sơ, biển trong, hợp người thích khám phá biển đảo. Điểm trừ lớn nhất là đảo quân sự — không tự đi tàu riêng, phải đăng ký theo đoàn/tour được phép và phụ thuộc thời tiết; giá tàu và lịch tàu chưa kiểm được."
+   },
+   "ten": "Đảo Cồn Cỏ",
+   "thoi_gian": "Nửa ngày–1 ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": "55",
+   "cum": "phia-tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "QL9, huyện Hướng Hóa (Đakrông), trên đường đi Khe Sanh",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Cả ngày",
+   "hop_voi": "Nhóm bạn, người đi QL9",
+   "id": "cau-dakrong-thac-chenh-venh",
+   "lat": 16.6199,
+   "lng": 106.71691,
+   "luu_y": "Cầu treo Đakrông là điểm dừng chụp ảnh trên QL9; thác Chênh Vênh đẹp nhất mùa mưa, đường vào trơn. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich9.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / dulich9.com, mytour.vn",
+    "nhan_xet": "Cầu treo Đakrông là điểm dừng chụp ảnh đẹp trên QL9, thác Chênh Vênh đẹp nhất mùa mưa; hợp nhóm bạn đi cung Khe Sanh. Điểm trừ là thác đường vào trơn, chỉ dừng 30–60 phút; nên đi cùng ngày với Khe Sanh."
+   },
+   "ten": "Cầu Đakrông – thác Chênh Vênh",
+   "thoi_gian": "30–60 phút",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Trần Hưng Đạo, TP Đông Hà (trung tâm)",
+   "gia_ve": "Miễn phí vào chợ; món ăn 10.000–50.000đ/món",
+   "gio_mo_cua": "Khoảng 5:00–18:00 (chưa kiểm được chính xác)",
+   "hop_voi": "Mọi đối tượng, người thích ẩm thực/mua đặc sản",
+   "id": "cho-dong-ha",
+   "lat": 16.82337,
+   "lng": 107.10101,
+   "luu_y": "Chợ lớn nhất Đông Hà, đình ẩm thực có bánh ướt Phương Lang, bún nghệ, mít trộn; tọa độ xấp xỉ (trung tâm TP Đông Hà), cần kiểm lại",
+   "nguon": "tripi.vn, sovaba.travel",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "tripi.vn, sovaba.travel",
+    "nhan_xet": "Chợ Đông Hà là chợ lớn nhất tỉnh, đình ẩm thực có đủ món Quảng Trị (bánh ướt Phương Lang, bún nghệ, mít trộn) giá bình dân; hợp mọi đối tượng thích ẩm thực. Điểm trừ là chợ đông, nên đi buổi sáng và mang tiền mặt lẻ."
+   },
+   "ten": "Chợ Đông Hà",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường 3, TP Đông Hà",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người dân địa phương dạo mát",
+   "id": "cong-vien-fidel",
+   "lat": 16.81628,
+   "lng": 107.08926,
+   "luu_y": "Công viên trung tâm Đông Hà, điểm dạo mát buổi tối; ghép cùng chợ Đông Hà",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Công viên trung tâm Đông Hà, dạo mát chiều tối thoáng đãng, hợp gia đình có trẻ nhỏ. Điểm trừ là quy mô nhỏ, chỉ chơi 30–60 phút; nên ghép cùng chợ Đông Hà buổi tối."
+   },
+   "ten": "Công viên Fidel Castro",
+   "thoi_gian": "30–60 phút; đẹp nhất chiều tối"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "phia-nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hải An, huyện Hải Lăng, cách TP Đông Hà ~25 km",
+   "gia_ve": "Miễn phí vào bãi; hải sản tính riêng",
+   "gio_mo_cua": "Cả ngày; tắm đẹp nhất sáng sớm và chiều mát",
+   "hop_voi": "Gia đình, nhóm bạn thích biển hoang sơ",
+   "id": "bien-my-thuy",
+   "lat": 16.78048,
+   "lng": 107.33529,
+   "luu_y": "Bãi biển hoang sơ gần La Vang (cùng huyện Hải Lăng); ít dịch vụ, hỏi dân địa phương về dòng chảy trước khi tắm",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Biển Mỹ Thủy hoang sơ, gần La Vang, hợp nhóm bạn thích biển vắng. Điểm trừ là ít dịch vụ, ít cứu hộ; nên hỏi dân địa phương về dòng chảy trước khi tắm."
+   },
+   "ten": "Biển Mỹ Thủy",
+   "thoi_gian": "2–3 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Cầu Hiền Lương – sông Bến Hải",
+   "gio": "5:30-7:00 sáng bình minh hoặc 16:30-18:00 hoàng hôn trên sông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Biển Cửa Tùng",
+   "gio": "5:30-7:00 sáng bình minh hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Địa đạo Vĩnh Mốc",
+   "gio": "7:00-9:00 sáng, ánh sáng đẹp, ít đông",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì xuống địa đạo Vĩnh Mốc (đi trong lòng đất, không ướt), trú chợ, nhà thờ; tránh ra đảo Cồn Cỏ, biển khi mưa bão.",
+  "diem": [
+   "Địa đạo Vĩnh Mốc",
+   "Chợ Đông Hà",
+   "Nhà thờ La Vang (Thánh địa La Vang)"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "thanh-co-quang-tri",
+    "hoat_dong": "Thành Cổ Quảng Trị (1–1,5 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "nha-tho-la-vang, nghia-trang-truong-son",
+    "hoat_dong": "Nhà thờ La Vang (1 giờ) + Nghĩa trang Trường Sơn (1 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Bánh khoái + cháo bột cá lóc ở Đông Hà",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "cau-hien-luong-ben-hai, dia-dao-vinh-moc",
+    "hoat_dong": "Cầu Hiền Lương – Bến Hải (30–45 phút) + Địa đạo Vĩnh Mốc (1,5–2 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bien-cua-tung",
+    "hoat_dong": "Biển Cửa Tùng tắm biển + hải sản (2–3 giờ)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về Đông Hà, dạo chợ đêm/chợ Đông Hà",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "can-cu-khe-sanh, cau-dakrong-thac-chenh-venh",
+    "hoat_dong": "Khe Sanh – sân bay Tà Cơn (1–1,5 giờ), dừng cầu Đakrông trên đường",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "bien-cua-viet",
+    "hoat_dong": "Biển Cửa Việt (2 giờ) rồi về, trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Đồng Hới",
+  "best_season": "Tháng 3–5 (đẹp nhất, mùa khô; tránh tháng 9–tháng 11 mưa bão)",
+  "destination": "Quảng Trị",
+  "ghi_chu_dia_gioi": "Từ 1/7/2025 tỉnh Quảng Bình cũ sáp nhập vào tỉnh Quảng Trị, trung tâm hành chính mới đặt tại Đồng Hới (NQ 202/2025/QH15); các điểm trong file này thuộc khu vực Quảng Trị cũ, chưa có điểm Quảng Bình cũ. CẬP NHẬT 08/11/2026: các khoảng cách trong file vẫn tính từ TP Đông Hà (mốc cũ), đang tính lại từ Đồng Hới (nguồn: ecotour.com.vn, vietnam.vn 27/10/2026).",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 9/13 điểm chính xác, 4 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "ghi_chu_trung_tam": "CẬP NHẬT 08/11/2026: trung tâm hành chính tỉnh mới là TP Đồng Hới (NQ 202/2025/QH15; nguồn: vietnam.vn 27/10/2026) — anchor đã đổi sang Đồng Hới, tọa độ trung tâm (17.47, 106.62) là xấp xỉ theo TP Đồng Hới. Các khoảng cách cach_trung_tam_km của 13 địa danh hiện vẫn tính từ TP Đông Hà (mốc cũ), đang tính lại từ Đồng Hới — KHÔNG tự cộng/trừ số km. File này hiện chỉ phủ khu vực Quảng Trị cũ, chưa có điểm nào thuộc Quảng Bình cũ.",
+  "id": "quang-tri",
+  "lat": 17.47,
+  "lng": 106.62,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "dulich9.com",
+   "mytour.vn",
+   "tripi.vn",
+   "vexesapa.vn",
+   "limoutrip.com",
+   "phongnhaviet.com",
+   "vietnam.vn",
+   "sovaba.travel",
+   "vietnamtravel.org",
+   "junglebosstours.com",
+   "baoangiang.com.vn",
+   "giaoducthoidai.vn"
+  ],
+  "overview": "Quảng Trị là vùng đất lịch sử: Thành Cổ, địa đạo Vĩnh Mốc, vĩ tuyến 17, Khe Sanh — kết hợp biển Cửa Tùng, Cửa Việt còn hoang sơ.",
+  "province": "Quảng Trị",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "lịch sử",
+   "biển"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "08/11/2026",
+  "nguon": "phanvantravel.com",
+  "thang_dep_nhat": "Tháng 3–5 (đẹp nhất); tránh tháng 9–11 mưa bão"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

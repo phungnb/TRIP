@@ -1,0 +1,1091 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "40.000–90.000đ/tô",
+   "mon": "Phở bò Hà Nội",
+   "nguon": "oneoffice.vn, areamotel.com, kisstour.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Phở Hà Nội vẫn là món phải ăn đầu tiên: nước dùng trong, thơm quế hồi, bánh phở mềm. Điểm trừ: quán nổi tiếng thường đông, phải xếp hàng và giá cao hơn quán bình dân. Nên ăn sáng sớm, gọi tái nạm để cảm đủ vị."
+   },
+   "quan": [
+    {
+     "dia_chi": "10 Lý Quốc Sư, Hoàn Kiếm",
+     "gia": "50.000–80.000đ/tô",
+     "ten": "Phở 10 Lý Quốc Sư"
+    },
+    {
+     "dia_chi": "Lò Đúc, Hai Bà Trưng",
+     "gia": "60.000–90.000đ/tô",
+     "ten": "Phở Thìn Lò Đúc"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "40.000–80.000đ/suất",
+   "mon": "Bún chả Hà Nội",
+   "nguon": "oneoffice.vn, areamotel.com, note.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún chả là món trưa đặc trưng nhất Hà Nội: chả nướng than thơm, nước chấm chua ngọt vừa miệng. Quán nổi tiếng thường đông giờ trưa, nên đi trước 11h30. Điểm trừ: một số quán khu phố cổ giá cao và chả nướng sẵn, không còn nóng."
+   },
+   "quan": [
+    {
+     "dia_chi": "24 Lê Văn Hưu, Hai Bà Trưng",
+     "gia": "60.000–100.000đ/suất",
+     "ten": "Bún chả Hương Liên"
+    },
+    {
+     "dia_chi": "1 Hàng Mành, Hoàn Kiếm",
+     "gia": "80.000đ/suất; combo nem cua bể 140.000đ",
+     "ten": "Bún chả Đắc Kim"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa nhẹ",
+   "danh_gia_nguoi_dung": [],
+   "gia": "35.000–70.000đ/phần",
+   "mon": "Bánh cuốn nóng",
+   "nguon": "oneoffice.vn, areamotel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bánh cuốn Hà Nội mỏng, mềm, nhân thịt mộc nhĩ, chấm nước mắm pha là chuẩn vị. Ăn sáng là hợp nhất, quán lâu đời thường hết sớm. Điểm trừ: bánh làm sẵn để lâu sẽ dai và nguội, nên ăn tại quán vừa tráng xong."
+   },
+   "quan": [
+    {
+     "dia_chi": "Tô Hiến Thành, Hai Bà Trưng",
+     "gia": "45.000–70.000đ/phần",
+     "ten": "Bánh cuốn Bà Hoành"
+    },
+    {
+     "dia_chi": "12 Hàng Gà, Hoàn Kiếm",
+     "gia": "35.000–60.000đ/phần",
+     "ten": "Bánh cuốn Thanh Vân"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "45.000–65.000đ/tô",
+   "mon": "Bún thang",
+   "nguon": "areamotel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún thang là món cầu kỳ nhất Hà Nội: gà xé, trứng tráng, giò lụa, tôm khô, nước dùng trong và ngọt thanh. Hợp người thích vị nhẹ, không hợp ai đói cồn cào vì tô khá nhỏ. Quán Bà Đức ở Cầu Gỗ là địa chỉ lâu đời được nhiều người nhắc."
+   },
+   "quan": [
+    {
+     "dia_chi": "48 Cầu Gỗ, Hoàn Kiếm",
+     "gia": "45.000–65.000đ/tô",
+     "ten": "Bún thang Bà Đức"
+    },
+    {
+     "dia_chi": "Khu vực Hàng Đào – Cầu Gỗ, Hoàn Kiếm (nhiều quán, kiểm lại số nhà khi tới)",
+     "gia": "40.000–60.000đ/tô",
+     "ten": "Bún thang (quán phố cổ)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "150.000–250.000đ/suất (chưa kiểm được mức hiện hành chính xác)",
+   "mon": "Chả cá Lã Vọng",
+   "nguon": "thuongtruong.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Chả cá Lã Vọng là món thương hiệu Hà Nội: cá lăng rán với thì là, ăn kèm bún và mắm tôm. Điểm trừ lớn nhất là giá cao và có phần ồn ào vì quá nổi tiếng; nhiều người nhận xét chất lượng không còn như xưa so với giá. Nên đi một lần cho biết, đi nhóm 2-4 người chia tiền sẽ hợp lý."
+   },
+   "quan": [
+    {
+     "dia_chi": "14 Chả Cá, Hoàn Kiếm",
+     "gia": "~150.000–250.000đ/suất (khoảng tham khảo, kiểm lại tại quán)",
+     "ten": "Chả cá Lã Vọng"
+    },
+    {
+     "dia_chi": "18 Phan Bội Châu, Cửa Nam",
+     "gia": "Món chính 95.000–400.000đ; chả cá trong thực đơn nhà hàng",
+     "ten": "Quán Ăn Ngon"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "55.000–85.000đ/phần",
+   "mon": "Phở cuốn / phở chiên phồng",
+   "nguon": "oneoffice.vn, note.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Phở cuốn Ngũ Xã là món trưa nhẹ nhàng, mát mẻ, hợp mùa hè: bánh phở cuốn thịt bò và rau thơm. Phở chiên phồng giòn rụm, ăn kèm bò xào. Điểm trừ: quán khu Ngũ Xã buổi trưa đông, chỗ ngồi chật."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực Kim Mã, Ba Đình",
+     "gia": "55.000–80.000đ/phần",
+     "ten": "Phở cuốn Hương Mai"
+    },
+    {
+     "dia_chi": "29B Ngũ Xã, Ba Đình",
+     "gia": "85.000đ/phần (phở cuốn bò / phở chiên phồng xào bò)",
+     "ten": "Phở cuốn Thanh Hằng"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "40.000–60.000đ/tô",
+   "mon": "Phở gà",
+   "nguon": "areamotel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Phở gà Hà Nội nước trong, thơm gừng, gà ta dai và ngọt thịt. Ăn sáng là chuẩn nhất, quán Nguyệt ở Phủ Doãn được nhiều người khen. Điểm trừ: gà ta giá cao hơn phở bò, tô ít bánh hơn."
+   },
+   "quan": [
+    {
+     "dia_chi": "5B Phủ Doãn, Hoàn Kiếm",
+     "gia": "40.000–60.000đ/tô",
+     "ten": "Phở gà Nguyệt"
+    },
+    {
+     "dia_chi": "Khu vực Hàng Đào, Hoàn Kiếm (nhiều quán)",
+     "gia": "40.000–60.000đ/tô",
+     "ten": "Phở gà (quán phố cổ)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "40.000–50.000đ/tô",
+   "mon": "Bún dọc mùng / bún sườn",
+   "nguon": "note.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bún dọc mùng là món sáng bình dân, chua nhẹ, sườn mềm, giá rẻ. Quán Bát Đàn được nhiều người địa phương khen vì nước dùng vừa miệng. Điểm trừ: dọc mùng nếu làm không kỹ sẽ ngứa, nên ăn quán quen."
+   },
+   "quan": [
+    {
+     "dia_chi": "18 Bát Đàn, Hoàn Kiếm",
+     "gia": "Bún sườn 40.000đ; đặc biệt 50.000đ",
+     "ten": "Quán Bún Dọc Mùng Bát Đàn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / buổi chiều",
+   "danh_gia_nguoi_dung": [],
+   "gia": "30.000–45.000đ/ly",
+   "mon": "Cà phê trứng",
+   "nguon": "kisstour.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog du lich",
+    "nhan_xet": "Cà phê trứng là đặc sản phải thử: lớp trứng đánh bông béo ngậy trên cà phê đậm. Giảng là quán gốc, không gian cổ kính nhưng chật và đông; Đinh thì view Hồ Gươm. Điểm trừ: ai không quen vị trứng sẽ thấy ngấy, nên gọi ly nhỏ trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "39 Nguyễn Hữu Huân, Hoàn Kiếm",
+     "gia": "30.000–45.000đ/ly (khoảng tham khảo)",
+     "ten": "Cà phê Giảng"
+    },
+    {
+     "dia_chi": "13 Đinh Tiên Hoàng, Hoàn Kiếm",
+     "gia": "30.000–45.000đ/ly (khoảng tham khảo)",
+     "ten": "Cà phê Đinh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "20.000–40.000đ/ổ",
+   "mon": "Bánh mì Hà Nội",
+   "nguon": "kisstour.com, note.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / Foody / blog am thuc",
+    "nhan_xet": "Bánh mì Hà Nội khác Sài Gòn: vỏ giòn, pate béo, ít rau hơn, ăn sáng nhanh gọn. Quán Chân Cầm được nhiều người khen vì pate thơm. Điểm trừ: bánh mì phố cổ giá cao hơn khu ngoài, nên ăn quán dân sinh."
+   },
+   "quan": [
+    {
+     "dia_chi": "19 Chân Cầm, Hoàn Kiếm",
+     "gia": "Bánh mì bò 40.000đ",
+     "ten": "Bánh Mỳ Bi"
+    },
+    {
+     "dia_chi": "Khu vực Hàng Bông – Chân Cầm, Hoàn Kiếm",
+     "gia": "20.000–40.000đ/ổ",
+     "ten": "Bánh mì pate (quán phố cổ)"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SG–HN khứ hồi",
+   "uoc_tinh": "3.000.000–5.000.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng phố cổ ~350.000–800.000đ/đêm)",
+   "uoc_tinh": "350.000–800.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày (sáng 40k + trưa/tối 50–150k/bữa)",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Văn Miếu, Hoàng thành, Hỏa Lò, rối nước...)",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Đi lại nội thành (taxi/Grab/buýt)",
+   "uoc_tinh": "200.000–500.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh / mua sắm",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "4.300.000–7.950.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi tàu thay máy bay (khứ hồi, ghế mềm/giường nằm)",
+   "uoc_tinh": "~1.800.000–4.800.000đ (rẻ hơn bay nhưng mất ~2 ngày di chuyển)"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Đi thẳng tới bến taxi chính thức trong sân bay hoặc đặt xe qua ứng dụng (Grab, Xanh SM) để chốt giá trước trong app, đối chiếu biển số xe với app trước khi lên; không theo người chèo kéo 'Taxi? Taxi?' ở cửa đến, không trả thêm phí cầu đường/bãi đỗ ngoài giá đã thỏa thuận.",
+   "nguon": "travelfish.org — Avoiding taxi scams in Hanoi; asiamystika.com — Taxi in Hanoi: The 2026 Guide (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Taxi sân bay Nội Bài hét giá: cò mồi chèo kéo ngay cửa đến, xe không chính hãng, đồng hồ chạy nhanh hoặc thỏa thuận giá cao gấp 2-3 lần; có trường hợp chở khách tới nhầm khách sạn để ăn hoa hồng."
+  },
+  {
+   "cach_tranh": "Chỉ đi xích lô có biển kiểm soát do Công an cấp (xe của 4 công ty du lịch được cấp phép, khoảng 80 xe); thỏa thuận rõ giá và lộ trình bằng văn bản/tin nhắn trước khi lên xe, từ chối xe không biển số.",
+   "nguon": "vietnam.vnanet.vn — Australian tourist refunded after being overcharged on Hanoi cyclo ride; hanoimoi.vn — Xử lý nghiêm xe xích lô vi phạm; news.daisan.vn — Du lịch Việt loay hoay đối phó nạn 'chặt chém' khách (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xích lô phố cổ hét giá: khách nước ngoài bị thu 1,2 triệu đồng cho một vòng ngắm cảnh ngắn quanh Hồ Hoàn Kiếm (gấp khoảng 3 lần giá quy định); Công an phường Hoàn Kiếm đã xử lý 2 tài xế, buộc xin lỗi và hoàn trả đủ tiền. Trước đó nhóm khách Philippines bị thu hơn 1,4 triệu đồng cho quãng đường khoảng 1km ở phố cổ."
+  },
+  {
+   "cach_tranh": "Đặt xe qua ứng dụng để có giá và lộ trình cố định, bật Google Maps theo dõi đường đi; không đi xe ôm vẫy dọc đường khi chưa thỏa thuận giá trước.",
+   "nguon": "news.daisan.vn — Du lịch Việt loay hoay đối phó nạn 'chặt chém' khách (trích VnExpress) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm chèo kéo ở phố cổ: nữ du khách Mỹ bị tài xế xe ôm thu 1 triệu đồng cho chuyến từ đường Nguyễn Văn Huyên lên phố Tràng Tiền, tài xế cố tình đi lòng vòng dù khách đã nói rõ địa chỉ."
+  },
+  {
+   "cach_tranh": "Liên hệ trực tiếp khách sạn qua website/số điện thoại chính thức để xác minh mã đặt chỗ trước khi thanh toán; không chuyển tiền khi chỉ thỏa thuận qua tin nhắn, không có hợp đồng/hóa đơn/xác nhận hợp lệ; cảnh giác giá rẻ bất thường, 'suất nội bộ', 'phòng vừa trả'.",
+   "nguon": "congan.ninhbinh.gov.vn — Cảnh giác với thủ đoạn lừa đảo trong mùa du lịch 2026; Cảnh báo tội phạm lừa đảo khi đặt phòng, vé máy bay dịp Tết Bính Ngọ 2026 (Công an tỉnh Ninh Bình) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc đặt phòng qua fanpage giả (cảnh báo chung, áp dụng cho Hà Nội): kẻ gian mua lại tài khoản mạng xã hội có tích xanh rồi đổi tên thành khách sạn/resort uy tín, sao chép hình ảnh trang chính thống, rao giá rẻ bất thường rồi yêu cầu chuyển cọc hoặc thanh toán toàn bộ, sau đó chặn liên lạc hoặc gửi xác nhận đặt phòng giả."
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi mua/cầm hàng, mặc cả còn một phần nhỏ so với giá hét; không mua đồ ăn vặt rong quanh hồ khi chưa hỏi giá.",
+   "nguon": "news.daisan.vn — Du lịch Việt loay hoay đối phó nạn 'chặt chém' khách (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Bán rong phố cổ nói thách: Công an phường Hoàn Kiếm từng xử phạt một người bán rong lấy của khách quốc tế 250.000đ cho một chiếc nón lá; hàng rong quanh Hồ Gươm hay hét giá gấp nhiều lần."
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Áo khoác nhẹ (thu–đông lạnh, tháng 12–2 có thể dưới 15°C); ô/áo mưa mỏng (mùa hè mưa rào)",
+  "Giày đi bộ (phố cổ và các di tích đi bộ nhiều)",
+  "Tiền mặt lẻ (quán nhỏ, gửi xe — nhiều nơi chỉ nhận tiền mặt)",
+  "Sạc dự phòng, thuốc cơ bản",
+  "Ăn mặc lịch sự khi vào Lăng, Văn Miếu, chùa (không áo hai dây/quần ngắn)",
+  "Hỏi giá trước khi ăn ở khu phố cổ và trước khi lên taxi không đồng hồ"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Khách sạn Hanoi Phoenix",
+   "La Siesta Classic Hàng Thùng",
+   "Khách sạn khu vực Hồ Tây (Tây Hồ)"
+  ],
+  "diem": [
+   "Hồ Hoàn Kiếm (Hồ Gươm) + Đền Ngọc Sơn",
+   "Hồ Tây + Chùa Trấn Quốc",
+   "Nhà hát Lớn Hà Nội"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Hanoi Old Quarter Hostel",
+   "Little Hanoi Hostel",
+   "Khách sạn Hanoi Phoenix"
+  ],
+  "diem_chay": [
+   "Quanh Hồ Hoàn Kiếm (đường ven hồ, sáng sớm ít xe)",
+   "Hồ Tây (đường ven hồ rộng, đường Thanh Niên)",
+   "Phố cổ Hà Nội (buổi sáng sớm trước khi đông xe)"
+  ],
+  "giai": [
+   {
+    "nguon": "thethaovanhoa.vn — VPBank Hanoi International Marathon 2026 ghi dấu cùng hơn 11.000 VĐV, 18/10/2026; vov.vn — Hơn 11.000 runner tham gia VPIM 2026 (ngày kiểm 08/11/2026)",
+    "ten": "VPBank Hanoi International Marathon (VPIM)",
+    "thoi_gian": "tháng 10 hằng năm (mùa 2026: 18/10/2026, xuất phát khu vực Hồ Hoàn Kiếm)"
+   },
+   {
+    "nguon": "vovworld.vn — Techcombank Hanoi International Marathon 2026 to host runners from 55 countries and territories; vietnamnews.vn — Techcombank marathon to take place in Ha Noi in October (ngày kiểm 08/11/2026)",
+    "ten": "Techcombank Hanoi International Marathon",
+    "thoi_gian": "tháng 10 hằng năm (mùa 2026: 04/10/2026, xuất phát Quảng trường Đông Kinh Nghĩa Thục)"
+   }
+  ],
+  "nguon": "Tên giải + thời gian theo thethaovanhoa.vn, vov.vn, vovworld.vn, vietnamnews.vn; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (gần điểm xuất phát Hồ Hoàn Kiếm) (ngày kiểm 08/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Ngay phố cổ, đi bộ ra Hồ Hoàn Kiếm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, quận Hoàn Kiếm (địa chỉ cụ thể theo từng cơ sở — kiểm lại khi đặt)",
+   "dien_thoai": "0243 266 8632",
+   "gia": "~250.000–350.000đ/đêm (phòng dorm/giường đơn; phòng riêng cao hơn)",
+   "hang": "Hostel",
+   "hop_voi": "Du khách một mình, backpacker, nhóm bạn trẻ",
+   "khu_vuc": "pho-co",
+   "nguon": "buulong.com.vn",
+   "nguon_dien_thoai": "KAYAK — cơ sở 32 Hàng Vải, Hoàn Kiếm; file ghi nhiều cơ sở, kiểm lại khi đặt (ngày kiểm 08/11/2026)",
+   "ten": "Hanoi Old Quarter Hostel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Phố cổ, gần Hồ Hoàn Kiếm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+   "dien_thoai": "0243 828 4461",
+   "gia": "~280.000–380.000đ/đêm",
+   "hang": "Hostel",
+   "hop_voi": "Backpacker, nhóm bạn trẻ",
+   "khu_vuc": "pho-co",
+   "nguon": "buulong.com.vn",
+   "nguon_dien_thoai": "HotelsCombined; HolidayCheck; 36pho.com — 48 Hàng Gà (ngày kiểm 08/11/2026)",
+   "ten": "Little Hanoi Hostel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần Hồ Hoàn Kiếm, đi bộ được",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Gần Hồ Hoàn Kiếm, phố cổ, quận Hoàn Kiếm",
+   "dien_thoai": "024 3923 2683",
+   "gia": "~350.000–450.000đ/đêm",
+   "hang": "Khách sạn (không ghi hạng sao)",
+   "hop_voi": "Cặp đôi, gia đình nhỏ, khách công tác ngắn ngày",
+   "khu_vuc": "pho-co",
+   "nguon": "buulong.com.vn",
+   "nguon_dien_thoai": "tobook.com — 43 Bát Sứ; TripAdvisor xác nhận địa chỉ 43 Bát Sứ (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Hanoi Phoenix",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Sát Hồ Hoàn Kiếm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, gần chùa Ngọc Sơn, quận Hoàn Kiếm",
+   "dien_thoai": null,
+   "gia": "~300.000–400.000đ/đêm",
+   "hang": "Khách sạn (không ghi hạng sao)",
+   "hop_voi": "Khách muốn ở trung tâm, dễ di chuyển",
+   "khu_vuc": "pho-co",
+   "nguon": "buulong.com.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026)",
+   "ten": "Queen Hotel Hanoi",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm phố cổ, đi bộ ra hồ",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, quận Hoàn Kiếm (gần Nhà hát múa rối Thăng Long)",
+   "dien_thoai": "0984 531 011",
+   "gia": "~1.700.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+   "hang": "Khách sạn",
+   "hop_voi": "Gia đình nhỏ, khách cần tiện nghi cơ bản",
+   "khu_vuc": "pho-co",
+   "nguon": "soctrangtourism.vn",
+   "nguon_dien_thoai": "vietnamtourism.com.vn — 55 Hàng Quạt (chỉ 1 nguồn có số; tiket.com và halalbooking.com xác nhận địa chỉ 55 Hàng Quạt) (ngày kiểm 08/11/2026)",
+   "ten": "AMI Old Quarter Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm phố cổ",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+   "dien_thoai": "024 3941 1311",
+   "gia": "~760.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+   "hang": "Khách sạn",
+   "hop_voi": "Nhóm bạn, khách thích không khí sôi động",
+   "khu_vuc": "pho-co",
+   "nguon": "soctrangtourism.vn",
+   "nguon_dien_thoai": "mindtrip.ai; hotels-of-hanoi.com; halalbooking.com; hotelscombined.com.au — 17/17B Hàng Gà (ngày kiểm 08/11/2026)",
+   "ten": "Golden Rooster Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Phố cổ, gần Hồ Hoàn Kiếm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+   "dien_thoai": "024 3938 0963",
+   "gia": "~2.400.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+   "hang": "5 sao",
+   "hop_voi": "Gia đình, cặp đôi nghỉ dưỡng",
+   "khu_vuc": "pho-co",
+   "nguon": "soctrangtourism.vn",
+   "nguon_dien_thoai": "wanderlog.com; tripadvisor.fr; foodyas.com — 21 Hàng Thùng (ngày kiểm 08/11/2026)",
+   "ten": "La Siesta Classic Hàng Thùng",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Hoàn Kiếm ~2–3 km, đi xe ~10 phút",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Đống Đa, gần Văn Miếu (chưa xác minh được cơ sở — đang kiểm lại)",
+   "dien_thoai": null,
+   "gia": "~280.000–380.000đ/đêm",
+   "hang": "Khách sạn (không ghi hạng sao)",
+   "hop_voi": "Khách tiết kiệm, khách thăm Văn Miếu",
+   "khu_vuc": "dong-da",
+   "nguon": "buulong.com.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026). Cập nhật 08/11/2026: không tìm thấy cơ sở nào tên Hương Giang ở Đống Đa/gần Văn Miếu (cùng tên khác: Sao Mai–Hương Giang 187 Lò Đúc; Hương Giang Hotel & Apartment 30C Hạ Hồi; DNTN Khách sạn Hương Giang 39 ngõ 172 Ngọc Hà) — mục này có thể sai cơ sở/đổi tên/ngừng hoạt động, đang kiểm lại, không bịa địa chỉ mới.",
+   "ten": "Khách sạn Hương Giang",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Hồ Hoàn Kiếm ~5–7 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quanh Hồ Tây, quận Tây Hồ",
+   "dien_thoai": null,
+   "gia": "~2.600.000–6.500.000đ/đêm (khoảng rộng theo hạng — chưa kiểm được chi tiết từng khách sạn)",
+   "hang": "Khách sạn 4–5 sao",
+   "hop_voi": "Khách nghỉ dưỡng, cặp đôi muốn yên tĩnh, view hồ",
+   "khu_vuc": "ho-tay",
+   "nguon": "wanderinvietnam.com",
+   "nguon_dien_thoai": "chưa tra được — mục nhóm tham khảo, không có khách sạn cụ thể (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn khu vực Hồ Tây (Tây Hồ)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Giá vé Văn Miếu: 30.000đ (nguồn cũ) vs 70.000đ (nguồn 2026) — file dùng 70.000đ theo nguồn mới, cần xác nhận tại quầy",
+  "Giá vé Đền Ngọc Sơn: 30.000đ vs 50.000đ — mâu thuẫn giữa các nguồn",
+  "Giá vé Nhà tù Hỏa Lò: 30.000đ vs 50.000đ — mâu thuẫn",
+  "Giá vé Bảo tàng Dân tộc học: các nguồn ghi khác nhau (40.000đ người lớn theo 1 nguồn, chưa đối chiếu bảng giá chính thức)",
+  "Lịch đóng bảo dưỡng Lăng Chủ tịch Hồ Chí Minh năm 2026 (04/09–03/11 theo 1 nguồn nước ngoài) — chưa đối chiếu nguồn chính thức",
+  "Giá vé múa rối nước Thăng Long và giờ diễn chính xác theo mùa",
+  "Giá vé Chùa Hương 2026 (vé thắng cảnh + đò + cáp treo) — chưa tra được bảng giá hiện hành",
+  "Giá vé tham quan Làng gốm Bát Tràng / trải nghiệm làm gốm — chưa có mức thống nhất",
+  "Giá xe buýt sân bay Nội Bài (tuyến 86) và giá vé buýt nội thành, giá vé metro Cát Linh – Hà Đông — chưa kiểm được mức hiện hành",
+  "Giá xe khách/tàu SG–HN 2026 chính xác — chỉ có khoảng theo tuyến dài, chưa tra bảng giá cụ thể",
+  "Giá phòng AMI Old Quarter, Golden Rooster, La Siesta: chỉ 1 nguồn cho 1 con số, chưa kiểm được khoảng giá",
+  "Tọa độ GPS (kiểm lại ngày 06/11/2026 bằng OpenStreetMap Nominatim + Wikipedia): 11/15 điểm đã dùng tọa độ thật tra được. Còn xấp xỉ: Phố cổ Hà Nội (36 phố phường), Nhà hát Lớn Hà Nội, Làng gốm Bát Tràng, Chùa Hương (Hương Sơn). Chưa có tọa độ (null): không còn. Cần kiểm lại bằng bản đồ trước khi ghim app."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Thành phố đồng bằng, không có đèo.",
+  "deo": [],
+  "nguon": "Hà Nội là thành phố đồng bằng, không có đèo trong địa bàn (ngày kiểm 08/11/2026)"
+ },
+ "dan_an_toan_xe_may_chung": "Khung chung cho tỉnh miền núi/đèo: đường dốc, đèo quanh co, sương mù và mưa làm đường trơn — đi chậm, giữ khoảng cách, bật đèn khi sương mù; thuê xe số leo dốc tốt hơn xe ga yếu; xuống dốc dài về số thấp (số 2–3), không rà phanh liên tục, không tắt máy thả trôi; kiểm tra phanh, lốp, đèn trước khi nhận xe; đặt phòng trước 2–3 tuần vào cuối tuần, sớm hơn vào lễ/Tết. (Khung chung — không phải chi tiết riêng của từng tỉnh. Nguồn: xemayanthanhphat.com; agotourist.com; hoadalattravel.vn — ngày kiểm 08/11/2026.)",
+ "di_den": {
+  "ghi_chu_san_bay": "Sân bay quốc tế Nội Bài (HAN) cách trung tâm ~28–35 km, ~45–60 phút đi xe tùy giao thông.",
+  "tu_hn": [],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "~28–35 km, 45–60 phút; hỏi giá trọn gói trước khi lên xe",
+    "gia": "~250.000–400.000đ/chuyến (tùy hãng, giờ cao điểm/lễ; Grab thường rẻ hơn taxi đồng hồ)",
+    "nguon": "kisstour.com",
+    "phuong_tien": "Taxi / Grab từ Nội Bài về trung tâm"
+   },
+   {
+    "ghi_chu": "Xe 86: Nội Bài – ga Hà Nội, ~60–75 phút",
+    "gia": "~30.000–50.000đ/lượt (xe 86 về trung tâm ~35.000đ; các tuyến khác 7.000–9.000đ nhưng dừng nhiều)",
+    "nguon": "Chưa kiểm được mức hiện hành chính xác — xem mục 9",
+    "phuong_tien": "Xe buýt sân bay (86, 07, 17...)"
+   },
+   {
+    "ghi_chu": "",
+    "gia": "Không có mức chung — hỏi lễ tân khi đặt phòng; thường ~300.000–500.000đ/chiều/xe 4 chỗ (khoảng tham khảo)",
+    "nguon": "Chưa kiểm được mức chung",
+    "phuong_tien": "Xe đưa đón khách sạn"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Pacific Airlines, Vietravel Airlines",
+    "gia": "Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Traveloka, nguồn cũ); vé khuyến mãi chưa thuế phí có thể thấp hơn nhiều — giá tùy thời điểm đặt",
+    "nguon": "traveloka.com",
+    "phuong_tien": "Máy bay SGN–HAN",
+    "thoi_gian": "Bay ~2 giờ; nhiều chuyến/ngày"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian, thích ngắm cảnh dọc đường",
+    "gia": "Ghế mềm ~900.000–1.300.000đ; giường nằm khoang 6 ~1.300.000–1.900.000đ; khoang 4 ~1.900.000–2.400.000đ (khoảng theo tuyến dài, chưa kiểm được mức 2026 chính xác)",
+    "nguon": "duongsatvietnam.vn (khoảng theo tuyến Bắc–Nam)",
+    "phuong_tien": "Tàu hỏa SG–HN (SE1/SE3...)",
+    "thoi_gian": "~32–35 giờ"
+   },
+   {
+    "ghi_chu": "Không khuyến nghị — quá dài; đa số nguồn khuyên bay",
+    "gia": "~700.000–1.200.000đ/vé (chưa kiểm được mức hiện hành)",
+    "nguon": "Chưa kiểm được nguồn thống nhất — xem mục 9",
+    "phuong_tien": "Xe khách SG–HN",
+    "thoi_gian": "~30–40 giờ (chưa kiểm được con số thống nhất)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Phố cổ đông, kẹt xe giờ cao điểm; không nên thuê xe máy nếu chưa quen giao thông Hà Nội",
+   "gia": "~100.000–150.000đ/ngày",
+   "giay_to": "CCCD/hộ chiếu + bằng lái A1 (xe trên 50cc); nộp bản photo CCCD, giữ bản gốc",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày",
+   "giay_to": "Như trên",
+   "nguon": "bestprice.vn (khoảng chung miền Bắc)",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Grab/Be/Xanh SM phổ biến; giờ cao điểm giá tăng",
+   "gia": "Mở cửa ~11.000–12.000đ; ~11.500–16.000đ/km tùy hãng; đi lại 3N2Đ trong nội thành ước tính ~300.000–600.000đ",
+   "giay_to": "",
+   "nguon": "soctrangtourism.vn (khoảng chung)",
+   "phuong_tien": "Taxi / Grab / Be / Xanh SM"
+  },
+  {
+   "ghi_chu": "Tuyến đi Văn Miếu, Hồ Tây, Bát Tràng đều có buýt; tra lộ trình trên app Tìm Buýt",
+   "gia": "7.000–9.000đ/lượt (vé tháng ~100.000–200.000đ)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được mức hiện hành chính xác — xem mục 9",
+   "phuong_tien": "Xe buýt nội thành"
+  },
+  {
+   "ghi_chu": "Vòng Hồ Gươm ~1,8 km đi bộ; Hồ Tây ~17 km đạp xe",
+   "gia": "Thuê xe đạp ~30.000–50.000đ/giờ (chưa kiểm được mức cụ thể tại điểm thuê)",
+   "giay_to": "Cần CCCD/CMND khi thuê",
+   "nguon": "vietnamtour.in",
+   "phuong_tien": "Xe đạp / đi bộ quanh Hồ Hoàn Kiếm – Hồ Tây"
+  },
+  {
+   "ghi_chu": "Tuyến Cát Linh–Hà Đông, chưa nối tới phố cổ; hợp đi khu vực Hà Đông/Đống Đa",
+   "gia": "8.000–15.000đ/lượt tùy chặng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được mức hiện hành chính xác — xem mục 9",
+   "phuong_tien": "Tàu điện Cát Linh – Hà Đông (metro)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quận Hoàn Kiếm, giáp Đinh Tiên Hoàng, Lê Thái Tổ, Hàng Khay",
+   "gia_ve": "Miễn phí quanh hồ; Đền Ngọc Sơn 50.000đ/người lớn (một số nguồn cũ ghi 30.000đ)",
+   "gio_mo_cua": "Hồ 24/7; Đền Ngọc Sơn ~7:00–19:00 (T6–CN tới ~22:00); phố đi bộ quanh hồ T6 tối–CN",
+   "hop_voi": "Mọi đối tượng, cặp đôi, gia đình, người lớn tuổi",
+   "id": "ho-hoan-kiem",
+   "lat": 21.0288313,
+   "lng": 105.8525357,
+   "luu_y": "Cuối tuần phố đi bộ rất đông, giữ tư trang; gửi xe ở các bãi quanh hồ, hỏi giá trước",
+   "nguon": "sinhtour.vn, ivivu.com, vietnamtour.in",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / vietnamnet.vn",
+    "nhan_xet": "Điểm bắt buộc ghé khi tới Hà Nội, đi bộ quanh hồ lúc sáng sớm hoặc hoàng hôn là đẹp nhất. Cuối tuần có phố đi bộ nên rất đông, nhất là khu vực cầu Thê Húc và đền Ngọc Sơn. Điểm yếu là quanh hồ ít chỗ ngồi nghỉ và gửi xe hay bị hét giá."
+   },
+   "ten": "Hồ Hoàn Kiếm (Hồ Gươm) + Đền Ngọc Sơn",
+   "thoi_gian": "1–2 giờ; đẹp nhất 6h–8h và hoàng hôn"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực Hàng Đào, Hàng Bạc, Hàng Buồm, Tạ Hiện, Mã Mây, quận Hoàn Kiếm",
+   "gia_ve": "Miễn phí đi bộ; nhà cổ Mã Mây ~10.000–20.000đ (chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "24/7 (không gian phố); các cửa hàng ~8:00–22:00; phố Tạ Hiện sôi động từ ~18:00",
+   "hop_voi": "Mọi đối tượng, nhóm bạn, người thích ẩm thực đường phố",
+   "id": "pho-co-ha-noi",
+   "lat": 21.0333,
+   "lng": 105.8515,
+   "luu_y": "Vỉa hè hẹp, xe máy nhiều — đi bộ cẩn thận; hỏi giá trước khi ăn ở khu du lịch Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "sinhtour.vn, vietnamtour.in",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / Google Maps / blog du lich",
+    "nhan_xet": "Đi bộ lang thang phố cổ là cách cảm Hà Nội rõ nhất: mỗi phố một nghề, đồ ăn vặt khắp nơi. Điểm trừ lớn là vỉa hè hẹp, xe máy chen lấn và một số quán ở khu du lịch chặt chém giá. Hợp đi buổi tối, nhất là phố Tạ Hiện, nhưng người lớn tuổi và trẻ nhỏ nên đi ban ngày cho đỡ chen."
+   },
+   "ten": "Phố cổ Hà Nội (36 phố phường)",
+   "thoi_gian": "2–3 giờ (đi bộ + ăn vặt)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "58 Quốc Tử Giám, phường Văn Miếu – Quốc Tử Giám",
+   "gia_ve": "Người lớn 70.000đ; học sinh/sinh viên/người trên 60 tuổi 35.000đ; tour đêm 199.000đ/người lớn, 99.000đ/trẻ em (một số nguồn cũ ghi 30.000đ — đã lỗi thời)",
+   "gio_mo_cua": "Ban ngày 8:00–17:00 hằng ngày; tour đêm 19:00–22:00 các ngày T4, T7, CN (giờ tour đêm các nguồn ghi khác nhau)",
+   "hop_voi": "Mọi đối tượng, gia đình có học sinh, người yêu lịch sử",
+   "id": "van-mieu",
+   "lat": 21.0287903,
+   "lng": 105.8359533,
+   "luu_y": "Trường đại học đầu tiên của Việt Nam (1070), 82 bia Tiến sĩ; mùa thi và đầu năm rất đông người cầu may",
+   "nguon": "ivivu.com, timeoutvietnam.vn, vietnamtour.in",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / Google Maps / vietnamnet.vn",
+    "nhan_xet": "Không gian yên tĩnh hiếm có giữa trung tâm, kiến trúc đẹp và nhiều góc chụp ảnh. Khuê Văn Các và 82 bia Tiến sĩ là điểm nhấn, nên thuê thuyết minh hoặc đọc trước để hiểu. Mùa thi và đầu năm rất đông học sinh tới cầu may, đi ngày thường sẽ thong thả hơn."
+   },
+   "ten": "Văn Miếu – Quốc Tử Giám",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 2,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "19C Hoàng Diệu, phường Ba Đình",
+   "gia_ve": "Người lớn 100.000đ (tăng từ 70.000đ từ đầu 2025); học sinh/sinh viên/người trên 60 tuổi 50.000đ — LƯU Ý MÂU THUẪN: một số nguồn 2026 vẫn ghi 70.000đ (giá cũ) — lấy 100.000đ làm mức hiện hành theo timeoutvietnam.vn, ivivu.com; kiểm lại tại cổng (kiểm 08/11/2026)",
+   "gio_mo_cua": "8:00–17:00; đóng cửa thứ Hai hằng tuần",
+   "hop_voi": "Người yêu lịch sử, gia đình, nhóm bạn",
+   "id": "hoang-thanh-thang-long",
+   "lat": 21.0362755,
+   "lng": 105.8403017,
+   "luu_y": "Di sản UNESCO; khu khảo cổ 18 Hoàng Diệu và Đoan Môn – Cột cờ là điểm chính; mang mũ/nước vào mùa hè",
+   "nguon": "timeoutvietnam.vn, ivivu.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / ivivu.com",
+    "nhan_xet": "Di sản UNESCO nhưng trải nghiệm khá tĩnh: chủ yếu là nền móng khảo cổ, Đoan Môn và Cột cờ. Người yêu lịch sử sẽ thích, còn ai chỉ muốn check-in thì dễ thấy nhạt. Nên đi buổi sáng, mang mũ và nước vì khuôn viên rộng, ít bóng mát."
+   },
+   "ten": "Hoàng thành Thăng Long",
+   "thoi_gian": "1,5–2,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 3,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Quảng trường Ba Đình, phường Ba Đình (Lăng: 1 Hùng Vương; Chùa Một Cột: phố Chùa Một Cột)",
+   "gia_ve": "Vào Lăng miễn phí; Bảo tàng Hồ Chí Minh ~40.000đ (chưa kiểm được mức hiện hành); Chùa Một Cột miễn phí",
+   "gio_mo_cua": "Lăng mở sáng T3, T4, T5, T7, CN: ~7:30–10:30 (tháng 4–10) / 8:00–11:00 (tháng 11–3); đóng T2, T6. Lăng đóng bảo dưỡng ~2 tháng/năm — năm 2026 đóng từ 04/09, mở lại 03/11 (theo nguồn nước ngoài, cần kiểm lại)",
+   "hop_voi": "Mọi đối tượng; gia đình, khách lần đầu tới Hà Nội",
+   "id": "lang-chu-tich",
+   "lat": 21.0367831,
+   "lng": 105.8346888,
+   "luu_y": "Vào Lăng ăn mặc lịch sự, không chụp ảnh bên trong, xếp hàng dài vào cuối tuần; kiểm tra lịch đóng bảo dưỡng trước ngày đi",
+   "nguon": "vietnamtour.in, kisstour.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / vietnamtour.in",
+    "nhan_xet": "Viếng Lăng là trải nghiệm trang nghiêm, nên đi nhưng phải chấp nhận xếp hàng dài, nhất là cuối tuần và dịp lễ. Chùa Một Cột ngay bên cạnh, nhỏ nhưng là biểu tượng nên ghé 10 phút là đủ. Nhớ kiểm tra lịch đóng bảo dưỡng của Lăng trước ngày đi để khỏi mất công."
+   },
+   "ten": "Quảng trường Ba Đình – Lăng Chủ tịch Hồ Chí Minh + Chùa Một Cột",
+   "thoi_gian": "1,5–2 giờ (cả cụm)"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "1 Hỏa Lò, phường Cửa Nam, quận Hoàn Kiếm",
+   "gia_ve": "Người lớn 50.000đ; học sinh/sinh viên/người cao tuổi 25.000đ (một số nguồn ghi 30.000đ — mâu thuẫn, cần kiểm lại)",
+   "gio_mo_cua": "8:00–17:00 hằng ngày",
+   "hop_voi": "Người yêu lịch sử, người lớn, nhóm bạn",
+   "id": "nha-tu-hoa-lo",
+   "lat": 21.0254222,
+   "lng": 105.8465093,
+   "luu_y": "Nội dung chiến tranh, không hợp trẻ nhỏ; có thuyết minh audio",
+   "nguon": "ivivu.com, sinhtour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / vietnam.vn / vietnamnet.vn",
+    "nhan_xet": "Một trong những di tích được du khách quốc tế đánh giá cao nhất ở Hà Nội nhờ trưng bày bài bản và thuyết minh audio tốt. Nội dung nặng, không khí u ám nên không hợp trẻ nhỏ. Lễ Tết thường xếp hàng rất dài, có khi vài tiếng; đi ngày thường trong tuần là thoải mái nhất."
+   },
+   "ten": "Di tích Nhà tù Hỏa Lò",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "tay-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Thanh Niên, phường Tây Hồ (chùa ở đảo phía đông Hồ Tây)",
+   "gia_ve": "Miễn phí (quanh hồ và vào chùa); gửi xe ~5.000–10.000đ",
+   "gio_mo_cua": "Chùa ~7:30–17:30 (chưa kiểm được chính xác); đường ven hồ 24/7",
+   "hop_voi": "Cặp đôi, gia đình, người thích chạy bộ/đạp xe",
+   "id": "ho-tay-chua-tran-quoc",
+   "lat": 21.0478837,
+   "lng": 105.8368375,
+   "luu_y": "Chùa cổ nhất Hà Nội (thế kỷ 6); ăn mặc kín đáo khi vào chùa; ven hồ gió mạnh buổi tối",
+   "nguon": "vietnamtour.in, sinhtour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / vietnamtour.in",
+    "nhan_xet": "Hoàng hôn ở Hồ Tây là một trong những cảnh đẹp nhất Hà Nội, hợp đạp xe hoặc đi dạo buổi chiều. Chùa Trấn Quốc cổ kính, yên tĩnh, nhưng khuôn viên nhỏ nên chỉ cần 30-45 phút. Buổi tối ven hồ gió mạnh, nên mang áo khoác nhẹ."
+   },
+   "ten": "Hồ Tây + Chùa Trấn Quốc",
+   "thoi_gian": "1–2 giờ; đẹp nhất hoàng hôn"
+  },
+  {
+   "cach_trung_tam_km": 1,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "1 Tràng Tiền, phường Hoàn Kiếm",
+   "gia_ve": "Tham quan bên ngoài miễn phí; vé xem biểu diễn tùy chương trình, thường từ ~200.000đ trở lên (chưa kiểm được khoảng cụ thể)",
+   "gio_mo_cua": "Khu vực quảng trường tham quan tự do; biểu diễn theo lịch nhà hát",
+   "hop_voi": "Người yêu kiến trúc, cặp đôi chụp ảnh",
+   "id": "nha-hat-lon",
+   "lat": 21.0243,
+   "lng": 105.8566,
+   "luu_y": "Kiến trúc Pháp cuối thế kỷ 19; muốn vào trong phải mua vé show hoặc tour tham quan theo lịch Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "sinhtour.vn, vietnamtour.in",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / TripAdvisor / sinhtour.vn",
+    "nhan_xet": "Kiến trúc Pháp đẹp, là điểm chụp ảnh quen thuộc ở trung tâm, nhưng chỉ ngắm bên ngoài thì 15-20 phút là hết. Muốn vào trong phải mua vé xem biểu diễn hoặc tour theo lịch. Hợp ghé kết hợp khi dạo phố Tràng Tiền - Hồ Gươm."
+   },
+   "ten": "Nhà hát Lớn Hà Nội",
+   "thoi_gian": "30–45 phút (chụp ảnh bên ngoài); 2 giờ nếu xem show",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "cau-giay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Nguyễn Văn Huyên, phường Nghĩa Đô, Cầu Giấy",
+   "gia_ve": "Người lớn 40.000đ; học sinh/sinh viên 20.000đ; trẻ em 10.000đ (một số nguồn ghi khác — cần kiểm lại)",
+   "gio_mo_cua": "8:30–17:30; đóng cửa thứ Hai",
+   "hop_voi": "Gia đình có trẻ nhỏ, người yêu văn hóa các dân tộc",
+   "id": "bao-tang-dan-toc",
+   "lat": 21.0400774,
+   "lng": 105.7988403,
+   "luu_y": "Khu trưng bày ngoài trời có nhà dân tộc thật, đi mùa hè mang mũ/nước",
+   "nguon": "ivivu.com, sinhtour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / Google Maps / vietnamnet.vn",
+    "nhan_xet": "Bảo tàng được đánh giá cao nhất nhì Hà Nội cho gia đình có trẻ nhỏ, nhất là khu nhà dân tộc ngoài trời. Trưng bày trong nhà đầy đủ nhưng khá nhiều chữ, trẻ nhỏ dễ chán. Đi mùa hè nên đi sáng sớm vì khu ngoài trời nắng gắt, ít chỗ trú."
+   },
+   "ten": "Bảo tàng Dân tộc học Việt Nam",
+   "thoi_gian": "2–3 giờ (khu nhà ngoài trời rất đáng xem)"
+  },
+  {
+   "cach_trung_tam_km": 14,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Bát Tràng, huyện Gia Lâm (nay thuộc Hà Nội, ven sông Hồng)",
+   "gia_ve": "Miễn phí vào làng; trải nghiệm làm gốm ~30.000–100.000đ/người tùy xưởng (chưa kiểm được mức thống nhất)",
+   "gio_mo_cua": "~7:00–18:00 (các xưởng/chợ gốm; giờ chính xác chưa kiểm được)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn, người thích thủ công",
+   "id": "lang-gom-bat-trang",
+   "lat": 21.0567,
+   "lng": 105.9133,
+   "luu_y": "Đi xe buýt/xe máy qua cầu Chương Dương; mặc đồ dễ bẩn nếu nặn gốm; mua gốm hỏi giá trước Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "sinhtour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / sinhtour.vn / blog du lich",
+    "nhan_xet": "Làng nghề sống động, hợp gia đình có trẻ nhỏ vì được tự tay nặn gốm. Điểm trừ là giá trải nghiệm và giá gốm mỗi xưởng mỗi khác, phải hỏi giá trước. Nên đi buổi sáng, kết hợp chợ gốm; buổi trưa làng khá vắng và nắng."
+   },
+   "ten": "Làng gốm Bát Tràng",
+   "thoi_gian": "Nửa ngày (2–3 giờ)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Hương Sơn, huyện Mỹ Đức (nay thuộc Hà Nội)",
+   "gia_ve": "Vé thắng cảnh + đò: khoảng 130.000–230.000đ/người tùy tuyến (chưa kiểm được mức 2026 chính xác); cáp treo riêng ~180.000–260.000đ/khứ hồi (chưa kiểm được)",
+   "gio_mo_cua": "~6:00–18:00; lễ hội chính tháng 1–3 âm lịch",
+   "hop_voi": "Khách hành hương, gia đình, người thích leo núi",
+   "id": "chua-huong",
+   "lat": 20.6153,
+   "lng": 105.7486,
+   "luu_y": "Mùa lễ hội rất đông, giá đò/dịch vụ tăng; leo bộ lên động Hương Tích ~1–1,5 giờ, đường trơn khi mưa Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "sinhtour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / sinhtour.vn / blog du lich",
+    "nhan_xet": "Lễ hội mùa xuân rất đông và là trải nghiệm hành hương đặc trưng miền Bắc, nhưng giá đò và dịch vụ mùa lễ hay tăng, đường leo trơn khi mưa. Ngoài mùa lễ thì vắng, cảnh sông núi yên tĩnh hơn nhiều. Ai yếu sức nên đi cáp treo thay vì leo bộ lên động Hương Tích."
+   },
+   "ten": "Chùa Hương (Hương Sơn)",
+   "thoi_gian": "1 ngày (đi từ sáng sớm)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 0,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "57B Đinh Tiên Hoàng, phường Hoàn Kiếm (cạnh Hồ Hoàn Kiếm)",
+   "gia_ve": "Vé xem ~100.000–200.000đ/người tùy hạng ghế (chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "Suất diễn thường 15:00, 16:10, 17:20, 18:30, 20:00 (lịch đổi theo mùa — kiểm lại trước khi đi)",
+   "hop_voi": "Gia đình có trẻ nhỏ, khách quốc tế, người lần đầu xem rối nước",
+   "id": "roi-nuoc-thang-long",
+   "lat": 21.0317043,
+   "lng": 105.853455,
+   "luu_y": "Nên đặt vé trước cuối tuần; đến sớm 15 phút",
+   "nguon": "sinhtour.vn, vietnamtour.in",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "TripAdvisor / Google Maps / sinhtour.vn",
+    "nhan_xet": "Rối nước là đặc sản văn hóa nên xem ít nhất một lần, nhất là gia đình có trẻ nhỏ và khách quốc tế. Suất diễn chỉ khoảng 1 giờ, nhạc sống và con rối khéo tay. Cuối tuần hay hết vé nên đặt trước; đến muộn sẽ không được vào."
+   },
+   "ten": "Nhà hát múa rối nước Thăng Long",
+   "thoi_gian": "~1 giờ/suất"
+  },
+  {
+   "cach_trung_tam_km": 45,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đường Lâm, thị xã Sơn Tây (vùng ven Hà Nội)",
+   "gia_ve": "Vé vào làng 20.000đ/người lớn; trẻ em dưới 15 tuổi miễn phí; xe điện 50.000đ/vé (theo dulich.pro.vn — chưa kiểm được mức hiện hành)",
+   "gio_mo_cua": "8:00–17:00 hằng ngày",
+   "hop_voi": "Người yêu kiến trúc cổ, gia đình, nhóm bạn chụp ảnh",
+   "id": "lang-co-duong-lam",
+   "lat": 21.1585136,
+   "lng": 105.4704416,
+   "luu_y": "Đi sáng sớm hoặc sau 15h cho mát và vắng; đi bộ trong làng thay vì thuê xe đạp vì ngõ hẹp; xin phép chủ nhà trước khi vào nhà cổ và chụp ảnh",
+   "nguon": "dulich9.com, wikidulich.com, dulich.pro.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "dulich9.com / wikidulich.com / dulich.pro.vn",
+    "nhan_xet": "Làng cổ Đường Lâm là làng Việt cổ thật nhất gần Hà Nội: nhà 400 năm tuổi, tường đá ong, giếng cổ, vẫn có người ở. Điểm mạnh là không gian nguyên bản, khác hẳn phố cổ thương mại. Điểm trừ: cuối tuần đông, nắng gắt giữa trưa; nên đi sáng sớm, đi bộ thay vì thuê xe đạp vì làng nhỏ và ngõ hẹp."
+   },
+   "ten": "Làng cổ Đường Lâm",
+   "thoi_gian": "Nửa ngày (3–4 giờ)"
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Ba Vì (vùng ven Hà Nội, giáp Phú Thọ)",
+   "gia_ve": "Vé vào cổng khoảng 60.000đ/người lớn (chưa kiểm được mức 2026 chính xác); vé xe ô tô riêng (chưa kiểm được)",
+   "gio_mo_cua": "~7:00–17:30",
+   "hop_voi": "Gia đình, nhóm bạn, người thích leo núi nhẹ và săn mây",
+   "id": "vuon-quoc-gia-ba-vi",
+   "lat": 21.0184475,
+   "lng": 105.3930256,
+   "luu_y": "Đường lên đỉnh dốc, quanh co; trên đỉnh lạnh hơn chân núi nhiều nên mang áo khoác; mùa hè cuối tuần đông xe",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Ba Vì hợp đi về trong ngày để trốn nóng: rừng thông, đền Thượng, đỉnh Tản Viên ngắm mây. Điểm trừ: đường lên đỉnh dốc và quanh co, mùa hè đông xe; nên đi sáng sớm, mang áo khoác vì trên đỉnh lạnh hơn dưới chân núi nhiều."
+   },
+   "ten": "Vườn quốc gia Ba Vì",
+   "thoi_gian": "Nửa ngày đến 1 ngày"
+  },
+  {
+   "cach_trung_tam_km": 10,
+   "cum": "ngoai-thanh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Vạn Phúc, quận Hà Đông (vùng ven Hà Nội)",
+   "gia_ve": "Miễn phí vào làng; mua lụa theo giá từng cửa hàng (chưa kiểm được)",
+   "gio_mo_cua": "~8:00–18:00",
+   "hop_voi": "Người thích làng nghề, mua lụa và áo dài",
+   "id": "lang-lua-van-phuc",
+   "lat": 20.9803574,
+   "lng": 105.7756187,
+   "luu_y": "Làng nhỏ, tham quan nhanh; hỏi giá trước khi mua lụa, phân biệt lụa tơ tằm thật với hàng pha",
+   "nguon": "Google Maps, blog du lịch",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / blog du lich",
+    "nhan_xet": "Làng lụa Vạn Phúc là làng nghề gần trung tâm nhất: xem dệt lụa, mua khăn và áo dài lụa tơ tằm. Điểm trừ: làng nhỏ, tham quan 1 giờ là hết; nên đi buổi sáng kết hợp với làng cổ Đường Lâm hoặc phố cổ Hà Đông."
+   },
+   "ten": "Làng lụa Vạn Phúc",
+   "thoi_gian": "1–2 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Hồ Hoàn Kiếm (Hồ Gươm) + Đền Ngọc Sơn",
+   "gio": "5:30-7:00 bình minh, ánh nắng đầu tiên chiếu từ phía đông, ít người; 17:30-18:30 hoàng hôn phía tây hồ",
+   "nguon": "buulong.com.vn — Hồ Gươm Hà Nội: góc nhìn đẹp nhất để chụp ảnh và ngắm cảnh; soctrangtourism.vn — Hồ Gươm Hà Nội (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Tây + Chùa Trấn Quốc",
+   "gio": "17:00-18:30 hoàng hôn, mặt hồ ánh vàng cam, bóng chùa Trấn Quốc in trên mặt nước; nên đến từ khoảng 17h",
+   "nguon": "datviettour.com.vn — Những địa điểm ngắm hoàng hôn Hà Nội; localgrapher.com — Your Complete Hanoi Photoshoot Guide (2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Văn Miếu – Quốc Tử Giám",
+   "gio": "6:00-7:30 sáng sớm ánh sáng mềm, ít đoàn khách; 16:15-17:30 chiều muộn nắng xiên đẹp ở cổng phía đông",
+   "nguon": "localgrapher.com — Your Complete Hanoi Photoshoot Guide (2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Trời mưa thì ưu tiên bảo tàng, di tích có khu trong nhà và suất rối nước; hạn chế đi bộ phố cổ lâu và leo núi Chùa Hương khi đường trơn.",
+  "diem": [
+   "Bảo tàng Dân tộc học Việt Nam",
+   "Di tích Nhà tù Hỏa Lò",
+   "Nhà hát múa rối nước Thăng Long",
+   "Hoàng thành Thăng Long"
+  ],
+  "nguon": "Chọn từ địa danh đã có trong file (ngày kiểm 08/11/2026)"
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ho-hoan-kiem, pho-co-ha-noi",
+    "hoat_dong": "Hồ Hoàn Kiếm + Đền Ngọc Sơn + phố cổ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "van-mieu, nha-tu-hoa-lo",
+    "hoat_dong": "Văn Miếu – Quốc Tử Giám + Nhà tù Hỏa Lò",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "pho-co-ha-noi",
+    "hoat_dong": "Bún chả + cà phê trứng phố cổ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-chu-tich, hoang-thanh-thang-long",
+    "hoat_dong": "Lăng Chủ tịch Hồ Chí Minh + Hoàng thành Thăng Long",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ho-tay-chua-tran-quoc",
+    "hoat_dong": "Hồ Tây + Chùa Trấn Quốc; tối về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "ho-hoan-kiem, pho-co-ha-noi",
+    "hoat_dong": "Hồ Hoàn Kiếm + Đền Ngọc Sơn (1–2 giờ) + đi bộ phố cổ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "van-mieu, nha-tu-hoa-lo",
+    "hoat_dong": "Văn Miếu – Quốc Tử Giám (1–1,5 giờ) + Nhà tù Hỏa Lò (1 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "pho-co-ha-noi, roi-nuoc-thang-long",
+    "hoat_dong": "Phố cổ ăn tối: bún chả + cà phê trứng; xem múa rối nước (nếu đặt vé)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "lang-chu-tich, hoang-thanh-thang-long",
+    "hoat_dong": "Quảng trường Ba Đình – Lăng Chủ tịch Hồ Chí Minh + Chùa Một Cột; Hoàng thành Thăng Long",
+    "ngay": 2
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "ho-tay-chua-tran-quoc",
+    "hoat_dong": "Hồ Tây + Chùa Trấn Quốc (hoàng hôn); ăn phở cuốn Ngũ Xã",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "ho-hoan-kiem",
+    "hoat_dong": "Phố đi bộ quanh Hồ Gươm (cuối tuần) hoặc phố Tạ Hiện",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "bao-tang-dan-toc",
+    "hoat_dong": "Bảo tàng Dân tộc học (2–3 giờ)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-gom-bat-trang, pho-co-ha-noi",
+    "hoat_dong": "Làng gốm Bát Tràng (nửa ngày) hoặc mua sắm phố cổ; về, trả phòng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Về",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "ho-hoan-kiem, pho-co-ha-noi, van-mieu",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ (Hồ Gươm – phố cổ – Văn Miếu)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "lang-chu-tich, hoang-thanh-thang-long, ho-tay-chua-tran-quoc",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Ba Đình – Hoàng thành – Hồ Tây)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "bao-tang-dan-toc, lang-gom-bat-trang",
+    "hoat_dong": "Như ngày 3 của lịch trình 3N2Đ (Bảo tàng Dân tộc học + Bát Tràng)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "chua-huong",
+    "hoat_dong": "Chùa Hương (1 ngày, đi từ sáng sớm) hoặc nghỉ phố cổ, mua đặc sản, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "Hồ Hoàn Kiếm",
+  "best_season": "Tháng 10–12 (thu, mát, ít mưa) và tháng 3–4 (xuân); tránh tháng 6–8 nóng ẩm và tháng 1–2 rét ẩm",
+  "destination": "Hà Nội, Hà Nội",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "ha-noi",
+  "lat": 21.02851,
+  "lng": 105.85422,
+  "ngay_kiem": "06/11/2026",
+  "overview": "Thủ đô nghìn năm văn hiến: phố cổ, hồ Gươm, di tích lịch sử và ẩm thực đường phố đặc sắc. Đi bộ quanh hồ và phố cổ là trải nghiệm chính; các điểm di tích tập trung trong bán kính vài km.",
+  "province": "Hà Nội",
+  "region": "bac",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "thành phố",
+   "văn hóa",
+   "lịch sử"
+  ]
+ },
+ "mua_thang": {
+  "nguon": "kisstour.com; highlightstravel.com; travelshifu.com (số liệu WMO 1991–2020); vietfuntravel.com.vn (ngày kiểm 08/11/2026)",
+  "thang_dep_nhat": "Tháng 10–11 (mùa thu, mát, ít mưa); tháng 3–4 (xuân) cũng đẹp; tránh tháng 6–8 nóng ẩm và tháng 1–2 rét ẩm"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": [
+   {
+    "nguon": "website chính thức Bệnh viện Bạch Mai — bachmai.gov.vn (ngày kiểm 08/11/2026)",
+    "so": "0969851616",
+    "ten": "Bệnh viện Bạch Mai (hotline)"
+   },
+   {
+    "nguon": "Sở Y tế Hà Nội — Lịch 115 ngày 8/11 trực, vận chuyển cấp cứu, soyte.hanoi.gov.vn (ngày kiểm 08/11/2026)",
+    "so": "115",
+    "ten": "Trung tâm Cấp cứu 115 Hà Nội (trực cấp cứu)"
+   }
+  ]
+ }
+}

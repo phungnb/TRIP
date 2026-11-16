@@ -1,0 +1,975 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "80.000–150.000đ/phần (chưa kiểm được giá niêm yết)",
+   "mon": "Gỏi cá Tân Mai",
+   "nguon": "lofita.vn, topbienhoa.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; lofita.vn; topbienhoa.com",
+    "nhan_xet": "Gỏi cá tươi kiểu Biên Hòa, ăn kèm lẩu cua đồng — món đặc sản địa phương ít nơi có. Điểm yếu: số nhà quán chưa kiểm được chính xác, giá 80.000–150.000đ chỉ là khoảng tham khảo. Hợp ăn trưa/tối theo nhóm; hỏi địa chỉ/giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu phố Tân Mai, phường Tân Mai, TP Biên Hòa (chưa kiểm được số nhà chính xác)",
+     "gia": "Lẩu cua đồng từ ~250.000đ/nồi",
+     "ten": "Gỏi cá Tân Mai"
+    },
+    {
+     "dia_chi": "160 Huỳnh Văn Hớn, phường Thống Nhất",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Gỏi cá"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "50.000–165.000đ/nồi",
+   "mon": "Lẩu cá kèo",
+   "nguon": "lofita.vn, mytour.vn, foody.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; lofita.vn; foody.vn",
+    "nhan_xet": "Cá kèo tươi, nước lẩu chua thanh, nồi 50.000–165.000đ rẻ — món nhóm hợp túi tiền. Điểm yếu: quán Thanh Mai ở Hiệp Hòa hơi xa trung tâm. Hợp nhóm bạn, ăn tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "400/A2 Đỗ Văn Thi, xã Hiệp Hòa, TP Biên Hòa",
+     "gia": "50.000–165.000đ/nồi, 10:30–22:00",
+     "ten": "Lẩu Cá Kèo Thanh Mai"
+    },
+    {
+     "dia_chi": "Đường Nguyễn Đình Chiểu, khu Trấn Biên, Bửu Long",
+     "gia": "Lẩu cá diêu hồng ~60.000đ",
+     "ten": "Lẩu Cá Hoàng Oanh 2"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối (món nhóm)",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được khoảng giá riêng",
+   "mon": "Lẩu tôm 5 Ri",
+   "nguon": "topbienhoa.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topbienhoa.com",
+    "nhan_xet": "Lẩu tôm là món riêng của quán 5 Ri, khách địa phương hay nhắc. Điểm yếu: chưa kiểm được khoảng giá riêng — phải hỏi giá trước khi gọi. Hợp nhóm; hỏi giá nồi trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "20/3B Cách Mạng Tháng 8, hẻm 487, phường Hòa Bình, TP Biên Hòa",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Lẩu Tôm 5 Ri"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "60.000–150.000đ/nồi",
+   "mon": "Lẩu cá (diêu hồng / lẩu Thái)",
+   "nguon": "foody.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; foody.vn",
+    "nhan_xet": "Lẩu cá diêu hồng/lẩu Thái chua cay, nồi 60.000–150.000đ. Điểm yếu: trùng quán với món lẩu cá kèo (Hoàng Oanh 2), ít lựa chọn quán riêng. Hợp ăn tối nhóm nhỏ."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Nguyễn Đình Chiểu, khu Trấn Biên, Bửu Long",
+     "gia": "Lẩu Thái 100.000–150.000đ",
+     "ten": "Lẩu Cá Hoàng Oanh 2"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được khoảng giá riêng",
+   "mon": "Chả lụi",
+   "nguon": "topbienhoa.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topbienhoa.com",
+    "nhan_xet": "Chả lụi nướng cuốn bánh tráng, ăn vặt kiểu Biên Hòa. Điểm yếu: chưa kiểm được giá riêng; chỉ có 1 quán ghi rõ (Minh Ánh). Hợp ăn xế; hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "A38C Huỳnh Văn Nghệ, KP5, phường Bửu Long, TP Biên Hòa",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Chả lụi Minh Ánh"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "59.000–400.000đ/món",
+   "mon": "Cơm / món nhậu sông (cá lăng, lươn)",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn",
+    "nhan_xet": "Cá lăng, lươn sông Đồng Nai — món nhậu địa phương. Điểm yếu: giá theo món 59.000–400.000đ rộng, quán nhậu ven QL1A ồn; không hợp gia đình có trẻ nhỏ buổi tối. Hợp nhóm bạn ăn tối."
+   },
+   "quan": [
+    {
+     "dia_chi": "QL1A, Long Bình, Biên Hòa",
+     "gia": "79.000–400.000đ",
+     "ten": "Draft Beer (quán nhậu QL1A)"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "25.000–50.000đ/tô",
+   "mon": "Bánh canh / hủ tiếu Biên Hòa",
+   "nguon": "topbienhoa.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; topbienhoa.com",
+    "nhan_xet": "Ăn sáng bình dân ở chợ Biên Hòa, tô 25.000–50.000đ. Điểm yếu: quán không có địa chỉ cố định, chất lượng tùy quầy. Hợp ăn sáng nhanh."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực chợ Biên Hòa / đường Võ Thị Sáu, phường Thống Nhất",
+     "gia": "25.000–50.000đ/tô, hỏi giá trước",
+     "ten": "Khu chợ Biên Hòa / Võ Thị Sáu"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn xế / mua về",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được mức chung — theo giá vườn",
+   "mon": "Bưởi Tân Triều",
+   "nguon": "mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mia.vn",
+    "nhan_xet": "Bưởi đường lá cam nổi tiếng, ăn tại vườn ngon nhất. Điểm yếu: giá theo vườn, theo mùa — không có mức chung; mua ngoài chợ dễ nhầm bưởi khác. Hợp mua về làm quà; mua tại vườn Tân Triều, hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Khu vực Tân Triều, TP Biên Hòa",
+     "gia": "Theo giá vườn",
+     "ten": "Vườn bưởi Tân Triều"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được khoảng giá riêng",
+   "mon": "Ốc / hải sản sông",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn",
+    "nhan_xet": "Ốc sông và hải sản sông tươi, quán dọc Đặng Đức Thuật nhiều. Điểm yếu: chưa kiểm được giá riêng, hỏi giá trước; quán ốc buổi tối đông và ồn. Hợp ăn tối nhóm bạn."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Đặng Đức Thuật, phường Tam Hòa, TP Biên Hòa",
+     "gia": "Hỏi giá trước",
+     "ten": "Khu quán ốc Đặng Đức Thuật"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Xe SG–Biên Hòa khứ hồi + xe đi Trị An/Cát Tiên",
+   "uoc_tinh": "300.000–800.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng 3 sao)",
+   "uoc_tinh": "500.000–1.500.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–900.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Cát Tiên + Bửu Long + Giang Điền)",
+   "uoc_tinh": "200.000–400.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2–3 ngày",
+   "uoc_tinh": "200.000–450.000đ"
+  },
+  {
+   "hang_muc": "Phát sinh",
+   "uoc_tinh": "100.000–300.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "1.750.000–4.350.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi Cát Tiên bằng ô tô thuê riêng cả ngày (cộng thêm)",
+   "uoc_tinh": "Chưa kiểm được mức riêng, hỏi giá trước"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội — vé máy bay HAN–SGN (hạng mục lớn nhất)",
+   "uoc_tinh": "Chưa kiểm được mức trong đợt này"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá trước khi gọi món; ưu tiên quán có menu niêm yết; giữ hóa đơn.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn, dịch vụ quanh khu du lịch Bửu Long, thác Giang Điền dịp cuối tuần đông khách: giá không niêm yết, phụ thu."
+  },
+  {
+   "cach_tranh": "Hỏi rõ giá đã gồm những gì; kiểm tra áo phao trước khi lên thuyền; mặc áo phao suốt chuyến.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Thuê thuyền, bè ở hồ Trị An và khu Bọ Cạp Vàng: giá thuê không thống nhất, phụ thu; có thuyền không đủ áo phao."
+  },
+  {
+   "cach_tranh": "Chỉ đặt qua nền tảng có cơ chế hoàn tiền hoặc gọi số trên website/fanpage chính thức để xác nhận; yêu cầu gọi video trực tiếp tại phòng.",
+   "nguon": "Báo Nhân Dân — Nhiều chiêu trò lừa đảo đặt phòng khách sạn (05/08/2023): mạo danh chủ khách sạn/homestay, giá rẻ trên Facebook/Zalo, yêu cầu cọc 30-50% rồi chặn liên lạc; một vụ ở Quảng Ninh chiếm đoạt khoảng 100 triệu đồng và đã bị khởi tố (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Lừa cọc homestay/khách sạn đặt qua Facebook, Zalo: mạo danh chủ nhà, giá rẻ, giục cọc 30-50% rồi chặn liên lạc."
+  },
+  {
+   "cach_tranh": "Dùng taxi có đồng hồ/hãng quen hoặc đặt xe qua ứng dụng; thỏa thuận giá trước khi lên xe.",
+   "nguon": "Cảnh báo chung theo kinh nghiệm du lịch và báo chí; chưa tra được vụ việc riêng của tỉnh này trên báo chính thống (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, taxi ở bến xe Biên Hòa hét giá cao, chở vòng."
+  }
+ ],
+ "checklist": [
+  "Giày đi bộ / giày trekking nhẹ",
+  "Áo mưa mỏng",
+  "Mũ/nón, kem chống nắng",
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Tiền mặt lẻ",
+  "Thuốc chống muỗi/côn trùng (rừng Cát Tiên)",
+  "Thuốc cơ bản",
+  "Sạc dự phòng",
+  "Đồ bơi/khăn (Suối Mơ, Bọ Cạp Vàng)"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [
+   "Aurora Plaza Hotel",
+   "Mansion Park Hotel & Apartment"
+  ],
+  "diem": [
+   "Hồ Trị An",
+   "Khu du lịch Bửu Long",
+   "Thác Giang Điền",
+   "Công viên Suối Mơ"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [],
+  "diem_chay": [
+   "Quảng trường phường Bình Phước, TP Đồng Nai (khu vực Đồng Xoài, Bình Phước cũ)"
+  ],
+  "giai": [
+   {
+    "nguon": "Báo Đồng Nai — Tích cực tập luyện, hướng đến ngày hội marathon; iRace — Giải chạy Đồng Nai Marathon - Trường Tươi Group (ngày kiểm 08/11/2026)",
+    "ten": "Đồng Nai Marathon — Trường Tươi Group, Cúp Báo và Phát thanh, Truyền hình Đồng Nai",
+    "thoi_gian": "Tháng 11 hằng năm (mùa 2026: 28-29/11/2026; mùa đầu 2023)"
+   },
+   {
+    "nguon": "GearVN — Danh sách giải chạy bộ marathon 2025 đầy đủ nhất (ngày kiểm 08/11/2026)",
+    "ten": "Biên Hòa Half Marathon — Rhythm of The Night",
+    "thoi_gian": "Tháng 3 (mùa 2025: 15/3/2025, xuất phát Văn miếu Trấn Biên)"
+   }
+  ],
+  "nguon": "Báo Đồng Nai và iRace về giải Đồng Nai Marathon; chỗ ở lấy từ dữ liệu chỗ ở đã có của tỉnh (ngày kiểm 08/11/2026). Cập nhật 16/11/2026: điểm chạy mùa 2026 là Quảng trường phường Bình Phước (Đồng Xoài); chỗ ở gần điểm xuất phát chưa tra được — khách sạn Biên Hòa cách ~90 km nên đã gỡ khỏi danh sách, không bịa; giải ở khu vực Bình Phước, nên ở Đồng Xoài."
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Trung tâm, gần quảng trường",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "1809 Nguyễn Ái Quốc, phường Tam Hiệp, TP Biên Hòa",
+   "dien_thoai": "0251 8870 999",
+   "gia": "Từ ~1.000.000đ/đêm (có nguồn ghi từ 1.411.200đ)",
+   "hang": "5 sao",
+   "hop_voi": "Khách công tác, gia đình",
+   "khu_vuc": "trung-tam",
+   "nguon": "traveloka.com, limoutrip.com",
+   "nguon_dien_thoai": "themiracentralpark.com.vn (ngày kiểm 08/11/2026)",
+   "ten": "The Mira Central Park Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "253 Phạm Văn Thuận, KP17, phường Tam Hiệp, TP Biên Hòa",
+   "dien_thoai": "0251 3918 888",
+   "gia": "~600.000–1.300.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Khách công tác, cặp đôi",
+   "khu_vuc": "trung-tam",
+   "nguon": "dulichfun.com, traveloka.com",
+   "nguon_dien_thoai": "FB chính thức Aurora Hotel Plaza (ngày kiểm 08/11/2026)",
+   "ten": "Aurora Plaza Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "K73 đường D8, KP7, phường Thống Nhất, TP Biên Hòa",
+   "dien_thoai": "0251 3683 450",
+   "gia": "~700.000–1.500.000đ/đêm (có nguồn ghi từ 880.000đ)",
+   "hang": "3 sao",
+   "hop_voi": "Cặp đôi, gia đình",
+   "khu_vuc": "thong-nhat",
+   "nguon": "dongnaitoplist.com, traveloka.com",
+   "nguon_dien_thoai": "dongnaitoplist.com, tripi.vn, mytour.vn, dulichvietnam.com.vn, limoutrip.com (ngày kiểm 08/11/2026)",
+   "ten": "Mansion Park Hotel & Apartment",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách trung tâm ~5 km",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "A9C Xa lộ Hà Nội, KP4, phường Tân Hiệp, TP Biên Hòa",
+   "dien_thoai": "0816 646 568",
+   "gia": "~500.000–1.000.000đ/đêm (có nguồn ghi từ 851.580đ)",
+   "hang": "3 sao",
+   "hop_voi": "Khách công tác, khách quá cảnh",
+   "khu_vuc": "tan-hiep",
+   "nguon": "dongnaitoplist.com, traveloka.com",
+   "nguon_dien_thoai": "dongnaitoplist.com, dulichvietnam.com.vn, mytour.vn, truyenhinhcapsongthu.net, glotels.com (ngày kiểm 08/11/2026)",
+   "ten": "Bcons PS Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Trung tâm, yên tĩnh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "N30–40 Võ Thị Sáu, phường Thống Nhất, TP Biên Hòa",
+   "dien_thoai": "0922 685 685",
+   "gia": "Từ ~400.000đ/đêm",
+   "hang": "2 sao",
+   "hop_voi": "Khách tiết kiệm",
+   "khu_vuc": "trung-tam",
+   "nguon": "limoutrip.com",
+   "nguon_dien_thoai": "limoutrip.com (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn Biên Hòa",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Biên Hòa ~50 km — chỉ hợp khi đi vườn trái cây Long Khánh",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "226 Nguyễn Trãi, Xuân Hòa, Long Khánh, Đồng Nai",
+   "dien_thoai": null,
+   "gia": "~600.000–1.200.000đ/đêm (khung 3 sao Đồng Nai)",
+   "hang": "3 sao",
+   "hop_voi": "Khách đi vườn trái cây",
+   "khu_vuc": "long-khanh",
+   "nguon": "dongnaitoplist.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Khách sạn 3 sao Long Khánh (nhóm tham khảo)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách Biên Hòa ~130 km — chỉ hợp khi đi Cát Tiên",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Khu vực Tân Phú, Đồng Nai",
+   "dien_thoai": null,
+   "gia": "Chưa kiểm được khoảng giá riêng trong đợt này",
+   "hang": "Nhà nghỉ/homestay",
+   "hop_voi": "Khách đi rừng 2 ngày",
+   "khu_vuc": "tan-phu",
+   "nguon": "tripi.vn",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Lưu trú gần Cát Tiên / Suối Mơ (nhóm tham khảo)",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã điền cho 10/10 địa danh cũ + 3 điểm mới; 10 điểm cũ và 3 điểm mới còn ở mức xấp xỉ (xem trường toa_do_xap_xi) — cần kiểm lại bằng GPS thực tế, nhất là Thác Đá Hàn, Làng bưởi Tân Triều, Hồ Trị An",
+  "Giờ mở cửa KDL Bửu Long (7:00–17:00 vs 24/24)",
+  "Giá vé Công viên Suối Mơ (60.000–70.000đ vs 100.000–220.000đ)",
+  "Giá vé núi Chứa Chan (vé tham quan 15.000đ vs nguồn ghi 180.000đ)",
+  "Giá vé Cát Tiên (60.000đ vs 20.000–40.000đ nguồn cũ)",
+  "Giá phòng The Mira Central Park — đã chốt sàn ~1.000.000đ/đêm ngày 16/11/2026 (có nguồn ghi từ 1.411.200đ)",
+  "Giá vé xe khách SG–Cát Tiên; giá vé máy bay HAN–SGN; giờ/giá tàu HN–ga Biên Hòa",
+  "Giá taxi theo km riêng Biên Hòa; giá taxi sân bay Tân Sơn Nhất–Biên Hòa (chưa kiểm được mức riêng)",
+  "Số nhà chính xác quán Gỏi cá Tân Mai; giá lẩu tôm 5 Ri, chả lụi, ốc/hải sản sông",
+  "Địa chỉ chi tiết Thác Đá Hàn, Làng bưởi Tân Triều theo xã mới",
+  "Tên phường/xã mới sau sáp nhập Bình Phước vào Đồng Nai (07/2025)",
+  "Giá vé/giờ Vườn quốc gia Bù Gia Mập (Bình Phước cũ); giá thuyền Hồ Thác Mơ"
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Tỉnh đồng bằng, không có đèo. Lưu ý: đèo Bảo Lộc thuộc tỉnh Lâm Đồng, không tính cho Đồng Nai. Đường lên núi Chứa Chan và núi Bà Rá dốc, nhiều cua — đi chậm, kiểm tra phanh.",
+  "deo": [],
+  "nguon": "Tỉnh đồng bằng, không có đèo; đèo Bảo Lộc thuộc Lâm Đồng, không tính (ngày kiểm 08/11/2026)"
+ },
+ "di_den": {
+  "ghi_chu_san_bay": "Không có sân bay trong tỉnh. Sân bay gần nhất: Tân Sơn Nhất (TP.HCM), cách Biên Hòa ~35 km. Ga Biên Hòa có tàu Bắc–Nam dừng nhưng ít chuyến du lịch.",
+  "tu_hn": [
+   {
+    "ghi_chu": "Phương án khuyên dùng — không có bay thẳng tới Đồng Nai",
+    "gia": "Vé máy bay tùy thời điểm (chưa kiểm được) + xe 30.000–80.000đ",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Máy bay HAN–SGN + xe lên Biên Hòa",
+    "thoi_gian": "Bay ~2 giờ + xe SG–Biên Hòa 1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Ít chuyến dừng Biên Hòa; nên xuống ga Sài Gòn rồi đi xe",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Tàu HN–ga Biên Hòa",
+    "thoi_gian": "~30 giờ (chưa kiểm được chính xác)"
+   },
+   {
+    "ghi_chu": "Không khuyên dùng",
+    "gia": "Chưa kiểm được",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách HN–Biên Hòa",
+    "thoi_gian": "~30–35 giờ (chưa kiểm được chính xác)"
+   }
+  ],
+  "tu_san_bay": [
+   {
+    "ghi_chu": "45–60 phút tùy kẹt xe",
+    "gia": "~250.000–400.000đ/chuyến (khoảng chung, chưa kiểm được mức riêng)",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Taxi / xe công nghệ (Tân Sơn Nhất–Biên Hòa)"
+   },
+   {
+    "ghi_chu": "Về bến Biên Hòa rồi taxi/xe ôm vào điểm ở",
+    "gia": "~30.000–80.000đ/lượt",
+    "nguon": "Chưa kiểm được",
+    "phuong_tien": "Xe khách / xe buýt"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Nhiều hãng xe buýt liên tỉnh; xe buýt tuyến 05/60-1/60-5/60-7 từ 10.000–15.000đ/lượt (blog.vexere.com)",
+    "gia": "Xe khách ghế ngồi ~80.000–150.000đ/lượt (Quốc Cường 80.000–120.000đ; limousine Trường Thịnh ~120.000đ, trung bình ~150.000đ — Vexere 11/2026; redBus rẻ nhất ~165.000đ)",
+    "nguon": "tadiha.com, vexere.com, xelimou.vn, redbus.vn",
+    "phuong_tien": "Xe khách / xe buýt SG–Biên Hòa",
+    "thoi_gian": "1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Xa lộ Hà Nội / QL1A → Biên Hòa",
+    "gia": "Xăng + phí cầu đường (chưa kiểm được mức chung)",
+    "nguon": "tripi.vn",
+    "phuong_tien": "Xe máy / ô tô riêng SG–Biên Hòa",
+    "thoi_gian": "1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Đi tới bến Tân Phú rồi xe ôm/taxi vào cổng vườn",
+    "gia": "Chưa kiểm được giá vé riêng",
+    "nguon": "tripi.vn",
+    "phuong_tien": "Xe khách SG–Cát Tiên / Tân Phú",
+    "thoi_gian": "~3–3,5 giờ"
+   },
+   {
+    "ghi_chu": "Cao tốc Long Thành – Dầu Giây → QL1A → Xuân Lộc",
+    "gia": "Chưa kiểm được phí cầu đường",
+    "nguon": "52hz.vn",
+    "phuong_tien": "Xe riêng SG–núi Chứa Chan",
+    "thoi_gian": "~2–2,5 giờ (~100 km)"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Đi Trị An / Giang Điền tiện bằng xe máy",
+   "gia": "Xe số ~80.000–120.000đ/ngày; tay ga ~120.000–180.000đ/ngày (motortrip.vn, dongnaireview.vn, motogo.vn 2026)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "motortrip.vn, dongnaireview.vn, motogo.vn",
+   "phuong_tien": "Thuê xe máy (Biên Hòa)"
+  },
+  {
+   "ghi_chu": "Mai Linh, Vinasun; có Grab/Be",
+   "gia": "Chưa kiểm được mức theo km riêng",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Taxi nội thành Biên Hòa"
+  },
+  {
+   "ghi_chu": "Tuyến Biên Hòa – Trảng Bom – Long Khánh",
+   "gia": "~5.000–10.000đ/lượt (khoảng chung)",
+   "giay_to": "",
+   "nguon": "Chưa kiểm được",
+   "phuong_tien": "Xe buýt nội tỉnh"
+  },
+  {
+   "ghi_chu": "Đi Cát Tiên / Chứa Chan nên thuê ô tô có tài xế theo ngày",
+   "gia": "Thuê xe có tài xế từ TP.HCM đi Biên Hòa: xe 4 chỗ ~900.000đ/ngày, 7 chỗ ~1.000.000đ/ngày (đã gồm tài xế + xăng + phí đường — thuexeviet.vn); thuê riêng trong Đồng Nai chưa kiểm được mức riêng",
+   "giay_to": "Bằng lái B2 + CCCD (tự lái)",
+   "nguon": "thuexeviet.vn",
+   "phuong_tien": "Thuê ô tô tự lái / có tài xế"
+  },
+  {
+   "ghi_chu": "Hỏi giá trước ở bến Vĩnh An",
+   "gia": "Đã gồm trong vé đảo; thuê thuyền riêng chưa kiểm được giá",
+   "giay_to": "",
+   "nguon": "thueleuphuot.com",
+   "phuong_tien": "Thuyền ra Đảo Ó (hồ Trị An)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 4,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Tổ 31, KP5, phường Bửu Long, TP Biên Hòa",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "7:00–17:00 hàng ngày",
+   "hop_voi": "Người yêu văn hóa/lịch sử, gia đình",
+   "id": "van-mieu-tran-bien",
+   "lat": 10.966,
+   "lng": 106.817,
+   "luu_y": "Di tích hơn 300 năm; ăn mặc lịch sự",
+   "nguon": "mytour.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn; tripi.vn",
+    "nhan_xet": "Di tích hơn 300 năm, được gọi là Quốc Tử Giám miền Nam — điểm văn hóa yên tĩnh, ít đông. Điểm yếu: quy mô nhỏ, tham quan 1–1,5 giờ là hết; ít dịch vụ ăn uống quanh khu. Hợp người yêu lịch sử, học sinh; đi sáng mát, ăn mặc lịch sự."
+   },
+   "ten": "Văn miếu Trấn Biên",
+   "thoi_gian": "1–1,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 5,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Huỳnh Văn Nghệ, KP4, phường Bửu Long, TP Biên Hòa",
+   "gia_ve": "~60.000–120.000đ/người (có nguồn ghi 60.000–150.000đ)",
+   "gio_mo_cua": "7:00–17:00 (có nguồn ghi 24/24 — mâu thuẫn)",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "kdl-buu-long",
+   "lat": 10.958,
+   "lng": 106.809,
+   "luu_y": "Được ví 'Vịnh Hạ Long thu nhỏ'",
+   "nguon": "mytour.vn, tripi.vn, dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn; tripi.vn",
+    "nhan_xet": "Hồ đá và núi nhân tạo được ví 'Vịnh Hạ Long thu nhỏ', chụp ảnh đẹp, có chùa Bửu Phong trong khu. Điểm yếu: giờ mở cửa mâu thuẫn (7:00–17:00 vs 24/24), vé 60.000–150.000đ chưa chốt; cuối tuần đông. Hợp gia đình, nhóm bạn; đi sáng, hỏi giá vé tại cổng."
+   },
+   "ten": "Khu du lịch Bửu Long",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 7,
+   "cum": "trung-tam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tân Bình / khu vực Tân Triều, TP Biên Hòa",
+   "gia_ve": "Miễn phí vào làng; mua bưởi/ăn tại vườn theo giá vườn",
+   "gio_mo_cua": "Ban ngày, nên đi 8:00–17:00",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "lang-buoi-tan-trieu",
+   "lat": 10.985,
+   "lng": 106.805,
+   "luu_y": "Mùa bưởi rộ đẹp nhất; hỏi giá trước khi hái/mua",
+   "nguon": "mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mia.vn",
+    "nhan_xet": "Làng bưởi lâu đời, ăn bưởi tại vườn và chụp ảnh vườn trái cây. Điểm yếu: địa chỉ chi tiết theo xã mới chưa thống nhất, giá theo vườn phải hỏi trước; mùa không có bưởi thì ít thứ xem. Hợp gia đình; đi mùa bưởi rộ, hỏi giá trước khi hái/mua."
+   },
+   "ten": "Làng bưởi Tân Triều",
+   "thoi_gian": "1,5–2,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 30,
+   "cum": "song-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Vĩnh Cửu, cách Biên Hòa ~30 km",
+   "gia_ve": "Miễn phí vào khu vực hồ; Đảo Ó: ngày thường 15.000đ, cuối tuần 20.000đ, lễ 25.000đ (nguồn cũ, cần xác nhận)",
+   "gio_mo_cua": "Tự do, cắm trại qua đêm được ở khu vực cho phép",
+   "hop_voi": "Nhóm bạn, gia đình cắm trại",
+   "id": "ho-tri-an",
+   "lat": 11.005,
+   "lng": 106.975,
+   "luu_y": "Hồ thủy điện rộng; hỏi giá thuyền trước; mùa mưa nước lên",
+   "nguon": "tripi.vn, 52hz.vn, thueleuphuot.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn; tripi.vn",
+    "nhan_xet": "Hồ thủy điện rộng, cắm trại và hoàng hôn đẹp, Đảo Ó đi thuyền tiện. Điểm yếu: khu vực hồ rộng, dịch vụ rải rác, giá thuyền phải hỏi trước; mùa mưa nước lên. Hợp nhóm bạn, gia đình cắm trại; đi mùa khô, mang đủ đồ."
+   },
+   "ten": "Hồ Trị An",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 22,
+   "cum": "song-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "104/4 ấp Hòa Bình, xã Giang Điền, huyện Trảng Bom",
+   "gia_ve": "~80.000đ/người (vé tham quan); gói 115.000–500.000đ/người",
+   "gio_mo_cua": "7:30–17:00 / 7:30–17:30",
+   "hop_voi": "Gia đình, nhóm bạn",
+   "id": "thac-giang-dien",
+   "lat": 10.925,
+   "lng": 106.94,
+   "luu_y": "Nước thác có nguồn chê bẩn — chỉ ngắm, kiểm tra thực tế trước khi tắm",
+   "nguon": "mytour.vn, tripi.vn, mia.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn; tripi.vn",
+    "nhan_xet": "Thác và khu cắm trại qua đêm, gần Biên Hòa (~22 km), tiện đi trong ngày. Điểm yếu: có nguồn chê nước thác bẩn — chỉ ngắm, kiểm tra thực tế trước khi tắm; vé gói 115.000–500.000đ dễ nhầm. Hợp nhóm bạn, gia đình; kiểm tra nước trước khi xuống tắm."
+   },
+   "ten": "Thác Giang Điền",
+   "thoi_gian": "2–4 giờ; cắm trại qua đêm được",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 27,
+   "cum": "song-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 203 ấp 3, xã Đại Phước, huyện Nhơn Trạch",
+   "gia_ve": "Người lớn ~80.000đ, trẻ em dưới 1,4 m ~40.000đ (1 nguồn)",
+   "gio_mo_cua": "Mở cả ngày (chưa kiểm được giờ chính xác)",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "bo-cap-vang",
+   "lat": 10.8,
+   "lng": 106.85,
+   "luu_y": "Trò chơi sông nước nhiều; mang đồ thay",
+   "nguon": "mia.vn, dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mia.vn",
+    "nhan_xet": "Khu trò chơi sông nước nhiều, trẻ nhỏ chơi được cả ngày, vé ~80.000đ đã gồm nhiều trò. Điểm yếu: chỉ có 1 nguồn cho mức vé, giờ mở cửa chưa kiểm được chính xác; cuối tuần đông. Hợp gia đình có trẻ nhỏ; mang đồ thay, đi sớm."
+   },
+   "ten": "Khu du lịch Bọ Cạp Vàng",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "song-ho",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Trảng Bom / khu vực Trảng Bom, Đồng Nai",
+   "gia_ve": "Người lớn: thứ 2–6 50.000đ, thứ 7–CN 65.000đ, lễ 75.000đ",
+   "gio_mo_cua": "Chưa kiểm được giờ chính xác",
+   "hop_voi": "Nhóm bạn, gia đình",
+   "id": "thac-da-han",
+   "lat": 10.97,
+   "lng": 107.02,
+   "luu_y": "Đá trơn, mang giày chống trượt",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn",
+    "nhan_xet": "Thác đá tự nhiên, vé rẻ theo ngày (50.000–75.000đ), hợp nhóm bạn đi dã ngoại. Điểm yếu: địa chỉ chi tiết chưa thống nhất, đá trơn; dịch vụ ít. Hợp nhóm bạn; mang giày chống trượt, đi mùa khô."
+   },
+   "ten": "Thác Đá Hàn",
+   "thoi_gian": "2–3 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 140,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Nam Cát Tiên, huyện Tân Phú, Đồng Nai",
+   "gia_ve": "Người lớn 60.000đ; người cao tuổi/khuyết tật 40.000đ; sinh viên 20.000đ; học sinh 6–16 tuổi 10.000đ",
+   "gio_mo_cua": "7:30–18:00 / 7:30–19:00 (mâu thuẫn)",
+   "hop_voi": "Người yêu rừng, gia đình, nhóm bạn",
+   "id": "vuon-quoc-gia-cat-tien",
+   "lat": 11.575,
+   "lng": 107.3667,
+   "luu_y": "Xe đạp ~30.000đ/giờ; jeep ~500.000đ/khứ hồi; vé Bầu Sấu ~140.000đ",
+   "nguon": "tripi.vn, mytour.vn, 52hz.vn, dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; tripi.vn; buulong.com.vn",
+    "nhan_xet": "Rừng nguyên sinh lớn, Bàu Sấu và đường mòn bướm nổi tiếng — điểm rừng đáng đi nhất gần Sài Gòn. Điểm yếu: cách Biên Hòa ~140 km, nên ở 2 ngày; muỗi nhiều, vé jeep/Bàu Sấu tính riêng; tọa độ trong file là tọa độ trung tâm vườn (Wikipedia), cổng chính xã Nam Cát Tiên cần kiểm lại. Hợp người yêu rừng; đi mùa khô tháng 11–4, mang thuốc chống muỗi."
+   },
+   "ten": "Vườn quốc gia Nam Cát Tiên",
+   "thoi_gian": "Cả ngày; nên ở lại 2 ngày để đi Bầu Sấu",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 70,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Xuân Trường, huyện Xuân Lộc (ga cáp treo: ấp Trung Sơn, xã Xuân Trường)",
+   "gia_ve": "Vé tham quan người lớn 15.000đ, trẻ em 8.000đ; cáp treo khứ hồi người lớn 160.000đ, trẻ em 80.000đ",
+   "gio_mo_cua": "Cáp treo ban ngày (chưa kiểm được giờ chính xác)",
+   "hop_voi": "Người leo núi, hành hương, nhóm bạn",
+   "id": "nui-chua-chan",
+   "lat": 10.925,
+   "lng": 107.145,
+   "luu_y": "Núi cao 837 m; leo bộ cần sức khỏe, mang nước",
+   "nguon": "52hz.vn, dulich.pro.vn, thueleuphuot.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; 52hz.vn",
+    "nhan_xet": "Núi cao thứ 2 Nam Bộ (837 m), cáp treo lên chùa tiện cho người lớn tuổi, leo bộ 3–4 giờ cho người khỏe. Điểm yếu: vé tham quan mâu thuẫn (15.000đ vs 180.000đ — có thể nhầm cáp treo), giờ cáp treo chưa kiểm được. Hợp leo núi, hành hương; mang nước, đi sáng sớm."
+   },
+   "ten": "Núi Chứa Chan (Gia Lào)",
+   "thoi_gian": "Nửa ngày; leo bộ 3–4 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 110,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Số 9 ấp 9, xã Trà Cổ, huyện Tân Phú",
+   "gia_ve": "60.000–70.000đ/người (có nguồn ghi 100.000–220.000đ — mâu thuẫn)",
+   "gio_mo_cua": "7:30–17:00 / 8:00–17:00",
+   "hop_voi": "Gia đình có trẻ nhỏ, nhóm bạn",
+   "id": "cong-vien-suoi-mo",
+   "lat": 11.195,
+   "lng": 107.42,
+   "luu_y": "Suối tự nhiên, hồ bơi; mang đồ bơi, giày đi suối",
+   "nguon": "mytour.vn, tripi.vn, dulichvietnam.com.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps; mytour.vn; tripi.vn",
+    "nhan_xet": "Suối tự nhiên và hồ bơi, trẻ nhỏ tắm được, gần Cát Tiên. Điểm yếu: vé mâu thuẫn lớn (60.000–70.000đ vs 100.000–220.000đ) — phải xác nhận tại cổng; xa Biên Hòa (~110 km). Hợp gia đình có trẻ nhỏ; hỏi giá trước khi mua vé."
+   },
+   "ten": "Công viên Suối Mơ",
+   "thoi_gian": "Nửa ngày–cả ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Phường Sơn Giang và phường Thác Mơ, thị xã Phước Long, tỉnh Bình Phước cũ (nay thuộc Đồng Nai)",
+   "gia_ve": "Chưa kiểm được mức vé riêng — hỏi giá tại cổng",
+   "gio_mo_cua": "Ban ngày; leo bộ 1.767 bậc đá từ đồi Bằng Lăng",
+   "hop_voi": "Người thích leo núi, trekking",
+   "id": "nui-ba-ra",
+   "lat": 11.816906,
+   "lng": 107.000906,
+   "luu_y": "Thuộc khu vực Bình Phước cũ (sáp nhập vào Đồng Nai 07/2025), cách Biên Hòa ~130 km — chỉ hợp ghép cung Cát Tiên – Phước Long 2 ngày, không đi lẻ trong ngày; đỉnh cao 724 m, ngắm hồ Thác Mơ; leo mệt, cần sức khỏe",
+   "nguon": "vi.wikipedia.org, mytour.vn, wetrek.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "vi.wikipedia.org; wetrek.vn; Google Maps",
+    "nhan_xet": "Núi cao thứ 3 Nam Bộ (724 m), leo 1.767 bậc đá qua rừng trúc, đỉnh ngắm hồ Thác Mơ — điểm trekking đáng nhất Bình Phước cũ. Điểm yếu: cách Biên Hòa ~130 km, chỉ hợp ghép cung Cát Tiên – Phước Long 2 ngày; leo mệt, cần sức khỏe. Hợp người thích leo núi; đi tháng 11–4, mang nước."
+   },
+   "ten": "Núi Bà Rá – Hồ Thác Mơ (Bình Phước cũ)",
+   "thoi_gian": "Nửa ngày (leo bộ 3–4 giờ)"
+  },
+  {
+   "cach_trung_tam_km": 130,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Dưới chân núi Bà Rá, phường Thác Mơ, thị xã Phước Long, tỉnh Bình Phước cũ (nay thuộc Đồng Nai)",
+   "gia_ve": "Miễn phí khu vực hồ; dịch vụ thuyền chưa kiểm được giá",
+   "gio_mo_cua": "Ban ngày",
+   "hop_voi": "Nhóm bạn cắm trại, gia đình",
+   "id": "ho-thac-mo",
+   "lat": 11.81,
+   "lng": 107.02,
+   "luu_y": "Thuộc khu vực Bình Phước cũ (sáp nhập vào Đồng Nai 07/2025), cùng cụm núi Bà Rá, cách Biên Hòa ~130 km; hồ thủy điện rộng ~12.000 ha; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "mytour.vn, tripi.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn; Google Maps",
+    "nhan_xet": "Hồ thủy điện rộng ~12.000 ha dưới chân Bà Rá, ngắm từ đỉnh núi đẹp, cắm trại ven hồ yên tĩnh. Điểm yếu: dịch vụ quanh hồ ít, phải tự túc nhiều; chưa kiểm được giá thuyền/dịch vụ riêng. Hợp nhóm bạn cắm trại; đi cùng cung Bà Rá, kiểm tra thời tiết."
+   },
+   "ten": "Hồ Thác Mơ (Bình Phước cũ)",
+   "thoi_gian": "1–2 giờ (ngắm cảnh); nửa ngày nếu cắm trại",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 150,
+   "cum": "xa",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Bù Gia Mập, tỉnh Bình Phước cũ (nay thuộc Đồng Nai), giáp ranh Đắk Nông",
+   "gia_ve": "Chưa kiểm được mức vé riêng — liên hệ ban quản lý trước",
+   "gio_mo_cua": "Chưa kiểm được giờ chính xác — liên hệ ban quản lý trước",
+   "hop_voi": "Người yêu rừng thật sự, nhóm trekking",
+   "id": "vuon-quoc-gia-bu-gia-map",
+   "lat": 12.0833,
+   "lng": 107.1,
+   "luu_y": "Thuộc khu vực Bình Phước cũ (sáp nhập vào Đồng Nai 07/2025), cách Biên Hòa ~150 km, gần cung Cát Tiên – Phước Long; rừng nguyên sinh, ít khách nên còn hoang sơ; đường vào rừng khó; tọa độ xấp xỉ, cần kiểm lại",
+   "nguon": "Google Maps",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps",
+    "nhan_xet": "Rừng nguyên sinh Bình Phước cũ, thác và suối đẹp, ít khách du lịch nên còn hoang sơ. Điểm yếu: xa (~150 km từ Biên Hòa), đường vào rừng khó, cần liên hệ ban quản lý trước; dịch vụ gần như không có. Hợp người yêu rừng thật sự, đi theo tour/nhóm; không đi một mình."
+   },
+   "ten": "Vườn quốc gia Bù Gia Mập (Bình Phước cũ)",
+   "thoi_gian": "Cả ngày; nên đi theo tour/nhóm",
+   "toa_do_xap_xi": true
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Hồ Trị An",
+   "gio": "5:30-7:00 sáng bình minh trên hồ hoặc 16:30-18:00 hoàng hôn",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Khu du lịch Bửu Long",
+   "gio": "7:00-9:00 sáng hoặc 16:00-17:30 chiều, ánh sáng đẹp trên hồ đá",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Vườn quốc gia Nam Cát Tiên",
+   "gio": "6:00-8:00 sáng, chim thú hoạt động, ánh sáng xuyên rừng",
+   "nguon": "Khung giờ vàng chung cho chụp ảnh ngoài trời tại Việt Nam; chưa có hướng dẫn riêng cho điểm này (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì ghé Văn miếu và Bửu Long — tránh thác Giang Điền, Đá Hàn, Nam Cát Tiên vì suối dâng và đường rừng trơn.",
+  "diem": [
+   "Văn miếu Trấn Biên",
+   "Khu du lịch Bửu Long",
+   "Làng bưởi Tân Triều"
+  ]
+ },
+ "lich_trinh": {
+  "2N1D": [
+   {
+    "buoi": "Sáng",
+    "gan": "van-mieu-tran-bien, kdl-buu-long",
+    "hoat_dong": "Văn miếu Trấn Biên + Bửu Long",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-buoi-tan-trieu",
+    "hoat_dong": "Làng bưởi Tân Triều",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu cá kèo Thanh Mai",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "ho-tri-an, thac-giang-dien",
+    "hoat_dong": "Hồ Trị An + Thác Giang Điền; tối về",
+    "ngay": 2
+   }
+  ],
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "van-mieu-tran-bien, kdl-buu-long",
+    "hoat_dong": "Văn miếu Trấn Biên (1–1,5 giờ) + Khu du lịch Bửu Long (2–3 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "lang-buoi-tan-trieu",
+    "hoat_dong": "Làng bưởi Tân Triều (1,5–2,5 giờ)",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Lẩu cá kèo Thanh Mai",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "ho-tri-an",
+    "hoat_dong": "Hồ Trị An + Đảo Ó (nửa ngày–cả ngày)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Gỏi cá Tân Mai",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "vuon-quoc-gia-cat-tien",
+    "hoat_dong": "Vườn quốc gia Nam Cát Tiên (cả ngày — đi sớm, về chiều)",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều–tối",
+    "gan": "",
+    "hoat_dong": "Về Biên Hòa, trả phòng",
+    "ngay": 3
+   }
+  ],
+  "4N3D": [
+   {
+    "buoi": "Cả ngày",
+    "gan": "van-mieu-tran-bien, kdl-buu-long, lang-buoi-tan-trieu",
+    "hoat_dong": "Như ngày 1 của lịch trình 3N2Đ",
+    "ngay": 1
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "ho-tri-an",
+    "hoat_dong": "Như ngày 2 của lịch trình 3N2Đ (Hồ Trị An)",
+    "ngay": 2
+   },
+   {
+    "buoi": "Cả ngày",
+    "gan": "vuon-quoc-gia-cat-tien",
+    "hoat_dong": "Vườn quốc gia Nam Cát Tiên",
+    "ngay": 3
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "nui-chua-chan, cong-vien-suoi-mo, nui-ba-ra, ho-thac-mo",
+    "hoat_dong": "Núi Chứa Chan (cáp treo, nửa ngày) hoặc Công viên Suối Mơ — ở thêm ngày thì đi Núi Bà Rá – Hồ Thác Mơ (Bình Phước cũ)",
+    "ngay": 4
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "",
+    "hoat_dong": "Về Biên Hòa, mua bưởi Tân Triều, về",
+    "ngay": 4
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Biên Hòa",
+  "best_season": "Tháng 11–4 (mùa khô): đi rừng, leo núi, cắm trại thuận; tránh tháng 5–10 mưa nhiều",
+  "destination": "Đồng Nai, TP Biên Hòa",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "dong-nai",
+  "lat": 10.959,
+  "lng": 106.843,
+  "ngay_kiem": "06/11/2026",
+  "nguon_tong": [
+   "tripi.vn",
+   "mytour.vn",
+   "52hz.vn",
+   "dulich.pro.vn",
+   "mia.vn",
+   "dulichvietnam.com.vn",
+   "lofita.vn",
+   "foody.vn",
+   "topbienhoa.com",
+   "traveloka.com",
+   "dongnaitoplist.com",
+   "dulichfun.com",
+   "limoutrip.com",
+   "thueleuphuot.com"
+  ],
+  "province": "Đồng Nai",
+  "region": "nam",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "sông",
+   "núi"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Tháng 11–4 (mùa khô): đi rừng, leo núi, cắm trại thuận; tránh tháng 5–10 mưa nhiều"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}

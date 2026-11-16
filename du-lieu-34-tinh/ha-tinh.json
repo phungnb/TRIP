@@ -1,0 +1,930 @@
+{
+ "an_uong": [
+  {
+   "buoi": "Ăn sáng / ăn vặt",
+   "danh_gia_nguoi_dung": [],
+   "gia": "15.000–40.000đ/phần",
+   "mon": "Bánh bèo Hà Tĩnh",
+   "nguon": "nongsandungha.com, hellotripvietnam.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nongsandungha.com, hellotripvietnam.vn, mytour.vn",
+    "nhan_xet": "Bánh bèo Hà Tĩnh mỏng, nhân tôm thịt, ăn kèm nước mắm chua ngọt, giá 15.000–40.000đ/phần, hợp ăn sáng. Quán bà Hảo và bánh bèo Đài Truyền Hình được nhắc nhiều; nên đi sáng sớm."
+   },
+   "quan": [
+    {
+     "dia_chi": "54 Hải Thượng Lãn Ông, TP Hà Tĩnh (6:00–19:00)",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bà Hảo – Bánh bèo Hà Tĩnh"
+    },
+    {
+     "dia_chi": "37, Ngõ 6, đường Phan Đình Phùng, TP Hà Tĩnh",
+     "gia": "25.000–40.000đ/phần",
+     "ten": "Bánh bèo Đài Truyền Hình"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Ram bánh mướt",
+   "nguon": "hellotripvietnam.vn, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellotripvietnam.vn, mytour.vn",
+    "nhan_xet": "Ram giòn ăn kèm bánh mướt mềm là cặp đôi đặc trưng Hà Tĩnh, hợp ăn sáng và trưa. Nhược điểm là giá phần riêng chưa kiểm được ở nhiều quán; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "68 Nguyễn Công Trứ, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh mướt – Ram, Giò gia truyền Bà Nuôi Tiêu"
+    },
+    {
+     "dia_chi": "Ngõ 318, đường Nguyễn Du, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bánh mướt Nhâm Phú"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "200.000–700.000đ/kg tùy mùa và kích cỡ",
+   "mon": "Mực nhảy Vũng Áng",
+   "nguon": "nongsandungha.com, gacbepbamien.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nongsandungha.com, gacbepbamien.com, mytour.vn",
+    "nhan_xet": "Mực nhảy tươi sống ăn tại bè nổi là món đáng tiền nhất Hà Tĩnh, giá 200.000–700.000đ/kg tùy mùa và kích cỡ (có nguồn ghi 400.000–700.000đ/kg). Lưu ý là phải hỏi giá theo kg trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "Cảng Vũng Áng, thị xã Kỳ Anh",
+     "gia": "200.000–500.000đ/kg (có nguồn ghi 400.000–700.000đ/kg)",
+     "ten": "Nhà hàng Thanh Nhàn"
+    },
+    {
+     "dia_chi": "Cảng Vũng Áng, thị xã Kỳ Anh",
+     "gia": "Giá theo kg, hỏi trước",
+     "ten": "Nhà hàng Độ Tuyết"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá cái riêng",
+   "mon": "Bánh xèo Hà Tĩnh",
+   "nguon": "hellotripvietnam.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellotripvietnam.vn",
+    "nhan_xet": "Bánh xèo Hà Tĩnh giòn, nhân tôm thịt, hợp ăn trưa và tối. Nhược điểm là giá cái riêng chưa kiểm được, quán chủ yếu ở khu vực trung tâm TP; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Đường Nguyễn Huy Tự, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bánh xèo đường Nguyễn Huy Tự"
+    },
+    {
+     "dia_chi": "Khu vực hồ điều hòa, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán bánh xèo khu hồ điều hòa"
+    }
+   ]
+  },
+  {
+   "buoi": "Mua làm quà",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Giá theo gói, hỏi trước",
+   "mon": "Kẹo cu đơ",
+   "nguon": "hellotripvietnam.vn, gacbepbamien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "hellotripvietnam.vn, gacbepbamien.com",
+    "nhan_xet": "Kẹo cu đơ giòn, ngọt mật mía và lạc, mua làm quà đặc trưng Hà Tĩnh. Nên mua ở cơ sở có tiếng (Thư Viện, Nam Cầu Phủ) và hỏi giá theo gói trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "481 Hà Huy Tập, TP Hà Tĩnh (CS2: sau số 6 Phan Đình Phùng)",
+     "gia": "Giá theo gói",
+     "ten": "Cu đơ Thư Viện"
+    },
+    {
+     "dia_chi": "Nam Cầu Phủ, TP Hà Tĩnh",
+     "gia": "Giá theo gói",
+     "ten": "Cơ sở kẹo cu đơ Nam Cầu Phủ"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn trưa",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá tô riêng",
+   "mon": "Bún bò Đò Trai",
+   "nguon": "mytour.vn, gacbepbamien.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn, gacbepbamien.com",
+    "nhan_xet": "Bún bò Đò Trai đậm đà, hợp ăn sáng và trưa. Nhược điểm là giá tô riêng chưa kiểm được; nên hỏi giá trước khi gọi."
+   },
+   "quan": [
+    {
+     "dia_chi": "499 Hà Huy Tập, phường Đại Nài, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bún bò Đò Trai"
+    },
+    {
+     "dia_chi": "20A Phan Đình Phùng, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Bún Ngon"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn sáng / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá tô riêng",
+   "mon": "Súp lươn / cháo lươn Hà Tĩnh",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn",
+    "nhan_xet": "Súp lươn Hà Tĩnh cay nồng, lươn mềm, hợp ăn sáng và tối. Nhược điểm là giá tô riêng chưa kiểm được ở nhiều quán; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "Số 1, ngõ 1, đường Phan Đình Phùng, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Bà Sự – Cháo lươn, súp lươn"
+    },
+    {
+     "dia_chi": "Số 1, ngõ 1, đường Lý Tự Trọng, phường Bắc Hà, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Dũng Cường – Cháo lươn, súp lươn"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "Chưa kiểm được giá phần riêng",
+   "mon": "Gỏi cá đục",
+   "nguon": "mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mytour.vn",
+    "nhan_xet": "Gỏi cá đục tươi, chua cay, hợp nhóm bạn ăn trưa. Điểm trừ là món sống nên chỉ ăn ở quán đông khách, cá tươi trong ngày; giá phần riêng chưa kiểm được."
+   },
+   "quan": [
+    {
+     "dia_chi": "Thạch Hạ, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Nhà hàng Chương"
+    }
+   ]
+  },
+  {
+   "buoi": "Ăn trưa / ăn tối",
+   "danh_gia_nguoi_dung": [],
+   "gia": "100.000–150.000đ/phần (theo 1 nguồn)",
+   "mon": "Canh cá lóc",
+   "nguon": "gacbepbamien.com, mytour.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "gacbepbamien.com, mytour.vn",
+    "nhan_xet": "Canh cá lóc ngọt nước, 100.000–150.000đ/phần, hợp ăn trưa và tối theo nhóm. Nhược điểm là giá chưa kiểm được ở nhiều quán; nên hỏi giá trước."
+   },
+   "quan": [
+    {
+     "dia_chi": "301 Nguyễn Du, TP Hà Tĩnh",
+     "gia": "100.000–150.000đ/phần",
+     "ten": "Quán Dung Thanh (Canh cá lóc)"
+    },
+    {
+     "dia_chi": "17/2 Nguyễn Huy Tự, TP Hà Tĩnh",
+     "gia": "Chưa kiểm được giá riêng",
+     "ten": "Quán Kim Chi"
+    }
+   ]
+  }
+ ],
+ "bang_chi_phi_3N2D_1_nguoi_tu_SG": [
+  {
+   "hang_muc": "Máy bay SGN–VII khứ hồi",
+   "uoc_tinh": "1.600.000–4.000.000đ"
+  },
+  {
+   "hang_muc": "Xe Vinh–Hà Tĩnh khứ hồi + đi Thiên Cầm",
+   "uoc_tinh": "300.000–700.000đ"
+  },
+  {
+   "hang_muc": "Ở 2 đêm (chia đôi phòng TP/Thiên Cầm)",
+   "uoc_tinh": "300.000–1.300.000đ"
+  },
+  {
+   "hang_muc": "Ăn 3 ngày",
+   "uoc_tinh": "450.000–1.000.000đ"
+  },
+  {
+   "hang_muc": "Vé tham quan (Đồng Lộc, Hương Tích)",
+   "uoc_tinh": "20.000–100.000đ"
+  },
+  {
+   "hang_muc": "Thuê xe máy 2 ngày + xăng",
+   "uoc_tinh": "200.000–500.000đ"
+  },
+  {
+   "hang_muc": "Taxi / phát sinh",
+   "uoc_tinh": "150.000–400.000đ"
+  },
+  {
+   "hang_muc": "Tổng ước tính",
+   "uoc_tinh": "3.020.000–8.000.000đ/người"
+  },
+  {
+   "hang_muc": "Nếu đi từ Hà Nội (xe khách thay máy bay)",
+   "uoc_tinh": "Trừ ~1.600.000–4.000.000đ tiền bay, cộng xe HN–Hà Tĩnh ~500.000–800.000đ khứ hồi"
+  }
+ ],
+ "canh_bao_chat_chem": [
+  {
+   "cach_tranh": "Hỏi giá/kg hải sản và giá dịch vụ trước khi gọi/nhận; ưu tiên quán có bảng giá niêm yết; theo dữ liệu tỉnh, Thiên Cầm từng có phản ánh chặt chém, nên đặt phòng sớm mùa cao điểm",
+   "nguon": "dữ liệu tỉnh Hà Tĩnh (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Biển Thiên Cầm mùa cao điểm: hải sản tính theo cân không niêm yết giá, ghế dù, phao thu phí cao"
+  },
+  {
+   "cach_tranh": "Thỏa giá và tuyến đường trước khi lên xe; ưu tiên xe có bảng giá",
+   "nguon": "kinh nghiệm chung du lịch Hà Tĩnh; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Xe ôm, xe điện quanh biển Thiên Cầm, Xuân Thành: giá thỏa thuận miệng, đi vòng"
+  },
+  {
+   "cach_tranh": "Đọc đánh giá gần nhất, nhắn hỏi chủ nhà về giá cuối tuần/lễ và phí phát sinh trước khi đặt",
+   "nguon": "kinh nghiệm chung du lịch Hà Tĩnh; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Homestay, khách sạn ven biển Thiên Cầm: đặt online khác ảnh thật, phụ thu cuối tuần, lễ"
+  },
+  {
+   "cach_tranh": "Hỏi giá trước khi mua đồ lễ, đồ ăn; mua ở cửa hàng có bảng giá",
+   "nguon": "kinh nghiệm chung du lịch Hà Tĩnh; chưa tra được nguồn chính thống riêng (ngày kiểm 08/11/2026)",
+   "tinh_huong": "Quán ăn gần khu di tích Ngã ba Đồng Lộc, chùa Hương Tích: giá đồ lễ, đồ ăn không niêm yết"
+  }
+ ],
+ "checklist": [
+  "CCCD + bằng lái A1 (nếu thuê xe máy)",
+  "Đồ bơi, khăn tắm, kem chống nắng (biển Thiên Cầm nắng gắt)",
+  "Giày leo (chùa Hương Tích, núi Hồng Lĩnh)",
+  "Áo khoác mỏng, áo mưa mỏng (tránh bão tháng 8–10)",
+  "Tiền mặt lẻ (chợ, quán ven biển — hỏi giá mực nhảy theo kg trước)",
+  "Thuốc chống muỗi, thuốc cơ bản",
+  "Sạc dự phòng",
+  "Ăn mặc lịch sự khi vào Ngã ba Đồng Lộc và chùa Hương Tích"
+ ],
+ "cho_cap_doi": {
+  "cho_o": [],
+  "diem": [
+   "Bãi biển Thiên Cầm",
+   "Biển Xuân Thành",
+   "Hồ Kẻ Gỗ",
+   "Chùa Hương Tích"
+  ]
+ },
+ "cho_nguoi_chay_giai": {
+  "cho_o_gan": [
+   "Mường Thanh Grand Hà Tĩnh",
+   "Thiên Cầm Xanh Hotel",
+   "Lamer Thiên Cầm Hotel"
+  ],
+  "diem_chay": [
+   "Đường ven biển Thiên Cầm buổi sáng sớm",
+   "Đường quanh hồ Kẻ Gỗ",
+   "Quảng trường TP Hà Tĩnh buổi sáng sớm"
+  ],
+  "giai": [
+   {
+    "nguon": "ticket.irace.vn — Giải chạy Thiên Cầm Half Marathon 2025; UBND huyện Cẩm Xuyên — Điều lệ giải Thiên Cầm Half Marathon 2025 (ngày kiểm 08/11/2026)",
+    "ten": "Thiên Cầm Half Marathon",
+    "thoi_gian": "tháng 3 (2025: 16/3; cự ly 5/10/21 km, bãi biển Thiên Cầm, huyện Cẩm Xuyên)"
+   }
+  ],
+  "nguon": "ticket.irace.vn; UBND huyện Cẩm Xuyên (ngày kiểm 08/11/2026); chỗ ở lấy từ dữ liệu tỉnh Hà Tĩnh (ngày kiểm 06/11/2026)"
+ },
+ "cho_o": [
+  {
+   "cach_ho": "Cách TP Hà Tĩnh ~60 km, gần cảng Vũng Áng",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "QL1A, ngã tư khu kinh tế Vũng Áng, phường Sông Trí, thị xã Kỳ Anh",
+   "dien_thoai": "0239 3720 666",
+   "gia": "~600.000–1.150.000đ/đêm (198 phòng)",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình, khách công tác khu Vũng Áng",
+   "khu_vuc": "ky-anh",
+   "nguon": "traveloka.com, vietgoing.com, klook.com",
+   "nguon_dien_thoai": "holidaymocchau.muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Grand Hà Tĩnh",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần biển Xuân Thành, khu di tích Nguyễn Du",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thôn Thành Vân, xã Tiên Điền, huyện Nghi Xuân",
+   "dien_thoai": "0239 3825 999",
+   "gia": "~1.090.000–1.610.000đ/đêm",
+   "hang": "4 sao",
+   "hop_voi": "Gia đình nghỉ dưỡng biển",
+   "khu_vuc": "nghi-xuan",
+   "nguon": "traveloka.com, vietgoing.com",
+   "nguon_dien_thoai": "booking.muongthanh.com + muongthanh.com (ngày kiểm 08/11/2026)",
+   "ten": "Mường Thanh Luxury Xuân Thành",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách biển Thiên Cầm ~520 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Đường Nguyễn Thị Bích Châu, bờ kè Thiên Cầm, huyện Cẩm Xuyên",
+   "dien_thoai": null,
+   "gia": "~500.000–800.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình đi biển Thiên Cầm",
+   "khu_vuc": "thien-cam",
+   "nguon": "vietgoing.com",
+   "nguon_dien_thoai": "chưa tra được (ngày kiểm 08/11/2026) (ngày kiểm 08/11/2026)",
+   "ten": "Thiên Cầm Xanh Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách biển Thiên Cầm ~160 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Biển Thiên Cầm, xã Liên Thành, huyện Cẩm Xuyên",
+   "dien_thoai": "0344 455 593",
+   "gia": "~290.000–860.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình, khách tiết kiệm đi biển",
+   "khu_vuc": "thien-cam",
+   "nguon": "vietgoing.com",
+   "nguon_dien_thoai": "Google Travel + antamtour.vn (ngày kiểm 08/11/2026)",
+   "ten": "Lamer Thiên Cầm Hotel",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Cách biển Thiên Cầm ~390 m",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Liên Thanh, Thiên Cầm, huyện Cẩm Xuyên",
+   "dien_thoai": "0835 168 186",
+   "gia": "~500.000–690.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình đi biển Thiên Cầm",
+   "khu_vuc": "thien-cam",
+   "nguon": "vietgoing.com",
+   "nguon_dien_thoai": "dulichthiencam.net (ngày kiểm 08/11/2026)",
+   "ten": "Dolphin Hotel Thiên Cầm",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Ngay bãi biển Thiên Cầm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Bãi biển Thiên Cầm, huyện Cẩm Xuyên",
+   "dien_thoai": "081 299 3433",
+   "gia": "~1.280.000đ/đêm",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình nghỉ dưỡng biển",
+   "khu_vuc": "thien-cam",
+   "nguon": "traveloka.com",
+   "nguon_dien_thoai": "tripi.vn + mytour.vn (ngày kiểm 08/11/2026)",
+   "ten": "Seabird Hotel Thiên Cầm",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  },
+  {
+   "cach_ho": "Gần biển Thiên Cầm",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thiên Cầm, huyện Cẩm Xuyên",
+   "dien_thoai": "0389 686 577",
+   "gia": "~500.000–1.840.000đ/đêm (chưa kiểm được khoảng chính xác)",
+   "hang": "Chưa kiểm được hạng sao",
+   "hop_voi": "Gia đình đi biển Thiên Cầm",
+   "khu_vuc": "thien-cam",
+   "nguon": "vietgoing.com",
+   "nguon_dien_thoai": "FB chính thức Family Hotel Thiên Cầm (ngày kiểm 08/11/2026)",
+   "ten": "Family Hotel Thiên Cầm",
+   "trang_thai": "Chưa kiểm chứng / chưa đối tác / chưa thu phí"
+  }
+ ],
+ "chua_kiem_duoc": [
+  "Tọa độ GPS: đã tra bằng geocode ngày 06/11/2026 cho toàn bộ 13 địa danh — 0 điểm còn null; 6 điểm còn xấp xỉ, cần kiểm lại bằng bản đồ trước khi nhập app: Khu di tích Ngã ba Đồng Lộc, Hồ Kẻ Gỗ, Núi Hồng Lĩnh (dãy Hồng Lĩnh), Biển Xuân Thành, Đèo Ngang (Hoành Sơn Quan), Biển Lộc Hà",
+  "Giá vé Ngã ba Đồng Lộc: 10.000đ vs miễn phí — nguồn mâu thuẫn",
+  "Giá vé chùa Hương Tích: miễn phí vs 10.000đ/người lớn — nguồn mâu thuẫn",
+  "Giá vé khu di tích Nguyễn Du, núi Hồng Lĩnh, biển Xuân Thành, Đèo Ngang hiện hành",
+  "Giờ mở cửa chùa Hương Tích, khu di tích Nguyễn Du, hồ Kẻ Gỗ (dịch vụ thuyền)",
+  "Giá mực nhảy Vũng Áng: 200.000–500.000đ/kg vs 400.000–700.000đ/kg — nguồn khác nhau",
+  "Khoảng giá phòng Thiên Cầm Xanh, Family Hotel Thiên Cầm (chưa kiểm được mức chính xác)",
+  "Giá thuê xe máy tại Hà Tĩnh và giá xe khách TP–Thiên Cầm/Đồng Lộc/Kỳ Anh từng tuyến",
+  "Giá xe khách Hà Nội–Hà Tĩnh từng hãng và giá tàu Hà Nội–Hà Tĩnh hiện hành",
+  "Giá ăn tại quán ở Hà Tĩnh (nhiều món chỉ có tên quán, chưa kiểm được giá phần riêng)",
+  "Không có sân bay tại Hà Tĩnh — mọi phương án bay đều qua sân bay Vinh (Nghệ An)",
+  "Điểm du lịch mới thêm đợt 06/11/2026 (3 điểm): Biển Thạch Hải, Chùa Chân Tiên, Khu di tích Hải Thượng Lãn Ông — giá vé và giờ mở cửa một số điểm chưa kiểm được, xem Lưu ý từng điểm."
+ ],
+ "dan_an_toan_deo": {
+  "dan": "Hà Tĩnh không có đèo dài như Tây Bắc, nhưng Đèo Ngang (QL1, Hoành Sơn Quan, ranh giới Hà Tĩnh – Quảng Trị) dốc, cua gấp, xe tải lớn nhiều; tháng 12/2025 mặt đường qua Đèo Ngang xuất hiện vết nứt dài hàng chục mét, nguy cơ sạt lở — đi chậm, không dừng đỗ ở chân dốc có dấu hiệu nứt/sạt, theo dõi thông báo của đơn vị quản lý đường. Đường lên chùa Hương Tích, núi Hồng Lĩnh, hồ Kẻ Gỗ: đồi dốc, đường hẹp, trơn khi mưa; tránh đi ban đêm và mùa bão tháng 8–10. Mùa mưa bão, đường ven biển Thiên Cầm – Xuân Thành – Lộc Hà có thể ngập, sóng lớn; không tắm biển khi có cảnh báo bão, biển động. Mang CCCD/hộ chiếu và giấy tờ xe đầy đủ.",
+  "deo": [
+   "Đèo Ngang (QL1, Hoành Sơn Quan): dốc, cua gấp, nhiều xe tải; tháng 12/2025 mặt đường nứt dài hàng chục mét, nguy cơ sạt lở",
+   "Đường lên chùa Hương Tích và núi Hồng Lĩnh: đồi dốc, đường hẹp, trơn khi mưa",
+   "Đường ven biển Thiên Cầm – Xuân Thành – Lộc Hà: ngập, sóng lớn mùa bão tháng 8–10"
+  ],
+  "nguon": "vietnamnet.vn — Vết nứt bất thường trên Đèo Ngang (4/12/2025) (ngày kiểm 08/11/2026); dữ liệu tỉnh Hà Tĩnh — Đèo Ngang, chùa Hương Tích, núi Hồng Lĩnh (ngày kiểm 06/11/2026)"
+ },
+ "di_den": {
+  "tu_ga_san_bay": [
+   {
+    "ghi_chu": "Sân bay gần nhất",
+    "gia": "Taxi/xe ghép ~300.000–500.000đ/chuyến (chưa kiểm được mức cố định); xe khách Vinh–Hà Tĩnh ~100.000–150.000đ",
+    "nguon": "vietair.com.vn",
+    "phuong_tien": "Sân bay Vinh – TP Hà Tĩnh",
+    "thoi_gian": "~50 km, 1–1,5 giờ"
+   },
+   {
+    "ghi_chu": "Ga Yên Trung, Đức Thọ",
+    "gia": "Taxi ~200.000–300.000đ/chuyến (chưa kiểm được mức cố định)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Ga Yên Trung – TP Hà Tĩnh",
+    "thoi_gian": "~25 km"
+   },
+   {
+    "ghi_chu": "Bến xe trung tâm TP",
+    "gia": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Bến xe Hà Tĩnh – trung tâm TP",
+    "thoi_gian": "~1–2 km"
+   }
+  ],
+  "tu_hn": [
+   {
+    "ghi_chu": "Bến Mỹ Đình/Giáp Bát – Bến xe Hà Tĩnh; xe Hoàng Long giường nằm có nguồn ghi 250.000đ (cũ)",
+    "gia": "~250.000–400.000đ/vé (chưa kiểm được hãng cụ thể tuyến này)",
+    "nguon": "aprotravel.com",
+    "phuong_tien": "Xe khách Hà Nội–Hà Tĩnh",
+    "thoi_gian": "6–7 giờ (~350 km)"
+   },
+   {
+    "ghi_chu": "Ga Yên Trung, huyện Đức Thọ; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu Hà Nội–Hà Tĩnh (ga Yên Trung)",
+    "thoi_gian": "~6–7 giờ"
+   },
+   {
+    "ghi_chu": "Đi qua Vinh; đường dài, nên đi xe khách/tàu nếu không quen",
+    "gia": "Chưa kiểm được giá thuê theo tuyến",
+    "nguon": "tour.pro.vn",
+    "phuong_tien": "Xe máy / ô tô riêng Hà Nội–Hà Tĩnh",
+    "thoi_gian": "6–7 giờ (QL1A)"
+   }
+  ],
+  "tu_sg": [
+   {
+    "ghi_chu": "Không có sân bay tại Hà Tĩnh; sân bay gần nhất là Vinh (Nghệ An)",
+    "gia": "Bay một chiều đã gồm thuế phí ~800.000–2.000.000đ; xe Vinh–Hà Tĩnh ~100.000–150.000đ",
+    "nguon": "vietair.com.vn",
+    "phuong_tien": "Máy bay SGN–VII (sân bay Vinh) + xe Vinh–Hà Tĩnh",
+    "thoi_gian": "Bay ~1 giờ 50 phút + xe 1–1,5 giờ (~50 km)"
+   },
+   {
+    "ghi_chu": "Chỉ hợp người dư thời gian; đa số nên bay tới Vinh rồi đi xe",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Xe khách TP.HCM–Hà Tĩnh",
+    "thoi_gian": "~30–35 giờ"
+   },
+   {
+    "ghi_chu": "Ga trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi",
+    "gia": "Chưa kiểm được giá vé hiện hành",
+    "nguon": "chưa kiểm được",
+    "phuong_tien": "Tàu TP.HCM–Hà Tĩnh (ga Yên Trung / ga Hà Tĩnh)",
+    "thoi_gian": "~30–35 giờ"
+   }
+  ]
+ },
+ "di_lai": [
+  {
+   "ghi_chu": "Thuê tại TP Hà Tĩnh; hỏi rõ cọc và giờ trả",
+   "gia": "~100.000–150.000đ/ngày (mặt bằng chung miền Trung, chưa kiểm được bảng giá riêng tại Hà Tĩnh)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — xe số"
+  },
+  {
+   "ghi_chu": "",
+   "gia": "~150.000–200.000đ/ngày (chưa kiểm được bảng giá riêng tại Hà Tĩnh)",
+   "giay_to": "CCCD + bằng lái A1",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Thuê xe máy — tay ga"
+  },
+  {
+   "ghi_chu": "Hỏi giá trọn gói trước; xe buýt TP–Thiên Cầm kiểm tại bến",
+   "gia": "~10.000–13.000đ/km (ước lượng); TP–Thiên Cầm ~20 km",
+   "giay_to": "",
+   "nguon": "chưa kiểm được",
+   "phuong_tien": "Taxi TP Hà Tĩnh – Thiên Cầm"
+  },
+  {
+   "ghi_chu": "Thiên Cầm ~20 km, Đồng Lộc ~25 km, Kỳ Anh ~60 km; nên thuê ô tô theo ngày nếu đi Kỳ Anh",
+   "gia": "Chưa kiểm được giá từng tuyến",
+   "giay_to": "",
+   "nguon": "tour.pro.vn",
+   "phuong_tien": "Xe khách TP – Thiên Cầm / Đồng Lộc / Kỳ Anh"
+  },
+  {
+   "ghi_chu": "Ăn tại bè nổi Thanh Nhàn/Độ Tuyết, cảng Vũng Áng",
+   "gia": "Ăn theo kg 200.000–700.000đ/kg",
+   "giay_to": "",
+   "nguon": "nongsandungha.com",
+   "phuong_tien": "Thuyền / bè nổi Vũng Áng (ăn mực nhảy)"
+  }
+ ],
+ "dia_danh": [
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Cẩm Xuyên, cách TP Hà Tĩnh ~20 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày; tắm đẹp nhất tháng 4–9",
+   "hop_voi": "Gia đình, cặp đôi, người thích biển yên tĩnh",
+   "id": "bien-thien-cam",
+   "lat": 18.27582,
+   "lng": 106.09946,
+   "luu_y": "Biển đẹp, ít người hơn Cửa Lò/Sầm Sơn; hỏi giá hải sản trước; tránh bão tháng 8–10",
+   "nguon": "travelviet.net, aprotravel.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn, dulich.pro.vn, backlinkseo.vn",
+    "nhan_xet": "Thiên Cầm được nhiều nguồn gọi là bãi biển đẹp nhất Hà Tĩnh: nước trong xanh màu ngọc bích, cát trắng mịn, ba bãi tắm cong như cánh cung, yên tĩnh hơn hẳn Sầm Sơn và Cửa Lò. Điểm trừ là mùa cao điểm vẫn cháy phòng và có hiện tượng chặt chém theo một số review; nên đặt phòng sớm và hỏi giá trước. Hợp người muốn nghỉ dưỡng yên tĩnh, không hợp ai cần vui chơi náo nhiệt."
+   },
+   "ten": "Bãi biển Thiên Cầm",
+   "thoi_gian": "Nửa ngày đến 1 ngày (bãi cong giữa núi Thiên Cầm và núi Voi)"
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Đồng Lộc, huyện Can Lộc, cách TP Hà Tĩnh ~25 km",
+   "gia_ve": "Vé vào cửa 10.000đ/người (có nguồn ghi miễn phí — chưa thống nhất); xe điện 10.000đ/người/lượt",
+   "gio_mo_cua": "7:00–18:00",
+   "hop_voi": "Mọi đối tượng, gia đình, học sinh",
+   "id": "nga-ba-dong-loc",
+   "lat": 18.48471,
+   "lng": 105.74846,
+   "luu_y": "Di tích 10 nữ thanh niên xung phong hy sinh chống Mỹ; ăn mặc lịch sự, giữ yên lặng, dâng hương trang nghiêm. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "yeulichsu.edu.vn, travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "mia.vn, yeulichsu.edu.vn, travelviet.net",
+    "nhan_xet": "Di tích quốc gia đặc biệt rộng ~50 ha, câu chuyện 10 nữ thanh niên xung phong hy sinh ngày 24/7/1968 rất cảm động; tham quan 1,5–2,5 giờ gồm khu mộ, nhà bia, tháp chuông 37 m. Điểm trừ là giá vé các nguồn mâu thuẫn (10.000đ vs miễn phí); nên đi sáng sớm, ăn mặc lịch sự và giữ yên lặng."
+   },
+   "ten": "Khu di tích Ngã ba Đồng Lộc",
+   "thoi_gian": "1,5–2,5 giờ (rộng ~50 ha)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thiên Lộc, huyện Can Lộc (núi Hồng Lĩnh), cách TP Hà Tĩnh ~25 km",
+   "gia_ve": "Miễn phí vào chùa (có nguồn ghi vé 10.000đ/người lớn, 5.000đ/trẻ em — chưa thống nhất)",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu tâm linh, gia đình",
+   "id": "chua-huong-tich",
+   "lat": 18.47131,
+   "lng": 105.76625,
+   "luu_y": "Chùa trên núi Hồng Lĩnh, leo nhiều bậc — mang giày bệt, nước uống; lễ hội tháng Giêng–tháng 3 âm lịch đông",
+   "nguon": "travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelviet.net",
+    "nhan_xet": "Chùa trên núi Hồng Lĩnh linh thiêng, lễ hội tháng Giêng–tháng 3 âm lịch đông vui; hợp người yêu tâm linh và thích leo núi nhẹ. Điểm trừ là leo nhiều bậc, giá vé các nguồn mâu thuẫn (miễn phí vs 10.000đ); nên mang giày bệt, nước uống và tránh lễ hội nếu ngại đông."
+   },
+   "ten": "Chùa Hương Tích",
+   "thoi_gian": "2–3 giờ (leo núi Hồng Lĩnh)"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Cẩm Mỹ, huyện Cẩm Xuyên, cách TP Hà Tĩnh ~20 km",
+   "gia_ve": "Miễn phí (theo các nguồn tra được)",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, nhóm bạn thích hồ – rừng",
+   "id": "ho-ke-go",
+   "lat": 18.22232,
+   "lng": 105.93107,
+   "luu_y": "Hồ nước ngọt nhân tạo lớn nhất Hà Tĩnh (mặt nước ~30 km²); đi thuyền ngắm cảnh, kiểm dịch vụ thuyền trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "travelviet.net, yeulichsu.edu.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelviet.net, yeulichsu.edu.vn",
+    "nhan_xet": "Hồ nước ngọt nhân tạo lớn nhất Hà Tĩnh, mặt nước ~30 km², đi thuyền ngắm cảnh thư giãn, hợp gia đình và nhóm bạn. Điểm trừ là dịch vụ thuyền chưa kiểm được trước ngày đi; nên hỏi trước, đừng đến rồi mới tính."
+   },
+   "ten": "Hồ Kẻ Gỗ",
+   "thoi_gian": "1,5–2,5 giờ",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 25,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Can Lộc – Nghi Xuân, cách TP Hà Tĩnh ~25 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Cả ngày (nên đi ban ngày)",
+   "hop_voi": "Nhóm bạn, người thích leo núi nhẹ",
+   "id": "nui-hong-linh",
+   "lat": 18.5294,
+   "lng": 105.70678,
+   "luu_y": "Dãy núi 99 đỉnh gắn với nhiều di tích; leo núi mang nước, giày chống trượt. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelviet.net",
+    "nhan_xet": "Dãy núi 99 đỉnh gắn với nhiều di tích, leo núi ngắm cảnh hợp nhóm bạn thích vận động nhẹ. Điểm trừ là chưa kiểm được giá vé, đường leo dốc; nên đi ban ngày, mang nước và giày chống trượt."
+   },
+   "ten": "Núi Hồng Lĩnh (dãy Hồng Lĩnh)",
+   "thoi_gian": "Nửa ngày (leo núi, chùa Hương Tích)",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Nghi Xuân, cách TP Hà Tĩnh ~35 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển yên tĩnh",
+   "id": "bien-xuan-thanh",
+   "lat": 18.63964,
+   "lng": 105.79503,
+   "luu_y": "Biển gần khu di tích Nguyễn Du — ghép cùng cung Nghi Xuân; ít dịch vụ, hỏi giá trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "vietgoing.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / vietgoing.com",
+    "nhan_xet": "Biển Xuân Thành yên tĩnh, gần khu di tích Nguyễn Du nên ghép được trong một buổi; hợp gia đình thích biển vắng. Điểm trừ là ít dịch vụ, hỏi giá trước; không hợp ai cần resort hay vui chơi."
+   },
+   "ten": "Biển Xuân Thành",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 35,
+   "cum": "bac",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Tiên Điền, huyện Nghi Xuân, cách TP Hà Tĩnh ~35 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu văn học – lịch sử, gia đình",
+   "id": "khu-di-tich-nguyen-du",
+   "lat": 18.66498,
+   "lng": 105.76636,
+   "luu_y": "Quê hương đại thi hào Nguyễn Du, tác giả Truyện Kiều; ghép cùng biển Xuân Thành",
+   "nguon": "vietgoing.com",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / vietgoing.com",
+    "nhan_xet": "Quê hương đại thi hào Nguyễn Du, tác giả Truyện Kiều — điểm đến văn học ý nghĩa, hợp người yêu văn học và gia đình. Điểm trừ là giá vé và giờ mở cửa chưa kiểm được; nên ghép cùng biển Xuân Thành."
+   },
+   "ten": "Khu di tích Nguyễn Du (Tiên Điền)",
+   "thoi_gian": "1,5–2 giờ"
+  },
+  {
+   "cach_trung_tam_km": 70,
+   "cum": "nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Giáp ranh Hà Tĩnh – Quảng Bình, cách TP Hà Tĩnh ~70 km về phía nam",
+   "gia_ve": "Miễn phí (điểm dừng chân trên QL1A)",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Mọi đối tượng đi đường dài",
+   "id": "deo-ngang",
+   "lat": 17.94968,
+   "lng": 106.46938,
+   "luu_y": "Đèo lịch sử trong thơ Bà Huyện Thanh Quan; dừng chụp ảnh ở điểm an toàn, không dừng giữa cua gấp. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "dulich.qag.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / dulich.qag.vn",
+    "nhan_xet": "Đèo lịch sử trong thơ Bà Huyện Thanh Quan, view vịnh và biển đẹp, hợp dừng chân chụp ảnh trên đường dài Bắc–Nam. Điểm trừ là chỉ dừng 30–60 phút, không dừng giữa cua gấp; chỉ đi ban ngày, tránh mưa to và sương mù."
+   },
+   "ten": "Đèo Ngang (Hoành Sơn Quan)",
+   "thoi_gian": "30–60 phút dừng chân",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Huyện Lộc Hà, cách TP Hà Tĩnh ~15 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển gần TP",
+   "id": "bien-loc-ha",
+   "lat": 18.47204,
+   "lng": 105.86735,
+   "luu_y": "Biển gần TP nhất; hải sản tươi, hỏi giá trước. Tọa độ xấp xỉ, cần kiểm lại.",
+   "nguon": "travelviet.net",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / travelviet.net",
+    "nhan_xet": "Biển gần TP Hà Tĩnh nhất (~15 km), hải sản tươi, hợp gia đình đi trong ngày. Điểm trừ là ít dịch vụ hơn Thiên Cầm; nên hỏi giá hải sản trước."
+   },
+   "ten": "Biển Lộc Hà",
+   "thoi_gian": "Nửa ngày",
+   "toa_do_xap_xi": true
+  },
+  {
+   "cach_trung_tam_km": 60,
+   "cum": "nam",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Thị xã Kỳ Anh, cách TP Hà Tĩnh ~60 km",
+   "gia_ve": "Miễn phí tham quan cảng (khu vực công cộng); ăn mực nhảy tại bè nổi tính theo kg",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, nhóm bạn thích hải sản tươi",
+   "id": "vung-ang",
+   "lat": 18.08816,
+   "lng": 106.4031,
+   "luu_y": "Mực nhảy tươi sống 200.000–700.000đ/kg tùy mùa/kích cỡ; ăn tại bè nổi Thanh Nhàn/Độ Tuyết; đường xa, đi cùng cung Kỳ Anh",
+   "nguon": "nongsandungha.com, hellotripvietnam.vn",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "nongsandungha.com, hellotripvietnam.vn",
+    "nhan_xet": "Ăn mực nhảy tại bè nổi là trải nghiệm đáng tiền nhất Hà Tĩnh: mực tươi sống, giá 200.000–700.000đ/kg tùy mùa và kích cỡ. Điểm trừ là cách TP ~60 km, phải đi cùng cung Kỳ Anh; nên đi buổi trưa và hỏi giá theo kg trước."
+   },
+   "ten": "Cảng Vũng Áng – biển Kỳ Xuân",
+   "thoi_gian": "2–3 giờ (ăn mực nhảy tại bè)"
+  },
+  {
+   "cach_trung_tam_km": 15,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thạch Hải, huyện Thạch Hà, cách TP Hà Tĩnh ~15 km",
+   "gia_ve": "Miễn phí tắm biển; dịch vụ tính riêng",
+   "gio_mo_cua": "Mở cả ngày",
+   "hop_voi": "Gia đình, người thích biển gần TP",
+   "id": "bien-thach-hai",
+   "lat": 18.40134,
+   "lng": 105.97891,
+   "luu_y": "Biển gần TP Hà Tĩnh, ít đông hơn Thiên Cầm; hỏi giá hải sản trước",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Biển Thạch Hải gần TP, cát trắng, ít đông, hợp gia đình đi tắm buổi chiều. Điểm trừ là dịch vụ còn ít; nên mang theo đồ dùng và hỏi giá trước."
+   },
+   "ten": "Biển Thạch Hải",
+   "thoi_gian": "Nửa ngày"
+  },
+  {
+   "cach_trung_tam_km": 20,
+   "cum": "dong",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Thịnh Lộc, huyện Lộc Hà, cách TP Hà Tĩnh ~20 km",
+   "gia_ve": "Miễn phí",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu tâm linh, gia đình",
+   "id": "chua-chan-tien",
+   "lat": 18.52221,
+   "lng": 105.86025,
+   "luu_y": "Chùa trên núi Tiên, gần biển Lộc Hà; ghép cùng cung Lộc Hà – Thạch Hải",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Chùa trên núi Tiên yên tĩnh, view biển Lộc Hà, hợp người yêu tâm linh ghép cùng cung biển. Điểm trừ là chưa kiểm được giá vé và giờ mở cửa; nên đi ban ngày."
+   },
+   "ten": "Chùa Chân Tiên",
+   "thoi_gian": "1–1,5 giờ"
+  },
+  {
+   "cach_trung_tam_km": 50,
+   "cum": "tay",
+   "danh_gia_nguoi_dung": [],
+   "dia_chi": "Xã Sơn Trung, huyện Hương Sơn, cách TP Hà Tĩnh ~50 km",
+   "gia_ve": "Chưa kiểm được giá vé hiện hành",
+   "gio_mo_cua": "Chưa kiểm được giờ chính thức — tham quan ban ngày",
+   "hop_voi": "Người yêu lịch sử y học, gia đình",
+   "id": "di-tich-hai-thuong-lan-ong",
+   "lat": 18.5295,
+   "lng": 105.43351,
+   "luu_y": "Quê hương danh y Hải Thượng Lãn Ông Lê Hữu Trác; đường xa về phía tây, đi riêng nửa ngày",
+   "nguon": "Tra cứu công khai ngày 06/11/2026 (geocode OpenStreetMap/HERE)",
+   "nhan_xet_cua_m": {
+    "ngay_kiem": "06/11/2026",
+    "nguon_tham_khao": "Google Maps / tra cứu công khai 06/11/2026",
+    "nhan_xet": "Quê hương danh y Hải Thượng Lãn Ông, điểm đến lịch sử y học độc đáo, hợp người quan tâm văn hóa và gia đình. Điểm trừ là cách TP ~50 km về phía tây, chưa kiểm được giá vé và giờ mở cửa; nên đi riêng nửa ngày."
+   },
+   "ten": "Khu di tích Hải Thượng Lãn Ông",
+   "thoi_gian": "1,5–2 giờ"
+  }
+ ],
+ "gio_dep_chup_anh": [
+  {
+   "diem": "Bãi biển Thiên Cầm",
+   "gio": "5:30-7:00 bình minh trên biển; 16:30-18:00 hoàng hôn (tắm đẹp nhất tháng 4–9)",
+   "nguon": "dữ liệu tỉnh Hà Tĩnh (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Đèo Ngang (Hoành Sơn Quan)",
+   "gio": "6:00-8:00 sáng sớm, biển mây nhẹ; 16:30-17:30 hoàng hôn nhìn về biển",
+   "nguon": "dữ liệu tỉnh Hà Tĩnh (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  },
+  {
+   "diem": "Hồ Kẻ Gỗ",
+   "gio": "6:00-7:30 bình minh, mặt hồ lặng; 16:30-17:30 hoàng hôn",
+   "nguon": "dữ liệu tỉnh Hà Tĩnh (ngày kiểm 06/11/2026) (ngày kiểm 08/11/2026)"
+  }
+ ],
+ "khi_troi_mua": {
+  "dan": "Mưa thì vào khu di tích Đồng Lộc, Nguyễn Du — tránh biển Thiên Cầm, Xuân Thành vì sóng to, gió mạnh.",
+  "diem": [
+   "Khu di tích Ngã ba Đồng Lộc",
+   "Chùa Hương Tích",
+   "Khu di tích Nguyễn Du (Tiên Điền)",
+   "Khu di tích Hải Thượng Lãn Ông"
+  ]
+ },
+ "lich_trinh": {
+  "3N2D": [
+   {
+    "buoi": "Sáng",
+    "gan": "nga-ba-dong-loc",
+    "hoat_dong": "Ngã ba Đồng Lộc dâng hương buổi sáng",
+    "ngay": 1
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "chua-huong-tich, nui-hong-linh",
+    "hoat_dong": "Chùa Hương Tích – núi Hồng Lĩnh",
+    "ngay": 1
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn bánh bèo + ram bánh mướt ở TP Hà Tĩnh",
+    "ngay": 1
+   },
+   {
+    "buoi": "Sáng–chiều",
+    "gan": "bien-thien-cam",
+    "hoat_dong": "Biển Thiên Cầm tắm biển cả ngày",
+    "ngay": 2
+   },
+   {
+    "buoi": "Tối",
+    "gan": "",
+    "hoat_dong": "Ăn hải sản Thiên Cầm, mua kẹo cu đơ làm quà",
+    "ngay": 2
+   },
+   {
+    "buoi": "Sáng",
+    "gan": "ho-ke-go",
+    "hoat_dong": "Hồ Kẻ Gỗ đi thuyền buổi sáng",
+    "ngay": 3
+   },
+   {
+    "buoi": "Chiều",
+    "gan": "khu-di-tich-nguyen-du, bien-xuan-thanh",
+    "hoat_dong": "Khu di tích Nguyễn Du + biển Xuân Thành, về",
+    "ngay": 3
+   }
+  ]
+ },
+ "meta": {
+  "anchor": "TP Hà Tĩnh",
+  "best_season": "Biển Thiên Cầm tháng 4–9; đi chung tháng 2–5 và tháng 9–11 mát nhất; tránh bão tháng 8–10 và gió Lào hè nắng gắt",
+  "destination": "Hà Tĩnh (trung tâm: TP Hà Tĩnh)",
+  "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 7/13 điểm chính xác, 6 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
+  "id": "ha-tinh",
+  "lat": 18.3428,
+  "lng": 105.9059,
+  "ngay_kiem": "06/11/2026",
+  "province": "Hà Tĩnh",
+  "region": "trung",
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "biển",
+   "lịch sử",
+   "văn hóa"
+  ]
+ },
+ "mua_thang": {
+  "ngay_kiem": "06/11/2026",
+  "nguon": "meta.best_season trong file (nghiên cứu ngày 06/11/2026; nguồn tổng xem meta.nguon_tong)",
+  "thang_dep_nhat": "Biển Thiên Cầm tháng 4–9; đi chung tháng 2–5 và tháng 9–11 mát nhất; tránh bão tháng 8–10 và gió Lào hè nắng gắt"
+ },
+ "so_khan_cap": {
+  "cap_cuu": "115",
+  "cong_an": "113",
+  "cuu_hoa": "114",
+  "nguon": "số chung cả nước 113/115/114 là số khẩn cấp quốc gia; số riêng theo nguồn ghi trong từng mục (ngày kiểm 08/11/2026)",
+  "rieng": []
+ }
+}
