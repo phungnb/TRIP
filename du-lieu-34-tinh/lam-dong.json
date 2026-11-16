@@ -526,8 +526,7 @@
   "Bánh ướt lòng gà Long: 2 nguồn ghi địa chỉ khác nhau",
   "Giá thuê xe máy điện theo ngày",
   "Giá xe đưa đón sân bay chung cho mọi khách sạn",
-  "Số chuyến xe khách/ngày chính xác từng hãng TP.HCM–Đà Lạt",
-  "Địa danh Racehub: chưa tìm thấy file gốc — cần anh chỉ file/link"
+  "Số chuyến xe khách/ngày chính xác từng hãng TP.HCM–Đà Lạt"
  ],
  "dan_an_toan_deo": {
   "dan": "Đà Lạt nhiều dốc cao và đường đèo, sương mù dày buổi sáng và chiều tối, mưa làm mặt đường trơn — đã dặn trong dữ liệu tỉnh (dan_an_toan_xe_may). BỔ SUNG theo tình hình mới: đèo Prenn đang sạt lở, tháng 9/2026 UBND tỉnh Lâm Đồng đã công bố tình huống khẩn cấp về thiên tai đối với đèo Prenn; đến 03/11/2026 cơ quan chức năng vẫn rào chắn 2 làn (lưu thông 2 làn còn lại) để khắc phục sạt lở đoạn Km225+250, taluy cao 20-25m mất ổn định khi mưa. Qua đoạn này phải đi chậm, giữ khoảng cách, tuyệt đối không dừng chụp ảnh dưới chân taluy, tránh đi khi mưa lớn. Đèo Bảo Lộc (QL20, 10–15 km, khoảng 107 khúc cua gấp) và đèo Chuối mặt đường ẩm trơn do sương tích tụ — giữ tốc độ 30-40km/h ở điểm mù, không vượt ở cua khuất. Đèo Mimosa nhiều xe tải, thiếu đèn chiếu sáng sau 18h — tránh đi tối. Đèo Hòn Giao (Khánh Lê, 33km nối Nha Trang - Đà Lạt) dài, sương mù dày, chỉ đi ban ngày khi tay lái vững. Xuống dốc dài về số thấp (số 2-3), không rà phanh liên tục, không tắt máy thả trôi; thuê xe số leo dốc/đổ đèo an toàn hơn xe ga yếu; kiểm tra phanh, lốp, đèn trước khi nhận xe.",
@@ -1183,8 +1182,13 @@
   ]
  },
  "meta": {
+  "anchor": "TP Đà Lạt",
+  "best_season": "Tháng 11–tháng 4 (mùa khô, mát mẻ, ít mưa; tránh tháng 5–10 mưa nhiều)",
   "destination": "Đà Lạt, Lâm Đồng",
   "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
+  "id": "lam-dong",
+  "lat": 11.94187,
+  "lng": 108.44666,
   "ngay_kiem": "05-06/11/2026",
   "nguon_tong": [
    "tatravel.vn",
@@ -1207,9 +1211,16 @@
    "lamdongtours.com",
    "tatinta.com"
   ],
-  "racehub": "CHƯA đối chiếu được với dữ liệu Racehub — đã tìm trong github-mining/racehub-repo (chỉ có danh sách tên tỉnh), racehub-page (chỉ có lịch giải chạy) và racehubrun.com (nền tảng chạy bộ, không có mục địa danh). Cần anh chỉ file/link.",
+  "overview": "Thành phố ngàn hoa trên cao nguyên Lâm Viên: khí hậu mát quanh năm, hồ Xuân Hương, đồi chè Cầu Đất, thác Datanla và chợ đêm Đà Lạt.",
+  "province": "Lâm Đồng (tỉnh mới sau sáp nhập 01/07/2025: Lâm Đồng + Đắk Nông + Bình Thuận; file này hiện chỉ phủ Đà Lạt, chưa có Mũi Né/Phan Thiết)",
   "region": "trung",
-  "status": "published"
+  "status": "published",
+  "suggested_days": 3,
+  "type": [
+   "thành phố",
+   "cao nguyên",
+   "nghỉ dưỡng"
+  ]
  },
  "mua_thang": {
   "mac_gi": "Mặc nhiều lớp: áo len mỏng hoặc áo nỉ + áo khoác chắn gió ban ngày; áo khoác dày + khăn choàng buổi tối; mang theo áo mưa mỏng hoặc ô gấp",

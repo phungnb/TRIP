@@ -341,4 +341,4 @@ Mọi sửa chữa theo đúng nguồn + ngày kiểm ghi trong báo cáo `~/wor
 - **Quảng Trị chưa bổ sung điểm Quảng Bình cũ**; khoảng cách vẫn tính từ Đông Hà; 189 tọa độ xấp xỉ + 8 tọa độ null vẫn còn.
 - **5 mục lệch địa chỉ chưa xác minh từng địa chỉ:** Êmm Hotel Huế, Bonjour Hostel, Pù Luông Retreat, Phúc Xuân Resort, Sài Gòn Kim Liên, MT Bắc Ninh (Pài Bjooc + MT Lai Châu đã xong trong đợt này).
 - **Galaxy Thái Nguyên** (Galaxy River hay Galaxy Hotel Phổ Yên) / **giải Tri Tôn Cross Country 14–15/11/2026** chưa nhập / `cho_o_gan` Tri Tôn còn khách sạn Châu Đốc cách ~45–50 km.
-- **Chưa làm trong đợt này (để M làm bước app sau):** nhập dữ liệu đã sửa vào app `cam-nang-du-lich-app` (data34.js); đợt tra tọa độ xấp xỉ (189 điểm).
+- **Đã làm sau đợt này (16/11/2026):** nhập dữ liệu đã sửa vào app `cam-nang-du-lich-app` (data34.js) lúc 09:58, kiểm live 10/10 lúc 10:40–10:45 (Pác Bó miễn phí, Bản Giốc 40.000đ) — dòng "chưa nhập" trước đây đã cũ, sửa ngày 16/11/2026 theo kết luận chuyên gia về repo TRIP. Còn lại: đợt tra tọa độ xấp xỉ (189 điểm).
