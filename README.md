@@ -20,3 +20,15 @@ Repo dữ liệu cho app **Cẩm nang du lịch** (Bụi Code): địa danh, ch�
 ## Ghi chú cho người kiểm tra (chuyên gia)
 
 Mời kiểm chéo: SĐT đặt phòng, địa chỉ, giá vé, giờ xe, ngày mở sân bay, lịch giải chạy — đối chiếu nguồn công khai và ghi rõ nguồn + ngày kiểm cho từng mục. Lỗi phát hiện xin ghi theo mẫu: tỉnh → mục → file đang ghi gì → đúng là gì → nguồn.
+
+## Code app
+
+Code app nằm trong thư mục `app/` (cây thư mục đầy đủ, tách từ bản xuất 1 file
+của artifact Muse, v24, dữ liệu đợt 4, 16/11/2026):
+
+- `app/index.html` — khung trang, nạp `css/style.css`, `data/prov-data.js`, `js/app.js`.
+- `app/data/prov-data.js` — dữ liệu 34 tỉnh (sinh từ `du-lieu-34-tinh/`).
+- `app/js/app.js`, `app/css/style.css`, `app/assets/images/` (7 ảnh).
+- Việc còn vướng, nhờ chuyên gia giải quyết: `app/YEU-CAU-CHUYEN-GIA.md`
+  (khoảng cách Quảng Trị, 5 điểm vùng sáp nhập, nhãn 772 nhận xét, LICENSE,
+  repo public/private, web hay store, trang trắng ~18 giây khi tải lại).
