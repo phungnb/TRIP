@@ -786,7 +786,7 @@ function provItemActionsHtml(kind,provId,itemId){
 /* ================= BÁO THÔNG TIN SAI =================
    Mở thư soạn sẵn gửi về hộp thư hỗ trợ, theo đúng mẫu báo lỗi của README:
    tỉnh → mục → app đang ghi gì → đúng là gì → nguồn. */
-var SUPPORT_EMAIL="phungnb@gmail.com";
+var SUPPORT_EMAIL="buitrip.hotro@gmail.com";
 function reportMailto(subject,lines){
   return "mailto:"+SUPPORT_EMAIL+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(lines.join("\n"));
 }
