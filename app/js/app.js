@@ -698,9 +698,9 @@ function submitReview(key){
 /* ================= NHẬN XÉT CỦA BỤI CODE ================= */
 function mReviewHtml(text,src,date){
   if(text){
-    return '<div class="mreview"><h3 style="font-size:15px;margin:0 0 2px">Nhận xét của Bụi Code</h3><p class="small" style="margin:0 0 6px">Bụi Code là đội làm app này.</p><p style="margin:0;font-size:14px;line-height:1.65">'+esc(text)+'</p><p class="src">Nguồn tham khảo: '+esc(src||"—")+' · Ngày kiểm: '+esc(date||"06/11/2026")+'</p></div>';
+    return '<div class="mreview"><h3 style="font-size:15px;margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="small" style="margin:0 0 6px">Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi.</p><p style="margin:0;font-size:14px;line-height:1.65">'+esc(text)+'</p><p class="src">Nguồn tham khảo: '+esc(src||"—")+' · Ngày kiểm: '+esc(date||"06/11/2026")+'</p></div>';
   }
-  return '<div class="mreview"><h3 style="font-size:15px;margin:0 0 2px">Nhận xét của Bụi Code</h3><p class="small" style="margin:0 0 6px">Bụi Code là đội làm app này.</p><p class="muted" style="margin:0">Chưa có nhận xét cho mục này trong dữ liệu đã kiểm ngày 06/11/2026.</p></div>';
+  return '<div class="mreview"><h3 style="font-size:15px;margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="small" style="margin:0 0 6px">Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi.</p><p class="muted" style="margin:0">Chưa có nhận xét cho mục này trong dữ liệu đã kiểm ngày 06/11/2026.</p></div>';
 }
 function appendReviewsToItemDetail(key,mText,mSrc,mDate,preHtml){
   var pad=document.querySelector("#itemDetail .pad");
@@ -949,7 +949,7 @@ var FAQ18=[
   {q:"Từ sân bay Liên Khương về Đà Lạt đi bằng gì?", a:"Từ sân bay Liên Khương về trung tâm Đà Lạt đi taxi là tiện nhất, giá tham khảo 100.000–300.000 đồng theo bảng chi phí trong app. Sân bay đã mở lại từ 19/08/2026 sau thời gian nâng cấp đường băng. Nên hỏi giá trước khi lên xe và tránh xe dù chèo kéo ở cửa sân bay."},
   {q:"Đi Đà Lạt trời mưa thì đi đâu?", a:"Trời mưa ở Đà Lạt thì vào các điểm có mái che trong trung tâm: Ga Đà Lạt, Nhà thờ Domaine de Marie, Dinh Bảo Đại III, Biệt thự Hằng Nga và chợ Đà Lạt. Mưa lớn thì bỏ thác, đồi chè và điểm xa, ở lại trung tâm ăn món nóng, ngồi cà phê ngắm mưa."},
   {q:"Đi Đà Lạt bằng xe máy có nguy hiểm không?", a:"Đà Lạt nhiều dốc cao và đường đèo, sương mù dày buổi sáng và chiều tối, mưa làm mặt đường trơn nên đi xe máy có rủi ro thật. Thuê xe số leo dốc và đổ đèo an toàn hơn xe ga; xuống dốc dài về số thấp, không rà phanh liên tục."},
-  {q:"Đặt phòng ở đâu, cần đặt trước bao lâu?", a:"Trong app, tab Ở đâu của từng tỉnh liệt kê chỗ ở theo khu vực kèm khoảng giá đêm và số điện thoại thật để gọi đặt trực tiếp. Nên đặt trước 2–3 tuần nếu đi cuối tuần, 30–60 ngày nếu đi lễ hoặc Tết. Trước ngày đi, gọi lại khách sạn xác nhận booking và chính sách hủy."},
+  {q:"Đặt phòng ở đâu, cần đặt trước bao lâu?", a:"Trong app, tab Ở đâu của từng tỉnh liệt kê chỗ ở theo khu vực kèm khoảng giá đêm và số điện thoại (nếu có) để gọi đặt trực tiếp. Nên đặt trước 2–3 tuần nếu đi cuối tuần, 30–60 ngày nếu đi lễ hoặc Tết. Trước ngày đi, gọi lại khách sạn xác nhận booking và chính sách hủy."},
   {q:"Đi Đà Lạt mùa này lạnh không, mặc gì?", a:"Tháng 11 ở Đà Lạt đang chuyển từ mùa mưa sang mùa khô, mưa giảm nhưng vẫn có thể mưa bất chợt buổi chiều. Ban ngày 20–25 độ, ban đêm và sáng sớm 13–16 độ, sương mù sáng và chiều tối. Mặc nhiều lớp: áo len mỏng, áo khoác chắn gió ban ngày, áo khoác dày, khăn choàng buổi tối."},
   {q:"Đi Đà Lạt 3 ngày 2 đêm mang theo đồ gì?", a:"Đi Đà Lạt 3 ngày 2 đêm nên mang áo khoác vì lạnh buổi sáng và tối, áo mưa mỏng, giày đi bộ, căn cước và bằng lái A1 nếu thuê xe máy, tiền mặt lẻ cho chợ đêm, sạc dự phòng, thuốc cơ bản và kem chống nắng. App có sẵn checklist 8 món để đánh dấu từng món."},
   {q:"Đi Đà Lạt tháng nào đẹp nhất?", a:"Mỗi tỉnh trong app có mục 'Mùa nào đi đẹp' ghi tháng đẹp nhất, nhiệt độ và gợi ý mặc gì. Đà Lạt đẹp nhất vào tháng 3, tháng 5 và tháng 11; tránh dịp lễ lớn vì giá phòng và vé xe thường tăng cao. Mở trang tỉnh rồi xem mục này trước khi chốt ngày đi."},
@@ -980,11 +980,16 @@ function renderProvDetail(){
   var isDalat=p.id==="lam-dong";
   var hero = isDalat
     ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Đà Lạt · Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
-    : '<div class="prov-hero"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div>';
+    : '<div class="prov-hero"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div>';
   var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu — mọi giá đều là khoảng giá kèm nguồn và ngày kiểm.");
+  var isTotal=function(c){ return (c.label||"").toLowerCase().indexOf("tổng")>=0; };
+  var nTotals=p.cost.filter(isTotal).length;
   var costRows = p.cost.map(function(c){
-    var total=(c.label||"").toLowerCase().indexOf("tổng")>=0;
-    return "<tr"+(total?' class="total"':"")+"><td>"+esc(total?"Tổng ước tính cả chuyến / người":c.label)+"</td><td>"+esc(c.value)+"</td></tr>";
+    var total=isTotal(c);
+    /* Có 2 dòng tổng (đi xe khách / đi máy bay) thì giữ phần trong ngoặc để người đọc biết tổng nào ứng với phương án nào. */
+    var m=(c.label||"").match(/\(([^)]+)\)/);
+    var label=total ? ("Tổng ước tính cả chuyến / người"+(nTotals>1&&m?" — "+m[1]:"")) : c.label;
+    return "<tr"+(total?' class="total"':"")+"><td>"+esc(label)+"</td><td>"+esc(c.value)+"</td></tr>";
   }).join("");
   var unpinned=p.places.filter(function(x){ return x.lat==null; });
   var approxN=p.places.filter(function(x){ return x.approx && x.lat!=null; }).length;
@@ -1055,6 +1060,29 @@ function renderProvDetail(){
   renderProvPlaces();
   observeProvMap();
 }
+/* ================= TẢI LEAFLET THEO NHU CẦU =================
+   Trước đây leaflet.js nằm trong <script> đồng bộ cuối trang: mạng chậm tới unpkg
+   thì app.js phải chờ, trang trắng tới khi CDN trả lời hoặc hết giờ (đo được: CDN
+   chậm 10 giây = trắng trang 10 giây). Giờ chỉ tải khi cần vẽ bản đồ. */
+var leafletState="idle", leafletWaiters=[];
+function loadLeaflet(cb){
+  if(typeof L!=="undefined"){ leafletState="ready"; if(cb) cb(); return; }
+  if(cb) leafletWaiters.push(cb);
+  if(leafletState==="loading") return;
+  leafletState="loading";
+  var sc=document.createElement("script");
+  sc.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+  sc.async=true;
+  var done=function(ok){
+    if(leafletState!=="loading") return;
+    leafletState=ok&&typeof L!=="undefined"?"ready":"failed";
+    var ws=leafletWaiters; leafletWaiters=[]; ws.forEach(function(f){ try{ f(); }catch(e){} });
+  };
+  sc.onload=function(){ done(true); };
+  sc.onerror=function(){ done(false); };
+  setTimeout(function(){ done(false); },15000);
+  document.head.appendChild(sc);
+}
 function hideProvMapLoading(){ var l=document.getElementById("mapProvLoading"); if(l) l.style.display="none"; }
 function fitProvMap(){
   if(!provMap) return;
@@ -1067,7 +1095,11 @@ function fitProvMap(){
 function initProvMap(){
   var p=currentProv; if(!p) return;
   var el=document.getElementById("mapProv"); if(!el) return;
-  if(typeof L==="undefined"){ var fb=document.getElementById("mapProvFallback"); if(fb) fb.style.display="block"; el.style.display="none"; hideProvMapLoading(); return; }
+  if(typeof L==="undefined"){
+    /* Leaflet tải theo nhu cầu (không chặn lần mở app đầu tiên). Đang tải thì chờ; tải lỗi mới hiện bản dự phòng. */
+    if(leafletState!=="failed"){ loadLeaflet(initProvMap); return; }
+    var fb=document.getElementById("mapProvFallback"); if(fb) fb.style.display="block"; el.style.display="none"; hideProvMapLoading(); return;
+  }
   try{
     if(provMap && provMapFor===p.id){ hideProvMapLoading(); setTimeout(fitProvMap,60); setTimeout(fitProvMap,320); return; }
     if(provMap){ try{ provMap.remove(); }catch(e){} provMap=null; }
@@ -1356,8 +1388,32 @@ document.getElementById("searchInput").addEventListener("input",function(){
   }
   var rainOut=rainySearchHits(q).map(rainySearchCard);
   var allOut=rainOut.concat(out);
-  box.innerHTML = allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>' : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
+  var gap=missingAreaFor(q);
+  box.innerHTML = gap ? '<div class="empty"><p style="margin:0 0 8px"><b>'+esc(gap.name)+' chưa có trong app.</b> Sau sáp nhập 01/07/2025, nơi này thuộc '+esc(gap.provName)+', nhưng dữ liệu hiện mới phủ '+esc(gap.covered)+'. Đội Bụi Code đang bổ sung.</p><button class="btn btn-ghost btn-block" onclick="openProvDetail(\''+gap.prov+'\')">Xem cẩm nang '+esc(gap.provName)+' hiện có</button></div>'+(allOut.length?'<h3 class="sec-title" style="font-size:15px;margin:14px 0 8px">Kết quả gần đúng khác</h3><div class="listcol">'+allOut.slice(0,10).join("")+'</div>':'')
+    : allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
+    : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
 });
+/* Điểm nổi tiếng của vùng mới sáp nhập mà dữ liệu chưa có: tìm thì báo thẳng là
+   chưa có + dẫn sang tỉnh mới, thay vì "không thấy kết quả" như thể nơi đó không tồn tại. */
+var MISSING_AREAS=[
+  {keys:["phu quoc","duong dong","an thoi","hon thom"],name:"Phú Quốc",prov:"an-giang",provName:"An Giang",covered:"khu vực Châu Đốc, Long Xuyên, Hà Tiên, Rạch Giá"},
+  {keys:["mui ne","phan thiet","bau trang","hon rom","ta cu","ke ga"],name:"Mũi Né / Phan Thiết",prov:"lam-dong",provName:"Lâm Đồng",covered:"Đà Lạt"},
+  {keys:["phong nha","dong hoi","son doong","thien duong","hang en","nhat le"],name:"Phong Nha / Đồng Hới",prov:"quang-tri",provName:"Quảng Trị",covered:"khu vực Quảng Trị cũ (Đông Hà)"},
+  {keys:["dong van","ma pi leng","ma pi leng","meo vac","lung cu","ha giang","quan ba","yen minh","hoang su phi"],name:"Hà Giang (Đồng Văn, Mã Pì Lèng)",prov:"tuyen-quang",provName:"Tuyên Quang",covered:"khu vực Tuyên Quang cũ"},
+  {keys:["mang den","kon tum","kon plong"],name:"Măng Đen / Kon Tum",prov:"quang-ngai",provName:"Quảng Ngãi",covered:"khu vực Quảng Ngãi cũ"},
+  {keys:["mu cang chai","nghia lo","yen bai"],name:"Mù Cang Chải / Yên Bái",prov:"lao-cai",provName:"Lào Cai",covered:"Sa Pa, Bắc Hà và một phần Yên Bái cũ"},
+  {keys:["con dao"],name:"Côn Đảo",prov:"tp-ho-chi-minh",provName:"TP Hồ Chí Minh",covered:"Sài Gòn, Bình Dương cũ, Vũng Tàu"},
+  {keys:["tam dao","mai chau","hoa binh","vinh phuc"],name:"Tam Đảo / Mai Châu",prov:"phu-tho",provName:"Phú Thọ",covered:"khu vực Phú Thọ cũ"},
+  {keys:["soc trang","hau giang","chua doi","chua som rong"],name:"Sóc Trăng / Hậu Giang",prov:"can-tho",provName:"Cần Thơ",covered:"khu vực Cần Thơ cũ"}
+];
+function missingAreaFor(q){
+  var f=" "+foldStr(q).replace(/[^a-z0-9 ]+/g," ").replace(/\s+/g," ").trim()+" ";
+  for(var i=0;i<MISSING_AREAS.length;i++){
+    var a=MISSING_AREAS[i];
+    for(var j=0;j<a.keys.length;j++){ if(f.indexOf(" "+a.keys[j]+" ")>=0) return a; }
+  }
+  return null;
+}
 /* Nút Tìm của chính ô tìm Khám phá (không phải ô tìm mới): mở thẳng chi tiết kết quả khớp nhất */
 function exploreSearchGo(){
   var inp=document.getElementById("searchInput");

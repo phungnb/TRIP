@@ -900,16 +900,16 @@
   ]
  },
  "meta": {
-  "anchor": "TP Đồng Hới",
+  "anchor": "TP Đông Hà",
   "best_season": "Tháng 3–5 (đẹp nhất, mùa khô; tránh tháng 9–tháng 11 mưa bão)",
   "destination": "Quảng Trị",
-  "ghi_chu_dia_gioi": "Từ 1/7/2025 tỉnh Quảng Bình cũ sáp nhập vào tỉnh Quảng Trị, trung tâm hành chính mới đặt tại Đồng Hới (NQ 202/2025/QH15); các điểm trong file này thuộc khu vực Quảng Trị cũ, chưa có điểm Quảng Bình cũ. CẬP NHẬT 08/11/2026: các khoảng cách trong file vẫn tính từ TP Đông Hà (mốc cũ), đang tính lại từ Đồng Hới (nguồn: ecotour.com.vn, vietnam.vn 27/10/2026).",
+  "ghi_chu_dia_gioi": "Từ 1/7/2025 tỉnh Quảng Bình cũ sáp nhập vào tỉnh Quảng Trị, trung tâm hành chính mới đặt tại Đồng Hới (NQ 202/2025/QH15); các điểm trong file này thuộc khu vực Quảng Trị cũ, chưa có điểm Quảng Bình cũ. CẬP NHẬT 18/11/2026: mốc tính khoảng cách đặt lại là TP Đông Hà (xem ghi_chu_trung_tam).",
   "ghi_chu_gia": "Mọi giá đều là khoảng giá tham khảo từ nguồn công khai, không phải giá chốt. Kiểm lại trước ngày đi.",
   "ghi_chu_toa_do": "Tọa độ từng địa danh tra bằng geocode (OpenStreetMap/HERE) ngày 06/11/2026: 9/13 điểm chính xác, 4 điểm xấp xỉ (mức xã/khu vực, ghi rõ 'tọa độ xấp xỉ, cần kiểm lại' trong lưu ý từng điểm), 0 điểm còn null.",
-  "ghi_chu_trung_tam": "CẬP NHẬT 08/11/2026: trung tâm hành chính tỉnh mới là TP Đồng Hới (NQ 202/2025/QH15; nguồn: vietnam.vn 27/10/2026) — anchor đã đổi sang Đồng Hới, tọa độ trung tâm (17.47, 106.62) là xấp xỉ theo TP Đồng Hới. Các khoảng cách cach_trung_tam_km của 13 địa danh hiện vẫn tính từ TP Đông Hà (mốc cũ), đang tính lại từ Đồng Hới — KHÔNG tự cộng/trừ số km. File này hiện chỉ phủ khu vực Quảng Trị cũ, chưa có điểm nào thuộc Quảng Bình cũ.",
+  "ghi_chu_trung_tam": "CẬP NHẬT 18/11/2026: trung tâm hành chính tỉnh mới là TP Đồng Hới (NQ 202/2025/QH15), nhưng 13 địa danh trong file đều thuộc khu vực Quảng Trị cũ và mọi cach_trung_tam_km lấy theo nguồn tính từ TP Đông Hà. Vì vậy mốc tính khoảng cách (anchor) đặt lại là TP Đông Hà (tọa độ 16.8163, 107.1003 — xấp xỉ trung tâm TP Đông Hà) để số km khớp với mốc, không tự cộng/trừ số km. Khi bổ sung điểm Quảng Bình cũ (Phong Nha, Đồng Hới…), tính khoảng cách các điểm đó từ Đồng Hới và tách thành cụm riêng.",
   "id": "quang-tri",
-  "lat": 17.47,
-  "lng": 106.62,
+  "lat": 16.8163,
+  "lng": 107.1003,
   "ngay_kiem": "06/11/2026",
   "nguon_tong": [
    "dulich9.com",
