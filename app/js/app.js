@@ -735,6 +735,12 @@ function appendReviewsToItemDetail(key,mText,mSrc,mDate,preHtml){
     else pad.insertAdjacentHTML("beforeend", preHtml);
   }
   pad.insertAdjacentHTML("beforeend", mReviewHtml(mText,mSrc,mDate)+reviewBoxHtml(key));
+  /* Trang chi tiết Đà Lạt cũ: thêm nút Báo thông tin sai như 33 tỉnh còn lại */
+  var parts=key.split(":"); /* provId:kind:itemId */
+  if(parts.length===3 && typeof reportLinkHtml==="function"){
+    var rk={place:"pplace",stay:"pstay",dish:"pdish"}[parts[1]];
+    if(rk) pad.insertAdjacentHTML("beforeend", reportLinkHtml(rk,parts[0],parts[2]));
+  }
 }
 /* Bọc 3 hàm chi tiết Đà Lạt cũ: thêm Nhận xét của Bụi Code + Đánh giá người dùng */
 var _openPlaceOrig=openPlace, _openStayOrig=openStay, _openDishOrig=openDish;
@@ -775,7 +781,34 @@ function toggleSaveProv(kind,provId,itemId){
   else openProvDish(provId,itemId);
 }
 function provItemActionsHtml(kind,provId,itemId){
-  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="startPlanForProv(\''+provId+'\')">Đưa vào kế hoạch</button></div>';
+  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="startPlanForProv(\''+provId+'\')">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
+}
+/* ================= BÁO THÔNG TIN SAI =================
+   Mở thư soạn sẵn gửi về hộp thư hỗ trợ, theo đúng mẫu báo lỗi của README:
+   tỉnh → mục → app đang ghi gì → đúng là gì → nguồn. */
+var SUPPORT_EMAIL="phungnb@gmail.com";
+function reportMailto(subject,lines){
+  return "mailto:"+SUPPORT_EMAIL+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(lines.join("\n"));
+}
+function reportLinkHtml(kind,provId,itemId){
+  var p=provById(provId); if(!p) return "";
+  var arr=kind==="pplace"?p.places:(kind==="pstay"?p.stays:p.dishes);
+  var it=null; for(var i=0;i<arr.length;i++){ if(arr[i].id===itemId){ it=arr[i]; break; } }
+  var name=it?it.name:itemId;
+  var label=kind==="pplace"?"Địa danh":(kind==="pstay"?"Chỗ ở":"Món ăn");
+  var href=reportMailto("[Cẩm nang] Báo thông tin sai: "+name+" — "+p.name,[
+    "Tỉnh/thành: "+p.name,
+    label+": "+name+" (mã: "+itemId+")",
+    "",
+    "App đang ghi sai ở đâu (giá, giờ mở cửa, địa chỉ, số điện thoại...):",
+    "",
+    "Thông tin đúng là:",
+    "",
+    "Nguồn (link, ảnh chụp bảng giá, hoặc ghi 'tôi là chủ cơ sở'):",
+    ""
+  ]);
+  return '<a class="btn btn-ghost btn-block" style="margin-top:10px;text-decoration:none" href="'+href+'">Báo thông tin sai</a>'+
+    '<p class="small" style="margin:6px 0 0">Mở thư soạn sẵn gửi tới '+esc(SUPPORT_EMAIL)+'. Chủ cơ sở muốn sửa thông tin cũng gửi qua đây.</p>';
 }
 
 /* ================= CHI TIẾT ĐIỂM ĐẾN ĐỘNG (34 TỈNH) ================= */
@@ -995,7 +1028,7 @@ function renderFaq(){
   var name=p?(p.id==="lam-dong"?"Đà Lạt":p.name):"Đà Lạt";
   var html='<h2 class="sec-title" style="margin-top:2px">Câu hỏi thường gặp</h2><p class="sec-sub">Câu trả lời do đội Bụi Code viết từ dữ liệu đã kiểm (ngày kiểm 08/11/2026).</p>';
   FAQ18.forEach(function(it){ html+=faqItem(it.q, '<p>'+esc(it.a)+'</p>'); });
-  html+='<div class="notebox" style="margin-top:4px">Số điện thoại/Zalo hỗ trợ: <b>Số hỗ trợ đang cập nhật</b>.</div>';
+  html+='<div class="notebox" style="margin-top:4px">Hỗ trợ và báo thông tin sai: <a href="mailto:'+SUPPORT_EMAIL+'"><b>'+SUPPORT_EMAIL+'</b></a>.</div>';
   if(p) html+='<button class="btn btn-orange btn-block" style="margin-top:14px" onclick="openProvDetail(\''+p.id+'\')">Mở cẩm nang '+esc(name)+'</button>';
   document.getElementById("faqRoot").innerHTML=html;
 }
