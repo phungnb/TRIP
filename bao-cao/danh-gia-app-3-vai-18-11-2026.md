@@ -54,7 +54,7 @@ Khuyến nghị: **C trước** — tận dụng RaceHub sẵn có, ít tốn gi
 
 **Khách hàng / chủ chỗ ở [Đã kiểm]**
 - Tìm được mục của mình (tìm theo tên khách sạn có kết quả).
-- **Không có cách nào báo sửa thông tin**: không email, Zalo hay form; trang Tài khoản ghi "Số hỗ trợ đang cập nhật". Cần anh cung cấp một kênh liên hệ để gắn nút "Báo thông tin sai" vào mỗi mục.
+- **Không có cách nào báo sửa thông tin**: không email, Zalo hay form; trang Tài khoản ghi "Số hỗ trợ đang cập nhật". Đã xử lý 18/11/2026: nút "Báo thông tin sai" ở cả 1.021 mục (464 địa danh, 249 chỗ ở, 308 món) mở thư soạn sẵn gửi phungnb@gmail.com theo mẫu tỉnh → mục → đang ghi gì → đúng là gì → nguồn.
 
 **CTO [Đã kiểm]**
 - Link chia sẻ: trước đây không có. Đã thêm `#/tinh/<mã tỉnh>` mở thẳng trang tỉnh (ví dụ `#/tinh/ca-mau`). Lưu ý: khi app chạy trong khung muse.ai, người dùng không thấy địa chỉ này; chỉ có ích khi app có tên miền riêng.
