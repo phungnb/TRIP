@@ -4,7 +4,10 @@ File này liệt kê những việc M (người làm app) đang vướng, cần 
 Nguyễn quyết/giúp. Mỗi mục ghi rõ: vấn đề là gì, cần gì, và M đã làm tới đâu.
 Cập nhật lần cuối: 16/11/2026.
 
-## 1. Khoảng cách Quảng Trị tính sai mốc — CẦN CHUYÊN GIA CHO SỐ ĐÚNG
+## 1. Khoảng cách Quảng Trị tính sai mốc — ĐÃ XỬ LÝ 18/11/2026
+
+- **Đã xử lý (chuyên gia):** không tính lại số km. 13 điểm đều ở khu vực Quảng Trị cũ và số km theo nguồn đều tính từ Đông Hà, nên đặt lại mốc tính khoảng cách là **TP Đông Hà** (`anchor`, `lat/lng` trong `quang-tri.json` + `prov-data.js`). Trang tỉnh ghi rõ: "Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: TP Đông Hà". Khi thêm điểm Quảng Bình cũ thì tính từ Đồng Hới và tách cụm riêng.
+
 
 - Vấn đề: trung tâm hành chính mới của Quảng Trị là **TP Đồng Hới** (sau sáp nhập
   Quảng Bình + Quảng Trị), nhưng khoảng cách trong dữ liệu vẫn tính từ **Đông Hà**
@@ -28,7 +31,10 @@ Cập nhật lần cuối: 16/11/2026.
   giờ mở cửa), hoặc cho M tự tra và chuyên gia kiểm lại sau.
 - M đã làm: xác nhận cả 5 đều 0 lần xuất hiện trong dữ liệu (trừ ghi chú "chưa làm").
 
-## 3. Nhãn cho 772 nhận xét "của Bụi Code" — CẦN ANH/CHUYÊN GIA CHỐT CÂU NHÃN
+## 3. Nhãn cho 772 nhận xét "của Bụi Code" — ĐÃ XỬ LÝ 18/11/2026
+
+- **Đã xử lý (chuyên gia):** tiêu đề đổi thành "Nhận xét tổng hợp của Bụi Code", dòng phụ: "Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi." Đặt ở đầu mục, áp cho cả 772 mục (`mReviewHtml` trong `js/app.js`).
+
 
 - Vấn đề: có 772 mục nhận xét (464 địa danh + 308 món) viết như người đã đi thật
   (ví dụ "gọi tái nạm để cảm đủ vị"), nhưng nguồn ghi là "Google Maps / blog".
@@ -72,7 +78,11 @@ Cập nhật lần cuối: 16/11/2026.
 - Cần: anh mở link "Cài GitHub App" trong tin chuyên gia gửi, chọn repo TRIP,
   bấm Install. Việc này phải làm bằng tài khoản GitHub của anh, M không làm thay được.
 
-## 9. Trang trắng ~18 giây khi tải lại — CẦN CHUYÊN GIA XEM NGUYÊN NHÂN
+## 9. Trang trắng ~18 giây khi tải lại — ĐÃ XỬ LÝ 18/11/2026
+
+- **Nguyên nhân (đã đo):** font Google + `leaflet.css` nạp chặn hiển thị trong `<head>`, `leaflet.js` nạp đồng bộ trước `app.js`. CDN chậm bao lâu thì trang trắng bấy lâu (giả lập CDN chậm 10 giây: trắng 10 giây). Không phải do dung lượng dữ liệu.
+- **Đã sửa:** font + CSS bản đồ nạp không chặn; `leaflet.js` chỉ tải khi mở trang tỉnh (`loadLeaflet` trong `js/app.js`). Cùng giả lập CDN chậm 10 giây: nội dung hiện sau ~0,15 giây. Ảnh nén từ 1,9 MB xuống 0,9 MB.
+
 
 - Vấn đề: tải lại trang app thì trắng khoảng 18 giây mới hiện nội dung (ghi nhận
   16/11). Nghi ngờ do file dữ liệu lớn (1,15 MB) + ảnh base64, nhưng chưa xác minh.
