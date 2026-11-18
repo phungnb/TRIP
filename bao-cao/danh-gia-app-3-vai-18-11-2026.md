@@ -44,3 +44,19 @@ Ba hướng có thể có (đều là **[Giả định]**, chưa kiểm thị tr
 | C. Gói cho người chạy giải (kết hợp RaceHub) | Người chạy / ban tổ chức giải | Có sẵn mục "Cho người chạy giải" 34 tỉnh + kênh RaceHub | Tập khách hẹp |
 
 Khuyến nghị: **C trước** — tận dụng RaceHub sẵn có, ít tốn giờ nhất trong quỹ 6 giờ/tuần. Rủi ro: tập khách nhỏ, có thể không đủ doanh thu.
+
+## Đợt 2 — kiểm theo vai sau khi gộp PR #2, #3 (18/11/2026)
+
+**Người dùng [Đã kiểm]**
+- Nút Back của điện thoại/trình duyệt trước đây thoát hẳn app. Đã sửa: Back = về màn trước (địa danh → tỉnh → danh sách); ở màn gốc mới thoát.
+- Màn hình 320px (điện thoại nhỏ): bảng chi phí tràn ngang, cột giá bị đẩy ra ngoài màn hình, nút "Gọi đặt phòng" lệch 4px. Đã sửa; kiểm lại 6 màn chính + 3 tỉnh × 7 tab: không còn tràn.
+- Trang Tài khoản ghi "kiểm 05–06/11/2026" và "25 mục chưa kiểm (jeep Langbiang…)" — chỉ đúng cho Đà Lạt. Đã đổi thành mô tả chung cho 34 tỉnh.
+
+**Khách hàng / chủ chỗ ở [Đã kiểm]**
+- Tìm được mục của mình (tìm theo tên khách sạn có kết quả).
+- **Không có cách nào báo sửa thông tin**: không email, Zalo hay form; trang Tài khoản ghi "Số hỗ trợ đang cập nhật". Cần anh cung cấp một kênh liên hệ để gắn nút "Báo thông tin sai" vào mỗi mục.
+
+**CTO [Đã kiểm]**
+- Link chia sẻ: trước đây không có. Đã thêm `#/tinh/<mã tỉnh>` mở thẳng trang tỉnh (ví dụ `#/tinh/ca-mau`). Lưu ý: khi app chạy trong khung muse.ai, người dùng không thấy địa chỉ này; chỉ có ích khi app có tên miền riêng.
+- SEO: đã thêm `meta description`, Open Graph (tiêu đề, mô tả), `theme-color`. Chưa có ảnh xem trước (cần tên miền thật để có đường dẫn tuyệt đối).
+- Dung lượng tải (nén gzip): dữ liệu 341 KB, `app.js` 56 KB, HTML + CSS 13 KB, ảnh banner 76 KB. Dữ liệu là phần lớn nhất; tách theo tỉnh chỉ đáng làm khi thêm nhiều tỉnh/ảnh.

@@ -91,7 +91,7 @@
   .btn-orange{ background:var(--orange); color:#fff; }
   .btn-ghost{ background:var(--surface); color:var(--ink); border:1.5px solid var(--line); }
   .btn-danger{ background:#fdecea; color:var(--red); }
-  .btn-block{ width:100%; }
+  .btn-block{ width:100%; box-sizing:border-box; }
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
   /* nút Đi — hành động chính trên thẻ chuyến */
   .btn-go{ width:100%; border:0; border-radius:12px; background:var(--orange); color:#fff; font-size:17px; font-weight:800; letter-spacing:.02em; padding:13px 18px; box-shadow:0 4px 14px rgba(232,106,23,.38); display:flex; align-items:center; justify-content:center; }
@@ -200,7 +200,8 @@
   .menurow{ display:flex; align-items:center; gap:12px; width:100%; text-align:left; background:var(--surface); border:1px solid var(--line); border-radius:var(--r-md); padding:14px; font-size:14.5px; font-weight:600; }
   table.cost{ width:100%; border-collapse:collapse; font-size:13.5px; }
   table.cost td{ padding:9px 4px; border-bottom:1px solid var(--line); vertical-align:top; line-height:1.45; }
-  table.cost td:last-child{ text-align:right; font-weight:700; white-space:nowrap; color:var(--green-d); }
+  /* Không dùng nowrap: giá dài (ví dụ "~1.800.000–4.800.000đ (rẻ hơn bay…)") làm bảng tràn ngang cả trang ở màn 320–360px. */
+  table.cost td:last-child{ text-align:right; font-weight:700; color:var(--green-d); width:46%; overflow-wrap:anywhere; }
   table.cost tr.total td{ font-weight:800; font-size:14.5px; border-bottom:0; }
   .leaflet-popup-content{ font-family:inherit; font-size:13px; }
 

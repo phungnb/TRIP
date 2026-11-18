@@ -213,12 +213,36 @@ function show(view, push){
   if(view==="dest-detail"){ initMap(); if(typeof refreshProvMap==="function"){ setTimeout(refreshProvMap,400); setTimeout(refreshProvMap,1000); } }
   if(view==="trips") renderTrips();
   if(view==="account") renderSaved();
+  syncHistory();
 }
+/* ================= NÚT QUAY LẠI CỦA ĐIỆN THOẠI + LINK CHIA SẺ =================
+   Trước đây app không ghi lịch sử trình duyệt: bấm nút Back của Android/trình duyệt
+   là thoát hẳn app thay vì về màn trước. Giờ giữ đúng 1 mục "chặn" trong lịch sử
+   khi đang ở màn con: Back của máy = nút quay lại trong app. Trang tỉnh có địa chỉ
+   riêng (#/tinh/<id>) để gửi link mở thẳng tỉnh đó. */
+var histGuard=false;
+function viewHash(){
+  if(currentView==="dest-detail" && currentProv) return "#/tinh/"+currentProv.id;
+  return "";
+}
+function syncHistory(){
+  if(!window.history || !history.replaceState) return;
+  var url=location.pathname+location.search+viewHash();
+  try{
+    if(navStack.length>0 && !histGuard){ history.pushState({camnang:1},"",url); histGuard=true; }
+    else history.replaceState(history.state,"",url);
+  }catch(e){}
+}
+window.addEventListener("popstate",function(){
+  histGuard=false;
+  if(navStack.length>0) goBack();
+  else if(currentView!=="explore") show("explore",false);
+});
 function goBack(){
   var prev=navStack.pop();
   if(prev) show(prev,false); else show("explore",false);
 }
-document.getElementById("btnBack").addEventListener("click",goBack);
+document.getElementById("btnBack").addEventListener("click",function(){ if(histGuard){ try{ history.back(); return; }catch(e){} } goBack(); });
 document.querySelectorAll(".tabbar [data-tab]").forEach(function(b){
   b.addEventListener("click",function(){ navStack=[]; show(b.getAttribute("data-tab"),false); });
 });
@@ -2065,7 +2089,12 @@ function renderSaved(){
 /* ================= KHỞI TẠO ================= */
 attachTripAutocomplete("w");
 renderExplore(); renderDestList(); renderPlaces(); renderStays(); renderDishes(); renderRoutes(); renderSaved();
+var startHash=location.hash||""; /* đọc trước khi show() ghi lại địa chỉ */
 show("explore",false);
+(function(){
+  var m=/^#\/tinh\/([a-z0-9-]+)$/.exec(startHash);
+  if(m && provById(m[1])) openProvDetail(m[1]);
+})();
 
 
 
