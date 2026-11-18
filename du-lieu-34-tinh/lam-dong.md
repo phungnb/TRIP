@@ -6,7 +6,6 @@
 - **Trạng thái: published** — Đà Lạt đã đủ dữ liệu, mở công khai theo quyết định 06/11/2026 (thêm trường "status": "published" vào meta của lam-dong.json; dữ liệu gốc 13 địa danh / 10 chỗ ở / 10 món giữ nguyên, đối chiếu khớp file gốc du-lieu-cam-nang-da-lat.json).
 - Mọi giá đều là **khoảng giá tham khảo** từ nguồn công khai, không phải giá chốt. Giá đổi theo mùa, cuối tuần, lễ Tết — kiểm lại trước ngày đi.
 - Nguồn sự thật: khung `khung-cam-nang-da-lat.md` + nghiên cứu lại từ nguồn công khai ngày 06/11/2026 (URL nguồn ghi ở từng mục).
-- **Địa danh Racehub: CHƯA đối chiếu được.** Đã tìm lại trong `~/workspace/github-mining/racehub-repo` (chỉ có danh sách tên tỉnh `shared/lib/provinces.ts`, có "Lâm Đồng" nhưng không có địa danh), `~/workspace/racehub-page` (chỉ có lịch giải chạy, không có địa danh), và racehubrun.com (nền tảng chạy bộ: Strava, XP, CLB, giải chạy — không có mục địa danh du lịch). Danh sách địa danh dưới đây là từ nguồn công khai, **cần anh chỉ file/link Racehub để đối chiếu**.
 - **Khách sạn/homestay: CHỈ giới thiệu sơ.** Tất cả đều ghi "chưa kiểm chứng / chưa đối tác / chưa thu phí". Không dùng chữ uy tín/đảm bảo. Không nhận đặt phòng, không nhận tiền.
 - Lưu ý địa giới: từ 07/2025 Đà Lạt sáp nhập phường, tên phường cũ/mới trong các nguồn không thống nhất — file này ghi đường + số nhà là chính, tên phường theo nguồn và ghi chú khi mâu thuẫn.
 - File JSON máy đọc được: `lam-dong.json` (cùng thư mục).
@@ -225,8 +224,7 @@ Quy tắc hiển thị giá trong app: luôn ghi khoảng giá + ngày kiểm (0
 22. Giá thuê xe máy điện theo ngày: chưa kiểm được mức riêng.
 23. Giá xe đưa đón sân bay chung cho mọi khách sạn: không có mức chung, chỉ có ví dụ theo từng khách sạn.
 24. Số chuyến xe khách/ngày chính xác từng hãng TP.HCM–Đà Lạt: các nguồn mâu thuẫn nhau.
-25. Địa danh Racehub: chưa tìm thấy file gốc — cần anh chỉ file/link.
-26. SĐT Homestay Thị Trấn Cổ (0901 399 179) chỉ tra được 1 nguồn (dalat.vn) — chưa đối chiếu được nguồn thứ hai. Số hotline 02633 576 888 của Hoa Dalat Travel là số đại lý du lịch, KHÔNG phải số khách sạn — đã loại bỏ, không ghi vào file. Các SĐT còn lại đã tra được (ngày kiểm 08/11/2026).
+25. SĐT Homestay Thị Trấn Cổ (0901 399 179) chỉ tra được 1 nguồn (dalat.vn) — chưa đối chiếu được nguồn thứ hai. Số hotline 02633 576 888 của Hoa Dalat Travel là số đại lý du lịch, KHÔNG phải số khách sạn — đã loại bỏ, không ghi vào file. Các SĐT còn lại đã tra được (ngày kiểm 08/11/2026).
 
 ## 10. Nhận xét của M và đánh giá người dùng (bổ sung 06/11/2026)
 
