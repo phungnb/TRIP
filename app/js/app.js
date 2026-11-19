@@ -271,13 +271,6 @@ function itinCard(key){
   var it=ITINS[key];
   return '<button class="card" onclick="openItin(\''+key+'\')"><div class="body"><div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><h3>'+esc(it.title)+'</h3><span class="badge badge-price">'+esc(it.label)+'</span></div><p class="muted">'+it.days.length+' ngày · '+it.days.reduce(function(a,d){return a+d.length;},0)+' chặng — dựng từ địa danh và món đã có trong cẩm nang.</p></div></button>';
 }
-function renderExplore(){
-  document.getElementById("exploreDest").innerHTML = destCard(DESTINATIONS[0]);
-  document.getElementById("exploreItin").innerHTML = itinCard("2N1D")+itinCard("3N2D")+itinCard("4N3D");
-  var feat=["ho-xuan-huong","nui-langbiang","doi-che-cau-dat","ho-tuyen-lam"];
-  document.getElementById("explorePlaces").innerHTML = feat.map(function(id){ return placeCard(placeById(id),true); }).join("");
-  document.getElementById("exploreDishes").innerHTML = [dishCard(DISHES[3]),dishCard(DISHES[0])].join("");
-}
 var regionFilter="all";
 function renderDestList(){
   var q=(document.getElementById("destSearch").value||"").toLowerCase().trim();
@@ -293,19 +286,6 @@ document.querySelectorAll("#regionChips .chip").forEach(function(c){
   });
 });
 document.getElementById("destSearch").addEventListener("input",renderDestList);
-/* search on explore */
-document.getElementById("searchInput").addEventListener("input",function(){
-  var q=this.value.toLowerCase().trim(); var box=document.getElementById("searchResults");
-  if(!q){ box.innerHTML=""; return; }
-  var out=[];
-  DESTINATIONS.forEach(function(d){ if(wordMatch(d.name,q)) out.push('<button class="rowcard" onclick="openProvDetail(\''+d.provId+'\')"><div class="rc-body"><h3>Điểm đến: '+esc(d.name)+'</h3><p class="muted">'+esc(d.province)+' · đã có dữ liệu đầy đủ</p></div></button>'); });
-  PLACES.forEach(function(p){ if(wordMatch(p.name,q)) out.push(placeCard(p)); });
-  DISHES.forEach(function(d){ if(wordMatch(d.name,q)) out.push(dishCard(d)); });
-  STAYS.forEach(function(s){ if(wordMatch(s.name,q)) out.push(stayCard(s)); });
-  box.innerHTML = out.length ? '<div class="listcol">'+out.join("")+'</div>' : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(this.value)+'”. Gần đúng: thử “Langbiang”, “lẩu gà” hoặc “chợ đêm”.</p></div>';
-  refreshHearts();
-});
-
 /* ================= TÌM CHUYẾN ĐI (KHÁM PHÁ + LẬP CHUYẾN DÙNG CHUNG) ================= */
 var ORIGIN_SUGGESTIONS=["TP.HCM","Hà Nội","Đà Nẵng","Nha Trang","Cần Thơ","Huế"];
 var searchDestText="Đà Lạt", searchDestId="dalat", searchOrigin="";
@@ -658,18 +638,10 @@ if(typeof TITLES!=="undefined"){
 function destCard(d){
   var p=provById(d.provId||d.id);
   var cnt=p?(p.places.length+" địa danh · "+p.stays.length+" chỗ ở · "+p.dishes.length+" món"):"";
-  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap"><img class="thumb" src="'+(d.img||"assets/images/mac-dinh.jpg")+'" alt="Phong cảnh '+esc(d.name)+'" style="height:170px" /><span class="badge badge-price" style="position:absolute;left:10px;bottom:10px">Đã có dữ liệu đầy đủ</span></div><div class="body"><h3>'+esc(d.name)+' · '+esc(d.province)+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
+  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap">'+provPoster(p?p.id:d.provId,170)+'<span class="badge badge-price" style="position:absolute;left:10px;bottom:10px">Đã có dữ liệu đầy đủ</span></div><div class="body"><h3>'+esc(d.name)+' · '+esc(d.province)+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
 }
-function renderExplore(){
-  var dalat=null;
-  DESTINATIONS.forEach(function(d){ if(d.id==="dalat") dalat=d; });
-  document.getElementById("exploreDest").innerHTML = destCard(dalat||DESTINATIONS[0])+
-    '<button class="btn btn-ghost btn-block" style="margin-top:12px" onclick="navStack=[];show(\'destinations\',false)">Xem đủ 34 tỉnh/thành — tất cả đã duyệt, lập được kế hoạch</button>';
-  document.getElementById("exploreItin").innerHTML = itinCard("2N1D")+itinCard("3N2D")+itinCard("4N3D");
-  var feat=["ho-xuan-huong","nui-langbiang","doi-che-cau-dat","ho-tuyen-lam"];
-  document.getElementById("explorePlaces").innerHTML = feat.map(function(id){ return placeCard(placeById(id),true); }).join("");
-  document.getElementById("exploreDishes").innerHTML = [dishCard(DISHES[3]),dishCard(DISHES[0])].join("");
-}
+/* Trang chủ 34 tỉnh do js/home.js dựng (nạp sau file này) */
+function renderExplore(){}
 /* Các hàm render cũ của trang chi tiết Đà Lạt tĩnh — nay chi tiết điểm đến render động theo tỉnh */
 function renderPlaces(){}
 function renderStays(){}
@@ -1037,7 +1009,7 @@ function renderProvDetail(){
   var isDalat=p.id==="lam-dong";
   var hero = isDalat
     ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Đà Lạt · Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
-    : '<div class="prov-hero"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div>';
+    : '<div class="prov-hero prov-hero-art">'+provPoster(p.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div></div>';
   var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu — mọi giá đều là khoảng giá kèm nguồn và ngày kiểm.");
   var isTotal=function(c){ return (c.label||"").toLowerCase().indexOf("tổng")>=0; };
   var nTotals=p.cost.filter(isTotal).length;
@@ -1873,6 +1845,10 @@ function goTrip(id){
   currentTripId=id; tripTab="homnay"; renderTripDetail(); show("trip-detail");
   toast("Đang đi — đây là lịch trình hôm nay của chuyến");
 }
+function tripProvId(t){
+  var d=DESTINATIONS.filter(function(x){return x.id===t.destination_id;})[0];
+  return d?d.provId:"lam-dong";
+}
 function tripDestName(t){
   var d=DESTINATIONS.filter(function(x){return x.id===t.destination_id;})[0];
   return d?d.name:"Đà Lạt";
@@ -1886,7 +1862,7 @@ function tripCardHtml(t){
   var spent=tripSpent(t); var pct=t.budget_total?Math.min(100,Math.round(spent/t.budget_total*100)):0;
   var doneCk=t.checklist.filter(function(c){return c.done;}).length;
   var dur=tripDurLabel(t);
-  return '<div class="card"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openTrip(\''+t.id+'\')"><img class="thumb" src="assets/images/mac-dinh.jpg" alt="'+esc(tripDestName(t))+'" style="height:120px" /><div class="body"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3 style="flex:1">'+esc(fullDurTitle(t.title))+'</h3>'+tripStatusBadge(t)+'</div><div class="meta-line">'+(t.origin_city?'<span>Xuất phát từ '+esc(t.origin_city)+' → '+esc(tripDestName(t))+'</span>':"")+'<span>'+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+'</span>'+(dur?'<span>'+dur+'</span>':"")+'<span>'+t.people_count+' người</span><span>'+esc(t.style||"")+'</span></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div><p class="small" style="margin-top:6px">Đã chi '+fmt(spent)+' / ngân sách '+fmt(t.budget_total)+' · Checklist '+doneCk+'/'+t.checklist.length+'</p></div></button><div class="trip-card-foot"><button class="btn-go" onclick="goTrip(\''+t.id+'\')">Đi</button></div></div>';
+  return '<div class="card"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openTrip(\''+t.id+'\')">'+provPoster(tripProvId(t),120)+'<div class="body"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3 style="flex:1">'+esc(fullDurTitle(t.title))+'</h3>'+tripStatusBadge(t)+'</div><div class="meta-line">'+(t.origin_city?'<span>Xuất phát từ '+esc(t.origin_city)+' → '+esc(tripDestName(t))+'</span>':"")+'<span>'+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+'</span>'+(dur?'<span>'+dur+'</span>':"")+'<span>'+t.people_count+' người</span><span>'+esc(t.style||"")+'</span></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div><p class="small" style="margin-top:6px">Đã chi '+fmt(spent)+' / ngân sách '+fmt(t.budget_total)+' · Checklist '+doneCk+'/'+t.checklist.length+'</p></div></button><div class="trip-card-foot"><button class="btn-go" onclick="goTrip(\''+t.id+'\')">Đi</button></div></div>';
 }
 function renderTrips(){
   var wrap=document.getElementById("tripListWrap");

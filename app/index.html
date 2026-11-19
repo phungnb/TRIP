@@ -38,38 +38,49 @@
   <main id="appMain">
     <!-- ============ KHÁM PHÁ ============ -->
     <section class="view" id="view-explore">
-      <div class="hero hero-banner">
-        <img src="assets/images/hero-da-lat.jpg" alt="Hồ Xuân Hương, Đà Lạt lúc bình minh" />
-        <div class="veil"></div>
-        <div class="cap">
-          <p class="hero-slogan">Đi đâu, có gì?</p>
-          <h1>Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam</h1>
-          <p class="hero-def">Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam: địa danh, khách sạn kèm số điện thoại (khi tra được), món ăn kèm quán và giá, chi phí theo mức, lịch trình mẫu 2–4 ngày và công cụ lập kế hoạch 4 bước cho người đi lần đầu.</p>
-        </div>
-      </div>
-      <div class="explore-search">
+      <h1 class="sr-only">Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam</h1>
+      <div class="hs" id="homeSlides" aria-roledescription="carousel" aria-label="Điểm đến nổi bật"></div>
+      <div class="explore-search home-search">
         <div class="searchbar">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input id="searchInput" type="search" placeholder="Tìm điểm đến, địa danh, món ăn…" autocomplete="off" />
+          <input id="searchInput" type="search" placeholder="Đi đâu? Hạ Long, Hội An, phở…" autocomplete="off" aria-label="Tìm điểm đến, địa danh, món ăn" />
           <button type="button" class="search-go" id="searchGo">Tìm</button>
         </div>
         <div id="searchResults" style="margin-top:12px"></div>
       </div>
-      <div class="pad" style="padding-top:4px">
+      <div class="home-curated">
+        <div class="home-stats" id="homeStats"></div>
+        <p class="home-def">Đủ đi đâu, ở đâu, ăn gì, hết bao nhiêu: giá ghi khoảng kèm ngày kiểm, chỗ ở kèm số điện thoại khi tra được, lịch trình mẫu 2–4 ngày.</p>
 
-        <h2 class="sec-title">Điểm đến gợi ý</h2>
-        <p class="sec-sub">Đủ 34 tỉnh/thành đã duyệt và có đủ dữ liệu — xem cẩm nang ở mục Điểm đến, hoặc bấm Lập kế hoạch để lên lịch trình cho bất kỳ tỉnh nào.</p>
-        <div id="exploreDest"></div>
+        <div class="home-sec">
+          <h2 class="sec-title">Điểm khám phá nổi tiếng</h2>
+          <div class="chiprow chiprow-scroll" id="homeThemes"></div>
+          <div class="hscroll" id="homeSpots"></div>
+        </div>
 
-        <h2 class="sec-title">Lịch trình mẫu Đà Lạt</h2>
-        <p class="sec-sub">Bấm vào một lịch trình để xem chi tiết từng ngày, hoặc dùng luôn làm khung khi lập kế hoạch.</p>
-        <div class="listcol" id="exploreItin"></div>
+        <div class="home-sec">
+          <h2 class="sec-title" id="homeSeasonTitle">Tháng này đi đâu đẹp?</h2>
+          <p class="sec-sub" id="homeSeasonSub">Lọc theo mùa đẹp ghi trong cẩm nang từng tỉnh.</p>
+          <div class="hscroll" id="homeSeason"></div>
+        </div>
 
-        <h2 class="sec-title">Địa danh nổi bật</h2>
-        <div class="grid2" id="explorePlaces"></div>
+        <div class="home-sec">
+          <h2 class="sec-title">Đi theo miền</h2>
+          <div class="region-grid" id="homeRegions"></div>
+        </div>
 
-        <h2 class="sec-title">Món phải thử</h2>
-        <div class="listcol" id="exploreDishes"></div>
+        <div class="home-sec">
+          <h2 class="sec-title">Món ngon phải thử</h2>
+          <div class="hscroll" id="homeDishes"></div>
+        </div>
+
+        <div class="home-sec">
+          <button class="plan-cta" onclick="startPlan()">
+            <span><b>Lên lịch trình trong 4 bước</b><small>Chọn tỉnh, số ngày, ngân sách, kiểu đi: app dựng lịch từng ngày kèm chi phí.</small></span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <button class="btn btn-ghost btn-block" style="margin-top:12px" onclick="navStack=[];show('destinations',false)">Xem đủ 34 tỉnh thành</button>
+        </div>
       </div>
     </section>
 
@@ -252,7 +263,9 @@
 <div id="printArea" aria-hidden="true"></div>
 
 <script src="data/prov-data.js"></script>
+<script src="js/visual.js"></script>
 <script src="js/app.js"></script>
+<script src="js/home.js"></script>
 
 
 
