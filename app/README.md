@@ -15,6 +15,8 @@ app/
 ├── css/
 │   └── style.css               Toàn bộ giao diện (màu sáng, mobile-first)
 ├── js/
+│   ├── visual.js               Hình minh họa SVG riêng cho 34 tỉnh (nạp trước app.js)
+│   ├── home.js                 Trang chủ: slide động, điểm khám phá, tháng này đi đâu (nạp sau app.js)
 │   └── app.js                  Logic app: dữ liệu → render, tìm kiếm, wizard lập chuyến,
 │                               bản đồ, chia tiền nhóm, FAQ, lưu chuyến (localStorage)
 ├── data/
