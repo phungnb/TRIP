@@ -16,10 +16,13 @@ app/
 │   └── style.css               Toàn bộ giao diện (màu sáng, mobile-first)
 ├── js/
 │   ├── visual.js               Hình minh họa SVG riêng cho 34 tỉnh (nạp trước app.js)
+│   ├── theme.js                Nút chuyển nền tối/sáng (bảng màu RaceHub)
+│   ├── explore-extras.js       Tỉnh cũ trong ngoặc, "Đi từ trung tâm", sổ tem check-in
 │   ├── home.js                 Trang chủ: slide động, điểm khám phá, tháng này đi đâu (nạp sau app.js)
 │   └── app.js                  Logic app: dữ liệu → render, tìm kiếm, wizard lập chuyến,
 │                               bản đồ, chia tiền nhóm, FAQ, lưu chuyến (localStorage)
 ├── data/
+│   ├── sap-nhap.js             34 tỉnh mới và các tỉnh cũ hợp thành (NQ 202/2025/QH15)
 │   └── prov-data.js            Dữ liệu 34 tỉnh (biến PROV_DATA + SPLIT_GUIDE)
 └── assets/
     └── images/                 7 ảnh JPEG (xem bảng dưới)

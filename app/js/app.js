@@ -206,7 +206,7 @@ function show(view, push){
   document.getElementById("topSub").textContent=t[1];
   document.getElementById("btnBack").classList.toggle("show", navStack.length>0);
   document.getElementById("brandMark").style.display = navStack.length>0 ? "none":"flex";
-  var tabMap={explore:"explore",destinations:"destinations","dest-detail":"destinations","item-detail":null,"itin-detail":"explore",plan:null,trips:"trips","trip-detail":"trips",account:"account",faq:null};
+  var tabMap={explore:"explore",destinations:"destinations","dest-detail":"destinations","item-detail":null,"itin-detail":"explore",plan:null,trips:"trips","trip-detail":"trips",account:"account",faq:null,stamps:"account"};
   document.querySelectorAll(".tabbar [data-tab]").forEach(function(b){ b.classList.toggle("active", b.getAttribute("data-tab")===tabMap[view]); });
   window.scrollTo(0,0);
   document.getElementById("appMain").scrollTop=0;
