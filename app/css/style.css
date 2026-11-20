@@ -559,3 +559,4 @@
 .tl-reply{ margin-top:6px; padding:8px 10px; border-left:3px solid var(--green); background:var(--surface); border-radius:8px; }
 .dg-st.st-da_tra_loi,.dg-st.st-dong{ background:rgba(22,128,61,.15); color:var(--green); }
 @media print{ .tl-fab{ display:none !important; } }
+.tl-quick .ask-ans,.tl-quick{ font-size:15px; } .tl-quick a{ color:var(--green); }
