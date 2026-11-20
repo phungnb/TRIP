@@ -24,7 +24,7 @@
       {q:"Đi đèo núi bằng xe máy có an toàn không?", a:"Có rủi ro thật, nhất là mùa mưa và lúc sương mù. Đổ đèo dài thì về số thấp, không rà phanh liên tục, không vượt ở cua khuất, không đi đèo ban đêm nếu chưa quen đường. Mưa lớn có thể sạt lở và cấm đường, nên xem tin trước khi đi. Tỉnh nào có đèo nguy hiểm, app ghi ở mục dặn an toàn của tỉnh."}
     ]},
     {g:"Ở đâu, ăn gì", items:[
-      {q:"Đặt phòng ở đâu, cần đặt trước bao lâu?", a:"Tab Ở đâu liệt kê chỗ ở theo khu vực, kèm khoảng giá một đêm và số điện thoại nếu có nguồn chính thức. Cuối tuần nên đặt trước 2–3 tuần, lễ và Tết nên đặt trước 1–2 tháng. Trước ngày đi, gọi lại xác nhận đặt phòng và chính sách hủy. App chưa nhận đặt phòng và chưa có đối tác."},
+      {q:"Đặt phòng ở đâu, cần đặt trước bao lâu?", a:"Tab Ở đâu liệt kê chỗ ở theo khu vực, kèm khoảng giá một đêm và số điện thoại chính thức nếu có. Cuối tuần nên đặt trước 2–3 tuần, lễ và Tết nên đặt trước 1–2 tháng. Trước ngày đi, gọi lại xác nhận đặt phòng và chính sách hủy. App chưa nhận đặt phòng và chưa có đối tác."},
       {q:"Ăn gì, quán nào, giá bao nhiêu?", a:"Tab Ăn gì của mỗi tỉnh ghi món đặc sản, quán gợi ý, địa chỉ và khoảng giá kèm ngày kiểm. Hiện có {DISH} món ở 34 tỉnh thành. Giá là khoảng tham khảo, không phải giá chốt; món hải sản và món tính theo cân nên hỏi giá trước."},
       {q:"Làm sao tránh bị chặt chém?", a:"Hỏi giá trước khi gọi món hoặc lên xe, ưu tiên nơi niêm yết giá. Mỗi tỉnh có mục Cẩn thận chặt chém ghi các tình huống hay gặp và cách tránh. Gặp giá vô lý thì bỏ đi, đừng cãi nhau; có thể báo đường dây nóng du lịch của tỉnh nếu app có số."}
     ]},
@@ -33,13 +33,13 @@
       {q:"Đi nhóm chia tiền thế nào cho khỏi cãi nhau?", a:"Lập quỹ chung trước chuyến, mỗi người góp bằng nhau, cử một người giữ quỹ và ghi mọi khoản chi chung. Cuối mỗi ngày chốt sổ cho cả nhóm xem; cuối chuyến chia đều, thừa trả lại, thiếu góp thêm."}
     ]},
     {g:"An toàn và sự cố", items:[
-      {q:"Số khẩn cấp là số nào?", a:"Dùng chung cả nước: 113 công an, 114 cứu hỏa và cứu nạn, 115 cấp cứu, 112 tìm kiếm cứu nạn. Mục Số khẩn cấp của từng tỉnh có nút gọi và số riêng như đường dây nóng du lịch khi có nguồn chính thức. Tỉnh nào chưa tra được số riêng thì app ghi rõ, không đoán số."},
+      {q:"Số khẩn cấp là số nào?", a:"Dùng chung cả nước: 113 công an, 114 cứu hỏa và cứu nạn, 115 cấp cứu, 112 tìm kiếm cứu nạn. Mục Số khẩn cấp của từng tỉnh có nút gọi và số riêng như đường dây nóng du lịch nếu có. Tỉnh nào chưa tra được số riêng thì app ghi rõ, không đoán số."},
       {q:"Gặp trời mưa thì đi đâu?", a:"Mỗi tỉnh có mục Khi trời mưa, gợi ý điểm có mái che như bảo tàng, chùa, chợ, và nói rõ điểm nên bỏ vì đường trơn hoặc nước lớn. Mùa mưa nên để 1 buổi trống trong lịch để đổi linh hoạt."},
       {q:"Xe hư, hết xăng, bị hủy phòng thì làm gì?", a:"Xe thuê hư thì quay lại tình trạng xe, gửi định vị và gọi số hỗ trợ đã chốt lúc thuê, không tự sửa lớn. Bị hủy phòng thì gọi thẳng số khách sạn trong app để xác nhận, rồi tìm chỗ khác cùng khu ở tab Ở đâu."}
     ]},
     {g:"Về app", items:[
       {q:"Sổ tem check-in là gì?", a:"Mỗi địa danh có nút Check-in lấy tem. App chỉ tính khi định vị cho thấy bạn đang ở cách điểm đó dưới 1 km (2 km nếu tọa độ là ước tính). Sổ tem gom tem theo 34 tỉnh thành, xem ở trang chủ hoặc tab Tài khoản. Tem lưu trên máy này."},
-      {q:"Dữ liệu lấy từ đâu, có đúng không?", a:"Hiện có {PLACE} địa danh và {DISH} món, mỗi mục ghi nguồn và ngày kiểm. Đây là thông tin tham khảo, có thể lệch so với thực tế; giá luôn ghi theo khoảng, chỗ nào chưa kiểm được thì app ghi rõ thay vì đoán. Một phần địa danh lấy từ Hộ chiếu khám phá RaceHub, giá và giờ mở cửa đang được bổ sung. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."},
+      {q:"Dữ liệu lấy từ đâu, có đúng không?", a:"Hiện có {PLACE} địa danh và {DISH} món, được tổng hợp và kiểm định kỳ. Đây là thông tin tham khảo, có thể lệch so với thực tế; giá luôn ghi theo khoảng, chỗ nào chưa kiểm được thì app ghi rõ thay vì đoán. Một phần địa danh lấy từ Hộ chiếu khám phá RaceHub, giá và giờ mở cửa đang được bổ sung. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."},
       {q:"App có bán tour, nhận đặt phòng không?", a:"Chưa. Chỗ ở và quán ăn trong app đều chưa phải đối tác và chưa thu phí. Khi có nội dung tài trợ, app sẽ ghi rõ nhãn Tài trợ để bạn phân biệt."}
     ]}
   ];

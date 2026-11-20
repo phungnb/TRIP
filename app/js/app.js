@@ -103,6 +103,7 @@ var ITINS = {
     [{s:"Sáng",t:"Làng Cù Lần (nửa ngày, tính cả di chuyển)",refs:["lang-cu-lan"]},{s:"Chiều",t:"Nghỉ ở chỗ ở / khu trung tâm, mua đặc sản, về",refs:[]}]
   ]}
 };
+if(window.lamSachDuLieu) [PLACES,STAYS,DISHES,ROUTES_SG,ROUTES_HN,ROUTES_AIRPORT,LOCAL,COST_ROWS,ITINS].forEach(window.lamSachDuLieu);
 var CHECKLIST_DEFAULT = ["Áo khoác (Đà Lạt lạnh buổi sáng/tối)","Áo mưa mỏng","Giày đi bộ / leo Langbiang","CCCD + bằng lái A1 (nếu thuê xe máy)","Tiền mặt lẻ (chợ đêm, quán nhỏ)","Sạc dự phòng","Thuốc cơ bản","Kem chống nắng"];
 var BUDGETS = [
   {id:"thap",label:"Tiết kiệm",per:1800000,desc:"Khoảng 1,8 triệu đ/người — xe khách đêm, homestay/3 sao chia phòng, ăn quán địa phương."},
@@ -694,9 +695,9 @@ function submitReview(key){
 /* ================= NHẬN XÉT CỦA BỤI CODE ================= */
 function mReviewHtml(text,src,date){
   if(text){
-    return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="small" style="margin:0 0 6px">Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi.</p><p style="margin:0;font-size:var(--fs-body);line-height:1.65">'+esc(text)+'</p><p class="src">Nguồn tham khảo: '+esc(src||"—")+' · Ngày kiểm: '+esc(date||"06/11/2026")+'</p></div>';
+    return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p style="margin:0;font-size:var(--fs-body);line-height:1.65">'+esc(text)+'</p></div>';
   }
-  return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="small" style="margin:0 0 6px">Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi.</p><p class="muted" style="margin:0">Chưa có nhận xét cho mục này trong dữ liệu đã kiểm ngày 06/11/2026.</p></div>';
+  return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="muted" style="margin:0">Chưa có nhận xét cho mục này trong dữ liệu đã kiểm ngày 06/11/2026.</p></div>';
 }
 function appendReviewsToItemDetail(key,mText,mSrc,mDate,preHtml){
   var pad=document.querySelector("#itemDetail .pad");
@@ -942,7 +943,7 @@ function provEmergencyHtml(p){
       return '<a class="emg-extra" href="tel:'+telHref(r.number)+'"><span style="flex:1"><b style="font-size:var(--fs-body);color:var(--ink);white-space:normal">'+esc(r.name)+'</b><br/><span class="src">Nguồn: '+esc(r.source||"")+'</span></span><b>'+esc(r.number)+'</b></a>';
     }).join("");
   } else {
-    extra='<div class="notebox" style="margin-top:10px">Tỉnh này chưa tra được số điện thoại riêng có nguồn chính thức — khi cần cấp cứu, gọi <b>'+esc(e.ambulance)+'</b>. App không ghi số bệnh viện đoán.</div>';
+    extra='<div class="notebox" style="margin-top:10px">Tỉnh này chưa có số điện thoại riêng chính thức — khi cần cấp cứu, gọi <b>'+esc(e.ambulance)+'</b>. App không ghi số bệnh viện đoán.</div>';
   }
   return '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Số khẩn cấp</h3><p class="sec-sub" style="margin-bottom:10px">Bấm vào số để gọi ngay. Ba số đầu là số khẩn cấp chung cả nước.</p>'+grid+extra+
     (e.source?'<p class="src">Nguồn: '+esc(e.source)+'</p>':"");
@@ -983,7 +984,7 @@ function renderProvDetail(){
   var hero = isDalat
     ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Đà Lạt · Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
     : '<div class="prov-hero prov-hero-art">'+provPoster(p.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div></div>';
-  var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu — mọi giá đều là khoảng giá kèm nguồn và ngày kiểm.");
+  var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu Giá là khoảng tham khảo.");
   var isTotal=function(c){ return (c.label||"").toLowerCase().indexOf("tổng")>=0; };
   var nTotals=p.cost.filter(isTotal).length;
   var costRows = p.cost.map(function(c){
@@ -1055,7 +1056,7 @@ function renderProvDetail(){
     routeGroup("Từ vùng lân cận", p.routes.near, "provRouteNear")+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="dilai"><div class="pad">'+
-    '<p class="sec-sub" style="margin-top:0">Cách đi lại ngay tại '+esc(p.name)+' — giá là khoảng giá kèm nguồn, kiểm '+(p.checked||"06/11/2026")+'.</p><div class="listcol">'+p.local.map(function(r){ return '<div class="card"><div class="body"><h3 style="font-size:var(--fs-body)">'+esc(r.mode||"")+'</h3><p class="price-line">'+esc(r.price||"")+'</p><p class="muted" style="margin-top:6px"><b>Giấy tờ/điều kiện:</b> '+esc(r.req||"—")+'<br/>'+esc(r.note||"")+'</p><p class="src">Nguồn: '+esc(r.source||"—")+'</p></div></div>'; }).join("")+'</div>'+
+    '<p class="sec-sub" style="margin-top:0">Cách đi lại ngay tại '+esc(p.name)+' — giá là khoảng tham khảo.</p><div class="listcol">'+p.local.map(function(r){ return '<div class="card"><div class="body"><h3 style="font-size:var(--fs-body)">'+esc(r.mode||"")+'</h3><p class="price-line">'+esc(r.price||"")+'</p><p class="muted" style="margin-top:6px"><b>Giấy tờ/điều kiện:</b> '+esc(r.req||"—")+'<br/>'+esc(r.note||"")+'</p><p class="src">Nguồn: '+esc(r.source||"—")+'</p></div></div>'; }).join("")+'</div>'+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="lichtrinh"><div class="pad">'+itinHtml+'</div></div>';
   document.getElementById("destDetailRoot").innerHTML=html;

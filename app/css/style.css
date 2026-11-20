@@ -524,3 +524,6 @@
 :root[data-theme="dark"] .dg-err,:root[data-theme="dark"] .dg-st.st-tu_choi{ color:#fda29b; }
 .acct-head > div:last-child{ min-width:0; }
 .acct-head p{ overflow-wrap:anywhere; }
+
+/* Ẩn dòng nguồn trên giao diện người dùng; nguồn vẫn giữ trong dữ liệu để kiểm */
+.src,.src-line,.ph-credit{display:none !important}
