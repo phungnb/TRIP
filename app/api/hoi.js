@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.8-flash"; /* khóa mới không còn dùng được gemini-2.5-flash (Google trả 404 ngày 20/11/2026) */
 const MAX_Q = 400, PER_IP_DAY = 30;
 const DAY_CAP = Number(process.env.AI_DAY_CAP || 1500);
 const { sql } = require("./_db");
