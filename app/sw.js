@@ -4,7 +4,7 @@
    - Không lưu /api/ (trợ lý AI) và dịch vụ đăng nhập. */
 var VER = "bt-v1";
 var CORE = ["/", "/index.html", "/css/style.css", "/manifest.webmanifest",
-  "/data/prov-data.js", "/data/sap-nhap.js", "/data/racehub-places.js", "/data/lam-giau.js", "/data/anh.js",
+  "/data/prov-data.js", "/data/sap-nhap.js", "/data/racehub-places.js", "/data/lam-giau.js", "/data/bo-sung.js", "/data/anh.js",
   "/js/bao-loi.js", "/js/lam-sach.js", "/js/visual.js", "/js/app.js", "/js/home.js", "/js/theme.js",
   "/js/explore-extras.js", "/js/faq.js", "/js/dong-gop.js", "/img/icon/icon-192.png"];
 self.addEventListener("install", function (e) {

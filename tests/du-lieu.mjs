@@ -2,6 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { APP, napDuLieu } from "./nap-du-lieu.mjs";
+import { sinh } from "../tools/tao-trang-tinh.mjs";
 const loi = [];
 const ok = (c, m) => { if (!c) loi.push(m); };
 const { PROV, SAP, PHOTOS } = napDuLieu();
@@ -32,7 +33,7 @@ for (const id of Object.keys(SAP || {})) ok(provIds.has(id), "SAP_NHAP có tỉn
 const SKIP = new Set(["source", "sources", "review_m_src", "review_m_date", "phoneSrc", "src", "url"]);
 const lo = [];
 (function walk(o, k) {
-  if (typeof o === "string") { if (!SKIP.has(k) && /theo (các |nhiều |một số )?nguồn|các nguồn mâu thuẫn/i.test(o)) lo.push(k + ": " + o.slice(0, 80)); return; }
+  if (typeof o === "string") { if (!SKIP.has(k) && /theo (các |nhiều |một số )?nguồn|các nguồn mâu thuẫn|\bfile (gốc|này|chỗ ở|cũ)\b/i.test(o)) lo.push(k + ": " + o.slice(0, 80)); return; }
   if (o && typeof o === "object") for (const x in o) walk(o[x], Array.isArray(o) ? k : x);
 })(PROV, "");
 ok(lo.length === 0, "Còn ghi chú nguồn hiện cho người dùng:\n  " + lo.slice(0, 5).join("\n  "));
@@ -54,6 +55,12 @@ const core = JSON.parse(sw.match(/var CORE = (\[[\s\S]*?\]);/)[1]);
 for (const f of core) if (f !== "/") ok(fs.existsSync(path.join(APP, f)), "sw.js lưu sẵn tệp không có: " + f);
 const mf = JSON.parse(fs.readFileSync(path.join(APP, "manifest.webmanifest"), "utf8"));
 for (const ic of mf.icons) ok(fs.existsSync(path.join(APP, ic.src)), "manifest thiếu biểu tượng " + ic.src);
+
+/* Trang tĩnh từng tỉnh (cho Google) phải khớp dữ liệu hiện tại */
+for (const [rel, want] of Object.entries(sinh())) {
+  const f = path.join(APP, rel);
+  ok(fs.existsSync(f) && fs.readFileSync(f, "utf8") === want, "Trang " + rel + " chưa sinh lại theo dữ liệu mới: chạy node tools/tao-trang-tinh.mjs");
+}
 
 console.log("Dữ liệu: " + PROV.length + " tỉnh, " + nPlace + " địa danh, " + nStay + " chỗ ở, " + nDish + " món");
 if (loi.length) { console.error("LỖI (" + loi.length + "):\n- " + loi.join("\n- ")); process.exit(1); }

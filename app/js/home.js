@@ -164,22 +164,12 @@
     inp.addEventListener("input",upd); inp.addEventListener("search",upd);
   }
 
-  /* Danh sách nguồn ảnh: ghi tác giả + giấy phép theo yêu cầu CC BY / CC BY-SA */
-  function renderPhotoSrc(){
-    var box=document.getElementById("homePhotoSrc"); if(!box||!window.PHOTOS) return;
-    var rows=[];
-    SPOTS.forEach(function(s){ var ph=spotPhoto(s.place); if(ph) rows.push([s.title,ph]); });
-    PROV_DATA.forEach(function(p){ var ph=provPhoto(p.id); if(ph) rows.push([p.name,ph]); });
-    box.innerHTML='<summary>Nguồn ảnh ('+rows.length+' ảnh, Wikimedia Commons)</summary><ul>'+rows.map(function(r){
-      return '<li><b>'+esc(r[0])+'</b>: <a href="'+esc(r[1].p)+'" target="_blank" rel="noopener">'+esc(r[1].t.replace(/\.(jpe?g|png|webp)$/i,""))+'</a> · '+esc(r[1].a)+' · '+esc(r[1].l)+'</li>';
-    }).join("")+'</ul><p class="small">Ảnh dùng theo giấy phép mở ghi kèm; bấm tên ảnh để xem trang gốc và điều khoản.</p>';
-  }
 
   function renderHome(){
     var hs=document.getElementById("homeSlides"); if(hs){ hs.innerHTML=slidesHtml(); hsBind(); }
     var th=document.getElementById("homeThemes");
     if(th) th.innerHTML=THEMES.map(function(t){ return '<button class="chip'+(t[0]===theme?" on":"")+'" data-t="'+t[0]+'" onclick="homeTheme(\''+t[0]+'\')">'+t[1]+'</button>'; }).join("");
-    renderStats(); renderSpots(); renderSeason(); renderRegions(); renderDishes(); renderPhotoSrc(); bindSearchMode();
+    renderStats(); renderSpots(); renderSeason(); renderRegions(); renderDishes(); bindSearchMode();
   }
   window.HOME_SPOTS=SPOTS;
   renderHome();
