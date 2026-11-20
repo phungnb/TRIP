@@ -3,12 +3,12 @@
    Chạy 1 lần lúc tải, sau prov-data/racehub-places/lam-giau. Không đụng trường nguồn (source, sources...). */
 (function(){
   var SKIP={source:1,sources:1,review_m_src:1,review_m_date:1,phoneSrc:1,src:1,id:1,checked:1,from_racehub:1,url:1,gan:1};
-  var BAD0=/nguồn(?!\s*(gốc|cội))|có nguồn ghi|theo\s+[\w.-]+\.(vn|com|net|org|info)\b|[\w-]+\.(vn|com|net|org)\b|mâu thuẫn|wikipedia|cần kiểm lại|tra cứu được|bài viết|báo\s+\S+\s+\d{1,2}\/\d{1,2}/i;
+  var BAD0=/nguồn(?!\s*(gốc|cội))|có nguồn ghi|theo\s+[\w.-]+\.(vn|com|net|org|info)\b|[\w-]+\.(vn|com|net|org)\b|mâu thuẫn|wikipedia|\bfile\b|cần kiểm lại|tra cứu được|bài viết|báo\s+\S+\s+\d{1,2}\/\d{1,2}/i;
   var BAD={test:function(x){ return BAD0.test(String(x).replace(/về nguồn|tại nguồn/gi,"")); }};
   function clean(s){
     if(typeof s!=="string") return s;
-    var t=s.replace(/\s*Tọa độ xấp xỉ[^.;]*[.;]?/gi,"").replace(/\s*theo\s+(1|một|nhiều|các)\s+nguồn/gi,"").replace(/có nguồn ghi ([^,;]+), có nguồn ghi /gi,"$1 hoặc ").replace(/\s*theo (đa số |nhiều |các |một số |1 )?nguồn/gi,"").replace(/(được )?nhiều nguồn gọi là/gi,"được gọi là").replace(/các nguồn mâu thuẫn/gi,"chưa thống nhất").replace(/có nguồn chê/gi,"có người chê").replace(/có nguồn gh?i/gi,"có nơi ghi");
-    if(!BAD.test(t)) return t.trim()||s;
+    var t=s.replace(/\s*Tọa độ xấp xỉ[^.;]*[.;]?/gi,"").replace(/\s*theo\s+(1|một|nhiều|các)\s+nguồn/gi,"").replace(/có nguồn ghi ([^,;]+), có nguồn ghi /gi,"$1 hoặc ").replace(/\s*theo (đa số |nhiều |các |một số |1 )?nguồn/gi,"").replace(/(được )?nhiều nguồn gọi là/gi,"được gọi là").replace(/các nguồn mâu thuẫn/gi,"chưa thống nhất").replace(/có nguồn chê/gi,"có người chê").replace(/có nguồn gh?i/gi,"có nơi ghi").replace(/\s*[—–]\s*[^—–.]*\bfile\b[^.]*/gi,"").replace(/\s*tên phường\/xã không khớp hẳn file gốc[^.]*\./gi,".").replace(/\s*—?\s*xem kỹ cảnh báo trong file gốc/gi,"").replace(/\s*\(?đã có [^.;]*trong file chỗ ở\)?/gi,"");
+    if(!BAD.test(t)) return t.replace(/[;,]\./g,".").trim()||s;
     var prev;
     /* 1) bỏ ngoặc chứa ghi chú nghiên cứu (lặp để xử lý ngoặc lồng) */
     do{ prev=t; t=t.replace(/\s*\(([^()]*)\)/g,function(m,inner){ return BAD.test(inner)?"":m; }); }while(t!==prev);
@@ -23,7 +23,7 @@
       for(var i=1;i<parts.length;i+=2){ var seg=parts[i+1]||""; if(!BAD.test(seg)) out+=parts[i]+seg; }
       t=out;
     }
-    t=t.replace(/\s{2,}/g," ").replace(/\s+([,.;])/g,"$1").replace(/[;,—\s]+$/,"").trim();
+    t=t.replace(/[;,]\./g,".").replace(/\s{2,}/g," ").replace(/\s+([,.;])/g,"$1").replace(/[;,—\s]+$/,"").trim();
     return t||s;
   }
   function walk(o,depth){

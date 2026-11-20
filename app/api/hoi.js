@@ -23,8 +23,9 @@ function loadData() {
   const sap = fs.readFileSync(path.join(__dirname, "..", "data", "sap-nhap.js"), "utf8");
   const rh = fs.readFileSync(path.join(__dirname, "..", "data", "racehub-places.js"), "utf8");
   const lg = fs.readFileSync(path.join(__dirname, "..", "data", "lam-giau.js"), "utf8");
+  const bs = fs.readFileSync(path.join(__dirname, "..", "data", "bo-sung.js"), "utf8");
   const ctx = { window: {} };
-  vm.runInNewContext(src + "\n" + sap + "\n" + rh + "\n" + lg + "\n;this.__P=PROV_DATA;this.__S=SAP_NHAP;", ctx);
+  vm.runInNewContext(src + "\n" + sap + "\n" + rh + "\n" + lg + "\n" + bs + "\n;this.__P=PROV_DATA;this.__S=SAP_NHAP;", ctx);
   DATA = { prov: ctx.__P, sap: ctx.__S };
   return DATA;
 }
