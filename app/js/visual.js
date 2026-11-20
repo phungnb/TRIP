@@ -152,9 +152,11 @@
   window.photoImg=function(ph,opt){
     if(!ph||!ph.u) return "";
     opt=opt||{};
+    /* Ảnh CC0 / public domain không cần ghi công: không gắn nhãn */
+    var free=/^(CC0|Public domain)$/i.test(ph.l||"");
     var s=ph.u.replace("{w}","500"), l=ph.u.replace("{w}","960");
-    return '<img class="ph" src="'+s+'" srcset="'+s+' 500w, '+l+' 960w" sizes="'+(opt.sizes||"(max-width:640px) 100vw, 640px")+'" alt="" loading="'+(opt.eager?"eager":"lazy")+'" decoding="async" onerror="var c=this.nextElementSibling;if(c&&c.classList.contains(\'ph-credit\'))c.remove();this.remove()">'+
-      '';
+    return '<img class="ph" src="'+s+'" srcset="'+s+' 500w, '+l+' 960w" sizes="'+(opt.sizes||"(max-width:640px) 100vw, 640px")+'" alt=""'+(free?'':' title="Ảnh: '+escA(ph.a)+' · '+escA(ph.l)+'"')+' loading="'+(opt.eager?"eager":"lazy")+'" decoding="async" onerror="var c=this.nextElementSibling;if(c&&c.classList.contains(\'ph-credit\'))c.remove();this.remove()">'+
+      (opt.noCredit||free?"":'<span class="ph-credit">'+escA(ph.a)+' · '+escA(ph.l)+'</span>');
   };
   window.provPhoto=function(provId){ return (window.PHOTOS&&PHOTOS.prov&&PHOTOS.prov[provId])||null; };
   window.spotPhoto=function(placeId){ return (window.PHOTOS&&PHOTOS.spot&&PHOTOS.spot[placeId])||null; };
