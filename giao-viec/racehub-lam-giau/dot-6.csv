@@ -1,0 +1,37 @@
+﻿ma,tinh_moi,tinh_cu,ten,lat,lng,thieu
+rh-vinh-long-chua-phuoc-hau,Vĩnh Long,Vĩnh Long,Chùa Phước Hậu,9.970108,105.913664,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ben-tre-con-quy,Vĩnh Long,Bến Tre,Cồn Quy,10.334573,106.383174,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ben-tre-san-chim-vam-ho,Vĩnh Long,Bến Tre,Sân chim Vàm Hồ,10.158125,106.615493,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ben-tre-khu-luu-niem-nguyen-dinh-chieu,Vĩnh Long,Bến Tre,Khu lưu niệm Nguyễn Đình Chiểu,10.03717,106.582359,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-tra-vinh-bien-ba-dong,Vĩnh Long,Trà Vinh,Biển Ba Động,9.619188,106.557937,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-tra-vinh-chua-hang,Vĩnh Long,Trà Vinh,Chùa Hang,9.887058,106.345022,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-dong-thap-lang-hoa-sa-dec,Đồng Tháp,Đồng Tháp,Làng hoa Sa Đéc,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-dong-thap-khu-di-tich-xeo-quyt,Đồng Tháp,Đồng Tháp,Khu di tích Xẻo Quýt,10.394604,105.804626,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-tien-giang-cu-lao-thoi-son,Đồng Tháp,Tiền Giang,Cù lao Thới Sơn,10.333477,106.325777,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-tien-giang-bien-go-cong,Đồng Tháp,Tiền Giang,Biển Gò Công,10.291654,106.781206,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-tien-giang-pho-co-my-tho,Đồng Tháp,Tiền Giang,Phố cổ Mỹ Tho,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-kien-giang-bai-sao-phu-quoc,An Giang,Kiên Giang,Bãi Sao Phú Quốc,10.057258,104.036395,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-bai-dai-phu-quoc,An Giang,Kiên Giang,Bãi Dài Phú Quốc,10.338056,103.848618,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-dinh-cau,An Giang,Kiên Giang,Dinh Cậu,10.217207,103.956442,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-cho-dem-phu-quoc,An Giang,Kiên Giang,Chợ đêm Phú Quốc,10.215975,103.960357,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-vuon-quoc-gia-phu-quoc,An Giang,Kiên Giang,Vườn quốc gia Phú Quốc,10.331673,104.030407,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-hon-thom,An Giang,Kiên Giang,Hòn Thơm,9.953888,104.017392,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-nha-tu-phu-quoc,An Giang,Kiên Giang,Nhà tù Phú Quốc,10.044358,104.018008,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kien-giang-nui-may,An Giang,Kiên Giang,Núi Mây,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-kien-giang-ha-tien,An Giang,Kiên Giang,Hà Tiên,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-an-giang-lang-noi-chau-doc,An Giang,An Giang,Làng nổi Châu Đốc,10.719036,105.115572,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ca-mau-vuon-quoc-gia-mui-ca-mau,Cà Mau,Cà Mau,Vườn quốc gia Mũi Cà Mau,8.605564,104.722946,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ca-mau-rung-u-minh-ha,Cà Mau,Cà Mau,Rừng U Minh Hạ,9.198134,104.959168,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-ca-mau-cho-noi-ca-mau,Cà Mau,Cà Mau,Chợ nổi Cà Mau,9.160601,105.155683,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-bac-lieu-vuon-chim-bac-lieu,Cà Mau,Bạc Liêu,Vườn chim Bạc Liêu,9.24246,105.717877,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-bac-lieu-quan-am-phat-dai,Cà Mau,Bạc Liêu,Quan Âm Phật Đài,9.206587,105.736489,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-can-tho-cau-di-bo-can-tho,Cần Thơ,Cần Thơ,Cầu đi bộ Cần Thơ,10.037096,105.791276,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-can-tho-bao-tang-can-tho,Cần Thơ,Cần Thơ,Bảo tàng Cần Thơ,10.035166,105.786816,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-can-tho-cho-noi-phong-dien,Cần Thơ,Cần Thơ,Chợ nổi Phong Điền,9.990448,105.663197,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-soc-trang-chua-doi,Cần Thơ,Sóc Trăng,Chùa Dơi,9.57894,105.972449,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-soc-trang-chua-dat-set,Cần Thơ,Sóc Trăng,Chùa Đất Sét,9.614539,105.979891,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-soc-trang-cho-noi-nga-nam,Cần Thơ,Sóc Trăng,Chợ nổi Ngã Năm,9.567428,105.597197,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-soc-trang-bien-my-thanh,Cần Thơ,Sóc Trăng,Biển Mỹ Thanh,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-hau-giang-cho-noi-nga-bay,Cần Thơ,Hậu Giang,Chợ nổi Ngã Bảy,9.828362,105.834261,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-hau-giang-khu-bao-ton-thien-nhien-lung-ngoc-hoang,Cần Thơ,Hậu Giang,Khu bảo tồn thiên nhiên Lung Ngọc Hoàng,9.722738,105.699912,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-hau-giang-di-tich-chien-thang-chuong-thien,Cần Thơ,Hậu Giang,Di tích Chiến thắng Chương Thiện,9.793456,105.479933,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
