@@ -141,8 +141,24 @@
     var prov=provOf(pid), x=null; if(!prov) return; prov.places.forEach(function(p){ if(p.id===xid) x=p; }); if(!x) return;
     var root=document.getElementById("itemDetail"), kv=root&&root.querySelector(".kv");
     if(!kv || root.querySelector(".guide")) return;
-    kv.insertAdjacentHTML("afterend",'<div id="stampBox" class="stamp-box">'+checkinBtn(prov,x)+'</div>'+storyHtml(x)+guideHtml(prov,x)+REF_NOTE);
+    kv.insertAdjacentHTML("afterend",'<div id="stampBox" class="stamp-box">'+checkinBtn(prov,x)+'</div>'+infoHtml(x)+storyHtml(x)+guideHtml(prov,x)+REF_NOTE);
   };
+  /* Thông tin thực tế (Muse bổ sung, có nguồn) */
+  var INFO_LBL=[["loai","Loại"],["xep_hang","Xếp hạng"],["cach_di","Cách đi"],["mua_dep","Mùa đẹp"],["gio_dep","Giờ đẹp"],["phi_gui_xe","Gửi xe"],
+    ["_hop","Phù hợp"],["trang_phuc","Trang phục"],["dat_truoc_giay_phep","Đặt trước, giấy phép"],
+    ["le_hoi","Lễ hội"],["canh_bao_an_toan","Lưu ý an toàn"],["wc_an_uong_tai_cho","Vệ sinh, ăn uống tại chỗ"]];
+  function host(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return "nguồn"; } }
+  function infoHtml(x){
+    if(!x.enriched) return "";
+    var inf=Object.assign({},x.info||{}), hop=[["hop_tre_em","trẻ em"],["hop_nguoi_gia","người lớn tuổi"],["xe_lan","xe lăn"]].filter(function(h){ return inf[h[0]]; }).map(function(h){ return h[1]+": "+inf[h[0]]; });
+    if(hop.length) inf._hop=hop.join(" · ");
+    var rows=INFO_LBL.filter(function(r){ return inf[r[0]]!=null && inf[r[0]]!==""; }).map(function(r){
+      return '<div class="info-row'+(r[0]==="canh_bao_an_toan"?" warn":"")+'"><dt>'+r[1]+'</dt><dd>'+esc(String(inf[r[0]]))+'</dd></div>'; }).join("");
+    var src=(x.sources||[]).map(function(s){ return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener nofollow">'+esc(host(s.url))+'</a>'; }).join(" · ");
+    if(!rows && !src) return "";
+    return '<section class="info-box"><h3 class="guide-h">Thông tin thực tế</h3>'+(rows?'<dl>'+rows+'</dl>':'')+
+      (src?'<p class="small src-line">Nguồn'+(x.checked?' (xem '+esc(x.checked.split("-").reverse().join("/"))+')':'')+': '+src+'</p>':'')+'</section>';
+  }
   /* Câu chuyện + món gần đó (từ Hộ chiếu khám phá RaceHub) */
   function storyHtml(x){
     var cul=x.from_racehub?"":(x.rh_note||"");

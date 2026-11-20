@@ -1,0 +1,1665 @@
+{
+  "_ghi_chu": "M1 đợt 1: làm giàu 37 điểm RaceHub (34 dòng làm giàu + 3 dòng sai tên/không tìm thấy). Trường không tìm được để null. Ngày xem nguồn 2026-11-20.",
+  "lam_giau": [
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng đi xe máy hoặc ô tô khoảng 9–10 km về phía đông bắc lên bán đảo Sơn Trà: qua cầu Thuận Phước theo đường Yết Kiêu (25–30 phút) hoặc qua cầu Sông Hàn theo đường Hoàng Sa (35–45 phút); taxi 250.000–350.000đ/chiều",
+      "canh_bao_an_toan": "đường đèo dốc trên 20%, cua gắt, không có đèn đường buổi tối — tránh đi sau khi trời tối và khi mưa hoặc sương mù dày; xe tay ga bị cấm lưu thông trên tuyến Yết Kiêu – Bàn Cờ – Bãi Bắc và Hoàng Sa – Cây Đa (thông báo của UBND TP Đà Nẵng); kiểm tra phanh kỹ trước khi đi; đỉnh quân sự đóng cửa, không vào khu vực có biển cấm",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đỉnh núi Sơn Trà, phường Sơn Trà (phường Thọ Quang cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "5:30–7:30 (săn mây, bình minh) hoặc 15:30–17:30 (hoàng hôn)",
+      "gio_mo_cua": "7:30–17:30 (tháng 10–tháng 2); 7:30–18:30 (tháng 3–tháng 9); ngoài giờ rào chắn đóng",
+      "hop_nguoi_gia": "hạn chế",
+      "hop_tre_em": "hạn chế",
+      "lat": 16.11999,
+      "le_hoi": null,
+      "lng": 108.27595,
+      "loai": "thiên nhiên",
+      "ma": "rh-da-nang-dinh-ban-co-son-tra",
+      "mua_dep": "tháng 2–8; tránh tháng 9–11 (mưa bão) và mùa đông sương mù",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, thoi_gian, canh_bao_an_toan, phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://sgotrip.com/zh/post/diem-du-lich/ban-co-peak-son-tra-75"
+        },
+        {
+          "dung_cho": "cach_di, gio_dep, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangbest.com/tham-quan-dinh-ban-co-chon-bong-lai-tien-canh.html"
+        },
+        {
+          "dung_cho": "gia_ve, canh_bao_an_toan, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://blog.govietnam.app/dinh-ban-co/"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": "xe máy khoảng 5.000đ/lượt tại chân núi",
+      "thoi_gian": "30–45 phút tại đỉnh (chuyến nhanh lên – xuống 1–2 giờ)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "không có nhiều hàng quán trên đỉnh — tự mang nước uống và đồ ăn nhẹ",
+      "xe_lan": "không",
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng qua cầu Rồng rồi đi đường Trần Hưng Đạo về phía đông sông Hàn, gần tượng Cá Chép Hóa Rồng và bến du thuyền DHC Marina; từ trung tâm khoảng 5–10 phút; từ biển Mỹ Khê theo đường Võ Văn Kiệt khoảng 7–10 phút",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "507-493 đường Trần Hưng Đạo, phường An Hải (phường An Hải Bắc cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "18:30–20:30 (đèn lên); 21:00 tối thứ Sáu, thứ Bảy, Chủ nhật xem cầu Rồng phun lửa",
+      "gio_mo_cua": "8:00–21:00 (theo Google Maps ngày 30/10/2026)",
+      "hop_nguoi_gia": "có",
+      "hop_tre_em": "có",
+      "lat": 16.063,
+      "le_hoi": null,
+      "lng": 108.22982,
+      "loai": "kiến trúc",
+      "ma": "rh-da-nang-cau-tinh-yeu-va-bo-song-han",
+      "mua_dep": "quanh năm; đẹp nhất tháng 2–8",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, thoi_gian, cach_di, phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://sgotrip.com/vi/post/diem-du-lich/cau-tinh-yeu-ca-chep-hoa-rong-67"
+        },
+        {
+          "dung_cho": "gia_ve, thoi_gian, gio_dep, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangbest.com/cau-khoa-tinh-yeu-da-nang-noi-chung-minh-cho-tinh-yeu-doi-lua.html"
+        },
+        {
+          "dung_cho": "gia_ve, gio_dep, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tourdao.vn/diem-tham-quan/cau-tinh-yeu-da-nang/"
+        },
+        {
+          "dung_cho": "mua_dep, thoi_gian, gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.yourvietnamtravel.com/love-lock-bridge-da-nang"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": "không có bãi đỗ xe trực tiếp; gửi xe tại các điểm quanh khu vực rồi đi bộ",
+      "thoi_gian": "30–60 phút",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng qua cầu Sông Hàn theo đường Phạm Văn Đồng rồi rẽ vào đường Hoàng Sa, hoặc qua cầu Thuận Phước theo đường Yết Kiêu; đi trọn vòng Hoàng Sa – Yết Kiêu bằng xe máy, ô tô hoặc taxi; từ biển Mỹ Khê theo đường Võ Nguyên Giáp – Hoàng Sa khoảng 15 phút",
+      "canh_bao_an_toan": "đường đèo dốc, quanh co, độ dốc trên 10–12%; đoạn Yết Kiêu nhiều xe container; cung đèo sâu chỉ phù hợp xe số, ô tô gầm vừa hoặc xe dịch vụ địa phương quen đường đèo; xe tay ga bị cấm trên đoạn đèo sâu; không cho voọc ăn, không bấm còi, không dùng đèn flash; kiểm tra thông báo đóng đường trước khi đi mùa mưa (Sơn Trà từng đóng cửa 8–14/10/2026 do mưa lớn, nguy cơ sạt lở)",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đường Hoàng Sa (đường vòng quanh bán đảo Sơn Trà), phường Sơn Trà (phường Thọ Quang cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "6:00–8:00 hoặc 15:30–17:00 (dễ gặp voọc chà vá chân nâu)",
+      "gio_mo_cua": "đường công cộng, đi lại tự do cả ngày; nên đi ban ngày (6:00–17:30)",
+      "hop_nguoi_gia": "có (cung nhẹ ven biển)",
+      "hop_tre_em": "có (cung nhẹ ven biển)",
+      "lat": 16.10226,
+      "le_hoi": null,
+      "lng": 108.28106,
+      "loai": "thiên nhiên",
+      "ma": "rh-da-nang-ban-dao-son-tra-duong-vong",
+      "mua_dep": "tháng 2–8; tránh tháng 9–11 (mưa bão) và mùa đông sương mù",
+      "nguon": [
+        {
+          "dung_cho": "thoi_gian, gio_dep, cach_di, canh_bao_an_toan, hop_tre_em, hop_nguoi_gia, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.japanesestyle-happyspa.com/vi/guide/cam-nang-kham-pha-ban-dao-son-tra-chua-linh-ung-da-nang"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://sgotrip.com/zh/post/diem-du-lich/ban-co-peak-son-tra-75"
+        },
+        {
+          "dung_cho": "gia_ve, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangbest.com/tham-quan-dinh-ban-co-chon-bong-lai-tien-canh.html"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "1,5–2 giờ (cung nhẹ ven biển); 3–4 giờ (cung khám phá sâu tới đỉnh Bàn Cờ)",
+      "toa_do_xap_xi": true,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng qua cầu Rồng theo đường Võ Văn Kiệt rồi rẽ trái vào Võ Nguyên Giáp, khoảng 10 phút đi xe máy; hoặc theo đường Ngô Quyền rẽ vào Phạm Văn Đồng",
+      "canh_bao_an_toan": "chỉ tắm trong khu vực có cứu hộ trực (mùa hè 4:30–19:00); cẩn thận dòng chảy ngược; mùa hè có bãi tắm đêm 19:00–22:00 phía bắc Công viên Biển Đông",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "cuối đường Phạm Văn Đồng, phường An Hải (phường Phước Mỹ cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "6:00–8:00 (bình minh, bãi quay hướng đông) hoặc 16:00–18:00",
+      "gio_mo_cua": "mở 24/7",
+      "hop_nguoi_gia": "có",
+      "hop_tre_em": "có",
+      "lat": 16.06278,
+      "le_hoi": null,
+      "lng": 108.24614,
+      "loai": "biển",
+      "ma": "rh-da-nang-bai-bien-pham-van-dong",
+      "mua_dep": "tháng 3–8 (mùa khô, biển êm); tránh tháng 9–12 (mùa mưa)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, thoi_gian",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoiandaytrip.com/phuoc-my-beach-da-nang/"
+        },
+        {
+          "dung_cho": "mua_dep, cach_di, canh_bao_an_toan, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietgid.com/vi/da-nang/bai-viet/plyazhi-dananga"
+        },
+        {
+          "dung_cho": "thoi_gian, gio_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travelshelper.com/vietnam/da-nang/pham-van-dong-beach/"
+        },
+        {
+          "dung_cho": "gio_mo_cua, gio_dep, mua_dep, thoi_gian",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.traveloka.com/en-sg/hotel/vietnam/landmark/pham-van-dong-beach-91494827344354"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "1–3 giờ (tắm biển); 45–90 phút (chỉ dạo, chụp ảnh)",
+      "toa_do_xap_xi": true,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có vòi sen nước ngọt, phòng thay đồ",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY-SA 4.0",
+        "tac_gia": "Nobbipunktcom",
+        "url": "https://commons.wikimedia.org/wiki/File:Han_River_Bridge,_Da_Nang,_20241209,_Ansicht01.jpeg"
+      },
+      "cach_di": "từ trung tâm Đà Nẵng đi đường Lê Duẩn (bờ tây) hoặc đường Phạm Văn Đồng (bờ đông); từ sân bay hoặc trung tâm khoảng 10–15 phút chạy xe",
+      "canh_bao_an_toan": "cấm phương tiện lên cầu từ 15 phút trước giờ quay (22:45 cuối tuần, 0:45 ngày thường); không vượt rào chắn, không leo lan can, không đứng trên nhịp cầu đang di chuyển",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "cầu Sông Hàn, nối đường Lê Duẩn với đường Phạm Văn Đồng, phường An Hải (phường An Hải Bắc cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "chạng vạng tối khi thành phố lên đèn; 23:00 tối thứ Bảy, Chủ nhật để xem cầu quay",
+      "gio_mo_cua": "mở 24/7 (cầu đường bộ); xem cầu quay 23:00–24:00 tối thứ Bảy, Chủ nhật; 1:00–2:00 (có khi đến 4:00) ngày thường; lịch quay có thể thay đổi theo thông báo của thành phố",
+      "hop_nguoi_gia": "có",
+      "hop_tre_em": "có",
+      "lat": 16.07215,
+      "le_hoi": null,
+      "lng": 108.2268,
+      "loai": "kiến trúc",
+      "ma": "rh-da-nang-cau-quay-song-han",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, gio_dep, cach_di, phi_gui_xe, canh_bao_an_toan, trang_phuc",
+          "ngay_xem": "2026-11-20",
+          "url": "http://misstourismdanang.com/da-nang/dia-diem/cau-song-han-da-nang/"
+        },
+        {
+          "dung_cho": "gio_mo_cua, thoi_gian, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tripmap.vn/news-nua_dem_o_cau_song_han_da_nang_va_khoanh_khac_cau_quay_tren-a63d582d.html"
+        },
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://phetravel.com/cau-song-han-vi-tri-diem-thu-hut-kinh-nghiem-du-lich-va-chon-tour"
+        },
+        {
+          "dung_cho": "anh",
+          "ngay_xem": "2026-11-20",
+          "url": "https://commons.wikimedia.org/wiki/File:Han_River_Bridge,_Da_Nang,_20241209,_Ansicht01.jpeg"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": "có điểm trông giữ xe máy có thu phí quanh hai đầu cầu; nên gửi trước giờ quay khoảng 30 phút",
+      "thoi_gian": "30–60 phút (xem cầu quay)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": "áo khoác nhẹ buổi tối (gió sông se lạnh); giày thể thao hoặc đế bằng",
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng đi khoảng 10–12 km, 20–25 phút bằng xe máy hoặc ô tô theo đường Lê Văn Hiến hướng Hội An, tới chân núi Kim Sơn (quần thể Ngũ Hành Sơn)",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "48 đường Sư Vạn Hạnh, phường Ngũ Hành Sơn (phường Hòa Hải cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "sáng sớm (6:30–8:00) hoặc chiều (15:00–17:00)",
+      "gio_mo_cua": "6:00–18:00 hằng ngày (có ghi nhận chùa đôi khi chỉ mở dịp lễ/cuối tuần — nên kiểm tra trước khi đi)",
+      "hop_nguoi_gia": "có",
+      "hop_tre_em": "có",
+      "lat": 15.99875,
+      "le_hoi": "Lễ hội Quán Thế Âm Ngũ Hành Sơn, 17–19 tháng 2 âm lịch hằng năm",
+      "lng": 108.25514,
+      "loai": "tâm linh",
+      "ma": "rh-da-nang-chua-quan-the-am",
+      "mua_dep": "tháng 2–5 (thời tiết đẹp nhất)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, thoi_gian, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.vietnambooking.com/du-lich/blog-du-lich/kim-son-ngu-hanh-son.html"
+        },
+        {
+          "dung_cho": "dia_chi, thoi_gian, cach_di, gio_dep, le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://sovaba.travel/blog/bai-viet-chua-quan-am-da-nang-kien-truc-an-tuong-ben-song-cam-le"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nashaplaneta.net/asia/vietnam/danang-dostoprimechatelnosti-quan-the-am-pagoda_en"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danang.gov.vn/vi/w/ngu-hanh-son-tuyet-tac-cua-thien-nhien-i"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "http://disanxanh.cinet.vn/ArticleDetail.aspx?articleid=65881&sitepageid=30"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "1–2 giờ (chùa và động Quan Âm)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": "lịch sự, kín đáo",
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích quốc gia đặc biệt (Quyết định 1820/QĐ-TTg ngày 24/12/2018; lễ đón nhận bằng 20/1/2019)"
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng khoảng 15 phút bằng taxi hoặc xe máy; từ sân bay theo đường Nguyễn Văn Linh qua cầu Rồng rồi theo đường Phạm Văn Đồng, 10–12 phút; từ ga Đà Nẵng khoảng 7 km, 18–20 phút",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đường Võ Nguyên Giáp, cuối đường Phạm Văn Đồng, phường An Hải (phường Phước Mỹ cũ), Đà Nẵng",
+      "gia_ve": "Miễn phí (xem 20/11/2026)",
+      "gio_dep": "5:30–8:00 sáng hoặc 16:00–18:30 chiều (bình minh, hoàng hôn; đàn bồ câu bay sáng sớm và chiều muộn)",
+      "gio_mo_cua": "mở cửa tự do cả ngày (24/7)",
+      "hop_nguoi_gia": "có",
+      "hop_tre_em": "có",
+      "lat": 16.07037,
+      "le_hoi": null,
+      "lng": 108.24546,
+      "loai": "công viên",
+      "ma": "rh-da-nang-cong-vien-bien-dong",
+      "mua_dep": "quanh năm; đẹp nhất tháng 4–9",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_dep, cach_di, phi_gui_xe, wc_an_uong_tai_cho, trang_phuc, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://visitdanang.travel/vi/kham-pha-cong-vien-bien-dong-da-nang-oc-dao-xanh-ben-bo-bien"
+        },
+        {
+          "dung_cho": "thoi_gian, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://intour.com.vn/cam-nang-du-lich/cong-vien-bien-dong-da-nang.html"
+        },
+        {
+          "dung_cho": "gio_mo_cua, thoi_gian, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoiandaytrip.com/east-sea-park-da-nang/"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, thoi_gian, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tatinta.com/diem-den/cong-vien-bien-dong/8617"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nvsk.vnanet.vn/print/toan-van-nghi-quyet-so-1659-nq-ubtvqh15-sap-xep-cac-don-vi-hanh-chinh-cap-xa-cua-thanh-pho-da-nang-nam-2025-172063.vna"
+        }
+      ],
+      "phi_gui_xe": "xe máy khoảng 5.000đ/lượt (bãi gần cổng chính)",
+      "thoi_gian": "30–60 phút",
+      "toa_do_xap_xi": true,
+      "trang_phuc": "quần áo thoải mái, thấm hút mồ hôi; giày thể thao, sandal hoặc dép đi biển",
+      "wc_an_uong_tai_cho": "có nhà vệ sinh và phòng thay đồ công cộng miễn phí; nhiều quán ăn, cà phê quanh công viên",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Đà Nẵng đi khoảng 30 km về phía tây theo hướng Hòa Cầm – Túy Loan rồi theo quốc lộ 14G; ô tô 45–70 phút; xe máy phù hợp nhóm nhỏ quen đường ngoại ô; không có xe buýt thẳng tới cổng",
+      "canh_bao_an_toan": "chỉ tắm tại khu vực được phép, mặc áo phao theo yêu cầu; không nhảy từ đá cao xuống nước; mưa thượng nguồn có thể làm dòng chảy thay đổi đột ngột — dừng tắm khi có cảnh báo",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "quốc lộ 14G, thôn Phú Túc (xã Hòa Phú cũ), xã Hòa Vang, Đà Nẵng",
+      "gia_ve": "người lớn 100.000đ/người; trẻ em cao 1–1,4 m 50.000đ/người; trẻ dưới 1 m miễn phí (xem 20/11/2026)",
+      "gio_dep": "buổi sáng (dạo cảnh, chụp ảnh khi nắng chưa gắt)",
+      "gio_mo_cua": "8:00–17:30 hằng ngày (một số nguồn ghi 9:00–17:00, nên kiểm tra lại trước khi đi)",
+      "hop_nguoi_gia": "có (dạo bộ, ngắm cảnh, dùng bữa; tránh đoạn đá trơn)",
+      "hop_tre_em": "có (khu tắm theo độ tuổi/chiều cao; người lớn giám sát liên tục)",
+      "lat": 15.95841,
+      "le_hoi": null,
+      "lng": 107.99502,
+      "loai": "khu du lịch sinh thái",
+      "ma": "rh-da-nang-khu-du-lich-suoi-hoa",
+      "mua_dep": "tháng 3–8; tránh tháng 9–12 (mưa lớn, bão, lũ)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, thoi_gian, mua_dep, cach_di, gio_dep, hop_tre_em, hop_nguoi_gia, trang_phuc, canh_bao_an_toan, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://intour.com.vn/cam-nang-du-lich/khu-du-lich-sinh-thai-suoi-hoa-da-nang.html"
+        },
+        {
+          "dung_cho": "gia_ve, phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/du-lich-sinh-thai-da-nang"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, dia_chi, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.vietnambooking.com/du-lich/blog-du-lich/khu-du-lich-suoi-hoa-da-nang.html"
+        },
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, gia_ve, phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vipsedan.vn/cam-nang-du-lich-khu-sinh-thai-suoi-hoa-da-nang.html"
+        }
+      ],
+      "phi_gui_xe": "đã bao gồm trong giá vé",
+      "thoi_gian": "nửa ngày đến 1 ngày (chỉ ngắm cảnh, chụp ảnh: 2–3 giờ)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": "thoải mái, dễ vận động; mang đồ bơi và quần áo khô để thay nếu tắm suối; giày dép bám tốt",
+      "wc_an_uong_tai_cho": "có nhà hàng (cơm lam, măng trộn, ốc suối); có chòi nghỉ thuê (hỏi giá trước)",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ phố cổ Hội An đi xe đạp khoảng 20–25 phút, Grab/taxi 10–15 phút (60.000–100.000đ/chiều); từ trung tâm Đà Nẵng khoảng 40–50 phút",
+      "canh_bao_an_toan": "chỉ tắm trong vùng có cứu hộ (6:00–18:00), tránh cờ đen; tháng 10–12 biển động, có dòng chảy xa bờ",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "phường Hội An Tây (phường Cẩm An cũ), TP Đà Nẵng",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "sáng sớm (ngắm bình minh) và chiều muộn",
+      "gio_mo_cua": "mở cửa cả ngày (bãi công cộng); đội cứu hộ trực 6:00–18:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (nước nông gần bờ vào mùa biển lặng tháng 4–8)",
+      "lat": 15.913607,
+      "le_hoi": null,
+      "lng": 108.340649,
+      "loai": "bãi biển",
+      "ma": "rh-quang-nam-bai-bien-an-bang",
+      "mua_dep": "tháng 4–8; tránh tháng 10–12 (biển động, cờ đỏ)",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, phi_gui_xe, canh_bao_an_toan, cach_di, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoianit.com/kham-pha-ve-dep-tuyet-voi-cua-bai-bien-an-bang/"
+        },
+        {
+          "dung_cho": "mua_dep, gio_dep, hop_tre_em, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietnamtourexpert.com/an-bang-beach/"
+        },
+        {
+          "dung_cho": "thoi_gian, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.travelfish.org/sight_profile/vietnam/central_vietnam/quang_nam/hoi_an/2834"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "http://vietnamnews.vn/travel/travellers-notes/425235/an-bang-beach-is-simply-charming.html"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.nghevilla.com/en/an-bang-beach-hoi-an"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": "5.000đ/xe máy (bãi công cộng; quán ăn giữ xe miễn phí cho khách)",
+      "thoi_gian": "nửa ngày–1 ngày",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (quán bar, nhà hàng hải sản ven biển)",
+      "xe_lan": null,
+      "xep_hang": "Top 25 bãi biển đẹp nhất Đông Nam Á 2018 (Tripadvisor)"
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY 2.0",
+        "tac_gia": "Kok Leng Yeo",
+        "url": "https://commons.wikimedia.org/wiki/File:Cu_Lao_Cham_Marine_Park,_Vietnam_(2594704519).jpg"
+      },
+      "cach_di": "từ bến Cửa Đại đi cano 15–20 phút; tàu gỗ khoảng 2 giờ (100.000–150.000đ)",
+      "canh_bao_an_toan": "tháng 9–2 mùa mưa bão, biển động, tàu thuyền có thể bị cấm nhiều ngày; kiểm tra thời tiết trước khi đi",
+      "dat_truoc_giay_phep": "nên đặt trước cano/tour vào mùa cao điểm và dịp lễ",
+      "dia_chi": "xã Tân Hiệp (xã đảo, giữ nguyên sau sáp nhập), TP Đà Nẵng",
+      "gia_ve": "vé tham quan 70.000đ/người lớn (trẻ dưới 1,2 m miễn phí) + phí sinh thái 20.000–30.000đ; cano khứ hồi 350.000–450.000đ (đã gồm vé tham quan) (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "cano ra đảo 8:00–9:00, về đất liền khoảng 14:00; đảo mở cửa cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có",
+      "lat": 15.941552,
+      "le_hoi": null,
+      "lng": 108.481026,
+      "loai": "đảo",
+      "ma": "rh-quang-nam-cu-lao-cham",
+      "mua_dep": "tháng 3–9 (biển êm); tránh tháng 9–2 (mùa mưa bão, tàu có thể bị cấm)",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://daivietourist.vn/khu-bao-ton-bien-cu-lao-cham/"
+        },
+        {
+          "dung_cho": "gia_ve, mua_dep, canh_bao_an_toan, dat_truoc_giay_phep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danang.gov.vn/vi/w/dau-an-17-nam-khu-sinh-quyen-the-gioi-cu-lao-cham-hoi-an"
+        },
+        {
+          "dung_cho": "xep_hang, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://en.wikipedia.org/wiki/Cu_Lao_Cham_Marine_Park"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "1 ngày",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhà hàng hải sản trên đảo)",
+      "xe_lan": null,
+      "xep_hang": "Khu dự trữ sinh quyển thế giới UNESCO (26/5/2009)"
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY-SA 2.0",
+        "tac_gia": "Erwin Verbruggen",
+        "url": "https://commons.wikimedia.org/wiki/File:Crab_vendor_on_H%E1%BB%99i_An_Central_market_(14488368890).jpg"
+      },
+      "cach_di": "đi bộ từ Chùa Cầu men theo đường Trần Phú khoảng 700 m; từ Đà Nẵng khoảng 30 km",
+      "canh_bao_an_toan": "sàn ướt trơn ở dãy cá và rau; tháng 10–11 mùa lụt, khu vực ven sông có thể ngập vài ngày",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "01 Trần Phú (nhà lồng chính; cổng phụ 19 Trần Phú), phường Hội An (phường Minh An cũ), TP Đà Nẵng",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "6:00–7:30 (hàng tươi, chụp ảnh đẹp)",
+      "gio_mo_cua": "sáng sớm–19:00 (khu đi bộ buổi tối đến 23:00)",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 15.8773,
+      "le_hoi": null,
+      "lng": 108.3313,
+      "loai": "chợ",
+      "ma": "rh-quang-nam-cho-hoi-an",
+      "mua_dep": "quanh năm; tránh tháng 10–11 (mùa lụt)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, gio_dep, phi_gui_xe, cach_di, thoi_gian, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoianit.com/kham-pha-tron-ven-cho-hoi-an-thien-duong-am-thuc-van-hoa/"
+        },
+        {
+          "dung_cho": "gia_ve, mua_dep, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietnamtourexpert.com/hoi-an-market/"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangfantasticity.com/ja/kham-pha-am-thuc-da-nang-tai-6-khu-cho-dia-phuong-noi-tieng"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangbest.com/kham-pha-net-van-hoa-dac-sac-tai-khu-cho-hoi-an.html"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": "5.000đ/lượt (bãi có người trông, có vé)",
+      "thoi_gian": "40 phút–1 giờ (đi một vòng)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (khu ẩm thực trong nhà lồng; nhà vệ sinh trong chợ, thu phí nhỏ)",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY-SA 4.0",
+        "tac_gia": "Christophe95",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=87355276"
+      },
+      "cach_di": "đi bộ trong phố cổ; đường Trần Phú cấm xe máy 9:00–11:00 và 15:00–21:30",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "46 Trần Phú, phường Hội An Đông (phường Cẩm Châu cũ), TP Đà Nẵng",
+      "gia_ve": "20.000đ/người/công trình (theo Nghị quyết 98/2026/NQ-HĐND Đà Nẵng, hiệu lực từ 10/8/2026; vé gói cũ 80.000đ/120.000đ không còn áp dụng — kiểm tra lại tại quầy vé) (xem 20/11/2026)",
+      "gio_dep": "7:00–9:00 hoặc 15:30–17:00 (tránh đông, ánh sáng đẹp)",
+      "gio_mo_cua": "7:00–17:00 (một số nguồn ghi 7:00–17:30 hoặc 8:00–18:00)",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 15.877485,
+      "le_hoi": "Nguyên Tiêu (15 tháng Giêng); Vía Lục Tánh (16/2 âm lịch); Vía Bà Thiên Hậu (23/3 âm lịch)",
+      "lng": 108.330628,
+      "loai": "di tích",
+      "ma": "rh-quang-nam-hoi-quan-phuc-kien",
+      "mua_dep": "quanh năm; đẹp nhất tháng 2–4",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://static.luatvietnam.vn/xem-noi-dung-file-nghi-quyet-98-2026-nq-hdnd-da-nang-sua-doi-bo-sung-phi-tham-quan-cong-trinh-van-hoa-444265-d2/uploaded/vietlawfile/2026/08/17/98_2026_nq_hdnd_110917.pdf.aspx"
+        },
+        {
+          "dung_cho": "gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoianit.com/hoi-an-entrance-ticket/"
+        },
+        {
+          "dung_cho": "le_hoi, gio_mo_cua, cach_di, gio_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://hoianit.com/hoi-quan-phuc-kien-di-san-van-hoa-doc-dao-cua-hoi-an/"
+        },
+        {
+          "dung_cho": "dia_chi, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinwonders.com/vi/wonderpedia/news/hoi-quan-phuc-kien-hoi-an-kien-truc-doc-dao-giua-long-pho-co/"
+        },
+        {
+          "dung_cho": "xep_hang, le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://artsandculture.google.com/story/the-ancient-town-of-hoi-an/LgXBQh1qGqgDIQ"
+        },
+        {
+          "dung_cho": "mua_dep, thoi_gian",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tripxl.com/blog/places-to-visit-in-hoi-an/"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "khoảng 40 phút",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích lịch sử – văn hóa cấp quốc gia (17/2/1990)"
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY-SA 4.0",
+        "tac_gia": "Christophe95",
+        "url": "https://commons.wikimedia.org/wiki/File:Vegetables_in_Tr%C3%A0_Qu%E1%BA%BF_1.jpg"
+      },
+      "cach_di": "từ phố cổ Hội An đi đường Hai Bà Trưng hướng ra biển An Bàng khoảng 3 km",
+      "canh_bao_an_toan": "tháng 10–11 mùa lụt, luống rau có thể ngập nước, ít hoạt động làm nông",
+      "dat_truoc_giay_phep": "không cần đặt trước (tham quan tự do); lớp nấu ăn/tour nên đặt trước",
+      "dia_chi": "đường Hai Bà Trưng, phường Hội An Tây (xã Cẩm Hà cũ), TP Đà Nẵng",
+      "gia_ve": "35.000đ/người (miễn phí trẻ dưới 1,2 m) (xem 20/11/2026)",
+      "gio_dep": "6:00–8:00 và 16:00–17:30",
+      "gio_mo_cua": "7:00–17:00 (quầy vé; một số nguồn ghi 8:00–17:00)",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có",
+      "lat": 15.900755,
+      "le_hoi": "Lễ hội Cầu Bông, mùng 7 tháng Giêng âm lịch",
+      "lng": 108.33825,
+      "loai": "làng nghề",
+      "ma": "rh-quang-nam-lang-rau-tra-que",
+      "mua_dep": "tháng 2–4",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_dep, mua_dep, thoi_gian, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.vietnamtourism.com/en/tra-que-vegetable-village-in-hoi-an-history-what-to-see"
+        },
+        {
+          "dung_cho": "gio_mo_cua, le_hoi, canh_bao_an_toan, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietnamtourexpert.com/tra-que-vegetable-village/"
+        },
+        {
+          "dung_cho": "xe_lan, gio_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.kimanhoianhotel.com/at/0630/tra-que-gardens"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tourism-villages.unwto.org/en/villages/tra-que-vegetable-village-viet-nam/"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "45–90 phút (tự tham quan); 3–4 giờ (làm nông + lớp nấu ăn)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhà hàng, quán ăn trong làng)",
+      "xe_lan": "không (đường đất hẹp giữa các luống rau)",
+      "xep_hang": "Làng du lịch tốt nhất thế giới 2024 (UN Tourism)"
+    },
+    {
+      "anh": {
+        "giay_phep": "CC BY-SA 3.0",
+        "tac_gia": "Dragfyre",
+        "url": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Cua_Dai_Beach.jpg"
+      },
+      "cach_di": "từ phố cổ Hội An khoảng 4–5 km về phía đông, xe máy/ô tô 10–20 phút, xe đạp 25–35 phút",
+      "canh_bao_an_toan": "bãi vừa được bồi cát sau nhiều năm xói lở, một số đoạn còn thi công đến cuối 2026; kiểm tra đoạn bãi trước khi tắm, tắm trong vùng có cứu hộ",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "phường Hội An Đông (phường Cửa Đại cũ), TP Đà Nẵng",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "sáng sớm (ngắm bình minh)",
+      "gio_mo_cua": "mở cửa 24/7 (bãi công cộng)",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (vùng nước nông ở đoạn bãi còn nguyên)",
+      "lat": 15.901809,
+      "le_hoi": null,
+      "lng": 108.360013,
+      "loai": "bãi biển",
+      "ma": "rh-quang-nam-bai-bien-cua-dai",
+      "mua_dep": "tháng 3–8; tránh tháng 10–1 (mùa mưa bão)",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, mua_dep, phi_gui_xe, hop_tre_em, cach_di, canh_bao_an_toan, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.soloinvietnam.com/locations/cua-dai-beach"
+        },
+        {
+          "dung_cho": "canh_bao_an_toan, gio_dep, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietnambyregion.com/central/hoi-an-beaches/"
+        },
+        {
+          "dung_cho": "canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.nguoiduatin.vn/bien-cua-dai-hoi-sinh-sau-hon-10-nam-bi-song-du-bao-mon-204261108173035876.htm"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vietnamtourexpert.com/cua-dai-beach/"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": "5.000–10.000đ/xe",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhà hàng, chòi nghỉ, resort ven biển)",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ phố cổ Hội An đi theo đường Hùng Vương, rẽ trái ở Phạn Phán, theo đường Nguyễn Du, rẽ phải ở bưu điện Điện Phương đi tiếp 200 m; cách phố cổ khoảng 8 km (15 phút xe máy), cách Đà Nẵng 25 km (30 phút)",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "thôn Phước Kiều, phường Điện Bàn (xã Điện Phương cũ), TP Đà Nẵng",
+      "gia_ve": "Miễn phí (tham quan); trải nghiệm đúc đồng 100.000–200.000đ/người (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "8:00–17:00 (thứ 2–thứ 7; chủ nhật một số xưởng nghỉ)",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 15.86878,
+      "le_hoi": null,
+      "lng": 108.261339,
+      "loai": "làng nghề",
+      "ma": "rh-quang-nam-lang-co-phuoc-kieu",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, cach_di, gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/ghe-tham-lang-duc-dong-phuoc-kieu-400-nam-tinh-hoa-xu-quang"
+        },
+        {
+          "dung_cho": "gio_mo_cua, thoi_gian, gia_ve, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danangbest.com/lang-duc-dong-phuoc-kieu-di-san-van-hoa-lau-doi-cua-quang-nam.html"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://cdn.nhandan.vn/files/e70845a880b345e63e238f69b14c96bc42ce4c4af71c09a95469462ca121b49bed0ddf3d1322a685a01ca73fc5a40a82/1659da-nang.pdf"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "1–1,5 giờ (tham quan); 2,5–3 giờ (tham quan + workshop đúc đồng)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "ngay trung tâm phường Kon Tum, cách bến xe Kon Tum khoảng 2 km",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "số 13 đường Nguyễn Huệ, phường Kon Tum (phường Thống Nhất cũ), tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "buổi sáng 7:30–10:00 (ánh sáng đẹp nhất mặt tiền nhà thờ)",
+      "gio_mo_cua": "7:00–11:30 và 13:30–17:00 hằng ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.34505,
+      "le_hoi": "Giáng sinh (24–25/12), Phục sinh (thánh lễ lớn, đông người)",
+      "lng": 108.013223,
+      "loai": "nhà thờ",
+      "ma": "rh-kon-tum-nha-tho-go-kon-tum",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, gio_dep, phi_gui_xe, trang_phuc, le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.taynguyenjob.vn/tin-tuc/review-nha-tho-go-kon-tum-cau-treo-kon-klor"
+        },
+        {
+          "dung_cho": "dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_Kon_Tum"
+        }
+      ],
+      "phi_gui_xe": "khoảng 5.000–10.000đ (gửi xe bên ngoài cổng)",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": "ăn mặc kín đáo, bỏ mũ nón, giữ im lặng khi vào bên trong thánh đường",
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm TP Kon Tum khoảng 3 km về phía đông, theo đường Trần Hưng Đạo rồi rẽ đường Bắc Kạn đến cuối đường",
+      "canh_bao_an_toan": "cầu có xe máy và phương tiện thô sơ qua lại hằng ngày; khi chụp ảnh đứng sát thành cầu, không tụ tập giữa cầu",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đường Bắc Kạn, phường Kon Tum (phường Thắng Lợi cũ), tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "bình minh 5:30–6:30 hoặc hoàng hôn 17:00–18:00",
+      "gio_mo_cua": "Cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.347689,
+      "le_hoi": null,
+      "lng": 108.035141,
+      "loai": "cầu treo",
+      "ma": "rh-kon-tum-cau-treo-kon-klor",
+      "mua_dep": "tháng 11–tháng 4 (mùa khô)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, mua_dep, cach_di, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://mangdentrip.com/kinh-nghiem-di-cau-treo-kon-klor-cung-mang-den-trip/"
+        },
+        {
+          "dung_cho": "gio_mo_cua, gio_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vdstravel.vn/cau-treo-kon-klor-kon-tum.html"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm Măng Đen khoảng 10 km theo hướng khu 37 hộ vào làng; gửi xe tại trạm kiểm lâm rồi đi bộ xuống ruộng bậc thang",
+      "canh_bao_an_toan": "đường xuống ruộng có đoạn dốc, đá cuội, trơn khi mưa; cầu treo rung lắc khi đông người, không chen lấn giữa cầu",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "làng Kon Tu Rằng, xã Măng Đen (xã Măng Cành cũ), tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "sáng sớm hoặc chiều mát",
+      "gio_mo_cua": "Cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.63865,
+      "le_hoi": null,
+      "lng": 108.24921,
+      "loai": "làng văn hóa",
+      "ma": "rh-kon-tum-lang-kon-tu-rang",
+      "mua_dep": "tháng 5–tháng 7 (mùa lúa chín); tháng 11–tháng 4 (mùa khô)",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, gio_dep, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://khamphamangden.vn/cau-treo-kon-tu-rang/"
+        },
+        {
+          "dung_cho": "dia_chi, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://luhanhvietnam.com.vn/du-lich/dia-diem-chup-anh-mua-lua-vang-mang-den.html"
+        },
+        {
+          "dung_cho": "thoi_gian, mua_dep, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://crystalbay.com/35-man-nhan-mua-vang-ruc-ro-giua-dai-ngan-mang-den-nhin-tu-tren-cao-n64896.html"
+        },
+        {
+          "dung_cho": "toa_do",
+          "ngay_xem": "2026-11-20",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kon+Tu+Rang%2C+Mang+Den%2C+Quang+Ngai&format=json"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "khoảng nửa ngày",
+      "toa_do_xap_xi": true,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "dịch vụ ăn uống và lưu trú tại làng chưa phát triển",
+      "xe_lan": "không (đường xuống ruộng dốc, có đá cuội, phải đi bộ)",
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ đường Phan Đình Phùng rẽ vào đường Trương Quang Trọng, đi khoảng 1 km dọc sông Đăk Bla",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "cuối đường Trương Quang Trọng, phường Kon Tum (phường Quyết Thắng cũ), tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "sáng sớm hoặc chiều tà",
+      "gio_mo_cua": "7:30–11:00 và 13:30–17:00 hằng ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.343634,
+      "le_hoi": "dịp lễ lớn 30/4, 2/9 (dâng hương tưởng niệm)",
+      "lng": 107.991742,
+      "loai": "di tích lịch sử",
+      "ma": "rh-kon-tum-nguc-kon-tum",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulichkontum.com.vn/diadiem/chitiet/di-tich-lich-su-nguc-kon-tum-33"
+        },
+        {
+          "dung_cho": "gia_ve, gio_dep, trang_phuc, le_hoi, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://caonguyentourist.com/nguc-kon-tum-dau-an-lich-su-hao-hung-ben-dong-dak-bla"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": "mặc trang phục lịch sự",
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích Lịch sử Quốc gia (16/11/1988)"
+    },
+    {
+      "anh": null,
+      "cach_di": "từ TP Kon Tum theo Quốc lộ 24 về phía đông bắc khoảng 54 km; đoạn đèo dài 12 km lên Măng Đen",
+      "canh_bao_an_toan": "nhiều khúc cua, dốc; sương mù dày đặc và đường trơn khi mưa",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "Quốc lộ 24, đoạn qua xã Măng Đen, tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "buổi sáng (sương mù còn bảng lảng, săn mây)",
+      "gio_mo_cua": "Cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.574119,
+      "le_hoi": null,
+      "lng": 108.276574,
+      "loai": "đèo",
+      "ma": "rh-kon-tum-deo-mang-den",
+      "mua_dep": "tháng 12–tháng 1 (mai anh đào, săn mây); tháng 10–tháng 12 (săn mây, lúa chín)",
+      "nguon": [
+        {
+          "dung_cho": "cach_di, mua_dep, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulichcheckin.com/rung-thong-mang-den/"
+        },
+        {
+          "dung_cho": "dia_chi, canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://reatimes.vn/cung-deo-13km-dep-bac-nhat-tay-nguyen-tung-la-mot-trong-nhung-diem-trang-song-di-dong-202250922212257418.htm"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "khoảng 20–30 phút lái xe qua đèo (đèo dài 12–13 km)",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "ngay trung tâm phường Kon Tum; cổng chính trên đường Trần Hưng Đạo, các cổng phụ ở đường Lê Hồng Phong, Hoàng Văn Thụ",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đường Trần Hưng Đạo, phường Kon Tum (phường Quyết Thắng cũ), tỉnh Quảng Ngãi",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "buổi sáng (đông nhất, nhiều hàng tươi)",
+      "gio_mo_cua": "khoảng 5:00–20:00, đông nhất buổi sáng",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 14.349314,
+      "le_hoi": null,
+      "lng": 108.003087,
+      "loai": "chợ",
+      "ma": "rh-kon-tum-cho-kon-tum",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, cach_di, gio_dep, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://huongdanviendulich.vn/articles/cho-kon-tum-cho-trung-tam-pho-nui-ben-song-dak-bla"
+        },
+        {
+          "dung_cho": "phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://kontum.quangngai.gov.vn/upload/2007053/20260904/523.%20%20UB%20BC%20TR%E1%BA%A2%20L%E1%BB%9CI%20YKKNCT%20TR%C6%AF%E1%BB%9AC%20KH%20TH%E1%BB%A8%20HAI%20KH%C3%93A%20I%20(2).pdf"
+        }
+      ],
+      "phi_gui_xe": "có bãi giữ xe miễn phí tại cổng Trần Hưng Đạo",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có nhiều hàng ăn bình dân trong chợ",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "cách trung tâm Quy Nhơn khoảng 3 km về phía đông nam, theo đường Hàn Mặc Tử rồi lên dốc Mộng Cầm khoảng 150 m",
+      "canh_bao_an_toan": "bãi Trứng chỉ để ngắm, không tắm; đá trơn khi sóng lớn",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "đường Hàn Mặc Tử, phường Quy Nhơn Nam (phường Ghềnh Ráng cũ), tỉnh Gia Lai",
+      "gia_ve": "Miễn phí vào khu thắng cảnh; thăm mộ Hàn Mặc Tử 10.000đ/người (xem 20/11/2026)",
+      "gio_dep": "sáng sớm (bình minh trên biển) hoặc cuối chiều",
+      "gio_mo_cua": "7:00–18:00 hằng ngày",
+      "hop_nguoi_gia": "hạn chế (lối đi trong khu nhiều bậc đá và dốc)",
+      "hop_tre_em": null,
+      "lat": 13.742313,
+      "le_hoi": null,
+      "lng": 109.215812,
+      "loai": "danh thắng",
+      "ma": "rh-binh-dinh-ghenh-rang-tien-sa",
+      "mua_dep": "tháng 3–tháng 9 (mùa khô)",
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, thoi_gian",
+          "ngay_xem": "2026-11-20",
+          "url": "https://mybinhdinh.vn/vi/ghenhrang"
+        },
+        {
+          "dung_cho": "dia_chi, mua_dep, cach_di, gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/ghenh-rang-tien-sa-tac-pham-thien-tao-ky-vi-tho-mong"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://gialai.nssc.gov.vn/danh-thang-ghenh-rang-tien-sa-quy-nhon/"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": "khoảng 1–2 giờ",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": "không (lối đi bậc đá, dốc)",
+      "xep_hang": "Di tích danh lam thắng cảnh cấp Quốc gia (tháng 11/1991)"
+    },
+    {
+      "anh": null,
+      "cach_di": "cách trung tâm Quy Nhơn khoảng 12–13 km về phía nam theo Quốc lộ 1D",
+      "canh_bao_an_toan": "có sứa ở vài nơi vào một số thời điểm; ngày lễ đông đúc",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "làng chài Bãi Xép, khu vực 1 (phường Ghềnh Ráng cũ), phường Quy Nhơn Nam, tỉnh Gia Lai",
+      "gia_ve": "Miễn phí khu bãi công cộng; khu du lịch sinh thái Bãi Xép khoảng 20.000đ/người (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "tham quan tự do; khu du lịch 7:00–18:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.684626,
+      "le_hoi": null,
+      "lng": 109.231308,
+      "loai": "bãi biển",
+      "ma": "rh-binh-dinh-bai-xep",
+      "mua_dep": "tháng 2–tháng 8",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, mua_dep, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://gody.vn/chau-a/viet-nam/binh-dinh/bai-xep-quy-nhon"
+        },
+        {
+          "dung_cho": "gia_ve, phi_gui_xe, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://phanvantravel.com/du-lich-bien-quy-nhon"
+        },
+        {
+          "dung_cho": "dia_chi, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-qui-nhon.aspx"
+        }
+      ],
+      "phi_gui_xe": "khoảng 5.000đ/lượt",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có quán nước trên đồi sau bãi",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "cách Quy Nhơn khoảng 27 km về phía tây bắc, cách Quốc lộ 1A khoảng 2 km",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "thôn Danh Thạnh (xã Nhơn Hậu cũ), phường An Nhơn, tỉnh Gia Lai",
+      "gia_ve": "Miễn phí theo nguồn cập nhật 2025; một số nguồn ghi 15.000–20.000đ/người (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "7:00–17:00 hằng ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.925714,
+      "le_hoi": null,
+      "lng": 109.070923,
+      "loai": "thành cổ",
+      "ma": "rh-binh-dinh-thanh-hoang-de",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://anhang.vn/di-an/cap-nhat-gia-ve-mot-so-diem-du-lich-o-binh-dinh-nam-2025.html"
+        },
+        {
+          "dung_cho": "dia_chi, cach_di, gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://ticotravel.com.vn/thanh-do-ban/"
+        },
+        {
+          "dung_cho": "xep_hang, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/thanh-do-ban-dau-an-lich-su-hon-1000-nam-o-binh-dinh"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích lịch sử cấp Quốc gia (1982)"
+    },
+    {
+      "anh": null,
+      "cach_di": "cách TP Quy Nhơn khoảng 45 km về phía Tây Bắc theo quốc lộ 19",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": "xem biểu diễn nhạc võ Tây Sơn: 400.000đ/suất cho đoàn dưới 20 khách, 20.000đ/người cho đoàn trên 20 khách (đặt trước với ban quản lý)",
+      "dia_chi": "Khối 1, làng Kiên Mỹ, xã Tây Sơn (thị trấn Phú Phong cũ), Gia Lai",
+      "gia_ve": "30.000đ/người lớn (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "7:00–11:30 và 13:30–17:00 hằng ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (trẻ dưới 6 tuổi miễn phí vé)",
+      "lat": 13.920562,
+      "le_hoi": "Lễ hội Đống Đa mùng 4–5 Tết Âm lịch (mùng 5 là lễ chính)",
+      "lng": 108.920841,
+      "loai": "bảo tàng",
+      "ma": "rh-binh-dinh-bao-tang-quang-trung",
+      "mua_dep": "quanh năm (đông nhất dịp lễ hội Đống Đa mùng 4–5 Tết Âm lịch)",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://52hz.vn/bao-tang-quang-trung/"
+        },
+        {
+          "dung_cho": "dia_chi, cach_di, le_hoi, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/bao-tang-quang-trung-niem-tu-hao-cua-nguoi-dan-dat-vo"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "http://dsvh.gov.vn/di-tich-lich-su-khu-den-tho-tay-son-tam-kiet-2985"
+        },
+        {
+          "dung_cho": "dat_truoc_giay_phep, gia_ve",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulich3mien.vn/binh-dinh/bao-tang-quang-trung/"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích quốc gia đặc biệt (Quyết định số 2408/QĐ-TTg ngày 31/12/2014)"
+    },
+    {
+      "anh": null,
+      "cach_di": "cách TP Quy Nhơn khoảng 50 km về phía Tây Bắc theo quốc lộ 19B; cách Bảo tàng Quang Trung khoảng 5 km",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "thôn Phú Lâm, xã Bình Phú (xã Tây Phú cũ), Gia Lai",
+      "gia_ve": "20.000đ/người lớn (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "7:00–17:00 hằng ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (trẻ dưới 1,2 m miễn phí vé)",
+      "lat": 13.873638,
+      "le_hoi": null,
+      "lng": 108.862675,
+      "loai": "thiên nhiên",
+      "ma": "rh-binh-dinh-ham-ho",
+      "mua_dep": "tháng 1–tháng 8",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, phi_gui_xe, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://lalago.vn/khu-du-lich-sinh-thai-ham-ho/"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://52hz.vn/khu-du-lich-ham-ho/"
+        },
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-qui-nhon.aspx"
+        },
+        {
+          "dung_cho": "wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulich.pro.vn/posts/kinh-nghiem-va-gia-ve-di-khu-du-lich-ham-ho"
+        }
+      ],
+      "phi_gui_xe": "xe máy 5.000đ, ô tô dưới 7 chỗ 15.000đ, trên 7 chỗ 20.000đ",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhà hàng trong khu du lịch)",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "nằm ngay trung tâm TP Pleiku (khu Trung tâm thương mại, gần ngã tư Nguyễn Thiện Thuật – Lê Lai)",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "Khu Trung tâm thương mại Pleiku, gần ngã tư Lê Lai – Nguyễn Thiện Thuật, phường Diên Hồng, Gia Lai",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "buổi sáng (chợ ngày); 19:00–20:00 (chợ đêm)",
+      "gio_mo_cua": "chợ ngày: sáng sớm–chiều tối (đông nhất buổi sáng); chợ đêm đã chuyển về đường Trần Xuân Soạn, từ khoảng 17:00, đông nhất 19:00–20:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.978669,
+      "le_hoi": null,
+      "lng": 107.996324,
+      "loai": "chợ",
+      "ma": "rh-gia-lai-cho-pleiku",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_mo_cua, gio_dep, wc_an_uong_tai_cho, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://huongdanviendulich.vn/articles/cho-pleiku-cho-trung-tam-pho-nui-voi-nong-san-dai-ngan"
+        },
+        {
+          "dung_cho": "dia_chi, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://mytour.vn/vi/blog/bai-viet/kham-pha-cho-dem-pleiku-diem-den-am-thuc-hap-dan.html"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhiều quán ăn trong và quanh chợ; chợ đêm có gà nướng, cơm lam, bún mắm cua)",
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "cách TP Tuy Hòa khoảng 35 km về phía Nam",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "thôn Phước Tân, xã Hòa Xuân (xã Hòa Tâm cũ), Đắk Lắk",
+      "gia_ve": "30.000–40.000đ/người lớn, vé hải đăng 20.000đ (xem 20/11/2026)",
+      "gio_dep": "5:00–5:30 sáng (ngắm bình minh)",
+      "gio_mo_cua": "khu vực 5:00–17:30; hải đăng 7:30–11:30 và 13:30–17:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (trẻ em miễn phí vé)",
+      "lat": 12.895829,
+      "le_hoi": null,
+      "lng": 109.456732,
+      "loai": "thiên nhiên",
+      "ma": "rh-phu-yen-mui-dai-lanh",
+      "mua_dep": "tháng 1–tháng 8",
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua, gio_dep, phi_gui_xe, cach_di, hop_tre_em",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.vietnamairlines.com/it/vi/plan-book/travel/travel-guide/mui-dien"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://newlifetravel.vn/mui-dien-phu-yen/"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://csdl.vietnamtourism.gov.vn/dest/?item=351"
+        },
+        {
+          "dung_cho": "mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vdstravel.vn/hai-dang-dai-lanh-phu-yen.html"
+        }
+      ],
+      "phi_gui_xe": "xe máy 10.000đ/lượt, ô tô 20.000đ/lượt",
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích danh thắng quốc gia (Quyết định số 67/2008/QĐ-BVHTTDL ngày 22/8/2008)"
+    },
+    {
+      "anh": null,
+      "cach_di": "đi quốc lộ 1A về phía Bắc từ TP Tuy Hòa đến thị xã Sông Cầu, ngắm vịnh từ chân dốc Găng",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "chân dốc Găng, quốc lộ 1A, phường Sông Cầu (phường Xuân Yên cũ), Đắk Lắk",
+      "gia_ve": "Miễn phí",
+      "gio_dep": null,
+      "gio_mo_cua": "cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.394279,
+      "le_hoi": "Lễ hội vịnh Xuân Đài mùng 5–6 Tết Âm lịch (tiền thân là lễ hội sông nước Tam Giang, đổi tên từ 2017)",
+      "lng": 109.271259,
+      "loai": "thiên nhiên",
+      "ma": "rh-phu-yen-vinh-xuan-dai",
+      "mua_dep": "tháng 1–tháng 7",
+      "nguon": [
+        {
+          "dung_cho": "xep_hang, le_hoi, mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/vinh-xuan-dai-phu-yen-dak-lak"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tai-lieu.com/tai-lieu/thang-canh-tu-nhien-cap-quoc-gia-ven-bien-phu-yen-dac-diem-va-nhung-gia-tri-noi-bat-cho-phat-trien-du-lich-61681/"
+        },
+        {
+          "dung_cho": "dia_chi, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh_Xu%C3%A2n_%C4%90%C3%A0i"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích thắng cảnh quốc gia (Quyết định số 177/QĐ-BVHTTDL ngày 20/01/2011)"
+    },
+    {
+      "anh": null,
+      "cach_di": "cách TP Tuy Hòa khoảng 35 km về phía Bắc theo quốc lộ 1",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "thôn An Thổ, xã Tuy An Bắc (xã An Dân cũ), Đắk Lắk",
+      "gia_ve": "Miễn phí",
+      "gio_dep": null,
+      "gio_mo_cua": "7:30–11:30 và 14:00–17:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.345493,
+      "le_hoi": null,
+      "lng": 109.217434,
+      "loai": "di tích",
+      "ma": "rh-phu-yen-thanh-an-tho",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travelviet.net/vn/news/phu-yen/danh-sach-10-di-tich-lich-su-tai-phu-yen-noi-tieng"
+        },
+        {
+          "dung_cho": "cach_di, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://danviet.vn/mot-cai-thanh-co-phe-tich-tram-nam-tung-la-thu-phu-dat-phu-yen-soi-bong-xuong-dong-song-cai-2023090523295719-d838779.html"
+        },
+        {
+          "dung_cho": "gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tourtrips.org/products/tour-ve-nguon-di-tich-lich-su-thanh-an-tho-1-ngay"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tailieu.tv/tai-lieu/thanh-an-tho-tinh-phu-yen-qua-khai-quat-khao-co-va-van-de-phat-huy-gia-tri-di-tich-phat-trien-tiem-nang-du-lich-dia-46890/"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích khảo cổ quốc gia (Quyết định số 37/2005/QĐ-BVHTT ngày 22/8/2005)"
+    },
+    {
+      "anh": null,
+      "cach_di": "cách TP Tuy Hòa khoảng 22 km về phía Bắc, dưới chân đèo Quán Cau, sát quốc lộ 1A",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "xã Ô Loan (khu vực thị trấn Chí Thạnh, huyện Tuy An cũ), Đắk Lắk",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "bình minh hoặc hoàng hôn (đẹp nhất vào mùa khô)",
+      "gio_mo_cua": "cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 13.280923,
+      "le_hoi": "Lễ hội đua thuyền truyền thống mùng 7 Tết Âm lịch (phần lễ mùng 6), bến thuyền thôn Tân Long, xã Ô Loan",
+      "lng": 109.274232,
+      "loai": "thiên nhiên",
+      "ma": "rh-phu-yen-dam-o-loan",
+      "mua_dep": "tháng 1–tháng 8 (mùa khô)",
+      "nguon": [
+        {
+          "dung_cho": "xep_hang, le_hoi, wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.vietnam.vn/danh-thang-dam-o-loan-ve-ngoi-lang-co-don-nghe-cu-ba-u-110-ke-chuyen"
+        },
+        {
+          "dung_cho": "cach_di, xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travelviet.net/vn/relics/phu-yen/dam-o-loan"
+        },
+        {
+          "dung_cho": "mua_dep, gio_dep, le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vinpearl.com/vi/dam-o-loan-phu-yen"
+        },
+        {
+          "dung_cho": "le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://buulong.com.vn/le-hoi-dua-thuyen-dam-o-loan.html"
+        },
+        {
+          "dung_cho": "xep_hang",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tai-lieu.com/tai-lieu/thang-canh-tu-nhien-cap-quoc-gia-ven-bien-phu-yen-dac-diem-va-nhung-gia-tri-noi-bat-cho-phat-trien-du-lich-61681/"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (nhiều quán hải sản ven đầm, nổi tiếng sò huyết, hàu)",
+      "xe_lan": null,
+      "xep_hang": "Di tích danh thắng quốc gia (Quyết định số 2410/QĐ-VH ngày 27/9/1996)"
+    },
+    {
+      "anh": null,
+      "cach_di": "nằm ngay trung tâm TP Buôn Ma Thuột (đường Lê Duẩn)",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "12 Lê Duẩn, phường Buôn Ma Thuột (phường Tân Tiến cũ), Đắk Lắk",
+      "gia_ve": "30.000đ/người lớn, 20.000đ/trẻ em trên 1,2 m, miễn phí dưới 1,2 m (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "8:00–17:00 thứ 3–thứ 6; 8:00–16:00 thứ 7, Chủ nhật và ngày lễ; nghỉ thứ 2",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (vé trẻ em 20.000đ, dưới 1,2 m miễn phí)",
+      "lat": 12.676146,
+      "le_hoi": null,
+      "lng": 108.042202,
+      "loai": "bảo tàng",
+      "ma": "rh-dak-lak-bao-tang-dak-lak",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gia_ve, thoi_gian",
+          "ngay_xem": "2026-11-20",
+          "url": "https://daklaktourism.com/bao-tang-dak-lak-hon-thien-tay-nguyen/"
+        },
+        {
+          "dung_cho": "gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.facebook.com/baotangdaklak/posts/pfbid0tfj1Sy2YNHXQhYremC3A2g3dY2YwMW4zBEzgEDwd6KtdrXRXjFwpiwaJEpy9RfwFl"
+        },
+        {
+          "dung_cho": "dia_chi, gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://www.ivivu.com/blog/2025/10/bao-tang-dak-lak-dau-an-van-hoa-va-ky-uc-song-dong-giua-dai-ngan-tay-nguyen/"
+        },
+        {
+          "dung_cho": "gia_ve, phi_gui_xe",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulichtaynguyen.com.vn/buon-ma-thuot-co-gi-choi-cac-dia-diem-hap-dan-bac-nhat.html"
+        }
+      ],
+      "phi_gui_xe": "5.000đ",
+      "thoi_gian": "60–90 phút",
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": null
+    },
+    {
+      "anh": null,
+      "cach_di": "từ trung tâm TP Buôn Ma Thuột đi quốc lộ 14 về phía Nam khoảng 20 km đến ngã ba Cư Jút, rẽ trái vào huyện Krông Nô khoảng 10 km đến cổng khu du lịch",
+      "canh_bao_an_toan": "kiểm tra trước ngày đi: điểm vào thực tế, tình trạng đường và cầu treo (cầu treo khu vực đã bị lũ cuốn tháng 11/2025)",
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "sông Sêrêpốk, buôn Kuốp, xã Ea Na, Đắk Lắk (thác nằm trên ranh giới với xã Nam Đà, tỉnh Lâm Đồng)",
+      "gia_ve": "40.000đ/người lớn (xem 20/11/2026)",
+      "gio_dep": null,
+      "gio_mo_cua": "7:00–17:00",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": "có (trẻ em miễn phí vé)",
+      "lat": 12.54023,
+      "le_hoi": null,
+      "lng": 107.886501,
+      "loai": "thiên nhiên",
+      "ma": "rh-dak-lak-thac-gia-long",
+      "mua_dep": "mùa khô tháng 11–tháng 4",
+      "nguon": [
+        {
+          "dung_cho": "xep_hang, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://travelviet.net/vn/relics/dak-lak/thac-dray-sap-thuong-thac-gia-long"
+        },
+        {
+          "dung_cho": "xep_hang, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://daklakmuseum.vn/tin-tuc-su-kien/bai-viet/kham-pha-ve-dep-cua-nhung-di-tich-danh-lam-thang-canh-tai-dak-lak"
+        },
+        {
+          "dung_cho": "gia_ve, gio_mo_cua",
+          "ngay_xem": "2026-11-20",
+          "url": "https://gody.vn/chau-a/viet-nam/dak-lak/buon-ma-thuot"
+        },
+        {
+          "dung_cho": "cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://mytour.vn/vi/blog/bai-viet/kham-pha-toan-bo-ve-dep-cua-cum-3-thac-dray-sap-dray-nur-va-gia-long.html"
+        },
+        {
+          "dung_cho": "mua_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://vdstravel.vn/thac-dray-sap-dak-nong.html"
+        },
+        {
+          "dung_cho": "canh_bao_an_toan",
+          "ngay_xem": "2026-11-20",
+          "url": "https://dulichviet.com.vn/tin-tuc/du-lich-buon-ma-thuot-kham-pha-cum-3-thac-dray-sap-dray-nur-gia-long"
+        },
+        {
+          "dung_cho": "hop_tre_em",
+          "ngay_xem": "2026-11-20",
+          "url": "https://namthientravel.com.vn/thac-dray-sap/"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": true,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": null,
+      "xe_lan": null,
+      "xep_hang": "Di tích danh lam thắng cảnh quốc gia (Quyết định số 01/1999/QĐ-BVHTT ngày 04/01/1999)"
+    },
+    {
+      "anh": null,
+      "cach_di": "ngay trung tâm TP Buôn Ma Thuột",
+      "canh_bao_an_toan": null,
+      "dat_truoc_giay_phep": null,
+      "dia_chi": "Số 01 Trần Quang Khải, phường Buôn Ma Thuột, Đắk Lắk",
+      "gia_ve": "Miễn phí",
+      "gio_dep": "buổi chiều (thả diều) và buổi tối (quảng trường lên đèn)",
+      "gio_mo_cua": "cả ngày",
+      "hop_nguoi_gia": null,
+      "hop_tre_em": null,
+      "lat": 12.685716,
+      "le_hoi": "Chợ hoa Tết hằng năm tại quảng trường; Lễ hội Sầu riêng Đắk Lắk lần thứ I (15/8–02/9/2026, đại nhạc hội 20h00 ngày 22/8/2026)",
+      "lng": 108.05116,
+      "loai": "quảng trường",
+      "ma": "rh-dak-lak-quang-truong-10-3",
+      "mua_dep": null,
+      "nguon": [
+        {
+          "dung_cho": "dia_chi, gio_dep, cach_di",
+          "ngay_xem": "2026-11-20",
+          "url": "https://mytour.vn/vi/blog/bai-viet/top-10-diem-den-kham-pha-o-cao-nguyen-dak-lak.html"
+        },
+        {
+          "dung_cho": "dia_chi, gio_dep",
+          "ngay_xem": "2026-11-20",
+          "url": "https://tripi.vn/blog/vi/xep-hang/10-diem-den-dep-ngo-ngang-tai-cao-nguyen-dak-lak-hanh-trinh-kham-pha-khong-the-lo-tripi"
+        },
+        {
+          "dung_cho": "le_hoi, dia_chi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://bookingdaklak.com/dai-nhac-hoi-le-hoi-sau-rieng-2026/"
+        },
+        {
+          "dung_cho": "le_hoi",
+          "ngay_xem": "2026-11-20",
+          "url": "https://buonmathuot.daklak.gov.vn/uploads/bmt/nam2026/vanbanqppl2026/39.pdf"
+        },
+        {
+          "dung_cho": "wc_an_uong_tai_cho",
+          "ngay_xem": "2026-11-20",
+          "url": "https://toplist.vn/top-list/dia-danh-khong-the-bo-qua-khi-den-cao-nguyen-daklak-3843.htm"
+        }
+      ],
+      "phi_gui_xe": null,
+      "thoi_gian": null,
+      "toa_do_xap_xi": false,
+      "trang_phuc": null,
+      "wc_an_uong_tai_cho": "có (cà phê, nước mía quanh quảng trường, khoảng 5.000–15.000đ)",
+      "xe_lan": null,
+      "xep_hang": null
+    }
+  ],
+  "meta": {
+    "dot": 1,
+    "ngay_lam": "2026-11-20",
+    "nguoi_lam": "Muse",
+    "so_dong_dau_vao": 37
+  },
+  "sai_ten_hoac_dong": [
+    {
+      "ly_do": "Tên sai: không có 'Thành cổ Chiên Đàn'. Tọa độ trong CSV (15.615843, 108.44255) trùng vị trí Tháp Chiên Đàn (cụm 3 tháp Chăm thế kỷ X–XII; tọa độ 15.61609, 108.44259), thôn Chiên Đàn, xã Tam An cũ, nay xã Tây Hồ, TP Đà Nẵng. Tên đúng theo Nghị quyết 98/2026/NQ-HĐND Đà Nẵng là 'Tháp Chăm Chiên Đàn' (vé tham quan 20.000đ/người/lượt). Đình Chiên Đàn là một di tích khác (thôn Đàn Trung, xã Tam Đàn cũ, nay xã Chiên Đàn), không nhầm lẫn.",
+      "ma": "rh-quang-nam-thanh-co-chien-dan",
+      "nguon": "https://static.luatvietnam.vn/xem-noi-dung-file-nghi-quyet-98-2026-nq-hdnd-da-nang-sua-doi-bo-sung-phi-tham-quan-cong-trinh-van-hoa-444265-d2/uploaded/vietlawfile/2026/08/17/98_2026_nq_hdnd_110917.pdf.aspx"
+    },
+    {
+      "ly_do": "Không tìm thấy địa danh 'Suối nước nóng Thạnh Mỹ' trên bất kỳ nguồn công khai nào (tìm cụm từ chính xác và 'suối nước nóng Nam Giang Quảng Nam du lịch'). Suối nước nóng được ghi nhận ở huyện Nam Giang là ở Đắc Pring, không phải thị trấn Thạnh Mỹ; hai suối nước nóng gần khu vực là Núi Thần Tài (Hòa Vang, Đà Nẵng) và suối Tây Viên (Duy Xuyên). Cần xác minh lại tên và vị trí trước khi đưa vào app.",
+      "ma": "rh-quang-nam-suoi-nuoc-nong-thanh-my",
+      "nguon": "https://luanvan.net.vn/luan-van/de-tai-quy-hoach-du-lich-tinh-quang-nam-63104/"
+    },
+    {
+      "ly_do": "Tạm ngừng đón khách từ 30/09/2024 theo thông báo của Công ty cổ phần Xây dựng Thương mại Du lịch Sao Việt (đăng ngày 26/09/2024) để thực hiện dự án khu du lịch biển Bãi Xép; các lối vào đồi cỏ và ghềnh đá đã rào chắn; chưa có thông báo mở lại (tính đến 20/11/2026)",
+      "ma": "rh-phu-yen-bai-xep",
+      "nguon": "https://tuoitre.vn/khu-bai-xep-trong-phim-toi-thay-hoa-vang-tren-co-xanh-ngung-don-khach-tu-30-9-20240926152330916.htm"
+    }
+  ]
+}
