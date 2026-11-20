@@ -174,10 +174,40 @@
     var hit=findProv(qn), intent=intentOf(qn);
     return hit?answerProv(hit,intent):answerFaq(qn);
   };
+  /* ---------- Trợ lý AI (Gemini qua /api/hoi) ---------- */
+  var AI={on:false,checked:false,lastQ:"",KEY:"buitrip_ai_day",LIMIT:20};
+  function aiCheck(){
+    if(AI.checked) return; AI.checked=true;
+    try{ fetch("/api/hoi",{cache:"no-store"}).then(function(r){ return r.ok?r.json():{}; }).then(function(j){ AI.on=!!(j&&j.enabled); aiBtn(); }).catch(function(){}); }catch(e){}
+  }
+  function aiUsed(){ try{ var d=JSON.parse(localStorage.getItem(AI.KEY)||"{}"); return d.day===new Date().toISOString().slice(0,10)?d.n:0; }catch(e){ return 0; } }
+  function aiCount(){ try{ localStorage.setItem(AI.KEY,JSON.stringify({day:new Date().toISOString().slice(0,10),n:aiUsed()+1})); }catch(e){} }
+  function aiBtn(){
+    var o=document.getElementById("askOut"); if(!o||o.hidden||!AI.on||o.querySelector(".ai-go")) return;
+    o.insertAdjacentHTML("beforeend",'<button class="btn btn-ghost btn-block ai-go" type="button" onclick="askAI()">Hỏi kỹ hơn với trợ lý AI (Gemini)</button><div id="aiOut"></div>');
+  }
+  function aiText(t){ return esc(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").split(/\n+/).map(function(l){ l=l.trim(); if(!l) return ""; return /^[-*•]\s+/.test(l)?'<p class="ai-li">'+l.replace(/^[-*•]\s+/,"")+'</p>':"<p>"+l+"</p>"; }).join(""); }
+  window.askAI=function(){
+    var out=document.getElementById("aiOut"), b=document.querySelector(".ai-go"); if(!out) return;
+    if(aiUsed()>=AI.LIMIT){ out.innerHTML='<p class="small">Hôm nay máy này đã hỏi trợ lý '+AI.LIMIT+' câu. Mai hỏi tiếp nhé.</p>'; return; }
+    var q=AI.lastQ, hit=findProv(norm(q));
+    if(b){ b.disabled=true; b.textContent="Trợ lý đang trả lời…"; }
+    fetch("/api/hoi",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:hit?hit.prov.id:(currentProv?currentProv.id:null),old:hit?hit.old:""})})
+      .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,j:j}; }); })
+      .then(function(x){
+        if(b) b.remove();
+        if(!x.ok||!x.j.answer){ out.innerHTML='<p class="small">'+esc((x.j&&x.j.error)||"Trợ lý đang lỗi, thử lại sau.")+'</p>'; return; }
+        aiCount();
+        out.innerHTML='<div class="ai-ans"><p class="ask-h">Trợ lý AI</p>'+aiText(x.j.answer)+'<p class="small">Gemini trả lời từ dữ liệu cẩm nang; có thể sai, kiểm lại giá và giờ mở cửa trước khi đi.</p></div>';
+      })
+      .catch(function(){ if(b){ b.disabled=false; b.textContent="Hỏi kỹ hơn với trợ lý AI (Gemini)"; } out.innerHTML='<p class="small">Mất kết nối, thử lại.</p>'; });
+  };
   window.askRun=function(){
     var i=document.getElementById("askInput"), o=document.getElementById("askOut"); if(!i||!o) return;
     var v=i.value.trim(); if(!v){ i.focus(); return; }
+    AI.lastQ=v;
     o.innerHTML='<div class="ask-ans">'+askQuick(v)+'</div>'; o.hidden=false;
+    aiBtn();
   };
   window.askChip=function(t){ var i=document.getElementById("askInput"); if(i){ i.value=t; askRun(); } };
 
@@ -186,7 +216,7 @@
     return '<div class="ask-box"><label for="askInput" class="ask-lab">Hỏi nhanh</label>'+
       '<form class="ask-row" onsubmit="askRun();return false"><input id="askInput" type="search" enterkeyhint="search" autocomplete="off" placeholder="Ví dụ: Quy Nhơn ăn gì, Sa Pa tháng mấy đẹp"><button class="btn btn-primary" type="submit">Hỏi</button></form>'+
       '<div class="ask-chips">'+ex.map(function(t){ return '<button class="chip" type="button" onclick="askChip(\''+t.replace(/'/g,"\\'")+'\')">'+esc(t)+'</button>'; }).join("")+'</div>'+
-      '<div id="askOut" hidden></div><p class="small" style="margin:8px 0 0">Trả lời ngay từ dữ liệu cẩm nang trên máy, chưa dùng AI. Hiểu cả tên tỉnh cũ và tên quen gọi.</p></div>';
+      '<div id="askOut" hidden></div><p class="small" style="margin:8px 0 0">Trả lời ngay từ dữ liệu cẩm nang trên máy. Hiểu cả tên tỉnh cũ và tên quen gọi.</p></div>';
   }
   function provFaq(p){
     var name=provLabel(p), qs=[
@@ -209,5 +239,6 @@
     if(p) html+='<button class="btn btn-orange btn-block" style="margin-top:14px" onclick="openProvDetail(\''+p.id+'\')">Mở cẩm nang '+esc(provLabel(p))+'</button>';
     else html+='<button class="btn btn-orange btn-block" style="margin-top:14px" onclick="show(\'destinations\')">Xem 34 tỉnh thành</button>';
     document.getElementById("faqRoot").innerHTML=html;
+    aiCheck();
   };
 })();

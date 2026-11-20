@@ -1,0 +1,5 @@
+{
+  "functions": {
+    "api/hoi.js": { "includeFiles": "data/**", "maxDuration": 30 }
+  }
+}

@@ -472,3 +472,8 @@
 .faq-d summary::after{ content:"+"; position:absolute; right:0; top:50%; transform:translateY(-50%); font-size:20px; color:var(--ink3); }
 .faq-d[open] summary::after{ content:"–"; }
 .faq-d p{ margin:8px 0 0; }
+.ai-go{ margin-top:12px; }
+.ai-ans{ margin-top:12px; border-top:1px dashed var(--line); padding-top:12px; }
+.ai-ans p{ margin:0 0 6px; }
+.ai-li{ padding-left:14px; position:relative; }
+.ai-li::before{ content:"•"; position:absolute; left:2px; color:var(--green); }
