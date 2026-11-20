@@ -1,0 +1,16 @@
+{
+  "name": "BuiTrip – Cẩm nang du lịch tự túc 34 tỉnh thành",
+  "short_name": "BuiTrip",
+  "description": "Địa danh, chỗ ở, món ăn, chi phí và lịch trình tự túc cho 34 tỉnh thành Việt Nam.",
+  "lang": "vi",
+  "start_url": "/?nguon=app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#0f5c33",
+  "icons": [
+    {"src": "/img/icon/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/img/icon/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/img/icon/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

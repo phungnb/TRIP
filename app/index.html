@@ -4,7 +4,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-<link rel="icon" href="data:," />
+<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32.png" />
+<link rel="apple-touch-icon" href="img/icon/apple-touch-icon.png" />
+<link rel="manifest" href="manifest.webmanifest" />
+<script src="js/bao-loi.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="BuiTrip" />
 <title>Cẩm nang du lịch</title>
 <meta name="description" content="Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam: địa danh, chỗ ở kèm số điện thoại, món ăn kèm quán và giá, chi phí ước tính, lịch trình mẫu và công cụ lập kế hoạch." />
 <meta property="og:type" content="website" />
@@ -291,6 +297,7 @@
 <script src="js/explore-extras.js"></script>
 <script src="js/faq.js"></script>
 <script src="js/dong-gop.js"></script>
+<script>if("serviceWorker" in navigator && (location.protocol==="https:"||location.hostname==="localhost")) window.addEventListener("load",function(){ navigator.serviceWorker.register("/sw.js").catch(function(){}); });</script>
 
 
 

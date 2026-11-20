@@ -1,0 +1,7 @@
+{
+  "name": "buitrip-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node du-lieu.mjs && node trinh-duyet.mjs" },
+  "devDependencies": { "playwright": "1.49.1" }
+}
