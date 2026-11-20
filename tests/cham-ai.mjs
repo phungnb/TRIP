@@ -31,7 +31,7 @@ for (const x of bo) {
   const lạ = money.filter(m => m.length >= 2 && hay.indexOf(m) < 0);
   if (!a) console.log("  " + status + " " + x.q + " -> " + (j.error || ""));
   out.push({ q: x.q, prov: j.prov || x.prov, status, ms: Date.now() - t, answer: a, error: j.error || null, so_khong_co_trong_du_lieu: lạ });
-  await new Promise(s => setTimeout(s, 1200));
+  await new Promise(s => setTimeout(s, 14000)); /* gói miễn phí của Gemini giới hạn số câu mỗi phút */
 }
 fs.writeFileSync("ket-qua-ai" + (PHAN ? "-" + PHAN : "") + ".json", JSON.stringify(out, null, 1));
 

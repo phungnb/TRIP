@@ -124,9 +124,28 @@ async function askGemini(key, q, data, hist) {
       .concat([{ role: "user", parts: [{ text: "DỮ LIỆU:\n" + JSON.stringify(data) + "\n\nCÂU HỎI: " + q }] }]),
     generationConfig: { temperature: 0.3, maxOutputTokens: 1024 }
   };
-  const r = await fetch(url, { method: "POST", headers: { "content-type": "application/json", "x-goog-api-key": key }, body: JSON.stringify(body) });
-  const j = await r.json().catch(() => ({}));
-  if (!r.ok) { const e = new Error("gemini " + r.status + " " + cut(JSON.stringify(j.error || j), 300)); e.status = r.status; throw e; }
+  /* Mô hình đời 3 có "suy nghĩ" trước khi trả lời: đặt mức thấp cho nhanh; Google không nhận tham số thì gửi lại không có nó.
+     Lỗi 503 (quá tải tạm thời) thử lại 1 lần. Mỗi lần gọi tối đa 12 giây để cả hàm không quá 30 giây. */
+  body.generationConfig.thinkingConfig = { thinkingLevel: "low" };
+  let r, j, tries = 0;
+  while (true) {
+    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 12000);
+    try {
+      r = await fetch(url, { method: "POST", headers: { "content-type": "application/json", "x-goog-api-key": key }, body: JSON.stringify(body), signal: ctl.signal });
+      j = await r.json().catch(() => ({}));
+    } catch (e) { const er = new Error("gemini timeout"); er.status = 504; throw er; }
+    finally { clearTimeout(tm); }
+    tries++;
+    if (r.status === 400 && body.generationConfig.thinkingConfig && /thinking/i.test(JSON.stringify(j))) { delete body.generationConfig.thinkingConfig; continue; }
+    if (r.status === 503 && tries < 2) { await new Promise(s => setTimeout(s, 1500)); continue; }
+    break;
+  }
+  if (!r.ok) {
+    const er = j.error || j;
+    const why = ((er.details || []).find(d => d.violations) || {}).violations;
+    const e = new Error("gemini " + r.status + " " + cut(er.message || JSON.stringify(er), 160) + (why ? " | " + cut(JSON.stringify(why), 300) : ""));
+    e.status = r.status; throw e;
+  }
   const parts = (((j.candidates || [])[0] || {}).content || {}).parts || [];
   return parts.map(p => p.text || "").join("").trim();
 }
@@ -171,6 +190,6 @@ module.exports = async function handler(req, res) {
     return send(res, 200, { answer, prov: p ? p.id : null, model: MODEL });
   } catch (e) {
     console.error(e.message);
-    return send(res, e.status === 429 ? 429 : 502, { error: e.status === 429 ? "Trợ lý đang quá tải, thử lại sau ít phút." : "Trợ lý đang lỗi, thử lại sau." });
+    return send(res, e.status === 429 || e.status === 503 ? 429 : 502, { error: e.status === 429 || e.status === 503 ? "Trợ lý đang quá tải, thử lại sau ít phút." : e.status === 504 ? "Trợ lý trả lời chậm quá, thử hỏi lại." : "Trợ lý đang lỗi, thử lại sau." });
   }
 };
