@@ -27,6 +27,9 @@
     PROV_DATA.forEach(function(pv){ if(!prov && pv.places.indexOf(p)>=0) prov=pv; });
     if(!prov || !isMerged(prov.id)) return "";
     var o=placeOldProv(p,prov.id);
+    /* tên địa danh hoặc nhãn cụm đã ghi "X cũ" thì không thêm nhãn lặp */
+    var seen=(p.name||"")+" "+(typeof clusterLabel==="function"?clusterLabel(p.cluster):"");
+    if(seen.indexOf(o+" cũ")>=0) return "";
     return ' <span class="badge '+(o===oldList(prov.id)[0]?"badge-soon":"badge-free")+'">('+esc(o)+' cũ)</span>';
   };
   var _destCard=window.destCard;
