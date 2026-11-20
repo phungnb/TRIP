@@ -503,3 +503,24 @@
 .ph-sources summary{ cursor:pointer; font-weight:600; padding:6px 0; }
 .ph-sources ul{ margin:8px 0; padding-left:18px; display:grid; gap:4px; }
 .ph-sources a{ color:inherit; text-decoration:underline; word-break:break-word; }
+
+/* Đóng góp + duyệt */
+.dg-modal textarea{ width:100%; box-sizing:border-box; border:1.5px solid var(--line); border-radius:12px; padding:11px 12px; font-size:var(--fs-body); background:var(--surface); color:var(--ink); font-family:inherit; resize:vertical; }
+.dg-modal .field input,.dg-modal .field select{ width:100%; box-sizing:border-box; }
+.dg-err{ color:#b42318; background:rgba(180,35,24,.08); border-radius:10px; padding:8px 10px; font-size:14px; margin:0 0 10px; }
+.dg-or{ display:flex; align-items:center; gap:10px; margin:14px 0; color:var(--ink2); font-size:13px; }
+.dg-or::before,.dg-or::after{ content:""; flex:1; height:1px; background:var(--line); }
+.dg-list{ display:grid; gap:10px; }
+.dg-item{ border:1px solid var(--line); border-radius:14px; padding:12px; background:var(--surface2); }
+.dg-item p{ margin:6px 0; word-break:break-word; }
+.dg-top{ display:flex; justify-content:space-between; gap:8px; align-items:flex-start; }
+.dg-st{ flex:none; font-size:12px; font-weight:700; padding:3px 8px; border-radius:999px; background:var(--line); color:var(--ink); }
+.dg-st.st-da_duyet,.dg-st.st-da_nhap{ background:rgba(22,128,61,.15); color:var(--green); }
+.dg-st.st-tu_choi{ background:rgba(180,35,24,.12); color:#b42318; }
+.dg-acts{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.dg-acts .btn{ flex:1 1 auto; }
+.dg-acct{ margin-top:12px; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .dg-err{ color:#fda29b; } :root:not([data-theme="light"]) .dg-st.st-tu_choi{ color:#fda29b; } }
+:root[data-theme="dark"] .dg-err,:root[data-theme="dark"] .dg-st.st-tu_choi{ color:#fda29b; }
+.acct-head > div:last-child{ min-width:0; }
+.acct-head p{ overflow-wrap:anywhere; }
