@@ -39,7 +39,7 @@
     ]},
     {g:"Về app", items:[
       {q:"Sổ tem check-in là gì?", a:"Mỗi địa danh có nút Check-in lấy tem. App chỉ tính khi định vị cho thấy bạn đang ở cách điểm đó dưới 1 km (2 km nếu tọa độ là ước tính). Sổ tem gom tem theo 34 tỉnh thành, xem ở trang chủ hoặc tab Tài khoản. Tem lưu trên máy này."},
-      {q:"Dữ liệu lấy từ đâu, có đúng không?", a:"Hiện có {PLACE} địa danh và {DISH} món, mỗi mục ghi nguồn và ngày kiểm. Giá luôn ghi theo khoảng; chỗ nào chưa kiểm được, app ghi rõ là chưa kiểm được thay vì đoán. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."},
+      {q:"Dữ liệu lấy từ đâu, có đúng không?", a:"Hiện có {PLACE} địa danh và {DISH} món, mỗi mục ghi nguồn và ngày kiểm. Đây là thông tin tham khảo, có thể lệch so với thực tế; giá luôn ghi theo khoảng, chỗ nào chưa kiểm được thì app ghi rõ thay vì đoán. Một phần địa danh lấy từ Hộ chiếu khám phá RaceHub, giá và giờ mở cửa đang được bổ sung. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."},
       {q:"App có bán tour, nhận đặt phòng không?", a:"Chưa. Chỗ ở và quán ăn trong app đều chưa phải đối tác và chưa thu phí. Khi có nội dung tài trợ, app sẽ ghi rõ nhãn Tài trợ để bạn phân biệt."}
     ]}
   ];

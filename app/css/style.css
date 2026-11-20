@@ -477,3 +477,8 @@
 .ai-ans p{ margin:0 0 6px; }
 .ai-li{ padding-left:14px; position:relative; }
 .ai-li::before{ content:"•"; position:absolute; left:2px; color:var(--green); }
+.story{ background:var(--surface); border:1px solid var(--line); border-radius:var(--r-md); padding:14px; margin:14px 0; }
+.story p{ margin:0 0 8px; font-size:var(--fs-body); line-height:1.6; }
+.story-food{ background:var(--orange-soft); border-radius:10px; padding:10px 12px; margin:6px 0 8px; display:flex; flex-direction:column; gap:4px; font-size:var(--fs-body); }
+.story-food span{ color:var(--ink2); font-size:var(--fs-cap); line-height:1.5; }
+.ref-note{ font-size:var(--fs-cap); color:var(--ink3); border-top:1px dashed var(--line); padding-top:10px; margin:16px 0 0; line-height:1.5; }
