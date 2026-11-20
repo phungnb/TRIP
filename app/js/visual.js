@@ -147,8 +147,20 @@
   window.ART_SCENE=scene;
   window.provArt=function(provId){ return PROV_ART[provId]||["hills","jade"]; };
   /* Thẻ hình tỉnh: trả về khối HTML có SVG phủ kín khung, cao h px */
+  /* Ảnh thật (PHOTOS trong data/anh.js) phủ lên tranh vẽ; ảnh lỗi thì tự gỡ, tranh vẽ hiện lại. */
+  function escA(t){ return String(t||"").replace(/[&<>"']/g,function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  window.photoImg=function(ph,opt){
+    if(!ph||!ph.u) return "";
+    opt=opt||{};
+    var s=ph.u.replace("{w}","500"), l=ph.u.replace("{w}","960");
+    return '<img class="ph" src="'+s+'" srcset="'+s+' 500w, '+l+' 960w" sizes="'+(opt.sizes||"(max-width:640px) 100vw, 640px")+'" alt="" loading="'+(opt.eager?"eager":"lazy")+'" decoding="async" onerror="var c=this.nextElementSibling;if(c&&c.classList.contains(\'ph-credit\'))c.remove();this.remove()">'+
+      (opt.noCredit?"":'<span class="ph-credit">Ảnh: '+escA(ph.a)+' · '+escA(ph.l)+'</span>');
+  };
+  window.provPhoto=function(provId){ return (window.PHOTOS&&PHOTOS.prov&&PHOTOS.prov[provId])||null; };
+  window.spotPhoto=function(placeId){ return (window.PHOTOS&&PHOTOS.spot&&PHOTOS.spot[placeId])||null; };
   window.provPoster=function(provId,h,extraCls){
-    var a=window.provArt(provId);
-    return '<div class="poster'+(extraCls?" "+extraCls:"")+'" style="height:'+(h||170)+'px">'+scene(a[0],a[1])+'</div>';
+    var a=window.provArt(provId), ph=window.provPhoto(provId);
+    return '<div class="poster'+(extraCls?" "+extraCls:"")+'" style="height:'+(h||170)+'px">'+scene(a[0],a[1])+
+      window.photoImg(ph,{noCredit:h&&h<100, sizes:h&&h<100?"120px":null})+'</div>';
   };
 })();
