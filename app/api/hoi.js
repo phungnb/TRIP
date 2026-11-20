@@ -18,8 +18,9 @@ function loadData() {
   const src = fs.readFileSync(path.join(__dirname, "..", "data", "prov-data.js"), "utf8");
   const sap = fs.readFileSync(path.join(__dirname, "..", "data", "sap-nhap.js"), "utf8");
   const rh = fs.readFileSync(path.join(__dirname, "..", "data", "racehub-places.js"), "utf8");
+  const lg = fs.readFileSync(path.join(__dirname, "..", "data", "lam-giau.js"), "utf8");
   const ctx = { window: {} };
-  vm.runInNewContext(src + "\n" + sap + "\n" + rh + "\n;this.__P=PROV_DATA;this.__S=SAP_NHAP;", ctx);
+  vm.runInNewContext(src + "\n" + sap + "\n" + rh + "\n" + lg + "\n;this.__P=PROV_DATA;this.__S=SAP_NHAP;", ctx);
   DATA = { prov: ctx.__P, sap: ctx.__S };
   return DATA;
 }
@@ -43,7 +44,8 @@ function provContext(p, sap) {
     gom_tinh_cu: sap[p.id] || [p.name],
     trung_tam: p.anchor, ngay_kiem: p.checked || "06/11/2026",
     tong_quan: cut(p.overview, 400), mua_dep: cut((p.season && p.season.best) || p.best_season, 300),
-    dia_danh: (p.places || []).map(x => pick(x, ["name", "address", "old_prov", "dist", "price", "hours", "duration", "suitable", "note", "history"], 200)),
+    dia_danh: (p.places || []).map(x => Object.assign(pick(x, ["name", "address", "old_prov", "dist", "price", "hours", "duration", "suitable", "note", "history"], 200),
+      x.info ? { thuc_te: pick(x.info, ["cach_di", "mua_dep", "gio_dep", "canh_bao_an_toan", "dat_truoc_giay_phep", "trang_phuc"], 160) } : {})),
     mon_an: (p.dishes || []).map(d => Object.assign(pick(d, ["name", "meal", "price"], 160),
       { quan: (d.restaurants || []).slice(0, 3).map(r => pick(r, ["name", "address", "price"], 120)) })),
     cho_o: (p.stays || []).map(s => pick(s, ["name", "address", "area", "kind", "price", "phone"], 160)),

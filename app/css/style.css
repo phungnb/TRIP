@@ -482,3 +482,14 @@
 .story-food{ background:var(--orange-soft); border-radius:10px; padding:10px 12px; margin:6px 0 8px; display:flex; flex-direction:column; gap:4px; font-size:var(--fs-body); }
 .story-food span{ color:var(--ink2); font-size:var(--fs-cap); line-height:1.5; }
 .ref-note{ font-size:var(--fs-cap); color:var(--ink3); border-top:1px dashed var(--line); padding-top:10px; margin:16px 0 0; line-height:1.5; }
+
+/* Thông tin thực tế (Muse bổ sung) */
+.info-box{margin:14px 0;padding:14px 16px;border-radius:14px;background:var(--surface2);border:1px solid var(--line)}
+.info-box dl{margin:0;display:grid;gap:8px}
+.info-row{display:grid;grid-template-columns:118px 1fr;gap:10px;align-items:start}
+.info-row dt{font-weight:600;color:var(--ink2);font-size:.88rem}
+.info-row dd{margin:0;line-height:1.45}
+.info-row.warn dd{color:var(--orange-tx)}
+.src-line{margin:10px 0 0;word-break:break-word}
+.src-line a{color:var(--green)}
+@media (max-width:420px){.info-row{grid-template-columns:1fr;gap:2px}}
