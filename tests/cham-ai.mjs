@@ -29,6 +29,7 @@ for (const x of bo) {
   /* số tiền trong câu trả lời: "250.000đ", "1,2 triệu", "800k" */
   const money = (a.match(/\d[\d.,]*\s*(?:đ|k\b|nghìn|ngàn|triệu)/gi) || []).map(m => digits(m.match(/\d[\d.,]*/)[0]));
   const lạ = money.filter(m => m.length >= 2 && hay.indexOf(m) < 0);
+  if (!a) console.log("  " + status + " " + x.q + " -> " + (j.error || ""));
   out.push({ q: x.q, prov: j.prov || x.prov, status, ms: Date.now() - t, answer: a, error: j.error || null, so_khong_co_trong_du_lieu: lạ });
   await new Promise(s => setTimeout(s, 1200));
 }
