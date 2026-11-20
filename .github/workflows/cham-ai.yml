@@ -1,0 +1,33 @@
+name: Chấm trợ lý AI
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: "Địa chỉ bản cần chấm"
+        default: "https://buitrip.vercel.app"
+jobs:
+  cham:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        phan: [0, 1]
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Chấm 25 câu
+        env:
+          BASE: ${{ inputs.base }}
+          PHAN: ${{ matrix.phan }}
+        run: node cham-ai.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ket-qua-ai-${{ matrix.phan }}
+          path: tests/ket-qua-ai-${{ matrix.phan }}.json

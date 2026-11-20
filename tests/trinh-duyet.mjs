@@ -72,6 +72,11 @@ try {
   s = await tim("zzzqqq");
   ok(/Không thấy kết quả/.test(s.t), "Tìm từ vô nghĩa báo không thấy");
 
+  await page.evaluate(() => { if (window.tlOpen) tlOpen("ht"); });
+  await page.waitForTimeout(200);
+  const tl = await page.evaluate(() => ({ fab: !!document.getElementById("tlFab"), form: !!document.getElementById("tlMsg"), ai: !!document.querySelector(".tl-seg button[data-t=ai]") }));
+  ok(tl.fab && tl.form && tl.ai, "Nút nổi Trợ lý mở được thẻ Hỏi AI và Hỗ trợ");
+  await page.evaluate(() => window.tlClose && tlClose());
   ok(pageErr.length === 0, "Không có lỗi JavaScript" + (pageErr.length ? ": " + pageErr.slice(0, 3).join(" | ") : ""));
 
   /* Mất sóng vẫn mở được (service worker) */

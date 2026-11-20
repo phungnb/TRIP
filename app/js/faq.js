@@ -175,6 +175,7 @@
     var hit=findProv(qn), intent=intentOf(qn);
     return hit?answerProv(hit,intent):answerFaq(qn);
   };
+  window.btFindProv=function(q){ return findProv(norm(q)); };
   /* ---------- Trợ lý AI (Gemini qua /api/hoi) ---------- */
   var AI={on:false,checked:false,lastQ:"",KEY:"buitrip_ai_day",LIMIT:20};
   function aiCheck(){
@@ -231,7 +232,7 @@
 
   window.renderFaq=function(){
     var p=currentProv;
-    var html='<h2 class="sec-title" style="margin-top:2px">Câu hỏi thường gặp</h2><p class="sec-sub">Cẩm nang tự túc 34 tỉnh thành. Câu trả lời viết từ dữ liệu đã kiểm, có nguồn và ngày kiểm trong từng mục.</p>'+askBox(p);
+    var html='<h2 class="sec-title" style="margin-top:2px">Câu hỏi thường gặp</h2><p class="sec-sub">Cẩm nang tự túc 34 tỉnh thành. Câu trả lời viết từ dữ liệu đã kiểm, có ngày kiểm trong từng mục.</p>'+askBox(p);
     if(p) html+=provFaq(p);
     html+='<div class="faq-groups">'+FAQ_VN.map(function(g){
       return '<h2 class="sec-title">'+esc(g.g)+'</h2>'+g.items.map(function(it){ return '<details class="faq-item faq-d"><summary>'+esc(it.q)+'</summary><p>'+esc(fill(it.a))+'</p></details>'; }).join("");

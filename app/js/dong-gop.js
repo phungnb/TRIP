@@ -215,6 +215,41 @@
     }).catch(function(e){ if(typeof toast==="function") toast("Lỗi: "+e.message); });
   };
 
+  /* ---------- admin: tin hỗ trợ (svc.support qua hàm admin_support) ---------- */
+  var supRows=[], SUP={moi:"Mới",da_tra_loi:"Đã trả lời",dong:"Đã xong"};
+  function openSupport(status){
+    if(!isAdmin){ sheet('<h3 id="dgTitle">Không có quyền</h3><button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>'); return; }
+    busy("Tin hỗ trợ");
+    client.rpc("admin_support",{p_status:status||null}).then(function(r){
+      if(r.error) throw new Error(r.error.message);
+      supRows=r.data||[];
+      var tabs=[["moi","Mới"],["da_tra_loi","Đã trả lời"],["dong","Đã xong"],["","Tất cả"]];
+      sheet('<h3 id="dgTitle">Tin hỗ trợ</h3><div class="chiprow chiprow-scroll" style="margin-bottom:10px">'+tabs.map(function(t){
+        return '<button class="chip'+((status||"")===t[0]?" on":"")+'" onclick="dgSupport(\''+t[0]+'\')">'+t[1]+'</button>'; }).join("")+'</div>'+
+        (supRows.length?'<div class="dg-list">'+supRows.map(function(x,i){
+          var mail=/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(x.contact||"");
+          return '<div class="dg-item"><div class="dg-top"><b>'+esc(x.name||"(không tên)")+'</b><span class="dg-st st-'+esc(x.status)+'">'+esc(SUP[x.status]||x.status)+'</span></div>'+
+            '<p class="small">'+esc(fmtTime(x.at))+(x.contact?' · Liên hệ: '+(mail?'<a href="mailto:'+esc(x.contact)+'?subject='+encodeURIComponent("BuiTrip trả lời")+'">'+esc(x.contact)+'</a>':esc(x.contact)):' · Không để liên hệ (chỉ xem trả lời trong app)')+(x.page?' · Trang '+esc(x.page):'')+'</p>'+
+            '<p style="white-space:pre-wrap">'+esc(x.msg)+'</p>'+
+            '<textarea id="supRe'+i+'" rows="3" maxlength="2000" placeholder="Trả lời (hiện trong app của người gửi)">'+esc(x.reply||"")+'</textarea>'+
+            '<div class="dg-acts"><button class="btn btn-ghost" onclick="dgSupReply('+i+',\'dong\')">Đánh dấu xong</button><button class="btn btn-primary" onclick="dgSupReply('+i+',\'da_tra_loi\')">Gửi trả lời</button></div></div>';
+        }).join("")+'</div>':'<p class="muted">Không có tin nào ở mục này.</p>')+
+        '<button class="btn btn-ghost btn-block" style="margin-top:12px" onclick="dgClose()">Đóng</button>');
+      window._dgSupStatus=status||"";
+    }).catch(function(e){ sheet('<h3 id="dgTitle">Tin hỗ trợ</h3>'+errBox(e.message)+'<button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>'); });
+  }
+  window.dgSupport=function(s){ if(!me) return needLogin({t:"admin"}); openSupport(s); };
+  window.dgSupReply=function(i,status){
+    var x=supRows[i]; if(!x) return;
+    var re=((document.getElementById("supRe"+i)||{}).value||"").trim();
+    if(status==="da_tra_loi"&&!re){ if(typeof toast==="function") toast("Nhập nội dung trả lời"); return; }
+    client.rpc("admin_support_reply",{p_id:x.id,p_reply:re,p_status:status}).then(function(r){
+      if(r.error) throw new Error(r.error.message);
+      if(typeof toast==="function") toast(SUP[status]);
+      openSupport(window._dgSupStatus);
+    }).catch(function(e){ if(typeof toast==="function") toast("Lỗi: "+e.message); });
+  };
+
   /* ---------- khối tài khoản ---------- */
   function renderAcct(){
     var head=document.querySelector("#view-account .acct-head"); if(!head) return;
@@ -228,7 +263,7 @@
     if(me){
       b.textContent=me.name||me.email||"Đã đăng nhập";
       p.textContent=(me.email||"")+" · Chuyến đi và mục đã lưu vẫn giữ trong trình duyệt này.";
-      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<button class="btn btn-primary" onclick="dgAdmin(\'cho_duyet\')">Duyệt đóng góp</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
+      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<button class="btn btn-primary" onclick="dgAdmin(\'cho_duyet\')">Duyệt đóng góp</button><button class="btn btn-primary" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
     } else {
       b.textContent="Chưa đăng nhập";
       p.textContent="Không cần tài khoản để xem cẩm nang và lập chuyến (lưu trong trình duyệt). Đăng nhập để gửi đóng góp sửa thông tin, gợi ý địa danh.";
