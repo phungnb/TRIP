@@ -31,7 +31,7 @@
   function findPlace(s){ var p=provById(s.prov); if(!p) return null; for(var i=0;i<p.places.length;i++) if(p.places[i].id===s.place) return p.places[i]; return null; }
   function spotOpen(i){ var s=SPOTS[i]; if(findPlace(s)) openProvPlace(s.prov,s.place); else openProvDetail(s.prov); }
   window.homeSpotOpen=spotOpen;
-  function art(a,h){ return '<div class="poster" style="height:'+h+'px">'+ART_SCENE(a[0],a[1])+'</div>'; }
+  function art(a,h,ph){ return '<div class="poster" style="height:'+h+'px">'+ART_SCENE(a[0],a[1])+photoImg(ph,{sizes:"(max-width:640px) 80vw, 320px"})+'</div>'; }
   function provShort(id){ var p=provById(id); return p?(id==="lam-dong"?"Lâm Đồng":p.name):""; }
 
   /* ---------- Slide động ---------- */
@@ -39,7 +39,7 @@
     var list=SPOTS.filter(function(s){ return s.slide && provById(s.prov); });
     var slides=list.map(function(s){
       var i=SPOTS.indexOf(s), p=provById(s.prov);
-      return '<div class="hs-slide" role="group" aria-roledescription="slide" aria-label="'+esc(s.title)+'">'+ART_SCENE(s.art[0],s.art[1])+
+      return '<div class="hs-slide" role="group" aria-roledescription="slide" aria-label="'+esc(s.title)+'">'+ART_SCENE(s.art[0],s.art[1])+photoImg(spotPhoto(s.place),{eager:list.indexOf(s)===0, sizes:"(max-width:960px) 100vw, 960px"})+
         '<div class="hs-veil"></div><div class="hs-cap"><span class="hs-kicker">'+esc(provShort(s.prov))+' · '+esc(regionLabel(p.region))+'</span>'+
         '<h2>'+esc(s.title)+'</h2><p>'+esc(s.tag)+'</p>'+
         '<button class="hs-cta" onclick="homeSpotOpen('+i+')">Khám phá ngay <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></div>';
@@ -82,7 +82,7 @@
   function spotCard(s){
     /* Không hiện giá ở thẻ: giá nhiều thành phần (vé, tàu, cáp) rút gọn dễ hiểu sai; xem ở trang chi tiết */
     var i=SPOTS.indexOf(s);
-    return '<button class="spot" onclick="homeSpotOpen('+i+')">'+art(s.art,210)+'<div class="spot-veil"></div><div class="spot-cap"><span class="spot-prov">'+esc(provShort(s.prov))+'</span><h3>'+esc(s.title)+'</h3><p>'+esc(s.tag)+'</p><span class="spot-price">Xem giá, giờ mở cửa</span></div></button>';
+    return '<button class="spot" onclick="homeSpotOpen('+i+')">'+art(s.art,210,spotPhoto(s.place))+'<div class="spot-veil"></div><div class="spot-cap"><span class="spot-prov">'+esc(provShort(s.prov))+'</span><h3>'+esc(s.title)+'</h3><p>'+esc(s.tag)+'</p><span class="spot-price">Xem giá, giờ mở cửa</span></div></button>';
   }
   function renderSpots(){
     var box=document.getElementById("homeSpots"); if(!box) return;
@@ -117,7 +117,7 @@
     var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent=total+" tỉnh/thành có mùa đẹp rơi vào tháng "+m+" (theo cẩm nang từng tỉnh).";
     box.innerHTML=list.map(function(p){
       var a=provArt(p.id);
-      return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110)+'<div class="season-body"><h3>'+esc(p.id==="lam-dong"?"Đà Lạt · Lâm Đồng":p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';
+      return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110,provPhoto(p.id))+'<div class="season-body"><h3>'+esc(p.id==="lam-dong"?"Đà Lạt · Lâm Đồng":p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';
     }).join("") || '<p class="muted">Chưa có tỉnh nào ghi mùa đẹp trùng tháng này.</p>';
   }
 
@@ -127,7 +127,7 @@
     var P=typeof PROV_DATA!=="undefined"?PROV_DATA:[];
     box.innerHTML=[["bac","lao-cai","Núi cao, ruộng bậc thang, vịnh đá vôi"],["trung","hue","Cố đô, phố cổ, biển dài và cao nguyên"],["nam","can-tho","Sông nước, chợ nổi, miệt vườn, phố thị"]].map(function(r){
       var n=P.filter(function(p){ return p.region===r[0]; }).length;
-      return '<button class="region" onclick="homeRegion(\''+r[0]+'\')">'+art(provArt(r[1]),120)+'<div class="region-veil"></div><div class="region-cap"><h3>'+regionLabel(r[0])+'</h3><p>'+n+' tỉnh/thành · '+esc(r[2])+'</p></div></button>';
+      return '<button class="region" onclick="homeRegion(\''+r[0]+'\')">'+art(provArt(r[1]),120,provPhoto(r[1]))+'<div class="region-veil"></div><div class="region-cap"><h3>'+regionLabel(r[0])+'</h3><p>'+n+' tỉnh/thành · '+esc(r[2])+'</p></div></button>';
     }).join("");
   }
   window.homeRegion=function(r){
@@ -164,11 +164,22 @@
     inp.addEventListener("input",upd); inp.addEventListener("search",upd);
   }
 
+  /* Danh sách nguồn ảnh: ghi tác giả + giấy phép theo yêu cầu CC BY / CC BY-SA */
+  function renderPhotoSrc(){
+    var box=document.getElementById("homePhotoSrc"); if(!box||!window.PHOTOS) return;
+    var rows=[];
+    SPOTS.forEach(function(s){ var ph=spotPhoto(s.place); if(ph) rows.push([s.title,ph]); });
+    PROV_DATA.forEach(function(p){ var ph=provPhoto(p.id); if(ph) rows.push([p.name,ph]); });
+    box.innerHTML='<summary>Nguồn ảnh ('+rows.length+' ảnh, Wikimedia Commons)</summary><ul>'+rows.map(function(r){
+      return '<li><b>'+esc(r[0])+'</b>: <a href="'+esc(r[1].p)+'" target="_blank" rel="noopener">'+esc(r[1].t.replace(/\.(jpe?g|png|webp)$/i,""))+'</a> · '+esc(r[1].a)+' · '+esc(r[1].l)+'</li>';
+    }).join("")+'</ul><p class="small">Ảnh dùng theo giấy phép mở ghi kèm; bấm tên ảnh để xem trang gốc và điều khoản.</p>';
+  }
+
   function renderHome(){
     var hs=document.getElementById("homeSlides"); if(hs){ hs.innerHTML=slidesHtml(); hsBind(); }
     var th=document.getElementById("homeThemes");
     if(th) th.innerHTML=THEMES.map(function(t){ return '<button class="chip'+(t[0]===theme?" on":"")+'" data-t="'+t[0]+'" onclick="homeTheme(\''+t[0]+'\')">'+t[1]+'</button>'; }).join("");
-    renderStats(); renderSpots(); renderSeason(); renderRegions(); renderDishes(); bindSearchMode();
+    renderStats(); renderSpots(); renderSeason(); renderRegions(); renderDishes(); renderPhotoSrc(); bindSearchMode();
   }
   window.HOME_SPOTS=SPOTS;
   renderHome();
