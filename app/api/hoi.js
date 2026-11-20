@@ -3,14 +3,18 @@
    POST {q, prov, old} -> {answer}
    - Khóa API chỉ nằm ở biến môi trường Vercel, không bao giờ gửi xuống trình duyệt.
    - Chỉ gửi cho Gemini dữ liệu của đúng 1 tỉnh (lấy từ data/prov-data.js), không gửi cả 34 tỉnh.
-   - Giới hạn: câu hỏi tối đa 400 ký tự; mỗi IP 30 câu/ngày trên mỗi phiên bản hàm (giới hạn mềm,
-     chưa có cơ sở dữ liệu). Trần chi thật đặt ở Google AI Studio / Google Cloud. */
+   - Giới hạn: câu hỏi tối đa 400 ký tự; mỗi IP 30 câu/ngày, đếm trong Neon (svc.ai_quota) nên
+     không mất khi hàm khởi động lại; Neon lỗi thì đếm tạm trong bộ nhớ. Thêm trần chung
+     cả app mỗi ngày (AI_DAY_CAP, mặc định 1500 câu). Trần chi thật đặt ở Google AI Studio. */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const MAX_Q = 400, PER_IP_DAY = 30;
+const DAY_CAP = Number(process.env.AI_DAY_CAP || 1500);
+const { sql } = require("./_db");
+const crypto = require("crypto");
 
 let DATA = null;
 function loadData() {
@@ -26,12 +30,28 @@ function loadData() {
 }
 
 const hits = new Map(); // ip|ngày -> số lần
-function allow(ip) {
+function allowMem(ip) {
   const k = ip + "|" + new Date().toISOString().slice(0, 10);
   const n = (hits.get(k) || 0) + 1;
   hits.set(k, n);
   if (hits.size > 5000) hits.clear();
-  return n <= PER_IP_DAY;
+  return n <= PER_IP_DAY ? "" : "ip";
+}
+/* Trả "" nếu được hỏi, "ip" nếu IP hết lượt, "all" nếu cả app hết trần ngày. IP chỉ lưu dạng băm. */
+async function allow(ip) {
+  const day = new Date().toISOString().slice(0, 10);
+  const kip = "ip:" + crypto.createHash("sha256").update(ip + "|bt").digest("hex").slice(0, 24) + ":" + day;
+  const kall = "all:" + day;
+  try {
+    const q = "insert into svc.ai_quota(k,n,day) values ($1,1,current_date) on conflict (k) do update set n=svc.ai_quota.n+1 returning n";
+    const a = await sql(q, [kall]);
+    if (Number(a[0] && a[0].n) > DAY_CAP) return "all";
+    const b = await sql(q, [kip]);
+    if (Math.random() < 0.02) sql("delete from svc.ai_quota where day < current_date - 7", []).catch(() => {});
+    return Number(b[0] && b[0].n) > PER_IP_DAY ? "ip" : "";
+  } catch (e) {
+    return allowMem(ip);
+  }
 }
 
 function cut(s, n) { s = s == null ? "" : String(s); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
@@ -111,7 +131,9 @@ module.exports = async function handler(req, res) {
   if (!q) return send(res, 400, { error: "Thiếu câu hỏi." });
   if (q.length > MAX_Q) return send(res, 400, { error: "Câu hỏi dài quá " + MAX_Q + " ký tự." });
   const ip = String(req.headers["x-forwarded-for"] || "").split(",")[0].trim() || "?";
-  if (!allow(ip)) return send(res, 429, { error: "Hôm nay bạn đã hỏi đủ " + PER_IP_DAY + " câu. Mai hỏi tiếp nhé, hoặc dùng Hỏi nhanh." });
+  const lim = await allow(ip);
+  if (lim === "ip") return send(res, 429, { error: "Hôm nay bạn đã hỏi đủ " + PER_IP_DAY + " câu. Mai hỏi tiếp nhé, hoặc dùng Hỏi nhanh." });
+  if (lim === "all") return send(res, 429, { error: "Trợ lý đã hết lượt trong hôm nay. Mai hỏi tiếp nhé, hoặc dùng Hỏi nhanh." });
   let d;
   try { d = loadData(); } catch (e) { console.error("load data", e); return send(res, 500, { error: "Không đọc được dữ liệu." }); }
   const p = d.prov.find(x => x.id === b.prov);

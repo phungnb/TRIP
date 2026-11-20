@@ -1,0 +1,23 @@
+name: Kiểm tra app
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  kiem-tra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Kiểm dữ liệu
+        run: node du-lieu.mjs
+      - name: Cài trình duyệt
+        run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
+      - name: Kiểm trên trình duyệt
+        run: node trinh-duyet.mjs

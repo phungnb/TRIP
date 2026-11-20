@@ -1089,10 +1089,13 @@ function loadLeaflet(cb){
 function hideProvMapLoading(){ var l=document.getElementById("mapProvLoading"); if(l) l.style.display="none"; }
 function fitProvMap(){
   if(!provMap) return;
+  /* Trang tỉnh đã vẽ lại (đổi tỉnh) thì bản đồ cũ không còn trên trang: bỏ qua, tránh lỗi _leaflet_pos */
+  var ct=provMap.getContainer&&provMap.getContainer();
+  if(!ct || !document.body.contains(ct) || !ct.offsetWidth) return;
   try{ provMap.invalidateSize(); }catch(e){}
   try{
-    if(provMapPts.length>1) provMap.fitBounds(provMapPts,{padding:[24,24]});
-    else if(provMapPts.length===1) provMap.setView(provMapPts[0],12);
+    if(provMapPts.length>1) provMap.fitBounds(provMapPts,{padding:[24,24],animate:false});
+    else if(provMapPts.length===1) provMap.setView(provMapPts[0],12,{animate:false});
   }catch(e){}
 }
 function initProvMap(){
@@ -1426,7 +1429,8 @@ document.getElementById("searchInput").addEventListener("input",function(){
   }
   var rainOut=rainySearchHits(q).map(rainySearchCard);
   var allOut=rainOut.concat(out);
-  var gap=(oldArea && out.length>1)?null:missingAreaFor(q);
+  /* Có kết quả thật thì hiện kết quả; chỉ báo "chưa có" khi dữ liệu thật sự trống */
+  var gap=out.length?null:missingAreaFor(q);
   box.innerHTML = gap ? '<div class="empty"><p style="margin:0 0 8px"><b>'+esc(gap.name)+' chưa có trong app.</b> Sau sáp nhập 01/07/2025, nơi này thuộc '+esc(gap.provName)+', nhưng dữ liệu hiện mới phủ '+esc(gap.covered)+'. Đội Bụi Code đang bổ sung.</p><button class="btn btn-ghost btn-block" onclick="openProvDetail(\''+gap.prov+'\')">Xem cẩm nang '+esc(gap.provName)+' hiện có</button></div>'+(allOut.length?'<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Kết quả gần đúng khác</h3><div class="listcol">'+allOut.slice(0,10).join("")+'</div>':'')
     : allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
     : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
