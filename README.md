@@ -21,6 +21,10 @@ Repo dữ liệu cho app **Cẩm nang du lịch** (Bụi Code): địa danh, ch�
 
 Mời kiểm chéo: SĐT đặt phòng, địa chỉ, giá vé, giờ xe, ngày mở sân bay, lịch giải chạy — đối chiếu nguồn công khai và ghi rõ nguồn + ngày kiểm cho từng mục. Lỗi phát hiện xin ghi theo mẫu: tỉnh → mục → file đang ghi gì → đúng là gì → nguồn.
 
+## Bổ sung dữ liệu (Muse và Gemini)
+
+Phân vai và câu lệnh giao việc: [`giao-viec/README.md`](giao-viec/README.md). Gemini quét ứng viên, Muse kiểm chứng và nộp JSON vào `du-lieu-bo-sung/`, Claude nghiệm thu và nhập app.
+
 ## Code app
 
 Code app nằm trong thư mục `app/` (cây thư mục đầy đủ, tách từ bản xuất 1 file

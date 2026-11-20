@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "dot": 1,
+    "nguoi_lam": "Muse",
+    "ngay_lam": "2026-11-21",
+    "so_dong_dau_vao": 37
+  },
+  "lam_giau": [
+    {
+      "ma": "rh-binh-dinh-ghenh-rang-tien-sa",
+      "dia_chi": "phường Quy Nhơn Nam (phường Ghềnh Ráng cũ), Gia Lai",
+      "lat": 13.74231,
+      "lng": 109.21581,
+      "toa_do_xap_xi": false,
+      "loai": "thiên nhiên",
+      "xep_hang": null,
+      "gia_ve": "khoảng 20.000–30.000đ/người (xem 21/11/2026)",
+      "gio_mo_cua": "6:00–18:00",
+      "thoi_gian": "1–2 giờ",
+      "mua_dep": "tháng 3–8; tránh tháng 10–12 (mưa bão)",
+      "cach_di": "từ trung tâm Quy Nhơn đi taxi hoặc xe máy khoảng 4 km",
+      "gio_dep": "sáng sớm hoặc chiều muộn",
+      "phi_gui_xe": "xe máy khoảng 5.000đ",
+      "hop_tre_em": "có",
+      "hop_nguoi_gia": "hạn chế",
+      "xe_lan": "không",
+      "trang_phuc": null,
+      "dat_truoc_giay_phep": null,
+      "le_hoi": null,
+      "canh_bao_an_toan": "đá trơn khi sóng lớn",
+      "wc_an_uong_tai_cho": "có",
+      "anh": {
+        "url": "https://commons.wikimedia.org/wiki/File:...",
+        "tac_gia": "...",
+        "giay_phep": "CC BY-SA 4.0"
+      },
+      "nguon": [
+        {
+          "url": "https://...",
+          "ngay_xem": "2026-11-21",
+          "dung_cho": "gia_ve, gio_mo_cua"
+        },
+        {
+          "url": "https://...",
+          "ngay_xem": "2026-11-21",
+          "dung_cho": "dia_chi"
+        }
+      ]
+    }
+  ],
+  "sai_ten_hoac_dong": [
+    {
+      "ma": "rh-...",
+      "ly_do": "đã đóng cửa từ 2024",
+      "nguon": "https://..."
+    }
+  ],
+  "_ghi_chu": "Ví dụ minh họa định dạng, số liệu trong ví dụ KHÔNG phải dữ liệu thật. Trường không tìm được để null."
+}

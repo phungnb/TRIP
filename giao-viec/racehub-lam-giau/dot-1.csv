@@ -1,0 +1,38 @@
+﻿ma,tinh_moi,tinh_cu,ten,lat,lng,thieu
+rh-da-nang-dinh-ban-co-son-tra,Đà Nẵng,Đà Nẵng,Đỉnh Bàn Cờ Sơn Trà,16.119986,108.275946,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-da-nang-cau-tinh-yeu-va-bo-song-han,Đà Nẵng,Đà Nẵng,Cầu Tình Yêu và bờ sông Hàn,16.062997,108.229815,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-da-nang-ban-dao-son-tra-duong-vong,Đà Nẵng,Đà Nẵng,Bán đảo Sơn Trà - đường vòng,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-da-nang-bai-bien-pham-van-dong,Đà Nẵng,Đà Nẵng,Bãi biển Phạm Văn Đồng,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-da-nang-cau-quay-song-han,Đà Nẵng,Đà Nẵng,Cầu Quay Sông Hàn,16.07215,108.226796,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-da-nang-chua-quan-the-am,Đà Nẵng,Đà Nẵng,Chùa Quán Thế Âm,15.998751,108.255143,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-da-nang-cong-vien-bien-dong,Đà Nẵng,Đà Nẵng,Công viên Biển Đông,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-da-nang-khu-du-lich-suoi-hoa,Đà Nẵng,Đà Nẵng,Khu du lịch Suối Hoa,15.95841,107.995021,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-bai-bien-an-bang,Đà Nẵng,Quảng Nam,Bãi biển An Bàng,15.913607,108.340649,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-cu-lao-cham,Đà Nẵng,Quảng Nam,Cù Lao Chàm,15.941552,108.481026,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-thanh-co-chien-dan,Đà Nẵng,Quảng Nam,Thành cổ Chiên Đàn,15.615843,108.44255,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-cho-hoi-an,Đà Nẵng,Quảng Nam,Chợ Hội An,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-quang-nam-hoi-quan-phuc-kien,Đà Nẵng,Quảng Nam,Hội quán Phúc Kiến,15.877485,108.330628,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-lang-rau-tra-que,Đà Nẵng,Quảng Nam,Làng rau Trà Quế,15.900755,108.33825,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-bai-bien-cua-dai,Đà Nẵng,Quảng Nam,Bãi biển Cửa Đại,15.901809,108.360013,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-quang-nam-suoi-nuoc-nong-thanh-my,Đà Nẵng,Quảng Nam,Suối nước nóng Thạnh Mỹ,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-quang-nam-lang-co-phuoc-kieu,Đà Nẵng,Quảng Nam,Làng cổ Phước Kiều,15.86878,108.261339,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kon-tum-nha-tho-go-kon-tum,Quảng Ngãi,Kon Tum,Nhà thờ Gỗ Kon Tum,14.34505,108.013223,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kon-tum-cau-treo-kon-klor,Quảng Ngãi,Kon Tum,Cầu treo Kon Klor,14.347689,108.035141,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kon-tum-lang-kon-tu-rang,Quảng Ngãi,Kon Tum,Làng Kon Tu Rằng,,,dia_chi;gia_ve;gio_mo_cua;thoi_gian;toa_do;nguon
+rh-kon-tum-nguc-kon-tum,Quảng Ngãi,Kon Tum,Ngục Kon Tum,14.343634,107.991742,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kon-tum-deo-mang-den,Quảng Ngãi,Kon Tum,Đèo Măng Đen,14.574119,108.276574,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-kon-tum-cho-kon-tum,Quảng Ngãi,Kon Tum,Chợ Kon Tum,14.349314,108.003087,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-binh-dinh-ghenh-rang-tien-sa,Gia Lai,Bình Định,Ghềnh Ráng Tiên Sa,13.742313,109.215812,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-binh-dinh-bai-xep,Gia Lai,Bình Định,Bãi Xép,13.684626,109.231308,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-binh-dinh-thanh-hoang-de,Gia Lai,Bình Định,Thành Hoàng Đế,13.925714,109.070923,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-binh-dinh-bao-tang-quang-trung,Gia Lai,Bình Định,Bảo tàng Quang Trung,13.920562,108.920841,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-binh-dinh-ham-ho,Gia Lai,Bình Định,Hầm Hô,13.873638,108.862675,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-gia-lai-cho-pleiku,Gia Lai,Gia Lai,Chợ Pleiku,13.978669,107.996324,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-phu-yen-bai-xep,Đắk Lắk,Phú Yên,Bãi Xép,13.191539,109.30146,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-phu-yen-mui-dai-lanh,Đắk Lắk,Phú Yên,Mũi Đại Lãnh,12.895829,109.456732,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-phu-yen-vinh-xuan-dai,Đắk Lắk,Phú Yên,Vịnh Xuân Đài,13.394279,109.271259,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-phu-yen-thanh-an-tho,Đắk Lắk,Phú Yên,Thành An Thổ,13.345493,109.217434,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-phu-yen-dam-o-loan,Đắk Lắk,Phú Yên,Đầm Ô Loan,13.280923,109.274232,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-dak-lak-bao-tang-dak-lak,Đắk Lắk,Đắk Lắk,Bảo tàng Đắk Lắk,12.676146,108.042202,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-dak-lak-thac-gia-long,Đắk Lắk,Đắk Lắk,Thác Gia Long,12.54023,107.886501,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
+rh-dak-lak-quang-truong-10-3,Đắk Lắk,Đắk Lắk,Quảng trường 10/3,12.685716,108.05116,dia_chi;gia_ve;gio_mo_cua;thoi_gian;nguon
