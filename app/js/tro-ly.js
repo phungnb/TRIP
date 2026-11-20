@@ -26,7 +26,7 @@
       v=document.createElement("div"); v.id="tlVeil"; v.className="modal-veil";
       v.innerHTML='<div class="modal tl-modal" role="dialog" aria-modal="true" aria-labelledby="tlTitle"><div class="tl-head"><h3 id="tlTitle">Trợ lý BuiTrip</h3><button class="tl-x" type="button" aria-label="Đóng" onclick="tlClose()">×</button></div>'+
         '<div class="seg tl-seg" role="tablist"><button type="button" role="tab" data-t="ai" onclick="tlTab(\'ai\')">Hỏi trợ lý AI</button><button type="button" role="tab" data-t="ht" onclick="tlTab(\'ht\')">Hỗ trợ</button></div><div id="tlBody"></div></div>';
-      v.addEventListener("click",function(x){ if(x.target===v) close(); });
+      v.addEventListener("click",function(x){ if(x.target===v) return close(); var t=x.target.closest&&x.target.closest(".tl-quick button,.tl-quick a"); if(t) setTimeout(close,0); });
       document.body.appendChild(v);
     }
     return v;
@@ -57,7 +57,7 @@
     var m=msgs(), p=st.prov;
     var ex=p?["Ăn gì ở "+provName(p)+"?","Ở "+provName(p)+" chỗ nào dưới 500k?","Lịch 2 ngày ở "+provName(p)+"?"]:["Phú Quốc 3 ngày hết bao nhiêu?","Hà Giang tháng mấy đẹp?","Mưa ở Đà Nẵng đi đâu?"];
     return '<div id="tlLog" class="tl-log" aria-live="polite">'+
-      (m.length?m.map(function(x){ return x.r==="u"?'<div class="tl-u">'+e(x.t)+'</div>':'<div class="tl-a'+(x.err?" tl-err":"")+'">'+(x.err?e(x.t):md(x.t))+'</div>'; }).join(""):
+      (m.length?m.map(function(x){ return x.r==="u"?'<div class="tl-u">'+e(x.t)+'</div>':x.h?'<div class="tl-a tl-quick"><p class="small"><b>Trả lời nhanh từ dữ liệu cẩm nang</b></p>'+x.t+'</div>':'<div class="tl-a'+(x.err?" tl-err":"")+'">'+(x.err?e(x.t):md(x.t))+'</div>'; }).join(""):
         '<div class="tl-a"><p>Chào bạn. Hỏi gì về đi lại, ăn ở, giá vé, lịch trình ở 34 tỉnh thành đều được.'+(p?' Đang xem <b>'+e(provName(p))+'</b>, trợ lý sẽ trả lời theo tỉnh này nếu bạn không nêu tỉnh khác.':'')+'</p></div>'+
         '<div class="ask-chips">'+ex.map(function(t){ return '<button class="chip" type="button" onclick="tlAsk(this.textContent)">'+e(t)+'</button>'; }).join("")+'</div>')+
       (st.busy?'<div class="tl-a tl-wait">Trợ lý đang trả lời…</div>':'')+'</div>'+
@@ -72,17 +72,21 @@
     if(used()>=LIMIT){ m.push({r:"u",t:q},{r:"a",t:"Hôm nay máy này đã hỏi trợ lý "+LIMIT+" câu. Mai hỏi tiếp nhé, hoặc gửi tin ở thẻ Hỗ trợ.",err:1}); ss(KEY_CHAT,m); render(); return; }
     var hit=typeof window.btFindProv==="function"?window.btFindProv(q):null;
     var hint=st.prov; if(hit&&hit.prov) st.prov=hit.prov;
-    var hist=[]; for(var k=0;k<m.length-1;k++){ if(m[k].r==="u"&&m[k+1].r==="a"&&!m[k+1].err) hist.push({q:m[k].t,a:m[k+1].t}); }
+    var hist=[]; for(var k=0;k<m.length-1;k++){ if(m[k].r==="u"&&m[k+1].r==="a"&&!m[k+1].err&&!m[k+1].h) hist.push({q:m[k].t,a:m[k+1].t}); }
     m.push({r:"u",t:q}); ss(KEY_CHAT,m); st.busy=true; render();
     fetch("/api/hoi",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:hit&&hit.prov?hit.prov.id:null,hint:hint?hint.id:null,old:hit?hit.old:"",hist:hist.slice(-3)})})
       .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,j:j}; },function(){ return {ok:false,j:{}}; }); })
       .then(function(x){
         var m2=msgs();
-        if(!x.ok||!x.j.answer) m2.push({r:"a",t:(x.j&&x.j.error)||"Trợ lý đang lỗi, thử lại sau.",err:1});
+        if(!x.ok||!x.j.answer){
+          m2.push({r:"a",t:((x.j&&x.j.error)||"Trợ lý đang lỗi, thử lại sau.")+(typeof window.askQuick==="function"?" Dưới đây là trả lời nhanh từ dữ liệu cẩm nang.":""),err:1});
+          /* Trợ lý AI lỗi hoặc hết lượt: vẫn trả lời bằng bộ hỏi nhanh chạy trên máy (html sinh từ dữ liệu, đã escape) */
+          try{ if(typeof window.askQuick==="function") m2.push({r:"a",h:1,t:window.askQuick(q)}); }catch(z){}
+        }
         else { count(); m2.push({r:"a",t:x.j.answer}); }
         ss(KEY_CHAT,m2.slice(-24));
       })
-      .catch(function(){ var m2=msgs(); m2.push({r:"a",t:"Mất kết nối, thử lại.",err:1}); ss(KEY_CHAT,m2); })
+      .catch(function(){ var m2=msgs(); m2.push({r:"a",t:"Mất kết nối. Dưới đây là trả lời nhanh từ dữ liệu trên máy.",err:1}); try{ if(typeof window.askQuick==="function") m2.push({r:"a",h:1,t:window.askQuick(q)}); }catch(z){} ss(KEY_CHAT,m2); })
       .then(function(){ st.busy=false; if(st.tab==="ai") render(); var n=document.getElementById("tlIn"); if(n) n.focus(); });
   };
 
