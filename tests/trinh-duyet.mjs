@@ -22,8 +22,9 @@ const loi = [];
 const ok = (c, m) => { if (!c) loi.push(m); console.log((c ? "  đạt  " : "  LỖI  ") + m); };
 const opts = process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY, bypass: "localhost,127.0.0.1" } } : {};
 const browser = await chromium.launch(opts);
-const ctx = await browser.newContext({ ...devices["iPhone 13"] });
-await ctx.route(/tile\.openstreetmap|googleapis|gstatic|unpkg|_vercel/, r => r.abort());
+/* Trang chính chặn service worker để mọi yêu cầu đi qua route; thư viện bản đồ vẫn tải thật để bắt lỗi bản đồ */
+const ctx = await browser.newContext({ ...devices["iPhone 13"], serviceWorkers: "block" });
+await ctx.route(/arcgisonline|tile\.openstreetmap|fonts\.googleapis|gstatic|_vercel/, r => r.abort());
 const page = await ctx.newPage();
 const pageErr = [];
 page.on("pageerror", e => pageErr.push(e.message));
@@ -51,6 +52,7 @@ try {
     const n = await page.locator(".segtabs button").count();
     let txt = "";
     for (let k = 0; k < n; k++) { await page.locator(".segtabs button").nth(k).click(); txt += await page.evaluate(() => document.body.innerText); }
+    await page.waitForTimeout(600);
     ok(n >= 5, id + ": có " + n + " tab");
     const lo = (txt.match(/[^\n]*\bNguồn( tham khảo)?:[^\n]*/g) || []);
     ok(lo.length === 0, id + ": không hiện dòng nguồn" + (lo.length ? " (" + lo[0].slice(0, 60) + ")" : ""));

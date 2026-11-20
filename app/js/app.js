@@ -1089,10 +1089,13 @@ function loadLeaflet(cb){
 function hideProvMapLoading(){ var l=document.getElementById("mapProvLoading"); if(l) l.style.display="none"; }
 function fitProvMap(){
   if(!provMap) return;
+  /* Trang tỉnh đã vẽ lại (đổi tỉnh) thì bản đồ cũ không còn trên trang: bỏ qua, tránh lỗi _leaflet_pos */
+  var ct=provMap.getContainer&&provMap.getContainer();
+  if(!ct || !document.body.contains(ct) || !ct.offsetWidth) return;
   try{ provMap.invalidateSize(); }catch(e){}
   try{
-    if(provMapPts.length>1) provMap.fitBounds(provMapPts,{padding:[24,24]});
-    else if(provMapPts.length===1) provMap.setView(provMapPts[0],12);
+    if(provMapPts.length>1) provMap.fitBounds(provMapPts,{padding:[24,24],animate:false});
+    else if(provMapPts.length===1) provMap.setView(provMapPts[0],12,{animate:false});
   }catch(e){}
 }
 function initProvMap(){
