@@ -15,6 +15,7 @@
   /* Tỉnh cũ của 1 địa danh: đọc từ địa chỉ "(tỉnh X cũ" / "X cũ"; không có thì là tỉnh giữ tên */
   function placeOldProv(p,provId){
     var l=oldList(provId); if(l.length<2) return "";
+    if(p.old_prov && l.indexOf(p.old_prov)>=0) return p.old_prov;
     var a=(p.address||"")+" "+(p.note||"");
     for(var i=1;i<l.length;i++){ if(a.indexOf(l[i])>=0) return l[i]; }
     var m=a.match(/tỉnh\s+([^,()]+?)\s+cũ/); if(m) return m[1];
@@ -64,7 +65,7 @@
     return (prov.local||[]).filter(function(l){ return /xe máy|ô tô|taxi|grab|xe điện|xe buýt|xe đạp/i.test(l.mode||""); }).slice(0,3);
   }
   function guideHtml(prov,x){
-    var km=(typeof x.dist==="number")?x.dist:null;
+    var km=(x.dist==null||x.dist==="")?null:parseFloat(String(x.dist).replace(",",".")); if(isNaN(km)) km=null;
     var sg=suggestMode(km);
     var old=placeOldProv(x,prov.id);
     var stays=prov.stays.filter(function(s){ return s.area===x.cluster; });
@@ -140,8 +141,27 @@
     var prov=provOf(pid), x=null; if(!prov) return; prov.places.forEach(function(p){ if(p.id===xid) x=p; }); if(!x) return;
     var root=document.getElementById("itemDetail"), kv=root&&root.querySelector(".kv");
     if(!kv || root.querySelector(".guide")) return;
-    kv.insertAdjacentHTML("afterend",'<div id="stampBox" class="stamp-box">'+checkinBtn(prov,x)+'</div>'+guideHtml(prov,x));
+    kv.insertAdjacentHTML("afterend",'<div id="stampBox" class="stamp-box">'+checkinBtn(prov,x)+'</div>'+storyHtml(x)+guideHtml(prov,x)+REF_NOTE);
   };
+  /* Câu chuyện + món gần đó (từ Hộ chiếu khám phá RaceHub) */
+  function storyHtml(x){
+    var cul=x.from_racehub?"":(x.rh_note||"");
+    if(!x.history && !x.food_near && !cul) return "";
+    return '<section class="story"><h3 class="guide-h">Câu chuyện nơi này</h3>'+
+      (x.history?'<p>'+esc(x.history)+'</p>':'')+(cul?'<p>'+esc(cul)+'</p>':'')+
+      (x.food_near?'<div class="story-food"><b>Món nên thử gần đó: '+esc(x.food_near.name)+'</b>'+(x.food_near.desc?'<span>'+esc(x.food_near.desc)+'</span>':'')+'</div>':'')+
+      (x.from_racehub&&x.runner_note?'<p class="small">Đi bộ, chạy bộ: '+esc(x.runner_note)+'</p>':'')+
+      '</section>';
+  }
+  /* Ghi chú chung: thông tin tham khảo */
+  var REF_NOTE='<p class="ref-note">Thông tin tham khảo, có thể lệch so với thực tế (giá, giờ mở cửa, khoảng cách). Kiểm lại trước khi đi; thấy sai thì bấm Báo thông tin sai.</p>';
+  window.REF_NOTE=REF_NOTE;
+  ["openProvStay","openProvDish"].forEach(function(fn){
+    var f=window[fn]; if(typeof f!=="function") return;
+    window[fn]=function(){ f.apply(this,arguments); var root=document.getElementById("itemDetail"); if(root && !root.querySelector(".ref-note")) root.insertAdjacentHTML("beforeend",REF_NOTE); };
+  });
+  /* Nhãn cụm cho địa danh nhập từ RaceHub */
+  if(typeof RACEHUB_CLUSTERS!=="undefined" && typeof CLUSTER_OVERRIDES!=="undefined") Object.keys(RACEHUB_CLUSTERS).forEach(function(k){ if(!CLUSTER_OVERRIDES[k]) CLUSTER_OVERRIDES[k]=RACEHUB_CLUSTERS[k]; });
 
   /* Ô Sổ tem ở trang chủ và trang Tài khoản */
   function stampTeaser(){
