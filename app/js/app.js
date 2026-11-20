@@ -1394,18 +1394,38 @@ document.getElementById("searchInput").addEventListener("input",function(){
     var scopeCands=PROV_DATA.filter(function(prov){ return wordMatch(prov.name+" "+prov.province,q); });
     if(scopeCands.length===1) scopeProv=scopeCands[0];
   }
+  /* Tên tỉnh cũ đã sáp nhập (vd "Bình Định" -> Gia Lai): lấy mọi mục nằm trong vùng tỉnh cũ
+     theo địa chỉ / cụm / old_prov, không chỉ mục có chữ đó trong tên. */
+  var oldArea=null;
+  if(!scopeProv && typeof SAP_NHAP!=="undefined"){
+    Object.keys(SAP_NHAP).forEach(function(pid){
+      SAP_NHAP[pid].forEach(function(nm,k){ if(k>0 && !oldArea && wordMatch(nm,q) && foldStr(q).length>=4) oldArea={prov:provById(pid),name:nm}; });
+    });
+    if(oldArea && !oldArea.prov) oldArea=null;
+  }
+  if(oldArea){
+    var oa=foldStr(oldArea.name), oaSlug=oa.replace(/\s+/g,"-");
+    var inOld=function(x){ var t=foldStr([x.name,x.address,x.old_prov,x.cluster].join(" ")); return t.indexOf(oa)>=0 || t.indexOf(oaSlug)>=0; };
+    var pl=oldArea.prov.places.filter(inOld), st=oldArea.prov.stays.filter(inOld), di=oldArea.prov.dishes.filter(inOld);
+    out.push('<button class="card" onclick="openProvDetail(\''+oldArea.prov.id+'\')"><div class="body"><h3>'+esc(oldArea.name)+' cũ nay thuộc '+esc(oldArea.prov.name)+'</h3><p class="muted">Từ 01/07/2025 tỉnh '+esc(oldArea.name)+' sáp nhập vào '+esc(oldArea.prov.name)+'. App đang có '+pl.length+' địa danh, '+st.length+' chỗ ở, '+di.length+' món ăn ở vùng này. Bấm để xem cả tỉnh '+esc(oldArea.prov.name)+'.</p></div></button>');
+    pl.forEach(function(x){ out.push(provPlaceCard(x,oldArea.prov)); });
+    st.forEach(function(x){ out.push(provStayCard(x,oldArea.prov)); });
+    di.forEach(function(x){ out.push(provDishCard(x,oldArea.prov)); });
+  }
   DESTINATIONS.forEach(function(d){ if(wordMatch(d.name+" "+d.province,q) && (!scopeProv || (d.provId||d.id)===scopeProv.id)) out.push(destCard(d)); });
-  if(typeof PROV_DATA!=="undefined"){
+  if(typeof PROV_DATA!=="undefined" && !oldArea){
     PROV_DATA.forEach(function(prov){
       if(scopeProv && prov.id!==scopeProv.id) return;
-      prov.places.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provPlaceCard(x,prov)); });
+      /* Gõ đúng tên tỉnh: hiện luôn các địa danh của tỉnh, không chỉ mục có tên tỉnh trong tên */
+      var wholeProv=scopeProv && prov.id===scopeProv.id && foldStr(q).trim()===foldStr(prov.name).trim();
+      prov.places.forEach(function(x){ if(wholeProv || wordMatch(x.name,q)) out.push(provPlaceCard(x,prov)); });
       prov.dishes.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provDishCard(x,prov)); });
       prov.stays.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provStayCard(x,prov)); });
     });
   }
   var rainOut=rainySearchHits(q).map(rainySearchCard);
   var allOut=rainOut.concat(out);
-  var gap=missingAreaFor(q);
+  var gap=(oldArea && out.length>1)?null:missingAreaFor(q);
   box.innerHTML = gap ? '<div class="empty"><p style="margin:0 0 8px"><b>'+esc(gap.name)+' chưa có trong app.</b> Sau sáp nhập 01/07/2025, nơi này thuộc '+esc(gap.provName)+', nhưng dữ liệu hiện mới phủ '+esc(gap.covered)+'. Đội Bụi Code đang bổ sung.</p><button class="btn btn-ghost btn-block" onclick="openProvDetail(\''+gap.prov+'\')">Xem cẩm nang '+esc(gap.provName)+' hiện có</button></div>'+(allOut.length?'<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Kết quả gần đúng khác</h3><div class="listcol">'+allOut.slice(0,10).join("")+'</div>':'')
     : allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
     : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
