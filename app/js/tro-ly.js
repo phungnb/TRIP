@@ -71,10 +71,10 @@
     var m=msgs();
     if(used()>=LIMIT){ m.push({r:"u",t:q},{r:"a",t:"Hôm nay máy này đã hỏi trợ lý "+LIMIT+" câu. Mai hỏi tiếp nhé, hoặc gửi tin ở thẻ Hỗ trợ.",err:1}); ss(KEY_CHAT,m); render(); return; }
     var hit=typeof window.btFindProv==="function"?window.btFindProv(q):null;
-    if(hit&&hit.prov) st.prov=hit.prov;
+    var hint=st.prov; if(hit&&hit.prov) st.prov=hit.prov;
     var hist=[]; for(var k=0;k<m.length-1;k++){ if(m[k].r==="u"&&m[k+1].r==="a"&&!m[k+1].err) hist.push({q:m[k].t,a:m[k+1].t}); }
     m.push({r:"u",t:q}); ss(KEY_CHAT,m); st.busy=true; render();
-    fetch("/api/hoi",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:st.prov?st.prov.id:null,old:hit?hit.old:"",hist:hist.slice(-3)})})
+    fetch("/api/hoi",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:hit&&hit.prov?hit.prov.id:null,hint:hint?hint.id:null,old:hit?hit.old:"",hist:hist.slice(-3)})})
       .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,j:j}; },function(){ return {ok:false,j:{}}; }); })
       .then(function(x){
         var m2=msgs();

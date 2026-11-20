@@ -55,6 +55,25 @@ async function allow(ip) {
   }
 }
 
+/* Câu hỏi không nêu tỉnh: dò tên địa danh, món, chỗ ở trong câu để chọn tỉnh */
+const STOP = new Set("dinh nui thac ho chua den bai bien cap treo khu du lich pho co cho cau dao hang dong song vinh lang quan nha tho cong vien bao tang di tich van hoa sinh thai the gioi rung quoc gia trung tam thanh pho tp tinh xa phuong mien".split(" "));
+function nrm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim(); }
+function guessProv(d, q) {
+  const qs = " " + nrm(q) + " ";
+  let best = null, bestN = 0;
+  for (const p of d.prov) {
+    for (const x of [].concat(p.places || [], p.dishes || [], p.stays || [])) {
+      const raw = String(x.name || "");
+      for (const v of [raw.replace(/\([^)]*\)/g, " ")].concat((raw.match(/\(([^)]*)\)/g) || []).map(t => t.slice(1, -1)))) {
+        const w = nrm(v).split(" ").filter(Boolean);
+        while (w.length && (STOP.has(w[0]) || w[0] === "khach" || w[0] === "san")) w.shift();
+        const ph = w.join(" ");
+        if (ph.replace(/ /g, "").length >= 5 && qs.indexOf(" " + ph + " ") >= 0 && ph.length > bestN) { bestN = ph.length; best = p; }
+      }
+    }
+  }
+  return best;
+}
 function cut(s, n) { s = s == null ? "" : String(s); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
 function pick(o, keys, n) { const r = {}; keys.forEach(k => { if (o && o[k] != null && o[k] !== "") r[k] = typeof o[k] === "string" ? cut(o[k], n) : o[k]; }); return r; }
 
@@ -140,7 +159,8 @@ module.exports = async function handler(req, res) {
   if (lim === "all") return send(res, 429, { error: "Trợ lý đã hết lượt trong hôm nay. Mai hỏi tiếp nhé, hoặc dùng Hỏi nhanh." });
   let d;
   try { d = loadData(); } catch (e) { console.error("load data", e); return send(res, 500, { error: "Không đọc được dữ liệu." }); }
-  const p = d.prov.find(x => x.id === b.prov);
+  /* prov: tỉnh dò được trong câu hỏi; không có thì dò tên địa danh; vẫn không có thì dùng hint (tỉnh đang xem / vừa hỏi) */
+  const p = d.prov.find(x => x.id === b.prov) || guessProv(d, q) || d.prov.find(x => x.id === b.hint);
   const data = p ? Object.assign(provContext(p, d.sap), b.old ? { nguoi_hoi_nhac_tinh_cu: String(b.old).slice(0, 40) } : {})
                  : { danh_sach_34_tinh: allContext(d), luu_y: "Chưa xác định tỉnh; nếu cần dữ liệu chi tiết thì hỏi lại người dùng muốn đi tỉnh nào." };
   try {
