@@ -5,8 +5,11 @@
   var SKIP={source:1,sources:1,review_m_src:1,review_m_date:1,phoneSrc:1,src:1,id:1,checked:1,from_racehub:1,url:1,gan:1};
   var BAD0=/nguồn(?!\s*(gốc|cội))|có nguồn ghi|theo\s+[\w.-]+\.(vn|com|net|org|info)\b|[\w-]+\.(vn|com|net|org)\b|mâu thuẫn|wikipedia|\bfile\b|cần kiểm lại|tra cứu được|bài viết|báo\s+\S+\s+\d{1,2}\/\d{1,2}/i;
   var BAD={test:function(x){ return BAD0.test(String(x).replace(/về nguồn|tại nguồn/gi,"")); }};
+  /* Lọc nhanh: chuỗi không chứa từ khóa nào thì chỉ cần dọn dấu câu, khỏi chạy chuỗi regex (tiết kiệm ~0,5 giây lúc tải trên máy chậm) */
+  var TRIG=/nguồn|file|tọa độ xấp xỉ|mâu thuẫn|wikipedia|\.(vn|com|net|org|info)\b|cần kiểm lại|tra cứu được|bài viết|báo\s/i;
   function clean(s){
     if(typeof s!=="string") return s;
+    if(!TRIG.test(s)) return s.replace(/[;,]\./g,".").trim()||s;
     var t=s.replace(/\s*Tọa độ xấp xỉ[^.;]*[.;]?/gi,"").replace(/\s*theo\s+(1|một|nhiều|các)\s+nguồn/gi,"").replace(/có nguồn ghi ([^,;]+), có nguồn ghi /gi,"$1 hoặc ").replace(/\s*theo (đa số |nhiều |các |một số |1 )?nguồn/gi,"").replace(/(được )?nhiều nguồn gọi là/gi,"được gọi là").replace(/các nguồn mâu thuẫn/gi,"chưa thống nhất").replace(/có nguồn chê/gi,"có người chê").replace(/có nguồn gh?i/gi,"có nơi ghi").replace(/\s*[—–]\s*[^—–.]*\bfile\b[^.]*/gi,"").replace(/\s*tên phường\/xã không khớp hẳn file gốc[^.]*\./gi,".").replace(/\s*—?\s*xem kỹ cảnh báo trong file gốc/gi,"").replace(/\s*\(?đã có [^.;]*trong file chỗ ở\)?/gi,"");
     if(!BAD.test(t)) return t.replace(/[;,]\./g,".").trim()||s;
     var prev;
