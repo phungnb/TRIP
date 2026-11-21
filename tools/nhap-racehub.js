@@ -21,6 +21,26 @@ const NAME_FIX = { "Thừa Thiên Huế": "Huế", "TP. Hồ Chí Minh": "TP.HCM
 const norm = s => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").replace(/\(.*?\)/g, " ").replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
 const slug = s => norm(s).replace(/ /g, "-");
 const hav = (a, b, c, d) => { const R = 6371, r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2); return 2 * R * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y)); };
+/* Trùng mà tên và tọa độ không bắt được (tra tay 21/11/2026): tên RaceHub -> tên địa danh Trip */
+const ALIAS = { "Hoàng thành Huế (Đại Nội)": "Đại Nội Huế (Kinh thành Huế)", "Cô Tô": "Đảo Cô Tô", "Bãi biển Cát Cò": "Bãi tắm Cát Cò 1, 2, 3",
+  "Khu du lịch Đồi Rồng": "Bãi biển Đồ Sơn (khu 1, 2, 3) + Đồi Rồng", "Khu di tích Tân Trào": "Khu di tích lịch sử Tân Trào (ATK Tân Trào)",
+  "Quê Bác - Làng Sen": "Khu di tích Kim Liên (Làng Sen quê Bác)", "Sân bay Khe Sanh": "Căn cứ Khe Sanh – sân bay Tà Cơn",
+  "Đền Vua Đinh Tiên Hoàng": "Cố đô Hoa Lư (đền Đinh – đền Lê)", "Đỉnh Langbiang": "Núi Langbiang", "Khu danh thắng Bửu Long": "Khu du lịch Bửu Long",
+  "Khu di tích Xẻo Quýt": "Khu du lịch Xẻo Quýt", "Cù lao Thới Sơn": "Cồn Thới Sơn", "Vườn quốc gia Mũi Cà Mau": "Khu du lịch Quốc gia Mũi Cà Mau",
+  "Rừng U Minh Hạ": "Vườn quốc gia U Minh Hạ", "Vườn quốc gia Cát Tiên": "Vườn quốc gia Nam Cát Tiên" };
+/* Điền giá/giờ theo loại địa điểm khi RaceHub không có: chỉ cho nơi công cộng gần như chắc chắn không bán vé.
+   Ghi rõ là theo loại địa điểm, chưa kiểm riêng từng nơi. Nơi có thể bán vé (bảo tàng, khu du lịch, vườn quốc gia,
+   thác, khu di tích, công viên thú...) giữ "chưa có dữ liệu" để kiểm riêng. */
+const LOAI = [
+  [/^(Cầu|Phố|Đường|Quảng trường|Đèo|Mốc|Cột mốc|Tượng đài|Hẻm|Bãi|Biển|Bãi biển|Vịnh|Cánh đồng|Ruộng bậc thang|Cao nguyên|Đồi|Thành phố|Khu đô thị)(?=[\s,(-]|$)/i, "Miễn phí (nơi công cộng; theo loại địa điểm, chưa kiểm riêng)", "Cả ngày"],
+  [/^(Hồ)(?=[\s,(-]|$)/i, "Miễn phí ngắm hồ; thuyền, dịch vụ tính riêng (theo loại địa điểm, chưa kiểm riêng)", "Cả ngày"],
+  [/^Chợ nổi(?=[\s,(-]|$)/i, "Miễn phí; thuê thuyền ra chợ tính riêng (theo loại địa điểm, chưa kiểm riêng)", "Họp sáng sớm, đẹp nhất khoảng 5h–8h (theo loại địa điểm, chưa kiểm riêng)"],
+  [/^Chợ(?=[\s,(-]|$)/i, "Miễn phí vào chợ (theo loại địa điểm, chưa kiểm riêng)", ""],
+  [/^Công viên (?!Thủ Lệ|địa chất)/i, "Miễn phí vào công viên (theo loại địa điểm, chưa kiểm riêng)", ""],
+  [/^(Chùa|Đền|Đình|Nhà thờ|Miếu|Thiền viện|Tòa Thánh|Dinh Cậu|Dinh Cô|Quan Âm Phật Đài|Thích Ca Phật Đài|Trung tâm Hành hương)(?=[\s,(-]|$)/i, "Thường không bán vé vào cổng, có thể thu phí gửi xe (theo loại địa điểm, chưa kiểm riêng)", ""]
+];
+const LOAI_BO = /^(Hồ Than Thở|Đồi Cù|Cánh đồng cừu|Hẻm Tu Sản|Ruộng bậc thang Mù Cang Chải)/; /* có thể bán vé hoặc phải đi thuyền: để kiểm riêng */
+const loai = name => LOAI_BO.test(name) ? null : LOAI.find(r => r[0].test(name));
 const newOf = old => Object.keys(S).find(k => S[k].includes(old));
 
 const out = {}, enrich = {}; const stat = { total: 0, added: 0, dupName: 0, dupNear: 0, enriched: 0, noProv: [] };
@@ -33,7 +53,7 @@ for (const s of SOURCES) {
   const have = prov.places.concat(out[pid] || []);
   for (const x of data) {
     const n = norm(x.title), c = COORDS[String(s.base + x.id)];
-    const dn = have.find(h => { const hn = norm(h.name); return hn === n || (n.length > 5 && hn.includes(n)) || (hn.length > 5 && n.includes(hn)); });
+    const dn = have.find(h => { if (ALIAS[x.title] === h.name) return true; const hn = norm(h.name); return hn === n || (n.length > 5 && hn.includes(n)) || (hn.length > 5 && n.includes(hn)); });
     if (dn) { stat.dupName++; if (process.env.SHOWDUP) console.log("DUP", old, "|", x.title, "=>", dn.name);
       if (!dn.from_racehub && !dn.history) { (enrich[pid] = enrich[pid] || {})[dn.id] = { history: x.history || "", food_near: x.foodName ? { name: x.foodName, desc: x.food || "" } : null, rh_note: x.culture || "" }; dn.history = x.history; stat.enriched++; }
       continue; }
@@ -45,7 +65,7 @@ for (const s of SOURCES) {
       cluster: isMain ? "kham-pha-them" : "khu-" + slug(old),
       lat: c ? +c.lat.toFixed(6) : null, lng: c ? +c.lng.toFixed(6) : null, approx: true,
       dist: dist,
-      price: "Chưa có dữ liệu giá vé (đang bổ sung)", hours: "Chưa có dữ liệu giờ mở cửa", duration: "",
+      price: (loai(x.title) || [])[1] || "Chưa có dữ liệu giá vé (đang bổ sung)", hours: (loai(x.title) || [])[2] || "Chưa có dữ liệu giờ mở cửa", duration: "",
       suitable: "", note: x.culture || "",
       history: x.history || "", food_near: x.foodName ? { name: x.foodName, desc: x.food || "" } : null,
       runner_note: [x.runner && x.runner.noi_dung, x.runnerNote].filter(Boolean).join(" "),

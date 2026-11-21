@@ -39,6 +39,8 @@ var BO_SUNG = {
 
   "tp-ho-chi-minh": {
     patch: {
+      "rh-ba-ria-vung-tau-bach-dinh": { price: "Người lớn khoảng 15.000đ (giá năm 2025, nên hỏi lại tại cổng)", hours: "7:00–11:30 và 13:30–17:00", source: "vinwonders.com wonderpedia, bài 03/08/2025, đọc 21/11/2026" },
+      "rh-ba-ria-vung-tau-suoi-nuoc-nong-binh-chau": { price: "Ngày thường (T2–T5) người lớn 165.000đ, trẻ em 125.000đ; cuối tuần 200.000đ / 150.000đ; ngày lễ 240.000đ / 185.000đ", hours: "9:00–18:00", source: "mia.vn, bài đăng 01/01/2026, đọc 21/11/2026" },
       "rh-ba-ria-vung-tau-di-tich-nha-tu-con-dao": { name: "Hệ thống nhà tù Côn Đảo (Phú Hải, Phú Sơn, Chuồng Cọp)", address: "Trung tâm đặc khu Côn Đảo (Bà Rịa – Vũng Tàu cũ)", price: "Người lớn 40.000–50.000đ (vé gộp cả cụm); học sinh, sinh viên, trên 60 tuổi 25.000đ; trẻ dưới 1,2 m miễn phí", hours: "7:30–11:30 và 13:30/14:00–17:00", duration: "3–4 giờ", suitable: "Người tìm hiểu lịch sử; nên thuê thuyết minh", note: "Giữ cuống vé để soát ở từng cổng. Không tự thắp hương trong buồng giam, dâng ở bàn thờ chung ngoài sân." },
       "rh-ba-ria-vung-tau-nghia-trang-hang-duong-con-dao": { name: "Nghĩa trang Hàng Dương (mộ Võ Thị Sáu)", address: "Trung tâm Côn Đảo", price: "Miễn phí", hours: "Cả ngày; nhiều người viếng mộ chị Võ Thị Sáu lúc nửa đêm", duration: "1 giờ", suitable: "Viếng, tưởng niệm", note: "Ăn mặc kín đáo, giữ trật tự. Lễ vật bán ngay cổng." },
       "rh-ba-ria-vung-tau-bai-dam-trau-con-dao": { name: "Bãi Đầm Trầu", address: "Gần sân bay Cỏ Ống, cách trung tâm ~15 km", price: "Miễn phí", hours: "Cả ngày", duration: "2–3 giờ", suitable: "Tắm biển sóng êm, chụp máy bay hạ cánh", note: "Sóng nhẹ, nước trong. Xa trung tâm nên thuê xe máy hoặc nhờ xe khách sạn; mang nước uống." }
@@ -102,6 +104,9 @@ var BO_SUNG = {
 
   "lam-dong": {
     patch: {
+      "rh-lam-dong-thung-lung-vang": { price: "Người lớn 70.000đ, trẻ em 30.000đ", hours: "7:00–18:00", source: "vinwonders.com wonderpedia, bài 16/07/2025, đọc 21/11/2026" },
+      "rh-lam-dong-thac-pongour": { price: "Người lớn khoảng 20.000đ, trẻ em 10.000đ (giá năm 2025, nên hỏi lại tại cổng)", hours: "7:00–17:00", source: "vinwonders.com wonderpedia, bài 20/07/2025, đọc 21/11/2026" },
+      "rh-lam-dong-ho-than-tho": { price: "Người lớn khoảng 20.000đ, trẻ em 10.000đ (giá cũ, kiểm lại tại cổng)", source: "vietnambooking.com, bảng giá điểm tham quan Đà Lạt (bài cũ), đọc 21/11/2026" },
       "rh-binh-thuan-doi-cat-mui-ne": { price: "Miễn phí vào đồi; trượt cát, xe địa hình tính riêng", hours: "Đẹp nhất 5:00–8:00 sáng hoặc chiều muộn", duration: "1–2 giờ", note: "Đi sớm khi cát còn mát. Thỏa thuận giá ván trượt, xe ATV trước khi dùng." },
       "rh-binh-thuan-bau-trang": { price: "Xe jeep trong khu ~70.000–150.000đ/người hoặc ~800.000đ/xe (1–8 khách); tour jeep bình minh từ Mũi Né ~280.000đ/người", hours: "Bình minh hoặc hoàng hôn", duration: "2–3 giờ", note: "Hỏi rõ giá theo người hay theo xe trước khi lên. Cách Mũi Né ~40 km, đi tour jeep đón tại khách sạn tiện hơn tự lái." },
       "rh-binh-thuan-lang-chai-mui-ne": { price: "Miễn phí; hải sản theo giá người bán", hours: "Đẹp nhất 5:30–7:30 sáng khi thuyền về", duration: "1 giờ", note: "Ngắm từ trên đường Huỳnh Thúc Kháng nhìn xuống vịnh. Mua hải sản rồi nhờ chế biến tại chỗ, hỏi giá trước." },
