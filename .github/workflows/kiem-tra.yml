@@ -17,6 +17,8 @@ jobs:
           node-version: 22
       - name: Kiểm dữ liệu
         run: node du-lieu.mjs
+      - name: Bản dữ liệu gọn còn khớp bản gốc
+        run: node ../tools/tao-ban-gon.mjs --kiem
       - name: Cài trình duyệt
         run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
       - name: Kiểm trên trình duyệt
