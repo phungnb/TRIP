@@ -707,7 +707,7 @@ function submitReview(key){
 /* ================= NHẬN XÉT CỦA BỤI CODE ================= */
 function mReviewHtml(text,src,date){
   if(text){
-    return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p style="margin:0;font-size:var(--fs-body);line-height:1.65">'+esc(text)+'</p></div>';
+    return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p style="margin:0;font-size:var(--fs-body);line-height:1.65">'+esc(text)+'</p><p class="small" style="margin:4px 0 0"><a href="/chinh-sach/#nhan-xet">Nhận xét này được tổng hợp thế nào?</a></p></div>';
   }
   return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="muted" style="margin:0">Chưa có nhận xét tổng hợp cho mục này.</p></div>';
 }
