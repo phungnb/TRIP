@@ -764,7 +764,7 @@ function toggleSaveProv(kind,provId,itemId){
   else openProvDish(provId,itemId);
 }
 function provItemActionsHtml(kind,provId,itemId){
-  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="startPlanForProv(\''+provId+'\')">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
+  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="'+(kind==="pstay"?("startPlanForProv('"+provId+"')"):("planWithItem('"+kind+"','"+provId+"','"+itemId+"')"))+'">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
 }
 /* ================= BÁO THÔNG TIN SAI =================
    Mở thư soạn sẵn gửi về hộp thư hỗ trợ, theo đúng mẫu báo lỗi của README:
@@ -1511,6 +1511,29 @@ function wizPickDest(id){
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===id); });
   fillWizAddSel(); updateWDaysInfo();
 }
+/* "Đưa vào kế hoạch" từ trang địa danh/món: có chuyến sắp đi tới đúng tỉnh thì hỏi thêm vào chuyến đó,
+   không thì lập chuyến mới và thêm sẵn mục này vào ngày 1. */
+var pendingPlanItem=null;
+function planItemObj(kind,prov,itemId){
+  var arr=kind==="pplace"?prov.places:prov.dishes, f=null; arr.forEach(function(x){ if(x.id===itemId) f=x; });
+  return f?{kind:kind, ref_id:"", title:f.name, gia_luc_lap:parsePriceSnap(f.price), session:"Tự chọn", note:"", done:false}:null;
+}
+function planWithItem(kind,provId,itemId){
+  var prov=provById(provId); if(!prov) return;
+  var it=planItemObj(kind,prov,itemId); if(!it){ startPlanForProv(provId); return; }
+  var t=trips.filter(function(x){ return x.status!=="done" && tripProvId(x)===provId && (x.end_date||"")>=todayISO(); })[0];
+  if(t){
+    askConfirm("Thêm vào chuyến “"+fullDurTitle(t.title)+"”?","Thêm "+it.title+" vào ngày 1 của chuyến này; đổi ngày, buổi ngay trong lịch trình. Muốn lập chuyến mới thì bấm “Để lại” rồi vào Lập kế hoạch.",function(){
+      currentTripId=t.id; tripTab="lich";
+      if(t.days.some(function(d){ return d.items.some(function(x){ return x.title===it.title; }); })) toast("Mục này đã có trong chuyến");
+      else { t.days[0].items.push(it); saveTrips(); toast("Đã thêm "+it.title+" vào ngày 1"); }
+      renderTripDetail(); show("trip-detail");
+    },"Thêm vào chuyến");
+    return;
+  }
+  it.prov=provId; pendingPlanItem=it; startPlanForProv(provId);
+  toast(it.title+" sẽ có sẵn ở ngày 1 khi bạn sang bước lịch trình");
+}
 function startPlanForProv(provId){
   var p=provById(provId); if(!p) return;
   searchDestId=p.appId;
@@ -1644,6 +1667,11 @@ function buildWizDays(){
       wiz.days.push({day_no:d2+1, date:addDays(s,d2), items:items2});
     }
   }
+  if(pendingPlanItem && wiz.days[0]){
+    var pi=pendingPlanItem, wp=wizDestProv(); pendingPlanItem=null;
+    if(wp && wp.id===pi.prov) delete pi.prov; else pi=null;
+    if(pi && !wiz.days.some(function(d){ return d.items.some(function(x){ return x.title===pi.title; }); })) wiz.days[0].items.unshift(pi);
+  }
   fillWizAddSel();
   document.getElementById("wTitle").value=wizDestName()+" — "+n+" ngày "+(n-1)+" đêm · "+document.getElementById("wPeople").value+" người";
   var daySel=document.getElementById("wAddDay");
@@ -1716,22 +1744,23 @@ function pickTransportRows(prov,origin){
   return {mode:"fallback",rows:sgRows()};
 }
 function tripComponents(prov,budgetId,nights,people,origin,estTotal){
-  var transport=0, lodging=0, ok=false, mode="fallback";
+  var transport=0, lodging=0, ok=false, mode="fallback", pk=null;
   people=Math.max(1,people||1); nights=Math.max(0,nights||0);
   origin=resolveOrigin(origin);
   if(prov && prov.cost && prov.cost.length){
     var sRow=null;
     prov.cost.forEach(function(c){ var lb=(c.label||"").toLowerCase(); if(!sRow && lb.indexOf("ở")===0) sRow=c; });
-    var pk=pickTransportRows(prov,origin); mode=pk.mode;
+    pk=pickTransportRows(prov,origin); mode=pk.mode;
     if(mode==="same") ok=true;
     pk.rows.forEach(function(r){ var tr=parseRangeVal(r.value); if(tr){ var v=pickByBudget(tr,budgetId); if(/\/chiều/.test(r.value)) v*=2; transport+=v; ok=true; } });
     if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights/people):0; } }
   }
-  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin};
+  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId};
 }
 /* Chỉ hiện khi tổng ước tính 1 người thấp hơn ngân sách 1 người đã chọn:
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
 function underBudgetNoteHtml(total,perBudget){
+  if(perBudget && total>perBudget) return '<p class="over-budget" style="font-weight:700;color:var(--red)">Vượt ngân sách '+fmt(total-perBudget)+'/người (ngân sách '+fmt(perBudget)+'/người). Bớt điểm có vé, giảm số đêm, hoặc chọn mức ngân sách cao hơn.</p>';
   if(perBudget && total>0 && total<perBudget) return '<p style="font-weight:700;color:var(--green-d)">Ước tính thấp hơn ngân sách bạn chọn — bạn còn dư trong ngân sách.</p>';
   return "";
 }
@@ -1742,7 +1771,8 @@ function transportNoteHtml(comp,editable){
   return ' (từ TP.HCM)';
 }
 function totalNoteHtml(comp,destName,nights,people,editable){
-  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
+  var how=(comp.rows||[]).length?' <span class="small">Cách tính tiền đi: '+comp.rows.map(function(r){ return esc(r.label)+' '+esc(r.value); }).join(" + ")+'; lấy mức '+({tiet_kiem:"thấp",vua:"giữa",thoai_mai:"cao"}[comp.budgetId]||"giữa")+' của khoảng giá theo ngân sách bạn chọn'+(/\/chiều/.test(comp.rows.map(function(r){return r.value;}).join(" "))?', giá một chiều nhân 2 cho khứ hồi':'')+'.</span>':'';
+  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+how+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
 }
 function renderWizDays(){
   var people=Number(document.getElementById("wPeople").value||2);
@@ -1754,10 +1784,36 @@ function renderWizDays(){
     (function(){ var comp=tripComponents(wizDestProv(), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
-      return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span></div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+      return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
     }).join("");
     return '<div class="dayblock"><h3>Ngày '+d.day_no+' · '+fmtDate(d.date)+'</h3>'+(items||'<p class="muted" style="margin:0">Chưa có điểm nào — thêm ở ô bên dưới.</p>')+'</div>';
   }).join("");
+}
+/* Chọn buổi và chuyển ngày cho từng mục, không phải xóa rồi thêm lại */
+var ITEM_SESS=["Sáng","Trưa","Chiều","Tối","Tự chọn"];
+function itemCtlHtml(scope,di,ii,it,nDays){
+  var cur=it.session||"Tự chọn", opts=ITEM_SESS.indexOf(cur)<0?[cur].concat(ITEM_SESS):ITEM_SESS;
+  var st='style="border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:var(--fs-cap);background:var(--surface);color:var(--ink)"';
+  var days=""; for(var k=1;k<=nDays;k++) days+='<option value="'+k+'"'+(k===di+1?" selected":"")+'>Ngày '+k+'</option>';
+  return '<span class="ti-ctl" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><select '+st+' aria-label="Chọn buổi" onchange="itemSetSess(\''+scope+'\','+di+','+ii+',this.value)">'+opts.map(function(o){ return '<option'+(o===cur?" selected":"")+'>'+esc(o)+'</option>'; }).join("")+'</select>'+
+    (nDays>1?'<select '+st+' aria-label="Chuyển sang ngày" onchange="itemMoveDay(\''+scope+'\','+di+','+ii+',this.value)">'+days+'</select>':'')+'</span>';
+}
+function itemDays(scope){ if(scope==="wiz") return wiz.days; var t=tripById(currentTripId); return t?t.days:null; }
+function itemRedraw(scope){ if(scope==="wiz") renderWizDays(); else { saveTrips(); renderTripDetail(); } }
+var SESS_ORDER={"Cả ngày":0,"Sáng sớm":1,"Sáng":1,"Trưa":2,"Chiều":3,"Tối":4};
+function sortDayItems(d){
+  /* xếp theo buổi; buổi lạ, "Tự chọn" giữ thứ tự cũ ở cuối */
+  d.items=d.items.map(function(x,k){ return {x:x,k:k}; }).sort(function(a,b){ var A=SESS_ORDER[a.x.session], B=SESS_ORDER[b.x.session]; return ((A==null?9:A)-(B==null?9:B))||(a.k-b.k); }).map(function(o){ return o.x; });
+}
+function itemSetSess(scope,di,ii,v){
+  var days=itemDays(scope); if(!days||!days[di]||!days[di].items[ii]) return;
+  days[di].items[ii].session=v; sortDayItems(days[di]);
+  itemRedraw(scope);
+}
+function itemMoveDay(scope,di,ii,v){
+  var days=itemDays(scope), to=Number(v)-1; if(!days||!days[di]||!days[to]||to===di) return;
+  var it=days[di].items.splice(ii,1)[0]; if(!it) return;
+  days[to].items.push(it); sortDayItems(days[to]); itemRedraw(scope); toast("Đã chuyển sang ngày "+(to+1));
 }
 function wizRemoveItem(di,ii){ wiz.days[di].items.splice(ii,1); renderWizDays(); }
 function planAddItem(){
@@ -1988,7 +2044,7 @@ function tripById(id){ for(var i=0;i<trips.length;i++) if(trips[i].id===id) retu
 function openTrip(id){ var t=tripById(id); currentTripId=id; tripTab=(t&&t.status==="ongoing")?"homnay":"lich"; renderTripDetail(); show("trip-detail"); }
 function tripDayItemsHtml(t,d,di){
   return d.items.map(function(it,ii){
-    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span></div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
   }).join("");
 }
 function tripChecklistHtml(t){
@@ -2004,12 +2060,16 @@ function tripExpensesHtml(t){
 }
 function renderTripDetail(){
   var t=tripById(currentTripId); if(!t){ show("trips",false); return; }
-  var spent=tripSpent(t); var pct=t.budget_total?Math.min(100,Math.round(spent/t.budget_total*100)):0;
+  var spent=tripSpent(t);
   var html='<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h2 style="font-size:var(--fs-h2);margin:4px 0 4px;flex:1">'+esc(fullDurTitle(t.title))+'</h2><span style="margin-top:6px">'+tripStatusBadge(t)+'</span></div><p class="sec-sub" style="margin-bottom:10px">'+(t.origin_city?('Xuất phát từ <b style="color:var(--ink)">'+esc(t.origin_city)+'</b> → '+esc(tripDestName(t))+' · '):(esc(tripDestName(t))+" · "))+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+(tripDurLabel(t)?(' · '+tripDurLabel(t)):"")+' · '+t.people_count+' người · kiểu đi: '+esc(t.style||"—")+'</p>';
-  html+='<div class="statgrid"><div class="cell"><b>'+fmt(t.budget_total)+'</b><span>Ngân sách</span></div><div class="cell"><b>'+fmt(spent)+'</b><span>Đã chi</span></div><div class="cell"><b>'+fmt(t.budget_total-spent)+'</b><span>Còn lại</span></div></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div>';
   var estSum=0, estUnknown=0;
   t.days.forEach(function(d){ d.items.forEach(function(it){ if(it.gia_luc_lap==null) estUnknown++; else estSum+=Number(it.gia_luc_lap||0); }); });
   var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(provById(t.destination_id), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
+  /* "Còn lại" trừ theo số lớn hơn giữa ước tính cả nhóm và số đã chi, để không báo còn đủ tiền khi chưa ghi khoản chi nào */
+  var estGroup=_compT.total*(t.people_count||1), used=Math.max(spent,estGroup), left=t.budget_total-used;
+  var pct=t.budget_total?Math.min(100,Math.round(used/t.budget_total*100)):0;
+  html+='<div class="statgrid"><div class="cell"><b>'+fmt(t.budget_total)+'</b><span>Ngân sách</span></div><div class="cell"><b>'+fmt(estGroup)+'</b><span>Ước tính cả nhóm</span></div><div class="cell"><b style="'+(left<0?"color:var(--red)":"")+'">'+(left<0?"−"+fmt(-left):fmt(left))+'</b><span>Còn lại</span></div></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%'+(left<0?";background:var(--red)":"")+'"></i></div>'+
+    '<p class="small muted" style="margin:6px 0 0">Còn lại = ngân sách trừ ước tính cả nhóm (hoặc số đã chi nếu lớn hơn). Đã chi thực tế: <b style="color:var(--ink)">'+fmt(spent)+'</b>'+(spent>estGroup?' (đã vượt ước tính, “Còn lại” tính theo số đã chi)':'')+'.</p>';
   html+='<div class="bigmoney" style="margin-top:14px"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(_compT.total)+'/người</div>'+underBudgetNoteHtml(_compT.total,_budT?_budT.per:0)+'<p>'+totalNoteHtml(_compT, tripDestName(t), Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1)+(estUnknown?(' Chưa tính '+estUnknown+' mục chưa có giá trong dữ liệu.'):"")+'</p></div>';
   html+='<div style="display:flex;gap:10px;margin:0 0 6px"><button class="btn btn-primary" style="flex:1" onclick="shareTrip()">Gửi lịch trình</button><button class="btn btn-ghost" style="flex:1" onclick="printTrip()">In lịch trình</button></div>';
   html+='<div class="chiprow" style="margin-top:14px">'+(t.status==="ongoing"?'<button class="chip'+(tripTab==="homnay"?" on":"")+'" onclick="tripTab=\'homnay\';renderTripDetail()">Hôm nay</button>':"")+'<button class="chip'+(tripTab==="lich"?" on":"")+'" onclick="tripTab=\'lich\';renderTripDetail()">Lịch trình</button><button class="chip'+(tripTab==="chi"?" on":"")+'" onclick="tripTab=\'chi\';renderTripDetail()">Thu chi ('+t.expenses.length+')</button><button class="chip'+(tripTab==="check"?" on":"")+'" onclick="tripTab=\'check\';renderTripDetail()">Checklist</button></div>';
@@ -2028,7 +2088,7 @@ function renderTripDetail(){
     html+=tripRouteHtml(t);
     html+=t.days.map(function(d,di){
       var items=d.items.map(function(it,ii){
-        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span></div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
       }).join("");
       return '<div class="dayblock"><h3>Ngày '+d.day_no+' · '+fmtDate(d.date)+'</h3>'+(items||'<p class="muted" style="margin:0">Ngày này đang trống.</p>')+'</div>';
     }).join("");
