@@ -1987,13 +1987,14 @@ function backupBoxHtml(){
   return '<div class="notebox" style="margin-top:16px"><b>Sao lưu chuyến</b><br/><span class="small">Chuyến và mục đã lưu chỉ nằm trong trình duyệt này. Đổi máy hoặc xóa dữ liệu trình duyệt sẽ mất, nên tải file sao lưu về rồi nhập lại ở máy mới.</span><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button><button class="btn btn-ghost" onclick="document.getElementById(\'importTripsFile\').click()">Nhập từ file</button><input type="file" id="importTripsFile" accept=".json,application/json" style="display:none" onchange="importTrips(this)"/></div></div>';
 }
 window.exportTrips=function(){
-  var data={app:"buitrip",kind:"sao-luu-chuyen",version:1,at:new Date().toISOString(),trips:trips,saved:saved};
+  var stamps={}; try{ stamps=JSON.parse(localStorage.getItem("buitrip_stamps")||"{}")||{}; }catch(e){}
+  var data={app:"buitrip",kind:"sao-luu-chuyen",version:2,at:new Date().toISOString(),trips:trips,saved:saved,stamps:stamps};
   try{
     var blob=new Blob([JSON.stringify(data,null,1)],{type:"application/json"});
     var a=document.createElement("a"); a.href=URL.createObjectURL(blob);
     a.download="buitrip-sao-luu-"+new Date().toISOString().slice(0,10)+".json";
     document.body.appendChild(a); a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },1000);
-    toast("Đã tải file sao lưu: "+trips.length+" chuyến, "+saved.length+" mục đã lưu");
+    toast("Đã tải file sao lưu: "+trips.length+" chuyến, "+saved.length+" mục đã lưu, "+Object.keys(stamps).length+" tem");
   }catch(e){ toast("Trình duyệt không cho tải file"); }
 };
 window.importTrips=function(inp){
@@ -2010,9 +2011,14 @@ window.importTrips=function(inp){
       trips.push(t); have[t.id]=1; addT++; });
     var key=function(x){ return x&&x.kind+":"+x.id; }, hs={}; saved.forEach(function(x){ hs[key(x)]=1; });
     var addS=0; (Array.isArray(d.saved)?d.saved:[]).forEach(function(x){ if(x&&x.kind&&x.id&&!hs[key(x)]){ saved.push({kind:String(x.kind),id:String(x.id)}); hs[key(x)]=1; addS++; } });
+    var addM=0; if(d.stamps&&typeof d.stamps==="object"){ try{
+      var cur=JSON.parse(localStorage.getItem("buitrip_stamps")||"{}")||{};
+      Object.keys(d.stamps).forEach(function(k){ var v=d.stamps[k]; if(!cur[k]&&/^[a-z0-9-]+\|[a-z0-9-]+$/.test(k)&&v&&Number(v.t)){ cur[k]={t:Number(v.t),prov:k.split("|")[0],d:Number(v.d)||0}; addM++; } });
+      localStorage.setItem("buitrip_stamps",JSON.stringify(cur)); }catch(e){} }
     trips.forEach(function(t){ if(t&&t.title) t.title=fullDurTitle(t.title); });
     saveTrips(); saveSaved(); renderTrips();
-    toast("Đã nhập "+addT+" chuyến, "+addS+" mục đã lưu"+(d.trips.length>addT?" (bỏ qua chuyến đã có)":""));
+    if(addM&&currentView==="stamps"&&window.openStampBook) openStampBook();
+    toast("Đã nhập "+addT+" chuyến, "+addS+" mục đã lưu, "+addM+" tem"+(d.trips.length>addT?" (bỏ qua chuyến đã có)":""));
     inp.value="";
   };
   r.readAsText(f);
