@@ -1,0 +1,23 @@
+# Xung đột tỉnh từ wiki — cần anh duyệt (không tự sửa)
+
+Câu đầu tiên của bài wiki nhắc tỉnh khác với tỉnh trong kho. Đa số là bài nhắc địa danh cùng tên ở tỉnh khác hoặc so sánh — chỉ sửa kho khi xác minh đúng là kho sai.
+
+- **Làng gốm Bát Tràng** (kho: Hà Nội) — wiki nhắc: Hưng Yên (bài [Gốm Bát Tràng](https://vi.wikipedia.org/wiki/G%E1%BB%91m_B%C3%A1t_Tr%C3%A0ng))
+- **Chùa Dâu (chùa cổ nhất Việt Nam)** (kho: Bắc Ninh) — wiki nhắc: Hà Nội (bài [Chùa Dâu](https://vi.wikipedia.org/wiki/Ch%C3%B9a_D%C3%A2u))
+- **Bắc Ninh (tổng quan)** (kho: Bắc Ninh) — wiki nhắc: Hà Nội (bài [Bắc Ninh](https://vi.wikipedia.org/wiki/B%E1%BA%AFc_Ninh))
+- **Vườn quốc gia Cúc Phương** (kho: Ninh Bình) — wiki nhắc: Phú Thọ, Thanh Hóa (bài [Vườn quốc gia Cúc Phương](https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_C%C3%BAc_Ph%C6%B0%C6%A1ng))
+- **Nhà thờ đá Phát Diệm** (kho: Ninh Bình) — wiki nhắc: Hà Nội (bài [Nhà thờ chính tòa Phát Diệm](https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_Ph%C3%A1t_Di%E1%BB%87m))
+- **Vườn quốc gia Xuân Thủy** (kho: Ninh Bình) — wiki nhắc: Hà Nội (bài [Vườn quốc gia Xuân Thủy](https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Xu%C3%A2n_Th%E1%BB%A7y))
+- **Đèo Ô Quy Hồ (đèo Hoàng Liên Sơn)** (kho: Lai Châu) — wiki nhắc: Lào Cai (bài [Đèo Ô Quý Hồ](https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_%C3%94_Qu%C3%BD_H%E1%BB%93))
+- **Ninh Bình (tổng quan)** (kho: Ninh Bình) — wiki nhắc: Hà Nội (bài [Ninh Bình](https://vi.wikipedia.org/wiki/Ninh_B%C3%ACnh))
+- **Đỉnh Pu Ta Leng (trekking)** (kho: Lai Châu) — wiki nhắc: Lào Cai (bài [Pu Ta Leng](https://vi.wikipedia.org/wiki/Pu_Ta_Leng))
+- **Núi Hàm Rồng** (kho: Gia Lai) — wiki nhắc: Lào Cai (bài [Núi Hàm Rồng](https://vi.wikipedia.org/wiki/N%C3%BAi_H%C3%A0m_R%E1%BB%93ng))
+- **Nhà thờ đá Sa Pa** (kho: Lào Cai) — wiki nhắc: Hà Nội (bài [Giáo xứ Sa Pa](https://vi.wikipedia.org/wiki/Gi%C3%A1o_x%E1%BB%A9_Sa_Pa))
+- **Cửa khẩu quốc tế Hữu Nghị** (kho: Lạng Sơn) — wiki nhắc: Hà Nội (bài [Cửa khẩu Hữu Nghị](https://vi.wikipedia.org/wiki/C%E1%BB%ADa_kh%E1%BA%A9u_H%E1%BB%AFu_Ngh%E1%BB%8B))
+- **Bảo tàng Văn hóa các dân tộc Việt Nam** (kho: Thái Nguyên) — wiki nhắc: Hà Nội (bài [Bảo tàng Văn hóa các Dân tộc Việt Nam](https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_V%C4%83n_h%C3%B3a_c%C3%A1c_D%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam))
+- **Thành nhà Mạc** (kho: Tuyên Quang) — wiki nhắc: Lạng Sơn (bài [Thành nhà Mạc](https://vi.wikipedia.org/wiki/Th%C3%A0nh_nh%C3%A0_M%E1%BA%A1c))
+- **Đèo Ngang (Hoành Sơn Quan)** (kho: Hà Tĩnh) — wiki nhắc: Quảng Trị (bài [Đèo Ngang](https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Ngang))
+- **Vườn quốc gia Yok Đôn** (kho: Đắk Lắk) — wiki nhắc: Lâm Đồng (bài [Vườn quốc gia Yok Đôn](https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Yok_%C4%90%C3%B4n))
+- **Nhà thờ Núi (Nhà thờ Đá)** (kho: Khánh Hòa) — wiki nhắc: Thái Nguyên (bài [Nhà thờ Núi Nha Trang](https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_N%C3%BAi_Nha_Trang))
+- **Hồ Dầu Tiếng** (kho: Tây Ninh) — wiki nhắc: Đồng Nai (bài [Hồ Dầu Tiếng](https://vi.wikipedia.org/wiki/H%E1%BB%93_D%E1%BA%A7u_Ti%E1%BA%BFng))
+- **Cầu Mỹ Thuận** (kho: Vĩnh Long) — wiki nhắc: Đồng Tháp (bài [Cầu Mỹ Thuận](https://vi.wikipedia.org/wiki/C%E1%BA%A7u_M%E1%BB%B9_Thu%E1%BA%ADn))
