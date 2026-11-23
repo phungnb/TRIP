@@ -51,7 +51,7 @@ KV.forEach(a => MAU_VUNG.slice(0, 16).forEach(m => them("3. Khu du lịch", bien
 DAO.forEach(d => [n => "đi " + n + " bằng gì", n => n + " mùa nào đẹp", n => "đi " + n + " được không", n => "ra " + n + " đi tàu mấy tiếng", n => n + " có gì chơi"]
   .forEach(m => them("4. Đảo", bien(m(d.name)), dIsle(d))));
 
-/* 5. Địa danh (739) */
+/* 5. Địa danh (878) */
 const MAU_DIEM = [
   n => "vé " + n + " bao nhiêu", n => n + " giá vé bao nhiêu", n => n + " mấy giờ mở cửa", n => n + " ở đâu", n => n + " thuộc tỉnh nào",
   n => "đi " + n + " bằng gì", n => n + " có gì", n => n + " mùa nào đẹp"

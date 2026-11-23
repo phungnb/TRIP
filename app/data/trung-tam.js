@@ -41,6 +41,8 @@ var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-c
     (TRUNG_TAM[prov.id] || []).forEach(function (h) { hubs.push({ n: h[0], lat: h[1], lng: h[2], island: !!h[3] }); });
     prov.places.forEach(function (x) {
       x.dist_from = anchor;
+      /* điểm chưa có tọa độ mà ghi sẵn khu (hub): gán khu theo tên, không tính km */
+      if (x.lat == null && x.hub) { hubs.forEach(function (h) { if (h.n === x.hub && !h.main) { x.dist_from = h.n; x.dist = null; if (h.island) x.island = h.n; } }); return; }
       if (x.lat == null || prov.lat == null || TRUNG_TAM_GIU[x.id]) return;
       var best = null, bd = 1e9;
       /* trung tâm đảo chỉ nhận điểm trên chính đảo đó (trong 30 km): Nam Du không thuộc Phú Quốc */

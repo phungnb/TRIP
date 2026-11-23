@@ -10,11 +10,13 @@
   }
   /* gõ có dấu thì chỉ nhận "từ"/"đi" có dấu ("Hẻm Tu Sản" không phải "từ Sản") */
   function unmark(re, q) { return A.marked(q) ? new RegExp(re.source.replace(/\(\?:từ\|tu\)/g, "từ").replace(/\|di\|/g, "|").replace(/\|toi\|/g, "|").replace(/\|den\|/g, "|").replace(/\|vao\|/g, "|").replace(/\|len\|/g, "|").replace(/\|bang gi\|/g, "|").replace(/\|mat bao lau\|/g, "|").replace(/\|het bao nhieu\|/g, "|"), re.flags) : re; }
+  /* "tu" trong tên ("nhà tù", "Hẻm Tu Sản") gõ không dấu trùng "từ": chỉ coi là nơi xuất phát khi phần sau là tỉnh/khu có thật */
+  function isFrom(s) { var e = entOf(s); return !!(e.area || e.prov); }
   function destPart(q) {
-    var m = q.match(unmark(/^(.*?)(?:^|\s)(?:từ|tu)\s+.{2,40}?\s+(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+(.+)$/i, q));
-    if (m) return (m[1] + " " + m[2]).trim();
-    m = q.match(unmark(/^(.*(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?)\s+(?:từ|tu)\s+.{2,40}?(\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa).*)?$/i, q));
-    if (m) return (m[1] + (m[2] || "")).trim();
+    var m = q.match(unmark(/^(.*?)(?:^|\s)(?:từ|tu)\s+(.{2,40}?)\s+(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+(.+)$/i, q));
+    if (m && isFrom(m[2])) return (m[1] + " " + m[3]).trim();
+    m = q.match(unmark(/^(.*(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?)\s+(?:từ|tu)\s+(.{2,40}?)(\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa).*)?$/i, q));
+    if (m && isFrom(m[2])) return (m[1] + (m[3] || "")).trim();
     return q;
   }
   function outOfDomain(I, q) {
