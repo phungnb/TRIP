@@ -238,6 +238,35 @@ var BO_SUNG_THEM = {
     ]
   }
 };
+/* Đợt rà 23/11/2026: điểm nổi tiếng người dùng hay gõ mà app chưa có. Tọa độ gần đúng, giá và giờ CHƯA KIỂM. */
+var BO_SUNG_THEM_2 = {
+  "lao-cai": [
+    { id: "bs-y-ty", name: "Y Tý (Bát Xát)", address: "Xã Y Tý, huyện Bát Xát cũ, Lào Cai", old_prov: "Lào Cai", lat: 22.632, lng: 103.628, approx: true, price: "Miễn phí (ước tính, chưa kiểm)", hours: "Cả ngày; săn mây sáng sớm", duration: "1–2 ngày", suitable: "Săn mây, ruộng bậc thang, bản người Hà Nhì", note: "Đường từ TP Lào Cai lên Y Tý dài và nhiều đèo dốc; đi ban ngày, tránh mưa lớn. Mùa lúa chín khoảng tháng 9, săn mây đẹp mùa khô (tháng 10–4). Thông tin chưa kiểm, xem tin đường sá trước khi đi." }
+  ],
+  "tuyen-quang": [
+    { id: "bs-hoang-su-phi", name: "Ruộng bậc thang Hoàng Su Phì", address: "Huyện Hoàng Su Phì cũ, Hà Giang cũ, nay thuộc Tuyên Quang", old_prov: "Hà Giang", lat: 22.745, lng: 104.678, approx: true, price: "Miễn phí (ước tính, chưa kiểm)", hours: "Ban ngày", duration: "1 ngày", suitable: "Ngắm ruộng bậc thang, chụp ảnh, bản người Dao, Nùng", note: "Lúa nước đổ nước khoảng tháng 5–6, lúa chín khoảng tháng 9–10. Cách TP Hà Giang vài giờ xe đường núi; đi ban ngày. Thông tin chưa kiểm." }
+  ],
+  "son-la": [
+    { id: "bs-ta-xua", name: "Tà Xùa (Bắc Yên)", address: "Xã Tà Xùa, huyện Bắc Yên cũ, Sơn La", lat: 21.318, lng: 104.483, approx: true, price: "Miễn phí (ước tính, chưa kiểm)", hours: "Săn mây sáng sớm", duration: "1–2 ngày", suitable: "Săn mây, trekking sống lưng khủng long, đồi chè Shan tuyết", note: "Mây đẹp mùa khô khoảng tháng 10–4. Đường lên dốc, hẹp; xe máy cần phanh tốt, không đi khi mưa to. Trekking sống lưng khủng long nên thuê người dẫn đường địa phương. Thông tin chưa kiểm." }
+  ],
+  "lam-dong": [
+    { id: "bs-doi-che-tam-chau", name: "Đồi chè Tâm Châu (Bảo Lộc)", address: "Bảo Lộc, Lâm Đồng", lat: 11.548, lng: 107.830, approx: true, price: "Miễn phí vào đồi chè; đồ uống tính riêng (ước tính, chưa kiểm)", hours: "Ban ngày", duration: "1–2 giờ", suitable: "Chụp ảnh đồi chè, uống trà, nghỉ chân trên đường SG – Đà Lạt", note: "Điểm dừng quen thuộc trên quốc lộ 20 giữa TP.HCM và Đà Lạt. Thông tin chưa kiểm." },
+    { id: "bs-thac-dambri", name: "Thác Dambri (Bảo Lộc)", address: "Xã Đạm Bri, ngoại ô Bảo Lộc, Lâm Đồng", lat: 11.622, lng: 107.733, approx: true, price: "Có vé vào cổng, chưa kiểm được giá", hours: "Ban ngày", duration: "2–3 giờ", suitable: "Ngắm thác, chụp ảnh, gia đình", note: "Thác lớn gần Bảo Lộc, nhiều nước nhất mùa mưa (tháng 5–10). Đá trơn, không leo ra mép thác. Giá vé chưa kiểm." }
+  ],
+  "an-giang": [
+    { id: "bs-nam-du", name: "Quần đảo Nam Du", address: "Đặc khu Kiên Hải cũ, Kiên Giang cũ, nay thuộc An Giang", old_prov: "Kiên Giang", lat: 9.680, lng: 104.355, approx: true, price: "Tàu cao tốc từ Rạch Giá, chưa kiểm được giá vé", hours: "Tàu chạy ban ngày, đặt trước", duration: "2–3 ngày", suitable: "Biển hoang sơ, đi thuyền quanh đảo, lặn ngắm", note: "Đi tàu cao tốc từ Rạch Giá khoảng vài giờ. Biển êm khoảng tháng 11–4; mùa gió tây nam (tháng 5–10) tàu có thể hủy. Đặt tàu và homestay trước. Thông tin chưa kiểm." },
+    { id: "bs-hon-son", name: "Hòn Sơn (Lại Sơn)", address: "Xã Lại Sơn, Kiên Hải cũ, Kiên Giang cũ, nay thuộc An Giang", old_prov: "Kiên Giang", lat: 9.803, lng: 104.630, approx: true, price: "Tàu cao tốc từ Rạch Giá, chưa kiểm được giá vé", hours: "Tàu chạy ban ngày, đặt trước", duration: "1–2 ngày", suitable: "Biển, leo núi Ma Thiên Lãnh, ăn hải sản", note: "Gần Rạch Giá hơn Nam Du. Biển êm khoảng tháng 11–4. Thông tin chưa kiểm." }
+  ],
+  "khanh-hoa": [
+    { id: "bs-dao-binh-ba", name: "Đảo Bình Ba (Cam Ranh)", address: "Xã Cam Bình, vịnh Cam Ranh, Khánh Hòa", lat: 11.840, lng: 109.232, approx: true, price: "Thuyền từ cảng Ba Ngòi, chưa kiểm được giá", hours: "Ban ngày", duration: "1–2 ngày", suitable: "Biển, ăn tôm hùm và hải sản, lặn ngắm", note: "Đi thuyền từ cảng Ba Ngòi (Cam Ranh). Hỏi giá hải sản theo kg và cân trước khi chế biến. Thông tin chưa kiểm." }
+  ]
+};
+(function () {
+  for (var pid in BO_SUNG_THEM_2) {
+    var dst = BO_SUNG_THEM[pid] || (BO_SUNG_THEM[pid] = {});
+    dst.places = (dst.places || []).concat(BO_SUNG_THEM_2[pid]);
+  }
+})();
 (function () {
   for (var pid in BO_SUNG_THEM) {
     var src = BO_SUNG_THEM[pid], dst = BO_SUNG[pid] || (BO_SUNG[pid] = {});

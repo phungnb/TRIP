@@ -7,7 +7,7 @@
    island: true nghĩa là phải ra đảo bằng máy bay hoặc tàu, không đi đường bộ. */
 var TRUNG_TAM = {
   "an-giang": [["Long Xuyên", 10.386, 105.435], ["Rạch Giá", 10.012, 105.081], ["Hà Tiên", 10.383, 104.488], ["Dương Đông (Phú Quốc)", 10.217, 103.959, 1]],
-  "lam-dong": [["Phan Thiết", 10.928, 108.102], ["Gia Nghĩa", 12.004, 107.690]],
+  "lam-dong": [["Phan Thiết", 10.928, 108.102], ["Gia Nghĩa", 12.004, 107.690], ["Bảo Lộc", 11.548, 107.807]],
   "gia-lai": [["Quy Nhơn", 13.776, 109.224]],
   "quang-tri": [["Đồng Hới", 17.469, 106.622]],
   "quang-ngai": [["TP Kon Tum", 14.355, 108.008]],
@@ -41,7 +41,8 @@ var TRUNG_TAM = {
       x.dist_from = anchor;
       if (x.lat == null || prov.lat == null) return;
       var best = null, bd = 1e9;
-      hubs.forEach(function (h) { var d = hav(x.lat, x.lng, h.lat, h.lng); if (d < bd) { bd = d; best = h; } });
+      /* trung tâm đảo chỉ nhận điểm trên chính đảo đó (trong 30 km): Nam Du không thuộc Phú Quốc */
+      hubs.forEach(function (h) { var d = hav(x.lat, x.lng, h.lat, h.lng); if (h.island && d > 30) return; if (d < bd) { bd = d; best = h; } });
       if (!best || best.main) return; /* gần thủ phủ nhất: giữ km đã kiểm tay */
       x.dist = Math.round(bd);
       x.dist_from = best.n;

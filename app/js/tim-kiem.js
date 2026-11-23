@@ -7,7 +7,7 @@
 (function () {
   var SYN = [["vinpearl", "vinwonders"], ["cau vang", "ba na"], ["dai noi", "kinh thanh hue"],
     ["sai gon", "ho chi minh"], ["tp hcm", "ho chi minh"], ["tphcm", "ho chi minh"], ["hcm", "ho chi minh"],
-    ["hang son doong", "son doong"], ["dong phong nha", "phong nha"]];
+    ["hang son doong", "son doong"], ["dong phong nha", "phong nha"], ["van don", "quan lan"], ["dat mui", "mui ca mau"]];
   function fold(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d"); }
   function norm(s) { return " " + fold(s).replace(/[^a-z0-9]+/g, " ").trim() + " "; }
   function variants(q) {
@@ -85,10 +85,15 @@
         res.push({ kind: "prov", prov: prov, x: null, s: 95, oldName: o.old });
     });
     /* Gõ tên thành phố trung tâm của tỉnh (Nha Trang, Pleiku, Hạ Long, Sa Pa…): thẻ tỉnh lên đầu */
-    var fq = norm(q);
+    /* so có dấu khi người dùng gõ có dấu: "Vĩnh Phúc" không được khớp "Vinh" */
+    var marked = /[^\x00-\x7f]/.test(q);
+    function low(t) { return " " + String(t || "").toLowerCase().normalize("NFC").replace(/[^0-9a-zà-ỹđ]+/g, " ").trim() + " "; }
+    var fq = marked ? low(q) : norm(q);
     PROV_DATA.forEach(function (prov) {
-      String(prov.anchor || "").split("/").forEach(function (an) {
-        var k = norm(an.replace(/\(.*?\)/g, "").replace(/^\s*(TP|Thành phố)\s+/i, "")).trim();
+      var EXTRA = { "tp-ho-chi-minh": ["Sài Gòn"], "dong-thap": ["Cao Lãnh"], "nghe-an": ["Cửa Lò"], "thanh-hoa": ["Sầm Sơn"] };
+      [String(prov.id === "lam-dong" ? "Đà Lạt" : (prov.anchor || ""))].concat(EXTRA[prov.id] || []).join("/").split("/").forEach(function (an) {
+        an = an.replace(/\(.*?\)/g, "").replace(/^\s*(TP|Thành phố)\s+/i, "");
+        var k = (marked ? low(an) : norm(an)).trim();
         if (k.length >= 4 && fq.indexOf(" " + k + " ") >= 0 && !res.some(function (r) { return r.kind === "prov" && r.prov.id === prov.id; }))
           res.push({ kind: "prov", prov: prov, x: null, s: 98 });
       });

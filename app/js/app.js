@@ -1500,12 +1500,36 @@ document.getElementById("searchInput").addEventListener("keydown",function(e){ i
 
 
 /* ================= 4 BƯỚC LẬP CHUYẾN ================= */
-var wiz={step:1, dest:"dalat", area:"", origin:"", budget:"vua", style:"cap_doi", days:[], editingId:null, editStart:"", editEnd:"", editTitle:"", titleLoaded:false};
+var wiz={step:1, dest:"dalat", area:"", focus:"", origin:"", budget:"vua", style:"cap_doi", days:[], editingId:null, editStart:"", editEnd:"", editTitle:"", titleLoaded:false};
 function wizDestProv(){ return provById(wiz.dest); }
+/* Chọn 1 địa danh: thuộc khu xa thủ phủ (Phú Quốc, Hà Tiên…) thì lập theo khu đó, mở đầu bằng địa danh;
+   không thuộc khu nhưng cách thủ phủ trên 40 km (Móng Cái, Pù Luông…) thì lập lịch quanh địa danh;
+   gần thủ phủ thì dùng lịch mẫu của tỉnh và thêm địa danh vào ngày 1. */
+function wizFocusFrom(prov,rr){
+  wiz.area=""; wiz.focus="";
+  if(rr.type!=="pplace") return;
+  var x=null; prov.places.forEach(function(p){ if(p.id===rr.id) x=p; }); if(!x) return;
+  var anchor=prov.id==="lam-dong"?"Đà Lạt":(prov.anchor||prov.name);
+  var ar=(x.dist_from&&x.dist_from!==anchor&&window.btAreaByHub)?btAreaByHub(prov.id,x.dist_from):null;
+  var far=(x.lat!=null&&prov.lat!=null&&window.btKm)?btKm(x.lat,x.lng,prov.lat,prov.lng):0;
+  var isle=window.btIsIsle&&btIsIsle(x);
+  /* đảo khác cách xa trung tâm đảo được gán (Nam Du, Hòn Sơn…): lập riêng quanh đảo đó */
+  if(ar&&ar.island&&isle&&window.btKm&&x.lat!=null&&btKm(x.lat,x.lng,ar.lat,ar.lng)>25) ar=null;
+  if(ar){ wiz.area=ar.id; wiz.focus=x.id; }
+  else if(far>25||isle){ wiz.focus=x.id; }
+  else { var it=planItemObj("pplace",prov,x.id); if(it){ it.prov=prov.id; pendingPlanItem=it; } }
+}
+function wizFocusPlace(){ var p=wizDestProv(), f=null; if(p&&wiz.focus) p.places.forEach(function(x){ if(x.id===wiz.focus) f=x; }); return f; }
 function wizArea(){ var a=wiz.area&&window.btAreaById?btAreaById(wiz.area):null; return a&&provById(a.prov)===wizDestProv()?a:null; }
 /* Tỉnh dùng để tính tiền đi: khu (Quy Nhơn…) có tuyến riêng thì thay dòng tiền đi của tỉnh */
-function costProvFor(provId,areaId){ var p=provById(provId), a=areaId&&window.btAreaById?btAreaById(areaId):null; return (a&&p&&provById(a.prov)===p&&window.btAreaCostProv)?btAreaCostProv(a):p; }
-function wizDestName(){ var a=wizArea(); if(a) return a.name; var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0]; return d?d.name:"Đà Lạt"; }
+function costProvFor(provId,areaId,focusId){
+  var p=provById(provId); if(!p||!window.btAreaCostProv) return p;
+  var a=areaId&&window.btAreaById?btAreaById(areaId):null; if(a&&provById(a.prov)!==p) a=null;
+  var x=null; if(focusId) p.places.forEach(function(y){ if(y.id===focusId) x=y; });
+  if(!a&&!x) return p;
+  return btAreaCostProv(a,x?{prov:p.id,x:x}:null)||p;
+}
+function wizDestName(){ var fp=wizFocusPlace(), a=wizArea(); if(fp&&window.btIsIsle&&btIsIsle(fp)&&!(a&&a.island)) return fp.name.split(" (")[0]; if(a) return a.name; if(fp) return fp.name.split(" (")[0]; var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0]; return d?d.name:"Đà Lạt"; }
 function wizTplKey(n){
   var key=n<=2?"2N1D":(n===3?"3N2D":"4N3D");
   if(wiz.dest==="dalat") return key;
@@ -1514,7 +1538,7 @@ function wizTplKey(n){
   return key;
 }
 function wizPickDest(id){
-  wiz.dest=id; searchDestId=id; wiz.area="";
+  wiz.dest=id; searchDestId=id; wiz.area=""; wiz.focus="";
   var d=DESTINATIONS.filter(function(x){return x.id===id;})[0];
   if(d){ var wd=document.getElementById("wDestInput"); if(wd) wd.value=d.name; syncDestInputs(d.name,"wDestInput"); }
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===id); });
@@ -1567,7 +1591,7 @@ function addDays(ds,n){ var d=new Date(ds+"T00:00:00"); d.setDate(d.getDate()+n)
 function daysBetween(a,b){ return Math.round((new Date(b+"T00:00:00")-new Date(a+"T00:00:00"))/86400000)+1; }
 function fmtDate(ds){ if(!ds) return ""; var p=ds.split("-"); return p[2]+"/"+p[1]+"/"+p[0]; }
 function startPlan(){
-  wiz={step:1,dest:(searchDestId||"dalat"),area:"",origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false};
+  wiz={step:1,dest:(searchDestId||"dalat"),area:"",focus:"",origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false};
   var wd=document.getElementById("wDestInput"); if(wd) wd.value=(searchDestId==="dalat"||!searchDestText)?"Đà Lạt":searchDestText;
   var wo=document.getElementById("wOriginInput"); if(wo) wo.value=searchOrigin||"";
   var today=new Date(); var s=new Date(today.getTime()+7*86400000); var e=new Date(today.getTime()+9*86400000);
@@ -1640,11 +1664,13 @@ function buildWizDays(){
   }
   var key=wizTplKey(n);
   wiz.days=[];
-  var area=wizArea();
-  if(area && window.btAreaDays){
-    btAreaDays(area,n).forEach(function(list,di){
+  var area=wizArea(), fpl=wizFocusPlace(), wpv=wizDestProv();
+  if((area||fpl) && wpv && window.btPointDays){
+    var ctr=fpl&&fpl.lat!=null?{lat:fpl.lat,lng:fpl.lng}:(area?{lat:area.lat,lng:area.lng}:{lat:wpv.lat,lng:wpv.lng});
+    var isle=fpl&&window.btIsIsle&&btIsIsle(fpl)&&!(area&&area.island);
+    btPointDays(wpv,ctr,n,fpl,isle?null:area).forEach(function(list,di){
       var its=list.map(function(o){ return {kind:"pplace", ref_id:"", title:o.place.name, gia_luc_lap:parsePriceSnap(o.place.price), session:o.session, note:"", done:false}; });
-      if(!its.length) its.push({kind:"note", ref_id:"", title:"Ngày tự do ở "+area.name+": nghỉ, đi chợ, ăn đặc sản", gia_luc_lap:0, session:"Cả ngày", note:"", done:false});
+      if(!its.length) its.push({kind:"note", ref_id:"", title:"Ngày tự do ở "+wizDestName()+": nghỉ, đi chợ, ăn đặc sản", gia_luc_lap:0, session:"Cả ngày", note:"", done:false});
       wiz.days.push({day_no:di+1, date:addDays(s,di), items:its});
     });
   } else if(wiz.dest==="dalat"){
@@ -1730,6 +1756,7 @@ function pickByBudget(range,budgetId){
 /* Điểm xuất phát có nằm trong chính tỉnh đến không (Đà Nẵng -> Đà Nẵng, Nha Trang -> Khánh Hòa...) */
 function sameProvOrigin(prov,origin){
   if(!prov||!origin) return false;
+  if(prov._areaName) return foldStr(origin).indexOf(foldStr(prov._areaName.split(" – ")[0]))>=0;
   if(isSGOrigin(origin)) return prov.id==="tp-ho-chi-minh";
   if(isHNOrigin(origin)) return prov.id==="ha-noi";
   try{ var h=window.btFindProv&&window.btFindProv(origin); if(h&&h.prov) return h.prov.id===prov.id; }catch(e){}
@@ -1773,7 +1800,7 @@ function tripComponents(prov,budgetId,nights,people,origin,estTotal){
     pk.rows.forEach(function(r){ var tr=parseRangeVal(r.value); if(tr){ var v=pickByBudget(tr,budgetId); if(/\/chiều/.test(r.value)) v*=2; transport+=v; ok=true; } });
     if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights/people):0; } }
   }
-  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId};
+  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId, farNote:(prov&&prov._farNote&&mode!=="same")?prov._farNote:""};
 }
 /* Chỉ hiện khi tổng ước tính 1 người thấp hơn ngân sách 1 người đã chọn:
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
@@ -1783,6 +1810,10 @@ function underBudgetNoteHtml(total,perBudget){
   return "";
 }
 function transportNoteHtml(comp,editable){
+  if(comp.farNote) return transportNoteHtml0(comp,editable)+' <b style="color:var(--accent,#c4501d)">'+esc(comp.farNote)+'</b>';
+  return transportNoteHtml0(comp,editable);
+}
+function transportNoteHtml0(comp,editable){
   if(comp.mode==="same") return ' (cùng tỉnh với điểm xuất phát '+esc(comp.origin)+', không cộng tiền đi tới)';
   if(comp.mode==="fallback") return ' (<b style="color:var(--accent,#c4501d)">tạm tính từ TP.HCM</b> vì chưa có giá tuyến từ '+esc(comp.origin)+(editable?' — <a href="#" onclick="if(window.wizEditOrigin)wizEditOrigin();return false">đổi điểm xuất phát</a>':'')+')';
   if(comp.mode==="hn") return ' (từ Hà Nội)';
@@ -1799,7 +1830,7 @@ function renderWizDays(){
   document.getElementById("wSummary").innerHTML =
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(bud.per*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
     '<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin||"TP.HCM")+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>'+
-    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
+    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
@@ -1860,14 +1891,14 @@ function planMove(dir){
     var dText=wdEl?wdEl.value.trim():"";
     if(dText){
       var rr=resolveDestText(dText);
-      wiz.area="";
+      wiz.area=""; wiz.focus="";
       if(rr&&rr.type==="area"){
         var pa=provById(rr.prov); if(pa){ wiz.dest=pa.appId; searchDestId=pa.appId; wiz.area=rr.id; }
       } else if(rr&&rr.type==="dest"){
         var rid=(rr.id==="tphcm")?"tp-ho-chi-minh":rr.id;
         wiz.dest=rid; searchDestId=rid;
       } else if(rr&&(rr.type==="pplace"||rr.type==="pdish")){
-        var pv2=provById(rr.prov); if(pv2){ wiz.dest=pv2.appId; searchDestId=pv2.appId; }
+        var pv2=provById(rr.prov); if(pv2){ wiz.dest=pv2.appId; searchDestId=pv2.appId; wizFocusFrom(pv2,rr); }
       } else if(rr){ wiz.dest="dalat"; searchDestId="dalat"; }
       else { toast("Chưa tìm thấy điểm đến này trong cẩm nang — thử chọn từ danh sách gợi ý bên dưới"); return; }
       document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===wiz.dest); });
@@ -1889,8 +1920,8 @@ function editTrip(id){
   var t=tripById(id); if(!t) return;
   startPlan();
   wiz.editingId=id; wiz.editStart=t.start_date||""; wiz.editEnd=t.end_date||""; wiz.editTitle=t.title||""; wiz.titleLoaded=false;
-  wiz.dest=t.destination_id||"dalat"; searchDestId=wiz.dest; wiz.area=t.area||"";
-  var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0], dn=wizArea()?wizArea().name:(d?d.name:"");
+  wiz.dest=t.destination_id||"dalat"; searchDestId=wiz.dest; wiz.area=t.area||""; wiz.focus=t.focus||"";
+  var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0], dn=(wizArea()||wizFocusPlace())?wizDestName():(d?d.name:"");
   var wd=document.getElementById("wDestInput"); if(wd&&dn) wd.value=dn;
   if(dn) syncDestInputs(dn,"wDestInput");
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===wiz.dest); });
@@ -1917,7 +1948,7 @@ function savePlanTrip(){
   if(wiz.editingId){
     var old=tripById(wiz.editingId);
     if(old){
-      old.destination_id=wiz.dest; old.area=wizArea()?wiz.area:""; old.origin_city=wiz.origin||resolveOrigin(searchOrigin);
+      old.destination_id=wiz.dest; old.area=wizArea()?wiz.area:""; old.focus=wizFocusPlace()?wiz.focus:""; old.origin_city=wiz.origin||resolveOrigin(searchOrigin);
       old.title=document.getElementById("wTitle").value.trim()||old.title;
       old.start_date=document.getElementById("wStart").value; old.end_date=document.getElementById("wEnd").value;
       old.people_count=people; old.budget_total=bud.per*people; old.budget_label=bud.label; old.style=styleLabel;
@@ -1934,7 +1965,7 @@ function savePlanTrip(){
   var provCk=wizDestProv();
   var ckList=(wiz.dest!=="dalat" && provCk && provCk.checklist && provCk.checklist.length) ? provCk.checklist : CHECKLIST_DEFAULT;
   var trip={
-    id:uid(), destination_id:wiz.dest, area:(wizArea()?wiz.area:""), origin_city:wiz.origin||resolveOrigin(searchOrigin),
+    id:uid(), destination_id:wiz.dest, area:(wizArea()?wiz.area:""), focus:(wizFocusPlace()?wiz.focus:""), origin_city:wiz.origin||resolveOrigin(searchOrigin),
     title:document.getElementById("wTitle").value.trim()||("Chuyến "+wizDestName()),
     start_date:document.getElementById("wStart").value, end_date:document.getElementById("wEnd").value,
     people_count:people, budget_total:bud.per*people, budget_label:bud.label, style:styleLabel,
@@ -1988,7 +2019,10 @@ function tripProvId(t){
 }
 function tripArea(t){ var a=t&&t.area&&window.btAreaById?btAreaById(t.area):null; return a&&provById(a.prov)&&provById(a.prov).appId===t.destination_id?a:null; }
 function tripDestName(t){
-  var ta=tripArea(t); if(ta) return ta.name;
+  var ta=tripArea(t);
+  if(t&&t.focus&&window.btIsIsle){ var ip=provById(t.destination_id), ix=null; if(ip) ip.places.forEach(function(x){ if(x.id===t.focus) ix=x; }); if(ix&&btIsIsle(ix)&&!(ta&&ta.island)) return ix.name.split(" (")[0]; }
+  if(ta) return ta.name;
+  if(t&&t.focus){ var fp0=provById(t.destination_id), fx=null; if(fp0) fp0.places.forEach(function(x){ if(x.id===t.focus) fx=x; }); if(fx) return fx.name.split(" (")[0]; }
   var d=DESTINATIONS.filter(function(x){return x.id===t.destination_id;})[0];
   return d?d.name:"Đà Lạt";
 }
@@ -2099,7 +2133,7 @@ function renderTripDetail(){
   var html='<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h2 style="font-size:var(--fs-h2);margin:4px 0 4px;flex:1">'+esc(fullDurTitle(t.title))+'</h2><span style="margin-top:6px">'+tripStatusBadge(t)+'</span></div><p class="sec-sub" style="margin-bottom:10px">'+(t.origin_city?('Xuất phát từ <b style="color:var(--ink)">'+esc(t.origin_city)+'</b> → '+esc(tripDestName(t))+' · '):(esc(tripDestName(t))+" · "))+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+(tripDurLabel(t)?(' · '+tripDurLabel(t)):"")+' · '+t.people_count+' người · kiểu đi: '+esc(t.style||"—")+'</p>';
   var estSum=0, estUnknown=0;
   t.days.forEach(function(d){ d.items.forEach(function(it){ if(it.gia_luc_lap==null) estUnknown++; else estSum+=Number(it.gia_luc_lap||0); }); });
-  var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(costProvFor(t.destination_id,t.area), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
+  var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(costProvFor(t.destination_id,t.area,t.focus), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
   /* "Còn lại" trừ theo số lớn hơn giữa ước tính cả nhóm và số đã chi, để không báo còn đủ tiền khi chưa ghi khoản chi nào */
   var estGroup=_compT.total*(t.people_count||1), used=Math.max(spent,estGroup), left=t.budget_total-used;
   var pct=t.budget_total?Math.min(100,Math.round(used/t.budget_total*100)):0;
@@ -2224,7 +2258,7 @@ function tripSummaryText(t){
     d.items.forEach(function(it){ lines.push("- "+(it.session?it.session+": ":"")+it.title); if(it.gia_luc_lap) sum+=Number(it.gia_luc_lap); });
   });
   lines.push("");
-  var _budS=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compS=tripComponents(costProvFor(t.destination_id,t.area), _budS?_budS.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum);
+  var _budS=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compS=tripComponents(costProvFor(t.destination_id,t.area,t.focus), _budS?_budS.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum);
   lines.push("Tổng ước tính cả chuyến: khoảng "+fmt(_compS.total)+"/người. Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.");
   lines.push("Ngân sách chuyến: "+fmt(t.budget_total)+" · Đã chi: "+fmt(tripSpent(t)));
   return lines.join("\n");
