@@ -58,6 +58,7 @@
     var up=mode==="up";
     return '<h3 id="dgTitle">'+(up?"Tạo tài khoản BuiTrip":"Đăng nhập BuiTrip")+'</h3>'+
       '<p class="muted" style="margin-top:0">Cần tài khoản để gửi đóng góp và theo dõi trạng thái duyệt. Tài khoản BuiTrip riêng, không dùng chung với app khác.</p>'+
+      '<div class="notebox" style="margin:0 0 12px"><b>Không muốn tạo tài khoản?</b> Báo sai giá, giờ, địa chỉ qua mục Hỗ trợ của nút Hỏi, không cần đăng nhập. <button type="button" class="linkbtn" onclick="dgClose();if(window.tlOpen)tlOpen(\'ht\')">Mở mục Hỗ trợ</button></div>'+
       '<button class="btn btn-primary btn-block" onclick="dgGoogle()">Tiếp tục với Google</button>'+
       '<div class="dg-or"><span>hoặc dùng email</span></div>'+
       '<form class="rv-form" onsubmit="return dgEmail(event,\''+(up?"up":"in")+'\')">'+

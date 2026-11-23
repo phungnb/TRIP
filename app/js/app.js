@@ -16,7 +16,7 @@ var PLACES = [
   {id:"ho-xuan-huong",name:"Hồ Xuân Hương",cluster:"trung-tam",address:"Trung tâm TP. Đà Lạt, giáp Trần Quốc Toản, Nguyễn Thái Học, Bà Huyện Thanh Quan",lat:11.94187,lng:108.44666,dist:0,price:"Miễn phí; đạp vịt 60.000–120.000đ/giờ; xe ngựa ~200.000đ/chuyến 4–6 người",priceSnap:0,hours:"24/7 (không gian công cộng)",duration:"1–2 giờ; đẹp nhất 5h–8h và hoàng hôn",suitable:"Mọi đối tượng, cặp đôi, gia đình, người lớn tuổi",note:"Sáng sớm/chiều tối gió mạnh, trời lạnh — mang áo khoác; hỏi giá đạp vịt/xe ngựa trước.",source:"onelife.vn, vietnamonline.com, saigonstartravel.com"},
   {id:"quang-truong-lam-vien",name:"Quảng trường Lâm Viên",cluster:"trung-tam",address:"Đường Trần Quốc Toản, bờ Hồ Xuân Hương",lat:11.93947,lng:108.44516,dist:0,price:"Miễn phí; Doha Cafe trong nụ atiso 45.000–90.000đ",priceSnap:0,hours:"Chưa kiểm được giờ chính thức thống nhất (các nguồn ghi 24/7 / 7:00–22:00 / 5:00–22:00); Doha Cafe ~6:30–22:30",duration:"30–45 phút; đẹp nhất 5h–7h hoặc 16h–18h",suitable:"Giới trẻ check-in, gia đình có trẻ nhỏ",note:"Tránh 11h–14h nắng gắt, gió ven hồ mạnh; tối đông, giữ tư trang.",source:"blog.vexere.com, namthientravel.com.vn, tourdalattravel.com"},
   {id:"cho-da-lat",name:"Chợ Đà Lạt / chợ đêm",cluster:"trung-tam",address:"Đường Nguyễn Thị Minh Khai, khu Hòa Bình, phường Xuân Hương",lat:11.94299,lng:108.43693,dist:1,price:"Miễn phí vào chợ; bánh tráng nướng 15.000–35.000đ/chiếc; ăn vặt 15.000–30.000đ/món",priceSnap:20000,hours:"Chợ ngày ~6:00–17:00/18:00; chợ đêm ~18:00–23:00 (giờ đóng chưa kiểm được chính xác)",duration:"Chợ ngày 1 giờ; chợ đêm 60–120 phút",suitable:"Mọi đối tượng, người thích ẩm thực đường phố",note:"Hầu hết quầy chỉ nhận tiền mặt, mang tiền lẻ; hỏi giá trước khi gọi món/mua đồ.",source:"hoadalattravel.vn, namthientravel.com.vn"},
-  {id:"ga-da-lat",name:"Ga Đà Lạt",cluster:"trung-tam",address:"Số 1 Quang Trung, phường Xuân Hương",lat:11.94178,lng:108.45375,dist:2,price:"Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn",priceSnap:50000,hours:"Chưa kiểm được giờ đóng chính xác (6:00–17:00 / 7:00–18:00 / 7:00–19:00 / 7:30–17:00). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ tàu đêm)",duration:"1–1,5 giờ; 2–2,5 giờ nếu đi tàu khứ hồi",suitable:"Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",note:"Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
+  {id:"ga-da-lat",name:"Ga Đà Lạt",cluster:"trung-tam",address:"Số 1 Quang Trung, phường Xuân Hương",lat:11.94178,lng:108.45375,dist:2,price:"Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn",priceSnap:50000,hours:"Tham quan khoảng 7:00–17:00 (ước tính, chưa kiểm). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ tàu đêm)",duration:"1–1,5 giờ; 2–2,5 giờ nếu đi tàu khứ hồi",suitable:"Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",note:"Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
   {id:"nha-tho-domaine",name:"Nhà thờ Domaine de Marie",cluster:"trung-tam",address:"Số 1 Ngô Quyền, phường Cam Ly, trên đồi Mai Anh",lat:11.94848,lng:108.43017,dist:2,price:"Miễn phí",priceSnap:0,hours:"Tham quan tự do, khung tham khảo 7:00–17:00; giờ lễ ngày thường 17:00, Chủ nhật 5:45, 8:00 & 16:30",duration:"30–60 phút; đẹp nhất 7:00–10:00 hoặc 14:00–16:00",suitable:"Người yêu kiến trúc/lịch sử, cặp đôi chụp ảnh",note:"Nhà thờ + tu viện đang hoạt động — tránh giờ lễ, ăn mặc lịch sự, giữ yên lặng.",source:"hoadalattravel.vn, tatravel.vn, agotourist.com"},
   {id:"thung-lung-tinh-yeu",name:"Thung lũng Tình Yêu",cluster:"phia-bac",address:"Số 3–5–7 Mai Anh Đào, phường Lâm Viên, quanh hồ Đa Thiện",lat:11.97746,lng:108.44978,dist:6,price:"Người lớn 225.000–250.000đ; trẻ em 1–1,39 m và người trên 60 tuổi 125.000đ; dưới 1 m miễn phí",priceSnap:250000,hours:"Khoảng 7:00–17:30 (chưa kiểm được giờ đóng chính xác)",duration:"Nửa ngày (3–4 giờ); đẹp nhất 8h–10h hoặc 15h–17h",suitable:"Cặp đôi, gia đình, nhóm bạn",note:"Vé gồm xe điện, đạp vịt, cồng chiêng, game 9D — một số trò thu thêm, hỏi rõ ở quầy; khu rất rộng, mang giày bệt.",source:"vinpearl.com, travelbui.com, agotourist.com"},
   {id:"nui-langbiang",name:"Núi Langbiang",cluster:"phia-bac",address:"305 Langbiang, thị trấn Lạc Dương. Đỉnh Núi Bà 2.167 m; đồi Radar 1.929–1.950 m",lat:12.01964,lng:108.42435,dist:12,price:"Vé cổng người lớn 50.000đ, trẻ em 25.000đ. Xe jeep lên Radar khứ hồi 100.000–120.000đ/người (chưa kiểm được giá chính thức — có nguồn ghi ~200.000đ)",priceSnap:170000,hours:"7:00–17:00 (đa số nguồn; chưa kiểm được chính xác)",duration:"2–3 giờ; nửa ngày nếu leo bộ",suitable:"Người thích ngắm toàn cảnh/săn mây, nhóm bạn",note:"Jeep chỉ lên đồi Radar, KHÔNG lên đỉnh Núi Bà (leo bộ 3–4 giờ); jeep xuất phát khi đủ 5–6 khách nên có thể phải chờ.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
@@ -236,6 +236,8 @@ function syncHistory(){
 }
 window.addEventListener("popstate",function(){
   histGuard=false;
+  /* Dán link #/tinh/… vào tab đang mở: mở đúng trang đó thay vì coi là bấm Back (chia-se.js) */
+  if(location.hash && location.hash!==viewHash() && typeof window.btRouteHash==="function" && window.btRouteHash(location.hash)) return;
   if(navStack.length>0) goBack();
   else if(currentView!=="explore") show("explore",false);
 });
@@ -274,11 +276,19 @@ function itinCard(key){
 }
 var regionFilter="all";
 function renderDestList(){
-  var q=(document.getElementById("destSearch").value||"").toLowerCase().trim();
-  var html=DESTINATIONS.filter(function(d){
-    return (regionFilter==="all"||d.region===regionFilter) && (!q || (d.name+" "+d.province).toLowerCase().indexOf(q)>=0);
-  }).map(destCard).join("");
-  document.getElementById("destList").innerHTML = html || '<div class="empty"><p class="muted" style="margin:0">Không thấy điểm đến nào khớp. Thử gõ “Đà Lạt”.</p></div>';
+  var raw=(document.getElementById("destSearch").value||"").trim();
+  var f=foldStr(raw);
+  var oldOf=function(d){ return (typeof SAP_NHAP!=="undefined"&&SAP_NHAP[d.provId||d.id])?SAP_NHAP[d.provId||d.id].join(" "):""; };
+  var provs=DESTINATIONS.filter(function(d){
+    return (regionFilter==="all"||d.region===regionFilter) && (!f || foldStr(d.name+" "+d.province+" "+oldOf(d)).indexOf(f)>=0);
+  });
+  var html=provs.map(destCard).join("");
+  /* Gõ tên địa danh, món: hiện thêm địa danh và món khớp, không chỉ tên tỉnh */
+  if(f && window.btSearch){
+    var hits=btSearch(raw).filter(function(r){ return (r.kind==="place"||r.kind==="dish") && (regionFilter==="all"||r.prov.region===regionFilter); });
+    if(hits.length) html+='<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Địa danh, món ăn khớp “'+esc(raw)+'”</h3><div class="listcol">'+hits.slice(0,30).map(btSearchCard).join("")+'</div>';
+  }
+  document.getElementById("destList").innerHTML = html || '<div class="empty"><p class="muted" style="margin:0">Không thấy tỉnh, địa danh hay món nào khớp “'+esc(raw)+'”. Thử gõ “Hội An”, “phở” hoặc tên tỉnh cũ như “Quảng Nam”.</p></div>';
 }
 document.querySelectorAll("#regionChips .chip").forEach(function(c){
   c.addEventListener("click",function(){
@@ -322,6 +332,7 @@ function renderAcList(listEl,items,prefix,kind){
   if(!items.length){ listEl.classList.remove("show"); listEl.innerHTML=""; return; }
   listEl.innerHTML=items.map(function(it){
     if(kind==="origin") return '<button type="button" class="ac-item" onmousedown="pickAcOrigin(\''+prefix+'\',\''+esc(it)+'\')"><span style="flex:1"><b>'+esc(it)+'</b><span>Điểm xuất phát gợi ý</span></span></button>';
+    if(it.type==="none") return '<div class="ac-item" style="cursor:default"><span style="flex:1"><b>'+esc(it.title)+'</b><span>'+esc(it.sub)+'</span></span></div>';
     return '<button type="button" class="ac-item" onmousedown="pickAcDest(\''+prefix+'\',\''+it.type+'\',\''+it.id+'\')"><span style="flex:1"><b>'+esc(it.title)+'</b><span>'+esc(it.sub)+'</span></span></button>';
   }).join("");
   listEl.classList.add("show");
@@ -544,11 +555,12 @@ function detailHead(img,alt,title,badges){
 }
 function openPlace(id){
   var p=placeById(id); if(!p) return;
-  var img=PLACE_IMG[p.id]||PLACE_IMG["default"];
+  var img=PLACE_IMG[p.id], sub=CLUSTER_LABEL[p.cluster]+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km");
+  /* Không có ảnh đúng địa danh thì không dùng ảnh mặc định (hồ, rừng thông) */
   document.getElementById("itemDetail").innerHTML =
-    detailHead(img,p.name,p.name, esc(CLUSTER_LABEL[p.cluster])+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km")) +
+    (img ? detailHead(img,p.name,p.name,esc(sub)) : plainItemHead(p.name,sub)) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+CHECKED+'</span></div>'+
-    '<div class="kv"><div class="cell"><div class="k">Giá vé / chi phí</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
+    '<div class="kv">'+factCell("Mùa đẹp",placeSeason(p,provById("lam-dong")))+'<div class="cell"><div class="k">Giá vé / chi phí</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
     '<p class="muted">Tọa độ: '+p.lat+", "+p.lng+' · <a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(p.note)+'</div>'+
@@ -616,7 +628,7 @@ function provById(id){
 }
 function provByAppId(appId){ return provById(appId); }
 function regionLabel(r){ return r==="bac"?"Miền Bắc":(r==="trung"?"Miền Trung":"Miền Nam"); }
-var CLUSTER_OVERRIDES={"nui-ba-den":"Núi Bà Đen","tam-duong":"Tam Đường","tam-coc":"Tam Cốc","song-sai-gon":"Sông Sài Gòn","ho-tay":"Hồ Tây","ho-lak":"Hồ Lắk","ho-nui-coc":"Hồ Núi Cốc","pho-co":"Phố cổ","pho-hien":"Phố Hiến","dong-da":"Đống Đa","dong-khoi":"Đồng Khởi","ben-thanh":"Bến Thành","nguyen-hue":"Nguyễn Huệ","le-thanh-ton":"Lê Thánh Tôn","tran-phu":"Trần Phú","cat-ba":"Cát Bà","cat-cat":"Cát Cát","ta-van":"Tả Van","pu-luong":"Pù Luông","ban-ang":"Bản Áng","o-quy-ho":"Ô Quy Hồ","mau-son":"Mẫu Sơn","bai-chay":"Bãi Cháy","cai-rang":"Cái Răng","dat-mui":"Đất Mũi","do-son":"Đồ Sơn","hon-gai":"Hòn Gai","van-don":"Vân Đồn","uong-bi":"Uông Bí","tuan-chau":"Tuần Châu","hoa-lu":"Hoa Lư","vinh-ha-long":"Vịnh Hạ Long","cu-lao-an-binh":"Cù lao An Bình","dong-thap-muoi":"Đồng Tháp Mười","nui-sam":"Núi Sam","chau-doc-nui-sam":"Châu Đốc · Núi Sam","tri-ton-long-xuyen":"Tri Tôn · Long Xuyên","tra-on-mang-thit":"Trà Ôn · Mang Thít","lai-vung-lap-vo":"Lai Vung · Lấp Vò","ha-nam-nam-dinh-cu":"Hà Nam · Nam Định cũ","quy-nhon-binh-dinh-cu":"Quy Nhơn · Bình Định cũ","kien-giang-cu":"Kiên Giang cũ","thai-binh-cu":"Thái Bình cũ","hai-duong-cu":"Hải Dương cũ","bac-giang-cu":"Bắc Giang cũ","bac-lieu-cu":"Bạc Liêu cũ","ben-tre-tra-vinh-cu":"Bến Tre · Trà Vinh cũ","ha-giang-cu":"Hà Giang cũ","tien-giang-cu":"Tiền Giang cũ","tuy-hoa-phu-yen-cu":"Tuy Hòa · Phú Yên cũ","bien-ho":"Biển Hồ","dong-dang":"Đồng Đăng","huu-lien":"Hữu Liên","trung-khanh":"Trùng Khánh","chi-lang":"Chi Lăng","song-ho":"Sông Hồ","phong-tho":"Phong Thổ","sin-ho":"Sìn Hồ","than-uyen":"Than Uyên","viet-hong":"Việt Hồng","gia-binh":"Gia Bình","tien-lu":"Tiên Lữ","khoai-chau":"Khoái Châu","thuan-thanh":"Thuận Thành","tien-du":"Tiên Du","tu-son":"Từ Sơn","que-vo":"Quế Võ","van-lam":"Văn Lâm","van-giang":"Văn Giang","yen-phong":"Yên Phong","kim-son":"Kim Sơn","nho-quan":"Nho Quan","gia-vien":"Gia Viễn","khe-sanh":"Khe Sanh","dong-da-khe-sanh":"Đông Hà · Khe Sanh","thien-cam":"Thiên Cầm","ky-anh":"Kỳ Anh","nghi-xuan":"Nghi Xuân","nam-dan":"Nam Đàn","cua-lo":"Cửa Lò","cua-hoi":"Cửa Hội","cua-tung":"Cửa Tùng","sam-son":"Sầm Sơn","sa-huynh":"Sa Huỳnh","sa-ky":"Sa Kỳ","ly-son":"Lý Sơn","long-khanh":"Long Khánh","ho-tuyen-lam":"Hồ Tuyền Lâm","chan-nui-ba-den":"Chân Núi Bà Đen","lang-hoa-sa-dec":"Làng hoa Sa Đéc","sa-dec":"Sa Đéc","cao-lanh":"Cao Lãnh","ninh-kieu":"Ninh Kiều","binh-thuy":"Bình Thủy","cai-khe":"Cái Khế","con-cai-khe":"Cồn Cái Khế","thot-not":"Thốt Nốt","long-xuyen":"Long Xuyên","chau-doc":"Châu Đốc","trung-tam-chau-doc":"Trung tâm Châu Đốc","nam-can":"Năm Căn","u-minh":"U Minh","thanh-co":"Thành cổ","quang-hoa":"Quảng Hòa","ha-quang":"Hà Quảng","bac-ha":"Bắc Hà","muong-hoa":"Mường Hoa","sin-suoi-ho":"Sín Suổi Hồ","na-hang":"Na Hang","lam-binh":"Lâm Bình","buon-don":"Buôn Đôn","bien-gioi":"Biên giới","bay-nui":"Bảy Núi","chu-se":"Chư Sê"};
+var CLUSTER_OVERRIDES={"kham-pha-them":"Khám phá thêm","nui-ba-den":"Núi Bà Đen","tam-duong":"Tam Đường","tam-coc":"Tam Cốc","song-sai-gon":"Sông Sài Gòn","ho-tay":"Hồ Tây","ho-lak":"Hồ Lắk","ho-nui-coc":"Hồ Núi Cốc","pho-co":"Phố cổ","pho-hien":"Phố Hiến","dong-da":"Đống Đa","dong-khoi":"Đồng Khởi","ben-thanh":"Bến Thành","nguyen-hue":"Nguyễn Huệ","le-thanh-ton":"Lê Thánh Tôn","tran-phu":"Trần Phú","cat-ba":"Cát Bà","cat-cat":"Cát Cát","ta-van":"Tả Van","pu-luong":"Pù Luông","ban-ang":"Bản Áng","o-quy-ho":"Ô Quy Hồ","mau-son":"Mẫu Sơn","bai-chay":"Bãi Cháy","cai-rang":"Cái Răng","dat-mui":"Đất Mũi","do-son":"Đồ Sơn","hon-gai":"Hòn Gai","van-don":"Vân Đồn","uong-bi":"Uông Bí","tuan-chau":"Tuần Châu","hoa-lu":"Hoa Lư","vinh-ha-long":"Vịnh Hạ Long","cu-lao-an-binh":"Cù lao An Bình","dong-thap-muoi":"Đồng Tháp Mười","nui-sam":"Núi Sam","chau-doc-nui-sam":"Châu Đốc · Núi Sam","tri-ton-long-xuyen":"Tri Tôn · Long Xuyên","tra-on-mang-thit":"Trà Ôn · Mang Thít","lai-vung-lap-vo":"Lai Vung · Lấp Vò","ha-nam-nam-dinh-cu":"Hà Nam · Nam Định cũ","quy-nhon-binh-dinh-cu":"Quy Nhơn · Bình Định cũ","kien-giang-cu":"Kiên Giang cũ","thai-binh-cu":"Thái Bình cũ","hai-duong-cu":"Hải Dương cũ","bac-giang-cu":"Bắc Giang cũ","bac-lieu-cu":"Bạc Liêu cũ","ben-tre-tra-vinh-cu":"Bến Tre · Trà Vinh cũ","ha-giang-cu":"Hà Giang cũ","tien-giang-cu":"Tiền Giang cũ","tuy-hoa-phu-yen-cu":"Tuy Hòa · Phú Yên cũ","bien-ho":"Biển Hồ","dong-dang":"Đồng Đăng","huu-lien":"Hữu Liên","trung-khanh":"Trùng Khánh","chi-lang":"Chi Lăng","song-ho":"Sông Hồ","phong-tho":"Phong Thổ","sin-ho":"Sìn Hồ","than-uyen":"Than Uyên","viet-hong":"Việt Hồng","gia-binh":"Gia Bình","tien-lu":"Tiên Lữ","khoai-chau":"Khoái Châu","thuan-thanh":"Thuận Thành","tien-du":"Tiên Du","tu-son":"Từ Sơn","que-vo":"Quế Võ","van-lam":"Văn Lâm","van-giang":"Văn Giang","yen-phong":"Yên Phong","kim-son":"Kim Sơn","nho-quan":"Nho Quan","gia-vien":"Gia Viễn","khe-sanh":"Khe Sanh","dong-da-khe-sanh":"Đông Hà · Khe Sanh","thien-cam":"Thiên Cầm","ky-anh":"Kỳ Anh","nghi-xuan":"Nghi Xuân","nam-dan":"Nam Đàn","cua-lo":"Cửa Lò","cua-hoi":"Cửa Hội","cua-tung":"Cửa Tùng","sam-son":"Sầm Sơn","sa-huynh":"Sa Huỳnh","sa-ky":"Sa Kỳ","ly-son":"Lý Sơn","long-khanh":"Long Khánh","ho-tuyen-lam":"Hồ Tuyền Lâm","chan-nui-ba-den":"Chân Núi Bà Đen","lang-hoa-sa-dec":"Làng hoa Sa Đéc","sa-dec":"Sa Đéc","cao-lanh":"Cao Lãnh","ninh-kieu":"Ninh Kiều","binh-thuy":"Bình Thủy","cai-khe":"Cái Khế","con-cai-khe":"Cồn Cái Khế","thot-not":"Thốt Nốt","long-xuyen":"Long Xuyên","chau-doc":"Châu Đốc","trung-tam-chau-doc":"Trung tâm Châu Đốc","nam-can":"Năm Căn","u-minh":"U Minh","thanh-co":"Thành cổ","quang-hoa":"Quảng Hòa","ha-quang":"Hà Quảng","bac-ha":"Bắc Hà","muong-hoa":"Mường Hoa","sin-suoi-ho":"Sín Suổi Hồ","na-hang":"Na Hang","lam-binh":"Lâm Bình","buon-don":"Buôn Đôn","bien-gioi":"Biên giới","bay-nui":"Bảy Núi","chu-se":"Chư Sê"};
 var CLUSTER_WORDS={"trung":"trung","tam":"tâm","phia":"phía","bac":"Bắc","nam":"Nam","tay":"Tây","dong":"Đông","bien":"biển","gioi":"giới","cu":"cũ","co":"cổ","giang":"Giang","lieu":"Liêu","son":"Sơn","bai":"Bãi","ben":"Bến","tre":"Tre","vinh":"Vinh","binh":"Bình","thuy":"Thủy","cai":"Cái","rang":"Răng","cao":"Cao","cat":"Cát","cau":"Cầu","chau":"Châu","doc":"Đốc","lang":"Lăng","lao":"Lào","dat":"Đất","gia":"Gia","dinh":"Định","quang":"Quảng","hai":"Hải","duong":"Dương","hon":"Hòn","kien":"Kiên","muong":"Mường","ngoai":"ngoại","ninh":"Ninh","phong":"Phong","sai":"Sài","gon":"Gòn","thanh":"Thành","tien":"Tiên","long":"Long","hoa":"Hoa","ha":"Hà","tra":"Trà","yen":"Yên","phu":"Phú","nhon":"Nhơn","quy":"Quy","thai":"Thái","song":"Sông","ho":"Hồ","nui":"Núi","pho":"Phố","dao":"Đảo"};
 function clusterLabel(c){
   if(!c) return "Chưa xếp cụm";
@@ -754,7 +766,7 @@ function toggleSaveProv(kind,provId,itemId){
   else openProvDish(provId,itemId);
 }
 function provItemActionsHtml(kind,provId,itemId){
-  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="startPlanForProv(\''+provId+'\')">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
+  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="'+(kind==="pstay"?("startPlanForProv('"+provId+"')"):("planWithItem('"+kind+"','"+provId+"','"+itemId+"')"))+'">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
 }
 /* ================= BÁO THÔNG TIN SAI =================
    Mở thư soạn sẵn gửi về hộp thư hỗ trợ, theo đúng mẫu báo lỗi của README:
@@ -812,7 +824,7 @@ function openProvRainy(provId){
 }
 function provPlaceCard(p,prov){
   var coordBadge = p.lat==null ? '<span class="badge badge-soon">Chưa có tọa độ</span>' : (p.approx ? '<span class="badge badge-unv">Tọa độ xấp xỉ, cần kiểm lại</span>' : '<span class="badge badge-price">Có tọa độ — ghim được bản đồ</span>');
-  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvPlace(\''+prov.id+'\',\''+p.id+'\')"><div class="rc-body"><h3>'+esc(p.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-price">'+esc(clusterLabel(p.cluster))+'</span>'+oldAreaBadge(p)+'</div><div class="meta-line"><span>'+(p.dist==null||p.dist===""?"Chưa có khoảng cách":p.dist===0?"Ngay trung tâm":("Cách trung tâm ~"+p.dist+" km"))+'</span><span>'+esc(p.duration||"")+'</span></div><p class="price-line">'+esc(priceShort(p.price))+'</p><p class="small">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
+  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvPlace(\''+prov.id+'\',\''+p.id+'\')"><div class="rc-body"><h3>'+esc(p.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-price">'+esc(clusterLabel(p.cluster))+'</span>'+oldAreaBadge(p)+'</div><div class="meta-line"><span>'+placeDistLabel(p)+'</span><span>'+esc(p.duration||"")+'</span></div><p class="price-line">'+esc(priceShort(p.price))+'</p><p class="small">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
 }
 function provStayCard(s,prov){
   return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvStay(\''+prov.id+'\',\''+s.id+'\')"><div class="rc-body"><h3>'+esc(s.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-unv">Chưa kiểm chứng</span>'+(s.kind?'<span class="badge badge-soon">'+esc(s.kind)+'</span>':"")+'</div><p class="muted">'+esc(clusterLabel(s.area))+' · '+esc(s.address||"")+'</p><p class="price-line">'+esc(s.price||"")+'</p><p class="small">'+esc(s.dist||"")+' · Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p>'+(s.phone?'<p class="small" style="color:var(--green-d);font-weight:700;margin-top:4px">Có số điện thoại — mở ra để gọi đặt phòng</p>':"")+'</div></button></div>';
@@ -1034,7 +1046,7 @@ function renderProvDetail(){
     (p.cost.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Bảng tổng ước tính cả chuyến 3 ngày 2 đêm — 1 người, từ TP.HCM</h3><div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:6px 14px"><table class="cost">'+costRows+'</table></div><p class="small" style="margin-top:8px">Đây là tổng ước tính cả chuyến cho 1 người — cùng một cách tính với con số tổng ở trang kết quả khi lập chuyến (vé tham quan + ăn uống + di chuyển tới điểm đến + chỗ ở). Luôn là khoảng giá — kiểm lại trước ngày đi.</p>' : "")+
     (p.checklist && p.checklist.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Checklist gợi ý cho chuyến này</h3><div class="listcol">'+p.checklist.map(function(c){ return '<div class="menurow" style="cursor:default"><span style="flex:1">'+esc(c)+'</span></div>'; }).join("")+'</div>' : "")+
     provSeasonHtml(p)+provRainyHtml(p)+provCoupleHtml(p)+provBikeHtml(p)+provScamsHtml(p)+provPassesHtml(p)+provEmergencyHtml(p)+provPhotoHtml(p)+provRunningHtml(p)+
-    '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+
+    '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+(typeof shareBtnHtml==="function"?shareBtnHtml("btShareProv('"+p.id+"')"):"")+
     '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="openFaq()">Câu hỏi thường gặp</button>'+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="didau"><div class="pad">'+
@@ -1163,10 +1175,19 @@ function observeProvMap(){
   provMapObserver.observe(el);
 }
 /* --- Chi tiết địa danh / chỗ ở / món của 34 tỉnh --- */
-function provItemHead(prov,title,sub){
-  /* Đầu trang có hình của tỉnh (cùng bộ hình trang chủ); tên mục chỉ hiện 1 lần ở đây,
-     thanh trên cùng hiện tên tỉnh + loại mục (setItemTopbar) */
+function provItemHead(prov,title,sub,placeId){
+  /* Địa danh: chỉ dùng ảnh chụp đúng địa danh đó (PHOTOS.spot). Không có thì để đầu trang trơn,
+     KHÔNG mượn ảnh tỉnh hay tranh vẽ (Soi lần 2: Hội An hiện ảnh biển, Củ Chi hiện ảnh Quận 1).
+     Chỗ ở, món ăn vẫn dùng hình của tỉnh làm nền. */
+  if(placeId!==undefined){
+    var ph=typeof spotPhoto==="function"?spotPhoto(placeId):null;
+    if(ph) return '<div class="prov-hero prov-hero-art item-hero"><div class="poster prov-hero-bg">'+photoImg(ph,{eager:true})+'</div><div class="prov-hero-in"><h2>'+esc(title)+'</h2><p>'+esc(sub)+'</p></div></div><div class="pad">';
+    return plainItemHead(title,sub);
+  }
   return '<div class="prov-hero prov-hero-art item-hero">'+provPoster(prov.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(title)+'</h2><p>'+esc(sub)+'</p></div></div><div class="pad">';
+}
+function plainItemHead(title,sub){
+  return '<div class="prov-hero"><h2 style="font-size:var(--fs-h1);line-height:1.25;margin:0 0 6px;font-weight:800">'+esc(title)+'</h2><p style="font-size:var(--fs-cap);margin:0">'+esc(sub)+'</p><p style="font-size:var(--fs-cap);margin:6px 0 0;opacity:.75">Chưa có ảnh chụp đúng địa danh này</p></div><div class="pad">';
 }
 function setItemTopbar(prov,kindLabel){
   document.getElementById("topTitle").textContent=(prov.id==="lam-dong"?"Đà Lạt · Lâm Đồng":prov.name);
@@ -1178,6 +1199,12 @@ function factShort(full,isPrice){
   if(isPrice) return priceShort(t)||t;
   var seg=t.split(/;|\(/)[0].trim();
   return seg.length>60?seg.slice(0,58)+"…":seg;
+}
+/* Mùa đẹp cho từng địa danh: ưu tiên mùa riêng của điểm (info.mua_dep), không có thì lấy mùa chung của tỉnh và ghi rõ */
+function placeSeason(x,prov){
+  if(x && x.info && x.info.mua_dep) return x.info.mua_dep;
+  var b=prov&&(prov.best_season||(prov.season&&prov.season.best)); /* season.best có tỉnh ghi theo tháng hiện tại ("Tháng 11/2026"), không dùng làm mùa đẹp */
+  return b?("Theo mùa chung của "+prov.name+": "+b):"Chưa có dữ liệu mùa đẹp";
 }
 function factCell(label,full,isPrice){
   var t=String(full||"").trim(), sh=factShort(t,isPrice);
@@ -1192,9 +1219,9 @@ function openProvPlace(provId,placeId){
     ? '<p class="muted"><b>Chưa có tọa độ</b> — điểm này chưa ghim được lên bản đồ. Địa chỉ ở trên là căn cứ để tìm đường.</p>'
     : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
   document.getElementById("itemDetail").innerHTML =
-    provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+(x.dist==null||x.dist===""?"Chưa có khoảng cách":x.dist===0?"Ngay trung tâm":("Cách trung tâm ~"+x.dist+" km"))+" · "+prov.name) +
+    provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</span>'+'</div>'+
-    '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+'</div>'+
+    '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(x.note||"")+'</div>'+
     provItemActionsHtml("pplace",prov.id,x.id)+
@@ -1244,16 +1271,20 @@ function openProvDish(provId,dishId){
 /* ================= TÌM KIẾM: 34 TỈNH + MỌI ĐỊA DANH ================= */
 function destSuggestions(q){
   var f=foldStr(q).trim(); var out=[];
-  DESTINATIONS.forEach(function(d){
-    if(!f || foldStr(d.name+" "+d.province).indexOf(f)>=0)
-      out.push({type:"dest",id:d.id,name:d.name,title:d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:""),sub:"Đã có dữ liệu đầy đủ · "+regionLabel(d.region),soon:false,draft:false});
-  });
-  if(f && typeof PROV_DATA!=="undefined"){
-    PROV_DATA.forEach(function(prov){
-      prov.places.forEach(function(x){ if(wordMatch(x.name,q)) out.push({type:"pplace",id:prov.id+"|"+x.id,name:x.name,title:x.name,sub:"Địa danh ở "+prov.name,soon:false}); });
-      prov.dishes.forEach(function(x){ if(wordMatch(x.name,q)) out.push({type:"pdish",id:prov.id+"|"+x.id,name:x.name,title:x.name,sub:"Món ăn ở "+prov.name,soon:false}); });
-    });
+  if(!f){
+    DESTINATIONS.forEach(function(d){ out.push({type:"dest",id:d.id,name:d.name,title:d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:""),sub:"Đã có dữ liệu đầy đủ · "+regionLabel(d.region),soon:false,draft:false}); });
+    return out.slice(0,8);
   }
+  var hits=window.btSearch?btSearch(q):[];
+  hits.forEach(function(r){
+    if(r.kind==="prov"){
+      var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; if(!d) return;
+      out.push({type:"dest",id:d.id,name:r.oldName||d.name,title:r.oldName?(r.oldName+" → "+d.name):(d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:"")),sub:r.oldName?(r.oldName+" cũ nay thuộc "+d.name+" (sáp nhập 01/07/2025)"):("Đã có dữ liệu đầy đủ · "+regionLabel(d.region)),soon:false,draft:false});
+    }
+    else if(r.kind==="place") out.push({type:"pplace",id:r.prov.id+"|"+r.x.id,name:r.x.name,title:r.x.name,sub:"Địa danh ở "+r.prov.name,soon:false});
+    else if(r.kind==="dish") out.push({type:"pdish",id:r.prov.id+"|"+r.x.id,name:r.x.name,title:r.x.name,sub:"Món ăn ở "+r.prov.name,soon:false});
+  });
+  if(!out.length) out.push({type:"none",id:"",name:"",title:"Không thấy “"+q+"”",sub:"Thử gõ tên tỉnh mới, tên tỉnh cũ (vd Quảng Nam, Bình Định) hoặc tên địa danh.",soon:true});
   return out.slice(0,8);
 }
 function pickAcDest(prefix,type,id){
@@ -1274,16 +1305,11 @@ function pickAcDest(prefix,type,id){
 function resolveDestText(text){
   var f=foldStr(text).trim(); if(!f) return null;
   if(f==="tphcm"||f.indexOf("ho chi minh")>=0||f==="sai gon") return {type:"dest",id:"tp-ho-chi-minh"};
-  var i,d;
-  for(i=0;i<DESTINATIONS.length;i++){ d=DESTINATIONS[i]; if(foldStr(d.name)===f||foldStr(d.name).indexOf(f)>=0||f.indexOf(foldStr(d.name))>=0) return {type:"dest",id:d.id}; }
-  if(typeof PROV_DATA!=="undefined"){
-    for(i=0;i<PROV_DATA.length;i++){ var prov=PROV_DATA[i];
-      for(var j=0;j<prov.places.length;j++){ if(wordMatch(prov.places[j].name,text)) return {type:"pplace",prov:prov.id,id:prov.places[j].id}; }
-    }
-    for(i=0;i<PROV_DATA.length;i++){ var prov2=PROV_DATA[i];
-      for(var k=0;k<prov2.dishes.length;k++){ if(wordMatch(prov2.dishes[k].name,text)) return {type:"pdish",prov:prov2.id,id:prov2.dishes[k].id}; }
-    }
-  }
+  var r=(window.btSearch?btSearch(text):[])[0];
+  if(!r) return null;
+  if(r.kind==="prov"){ var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; return d?{type:"dest",id:d.id}:null; }
+  if(r.kind==="place") return {type:"pplace",prov:r.prov.id,id:r.x.id};
+  if(r.kind==="dish") return {type:"pdish",prov:r.prov.id,id:r.x.id};
   return null;
 }
 function applyProvRouteHighlight(origin){
@@ -1382,7 +1408,9 @@ function priceShort(txt){
   var t=String(txt);
   var seg=t.split(";")[0];
   if(/miễn phí/i.test(seg) && !/\d/.test(seg)) return "Miễn phí";
-  var m=seg.match(/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/)||t.match(/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/)||seg.match(/\d{1,3}(?:\.\d{3})+\s*đ/)||seg.match(/\d+\s*đ/);
+  /* Ưu tiên con số trong đoạn đầu (giá chính); chỉ khi đoạn đầu không có số mới lấy khoảng giá ở phần sau */
+  var R=/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/, S=/\d{1,3}(?:\.\d{3})+\s*đ/;
+  var m=seg.match(R)||seg.match(S)||seg.match(/\d+\s*đ(?![a-zà-ỹ])/i)||seg.match(/\d{1,3}(?:\.\d{3})*\s*USD/)||t.match(R)||t.match(S);
   if(m) return m[0].replace(/\s+/g," ");
   if(/miễn phí/i.test(t)) return "Miễn phí";
   return seg.length>64?seg.slice(0,64)+"…":seg;
@@ -1418,38 +1446,31 @@ document.getElementById("searchInput").addEventListener("input",function(){
     st.forEach(function(x){ out.push(provStayCard(x,oldArea.prov)); });
     di.forEach(function(x){ out.push(provDishCard(x,oldArea.prov)); });
   }
-  DESTINATIONS.forEach(function(d){ if(wordMatch(d.name+" "+d.province,q) && (!scopeProv || (d.provId||d.id)===scopeProv.id)) out.push(destCard(d)); });
-  if(typeof PROV_DATA!=="undefined" && !oldArea){
-    PROV_DATA.forEach(function(prov){
-      if(scopeProv && prov.id!==scopeProv.id) return;
-      /* Gõ đúng tên tỉnh: hiện luôn các địa danh của tỉnh, không chỉ mục có tên tỉnh trong tên */
-      var wholeProv=scopeProv && prov.id===scopeProv.id && foldStr(q).trim()===foldStr(prov.name).trim();
-      prov.places.forEach(function(x){ if(wholeProv || wordMatch(x.name,q)) out.push(provPlaceCard(x,prov)); });
-      prov.dishes.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provDishCard(x,prov)); });
-      prov.stays.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provStayCard(x,prov)); });
-    });
+  var looseNote="";
+  if(!oldArea){
+    var hits=window.btSearch?btSearch(q):[];
+    if(scopeProv) hits=hits.filter(function(r){ return r.prov.id===scopeProv.id; });
+    hits.forEach(function(r){ var c=btSearchCard(r); if(c) out.push(c); });
+    if(hits.loose) looseNote='<p class="small muted" style="margin:0 0 8px">Không có tên khớp đúng dấu “'+esc(q)+'”, dưới đây là kết quả gần đúng (bỏ dấu).</p>';
+    /* Gõ đúng tên tỉnh: hiện thêm mọi địa danh của tỉnh */
+    if(scopeProv && foldStr(q).trim()===foldStr(scopeProv.name).trim()){
+      var shown={}; hits.forEach(function(r){ if(r.kind==="place") shown[r.x.id]=1; });
+      scopeProv.places.forEach(function(x){ if(!shown[x.id]) out.push(provPlaceCard(x,scopeProv)); });
+    }
   }
   var rainOut=rainySearchHits(q).map(rainySearchCard);
   var allOut=rainOut.concat(out);
   /* Có kết quả thật thì hiện kết quả; chỉ báo "chưa có" khi dữ liệu thật sự trống */
   var gap=out.length?null:missingAreaFor(q);
   box.innerHTML = gap ? '<div class="empty"><p style="margin:0 0 8px"><b>'+esc(gap.name)+' chưa có trong app.</b> Sau sáp nhập 01/07/2025, nơi này thuộc '+esc(gap.provName)+', nhưng dữ liệu hiện mới phủ '+esc(gap.covered)+'. Đội Bụi Code đang bổ sung.</p><button class="btn btn-ghost btn-block" onclick="openProvDetail(\''+gap.prov+'\')">Xem cẩm nang '+esc(gap.provName)+' hiện có</button></div>'+(allOut.length?'<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Kết quả gần đúng khác</h3><div class="listcol">'+allOut.slice(0,10).join("")+'</div>':'')
-    : allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
+    : allOut.length ? looseNote+'<p class="small muted" style="margin:0 0 8px">'+Math.min(allOut.length,30)+(allOut.length>30?'/'+allOut.length:'')+' kết quả, xếp theo độ khớp. Bấm vào mục cần xem.</p><div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
     : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
 });
 /* Điểm nổi tiếng của vùng mới sáp nhập mà dữ liệu chưa có: tìm thì báo thẳng là
    chưa có + dẫn sang tỉnh mới, thay vì "không thấy kết quả" như thể nơi đó không tồn tại. */
-var MISSING_AREAS=[
-  {keys:["phu quoc","duong dong","an thoi","hon thom"],name:"Phú Quốc",prov:"an-giang",provName:"An Giang",covered:"khu vực Châu Đốc, Long Xuyên, Hà Tiên, Rạch Giá"},
-  {keys:["mui ne","phan thiet","bau trang","hon rom","ta cu","ke ga"],name:"Mũi Né / Phan Thiết",prov:"lam-dong",provName:"Lâm Đồng",covered:"Đà Lạt"},
-  {keys:["phong nha","dong hoi","son doong","thien duong","hang en","nhat le"],name:"Phong Nha / Đồng Hới",prov:"quang-tri",provName:"Quảng Trị",covered:"khu vực Quảng Trị cũ (Đông Hà)"},
-  {keys:["dong van","ma pi leng","ma pi leng","meo vac","lung cu","ha giang","quan ba","yen minh","hoang su phi"],name:"Hà Giang (Đồng Văn, Mã Pì Lèng)",prov:"tuyen-quang",provName:"Tuyên Quang",covered:"khu vực Tuyên Quang cũ"},
-  {keys:["mang den","kon tum","kon plong"],name:"Măng Đen / Kon Tum",prov:"quang-ngai",provName:"Quảng Ngãi",covered:"khu vực Quảng Ngãi cũ"},
-  {keys:["mu cang chai","nghia lo","yen bai"],name:"Mù Cang Chải / Yên Bái",prov:"lao-cai",provName:"Lào Cai",covered:"Sa Pa, Bắc Hà và một phần Yên Bái cũ"},
-  {keys:["con dao"],name:"Côn Đảo",prov:"tp-ho-chi-minh",provName:"TP Hồ Chí Minh",covered:"Sài Gòn, Bình Dương cũ, Vũng Tàu"},
-  {keys:["tam dao","mai chau","hoa binh","vinh phuc"],name:"Tam Đảo / Mai Châu",prov:"phu-tho",provName:"Phú Thọ",covered:"khu vực Phú Thọ cũ"},
-  {keys:["soc trang","hau giang","chua doi","chua som rong"],name:"Sóc Trăng / Hậu Giang",prov:"can-tho",provName:"Cần Thơ",covered:"khu vực Cần Thơ cũ"}
-];
+/* Các vùng từng thiếu (Phú Quốc, Mũi Né, Phong Nha, Hà Giang, Măng Đen, Côn Đảo, Tam Đảo, Sóc Trăng…) nay đã có dữ liệu,
+   nên không còn báo "chưa có trong app". Thêm lại vào đây nếu phát hiện vùng nổi tiếng thật sự trống. */
+var MISSING_AREAS=[];
 function missingAreaFor(q){
   var f=" "+foldStr(q).replace(/[^a-z0-9 ]+/g," ").replace(/\s+/g," ").trim()+" ";
   for(var i=0;i<MISSING_AREAS.length;i++){
@@ -1463,30 +1484,11 @@ function exploreSearchGo(){
   var inp=document.getElementById("searchInput");
   var text=inp?inp.value.trim():"";
   if(!text){ toast("Gõ điểm đến trước đã — ví dụ: Đà Lạt, Nha Trang, Hội An"); if(inp) inp.focus(); return; }
-  if(isRainQuery(text)){
-    /* Truy vấn trú mưa: hiện danh sách kết quả tìm kiếm trước (các thẻ
-       "Trời mưa thì đi đâu — <tỉnh>"), người dùng bấm vào 1 thẻ mới mở trang tỉnh. */
-    var inpEl=document.getElementById("searchInput");
-    if(inpEl) inpEl.dispatchEvent(new Event("input",{bubbles:true}));
-    var rbox=document.getElementById("searchResults");
-    if(rbox && rbox.innerHTML && typeof rbox.scrollIntoView==="function") rbox.scrollIntoView({block:"start",behavior:"smooth"});
-    else toast("Chưa thấy kết quả trú mưa cho từ khóa này");
-    return;
-  }
-  var r=resolveDestText(text);
-  if(!r){ var box=document.getElementById("searchResults"); if(box) box.scrollIntoView({block:"nearest",behavior:"smooth"}); return; }
-  if(r.type==="pplace"){ openProvPlace(r.prov,r.id); return; }
-  if(r.type==="pdish"){ openProvDish(r.prov,r.id); return; }
-  if(r.type==="place"){ openPlace(r.id); return; }
-  if(r.type==="dish"){ openDish(r.id); return; }
-  var rid=(r.id==="tphcm")?"tp-ho-chi-minh":r.id;
-  var d=DESTINATIONS.filter(function(x){return x.id===rid;})[0];
-  var prov=d?provById(d.provId||d.id):provById(rid);
-  if(prov){
-    openProvDetail(prov.id);
-    return;
-  }
-  var box2=document.getElementById("searchResults"); if(box2) box2.scrollIntoView({block:"nearest",behavior:"smooth"});
+  if(window.btTrack) btTrack("tim_kiem",{loai:"kham_pha"});
+  /* Không tự mở kết quả đầu tiên: hiện danh sách đã xếp hạng, người dùng chọn đúng mục */
+  inp.dispatchEvent(new Event("input",{bubbles:true}));
+  var box=document.getElementById("searchResults");
+  if(box && typeof box.scrollIntoView==="function") box.scrollIntoView({block:"start",behavior:"smooth"});
 }
 document.getElementById("searchGo").addEventListener("click",exploreSearchGo);
 document.getElementById("searchInput").addEventListener("keydown",function(e){ if(e.key==="Enter"){ e.preventDefault(); exploreSearchGo(); } });
@@ -1510,6 +1512,29 @@ function wizPickDest(id){
   if(d){ var wd=document.getElementById("wDestInput"); if(wd) wd.value=d.name; syncDestInputs(d.name,"wDestInput"); }
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===id); });
   fillWizAddSel(); updateWDaysInfo();
+}
+/* "Đưa vào kế hoạch" từ trang địa danh/món: có chuyến sắp đi tới đúng tỉnh thì hỏi thêm vào chuyến đó,
+   không thì lập chuyến mới và thêm sẵn mục này vào ngày 1. */
+var pendingPlanItem=null;
+function planItemObj(kind,prov,itemId){
+  var arr=kind==="pplace"?prov.places:prov.dishes, f=null; arr.forEach(function(x){ if(x.id===itemId) f=x; });
+  return f?{kind:kind, ref_id:"", title:f.name, gia_luc_lap:parsePriceSnap(f.price), session:"Tự chọn", note:"", done:false}:null;
+}
+function planWithItem(kind,provId,itemId){
+  var prov=provById(provId); if(!prov) return;
+  var it=planItemObj(kind,prov,itemId); if(!it){ startPlanForProv(provId); return; }
+  var t=trips.filter(function(x){ return x.status!=="done" && tripProvId(x)===provId && (x.end_date||"")>=todayISO(); })[0];
+  if(t){
+    askConfirm("Thêm vào chuyến “"+fullDurTitle(t.title)+"”?","Thêm "+it.title+" vào ngày 1 của chuyến này; đổi ngày, buổi ngay trong lịch trình. Muốn lập chuyến mới thì bấm “Để lại” rồi vào Lập kế hoạch.",function(){
+      currentTripId=t.id; tripTab="lich";
+      if(t.days.some(function(d){ return d.items.some(function(x){ return x.title===it.title; }); })) toast("Mục này đã có trong chuyến");
+      else { t.days[0].items.push(it); saveTrips(); toast("Đã thêm "+it.title+" vào ngày 1"); }
+      renderTripDetail(); show("trip-detail");
+    },"Thêm vào chuyến");
+    return;
+  }
+  it.prov=provId; pendingPlanItem=it; startPlanForProv(provId);
+  toast(it.title+" sẽ có sẵn ở ngày 1 khi bạn sang bước lịch trình");
 }
 function startPlanForProv(provId){
   var p=provById(provId); if(!p) return;
@@ -1578,9 +1603,11 @@ function wizShowStep(n){
   window.scrollTo(0,0);
   document.getElementById("appMain").scrollTop=0;
 }
+/* Giá ghi vào kế hoạch lấy từ đúng con số hiện ở đầu thẻ (priceShort), để planner và trang tỉnh không lệch nhau */
 function parsePriceSnap(txt){
   if(!txt) return null;
-  var t=String(txt);
+  var t=priceShort(String(txt))||String(txt);
+  if(/^miễn phí/i.test(t)) return 0;
   var m=t.match(/\d{1,3}(?:\.\d{3})+/);
   if(m) return Number(m[0].replace(/\./g,""));
   var m2=t.match(/(\d+)\s*(?:đ|đồng)/);
@@ -1641,6 +1668,11 @@ function buildWizDays(){
       }
       wiz.days.push({day_no:d2+1, date:addDays(s,d2), items:items2});
     }
+  }
+  if(pendingPlanItem && wiz.days[0]){
+    var pi=pendingPlanItem, wp=wizDestProv(); pendingPlanItem=null;
+    if(wp && wp.id===pi.prov) delete pi.prov; else pi=null;
+    if(pi && !wiz.days.some(function(d){ return d.items.some(function(x){ return x.title===pi.title; }); })) wiz.days[0].items.unshift(pi);
   }
   fillWizAddSel();
   document.getElementById("wTitle").value=wizDestName()+" — "+n+" ngày "+(n-1)+" đêm · "+document.getElementById("wPeople").value+" người";
@@ -1714,22 +1746,23 @@ function pickTransportRows(prov,origin){
   return {mode:"fallback",rows:sgRows()};
 }
 function tripComponents(prov,budgetId,nights,people,origin,estTotal){
-  var transport=0, lodging=0, ok=false, mode="fallback";
+  var transport=0, lodging=0, ok=false, mode="fallback", pk=null;
   people=Math.max(1,people||1); nights=Math.max(0,nights||0);
   origin=resolveOrigin(origin);
   if(prov && prov.cost && prov.cost.length){
     var sRow=null;
     prov.cost.forEach(function(c){ var lb=(c.label||"").toLowerCase(); if(!sRow && lb.indexOf("ở")===0) sRow=c; });
-    var pk=pickTransportRows(prov,origin); mode=pk.mode;
+    pk=pickTransportRows(prov,origin); mode=pk.mode;
     if(mode==="same") ok=true;
     pk.rows.forEach(function(r){ var tr=parseRangeVal(r.value); if(tr){ var v=pickByBudget(tr,budgetId); if(/\/chiều/.test(r.value)) v*=2; transport+=v; ok=true; } });
     if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights/people):0; } }
   }
-  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin};
+  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId};
 }
 /* Chỉ hiện khi tổng ước tính 1 người thấp hơn ngân sách 1 người đã chọn:
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
 function underBudgetNoteHtml(total,perBudget){
+  if(perBudget && total>perBudget) return '<p class="over-budget" style="font-weight:700;color:var(--red)">Vượt ngân sách '+fmt(total-perBudget)+'/người (ngân sách '+fmt(perBudget)+'/người). Bớt điểm có vé, giảm số đêm, hoặc chọn mức ngân sách cao hơn.</p>';
   if(perBudget && total>0 && total<perBudget) return '<p style="font-weight:700;color:var(--green-d)">Ước tính thấp hơn ngân sách bạn chọn — bạn còn dư trong ngân sách.</p>';
   return "";
 }
@@ -1740,7 +1773,8 @@ function transportNoteHtml(comp,editable){
   return ' (từ TP.HCM)';
 }
 function totalNoteHtml(comp,destName,nights,people,editable){
-  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
+  var how=(comp.rows||[]).length?' <span class="small">Cách tính tiền đi: '+comp.rows.map(function(r){ return esc(r.label)+' '+esc(r.value); }).join(" + ")+'; lấy mức '+({tiet_kiem:"thấp",vua:"giữa",thoai_mai:"cao"}[comp.budgetId]||"giữa")+' của khoảng giá theo ngân sách bạn chọn'+(/\/chiều/.test(comp.rows.map(function(r){return r.value;}).join(" "))?', giá một chiều nhân 2 cho khứ hồi':'')+'.</span>':'';
+  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+how+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
 }
 function renderWizDays(){
   var people=Number(document.getElementById("wPeople").value||2);
@@ -1752,10 +1786,36 @@ function renderWizDays(){
     (function(){ var comp=tripComponents(wizDestProv(), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
-      return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span></div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+      return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
     }).join("");
     return '<div class="dayblock"><h3>Ngày '+d.day_no+' · '+fmtDate(d.date)+'</h3>'+(items||'<p class="muted" style="margin:0">Chưa có điểm nào — thêm ở ô bên dưới.</p>')+'</div>';
   }).join("");
+}
+/* Chọn buổi và chuyển ngày cho từng mục, không phải xóa rồi thêm lại */
+var ITEM_SESS=["Sáng","Trưa","Chiều","Tối","Tự chọn"];
+function itemCtlHtml(scope,di,ii,it,nDays){
+  var cur=it.session||"Tự chọn", opts=ITEM_SESS.indexOf(cur)<0?[cur].concat(ITEM_SESS):ITEM_SESS;
+  var st='style="border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:var(--fs-cap);background:var(--surface);color:var(--ink)"';
+  var days=""; for(var k=1;k<=nDays;k++) days+='<option value="'+k+'"'+(k===di+1?" selected":"")+'>Ngày '+k+'</option>';
+  return '<span class="ti-ctl" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><select '+st+' aria-label="Chọn buổi" onchange="itemSetSess(\''+scope+'\','+di+','+ii+',this.value)">'+opts.map(function(o){ return '<option'+(o===cur?" selected":"")+'>'+esc(o)+'</option>'; }).join("")+'</select>'+
+    (nDays>1?'<select '+st+' aria-label="Chuyển sang ngày" onchange="itemMoveDay(\''+scope+'\','+di+','+ii+',this.value)">'+days+'</select>':'')+'</span>';
+}
+function itemDays(scope){ if(scope==="wiz") return wiz.days; var t=tripById(currentTripId); return t?t.days:null; }
+function itemRedraw(scope){ if(scope==="wiz") renderWizDays(); else { saveTrips(); renderTripDetail(); } }
+var SESS_ORDER={"Cả ngày":0,"Sáng sớm":1,"Sáng":1,"Trưa":2,"Chiều":3,"Tối":4};
+function sortDayItems(d){
+  /* xếp theo buổi; buổi lạ, "Tự chọn" giữ thứ tự cũ ở cuối */
+  d.items=d.items.map(function(x,k){ return {x:x,k:k}; }).sort(function(a,b){ var A=SESS_ORDER[a.x.session], B=SESS_ORDER[b.x.session]; return ((A==null?9:A)-(B==null?9:B))||(a.k-b.k); }).map(function(o){ return o.x; });
+}
+function itemSetSess(scope,di,ii,v){
+  var days=itemDays(scope); if(!days||!days[di]||!days[di].items[ii]) return;
+  days[di].items[ii].session=v; sortDayItems(days[di]);
+  itemRedraw(scope);
+}
+function itemMoveDay(scope,di,ii,v){
+  var days=itemDays(scope), to=Number(v)-1; if(!days||!days[di]||!days[to]||to===di) return;
+  var it=days[di].items.splice(ii,1)[0]; if(!it) return;
+  days[to].items.push(it); sortDayItems(days[to]); itemRedraw(scope); toast("Đã chuyển sang ngày "+(to+1));
 }
 function wizRemoveItem(di,ii){ wiz.days[di].items.splice(ii,1); renderWizDays(); }
 function planAddItem(){
@@ -1986,7 +2046,7 @@ function tripById(id){ for(var i=0;i<trips.length;i++) if(trips[i].id===id) retu
 function openTrip(id){ var t=tripById(id); currentTripId=id; tripTab=(t&&t.status==="ongoing")?"homnay":"lich"; renderTripDetail(); show("trip-detail"); }
 function tripDayItemsHtml(t,d,di){
   return d.items.map(function(it,ii){
-    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span></div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
   }).join("");
 }
 function tripChecklistHtml(t){
@@ -2002,12 +2062,16 @@ function tripExpensesHtml(t){
 }
 function renderTripDetail(){
   var t=tripById(currentTripId); if(!t){ show("trips",false); return; }
-  var spent=tripSpent(t); var pct=t.budget_total?Math.min(100,Math.round(spent/t.budget_total*100)):0;
+  var spent=tripSpent(t);
   var html='<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h2 style="font-size:var(--fs-h2);margin:4px 0 4px;flex:1">'+esc(fullDurTitle(t.title))+'</h2><span style="margin-top:6px">'+tripStatusBadge(t)+'</span></div><p class="sec-sub" style="margin-bottom:10px">'+(t.origin_city?('Xuất phát từ <b style="color:var(--ink)">'+esc(t.origin_city)+'</b> → '+esc(tripDestName(t))+' · '):(esc(tripDestName(t))+" · "))+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+(tripDurLabel(t)?(' · '+tripDurLabel(t)):"")+' · '+t.people_count+' người · kiểu đi: '+esc(t.style||"—")+'</p>';
-  html+='<div class="statgrid"><div class="cell"><b>'+fmt(t.budget_total)+'</b><span>Ngân sách</span></div><div class="cell"><b>'+fmt(spent)+'</b><span>Đã chi</span></div><div class="cell"><b>'+fmt(t.budget_total-spent)+'</b><span>Còn lại</span></div></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div>';
   var estSum=0, estUnknown=0;
   t.days.forEach(function(d){ d.items.forEach(function(it){ if(it.gia_luc_lap==null) estUnknown++; else estSum+=Number(it.gia_luc_lap||0); }); });
   var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(provById(t.destination_id), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
+  /* "Còn lại" trừ theo số lớn hơn giữa ước tính cả nhóm và số đã chi, để không báo còn đủ tiền khi chưa ghi khoản chi nào */
+  var estGroup=_compT.total*(t.people_count||1), used=Math.max(spent,estGroup), left=t.budget_total-used;
+  var pct=t.budget_total?Math.min(100,Math.round(used/t.budget_total*100)):0;
+  html+='<div class="statgrid"><div class="cell"><b>'+fmt(t.budget_total)+'</b><span>Ngân sách</span></div><div class="cell"><b>'+fmt(estGroup)+'</b><span>Ước tính cả nhóm</span></div><div class="cell"><b style="'+(left<0?"color:var(--red)":"")+'">'+(left<0?"−"+fmt(-left):fmt(left))+'</b><span>Còn lại</span></div></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%'+(left<0?";background:var(--red)":"")+'"></i></div>'+
+    '<p class="small muted" style="margin:6px 0 0">Còn lại = ngân sách trừ ước tính cả nhóm (hoặc số đã chi nếu lớn hơn). Đã chi thực tế: <b style="color:var(--ink)">'+fmt(spent)+'</b>'+(spent>estGroup?' (đã vượt ước tính, “Còn lại” tính theo số đã chi)':'')+'.</p>';
   html+='<div class="bigmoney" style="margin-top:14px"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(_compT.total)+'/người</div>'+underBudgetNoteHtml(_compT.total,_budT?_budT.per:0)+'<p>'+totalNoteHtml(_compT, tripDestName(t), Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1)+(estUnknown?(' Chưa tính '+estUnknown+' mục chưa có giá trong dữ liệu.'):"")+'</p></div>';
   html+='<div style="display:flex;gap:10px;margin:0 0 6px"><button class="btn btn-primary" style="flex:1" onclick="shareTrip()">Gửi lịch trình</button><button class="btn btn-ghost" style="flex:1" onclick="printTrip()">In lịch trình</button></div>';
   html+='<div class="chiprow" style="margin-top:14px">'+(t.status==="ongoing"?'<button class="chip'+(tripTab==="homnay"?" on":"")+'" onclick="tripTab=\'homnay\';renderTripDetail()">Hôm nay</button>':"")+'<button class="chip'+(tripTab==="lich"?" on":"")+'" onclick="tripTab=\'lich\';renderTripDetail()">Lịch trình</button><button class="chip'+(tripTab==="chi"?" on":"")+'" onclick="tripTab=\'chi\';renderTripDetail()">Thu chi ('+t.expenses.length+')</button><button class="chip'+(tripTab==="check"?" on":"")+'" onclick="tripTab=\'check\';renderTripDetail()">Checklist</button></div>';
@@ -2026,7 +2090,7 @@ function renderTripDetail(){
     html+=tripRouteHtml(t);
     html+=t.days.map(function(d,di){
       var items=d.items.map(function(it,ii){
-        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span></div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
       }).join("");
       return '<div class="dayblock"><h3>Ngày '+d.day_no+' · '+fmtDate(d.date)+'</h3>'+(items||'<p class="muted" style="margin:0">Ngày này đang trống.</p>')+'</div>';
     }).join("");

@@ -40,7 +40,7 @@ try {
     PROV_DATA.forEach(pr => [["places", openProvPlace], ["stays", openProvStay], ["dishes", openProvDish]].forEach(([k, fn]) => pr[k].forEach(x => {
       fn(pr.id, x.id); n++;
       const v = document.querySelector("#view-item-detail");
-      if (!v || ![...v.querySelectorAll("a")].some(a => a.textContent === "Báo thông tin sai")) thieu.push(pr.id + "/" + x.id);
+      if (!v || ![...v.querySelectorAll("a,button")].some(a => a.textContent.trim() === "Báo thông tin sai")) thieu.push(pr.id + "/" + x.id);
     })));
     return { n, thieu: thieu.slice(0, 5), soThieu: thieu.length };
   });
