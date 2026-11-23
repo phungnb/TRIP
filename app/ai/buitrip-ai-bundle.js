@@ -631,6 +631,32 @@ function boostKey(token, idx) {
   return token + "\0" + idx;
 }
 
+const CITY_NORM = new Set(Object.keys(CITY_TO_PROVINCE).map((c) => normText(c)));
+
+function namedInQuestion(name, featSet) {
+  // Tên mục (hoặc phần mô tả trong ngoặc) có đầy đủ trong câu hỏi không.
+  // Nới thêm: tên dài mà câu hỏi chỉ nhắc phần đầu (vd "Phù điêu bắt sống
+  // phi công Mỹ" thiếu "John McCain") vẫn khớp khi chung >=4 token và >=60%
+  // số token tên (gặp 24/11/2026: luật khớp đầy đủ bỏ sót mục này).
+  const parts = [(name || "").split("(")[0].trim()];
+  const m = (name || "").match(/\(([^)]*)\)/);
+  if (m) parts.push(m[1]);
+  for (const p of parts) {
+    const toks = new Set(tokens(p));
+    if (!toks.size) continue;
+    if ([...toks].every((t) => featSet.has(t))) return true;
+    const shared = [...toks].filter((t) => featSet.has(t)).length;
+    if (shared >= 4 && shared / toks.size >= 0.6) return true;
+  }
+  return false;
+}
+
+function isCityOrOverview(name) {
+  // Mục chỉ là tên thành phố hoặc mục tổng quan tỉnh.
+  const n = normText((name || "").split("(")[0].trim());
+  return CITY_NORM.has(n) || normText(name || "").includes("tong quan");
+}
+
 class BuiTripAI {
   constructor(kb, model, extra) {
     this.kb = kb;
@@ -668,7 +694,7 @@ class BuiTripAI {
 
   ask(q) {
     const feats = tokens(q);
-    const [intent, probs] = this.nb.predict(feats);
+    let [intent, probs] = this.nb.predict(feats);
     const conf = probs[intent] || 0.0;
     // Câu hỏi tiếp nối ("thế...", "còn...", "từ đó...") -> dùng thực thể vừa nhắc
     const qn = normText(q);
@@ -677,6 +703,23 @@ class BuiTripAI {
       qn.startsWith("the con ") || qn.startsWith("o do ") ||
       qn.slice(0, 12).includes("the ");
     let entries = this.retriever.search(q, 3);
+    if (intent === "o") {
+      // "X ở đâu" hỏi vị trí của 1 điểm cụ thể, không phải hỏi chỗ ở.
+      // NB hay nhầm sang "o" vì cụm "ở đâu" (gặp 24/11/2026: "Cà phê
+      // Tùng Đà Lạt ở đâu" ra homestay, "Phù điêu... ở đâu" ra hostel).
+      // Chỉ sửa khi câu hỏi nhắc đích danh 1 mục không phải chỗ ở,
+      // không phải tên thành phố hay mục tổng quan tỉnh.
+      const featSet = new Set(feats);
+      for (let j = 0; j < entries.length; j++) {
+        const e = entries[j][1];
+        if (e.loai === "cho_o") continue;
+        if (namedInQuestion(e.ten, featSet) && !isCityOrOverview(e.ten)) {
+          intent = "vi_tri";
+          entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];
+          break;
+        }
+      }
+    }
     if (intent === "an" || intent === "o" || intent === "chi_phi") {
       // Món/chỗ ở/chi phí PHẢI neo theo tỉnh người hỏi, không lấy top chung chung
       const loai = { an: "mon_an", o: "cho_o", chi_phi: "chi_phi" }[intent];
@@ -690,10 +733,14 @@ class BuiTripAI {
     }
     if ((intent === "gia_ve" || intent === "gio_mo_cua" || intent === "vi_tri" ||
          intent === "cach_di" || intent === "mua_dep" || intent === "diem_choi") &&
-        entries.length && entries[0][1].loai) {
+        entries.length && entries[0][1].loai &&
+        !namedInQuestion(entries[0][1].ten, new Set(feats))) {
       // Hỏi về địa danh mà top hit lại là món/chỗ ở cùng tên
       // (vd "vé Hội An" ra "Cao lầu Hội An" thay vì "Phố cổ Hội An"):
       // ưu tiên mục địa danh (không có loai) trong top 3.
+      // Nhưng KHÔNG hạ khi người hỏi nhắc đích danh quán/món đó
+      // (vd "Bánh Khoái Hạnh Huế giá bao nhiêu" — quán có giá thật,
+      // hạ xuống mục tổng quan tỉnh là sai; gặp 24/11/2026).
       for (let j = 1; j < entries.length; j++) {
         if (!entries[j][1].loai) {
           entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];

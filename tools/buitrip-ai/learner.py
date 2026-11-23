@@ -8,6 +8,7 @@ Không gọi API nào, không cần mạng, không cần key. Chạy hoàn toàn
 """
 import json
 import os
+import re
 
 from composer import compose
 from data_gen import OLD_TO_NEW, generate
@@ -17,6 +18,39 @@ from retriever import Retriever
 from tfidf import Tfidf
 
 MODEL_PATH = "model.json"
+
+_CITY_NORM = {norm_text(c) for c in CITY_TO_PROVINCE}
+
+
+def _named_in_question(name, feat_set):
+    """Tên mục (hoặc phần mô tả trong ngoặc) có đầy đủ trong câu hỏi không.
+    Vd "Massage Niềm Tin (massage người khiếm thị)" khớp câu "massage người
+    khiếm thị ở Huế" nhờ phần trong ngoặc, dù "Niềm Tin" không có trong câu.
+    Nới thêm: tên dài mà câu hỏi chỉ nhắc phần đầu (vd "Phù điêu bắt sống
+    phi công Mỹ" thiếu "John McCain") vẫn khớp khi chung ≥4 token và ≥60%
+    số token tên (gặp 24/11/2026: luật khớp đầy đủ bỏ sót mục này)."""
+    name = name or ""
+    parts = [name.split("(")[0].strip()]
+    m = re.search(r"\(([^)]*)\)", name)
+    if m:
+        parts.append(m.group(1))
+    for p in parts:
+        toks = set(tokens(p))
+        if not toks:
+            continue
+        if toks <= feat_set:
+            return True
+        shared = toks & feat_set
+        if len(shared) >= 4 and len(shared) / len(toks) >= 0.6:
+            return True
+    return False
+
+
+def _is_city_or_overview(name):
+    """Mục chỉ là tên thành phố hoặc mục tổng quan tỉnh (vd "Quy Nhơn",
+    "Huế (tổng quan)") — hỏi "ở đâu ở Quy Nhơn" vẫn là hỏi chỗ ở."""
+    n = norm_text((name or "").split("(")[0].strip())
+    return n in _CITY_NORM or "tong quan" in norm_text(name or "")
 
 
 class BuiTripAI:
@@ -65,6 +99,21 @@ class BuiTripAI:
         follow = qn.startswith(("the ", "con ", "tu do ", "the con ", "o do ")) \
             or "the " in qn[:12]
         entries = self.retriever.search(q, topn=3)
+        if intent == "o":
+            # "X ở đâu" hỏi vị trí của 1 điểm cụ thể, không phải hỏi chỗ ở.
+            # NB hay nhầm sang "o" vì cụm "ở đâu" (gặp 24/11/2026: "Cà phê
+            # Tùng Đà Lạt ở đâu" ra homestay, "Phù điêu... ở đâu" ra hostel).
+            # Chỉ sửa khi câu hỏi nhắc đích danh 1 mục không phải chỗ ở,
+            # không phải tên thành phố hay mục tổng quan tỉnh.
+            feat_set = set(feats)
+            for j, (_s, e) in enumerate(entries):
+                if e.get("loai") == "cho_o":
+                    continue
+                if _named_in_question(e.get("ten"), feat_set) \
+                        and not _is_city_or_overview(e.get("ten")):
+                    intent = "vi_tri"
+                    entries = [entries[j]] + entries[:j] + entries[j + 1:]
+                    break
         if intent in ("an", "o", "chi_phi"):
             # Món/chỗ ở/chi phí PHẢI neo theo tỉnh người hỏi, không lấy top chung chung
             loai = {"an": "mon_an", "o": "cho_o", "chi_phi": "chi_phi"}[intent]
@@ -75,10 +124,14 @@ class BuiTripAI:
             # Truy hồi lại bằng tên thực thể vừa nhắc
             entries = self.retriever.search(self.history_entities[-1], topn=3)
         if intent in ("gia_ve", "gio_mo_cua", "vi_tri", "cach_di", "mua_dep", "diem_choi") \
-                and entries and entries[0][1].get("loai"):
+                and entries and entries[0][1].get("loai") \
+                and not _named_in_question(entries[0][1].get("ten"), set(feats)):
             # Hỏi về địa danh mà top hit lại là món/chỗ ở cùng tên
             # (vd "vé Hội An" ra "Cao lầu Hội An" thay vì "Phố cổ Hội An"):
             # ưu tiên mục địa danh (không có loai) trong top 3.
+            # Nhưng KHÔNG hạ khi người hỏi nhắc đích danh quán/món đó
+            # (vd "Bánh Khoái Hạnh Huế giá bao nhiêu" — quán có giá thật,
+            # hạ xuống mục tổng quan tỉnh là sai; gặp 24/11/2026).
             for j in range(1, len(entries)):
                 if not entries[j][1].get("loai"):
                     entries = [entries[j]] + entries[:j] + entries[j + 1:]

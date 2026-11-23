@@ -8,6 +8,11 @@ cd ~/workspace/buitrip-ai-local
   echo "=== $(date '+%Y-%m-%d %H:%M:%S') ==="
   python3 wiki_learn.py --update
   python3 wiki_merge.py
+  # Học liên tục thêm ăn uống/khám phá: lấy mục Ăn/Uống/Làm/Xem/Ngủ trên
+  # Wikivoyage -> chỉ tạo file ứng cử (ung-cu-muc-moi.json) để duyệt tay,
+  # KHÔNG tự gộp vào kho (tên/giá tiếng Anh cần dịch + kiểm lại trước).
+  python3 wiki_learn.py --sections
+  python3 wiki_sections_merge.py
   rm -f model.json
   python3 data_gen.py
   python3 train.py
