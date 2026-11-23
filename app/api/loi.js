@@ -5,13 +5,7 @@ const seen = new Map();
 function cut(s, n) { s = s == null ? "" : String(s); return s.length > n ? s.slice(0, n) : s; }
 module.exports = async function handler(req, res) {
   res.setHeader("cache-control", "no-store");
-  if (req.method === "GET") {
-    /* Kiểm sức khỏe: GET /api/loi trả {db:true} nếu ghi được Neon */
-    let db = false;
-    try { db = (await sql("select count(*)::int as n from svc.client_errors where at > now() - interval '1 day'", []))[0] != null; } catch (e) {}
-    res.setHeader("content-type", "application/json"); return res.end(JSON.stringify({ db }));
-  }
-  if (req.method !== "POST") { res.statusCode = 405; return res.end(); }
+  if (req.method !== "POST") { res.statusCode = 405; res.setHeader("allow", "POST"); return res.end(); }
   let b = req.body;
   if (typeof b === "string") { try { b = JSON.parse(b); } catch (e) { b = {}; } }
   b = b || {};

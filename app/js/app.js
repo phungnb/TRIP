@@ -1088,6 +1088,7 @@ function loadLeaflet(cb){
   leafletState="loading";
   var sc=document.createElement("script");
   sc.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+  sc.integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="; sc.crossOrigin="anonymous";
   sc.async=true;
   var done=function(ok){
     if(leafletState!=="loading") return;
