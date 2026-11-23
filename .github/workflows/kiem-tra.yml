@@ -19,6 +19,8 @@ jobs:
         run: node du-lieu.mjs
       - name: Bản dữ liệu gọn còn khớp bản gốc
         run: node ../tools/tao-ban-gon.mjs --kiem
+      - name: Chấm trợ lý (1.014 giả thiết, 120 câu live, 20 câu ngoài dữ liệu, bộ sinh ≥ 10.000 câu)
+        run: node hypotheses/generate.mjs && node hypotheses/run.mjs --in-loi 30
       - name: Cài trình duyệt
         run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
       - name: Kiểm trên trình duyệt

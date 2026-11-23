@@ -2,7 +2,7 @@
    Nguồn: Nghị quyết 202/2025/QH15 về sắp xếp đơn vị hành chính cấp tỉnh (Quốc hội, 12/06/2025).
    Tỉnh đầu danh sách là tỉnh giữ tên; tỉnh không sáp nhập chỉ có 1 tên. */
 var SAP_NHAP = {
-  "ha-noi":["Hà Nội"], "hue":["Huế"], "lai-chau":["Lai Châu"], "dien-bien":["Điện Biên"], "son-la":["Sơn La"],
+  "ha-noi":["Hà Nội"], "hue":["Huế","Thừa Thiên Huế"], "lai-chau":["Lai Châu"], "dien-bien":["Điện Biên"], "son-la":["Sơn La"],
   "lang-son":["Lạng Sơn"], "quang-ninh":["Quảng Ninh"], "thanh-hoa":["Thanh Hóa"], "nghe-an":["Nghệ An"],
   "ha-tinh":["Hà Tĩnh"], "cao-bang":["Cao Bằng"],
   "tuyen-quang":["Tuyên Quang","Hà Giang"], "lao-cai":["Lào Cai","Yên Bái"], "thai-nguyen":["Thái Nguyên","Bắc Kạn"],

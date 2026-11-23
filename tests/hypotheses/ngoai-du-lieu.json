@@ -1,0 +1,125 @@
+{
+ "ghi": "20 câu ngoài dữ liệu: phải trả dự phòng đủ 3 phần",
+ "cau": [
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "thời tiết Đà Nẵng hôm nay thế nào",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "mai Hà Nội có mưa không",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "vé máy bay Hà Nội đi Phú Quốc ngày 20/12 giá bao nhiêu",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "đặt giúp mình phòng khách sạn ở Đà Lạt",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "đặt vé tàu Hà Nội Lào Cai cho mình",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "tỷ giá đô la hôm nay",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "cách nấu phở bò",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "giá vàng hôm nay",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "đi Paris mùa nào đẹp",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "đi Bangkok bằng gì",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "Hòn Ngọc Xanh Tưởng Tượng ở đâu",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "số điện thoại khách sạn Mường Thanh Quy Nhơn",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "giờ mở cửa quán cà phê Cộng gần nhất",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "xe khách Phương Trang Sài Gòn Đà Lạt mấy giờ chạy",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "giá taxi từ sân bay Tân Sơn Nhất về Quận 1 hôm nay",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "visa đi Nhật cần gì",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "Đà Lạt hôm nay có sương mù không",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "lịch bắn pháo hoa Đà Nẵng năm nay",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "mã giảm giá Vietjet",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "ngoài dữ liệu",
+   "q": "kể chuyện cười đi",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  }
+ ]
+}
