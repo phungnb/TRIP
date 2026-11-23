@@ -87,6 +87,36 @@ try {
   ok(qn.top === "area" && qn.area === "quy-nhon", "Tìm Quy Nhơn ra thẻ khu Quy Nhơn đầu tiên");
   ok(qn.n >= 6 && qn.allQN, "Lịch 3 ngày đi Quy Nhơn chỉ gồm điểm ở Quy Nhơn");
   ok(/Quy Nhơn/.test(qn.cost), "Tiền đi tới Quy Nhơn dùng tuyến tới Quy Nhơn");
+  /* Rà mọi nơi đến người dùng hay gõ (63 tỉnh cũ, tỉnh lỵ cũ, điểm nổi tiếng): tìm ra đúng tỉnh,
+     lập kế hoạch ra đúng tỉnh, lịch không xa nơi gõ, nơi xa thủ phủ thì có tuyến riêng hoặc ghi rõ chặng chưa cộng */
+  const NOI_DEN = JSON.parse(fs.readFileSync(new URL("./noi-den.json", import.meta.url), "utf8"));
+  const nd = await page.evaluate(list => {
+    function km(a, b, c, d) { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2); return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y)); }
+    const bad = [];
+    list.forEach(([q, exp]) => {
+      const top = btSearch(q)[0];
+      let loc = null;
+      if (top && top.kind === "area") loc = [top.area.lat, top.area.lng];
+      else if (top && top.x && top.x.lat != null) loc = [top.x.lat, top.x.lng];
+      else if (top) loc = [top.prov.lat, top.prov.lng];
+      startPlan(); document.getElementById("wDestInput").value = q; document.getElementById("wOriginInput").value = "TP.HCM"; wiz.step = 1;
+      try { planMove(1); } catch (e) {}
+      const pv = provById(wiz.dest);
+      document.getElementById("wStart").value = "2026-12-01"; document.getElementById("wEnd").value = "2026-12-03";
+      try { buildWizDays(); } catch (e) { bad.push(q + ": lỗi dựng lịch " + e.message); return; }
+      const pts = wiz.days.flatMap(d => d.items).map(it => pv && pv.places.find(x => x.name === it.title)).filter(x => x && x.lat != null);
+      const mean = loc && pts.length ? pts.reduce((s, x) => s + km(loc[0], loc[1], x.lat, x.lng), 0) / pts.length : 0;
+      const comp = tripComponents(costProvFor(wiz.dest, wiz.area, wiz.focus), "vua", 2, 2, "TP.HCM", 0);
+      const anchorKm = loc && pv ? km(loc[0], loc[1], pv.lat, pv.lng) : 0;
+      if (!top || top.prov.id !== exp) bad.push(q + ": tìm ra " + (top ? top.prov.id : "không có") + ", cần " + exp);
+      else if (!pv || pv.id !== exp) bad.push(q + ": lập kế hoạch ra " + (pv ? pv.id : "?") + ", cần " + exp);
+      else if (!pts.length) bad.push(q + ": lịch trống");
+      else if (mean > 90) bad.push(q + ": lịch cách nơi gõ trung bình " + Math.round(mean) + " km");
+      else if (anchorKm > 80 && !(wiz.area && btAreaById(wiz.area) && btAreaById(wiz.area).cost) && !comp.farNote) bad.push(q + ": cách thủ phủ " + Math.round(anchorKm) + " km mà tiền đi không có tuyến riêng, không ghi chú");
+    });
+    return bad;
+  }, NOI_DEN);
+  ok(nd.length === 0, NOI_DEN.length + " nơi đến: tìm, lập kế hoạch, lịch và tiền đi đúng chỗ" + (nd.length ? ": " + nd.join(" | ") : ""));
   ok(pageErr.length === 0, "Không có lỗi JavaScript" + (pageErr.length ? ": " + pageErr.slice(0, 3).join(" | ") : ""));
 
   /* Mất sóng vẫn mở được (service worker) */
