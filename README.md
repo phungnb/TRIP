@@ -33,7 +33,7 @@ File sinh ra từ nguồn, không sửa tay:
 
 ## Cấu trúc
 
-- `app/` — code app (HTML, CSS, JS thuần, không có bước build) và API (`app/api/`, hàm Vercel: trợ lý AI, hỗ trợ, ghi lỗi).
+- `app/` — code app (HTML, CSS, JS thuần, không có bước build) và API (`app/api/`, hàm Vercel: hỗ trợ, ghi lỗi, sự kiện). Trợ lý "Hỏi" chạy hoàn toàn trên trình duyệt (`js/faq.js` askQuick), không gọi máy chủ; endpoint `/api/hoi` (Gemini) đã bỏ ngày 23/11/2026, biến `GEMINI_API_KEY` trên Vercel không còn dùng.
 - `tools/` — công cụ sinh dữ liệu và trang tĩnh.
 - `tests/` — bộ kiểm tra tự động.
 - `neon/` — cấu trúc cơ sở dữ liệu Neon (đóng góp, hỗ trợ, đếm lượt AI).
