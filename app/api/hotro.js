@@ -1,5 +1,6 @@
 /* Hỗ trợ người dùng: POST /api/hotro {name?, contact?, msg, page?} -> lưu svc.support (Neon), trả {id, tok}.
-   GET /api/hotro?t=tok1,tok2 -> trạng thái và trả lời của các tin đã gửi từ máy này (tok chỉ máy gửi biết).
+   POST /api/hotro {xem:[tok1,tok2]} -> trạng thái và trả lời của các tin đã gửi từ máy này (tok 128 bit, chỉ máy gửi biết).
+   GET bị từ chối (405): mã không nằm trong URL nên không lọt vào nhật ký máy chủ hay lịch sử trình duyệt.
    Admin xem và trả lời trong app (hàm public.admin_support, chỉ tài khoản admin gọi được).
    IP chỉ lưu dạng băm, để chặn spam: tối đa 5 tin mỗi IP mỗi ngày. */
 const { sql } = require("./_db");
@@ -14,19 +15,18 @@ function send(res, code, obj) {
 }
 
 module.exports = async function handler(req, res) {
-  if (req.method === "GET") {
-    const url = new URL(req.url, "http://x");
-    const toks = String(url.searchParams.get("t") || "").split(",").map(s => s.trim()).filter(s => /^[a-f0-9]{32}$/.test(s)).slice(0, 20);
+  if (req.method !== "POST") { res.setHeader("allow", "POST"); return send(res, 405, { error: "method" }); }
+  let b = req.body;
+  if (typeof b === "string") { try { b = JSON.parse(b); } catch (e) { b = {}; } }
+  b = b || {};
+  if (Array.isArray(b.xem)) {
+    const toks = b.xem.map(s => String(s || "").trim()).filter(s => /^[a-f0-9]{32}$/.test(s)).slice(0, 20);
     if (!toks.length) return send(res, 200, { items: [] });
     try {
       const rows = await sql("select tok, at, msg, status, reply, replied_at from svc.support where tok = any($1::text[]) order by at desc", [toks]);
       return send(res, 200, { items: rows });
     } catch (e) { return send(res, 503, { error: "Chưa tải được, thử lại sau." }); }
   }
-  if (req.method !== "POST") return send(res, 405, { error: "method" });
-  let b = req.body;
-  if (typeof b === "string") { try { b = JSON.parse(b); } catch (e) { b = {}; } }
-  b = b || {};
   if (b.web) return send(res, 200, { ok: true }); /* bẫy bot: ô ẩn */
   const msg = cut(b.msg, 2000);
   if (msg.length < 3) return send(res, 400, { error: "Nội dung quá ngắn." });

@@ -103,7 +103,7 @@
   function loadMine(){
     var t=toks(), box=document.getElementById("tlMine"); if(!box||!t.length) return;
     box.innerHTML='<p class="small">Đang tải tin đã gửi…</p>';
-    fetch("/api/hotro?t="+t.join(","),{cache:"no-store"}).then(function(r){ return r.json(); }).then(function(j){
+    fetch("/api/hotro",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({xem:t}),cache:"no-store"}).then(function(r){ return r.json(); }).then(function(j){
       var it=(j&&j.items)||[]; if(!document.getElementById("tlMine")) return;
       box.innerHTML=it.length?'<h4 class="tl-h4">Tin đã gửi từ máy này</h4>'+it.map(function(x){
         var d=new Date(x.at);
