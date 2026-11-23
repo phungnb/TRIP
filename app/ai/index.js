@@ -125,12 +125,13 @@
     so_sanh: "so sánh", tinh_cu: "tỉnh cũ", vi_tri: "vị trí", chung_chung: "chung chung" };
   function newAnswer(r, q, t0) {
     var ent = null, provId = null, provName = "";
-    if (r.entity && typeof window.__btaiProvOf === "function") {
-      try {
-        var tinh = window.__btaiProvOf(r.entity);
-        if (tinh) { provId = provIdByTinh(tinh); provName = tinh; }
-      } catch (e) {}
+    /* Tỉnh lấy từ mục trả về trước (entity_prov); tên thành phố như "Quy Nhơn"
+       không phải tên mục trong kho nên tra theo tên sẽ không ra tỉnh. */
+    var tinh = r.entity_prov || "";
+    if (!tinh && r.entity && typeof window.__btaiProvOf === "function") {
+      try { tinh = window.__btaiProvOf(r.entity) || ""; } catch (e) {}
     }
+    if (tinh) { provId = provIdByTinh(tinh); provName = tinh; }
     if (provId) ent = { prov: provId };
     var html = '<div class="ask-ans-new">' + A.esc(r.answer).replace(/\n/g, "<br>") + "</div>";
     if (provId && typeof openProvDetail === "function")
