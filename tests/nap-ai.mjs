@@ -3,12 +3,12 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { APP } from "./nap-du-lieu.mjs";
-export const AI_FILES = ["ai/hoi-dap.js", "ai/de-nham.js", "ai/chuan-hoa.js", "ai/y-dinh.js", "ai/thuc-the.js", "ai/tra-loi.js", "ai/ngu-canh.js", "ai/index.js"];
+export const AI_FILES = ["ai/hoi-dap.js", "ai/hoc-them.js", "ai/de-nham.js", "ai/chuan-hoa.js", "ai/y-dinh.js", "ai/thuc-the.js", "ai/tra-loi.js", "ai/ngu-canh.js", "ai/index.js"];
 export function napAI() {
   const ctx = { console, Date, Math, JSON };
   ctx.window = ctx;
   vm.createContext(ctx);
-  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/trung-tam.js", "data/khu-vuc.js", "data/ho-so-khu.js", "js/lam-sach.js", ...AI_FILES]) {
+  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/an-o-moi.js", "data/gia-tham-khao.js", "data/trung-tam.js", "data/khu-vuc.js", "data/ho-so-khu.js", "js/lam-sach.js", ...AI_FILES]) {
     vm.runInContext(fs.readFileSync(path.join(APP, f), "utf8"), ctx, { filename: f });
   }
   return ctx;

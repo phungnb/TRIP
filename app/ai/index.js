@@ -17,6 +17,9 @@
     if (m && isFrom(m[2])) return (m[1] + " " + m[3]).trim();
     m = q.match(unmark(/^(.*(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?)\s+(?:từ|tu)\s+(.{2,40}?)(\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa).*)?$/i, q));
     if (m && isFrom(m[2])) return (m[1] + (m[3] || "")).trim();
+    /* "tour ... khởi hành từ Sài Gòn": nơi hỏi là phần trước */
+    m = q.match(/^(.*?)[\s,]+(?:khởi hành|xuất phát|khoi hanh|xuat phat)\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:ngày|ngay|lúc|luc)\b.*)?$/i);
+    if (m && isFrom(m[2])) return m[1].trim();
     return q;
   }
   function outOfDomain(I, q) {
@@ -141,23 +144,10 @@
       '<button class="btn btn-ghost" type="button" onclick="btAiBad(this)" data-q="' + attrEsc(q) + '" data-intent="' + attrEsc(r.intent) + '">Sai, sửa giúp</button></div>';
     return { html: html, kind: "ainew", intent: r.intent, ent: ent, ms: Date.now() - t0 };
   }
-  A.ask = function (q, opt) {
+  function askCu(q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
     if (!q) return { html: "", kind: "", ms: 0 };
-    /* Engine mới trước: chỉ dùng khi tự tin, còn không thì chạy tiếp engine cũ. */
-    if (window.__btaiNew) {
-      try {
-        var nr = window.__btaiNew.ask(q);
-        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3) {
-          var nres = newAnswer(nr, q, t0);
-          if (nres) {
-            if (!(opt && opt.noCtx)) A.ctx.push({ q: q, intent: nr.intent, ent: nres.ent });
-            return nres;
-          }
-        }
-      } catch (e) {}
-    }
     A.index();
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
@@ -175,7 +165,8 @@
     if (!res && (GENERAL.test(f) || (I.intent === "didau" && rest.split(" ").length <= 2 && !/^(thác|hồ|chùa|đảo|núi|làng|bãi|đền|hang|chợ|khu|suối|đồi|đèo|cầu|bảo tàng|thac|ho|chua|dao|nui|lang|bai|den|cho|suoi|doi|deo|cau)\s/i.test(rest)) || (I.budget && !rest))) res = { kind: "general", html: A.answerGeneral(I) };
     if (!res) { var fq = A.answerFaq(q); if (fq) res = { kind: "faq", html: fq }; }
     if (!res) {
-      var nm = rest && rest.length >= 3 ? rest.replace(/^\s+|\s+$/g, "") : "", isle = /^(đảo|hòn|cù lao|quần đảo)\s/i.test(nm);
+      /* phần tên quá dài là cả câu người dùng (mảnh bình luận): không lặp lại nguyên câu, không in số người dùng gõ như dữ liệu */
+      var nm = rest && rest.length >= 3 && rest.length <= 40 && rest.split(" ").length <= 6 ? rest.replace(/^\s+|\s+$/g, "") : "", isle = /^(đảo|hòn|cù lao|quần đảo)\s/i.test(nm);
       var topic = I.mode || (isle && I.intent === "diden" ? "thuy" : I.intent === "diden" ? "bay" : I.want[0] || (I.intent === "angi" ? "food" : I.intent === "odau" ? "stay" : I.intent === "mua" ? "season" : "unknown"));
       var how = A.howTo(topic, { itemName: nm }).concat(topic === "unknown" ? [] : A.howTo("unknown", {}));
       res = { kind: "fallback", html: A.fallback({ what: nm ? "mục \"" + nm + "\" trong dữ liệu app" : "câu trả lời cho câu hỏi này", how: how, asked: q }) };
@@ -185,6 +176,25 @@
     if (useCtx) A.ctx.push({ q: q, intent: I.intent, ent: ent });
     res.ent = ent; res.intent = I.intent; res.ms = Date.now() - t0;
     return res;
+  };
+  /* Engine mới (ai/ai-loader.js) chỉ trả lời khi engine cũ không có câu trả lời (fallback) và engine mới tự tin.
+     Hỏi engine mới trước làm sai câu theo khu/đảo (Phú Quốc, Quy Nhơn, Cát Bà, Kỳ Co trả về dữ liệu cả tỉnh):
+     CI 23/11/2026, tests/trinh-duyet.mjs "23 câu trợ lý trong báo cáo 1.014". */
+  A.ask = function (q, opt) {
+    var t0 = Date.now(), r = askCu(q, opt);
+    if (r && r.kind === "fallback" && window.__btaiNew) {
+      try {
+        var nr = window.__btaiNew.ask(String(q == null ? "" : q).trim());
+        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3) {
+          var nres = newAnswer(nr, q, t0);
+          if (nres) {
+            if (!(opt && opt.noCtx)) A.ctx.push({ q: q, intent: nr.intent, ent: nres.ent });
+            return nres;
+          }
+        }
+      } catch (e) {}
+    }
+    return r;
   };
   window.askBuiTrip = function (q, opt) { return A.ask(q, opt); };
   /* nút trong câu trả lời */

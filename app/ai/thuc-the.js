@@ -102,7 +102,7 @@
     /* không thấy: bỏ danh từ chung đầu câu gõ rồi thử lại ("động Hương Tích" → "Hương Tích", "khu du lịch Tam Chúc" → "Tam Chúc") */
     var low1 = !out.length || out.reduce(function (m, o) { return Math.max(m, o.s); }, 0) < 70;
     if (low1 && !opt.retry) {
-      var r2 = r.replace(/^(sun world|vinwonders|khu du lich|khu di tich|khu|dong|dao|hon|chua|thac|nui|ho|bai bien|bai|bien|den|lang|cho|hang|dinh|cau|pho co|bao tang|deo) /, "");
+      var r2 = r.replace(/^(cap treo|sun world|vinwonders|khu du lich|khu di tich|khu|dong|dao|hon|chua|thac|nui|ho|bai bien|bai|bien|den|lang|cho|hang|dinh|cau|pho co|bao tang|deo) /, "");
       /* phần còn lại là tên tỉnh/khu ("biển Quy Nhơn") thì không thử lại: đó là hỏi cả vùng, không phải 1 mục */
       if (r2 !== r && r2.split(" ").length >= 2 && !A.isPlaceName(r2)) { var lw2 = low(rest).split(" "); var again = A.findItem(lw2.slice(lw2.length - r2.split(" ").length).join(" "), Object.assign({}, opt, { retry: 1 })); if (again && again.s >= 70) return again; }
     }

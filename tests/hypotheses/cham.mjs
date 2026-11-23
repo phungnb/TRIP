@@ -154,7 +154,7 @@ function dung(W) {
       else if (FB(t) || res.kind === "faq" || res.kind === "general") err("NẶNG", "không khớp mục đã có", "có " + ten(tg) + " trong dữ liệu nhưng trả " + res.kind);
     }
     /* 2. bịa số */
-    const bs = biaSo(t); if (bs.length) err("CHẶN", "bịa số", "số không có trong dữ liệu: " + bs.slice(0, 4).join(", "));
+    const bs = biaSo(t).filter(s => String(q).indexOf(s.replace(/[^\d.,]/g, "").trim()) < 0); /* số người hỏi tự gõ không phải bịa */ if (bs.length) err("CHẶN", "bịa số", "số không có trong dữ liệu: " + bs.slice(0, 4).join(", "));
     /* 3. nơi cấm */
     if (tg && tg.t === "isle" && DAO.find(d => d.id === tg.ref).ban && !/không đón khách|cấm|không được/.test(t)) err("CHẶN", "gợi ý nơi cấm", "đảo cấm khách mà không nói rõ");
     /* 4. dự phòng */

@@ -10,7 +10,7 @@
     ["khancap", /\b(khan cap|cap cuu|cong an|benh vien|duong day nong|so dien thoai)\b/],
     ["chatchem", /\b(chat chem|lua dao|bi lua|cam bay|hét gia|het gia)\b/],
     ["hub", /\b(co san bay|san bay nao|san bay gan|co ga tau|co ga|ga tau nao|ga nao gan)\b/],
-    ["diden", /\b(di bang gi|bang gi|may bay|xe khach|tau hoa|tau hoả|tau lua|ve xe|ve may bay|ve tau|san bay|ben xe|nha ga|ga tau|tu ha noi|tu sai gon|tu hcm|tu tp hcm|tu tphcm|tu da nang|di den|toi bang|mat bao lau|bao lau|di tu|duong di|cach di|tau cao toc|ca no|ra dao)\b/],
+    ["diden", /\b(di bang gi|bang gi|may bay|xe khach|tau hoa|tau hoả|tau lua|ve xe|ve may bay|ve tau|san bay|ben xe|nha ga|ga tau|tu ha noi|tu sai gon|tu hcm|tu tp hcm|tu tphcm|tu da nang|di den|toi bang|mat bao lau|bao lau|di tu|duong di|cach di|bang cach nao|di the nao|tau cao toc|ca no|ra dao)\b/],
     ["dilai", /\b(thue xe|xe may|taxi|grab|di lai|xe buyt|xe dien)\b/],
     ["angi", /\b(an gi|mon|quan an|quan nao|quan ngon|dac san|an sang|an toi|nha hang|an uong|ngon)\b/],
     ["odau", /\b(o dau|khach san|homestay|dat phong|thue phong|phong o|nha nghi|cho o|ngu o|ngu dau|luu tru)\b/],
@@ -20,6 +20,7 @@
     /* "resort" đứng một mình mới là hỏi chỗ ở: "Cần Thơ Eco Resort mùa nào đẹp" là hỏi mùa của 1 địa danh */
     ["odau", /\bresort\b/]
   ];
+  var MUA_RE = INTENTS.filter(function (x) { return x[0] === "mua"; })[0][1];
   /* "mưa" và "mùa" bỏ dấu đều thành "mua": xét mưa trên chữ có dấu, gõ không dấu thì cần cụm rõ nghĩa */
   function rainy(q, f) { return /(^|\s)mưa(\s|$)/.test(A.low(q)) || /\b(troi mua|khi mua|mua thi|neu mua|gap mua)\b/.test(f); }
   /* bỏ tên tỉnh, khu khỏi câu trước khi đoán ý: "Lai Châu" không thành "đi lại", "Bến Tre" không thành "bến xe" */
@@ -42,9 +43,13 @@
     var f = noNames(A.fold(q), q);
     /* thời tiết theo ngày (giữ dấu để không lẫn "mưa" với "mùa") */
     var ql = String(q).toLowerCase();
-    if (!/tháng\s*\d/.test(ql) && /(hôm nay|ngày mai|(^|\s)mai\s|tuần này|tuần sau|bây giờ|lúc này|tối nay|cuối tuần này)/.test(ql) && /(mưa|nắng|sương mù|lạnh|rét|nóng|bão|thời tiết|trời)/.test(ql) || !/tháng\s*\d/.test(ql) && /(có mưa|có bão|có nắng|có sương mù|có lạnh|có rét)\s+(không|ko)\b/.test(ql)) return "ngoai_mien";
+    if (!/tháng\s*\d/.test(ql) && /(hôm nay|ngày mai|(^|\s)mai\s|tuần này|tuần sau|bây giờ|lúc này|tối nay|cuối tuần này|mấy nay|dạo này|mấy hôm nay|cập nhật)/.test(ql) && /(mưa|nắng|sương mù|lạnh|rét|nóng|bão|thời tiết|trời)/.test(ql) || !/tháng\s*\d/.test(ql) && /(có mưa|có bão|có nắng|có sương mù|có lạnh|có rét)\s+(không|ko)\b/.test(ql)) return "ngoai_mien";
     if (rainy(q, f) && !/\b(thuoc|so sanh)\b/.test(f)) return "mua_mua";
-    for (var i = 0; i < INTENTS.length; i++) if (INTENTS[i][1].test(f)) return INTENTS[i][0];
+    for (var i = 0; i < INTENTS.length; i++) if (INTENTS[i][1].test(f)) {
+      /* "phượt Hà Giang bằng xe máy mùa nào đẹp": xe máy chỉ là cách đi, câu hỏi là mùa */
+      if (INTENTS[i][0] === "dilai" && !/\b(thue xe|di lai|taxi|grab|xe buyt)\b/.test(f) && MUA_RE.test(f)) return "mua";
+      return INTENTS[i][0];
+    }
     return "";
   };
   /* Trường người hỏi cần cho 1 địa danh: giá, giờ, mùa */

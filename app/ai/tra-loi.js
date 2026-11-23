@@ -399,7 +399,8 @@
       });
     });
     best.sort(function (a, b) { return b.s - a.s; });
-    if (!best.length || best[0].s < 4 || best[0].inQ < 2) return "";
+    /* câu dài mà chỉ trùng 2 từ ngắn với câu mẫu ("ra", "điện") thì không phải câu đó: "Lễ hội diều diễn ra ở đâu" không phải câu cài app */
+    if (!best.length || best[0].s < 4 || best[0].inQ < 2 || (words.length >= 5 && best[0].inQ / words.length < 0.4)) return "";
     var it = best[0].it, n = 0, d = 0; PROV_DATA.forEach(function (p) { n += p.places.length; d += p.dishes.length; });
     return '<p class="ask-h">' + esc(it.q) + '</p><p>' + esc(it.a.replace(/\{PLACE\}/g, n.toLocaleString("vi-VN")).replace(/\{DISH\}/g, d.toLocaleString("vi-VN"))) + '</p>' + acts([btn("Xem 34 tỉnh thành", "show('destinations')")]);
   };

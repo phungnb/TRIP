@@ -70,7 +70,7 @@ var DIA_DIEM_MOI = {
     {"id": "dm-den-vua-dinh", "name": "Đền vua Đinh", "address": "Ninh Bình", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Đền", "note": "Đền vua Đinh Tiên Hoàng ở cố đô Hoa Lư.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": []}
   ],
   "thanh-hoa": [
-    {"id": "dm-hang-kho-muong", "name": "Hang Kho Mường", "address": "Thanh Hóa", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Hang động", "note": "Hang trong bản Kho Mường, lõi Khu bảo tồn Pù Luông.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": [{"url": "https://cungphuot.info/mot-so-lich-trinh-du-lich-bac-trung-bo-post25938.cp", "ngay_xem": "2026-11-23"}]},
+    {"id": "dm-hang-kho-muong", "name": "Hang Kho Mường", "address": "Thanh Hóa", "lat": null, "lng": null, "price": "Không có vé chính thức; người dân bản thu khoảng 10.000đ/người", "hours": "Tạm dừng đón khách từ tháng 9/2026 vì nguy cơ đá rơi. Hỏi Ban quản lý Khu bảo tồn Pù Luông hoặc homestay trước khi đi", "suitable": "Hang động", "note": "Hang trong bản Kho Mường, lõi Khu bảo tồn Pù Luông.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": [{"url": "https://cungphuot.info/mot-so-lich-trinh-du-lich-bac-trung-bo-post25938.cp", "ngay_xem": "2026-11-23"}]},
     {"id": "dm-pho-doan", "name": "Phố Đoàn", "address": "Thanh Hóa", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Chợ phiên / bản", "note": "Chợ phiên Phố Đoàn trong lõi Pù Luông.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": []},
     {"id": "dm-ban-son-ba-muoi", "name": "Bản Son Bá Mười", "address": "Thanh Hóa", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Làng", "note": "Bản Son – Bá – Mười (3 bản cao nhất Pù Luông).", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": []},
     {"id": "dm-bai-dong", "name": "Bãi Đông (Nghi Sơn)", "address": "Thanh Hóa", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Bãi biển", "note": "Bãi Đông ở Nghi Sơn.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": []},
@@ -171,11 +171,14 @@ var DIA_DIEM_MOI = {
     {"id": "dm-can-tho-eco-resort", "name": "Cần Thơ Eco Resort (Eco Safari)", "address": "Cần Thơ", "lat": null, "lng": null, "price": "Chưa kiểm được giá vé, hỏi tại cổng", "hours": "Chưa kiểm được", "suitable": "Khu sinh thái, vườn thú", "note": "Khu sinh thái rộng ở Cần Thơ: Eco Safari (dê, cừu, thỏ, capybara, vẹt, đà điểu), vườn trái cây hái tại vườn.", "source": "Tổng hợp từ lịch trình tour đang bán và bài giới thiệu công khai, xem 23/11/2026", "sources": [{"url": "https://nucuoimekong.com/tour/tour-ve-mien-thuong-3-ngay-2-dem", "ngay_xem": "2026-11-23"}]}
   ]
 };
+/* Cảnh báo an toàn, đóng cửa cho điểm đã có (chỉ thêm câu cảnh báo vào đầu ghi chú, không đổi dữ liệu khác) */
+var DIA_DIEM_CANH_BAO = { "nha-hat-lon": "Có tin Nhà hát tạm dừng tour tham quan ban ngày từ 31/1/2026 để trùng tu khoảng 2 năm; xem web chính thức của Nhà hát trước khi đi." };
 (function () {
   if (typeof PROV_DATA === "undefined") return;
   PROV_DATA.forEach(function (p) {
-    var add = DIA_DIEM_MOI[p.id]; if (!add) return;
+    var add = DIA_DIEM_MOI[p.id] || [];
     var have = {}; p.places.forEach(function (x) { have[x.id] = 1; });
     add.forEach(function (x) { if (have[x.id]) return; x.checked = DIA_DIEM_MOI_CHECKED; x.dist = null; p.places.push(x); });
+    p.places.forEach(function (x) { var w = DIA_DIEM_CANH_BAO[x.id]; if (w && (x.note || "").indexOf(w) < 0) x.note = w + (x.note ? " " + x.note : ""); });
   });
 })();
