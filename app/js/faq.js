@@ -68,7 +68,7 @@
     function take(id,old,len,place,alias,kind){ if(!hit||len>hit.len) hit={prov:provById(id),old:old||"",len:len,place:place||null,alias:alias||"",kind:kind||""}; }
     PROV_DATA.forEach(function(p){
       var n=norm(p.id==="lam-dong"?"Lâm Đồng":p.name); if(n && (" "+qn+" ").indexOf(" "+n+" ")>=0) take(p.id,"",n.length,null,"","prov");
-      p.places.forEach(function(x){ var pn=norm(x.name.split(" (")[0]); if(pn.length>=6 && qn.indexOf(pn)>=0) take(p.id,"",pn.length+100,x); });
+      p.places.forEach(function(x){ var pn=norm(x.name.split(" (")[0]); if(pn.length>=6 && (" "+qn+" ").indexOf(" "+pn+" ")>=0) take(p.id,"",pn.length+100,x); });
     });
     if(typeof SAP_NHAP!=="undefined") Object.keys(SAP_NHAP).forEach(function(id){
       SAP_NHAP[id].forEach(function(o,i){ var on=norm(o); if(on && (" "+qn+" ").indexOf(" "+on+" ")>=0) take(id,i>0?o:"",on.length+(i>0?1:0),null,"","prov"); });
@@ -80,6 +80,7 @@
     ["angi",/\b(an gi|mon|quan an|quan nao|quan ngon|dac san|an sang|an toi|nha hang|an uong|ngon)\b/],
     ["odau",/\b(o dau|khach san|homestay|dat phong|thue phong|phong o|nha nghi|resort|cho o|ngu o|ngu dau|luu tru)\b/],
     ["chiphi",/\b(bao nhieu tien|chi phi|het bao nhieu|ton bao nhieu|ngan sach|het may)\b/],
+    ["mang",/\b(mang gi|mang theo|chuan bi gi|chuan bi nhung gi|do dac|hanh ly|soan do)\b/],
     ["mua",/\b(mua nao|thang nao|thoi tiet|lanh|nong|mac gi|thang)\b/],
     ["mua_mua",/\b(troi mua|mua thi|khi mua)\b/],
     ["khancap",/\b(khan cap|cap cuu|cong an|benh vien|duong day nong|so dien thoai)\b/],
@@ -102,7 +103,7 @@
     /* mục thuộc khu tỉnh cũ: ghi tên tỉnh cũ, hoặc tên thành phố quen gọi của khu đó (Bình Định → Quy Nhơn) */
     var keys=[]; if(hit.alias) keys.push(hit.alias); if(old) ALIAS.forEach(function(a){ if(a[2]===old && a[1]===p.id) keys.push(a[0]); });
     function inOld(o){ var j=JSON.stringify(o); if(old && j.indexOf(old)>=0) return true; var nj=norm(j.replace(/-/g," ")); return keys.some(function(k){ return nj.indexOf(k)>=0; }); }
-    function note(scoped){ return old?'<p class="ask-old">'+esc(old)+' cũ nay thuộc '+esc(name)+'.'+(scoped?'':' Chưa có dữ liệu riêng cho khu '+esc(old)+' cũ, phần dưới là của khu '+esc(p.anchor||name)+'. Đang bổ sung.')+'</p>':""; }
+    function note(scoped){ return old?'<p class="ask-old">'+esc(old)+' cũ nay thuộc '+esc(name)+'.'+(scoped?'':' Chưa có dữ liệu riêng cho khu '+esc(old)+' cũ. Phần dưới là dữ liệu khu '+esc(p.anchor||name)+', không phải '+esc(old)+' cũ; giá, giờ đi và mùa có thể khác.')+'</p>':""; }
     function pick(list){ if(!old&&!hit.alias) return {l:list,sc:true}; var f=list.filter(inOld); return f.length?{l:f,sc:true}:{l:list,sc:!old}; }
     var oldNote=note(false);
     if(hit.place){
@@ -111,7 +112,7 @@
         "Giá vé: "+esc(short(x.price,90)||"chưa kiểm được"),
         "Giờ mở cửa: "+esc(short(x.hours,70)||"chưa kiểm được"),
         "Nên dành: "+esc(short(x.duration,70)||"—"),
-        (x.dist!=null&&x.dist!==""?"Cách trung tâm "+esc(p.anchor||name)+" khoảng "+esc(String(x.dist))+" km":"")
+        (typeof placeDistLabel==="function"?esc(placeDistLabel(x)):"")
       ].filter(Boolean))+'<div class="ask-act">'+btn("Xem chi tiết, chỉ đường","openProvPlace('"+p.id+"','"+x.id+"')")+goSeg(p,"tongquan","Cẩm nang "+name)+'</div>';
     }
     if(intent==="angi"){
@@ -159,8 +160,81 @@
     /* mặc định: đi đâu + tóm tắt */
     var pp=pick(p.places), pl=pp.l; oldNote=note(pp.sc);
     return oldNote+'<p class="ask-h">'+esc(name)+(old&&pp.sc?' · khu '+esc(old)+' cũ':'')+'</p><p>'+esc(short(p.overview,220))+'</p>'+
-      li(pl.slice(0,5).map(function(x){ return '<a href="javascript:void 0" onclick="openProvPlace(\''+p.id+'\',\''+x.id+'\')">'+esc(x.name.split(" (")[0])+'</a>'+(x.dist!=null&&x.dist!==""?" · ~"+esc(String(x.dist))+" km":""); }))+
+      li(pl.slice(0,5).map(function(x){ return '<a href="javascript:void 0" onclick="openProvPlace(\''+p.id+'\',\''+x.id+'\')">'+esc(x.name.split(" (")[0])+'</a>'+(x.dist!=null&&x.dist!==""?" · "+esc(placeDistLabel(x)):""); }))+
       '<p class="small">Hỏi tiếp: "ăn gì ở '+esc(name)+'", "ở đâu", "đi bằng gì", "mùa nào đẹp", "hết bao nhiêu tiền".</p><div class="ask-act">'+goSeg(p,"didau","Xem "+p.places.length+" địa danh")+'</div>';
+  }
+  /* ---------- Khu trong tỉnh mới (Quy Nhơn, Phú Quốc, Phan Thiết, Măng Đen…) và đảo ----------
+     Luật: trả theo hồ sơ khu (ho-so-khu.js). Thiếu mục nào thì nói thẳng là thiếu, không lấy dữ liệu thủ phủ
+     thay vào; chỗ nào buộc phải đưa dữ liệu tỉnh thì ghi rõ "đây là dữ liệu <thủ phủ>, không phải <khu>". */
+  /* KHU_VUC chỉ chứa trung tâm phụ; thủ phủ không thành khu, nên mọi khu đều trả theo khu */
+  function isMainArea(a){ return false; }
+  function kmTo(a,p){ if(a.lat==null||p.lat==null) return 0; var r=Math.PI/180,x=Math.sin((p.lat-a.lat)*r/2),y=Math.sin((p.lng-a.lng)*r/2); return Math.round(12742*Math.asin(Math.sqrt(x*x+Math.cos(a.lat*r)*Math.cos(p.lat*r)*y*y))); }
+  function routeLi(rs){ return li(rs.map(function(r){ return "<b>"+esc(r.from)+"</b> · "+esc(r.mode)+" · "+esc(r.time)+" · "+esc(r.price); }))+'<p class="small">Giờ đi và giá vé là ước tính, chưa kiểm với hãng, cảng. Tra lại trước khi đặt.</p>'; }
+  function costRows(rows){ return li(rows.map(function(r){ return esc(r.label)+": <b>"+esc(r.value)+"</b>"; })); }
+  function answerArea(a,intent,want,qn,placeName){
+    var p=provById(a.prov), pr=(typeof btAreaProfile==="function"&&btAreaProfile(a))||{}, anchor=p.anchor||provLabel(p), far=kmTo(a,p);
+    var head='<p class="ask-old">'+esc(a.name)+(a.old&&a.old!==p.name?' ('+esc(a.old)+' cũ)':'')+' nay thuộc '+esc(provLabel(p))+'. Trả lời theo dữ liệu riêng của khu '+esc(a.name)+(far>30?', không dùng dữ liệu '+esc(anchor)+' (cách ~'+far+' km)':'')+'.</p>';
+    var title=placeName?esc(placeName)+' (khu '+esc(a.name)+')':esc(a.name);
+    var acts='<div class="ask-act">'+btn("Lập kế hoạch đi "+a.name,"btPlanArea('"+a.id+"')")+goSeg(p,"tongquan","Cẩm nang "+provLabel(p))+'</div>';
+    function miss(what,extra){ return '<p>Chưa có dữ liệu '+what+' riêng cho khu '+esc(a.name)+'. App không lấy dữ liệu của '+esc(anchor)+' thay vào vì hai nơi khác nhau'+(far>30?' (cách ~'+far+' km)':'')+'.</p>'+(extra||""); }
+    var words=[a.name,a.hub.replace(/^TP\s+/,"").replace(/\s*\(.*?\)/g,"")].concat(a.old&&a.old!==p.name?[a.old]:[]).map(norm).concat(a.keys).filter(function(k){ return k&&k.length>=4; });
+    /* khu không có hồ sơ riêng nhưng sát thủ phủ (≤40 km, như Sa Pa): dùng dữ liệu tỉnh, ghi rõ */
+    if(intent && !pr.season && !pr.routes && !a.cost && far<=40 && ["diden","dilai","mua","chiphi","mang"].indexOf(intent)>=0)
+      return '<p class="ask-old">'+(far>5?esc(a.name)+' cách '+esc(anchor)+' ~'+far+' km; ':'')+'phần dưới là dữ liệu chung của '+esc(provLabel(p))+' (viết theo khu '+esc(anchor)+').</p>'+answerProv({prov:p,old:"",place:null},intent==="mang"?"mua":intent);
+    function inArea(o){ var nj=" "+norm(JSON.stringify(o).replace(/-/g," "))+" "; return words.some(function(k){ return nj.indexOf(" "+k+" ")>=0; }); }
+    if(intent==="diden"){
+      if(pr.routes) return head+'<p class="ask-h">Đi đến '+title+'</p>'+(pr.access?'<p>'+esc(pr.access)+'</p>':'')+routeLi(pr.routes)+acts;
+      if(a.cost) return head+'<p class="ask-h">Đi đến '+title+'</p>'+costRows(a.cost.filter(function(r){ return !/^Ở/.test(r.label); }))+'<p class="small">Chưa có bảng giờ đi riêng cho khu này; dòng trên là tiền đi khứ hồi ước tính.</p>'+acts;
+      return head+'<p class="ask-h">Đi đến '+title+'</p>'+miss("cách đi",'<p>Tra vé tới sân bay, ga hoặc bến xe gần '+esc(a.name)+' trên trang của hãng; trong app, tab Đi đến của '+esc(provLabel(p))+' là tuyến tới '+esc(anchor)+'.</p>')+acts;
+    }
+    if(intent==="mua"||(!intent&&want.indexOf("season")>=0)){
+      var se=pr.season;
+      if(se) return head+'<p class="ask-h">Mùa đẹp ở '+title+'</p>'+li(["<b>Nên đi:</b> "+esc(se.best)].concat(se.avoid?["<b>Tránh:</b> "+esc(se.avoid)]:[]).concat(se.wear?["<b>Mặc:</b> "+esc(se.wear)]:[]))+acts;
+      return head+'<p class="ask-h">Mùa đẹp ở '+title+'</p>'+miss("mùa đẹp",'<p class="small">Để tham khảo, có ghi rõ: mùa chung của '+esc(provLabel(p))+' viết theo khu '+esc(anchor)+', có thể không đúng cho '+esc(a.name)+': '+esc(p.best_season||"chưa có")+'.</p>')+acts;
+    }
+    if(intent==="mang"){
+      if(pr.pack) return head+'<p class="ask-h">Mang gì khi đi '+title+'</p>'+li(pr.pack.map(esc))+(pr.season&&pr.season.wear?'<p>Mặc: '+esc(pr.season.wear)+'</p>':'')+acts;
+      return head+miss("danh sách đồ mang theo")+acts;
+    }
+    if(intent==="chiphi"){
+      var b=pr.budget||{}, k=/\b(2n1d|2 ngay 1 dem|2 ngay)\b/.test(qn)?"2N1Đ":(/\b(3n2d|3 ngay 2 dem|3 ngay)\b/.test(qn)?"3N2Đ":Object.keys(b)[0]);
+      if(k&&b[k]) return head+'<p class="ask-h">Chi phí '+esc(k)+' đi '+title+', 1 người từ TP.HCM (ước tính, chưa kiểm)</p>'+costRows(b[k])+acts;
+      var hasB=Object.keys(b);
+      return head+'<p class="ask-h">Chi phí đi '+title+'</p>'+(hasB.length&&k?'<p>Chưa có bảng '+esc(k)+' cho khu này; đang có bảng '+esc(hasB.join(", "))+':</p>'+costRows(b[hasB[0]]):"")+
+        (a.cost?'<p>Tiền đi khứ hồi (ước tính, chưa kiểm):</p>'+costRows(a.cost):"")+
+        '<p class="small">'+(a.cost||hasB.length?"":"Chưa có bảng chi phí riêng cho khu "+esc(a.name)+". ")+'Bấm Lập kế hoạch, app tính chi phí theo khu '+esc(a.name)+', không tính theo '+esc(anchor)+'.</p>'+acts;
+    }
+    if(intent==="dilai") return head+'<p class="ask-h">Đi lại ở '+title+'</p>'+(pr.local?'<p>'+esc(pr.local)+'</p>':miss("đi lại"))+acts;
+    if(intent==="angi"||intent==="odau"){
+      var arr=intent==="angi"?p.dishes:p.stays, f=arr.filter(inArea);
+      var lab=intent==="angi"?"Ăn gì ở ":"Ở đâu tại ";
+      if(!f.length) return head+'<p class="ask-h">'+lab+title+'</p>'+miss(intent==="angi"?"món ăn, quán":"chỗ ở")+'<div class="ask-act">'+goSeg(p,intent,"Xem "+(intent==="angi"?"món":"chỗ ở")+" của cả tỉnh "+provLabel(p)+" (phần lớn ở khu "+anchor+")")+'</div>';
+      var rows=intent==="angi"?f.slice(0,6).map(function(d){ var r=(d.restaurants||[])[0]; return "<b>"+esc(d.name)+"</b> · "+esc(short(priceShort(d.price)||d.price,40))+(r?" · "+esc(r.name):""); })
+        :f.slice(0,6).map(function(s){ return "<b>"+esc(s.name.split(" (")[0])+"</b> · "+esc(short(priceShort(s.price)||s.price,40))+(s.kind?" · "+esc(s.kind):""); });
+      return head+'<p class="ask-h">'+lab+title+'</p>'+li(rows)+(intent==="odau"?'<p class="small">Chưa kiểm chứng, chưa đối tác, chưa thu phí. Gọi xác nhận trước khi đặt.</p>':'')+acts;
+    }
+    if(intent==="khancap") return head+'<p class="ask-h">Số khẩn cấp</p>'+li(['Công an <a href="tel:113"><b>113</b></a>','Cứu hỏa <a href="tel:114"><b>114</b></a>','Cấp cứu <a href="tel:115"><b>115</b></a>'])+'<p class="small">Chưa có số bệnh viện, đường dây nóng riêng của khu '+esc(a.name)+'.</p>';
+    if(intent==="chatchem"||intent==="mua_mua") return head+miss(intent==="chatchem"?"cảnh báo chặt chém":"gợi ý khi trời mưa")+acts;
+    var pl=typeof btAreaPlaces==="function"?btAreaPlaces(a):[];
+    if(want.indexOf("price")>=0 && !intent){
+      var nk=norm(a.name), priced=pl.filter(function(x){ return x.price; }).sort(function(x,y){ return (norm(y.name.split(" (")[0]).indexOf(nk)>=0)-(norm(x.name.split(" (")[0]).indexOf(nk)>=0); });
+      return head+'<p class="ask-h">Giá vé ở '+title+'</p>'+li(priced.slice(0,6).map(function(x){ return '<a href="javascript:void 0" onclick="openProvPlace(\''+p.id+'\',\''+x.id+'\')">'+esc(x.name.split(" (")[0])+'</a>: '+esc(short(x.price,110)); }))+'<p class="small">Hỏi đúng tên một điểm để xem đủ giá, giờ: ví dụ "giá vé '+esc((priced[0]||{name:a.name}).name.split(" (")[0])+'".</p>'+acts;
+    }
+    var lines=[];
+    if(pr.season) lines.push("<b>Mùa đẹp:</b> "+esc(pr.season.best));
+    if(pr.routes) lines.push("<b>Đi đến:</b> "+esc(pr.routes[0].mode)+" · "+esc(pr.routes[0].time)+" (ước tính)");
+    return head+'<p class="ask-h">'+title+' · '+pl.length+' địa danh</p>'+(lines.length?li(lines):"")+
+      li(pl.slice(0,6).map(function(x){ return '<a href="javascript:void 0" onclick="openProvPlace(\''+p.id+'\',\''+x.id+'\')">'+esc(x.name.split(" (")[0])+'</a> · '+esc(placeDistLabel(x)); }))+
+      '<p class="small">Hỏi tiếp: "'+esc(a.name)+' đi bằng gì", "mùa nào đẹp", "ăn gì", "mang gì", "2 ngày 1 đêm hết bao nhiêu".</p>'+acts;
+  }
+  function answerIsle(d,intent){
+    var p=provById(d.prov), it=null;
+    if(p) p.places.forEach(function(x){ if(!it && btIsleFor(x.name.split(" (")[0])===d) it=x; });
+    var open=it?'<div class="ask-act">'+btn("Xem mục "+it.name.split(" (")[0],"openProvPlace('"+p.id+"','"+it.id+"')")+'</div>':"";
+    if(d.ban) return '<p class="ask-h">Đảo '+esc(d.name)+'</p><p><b>Không đón khách du lịch.</b> '+esc(d.banNote)+'</p>'+open;
+    var h='<p class="ask-h">Đi đảo '+esc(d.name)+(p?' ('+esc(provLabel(p))+')':'')+'</p>'+routeLi(d.access)+'<p><b>Mùa:</b> '+esc(d.season)+'</p>';
+    if(intent==="angi"||intent==="odau") h='<p>Chưa có dữ liệu '+(intent==="angi"?"quán ăn":"chỗ ở")+' riêng trên đảo '+esc(d.name)+'; đặt homestay trên đảo trước khi ra tàu.</p>'+h;
+    return h+'<p class="small">Tàu dừng khi biển động hoặc có lệnh cấm biển; gọi cảng xác nhận lịch chạy trước ngày đi.</p>'+open;
   }
   function answerFaq(qn){
     var words=qn.split(" ").filter(function(w){ return w.length>1; }), best=[];
@@ -189,10 +263,14 @@
   }
   /* Bỏ từ hỏi nhưng GIỮ dấu ở phần tên còn lại (btSearch khớp chặt theo dấu trước) */
   var QSET={}; QWORDS.forEach(function(w){ QSET[w]=1; });
+  /* Từ hỏi ngắn trùng vần tên riêng: "có"/"Kỳ Co", "hỏi"/"Hội An", "ở"/"Ô Quy Hồ". Người gõ có dấu thì chỉ bỏ đúng dạng có dấu của từ hỏi. */
+  var ACC={co:["có"],hoi:["hỏi"],o:["ở"],gio:["giờ"],gia:["giá"],dep:["đẹp"],nen:["nên"],may:["mấy","máy"],len:["lên"],vao:["vào"],cua:["của"],chi:["chị"],ban:["bạn"],a:["à","ạ","a"],lau:["lâu"],thi:["thì"],la:["là"],toi:["tới","tôi"],den:["đến"],di:["đi"],oi:["ơi"],nhi:["nhỉ"],vay:["vậy"],nhe:["nhé"],choi:["chơi"],minh:["mình"],tien:["tiền"],phi:["phí"],ve:["vé","về"],khong:["không"],xem:["xem"],cho:["cho"],em:["em"],anh:["anh"],bao:["bao"]};
   function restOf(q){
-    var raw=String(q||"").toLowerCase().replace(/[?!.,;:"'()]/g," ").split(/\s+/).filter(Boolean), f=raw.map(norm), out=[];
+    var marked=/[^\x00-\x7f]/.test(String(q||""));
+    var raw=String(q||"").toLowerCase().normalize("NFC").replace(/[?!.,;:"'()]/g," ").split(/\s+/).filter(Boolean), f=raw.map(norm), out=[];
+    function okTok(j){ var a=ACC[f[j]]; return !marked||!a||a.indexOf(raw[j])>=0; }
     for(var i=0;i<raw.length;){
-      var hit=0; for(var k=Math.min(4,raw.length-i);k>=1;k--){ if(QSET[f.slice(i,i+k).join(" ")]){ hit=k; break; } }
+      var hit=0; for(var k=Math.min(4,raw.length-i);k>=1;k--){ if(QSET[f.slice(i,i+k).join(" ")]){ var ok=true; for(var j=i;j<i+k;j++) if(!okTok(j)) ok=false; if(ok){ hit=k; break; } } }
       if(hit){ i+=hit; continue; } out.push(raw[i]); i++;
     }
     return out.join(" ");
@@ -203,6 +281,8 @@
     /* gõ đúng tên tỉnh mới/cũ ("Hà Giang", "Quảng Bình") thì trả theo tỉnh, không bắt 1 địa danh lẻ */
     if(PROV_DATA.some(function(p){ return norm(provLabel(p))===rn || norm(p.name)===rn; })) return null;
     if(typeof SAP_NHAP!=="undefined" && Object.keys(SAP_NHAP).some(function(k){ return SAP_NHAP[k].some(function(o){ return norm(o)===rn; }); })) return null;
+    var ar=typeof btAreaFor==="function"?btAreaFor(rest):null;
+    if(ar && (ar.exact.concat(ar.keys,[ar.name]).some(function(e){ return norm(e)===rn || norm(e).replace(/ /g,"")===rn; }))) return null;
     var r=window.btSearch(rest).filter(function(x){ return (x.kind==="place"||x.kind==="dish") && x.s>=75; });
     if(!r.length) return null;
     /* cùng điểm số: ưu tiên tên chính chứa cụm gõ (Sun World Bà Nà Hills hơn "Cầu Vàng (Bà Nà Hills)") */
@@ -219,6 +299,7 @@
       return '<p class="ask-h">'+esc(x.name)+' ('+esc(name)+')</p>'+li(["Giá: "+esc(x.price||"app chưa có thông tin này")].concat(r.map(function(q){ return "<b>"+esc(q.name)+"</b>"+(q.address?" · "+esc(q.address):"")+(q.price?" · "+esc(q.price):""); })))+
         srcLine(x,p)+'<div class="ask-act">'+btn("Xem món này","openProvDish('"+p.id+"','"+x.id+"')")+'</div>';
     }
+    if(x.banned) return '<p class="ask-h">'+esc(x.name)+' ('+esc(name)+')</p><p><b>Không đón khách du lịch.</b> '+esc(x.note||"")+'</p><div class="ask-act">'+btn("Xem chi tiết","openProvPlace('"+p.id+"','"+x.id+"')")+'</div>';
     var rows=[];
     if(!want.length) want=["price","hours","season"];
     else if(want.indexOf("price")>=0 && want.indexOf("hours")<0) want=want.concat(["hours"]);
@@ -244,9 +325,23 @@
     var qn=norm(q); if(!qn) return "";
     var want=wantOf(qn), intent=intentOf(qn), rest=restOf(q);
     /* hỏi giá/giờ/mùa, hoặc gõ đúng tên 1 địa danh/món: trả thẳng mục đó */
+    /* đảo có tuyến riêng (Cô Tô, Lý Sơn, Nam Du…) hoặc đảo cấm khách (Bình Ba) */
+    var isle=typeof btIsleFor==="function"?btIsleFor(q):null;
+    if(isle && (isle.ban || !want.length || intent)) return answerIsle(isle,intent);
     var ih=(want.length||!intent)?itemHit(rest):null;
     if(ih && !(intent==="chiphi" && /\bngay\b/.test(qn))) return answerItem(ih,want);
+    if(isle) return answerIsle(isle,intent);
+    /* nơi hỏi là một khu không phải thủ phủ (Quy Nhơn, Phú Quốc, Măng Đen…): trả theo khu */
+    var area=typeof btAreaFor==="function"?btAreaFor(q):null;
+    if(area && !isMainArea(area)){
+      if(want.indexOf("season")>=0 && !intent) intent="mua";
+      return answerArea(area,intent,want,qn);
+    }
     var hit=findProv(qn);
+    if(hit && hit.place && intent && ["diden","dilai","mua","chiphi","mang"].indexOf(intent)>=0 && typeof btAreaOfPlace==="function"){
+      var pa=btAreaOfPlace(hit.prov,hit.place);
+      if(pa) return answerArea(pa,intent,want,qn,hit.place.name.split(" (")[0]);
+    }
     if(hit){
       if(want.indexOf("season")>=0 && !intent) intent="mua";
       return answerProv(hit,intent);

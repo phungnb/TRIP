@@ -995,7 +995,7 @@ function renderProvDetail(){
   var p=currentProv; if(!p) return;
   var isDalat=p.id==="lam-dong";
   var hero = isDalat
-    ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Đà Lạt · Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
+    ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
     : '<div class="prov-hero prov-hero-art">'+provPoster(p.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div></div>';
   var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu Giá là khoảng tham khảo.");
   var isTotal=function(c){ return (c.label||"").toLowerCase().indexOf("tổng")>=0; };
@@ -1039,12 +1039,13 @@ function renderProvDetail(){
   '</div>'+
   '<div class="segpane provpane active" data-ppane="tongquan"><div class="pad">'+
     '<p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+overviewText+'</p>'+
-    '<div class="kv"><div class="cell"><div class="k">Số ngày gợi ý</div><div class="v">'+p.suggested_days+' ngày</div></div><div class="cell"><div class="k">Mùa đẹp nhất</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.best_season||"—")+'</div></div><div class="cell"><div class="k">Dữ liệu đã có</div><div class="v" style="font-size:var(--fs-cap)">'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món</div></div><div class="cell"><div class="k">Ngày kiểm dữ liệu</div><div class="v">'+(p.checked||"06/11/2026")+'</div></div></div>'+
+    '<div class="kv"><div class="cell"><div class="k">Số ngày gợi ý</div><div class="v">'+p.suggested_days+' ngày</div></div><div class="cell"><div class="k">Mùa đẹp nhất'+(typeof KHU_VUC!=="undefined"&&KHU_VUC.filter(function(a){ return a.prov===p.id; }).length>1?" (khu "+esc(p.anchor||p.name)+")":"")+'</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.best_season||"—")+'</div></div><div class="cell"><div class="k">Dữ liệu đã có</div><div class="v" style="font-size:var(--fs-cap)">'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món</div></div><div class="cell"><div class="k">Ngày kiểm dữ liệu</div><div class="v">'+(p.checked||"06/11/2026")+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:18px 0 8px">Bản đồ các điểm ở '+esc(p.name)+'</h3><div style="position:relative"><div id="mapProv"></div><div class="map-loading" id="mapProvLoading"><span class="spin"></span><span>Đang tải bản đồ…</span></div></div><div class="map-fallback" id="mapProvFallback">Chưa tải được bản đồ (cần mạng để tải nền bản đồ Esri / OpenStreetMap). Các điểm vẫn xem được ở mục “Đi đâu”, kèm địa chỉ và khoảng cách từ trung tâm.</div>'+
     '<p class="small" style="margin-top:8px">Bản đồ: Esri, © OpenStreetMap contributors / Leaflet. Ghim có nhãn “xấp xỉ” là tọa độ khu vực — cần kiểm lại. Hiện có '+approxN+' điểm tọa độ xấp xỉ'+(unpinned.length?(', '+unpinned.length+' điểm chưa có tọa độ nên không ghim'):"")+'.</p>'+
     (unpinned.length? '<div class="notebox" style="margin-top:10px"><b>Chưa có tọa độ — chưa ghim lên bản đồ:</b><br/>'+unpinned.map(function(x){ return esc(x.name); }).join(" · ")+'</div>' : "")+
     (p.cost.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Bảng tổng ước tính cả chuyến 3 ngày 2 đêm — 1 người, từ TP.HCM</h3><div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:6px 14px"><table class="cost">'+costRows+'</table></div><p class="small" style="margin-top:8px">Đây là tổng ước tính cả chuyến cho 1 người — cùng một cách tính với con số tổng ở trang kết quả khi lập chuyến (vé tham quan + ăn uống + di chuyển tới điểm đến + chỗ ở). Luôn là khoảng giá — kiểm lại trước ngày đi.</p>' : "")+
     (p.checklist && p.checklist.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Checklist gợi ý cho chuyến này</h3><div class="listcol">'+p.checklist.map(function(c){ return '<div class="menurow" style="cursor:default"><span style="flex:1">'+esc(c)+'</span></div>'; }).join("")+'</div>' : "")+
+    (typeof provAreasHtml==="function"?provAreasHtml(p,"tongquan"):"")+
     provSeasonHtml(p)+provRainyHtml(p)+provCoupleHtml(p)+provBikeHtml(p)+provScamsHtml(p)+provPassesHtml(p)+provEmergencyHtml(p)+provPhotoHtml(p)+provRunningHtml(p)+
     '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+(typeof shareBtnHtml==="function"?shareBtnHtml("btShareProv('"+p.id+"')"):"")+
     '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="openFaq()">Câu hỏi thường gặp</button>'+
@@ -1063,6 +1064,7 @@ function renderProvDetail(){
   '<div class="segpane provpane" data-ppane="diden"><div class="pad">'+
     '<div class="notebox" id="provRouteNote">Đang hiện các tuyến đã có dữ liệu từ TP.HCM, Hà Nội và sân bay/ga gần nhất — kiểm '+(p.checked||"06/11/2026")+'. Chọn điểm xuất phát ở ô tìm kiếm trang Khám phá để app làm nổi bật đúng tuyến của anh/chị.</div>'+
     (p.routes.note? '<div class="notebox" style="margin-top:12px">'+esc(p.routes.note)+'</div>' : "")+
+    (typeof provAreasHtml==="function"?provAreasHtml(p,"diden"):"")+
     routeGroup("Từ TP.HCM", p.routes.sg, "provRouteSG")+
     routeGroup("Từ Hà Nội", p.routes.hn, "provRouteHN")+
     routeGroup("Từ sân bay / ga gần nhất vào trung tâm", p.routes.airport, "provRouteAirport")+
@@ -1191,7 +1193,7 @@ function plainItemHead(title,sub){
   return '<div class="prov-hero"><h2 style="font-size:var(--fs-h1);line-height:1.25;margin:0 0 6px;font-weight:800">'+esc(title)+'</h2><p style="font-size:var(--fs-cap);margin:0">'+esc(sub)+'</p><p style="font-size:var(--fs-cap);margin:6px 0 0;opacity:.75">Chưa có ảnh chụp đúng địa danh này</p></div><div class="pad">';
 }
 function setItemTopbar(prov,kindLabel){
-  document.getElementById("topTitle").textContent=(prov.id==="lam-dong"?"Đà Lạt · Lâm Đồng":prov.name);
+  document.getElementById("topTitle").textContent=prov.name;
   document.getElementById("topSub").textContent=kindLabel+" · kiểm dữ liệu "+(prov.checked||"06/11/2026");
 }
 /* Ô thông tin nhanh: dòng đầu là con số cần biết, phần giải thích dài gập lại */
@@ -1204,7 +1206,13 @@ function factShort(full,isPrice){
 /* Mùa đẹp cho từng địa danh: ưu tiên mùa riêng của điểm (info.mua_dep), không có thì lấy mùa chung của tỉnh và ghi rõ */
 function placeSeason(x,prov){
   if(x && x.info && x.info.mua_dep) return x.info.mua_dep;
-  var b=prov&&(prov.best_season||(prov.season&&prov.season.best)); /* season.best có tỉnh ghi theo tháng hiện tại ("Tháng 11/2026"), không dùng làm mùa đẹp */
+  var b=prov&&(prov.best_season||(prov.season&&prov.season.best));
+  /* Mùa theo khu/đảo của điểm, không lấy mùa của thủ phủ tỉnh mới (Quy Nhơn không mang mùa dã quỳ Pleiku) */
+  var isle=x&&typeof btIsleFor==="function"?btIsleFor(x.name.split(" (")[0]):null;
+  if(isle&&isle.season) return "Mùa đảo "+isle.name+": "+isle.season;
+  var ar=x&&typeof btAreaOfPlace==="function"?btAreaOfPlace(prov,x):null, pr=ar&&btAreaProfile(ar);
+  if(pr&&pr.season) return "Mùa khu "+ar.name+": "+pr.season.best+(pr.season.avoid?". Tránh: "+pr.season.avoid:"");
+  if(ar) return "Chưa có mùa đẹp riêng cho khu "+ar.name+". Mùa chung của "+prov.name+" viết theo khu "+(prov.anchor||prov.name)+", có thể không đúng cho "+ar.name+": "+(b||"chưa có dữ liệu"); /* season.best có tỉnh ghi theo tháng hiện tại ("Tháng 11/2026"), không dùng làm mùa đẹp */
   return b?("Theo mùa chung của "+prov.name+": "+b):"Chưa có dữ liệu mùa đẹp";
 }
 function factCell(label,full,isPrice){
@@ -1221,6 +1229,7 @@ function openProvPlace(provId,placeId){
     : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
   document.getElementById("itemDetail").innerHTML =
     provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
+    (x.banned?'<div class="notebox" style="border-color:#b42318"><b>Không đón khách du lịch.</b> '+esc(x.note||"")+'</div>':"")+
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</span>'+'</div>'+
     '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
@@ -1508,7 +1517,7 @@ function wizDestProv(){ return provById(wiz.dest); }
 function wizFocusFrom(prov,rr){
   wiz.area=""; wiz.focus="";
   if(rr.type!=="pplace") return;
-  var x=null; prov.places.forEach(function(p){ if(p.id===rr.id) x=p; }); if(!x) return;
+  var x=null; prov.places.forEach(function(p){ if(p.id===rr.id) x=p; }); if(!x||x.banned) return;
   var anchor=prov.id==="lam-dong"?"Đà Lạt":(prov.anchor||prov.name);
   var ar=(x.dist_from&&x.dist_from!==anchor&&window.btAreaByHub)?btAreaByHub(prov.id,x.dist_from):null;
   var far=(x.lat!=null&&prov.lat!=null&&window.btKm)?btKm(x.lat,x.lng,prov.lat,prov.lng):0;
@@ -1553,6 +1562,7 @@ function planItemObj(kind,prov,itemId){
 }
 function planWithItem(kind,provId,itemId){
   var prov=provById(provId); if(!prov) return;
+  if(kind==="pplace"){ var bx=null; prov.places.forEach(function(x){ if(x.id===itemId) bx=x; }); if(bx&&bx.banned){ toast("Điểm này hiện không đón khách du lịch, app không đưa vào lịch"); return; } }
   var it=planItemObj(kind,prov,itemId); if(!it){ startPlanForProv(provId); return; }
   var t=trips.filter(function(x){ return x.status!=="done" && tripProvId(x)===provId && (x.end_date||"")>=todayISO(); })[0];
   if(t){

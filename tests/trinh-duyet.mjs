@@ -87,6 +87,26 @@ try {
   ok(qn.top === "area" && qn.area === "quy-nhon", "Tìm Quy Nhơn ra thẻ khu Quy Nhơn đầu tiên");
   ok(qn.n >= 6 && qn.allQN, "Lịch 3 ngày đi Quy Nhơn chỉ gồm điểm ở Quy Nhơn");
   ok(/Quy Nhơn/.test(qn.cost), "Tiền đi tới Quy Nhơn dùng tuyến tới Quy Nhơn");
+  /* Câu hỏi sai trong báo cáo 1.014 giả thiết (23/11/2026): trợ lý phải trả theo khu/đảo, không thay dữ liệu thủ phủ */
+  const cau = JSON.parse(fs.readFileSync(new URL("./tro-ly-1014.json", import.meta.url), "utf8"));
+  const sai = await page.evaluate(cau => cau.map(([q, can, cam]) => {
+    const d = document.createElement("div"); d.innerHTML = askQuick(q); const t = d.innerText || d.textContent;
+    const thieu = can.filter(w => t.indexOf(w) < 0), nham = cam.filter(w => t.indexOf(w) >= 0);
+    return thieu.length || nham.length ? q + " (thiếu: " + thieu.join("/") + "; nhầm: " + nham.join("/") + ")" : null;
+  }).filter(Boolean), cau);
+  ok(!sai.length, cau.length + " câu trợ lý trong báo cáo 1.014 trả đúng khu/đảo" + (sai.length ? ": " + sai.join(" | ") : ""));
+  const tk = await page.evaluate(() => ({
+    sapa: btSearch("sapa").filter(r => r.kind === "place" && /Sa Pa/.test(r.x.name)).length,
+    hv: btSearch("Hội Vân").some(r => r.x && /Đầm Vân Hội/.test(r.x.name)),
+    bb: btSearch("Bình Ba").some(r => r.x && /Bà Rá/.test(r.x.name)),
+    nd: btSearch("Nam Du").some(r => r.x && /Đại Nam/.test(r.x.name)),
+    plan: btAreaDays(btAreaById("phan-rang") || btAreaById("nha-trang") || KHU_VUC[0], 3).flat().some(o => o.place.banned),
+    saved: (JSON.parse(localStorage.getItem("camnang_saved_v1") || "[]")).length
+  }));
+  ok(tk.sapa >= 2, "Gõ liền 'sapa' ra địa danh Sa Pa");
+  ok(!tk.hv && !tk.bb && !tk.nd, "Tìm 'Hội Vân', 'Bình Ba', 'Nam Du' không ra Đầm Vân Hội, Núi Bà Rá, Đại Nam");
+  ok(!tk.plan, "Lịch trình không đưa đảo Bình Ba (không đón khách) vào");
+  ok(tk.saved === 0, "Trình duyệt mới: mục Đã lưu trống, app không gieo sẵn");
   /* Rà mọi nơi đến người dùng hay gõ (63 tỉnh cũ, tỉnh lỵ cũ, điểm nổi tiếng): tìm ra đúng tỉnh,
      lập kế hoạch ra đúng tỉnh, lịch không xa nơi gõ, nơi xa thủ phủ thì có tuyến riêng hoặc ghi rõ chặng chưa cộng */
   const NOI_DEN = JSON.parse(fs.readFileSync(new URL("./noi-den.json", import.meta.url), "utf8"));

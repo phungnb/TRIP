@@ -156,13 +156,15 @@ var KHU_VUC = [];
         if (!e || e.length < 3) return;
         if (marked ? lq.indexOf(" " + e + " ") >= 0 : f.indexOf(" " + fold(e) + " ") >= 0) take(a, e.length);
       });
-      a.keys.forEach(function (k) { if (k && f.indexOf(" " + k + " ") >= 0) take(a, k.length); });
+      a.keys.forEach(function (k) { if (k && f.indexOf(" " + k + " ") >= 0) take(a, k.length); });      /* gõ liền cả tên thành 1 chữ: "quynhon", "phuquoc" */
+      var one = f.trim();
+      if (one.indexOf(" ") < 0 && one.length >= 5) a.exact.concat(a.keys).forEach(function (e) { if (e && fold(e).replace(/ /g, "") === one) take(a, one.length); });
     });
     return best;
   };
   function isIsle(x) { return !!(x && /(^|\s)(đảo|quần đảo|hòn|cù lao)(\s|$)/i.test(x.name) && !/bán đảo/i.test(x.name)); }
   window.btIsIsle = isIsle;
-  function usable(x) { return !/tổng quan/i.test(x.name) && !/chỉ đi theo tour/i.test(x.name); }
+  function usable(x) { return !x.banned && !/tổng quan/i.test(x.name) && !/chỉ đi theo tour/i.test(x.name); }
   window.btAreaPlaces = function (a) {
     var p = P(a.prov); if (!p) return [];
     return p.places.filter(function (x) { return x.dist_from === a.hub && usable(x); });
