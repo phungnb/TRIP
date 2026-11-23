@@ -1,0 +1,746 @@
+[
+ {
+  "ten": "Sông Cửa Cạn",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Sông ở phía bắc đảo Phú Quốc, đổ ra biển tại khu vực Cửa Cạn.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Thị trấn An Thới",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Thị trấn ở mũi nam đảo Phú Quốc, cửa ngõ đi cáp treo Hòn Thơm và tour các đảo phía nam.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Bãi Sao",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bãi biển đẹp nhất đảo theo Wikivoyage, có nhà hàng/quán cà phê và ghế tắm nắng. Nằm ở góc đông nam đảo, cách thị trấn An Thới vài km về phía bắc.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Bãi Ông Lang",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bãi biển đẹp để ngắm hoàng hôn; phần lớn do các resort quản lý và dọn dẹp, du khách vẫn có thể trải khăn tắm nắng, hoặc ra đoạn bờ đá ở đầu bắc, xa khu resort.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Nhà tù Phú Quốc",
+  "tinh": "An Giang",
+  "gia": "Miễn phí",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nhà tù do Pháp xây, dùng giam tù binh trong chiến tranh chống Mỹ. Địa chỉ: 350 Nguyễn Văn Cừ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Jerry's Jungle Tours",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Tour khám phá quần đảo bằng thuyền, lặn ngắm san hô, câu cá, tour đảo 1 ngày và nhiều ngày, tour xe máy, leo núi đá, ngắm chim, đi bộ và tour văn hóa quanh Phú Quốc. Địa chỉ: Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Flipper Diving Club",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "Hằng ngày 09:00–20:00",
+  "ghi_chu": "Trung tâm lặn duy nhất trên đảo vừa là trung tâm PADI vừa là trung tâm SSI; dạy từ mới bắt đầu đến divemaster, có ngày dọn rác biển. Giá gốc theo USD (lặn fun dive 65 USD). Địa chỉ: 42 Trần Hưng Đạo, Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "John's Tour",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Tour lặn ngắm san hô. Giá gốc từ 15 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Phú Quốc Explorer",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Tour lặn ngắm san hô. Giá gốc từ 15 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Vietnam Explorers",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "Hằng ngày 08:00–21:00",
+  "ghi_chu": "Trung tâm lặn lâu đời nhất đảo (trước đây là Rainbow Divers); có khóa PADI, lặn ngắm san hô và lặn bình, hướng dẫn nhiều ngôn ngữ châu Âu và tiếng Việt. Giá gốc: fun dive 90 USD. Địa chỉ: ĐT 47, tổ 2, Suối Mây, xã Dương Tơ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Sunny Boat Trip",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Tour thuyền lặn ngắm san hô. Giá gốc từ 15 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "X-Dive",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Lặn ở phía bắc và phía nam đảo tùy điều kiện biển; không dạy khóa PADI. Địa chỉ: Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Phú Quốc Island Tours",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Hướng dẫn viên tiếng Anh và tiếng Việt đưa đi các điểm nóng trên đảo bằng đường bộ và đường biển; có cắm trại, chèo kayak + cắm trại, trekking Vườn quốc gia. Địa chỉ: 1 Trần Hưng Đạo (gần Salinda Resort).",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "The Dog Bar",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "Mở đến khuya",
+  "ghi_chu": "Quán bar phục vụ burger, pizza, món Tây, món Việt và hải sản; xem thể thao trực tiếp, chơi bi-a, phi tiêu, nhạc sống; có thể đặt tour lặn tại đây. Địa chỉ: 88 Trần Hưng Đạo, Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Ganesh Indian Restaurant",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nhà hàng Ấn Độ. Địa chỉ: 97 Trần Hưng Đạo, Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Nhà hàng Gió Biển",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Hải sản tươi và món Việt; bãi biển cách bàn ăn chỉ vài mét; nên thử lẩu cá kho (cá kho caramel) buổi trưa hoặc tối. Địa chỉ: xã Gành Dầu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Ocean Bar and Grill",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Hải sản tươi nấu theo yêu cầu, phục vụ tốt. Địa chỉ: 60 Trần Hưng Đạo, Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Rory's Beach Bar",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán bar bãi biển của ông chủ người Úc; bia tươi khoảng 35.000đ, cocktail khoảng 100.000đ, món ăn trung bình 120.000đ. Địa chỉ: 118/10 Trần Hưng Đạo.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "The Rabbit Hole Irish Sports Bar",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "Hằng ngày 10:00–02:00",
+  "ghi_chu": "Quán bar thể thao kiểu Ireland; nhân viên nói tiếng Anh, có chỗ ngồi ngoài trời, điều hòa, wifi miễn phí, món Tây và món Việt, nhiều màn hình xem thể thao, bàn bi-a, phi tiêu. Địa chỉ: 118/2/1 Trần Hưng Đạo, khu phố 7.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Amigos Guesthouse",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bungalow sạch sẽ, nước nóng/lạnh, điều hòa, tủ lạnh, TV vệ tinh, giường đôi; ngay bãi biển, có nhà hàng và bar, wifi miễn phí. Địa chỉ: 118/10 Trần Hưng Đạo.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Bamboo Cottages",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "15 bungalow bê tông nhìn ra biển (trực diện hoặc một phần) và 4 nhà gỗ kiểu ngư dân Phú Quốc xưa; gần bãi biển riêng, dùng điện mặt trời, vườn cây bao quanh; chèo kayak và lặn miễn phí, cho thuê xe máy. Giá gốc 45–125 USD. Địa chỉ: Bãi Vũng Bầu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Cassia Cottage",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bungalow nhìn biển và bungalow vườn. Giá gốc 85–170 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Chez Carole",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Resort khoảng 12 bungalow ở cửa sông Cửa Cạn, cách Dương Đông và sân bay khoảng 15 km về phía bắc; có hồ bơi, nhà hàng, bar, vườn; không có bãi biển nhưng có cồn cát nhỏ ở cửa sông, đi thuyền hoặc bơi ra được; chèo kayak, canoe. Giá gốc từ 160 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Eden Resort",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Phòng rộng, thiết kế hiện đại, ban công, bồn tắm, minibar, điều hòa; resort dọc bãi cát, có nhà hàng bên hồ bơi, bar nhỏ, wifi miễn phí, phòng gym nhỏ. Giá gốc 150 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Lang Toi",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Một trong hai hostel trên Bãi Sao (bãi đẹp nhất đảo); có điều hòa, nước nóng; đêm trăng tròn có thể ngắm trăng mọc từ biển (Bãi Sao ở phía đông đảo). Tên ghi theo nguồn (không dấu). Giá gốc từ 60 USD. Địa chỉ: Bãi Sao.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Little Garden Bungalow",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bungalow quanh vườn hồ bơi, nhiều cây xanh; gần Dương Đông, cách bãi biển khoảng 500 m; 26 phòng, điều hòa, wifi. Giá gốc từ 35 USD. Địa chỉ: 113/5 Trần Hưng Đạo.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Mai House",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "14 villa mái lá chất lượng cao trong vườn ven biển, có ghế tắm nắng; không có tủ lạnh và hồ bơi, có điều hòa, két, ấm trà/cà phê, khăn tắm biển, wifi miễn phí ở sảnh và nhà hàng; có bữa sáng. Giá gốc 50 USD mùa thấp điểm, 90 USD mùa cao điểm.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Mango Bay Resort",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Resort yên tĩnh giữa biển và khu rừng bảo tồn; bãi biển của resort nhỏ nhưng bãi bên cạnh còn hoang sơ, có rạn san hô đẹp để lặn; bungalow tách biệt nhau, có vườn rau và gia vị. Giá gốc 90–150 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Paris Beach Resort",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Resort giá rẻ, chủ là cặp vợ chồng giáo sư người Pháp – Việt, thân thiện; đồ ăn ngon, giá hợp lý. Giá gốc 20–40 USD. Địa chỉ: Cầu Bà Phong, Cửa Lấp, Dương Tơ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Peppercorn Beach",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "8 bungalow sang trọng có điều hòa, cách bãi biển vài mét, nhìn ra đất liền Campuchia và Việt Nam. Giá gốc 110–160 USD. Địa chỉ: tổ 8, ấp Chuồng Vích, Gành Dầu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Saigon Phu Quoc Resort & Spa",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn lớn lâu đời nhất trên đảo, gần trung tâm Dương Đông và khu nhà hàng. Giá gốc từ 200 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "La Veranda",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "43 phòng và villa quanh hồ bơi, trong tòa nhà thuộc địa kiểu Pháp (La Veranda Resort Phú Quốc). Giá gốc 25–250 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Việt Thanh Bungalow",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bungalow có màn chống muỗi, nước nóng, wifi miễn phí (chỉ bungalow phía trước). Giá gốc 6–15 USD. Địa chỉ: khu phố 7, Dương Đông.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Salinda Resort & Spa",
+  "tinh": "An Giang",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "121 phòng deluxe, villa và suite tổng thống, kiến trúc hiện đại. Giá gốc 200 EUR. Địa chỉ: ấp Cửa Lấp, xã Dương Tơ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Phu_Quoc (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Sân bay Quốc tế Phú Bài",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Sân bay của Huế; thời chiến từng là đường băng đất, quân đội Mỹ xây hầm bê tông và đường băng trải nhựa; nay đã cải tạo thành sân bay dân dụng. Cách trung tâm Huế khoảng 15 km.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Bảo tàng Mỹ thuật Cung đình Huế",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bảo tàng mỹ thuật cung đình triều Nguyễn (trong Hoàng thành, điện Long An).",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Lăng Gia Long",
+  "tinh": "Huế",
+  "gia": "50.000đ/người lớn; trẻ em miễn phí",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Lăng xa nhất trong các lăng vua Nguyễn, yên tĩnh, đã xuống cấp nhiều; Gia Long là vị vua đầu tiên của nhà Nguyễn.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Lăng Thiệu Trị",
+  "tinh": "Huế",
+  "gia": "50.000đ/người lớn; trẻ em miễn phí",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Xây năm 1848; vua Thiệu Trị và vợ là những người được kính trọng nhất; di nguyện của vua là lăng không xa hoa, khác truyền thống lăng tẩm lộng lẫy.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Lăng Đồng Khánh",
+  "tinh": "Huế",
+  "gia": "50.000đ/người lớn; trẻ em miễn phí",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Xây năm 1917; tranh tường nội thất đẹp; lăng xây bằng đá cẩm thạch và gốm sứ sặc sỡ; khoảng 100 bậc thang, người khó đi lại nên lưu ý.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Massage Niềm Tin (massage người khiếm thị)",
+  "tinh": "Huế",
+  "gia": "Massage 40.000đ/giờ; xông hơi 30.000đ/giờ",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Cơ sở massage của Hội Người mù (Công ty Niềm Tin 17-4); nhân viên đều là người khiếm thị, sống và làm việc tại cơ sở, nói được chút tiếng Anh; được người dân địa phương ưa chuộng. Giá theo Wikivoyage, nên hỏi lại tại chỗ. Địa chỉ: 1/180 Phan Bội Châu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Suối nước nóng Mỹ An",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nước suối có hàm lượng lưu huỳnh cao, được cho là tốt cho sức khỏe; có hồ bơi và 2 hồ nước nóng. Giá gốc 3 USD cho khách nước ngoài (theo Wikivoyage).",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Suối nước nóng Thanh Tân",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Giống Mỹ An nhưng không có mùi lưu huỳnh; khu vực có rừng, có các bể nước nhiệt độ tăng dần (bể nóng nhất đóng cửa vì quá nóng), bể riêng cho 2–4 người, hồ bơi và nhà hàng nhỏ; đây cũng là nguồn nước khoáng đóng chai Thanh Tân.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)"
+ },
+ {
+  "ten": "Quán Chay Thanh Liễu",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "09:00–20:00",
+  "ghi_chu": "Quán chay thuần chay, ăn cùng người địa phương; lẩu chay ngon, suất lớn. Giá lẩu 50.000đ là giá tháng 6/2017, nay chưa kiểm được. Địa chỉ: 50 Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Cafe on Thu Wheels",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán ăn cho khách du lịch, nhiều món đơn giản ngon, có cả rượu vang trắng và đỏ; quán gia đình, bà chủ tự tay quán xuyến. Địa chỉ: 3 kiệt 34 Nguyễn Tri Phương.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Family Home Restaurant",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán nhỏ như phòng khách nhà bà ngoại; món Huế ngon, cay, đúng vị, không Tây hóa; nhân viên thân thiện. Địa chỉ: 11 kiệt 34 Nguyễn Tri Phương.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Nina's Cafe Restaurant",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán trong hẻm, phục vụ khách nước ngoài; menu tiếng Anh, nhân viên nói tiếng Anh, nhạc hay, không gian đẹp. Địa chỉ: 16/34 Nguyễn Tri Phương.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Liên Hoa",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán chay; các sư thầy và sư cô thường ghé ăn trưa. Địa chỉ: 3 Lê Quý Đôn.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Cơm Chay Diệu Lạc",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Cơm chay đơn giản, ngon. Địa chỉ: 1 Hàn Mặc Tử, Vỹ Dạ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Bánh Khoái Hồng Mai",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bánh khoái, nem lụi (thịt băm nướng sả trên than) và bánh bèo được khuyên thử. Địa chỉ: 110 Đinh Tiên Hoàng (góc Nguyễn Biểu).",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Quán Cơm Chay Nhật Lệ",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán chay đông khách; chỉ cần nói muốn ăn cơm hay bún/mì là chủ quán lo; sữa đậu nành và sữa hạt sen ngon, có bún xào chay. Địa chỉ: 85 Nhật Lệ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Phố bánh canh Hàn Thuyên",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Dãy quán bánh canh vỉa hè bán đến khuya; ngồi vỉa hè mát. Giá 15.000–20.000đ/tô là giá tháng 4/2022, nay chưa kiểm được. Địa chỉ: đường Hàn Thuyên, Phú Hậu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Bánh Khoái Hạnh",
+  "tinh": "Huế",
+  "gia": "20.000–55.000đ/phần",
+  "gio": "10:00–21:00",
+  "ghi_chu": "Quán bánh khoái nổi tiếng hơn 30 năm ở Huế; vỏ vàng giòn, nhân tôm thịt đầy đặn, nước lèo sánh; còn có nem lụi, bánh bèo, bánh nậm, bánh lọc, gỏi cuốn. Giá Wikivoyage tháng 1/2018 đã cũ; giá và giờ hiện tại đối chiếu nguồn Việt 2026 (tourhue.vn, AEON Mall Huế). Địa chỉ: 11–15 Phó Đức Chính.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "La Carambole",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Món Pháp, món Việt và pizza; khá đông khách du lịch. Địa chỉ: 19 Phạm Ngũ Lão.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Hot Tuna",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nên thử ức gà sốt nấm với khoai tây nghiền; vịt cũng ngon. Địa chỉ: 37 Võ Thị Sáu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Ta.ke Japanese Restaurant",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nhà hàng Nhật, đồ ăn rất ngon. Địa chỉ: 34 Trần Cao Vân.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Ông Táo",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Món Huế truyền thống; nên thử chả cuốn (cuốn lá bạc hà) hoặc chả giò chiên, rất giòn; có suất nhỏ và suất lớn để gọi nhiều món. Địa chỉ: 31 Chu Văn An.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Nhà hàng Ancient Hue (Ẩm thực Cung đình Huế xưa)",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Một trong những nhà hàng lớn nhất thành phố; món ngon, rất sạch; khu nhà cổ trong vườn rộng, có chạm khắc món ăn. Địa chỉ: 104/47 Kim Long.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "B4 Bar-Café",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Quán bar của chủ người Bỉ – Việt, nội thất ấm cúng, có bi-a miễn phí. Địa chỉ: 75 Bến Nghé.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Brown Eyes",
+  "tinh": "Huế",
+  "gia": "Miễn phí vào cửa",
+  "gio": "Happy hour 17:00–22:00",
+  "ghi_chu": "Bar-club có DJ, bàn bi-a miễn phí, không khí vui; nhóm từ 4 người trở lên được trả tiền taxi từ khách sạn; mở đến khi khách cuối cùng về. Địa chỉ: 56 Chu Văn An.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "DMZ Bar",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "Mở đến khuya",
+  "ghi_chu": "Bar & café. Địa chỉ: 44 Lê Lợi.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Vỹ Dạ Xưa",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Uống cà phê Việt hoặc đồ uống khác trong nhà rường truyền thống, vườn và suối nhỏ, nghe chim hót và nhạc nhẹ. Địa chỉ: 131 Nguyễn Sinh Cung.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Why Not?",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Bar & café. Địa chỉ: 21 Võ Thị Sáu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Garden River Bar Coffee",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "07:00–22:30",
+  "ghi_chu": "Quán cà phê bar giữa trung tâm Huế; vừa uống vừa nghe nhạc bên bờ sông trong vườn; đội ngũ Việt – Pháp. Địa chỉ: 1/7 Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "La Beaute",
+  "tinh": "Huế",
+  "gia": "Cà phê 12.000đ",
+  "gio": "12:00–22:00",
+  "ghi_chu": "Quán cà phê yên tĩnh trong hẻm nhỏ, nhạc nhẹ, tre xanh; nhiều loại cà phê và bánh, nên thử cà phê cacao; giá rẻ bằng nửa khu du lịch cách đó 200 m. Địa chỉ: 87 Võ Thị Sáu.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "mon_an"
+ },
+ {
+  "ten": "Amigo Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn trong khu nhà nghỉ giá rẻ; nhân viên thân thiện, phòng tốt, giá có thể thương lượng; wifi và máy tính miễn phí, điều hòa, TV vệ tinh, giặt ủi 20.000đ/kg; nhà hàng tầng dưới giá hợp lý. Giá gốc 13–25 USD. Địa chỉ: 66/3 Lê Lợi.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Hue Amazing Homestay",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "Lễ tân 24/24",
+  "ghi_chu": "Homestay, nhân viên nhiệt tình, wifi và bữa sáng miễn phí, lễ tân 24 giờ. Giá gốc dorm 5 USD. Địa chỉ: 21/1 Phạm Ngũ Lão.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Bamboo Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn tốt, nhân viên thân thiện, phòng sạch sẽ gọn gàng, internet miễn phí. Giá gốc từ 10 USD. Địa chỉ: 61 Hùng Vương.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Bình Dương I",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Điều hòa, nước nóng, TV vệ tinh; được khách Nhật ưa chuộng; nhân viên thân thiện; một số phòng có bồn tắm và/hoặc ban công riêng. Giá gốc từ 10 USD, dorm 4 USD. Địa chỉ: 17/34 Nguyễn Tri Phương.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Canary Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Phòng có điều hòa, TV LCD 32 inch, vòi sen + bồn tắm, minibar; có bar, nhà hàng, phòng internet, cửa hàng lưu niệm, giặt ủi. Giá gốc 16 USD. Địa chỉ: 37 Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Vietnam Backpacker Hostels – Huế",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Cùng chủ với Hanoi Backpacker's Hostel; chỗ ở rẻ, sạch, ban công rộng; internet/wifi miễn phí, nhân viên thân thiện; tầng dưới là bar và nhà hàng, có cho thuê xe đạp, tour, lớp nấu ăn. Giá gốc từ 5 USD. Địa chỉ: 40 Chu Văn An.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Lâm Bảo Long",
+  "tinh": "Huế",
+  "gia": "139.000–255.000đ/phòng",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "15 phòng không hút thuốc, điều hòa, áo choàng tắm, báo hằng ngày, bàn làm việc, máy sấy tóc. Địa chỉ: 10 Phạm Ngũ Lão.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Mimosa Guesthouse",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nhà nghỉ thân thiện, yên tĩnh, trong hẻm khách sạn gần Lê Lợi. Giá gốc từ 4 USD. Địa chỉ: đường Lê Lợi.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Minh Hiếu",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn gia đình; phòng sạch, TV vệ tinh, nước nóng, tủ lạnh mini; mỗi tầng có ban công; bữa sáng 1 USD. Giá gốc từ 10 USD. Địa chỉ: 3 Chu Văn An.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Phong Lan",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn sạch đẹp trên phố nhỏ yên tĩnh gần Phạm Ngũ Lão; phòng có ban công, điều hòa, phòng tắm riêng, cho 2–4 người; wifi, thuê xe đạp và xe máy miễn phí. Giá gốc 10 USD. Địa chỉ: 12/66 Lê Lợi.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Sports Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn giá rẻ trên phố du lịch chính; phòng sạch, rộng, gần sông. Giá gốc từ 10 USD. Địa chỉ: 15 Phạm Ngũ Lão.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Valentine Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Giá gốc 12 USD. Địa chỉ: 7A kiệt 64 Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Homeland Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn boutique gần sông Hương; phòng sàn gỗ, điện thoại IDD, điều hòa, TV cáp, tủ lạnh, bồn tắm, máy sấy tóc, máy tính riêng. Giá 325.000đ là giá tháng 5/2015, nay chưa kiểm được. Địa chỉ: 35/42 Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Carnosa Hotel Huế",
+  "tinh": "Huế",
+  "gia": "255.000–278.000đ/phòng",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Thay thế Tigon Hostel; có wifi, điều hòa, buffet sáng, nhà hàng/bar, spa. Địa chỉ: 11B Nguyễn Công Trứ.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Á Châu (Asia Hotel Huế)",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Khách sạn 4 sao, 87 phòng, có nhà hàng Á – Âu, gym, spa, bể bơi trong nhà, bar sân thượng; gần phố đi bộ, nhìn ra cầu Trường Tiền và sông Hương. Giá gốc từ 36 USD; giá VND 1.000.000–2.300.000đ là giá năm 2022, nay chưa kiểm được. Địa chỉ: 17 Phạm Ngũ Lão.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Holiday Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Giá rất tốt; phòng sạch, có điều hòa, tiện nghi đầy đủ, tủ khóa được; bữa sáng thịnh soạn; nhân viên chu đáo, có nước chanh và nước ngô miễn phí mỗi khi khách về. Giá gốc 20–35 USD. Địa chỉ: 6/14 Nguyễn Công Trứ. (Còn gọi là Diamond Hotel.)",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Jade Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Cùng chủ với Holiday Hotel, phòng đơn giản hơn; đón ở ga tàu nếu đặt trước. Giá gốc 15–20 USD. Địa chỉ: 17 Nguyễn Thái Học.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Khách sạn Hạnh Đạt",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Phòng có điều hòa, wifi, TV LCD 32 inch; có nhà hàng, trung tâm dịch vụ, fax và photocopy. Giá gốc từ 25 USD. Địa chỉ: 15 Phạm Văn Đồng.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "New Star Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "56 phòng có điều hòa, TV cáp, internet, minibar; có massage, xông hơi, hồ bơi ngoài trời, cửa hàng lưu niệm. Giá gốc từ 45 USD. Địa chỉ: 36 Chu Văn An.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Orchid Hotel",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Nhân viên chuyên nghiệp, thân thiện; phòng sạch, rộng, thiết kế đẹp; bữa sáng buffet ngon; đón miễn phí ở ga tàu. Giá gốc 35 USD.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ },
+ {
+  "ten": "Park View Hotel Huế",
+  "tinh": "Huế",
+  "gia": "chưa kiểm được",
+  "gio": "chưa kiểm được",
+  "ghi_chu": "Ngay trung tâm thành phố, gần sông Hương; đi bộ 10 phút tới Hoàng thành. Địa chỉ: 9 Ngô Quyền.",
+  "nguon": "Wikivoyage tiếng Anh — https://en.wikivoyage.org/wiki/Hue (lấy ngày 24/11/2026)",
+  "loai": "cho_o"
+ }
+]
