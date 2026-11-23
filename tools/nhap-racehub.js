@@ -59,16 +59,20 @@ const UOC = [
 ];
 const loai = name => (LOAI_BO.test(name) ? null : LOAI.find(r => r[0].test(name))) || UOC.find(r => r[0].test(name));
 const newOf = old => Object.keys(S).find(k => S[k].includes(old));
+/* Điểm RaceHub xếp nhầm tỉnh: chuyển sang đúng tỉnh cũ (vd Căn cứ Rừng Sác ở Cần Giờ, TP.HCM, không phải Đồng Nai) */
+const MOVE = { "Căn cứ Sở Chỉ huy Đặc khu Rừng Sác": "TP.HCM" };
 
 const out = {}, enrich = {}; const stat = { total: 0, added: 0, dupName: 0, dupNear: 0, enriched: 0, noProv: [] };
 for (const s of SOURCES) {
-  const old = NAME_FIX[s.name] || s.name, pid = newOf(old);
+  const old0 = NAME_FIX[s.name] || s.name, pid0 = newOf(old0);
   const data = JSON.parse(fs.readFileSync(path.join(RH, "features/explorer/data", s.file + ".json"), "utf8"));
   stat.total += data.length;
-  if (!pid) { stat.noProv.push(s.name); continue; }
-  const prov = P.find(p => p.id === pid), isMain = S[pid][0] === old;
-  const have = prov.places.concat(out[pid] || []);
-  for (const x of data) {
+  if (!pid0) { stat.noProv.push(s.name); continue; }
+  for (const x0 of data) {
+    const x = x0, mvOld = MOVE[x.title];
+    const old = mvOld || old0, pid = mvOld ? newOf(mvOld) : pid0;
+    const prov = P.find(p => p.id === pid), isMain = S[pid][0] === old;
+    const have = prov.places.concat(out[pid] || []);
     const n = norm(x.title), c = COORDS[String(s.base + x.id)];
     const dn = have.find(h => { if (ALIAS[x.title] === h.name) return true; const hn = norm(h.name); return hn === n || (n.length > 5 && hn.includes(n)) || (hn.length > 5 && n.includes(hn)); });
     if (dn) { stat.dupName++; if (process.env.SHOWDUP) console.log("DUP", old, "|", x.title, "=>", dn.name);

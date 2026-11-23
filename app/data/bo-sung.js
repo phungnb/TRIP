@@ -197,7 +197,54 @@ var BO_SUNG = {
     ]
   }
 };
-var BO_SUNG_CUM = { "phu-quoc": "Phú Quốc", "con-dao": "Côn Đảo", "dong-van": "Hà Giang cũ (Đồng Văn, Mèo Vạc)", "mui-ne": "Mũi Né – Phan Thiết", "quy-nhon": "Quy Nhơn", "hoi-an": "Hội An", "phong-nha": "Phong Nha" };
+var BO_SUNG_CUM = { "phu-quoc": "Phú Quốc", "con-dao": "Côn Đảo", "dong-van": "Hà Giang cũ (Đồng Văn, Mèo Vạc)", "mui-ne": "Mũi Né – Phan Thiết", "quy-nhon": "Quy Nhơn", "hoi-an": "Hội An", "phong-nha": "Phong Nha", "can-gio": "Cần Giờ", "vung-tau": "Vũng Tàu", "mang-den": "Măng Đen", "kham-pha-them": "Khám phá thêm" };
+/* Soi lần 2 (23/11/2026): điểm còn thiếu. Giá, giờ chưa kiểm ghi rõ "ước tính". */
+var BO_SUNG_THEM = {
+  "tp-ho-chi-minh": {
+    patch: {
+      "rh-tp-hcm-can-cu-so-chi-huy-dac-khu-rung-sac": { cluster: "can-gio", lat: 10.4950, lng: 106.7830, approx: true, address: "Trong Khu du lịch Vàm Sát, xã Lý Nhơn, Cần Giờ, TP.HCM", note: "Nằm trong rừng ngập mặn Cần Giờ, đi cùng Vàm Sát trong một ngày." }
+    },
+    places: [
+      { id: "bs-rung-sac-can-gio", name: "Rừng ngập mặn Cần Giờ – Lâm Viên Cần Giờ (Đảo Khỉ)", address: "Long Hòa, Cần Giờ, TP.HCM", cluster: "can-gio", lat: 10.4600, lng: 106.8900, approx: true, price: "Vé vào khoảng 50.000–150.000đ/người lớn tùy gói, có ca nô vào căn cứ Rừng Sác (ước tính, chưa kiểm)", hours: "Khoảng 7:30–17:00 (ước tính, chưa kiểm)", duration: "Nửa ngày", suitable: "Gia đình, nhóm bạn, đi trong ngày từ trung tâm TP.HCM", note: "Đi ô tô ~2 giờ từ Quận 1, qua phà Bình Khánh hoặc cầu Bình Khánh nếu đã thông xe. Khỉ hay giật đồ: cất kính, điện thoại, túi nilon.", info: { mua_dep: "Tháng 12–4 (mùa khô, ít muỗi) (ước tính, chưa kiểm)" } },
+      { id: "bs-vam-sat", name: "Khu du lịch sinh thái Vàm Sát", address: "Xã Lý Nhơn, Cần Giờ, TP.HCM", cluster: "can-gio", lat: 10.4935, lng: 106.7840, approx: true, price: "Vé vào khoảng 50.000–100.000đ/người lớn; ca nô, đầm dơi tính riêng (ước tính, chưa kiểm)", hours: "Khoảng 7:30–16:30 (ước tính, chưa kiểm)", duration: "Nửa ngày", suitable: "Thích rừng ngập mặn, chim, cá sấu, đầm dơi", note: "Xa hơn Đảo Khỉ ~15 km. Ghép Vàm Sát + căn cứ Rừng Sác trong một ngày; mang thuốc chống muỗi.", info: { mua_dep: "Tháng 12–4 (mùa khô) (ước tính, chưa kiểm)" } },
+      { id: "bs-bien-can-gio", name: "Biển Cần Giờ (bãi 30/4)", address: "Đường Duyên Hải, Long Hòa, Cần Giờ, TP.HCM", cluster: "can-gio", lat: 10.3960, lng: 106.9600, approx: true, price: "Bãi công cộng miễn phí; khu có dịch vụ thu phí vào cổng nhỏ (ước tính, chưa kiểm)", hours: "Cả ngày", duration: "2–3 giờ", suitable: "Đi chơi cuối tuần, ăn hải sản", note: "Nước đục phù sa, không đẹp để tắm như Vũng Tàu; đến để ăn hải sản ở chợ Hàng Dương và đi dạo." },
+      { id: "bs-tong-quan-con-dao", name: "Côn Đảo (tổng quan)", address: "Đặc khu Côn Đảo, Bà Rịa – Vũng Tàu cũ nay thuộc TP.HCM", cluster: "con-dao", lat: 8.6830, lng: 106.6090, approx: true, price: "Tùy điểm; xem các mục nhà tù Côn Đảo, Hàng Dương, Đầm Trầu, VQG Côn Đảo", hours: "Cả năm", duration: "2–3 ngày", suitable: "Tưởng niệm, biển hoang sơ", note: "Ra đảo bằng máy bay từ TP.HCM (~1 giờ, có chuyến Hà Nội, Cần Thơ) hoặc tàu cao tốc từ Vũng Tàu (~4 giờ) hay Trần Đề, Sóc Trăng cũ (~2,5 giờ) (ước tính, chưa kiểm). Không đi đường bộ.", info: { mua_dep: "Tháng 3–9 (biển êm); tháng 10–2 gió mùa, tàu hay hủy chuyến" } },
+      { id: "bs-tong-quan-vung-tau", name: "TP Vũng Tàu (tổng quan)", address: "Phường Vũng Tàu, Bà Rịa – Vũng Tàu cũ nay thuộc TP.HCM", cluster: "vung-tau", lat: 10.3460, lng: 107.0840, approx: true, price: "Tùy điểm; xem Bãi Sau, Tượng Chúa Kitô Vua, Hải đăng, Bạch Dinh", hours: "Cả năm", duration: "1–2 ngày", suitable: "Đi cuối tuần từ TP.HCM, nghỉ biển gần", note: "Từ trung tâm TP.HCM đi ô tô ~2 giờ qua cao tốc Long Thành, hoặc tàu cao tốc từ bến Bạch Đằng ~2 giờ (ước tính, chưa kiểm).", info: { mua_dep: "Tháng 11–4 (mùa khô, biển êm); cuối tuần, lễ rất đông" } }
+    ]
+  },
+  "quang-tri": {
+    places: [
+      { id: "bs-son-doong", name: "Hang Sơn Đoòng (chỉ đi theo tour)", address: "Vườn quốc gia Phong Nha – Kẻ Bàng, Quảng Bình cũ nay thuộc Quảng Trị", cluster: "phong-nha", lat: 17.4567, lng: 106.2876, approx: true, price: "Chỉ đi tour thám hiểm của Oxalis, khoảng 3.000 USD/người cho tour 4 ngày 3 đêm (ước tính, chưa kiểm). Không bán vé lẻ", hours: "Tour chạy khoảng tháng 1–8; mùa mưa đóng (ước tính, chưa kiểm)", duration: "4 ngày 3 đêm", suitable: "Người khỏe, có kinh nghiệm trekking; phải qua kiểm tra thể lực", note: "Không tự đi được. Đặt chỗ trước nhiều tháng. Muốn trải nghiệm hang nhẹ hơn: hang Én, Tú Làn (1–3 ngày) hoặc động Phong Nha, Thiên Đường đi trong ngày.", info: { mua_dep: "Tháng 2–8 (mùa khô, mùa tour) (ước tính, chưa kiểm)" } }
+    ]
+  },
+  "quang-ngai": {
+    places: [
+      { id: "bs-thi-tran-mang-den", name: "Thị trấn Măng Đen", address: "Kon Plông, Kon Tum cũ nay thuộc Quảng Ngãi", cluster: "mang-den", lat: 14.6050, lng: 108.2950, approx: true, price: "Thị trấn miễn phí; các điểm như hồ Đắk Ke, thác Pa Sỹ, tượng Đức Mẹ Măng Đen phần lớn miễn phí hoặc vé nhỏ (ước tính, chưa kiểm)", hours: "Cả ngày", duration: "1–2 ngày", suitable: "Thích khí hậu mát, rừng thông, đi xe máy", note: "Cách TP Kon Tum ~55 km đường đèo. Đêm lạnh 12–18°C, mang áo khoác.", info: { mua_dep: "Tháng 11–4 (mát, ít mưa); mai anh đào nở khoảng tháng 1–3 (ước tính, chưa kiểm)" } }
+    ]
+  },
+  "da-nang": {
+    places: [
+      { id: "bs-cau-vang", name: "Cầu Vàng (Bà Nà Hills)", address: "Sun World Bà Nà Hills, Hòa Vang, Đà Nẵng", cluster: "phia-tay", lat: 15.9953, lng: 107.9963, approx: true, price: "Đi bằng vé Bà Nà (cáp treo + vào cổng) người lớn khoảng 950.000–1.000.000đ; không có vé lẻ chỉ lên Cầu Vàng", hours: "Theo giờ cáp treo Bà Nà, khoảng 7:00–17:00 (ước tính, chưa kiểm)", duration: "30–60 phút trên cầu; cả ngày nếu chơi Bà Nà", suitable: "Chụp ảnh, ngắm mây núi", note: "Lên sớm chuyến cáp đầu để tránh đông. Trời mù thì gần như không thấy cảnh, xem dự báo trước." }
+    ]
+  },
+  "an-giang": {
+    places: [
+      { id: "bs-tong-quan-phu-quoc", name: "Đảo Phú Quốc (tổng quan)", address: "Đặc khu Phú Quốc, Kiên Giang cũ nay thuộc An Giang", cluster: "phu-quoc", lat: 10.2170, lng: 103.9590, approx: true, price: "Tùy điểm; xem các mục Phú Quốc riêng (VinWonders, Safari, Bãi Sao, Hòn Thơm...)", hours: "Cả năm", duration: "3–4 ngày", suitable: "Nghỉ biển, gia đình, cặp đôi", note: "Ra đảo bằng máy bay (TP.HCM ~1 giờ, Hà Nội ~2 giờ) hoặc tàu cao tốc từ Rạch Giá (~2,5 giờ), Hà Tiên (~1,5 giờ) (ước tính, chưa kiểm). Không đi đường bộ. Trên đảo thuê xe máy hoặc gọi xe công nghệ.", info: { mua_dep: "Tháng 11–4 (mùa khô, biển êm phía tây); tháng 5–10 mưa, nên tắm biển phía đông (Bãi Sao, Bãi Khem)" } }
+    ]
+  },
+  "lam-dong": {
+    places: [
+      { id: "bs-tong-quan-mui-ne", name: "Mũi Né (tổng quan)", address: "Phường Mũi Né, Bình Thuận cũ nay thuộc Lâm Đồng", cluster: "mui-ne", lat: 10.9460, lng: 108.2870, approx: true, price: "Tùy điểm; xem Đồi cát, Suối Tiên, Làng chài, Bãi biển Mũi Né", hours: "Cả năm", duration: "2–3 ngày", suitable: "Nghỉ biển, chụp ảnh đồi cát, lướt ván diều", note: "Từ TP.HCM ô tô ~3–4 giờ qua cao tốc hoặc tàu SE đến ga Phan Thiết (~4 giờ) rồi taxi ~20 km (ước tính, chưa kiểm). Từ Đà Lạt ~3,5 giờ.", info: { mua_dep: "Tháng 11–4 (khô, gió mạnh hợp lướt ván diều); tháng 5–10 mưa rào ngắn" } }
+    ]
+  }
+};
+(function () {
+  for (var pid in BO_SUNG_THEM) {
+    var src = BO_SUNG_THEM[pid], dst = BO_SUNG[pid] || (BO_SUNG[pid] = {});
+    if (src.patch) { dst.patch = dst.patch || {}; for (var i in src.patch) dst.patch[i] = src.patch[i]; }
+    ["places", "stays", "dishes"].forEach(function (f) { if (src[f]) dst[f] = (dst[f] || []).concat(src[f]); });
+  }
+})();
 (function () {
   if (typeof PROV_DATA === "undefined") return;
   function hav(a, b, c, d) { var R = 6371, p = Math.PI / 180, x = Math.sin((c - a) * p / 2), y = Math.sin((d - b) * p / 2); return 2 * R * Math.asin(Math.sqrt(x * x + Math.cos(a * p) * Math.cos(c * p) * y * y)); }
