@@ -1,0 +1,87 @@
+[
+ {
+  "q": "mình thấy chổ này trên đoạn DT176 không biết đoạn DT176 này về TP Hà Giang đi có ổn ko ạ. Mình lần đầu đi Hà Giang thôi chưa có kinh nghiệm nhìu",
+  "intent": "cach_di",
+  "entity": "Chùa Minh Thành"
+ },
+ {
+  "q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua khúc cua chữ M về Mậu Duệ - đoạn này đường ngon hết rồi chạy tẹt.\" nếu có kèm google map thì \"Công Đức Vô Lượng\"",
+  "intent": "gia_ve",
+  "entity": "Hòn Mấu"
+ },
+ {
+  "q": "Nên đi Sapa bằng tàu hay ô tô?",
+  "intent": "cach_di",
+  "entity": "Đảo Cô Tô"
+ },
+ {
+  "q": "Đi phượt Hà Giang bằng xe máy cần chuẩn bị những gì?",
+  "intent": "cach_di",
+  "entity": "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+ },
+ {
+  "q": "Bánh canh bán ở đâu vậy bạn",
+  "intent": "o",
+  "entity": "Hòn Dầu"
+ },
+ {
+  "q": "mắm gì nhìn hấp dẫn v mn?",
+  "intent": "diem_choi",
+  "entity": "Bảo tàng Dân tộc học Việt Nam"
+ },
+ {
+  "q": "Phong Nha Ke Bang 4-6 days with kids",
+  "intent": "so_sanh",
+  "entity": "Hồ Đăk Ke"
+ },
+ {
+  "q": "Xin Tour ạ",
+  "intent": "gia_ve",
+  "entity": "Hòn Mây Rút (tour 4 đảo)"
+ },
+ {
+  "q": "300k mà đi được quá trời vậy shop",
+  "intent": "chung_chung",
+  "entity": "Đèo Mã Phục"
+ },
+ {
+  "q": "Gia,sau vay em",
+  "intent": "gia_ve",
+  "entity": "Du Già"
+ },
+ {
+  "q": "bãi đầm trầu phải k nhỉ?",
+  "intent": "so_sanh",
+  "entity": "Bãi Khem"
+ },
+ {
+  "q": "Tv e với ạ. E đi 1ng ạ",
+  "intent": "chi_phi",
+  "entity": "Núi Đá Voi Mẹ"
+ },
+ {
+  "q": "Gửi c lịch đi",
+  "intent": "mua_dep",
+  "entity": "Khu di tích lịch sử Đền Hùng"
+ },
+ {
+  "q": "Giá này trọn tour hay 1 chiều vậy a",
+  "intent": "diem_choi",
+  "entity": "Du Già"
+ },
+ {
+  "q": "Xin lịch trình 2N1Đ với",
+  "intent": "lich_trinh",
+  "entity": "Khu du lịch Cửa Biển"
+ },
+ {
+  "q": "Em muốn đặt phòng ạ",
+  "intent": "so_sanh",
+  "entity": "Hải Phòng (tổng quan)"
+ },
+ {
+  "q": "Giá này nếu đi cn thứ 2 về có được áp dụng không?",
+  "intent": "cach_di",
+  "entity": "Du Già"
+ }
+]

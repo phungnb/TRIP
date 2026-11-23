@@ -1,0 +1,1227 @@
+[
+ {
+  "q": "Các Bác ơi cho em hỏi, em dự định 14/03 có dự định du lịch 3 ngày 2 đêm. Em đang phân vân trong 3 điểm, Lô Lô Chải, Đồng Văn, Mèo Vạc. Thì em nên nghỉ 2 đêm ở đâu ạ. Đây là lần đầu em đi ra Bắc, dự định 2 vợ chồng tự thuê xe máy từ Hà Giang rồi chạy cá nhân không có đi tour.",
+  "intent": "lich_trinh",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Phiền các Bác thêm 1 lần nữa, các Bác có thể lên lộ trình phù hợp giúp em theo phương án 1 đêm ở lô lô chải 1 đêm ở đồng văn được không ạ. Đi sông nho quế thì em nên đi vào ngày thứ 2 hay là ngày thứ 3 rồi về lại hà giang luôn?",
+  "intent": "lich_trinh",
+  "entities": [
+   "Chợ phiên Bắc Hà"
+  ]
+ },
+ {
+  "q": "Dạ vậy ngày đầu em vẫn nên ở Lô Lô Chải là hợp lý à Bác",
+  "intent": "o",
+  "entities": [
+   "Hòn Đá Bạc"
+  ]
+ },
+ {
+  "q": "em sinh viên budget 5 củ 2 người có đủ chơi khôg các bác. xuất phát từ Hà Nội",
+  "intent": "cach_di",
+  "entities": [
+   "Hà Nội (tổng quan)"
+  ]
+ },
+ {
+  "q": "Ae nào đang trên HG update tình hình hoa hoét dùm coi!!",
+  "intent": "tinh_cu",
+  "entities": [
+   "Tịnh xá Ngọc Hòa"
+  ]
+ },
+ {
+  "q": "Vô tình xem youtube thấy có chổ này đẹp ghê mà em ko biết ở đâu, các Bác biết ở đâu share em với ạ",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "mình thấy chổ này trên đoạn DT176 không biết đoạn DT176 này về TP Hà Giang đi có ổn ko ạ. Mình lần đầu đi Hà Giang thôi chưa có kinh nghiệm nhìu",
+  "intent": "cach_di",
+  "entities": [
+   "Chùa Minh Thành"
+  ]
+ },
+ {
+  "q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua khúc cua chữ M về Mậu Duệ - đoạn này đường ngon hết rồi chạy tẹt.\" nếu có kèm google map thì \"Công Đức Vô Lượng\"",
+  "intent": "gia_ve",
+  "entities": [
+   "Hòn Mấu"
+  ]
+ },
+ {
+  "q": "Ban đầu em định đi về theo đường này (Nét màu đỏ)... Nhưng do em vẫn còn chấp niệm cái chổ viewpoint Lũng Hồ quá nên định view point Lũng Hồ xong em quành lại đi cung đường này về Hà Giang, thấy ngắn hơn mà ko biết đường xá thế nào nhờ bác chia sẻ thêm ạ.",
+  "intent": "so_sanh",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Đi Hà Giang như thế nào?",
+  "intent": "so_sanh",
+  "entities": [
+   "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+  ]
+ },
+ {
+  "q": "Thuê xe máy Hà Giang như nào?",
+  "intent": "mua_dep",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Đến Hà Giang mùa nào đẹp nhất?",
+  "intent": "mua_dep",
+  "entities": [
+   "Đền Đuổm"
+  ]
+ },
+ {
+  "q": "Có thể đi Hà Giang bằng cách nào?",
+  "intent": "cach_di",
+  "entities": [
+   "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+  ]
+ },
+ {
+  "q": "Nên đi xe máy hay xe ô tô để khám phá Hà Giang?",
+  "intent": "diem_choi",
+  "entities": [
+   "Phá Tam Giang"
+  ]
+ },
+ {
+  "q": "Nếu không có xe riêng, và không đi được xe máy thì sao?",
+  "intent": "cach_di",
+  "entities": [
+   "Đảo Cồn Cỏ"
+  ]
+ },
+ {
+  "q": "Cho em hỏi đường lên mộc châu chú ý gì?",
+  "intent": "diem_choi",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Đi Mộc Châu gặp sương mù nên bật đèn pha hay chỉ bật cos thôi?",
+  "intent": "diem_choi",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto",
+  "intent": "cach_di",
+  "entities": [
+   "Cát Bà"
+  ]
+ },
+ {
+  "q": "các Bác cho em hỏi đường đi từ Gia luận đến CB đi 4B có khó khăn lắm ko?",
+  "intent": "cach_di",
+  "entities": [
+   "Làng cổ Đường Lâm"
+  ]
+ },
+ {
+  "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
+  "intent": "gio_mo_cua",
+  "entities": [
+   "Đảo Tuần Châu"
+  ]
+ },
+ {
+  "q": "Du lịch Sapa mùa nào đẹp nhất? Nên đi vào tháng mấy?",
+  "intent": "mua_dep",
+  "entities": [
+   "Hang Múa (đỉnh Ngọa Long, ~500 bậc)"
+  ]
+ },
+ {
+  "q": "Nên đi Sapa tháng mấy?",
+  "intent": "mua_dep",
+  "entities": [
+   "Cù lao Mây"
+  ]
+ },
+ {
+  "q": "Nên đi Sa Pa vào tháng mấy để có trải nghiệm đáng nhớ nhất",
+  "intent": "mua_dep",
+  "entities": [
+   "Chợ đêm Sa Pa"
+  ]
+ },
+ {
+  "q": "Sapa tháng 1 có tuyết không",
+  "intent": "diem_choi",
+  "entities": [
+   "Hồ Thang Hen"
+  ]
+ },
+ {
+  "q": "Thời điểm đi Sapa là khi nào?",
+  "intent": "diem_choi",
+  "entities": [
+   "Điểm Cực Bắc"
+  ]
+ },
+ {
+  "q": "Để có 1 chuyến Sapa thì bạn cần chuẩn bị những gì?",
+  "intent": "mang_gi",
+  "entities": [
+   "Bãi tắm Cát Cò 1, 2, 3"
+  ]
+ },
+ {
+  "q": "Kinh nghiệm du lịch Sapa: Ăn gì, chơi ở đâu dành cho người mới",
+  "intent": "an",
+  "entities": [
+   "Chợ Đông Kinh"
+  ]
+ },
+ {
+  "q": "Review Du Lịch Sapa Từ A – Z: Ăn Gì, Chơi Gì, Ở Đâu Đẹp?",
+  "intent": "an",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "Chi phí du lịch Sapa hết bao nhiêu?",
+  "intent": "chi_phi",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "Cần chuẩn bị gì khi đi du lịch Sapa",
+  "intent": "mang_gi",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "Mua gì ở Sapa?",
+  "intent": "an",
+  "entities": [
+   "Đầm Ô Loan"
+  ]
+ },
+ {
+  "q": "Sapa đi đâu?",
+  "intent": "chung_chung",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
+  "intent": "cach_di",
+  "entities": [
+   "Chợ đêm Sa Pa"
+  ]
+ },
+ {
+  "q": "Nên đi Sapa bằng tàu hay ô tô?",
+  "intent": "cach_di",
+  "entities": [
+   "Đảo Cô Tô"
+  ]
+ },
+ {
+  "q": "Cách lựa chọn phương tiện phù hợp khi đi Sapa",
+  "intent": "chi_phi",
+  "entities": [
+   "Chợ Kỳ Lừa"
+  ]
+ },
+ {
+  "q": "Du lịch Hà Giang mùa thu tháng nào đẹp, đi cung nào?",
+  "intent": "mua_dep",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Phượt Hà Giang bằng xe máy mùa nào đẹp?",
+  "intent": "mua_dep",
+  "entities": [
+   "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+  ]
+ },
+ {
+  "q": "Đi phượt Hà Giang bằng xe máy cần chuẩn bị những gì?",
+  "intent": "cach_di",
+  "entities": [
+   "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+  ]
+ },
+ {
+  "q": "Nên đi Hà Giang vào thời điểm nào?",
+  "intent": "diem_choi",
+  "entities": [
+   "Thác Thí (Thác Thi, Bắc Quang – Hà Giang cũ)"
+  ]
+ },
+ {
+  "q": "Mộc Châu mùa hoa mận nở vào tháng mấy?",
+  "intent": "mua_dep",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Mộc Châu mùa nào đẹp nhất?",
+  "intent": "mua_dep",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Mùa hoa mận Mộc Châu vào tháng mấy?",
+  "intent": "mua_dep",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Đi Mộc Châu từ Hà Nội thế nào?",
+  "intent": "cach_di",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Kết hợp Mộc Châu và Tà Xùa được không?",
+  "intent": "cach_di",
+  "entities": [
+   "Happy Land Mộc Châu"
+  ]
+ },
+ {
+  "q": "Du lịch Điện Biên có gì?",
+  "intent": "diem_choi",
+  "entities": [
+   "Điện Biên (tổng quan)"
+  ]
+ },
+ {
+  "q": "Du lịch Điện Biên mùa nào đẹp?",
+  "intent": "mua_dep",
+  "entities": [
+   "Điện Biên (tổng quan)"
+  ]
+ },
+ {
+  "q": "Đến Điện Biên bằng phương tiện gì?",
+  "intent": "cach_di",
+  "entities": [
+   "Điện Biên (tổng quan)"
+  ]
+ },
+ {
+  "q": "Điện Biên Phủ nên đi mấy ngày?",
+  "intent": "lich_trinh",
+  "entities": [
+   "Điện Biên (tổng quan)"
+  ]
+ },
+ {
+  "q": "Hạ Long 2 ngày 1 đêm nên ăn gì, chơi gì, đi đâu?",
+  "intent": "lich_trinh",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Nên du lịch Hạ Long 2 ngày 1 đêm tự túc vào mùa nào?",
+  "intent": "lich_trinh",
+  "entities": [
+   "Khu du lịch Bửu Long"
+  ]
+ },
+ {
+  "q": "Đảo nào ở Quảng Ninh đẹp để tắm biển?",
+  "intent": "o",
+  "entities": [
+   "Quảng Ninh (tổng quan)"
+  ]
+ },
+ {
+  "q": "Đi tàu ra đảo có phụ thuộc thời tiết không?",
+  "intent": "cach_di",
+  "entities": [
+   "Đảo Cô Tô"
+  ]
+ },
+ {
+  "q": "Nên đi biển đảo Quảng Ninh mùa nào?",
+  "intent": "mua_dep",
+  "entities": [
+   "Quảng Ninh (tổng quan)"
+  ]
+ },
+ {
+  "q": "Giá vé cáp treo Yên Tử hiện nay là bao nhiêu tiền?",
+  "intent": "gia_ve",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Yên Tử ở đâu?",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Bạn có biết giá vé tàu cao tốc Cô Tô là bao nhiêu và đặt vé online nhanh nhất như thế nào chưa?",
+  "intent": "gia_ve",
+  "entities": [
+   "Đảo Cô Tô"
+  ]
+ },
+ {
+  "q": "Cảng quốc tế Ao Tiên nằm ở đâu? Đường đi và các tuyến tàu chạy như thế nào?",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Du lịch Bình Liêu mùa nào đẹp nhất?",
+  "intent": "mua_dep",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "Đi Bình Liêu mùa nào đẹp để ngắm nhìn lúa chín?",
+  "intent": "mua_dep",
+  "entities": [
+   "Bình Liêu (sống lưng khủng long, cỏ lau)"
+  ]
+ },
+ {
+  "q": "24 tiếng ở Hà Nội ăn gì ngon, đi đâu chơi?",
+  "intent": "an",
+  "entities": [
+   "Hà Nội (tổng quan)"
+  ]
+ },
+ {
+  "q": "Tour Ninh Bình 2N1Đ giá bao nhiêu?",
+  "intent": "gia_ve",
+  "entities": [
+   "Ninh Bình (tổng quan)"
+  ]
+ },
+ {
+  "q": "Chi phí trung bình cho một người tham quan Ninh Bình là bao nhiêu?",
+  "intent": "chi_phi",
+  "entities": [
+   "Ninh Bình (tổng quan)"
+  ]
+ },
+ {
+  "q": "Nên du lịch Ninh Bình 2 ngày 1 đêm vào mùa nào?",
+  "intent": "lich_trinh",
+  "entities": [
+   "Ninh Bình (tổng quan)"
+  ]
+ },
+ {
+  "q": "Tràng An đi tuyến nào đẹp?",
+  "intent": "mua_dep",
+  "entities": [
+   "Quần thể Tràng An (đi thuyền qua hang động)"
+  ]
+ },
+ {
+  "q": "Tháng 10 du lịch ở đâu miền Bắc?",
+  "intent": "o",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "DU LỊCH 30/4 - 1/5 NÊN ĐI ĐÂU?",
+  "intent": "chung_chung",
+  "entities": [
+   "Làng du lịch Mỹ Khánh"
+  ]
+ },
+ {
+  "q": "Ba Bể ở đâu, đi bằng gì",
+  "intent": "cach_di",
+  "entities": [
+   "Hồ Ba Bể"
+  ]
+ },
+ {
+  "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
+  "intent": "gia_ve",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Cho minh xin địa chỉ vs ạ",
+  "intent": "chi_phi",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Tuan sau còn hoa dep ntn ko mn oi",
+  "intent": "mua_dep",
+  "entities": [
+   "Cồn Sơn"
+  ]
+ },
+ {
+  "q": "Có lạnh không bạn",
+  "intent": "cach_di",
+  "entities": [
+   "Bản Cát Cát"
+  ]
+ },
+ {
+  "q": "Đà Lạt mấy nay có mưa kg ad, cập nhật cho mình tí thời tiết với.",
+  "intent": "mua_dep",
+  "entities": [
+   "Ga Đà Lạt"
+  ]
+ },
+ {
+  "q": "Địa chỉ ngắm hoa này ở đâu DL ạ.",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Tháng 10 ĐLat có mưa nhiều ko ạ ?",
+  "intent": "mua_dep",
+  "entities": [
+   "Hang Múa (đỉnh Ngọa Long, ~500 bậc)"
+  ]
+ },
+ {
+  "q": "Đi xe máy từ trung tâm ra đường dễ đi không dạ ad ơi",
+  "intent": "cach_di",
+  "entities": [
+   "Bưu điện Trung tâm Sài Gòn"
+  ]
+ },
+ {
+  "q": "Đây là ở đâu nhỉ, suối Tía hả ad",
+  "intent": "o",
+  "entities": [
+   "Suối Tranh"
+  ]
+ },
+ {
+  "q": "Nay Đà Lạt có lễ gì vậy ad",
+  "intent": "diem_choi",
+  "entities": [
+   "Ga Đà Lạt"
+  ]
+ },
+ {
+  "q": "hoi an to dalat sleeper bus",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Is next year February a good month to visit Da Lat? Shortest route to Da Lat is it from Ho Chi Minh or Hanoi or Nha Trang? Pls advise must see in Da lat? Also recomend a good English speaking tour guide.",
+  "intent": "cach_di",
+  "entities": [
+   "Ga Đà Lạt"
+  ]
+ },
+ {
+  "q": "Dalat hotels: hi we are coming over end of July & going to be in Da lat arriving late flight can anyone recomend a mid range place to stay close to most things & any info on how to get from the airport to hotels.",
+  "intent": "mang_gi",
+  "entities": [
+   "Ga Đà Lạt"
+  ]
+ },
+ {
+  "q": "Bán từ 14h tới mấy giờ dzay ad",
+  "intent": "gio_mo_cua",
+  "entities": [
+   "Bản Cát Cát"
+  ]
+ },
+ {
+  "q": "ăn hải sản ở đâu???",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Bánh canh bán ở đâu vậy bạn",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Lễ hội diều ngày nào và diễn ra ở đâu ad ơi??",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Bà bán mấy giờ vậy bạn ơi.",
+  "intent": "gio_mo_cua",
+  "entities": [
+   "Thác Bản Ba"
+  ]
+ },
+ {
+  "q": "e xin ít đc ăn ngon ở qn vs ạ,",
+  "intent": "an",
+  "entities": [
+   "Hồ Trị An"
+  ]
+ },
+ {
+  "q": "When you come to Quy Nhơn, what should you do?",
+  "intent": "gia_ve",
+  "entities": [
+   "Tháp Đôi (Quy Nhơn — Bình Định cũ)"
+  ]
+ },
+ {
+  "q": "Nhà xe đi Quy Nhơn - Bình Định từ Đà Lạt - Lâm Đồng được đánh giá tốt nhất?",
+  "intent": "cach_di",
+  "entities": [
+   "Quy Nhơn"
+  ]
+ },
+ {
+  "q": "Từ Đà Lạt - Lâm Đồng đi Quy Nhơn - Bình Định mất bao nhiêu tiếng khi di chuyển bằng xe khách?",
+  "intent": "gia_ve",
+  "entities": [
+   "Đà Lạt · Lâm Đồng (tổng quan)"
+  ]
+ },
+ {
+  "q": "Ui ! Từ HN đi thế nào để đến Măng Đen ???",
+  "intent": "so_sanh",
+  "entities": [
+   "Đền Đuổm"
+  ]
+ },
+ {
+  "q": "Where to go? What to do in Măng Đen?",
+  "intent": "mang_gi",
+  "entities": [
+   "Đền Đuổm"
+  ]
+ },
+ {
+  "q": "Chị An e xin địa chỉ những món ăn ngon ở Huế",
+  "intent": "an",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Em xik tên, địa chỉ quán với ạ?",
+  "intent": "chi_phi",
+  "entities": [
+   "Ải Chi Lăng"
+  ]
+ },
+ {
+  "q": "mắm gì nhìn hấp dẫn v mn?",
+  "intent": "diem_choi",
+  "entities": [
+   "Bảo tàng Dân tộc học Việt Nam"
+  ]
+ },
+ {
+  "q": "Help please :) Hue or Nha trang? I can't figure out if I should spend a night in Hue or should spend a night or two in Nha Trang?",
+  "intent": "mang_gi",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Getting from Hue to Hoi An by bus?",
+  "intent": "an",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "traveling alone want to get to hoi an, i know there is a bus service but how far away from the airport is this bus. Can i get a shared shuttle at the airport or do i have to book ahead.",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "First timers Da Nang or Hoi An?",
+  "intent": "an",
+  "entities": [
+   "Đà Nẵng (tổng quan)"
+  ]
+ },
+ {
+  "q": "Day trip from Hoi An",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Travel time from Da Nang to Hoi An",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "home base hoi an vs da nang?",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Hoi An beach holiday too humid in May?",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Hoi An floating lanterns",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Best way to tour Son Tra/Monkey Mountain from Hoi An?",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Bus to Danang from Hoi An",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Where to stay in Hoi An?",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "How easy it is to move around in Hoi An especially at night?",
+  "intent": "an",
+  "entities": [
+   "Phố cổ Hội An"
+  ]
+ },
+ {
+  "q": "Phong Nha Ke Bang 4-6 days with kids",
+  "intent": "cach_di",
+  "entities": [
+   "Hồ Đăk Ke"
+  ]
+ },
+ {
+  "q": "Biển nào đây ạ?",
+  "intent": "mua_dep",
+  "entities": [
+   "Biển Lộc Hà"
+  ]
+ },
+ {
+  "q": "Xin Tour ạ",
+  "intent": "gia_ve",
+  "entities": [
+   "Hòn Mây Rút (tour 4 đảo)"
+  ]
+ },
+ {
+  "q": "Ko biết lội ngắm san ho được ko ạ",
+  "intent": "cach_di",
+  "entities": [
+   "Hồ Lắk"
+  ]
+ },
+ {
+  "q": "đi tháng mấy",
+  "intent": "mua_dep",
+  "entities": [
+   "Cù lao Mây"
+  ]
+ },
+ {
+  "q": "4N3Đ ở khách sạn nào em oi",
+  "intent": "o",
+  "entities": [
+   "Đầm Ô Loan"
+  ]
+ },
+ {
+  "q": "Cho xem chi tiết combo và lịch trình ngày giờ đi",
+  "intent": "lich_trinh",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Hiện tại Sun Phú Quốc Airway đã có các chuyến bay nội địa trên toàn quốc chưa hay chỉ mới có vài chặng bay nhất định thôi ad?",
+  "intent": "diem_choi",
+  "entities": [
+   "Đình – Chùa Hiến"
+  ]
+ },
+ {
+  "q": "Xin thông tin tour xuyên việt",
+  "intent": "gia_ve",
+  "entities": [
+   "Hồ Bản Viết"
+  ]
+ },
+ {
+  "q": "Xin lịch trình tour đà lạt và tour cà mau",
+  "intent": "lich_trinh",
+  "entities": [
+   "Ga Đà Lạt"
+  ]
+ },
+ {
+  "q": "300k mà đi được quá trời vậy shop",
+  "intent": "cach_di",
+  "entities": [
+   "Đèo Mã Phục"
+  ]
+ },
+ {
+  "q": "Nên chọn giường nằm với nên đi toilet trước khi lên tàu 🙂 chứ lên tàu đi toilet sóng sánh dữ lúm đúng hông chị",
+  "intent": "cach_di",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Mình muốn tour này 3 pax",
+  "intent": "tinh_cu",
+  "entities": [
+   "Chùa Minh Thành"
+  ]
+ },
+ {
+  "q": "Xin giá tour",
+  "intent": "gia_ve",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Tư vấn gói đi 4N3Đ nhé ạ",
+  "intent": "cach_di",
+  "entities": [
+   "Văn Thánh Miếu"
+  ]
+ },
+ {
+  "q": "Nhắn mình gói đi 4N3Đ",
+  "intent": "chung_chung",
+  "entities": [
+   "Chùa Minh Thành"
+  ]
+ },
+ {
+  "q": "Mở tuyến nào vậy c? Bắt đầu đi từ đâu?",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Gia,sau vay em",
+  "intent": "gia_ve",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Mai tàu Superdong có chạy không cả nhà",
+  "intent": "cach_di",
+  "entities": [
+   "Nhà cổ Cai Cường"
+  ]
+ },
+ {
+  "q": "Nhìn mấy chiếc xe ngựa phục chế sao mà xấu hơn xe ngựa hồi xưa? Mẫu xe ngựa xưa nhìn đẹp mà!",
+  "intent": "mua_dep",
+  "entities": [
+   "Hòn Mấu"
+  ]
+ },
+ {
+  "q": "Tour miền Tây 2 ngày 1 đêm có Cồn Thới Sơn, khởi hành từ Sài Gòn ngày 14/9",
+  "intent": "lich_trinh",
+  "entities": [
+   "Cồn Thới Sơn"
+  ]
+ },
+ {
+  "q": "cho mh hỏi côn đảo nằm ở đâu vậy",
+  "intent": "o",
+  "entities": [
+   "Đảo Cồn Cỏ"
+  ]
+ },
+ {
+  "q": "Cho mình hỏi thuê xe ở đâu ạ",
+  "intent": "o",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Cho biet ben tau Cao toc Tphcm di con Dao-tpHcm?",
+  "intent": "cach_di",
+  "entities": [
+   "Côn Đảo"
+  ]
+ },
+ {
+  "q": "Rùa đẻ trứng vào tháng mấy ạ.",
+  "intent": "mua_dep",
+  "entities": [
+   "Cù lao Mây"
+  ]
+ },
+ {
+  "q": "Giá vé bao nhiêu",
+  "intent": "gia_ve",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Bạn ơi núi Con Voi chỗ nào vậy ạ. Mình tra ggmap nó k có hiện",
+  "intent": "diem_choi",
+  "entities": [
+   "Núi Voi (An Lão)"
+  ]
+ },
+ {
+  "q": "Có tua đi dịp cuối tuần không ạ",
+  "intent": "chung_chung",
+  "entities": [
+   "Đảo Tuần Châu"
+  ]
+ },
+ {
+  "q": "Có mưa không em?",
+  "intent": "mua_dep",
+  "entities": [
+   "Đảo Cô Tô"
+  ]
+ },
+ {
+  "q": "bãi đầm trầu phải k nhỉ?",
+  "intent": "gia_ve",
+  "entities": [
+   "Bãi Khem"
+  ]
+ },
+ {
+  "q": "mún đi Côn Đảo mà sợ say sóng còn đi máy bay thì ko có tiền :))))",
+  "intent": "cach_di",
+  "entities": [
+   "Côn Đảo"
+  ]
+ },
+ {
+  "q": "Pic này ở chỗ nào ạ",
+  "intent": "o",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Tv e với ạ. E đi 1ng ạ",
+  "intent": "chi_phi",
+  "entities": [
+   "Núi Đá Voi Mẹ"
+  ]
+ },
+ {
+  "q": "Bay máy bay gì nói cho rõ nhé ATR72 hay Bombadier hay hãng gì",
+  "intent": "diem_choi",
+  "entities": [
+   "Chợ Hàng Dương"
+  ]
+ },
+ {
+  "q": "còn vé không bạn",
+  "intent": "gia_ve",
+  "entities": [
+   "Cồn Sơn"
+  ]
+ },
+ {
+  "q": "Mình xin thông tin combo nhé shop",
+  "intent": "gia_ve",
+  "entities": [
+   "Chùa Minh Thành"
+  ]
+ },
+ {
+  "q": "Đi 8 người tháng 12 check chị ngày và giờ bay",
+  "intent": "chi_phi",
+  "entities": [
+   "Ải Chi Lăng"
+  ]
+ },
+ {
+  "q": "Gửi c lịch đi",
+  "intent": "mua_dep",
+  "entities": [
+   "Khu di tích lịch sử Đền Hùng"
+  ]
+ },
+ {
+  "q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
+  "intent": "gia_ve",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Pháp hiệu của bà là gì?",
+  "intent": "an",
+  "entities": [
+   "Hồ Ba Bể"
+  ]
+ },
+ {
+  "q": "cả ngày luôn hay sao ạ",
+  "intent": "lich_trinh",
+  "entities": [
+   "Chợ Cà Mau"
+  ]
+ },
+ {
+  "q": "Giá này trọn tour hay 1 chiều vậy a",
+  "intent": "diem_choi",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Có Tour HÀNH HƯƠNG CHA DIỆP lun ạ",
+  "intent": "diem_choi",
+  "entities": [
+   "Nhà thờ Tắc Sậy (nhà thờ Cha Diệp)"
+  ]
+ },
+ {
+  "q": "Ở cầu cần thơ có rước được kg",
+  "intent": "an",
+  "entities": [
+   "Cần Thơ (tổng quan)"
+  ]
+ },
+ {
+  "q": "Em đi chùa ở đâu vậy",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Nên đi Phú Quốc tháng nào rẻ nhất?",
+  "intent": "mua_dep",
+  "entities": [
+   "Vinpearl Safari Phú Quốc"
+  ]
+ },
+ {
+  "q": "Chi phí trung bình cho chuyến Phú Quốc 3N2Đ là bao nhiêu?",
+  "intent": "chi_phi",
+  "entities": [
+   "Vinpearl Safari Phú Quốc"
+  ]
+ },
+ {
+  "q": "Từ TP.HCM đi núi Sam bằng cách nào?",
+  "intent": "cach_di",
+  "entities": [
+   "TP.HCM (tổng quan)"
+  ]
+ },
+ {
+  "q": "Lễ hội Vía Bà Chúa Xứ diễn ra khi nào?",
+  "intent": "mua_dep",
+  "entities": [
+   "Miếu Bà Chúa Xứ Núi Sam"
+  ]
+ },
+ {
+  "q": "Đi Vũng Tàu 2 ngày 1 đêm bao nhiêu tiền?",
+  "intent": "chi_phi",
+  "entities": [
+   "Sun World Vũng Tàu (Aqua Adventure)"
+  ]
+ },
+ {
+  "q": "có ai vừa coi mà vừa cảm giác cái đầu nó lâng lâng theo như tui ko",
+  "intent": "o",
+  "entities": [
+   "Ải Chi Lăng"
+  ]
+ },
+ {
+  "q": "Cho tiền cũng ko dám đi lại đây hả N",
+  "intent": "cach_di",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "490k + thuế+ phí đủ loại ai tưởng tượng được tổ là bao nhiêu",
+  "intent": "gia_ve",
+  "entities": [
+   "Huế (tổng quan)"
+  ]
+ },
+ {
+  "q": "Có quà Côn Đảo không em?",
+  "intent": "cach_di",
+  "entities": [
+   "Côn Đảo"
+  ]
+ },
+ {
+  "q": "côn đảo có kèo nhậu ko kkk",
+  "intent": "diem_choi",
+  "entities": [
+   "Đảo Cô Tô"
+  ]
+ },
+ {
+  "q": "Xin lịch trình 2N1Đ với",
+  "intent": "lich_trinh",
+  "entities": [
+   "Khu du lịch Cửa Biển"
+  ]
+ },
+ {
+  "q": "Giá như thế nào",
+  "intent": "so_sanh",
+  "entities": [
+   "Du Già"
+  ]
+ },
+ {
+  "q": "Cho xem CT tuor nha",
+  "intent": "o",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Mổi tuần đi ngày nào",
+  "intent": "chung_chung",
+  "entities": [
+   "Đảo Tuần Châu"
+  ]
+ },
+ {
+  "q": "Vi ở khách sạn nào ạ?",
+  "intent": "o",
+  "entities": [
+   "Đầm Ô Loan"
+  ]
+ },
+ {
+  "q": "Có áp dụng cho 30/4 không?",
+  "intent": "cach_di",
+  "entities": [
+   "Chợ Đầm"
+  ]
+ },
+ {
+  "q": "Em muốn đặt phòng ạ",
+  "intent": "gia_ve",
+  "entities": [
+   "Hải Phòng (tổng quan)"
+  ]
+ },
+ {
+  "q": "Tôi đặt chỗ đã có mã vé điện tử, tra cứu trên web hãng k tìm thấy",
+  "intent": "gia_ve",
+  "entities": [
+   "Chùa Hang — Phước Điền Tự"
+  ]
+ },
+ {
+  "q": "Có áp dụng lễ tết ko?",
+  "intent": "diem_choi",
+  "entities": [
+   "Nhà cổ Huỳnh Thủy Lê"
+  ]
+ },
+ {
+  "q": "Vũng Tàu cuối tuần đông quá em ha",
+  "intent": "chung_chung",
+  "entities": [
+   "Chợ Đông Hà"
+  ]
+ },
+ {
+  "q": "Ở đâu mà cảnh đẹp quá vậy em",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "ai biết giá đợt đầu sao ko mng",
+  "intent": "o",
+  "entities": [
+   "Hòn Dầu"
+  ]
+ },
+ {
+  "q": "Giá này nếu đi cn thứ 2 về có được áp dụng không?",
+  "intent": "cach_di",
+  "entities": [
+   "Du Già"
+  ]
+ }
+]

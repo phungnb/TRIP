@@ -1,0 +1,2004 @@
+[
+ {
+  "tinh": "Hà Nội",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN",
+     "time": "Bay ~2 giờ; nhiều chuyến/ngày",
+     "price": "Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Traveloka, nguồn cũ); vé khuyến mãi chưa thuế phí có thể thấp hơn nhiều — giá tùy thời điểm đặt",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Pacific Airlines, Vietravel Airlines"
+    },
+    {
+     "mode": "Tàu hỏa SG–HN (SE1/SE3...)",
+     "time": "~32–35 giờ",
+     "price": "Ghế mềm ~900.000–1.300.000đ; giường nằm khoang 6 ~1.300.000–1.900.000đ; khoang 4 ~1.900.000–2.400.000đ (khoảng theo tuyến dài, chưa kiểm được mức 2026 chính xác)",
+     "note": "Chỉ hợp người dư thời gian, thích ngắm cảnh dọc đường"
+    },
+    {
+     "mode": "Xe khách SG–HN",
+     "time": "~30–40 giờ (chưa kiểm được con số thống nhất)",
+     "price": "~700.000–1.200.000đ/vé (chưa kiểm được mức hiện hành)",
+     "note": "Không khuyến nghị — quá dài; đa số nguồn khuyên bay"
+    }
+   ],
+   "hn": [],
+   "airport": [
+    {
+     "mode": "Taxi / Grab từ Nội Bài về trung tâm",
+     "time": "",
+     "price": "~250.000–400.000đ/chuyến (tùy hãng, giờ cao điểm/lễ; Grab thường rẻ hơn taxi đồng hồ)",
+     "note": "~28–35 km, 45–60 phút; hỏi giá trọn gói trước khi lên xe"
+    },
+    {
+     "mode": "Xe buýt sân bay (86, 07, 17...)",
+     "time": "",
+     "price": "~30.000–50.000đ/lượt (xe 86 về trung tâm ~35.000đ; các tuyến khác 7.000–9.000đ nhưng dừng nhiều)",
+     "note": "Xe 86: Nội Bài – ga Hà Nội, ~60–75 phút"
+    },
+    {
+     "mode": "Xe đưa đón khách sạn",
+     "time": "",
+     "price": "Không có mức chung — hỏi lễ tân khi đặt phòng; thường ~300.000–500.000đ/chiều/xe 4 chỗ (khoảng tham khảo)",
+     "note": ""
+    }
+   ],
+   "near": [],
+   "note": "Sân bay quốc tế Nội Bài (HAN) cách trung tâm ~28–35 km, ~45–60 phút đi xe tùy giao thông."
+  }
+ },
+ {
+  "tinh": "Hải Phòng",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HPH",
+     "time": "Bay ~2 giờ",
+     "price": "Khứ hồi từ ~2.000.000đ (theo VnExpress); một chiều tùy thời điểm, thường ~1.000.000–2.500.000đ (chưa kiểm được khoảng chính xác)",
+     "note": "Hãng: Vietjet Air, Vietnam Airlines (bay hằng ngày)"
+    },
+    {
+     "mode": "Tàu hỏa SG–HP (qua Hà Nội)",
+     "time": "~35 giờ trở lên (không có tàu thẳng, phải đổi tàu ở Hà Nội)",
+     "price": "Chưa kiểm được mức tổng",
+     "note": "Không khuyến nghị — bay là phương án chính"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Tàu hỏa HN–HP",
+     "time": "~2–2,5 giờ",
+     "price": "Ghế ngồi 120.000–300.000đ tùy hạng (ghế cứng/mềm điều hòa/toa đặc biệt)",
+     "note": "Ga Hà Nội – ga Hải Phòng; tàu chạy nhiều chuyến/ngày; hợp food tour"
+    },
+    {
+     "mode": "Xe limousine HN–HP",
+     "time": "~1,5–2 giờ (cao tốc HN–HP)",
+     "price": "Từ ~230.000đ/người; xe 9–11 chỗ, đưa đón tại nhà",
+     "note": "Hãng: Hoàng Long, Hải Âu, Hoàng Phương, Hải Phòng Travel, Cát Bà Limousine"
+    },
+    {
+     "mode": "Xe khách HN–HP",
+     "time": "~2 giờ",
+     "price": "Từ ~180.000đ/người",
+     "note": "Bến Gia Lâm/Nước Ngầm – bến xe Hải Phòng"
+    },
+    {
+     "mode": "Ô tô riêng (cao tốc HN–HP)",
+     "time": "~1,5 giờ (~105 km)",
+     "price": "Phí cao tốc ~200.000–250.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": ""
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi từ sân bay Cát Bi về trung tâm",
+     "time": "",
+     "price": "~150.000–250.000đ/chuyến (12 km; chưa kiểm được mức chính xác)",
+     "note": "~20–30 phút"
+    },
+    {
+     "mode": "Xe buýt sân bay / buýt nội thành",
+     "time": "",
+     "price": "~10.000–30.000đ/lượt (chưa kiểm được mức chính xác)",
+     "note": ""
+    }
+   ],
+   "near": [
+    {
+     "mode": "Từ Hạ Long (Quảng Ninh) sang Cát Bà",
+     "time": "Tàu/phà Tuần Châu – Gia Luận ~30–45 phút; xe Hạ Long – bến phà ~1 giờ",
+     "price": "Phà ~60.000–80.000đ/người (theo mia.vn); tàu cao tốc riêng theo tour",
+     "note": "Tuyến Hạ Long – Cát Bà qua vịnh, hợp ghép 2 điểm"
+    }
+   ],
+   "note": "Sân bay quốc tế Cát Bi (HPH) cách trung tâm TP Hải Phòng ~12 km, ~20–30 phút đi xe."
+  }
+ },
+ {
+  "tinh": "Quảng Ninh",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe HN–Hạ Long",
+     "time": "Bay ~2 giờ + xe ~2–2,5 giờ (cao tốc HN–HP–Hạ Long ~155 km)",
+     "price": "Vé bay một chiều ~1.500.000–2.500.000đ + xe limousine HN–Hạ Long ~200.000–350.000đ",
+     "note": "Phương án phổ biến nhất; xe limousine đón tại Nội Bài/sân bay"
+    },
+    {
+     "mode": "Máy bay SGN–VDO (Vân Đồn)",
+     "time": "Bay ~2 giờ + xe Vân Đồn–Hạ Long ~1 giờ",
+     "price": "Vé một chiều tùy thời điểm (ít chuyến, giá thường cao hơn bay HN — chưa kiểm được khoảng)",
+     "note": "Ít chuyến, kiểm lịch bay trước; hợp đi Quan Lạn/Cô Tô"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe limousine HN–Hạ Long",
+     "time": "~2–2,5 giờ (cao tốc ~155 km)",
+     "price": "~200.000–350.000đ/vé",
+     "note": "Nhiều hãng, đón tận nơi Hà Nội; chuyến dày từ sáng sớm tới tối"
+    },
+    {
+     "mode": "Xe khách HN–Hạ Long",
+     "time": "~2,5–3,5 giờ",
+     "price": "~120.000–200.000đ/vé (chưa kiểm được mức hiện hành)",
+     "note": "Bến Mỹ Đình/Gia Lâm – bến xe Hạ Long"
+    },
+    {
+     "mode": "Ô tô riêng (cao tốc HN–Hạ Long)",
+     "time": "~2 giờ",
+     "price": "Phí cao tốc ~250.000–350.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": ""
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi/xe riêng Vân Đồn – Hạ Long",
+     "time": "",
+     "price": "~500.000–800.000đ/chuyến (50 km; chưa kiểm được mức chính xác)",
+     "note": "~1 giờ; nên đặt xe trước vì sân bay vắng"
+    },
+    {
+     "mode": "Xe buýt Vân Đồn – Hạ Long",
+     "time": "",
+     "price": "~50.000–100.000đ/lượt (chưa kiểm được mức chính xác)",
+     "note": "Chạy theo giờ bay"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay quốc tế Vân Đồn (VDO) cách Hạ Long ~50 km, ~1 giờ đi xe; ít chuyến hơn Nội Bài. Đa số khách từ TP.HCM bay ra Hà Nội rồi đi xe xuống Hạ Long."
+  }
+ },
+ {
+  "tinh": "Bắc Ninh",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe HN–Bắc Ninh",
+     "time": "Bay ~2 giờ + xe ~1–1,5 giờ (HN–BN ~30 km)",
+     "price": "Vé bay một chiều ~1.500.000–2.500.000đ + xe limousine/taxi ~150.000–300.000đ",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Tàu hỏa SG–Bắc Ninh (tuyến Bắc–Nam)",
+     "time": "~30 giờ (ga Bắc Ninh trên tuyến HN–Lạng Sơn/HN–Đồng Đăng)",
+     "price": "Chưa kiểm được mức tổng",
+     "note": "Không khuyến nghị"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe limousine/xe khách HN–Bắc Ninh",
+     "time": "~45–60 phút (~30 km, QL1A/cao tốc HN–BG)",
+     "price": "~60.000–120.000đ/vé (xe khách); limousine ~100.000–150.000đ/vé (chưa kiểm được mức hiện hành chính xác)",
+     "note": "Bến Gia Lâm/Long Biên – bến xe Bắc Ninh; nhiều chuyến/ngày"
+    },
+    {
+     "mode": "Tàu hỏa HN–Bắc Ninh",
+     "time": "~1–1,5 giờ",
+     "price": "~30.000–80.000đ/vé tùy hạng (chưa kiểm được mức hiện hành)",
+     "note": "Ga Hà Nội/Long Biên/Gia Lâm – ga Bắc Ninh; tàu đi Lạng Sơn/Đồng Đăng/Hải Phòng đều dừng"
+    },
+    {
+     "mode": "Xe buýt HN–Bắc Ninh (tuyến 10A, 54...)",
+     "time": "~1–1,5 giờ",
+     "price": "~10.000–20.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": "Rẻ nhất, hợp đi 1 ngày"
+    },
+    {
+     "mode": "Ô tô riêng (cao tốc HN–Bắc Ninh)",
+     "time": "~45 phút",
+     "price": "Phí cao tốc ~50.000–100.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": ""
+    }
+   ],
+   "airport": [],
+   "near": [
+    {
+     "mode": "Từ Hải Dương cũ / Hưng Yên sang Bắc Ninh",
+     "time": "~1–1,5 giờ (QL5/QL38)",
+     "price": "Xe khách ~50.000–100.000đ/vé (chưa kiểm được)",
+     "note": "Hợp ghép tour Kinh Bắc: Bắc Ninh – Hưng Yên (Phố Hiến)"
+    }
+   ],
+   "note": "Bắc Ninh không có sân bay. Bay tới Nội Bài rồi đi xe ~45–60 phút (~40 km), hoặc đi tàu tới ga Bắc Ninh."
+  }
+ },
+ {
+  "tinh": "Hưng Yên",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe HN–Hưng Yên",
+     "time": "Bay ~2 giờ + xe ~1–1,5 giờ (HN–HY ~60 km)",
+     "price": "Vé bay một chiều ~1.500.000–2.500.000đ + xe khách/limousine ~50.000–150.000đ",
+     "note": "Phương án khuyên dùng"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách HN–Hưng Yên",
+     "time": "~1,5 giờ (~60–64 km)",
+     "price": "~50.000đ/người (theo dulich9.com)",
+     "note": "Bến Lương Yên/Gia Lâm – bến xe Hưng Yên; nhiều chuyến/ngày"
+    },
+    {
+     "mode": "Xe limousine HN–Hưng Yên",
+     "time": "~1–1,5 giờ",
+     "price": "~100.000–150.000đ/vé (chưa kiểm được mức hiện hành)",
+     "note": "Đón tận nơi Hà Nội"
+    },
+    {
+     "mode": "Ô tô riêng (cao tốc HN–HP, rẽ QL39)",
+     "time": "~1 giờ",
+     "price": "Phí cao tốc ~50.000–100.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": ""
+    },
+    {
+     "mode": "Xe buýt HN–Hưng Yên",
+     "time": "~1,5–2 giờ",
+     "price": "~20.000–40.000đ/lượt (chưa kiểm được mức hiện hành)",
+     "note": "Tuyến buýt liên tỉnh, dừng nhiều"
+    }
+   ],
+   "airport": [],
+   "near": [
+    {
+     "mode": "Từ Bắc Ninh sang Hưng Yên (ghép Kinh Bắc)",
+     "time": "~1–1,5 giờ (QL38)",
+     "price": "Xe khách ~50.000–100.000đ/vé (chưa kiểm được)",
+     "note": "Hợp ghép tour Bắc Ninh – Phố Hiến"
+    },
+    {
+     "mode": "Từ Hải Phòng sang Hưng Yên",
+     "time": "~1,5–2 giờ (QL5/QL39)",
+     "price": "Xe khách ~60.000–120.000đ/vé (chưa kiểm được)",
+     "note": ""
+    }
+   ],
+   "note": "Hưng Yên không có sân bay. Bay tới Nội Bài rồi đi xe ~1,5–2 giờ (~60–70 km), hoặc đi thẳng từ Hà Nội (~60 km)."
+  }
+ },
+ {
+  "tinh": "Ninh Bình",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + limousine HN–Ninh Bình",
+     "time": "Bay ~2 giờ + xe ~1,5–2 giờ",
+     "price": "Vé bay một chiều ~1.500.000–2.500.000đ + limousine ~150.000–350.000đ",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Tàu hỏa SG–Ninh Bình (tuyến Bắc–Nam)",
+     "time": "~30 giờ",
+     "price": "Ghế mềm ~1.000.000–1.300.000đ; giường nằm ~1.300.000–2.400.000đ (khoảng theo tuyến dài, chưa kiểm được mức 2026 chính xác)",
+     "note": "Ga Ninh Bình nằm trên tuyến Thống Nhất; chỉ hợp người dư thời gian"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe limousine HN–Ninh Bình",
+     "time": "~1,5–2 giờ (92 km, cao tốc AH1)",
+     "price": "150.000–350.000đ/vé (Bình Minh 150.000đ; Tràng An 175.000đ; Duy Khang VIP 170.000–250.000đ; Discovery 250.000đ)",
+     "note": "Hãng: Bình Minh, Tràng An Limousine, Duy Khang, Ninh Bình Car Limo; đón tận nơi Hà Nội, trả Tam Cốc/Tràng An; chuyến đầu ~04:50, cuối ~21:00"
+    },
+    {
+     "mode": "Tàu hỏa HN–Ninh Bình",
+     "time": "~2 giờ 10–2 giờ 30",
+     "price": "Ghế mềm điều hòa 110.000–150.000đ; giường nằm 160.000–280.000đ",
+     "note": "Ga Hà Nội (120 Lê Duẩn) – ga Ninh Bình; ~6 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách HN–Ninh Bình",
+     "time": "~2–2,5 giờ",
+     "price": "120.000–180.000đ/vé (xe buýt công cộng); limousine cao hơn (xem trên)",
+     "note": "Bến Giáp Bát/Nước Ngầm – bến xe Ninh Bình; hãng Sao Việt, Xe Cầu Vàng, Quế Anh, Hùng Thanh"
+    },
+    {
+     "mode": "Grab/ô tô riêng HN–Ninh Bình",
+     "time": "~1,5–2 giờ",
+     "price": "~700.000–1.100.000đ/xe (Grab cả xe)",
+     "note": "Hợp nhóm 3–4 người"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Xe limousine đón tại Nội Bài đi Ninh Bình",
+     "time": "",
+     "price": "~200.000–350.000đ/vé (đón tại sân bay, theo hãng limousine HN–NB)",
+     "note": "Đặt trước; nhiều hãng đón tại Nội Bài"
+    }
+   ],
+   "near": [],
+   "note": "Ninh Bình không có sân bay. Bay tới Nội Bài (Hà Nội) rồi đi xe/tàu xuống Ninh Bình (~95 km)."
+  }
+ },
+ {
+  "tinh": "Lai Châu",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe khách Hà Nội–Lai Châu",
+     "time": "Bay ~2h05 + xe 6,5–8 giờ",
+     "price": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều đã gồm thuế phí (chưa kiểm được mức hiện hành, tùy thời điểm đặt); xe HN–Lai Châu 250.000–450.000đ/chiều",
+     "note": "Phương án thực tế nhất hiện nay. Lai Châu không có sân bay; sân bay gần nhất là Điện Biên (DIN), đi đường bộ QL12 ~4–5 giờ (chưa kiểm được con số chính xác)"
+    },
+    {
+     "mode": "Máy bay SGN–Điện Biên + xe Điện Biên–Lai Châu",
+     "time": "Bay thẳng ~2h10 + xe đường bộ ~4–5 giờ",
+     "price": "Bay SGN–Điện Biên 1.290.000–2.990.000đ/chiều (chưa gồm thuế phí, Vietnam Airlines, khai thác từ 24/12/2025, 3–7 chuyến/tuần); xe Điện Biên–Lai Châu chưa kiểm được giá",
+     "note": "Chỉ hợp khi lịch bay thẳng khớp ngày đi; kiểm tra lại lịch bay trước khi chốt"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách / giường nằm Hà Nội–Lai Châu",
+     "time": "6,5–8 giờ, ~400–489 km",
+     "price": "250.000–450.000đ/chiều (giường nằm 250.000–350.000đ; limousine cabin VIP tới 450.000đ)",
+     "note": "Hãng: Phúc An, Thế Anh, Ngân Hà, Khánh Thủy, Phong Khánh. Đón tại Bến xe Mỹ Đình; chuyến đầu ~06:30, chuyến cuối ~23:00"
+    },
+    {
+     "mode": "Xe limousine Hà Nội–Lai Châu",
+     "time": "6,5–8 giờ",
+     "price": "350.000–450.000đ/chiều",
+     "note": "Hãng: Thế Anh (cabin VIP 450.000đ), Ngân Hà, Phong Khánh"
+    },
+    {
+     "mode": "Máy bay HAN–Điện Biên + xe Điện Biên–Lai Châu",
+     "time": "Bay ~55 phút–1h05 + xe ~4–5 giờ",
+     "price": "Bay 900.000–2.700.000đ/chiều đã gồm thuế phí; xe Điện Biên–Lai Châu chưa kiểm được giá",
+     "note": "Chỉ hợp khi muốn rút ngắn chặng Hà Nội–Điện Biên bằng bay"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Lai Châu không có sân bay. Sân bay gần nhất: Điện Biên (DIN, cách TP Lai Châu khoảng 180–200 km đường bộ QL12, chưa kiểm được con số chính xác) và Nội Bài (HAN). Từ bến xe Lai Châu (phường Tân Phong) vào trung tâm đi taxi/xe ôm, chưa kiểm được giá riêng."
+  }
+ },
+ {
+  "tinh": "Điện Biên",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–Điện Biên (thẳng, Vietnam Airlines)",
+     "time": "Bay ~2h10",
+     "price": "1.290.000–2.990.000đ/chiều (chưa gồm thuế phí; khai thác từ 24/12/2025, 3–7 chuyến/tuần)",
+     "note": "Đường bay thẳng mới; kiểm tra lại lịch bay trước ngày đi vì tần suất theo nhu cầu"
+    },
+    {
+     "mode": "Máy bay SGN–HAN + HAN–Điện Biên (nối chuyến)",
+     "time": "Bay SGN–HAN ~2h10 + HAN–DIN ~1h05 (+ thời gian nối chuyến)",
+     "price": "SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); HAN–DIN 900.000–2.700.000đ/chiều đã gồm thuế phí",
+     "note": "Vietnam Airlines khai thác nối chuyến ~1 chuyến/ngày; chuyến sớm nhất SGN 06:15, tới Điện Biên ~14:05"
+    },
+    {
+     "mode": "Máy bay SGN–HAN + xe khách Hà Nội–Điện Biên",
+     "time": "Bay ~2h10 + xe 10–12 giờ",
+     "price": "Bay như trên + xe 270.000–680.000đ/chiều",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay thẳng/nối chuyến"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–Điện Biên",
+     "time": "Bay ~55 phút–1h05",
+     "price": "900.000–2.700.000đ/chiều đã gồm thuế phí (Economy Light từ ~900.000đ; Classic ~1.300.000đ)",
+     "note": "Vietnam Airlines (Vietjet cũng được ghi khai thác theo 1 nguồn — chưa kiểm được chắc chắn). Tần suất ~1–2 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách / giường nằm Hà Nội–Điện Biên",
+     "time": "10–12 giờ, ~470–490 km",
+     "price": "270.000–680.000đ/chiều (giường nằm phổ thông 270.000–450.000đ; limousine cabin/phòng đơn 500.000–680.000đ)",
+     "note": "Hãng: Ngân Hà, Hải Vân Express, Quang Tuấn, Đức Quyến, Năm Liên. Đón Mỹ Đình/Yên Nghĩa/Giáp Bát; đa số chạy tối 18:30–21:00"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay Điện Biên (DIN) – trung tâm",
+     "time": "~20 phút, ~4 km",
+     "price": "70.000–80.000đ/chuyến",
+     "note": "Bắt tại cổng sân bay hoặc xe khách sạn; hỏi giá trước"
+    },
+    {
+     "mode": "Xe ôm sân bay – trung tâm",
+     "time": "~20 phút, ~4 km",
+     "price": "50.000đ/chuyến",
+     "note": "Bắt tại cổng sân bay"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Điện Biên Phủ (DIN), phường Thanh Trường, cách trung tâm TP ~4 km."
+  }
+ },
+ {
+  "tinh": "Sơn La",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe khách Hà Nội–Mộc Châu",
+     "time": "Bay ~2h05 + xe 4–5 giờ (~180 km)",
+     "price": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Mộc Châu ~250.000–300.000đ/chiều",
+     "note": "Phương án thực tế nhất. Mộc Châu không có sân bay; sân bay gần nhất là Nội Bài"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách Hà Nội–Mộc Châu",
+     "time": "4–5 giờ, ~180 km (QL6)",
+     "price": "~250.000–300.000đ/chiều (khứ hồi 500.000–600.000đ/người theo 1 nguồn)",
+     "note": "Xe chạy từ Bến xe Mỹ Đình; chưa kiểm được tên hãng cụ thể và giờ chạy chi tiết — hỏi bến xe trước ngày đi"
+    },
+    {
+     "mode": "Limousine Hà Nội–Mộc Châu",
+     "time": "4–5 giờ",
+     "price": "Chưa kiểm được mức riêng (mặt bằng chung tuyến HN–Tây Bắc 300.000–400.000đ/chiều — chưa kiểm)",
+     "note": "Chưa kiểm được tên hãng cụ thể"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Mộc Châu (QL6)",
+     "time": "Ô tô 4–5 giờ; xe máy 5–6 giờ",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "QL6 qua Hòa Bình, đèo Thung Khe; tránh chạy đèo ban đêm/ngày mưa"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Mộc Châu không có sân bay. Sân bay gần nhất: Nội Bài (HAN), cách Mộc Châu ~180 km (đi xe khách 4–5 giờ). Không có ga tàu tới Mộc Châu."
+  }
+ },
+ {
+  "tinh": "Lào Cai",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe khách Hà Nội–Sa Pa",
+     "time": "Bay ~2h05 + xe 5–6 giờ (~315 km)",
+     "price": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Sa Pa 240.000–400.000đ/chiều",
+     "note": "Phương án thực tế nhất"
+    },
+    {
+     "mode": "Máy bay SGN–HAN + tàu Hà Nội–Lào Cai + xe Lào Cai–Sa Pa",
+     "time": "Bay ~2h05 + tàu ~8 giờ + xe ~1 giờ (~35 km)",
+     "price": "Bay như trên + vé tàu chưa kiểm được mức hiện hành + xe Lào Cai–Sa Pa chưa kiểm được giá",
+     "note": "Chỉ hợp người thích đi tàu đêm ngắm cảnh; tàu SP1/SP3 chạy đêm"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách / giường nằm Hà Nội–Sa Pa",
+     "time": "5–6 giờ, ~315 km (cao tốc Nội Bài – Lào Cai)",
+     "price": "240.000–400.000đ/chiều (giường nằm 240.000–310.000đ; VIP Cabin/Royal 400.000–450.000đ)",
+     "note": "Hãng: Hà Sơn Hải Vân (8–10 chuyến/ngày, 5h15–23h), Sao Việt, Hải Vân. Đón Mỹ Đình/Gia Lâm/Nước Ngầm"
+    },
+    {
+     "mode": "Limousine Hà Nội–Sa Pa",
+     "time": "5–6 giờ",
+     "price": "320.000–450.000đ/chiều",
+     "note": "Hãng: Hà Sơn Hải Vân Royal, Sao Việt VIP, EcoSapa, Luxury Van (350.000đ)"
+    },
+    {
+     "mode": "Tàu Hà Nội–Lào Cai + xe lên Sa Pa",
+     "time": "Tàu ~8 giờ + xe ~1 giờ",
+     "price": "Vé tàu chưa kiểm được mức hiện hành; xe Lào Cai–Sa Pa chưa kiểm được giá",
+     "note": "Tàu đêm SP1/SP3; tới ga Lào Cai sáng sớm rồi đi xe lên Sa Pa (~35 km)"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Sa Pa không có sân bay. Sân bay gần nhất: Nội Bài (HAN), cách Sa Pa ~315 km. Ga tàu gần nhất: ga Lào Cai, cách Sa Pa ~35 km, ~1 giờ đi xe."
+  }
+ },
+ {
+  "tinh": "Cao Bằng",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe khách Hà Nội–Cao Bằng",
+     "time": "Bay ~2h05 + xe 6–7 giờ (~280 km)",
+     "price": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Cao Bằng 300.000–400.000đ/chiều",
+     "note": "Phương án thực tế nhất. Cao Bằng không có sân bay; sân bay gần nhất là Nội Bài"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Limousine Hà Nội–Cao Bằng",
+     "time": "6–7 giờ, ~280 km",
+     "price": "400.000đ/chiều",
+     "note": "Hãng: Duy Quang Limousine (xe 9 chỗ VIP, 1 tiếng 1 chuyến, 4:00–20:00); đón trả tận nơi"
+    },
+    {
+     "mode": "Xe khách Hà Nội–Cao Bằng",
+     "time": "6–7 giờ",
+     "price": "300.000–400.000đ/chiều (chưa kiểm được mức riêng từng hãng)",
+     "note": "Hãng: Duy Quang (bus 16–18 chỗ); các hãng khác chưa kiểm được tên + giá riêng"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Cao Bằng không có sân bay, không có ga tàu. Sân bay gần nhất: Nội Bài (HAN), cách TP Cao Bằng ~280 km. Bến xe Cao Bằng ở trung tâm TP."
+  }
+ },
+ {
+  "tinh": "Lạng Sơn",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe limousine Hà Nội–Lạng Sơn",
+     "time": "Bay ~2h05 + xe 2,5–3,5 giờ (~150–160 km)",
+     "price": "Bay SGN–HAN khoảng 1.000.000–2.500.000đ/chiều (chưa kiểm được mức hiện hành); xe HN–Lạng Sơn 170.000–300.000đ/chiều",
+     "note": "Phương án thực tế nhất. Lạng Sơn không có sân bay; sân bay gần nhất là Nội Bài"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Limousine Hà Nội–Lạng Sơn",
+     "time": "2,5–3,5 giờ, ~150–160 km (cao tốc CT05 + QL1A)",
+     "price": "170.000–300.000đ/chiều (Quỳnh Thanh/Ninh Quỳnh 260.000đ; Duy Quang limousine 260.000đ; Huy Võ 240.000đ; Tiến Trọc 280.000đ)",
+     "note": "Hãng: Quỳnh Thanh VIP Limo (1 tiếng 1 chuyến, 5:00–21:00, đón trả tận nơi), Ninh Quỳnh, Duy Quang, Huy Võ. Đón Mỹ Đình/Cầu Giấy/Long Biên"
+    },
+    {
+     "mode": "Xe bus 16 chỗ Hà Nội–Lạng Sơn",
+     "time": "2,5–3,5 giờ",
+     "price": "170.000–190.000đ/chiều (Đại An 170.000đ; Duy Quang bus 190.000đ)",
+     "note": "Hãng: Đại An, Duy Quang Bus; 1 tiếng 1 chuyến, 5:00–19:00"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Lạng Sơn",
+     "time": "Ô tô ~2,5 giờ; xe máy ~3–4 giờ",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Cao tốc Bắc Giang – Lạng Sơn (CT05); xe máy đi QL1A cũ, không vào cao tốc"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Lạng Sơn không có sân bay, không có ga tàu khách tới trung tâm (ga Lạng Sơn chỉ chạy tàu liên vận hạn chế). Sân bay gần nhất: Nội Bài (HAN), cách TP Lạng Sơn ~150 km."
+  }
+ },
+ {
+  "tinh": "Phú Thọ",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe khách/xe limousine Hà Nội–Việt Trì",
+     "time": "Bay ~2 giờ + xe 1,5–2 giờ",
+     "price": "Bay một chiều đã gồm thuế phí ~1.000.000–2.500.000đ (tùy thời điểm đặt); xe HN–Việt Trì 100.000–280.000đ",
+     "note": "Không có bay thẳng tới Phú Thọ; sân bay gần nhất là Nội Bài (cách Việt Trì ~80 km)"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Hà Nội rồi nối xe đi Việt Trì",
+     "time": "Xe SG–HN ~30–35 giờ + nối xe 1,5–2 giờ",
+     "price": "SG–HN ~700.000–1.000.000đ + nối xe 100.000–280.000đ",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách / limousine Hà Nội–Việt Trì",
+     "time": "1,5–2 giờ qua cao tốc Nội Bài – Lào Cai (~80 km)",
+     "price": "Xe ghế ngồi 50.000–130.000đ; limousine 150.000–280.000đ/vé",
+     "note": "Hãng tra được: Hải Vân Express (~100.000đ), Hùng Vương Limousine (từ ~153.000đ), Nam Cường Limousine (từ ~153.000đ), X.E Việt Nam (từ ~165.000đ), Hoàng Hà (120.000–280.000đ). Bến: Mỹ Đình/Giáp Bát – Bến xe Việt Trì (QL2, Gia Cẩm). Lưu ý: nhiều xe tuyến Tây Bắc chỉ thả ở nút cao tốc, không vào trung tâm — hỏi rõ điểm trả"
+    },
+    {
+     "mode": "Tàu Hà Nội–Việt Trì (ga Việt Trì)",
+     "time": "Chưa kiểm được thời gian chạy hiện hành",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Việt Trì trên tuyến Hà Nội–Lào Cai; kiểm lịch tàu trước ngày đi"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Việt Trì",
+     "time": "1,5–2 giờ (cao tốc Nội Bài – Lào Cai)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Đi cao tốc cần ô tô; xe máy đi QL2"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Nội Bài – TP Việt Trì",
+     "time": "~80 km, 1,5–2 giờ",
+     "price": "Taxi/xe ghép ~300.000–600.000đ/chuyến (chưa kiểm được mức cố định); xe khách Nội Bài–Việt Trì qua bến Mỹ Đình",
+     "note": "Sân bay gần nhất; chưa kiểm được xe buýt thẳng Nội Bài–Việt Trì"
+    },
+    {
+     "mode": "Bến xe Việt Trì – trung tâm TP",
+     "time": "~1–1,5 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Bến xe tại QL2, phường Gia Cẩm; giờ hoạt động 4:30–21:30"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Thái Nguyên",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe Hà Nội–Thái Nguyên",
+     "time": "Bay ~2 giờ + xe 1,5–2 giờ",
+     "price": "Bay một chiều đã gồm thuế phí ~1.000.000–2.500.000đ; xe HN–Thái Nguyên ~80.000–150.000đ",
+     "note": "Không có bay thẳng tới Thái Nguyên; sân bay gần nhất Nội Bài (cách TP Thái Nguyên ~80 km)"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Hà Nội rồi nối xe",
+     "time": "SG–HN ~30–35 giờ + nối xe 1,5–2 giờ",
+     "price": "SG–HN ~700.000–1.000.000đ + nối xe ~80.000–150.000đ",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách / limousine Hà Nội–Thái Nguyên",
+     "time": "1,5–2 giờ (~80 km)",
+     "price": "~80.000–150.000đ/vé (xe ghế ngồi); limousine ~150.000–250.000đ (chưa kiểm được hãng cụ thể tuyến này)",
+     "note": "Bến Mỹ Đình/Giáp Bát – Bến xe Thái Nguyên; kiểm giờ xe trước ngày đi"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Thái Nguyên",
+     "time": "1,5–2 giờ (cao tốc Hà Nội – Thái Nguyên)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Đi cao tốc cần ô tô; xe máy đi QL3"
+    },
+    {
+     "mode": "Tàu Hà Nội–Quán Triều (Thái Nguyên)",
+     "time": "Chưa kiểm được thời gian chạy hiện hành",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Quán Triều, TP Thái Nguyên; kiểm lịch tàu trước ngày đi"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Nội Bài – TP Thái Nguyên",
+     "time": "~80 km, 1,5–2 giờ",
+     "price": "Taxi/xe ghép ~300.000–600.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": "Sân bay gần nhất"
+    },
+    {
+     "mode": "Bến xe Thái Nguyên – trung tâm TP",
+     "time": "~2–3 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Bến xe trung tâm TP"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Tuyên Quang",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HAN + xe Hà Nội–Tuyên Quang",
+     "time": "Bay ~2 giờ + xe 2,5–4,5 giờ",
+     "price": "Bay một chiều đã gồm thuế phí ~1.000.000–2.500.000đ; xe HN–Tuyên Quang 150.000–300.000đ",
+     "note": "Không có bay thẳng tới Tuyên Quang; sân bay gần nhất Nội Bài (cách TP Tuyên Quang ~130 km)"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Hà Nội rồi nối xe",
+     "time": "SG–HN ~30–35 giờ + nối xe 2,5–4,5 giờ",
+     "price": "SG–HN ~700.000–1.000.000đ + nối xe 150.000–300.000đ",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách / limousine Hà Nội–Tuyên Quang",
+     "time": "2,5–4,5 giờ (~130–160 km tùy lộ trình)",
+     "price": "150.000–300.000đ/vé tùy hạng (ghế thường 150.000đ, giường nằm 200.000đ, xe 7 chỗ ghép 300.000đ)",
+     "note": "Hãng tra được: Vũ Hán Group (giường nằm 200.000đ, chuyến tối 19:00/19:15), Cường An Limousine (150.000–200.000đ, 7 chuyến/ngày), Bằng Phấn (limousine/cabin), Gobus (xe 7 chỗ 300.000đ). Điểm đón: VP Mỹ Đình, VP Giáp Bát"
+    },
+    {
+     "mode": "Xe khách Việt Trì–Tuyên Quang (nối tuyến)",
+     "time": "1–2,5 giờ (~85–95 km, QL2)",
+     "price": "~70.000đ/vé (Hưng Thành); xe ghép cao hơn",
+     "note": "Hãng: Hưng Thành (~70.000đ), Cầu Mè (~230.000–250.000đ, chuyến đêm), Vũ Hán Group"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Tuyên Quang",
+     "time": "2,5–3,5 giờ (cao tốc + QL2)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Đi qua Việt Trì; đường lên Na Hang xa, nên thuê ô tô"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Nội Bài – TP Tuyên Quang",
+     "time": "~130 km, 2,5–3,5 giờ",
+     "price": "Taxi/xe ghép ~600.000–1.000.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": "Sân bay gần nhất; chưa kiểm được xe thẳng Nội Bài–Tuyên Quang"
+    },
+    {
+     "mode": "Bến xe Tuyên Quang – trung tâm TP",
+     "time": "~1–2 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Bến xe trung tâm TP"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Thanh Hóa",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–THD (sân bay Thọ Xuân)",
+     "time": "Bay ~2 giờ (bay thẳng, ~12–13 chuyến/ngày)",
+     "price": "Một chiều đã gồm thuế phí ~850.000–2.350.000đ; vé chưa thuế phí từ ~239.000đ (khuyến mãi)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Pacific Airlines (Vietjet ~7 chuyến/ngày). Sân bay Thọ Xuân cách TP Thanh Hóa ~45 km, 50–60 phút"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Thanh Hóa",
+     "time": "~25–30 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay"
+    },
+    {
+     "mode": "Tàu TP.HCM–Thanh Hóa (ga Thanh Hóa)",
+     "time": "~30–35 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Thanh Hóa trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách Hà Nội–Thanh Hóa / Sầm Sơn",
+     "time": "3–4 giờ (~150 km)",
+     "price": "~150.000–250.000đ/vé (chưa kiểm được hãng cụ thể tuyến này — xem mục chưa kiểm được)",
+     "note": "Bến Mỹ Đình/Giáp Bát – Bến xe Thanh Hóa / Sầm Sơn"
+    },
+    {
+     "mode": "Tàu Hà Nội–Thanh Hóa (ga Thanh Hóa)",
+     "time": "~3–4 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Thanh Hóa trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Thanh Hóa",
+     "time": "3–4 giờ (cao tốc)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Đi cao tốc Hà Nội – Ninh Bình rồi QL1A"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Thọ Xuân – TP Thanh Hóa",
+     "time": "~45 km, 50–60 phút",
+     "price": "Taxi ~300.000–500.000đ/chuyến (chưa kiểm được mức cố định); xe buýt sân bay kiểm lại tại sân bay",
+     "note": "Sân bay Thọ Xuân, thị trấn Sao Vàng, Thọ Xuân"
+    },
+    {
+     "mode": "Sân bay Thọ Xuân – Sầm Sơn",
+     "time": "~60 km, 1–1,5 giờ",
+     "price": "Taxi ~400.000–600.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": "Đi qua TP Thanh Hóa rồi ra Sầm Sơn (~16 km)"
+    },
+    {
+     "mode": "Ga Thanh Hóa – trung tâm TP",
+     "time": "~2–3 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Ga trung tâm TP"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Nghệ An",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–VII (sân bay Vinh)",
+     "time": "Bay ~1 giờ 50 phút (bay thẳng)",
+     "price": "Một chiều đã gồm thuế phí ~800.000–2.000.000đ (Vietjet từ ~790.000đ chưa thuế phí; Vietnam Airlines cao hơn)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways. Sân bay Vinh cách trung tâm TP ~7 km, cách Cửa Lò ~10–15 km"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Vinh",
+     "time": "~28–32 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay"
+    },
+    {
+     "mode": "Tàu TP.HCM–Vinh (ga Vinh)",
+     "time": "~28–32 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Vinh trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách Hà Nội–Vinh",
+     "time": "5–6 giờ (~300 km)",
+     "price": "~250.000–350.000đ/vé (chưa kiểm được hãng cụ thể tuyến này)",
+     "note": "Bến Mỹ Đình/Giáp Bát – Bến xe Vinh"
+    },
+    {
+     "mode": "Tàu Hà Nội–Vinh (ga Vinh)",
+     "time": "~5–6 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Vinh trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi"
+    },
+    {
+     "mode": "Máy bay HAN–VII",
+     "time": "Bay ~1 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành (ít chuyến, thường phải nối chuyến)",
+     "note": "Sân bay Vinh cách trung tâm TP ~7 km"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Vinh – trung tâm TP Vinh",
+     "time": "~7 km, 15–20 phút",
+     "price": "Taxi ~100.000–200.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": "Sân bay gần nhất cho cả Nghệ An và Hà Tĩnh"
+    },
+    {
+     "mode": "Sân bay Vinh – Cửa Lò",
+     "time": "~10–15 km, 20–30 phút",
+     "price": "Taxi ~150.000–250.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": ""
+    },
+    {
+     "mode": "Ga Vinh – trung tâm TP",
+     "time": "~2–3 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Ga trung tâm TP"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Hà Tĩnh",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–VII (sân bay Vinh) + xe Vinh–Hà Tĩnh",
+     "time": "Bay ~1 giờ 50 phút + xe 1–1,5 giờ (~50 km)",
+     "price": "Bay một chiều đã gồm thuế phí ~800.000–2.000.000đ; xe Vinh–Hà Tĩnh ~100.000–150.000đ",
+     "note": "Không có sân bay tại Hà Tĩnh; sân bay gần nhất là Vinh (Nghệ An)"
+    },
+    {
+     "mode": "Xe khách TP.HCM–Hà Tĩnh",
+     "time": "~30–35 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Chỉ hợp người dư thời gian; đa số nên bay tới Vinh rồi đi xe"
+    },
+    {
+     "mode": "Tàu TP.HCM–Hà Tĩnh (ga Yên Trung / ga Hà Tĩnh)",
+     "time": "~30–35 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga trên tuyến Bắc–Nam; kiểm lịch tàu trước ngày đi"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách Hà Nội–Hà Tĩnh",
+     "time": "6–7 giờ (~350 km)",
+     "price": "~250.000–400.000đ/vé (chưa kiểm được hãng cụ thể tuyến này)",
+     "note": "Bến Mỹ Đình/Giáp Bát – Bến xe Hà Tĩnh; xe Hoàng Long giường nằm có nguồn ghi 250.000đ (cũ)"
+    },
+    {
+     "mode": "Tàu Hà Nội–Hà Tĩnh (ga Yên Trung)",
+     "time": "~6–7 giờ",
+     "price": "Chưa kiểm được giá vé hiện hành",
+     "note": "Ga Yên Trung, huyện Đức Thọ; kiểm lịch tàu trước ngày đi"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng Hà Nội–Hà Tĩnh",
+     "time": "6–7 giờ (QL1A)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "Đi qua Vinh; đường dài, nên đi xe khách/tàu nếu không quen"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Sân bay Vinh – TP Hà Tĩnh",
+     "time": "~50 km, 1–1,5 giờ",
+     "price": "Taxi/xe ghép ~300.000–500.000đ/chuyến (chưa kiểm được mức cố định); xe khách Vinh–Hà Tĩnh ~100.000–150.000đ",
+     "note": "Sân bay gần nhất"
+    },
+    {
+     "mode": "Ga Yên Trung – TP Hà Tĩnh",
+     "time": "~25 km",
+     "price": "Taxi ~200.000–300.000đ/chuyến (chưa kiểm được mức cố định)",
+     "note": "Ga Yên Trung, Đức Thọ"
+    },
+    {
+     "mode": "Bến xe Hà Tĩnh – trung tâm TP",
+     "time": "~1–2 km",
+     "price": "Taxi ~30.000–60.000đ/chuyến (ước lượng, chưa kiểm được mức cố định)",
+     "note": "Bến xe trung tâm TP"
+    }
+   ],
+   "near": [],
+   "note": ""
+  }
+ },
+ {
+  "tinh": "Quảng Trị",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách giường nằm SG–Đông Hà",
+     "time": "~24–30 giờ",
+     "price": "~550.000–1.000.000đ/vé (Đức Trang ~550.000đ; Tiến Đạt Thành 500.000–800.000đ; nguồn khác 850.000–1.000.000đ)",
+     "note": "Hãng tra được: Đức Trang, Tiến Đạt Thành, FUTA Hà Sơn, Phúc An Express. Tuyến dài nhất trong 6 tỉnh — chỉ hợp người dư thời gian"
+    },
+    {
+     "mode": "Máy bay SG–Huế (Phú Bài) + xe Huế–Đông Hà",
+     "time": "Bay ~1h20 + xe ~1h45 (cao tốc Cam Lộ – La Sơn)",
+     "price": "Bay ~700.000–1.800.000đ/chiều (tùy thời điểm); xe Huế–Đông Hà ~100.000–200.000đ/người (xe ghép 150.000–250.000đ/ghế)",
+     "note": "Phương án khuyên dùng: bay tới sân bay Phú Bài (Huế), rồi xe khách/xe ghép về Đông Hà"
+    },
+    {
+     "mode": "Tàu SG–ga Đông Hà",
+     "time": "~20–24 giờ (chưa kiểm được giờ chính xác từng tàu)",
+     "price": "Chưa kiểm được giá vé 2026 — khoảng ghế mềm/giường nằm theo bảng giá Đường sắt VN, cần tra dsvn.vn trước ngày đi",
+     "note": "Ga Đông Hà cách trung tâm ~1,5 km; tàu Thống Nhất Bắc–Nam dừng tại ga"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Xe khách HN–Đông Hà",
+     "time": "~12–14 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026 — cần hỏi nhà xe trước",
+     "note": "Hãng tra được: FUTA Hà Sơn (tuyến Đông Hà–Hà Nội)"
+    },
+    {
+     "mode": "Máy bay HN–Huế (Phú Bài) + xe Huế–Đông Hà",
+     "time": "Bay ~1h15 + xe ~1h45",
+     "price": "Bay ~800.000–1.600.000đ/chiều (tùy thời điểm); xe Huế–Đông Hà ~100.000–200.000đ/người",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Tàu HN–ga Đông Hà",
+     "time": "~11–13 giờ (chưa kiểm được chính xác từng tàu)",
+     "price": "Chưa kiểm được giá vé 2026 — tra dsvn.vn trước ngày đi",
+     "note": "Ga Đông Hà ngay trung tâm"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay Phú Bài (Huế) – Đông Hà",
+     "time": "~1h45, ~80 km",
+     "price": "Xe ghép ~150.000–250.000đ/ghế; taxi riêng chưa kiểm được giá trọn gói",
+     "note": "Đặt xe ghép trước; có xe chạy các khung 7h–11h và 13h–17h theo nguồn"
+    }
+   ],
+   "near": [],
+   "note": "Quảng Trị không có sân bay dân dụng; sân bay gần nhất là Phú Bài (Huế), cách Đông Hà ~80 km. Ga Đông Hà là ga chính trên tuyến Thống Nhất."
+  }
+ },
+ {
+  "tinh": "Thành phố Huế",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–HUE (Phú Bài)",
+     "time": "Bay ~1h20",
+     "price": "Một chiều đã gồm thuế phí ~700.000–1.800.000đ (tùy thời điểm đặt)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways; sân bay Phú Bài cách trung tâm Huế ~15 km"
+    },
+    {
+     "mode": "Xe khách giường nằm SG–Huế",
+     "time": "~18–22 giờ",
+     "price": "~450.000–700.000đ/vé (Xuân Thảo 450.000đ; các hãng khác chưa kiểm được)",
+     "note": "Hãng tra được: Xuân Thảo (2 chuyến/ngày, 11h30 và 17h00 các ngày thứ 3/5/7/CN)"
+    },
+    {
+     "mode": "Tàu SG–ga Huế",
+     "time": "~18–20 giờ",
+     "price": "Chưa kiểm được giá vé 2026 — tra dsvn.vn trước ngày đi",
+     "note": "Ga Huế ngay trung tâm, cách cầu Trường Tiền ~1 km"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–HUE (Phú Bài)",
+     "time": "Bay ~1h15",
+     "price": "Một chiều đã gồm thuế phí ~800.000–1.600.000đ (tùy thời điểm)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air"
+    },
+    {
+     "mode": "Xe khách HN–Huế",
+     "time": "~12–14 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Đi đêm tiết kiệm 1 đêm khách sạn"
+    },
+    {
+     "mode": "Tàu HN–ga Huế",
+     "time": "~12–14 giờ",
+     "price": "Ghế mềm ~500.000–800.000đ; giường nằm ~700.000–1.200.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác từng tàu)",
+     "note": "Ga Huế ngay trung tâm"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay Phú Bài – trung tâm Huế",
+     "time": "~25–30 phút, ~15 km",
+     "price": "~150.000–250.000đ/chuyến (chưa kiểm được giá chính xác)",
+     "note": "Hãng: Mai Linh, Xanh SM, Grab"
+    },
+    {
+     "mode": "Xe buýt sân bay Phú Bài",
+     "time": "~40 phút",
+     "price": "~30.000–50.000đ/lượt (chưa kiểm được chính xác)",
+     "note": "Chạy theo giờ hạ cánh"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Phú Bài (HUE) cách trung tâm Huế ~15 km. Ga Huế nằm ngay trung tâm thành phố."
+  }
+ },
+ {
+  "tinh": "Thành phố Đà Nẵng",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–DAD",
+     "time": "Bay ~1h20–1h30",
+     "price": "Một chiều đã gồm thuế phí ~612.000–1.320.000đ (Vietjet từ ~581.000đ; Vietnam Airlines từ ~1.065.000đ)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways, Vietravel Airlines; ~20–25 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách giường nằm SG–Đà Nẵng",
+     "time": "~17–19 giờ",
+     "price": "~400.000–700.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+     "note": "Bến xe trung tâm Đà Nẵng; hãng tra được: Phương Trang, Hoàng Long"
+    },
+    {
+     "mode": "Tàu SG–ga Đà Nẵng",
+     "time": "~17–19 giờ",
+     "price": "Ghế mềm ~600.000–900.000đ; giường nằm ~900.000–1.500.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+     "note": "Ga Đà Nẵng cách trung tâm ~2 km"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–DAD",
+     "time": "Bay ~1h20",
+     "price": "Một chiều đã gồm thuế phí ~612.000–1.380.000đ",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Vietravel Airlines; 15–20 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách HN–Đà Nẵng",
+     "time": "~16–18 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Đi đêm tiết kiệm 1 đêm khách sạn"
+    },
+    {
+     "mode": "Tàu HN–ga Đà Nẵng",
+     "time": "~14–16 giờ",
+     "price": "Ghế mềm ~500.000–800.000đ; giường nằm ~800.000–1.300.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+     "note": "Ga Đà Nẵng cách trung tâm ~2 km"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi/Grab sân bay DAD – trung tâm",
+     "time": "10–15 phút, ~3–5 km",
+     "price": "Taxi 60.000–150.000đ/xe; GrabCar 80.000–120.000đ; GrabBike 40.000–60.000đ",
+     "note": "Sân bay nằm trong TP, rất gần trung tâm — rẻ nhất trong 6 tỉnh"
+    },
+    {
+     "mode": "Xe buýt sân bay",
+     "time": "~20–30 phút",
+     "price": "6.000–10.000đ/lượt (tuyến 02 đi chợ Hàn, 12, 11, R16)",
+     "note": "Rẻ nhất, hợp khách đi nhẹ"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay quốc tế Đà Nẵng (DAD) cách trung tâm chỉ ~3–5 km. Từ 07/2025, Hội An và Mỹ Sơn thuộc địa giới TP Đà Nẵng."
+  }
+ },
+ {
+  "tinh": "Quảng Ngãi",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–VCA (Chu Lai) + xe về Quảng Ngãi",
+     "time": "Bay ~1h20 + xe ~1–1,5 giờ (Chu Lai–Quảng Ngãi ~40 km)",
+     "price": "Bay ~700.000–1.500.000đ/chiều (tùy thời điểm, chưa kiểm được giá chính xác); taxi Chu Lai–Quảng Ngãi ~400.000–600.000đ/chuyến (chưa kiểm được)",
+     "note": "Sân bay Chu Lai (Quảng Nam cũ, nay thuộc TP Đà Nẵng) là sân bay gần Quảng Ngãi nhất"
+    },
+    {
+     "mode": "Xe khách giường nằm SG–Quảng Ngãi",
+     "time": "~16–18 giờ",
+     "price": "~260.000–500.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+     "note": "Hãng tra được: Hoàng Long, Camel, The Sinh Tourist (theo nguồn cũ)"
+    },
+    {
+     "mode": "Tàu SG–ga Quảng Ngãi",
+     "time": "~16–18 giờ",
+     "price": "Ghế mềm ~500.000–800.000đ; giường nằm ~800.000–1.300.000đ (khoảng theo mặt bằng tàu Thống Nhất, chưa kiểm được giá chính xác)",
+     "note": "Ga Quảng Ngãi cách trung tâm ~2 km; tàu Thống Nhất dừng hằng ngày"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–VCA (Chu Lai) + xe về Quảng Ngãi",
+     "time": "Bay ~1h30 + xe ~1–1,5 giờ",
+     "price": "Bay ~900.000–1.800.000đ/chiều (tùy thời điểm, chưa kiểm được giá chính xác)",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Xe khách HN–Quảng Ngãi",
+     "time": "~18–20 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Đi đêm tiết kiệm thời gian"
+    },
+    {
+     "mode": "Tàu HN–ga Quảng Ngãi",
+     "time": "~16–18 giờ",
+     "price": "Chưa kiểm được giá vé 2026 — tra dsvn.vn",
+     "note": "Ga Quảng Ngãi cách trung tâm ~2 km"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi Chu Lai – TP Quảng Ngãi",
+     "time": "~1–1,5 giờ, ~40 km",
+     "price": "~400.000–600.000đ/chuyến (chưa kiểm được giá chính xác)",
+     "note": "Đặt xe trước khi bay"
+    },
+    {
+     "mode": "Taxi Chu Lai – cảng Sa Kỳ",
+     "time": "35–40 phút, ~25–30 km",
+     "price": "Chưa kiểm được giá riêng",
+     "note": "Đi thẳng ra đảo nếu bay chuyến sáng"
+    },
+    {
+     "mode": "Tàu cao tốc Sa Kỳ – Lý Sơn",
+     "time": "30–35 phút (siêu tốc) hoặc ~60–90 phút (tàu thường)",
+     "price": "145.000–220.000đ/lượt (siêu tốc 200.000–250.000đ; tàu thường ~105.000đ)",
+     "note": "Hãng: Super Biển Đông, An Vĩnh Express, Siêu tốc Hòa Bình; tàu 7:30–15:30; mang CCCD"
+    }
+   ],
+   "near": [],
+   "note": "Quảng Ngãi không có sân bay; sân bay gần nhất là Chu Lai (cách TP ~40 km). Ra Lý Sơn bắt buộc đi tàu từ cảng Sa Kỳ (cách TP ~18–23 km)."
+  }
+ },
+ {
+  "tinh": "Gia Lai",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–PXU (Pleiku)",
+     "time": "Bay ~1h10",
+     "price": "Một chiều ~879.000–1.700.000đ (Vietjet từ 879.000đ; giá đã gồm thuế phí ~1.000.000–1.700.000đ)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Bamboo Airways; ~3 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách giường nằm SG–Pleiku",
+     "time": "~10–12 giờ",
+     "price": "~300.000–500.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+     "note": "Đi đêm, sáng tới Pleiku; bến xe Đức Long Pleiku"
+    },
+    {
+     "mode": "Máy bay SG–BMV + xe Buôn Ma Thuột–Pleiku",
+     "time": "Bay 1h + xe ~3–4 giờ (~180 km)",
+     "price": "Bay ~900.000–1.900.000đ + xe ~150.000–250.000đ/người",
+     "note": "Phương án dự phòng khi hết vé bay thẳng Pleiku"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–PXU (Pleiku)",
+     "time": "Bay ~1h40",
+     "price": "Một chiều ~1.160.000–2.000.000đ (đã gồm thuế phí, theo bảng giá tháng 11/2026)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air"
+    },
+    {
+     "mode": "Xe khách HN–Pleiku",
+     "time": "~20–24 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Chỉ hợp người dư thời gian"
+    },
+    {
+     "mode": "Tàu HN–ga Quy Nhơn + xe lên Pleiku",
+     "time": "Tàu ~18–20 giờ + xe ~3–4 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Phương án đường bộ dài, không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay Pleiku – trung tâm",
+     "time": "~12 phút, ~6 km",
+     "price": "Taxi ~60.000–80.000đ/lượt",
+     "note": "Sân bay Pleiku nằm gần trung tâm"
+    },
+    {
+     "mode": "Xe đưa đón sân bay",
+     "time": "~15 phút",
+     "price": "250.000đ/xe 5 chỗ trở lên (chưa kiểm được giá chính xác)",
+     "note": "Đặt trước qua khách sạn"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Pleiku (PXU) cách trung tâm TP Pleiku ~6 km, rất gần. Lưu ý: từ 07/2025 tỉnh Bình Định sáp nhập vào Gia Lai — ga Quy Nhơn và sân bay Phù Cát nay thuộc địa giới Gia Lai nhưng cách Pleiku ~160 km."
+  }
+ },
+ {
+  "tinh": "Đắk Lắk",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–BMV",
+     "time": "Bay ~1h–1h05",
+     "price": "Một chiều đã gồm thuế phí ~896.000–1.905.000đ (Vietjet 896.000–1.544.000đ; Vietnam Airlines 1.054.000–1.905.000đ)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air; ~3–5 chuyến/ngày"
+    },
+    {
+     "mode": "Xe khách giường nằm SG–Buôn Ma Thuột",
+     "time": "~7–9 giờ",
+     "price": "~250.000–400.000đ/vé (chưa kiểm được giá chính xác từng hãng)",
+     "note": "Đi đêm, sáng tới BMT; bến xe phía Nam Buôn Ma Thuột"
+    },
+    {
+     "mode": "Xe máy/ô tô riêng SG–BMT (QL14)",
+     "time": "Ô tô ~7–8 giờ; xe máy ~9–11 giờ (~350 km)",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "QL14 qua Bình Phước – Đắk Nông; đèo dốc, tránh chạy đêm"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–BMV",
+     "time": "Bay ~1h50",
+     "price": "Một chiều ~1.299.000–2.600.000đ (Vietnam Airlines 1.299.000đ/chiều chưa thuế phí theo nguồn VietAIR; đã gồm thuế phí ~1.780.000đ theo nguồn khác)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air"
+    },
+    {
+     "mode": "Xe khách HN–Buôn Ma Thuột",
+     "time": "~24–28 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Chỉ hợp người dư thời gian"
+    },
+    {
+     "mode": "Tàu HN–ga Nha Trang + xe lên BMT",
+     "time": "Tàu ~24 giờ + xe ~4–5 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được giá vé 2026",
+     "note": "Phương án đường bộ dài, không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay BMV – trung tâm",
+     "time": "~20 phút, ~8–10 km",
+     "price": "100.000–120.000đ/chuyến",
+     "note": "Sân bay Buôn Ma Thuột (BMV), xã Hòa Thắng"
+    },
+    {
+     "mode": "Xe buýt sân bay",
+     "time": "~30 phút",
+     "price": "8.000–10.000đ/lượt",
+     "note": "Tuyến ít, kiểm giờ trước"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Buôn Ma Thuột (BMV) cách trung tâm ~8–10 km. Lưu ý: từ 07/2025 tỉnh Phú Yên sáp nhập vào Đắk Lắk — sân bay Tuy Hòa nay thuộc địa giới Đắk Lắk nhưng cách Buôn Ma Thuột ~180 km."
+  }
+ },
+ {
+  "tinh": "Khánh Hòa",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–CXR",
+     "time": "Bay ~1h10; tổng ~2h55 gồm di chuyển sân bay–trung tâm",
+     "price": "Một chiều từ ~570.000đ; khứ hồi ~1.500.000–3.000.000đ",
+     "note": "Vietnam Airlines, Vietjet Air, Bamboo Airways"
+    },
+    {
+     "mode": "Tàu SG–Nha Trang",
+     "time": "7–8,5 giờ (SE8 6:00–13:43; SE6 8:45–16:06; SE22 10:15–18:05)",
+     "price": "Ghế mềm từ ~296.000đ; giường khoang 4 từ ~585.000đ",
+     "note": "Đường sắt Việt Nam"
+    },
+    {
+     "mode": "Xe khách / limousine",
+     "time": "6,5–10,5 giờ (có nguồn ghi cao tốc còn ~4–5 giờ — mâu thuẫn)",
+     "price": "Xe thường từ ~370.000đ; limousine ~350.000–550.000đ/lượt",
+     "note": "Phương Trang (FUTA)"
+    },
+    {
+     "mode": "Ô tô riêng (cao tốc)",
+     "time": "~5–6 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được phí cầu đường toàn tuyến — nguồn ghi phí ETC xe dưới 12 chỗ hơn 500.000đ/lượt",
+     "note": "TP.HCM – Long Thành – Dầu Giây – Phan Thiết – Vĩnh Hảo – Cam Lâm – Nha Trang"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–CXR",
+     "time": "Bay ~1h50",
+     "price": "Một chiều từ ~914.000đ (11/2026)",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Tàu HN–Nha Trang",
+     "time": "~24h50 (SE1 21:45–22:35 hôm sau)",
+     "price": "Ghế mềm từ ~297.000đ; giường khoang 4 từ ~618.000đ",
+     "note": "Đi tàu dài, chỉ hợp người dư thời gian"
+    },
+    {
+     "mode": "Xe khách",
+     "time": "~24–26 giờ",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyên dùng"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Xe buýt số 18 (Đất Mới)",
+     "time": "",
+     "price": "~65.000đ/lượt; 5:30–21:30, ~30 phút/chuyến",
+     "note": "Điểm trả: 86 Trần Phú"
+    },
+    {
+     "mode": "VinBus tuyến 16-2",
+     "time": "",
+     "price": "~50.000đ/lượt",
+     "note": "Phù hợp khách ở Vinpearl"
+    },
+    {
+     "mode": "Taxi / xe công nghệ",
+     "time": "",
+     "price": "Taxi 350.000–400.000đ/chuyến; xe công nghệ 250.000–350.000đ/chuyến",
+     "note": "Hỏi giá trọn gói trước"
+    },
+    {
+     "mode": "Xe buýt Phương Trang Nha Trang–Cam Ranh",
+     "time": "",
+     "price": "~24.000đ/vé (dừng nhiều điểm, 60–120 phút)",
+     "note": "Chuyến 5:30–17:45"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Cam Ranh (CXR) cách trung tâm Nha Trang ~35 km, 45–60 phút. Ga Nha Trang ở trung tâm thành phố."
+  }
+ },
+ {
+  "tinh": "Lâm Đồng",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "6–8 tiếng; phần lớn chạy đêm",
+     "price": "Giường nằm từ ~180.000đ; Phương Trang ~290.000–300.000đ/vé; Thành Bưởi giường 325.000đ, phòng nằm 500.000đ",
+     "note": "Số chuyến/ngày các nguồn mâu thuẫn — không chốt con số. Hotline Phương Trang 1900 6067."
+    },
+    {
+     "mode": "Limousine",
+     "time": "6–8 tiếng",
+     "price": "~250.000–500.000đ/vé (phòng đôi VIP tới ~650.000–750.000đ); trung bình Vexere 11/2026 ~324.500–344.500đ/vé",
+     "note": ""
+    },
+    {
+     "mode": "Máy bay SGN–DLI",
+     "time": "Bay ~50–55 phút",
+     "price": "Một chiều đã gồm thuế phí ~700.000–1.800.000đ (Vietjet ~717.000đ, Vietnam Airlines ~991.000đ)",
+     "note": "Hãng: Vietnam Airlines, Vietjet Air, Pacific Airlines, Bamboo Airways, Vietravel Airlines; chuyến sớm nhất ~06:10, muộn nhất ~19:50"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL20)",
+     "time": "Ô tô 6–7 tiếng; xe máy 7–10 tiếng",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "TP.HCM → cao tốc Long Thành – Dầu Giây → QL20 → đèo Chuối → đèo Bảo Lộc → đèo Prenn (~310–320 km). Xe máy xuất phát 4–5h sáng, ưu tiên xe số, KHÔNG đi cao tốc, tránh đèo ban đêm/ngày mưa."
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–DLI",
+     "time": "Bay thẳng 1h50; ~8–12 chuyến/ngày",
+     "price": "Một chiều đã gồm thuế phí ~1.400.000–2.650.000đ/chiều",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Xe khách",
+     "time": "~20h30 đến 32 giờ, thường gặp nhất 30–32 giờ",
+     "price": "~700.000–950.000đ/vé",
+     "note": "Chỉ phù hợp người có sức khỏe tốt và dư thời gian"
+    },
+    {
+     "mode": "Tàu tới Nha Trang rồi xe lên Đà Lạt",
+     "time": "Tàu HN–Nha Trang ~24–27 giờ + xe Nha Trang–Đà Lạt 3–4 giờ. Tổng ~28–35 giờ",
+     "price": "Tàu 1.050.000–2.350.000đ tùy hạng; xe Nha Trang–Đà Lạt ~125.000–160.000đ/vé. Tổng ~1.200.000–2.600.000đ/người",
+     "note": "Không có tàu thẳng HN–Đà Lạt. Thay thế: xuống ga Tháp Chàm rồi xe lên Đà Lạt ~80 km, ~2–2,5 giờ"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi",
+     "time": "",
+     "price": "Gói đặt trước (Lado) ~155.000–190.000đ; gói chung ~200.000–280.000đ/chuyến; đồng hồ ~250.000–500.000đ/lượt; Grab/Be ~250.000–380.000đ",
+     "note": "~28–30 km, ~40–50 phút. Hỏi rõ giá trọn gói trước khi lên xe."
+    },
+    {
+     "mode": "Xe buýt sân bay",
+     "time": "",
+     "price": "~30.000–50.000đ/lượt (phổ biến 40.000–50.000đ)",
+     "note": "Điểm trả: Lê Thị Hồng Gấm (cạnh chợ) hoặc số 2 Lê Quý Đôn. ~45–60 phút; chạy theo giờ hạ cánh, khoảng 6h00–18h00."
+    },
+    {
+     "mode": "Xe đưa đón khách sạn",
+     "time": "",
+     "price": "Không có mức chung — hỏi lễ tân. Ví dụ: Dalat Edensee 480.000đ/chiều/xe 4–7 chỗ; La Da Lat 520.000đ/chiều/xe 5 chỗ; xe riêng đặt trước ~300.000–450.000đ",
+     "note": ""
+    }
+   ],
+   "near": [],
+   "note": "Sân bay Liên Khương đã mở cửa hoạt động trở lại từ 19/08/2026 sau thời gian tạm đóng để nâng cấp đường băng."
+  }
+ },
+ {
+  "tinh": "Đồng Nai",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / xe buýt SG–Biên Hòa",
+     "time": "1–1,5 giờ",
+     "price": "Xe khách ghế ngồi ~80.000–150.000đ/lượt (Quốc Cường 80.000–120.000đ; limousine Trường Thịnh ~120.000đ, trung bình ~150.000đ — Vexere 11/2026; redBus rẻ nhất ~165.000đ)",
+     "note": "Nhiều hãng xe buýt liên tỉnh; xe buýt tuyến 05/60-1/60-5/60-7 từ 10.000–15.000đ/lượt (blog.vexere.com)"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng SG–Biên Hòa",
+     "time": "1–1,5 giờ",
+     "price": "Xăng + phí cầu đường (chưa kiểm được mức chung)",
+     "note": "Xa lộ Hà Nội / QL1A → Biên Hòa"
+    },
+    {
+     "mode": "Xe khách SG–Cát Tiên / Tân Phú",
+     "time": "~3–3,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Đi tới bến Tân Phú rồi xe ôm/taxi vào cổng vườn"
+    },
+    {
+     "mode": "Xe riêng SG–núi Chứa Chan",
+     "time": "~2–2,5 giờ (~100 km)",
+     "price": "Chưa kiểm được phí cầu đường",
+     "note": "Cao tốc Long Thành – Dầu Giây → QL1A → Xuân Lộc"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–SGN + xe lên Biên Hòa",
+     "time": "Bay ~2 giờ + xe SG–Biên Hòa 1–1,5 giờ",
+     "price": "Vé máy bay tùy thời điểm (chưa kiểm được) + xe 30.000–80.000đ",
+     "note": "Phương án khuyên dùng — không có bay thẳng tới Đồng Nai"
+    },
+    {
+     "mode": "Tàu HN–ga Biên Hòa",
+     "time": "~30 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được",
+     "note": "Ít chuyến dừng Biên Hòa; nên xuống ga Sài Gòn rồi đi xe"
+    },
+    {
+     "mode": "Xe khách HN–Biên Hòa",
+     "time": "~30–35 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyên dùng"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi / xe công nghệ (Tân Sơn Nhất–Biên Hòa)",
+     "time": "",
+     "price": "~250.000–400.000đ/chuyến (khoảng chung, chưa kiểm được mức riêng)",
+     "note": "45–60 phút tùy kẹt xe"
+    },
+    {
+     "mode": "Xe khách / xe buýt",
+     "time": "",
+     "price": "~30.000–80.000đ/lượt",
+     "note": "Về bến Biên Hòa rồi taxi/xe ôm vào điểm ở"
+    }
+   ],
+   "near": [],
+   "note": "Không có sân bay trong tỉnh. Sân bay gần nhất: Tân Sơn Nhất (TP.HCM), cách Biên Hòa ~35 km. Ga Biên Hòa có tàu Bắc–Nam dừng nhưng ít chuyến du lịch."
+  }
+ },
+ {
+  "tinh": "Tây Ninh",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách SG–Tây Ninh",
+     "time": "2–2,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng (khoảng chung xe khách liên tỉnh ~80.000–150.000đ/lượt — chưa kiểm được)",
+     "note": "Bến xe An Sương / Miền Đông → bến xe Tây Ninh"
+    },
+    {
+     "mode": "Xe limousine SG–Tây Ninh",
+     "time": "2–2,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Đón tận nơi ở TP.HCM, trả ở TP Tây Ninh"
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL22)",
+     "time": "2–3 giờ",
+     "price": "Xăng + phí (chưa kiểm được mức chung)",
+     "note": "TP.HCM → Củ Chi → Trảng Bàng (QL22) → Gò Dầu → TP Tây Ninh"
+    },
+    {
+     "mode": "Xe buýt SG–Tây Ninh",
+     "time": "~3 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Tuyến buýt liên tỉnh, dừng nhiều điểm"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–SGN + xe lên Tây Ninh",
+     "time": "Bay ~2 giờ + xe SG–Tây Ninh 2–2,5 giờ",
+     "price": "Vé máy bay tùy thời điểm (chưa kiểm được) + xe (chưa kiểm được)",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Tàu HN–ga Sài Gòn + xe",
+     "time": "Tàu ~30 giờ + xe 2–2,5 giờ",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyên dùng"
+    },
+    {
+     "mode": "Xe khách HN–Tây Ninh",
+     "time": "~30–35 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyên dùng"
+    }
+   ],
+   "airport": [],
+   "near": [],
+   "note": "Không có sân bay/ga tàu khách trong tỉnh. Đi từ TP.HCM chủ yếu bằng xe khách/xe riêng theo QL22 (qua Củ Chi – Trảng Bàng) hoặc QL22B."
+  }
+ },
+ {
+  "tinh": "TP.HCM",
+  "routes": {
+   "sg": [],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–SGN",
+     "time": "Bay ~2 giờ",
+     "price": "Một chiều khoảng tham khảo 1.000.000–2.500.000đ (chưa kiểm được mức cụ thể)",
+     "note": "Vietnam Airlines, Vietjet Air, Bamboo Airways"
+    },
+    {
+     "mode": "Tàu HN–ga Sài Gòn",
+     "time": "~30–32 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "SE1/SE3/SE5/SE7; chỉ hợp người dư thời gian"
+    },
+    {
+     "mode": "Xe khách HN–SG",
+     "time": "~40 giờ (chưa kiểm được chính xác)",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyên dùng"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi / xe công nghệ (Tân Sơn Nhất–Bến Thành)",
+     "time": "",
+     "price": "100.000–250.000đ/chuyến (khoảng chung, tùy kẹt xe)",
+     "note": "Hỏi giá trước / đặt qua app"
+    },
+    {
+     "mode": "Xe buýt 152 / 109",
+     "time": "",
+     "price": "~6.000đ/lượt (tuyến 152); tuyến 109 giá cao hơn (chưa kiểm được)",
+     "note": "Tuyến 152 về khu vực trung tâm"
+    },
+    {
+     "mode": "Xe đưa đón khách sạn",
+     "time": "",
+     "price": "Không có mức chung — hỏi lễ tân khi đặt phòng",
+     "note": "Nhiều khách sạn Quận 1 có shuttle thu phí"
+    }
+   ],
+   "near": [
+    {
+     "mode": "Xe khách Bình Dương (cũ) – TP.HCM",
+     "time": "1–1,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Tuyến Thủ Dầu Một – bến xe Miền Đông / An Sương"
+    },
+    {
+     "mode": "Xe khách Vũng Tàu (cũ) – TP.HCM",
+     "time": "2–2,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Tuyến Vũng Tàu – bến xe Miền Đông"
+    },
+    {
+     "mode": "Xe khách Đồng Nai (Biên Hòa) – TP.HCM",
+     "time": "1–1,5 giờ",
+     "price": "~30.000–80.000đ/lượt (khoảng chung)",
+     "note": "Tuyến Biên Hòa – bến xe Miền Đông / An Sương"
+    },
+    {
+     "mode": "Xe khách Tây Ninh – TP.HCM",
+     "time": "2–2,5 giờ",
+     "price": "Chưa kiểm được giá vé riêng",
+     "note": "Tuyến Tây Ninh – bến xe An Sương / Miền Đông"
+    }
+   ],
+   "note": "Sân bay Tân Sơn Nhất (SGN) cách Bến Thành ~7–8 km, 30–60 phút tùy kẹt xe. Ga Sài Gòn cách Bến Thành ~3–4 km."
+  }
+ },
+ {
+  "tinh": "Vĩnh Long",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "3–3,5 giờ (cao tốc Trung Lương – Mỹ Thuận – Cần Thơ; có nguồn ghi 3,5–4 giờ)",
+     "price": "~120.000–220.000đ/vé (Phương Trang 130.000–150.000đ; Thành Bưởi 150.000–180.000đ; Tân Niên 180.000–220.000đ)",
+     "note": "Bến xe Vĩnh Long trên QL1A, cách trung tâm ~2 km. Hotline Phương Trang 1900 6067; Thành Bưởi 1900 6079."
+    },
+    {
+     "mode": "Limousine",
+     "time": "3–3,5 giờ",
+     "price": "~180.000–220.000đ/vé (giường đôi/limousine VIP)",
+     "note": ""
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+     "time": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ",
+     "price": "Chưa kiểm được giá thuê theo tuyến; thuê xe 4 chỗ có tài xế SG — Vĩnh Long ~1.250.000đ/chiều (tham khảo)",
+     "note": "TP.HCM → cao tốc Trung Lương – Mỹ Thuận → QL1A → cầu Mỹ Thuận → TP Vĩnh Long"
+    },
+    {
+     "mode": "Máy bay + xe (qua Cần Thơ)",
+     "time": "Bay SGN–VCA ~45–55 phút + xe ~1 giờ",
+     "price": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA); xe VCA — Vĩnh Long ~1 giờ",
+     "note": "Chỉ hợp khi đã có vé bay rẻ hoặc kết hợp Cần Thơ; đa số khách đi xe khách thẳng"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Vĩnh Long",
+     "time": "Bay ~2h10 + xe VCA — Vĩnh Long ~1 giờ",
+     "price": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo); xe VCA — Vĩnh Long chưa kiểm được giá riêng",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Máy bay HAN–SGN rồi xe lên Vĩnh Long",
+     "time": "Bay ~2h05 + xe SG — Vĩnh Long 3–3,5 giờ",
+     "price": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Vĩnh Long 130.000–220.000đ/vé",
+     "note": "Phương án thay thế khi vé về Cần Thơ đắt/hết"
+    },
+    {
+     "mode": "Xe khách HN — Vĩnh Long",
+     "time": "Chưa kiểm được tuyến thẳng + thời gian/giá",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi / xe công nghệ (từ VCA)",
+     "time": "",
+     "price": "Chưa kiểm được giá riêng tuyến VCA — Vĩnh Long (tham khảo taxi sân bay Cần Thơ về trung tâm Cần Thơ 120.000–270.000đ — các nguồn mâu thuẫn)",
+     "note": "Hỏi rõ giá trọn gói trước khi lên xe"
+    },
+    {
+     "mode": "Xe khách Cần Thơ — Vĩnh Long",
+     "time": "",
+     "price": "~100.000–120.000đ/vé, ~1 giờ",
+     "note": "Tuyến Vĩnh Long — Cần Thơ chạy dày; đón tại bến xe Cần Thơ"
+    }
+   ],
+   "near": [],
+   "note": "Không có sân bay/ga tàu tại Vĩnh Long. Sân bay gần nhất: Cần Thơ (VCA, cách TP Vĩnh Long ~40 km, ~1 giờ đi xe) hoặc Tân Sơn Nhất (SGN, ~135 km)."
+  }
+ },
+ {
+  "tinh": "Đồng Tháp",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "3–3,5 giờ",
+     "price": "~115.000–180.000đ/vé (Phương Trang SG — Cao Lãnh 115.000đ; tuyến SG — Sa Đéc chưa kiểm được giá riêng từng hãng)",
+     "note": "Phương Trang hotline 1900 6067; các hãng tuyến SG — Cao Lãnh/Sa Đéc chạy từ Bến xe Miền Tây"
+    },
+    {
+     "mode": "Limousine",
+     "time": "3–3,5 giờ",
+     "price": "Chưa kiểm được giá riêng tuyến SG — Sa Đéc/Cao Lãnh (tham khảo chung miền Tây ~180.000–250.000đ/vé)",
+     "note": ""
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+     "time": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ",
+     "price": "Chưa kiểm được giá thuê theo tuyến",
+     "note": "TP.HCM → cao tốc Trung Lương – Mỹ Thuận → QL1A → Sa Đéc/Cao Lãnh (qua cầu Mỹ Thuận)"
+    },
+    {
+     "mode": "Máy bay + xe (qua Cần Thơ)",
+     "time": "Bay SGN–VCA ~45–55 phút + xe VCA — Sa Đéc ~2 giờ",
+     "price": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA)",
+     "note": "Chỉ hợp khi kết hợp Cần Thơ; đa số khách đi xe khách thẳng"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Sa Đéc/Cao Lãnh",
+     "time": "Bay ~2h10 + xe VCA — Sa Đéc ~2 giờ, VCA — Cao Lãnh ~1,5–2 giờ",
+     "price": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ)",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Máy bay HAN–SGN rồi xe lên Đồng Tháp",
+     "time": "Bay ~2h05 + xe SG — Sa Đéc 3–3,5 giờ",
+     "price": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Sa Đéc ~115.000–180.000đ/vé",
+     "note": "Phương án thay thế"
+    },
+    {
+     "mode": "Xe khách HN — Đồng Tháp",
+     "time": "Chưa kiểm được tuyến thẳng + thời gian/giá",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi / xe công nghệ (từ VCA)",
+     "time": "",
+     "price": "Chưa kiểm được giá riêng tuyến VCA — Sa Đéc/Cao Lãnh",
+     "note": "Hỏi rõ giá trọn gói trước khi lên xe; có thể đi taxi về Cần Thơ rồi bắt xe khách đi Cao Lãnh/Sa Đéc"
+    },
+    {
+     "mode": "Xe khách Cần Thơ — Cao Lãnh/Sa Đéc",
+     "time": "",
+     "price": "Chưa kiểm được giá riêng (tham khảo tuyến Cần Thơ — Cao Lãnh ~100.000–150.000đ/vé)",
+     "note": "Đón tại bến xe Cần Thơ"
+    }
+   ],
+   "near": [],
+   "note": "Không có sân bay/ga tàu tại Đồng Tháp. Sân bay gần nhất: Cần Thơ (VCA, cách Cao Lãnh ~80 km, cách Sa Đéc ~90 km) hoặc Tân Sơn Nhất (SGN, cách Sa Đéc ~140 km)."
+  }
+ },
+ {
+  "tinh": "An Giang",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "5–6 giờ",
+     "price": "~120.000–155.000đ/vé (Phương Trang 155.000đ, 34 chuyến/ngày; nguồn khác ghi 120.000–150.000đ)",
+     "note": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây"
+    },
+    {
+     "mode": "Limousine",
+     "time": "5–6 giờ",
+     "price": "Chưa kiểm được giá riêng tuyến SG — Châu Đốc (tham khảo chung miền Tây ~180.000–300.000đ/vé)",
+     "note": ""
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL1A + QL91)",
+     "time": "Ô tô 5–6 giờ; xe máy ~7–8 giờ",
+     "price": "Thuê xe 4 chỗ có tài xế SG — Châu Đốc ~2.000.000đ/chiều (tham khảo)",
+     "note": "TP.HCM → cao tốc → QL1A → Cần Thơ/Long Xuyên → QL91 → Châu Đốc"
+    },
+    {
+     "mode": "Tour xe giường nằm 1 ngày 1 đêm (đi tối thứ 7)",
+     "time": "Đi tối thứ 7, về hôm sau",
+     "price": "Tour trọn gói từ 1.090.000đ/khách (giường tầng trên), 1.190.000đ (tầng dưới)",
+     "note": "Saigon Star Travel — tour hành hương Miếu Bà + Lăng Thoại Ngọc Hầu + Chợ Tịnh Biên + Núi Cấm hoặc Trà Sư"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Châu Đốc",
+     "time": "Bay ~2h10 + xe VCA — Châu Đốc ~3 giờ (~120 km)",
+     "price": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ); xe VCA — Châu Đốc ~120.000–210.000đ/vé",
+     "note": "Phương án khuyên dùng"
+    },
+    {
+     "mode": "Máy bay HAN–SGN rồi xe lên Châu Đốc",
+     "time": "Bay ~2h05 + xe SG — Châu Đốc 5–6 giờ",
+     "price": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Châu Đốc 120.000–155.000đ/vé",
+     "note": "Phương án thay thế"
+    },
+    {
+     "mode": "Xe khách HN — Châu Đốc",
+     "time": "Chưa kiểm được tuyến thẳng + thời gian/giá",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Xe khách Cần Thơ — Châu Đốc (Phương Trang)",
+     "time": "",
+     "price": "120.000–210.000đ/vé, ~3 giờ; giờ khởi hành 14:00, 15:00, 16:00, 18:00 (theo limotrip)",
+     "note": "Đón tại bến xe Cần Thơ"
+    },
+    {
+     "mode": "Taxi / xe riêng (từ VCA)",
+     "time": "",
+     "price": "Chưa kiểm được giá riêng tuyến VCA — Châu Đốc (tham khảo thuê xe 4 chỗ SG — Châu Đốc 2.000.000đ/chiều)",
+     "note": "Hỏi rõ giá trọn gói trước khi lên xe"
+    }
+   ],
+   "near": [],
+   "note": "Không có sân bay/ga tàu tại vùng Châu Đốc — Núi Sam. Sân bay gần nhất: Cần Thơ (VCA, cách Châu Đốc ~120 km, ~3 giờ đi xe) hoặc Tân Sơn Nhất (SGN, cách Châu Đốc ~245 km)."
+  }
+ },
+ {
+  "tinh": "Cà Mau",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Máy bay SGN–CAU (trực tiếp)",
+     "time": "Bay ~1 giờ (SGN 12:50 → CAU 13:55)",
+     "price": "924.000–964.000đ/chiều đã gồm phí (VNA, A321, hàng ngày — theo kế hoạch cũ; giá sau 18/12/2026 chưa rõ)",
+     "note": "Sân bay lùi mở lại tới 18/12/2026 (văn bản ACV 06/11/2026) — kiểm lại lịch bay trước khi đặt"
+    },
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "7–8 giờ",
+     "price": "~210.000đ/vé (Phương Trang, 16 chuyến/ngày theo limody)",
+     "note": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây; nên đi chuyến đêm"
+    },
+    {
+     "mode": "Limousine",
+     "time": "7–8 giờ",
+     "price": "Chưa kiểm được giá riêng tuyến SG — Cà Mau (tham khảo chung miền Tây ~300.000–500.000đ/vé)",
+     "note": ""
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL1A)",
+     "time": "Ô tô 7–8 giờ; xe máy ~10–12 giờ",
+     "price": "Thuê xe 4 chỗ có tài xế SG — Cà Mau ~2.600.000đ/chiều (tham khảo)",
+     "note": "TP.HCM → cao tốc → QL1A → Cần Thơ → Sóc Trăng/Bạc Liêu → Cà Mau (~410 km theo nucuoimekong)"
+    },
+    {
+     "mode": "Máy bay SGN–VCA + xe về Cà Mau",
+     "time": "Bay ~45–55 phút + xe VCA — Cà Mau ~4–5 giờ (~180 km)",
+     "price": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA); xe Cần Thơ — Cà Mau 160.000đ/vé, ~4 giờ (Phương Trang)",
+     "note": "Phương án thay thế khi muốn rút ngắn thời gian xe"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–CAU (trực tiếp)",
+     "time": "Bay 2h15",
+     "price": "Vietjet HAN–CAU 3 chuyến khứ hồi/tuần (thứ 3, 5, 7), VJ591 HAN 10:00 → CAU 12:15, VJ592 CAU 12:45 → HAN 15:00, A320, vé khứ hồi ~2,4 triệu đồng; khai thác thường lệ từ 30/11/2026 — nhưng sân bay lùi mở lại tới 18/12/2026, lịch bay sau 18/12 chưa công bố",
+     "note": "MỚI: sân bay lùi mở lại tới 18/12/2026 (văn bản ACV 06/11/2026) — kiểm lại lịch bay trước khi đặt"
+    },
+    {
+     "mode": "Máy bay HAN–VCA (Cần Thơ) rồi xe về Cà Mau",
+     "time": "Bay ~2h10 + xe VCA — Cà Mau ~4–5 giờ",
+     "price": "Vé máy bay HAN–VCA ~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ); xe Cần Thơ — Cà Mau 160.000đ/vé",
+     "note": "Phương án thay thế (bay tới Cần Thơ rồi đi xe)"
+    },
+    {
+     "mode": "Máy bay HAN–SGN rồi xe lên Cà Mau",
+     "time": "Bay ~2h05 + xe SG — Cà Mau 7–8 giờ",
+     "price": "Vé HAN–SGN tùy thời điểm đặt (chưa kiểm được giá riêng); xe SG — Cà Mau ~210.000đ/vé",
+     "note": "Phương án thay thế"
+    },
+    {
+     "mode": "Xe khách HN — Cà Mau",
+     "time": "Chưa kiểm được tuyến thẳng + thời gian/giá",
+     "price": "Chưa kiểm được",
+     "note": "Không khuyến khích"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Xe khách Cần Thơ — Cà Mau (Phương Trang)",
+     "time": "",
+     "price": "160.000đ/vé, ~4 giờ; giờ khởi hành 14:30, 15:00, 16:00, 18:00, 19:00, 20:00 (theo limotrip)",
+     "note": "Xe giường nằm 44 chỗ; đón tại bến xe Cần Thơ"
+    },
+    {
+     "mode": "Ca nô/tàu thủy TP Cà Mau — Đất Mũi",
+     "time": "",
+     "price": "Thuê ca nô TP Cà Mau — Đất Mũi 1.500.000–2.500.000đ/chuyến (đoàn 8–12 người); ca nô xuyên rừng Năm Căn — Đất Mũi 3.250.000đ/tàu (đoàn 1–5 khách)",
+     "note": "Đi đường thủy là trải nghiệm riêng; đặt trước cuối tuần; mặc áo phao"
+    }
+   ],
+   "near": [],
+   "note": "CẬP NHẬT 08/11/2026: Sân bay Cà Mau LÙI khai thác trở lại đến 0h ngày 18/12/2026 (văn bản ACV gửi UBND tỉnh Cà Mau ngày 06/11/2026 — mưa lớn tháng 10/2026 + thiếu vật liệu; bay hiệu chuẩn 26/11). Lịch bay mới sau 18/12 chưa có nguồn nào công bố — kiểm lại trước khi đặt. Vietnam Airlines khôi phục SGN–CAU hàng ngày bằng Airbus A321 (SGN 12:50 → CAU 13:55; CAU 14:50 → SGN 15:50), vé 924.000–964.000đ/chiều đã gồm phí theo kế hoạch cũ (nguoiquansat.vn, 04/11/2026) — giá sau 18/12 chưa rõ. Vietjet mở HAN–CAU 3 chuyến khứ hồi/tuần (thứ 3, 5, 7), VJ591 HAN 10:00 → CAU 12:15, VJ592 CAU 12:45 → HAN 15:00, A320, bay 2h15, vé khứ hồi ~2,4 triệu đồng; khai thác thường lệ từ 30/11/2026. BỎ ý 'VNA dự kiến mở HAN–CAU hàng ngày' — không có cơ sở (nguồn duy nhất là bản tiếng Anh tapchihangkhong.vn ghi HAN 12:50 → CAU 13:55 trùng y hệt giờ SGN–CAU, mà HAN–CAU ~1.344 km không bay được trong 65 phút — lỗi copy). Tần suất VASCO ATR-72 cũ đã lỗi thời (A321 thay ATR-72). (Nguồn: vietnam.vn, baotintuc.vn 06/11/2026; nguoiquansat.vn 07/11/2026; AeroRoutes 02/11/2026; thông báo Văn phòng miền Bắc Vietjet 01–03/11/2026 — ngày kiểm 08/11/2026.)"
+  }
+ },
+ {
+  "tinh": "Cần Thơ",
+  "routes": {
+   "sg": [
+    {
+     "mode": "Xe khách / giường nằm",
+     "time": "3–3,5 giờ (một nguồn ghi 4 giờ)",
+     "price": "Phương Trang 130.000–165.000đ/vé (limody ghi 130.000đ, 76 chuyến/ngày; limotrip ghi 145.000đ/165.000đ); Thành Bưởi ~130.000đ/vé",
+     "note": "Phương Trang hotline 1900 6067; chạy từ Bến xe Miền Tây; nhiều chuyến trong ngày"
+    },
+    {
+     "mode": "Limousine",
+     "time": "3–3,5 giờ",
+     "price": "Chưa kiểm được giá riêng tuyến SG — Cần Thơ (tham khảo chung miền Tây ~300.000–500.000đ/vé)",
+     "note": ""
+    },
+    {
+     "mode": "Xe máy / ô tô riêng (QL1A + cao tốc)",
+     "time": "Ô tô 3–3,5 giờ; xe máy ~4–5 giờ",
+     "price": "Thuê xe 4 chỗ có tài xế SG — Cần Thơ chưa kiểm được giá riêng (tham khảo SG — Cà Mau ~2.600.000đ/chiều)",
+     "note": "TP.HCM → cao tốc TP.HCM — Trung Lương — Mỹ Thuận → QL1A → Cần Thơ"
+    },
+    {
+     "mode": "Máy bay SGN–VCA",
+     "time": "Bay ~45–55 phút + vào trung tâm ~30–50 phút",
+     "price": "Vé máy bay tùy thời điểm đặt (chưa kiểm được giá riêng tuyến SGN–VCA)",
+     "note": "Sân bay Cần Thơ cách trung tâm ~8 km (theo vietair/vietjet); một nguồn ghi 22–23 km tới Bến Ninh Kiều và 40–50 phút — mâu thuẫn"
+    }
+   ],
+   "hn": [
+    {
+     "mode": "Máy bay HAN–VCA (Cần Thơ)",
+     "time": "Bay ~2h10; ~2 chuyến/ngày (Vietjet/Vietnam Airlines)",
+     "price": "~1.300.000đ/chiều đã gồm thuế phí (tham khảo; vé rẻ chưa thuế phí có thể từ ~799.000đ)",
+     "note": "Phương án khuyên dùng; sân bay VCA cách trung tâm ~8 km"
+    },
+    {
+     "mode": "Xe khách HN — Cần Thơ",
+     "time": "~26h30",
+     "price": "~1.450.000đ/vé (theo viet-travel)",
+     "note": "Không khuyến khích; đa số nguồn khuyên bay"
+    }
+   ],
+   "airport": [
+    {
+     "mode": "Taxi sân bay",
+     "time": "",
+     "price": "120.000–180.000đ/chuyến (vietair) vs 270.000đ/chuyến (dvn) — mâu thuẫn",
+     "note": "Hỏi giá trước khi lên xe"
+    },
+    {
+     "mode": "Xe buýt sân bay — trung tâm",
+     "time": "",
+     "price": "5.000đ/lượt; chạy 5:30–18:30, ~55 phút/chuyến",
+     "note": "Rẻ nhất; hợp khách đi một mình, ít hành lý"
+    },
+    {
+     "mode": "Xe ôm / xe công nghệ",
+     "time": "",
+     "price": "40.000–70.000đ/chuyến",
+     "note": "Hỏi giá trước"
+    }
+   ],
+   "near": [],
+   "note": "Sân bay quốc tế Cần Thơ: 179B Lê Hồng Phong, phường Bình Thủy, quận Bình Thủy. Cách trung tâm ~8 km theo vietair/vietjet; dvn ghi 22–23 km tới Bến Ninh Kiều và 40–50 phút — mâu thuẫn, xem mục chưa kiểm được."
+  }
+ }
+]
