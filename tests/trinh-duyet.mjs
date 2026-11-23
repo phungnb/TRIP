@@ -77,6 +77,16 @@ try {
   const tl = await page.evaluate(() => ({ fab: !!document.getElementById("tlFab"), form: !!document.getElementById("tlMsg"), ai: !!document.querySelector(".tl-seg button[data-t=ai]") }));
   ok(tl.fab && tl.form && tl.ai, "Nút nổi Trợ lý mở được thẻ Hỏi AI và Hỗ trợ");
   await page.evaluate(() => window.tlClose && tlClose());
+  /* Tên thành phố trong tỉnh mới: Quy Nhơn ra thẻ khu, lập kế hoạch ra lịch và tiền đi tới Quy Nhơn, không phải Pleiku */
+  const qn = await page.evaluate(() => {
+    const r = btSearch("Quy Nhơn")[0];
+    const a = btAreaById("quy-nhon"), days = btAreaDays(a, 3), cp = btAreaCostProv(a);
+    const pl = days.flat().map(o => o.place.dist_from);
+    return { top: r && r.kind, area: r && r.area && r.area.id, n: pl.length, allQN: pl.every(h => h === "Quy Nhơn"), cost: (cp.cost[0] || {}).label || "" };
+  });
+  ok(qn.top === "area" && qn.area === "quy-nhon", "Tìm Quy Nhơn ra thẻ khu Quy Nhơn đầu tiên");
+  ok(qn.n >= 6 && qn.allQN, "Lịch 3 ngày đi Quy Nhơn chỉ gồm điểm ở Quy Nhơn");
+  ok(/Quy Nhơn/.test(qn.cost), "Tiền đi tới Quy Nhơn dùng tuyến tới Quy Nhơn");
   ok(pageErr.length === 0, "Không có lỗi JavaScript" + (pageErr.length ? ": " + pageErr.slice(0, 3).join(" | ") : ""));
 
   /* Mất sóng vẫn mở được (service worker) */
