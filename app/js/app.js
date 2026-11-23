@@ -557,7 +557,7 @@ function openPlace(id){
   document.getElementById("itemDetail").innerHTML =
     detailHead(img,p.name,p.name, esc(CLUSTER_LABEL[p.cluster])+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km")) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+CHECKED+'</span></div>'+
-    '<div class="kv"><div class="cell"><div class="k">Giá vé / chi phí</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
+    '<div class="kv">'+factCell("Mùa đẹp",placeSeason(p,provById("lam-dong")))+'<div class="cell"><div class="k">Giá vé / chi phí</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
     '<p class="muted">Tọa độ: '+p.lat+", "+p.lng+' · <a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(p.note)+'</div>'+
@@ -1188,6 +1188,12 @@ function factShort(full,isPrice){
   var seg=t.split(/;|\(/)[0].trim();
   return seg.length>60?seg.slice(0,58)+"…":seg;
 }
+/* Mùa đẹp cho từng địa danh: ưu tiên mùa riêng của điểm (info.mua_dep), không có thì lấy mùa chung của tỉnh và ghi rõ */
+function placeSeason(x,prov){
+  if(x && x.info && x.info.mua_dep) return x.info.mua_dep;
+  var b=prov&&((prov.season&&prov.season.best)||prov.best_season);
+  return b?("Theo mùa chung của "+prov.name+": "+b):"Chưa có dữ liệu mùa đẹp";
+}
 function factCell(label,full,isPrice){
   var t=String(full||"").trim(), sh=factShort(t,isPrice);
   var more=(t && t.replace(/[.\s]+$/,"")!==sh.replace(/[.\s]+$/,""))?'<details class="fact-more"><summary>Chi tiết</summary><p>'+esc(t)+'</p></details>':"";
@@ -1203,7 +1209,7 @@ function openProvPlace(provId,placeId){
   document.getElementById("itemDetail").innerHTML =
     provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+(x.dist==null||x.dist===""?"Chưa có khoảng cách":x.dist===0?"Ngay trung tâm":("Cách trung tâm ~"+x.dist+" km"))+" · "+prov.name) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</span>'+'</div>'+
-    '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+'</div>'+
+    '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(x.note||"")+'</div>'+
     provItemActionsHtml("pplace",prov.id,x.id)+
