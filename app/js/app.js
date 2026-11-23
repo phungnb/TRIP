@@ -553,9 +553,10 @@ function detailHead(img,alt,title,badges){
 }
 function openPlace(id){
   var p=placeById(id); if(!p) return;
-  var img=PLACE_IMG[p.id]||PLACE_IMG["default"];
+  var img=PLACE_IMG[p.id], sub=CLUSTER_LABEL[p.cluster]+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km");
+  /* Không có ảnh đúng địa danh thì không dùng ảnh mặc định (hồ, rừng thông) */
   document.getElementById("itemDetail").innerHTML =
-    detailHead(img,p.name,p.name, esc(CLUSTER_LABEL[p.cluster])+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km")) +
+    (img ? detailHead(img,p.name,p.name,esc(sub)) : plainItemHead(p.name,sub)) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+CHECKED+'</span></div>'+
     '<div class="kv">'+factCell("Mùa đẹp",placeSeason(p,provById("lam-dong")))+'<div class="cell"><div class="k">Giá vé / chi phí</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
@@ -1172,10 +1173,19 @@ function observeProvMap(){
   provMapObserver.observe(el);
 }
 /* --- Chi tiết địa danh / chỗ ở / món của 34 tỉnh --- */
-function provItemHead(prov,title,sub){
-  /* Đầu trang có hình của tỉnh (cùng bộ hình trang chủ); tên mục chỉ hiện 1 lần ở đây,
-     thanh trên cùng hiện tên tỉnh + loại mục (setItemTopbar) */
+function provItemHead(prov,title,sub,placeId){
+  /* Địa danh: chỉ dùng ảnh chụp đúng địa danh đó (PHOTOS.spot). Không có thì để đầu trang trơn,
+     KHÔNG mượn ảnh tỉnh hay tranh vẽ (Soi lần 2: Hội An hiện ảnh biển, Củ Chi hiện ảnh Quận 1).
+     Chỗ ở, món ăn vẫn dùng hình của tỉnh làm nền. */
+  if(placeId!==undefined){
+    var ph=typeof spotPhoto==="function"?spotPhoto(placeId):null;
+    if(ph) return '<div class="prov-hero prov-hero-art item-hero"><div class="poster prov-hero-bg">'+photoImg(ph,{eager:true})+'</div><div class="prov-hero-in"><h2>'+esc(title)+'</h2><p>'+esc(sub)+'</p></div></div><div class="pad">';
+    return plainItemHead(title,sub);
+  }
   return '<div class="prov-hero prov-hero-art item-hero">'+provPoster(prov.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(title)+'</h2><p>'+esc(sub)+'</p></div></div><div class="pad">';
+}
+function plainItemHead(title,sub){
+  return '<div class="prov-hero"><h2 style="font-size:var(--fs-h1);line-height:1.25;margin:0 0 6px;font-weight:800">'+esc(title)+'</h2><p style="font-size:var(--fs-cap);margin:0">'+esc(sub)+'</p><p style="font-size:var(--fs-cap);margin:6px 0 0;opacity:.75">Chưa có ảnh chụp đúng địa danh này</p></div><div class="pad">';
 }
 function setItemTopbar(prov,kindLabel){
   document.getElementById("topTitle").textContent=(prov.id==="lam-dong"?"Đà Lạt · Lâm Đồng":prov.name);
@@ -1191,7 +1201,7 @@ function factShort(full,isPrice){
 /* Mùa đẹp cho từng địa danh: ưu tiên mùa riêng của điểm (info.mua_dep), không có thì lấy mùa chung của tỉnh và ghi rõ */
 function placeSeason(x,prov){
   if(x && x.info && x.info.mua_dep) return x.info.mua_dep;
-  var b=prov&&((prov.season&&prov.season.best)||prov.best_season);
+  var b=prov&&(prov.best_season||(prov.season&&prov.season.best)); /* season.best có tỉnh ghi theo tháng hiện tại ("Tháng 11/2026"), không dùng làm mùa đẹp */
   return b?("Theo mùa chung của "+prov.name+": "+b):"Chưa có dữ liệu mùa đẹp";
 }
 function factCell(label,full,isPrice){
@@ -1207,7 +1217,7 @@ function openProvPlace(provId,placeId){
     ? '<p class="muted"><b>Chưa có tọa độ</b> — điểm này chưa ghim được lên bản đồ. Địa chỉ ở trên là căn cứ để tìm đường.</p>'
     : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
   document.getElementById("itemDetail").innerHTML =
-    provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name) +
+    provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</span>'+'</div>'+
     '<div class="kv">'+factCell("Giá vé / chi phí",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
@@ -1398,7 +1408,7 @@ function priceShort(txt){
   if(/miễn phí/i.test(seg) && !/\d/.test(seg)) return "Miễn phí";
   /* Ưu tiên con số trong đoạn đầu (giá chính); chỉ khi đoạn đầu không có số mới lấy khoảng giá ở phần sau */
   var R=/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/, S=/\d{1,3}(?:\.\d{3})+\s*đ/;
-  var m=seg.match(R)||seg.match(S)||seg.match(/\d+\s*đ/)||t.match(R)||t.match(S);
+  var m=seg.match(R)||seg.match(S)||seg.match(/\d+\s*đ(?![a-zà-ỹ])/i)||seg.match(/\d{1,3}(?:\.\d{3})*\s*USD/)||t.match(R)||t.match(S);
   if(m) return m[0].replace(/\s+/g," ");
   if(/miễn phí/i.test(t)) return "Miễn phí";
   return seg.length>64?seg.slice(0,64)+"…":seg;
