@@ -23,6 +23,11 @@ function tachTu(q) {
   if (m) return { from: m[1], to: m[2] };
   m = q.match(/(?:^|\s)đi\s+(.+?)\s+từ\s+(.+?)(?:\s+bằng gì|\s+mất|\?|$)/i);
   if (m) return { from: m[2], to: m[1] };
+  /* câu thật: "Hà Nội đi Sa Pa: ...", "tour ... khởi hành từ Sài Gòn" — chỉ nhận khi cả 2 phía là nơi có trong dữ liệu */
+  m = q.match(/^(.{2,30}?)\s+đi\s+(.{2,30}?)(?::|\?|,|\s+bằng|$)/i);
+  if (m && C.dich(m[1]) && C.dich(m[2])) return { from: m[1], to: m[2] };
+  m = q.match(/^(.+?)[\s,]+khởi hành\s+từ\s+(.{2,30}?)(?:\s+ngày\b.*)?$/i);
+  if (m && C.dich(m[1]) && C.dich(m[2])) return { from: m[2], to: m[1] };
   return null;
 }
 function hoi(q, ky, extra) {
@@ -92,13 +97,14 @@ function bo(file, ten, nguong, dieuKien) {
     else if (c.loai === "mua-trang") k = C.chamMua(c.q);
     else {
       const o = { ky: c.ky, ctx: !!c.tiep };
+      if (c.tgTen) o.tg = C.dich(c.tgTen);
       if (c.dich !== undefined) o.tg = c.dich ? C.TEN.find(t => t.t === c.dich.t && !t.tat && (!c.dich.p || t.ref.p.id === c.dich.p) && JSON.stringify(t.ref && (t.ref.x ? t.ref.x.id : t.ref)) === JSON.stringify(c.dich.ref)) || C.dich(c.dich.ten) : null;
       if (c.loaiHoi) o.loai = c.loaiHoi;
       if (c.dung) { o.dung = c.dung; o.dungId = c.dungId; }
       if (c.from) o.from = c.from;
       if (c.cam) o.cam = c.cam;
       if (c.truoc) { C.A.ctx.reset(); c.truoc.forEach(q => C.W.askBuiTrip(q)); o.ctx = true; }
-      k = c.tg === undefined && !c.truoc && !c.tiep ? hoi(c.q, c.ky, o) : C.chamHoi(c.q, c.ky, o);
+      k = c.tg === undefined && !c.tgTen && !c.truoc && !c.tiep ? hoi(c.q, c.ky, o) : C.chamHoi(c.q, c.ky, o);
       if (c.duPhong && !/App chưa có thông tin này/.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "thiếu dự phòng", ghi: "câu ngoài dữ liệu không dùng dự phòng" });
       if (c.duPhong && /App chưa có thông tin này/.test(k.text) && !/Cách khác/.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "thiếu dự phòng", ghi: "dừng ở 'App chưa có thông tin này'" });
       if (c.phaiCo) c.phaiCo.forEach(s => { if (fold(k.text).indexOf(fold(s)) < 0) k.loi.push({ muc: "NẶNG", loai: "thiếu nội dung", ghi: "thiếu '" + s + "'" }); });
@@ -112,13 +118,14 @@ function bo(file, ten, nguong, dieuKien) {
   if (Object.keys(nh).length > 1) Object.keys(nh).forEach(g => console.log("  " + g.padEnd(30) + " " + nh[g][0] + "/" + nh[g][1]));
   const show = (a, t) => { if (!a.length) return; console.log("  -- " + t + " (" + a.length + ")"); a.slice(0, IN).forEach(({ c, k }) => console.log("    " + (c.truoc ? "[" + c.truoc.join(" → ") + "] → " : "") + c.q + "\n      " + k.loi.map(e => e.muc + " " + e.loai + ": " + e.ghi).join(" | ").slice(0, 260) + "\n      trả: " + k.text.slice(0, 160))); };
   show(ch, "CHẶN"); show(bad, "sai");
-  if (r < nguong || (nguong >= 1 && ch.length) || (file === "sinh-them.json" && false)) fail = true;
+  if (r < nguong || ((nguong >= 1 || file === "cau-hoi-that.json") && ch.length) || (file === "sinh-them.json" && false)) fail = true;
   return { ok, n: xs.length, ch: ch.length };
 }
 if (!ARG.includes("--chi-bank")) {
   bo("live-120.json", "120 câu đã kiểm live 23/11", 1, "120/120");
   bo("ngoai-du-lieu.json", "20 câu ngoài dữ liệu", 1, "20/20 dự phòng 3 phần");
   const s = bo("sinh-them.json", "Bộ sinh thêm", 0.85, "≥ 85%");
+  bo("cau-hoi-that.json", "Câu hỏi thật từ diễn đàn ("+JSON.parse(fs.readFileSync(path.join(DIR,"cau-hoi-that.json"),"utf8")).n+" câu)", 0, "0 CHẶN; đo độ phủ");
 }
 console.log(fail ? "\nhypotheses: TRƯỢT tiêu chí" : "\nhypotheses: đạt");
 process.exit(fail ? 1 : 0);

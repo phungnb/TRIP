@@ -16,7 +16,7 @@ var BTAI = window.BTAI = window.BTAI || {};
   /* Từ hỏi và từ chỉ ý định: bỏ đi để còn lại tên nơi/món người dùng hỏi */
   var QWORDS = ["gia ve vao cong", "co san bay", "san bay", "co ga tau", "ga tau", "gia ve", "ve vao cong", "ve vao", "bao nhieu tien", "het bao nhieu", "mat bao nhieu", "bao nhieu", "chi phi",
     "gio mo cua", "gio dong cua", "may gio", "mo cua", "dong cua", "thang may", "thang nao", "mua nao", "khi nao", "luc nao", "mua dep", "thoi diem",
-    "dep nhat", "nguoi lon", "tre em", "tham quan", "nhu the nao", "the nao", "bang gi", "an gi", "o dau", "di dau", "choi gi", "co gi choi", "co gi",
+    "dep nhat", "nguoi lon", "tre em", "tham quan", "nhu the nao", "the nao", "bang cach nao", "hien nay", "hien tai", "bang gi", "an gi", "o dau", "di dau", "choi gi", "co gi choi", "co gi",
     "lich trinh", "may ngay", "ngay dem", "khach san", "homestay", "duoc khong", "cho minh hoi", "cho hoi", "minh hoi", "mang gi", "mang theo", "mac gi",
     "can chuan bi", "chuan bi", "dac san", "quan an", "ngon", "re", "dat", "nen", "tot nhat", "o", "mat", "lau", "gio", "dep", "gia", "ve", "tien", "phi",
     "di", "toi", "den", "tu", "thi", "la", "co", "khong", "nhi", "vay", "a", "nhe", "may", "bao", "vao", "len", "xem", "choi", "cua", "oi", "cho", "minh",

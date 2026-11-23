@@ -1,0 +1,813 @@
+{
+"ghi": "161 câu hỏi tiếng Việt nguyên văn từ diễn đàn, nhóm, trang FAQ công khai (thu 23/11/2026, file cau-hoi-that-vn.json trên Drive). Không có tên người hỏi. Chỉ dùng để kiểm và học cách hỏi; đáp án do cham.mjs suy từ dữ liệu. Đã bỏ câu tiếng Anh.",
+"n": 161,
+"cau": [
+{
+"nhom": "Câu thật – Bắc",
+"q": "Các Bác ơi cho em hỏi, em dự định 14/03 có dự định du lịch 3 ngày 2 đêm. Em đang phân vân trong 3 điểm, Lô Lô Chải, Đồng Văn, Mèo Vạc. Thì em nên nghỉ 2 đêm ở đâu ạ. Đây là lần đầu em đi ra Bắc, dự định 2 vợ chồng tự thuê xe máy từ Hà Giang rồi chạy cá nhân không có đi tour.",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Phiền các Bác thêm 1 lần nữa, các Bác có thể lên lộ trình phù hợp giúp em theo phương án 1 đêm ở lô lô chải 1 đêm ở đồng văn được không ạ. Đi sông nho quế thì em nên đi vào ngày thứ 2 hay là ngày thứ 3 rồi về lại hà giang luôn?",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Dạ vậy ngày đầu em vẫn nên ở Lô Lô Chải là hợp lý à Bác",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "em sinh viên budget 5 củ 2 người có đủ chơi khôg các bác. xuất phát từ Hà Nội",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Ae nào đang trên HG update tình hình hoa hoét dùm coi!!",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Vô tình xem youtube thấy có chổ này đẹp ghê mà em ko biết ở đâu, các Bác biết ở đâu share em với ạ",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "mình thấy chổ này trên đoạn DT176 không biết đoạn DT176 này về TP Hà Giang đi có ổn ko ạ. Mình lần đầu đi Hà Giang thôi chưa có kinh nghiệm nhìu",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua khúc cua chữ M về Mậu Duệ - đoạn này đường ngon hết rồi chạy tẹt.\" nếu có kèm google map thì \"Công Đức Vô Lượng\"",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Ban đầu em định đi về theo đường này (Nét màu đỏ)... Nhưng do em vẫn còn chấp niệm cái chổ viewpoint Lũng Hồ quá nên định view point Lũng Hồ xong em quành lại đi cung đường này về Hà Giang, thấy ngắn hơn mà ko biết đường xá thế nào nhờ bác chia sẻ thêm ạ.",
+"nguon": "VOZ — thread Hà Giang đi mãi không chán — https://voz.vn/t/ha-giang-di-mai-khong-chan.647334/page-51"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi Hà Giang như thế nào?",
+"nguon": "Tinhte — Khám Phá Hà Giang - Tuyệt tác thiên nhiên nơi núi rừng Tây Bắc — https://tinhte.vn/thread/kham-pha-ha-giang-tuyet-tac-thien-nhien-noi-nui-rung-tay-bac.3232002/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Thuê xe máy Hà Giang như nào?",
+"nguon": "Tinhte — Khám Phá Hà Giang - Tuyệt tác thiên nhiên nơi núi rừng Tây Bắc — https://tinhte.vn/thread/kham-pha-ha-giang-tuyet-tac-thien-nhien-noi-nui-rung-tay-bac.3232002/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đến Hà Giang mùa nào đẹp nhất?",
+"nguon": "Tinhte — Kinh nghiệm phượt, du lịch cùng Bạn Bè Tại Hà Giang 2018 — https://tinhte.vn/thread/kinh-nghiem-phuot-du-lich-cung-ban-be-tai-ha-giang-2018.2791089/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Có thể đi Hà Giang bằng cách nào?",
+"nguon": "Tinhte — Kinh nghiệm phượt, du lịch cùng Bạn Bè Tại Hà Giang 2018 — https://tinhte.vn/thread/kinh-nghiem-phuot-du-lich-cung-ban-be-tai-ha-giang-2018.2791089/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi xe máy hay xe ô tô để khám phá Hà Giang?",
+"nguon": "Tinhte — Kinh nghiệm phượt, du lịch cùng Bạn Bè Tại Hà Giang 2018 — https://tinhte.vn/thread/kinh-nghiem-phuot-du-lich-cung-ban-be-tai-ha-giang-2018.2791089/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nếu không có xe riêng, và không đi được xe máy thì sao?",
+"nguon": "Tinhte — Kinh nghiệm phượt, du lịch cùng Bạn Bè Tại Hà Giang 2018 — https://tinhte.vn/thread/kinh-nghiem-phuot-du-lich-cung-ban-be-tai-ha-giang-2018.2791089/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Cho em hỏi đường lên mộc châu chú ý gì?",
+"nguon": "OTOFUN — Cho em hỏi đường lên mộc châu chú ý gì — https://www.otofun.net/threads/cho-em-ho%CC%89i-duo%CC%80ng-len-mo%CC%A3c-chau-chu%CC%81-y%CC%81-gi%CC%80.310183/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi Mộc Châu gặp sương mù nên bật đèn pha hay chỉ bật cos thôi?",
+"nguon": "OTOFUN — Cho em hỏi đường lên mộc châu chú ý gì — https://www.otofun.net/threads/cho-em-ho%CC%89i-duo%CC%80ng-len-mo%CC%A3c-chau-chu%CC%81-y%CC%81-gi%CC%80.310183/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto",
+"nguon": "OTOFUN — Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto — https://www.otofun.net.vn/threads/xin-thinh-giao-di-cat-ba-tu-ha-noi-bang-xe-oto.94021/page-2"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "các Bác cho em hỏi đường đi từ Gia luận đến CB đi 4B có khó khăn lắm ko?",
+"nguon": "OTOFUN — Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto — https://www.otofun.net.vn/threads/xin-thinh-giao-di-cat-ba-tu-ha-noi-bang-xe-oto.94021/page-2"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
+"nguon": "OTOFUN — Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto — https://www.otofun.net.vn/threads/xin-thinh-giao-di-cat-ba-tu-ha-noi-bang-xe-oto.94021/page-2"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Du lịch Sapa mùa nào đẹp nhất? Nên đi vào tháng mấy?",
+"nguon": "Bazaar Vietnam — Du lịch Sapa mùa nào đẹp nhất? — https://bazaarvietnam.vn/du-lich-sapa-mua-nao-dep-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi Sapa tháng mấy?",
+"nguon": "Vexere — Nên đi Sapa tháng mấy? — https://blog.vexere.com/nen-di-sapa-vao-thang-may-goi-y-lua-chon-thoi-diem-phu-hop-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi Sa Pa vào tháng mấy để có trải nghiệm đáng nhớ nhất",
+"nguon": "Visit Sapa — Nên đi Sa Pa vào tháng mấy — https://visitsapa.com.vn/vi/nen-di-sa-pa-vao-thang-may-de-co-trai-nghiem-dang-nho-nhat-5142"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Sapa tháng 1 có tuyết không",
+"nguon": "Vexere — Nên đi Sapa tháng mấy? — https://blog.vexere.com/nen-di-sapa-vao-thang-may-goi-y-lua-chon-thoi-diem-phu-hop-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Thời điểm đi Sapa là khi nào?",
+"nguon": "Vietnam Tourist — Thông tin cần thiết cho chuyến du lịch tự túc Sapa — https://vietnamtouristvn.com/thong-tin-can-biet-truoc-khi-du-lich-tu-tuc-sapa?p=1"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Để có 1 chuyến Sapa thì bạn cần chuẩn bị những gì?",
+"nguon": "Vietnam Tourist — Thông tin cần thiết cho chuyến du lịch tự túc Sapa — https://vietnamtouristvn.com/thong-tin-can-biet-truoc-khi-du-lich-tu-tuc-sapa?p=1"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Kinh nghiệm du lịch Sapa: Ăn gì, chơi ở đâu dành cho người mới",
+"nguon": "Vexere — Kinh nghiệm du lịch Sapa — https://blog.vexere.com/kinh-nghiem-du-lich-sapa/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Review Du Lịch Sapa Từ A – Z: Ăn Gì, Chơi Gì, Ở Đâu Đẹp?",
+"nguon": "Ecotour — Review du lịch Sapa từ A-Z — https://ecotour.com.vn/review-du-lich-sapa"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Chi phí du lịch Sapa hết bao nhiêu?",
+"nguon": "Vexere — Kinh nghiệm du lịch Sapa — https://blog.vexere.com/kinh-nghiem-du-lich-sapa/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Cần chuẩn bị gì khi đi du lịch Sapa",
+"nguon": "Ecotour — Review du lịch Sapa từ A-Z — https://ecotour.com.vn/review-du-lich-sapa"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Mua gì ở Sapa?",
+"nguon": "Ecotour — Review du lịch Sapa từ A-Z — https://ecotour.com.vn/review-du-lich-sapa"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Sapa đi đâu?",
+"nguon": "Facebook — Traveloka Vietnam — https://www.facebook.com/TravelokaVN/posts/pfbid02UYr1YUmmhLPeMyCh8GLrVRZ2iahDsh5KMzD8xgBPSYdS6oAHtmEpayGbefW18wnAl"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
+"nguon": "Rent Bike Hanoi — Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày — https://rentbikehanoi.com/vi/ha-noi-di-sa-pa-tau-hoa-xe-khach-hay-xe-may-nhieu-ngay/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi Sapa bằng tàu hay ô tô?",
+"nguon": "Crystal Bay — Nên đi Sapa bằng tàu hay ô tô? — https://crystalbay.com/35-nen-di-sapa-bang-tau-hay-o-to-n57062.html"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Cách lựa chọn phương tiện phù hợp khi đi Sapa",
+"nguon": "Nam Thắng Sapa — Cách lựa chọn phương tiện phù hợp khi đi Sapa — https://namthangsapa.com/cach-lua-chon-phuong-tien-phu-hop-khi-di-sapa/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Du lịch Hà Giang mùa thu tháng nào đẹp, đi cung nào?",
+"nguon": "Du Lịch Việt — Du lịch Hà Giang mùa thu 2026 — https://dulichviet.com.vn/tin-tuc/chia-se-kinh-nghiem-du-lich-ha-giang-mua-thu-tu-a-z-danh-cho-ban"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Phượt Hà Giang bằng xe máy mùa nào đẹp?",
+"nguon": "VOV — Kinh nghiệm phượt Hà Giang bằng xe máy — https://vov.gov.vn/kinh-nghiem-phuot-ha-giang-bang-xe-may-dtnew-550679"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi phượt Hà Giang bằng xe máy cần chuẩn bị những gì?",
+"nguon": "VOV — Kinh nghiệm phượt Hà Giang bằng xe máy — https://vov.gov.vn/kinh-nghiem-phuot-ha-giang-bang-xe-may-dtnew-550679"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi Hà Giang vào thời điểm nào?",
+"nguon": "Du Lịch Vivu — Hà Giang — https://www.dulichvivu.vn/dia-diem/ha-giang"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Mộc Châu mùa hoa mận nở vào tháng mấy?",
+"nguon": "Vexere — Mộc Châu mùa hoa mận — https://blog.vexere.com/moc-chau-mua-hoa-man/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Mộc Châu mùa nào đẹp nhất?",
+"nguon": "Taxi Tà Xùa — Mộc Châu mùa nào đẹp nhất? — https://taxitaxua.com/cam-nang/moc-chau-mua-nao-dep-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Mùa hoa mận Mộc Châu vào tháng mấy?",
+"nguon": "Taxi Tà Xùa — Mộc Châu mùa nào đẹp nhất? — https://taxitaxua.com/cam-nang/moc-chau-mua-nao-dep-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi Mộc Châu từ Hà Nội thế nào?",
+"nguon": "Taxi Tà Xùa — Mộc Châu mùa nào đẹp nhất? — https://taxitaxua.com/cam-nang/moc-chau-mua-nao-dep-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Kết hợp Mộc Châu và Tà Xùa được không?",
+"nguon": "Taxi Tà Xùa — Mộc Châu mùa nào đẹp nhất? — https://taxitaxua.com/cam-nang/moc-chau-mua-nao-dep-nhat/",
+"tgTen": "Tà Xùa",
+"ghiCham": "câu gộp 2 nơi cùng tỉnh: trả Tà Xùa là đúng"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Du lịch Điện Biên có gì?",
+"nguon": "Bazaar Vietnam — Du lịch Điện Biên tự túc: Cẩm nang 3N2Đ — https://bazaarvietnam.vn/du-lich-dien-bien-3-ngay-2-dem/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Du lịch Điện Biên mùa nào đẹp?",
+"nguon": "Bazaar Vietnam — Du lịch Điện Biên tự túc: Cẩm nang 3N2Đ — https://bazaarvietnam.vn/du-lich-dien-bien-3-ngay-2-dem/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đến Điện Biên bằng phương tiện gì?",
+"nguon": "Bazaar Vietnam — Du lịch Điện Biên tự túc: Cẩm nang 3N2Đ — https://bazaarvietnam.vn/du-lich-dien-bien-3-ngay-2-dem/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Điện Biên Phủ nên đi mấy ngày?",
+"nguon": "Du Lịch 1 — Du lịch Điện Biên Phủ: lịch trình 2–4 ngày — https://www.dulich1.com/dienbienphu/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Hạ Long 2 ngày 1 đêm nên ăn gì, chơi gì, đi đâu?",
+"nguon": "Du Lịch Việt — Du lịch Hạ Long 2 ngày 1 đêm — https://dulichviet.com.vn/tin-tuc/review-kinh-nghiem-du-lich-ha-long-2-ngay-1-dem-an-gi-choi-gi"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên du lịch Hạ Long 2 ngày 1 đêm tự túc vào mùa nào?",
+"nguon": "Bazaar Vietnam — Lịch trình du lịch Hạ Long 2 ngày 1 đêm — https://bazaarvietnam.vn/lich-trinh-du-lich-ha-long-2-ngay-1-dem/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đảo nào ở Quảng Ninh đẹp để tắm biển?",
+"nguon": "Hanoi Etoco — Tour Quảng Ninh Hải Phòng từ Hà Nội — https://hanoietoco.com/dulich/trang/111/2.html"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi tàu ra đảo có phụ thuộc thời tiết không?",
+"nguon": "Hanoi Etoco — Tour Quảng Ninh Hải Phòng từ Hà Nội — https://hanoietoco.com/dulich/trang/111/2.html"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên đi biển đảo Quảng Ninh mùa nào?",
+"nguon": "Hanoi Etoco — Tour Quảng Ninh Hải Phòng từ Hà Nội — https://hanoietoco.com/dulich/trang/111/2.html"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Giá vé cáp treo Yên Tử hiện nay là bao nhiêu tiền?",
+"nguon": "Du Lịch Pro — Review kinh nghiệm đi du lịch Yên Tử — https://dulich.pro.vn/kinh-nghiem-di-yen-tu?fbclid=IwAR2-nYbuvmVNDrFNIUB7z6yyXZ8AT3Rdk3TRwM5uOMX7Fist-blNKsOIZ18"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Yên Tử ở đâu?",
+"nguon": "Du Lịch Pro — Review kinh nghiệm đi du lịch Yên Tử — https://dulich.pro.vn/kinh-nghiem-di-yen-tu?fbclid=IwAR2-nYbuvmVNDrFNIUB7z6yyXZ8AT3Rdk3TRwM5uOMX7Fist-blNKsOIZ18"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Bạn có biết giá vé tàu cao tốc Cô Tô là bao nhiêu và đặt vé online nhanh nhất như thế nào chưa?",
+"nguon": "AZgo Travel — Lịch trình và giá vé tàu cao tốc Cô Tô — https://azgotravel.vn/tin-tuc/gia-ve-tau-cao-toc-co-to"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Cảng quốc tế Ao Tiên nằm ở đâu? Đường đi và các tuyến tàu chạy như thế nào?",
+"nguon": "Du Lịch Pro — Review kinh nghiệm, vé tàu từ cảng Ao Tiên Vân Đồn — https://dulich.pro.vn/cang-quoc-te-ao-tien-van-don"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Du lịch Bình Liêu mùa nào đẹp nhất?",
+"nguon": "Golden Coto — Du Lịch Bình Liêu Mùa Nào Đẹp Nhất? — https://goldencoto.vn/binh-lieu-mua-nao-dep/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Đi Bình Liêu mùa nào đẹp để ngắm nhìn lúa chín?",
+"nguon": "Golden Coto — Du Lịch Bình Liêu Mùa Nào Đẹp Nhất? — https://goldencoto.vn/binh-lieu-mua-nao-dep/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "24 tiếng ở Hà Nội ăn gì ngon, đi đâu chơi?",
+"nguon": "Vietnamnet — 24 tiếng ở Hà Nội ăn gì ngon, đi đâu chơi? — https://vietnamnet.vn/24-tieng-o-ha-noi-an-gi-ngon-di-dau-choi-2430084.html"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Tour Ninh Bình 2N1Đ giá bao nhiêu?",
+"nguon": "Ngọc Anh Travel — Tour Ninh Bình 2N1Đ từ Hải Phòng — https://ngocanhtravel.vn/tour/ninh-binh-2-ngay-1-dem-hoa-lu-tam-coc-hang-mua-bai-dinh-trang-an/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Chi phí trung bình cho một người tham quan Ninh Bình là bao nhiêu?",
+"nguon": "Sóc Trăng Tourism — Lập lịch trình du lịch Ninh Bình 2 ngày 1 đêm — https://soctrangtourism.vn/lich-trinh-di-ninh-binh-2-ngay-1-dem/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Nên du lịch Ninh Bình 2 ngày 1 đêm vào mùa nào?",
+"nguon": "Vexere — Lịch trình du lịch Ninh Bình 2 ngày 1 đêm — https://blog.vexere.com/lich-trinh-du-lich-ninh-binh-2-ngay-1-dem-tu-tuc-chi-tiet-nhat/"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Tràng An đi tuyến nào đẹp?",
+"nguon": "Lavia Travel — Du lịch 30/4 - 1/5 nên đi đâu? — https://Laviatravel.vn/blog/du-lich-30-4-1-5-nen-di-dau-top-diem-den-dep-nhat-ba-mien-viet-nam"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Tháng 10 du lịch ở đâu miền Bắc?",
+"nguon": "Phan Văn Travel — Tháng 10 du lịch ở đâu miền Bắc? — https://phanvantravel.com/thang-10-du-lich-o-dau-mien-bac"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "DU LỊCH 30/4 - 1/5 NÊN ĐI ĐÂU?",
+"nguon": "Lavia Travel — Du lịch 30/4 - 1/5 nên đi đâu? — https://Laviatravel.vn/blog/du-lich-30-4-1-5-nen-di-dau-top-diem-den-dep-nhat-ba-mien-viet-nam"
+},
+{
+"nhom": "Câu thật – Bắc",
+"q": "Ba Bể ở đâu, đi bằng gì",
+"nguon": "Túc Tắc — Ba Bể mùa nước xanh — https://tuctac.app/blog/ba-be-dong-puong-thuyen-doc-moc/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
+"nguon": "Facebook — bình luận dưới video The Florest Đà Lạt | https://www.facebook.com/theflorestdalat/videos/1128125632693735/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Cho minh xin địa chỉ vs ạ",
+"nguon": "Facebook — bình luận dưới video The Florest Đà Lạt | https://www.facebook.com/theflorestdalat/videos/1128125632693735/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Tuan sau còn hoa dep ntn ko mn oi",
+"nguon": "Facebook — bình luận dưới video The Florest Đà Lạt | https://www.facebook.com/theflorestdalat/videos/1128125632693735/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Có lạnh không bạn",
+"nguon": "Facebook — bình luận dưới bài Dalat Fairytale Land | https://www.facebook.com/dalatfairytaleland/posts/pfbid0Lg1RgtReaB9jbd99zY9GaKJAfRtoyhjvdAhobgBgWd48Wqv2twyd1D3yNikfYuk3l"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Đà Lạt mấy nay có mưa kg ad, cập nhật cho mình tí thời tiết với.",
+"nguon": "Facebook — bình luận dưới bài Ghiền Đà Lạt | https://www.facebook.com/GDL.GhienDalat/posts/pfbid02ZX3uL5suphYwFUtwpFnN5CsGSnQ67wvDG3wgE6j7wL6LpdJX316qV91CyJobP9ySl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Địa chỉ ngắm hoa này ở đâu DL ạ.",
+"nguon": "Facebook — bình luận dưới reel phượng tím, Ghiền Đà Lạt | https://www.facebook.com/reel/1325627161878583/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Tháng 10 ĐLat có mưa nhiều ko ạ ?",
+"nguon": "Facebook — bình luận dưới bài Ghiền Đà Lạt | https://www.facebook.com/GDL.GhienDalat/posts/pfbid026jQstTzScdfxXgtqC8RGudWuH4tAmHqJYkQz4WCWSTe5nqaug2Eis6v7UsJTavhtl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Đi xe máy từ trung tâm ra đường dễ đi không dạ ad ơi",
+"nguon": "Facebook — bình luận dưới bài Ghiền Đà Lạt (Làng K'long K'lanh) | https://www.facebook.com/GDL.GhienDalat/posts/pfbid02NP8Xmj7pf6fjxhAzVTsGoaTrgwoPzHnWqKYcz9AhxqJHZbZwqddY4qLcZPmU6Agdl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Đây là ở đâu nhỉ, suối Tía hả ad",
+"nguon": "Facebook — bình luận dưới bài Đà Lạt + | https://www.facebook.com/loveindalat/posts/pfbid0C6Co4Q2Q1C3wSYayCC73d1NgCPDMjWTtQYemuJ2TnkrGWcMPJWEXhYPGkvbSrzbSl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Nay Đà Lạt có lễ gì vậy ad",
+"nguon": "Facebook — bình luận dưới bài Ghiền Đà Lạt | https://www.facebook.com/GDL.GhienDalat/posts/pfbid0DjumZRbo2BSv7LTzKFibjf59VrGDDema49q55eWQ39NaYgV9SZt4TMhYEUxLzEMPl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Bán từ 14h tới mấy giờ dzay ad",
+"nguon": "Facebook — bình luận dưới reel Bánh Vạc Tôm Quy Nhơn | https://www.facebook.com/reel/1417362800233011/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "ăn hải sản ở đâu???",
+"nguon": "Facebook — bình luận dưới bài về Quy Nhơn | https://www.facebook.com/puddingv/posts/pfbid02pNHferK8YKR9UQHMJxWyR6Ae5RECL8s3w4U2xBFxBhvfr8GRXqsm9AJUJC3QuPVbl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Bánh canh bán ở đâu vậy bạn",
+"nguon": "Facebook — bình luận dưới bài về Quy Nhơn | https://www.facebook.com/conmua.voiva.9/posts/pfbid023J71hqErBJhWVJ5ePYr8JC7Bw5dVHgdWcudDqD7gNFtgfk5jKN7t5HyWpwCpQ7szl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Lễ hội diều ngày nào và diễn ra ở đâu ad ơi??",
+"nguon": "Facebook — bình luận dưới bài PYS Travel Quy Nhơn | https://www.facebook.com/pystravel/posts/pfbid02jejYZovpPtLLwSeoV1YNLgUPLjX5oSFTxP6qjwLvyQ3i9KLToA5E6cWXDe4zxDzVl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Bà bán mấy giờ vậy bạn ơi.",
+"nguon": "Facebook — bình luận dưới bài Hello Quy Nhon | https://www.facebook.com/HelloQuyNhon.City/posts/pfbid0DgnpkKrk6171r4LLsrQwL16DJZDVjHUsEEgjVTsLfThSEH2yyyqEhJTuNWtwyZ25l"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "e xin ít đc ăn ngon ở qn vs ạ,",
+"nguon": "Facebook — bình luận dưới bài về Quy Nhơn | https://www.facebook.com/vinhthichanngon/posts/pfbid02Z65FjYfB36NMAexHnUzFSFDFVyR6hPvoEToWk4dxdocxdUcr3oxs51aoXXfgu9EFl"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "When you come to Quy Nhơn, what should you do?",
+"nguon": "Facebook — bình luận dưới reel Quy Nhơn | https://www.facebook.com/reel/2475051202991904/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Nhà xe đi Quy Nhơn - Bình Định từ Đà Lạt - Lâm Đồng được đánh giá tốt nhất?",
+"nguon": "Vexere — mục Câu hỏi thường gặp, tuyến Đà Lạt đi Quy Nhơn | https://vexere.com/vi-VN/ve-xe-khach-tu-da-lat-lam-dong-di-quy-nhon-binh-dinh-2399t2681.html"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Từ Đà Lạt - Lâm Đồng đi Quy Nhơn - Bình Định mất bao nhiêu tiếng khi di chuyển bằng xe khách?",
+"nguon": "Vexere — mục Câu hỏi thường gặp, tuyến Đà Lạt đi Quy Nhơn | https://vexere.com/vi-VN/ve-xe-khach-tu-da-lat-lam-dong-di-quy-nhon-binh-dinh-2399t2681.html"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Ui ! Từ HN đi thế nào để đến Măng Đen ???",
+"nguon": "Facebook — bình luận dưới reel Măng Đen | https://www.facebook.com/reel/982635454271453/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Where to go? What to do in Măng Đen?",
+"nguon": "Facebook — bình luận dưới bài iVIVU về Măng Đen | https://www.facebook.com/iVIVU/posts/pfbid0jcFhYyfeim2BtBgJWaRbKXBhDcfmRSfccPvrfGkzFo8gs6BQQfEUFuwZACaWQLB9l"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Chị An e xin địa chỉ những món ăn ngon ở Huế",
+"nguon": "Facebook — bình luận dưới video ẩm thực Huế | https://www.facebook.com/amthucanden/videos/1300494534974928/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Em xik tên, địa chỉ quán với ạ?",
+"nguon": "Facebook — bình luận dưới reel món Huế | https://www.facebook.com/reel/1471166924734071/"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "mắm gì nhìn hấp dẫn v mn?",
+"nguon": "Facebook — bình luận dưới bài món Huế | https://www.facebook.com/permalink.php?story_fbid=pfbid0bGPVbjpWdmDdTghy4CWQE7YUAhfoqDL85k87p4err13C2TRGDwgeUZJ6NMiXrEdql&id=61558608564556"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "home base hoi an vs da nang?",
+"nguon": "TripAdvisor — Diễn đàn Hội An | https://www.tripadvisor.ca/ShowForum-g298082-i9204-Hoi_An_Quang_Nam_Province.html"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Hoi An beach holiday too humid in May?",
+"nguon": "TripAdvisor — Diễn đàn Hội An | https://www.tripadvisor.ca/ShowForum-g298082-i9204-Hoi_An_Quang_Nam_Province.html"
+},
+{
+"nhom": "Câu thật – Trung – Tây Nguyên",
+"q": "Hoi An floating lanterns",
+"nguon": "TripAdvisor — Diễn đàn Hội An | https://www.tripadvisor.ca/ShowForum-g298082-i9204-Hoi_An_Quang_Nam_Province.html"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Biển nào đây ạ?",
+"nguon": "Facebook — Rooty Trip, reel Phú Quốc — https://www.facebook.com/reel/2523639424819944/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Xin Tour ạ",
+"nguon": "Facebook — Rooty Trip, reel Phú Quốc — https://www.facebook.com/reel/2523639424819944/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Ko biết lội ngắm san ho được ko ạ",
+"nguon": "Facebook — Rooty Trip, reel Phú Quốc — https://www.facebook.com/reel/2523639424819944/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "đi tháng mấy",
+"nguon": "Facebook — Sông Công Travel, bài Phú Quốc — https://www.facebook.com/songcongtravel.vn/posts/pfbid0kyAFNfsz2gerK4JfuyiBWSfkfgovv556xKArn95mmNN1w1UzihmCcU28cJWc4seGl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "4N3Đ ở khách sạn nào em oi",
+"nguon": "Facebook — Sông Công Travel, bài Phú Quốc — https://www.facebook.com/songcongtravel.vn/posts/pfbid0kyAFNfsz2gerK4JfuyiBWSfkfgovv556xKArn95mmNN1w1UzihmCcU28cJWc4seGl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Cho xem chi tiết combo và lịch trình ngày giờ đi",
+"nguon": "Facebook — Sông Công Travel, bài Phú Quốc — https://www.facebook.com/songcongtravel.vn/posts/pfbid0kyAFNfsz2gerK4JfuyiBWSfkfgovv556xKArn95mmNN1w1UzihmCcU28cJWc4seGl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Hiện tại Sun Phú Quốc Airway đã có các chuyến bay nội địa trên toàn quốc chưa hay chỉ mới có vài chặng bay nhất định thôi ad?",
+"nguon": "Facebook — Sun PhuQuoc Airways — https://www.facebook.com/SunPhuQuocAirwaysFanpage/posts/pfbid0JScUmqa3ZDazyPR69jarYLdG66cD5dvs8JSLa4tdTW72nb2bPAMeZ5MjoZoMbq9Nl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Xin thông tin tour xuyên việt",
+"nguon": "Facebook — DuLichViet — https://www.facebook.com/dulichviet/posts/pfbid02Mo7dWoVbPbUtzskbktdxkjXUZYRGCHcrXvrxsn9t3hk2pm3ZygNYddLnH5J3h3Fhl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Xin lịch trình tour đà lạt và tour cà mau",
+"nguon": "Facebook — DuLichViet — https://www.facebook.com/dulichviet/posts/pfbid02Mo7dWoVbPbUtzskbktdxkjXUZYRGCHcrXvrxsn9t3hk2pm3ZygNYddLnH5J3h3Fhl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "300k mà đi được quá trời vậy shop",
+"nguon": "Facebook — Grand World Phú Quốc — https://www.facebook.com/GrandWorldPhuQuoc.Vietnam/posts/pfbid0XKcHirKPmG2uwa4nsc4i8qXTy7cDSiFa1ymN2gqi9c8gv5VjzsCjoHUXXGFGJGHNl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Nên chọn giường nằm với nên đi toilet trước khi lên tàu 🙂 chứ lên tàu đi toilet sóng sánh dữ lúm đúng hông chị",
+"nguon": "Facebook — reel tàu Phú Quý — https://www.facebook.com/reel/1339398310945424/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Mình muốn tour này 3 pax",
+"nguon": "Facebook — nhóm tour miền Tây — https://www.facebook.com/groups/1641454959399194/permalink/4555385208006140/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Xin giá tour",
+"nguon": "Facebook — John's Tours, Phú Quốc — https://www.facebook.com/reel/1044775564541442/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Tư vấn gói đi 4N3Đ nhé ạ",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0u1nvsgymYWi26tgEUUHWg9f2SkUvmqhKKQCS3XtRz8Lmyrae4pPDYmXs3tLV3gWXl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Nhắn mình gói đi 4N3Đ",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0u1nvsgymYWi26tgEUUHWg9f2SkUvmqhKKQCS3XtRz8Lmyrae4pPDYmXs3tLV3gWXl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Mở tuyến nào vậy c? Bắt đầu đi từ đâu?",
+"nguon": "Facebook — bài đăng du thuyền Phú Quốc — https://www.facebook.com/hang.le.passio/posts/pfbid0ywHVXd4ddwrEus85G13mYTKWVF44TTqzPm7LftvdRNScQxn7M5JdxmJCVEwEoENNl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Gia,sau vay em",
+"nguon": "Facebook — bài đăng du thuyền Phú Quốc — https://www.facebook.com/hang.le.passio/posts/pfbid0ywHVXd4ddwrEus85G13mYTKWVF44TTqzPm7LftvdRNScQxn7M5JdxmJCVEwEoENNl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Mai tàu Superdong có chạy không cả nhà",
+"nguon": "Facebook — nhóm Đảo Phú Quý Review — https://www.facebook.com/groups/daophuquyreviewtattantat/permalink/1812026036628636/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Nhìn mấy chiếc xe ngựa phục chế sao mà xấu hơn xe ngựa hồi xưa? Mẫu xe ngựa xưa nhìn đẹp mà!",
+"nguon": "Facebook — FTCtourist, miền Tây — https://www.facebook.com/reel/1859114772886440/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Tour miền Tây 2 ngày 1 đêm có Cồn Thới Sơn, khởi hành từ Sài Gòn ngày 14/9",
+"nguon": "Facebook — nhóm tour miền Tây — https://www.facebook.com/groups/164688044211769/permalink/2034793697201185/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "cho mh hỏi côn đảo nằm ở đâu vậy",
+"nguon": "Facebook — reel Côn Đảo — https://www.facebook.com/reel/1881216323269030/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Cho mình hỏi thuê xe ở đâu ạ",
+"nguon": "Facebook — reel Côn Đảo — https://www.facebook.com/reel/1650256772966298/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Cho biet ben tau Cao toc Tphcm di con Dao-tpHcm?",
+"nguon": "Facebook — Tàu Cao Tốc Superdong — https://www.facebook.com/TauSuperdong/posts/pfbid02jnFCBPYXbpUkReVX1XadBURuTSY9dLeREYPXMwpEqHMQJuq94oDDrZyRCD9CvPfFl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Rùa đẻ trứng vào tháng mấy ạ.",
+"nguon": "Facebook — Tàu Cao Tốc Superdong — https://www.facebook.com/TauSuperdong/posts/pfbid02jnFCBPYXbpUkReVX1XadBURuTSY9dLeREYPXMwpEqHMQJuq94oDDrZyRCD9CvPfFl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Giá vé bao nhiêu",
+"nguon": "Facebook — Tàu Cao Tốc Superdong — https://www.facebook.com/TauSuperdong/posts/pfbid0WXJFKdMYP3mypzzS7qU4FWiictik8wNPw5Gom77di2uTBz8thwn3eav4wvG5iFhWl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Bạn ơi núi Con Voi chỗ nào vậy ạ. Mình tra ggmap nó k có hiện",
+"nguon": "Facebook — Tàu Cao Tốc Superdong — https://www.facebook.com/TauSuperdong/posts/pfbid0Ghv3AvPXgjEW6CNriLAMFdMktpaRWGLdQXi7wKgTNNwWJujUn3v7D8gQHcHxS5zVl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có tua đi dịp cuối tuần không ạ",
+"nguon": "Facebook — Đất Việt Tour — https://www.facebook.com/datviettour/posts/pfbid0NMDcsYyBrBKnGAT3AeyHwBwivt6p9fTV3Ldaxqjvb4CvxQMPPq1h4AjfBUpTf3VBl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có mưa không em?",
+"nguon": "Facebook — reel Côn Đảo — https://www.facebook.com/reel/2025742901389103/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "bãi đầm trầu phải k nhỉ?",
+"nguon": "Facebook — reel Côn Đảo — https://www.facebook.com/reel/1095369192372250/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "mún đi Côn Đảo mà sợ say sóng còn đi máy bay thì ko có tiền :))))",
+"nguon": "Facebook — Côn Đảo Review — https://www.facebook.com/condaoreview/posts/pfbid0WwYrhcnDkW4g8N946ebuBzDbgXeb9cKh16N9Lj2GzVamfA6m1SKAtY5KTuZmsJizl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Pic này ở chỗ nào ạ",
+"nguon": "Facebook — Côn Đảo Review — https://www.facebook.com/condaoreview/posts/pfbid0WwYrhcnDkW4g8N946ebuBzDbgXeb9cKh16N9Lj2GzVamfA6m1SKAtY5KTuZmsJizl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Tv e với ạ. E đi 1ng ạ",
+"nguon": "Facebook — nhóm Review Côn Đảo — https://www.facebook.com/groups/reviewcondao.vn/permalink/2883536658648906/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Bay máy bay gì nói cho rõ nhé ATR72 hay Bombadier hay hãng gì",
+"nguon": "Facebook — iVIVU, Côn Đảo — https://www.facebook.com/iVIVU/posts/pfbid02suJfdij9rsTAaBh8AcS5gYGKMBjKgxe76Fr9y8dyEnsyssfhjgx8dBUkVjJHEPjil"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "còn vé không bạn",
+"nguon": "Facebook — iVIVU, Côn Đảo — https://www.facebook.com/iVIVU/posts/pfbid02suJfdij9rsTAaBh8AcS5gYGKMBjKgxe76Fr9y8dyEnsyssfhjgx8dBUkVjJHEPjil"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Mình xin thông tin combo nhé shop",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0PxGfgHKUjU3ZQjYxM41iyD26as7ABQMxSmxnsQYApwHji4cZxRgNgYoWDXCjhXAZl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Đi 8 người tháng 12 check chị ngày và giờ bay",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0PxGfgHKUjU3ZQjYxM41iyD26as7ABQMxSmxnsQYApwHji4cZxRgNgYoWDXCjhXAZl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Gửi c lịch đi",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0YSFrZF5s81czf1BSMj6JksDdLb7PcdMSrRnghJthT6zXxoiGSDcMSn6YoyQHYdKkl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
+"nguon": "Facebook — Sông Công Travel — https://www.facebook.com/songcongtravel.vn/posts/pfbid0YSFrZF5s81czf1BSMj6JksDdLb7PcdMSrRnghJthT6zXxoiGSDcMSn6YoyQHYdKkl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Pháp hiệu của bà là gì?",
+"nguon": "Facebook — reel Miếu Bà Chúa Xứ, Châu Đốc — https://www.facebook.com/reel/929747809544777/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "cả ngày luôn hay sao ạ",
+"nguon": "Facebook — TP Châu Đốc — https://www.facebook.com/thanhphochaudoc.angiang/posts/pfbid02T7JgMViVQbfqPwAmAYwhv3CcYfui4txqiuVYiaDiKJwcLq6AB5McqjSk4fFzketwl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Giá này trọn tour hay 1 chiều vậy a",
+"nguon": "Facebook — Xe Thành Bưởi — https://www.facebook.com/xethanhbuoi/posts/pfbid0X28SwtxwdYZy3vDKMvqUst3GaBGBvU1A12kzUjz55yxm9cQWZNaSVEP6npiew1ftl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có Tour HÀNH HƯƠNG CHA DIỆP lun ạ",
+"nguon": "Facebook — Xe Thành Bưởi — https://www.facebook.com/xethanhbuoi/posts/pfbid0X28SwtxwdYZy3vDKMvqUst3GaBGBvU1A12kzUjz55yxm9cQWZNaSVEP6npiew1ftl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Ở cầu cần thơ có rước được kg",
+"nguon": "Facebook — Xe Thành Bưởi — https://www.facebook.com/xethanhbuoi/posts/pfbid0X28SwtxwdYZy3vDKMvqUst3GaBGBvU1A12kzUjz55yxm9cQWZNaSVEP6npiew1ftl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Em đi chùa ở đâu vậy",
+"nguon": "Facebook — bài đăng Châu Đốc — https://www.facebook.com/hang.tron.664053/posts/pfbid02q8VL6cdFEpSjr4nSqGNfPxD9xoi1ZLBHJ9zmW2FPPzMhcfMuiekbh3ckJUAXcHoKl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Nên đi Phú Quốc tháng nào rẻ nhất?",
+"nguon": "FAQ — findtour.vn — https://findtour.vn/lich-trinh-du-lich-phu-quoc-3-ngay-2-dem"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Chi phí trung bình cho chuyến Phú Quốc 3N2Đ là bao nhiêu?",
+"nguon": "FAQ — findtour.vn — https://findtour.vn/lich-trinh-du-lich-phu-quoc-3-ngay-2-dem"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Từ TP.HCM đi núi Sam bằng cách nào?",
+"nguon": "FAQ — vietpedia.vn — https://vietpedia.vn/dia-danh/nui-sam-va-mieu-ba-chua-xu-an-giang"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Lễ hội Vía Bà Chúa Xứ diễn ra khi nào?",
+"nguon": "FAQ — vietpedia.vn — https://vietpedia.vn/dia-danh/nui-sam-va-mieu-ba-chua-xu-an-giang"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Đi Vũng Tàu 2 ngày 1 đêm bao nhiêu tiền?",
+"nguon": "FAQ — crystalbay.com — https://crystalbay.com/62-di-vung-tau-2-ngay-1-dem-bao-nhieu-tien-n58057.html"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "có ai vừa coi mà vừa cảm giác cái đầu nó lâng lâng theo như tui ko",
+"nguon": "Facebook — reel tàu Phú Quý — https://www.facebook.com/reel/1809529647052030/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Cho tiền cũng ko dám đi lại đây hả N",
+"nguon": "Facebook — YAN Go, reel Phú Quý — https://www.facebook.com/reel/1011771131644979/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "490k + thuế+ phí đủ loại ai tưởng tượng được tổ là bao nhiêu",
+"nguon": "Facebook — iVIVU, Côn Đảo — https://www.facebook.com/iVIVU/posts/pfbid02suJfdij9rsTAaBh8AcS5gYGKMBjKgxe76Fr9y8dyEnsyssfhjgx8dBUkVjJHEPjil"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có quà Côn Đảo không em?",
+"nguon": "Facebook — reel Côn Đảo — https://www.facebook.com/reel/2025742901389103/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "côn đảo có kèo nhậu ko kkk",
+"nguon": "Facebook — LuxuryKyLan, Côn Đảo — https://www.facebook.com/LuxuryKyLan/posts/pfbid0qhpCz7kJ3aTxH2v8aT28FNwtg5qRoHpDXNoCWAnDmZ6mWsdogyoHqxjR1qV3wFUal"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Xin lịch trình 2N1Đ với",
+"nguon": "Facebook — reel Vũng Tàu — https://www.facebook.com/reel/29076742888627476/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Giá như thế nào",
+"nguon": "Facebook — Sun World Vũng Tàu — https://www.facebook.com/SunWorld.vn/posts/pfbid0XtawYUDDtwqoNryDQZYztrov1REh712HrKPbAdjHWA3g8S1WFJkcyky7SmomfeuNl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Cho xem CT tuor nha",
+"nguon": "Facebook — Vietourist, Vũng Tàu — https://www.facebook.com/vietourist.com.vn/posts/pfbid0SssK5jU4jhehoUaAgp1N6tqJsBsSR4NeEjhUbAwZ873AG8qtx9bvUWfoKYvojjYfl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Mổi tuần đi ngày nào",
+"nguon": "Facebook — Vietourist, Vũng Tàu — https://www.facebook.com/vietourist.com.vn/posts/pfbid0SssK5jU4jhehoUaAgp1N6tqJsBsSR4NeEjhUbAwZ873AG8qtx9bvUWfoKYvojjYfl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Vi ở khách sạn nào ạ?",
+"nguon": "Facebook — reel Vũng Tàu — https://www.facebook.com/reel/2022369571637936/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có áp dụng cho 30/4 không?",
+"nguon": "Facebook — The Imperial Hotel Vũng Tàu — https://www.facebook.com/ImperialHotelVungTau/posts/pfbid0KKWEbWv81sUA3HD7J37d9nGQonx9eMdUHiKQ5NQQgPP5XwZHQ4Pu9DZR59XzRLJgl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Em muốn đặt phòng ạ",
+"nguon": "Facebook — The Imperial Hotel Vũng Tàu — https://www.facebook.com/ImperialHotelVungTau/posts/pfbid0KKWEbWv81sUA3HD7J37d9nGQonx9eMdUHiKQ5NQQgPP5XwZHQ4Pu9DZR59XzRLJgl"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Tôi đặt chỗ đã có mã vé điện tử, tra cứu trên web hãng k tìm thấy",
+"nguon": "Facebook — reel Vũng Tàu — https://www.facebook.com/reel/2206852526538147/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Có áp dụng lễ tết ko?",
+"nguon": "Facebook — Pullman Vũng Tàu — https://www.facebook.com/pullmanvungtau/posts/pfbid02L5JBdZfaro55UKECLwmzKPMwzmhuKjaGyWgUvVthaw94LSJB6fZyD1P2sHeayxR2l"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Vũng Tàu cuối tuần đông quá em ha",
+"nguon": "Facebook — reel Vũng Tàu — https://www.facebook.com/reel/1167632679279717/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Ở đâu mà cảnh đẹp quá vậy em",
+"nguon": "Facebook — reel du lịch biển — https://www.facebook.com/reel/976540525532087/"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "ai biết giá đợt đầu sao ko mng",
+"nguon": "Facebook — Theanh28, Sun World Vũng Tàu — https://www.facebook.com/Theanh28.60giay/posts/pfbid02vd79PaSn5jKQTgMgH1nVinu7g5x2jNxgBEak2cNsFqQ77HfkCPor2NVUDUsgb5b7l"
+},
+{
+"nhom": "Câu thật – Nam – đảo",
+"q": "Giá này nếu đi cn thứ 2 về có được áp dụng không?",
+"nguon": "Facebook — iVIVU, Vũng Tàu — https://www.facebook.com/iVIVU/posts/pfbid0tgQa9zrXqGfmXVPXwt3XTP2G1ykJbjJe5463tWVBjSoaUjYKTrCsXtiEywtJQhoil"
+}
+]
+}

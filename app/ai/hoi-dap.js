@@ -45,9 +45,9 @@ var BT_ALIAS = [
     ["nha trang","khanh-hoa","Khánh Hòa"],["phan rang","khanh-hoa","Ninh Thuận"],["ha long","quang-ninh"],["cat ba","hai-phong"],
     ["sa pa","lao-cai","Lào Cai"],["sapa","lao-cai","Lào Cai"],["mu cang chai","lao-cai","Yên Bái"],["ha giang","tuyen-quang","Hà Giang"],["dong van","tuyen-quang","Hà Giang"],
     ["moc chau","son-la"],["tam dao","phu-tho","Vĩnh Phúc"],["mai chau","phu-tho","Hòa Bình"],["ba be","thai-nguyen","Bắc Kạn"],
-    ["trang an","ninh-binh","Ninh Bình"],["tam coc","ninh-binh","Ninh Bình"],["phu quoc","an-giang","Kiên Giang"],["ha tien","an-giang","Kiên Giang"],["chau doc","an-giang","An Giang"],
+    ["trang an","ninh-binh","Ninh Bình"],["tam coc","ninh-binh","Ninh Bình"],["phu quoc","an-giang","Kiên Giang"],["ha tien","an-giang","Kiên Giang"],["chau doc","an-giang","An Giang"],["nui sam","an-giang","An Giang"],
     ["sa dec","dong-thap","Đồng Tháp"],["my tho","dong-thap","Tiền Giang"],["ben tre","vinh-long","Bến Tre"],["soc trang","can-tho","Sóc Trăng"],["bac lieu","ca-mau","Bạc Liêu"],
-    ["cua lo","nghe-an"],["sam son","thanh-hoa"]
+    ["hg","tuyen-quang","Hà Giang"],["pq","an-giang","Kiên Giang"],["sg","tp-ho-chi-minh"],["dlat","lam-dong","Lâm Đồng"],["cua lo","nghe-an"],["sam son","thanh-hoa"]
   ];
 
 /* Cách gõ sai dấu hay gặp: đổi về tên đúng trước khi tìm (lưu cả 2 dạng, không bắt người dùng gõ đúng) */

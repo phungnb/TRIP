@@ -2,7 +2,8 @@
   "name": "buitrip-tests",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node du-lieu.mjs && node hypotheses/generate.mjs && node hypotheses/run.mjs && node trinh-duyet.mjs",
-    "hypotheses": "node hypotheses/generate.mjs && node hypotheses/run.mjs" },
+  "scripts": { "test": "node du-lieu.mjs && node hoc.mjs && node hypotheses/generate.mjs && node hypotheses/run.mjs && node trinh-duyet.mjs",
+    "hypotheses": "node hypotheses/generate.mjs && node hypotheses/run.mjs",
+    "hoc": "node hoc.mjs" },
   "devDependencies": { "playwright": "1.49.1" }
 }

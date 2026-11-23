@@ -17,6 +17,9 @@
     if (m && isFrom(m[2])) return (m[1] + " " + m[3]).trim();
     m = q.match(unmark(/^(.*(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?)\s+(?:từ|tu)\s+(.{2,40}?)(\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa).*)?$/i, q));
     if (m && isFrom(m[2])) return (m[1] + (m[3] || "")).trim();
+    /* "tour ... khởi hành từ Sài Gòn": nơi hỏi là phần trước */
+    m = q.match(/^(.*?)[\s,]+(?:khởi hành|xuất phát|khoi hanh|xuat phat)\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:ngày|ngay|lúc|luc)\b.*)?$/i);
+    if (m && isFrom(m[2])) return m[1].trim();
     return q;
   }
   function outOfDomain(I, q) {
@@ -126,7 +129,8 @@
     if (!res && (GENERAL.test(f) || (I.intent === "didau" && rest.split(" ").length <= 2 && !/^(thác|hồ|chùa|đảo|núi|làng|bãi|đền|hang|chợ|khu|suối|đồi|đèo|cầu|bảo tàng|thac|ho|chua|dao|nui|lang|bai|den|cho|suoi|doi|deo|cau)\s/i.test(rest)) || (I.budget && !rest))) res = { kind: "general", html: A.answerGeneral(I) };
     if (!res) { var fq = A.answerFaq(q); if (fq) res = { kind: "faq", html: fq }; }
     if (!res) {
-      var nm = rest && rest.length >= 3 ? rest.replace(/^\s+|\s+$/g, "") : "", isle = /^(đảo|hòn|cù lao|quần đảo)\s/i.test(nm);
+      /* phần tên quá dài là cả câu người dùng (mảnh bình luận): không lặp lại nguyên câu, không in số người dùng gõ như dữ liệu */
+      var nm = rest && rest.length >= 3 && rest.length <= 40 && rest.split(" ").length <= 6 ? rest.replace(/^\s+|\s+$/g, "") : "", isle = /^(đảo|hòn|cù lao|quần đảo)\s/i.test(nm);
       var topic = I.mode || (isle && I.intent === "diden" ? "thuy" : I.intent === "diden" ? "bay" : I.want[0] || (I.intent === "angi" ? "food" : I.intent === "odau" ? "stay" : I.intent === "mua" ? "season" : "unknown"));
       var how = A.howTo(topic, { itemName: nm }).concat(topic === "unknown" ? [] : A.howTo("unknown", {}));
       res = { kind: "fallback", html: A.fallback({ what: nm ? "mục \"" + nm + "\" trong dữ liệu app" : "câu trả lời cho câu hỏi này", how: how, asked: q }) };
