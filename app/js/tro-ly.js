@@ -1,5 +1,5 @@
 /* Nút nổi "Trợ lý" trên mọi trang: 2 thẻ
-   - Hỏi trợ lý: chạy hoàn toàn trên máy bằng askQuick (faq.js), không gọi máy chủ, mất sóng vẫn hỏi được
+   - Hỏi trợ lý: chạy hoàn toàn trên máy bằng askBuiTrip (ai/), qua askQuick (faq.js), không gọi máy chủ, mất sóng vẫn hỏi được
    - Hỗ trợ: gửi tin cho đội BuiTrip (/api/hotro, lưu Neon), xem trả lời ngay trong app; kèm thư buitrip.hotro@gmail.com */
 (function(){
   var EMAIL=(typeof SUPPORT_EMAIL!=="undefined"&&SUPPORT_EMAIL)||"buitrip.hotro@gmail.com";
@@ -60,7 +60,7 @@
       '<form class="tl-form" onsubmit="tlAsk();return false"><input id="tlIn" type="text" maxlength="400" enterkeyhint="send" autocomplete="off" placeholder="Nhập câu hỏi…" aria-label="Câu hỏi cho trợ lý"'+(st.busy?" disabled":"")+'><button class="btn btn-primary" type="submit"'+(st.busy?" disabled":"")+'>Gửi</button></form>'+
       '<p class="small tl-note">Trợ lý trả lời ngay trên máy từ dữ liệu cẩm nang, mất sóng vẫn hỏi được. Giá, giờ có thể đổi; kiểm lại trước khi đi.'+(m.length?' <button type="button" class="linkbtn" onclick="tlReset()">Hỏi lại từ đầu</button>':'')+'</p>';
   }
-  window.tlReset=function(){ ss(KEY_CHAT,[]); render(); };
+  window.tlReset=function(){ ss(KEY_CHAT,[]); if(window.BTAI&&BTAI.ctx) BTAI.ctx.reset(); render(); };
   window.tlAsk=function(text){
     var i=document.getElementById("tlIn"), q=String(text!=null?text:(i?i.value:"")).trim(); if(!q) return;
     var m=msgs(), a="";
