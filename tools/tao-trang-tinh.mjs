@@ -75,7 +75,7 @@ ${p.best_season ? `<p><b>Mùa đẹp:</b> ${esc(p.best_season)}</p>` : ""}
 
 <h2>Đi đâu ở ${esc(p.name)} (${places.length} địa danh)</h2>
 <ul class="list">
-${places.map(x => `<li><b>${esc(x.name)}</b>${x.address ? `<span class="muted">${esc(cut(x.address, 140))}</span><br/>` : ""}${!chua(x.price) ? `<span class="price">${esc(cut(x.price, 140))}</span>` : ""}${!chua(x.hours) ? ` · ${esc(cut(x.hours, 80))}` : ""}${x.note ? `<br/>${esc(cut(x.note, 220))}` : ""}</li>`).join("\n")}
+${places.map(x => `<li><b>${esc(x.name)}</b>${x.address ? `<span class="muted">${esc(cut(x.address, 140))}</span><br/>` : ""}${!chua(x.price) ? `<span class="price">Giá vé tham khảo: ${esc(cut(x.price, 140))}</span>` : ""}${!chua(x.hours) ? ` · ${esc(cut(x.hours, 80))}` : ""}${x.note ? `<br/>${esc(cut(x.note, 220))}` : ""}</li>`).join("\n")}
 </ul>
 
 <h2>Ở đâu (${p.stays.length} chỗ ở)</h2>

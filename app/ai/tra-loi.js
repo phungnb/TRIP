@@ -150,7 +150,7 @@
     if (!want.length) want = ["price", "hours", "season"];
     else if (want.indexOf("price") >= 0 && want.indexOf("hours") < 0) want = want.concat(["hours"]);
     var miss = [], rows = [];
-    if (want.indexOf("price") >= 0) { if (x.price) rows.push("<b>Giá:</b> " + esc(x.price)); else miss.push("price"); }
+    if (want.indexOf("price") >= 0) { if (x.price) rows.push("<b>Giá vé tham khảo:</b> " + esc(x.price)); else miss.push("price"); }
     if (want.indexOf("hours") >= 0) { if (x.hours) rows.push("<b>Giờ mở cửa:</b> " + esc(x.hours)); else miss.push("hours"); }
     if (want.indexOf("season") >= 0) rows.push("<b>Mùa đẹp:</b> " + esc(A.season(x, p)));
     var d = dist(x); if (d) rows.push(esc(d));
@@ -223,7 +223,7 @@
     if (want.indexOf("price") >= 0 && !intent) {
       var nk = fold(a.name), priced = pl.filter(function (x) { return x.price; }).sort(function (x, y) { return (fold(y.name.split(" (")[0]).indexOf(nk) >= 0) - (fold(x.name.split(" (")[0]).indexOf(nk) >= 0); });
       if (!priced.length) return A.fallback({ area: a, prov: p, asked: I.q, topic: "price", what: "giá vé các điểm ở " + a.name, lead: head });
-      return head + '<p class="ask-h">Giá vé ở ' + title + '</p>' + li(priced.slice(0, 6).map(function (x) { return '<a href="javascript:void 0" onclick="openProvPlace(\'' + p.id + '\',\'' + x.id + '\')">' + esc(x.name.split(" (")[0]) + '</a>: ' + esc(short(x.price, 110)); })) + '<p class="small">Hỏi đúng tên một điểm để xem đủ giá, giờ.</p>' + ac;
+      return head + '<p class="ask-h">Giá vé tham khảo ở ' + title + '</p>' + li(priced.slice(0, 6).map(function (x) { return '<a href="javascript:void 0" onclick="openProvPlace(\'' + p.id + '\',\'' + x.id + '\')">' + esc(x.name.split(" (")[0]) + '</a>: ' + esc(short(x.price, 110)); })) + '<p class="small">Hỏi đúng tên một điểm để xem đủ giá, giờ.</p>' + ac;
     }
     var lines = [];
     if (pr.season) lines.push("<b>Mùa đẹp:</b> " + esc(pr.season.best));
