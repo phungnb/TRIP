@@ -8,7 +8,7 @@ export function napAI() {
   const ctx = { console, Date, Math, JSON };
   ctx.window = ctx;
   vm.createContext(ctx);
-  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/an-o-moi.js", "data/trung-tam.js", "data/khu-vuc.js", "data/ho-so-khu.js", "js/lam-sach.js", ...AI_FILES]) {
+  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/an-o-moi.js", "data/gia-tham-khao.js", "data/trung-tam.js", "data/khu-vuc.js", "data/ho-so-khu.js", "js/lam-sach.js", ...AI_FILES]) {
     vm.runInContext(fs.readFileSync(path.join(APP, f), "utf8"), ctx, { filename: f });
   }
   return ctx;

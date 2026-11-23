@@ -104,6 +104,7 @@ var ITINS = {
   ]}
 };
 if(window.lamSachDuLieu) [PLACES,STAYS,DISHES,ROUTES_SG,ROUTES_HN,ROUTES_AIRPORT,LOCAL,COST_ROWS,ITINS].forEach(window.lamSachDuLieu);
+if(typeof GIA_THAM_KHAO!=="undefined") PLACES.forEach(function(p){ if(GIA_THAM_KHAO[p.id]) p.price=GIA_THAM_KHAO[p.id]; });
 var CHECKLIST_DEFAULT = ["Áo khoác (Đà Lạt lạnh buổi sáng/tối)","Áo mưa mỏng","Giày đi bộ / leo Langbiang","CCCD + bằng lái A1 (nếu thuê xe máy)","Tiền mặt lẻ (chợ đêm, quán nhỏ)","Sạc dự phòng","Thuốc cơ bản","Kem chống nắng"];
 var BUDGETS = [
   {id:"thap",label:"Tiết kiệm",per:1800000,desc:"Khoảng 1,8 triệu đ/người — xe khách đêm, homestay/3 sao chia phòng, ăn quán địa phương."},
