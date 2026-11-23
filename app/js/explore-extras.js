@@ -1,7 +1,7 @@
 /* Bổ sung cho trang tỉnh và trang địa danh:
    1. Tỉnh cũ trong ngoặc (theo data/sap-nhap.js).
    2. "Đi từ trung tâm": km, phương tiện, thời gian ước tính, giá thuê xe của tỉnh, chỗ ở cùng khu, món nên thử.
-   3. Sổ tem check-in 34 tỉnh: chỉ tính khi GPS ở gần địa danh (giống RaceHub "đến đúng nơi mới tính").
+   3. Sổ tem check-in 34 tỉnh: chỉ tính khi GPS ở gần địa danh (phải ở gần địa danh mới tính).
    Nạp SAU app.js; bọc các hàm render gốc thay vì sửa trong app.js. */
 (function(){
   if(typeof PROV_DATA==="undefined") return;
@@ -101,9 +101,11 @@
   function checkinBtn(prov,x){
     var k=prov.id+"|"+x.id, s=load()[k];
     if(s) return '<div class="stamp-done">'+stampIcon(22)+'<div><b>Đã có tem</b><span>Check-in '+new Date(s.t).toLocaleDateString("vi-VN")+'</span></div><button class="btn btn-ghost" onclick="openStampBook()">Sổ tem</button></div>';
-    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được.</p>';
-    return '<button class="btn btn-primary btn-block stamp-btn" onclick="doCheckin(\''+prov.id+'\',\''+x.id+'\',this)">'+stampIcon(20)+' Check-in lấy tem</button><p class="small" style="margin:6px 0 0">Cần bật vị trí; chỉ tính khi anh/chị đang ở cách điểm này dưới '+(x.approx?2:1)+' km.</p>';
+    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được. Tem tỉnh tính khi check-in ở bất kỳ địa danh nào khác của tỉnh. Biết vị trí chính xác, anh/chị bấm Báo thông tin sai để gửi cho đội BuiTrip.</p>';
+    return '<button class="btn btn-primary btn-block stamp-btn" onclick="doCheckin(\''+prov.id+'\',\''+x.id+'\',this)">'+stampIcon(20)+' Check-in lấy tem</button><p class="notebox small" id="stampMsg" role="status" hidden style="margin:8px 0 0"></p><p class="small" style="margin:6px 0 0">Cần bật vị trí; chỉ tính khi anh/chị đang ở cách điểm này dưới '+(x.approx?'2 km (tọa độ điểm này là ước tính nên nới rộng)':'1 km')+'.</p>';
   }
+  /* Báo lỗi ngay dưới nút (không chỉ toast thoáng qua) */
+  function say(m){ toast(m); var b=document.getElementById("stampMsg"); if(b){ b.textContent=m; b.hidden=false; } }
   window.doCheckin=function(pid,xid,btn){
     var prov=provOf(pid), x=null; if(!prov) return; prov.places.forEach(function(p){ if(p.id===xid) x=p; }); if(!x) return;
     if(!navigator.geolocation){ toast("Máy không hỗ trợ định vị"); return; }
@@ -111,8 +113,13 @@
     navigator.geolocation.getCurrentPosition(function(pos){
       var d=hav(pos.coords.latitude,pos.coords.longitude,x.lat,x.lng), lim=x.approx?2:1;
       if(d<=lim){ var s=load(); s[pid+"|"+xid]={t:Date.now(),prov:pid,d:Math.round(d*1000)}; save(s); toast("Đã lấy tem "+x.name.split(" (")[0]); refreshCheckin(prov,x); }
-      else { toast("Anh/chị đang cách điểm này ~"+(d<10?d.toFixed(1):Math.round(d))+" km — cần dưới "+lim+" km"); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } }
-    },function(){ toast("Chưa lấy được vị trí — kiểm tra quyền vị trí của trình duyệt"); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } },{enableHighAccuracy:true,timeout:15000,maximumAge:60000});
+      else { var acc=pos.coords.accuracy?Math.round(pos.coords.accuracy):0;
+        say("Anh/chị đang cách điểm này khoảng "+(d<10?d.toFixed(1).replace(".",","):Math.round(d))+" km, cần dưới "+lim+" km mới lấy được tem."+(acc>500?" GPS đang sai số khoảng "+(acc>=1000?(acc/1000).toFixed(1).replace(".",",")+" km":acc+" m")+", ra chỗ thoáng đợi GPS ổn định rồi thử lại.":" Đến gần hơn rồi bấm lại.")); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } }
+    },function(err){
+      var c=err&&err.code, m=c===1?"Trình duyệt đang chặn quyền vị trí. Bấm biểu tượng ổ khóa cạnh địa chỉ trang → Vị trí → Cho phép, rồi bấm Check-in lại."
+        :c===3?"Lấy vị trí quá lâu (GPS yếu). Ra chỗ thoáng, bật Vị trí chính xác trong cài đặt máy, đợi 10–20 giây rồi bấm lại."
+        :"Máy chưa bắt được GPS. Bật Vị trí (GPS) trong cài đặt máy, ra chỗ thoáng rồi bấm lại.";
+      say(m); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } },{enableHighAccuracy:true,timeout:20000,maximumAge:0});
   };
   function refreshCheckin(prov,x){ var b=document.getElementById("stampBox"); if(b) b.innerHTML=checkinBtn(prov,x); }
   window.openStampBook=function(){
@@ -128,9 +135,10 @@
       return x?'<button class="rowcard" onclick="openProvPlace(\''+prov.id+'\',\''+x.id+'\')"><div class="rc-body"><h3>'+esc(x.name)+'</h3><p class="muted">'+esc(prov.name)+' · '+new Date(s[k].t).toLocaleDateString("vi-VN")+'</p></div></button>':"";
     }).join("");
     document.getElementById("stampRoot").innerHTML=
-      '<div class="stamp-head">'+stampIcon(28)+'<div><b>'+nProv+' / '+PROV_DATA.length+' tỉnh thành</b><span>'+keys.length+' tem check-in · đến đúng nơi mới tính</span></div></div>'+
+      '<div class="stamp-head">'+stampIcon(28)+'<div><b>'+nProv+' / '+PROV_DATA.length+' tỉnh thành</b><span>'+keys.length+' tem check-in · phải đứng gần điểm mới tính</span></div></div>'+
       '<div class="progress" style="margin:12px 0 4px"><i style="width:'+Math.round(nProv/PROV_DATA.length*100)+'%"></i></div>'+
-      '<p class="small">Tem lưu trên máy này. Khi app có tài khoản, tem sẽ chuyển lên tài khoản và nối với sổ tem RaceHub.</p>'+
+      '<div class="notebox" style="margin:12px 0"><b>Cách tính tem</b><br/><span class="small">Mở một địa danh khi đang ở đó và bấm Check-in lấy tem. App so vị trí GPS với tọa độ điểm: dưới 1 km là được tem; điểm có tọa độ ước tính được nới tới 2 km vì tọa độ có thể lệch. Tỉnh được tính khi có ít nhất 1 tem ở bất kỳ địa danh nào của tỉnh đó. Điểm chưa có tọa độ thì chưa lấy tem được.</span></div>'+
+      '<div class="notebox" style="margin:12px 0"><b>Tem chỉ nằm trong trình duyệt này</b><br/><span class="small">Xóa dữ liệu trình duyệt, dùng tab ẩn danh hoặc đổi máy là mất tem. Tải file sao lưu (gồm tem, chuyến và mục đã lưu) rồi nhập lại ở máy mới.</span><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button><button class="btn btn-ghost" onclick="document.getElementById(\'importStampFile\').click()">Nhập từ file</button><input type="file" id="importStampFile" accept=".json,application/json" style="display:none" onchange="importTrips(this)"/></div></div>'+
       '<h2 class="sec-title">34 tỉnh thành</h2><div class="stamp-grid">'+grid+'</div>'+
       '<h2 class="sec-title">Tem đã lấy</h2>'+(list?'<div class="listcol">'+list+'</div>':'<div class="empty"><p class="muted" style="margin:0">Chưa có tem nào. Mở một địa danh khi đang ở đó và bấm "Check-in lấy tem".</p></div>');
     show("stamps");
