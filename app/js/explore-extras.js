@@ -19,6 +19,8 @@
     var a=(p.address||"")+" "+(p.note||"");
     for(var i=1;i<l.length;i++){ if(a.indexOf(l[i])>=0) return l[i]; }
     var m=a.match(/tỉnh\s+([^,()]+?)\s+cũ/); if(m) return m[1];
+    /* Địa chỉ không ghi tỉnh cũ: Đà Nẵng cũ nằm phía bắc vĩ độ ~15,93, phía nam là Quảng Nam cũ (Mỹ Sơn, Hội An) */
+    if(provId==="da-nang" && p.lat!=null && p.lat<15.93 && l.indexOf("Quảng Nam")>=0) return "Quảng Nam";
     return l[0];
   }
   window.placeOldProv=placeOldProv;

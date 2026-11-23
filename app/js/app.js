@@ -16,7 +16,7 @@ var PLACES = [
   {id:"ho-xuan-huong",name:"Hồ Xuân Hương",cluster:"trung-tam",address:"Trung tâm TP. Đà Lạt, giáp Trần Quốc Toản, Nguyễn Thái Học, Bà Huyện Thanh Quan",lat:11.94187,lng:108.44666,dist:0,price:"Miễn phí; đạp vịt 60.000–120.000đ/giờ; xe ngựa ~200.000đ/chuyến 4–6 người",priceSnap:0,hours:"24/7 (không gian công cộng)",duration:"1–2 giờ; đẹp nhất 5h–8h và hoàng hôn",suitable:"Mọi đối tượng, cặp đôi, gia đình, người lớn tuổi",note:"Sáng sớm/chiều tối gió mạnh, trời lạnh — mang áo khoác; hỏi giá đạp vịt/xe ngựa trước.",source:"onelife.vn, vietnamonline.com, saigonstartravel.com"},
   {id:"quang-truong-lam-vien",name:"Quảng trường Lâm Viên",cluster:"trung-tam",address:"Đường Trần Quốc Toản, bờ Hồ Xuân Hương",lat:11.93947,lng:108.44516,dist:0,price:"Miễn phí; Doha Cafe trong nụ atiso 45.000–90.000đ",priceSnap:0,hours:"Chưa kiểm được giờ chính thức thống nhất (các nguồn ghi 24/7 / 7:00–22:00 / 5:00–22:00); Doha Cafe ~6:30–22:30",duration:"30–45 phút; đẹp nhất 5h–7h hoặc 16h–18h",suitable:"Giới trẻ check-in, gia đình có trẻ nhỏ",note:"Tránh 11h–14h nắng gắt, gió ven hồ mạnh; tối đông, giữ tư trang.",source:"blog.vexere.com, namthientravel.com.vn, tourdalattravel.com"},
   {id:"cho-da-lat",name:"Chợ Đà Lạt / chợ đêm",cluster:"trung-tam",address:"Đường Nguyễn Thị Minh Khai, khu Hòa Bình, phường Xuân Hương",lat:11.94299,lng:108.43693,dist:1,price:"Miễn phí vào chợ; bánh tráng nướng 15.000–35.000đ/chiếc; ăn vặt 15.000–30.000đ/món",priceSnap:20000,hours:"Chợ ngày ~6:00–17:00/18:00; chợ đêm ~18:00–23:00 (giờ đóng chưa kiểm được chính xác)",duration:"Chợ ngày 1 giờ; chợ đêm 60–120 phút",suitable:"Mọi đối tượng, người thích ẩm thực đường phố",note:"Hầu hết quầy chỉ nhận tiền mặt, mang tiền lẻ; hỏi giá trước khi gọi món/mua đồ.",source:"hoadalattravel.vn, namthientravel.com.vn"},
-  {id:"ga-da-lat",name:"Ga Đà Lạt",cluster:"trung-tam",address:"Số 1 Quang Trung, phường Xuân Hương",lat:11.94178,lng:108.45375,dist:2,price:"Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn",priceSnap:50000,hours:"Chưa kiểm được giờ đóng chính xác (6:00–17:00 / 7:00–18:00 / 7:00–19:00 / 7:30–17:00). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ tàu đêm)",duration:"1–1,5 giờ; 2–2,5 giờ nếu đi tàu khứ hồi",suitable:"Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",note:"Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
+  {id:"ga-da-lat",name:"Ga Đà Lạt",cluster:"trung-tam",address:"Số 1 Quang Trung, phường Xuân Hương",lat:11.94178,lng:108.45375,dist:2,price:"Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn",priceSnap:50000,hours:"Tham quan khoảng 7:00–17:00 (ước tính, chưa kiểm). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ tàu đêm)",duration:"1–1,5 giờ; 2–2,5 giờ nếu đi tàu khứ hồi",suitable:"Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",note:"Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
   {id:"nha-tho-domaine",name:"Nhà thờ Domaine de Marie",cluster:"trung-tam",address:"Số 1 Ngô Quyền, phường Cam Ly, trên đồi Mai Anh",lat:11.94848,lng:108.43017,dist:2,price:"Miễn phí",priceSnap:0,hours:"Tham quan tự do, khung tham khảo 7:00–17:00; giờ lễ ngày thường 17:00, Chủ nhật 5:45, 8:00 & 16:30",duration:"30–60 phút; đẹp nhất 7:00–10:00 hoặc 14:00–16:00",suitable:"Người yêu kiến trúc/lịch sử, cặp đôi chụp ảnh",note:"Nhà thờ + tu viện đang hoạt động — tránh giờ lễ, ăn mặc lịch sự, giữ yên lặng.",source:"hoadalattravel.vn, tatravel.vn, agotourist.com"},
   {id:"thung-lung-tinh-yeu",name:"Thung lũng Tình Yêu",cluster:"phia-bac",address:"Số 3–5–7 Mai Anh Đào, phường Lâm Viên, quanh hồ Đa Thiện",lat:11.97746,lng:108.44978,dist:6,price:"Người lớn 225.000–250.000đ; trẻ em 1–1,39 m và người trên 60 tuổi 125.000đ; dưới 1 m miễn phí",priceSnap:250000,hours:"Khoảng 7:00–17:30 (chưa kiểm được giờ đóng chính xác)",duration:"Nửa ngày (3–4 giờ); đẹp nhất 8h–10h hoặc 15h–17h",suitable:"Cặp đôi, gia đình, nhóm bạn",note:"Vé gồm xe điện, đạp vịt, cồng chiêng, game 9D — một số trò thu thêm, hỏi rõ ở quầy; khu rất rộng, mang giày bệt.",source:"vinpearl.com, travelbui.com, agotourist.com"},
   {id:"nui-langbiang",name:"Núi Langbiang",cluster:"phia-bac",address:"305 Langbiang, thị trấn Lạc Dương. Đỉnh Núi Bà 2.167 m; đồi Radar 1.929–1.950 m",lat:12.01964,lng:108.42435,dist:12,price:"Vé cổng người lớn 50.000đ, trẻ em 25.000đ. Xe jeep lên Radar khứ hồi 100.000–120.000đ/người (chưa kiểm được giá chính thức — có nguồn ghi ~200.000đ)",priceSnap:170000,hours:"7:00–17:00 (đa số nguồn; chưa kiểm được chính xác)",duration:"2–3 giờ; nửa ngày nếu leo bộ",suitable:"Người thích ngắm toàn cảnh/săn mây, nhóm bạn",note:"Jeep chỉ lên đồi Radar, KHÔNG lên đỉnh Núi Bà (leo bộ 3–4 giờ); jeep xuất phát khi đủ 5–6 khách nên có thể phải chờ.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
@@ -1396,7 +1396,9 @@ function priceShort(txt){
   var t=String(txt);
   var seg=t.split(";")[0];
   if(/miễn phí/i.test(seg) && !/\d/.test(seg)) return "Miễn phí";
-  var m=seg.match(/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/)||t.match(/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/)||seg.match(/\d{1,3}(?:\.\d{3})+\s*đ/)||seg.match(/\d+\s*đ/);
+  /* Ưu tiên con số trong đoạn đầu (giá chính); chỉ khi đoạn đầu không có số mới lấy khoảng giá ở phần sau */
+  var R=/\d{1,3}(?:\.\d{3})+\s*[–-]\s*\d{1,3}(?:\.\d{3})+\s*đ/, S=/\d{1,3}(?:\.\d{3})+\s*đ/;
+  var m=seg.match(R)||seg.match(S)||seg.match(/\d+\s*đ/)||t.match(R)||t.match(S);
   if(m) return m[0].replace(/\s+/g," ");
   if(/miễn phí/i.test(t)) return "Miễn phí";
   return seg.length>64?seg.slice(0,64)+"…":seg;
@@ -1566,9 +1568,11 @@ function wizShowStep(n){
   window.scrollTo(0,0);
   document.getElementById("appMain").scrollTop=0;
 }
+/* Giá ghi vào kế hoạch lấy từ đúng con số hiện ở đầu thẻ (priceShort), để planner và trang tỉnh không lệch nhau */
 function parsePriceSnap(txt){
   if(!txt) return null;
-  var t=String(txt);
+  var t=priceShort(String(txt))||String(txt);
+  if(/^miễn phí/i.test(t)) return 0;
   var m=t.match(/\d{1,3}(?:\.\d{3})+/);
   if(m) return Number(m[0].replace(/\./g,""));
   var m2=t.match(/(\d+)\s*(?:đ|đồng)/);

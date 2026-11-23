@@ -27,7 +27,7 @@ const ALIAS = { "Hoàng thành Huế (Đại Nội)": "Đại Nội Huế (Kinh 
   "Quê Bác - Làng Sen": "Khu di tích Kim Liên (Làng Sen quê Bác)", "Sân bay Khe Sanh": "Căn cứ Khe Sanh – sân bay Tà Cơn",
   "Đền Vua Đinh Tiên Hoàng": "Cố đô Hoa Lư (đền Đinh – đền Lê)", "Đỉnh Langbiang": "Núi Langbiang", "Khu danh thắng Bửu Long": "Khu du lịch Bửu Long",
   "Khu di tích Xẻo Quýt": "Khu du lịch Xẻo Quýt", "Cù lao Thới Sơn": "Cồn Thới Sơn", "Vườn quốc gia Mũi Cà Mau": "Khu du lịch Quốc gia Mũi Cà Mau",
-  "Rừng U Minh Hạ": "Vườn quốc gia U Minh Hạ", "Vườn quốc gia Cát Tiên": "Vườn quốc gia Nam Cát Tiên" };
+  "Rừng U Minh Hạ": "Vườn quốc gia U Minh Hạ", "Làng hoa Sa Đéc": "Làng hoa kiểng Sa Đéc", "Vườn quốc gia Cát Tiên": "Vườn quốc gia Nam Cát Tiên" };
 /* Điền giá/giờ theo loại địa điểm khi RaceHub không có: chỉ cho nơi công cộng gần như chắc chắn không bán vé.
    Ghi rõ là theo loại địa điểm, chưa kiểm riêng từng nơi. Nơi có thể bán vé (bảo tàng, khu du lịch, vườn quốc gia,
    thác, khu di tích, công viên thú...) giữ "chưa có dữ liệu" để kiểm riêng. */
