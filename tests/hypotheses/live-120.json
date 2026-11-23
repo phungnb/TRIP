@@ -1,0 +1,602 @@
+{
+ "ghi": "120 câu đã kiểm live trên buitrip.vercel.app 23/11/2026, 6 đợt",
+ "cau": [
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "quy nhơn đi bằng gì",
+   "phaiCo": [
+    "Phù Cát"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Bình Định có gì chơi"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Gia Lai có gì chơi"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Bình Định nay thuộc tỉnh nào",
+   "phaiCo": [
+    "Gia Lai"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Quy Nhơn có sân bay không",
+   "phaiCo": [
+    "Phù Cát"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Quy Nhơn có ga tàu không",
+   "phaiCo": [
+    "Diêu Trì"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Quy Nhơn bằng tàu hoả được không",
+   "phaiCo": [
+    "Diêu Trì"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "từ Hà Nội đi Quy Nhơn bằng gì"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "từ TP.HCM đi Quy Nhơn bằng gì"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "từ Đà Nẵng đi Quy Nhơn bằng gì"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "từ Quy Nhơn đi Pleiku bằng gì"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Pleiku từ Quy Nhơn mất bao lâu"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "Quy Nhơn khác Gia Lai như thế nào"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Quy Nhơn tháng mấy đẹp",
+   "cam": [
+    "dã quỳ"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Quy Nhơn mùa nào đẹp",
+   "cam": [
+    "dã quỳ"
+   ]
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "ăn gì ở Quy Nhơn"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "ở đâu ở Quy Nhơn"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Quy Nhơn 2 ngày 1 đêm hết bao nhiêu"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "vé máy bay Quy Nhơn bao nhiêu"
+  },
+  {
+   "nhom": "1. Quy Nhơn",
+   "q": "đi Quy Nhơn cần mang gì"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bình Định",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Quảng Bình",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Hà Giang",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bắc Kạn",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Vĩnh Phúc",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Quảng Nam",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Kiên Giang",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bà Rịa-Vũng Tàu",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Đắk Nông",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Kon Tum",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Phú Yên",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Ninh Thuận",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bến Tre",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Tiền Giang",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Long An",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Hậu Giang",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Sóc Trăng",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bình Dương",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Bình Phước",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "2. Tìm tỉnh cũ",
+   "q": "Thái Bình",
+   "loai": "tim",
+   "ky": "Gõ tên tỉnh cũ ra tỉnh mới"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Côn Đảo bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Phú Quốc bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Lý Sơn bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Cát Bà bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Cô Tô bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Phú Quý bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Nam Du bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Sơn Đoòng bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Măng Đen bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Cần Giờ bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Cầu Vàng bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Kỳ Co bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Hầm Hô bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Eo Gió bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Bảo tàng Quang Trung bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Tháp Đôi bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Cù Lao Xanh bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Chùa Ông Núi bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi suối nước nóng Hội Vân bằng gì"
+  },
+  {
+   "nhom": "3. Đảo và nơi lẻ",
+   "q": "đi Bình Ba được không"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Bà Nà Hills bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Cầu Vàng bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé VinWonders Nha Trang bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Yên Tử bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Fansipan bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Tràng An bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Đại Nội bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Phong Nha bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Sơn Đoòng bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Bản Giốc bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Ba Bể bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Đền Hùng bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Tháp Bà bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Dinh Độc Lập bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Địa đạo Củ Chi bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé chợ nổi Cái Răng bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Tràm Chim bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Mỹ Sơn bao nhiêu"
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Hội An bao nhiêu",
+   "phaiCo": [
+    "80.000",
+    "120.000"
+   ]
+  },
+  {
+   "nhom": "4. Giá vé",
+   "q": "vé Núi Bà Đen bao nhiêu",
+   "cam": [
+    "Bà Rá"
+   ]
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Quy Nhơn tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Phú Quốc tháng mấy đẹp",
+   "cam": [
+    "nước nổi"
+   ]
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Hà Giang tháng mấy đẹp",
+   "cam": [
+    "Na Hang"
+   ]
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Phan Thiết tháng mấy đẹp",
+   "cam": [
+    "áo len"
+   ]
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Đà Lạt tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Côn Đảo tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Hội An tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Huế tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Hạ Long tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Sa Pa tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Mộc Châu tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Măng Đen tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Buôn Ma Thuột tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Nha Trang tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Cần Thơ tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Tràng An tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Tam Đảo tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "đi Lý Sơn tháng mấy đẹp"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "Quy Nhơn ăn gì ngon"
+  },
+  {
+   "nhom": "5. Mùa đẹp",
+   "q": "Quy Nhơn nên ở khu nào"
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "quy nhon",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "Mã Pì Lèng",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "Mã Pí Lèng",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "pho co hoi an",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "ba na",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "sapa",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "Sa Pa",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "chua ong nui",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "Chùa Ông Núi",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "biển",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "phở",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "Hội An",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "con dao",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "da lat",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "ha long",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "cu chi",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "mui ne",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "phu quoc",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "can gio",
+   "loai": "tim",
+   "ky": ""
+  },
+  {
+   "nhom": "6. Gõ sai chính tả",
+   "q": "son doong",
+   "loai": "tim",
+   "ky": ""
+  }
+ ]
+}

@@ -1,0 +1,1015 @@
+STT,Nhóm,Giả thiết (câu hỏi / thao tác),Kỳ vọng (thế nào là đúng),Mức độ,Kết quả kiểm,Bằng chứng
+1,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""An Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+2,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi An Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+3,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bà Rịa - Vũng Tàu""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+4,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bà Rịa - Vũng Tàu có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+5,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bắc Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+6,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+7,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bắc Kạn""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+8,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Kạn có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+9,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bạc Liêu""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+10,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bạc Liêu có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+11,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bắc Ninh""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+12,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Ninh có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+13,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bến Tre""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+14,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bến Tre có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+15,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bình Định""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+16,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Định có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,ĐÚNG,"Eo Gió, Kỳ Co, Tháp Đôi, Ghềnh Ráng, Bãi Xép đúng."
+17,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bình Dương""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+18,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Dương có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+19,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bình Phước""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+20,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Phước có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+21,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Bình Thuận""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+22,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Thuận có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+23,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Cà Mau""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+24,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cà Mau có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+25,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Cần Thơ""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+26,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cần Thơ có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+27,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Cao Bằng""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+28,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cao Bằng có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+29,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Đà Nẵng""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+30,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đà Nẵng có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+31,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Đắk Lắk""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+32,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đắk Lắk có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+33,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Đắk Nông""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+34,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đắk Nông có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+35,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Điện Biên""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+36,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Điện Biên có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+37,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Đồng Nai""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+38,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đồng Nai có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+39,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Đồng Tháp""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+40,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đồng Tháp có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+41,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Gia Lai""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+42,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Gia Lai có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,ĐÚNG,"Biển Hồ, Chư Đăng Ya, Biển Hồ chè, Chùa Minh Thành, thác Phú Cường đúng."
+43,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hà Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+44,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+45,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hà Nam""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+46,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Nam có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+47,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hà Nội""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+48,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Nội có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+49,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hà Tĩnh""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+50,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Tĩnh có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+51,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hải Dương""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+52,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hải Dương có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+53,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hải Phòng""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+54,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hải Phòng có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+55,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hậu Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+56,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hậu Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+57,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hòa Bình""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+58,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hòa Bình có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+59,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Hưng Yên""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+60,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hưng Yên có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+61,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Khánh Hòa""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+62,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Khánh Hòa có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+63,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Kiên Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+64,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Kiên Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+65,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Kon Tum""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+66,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Kon Tum có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+67,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Lai Châu""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+68,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lai Châu có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+69,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Lâm Đồng""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+70,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lâm Đồng có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+71,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Lạng Sơn""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+72,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lạng Sơn có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+73,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Lào Cai""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+74,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lào Cai có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+75,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Long An""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+76,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Long An có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+77,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Nam Định""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+78,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Nam Định có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+79,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Nghệ An""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+80,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Nghệ An có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+81,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Ninh Bình""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+82,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Ninh Bình có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+83,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Ninh Thuận""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+84,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Ninh Thuận có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+85,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Phú Thọ""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+86,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Phú Thọ có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+87,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Phú Yên""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+88,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Phú Yên có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+89,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Quảng Bình""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+90,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Bình có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+91,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Quảng Nam""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+92,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Nam có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+93,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Quảng Ngãi""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+94,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Ngãi có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+95,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Quảng Ninh""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+96,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Ninh có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+97,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Quảng Trị""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+98,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Trị có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+99,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Sóc Trăng""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+100,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Sóc Trăng có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+101,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Sơn La""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+102,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Sơn La có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+103,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Tây Ninh""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+104,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tây Ninh có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+105,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Thái Bình""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+106,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thái Bình có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+107,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Thái Nguyên""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+108,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thái Nguyên có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+109,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Thanh Hóa""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+110,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thanh Hóa có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+111,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Thừa Thiên Huế""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+112,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thừa Thiên Huế có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+113,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Tiền Giang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+114,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tiền Giang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+115,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""TP.HCM""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+116,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi TP.HCM có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+117,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Trà Vinh""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+118,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Trà Vinh có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+119,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Tuyên Quang""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+120,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tuyên Quang có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+121,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Vĩnh Long""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+122,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Vĩnh Long có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+123,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Vĩnh Phúc""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+124,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Vĩnh Phúc có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+125,A. Tỉnh cũ — tìm kiếm,"Gõ tìm ""Yên Bái""","App tìm ra tỉnh/điểm thuộc tỉnh cũ đó, không báo 'chưa có trong app'",NẶNG,,
+126,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Yên Bái có gì chơi""","Trợ lý trả lời được điểm chơi của tỉnh cũ đó, hoặc hướng dẫn sang tên tỉnh mới đúng",NẶNG,,
+127,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bình Định đi bằng gì"" / ""từ TP.HCM đi Bình Định bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+128,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Quảng Bình đi bằng gì"" / ""từ TP.HCM đi Quảng Bình bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+129,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Quảng Nam đi bằng gì"" / ""từ TP.HCM đi Quảng Nam bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+130,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Hà Giang đi bằng gì"" / ""từ TP.HCM đi Hà Giang bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+131,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bắc Kạn đi bằng gì"" / ""từ TP.HCM đi Bắc Kạn bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+132,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Vĩnh Phúc đi bằng gì"" / ""từ TP.HCM đi Vĩnh Phúc bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+133,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Hòa Bình đi bằng gì"" / ""từ TP.HCM đi Hòa Bình bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+134,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bắc Giang đi bằng gì"" / ""từ TP.HCM đi Bắc Giang bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+135,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Thái Bình đi bằng gì"" / ""từ TP.HCM đi Thái Bình bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+136,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Hải Dương đi bằng gì"" / ""từ TP.HCM đi Hải Dương bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+137,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Hà Nam đi bằng gì"" / ""từ TP.HCM đi Hà Nam bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+138,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Nam Định đi bằng gì"" / ""từ TP.HCM đi Nam Định bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+139,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bình Thuận đi bằng gì"" / ""từ TP.HCM đi Bình Thuận bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+140,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bà Rịa - Vũng Tàu đi bằng gì"" / ""từ TP.HCM đi Bà Rịa - Vũng Tàu bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+141,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Kiên Giang đi bằng gì"" / ""từ TP.HCM đi Kiên Giang bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+142,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Hậu Giang đi bằng gì"" / ""từ TP.HCM đi Hậu Giang bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+143,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Sóc Trăng đi bằng gì"" / ""từ TP.HCM đi Sóc Trăng bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+144,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Bến Tre đi bằng gì"" / ""từ TP.HCM đi Bến Tre bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+145,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Trà Vinh đi bằng gì"" / ""từ TP.HCM đi Trà Vinh bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+146,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Tiền Giang đi bằng gì"" / ""từ TP.HCM đi Tiền Giang bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+147,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Long An đi bằng gì"" / ""từ TP.HCM đi Long An bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+148,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Đắk Nông đi bằng gì"" / ""từ TP.HCM đi Đắk Nông bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+149,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Kon Tum đi bằng gì"" / ""từ TP.HCM đi Kon Tum bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+150,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Phú Yên đi bằng gì"" / ""từ TP.HCM đi Phú Yên bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+151,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Ninh Thuận đi bằng gì"" / ""từ TP.HCM đi Ninh Thuận bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+152,A. Tỉnh cũ — cách đi,"Hỏi trợ lý: ""Yên Bái đi bằng gì"" / ""từ TP.HCM đi Yên Bái bằng gì""","Trợ lý cho cách đi cụ thể (máy bay/tàu/xe, bến/ga/sân bay, thời gian, giá khoảng), không trả lời chung chung về tỉnh mới",NẶNG,,
+153,B. Cách đi,"Hỏi trợ lý: ""Quy Nhơn đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,"Trả cách đi Pleiku (bay SGN–PXU 879k–1,7tr); không có cách đi Quy Nhơn (Phù Cát UIH, ga Diêu Trì)."
+154,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Quy Nhơn bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,"Chỉ có HN→Pleiku (bay PXU, xe khách); không có HN→Quy Nhơn."
+155,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Quy Nhơn bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Chỉ có SG→Pleiku; không có SG→Quy Nhơn.
+156,B. Cách đi,"Hỏi trợ lý: ""Phú Quốc đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Rớt về Châu Đốc (xe khách SG–Châu Đốc); không có bay Phú Quốc/phà Rạch Giá–Hà Tiên.
+157,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Phú Quốc bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Châu Đốc (xe khách SG–Châu Đốc); không có bay Phú Quốc/phà Rạch Giá–Hà Tiên.
+158,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Phú Quốc bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Châu Đốc (xe khách SG–Châu Đốc); không có bay Phú Quốc/phà Rạch Giá–Hà Tiên.
+159,B. Cách đi,"Hỏi trợ lý: ""Côn Đảo đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Thẻ trả 'Cách Quận 1 0 km'; không có máy bay/tàu ra đảo.
+160,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Côn Đảo bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Thẻ trả 'Cách Quận 1 0 km'; không có máy bay/tàu ra đảo.
+161,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Côn Đảo bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Thẻ trả 'Cách Quận 1 0 km'; không có máy bay/tàu ra đảo.
+162,B. Cách đi,"Hỏi trợ lý: ""Vũng Tàu đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+163,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Vũng Tàu bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+164,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Vũng Tàu bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+165,B. Cách đi,"Hỏi trợ lý: ""Mũi Né đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+166,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Mũi Né bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+167,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Mũi Né bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+168,B. Cách đi,"Hỏi trợ lý: ""Phan Thiết đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+169,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Phan Thiết bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+170,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Phan Thiết bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+171,B. Cách đi,"Hỏi trợ lý: ""Đà Lạt đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+172,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Đà Lạt bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+173,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Đà Lạt bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+174,B. Cách đi,"Hỏi trợ lý: ""Nha Trang đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+175,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Nha Trang bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+176,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Nha Trang bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+177,B. Cách đi,"Hỏi trợ lý: ""Hội An đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+178,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Hội An bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+179,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Hội An bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+180,B. Cách đi,"Hỏi trợ lý: ""Huế đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+181,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Huế bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+182,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Huế bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+183,B. Cách đi,"Hỏi trợ lý: ""Hạ Long đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+184,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Hạ Long bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+185,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Hạ Long bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+186,B. Cách đi,"Hỏi trợ lý: ""Sa Pa đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+187,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Sa Pa bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+188,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Sa Pa bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+189,B. Cách đi,"Hỏi trợ lý: ""Fansipan đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+190,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Fansipan bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+191,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Fansipan bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+192,B. Cách đi,"Hỏi trợ lý: ""Mộc Châu đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+193,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Mộc Châu bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+194,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Mộc Châu bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+195,B. Cách đi,"Hỏi trợ lý: ""Hà Giang đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+196,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Hà Giang bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+197,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Hà Giang bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+198,B. Cách đi,"Hỏi trợ lý: ""Đồng Văn đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+199,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Đồng Văn bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+200,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Đồng Văn bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+201,B. Cách đi,"Hỏi trợ lý: ""Mã Pì Lèng đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+202,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Mã Pì Lèng bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+203,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Mã Pì Lèng bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+204,B. Cách đi,"Hỏi trợ lý: ""Bản Giốc đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+205,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Bản Giốc bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+206,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Bản Giốc bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+207,B. Cách đi,"Hỏi trợ lý: ""Ba Bể đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+208,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Ba Bể bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+209,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Ba Bể bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+210,B. Cách đi,"Hỏi trợ lý: ""Tràng An đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+211,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Tràng An bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+212,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Tràng An bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+213,B. Cách đi,"Hỏi trợ lý: ""Tam Cốc đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+214,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Tam Cốc bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+215,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Tam Cốc bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+216,B. Cách đi,"Hỏi trợ lý: ""Cần Giờ đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,'App chưa có thông tin này' rồi dừng; không hướng dẫn xe buýt 75/phà.
+217,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Cần Giờ bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,'App chưa có thông tin này' rồi dừng; không hướng dẫn xe buýt 75/phà.
+218,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Cần Giờ bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,'App chưa có thông tin này' rồi dừng; không hướng dẫn xe buýt 75/phà.
+219,B. Cách đi,"Hỏi trợ lý: ""Cát Bà đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Dừng ở Hải Phòng (bay/tàu/limousine); không có phà/tàu cao tốc/cáp treo ra đảo.
+220,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Cát Bà bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Dừng ở Hải Phòng (bay/tàu/limousine); không có phà/tàu cao tốc/cáp treo ra đảo.
+221,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Cát Bà bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Dừng ở Hải Phòng (bay/tàu/limousine); không có phà/tàu cao tốc/cáp treo ra đảo.
+222,B. Cách đi,"Hỏi trợ lý: ""Cô Tô đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Đáp án chung chung liên tỉnh; không có phà Vân Đồn/Cái Rồng.
+223,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Cô Tô bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Đáp án chung chung liên tỉnh; không có phà Vân Đồn/Cái Rồng.
+224,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Cô Tô bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Đáp án chung chung liên tỉnh; không có phà Vân Đồn/Cái Rồng.
+225,B. Cách đi,"Hỏi trợ lý: ""Lý Sơn đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,ĐÚNG,Bắt buộc tàu từ cảng Sa Kỳ (~18–23km); bay SGN–Chu Lai + xe về Quảng Ngãi.
+226,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Lý Sơn bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,ĐÚNG,Bắt buộc tàu từ cảng Sa Kỳ (~18–23km); bay SGN–Chu Lai + xe về Quảng Ngãi.
+227,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Lý Sơn bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,ĐÚNG,Bắt buộc tàu từ cảng Sa Kỳ (~18–23km); bay SGN–Chu Lai + xe về Quảng Ngãi.
+228,B. Cách đi,"Hỏi trợ lý: ""Măng Đen đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Rớt về Quảng Ngãi (thậm chí nhắc tàu Sa Kỳ ra Lý Sơn); không có chặng Kon Tum/Pleiku→Măng Đen.
+229,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Măng Đen bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Quảng Ngãi (thậm chí nhắc tàu Sa Kỳ ra Lý Sơn); không có chặng Kon Tum/Pleiku→Măng Đen.
+230,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Măng Đen bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Quảng Ngãi (thậm chí nhắc tàu Sa Kỳ ra Lý Sơn); không có chặng Kon Tum/Pleiku→Măng Đen.
+231,B. Cách đi,"Hỏi trợ lý: ""Buôn Ma Thuột đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+232,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Buôn Ma Thuột bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+233,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Buôn Ma Thuột bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+234,B. Cách đi,"Hỏi trợ lý: ""Pleiku đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+235,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Pleiku bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+236,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Pleiku bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+237,B. Cách đi,"Hỏi trợ lý: ""Điện Biên Phủ đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+238,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Điện Biên Phủ bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+239,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Điện Biên Phủ bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+240,B. Cách đi,"Hỏi trợ lý: ""Cao Bằng đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+241,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Cao Bằng bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+242,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Cao Bằng bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+243,B. Cách đi,"Hỏi trợ lý: ""Lạng Sơn đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+244,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Lạng Sơn bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+245,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Lạng Sơn bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+246,B. Cách đi,"Hỏi trợ lý: ""Tam Đảo đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+247,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Tam Đảo bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+248,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Tam Đảo bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+249,B. Cách đi,"Hỏi trợ lý: ""Yên Tử đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+250,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Yên Tử bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+251,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Yên Tử bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+252,B. Cách đi,"Hỏi trợ lý: ""Chùa Hương đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+253,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Chùa Hương bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+254,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Chùa Hương bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+255,B. Cách đi,"Hỏi trợ lý: ""Củ Chi đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+256,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Củ Chi bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+257,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Củ Chi bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+258,B. Cách đi,"Hỏi trợ lý: ""Châu Đốc đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+259,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Châu Đốc bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+260,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Châu Đốc bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+261,B. Cách đi,"Hỏi trợ lý: ""Trà Sư đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+262,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Trà Sư bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+263,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Trà Sư bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+264,B. Cách đi,"Hỏi trợ lý: ""Mũi Cà Mau đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+265,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Mũi Cà Mau bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+266,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Mũi Cà Mau bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+267,B. Cách đi,"Hỏi trợ lý: ""Sơn Đoòng đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,SAI,Đáp án chung chung; không nhắc tour Oxalis/Đồng Hới dù mục ghi 'chỉ đi theo tour'.
+268,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Sơn Đoòng bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Đáp án chung chung; không nhắc tour Oxalis/Đồng Hới dù mục ghi 'chỉ đi theo tour'.
+269,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Sơn Đoòng bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Đáp án chung chung; không nhắc tour Oxalis/Đồng Hới dù mục ghi 'chỉ đi theo tour'.
+270,B. Cách đi,"Hỏi trợ lý: ""Phong Nha đi bằng gì""","Cách đi cụ thể: phương tiện, bến/ga/sân bay, thời gian, giá khoảng",NẶNG,,
+271,B. Cách đi,"Hỏi trợ lý: ""từ Hà Nội đi Phong Nha bằng gì""",Lộ trình từ Hà Nội: phương tiện + thời gian + giá khoảng,NẶNG,,
+272,B. Cách đi,"Hỏi trợ lý: ""từ TP.HCM đi Phong Nha bằng gì""",Lộ trình từ TP.HCM: phương tiện + thời gian + giá khoảng,NẶNG,,
+273,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Quy Nhơn bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+274,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Quy Nhơn bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,SAI,Trả khối Pleiku; không nói tàu tới Diêu Trì/Quy Nhơn.
+275,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Phú Quốc bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+276,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Phú Quốc bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+277,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Côn Đảo bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+278,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Côn Đảo bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+279,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Đà Lạt bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+280,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Đà Lạt bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+281,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Huế bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+282,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Huế bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+283,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Hội An bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+284,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Hội An bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+285,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Nha Trang bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+286,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Nha Trang bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+287,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Hạ Long bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+288,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Hạ Long bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+289,B. Cách đi — vé,"Hỏi trợ lý: ""vé máy bay đi Sa Pa bao nhiêu""","Giá vé máy bay khoảng + hãng + sân bay đến, hoặc nói rõ app không có giá vé máy bay và hướng dẫn cách khác",NẶNG,,
+290,B. Cách đi — tàu xe,"Hỏi trợ lý: ""đi Sa Pa bằng tàu hoả được không""","Trả lời đúng ga đến/đi, có tàu hay không, thời gian",NẶNG,,
+291,C. Mùa đẹp,"Hỏi trợ lý: ""đi Quy Nhơn tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,SAI,Trả mùa Gia Lai (9–12 dã quỳ) áp sai cho biển Quy Nhơn; 9–12 là mùa mưa/bão Quy Nhơn.
+292,C. Mùa đẹp,"Mở trang chi tiết Quy Nhơn: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+293,C. Mùa đẹp,"Hỏi trợ lý: ""đi Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,SAI,"Trả mùa An Giang (nước nổi Trà Sư, Vía Bà, lúa Tà Pạ); không có mùa đảo Phú Quốc (khô 11–4)."
+294,C. Mùa đẹp,"Mở trang chi tiết Phú Quốc: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+295,C. Mùa đẹp,"Hỏi trợ lý: ""đi Côn Đảo tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"3–9 biển êm; 10–2 gió mùa, tàu hay hủy."
+296,C. Mùa đẹp,"Mở trang chi tiết Côn Đảo: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+297,C. Mùa đẹp,"Hỏi trợ lý: ""đi Đà Lạt tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,CHUNG CHUNG,"Chỉ ghi 'tháng 11 – tháng 4', không lý do."
+298,C. Mùa đẹp,"Mở trang chi tiết Đà Lạt: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+299,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hội An tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"1–8, đẹp nhất 2–5, biển êm ít mưa."
+300,C. Mùa đẹp,"Mở trang chi tiết Hội An: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+301,C. Mùa đẹp,"Hỏi trợ lý: ""đi Huế tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,1–4 mát ít mưa; tránh 9–12 mưa ngập.
+302,C. Mùa đẹp,"Mở trang chi tiết Huế: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+303,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hạ Long tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,9–11 thu; tránh 6–7 bão.
+304,C. Mùa đẹp,"Mở trang chi tiết Hạ Long: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+305,C. Mùa đẹp,"Hỏi trợ lý: ""đi Sa Pa tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"9–10 lúa chín, 12–2 săn mây, 3–5 đỗ quyên."
+306,C. Mùa đẹp,"Mở trang chi tiết Sa Pa: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+307,C. Mùa đẹp,"Hỏi trợ lý: ""đi Mộc Châu tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"1–2 đào/mận, 5–8 mận chín, 9–11 tam giác mạch."
+308,C. Mùa đẹp,"Mở trang chi tiết Mộc Châu: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+309,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hà Giang tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,SAI,"Trả mùa Tuyên Quang (Na Hang, cam Hàm Yên); không có vòng Hà Giang, Mã Pí Lèng, tam giác mạch."
+310,C. Mùa đẹp,"Mở trang chi tiết Hà Giang: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+311,C. Mùa đẹp,"Hỏi trợ lý: ""đi Măng Đen tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"12–1 mai anh đào/săn mây; 10–12 săn mây, lúa chín."
+312,C. Mùa đẹp,"Mở trang chi tiết Măng Đen: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+313,C. Mùa đẹp,"Hỏi trợ lý: ""đi Buôn Ma Thuột tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"11–4 mùa khô, lễ hội cà phê tháng 3."
+314,C. Mùa đẹp,"Mở trang chi tiết Buôn Ma Thuột: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+315,C. Mùa đẹp,"Hỏi trợ lý: ""đi Nha Trang tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"1–8, đẹp nhất 2–5, biển êm."
+316,C. Mùa đẹp,"Mở trang chi tiết Nha Trang: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+317,C. Mùa đẹp,"Hỏi trợ lý: ""đi Phan Thiết tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,SAI,"Trả mùa Lâm Đồng + tư vấn mặc đồ Đà Lạt (áo len, áo khoác dày, khăn choàng) cho thành phố biển nóng."
+318,C. Mùa đẹp,"Mở trang chi tiết Phan Thiết: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+319,C. Mùa đẹp,"Hỏi trợ lý: ""đi Cần Thơ tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,12–4 mùa khô chợ nổi; 9–11 nước nổi.
+320,C. Mùa đẹp,"Mở trang chi tiết Cần Thơ: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+321,C. Mùa đẹp,"Hỏi trợ lý: ""đi Tràng An tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,"5–6 lúa Tam Cốc, 9–11; lễ hội Bái Đính 1–3 âm lịch."
+322,C. Mùa đẹp,"Mở trang chi tiết Tràng An: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+323,C. Mùa đẹp,"Hỏi trợ lý: ""đi Tam Đảo tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,4–9 mát; săn mây 11–1.
+324,C. Mùa đẹp,"Mở trang chi tiết Tam Đảo: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+325,C. Mùa đẹp,"Hỏi trợ lý: ""đi Lý Sơn tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,ĐÚNG,4–8 biển êm; tránh 10–12 bão.
+326,C. Mùa đẹp,"Mở trang chi tiết Lý Sơn: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+327,C. Mùa đẹp,"Hỏi trợ lý: ""đi Cát Bà tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+328,C. Mùa đẹp,"Mở trang chi tiết Cát Bà: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+329,C. Mùa đẹp,"Hỏi trợ lý: ""đi Phong Nha tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+330,C. Mùa đẹp,"Mở trang chi tiết Phong Nha: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+331,C. Mùa đẹp,"Hỏi trợ lý: ""đi Bản Giốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+332,C. Mùa đẹp,"Mở trang chi tiết Bản Giốc: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+333,C. Mùa đẹp,"Hỏi trợ lý: ""đi Yên Tử tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+334,C. Mùa đẹp,"Mở trang chi tiết Yên Tử: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+335,C. Mùa đẹp,"Hỏi trợ lý: ""đi Củ Chi tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+336,C. Mùa đẹp,"Mở trang chi tiết Củ Chi: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+337,C. Mùa đẹp,"Hỏi trợ lý: ""đi Trà Sư tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, lễ hội, hoa/mùa), không trả lời chung chung",NẶNG,,
+338,C. Mùa đẹp,"Mở trang chi tiết Trà Sư: có mục ""mùa đẹp"" riêng không","Trang chi tiết có trường mùa đẹp/thời gian lý tưởng, không chỉ mùa ở cấp tỉnh",NẶNG,,
+339,D. Giá vé,"Hỏi trợ lý: ""vé Bà Nà Hills bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp trang chi tiết: 1tr/800k (Đà Nẵng 650k/550k), đã gồm Cầu Vàng."
+340,D. Giá vé,Mở trang chi tiết Bà Nà Hills: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+341,D. Giá vé,"Hỏi trợ lý: ""vé Cầu Vàng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: không vé lẻ, nằm trong vé Bà Nà 1tr."
+342,D. Giá vé,Mở trang chi tiết Cầu Vàng: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+343,D. Giá vé,"Hỏi trợ lý: ""vé VinWonders Nha Trang bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: 1,05tr/800k, sau 16h 700k/550k, 2 ngày 1,35tr."
+344,D. Giá vé,Mở trang chi tiết VinWonders Nha Trang: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+345,D. Giá vé,"Hỏi trợ lý: ""vé Hội An bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,SAI,"Trợ lý rớt về tỉnh, không đưa giá; trang chi tiết có sẵn 80k (3 điểm)/120k (5 điểm + bảo tàng)."
+346,D. Giá vé,Mở trang chi tiết Hội An: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+347,D. Giá vé,"Hỏi trợ lý: ""vé Yên Tử bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: tham quan 0đ đến 31/12/2028; cáp 1 chặng 280k, 2 chặng 350k (Tùng Lâm 390k)."
+348,D. Giá vé,Mở trang chi tiết Yên Tử: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+349,D. Giá vé,"Hỏi trợ lý: ""vé Fansipan bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: cáp 800–850k, Mường Hoa 200k, tàu đỉnh 150–170k."
+350,D. Giá vé,Mở trang chi tiết Fansipan: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+351,D. Giá vé,"Hỏi trợ lý: ""vé Tràng An bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 300k/150k.
+352,D. Giá vé,Mở trang chi tiết Tràng An: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+353,D. Giá vé,"Hỏi trợ lý: ""vé Bái Đính bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+354,D. Giá vé,Mở trang chi tiết Bái Đính: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+355,D. Giá vé,"Hỏi trợ lý: ""vé Văn Miếu bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+356,D. Giá vé,Mở trang chi tiết Văn Miếu: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+357,D. Giá vé,"Hỏi trợ lý: ""vé Đại Nội Huế bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 200k/40k.
+358,D. Giá vé,Mở trang chi tiết Đại Nội Huế: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+359,D. Giá vé,"Hỏi trợ lý: ""vé Phong Nha bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 150k.
+360,D. Giá vé,Mở trang chi tiết Phong Nha: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+361,D. Giá vé,"Hỏi trợ lý: ""vé Sơn Đoòng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: 80tr tour Oxalis 6N5Đ, 2027–2028 đã kín."
+362,D. Giá vé,Mở trang chi tiết Sơn Đoòng: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+363,D. Giá vé,"Hỏi trợ lý: ""vé Bản Giốc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: 40k/20k từ 04/07/2026 (TB 138), bè 50k."
+364,D. Giá vé,Mở trang chi tiết Bản Giốc: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+365,D. Giá vé,"Hỏi trợ lý: ""vé Ba Bể bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: phí tham quan 60k (NQ 32/2025), thuyền 550–800k."
+366,D. Giá vé,Mở trang chi tiết Ba Bể: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+367,D. Giá vé,"Hỏi trợ lý: ""vé Đền Hùng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: vào đền 10k, bảo tàng 15k, xe điện 15–50k."
+368,D. Giá vé,Mở trang chi tiết Đền Hùng: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+369,D. Giá vé,"Hỏi trợ lý: ""vé Tam Đảo bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+370,D. Giá vé,Mở trang chi tiết Tam Đảo: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+371,D. Giá vé,"Hỏi trợ lý: ""vé Tháp Bà Ponagar bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 30k.
+372,D. Giá vé,Mở trang chi tiết Tháp Bà Ponagar: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+373,D. Giá vé,"Hỏi trợ lý: ""vé Dinh Độc Lập bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: trọn gói 80k (chỉ dinh 40k, bảng mới 1/5/2026)."
+374,D. Giá vé,Mở trang chi tiết Dinh Độc Lập: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+375,D. Giá vé,"Hỏi trợ lý: ""vé Địa đạo Củ Chi bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: VN ~35k (ghi rõ 'ước tính, chưa kiểm'), nước ngoài 135k."
+376,D. Giá vé,Mở trang chi tiết Địa đạo Củ Chi: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+377,D. Giá vé,"Hỏi trợ lý: ""vé Chợ nổi Cái Răng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: không vé cổng, tàu lẻ 100k/khách."
+378,D. Giá vé,Mở trang chi tiết Chợ nổi Cái Răng: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+379,D. Giá vé,"Hỏi trợ lý: ""vé Tràm Chim bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 40k từ 01/08/2026.
+380,D. Giá vé,Mở trang chi tiết Tràm Chim: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+381,D. Giá vé,"Hỏi trợ lý: ""vé Thác Bản Giốc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+382,D. Giá vé,Mở trang chi tiết Thác Bản Giốc: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+383,D. Giá vé,"Hỏi trợ lý: ""vé Núi Bà Đen bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,SAI,"Trợ lý nhầm sang Núi Bà Rá (Bình Phước cũ): 'Chưa kiểm được mức vé'. Trang đúng Núi Bà Đen (Tây Ninh): cáp 250–650k, cổng 10k/5k."
+384,D. Giá vé,Mở trang chi tiết Núi Bà Đen: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+385,D. Giá vé,"Hỏi trợ lý: ""vé Bảo tàng Quang Trung bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"30k/người lớn, giờ 7:00–11:30 và 13:30–17:00, cách Quy Nhơn ~36km."
+386,D. Giá vé,Mở trang chi tiết Bảo tàng Quang Trung: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+387,D. Giá vé,"Hỏi trợ lý: ""vé Eo Gió bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"25k/người, giờ ~6:00–18:00. (Neo khoảng cách sai: 'Pleiku ~14km'.)"
+388,D. Giá vé,Mở trang chi tiết Eo Gió: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+389,D. Giá vé,"Hỏi trợ lý: ""vé Kỳ Co bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,SAI,'App chưa có thông tin này' dù tìm kiếm RA mục Kỳ Co — trợ lý không khớp được mục đã có.
+390,D. Giá vé,Mở trang chi tiết Kỳ Co: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+391,D. Giá vé,"Hỏi trợ lý: ""vé Hầm Hô bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+392,D. Giá vé,Mở trang chi tiết Hầm Hô: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+393,D. Giá vé,"Hỏi trợ lý: ""vé Chùa Ông Núi bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+394,D. Giá vé,Mở trang chi tiết Chùa Ông Núi: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+395,D. Giá vé,"Hỏi trợ lý: ""vé Làng hoa Sa Đéc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+396,D. Giá vé,Mở trang chi tiết Làng hoa Sa Đéc: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+397,D. Giá vé,"Hỏi trợ lý: ""vé Nhà tù Côn Đảo bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+398,D. Giá vé,Mở trang chi tiết Nhà tù Côn Đảo: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+399,D. Giá vé,"Hỏi trợ lý: ""vé Thánh địa Mỹ Sơn bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 150k/100k.
+400,D. Giá vé,Mở trang chi tiết Thánh địa Mỹ Sơn: giá vé trên trang có khớp với thực tế không,"Giá trên trang khớp giá vé thật (đã kiểm chứng), không để giá cũ/mâu thuẫn",NẶNG,,
+401,E. Điểm thiếu/mỏng,"Gõ tìm ""Cần Giờ""","Có mục Cần Giờ / Rừng Sác / Vàm Sát, tìm ra được",NẶNG,ĐÚNG,"Tìm ra 2 kết quả (Rừng ngập mặn Cần Giờ–Đảo Khỉ, Biển Cần Giờ bãi 30/4)."
+402,E. Điểm thiếu/mỏng,"Gõ tìm ""Sơn Đoòng""","Có mục Sơn Đoòng riêng, ghi rõ chỉ đi tour Oxalis, không bán vé lẻ",NẶNG,ĐÚNG,"Tìm ra 1 kết quả (Hang Sơn Đoòng, chỉ đi theo tour)."
+403,E. Điểm thiếu/mỏng,"Gõ tìm ""Măng Đen (thị trấn)""","Có mục thị trấn Măng Đen, không chỉ Đèo Măng Đen",NẶNG,,
+404,E. Điểm thiếu/mỏng,"Gõ tìm ""Cầu Vàng""","Có mục Cầu Vàng riêng, ghi rõ nằm trong vé Bà Nà",NẶNG,ĐÚNG,"Tìm ra 2 kết quả (Cầu Vàng, Sun World Bà Nà Hills)."
+405,E. Điểm thiếu/mỏng,"Gõ tìm ""Phú Quốc (mục chung)""","Có mục chung Phú Quốc, khoảng cách tính từ Dương Đông",NẶNG,,
+406,E. Điểm thiếu/mỏng,"Gõ tìm ""Côn Đảo (mục chung)""","Có mục chung Côn Đảo, cách đi ghi đúng (máy bay/tàu, không ghi xe khách từ Quận 1)",NẶNG,,
+407,E. Điểm thiếu/mỏng,"Gõ tìm ""Vũng Tàu (mục thành phố)""",Có mục thành phố Vũng Tàu,NẶNG,,
+408,E. Điểm thiếu/mỏng,"Gõ tìm ""Mũi Né (mục chung)""","Có mục chung Mũi Né/Phan Thiết, khoảng cách tính từ Phan Thiết",NẶNG,,
+409,E. Điểm thiếu/mỏng,"Gõ tìm ""Chợ nổi Ngã Bảy""","Có mục đầy đủ, ghi rõ chợ đã thưa ghe từ 2002",NẶNG,,
+410,E. Điểm thiếu/mỏng,"Gõ tìm ""Làng hoa Sa Đéc""","Chỉ 1 mục duy nhất, đầy đủ, không trùng 2 mục",NẶNG,,
+411,E. Điểm thiếu/mỏng,"Gõ tìm ""Hầm Hô""","Có mục Hầm Hô (Tây Sơn, Bình Định cũ)",NẶNG,ĐÚNG,Tìm ra 1 kết quả (Hầm Hô).
+412,E. Điểm thiếu/mỏng,"Gõ tìm ""Chùa Ông Núi""","Có mục Chùa Ông Núi (Phù Cát, Bình Định cũ)",NẶNG,SAI,Không thấy kết quả — Chùa Ông Núi chưa có trong app.
+413,E. Điểm thiếu/mỏng,"Gõ tìm ""Suối nước nóng Hội Vân""",Có mục suối nước nóng Hội Vân (Phù Cát),NẶNG,,
+414,E. Điểm thiếu/mỏng,"Gõ tìm ""Bảo tàng Quang Trung""","Có mục Bảo tàng Quang Trung, giá vé đúng",NẶNG,ĐÚNG,Tìm ra 1 kết quả (Bảo tàng Quang Trung).
+415,E. Điểm thiếu/mỏng,"Gõ tìm ""Eo Gió""","Có mục Eo Gió, giá vé đúng, ảnh đúng (không phải ảnh biển sai)",NẶNG,ĐÚNG,"Tìm ra 1 kết quả (Eo Gió, Nhơn Lý, Quy Nhơn)."
+416,E. Điểm thiếu/mỏng,"Gõ tìm ""Kỳ Co""","Có mục Kỳ Co, giá vé đúng, cách đi đúng",NẶNG,ĐÚNG,"Tìm ra 1 kết quả (Bãi biển Kỳ Co, Nhơn Lý, Quy Nhơn)."
+417,E. Điểm thiếu/mỏng,"Gõ tìm ""Tháp Đôi Quy Nhơn""",Có mục Tháp Đôi,NẶNG,,
+418,E. Điểm thiếu/mỏng,"Gõ tìm ""Ghềnh Ráng""",Có mục Ghềnh Ráng,NẶNG,,
+419,E. Điểm thiếu/mỏng,"Gõ tìm ""Cù Lao Xanh""",Có mục Cù Lao Xanh,NẶNG,ĐÚNG,Tìm ra 1 kết quả (Cù Lao Xanh).
+420,E. Điểm thiếu/mỏng,"Gõ tìm ""Đầm Thị Nại""",Có mục Đầm Thị Nại,NẶNG,,
+421,F. Chính tả / tên cũ,"Gõ tìm ""quy nhon""",Tìm ra Quy Nhơn (không dấu vẫn tìm được),NẶNG,ĐÚNG,"7 kết quả: Eo Gió, Kỳ Co, Tháp Đôi (Quy Nhơn)."
+422,F. Chính tả / tên cũ,"Gõ tìm ""Mã Pì Lèng""",Tìm ra Mã Pì Lèng (biến thể ì),NẶNG,ĐÚNG,"Tìm ra Đèo Mã Pí Lèng kèm cảnh báo 'không khớp đúng dấu, kết quả gần đúng (bỏ dấu)'."
+423,F. Chính tả / tên cũ,"Gõ tìm ""Mã Pí Lèng""",Tìm ra Mã Pí Lèng (biến thể í),NẶNG,ĐÚNG,Tìm ra Đèo Mã Pí Lèng.
+424,F. Chính tả / tên cũ,"Gõ tìm ""pho co hoi an""",Tìm ra Phố cổ Hội An,NẶNG,ĐÚNG,Tìm ra Phố cổ Hội An.
+425,F. Chính tả / tên cũ,"Gõ tìm ""da lat""",Tìm ra Đà Lạt,NẶNG,ĐÚNG,"Tìm ra Đà Lạt · Lâm Đồng + Chợ Đà Lạt, Ga Đà Lạt."
+426,F. Chính tả / tên cũ,"Gõ tìm ""ha long""",Tìm ra Hạ Long,NẶNG,,
+427,F. Chính tả / tên cũ,"Gõ tìm ""sapa""",Tìm ra Sa Pa,NẶNG,SAI,"Chỉ ra 3 khách sạn (Sapa Jade Hill, Pao's Sapa, Little Sapa); không có điểm đến Sa Pa. Gõ 'Sa Pa' thì ra đúng."
+428,F. Chính tả / tên cũ,"Gõ tìm ""ba na""",Tìm ra Bà Nà Hills (tên <6 ký tự vẫn khớp),NẶNG,ĐÚNG,"Tìm ra Cầu Vàng, Sun World Bà Nà Hills."
+429,F. Chính tả / tên cũ,"Gõ tìm ""cu chi""",Tìm ra Địa đạo Củ Chi,NẶNG,ĐÚNG,Tìm ra Địa đạo Củ Chi.
+430,F. Chính tả / tên cũ,"Gõ tìm ""mui ne""",Tìm ra Mũi Né,NẶNG,ĐÚNG,Tìm ra Mũi Né (tổng quan).
+431,F. Chính tả / tên cũ,"Gõ tìm ""phu quoc""",Tìm ra Phú Quốc,NẶNG,ĐÚNG,"Tìm ra 10 kết quả, có Đảo Phú Quốc (tổng quan)."
+432,F. Chính tả / tên cũ,"Gõ tìm ""con dao""",Tìm ra Côn Đảo,NẶNG,ĐÚNG,"Tìm ra 7 kết quả, Côn Đảo (tổng quan) đứng đầu."
+433,F. Chính tả / tên cũ,"Gõ tìm ""can gio""",Tìm ra Cần Giờ,NẶNG,ĐÚNG,"Tìm ra 2 kết quả (Rừng ngập mặn, Biển Cần Giờ)."
+434,F. Chính tả / tên cũ,"Gõ tìm ""son doong""",Tìm ra Sơn Đoòng,NẶNG,ĐÚNG,Tìm ra Hang Sơn Đoòng (chỉ đi theo tour).
+435,F. Chính tả / tên cũ,"Gõ tìm ""mang den""",Tìm ra Măng Đen,NẶNG,ĐÚNG,Tìm ra Đèo Măng Đen + Thị trấn Măng Đen.
+436,F. Chính tả / tên cũ,"Gõ tìm ""cau vang""",Tìm ra Cầu Vàng,NẶNG,ĐÚNG,Tìm ra Cầu Vàng + Sun World Bà Nà Hills.
+437,F. Chính tả / tên cũ,"Gõ tìm ""ham ho""",Tìm ra Hầm Hô,NẶNG,ĐÚNG,Tìm ra Hầm Hô.
+438,F. Chính tả / tên cũ,"Gõ tìm ""chua ong nui""",Tìm ra Chùa Ông Núi,NẶNG,SAI,Không thấy kết quả — Chùa Ông Núi chưa có trong app (gõ có dấu cũng không ra).
+439,F. Chính tả / tên cũ,"Gõ tìm ""binh dinh""","Tìm ra Bình Định cũ / Gia Lai, không báo 'chưa có trong app'",NẶNG,,
+440,F. Chính tả / tên cũ,"Gõ tìm ""quang binh""","Tìm ra Quảng Bình cũ / Quảng Trị, không báo 'chưa có trong app'",NẶNG,,
+441,F. Chính tả / tên cũ,"Gõ tìm ""quang nam""","Tìm ra Quảng Nam cũ / Đà Nẵng, không đẩy sang Đà Lạt",NẶNG,,
+442,F. Chính tả / tên cũ,"Gõ tìm ""ha giang""","Tìm ra Hà Giang cũ / Tuyên Quang, không báo 'chưa có trong app'",NẶNG,,
+443,F. Chính tả / tên cũ,"Gõ tìm ""vinh phuc""",Tìm ra Vĩnh Phúc cũ / Phú Thọ,NẶNG,,
+444,F. Chính tả / tên cũ,"Gõ tìm ""bac kan""",Tìm ra Bắc Kạn cũ / Thái Nguyên (Ba Bể),NẶNG,,
+445,F. Chính tả / tên cũ,"Gõ tìm ""thai binh""",Tìm ra Thái Bình cũ / Hưng Yên,NẶNG,,
+446,F. Chính tả / tên cũ,"Gõ tìm ""hai duong""",Tìm ra Hải Dương cũ / Hải Phòng,NẶNG,,
+447,F. Chính tả / tên cũ,"Gõ tìm ""dak nong""",Tìm ra Đắk Nông cũ / Lâm Đồng,NẶNG,,
+448,F. Chính tả / tên cũ,"Gõ tìm ""kon tum""",Tìm ra Kon Tum cũ / Quảng Ngãi,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+449,F. Chính tả / tên cũ,"Gõ tìm ""phu yen""",Tìm ra Phú Yên cũ / Đắk Lắk,NẶNG,,
+450,F. Chính tả / tên cũ,"Gõ tìm ""ninh thuan""",Tìm ra Ninh Thuận cũ / Khánh Hòa,NẶNG,,
+451,F. Chính tả / tên cũ,"Gõ tìm ""ben tre""",Tìm ra Bến Tre cũ / Vĩnh Long,NẶNG,,
+452,F. Chính tả / tên cũ,"Gõ tìm ""tra vinh""",Tìm ra Trà Vinh cũ / Vĩnh Long,NẶNG,,
+453,F. Chính tả / tên cũ,"Gõ tìm ""tien giang""",Tìm ra Tiền Giang cũ / Đồng Tháp,NẶNG,,
+454,F. Chính tả / tên cũ,"Gõ tìm ""long an""",Tìm ra Long An cũ / Tây Ninh,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+455,F. Chính tả / tên cũ,"Gõ tìm ""hau giang""",Tìm ra Hậu Giang cũ / Cần Thơ,NẶNG,,
+456,F. Chính tả / tên cũ,"Gõ tìm ""soc trang""",Tìm ra Sóc Trăng cũ / Cần Thơ,NẶNG,,
+457,F. Chính tả / tên cũ,"Gõ tìm ""kien giang""",Tìm ra Kiên Giang cũ / An Giang,NẶNG,,
+458,F. Chính tả / tên cũ,"Gõ tìm ""binh duong""",Tìm ra Bình Dương cũ / TP.HCM,NẶNG,,
+459,F. Chính tả / tên cũ,"Gõ tìm ""binh phuoc""",Tìm ra Bình Phước cũ / Đồng Nai,NẶNG,,
+460,F. Chính tả / tên cũ,"Gõ tìm ""ba ria vung tau""",Tìm ra Bà Rịa - Vũng Tàu cũ / TP.HCM,NẶNG,,
+461,F. Chính tả / tên cũ,"Gõ tìm ""bac lieu""",Tìm ra Bạc Liêu cũ / Cà Mau,NẶNG,,
+462,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Quy Nhơn""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,ĐÚNG,"Bún chả cá, bánh xèo tôm nhảy, bánh canh chả cá + tên quán + giá đúng."
+463,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Quy Nhơn"" / ""khách sạn Quy Nhơn""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+464,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Phú Quốc""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+465,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Phú Quốc"" / ""khách sạn Phú Quốc""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+466,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Đà Lạt""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+467,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Đà Lạt"" / ""khách sạn Đà Lạt""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+468,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Hội An""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+469,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Hội An"" / ""khách sạn Hội An""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+470,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Huế""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+471,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Huế"" / ""khách sạn Huế""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+472,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Sa Pa""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+473,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Sa Pa"" / ""khách sạn Sa Pa""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+474,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Hạ Long""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+475,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Hạ Long"" / ""khách sạn Hạ Long""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+476,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Nha Trang""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+477,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Nha Trang"" / ""khách sạn Nha Trang""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+478,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Cần Thơ""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,,
+479,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Cần Thơ"" / ""khách sạn Cần Thơ""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,,
+480,G. Ăn ở,"Hỏi trợ lý: ""ăn gì ở Măng Đen""","Món ăn đặc sản của đúng địa phương đó, có giá khoảng",NẶNG,ĐÚNG,"Tìm ra 2 kết quả (Đèo Măng Đen, Thị trấn Măng Đen)."
+481,G. Ăn ở,"Hỏi trợ lý: ""ở đâu ở Măng Đen"" / ""khách sạn Măng Đen""","Gợi ý chỗ ở có tên + giá khoảng, không đưa khách sạn chưa kiểm chứng",NẶNG,ĐÚNG,"Tìm ra 2 kết quả (Đèo Măng Đen, Thị trấn Măng Đen)."
+482,G. Ăn ở,"Hỏi trợ lý: ""đi Quy Nhơn hết bao nhiêu tiền""","Ước tính chi phí chuyến đi theo số ngày, có căn cứ từ dữ liệu app",NẶNG,,
+483,G. Ăn ở,"Hỏi trợ lý: ""đi Phú Quốc hết bao nhiêu tiền""","Ước tính chi phí chuyến đi theo số ngày, có căn cứ từ dữ liệu app",NẶNG,,
+484,G. Ăn ở,"Hỏi trợ lý: ""đi Đà Lạt hết bao nhiêu tiền""","Ước tính chi phí chuyến đi theo số ngày, có căn cứ từ dữ liệu app",NẶNG,,
+485,H. Trợ lý như AI,"Hỏi trợ lý: ""quy nhơn đi bằng gì""","Cho cách đi Quy Nhơn cụ thể (sân bay Phù Cát, ga Diêu Trì/Quy Nhơn, xe khách), không đẩy sang Pleiku rồi dừng",NẶNG,SAI,"Trả cách đi Pleiku (bay SGN–PXU 879k–1,7tr); không có cách đi Quy Nhơn (Phù Cát UIH, ga Diêu Trì)."
+486,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Sơn Đoòng bằng gì""","Hướng dẫn đặt tour Oxalis, điều kiện, giá, mùa — không nói 'chưa có dữ liệu' rồi dừng",NẶNG,SAI,Đáp án chung chung; không nhắc tour Oxalis/Đồng Hới dù mục ghi 'chỉ đi theo tour'.
+487,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Côn Đảo bằng gì""","Máy bay/tàu cao tốc, cảng, thời gian — không ghi xe khách từ Quận 1",NẶNG,SAI,Thẻ trả 'Cách Quận 1 0 km'; không có máy bay/tàu ra đảo.
+488,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Măng Đen bằng gì""","Xe từ Kon Tum/Quy Nhơn, QL24, thời gian",NẶNG,SAI,Rớt về Quảng Ngãi (thậm chí nhắc tàu Sa Kỳ ra Lý Sơn); không có chặng Kon Tum/Pleiku→Măng Đen.
+489,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Lý Sơn bằng gì""","Tàu cao tốc từ cảng Sa Kỳ, thời gian, giá khoảng",NẶNG,ĐÚNG,Bắt buộc tàu từ cảng Sa Kỳ (~18–23km); bay SGN–Chu Lai + xe về Quảng Ngãi.
+490,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Cát Bà bằng gì""","Phà/tàu cao tốc/cáp treo, bến, thời gian",NẶNG,SAI,Dừng ở Hải Phòng (bay/tàu/limousine); không có phà/tàu cao tốc/cáp treo ra đảo.
+491,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Cô Tô bằng gì""","Tàu cao tốc từ cảng Ao Tiên, thời gian",NẶNG,SAI,Đáp án chung chung liên tỉnh; không có phà Vân Đồn/Cái Rồng.
+492,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Bình Ba được không""","Báo rõ Bình Ba/Bình Hưng cấm du lịch từ 06/2026, không gợi ý tour",NẶNG,SAI,"Tìm kiếm ra Bà Rá (sai); trợ lý trả lời lạc đề về 34 tỉnh, không báo Bình Ba cấm du lịch từ 06/2026."
+493,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Hầm Hô bằng gì""","Đường đi Hầm Hô từ Quy Nhơn/Tây Sơn, phương tiện",NẶNG,SAI,"Chỉ trả thẻ điểm (vé 20k, giờ 7:00–17:00); không nói cách đi. Neo khoảng cách sai: 'Pleiku ~40km'."
+494,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Chùa Ông Núi bằng gì""",Đường đi Chùa Ông Núi từ Quy Nhơn/Phù Cát,NẶNG,SAI,"Điểm chưa có trong app; trợ lý nhầm sang Chùa Ông ở Cần Thơ (cách Bến Ninh Kiều 0,5km)."
+495,H. Trợ lý như AI,"Hỏi trợ lý: ""đi suối nước nóng Hội Vân bằng gì""","Đường đi + giá vé + giờ (nếu có), không nói chung chung",NẶNG,SAI,Điểm chưa có; tìm kiếm ra Đầm Vân Hội (sai); trợ lý generic.
+496,H. Trợ lý như AI,"Hỏi trợ lý: ""Hôm nay Quy Nhơn có mưa không""","Trả lời đúng: app không có thời tiết trực tiếp thì hướng dẫn xem thời tiết ở đâu, không bịa số liệu mưa/nắng",NẶNG,,
+497,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn cần mang gì""","Gợi ý đồ mang theo theo mùa/địa hình biển, cụ thể",NẶNG,SAI,Không có danh sách mang đồ; chỉ liệt kê lại điểm chơi.
+498,H. Trợ lý như AI,"Hỏi trợ lý: ""Quy Nhơn có an toàn không""","Trả lời có căn cứ, không bịa",NẶNG,,
+499,H. Trợ lý như AI,"Hỏi trợ lý: ""vé máy bay Quy Nhơn bao nhiêu""","Giá khoảng + hãng + sân bay Phù Cát, hoặc nói rõ app không có giá vé máy bay và hướng dẫn tra ở đâu",NẶNG,SAI,Chỉ có giá tới PXU/Pleiku; không có giá tới Phù Cát (UIH).
+500,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn 2 ngày 1 đêm hết bao nhiêu""","Ước tính chi phí có căn cứ (đi lại + ở + ăn + vé), không bịa số",NẶNG,SAI,"Hỏi 2N1Đ Quy Nhơn, trả 3N2Đ Pleiku từ TP.HCM (2–3,45tr xe khách / 3,2–6,85tr máy bay)."
+501,H. Trợ lý như AI,"Hỏi trợ lý: ""Quy Nhơn có gì chơi""","Liệt kê điểm Quy Nhơn/Bình Định cũ (Eo Gió, Kỳ Co, Hầm Hô, Bảo tàng Quang Trung...), không chỉ liệt kê Pleiku",NẶNG,,
+502,H. Trợ lý như AI,"Hỏi trợ lý: ""Bình Định có gì chơi""","Liệt kê điểm Bình Định cũ, không trả lời bằng điểm Pleiku",NẶNG,ĐÚNG,"Eo Gió, Kỳ Co, Tháp Đôi, Ghềnh Ráng, Bãi Xép đúng."
+503,H. Trợ lý như AI,"Hỏi trợ lý: ""Gia Lai có gì chơi""","Phân biệt rõ Gia Lai (Pleiku) và Bình Định cũ, không trộn 2 vùng",NẶNG,ĐÚNG,"Biển Hồ, Chư Đăng Ya, Biển Hồ chè, Chùa Minh Thành, thác Phú Cường đúng."
+504,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Pleiku bằng gì""","Cách đi Pleiku cụ thể (sân bay Pleiku PXU, xe khách SG-Pleiku 10-12h)",NẶNG,,
+505,H. Trợ lý như AI,"Hỏi trợ lý: ""từ Quy Nhơn đi Pleiku bằng gì""","Đường Quy Nhơn-Pleiku (~160km), phương tiện, thời gian",NẶNG,SAI,"Không có tuyến Quy Nhơn→Pleiku (~160km, xe khách ~3–4h)."
+506,H. Trợ lý như AI,"Hỏi trợ lý: ""từ Pleiku đi Quy Nhơn bằng gì""","Đường Pleiku-Quy Nhơn (~160km), phương tiện, thời gian",NẶNG,SAI,Không có tuyến Pleiku→Quy Nhơn.
+507,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Đà Lạt từ Quy Nhơn bằng gì""",Lộ trình Quy Nhơn-Đà Lạt cụ thể,NẶNG,,
+508,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Nha Trang từ Quy Nhơn bằng gì""",Lộ trình Quy Nhơn-Nha Trang cụ thể,NẶNG,,
+509,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Hội An từ Quy Nhơn bằng gì""",Lộ trình Quy Nhơn-Hội An cụ thể,NẶNG,,
+510,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Huế từ Quy Nhơn bằng gì""",Lộ trình Quy Nhơn-Huế cụ thể,NẶNG,,
+511,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Phú Quốc từ Quy Nhơn bằng gì""",Lộ trình Quy Nhơn-Phú Quốc (bay qua SG/HN hoặc xe + tàu),NẶNG,,
+512,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Hà Nội từ Quy Nhơn bằng gì""","Máy bay Phù Cát-HN, tàu ga Diêu Trì, xe khách, thời gian + giá khoảng",NẶNG,SAI,"Chỉ có HN→Pleiku (bay PXU, xe khách); không có HN→Quy Nhơn."
+513,H. Trợ lý như AI,"Hỏi trợ lý: ""đi TP.HCM từ Quy Nhơn bằng gì""","Máy bay Phù Cát-SGN, tàu, xe khách, thời gian + giá khoảng",NẶNG,SAI,Chỉ có SG→Pleiku; không có SG→Quy Nhơn.
+514,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn mùa nào đẹp""","Tháng đẹp Quy Nhơn + lý do (biển, thời tiết)",NẶNG,SAI,"Y hệt câu trên: mùa Gia Lai, không có mùa biển Quy Nhơn."
+515,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn tháng 7 có mưa không""","Trả lời theo mùa mưa Quy Nhơn, không bịa số liệu ngày cụ thể",NẶNG,,
+516,H. Trợ lý như AI,"Hỏi trợ lý: ""ăn gì ở Quy Nhơn""","Món Quy Nhơn: bánh xèo tôm nhảy, bún chả cá, nem chả... có giá khoảng",NẶNG,ĐÚNG,"Bún chả cá, bánh xèo tôm nhảy, bánh canh chả cá + tên quán + giá đúng."
+517,H. Trợ lý như AI,"Hỏi trợ lý: ""ở đâu ở Quy Nhơn""",Chỗ ở Quy Nhơn có tên + giá khoảng,NẶNG,ĐÚNG,"Lan Anh Homestay 110k, Quy Nhơn Hotel 350k, Mường Thanh 1,05tr, Hải Âu 1,1–4,6tr + cảnh báo chưa kiểm chứng."
+518,H. Trợ lý như AI,"Hỏi trợ lý: ""Quy Nhơn có sân bay không""","Có: sân bay Phù Cát, cách Quy Nhơn ~30km, hãng bay",NẶNG,SAI,Không trả lời có/không; chỉ nói sân bay Pleiku (PXU). Quy Nhơn có sân bay Phù Cát (UIH).
+519,H. Trợ lý như AI,"Hỏi trợ lý: ""Quy Nhơn có ga tàu không""",Có: ga Diêu Trì (cách ~10km) + ga Quy Nhơn,NẶNG,SAI,Không trả lời; chỉ liệt kê điểm chơi. Quy Nhơn có ga Quy Nhơn + ga Diêu Trì.
+520,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn bằng tàu hoả được không""","Được: tàu SE đến ga Diêu Trì, thời gian từ HN/SG",NẶNG,SAI,Trả khối Pleiku; không nói tàu tới Diêu Trì/Quy Nhơn.
+521,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn bằng xe khách mất bao lâu""","SG-Quy Nhơn ~12-13h, HN-Quy Nhơn ~20h (khoảng)",NẶNG,,
+522,H. Trợ lý như AI,"Hỏi trợ lý: ""đi Quy Nhơn có cần đặt trước không""",Hướng dẫn đặt vé máy bay/tàu/xe + khách sạn mùa cao điểm,NẶNG,,
+523,H. Trợ lý như AI,"Hỏi trợ lý: ""Quy Nhơn khác Gia Lai như thế nào""","Giải thích sáp nhập 01/07/2025: Bình Định cũ nay thuộc Gia Lai, Quy Nhơn cách Pleiku ~160km",NẶNG,SAI,Không so sánh biển vs cao nguyên; chỉ liệt kê lại điểm Quy Nhơn.
+524,H. Trợ lý như AI,"Hỏi trợ lý: ""Bình Định nay thuộc tỉnh nào""",Trả lời đúng: Gia Lai (từ 01/07/2025),NẶNG,ĐÚNG,"Gia Lai, từ 07/2025."
+525,H. Trợ lý như AI,"Hỏi trợ lý: ""Quảng Bình nay thuộc tỉnh nào""",Trả lời đúng: Quảng Trị,NẶNG,,
+526,H. Trợ lý như AI,"Hỏi trợ lý: ""Hà Giang nay thuộc tỉnh nào""",Trả lời đúng: Tuyên Quang,NẶNG,,
+527,H. Trợ lý như AI,"Hỏi trợ lý: ""Bắc Kạn nay thuộc tỉnh nào""",Trả lời đúng: Thái Nguyên,NẶNG,,
+528,H. Trợ lý như AI,"Hỏi trợ lý: ""Vĩnh Phúc nay thuộc tỉnh nào""",Trả lời đúng: Phú Thọ,NẶNG,,
+529,H. Trợ lý như AI,"Hỏi trợ lý: ""Bà Rịa - Vũng Tàu nay thuộc tỉnh nào""",Trả lời đúng: TP.HCM,NẶNG,,
+530,H. Trợ lý như AI,"Hỏi trợ lý: ""Kiên Giang nay thuộc tỉnh nào""",Trả lời đúng: An Giang,NẶNG,,
+531,H. Trợ lý như AI,"Hỏi trợ lý: ""Bình Thuận nay thuộc tỉnh nào""",Trả lời đúng: Lâm Đồng,NẶNG,,
+532,H. Trợ lý như AI,"Hỏi trợ lý: ""Quảng Nam nay thuộc tỉnh nào""",Trả lời đúng: Đà Nẵng,NẶNG,,
+533,H. Trợ lý như AI,"Hỏi trợ lý: ""Thái Bình nay thuộc tỉnh nào""",Trả lời đúng: Hưng Yên,NẶNG,,
+534,H. Trợ lý như AI,"Hỏi trợ lý: ""Hải Dương nay thuộc tỉnh nào""",Trả lời đúng: Hải Phòng,NẶNG,,
+535,H. Trợ lý như AI,"Hỏi trợ lý: ""Đắk Nông nay thuộc tỉnh nào""",Trả lời đúng: Lâm Đồng,NẶNG,,
+536,H. Trợ lý như AI,"Hỏi trợ lý: ""Kon Tum nay thuộc tỉnh nào""",Trả lời đúng: Quảng Ngãi,NẶNG,,
+537,H. Trợ lý như AI,"Hỏi trợ lý: ""Phú Yên nay thuộc tỉnh nào""",Trả lời đúng: Đắk Lắk,NẶNG,,
+538,H. Trợ lý như AI,"Hỏi trợ lý: ""Ninh Thuận nay thuộc tỉnh nào""",Trả lời đúng: Khánh Hòa,NẶNG,,
+539,H. Trợ lý như AI,"Hỏi trợ lý: ""Bến Tre nay thuộc tỉnh nào""",Trả lời đúng: Vĩnh Long,NẶNG,,
+540,H. Trợ lý như AI,"Hỏi trợ lý: ""Tiền Giang nay thuộc tỉnh nào""",Trả lời đúng: Đồng Tháp,NẶNG,,
+541,H. Trợ lý như AI,"Hỏi trợ lý: ""Long An nay thuộc tỉnh nào""",Trả lời đúng: Tây Ninh,NẶNG,,
+542,H. Trợ lý như AI,"Hỏi trợ lý: ""Hậu Giang nay thuộc tỉnh nào""",Trả lời đúng: Cần Thơ,NẶNG,,
+543,H. Trợ lý như AI,"Hỏi trợ lý: ""Sóc Trăng nay thuộc tỉnh nào""",Trả lời đúng: Cần Thơ,NẶNG,,
+544,H. Trợ lý như AI,"Hỏi trợ lý: ""Bình Dương nay thuộc tỉnh nào""",Trả lời đúng: TP.HCM,NẶNG,,
+545,H. Trợ lý như AI,"Hỏi trợ lý: ""Bình Phước nay thuộc tỉnh nào""",Trả lời đúng: Đồng Nai,NẶNG,,
+546,H. Trợ lý như AI,"Hỏi trợ lý: ""Bắc Giang nay thuộc tỉnh nào""",Trả lời đúng: Bắc Ninh,NẶNG,,
+547,H. Trợ lý như AI,"Hỏi trợ lý: ""Hòa Bình nay thuộc tỉnh nào""",Trả lời đúng: Phú Thọ,NẶNG,,
+548,H. Trợ lý như AI,"Hỏi trợ lý: ""Hà Nam nay thuộc tỉnh nào""",Trả lời đúng: Ninh Bình,NẶNG,,
+549,H. Trợ lý như AI,"Hỏi trợ lý: ""Nam Định nay thuộc tỉnh nào""",Trả lời đúng: Ninh Bình,NẶNG,,
+550,H. Trợ lý như AI,"Hỏi trợ lý: ""Yên Bái nay thuộc tỉnh nào""",Trả lời đúng: Lào Cai,NẶNG,,
+551,H. Trợ lý như AI,"Hỏi trợ lý: ""Trà Vinh nay thuộc tỉnh nào""",Trả lời đúng: Vĩnh Long,NẶNG,,
+552,H. Trợ lý như AI,"Hỏi trợ lý: ""Bạc Liêu nay thuộc tỉnh nào""",Trả lời đúng: Cà Mau,NẶNG,,
+553,I. Lập kế hoạch,Lập kế hoạch đi Quy Nhơn 3 ngày 2 đêm,"Planner hiểu Quy Nhơn/Bình Định cũ, gợi ý điểm Quy Nhơn, không đẩy sang Pleiku",NẶNG,,
+554,I. Lập kế hoạch,Lập kế hoạch đi Phú Quốc 3 ngày 2 đêm,"Planner gợi ý điểm Phú Quốc, chi phí có căn cứ",NẶNG,,
+555,I. Lập kế hoạch,Lập kế hoạch đi Côn Đảo 2 ngày 1 đêm,"Planner hiểu Côn Đảo là đảo, chi phí đi lại tính máy bay/tàu, không tính xe khách",NẶNG,,
+556,I. Lập kế hoạch,Lập kế hoạch đi Măng Đen 2 ngày 1 đêm,Planner gợi ý điểm Măng Đen,NẶNG,,
+557,I. Lập kế hoạch,Lập kế hoạch đi Bình Định 3 ngày 2 đêm,"Planner hiểu Bình Định cũ, gợi ý điểm Bình Định, không chỉ Pleiku",NẶNG,,
+558,I. Lập kế hoạch,Lập kế hoạch đi Quảng Bình 3 ngày 2 đêm,"Planner hiểu Quảng Bình cũ (Phong Nha, Sơn Đoòng), không báo thiếu",NẶNG,,
+559,I. Lập kế hoạch,Lập kế hoạch đi Hà Giang 3 ngày 2 đêm,"Planner hiểu Hà Giang cũ (Đồng Văn, Mã Pì Lèng)",NẶNG,,
+560,I. Lập kế hoạch,Đưa Quy Nhơn vào kế hoạch từ trang chi tiết,"Nút 'Đưa vào kế hoạch' thêm đúng điểm Quy Nhơn, không chỉ mở planner trống",NẶNG,,
+561,I. Lập kế hoạch,Ngân sách 3 triệu đi Quy Nhơn 3 ngày,"Planner cảnh báo nếu ước tính vượt ngân sách, không im lặng",NẶNG,,
+562,I. Lập kế hoạch,Đi Quy Nhơn bằng máy bay trong kế hoạch,"Chi phí đi lại trong planner khớp giá vé máy bay khoảng, không để số vô căn cứ",NẶNG,,
+563,J. Tìm kiếm / chi tiết,Gõ 'biển' trên trang chủ,Không tự mở tỉnh Điện Biên; hiện danh sách biển để chọn,NẶNG,,
+564,J. Tìm kiếm / chi tiết,Gõ 'phở' trên trang chủ,Không tự mở Hải Phòng; hiện món phở/điểm liên quan,NẶNG,,
+565,J. Tìm kiếm / chi tiết,Gõ 'Hội An' ở trang Destinations,"Tìm ra Hội An, không báo 'Không thấy điểm đến nào khớp'",NẶNG,,
+566,J. Tìm kiếm / chi tiết,Gõ 'Hạ Long' ở trang Destinations,Tìm ra Hạ Long,NẶNG,,
+567,J. Tìm kiếm / chi tiết,Gõ 'Phong Nha',"Tìm ra Phong Nha, không mở Nhà hát Lớn Hải Phòng",NẶNG,,
+568,J. Tìm kiếm / chi tiết,Gõ 'Đại Nội Huế',"Tìm ra Đại Nội Huế, không mở trang tỉnh Huế",NẶNG,,
+569,J. Tìm kiếm / chi tiết,Gõ 'ga Đà Lạt',"Tìm ra Ga Đà Lạt, không mở trang tỉnh Lâm Đồng",NẶNG,,
+570,J. Tìm kiếm / chi tiết,Mở trang chi tiết Hội An,"Ảnh đại diện là phố cổ Hội An, không phải ảnh bãi biển",NẶNG,ĐÚNG,"Trang Destinations tìm ra Phố cổ/Chợ Hội An, cao lầu, cơm gà; không còn 'Không thấy điểm đến nào khớp'."
+571,J. Tìm kiếm / chi tiết,Mở trang chi tiết Ngũ Hành Sơn,"Ảnh đại diện là Ngũ Hành Sơn, không phải ảnh bãi biển",NẶNG,,
+572,J. Tìm kiếm / chi tiết,Mở trang chi tiết Bãi Sao,"Ảnh đại diện là bãi biển, không phải rừng rậm",NẶNG,,
+573,J. Tìm kiếm / chi tiết,Mở trang chi tiết Tượng Chúa,"Ảnh đại diện là Tượng Chúa, không phải skyline TP.HCM",NẶNG,,
+574,J. Tìm kiếm / chi tiết,Mở trang chi tiết Ga Đà Lạt,"Ảnh đại diện là Ga Đà Lạt, không phải hồ/thông",NẶNG,,
+575,J. Tìm kiếm / chi tiết,Mở trang chi tiết Chợ nổi Ngã Bảy,"Ảnh đại diện là chợ nổi, không phải vòng xoay",NẶNG,,
+576,J. Tìm kiếm / chi tiết,Mở trang chi tiết Quy Nhơn,"Có trang tỉnh/điểm Quy Nhơn đầy đủ, ảnh đúng",NẶNG,,
+577,J. Tìm kiếm / chi tiết,Mở trang chi tiết Eo Gió,"Ảnh đúng Eo Gió, giá đúng",NẶNG,ĐÚNG,"Tìm ra 1 kết quả (Eo Gió, Nhơn Lý, Quy Nhơn)."
+578,J. Tìm kiếm / chi tiết,Chia sẻ link trang Hội An cho người khác,Có nút Chia sẻ / link sâu mở đúng trang chi tiết,NẶNG,,
+579,J. Tìm kiếm / chi tiết,Báo thông tin sai ở trang Hội An,Có cách báo sai ngoài gửi email (form trong app),NẶNG,,
+580,J. Tìm kiếm / chi tiết,Lưu Hội An rồi mở lại,"Mục Đã lưu chỉ có đúng điểm đã lưu, không tự thêm điểm khác",NẶNG,,
+581,J. Tìm kiếm / chi tiết,Check-in lấy tem ở Hạ Long trên điện thoại,"Có nút check-in, hướng dẫn bật GPS, báo rõ khoảng cách/luật 1km-2km",NẶNG,,
+582,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""An Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+583,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở An Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+584,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi An Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+585,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở An Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+586,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bà Rịa - Vũng Tàu có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+587,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bà Rịa - Vũng Tàu""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+588,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bà Rịa - Vũng Tàu tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+589,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bà Rịa - Vũng Tàu""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+590,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bắc Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+591,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bắc Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+592,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+593,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bắc Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+594,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bắc Kạn có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+595,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bắc Kạn""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+596,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Kạn tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+597,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bắc Kạn""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+598,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bạc Liêu có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+599,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bạc Liêu""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+600,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bạc Liêu tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+601,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bạc Liêu""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+602,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bắc Ninh có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+603,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bắc Ninh""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+604,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bắc Ninh tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+605,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bắc Ninh""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+606,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bến Tre có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+607,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bến Tre""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+608,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bến Tre tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+609,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bến Tre""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+610,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bình Định có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,ĐÚNG,"Eo Gió, Kỳ Co, Tháp Đôi, Ghềnh Ráng, Bãi Xép đúng."
+611,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bình Định""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+612,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Định tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+613,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bình Định""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+614,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bình Dương có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+615,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bình Dương""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+616,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Dương tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+617,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bình Dương""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+618,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bình Phước có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+619,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bình Phước""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+620,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Phước tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+621,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bình Phước""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+622,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Bình Thuận có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+623,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Bình Thuận""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+624,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Bình Thuận tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+625,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Bình Thuận""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+626,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Cà Mau có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+627,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Cà Mau""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+628,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cà Mau tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+629,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Cà Mau""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+630,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Cần Thơ có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+631,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Cần Thơ""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+632,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cần Thơ tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,ĐÚNG,12–4 mùa khô chợ nổi; 9–11 nước nổi.
+633,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Cần Thơ""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+634,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Cao Bằng có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+635,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Cao Bằng""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+636,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Cao Bằng tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+637,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Cao Bằng""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+638,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Đà Nẵng có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+639,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Đà Nẵng""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+640,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đà Nẵng tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+641,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Đà Nẵng""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+642,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Đắk Lắk có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+643,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Đắk Lắk""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+644,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đắk Lắk tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+645,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Đắk Lắk""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+646,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Đắk Nông có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+647,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Đắk Nông""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+648,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đắk Nông tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+649,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Đắk Nông""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+650,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Điện Biên có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+651,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Điện Biên""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+652,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Điện Biên tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+653,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Điện Biên""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+654,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Đồng Nai có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+655,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Đồng Nai""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+656,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đồng Nai tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+657,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Đồng Nai""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+658,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Đồng Tháp có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+659,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Đồng Tháp""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+660,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Đồng Tháp tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+661,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Đồng Tháp""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+662,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Gia Lai có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,ĐÚNG,"Biển Hồ, Chư Đăng Ya, Biển Hồ chè, Chùa Minh Thành, thác Phú Cường đúng."
+663,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Gia Lai""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+664,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Gia Lai tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+665,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Gia Lai""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+666,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hà Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+667,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hà Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+668,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,SAI,"Trả mùa Tuyên Quang (Na Hang, cam Hàm Yên); không có vòng Hà Giang, Mã Pí Lèng, tam giác mạch."
+669,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hà Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+670,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hà Nam có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+671,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hà Nam""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+672,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Nam tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+673,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hà Nam""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+674,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hà Nội có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+675,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hà Nội""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+676,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Nội tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+677,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hà Nội""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+678,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hà Tĩnh có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+679,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hà Tĩnh""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+680,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hà Tĩnh tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+681,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hà Tĩnh""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+682,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hải Dương có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+683,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hải Dương""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+684,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hải Dương tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+685,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hải Dương""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+686,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hải Phòng có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+687,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hải Phòng""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+688,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hải Phòng tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+689,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hải Phòng""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+690,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hậu Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+691,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hậu Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+692,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hậu Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+693,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hậu Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+694,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hòa Bình có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+695,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hòa Bình""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+696,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hòa Bình tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+697,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hòa Bình""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+698,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Hưng Yên có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+699,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Hưng Yên""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+700,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Hưng Yên tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+701,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Hưng Yên""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+702,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Khánh Hòa có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+703,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Khánh Hòa""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+704,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Khánh Hòa tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+705,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Khánh Hòa""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+706,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Kiên Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+707,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Kiên Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+708,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Kiên Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+709,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Kiên Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+710,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Kon Tum có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+711,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Kon Tum""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+712,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Kon Tum tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+713,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Kon Tum""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+714,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Lai Châu có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+715,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Lai Châu""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+716,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lai Châu tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+717,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Lai Châu""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+718,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Lâm Đồng có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+719,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Lâm Đồng""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+720,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lâm Đồng tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+721,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Lâm Đồng""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+722,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Lạng Sơn có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+723,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Lạng Sơn""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+724,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lạng Sơn tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+725,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Lạng Sơn""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+726,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Lào Cai có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+727,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Lào Cai""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+728,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Lào Cai tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+729,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Lào Cai""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+730,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Long An có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+731,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Long An""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+732,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Long An tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+733,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Long An""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+734,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Nam Định có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+735,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Nam Định""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+736,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Nam Định tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+737,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Nam Định""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+738,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Nghệ An có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+739,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Nghệ An""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+740,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Nghệ An tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+741,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Nghệ An""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+742,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Ninh Bình có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+743,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Ninh Bình""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+744,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Ninh Bình tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+745,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Ninh Bình""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+746,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Ninh Thuận có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+747,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Ninh Thuận""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+748,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Ninh Thuận tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+749,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Ninh Thuận""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+750,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Phú Thọ có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+751,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Phú Thọ""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+752,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Phú Thọ tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+753,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Phú Thọ""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+754,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Phú Yên có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+755,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Phú Yên""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+756,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Phú Yên tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+757,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Phú Yên""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+758,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Quảng Bình có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+759,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Quảng Bình""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+760,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Bình tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+761,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Quảng Bình""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+762,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Quảng Nam có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+763,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Quảng Nam""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+764,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Nam tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+765,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Quảng Nam""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+766,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Quảng Ngãi có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+767,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Quảng Ngãi""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+768,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Ngãi tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+769,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Quảng Ngãi""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+770,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Quảng Ninh có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+771,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Quảng Ninh""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+772,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Ninh tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+773,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Quảng Ninh""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+774,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Quảng Trị có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+775,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Quảng Trị""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+776,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Quảng Trị tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+777,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Quảng Trị""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+778,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Sóc Trăng có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+779,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Sóc Trăng""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+780,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Sóc Trăng tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+781,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Sóc Trăng""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+782,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Sơn La có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+783,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Sơn La""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+784,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Sơn La tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+785,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Sơn La""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+786,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Tây Ninh có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+787,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Tây Ninh""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+788,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tây Ninh tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+789,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Tây Ninh""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+790,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Thái Bình có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+791,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Thái Bình""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+792,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thái Bình tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+793,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Thái Bình""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+794,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Thái Nguyên có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+795,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Thái Nguyên""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+796,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thái Nguyên tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+797,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Thái Nguyên""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+798,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Thanh Hóa có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+799,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Thanh Hóa""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+800,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thanh Hóa tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+801,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Thanh Hóa""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+802,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Thừa Thiên Huế có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+803,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Thừa Thiên Huế""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+804,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Thừa Thiên Huế tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+805,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Thừa Thiên Huế""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+806,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Tiền Giang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+807,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Tiền Giang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+808,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tiền Giang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+809,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Tiền Giang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+810,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""TP.HCM có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+811,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở TP.HCM""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+812,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi TP.HCM tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+813,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở TP.HCM""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+814,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Trà Vinh có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+815,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Trà Vinh""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+816,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Trà Vinh tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+817,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Trà Vinh""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+818,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Tuyên Quang có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+819,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Tuyên Quang""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+820,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Tuyên Quang tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+821,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Tuyên Quang""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+822,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Vĩnh Long có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+823,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Vĩnh Long""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+824,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Vĩnh Long tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+825,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Vĩnh Long""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+826,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Vĩnh Phúc có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+827,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Vĩnh Phúc""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+828,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Vĩnh Phúc tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+829,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Vĩnh Phúc""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,ĐÚNG,Thẻ chuyển hướng đúng tỉnh mới + số địa danh/chỗ ở/món ăn vùng cũ.
+830,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""Yên Bái có gì chơi""","Trợ lý liệt kê điểm chơi đúng của tỉnh cũ đó (hoặc hướng dẫn sang tên tỉnh mới), không liệt kê điểm tỉnh khác",NẶNG,,
+831,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ăn gì ở Yên Bái""",Món đặc sản đúng của tỉnh cũ đó,NẶNG,,
+832,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""đi Yên Bái tháng mấy đẹp""",Tháng đẹp + lý do của tỉnh cũ đó,NẶNG,,
+833,A. Tỉnh cũ — trợ lý,"Hỏi trợ lý: ""ở đâu ở Yên Bái""","Chỗ ở có tên + giá khoảng ở tỉnh cũ đó, không đưa chỗ ở tỉnh khác",NẶNG,,
+834,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Quy Nhơn bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Chỉ có SG/HN→Pleiku; không có ĐN→Quy Nhơn (~300km).
+835,B. Cách đi,"Hỏi trợ lý: ""đi Quy Nhơn mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+836,B. Cách đi,"Hỏi trợ lý: ""Quy Nhơn có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,SAI,Không trả lời có/không; chỉ nói sân bay Pleiku (PXU). Quy Nhơn có sân bay Phù Cát (UIH).
+837,B. Cách đi,"Hỏi trợ lý: ""Quy Nhơn có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,SAI,Không trả lời; chỉ liệt kê điểm chơi. Quy Nhơn có ga Quy Nhơn + ga Diêu Trì.
+838,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Phú Quốc bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Châu Đốc (xe khách SG–Châu Đốc); không có bay Phú Quốc/phà Rạch Giá–Hà Tiên.
+839,B. Cách đi,"Hỏi trợ lý: ""đi Phú Quốc mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+840,B. Cách đi,"Hỏi trợ lý: ""Phú Quốc có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+841,B. Cách đi,"Hỏi trợ lý: ""Phú Quốc có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+842,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Côn Đảo bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Thẻ trả 'Cách Quận 1 0 km'; không có máy bay/tàu ra đảo.
+843,B. Cách đi,"Hỏi trợ lý: ""đi Côn Đảo mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+844,B. Cách đi,"Hỏi trợ lý: ""Côn Đảo có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+845,B. Cách đi,"Hỏi trợ lý: ""Côn Đảo có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+846,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Đà Lạt bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+847,B. Cách đi,"Hỏi trợ lý: ""đi Đà Lạt mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+848,B. Cách đi,"Hỏi trợ lý: ""Đà Lạt có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+849,B. Cách đi,"Hỏi trợ lý: ""Đà Lạt có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+850,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Huế bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+851,B. Cách đi,"Hỏi trợ lý: ""đi Huế mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+852,B. Cách đi,"Hỏi trợ lý: ""Huế có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+853,B. Cách đi,"Hỏi trợ lý: ""Huế có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+854,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Hội An bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+855,B. Cách đi,"Hỏi trợ lý: ""đi Hội An mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+856,B. Cách đi,"Hỏi trợ lý: ""Hội An có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+857,B. Cách đi,"Hỏi trợ lý: ""Hội An có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+858,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Nha Trang bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+859,B. Cách đi,"Hỏi trợ lý: ""đi Nha Trang mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+860,B. Cách đi,"Hỏi trợ lý: ""Nha Trang có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+861,B. Cách đi,"Hỏi trợ lý: ""Nha Trang có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+862,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Hạ Long bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+863,B. Cách đi,"Hỏi trợ lý: ""đi Hạ Long mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+864,B. Cách đi,"Hỏi trợ lý: ""Hạ Long có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+865,B. Cách đi,"Hỏi trợ lý: ""Hạ Long có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+866,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Sa Pa bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+867,B. Cách đi,"Hỏi trợ lý: ""đi Sa Pa mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+868,B. Cách đi,"Hỏi trợ lý: ""Sa Pa có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+869,B. Cách đi,"Hỏi trợ lý: ""Sa Pa có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+870,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Mộc Châu bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+871,B. Cách đi,"Hỏi trợ lý: ""đi Mộc Châu mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+872,B. Cách đi,"Hỏi trợ lý: ""Mộc Châu có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+873,B. Cách đi,"Hỏi trợ lý: ""Mộc Châu có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+874,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Phong Nha bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+875,B. Cách đi,"Hỏi trợ lý: ""đi Phong Nha mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+876,B. Cách đi,"Hỏi trợ lý: ""Phong Nha có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+877,B. Cách đi,"Hỏi trợ lý: ""Phong Nha có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+878,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Bản Giốc bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+879,B. Cách đi,"Hỏi trợ lý: ""đi Bản Giốc mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+880,B. Cách đi,"Hỏi trợ lý: ""Bản Giốc có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+881,B. Cách đi,"Hỏi trợ lý: ""Bản Giốc có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+882,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Măng Đen bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Rớt về Quảng Ngãi (thậm chí nhắc tàu Sa Kỳ ra Lý Sơn); không có chặng Kon Tum/Pleiku→Măng Đen.
+883,B. Cách đi,"Hỏi trợ lý: ""đi Măng Đen mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+884,B. Cách đi,"Hỏi trợ lý: ""Măng Đen có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+885,B. Cách đi,"Hỏi trợ lý: ""Măng Đen có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+886,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Buôn Ma Thuột bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+887,B. Cách đi,"Hỏi trợ lý: ""đi Buôn Ma Thuột mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+888,B. Cách đi,"Hỏi trợ lý: ""Buôn Ma Thuột có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+889,B. Cách đi,"Hỏi trợ lý: ""Buôn Ma Thuột có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+890,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Cần Thơ bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+891,B. Cách đi,"Hỏi trợ lý: ""đi Cần Thơ mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+892,B. Cách đi,"Hỏi trợ lý: ""Cần Thơ có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+893,B. Cách đi,"Hỏi trợ lý: ""Cần Thơ có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+894,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Lý Sơn bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,ĐÚNG,Bắt buộc tàu từ cảng Sa Kỳ (~18–23km); bay SGN–Chu Lai + xe về Quảng Ngãi.
+895,B. Cách đi,"Hỏi trợ lý: ""đi Lý Sơn mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+896,B. Cách đi,"Hỏi trợ lý: ""Lý Sơn có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+897,B. Cách đi,"Hỏi trợ lý: ""Lý Sơn có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+898,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Cát Bà bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,SAI,Dừng ở Hải Phòng (bay/tàu/limousine); không có phà/tàu cao tốc/cáp treo ra đảo.
+899,B. Cách đi,"Hỏi trợ lý: ""đi Cát Bà mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+900,B. Cách đi,"Hỏi trợ lý: ""Cát Bà có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+901,B. Cách đi,"Hỏi trợ lý: ""Cát Bà có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+902,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Tràng An bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+903,B. Cách đi,"Hỏi trợ lý: ""đi Tràng An mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+904,B. Cách đi,"Hỏi trợ lý: ""Tràng An có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+905,B. Cách đi,"Hỏi trợ lý: ""Tràng An có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+906,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Tam Đảo bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+907,B. Cách đi,"Hỏi trợ lý: ""đi Tam Đảo mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+908,B. Cách đi,"Hỏi trợ lý: ""Tam Đảo có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+909,B. Cách đi,"Hỏi trợ lý: ""Tam Đảo có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+910,B. Cách đi,"Hỏi trợ lý: ""từ Đà Nẵng đi Điện Biên Phủ bằng gì""",Lộ trình từ Đà Nẵng: phương tiện + thời gian + giá khoảng,NẶNG,,
+911,B. Cách đi,"Hỏi trợ lý: ""đi Điện Biên Phủ mất bao lâu""","Thời gian đi từ HN/SG (hoặc từ điểm xuất phát gần nhất) cụ thể, không chung chung",NẶNG,,
+912,B. Cách đi,"Hỏi trợ lý: ""Điện Biên Phủ có sân bay không""",Trả lời đúng có/không + tên sân bay + cách về trung tâm,NẶNG,,
+913,B. Cách đi,"Hỏi trợ lý: ""Điện Biên Phủ có ga tàu không""",Trả lời đúng có/không + tên ga + tuyến tàu,NẶNG,,
+914,D. Giá vé,"Hỏi trợ lý: ""vé Tháp Chàm bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+915,D. Giá vé,"Hỏi trợ lý: ""vé Chùa Bái Đính bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+916,D. Giá vé,"Hỏi trợ lý: ""vé Hồ Ba Bể bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+917,D. Giá vé,"Hỏi trợ lý: ""vé Động Phong Nha bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+918,D. Giá vé,"Hỏi trợ lý: ""vé Hang Sơn Đoòng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+919,D. Giá vé,"Hỏi trợ lý: ""vé Vịnh Lan Hạ bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+920,D. Giá vé,"Hỏi trợ lý: ""vé Đảo Bình Ba bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+921,D. Giá vé,"Hỏi trợ lý: ""vé Đảo Bình Hưng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+922,D. Giá vé,"Hỏi trợ lý: ""vé Thác Dray Nur bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+923,D. Giá vé,"Hỏi trợ lý: ""vé Buôn Đôn bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+924,D. Giá vé,"Hỏi trợ lý: ""vé Hồ Lắk bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+925,D. Giá vé,"Hỏi trợ lý: ""vé Thác Pongour bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+926,D. Giá vé,"Hỏi trợ lý: ""vé Đồi chè Cầu Đất bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+927,D. Giá vé,"Hỏi trợ lý: ""vé Nhà thờ Đức Bà bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+928,D. Giá vé,"Hỏi trợ lý: ""vé Chợ Bến Thành bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+929,D. Giá vé,"Hỏi trợ lý: ""vé Bảo tàng Chứng tích Chiến tranh bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+930,D. Giá vé,"Hỏi trợ lý: ""vé Lăng Bác bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+931,D. Giá vé,"Hỏi trợ lý: ""vé Hoàng thành Thăng Long bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+932,D. Giá vé,"Hỏi trợ lý: ""vé Chùa Một Cột bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+933,D. Giá vé,"Hỏi trợ lý: ""vé Đền Hùng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,"Khớp: vào đền 10k, bảo tàng 15k, xe điện 15–50k."
+934,D. Giá vé,"Hỏi trợ lý: ""vé Khu di tích Tân Trào bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+935,D. Giá vé,"Hỏi trợ lý: ""vé Cột cờ Lũng Cú bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+936,D. Giá vé,"Hỏi trợ lý: ""vé Sông Nho Quế bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+937,D. Giá vé,"Hỏi trợ lý: ""vé Đèo Hải Vân bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+938,D. Giá vé,"Hỏi trợ lý: ""vé Bán đảo Sơn Trà bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+939,D. Giá vé,"Hỏi trợ lý: ""vé Chùa Linh Ứng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+940,D. Giá vé,"Hỏi trợ lý: ""vé Biển Mỹ Khê bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+941,D. Giá vé,"Hỏi trợ lý: ""vé Ngũ Hành Sơn bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+942,D. Giá vé,"Hỏi trợ lý: ""vé Thánh địa Mỹ Sơn bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,ĐÚNG,Khớp: 150k/100k.
+943,D. Giá vé,"Hỏi trợ lý: ""vé Phố cổ Hội An bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+944,D. Giá vé,"Hỏi trợ lý: ""vé Cù Lao Chàm bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+945,D. Giá vé,"Hỏi trợ lý: ""vé Vườn quốc gia Cúc Phương bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+946,D. Giá vé,"Hỏi trợ lý: ""vé Khu du lịch Tam Chúc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+947,D. Giá vé,"Hỏi trợ lý: ""vé Chùa Tam Chúc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+948,D. Giá vé,"Hỏi trợ lý: ""vé Động Hương Tích bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+949,D. Giá vé,"Hỏi trợ lý: ""vé Vườn quốc gia Ba Vì bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+950,D. Giá vé,"Hỏi trợ lý: ""vé Làng cổ Đường Lâm bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+951,D. Giá vé,"Hỏi trợ lý: ""vé Làng gốm Bát Tràng bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+952,D. Giá vé,"Hỏi trợ lý: ""vé Làng lụa Vạn Phúc bao nhiêu""","Giá vé đúng, ghi nguồn, không mâu thuẫn với giá trên trang chi tiết",NẶNG,,
+953,C. Mùa đẹp,"Hỏi trợ lý: ""đi Côn Đảo tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,ĐÚNG,"3–9 biển êm; 10–2 gió mùa, tàu hay hủy."
+954,E. Điểm thiếu/mỏng,"Gõ tìm ""Côn Đảo""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 5 kết quả (tổng quan, Nhà tù, Hàng Dương, Đầm Trầu, Mũi Cá Mập)."
+955,C. Mùa đẹp,"Hỏi trợ lý: ""đi Lý Sơn tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,ĐÚNG,4–8 biển êm; tránh 10–12 bão.
+956,E. Điểm thiếu/mỏng,"Gõ tìm ""Lý Sơn""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 5 kết quả (đảo Lớn, Cổng Tò Vò, Thới Lới, hải sản, homestay)."
+957,C. Mùa đẹp,"Hỏi trợ lý: ""đi Cát Bà tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+958,E. Điểm thiếu/mỏng,"Gõ tìm ""Cát Bà""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 3 kết quả (đảo Cát Bà–Lan Hạ, VQG, hải sản)."
+959,C. Mùa đẹp,"Hỏi trợ lý: ""đi Cô Tô tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+960,E. Điểm thiếu/mỏng,"Gõ tìm ""Cô Tô""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,Tìm ra 1 kết quả (Đảo Cô Tô).
+961,C. Mùa đẹp,"Hỏi trợ lý: ""đi Phú Quý tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+962,E. Điểm thiếu/mỏng,"Gõ tìm ""Phú Quý""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,Tìm ra 1 kết quả (Đảo Phú Quý).
+963,C. Mùa đẹp,"Hỏi trợ lý: ""đi Bình Ba tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+964,E. Điểm thiếu/mỏng,"Gõ tìm ""Bình Ba""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,SAI,Tìm ra Núi Bà Rá (sai) — Bình Ba chưa có mục.
+965,C. Mùa đẹp,"Hỏi trợ lý: ""đi Nam Du tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+966,E. Điểm thiếu/mỏng,"Gõ tìm ""Nam Du""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,SAI,Tìm ra Khu du lịch Đại Nam (sai) — Nam Du chưa có mục.
+967,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hòn Sơn tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+968,E. Điểm thiếu/mỏng,"Gõ tìm ""Hòn Sơn""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+969,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hòn Thơm tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+970,E. Điểm thiếu/mỏng,"Gõ tìm ""Hòn Thơm""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+971,C. Mùa đẹp,"Hỏi trợ lý: ""đi Bãi Sao tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+972,E. Điểm thiếu/mỏng,"Gõ tìm ""Bãi Sao""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+973,C. Mùa đẹp,"Hỏi trợ lý: ""đi Bãi Kem tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+974,E. Điểm thiếu/mỏng,"Gõ tìm ""Bãi Kem""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+975,C. Mùa đẹp,"Hỏi trợ lý: ""đi Hàm Ninh tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+976,E. Điểm thiếu/mỏng,"Gõ tìm ""Hàm Ninh""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+977,C. Mùa đẹp,"Hỏi trợ lý: ""đi Làng chài Rạch Vẹm tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+978,E. Điểm thiếu/mỏng,"Gõ tìm ""Làng chài Rạch Vẹm""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+979,C. Mùa đẹp,"Hỏi trợ lý: ""đi VinWonders Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+980,E. Điểm thiếu/mỏng,"Gõ tìm ""VinWonders Phú Quốc""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+981,C. Mùa đẹp,"Hỏi trợ lý: ""đi Sun World Hòn Thơm tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+982,E. Điểm thiếu/mỏng,"Gõ tìm ""Sun World Hòn Thơm""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+983,C. Mùa đẹp,"Hỏi trợ lý: ""đi Grand World Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+984,E. Điểm thiếu/mỏng,"Gõ tìm ""Grand World Phú Quốc""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+985,C. Mùa đẹp,"Hỏi trợ lý: ""đi Safari Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+986,E. Điểm thiếu/mỏng,"Gõ tìm ""Safari Phú Quốc""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+987,C. Mùa đẹp,"Hỏi trợ lý: ""đi Bãi Dài Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+988,E. Điểm thiếu/mỏng,"Gõ tìm ""Bãi Dài Phú Quốc""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+989,C. Mùa đẹp,"Hỏi trợ lý: ""đi Dinh Cậu tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+990,E. Điểm thiếu/mỏng,"Gõ tìm ""Dinh Cậu""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,,
+991,C. Mùa đẹp,"Hỏi trợ lý: ""đi Chợ đêm Phú Quốc tháng mấy đẹp""","Tháng đẹp cụ thể + lý do (thời tiết, biển), không trả lời chung chung",NẶNG,,
+992,E. Điểm thiếu/mỏng,"Gõ tìm ""Chợ đêm Phú Quốc""","Tìm ra được mục đầy đủ (địa chỉ, giá, giờ, cách đi), không báo thiếu",NẶNG,ĐÚNG,"Tìm ra 10 kết quả (Bãi Sao, Bãi Dài, Chợ đêm, VQG, Nhà tù, VinWonders...)."
+993,B. Cách đi,"Hỏi trợ lý: ""đi Phú Quý bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,SAI,Đáp án chung chung; không có phà Phan Thiết–Phú Quý.
+994,B. Cách đi,"Hỏi trợ lý: ""đi Nam Du bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,SAI,"Tìm kiếm ra Đại Nam (sai); trợ lý generic, không có phà Rạch Giá."
+995,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Sơn bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+996,B. Cách đi,"Hỏi trợ lý: ""đi Bình Ba bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+997,B. Cách đi,"Hỏi trợ lý: ""đi Bình Hưng bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+998,B. Cách đi,"Hỏi trợ lý: ""đi Cù Lao Chàm bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+999,B. Cách đi,"Hỏi trợ lý: ""đi Cù Lao Xanh bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,ĐÚNG,"Cano khứ hồi ~350k, tour 1 ngày ~700k. (Neo sai: 'Pleiku ~23km', đúng là Quy Nhơn.)"
+1000,B. Cách đi,"Hỏi trợ lý: ""đi Đảo Bé Lý Sơn bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1001,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Móng Tay bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1002,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Gầm Ghì bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1003,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Mây Rút bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1004,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Thơm bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1005,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Tre bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1006,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Tằm bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1007,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Mun bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1008,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Chồng bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1009,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Rùa bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1010,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Dấu bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1011,B. Cách đi,"Hỏi trợ lý: ""đi Hòn Dáu bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1012,B. Cách đi,"Hỏi trợ lý: ""đi Đảo Khỉ Cần Giờ bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1013,B. Cách đi,"Hỏi trợ lý: ""đi Đảo Ó bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,
+1014,B. Cách đi,"Hỏi trợ lý: ""đi Đảo Bửu Long bằng gì""","Cách đi đảo cụ thể: tàu/phà cao tốc, cảng đi, thời gian, giá khoảng — không ghi xe khách/xe máy qua biển",NẶNG,,

@@ -30,6 +30,8 @@ var TRUNG_TAM = {
   "bac-ninh": [["Bắc Giang", 21.273, 106.195]],
   "thai-nguyen": [["Bắc Kạn", 22.147, 105.835]]
 };
+/* Điểm gần 1 khu theo đường chim bay nhưng đường bộ đi từ thủ phủ (Cần Giờ cách Vũng Tàu 1 vịnh biển, đi từ TP.HCM): giữ thủ phủ làm gốc */
+var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-cu-chi": 1 };
 (function () {
   if (typeof PROV_DATA === "undefined") return;
   function hav(a, b, c, d) { var R = 6371, r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2); var h = x * x + Math.cos(a * r) * Math.cos(c * r) * y * y; return 2 * R * Math.asin(Math.sqrt(h)); }
@@ -39,7 +41,7 @@ var TRUNG_TAM = {
     (TRUNG_TAM[prov.id] || []).forEach(function (h) { hubs.push({ n: h[0], lat: h[1], lng: h[2], island: !!h[3] }); });
     prov.places.forEach(function (x) {
       x.dist_from = anchor;
-      if (x.lat == null || prov.lat == null) return;
+      if (x.lat == null || prov.lat == null || TRUNG_TAM_GIU[x.id]) return;
       var best = null, bd = 1e9;
       /* trung tâm đảo chỉ nhận điểm trên chính đảo đó (trong 30 km): Nam Du không thuộc Phú Quốc */
       hubs.forEach(function (h) { var d = hav(x.lat, x.lng, h.lat, h.lng); if (h.island && d > 30) return; if (d < bd) { bd = d; best = h; } });
