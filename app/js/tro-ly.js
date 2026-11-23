@@ -65,6 +65,31 @@
       '<p class="small tl-note">Trợ lý trả lời từ dữ liệu cẩm nang, có thể sai; kiểm lại giá và giờ mở cửa trước khi đi.'+(m.length?' <button type="button" class="linkbtn" onclick="tlReset()">Hỏi lại từ đầu</button>':'')+'</p>';
   }
   window.tlReset=function(){ ss(KEY_CHAT,[]); render(); };
+  /* Câu hỏi giá / giờ / mùa của 1 địa danh cụ thể: trả lời ngay từ dữ liệu, kèm nguồn và ngày kiểm,
+     không gọi AI (Soi lần 2: hỏi "vé Bà Nà bao nhiêu" thì AI quá tải rồi trả lời lạc đề). */
+  var QW=["giá vé","vé vào cổng","vé vào","bao nhiêu tiền","hết bao nhiêu","mất bao nhiêu","bao nhiêu","chi phí","giờ mở cửa","giờ đóng cửa","mấy giờ","mở cửa","đóng cửa","tháng mấy","tháng nào","mùa nào","khi nào","lúc nào","mùa đẹp","thời điểm","đẹp nhất","người lớn","trẻ em","tham quan","cáp treo","giá","vé","tiền","phí","giờ","đẹp","nên","đi","tới","đến","ở","thì","là","có","không","nhỉ","vậy","ạ","nhé","mấy","bao","lâu","như thế nào","thế nào","vào","lên","xem","chơi","của"];
+  function factAnswer(q){
+    if(typeof window.btSearch!=="function") return "";
+    var t=q.toLowerCase(), want=[];
+    if(/giá|vé|bao nhiêu|tiền|phí|chi phí/.test(t)) want.push("price");
+    if(/giờ|mở cửa|đóng cửa/.test(t)) want.push("hours");
+    if(/tháng mấy|tháng nào|mùa nào|khi nào|lúc nào|mùa đẹp|thời điểm/.test(t)) want.push("season");
+    if(!want.length) return "";
+    var rest=" "+t.replace(/[?!.,]/g," ").replace(/\s+/g," ")+" ";
+    QW.forEach(function(w){ while(rest.indexOf(" "+w+" ")>=0) rest=rest.replace(" "+w+" "," "); });
+    rest=rest.trim();
+    if(rest.length<3) return "";
+    var r=window.btSearch(rest).filter(function(x){ return x.kind==="place" && x.s>=75; })[0];
+    if(!r) return "";
+    var x=r.x, pv=r.prov, pn=pv.id==="lam-dong"?"Lâm Đồng":pv.name, rows=[];
+    if(want.indexOf("price")>=0) rows.push("<b>Giá:</b> "+e(x.price||"Cẩm nang chưa có giá"));
+    if(want.indexOf("hours")>=0) rows.push("<b>Giờ mở cửa:</b> "+e(x.hours||"Cẩm nang chưa có giờ"));
+    if(want.indexOf("season")>=0) rows.push("<b>Mùa đẹp:</b> "+e(typeof placeSeason==="function"?placeSeason(x,pv):(pv.best_season||"chưa có")));
+    return '<p><b>'+e(x.name)+'</b> ('+e(pn)+')</p>'+rows.map(function(h){ return '<p>'+h+'</p>'; }).join("")+
+      '<p class="small">Nguồn: '+e(x.source||"dữ liệu cẩm nang")+' · kiểm '+e(x.checked||pv.checked||"06/11/2026")+'. Giá, giờ có thể đổi, kiểm lại trước khi đi.</p>'+
+      '<p><button type="button" class="linkbtn" onclick="openProvPlace(\''+pv.id+'\',\''+x.id+'\')">Mở trang '+e(x.name)+'</button></p>';
+  }
+  window.tlFactAnswer=factAnswer;
   window.tlAsk=function(text){
     if(st.busy) return;
     var i=document.getElementById("tlIn"), q=String(text!=null?text:(i?i.value:"")).trim(); if(!q) return;
@@ -73,8 +98,12 @@
     var hit=typeof window.btFindProv==="function"?window.btFindProv(q):null;
     var hint=st.prov; if(hit&&hit.prov) st.prov=hit.prov;
     var hist=[]; for(var k=0;k<m.length-1;k++){ if(m[k].r==="u"&&m[k+1].r==="a"&&!m[k+1].err&&!m[k+1].h) hist.push({q:m[k].t,a:m[k+1].t}); }
+    var fa=""; try{ fa=factAnswer(q); }catch(z){}
+    if(fa){ m.push({r:"u",t:q},{r:"a",h:1,t:fa}); ss(KEY_CHAT,m.slice(-24)); render(); return; }
     m.push({r:"u",t:q}); ss(KEY_CHAT,m); st.busy=true; render();
-    fetch("/api/hoi",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:hit&&hit.prov?hit.prov.id:null,hint:hint?hint.id:null,old:hit?hit.old:"",hist:hist.slice(-3)})})
+    /* Chờ tối đa 20 giây; quá thì dừng và trả lời nhanh từ dữ liệu trên máy */
+    var ctl=typeof AbortController==="function"?new AbortController():null, tmr=ctl?setTimeout(function(){ ctl.abort(); },20000):0;
+    fetch("/api/hoi",{method:"POST",signal:ctl?ctl.signal:undefined,headers:{"content-type":"application/json"},body:JSON.stringify({q:q,prov:hit&&hit.prov?hit.prov.id:null,hint:hint?hint.id:null,old:hit?hit.old:"",hist:hist.slice(-3)})})
       .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,j:j}; },function(){ return {ok:false,j:{}}; }); })
       .then(function(x){
         var m2=msgs();
@@ -86,8 +115,8 @@
         else { count(); m2.push({r:"a",t:x.j.answer}); }
         ss(KEY_CHAT,m2.slice(-24));
       })
-      .catch(function(){ var m2=msgs(); m2.push({r:"a",t:"Mất kết nối. Dưới đây là trả lời nhanh từ dữ liệu trên máy.",err:1}); try{ if(typeof window.askQuick==="function") m2.push({r:"a",h:1,t:window.askQuick(q)}); }catch(z){} ss(KEY_CHAT,m2); })
-      .then(function(){ st.busy=false; if(st.tab==="ai") render(); var n=document.getElementById("tlIn"); if(n) n.focus(); });
+      .catch(function(){ var m2=msgs(); m2.push({r:"a",t:"Trợ lý AI không trả lời kịp hoặc mất kết nối. Dưới đây là trả lời nhanh từ dữ liệu trên máy.",err:1}); try{ if(typeof window.askQuick==="function") m2.push({r:"a",h:1,t:window.askQuick(q)}); }catch(z){} ss(KEY_CHAT,m2); })
+      .then(function(){ clearTimeout(tmr); st.busy=false; if(st.tab==="ai") render(); var n=document.getElementById("tlIn"); if(n) n.focus(); });
   };
 
   /* ---------- Hỗ trợ ---------- */
