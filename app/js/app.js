@@ -792,6 +792,7 @@ function setTopForProv(p){
 }
 function openProvDetail(slug){
   var p=provById(slug); if(!p) return;
+  if(window.btTrack) btTrack("mo_tinh",{tinh:p.id});
   currentProv=p; provSeg="tongquan"; provCluster="all"; provMapFor=null;
   if(provMap){ try{ provMap.remove(); }catch(e){} provMap=null; }
   renderProvDetail();
@@ -1304,6 +1305,7 @@ function openDestDetailToRoutes(origin){
   setTimeout(function(){ if(target) target.scrollIntoView({block:"start",behavior:"smooth"}); },90);
 }
 function doTripSearch(){
+  if(window.btTrack) btTrack("tim_kiem",{loai:"chuyen"});
   var destInp=document.getElementById("tsDest");
   var orgInp=document.getElementById("tsOrigin");
   var originTyped=orgInp?orgInp.value.trim():"";
@@ -1565,8 +1567,10 @@ function updateWDaysInfo(){
 }
 document.getElementById("wStart").addEventListener("change",updateWDaysInfo);
 document.getElementById("wEnd").addEventListener("change",updateWDaysInfo);
+window.wizEditOrigin=function(){ wizShowStep(1); var el=document.getElementById("wOriginInput"); if(el){ el.focus(); el.select&&el.select(); } };
 function wizShowStep(n){
   wiz.step=n;
+  if(n===4 && window.btTrack) btTrack("xong_buoc_4",{tinh:wiz.dest||""});
   document.querySelectorAll(".wstep").forEach(function(w){ w.classList.toggle("active", Number(w.getAttribute("data-wstep"))===n); });
   document.querySelectorAll("#wSteps .st").forEach(function(s,i){ s.classList.toggle("on", i<n); });
   document.getElementById("wBack").style.visibility = n>1 ? "visible":"hidden";
@@ -1675,19 +1679,53 @@ function pickByBudget(range,budgetId){
    với bảng tổng quan trang tỉnh): di chuyển = dòng tuyến đầu (khứ hồi; dòng
    ghi "/chiều" thì nhân đôi), chỗ ở = dòng "Ở..." vốn là phần 1 người khi
    chia đôi phòng cho 2 đêm -> quy về số đêm của chuyến và chia theo số người. */
+/* Điểm xuất phát có nằm trong chính tỉnh đến không (Đà Nẵng -> Đà Nẵng, Nha Trang -> Khánh Hòa...) */
+function sameProvOrigin(prov,origin){
+  if(!prov||!origin) return false;
+  if(isSGOrigin(origin)) return prov.id==="tp-ho-chi-minh";
+  if(isHNOrigin(origin)) return prov.id==="ha-noi";
+  try{ var h=window.btFindProv&&window.btFindProv(origin); if(h&&h.prov) return h.prov.id===prov.id; }catch(e){}
+  return foldStr(origin).indexOf(foldStr(prov.name))>=0;
+}
+/* Chọn dòng tiền đi tới tỉnh theo điểm xuất phát.
+   mode: "same" (cùng tỉnh, không cộng), "sg", "hn", "fallback" (chưa có tuyến -> tạm tính từ TP.HCM, có ghi rõ). */
+function pickTransportRows(prov,origin){
+  var rows=(prov.cost||[]).filter(function(c){ var lb=(c.label||"").toLowerCase(); return lb.indexOf("tổng")<0 && lb.indexOf("ở")!==0; });
+  var main=rows.filter(function(c){ return (c.label||"").toLowerCase().indexOf("nếu ")!==0; });
+  var LEG2=/^Xe (HN|Hà Nội|sân bay|Vinh)\b/;
+  function sgRows(){
+    var first=main[0]; if(!first) return [];
+    if(/^Máy bay HAN/.test(first.label||"")) return [];   /* tỉnh này ghi tuyến từ Hà Nội, không có tuyến SG */
+    var out=[first];
+    if(/(SGN?–HAN|SG–HN|SGN–THD|SGN–VII)/.test(first.label||"") && (first.label||"").indexOf("+")<0)
+      main.slice(1).forEach(function(c){ if(LEG2.test(c.label||"")) out.push(c); });
+    return out;
+  }
+  if(sameProvOrigin(prov,origin)) return {mode:"same",rows:[]};
+  if(isHNOrigin(origin)){
+    var leg=main.filter(function(c){ return /^Xe (HN|Hà Nội)\b/.test(c.label||""); });
+    if(leg.length) return {mode:"hn",rows:leg};
+    var alt=(prov.cost||[]).filter(function(c){ return /nếu đi từ hà nội/i.test(c.label||"") && /thay máy bay/i.test(c.label||"") && !/^\s*(Trừ|Từ)/.test(c.value||"") && parseRangeVal(c.value); })[0];
+    if(alt) return {mode:"hn",rows:[alt]};
+    if(main[0] && /^Máy bay HAN/.test(main[0].label||"")) return {mode:"hn",rows:[main[0]]};
+    return {mode:"fallback",rows:sgRows()};
+  }
+  if(isSGOrigin(origin)) return {mode:"sg",rows:sgRows()};
+  return {mode:"fallback",rows:sgRows()};
+}
 function tripComponents(prov,budgetId,nights,people,origin,estTotal){
-  var transport=0, lodging=0, ok=false;
+  var transport=0, lodging=0, ok=false, mode="fallback";
   people=Math.max(1,people||1); nights=Math.max(0,nights||0);
+  origin=resolveOrigin(origin);
   if(prov && prov.cost && prov.cost.length){
-    var rows=prov.cost.filter(function(c){ return (c.label||"").toLowerCase().indexOf("tổng")<0 && (c.label||"").toLowerCase().indexOf("nếu ")!==0; });
-    var tRow=null, sRow=null;
-    rows.forEach(function(c){ var lb=(c.label||"").toLowerCase(); if(!sRow && lb.indexOf("ở")===0) sRow=c; });
-    if(isHNOrigin(origin||"")){ prov.cost.forEach(function(c){ if(!tRow && (c.label||"").indexOf("Hà Nội")>=0) tRow=c; }); }
-    if(!tRow && rows.length) tRow=rows[0]===sRow&&rows.length>1?rows.filter(function(c){return c!==sRow;})[0]:rows[0];
-    if(tRow){ var tr=parseRangeVal(tRow.value); if(tr){ transport=pickByBudget(tr,budgetId); if(/\/chiều/.test(tRow.value)) transport*=2; ok=true; } }
+    var sRow=null;
+    prov.cost.forEach(function(c){ var lb=(c.label||"").toLowerCase(); if(!sRow && lb.indexOf("ở")===0) sRow=c; });
+    var pk=pickTransportRows(prov,origin); mode=pk.mode;
+    if(mode==="same") ok=true;
+    pk.rows.forEach(function(r){ var tr=parseRangeVal(r.value); if(tr){ var v=pickByBudget(tr,budgetId); if(/\/chiều/.test(r.value)) v*=2; transport+=v; ok=true; } });
     if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights/people):0; } }
   }
-  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok};
+  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin};
 }
 /* Chỉ hiện khi tổng ước tính 1 người thấp hơn ngân sách 1 người đã chọn:
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
@@ -1695,8 +1733,14 @@ function underBudgetNoteHtml(total,perBudget){
   if(perBudget && total>0 && total<perBudget) return '<p style="font-weight:700;color:var(--green-d)">Ước tính thấp hơn ngân sách bạn chọn — bạn còn dư trong ngân sách.</p>';
   return "";
 }
-function totalNoteHtml(comp,destName,nights,people){
-  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b> · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
+function transportNoteHtml(comp,editable){
+  if(comp.mode==="same") return ' (cùng tỉnh với điểm xuất phát '+esc(comp.origin)+', không cộng tiền đi tới)';
+  if(comp.mode==="fallback") return ' (<b style="color:var(--accent,#c4501d)">tạm tính từ TP.HCM</b> vì chưa có giá tuyến từ '+esc(comp.origin)+(editable?' — <a href="#" onclick="if(window.wizEditOrigin)wizEditOrigin();return false">đổi điểm xuất phát</a>':'')+')';
+  if(comp.mode==="hn") return ' (từ Hà Nội)';
+  return ' (từ TP.HCM)';
+}
+function totalNoteHtml(comp,destName,nights,people,editable){
+  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
 }
 function renderWizDays(){
   var people=Number(document.getElementById("wPeople").value||2);
@@ -1705,7 +1749,7 @@ function renderWizDays(){
   document.getElementById("wSummary").innerHTML =
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(bud.per*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
     '<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin||"TP.HCM")+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>'+
-    (function(){ var comp=tripComponents(wizDestProv(), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
+    (function(){ var comp=tripComponents(wizDestProv(), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span></div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
@@ -1820,6 +1864,7 @@ function savePlanTrip(){
     expenses:[], checklist:ckList.map(function(n,i){ return {id:"ck"+i, name:n, category:"hanh_ly", done:false}; })
   };
   trips.unshift(trip); saveTrips();
+  if(window.btTrack) btTrack("luu_chuyen",{tinh:trip.destination_id||"",ngay:(trip.days||[]).length});
   toast("Đã lưu chuyến — có ngay trong Chuyến của tôi");
   navStack=[]; show("trips",false);
   openTrip(trip.id);
@@ -1877,13 +1922,47 @@ function tripCardHtml(t){
   var dur=tripDurLabel(t);
   return '<div class="card"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openTrip(\''+t.id+'\')">'+provPoster(tripProvId(t),120)+'<div class="body"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3 style="flex:1">'+esc(fullDurTitle(t.title))+'</h3>'+tripStatusBadge(t)+'</div><div class="meta-line">'+(t.origin_city?'<span>Xuất phát từ '+esc(t.origin_city)+' → '+esc(tripDestName(t))+'</span>':"")+'<span>'+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+'</span>'+(dur?'<span>'+dur+'</span>':"")+'<span>'+t.people_count+' người</span><span>'+esc(t.style||"")+'</span></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div><p class="small" style="margin-top:6px">Đã chi '+fmt(spent)+' / ngân sách '+fmt(t.budget_total)+' · Checklist '+doneCk+'/'+t.checklist.length+'</p></div></button><div class="trip-card-foot"><button class="btn-go" onclick="goTrip(\''+t.id+'\')">Đi</button></div></div>';
 }
+function backupBoxHtml(){
+  return '<div class="notebox" style="margin-top:16px"><b>Sao lưu chuyến</b><br/><span class="small">Chuyến và mục đã lưu chỉ nằm trong trình duyệt này. Đổi máy hoặc xóa dữ liệu trình duyệt sẽ mất, nên tải file sao lưu về rồi nhập lại ở máy mới.</span><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button><button class="btn btn-ghost" onclick="document.getElementById(\'importTripsFile\').click()">Nhập từ file</button><input type="file" id="importTripsFile" accept=".json,application/json" style="display:none" onchange="importTrips(this)"/></div></div>';
+}
+window.exportTrips=function(){
+  var data={app:"buitrip",kind:"sao-luu-chuyen",version:1,at:new Date().toISOString(),trips:trips,saved:saved};
+  try{
+    var blob=new Blob([JSON.stringify(data,null,1)],{type:"application/json"});
+    var a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+    a.download="buitrip-sao-luu-"+new Date().toISOString().slice(0,10)+".json";
+    document.body.appendChild(a); a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },1000);
+    toast("Đã tải file sao lưu: "+trips.length+" chuyến, "+saved.length+" mục đã lưu");
+  }catch(e){ toast("Trình duyệt không cho tải file"); }
+};
+window.importTrips=function(inp){
+  var f=inp&&inp.files&&inp.files[0]; if(!f) return;
+  var r=new FileReader();
+  r.onload=function(){
+    var d=null; try{ d=JSON.parse(r.result); }catch(e){}
+    if(!d||d.app!=="buitrip"||!Array.isArray(d.trips)){ toast("File không phải bản sao lưu BuiTrip"); inp.value=""; return; }
+    var have={}; trips.forEach(function(t){ if(t&&t.id) have[t.id]=1; });
+    var addT=0; d.trips.forEach(function(t){
+      if(!t||typeof t!=="object"||!t.id||have[t.id]||!Array.isArray(t.days)) return;
+      if(!Array.isArray(t.expenses)) t.expenses=[]; if(!Array.isArray(t.checklist)) t.checklist=[];
+      t.people_count=Math.max(1,Number(t.people_count)||1); t.title=String(t.title||"Chuyến đã nhập");
+      trips.push(t); have[t.id]=1; addT++; });
+    var key=function(x){ return x&&x.kind+":"+x.id; }, hs={}; saved.forEach(function(x){ hs[key(x)]=1; });
+    var addS=0; (Array.isArray(d.saved)?d.saved:[]).forEach(function(x){ if(x&&x.kind&&x.id&&!hs[key(x)]){ saved.push({kind:String(x.kind),id:String(x.id)}); hs[key(x)]=1; addS++; } });
+    trips.forEach(function(t){ if(t&&t.title) t.title=fullDurTitle(t.title); });
+    saveTrips(); saveSaved(); renderTrips();
+    toast("Đã nhập "+addT+" chuyến, "+addS+" mục đã lưu"+(d.trips.length>addT?" (bỏ qua chuyến đã có)":""));
+    inp.value="";
+  };
+  r.readAsText(f);
+};
 function renderTrips(){
   var wrap=document.getElementById("tripListWrap");
   if(!trips.length){
-    wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><div class="empty"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><b style="font-size:var(--fs-h2)">Chưa có chuyến nào</b><p class="muted">Lập chuyến đầu tiên: chọn điểm đến trong đủ 34 tỉnh đã duyệt, chọn ngày và số người — app gợi ý lịch trình từ dữ liệu thật của tỉnh đó, sửa xong bấm Lưu là có ngay ở đây, không cần tải lại trang.</p><button class="btn btn-orange" onclick="startPlan()">+ Lập chuyến đầu tiên</button><p class="small" style="margin:14px 0 0">Chuyến và mục đã lưu chỉ nằm trong trình duyệt/máy này, tắt app mở lại vẫn còn, không cần đăng nhập, không ai khác xem được.</p></div>';
+    wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><div class="empty"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><b style="font-size:var(--fs-h2)">Chưa có chuyến nào</b><p class="muted">Lập chuyến đầu tiên: chọn điểm đến trong đủ 34 tỉnh đã duyệt, chọn ngày và số người — app gợi ý lịch trình từ dữ liệu thật của tỉnh đó, sửa xong bấm Lưu là có ngay ở đây, không cần tải lại trang.</p><button class="btn btn-orange" onclick="startPlan()">+ Lập chuyến đầu tiên</button><p class="small" style="margin:14px 0 0">Chuyến và mục đã lưu chỉ nằm trong trình duyệt/máy này, tắt app mở lại vẫn còn, không cần đăng nhập, không ai khác xem được.</p></div>'+backupBoxHtml();
     return;
   }
-  wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><p class="sec-sub">Bấm <b>Đi</b> trên thẻ chuyến để bắt đầu đi: app mở ngay lịch trình hôm nay, checklist và thu chi của chuyến đó.</p><div class="listcol">'+trips.map(tripCardHtml).join("")+'</div><button class="btn btn-orange btn-block" style="margin-top:14px" onclick="startPlan()">+ Lập chuyến mới</button>';
+  wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><p class="sec-sub">Bấm <b>Đi</b> trên thẻ chuyến để bắt đầu đi: app mở ngay lịch trình hôm nay, checklist và thu chi của chuyến đó.</p><div class="listcol">'+trips.map(tripCardHtml).join("")+'</div><button class="btn btn-orange btn-block" style="margin-top:14px" onclick="startPlan()">+ Lập chuyến mới</button>'+backupBoxHtml();
 }
 function tripRouteHtml(t){
   var o=t.origin_city||"";

@@ -21,3 +21,8 @@
     var r = e && e.reason; send("Promise: " + (r && r.message || r), "", 0, 0, r && r.stack);
   });
 })();
+
+/* Sự kiện đo lường gửi về Vercel Web Analytics (không gửi chữ người dùng gõ, chỉ loại sự kiện và mã tỉnh).
+   Sự kiện tùy chỉnh chỉ hiện trong Vercel khi gói tài khoản hỗ trợ; gói không hỗ trợ thì lệnh bị bỏ qua, không lỗi. */
+window.va=window.va||function(){ (window.vaq=window.vaq||[]).push(arguments); };
+window.btTrack=function(name,data){ try{ window.va("event",{name:name,data:data||{}}); }catch(e){} };

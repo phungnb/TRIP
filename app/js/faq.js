@@ -207,6 +207,7 @@
   window.askRun=function(){
     var i=document.getElementById("askInput"), o=document.getElementById("askOut"); if(!i||!o) return;
     var v=i.value.trim(); if(!v){ i.focus(); return; }
+    if(window.btTrack) btTrack("tim_kiem",{loai:"hoi_nhanh"});
     AI.lastQ=v;
     o.innerHTML='<div class="ask-ans">'+askQuick(v)+'</div>'; o.hidden=false;
     aiBtn();
