@@ -35,12 +35,29 @@ const LOAI = [
   [/^(Cầu|Phố|Đường|Quảng trường|Đèo|Mốc|Cột mốc|Tượng đài|Hẻm|Bãi|Biển|Bãi biển|Vịnh|Cánh đồng|Ruộng bậc thang|Cao nguyên|Đồi|Thành phố|Khu đô thị)(?=[\s,(-]|$)/i, "Miễn phí (nơi công cộng; theo loại địa điểm, chưa kiểm riêng)", "Cả ngày"],
   [/^(Hồ)(?=[\s,(-]|$)/i, "Miễn phí ngắm hồ; thuyền, dịch vụ tính riêng (theo loại địa điểm, chưa kiểm riêng)", "Cả ngày"],
   [/^Chợ nổi(?=[\s,(-]|$)/i, "Miễn phí; thuê thuyền ra chợ tính riêng (theo loại địa điểm, chưa kiểm riêng)", "Họp sáng sớm, đẹp nhất khoảng 5h–8h (theo loại địa điểm, chưa kiểm riêng)"],
-  [/^Chợ(?=[\s,(-]|$)/i, "Miễn phí vào chợ (theo loại địa điểm, chưa kiểm riêng)", ""],
-  [/^Công viên (?!Thủ Lệ|địa chất)/i, "Miễn phí vào công viên (theo loại địa điểm, chưa kiểm riêng)", ""],
-  [/^(Chùa|Đền|Đình|Nhà thờ|Miếu|Thiền viện|Tòa Thánh|Dinh Cậu|Dinh Cô|Quan Âm Phật Đài|Thích Ca Phật Đài|Trung tâm Hành hương)(?=[\s,(-]|$)/i, "Thường không bán vé vào cổng, có thể thu phí gửi xe (theo loại địa điểm, chưa kiểm riêng)", ""]
+  [/^Chợ(?=[\s,(-]|$)/i, "Miễn phí vào chợ (theo loại địa điểm, chưa kiểm riêng)", "Khoảng 5:00–18:00 (ước tính, chưa kiểm)"],
+  [/^Công viên (?!Thủ Lệ|địa chất)/i, "Miễn phí vào công viên (theo loại địa điểm, chưa kiểm riêng)", "Cả ngày"],
+  [/^(Chùa|Đền|Đình|Nhà thờ|Miếu|Thiền viện|Tòa Thánh|Dinh Cậu|Dinh Cô|Quan Âm Phật Đài|Thích Ca Phật Đài|Trung tâm Hành hương)(?=[\s,(-]|$)/i, "Thường không bán vé vào cổng, có thể thu phí gửi xe (theo loại địa điểm, chưa kiểm riêng)", "Khoảng 6:00–18:00 (ước tính, chưa kiểm)"]
 ];
 const LOAI_BO = /^(Hồ Than Thở|Đồi Cù|Cánh đồng cừu|Hẻm Tu Sản|Ruộng bậc thang Mù Cang Chải)/; /* có thể bán vé hoặc phải đi thuyền: để kiểm riêng */
-const loai = name => LOAI_BO.test(name) ? null : LOAI.find(r => r[0].test(name));
+/* Nơi có thể bán vé: điền khoảng ước tính theo loại địa điểm (anh Phụng duyệt 23/11/2026: app du lịch, giá đổi liên tục,
+   được ghi thông tin chưa kiểm miễn là ghi rõ). Mọi dòng ghi "ước tính, chưa kiểm". */
+const UT = " (ước tính, chưa kiểm)";
+const UOC = [
+  [/^Đồi Cù/i, "Ngắm đồi từ ngoài miễn phí; sân golf tính riêng" + UT, "Ban ngày"],
+  [/^Cánh đồng cừu/i, "Khoảng 20.000–50.000đ/người" + UT, "Khoảng 7:00–17:30" + UT],
+  [/^Hẻm Tu Sản/i, "Ngắm từ điểm dừng trên đèo miễn phí; thuyền sông Nho Quế khoảng 100.000–150.000đ/người" + UT, "Ban ngày; thuyền chạy khoảng 7:00–17:00" + UT],
+  [/^Ruộng bậc thang/i, "Ngắm ven đường miễn phí; một số điểm chụp ảnh thu khoảng 10.000–30.000đ" + UT, "Ban ngày; đẹp nhất mùa lúa chín (tháng 9–10)"],
+  [/suối nước nóng|suối khoáng/i, "Khoảng 100.000–300.000đ/người" + UT, "Khoảng 7:00–21:00" + UT],
+  [/^Lễ hội/i, "Miễn phí xem lễ hội" + UT, "Theo lịch lễ hội hằng năm"],
+  [/^(Bảo tàng)/i, "Khoảng 0–40.000đ/người; nhiều bảo tàng tỉnh miễn phí" + UT, "Khoảng 7:30–11:00 và 13:30–17:00, thường nghỉ thứ Hai" + UT],
+  [/^(Thác|Suối|Động|Hang|Ngũ Động)(?=[\s,(-]|$)/i, "Khoảng 20.000–100.000đ/người; dịch vụ tính riêng" + UT, "Khoảng 7:00–17:00" + UT],
+  [/^(Khu du lịch|Khu bảo tồn|Vườn quốc gia|Rừng|Sân chim|Vườn chim|Trảng cỏ|Công viên|Thung lũng|Vườn trái cây|Quần thể cây)(?=[\s,(-]|$)/i, "Khoảng 20.000–150.000đ/người; xe điện, thuyền, dịch vụ tính riêng" + UT, "Khoảng 7:00–17:00" + UT],
+  [/^(Núi|Đỉnh|Núi lửa|Danh thắng)(?=[\s,(-]|$)/i, "Thường miễn phí lên núi; cáp treo, xe điện nếu có tính riêng" + UT, "Ban ngày" + UT],
+  [/^(Làng|Sóc|Cồn|Cù lao|Đảo|Mai Châu|Thung Nai|Tam Đảo|Hà Tiên|Cao nguyên|Mũi)(?=[\s,(-—]|$)/i, "Thường miễn phí vào làng, khu; thuyền, dịch vụ tính riêng" + UT, "Ban ngày"],
+  [/^(Căn cứ|Khu di tích|Di tích|Địa đạo|Địa điểm|Khu mộ|Mộ|Nhà tù|Nhà Giao tế|Khu lưu niệm|Thành|Thành cổ|Văn Miếu|Đàn|Quảng Bình Quan|Ải|Tháp|Tượng|Bạch Dinh|Hải đăng|Điểm cuối|Kho)(?=[\s,(-]|$)/i, "Khoảng 0–40.000đ/người; nhiều di tích miễn phí" + UT, "Khoảng 7:00–17:00" + UT]
+];
+const loai = name => (LOAI_BO.test(name) ? null : LOAI.find(r => r[0].test(name))) || UOC.find(r => r[0].test(name));
 const newOf = old => Object.keys(S).find(k => S[k].includes(old));
 
 const out = {}, enrich = {}; const stat = { total: 0, added: 0, dupName: 0, dupNear: 0, enriched: 0, noProv: [] };
