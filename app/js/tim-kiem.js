@@ -27,16 +27,30 @@
     if (fn.indexOf(fq) >= 0) return 75;
     return 0;
   }
+  /* Các từ gõ phải nằm trong TÊN CHÍNH (trước ngoặc) và đúng thứ tự: "Hội Vân" không khớp "Đầm Vân Hội",
+     "Bình Ba" không khớp "Núi Bà Rá (Bình Phước cũ)" vì chữ "Bình" chỉ nằm trong ngoặc */
+  function inOrder(name, f) {
+    var fn = norm(String(name).split(" (")[0]), toks = f.split(" "), pos = 0;
+    for (var i = 0; i < toks.length; i++) { var k = fn.indexOf(" " + toks[i] + " ", pos); if (k < 0) return false; pos = k + toks[i].length + 1; }
+    return true;
+  }
+  /* Gõ liền 2 từ thành 1 ("sapa", "phuquoc"): khớp khi ghép các từ liền nhau của tên ra đúng chữ đó */
+  function joined(name, f) {
+    if (f.indexOf(" ") >= 0 || f.length < 4) return false;
+    var w = norm(name).trim().split(" ");
+    for (var i = 0; i < w.length; i++) { var s = w[i]; for (var j = i + 1; j < w.length && s.length < f.length; j++) { s += w[j]; if (s === f) return true; } }
+    return false;
+  }
   function scoreName(name, v, loose) {
     if (!loose) {
-      if (typeof wordMatch === "function" && !wordMatch(name, v.q)) return 0;
-      return Math.max(phraseScore(name, v.f), 50);
+      if (typeof wordMatch === "function" && !wordMatch(name, v.q)) return joined(name, v.f) ? 75 : 0;
+      var p0 = phraseScore(name, v.f);
+      if (p0) return p0;
+      return inOrder(name, v.f) ? 50 : 0;
     }
     var ps = phraseScore(name, v.f);
     if (ps) return ps - 10;
-    var fn = norm(name), toks = v.f.split(" ");
-    for (var i = 0; i < toks.length; i++) if (fn.indexOf(" " + toks[i] + " ") < 0) return 0;
-    return 40;
+    return inOrder(name, v.f) ? 40 : 0;
   }
   function oldNameHits(q) {
     var out = [], f = norm(q).trim();

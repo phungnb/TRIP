@@ -117,7 +117,7 @@
     var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent=total+" tỉnh/thành có mùa đẹp rơi vào tháng "+m+" (theo cẩm nang từng tỉnh).";
     box.innerHTML=list.map(function(p){
       var a=provArt(p.id);
-      return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110,provPhoto(p.id))+'<div class="season-body"><h3>'+esc(p.id==="lam-dong"?"Đà Lạt · Lâm Đồng":p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';
+      return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110,provPhoto(p.id))+'<div class="season-body"><h3>'+esc(p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';
     }).join("") || '<p class="muted">Chưa có tỉnh nào ghi mùa đẹp trùng tháng này.</p>';
   }
 
