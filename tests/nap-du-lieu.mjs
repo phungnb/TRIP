@@ -8,7 +8,7 @@ export function napDuLieu() {
   const ctx = { window: {}, console };
   ctx.window = ctx;
   vm.createContext(ctx);
-  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "js/lam-sach.js", "data/anh.js"]) {
+  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/trung-tam.js", "js/lam-sach.js", "data/anh.js"]) {
     vm.runInContext(fs.readFileSync(path.join(APP, f), "utf8"), ctx, { filename: f });
   }
   vm.runInContext("this.__P=PROV_DATA;this.__S=typeof SAP_NHAP!=='undefined'?SAP_NHAP:{};this.__A=typeof PHOTOS!=='undefined'?PHOTOS:{};", ctx);

@@ -75,14 +75,15 @@
     var near=prov.places.filter(function(o){ return o!==x && o.cluster===x.cluster; }).slice(0,4);
     var dishes=prov.dishes.slice(0,3);
     var opts=localOptions(prov);
-    var h='<section class="guide"><h3 class="guide-h">Đi từ trung tâm '+esc(prov.anchor||prov.name)+'</h3>'+
+    var h='<section class="guide"><h3 class="guide-h">Đi từ '+esc(x.dist_from||prov.anchor||prov.name)+'</h3>'+
+      (x.island?'<p class="guide-note"><b>Điểm trên đảo:</b> ra '+esc(x.island)+' bằng máy bay hoặc tàu cao tốc, không đi đường bộ được. Km dưới đây tính trên đảo, từ '+esc(x.island)+'.</p>':'')+
       '<div class="guide-row"><div class="guide-km"><b>'+(km==null?"—":(km===0?"0":"~"+km))+'</b><span>km</span></div><div><b>'+esc(sg.mode)+'</b><p>'+esc(sg.why)+'</p></div></div>'+
-      (old?'<p class="guide-note">Thuộc khu vực '+esc(old)+' cũ'+(isMerged(prov.id)&&old!==oldList(prov.id)[0]?'. Nếu đi riêng khu này, nên lấy sân bay/bến xe phía '+esc(old)+' làm điểm xuất phát (đang bổ sung dữ liệu).':'.')+'</p>':'')+
+      (old&&!x.island?'<p class="guide-note">Thuộc khu vực '+esc(old)+' cũ'+(isMerged(prov.id)&&old!==oldList(prov.id)[0]?'. Nếu đi riêng khu này, nên lấy sân bay/bến xe phía '+esc(old)+' làm điểm xuất phát (đang bổ sung dữ liệu).':'.')+'</p>':'')+
       (opts.length?'<div class="guide-opts">'+opts.map(function(o){ return '<div><span>'+esc(o.mode)+'</span><b>'+esc(priceShort(o.price)||o.price||"")+'</b></div>'; }).join("")+'</div>':'')+
       (near.length?'<h4>Gần đó, đi cùng buổi</h4><div class="guide-chips">'+near.map(function(o){ return '<button class="chip" onclick="openProvPlace(\''+prov.id+'\',\''+o.id+'\')">'+esc(o.name.split(" (")[0])+'</button>'; }).join("")+'</div>':'')+
       (stays.length?'<h4>'+(sameArea?'Chỗ ở cùng khu':'Chỗ ở ở trung tâm')+'</h4><div class="guide-list">'+stays.map(function(s){ return '<button onclick="openProvStay(\''+prov.id+'\',\''+s.id+'\')"><span>'+esc(s.name.split(" (")[0])+'</span><b>'+esc(priceShort(s.price)||"")+'</b></button>'; }).join("")+'</div>':'')+
       (dishes.length?'<h4>Món nên thử ở '+esc(prov.id==="lam-dong"?"Đà Lạt":prov.name)+'</h4><div class="guide-list">'+dishes.map(function(d){ return '<button onclick="openProvDish(\''+prov.id+'\',\''+d.id+'\')"><span>'+esc(d.name)+'</span><b>'+esc(priceShort(d.price)||"")+'</b></button>'; }).join("")+'</div>':'')+
-      '<p class="small" style="margin:10px 0 0">Km theo dữ liệu từng điểm (tính từ trung tâm tham chiếu). Thời gian và phương tiện là ước tính theo cự ly; giá thuê xe theo cẩm nang tỉnh.</p></section>';
+      '<p class="small" style="margin:10px 0 0">Km tính từ trung tâm du lịch gần nhất (đường thẳng, đường bộ thực tế dài hơn 20–40%). Thời gian và phương tiện là ước tính theo cự ly; giá thuê xe theo cẩm nang tỉnh.</p></section>';
     return h;
   }
 
