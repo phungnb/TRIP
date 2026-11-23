@@ -285,7 +285,7 @@ function renderDestList(){
   var html=provs.map(destCard).join("");
   /* Gõ tên địa danh, món: hiện thêm địa danh và món khớp, không chỉ tên tỉnh */
   if(f && window.btSearch){
-    var hits=btSearch(raw).filter(function(r){ return (r.kind==="place"||r.kind==="dish") && (regionFilter==="all"||r.prov.region===regionFilter); });
+    var hits=btSearch(raw).filter(function(r){ return (r.kind==="place"||r.kind==="dish"||r.kind==="area") && (regionFilter==="all"||r.prov.region===regionFilter); });
     if(hits.length) html+='<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Địa danh, món ăn khớp “'+esc(raw)+'”</h3><div class="listcol">'+hits.slice(0,30).map(btSearchCard).join("")+'</div>';
   }
   document.getElementById("destList").innerHTML = html || '<div class="empty"><p class="muted" style="margin:0">Không thấy tỉnh, địa danh hay món nào khớp “'+esc(raw)+'”. Thử gõ “Hội An”, “phở” hoặc tên tỉnh cũ như “Quảng Nam”.</p></div>';
@@ -1278,6 +1278,7 @@ function destSuggestions(q){
   }
   var hits=window.btSearch?btSearch(q):[];
   hits.forEach(function(r){
+    if(r.kind==="area"){ out.push({type:"area",id:r.area.id,name:r.area.name,title:r.area.name+" → "+r.prov.name,sub:(r.area.old&&r.area.old!==r.area.name?"Khu "+r.area.old+" cũ, ":"Khu ")+"nay thuộc "+r.prov.name+" · lịch trình và tiền đi tính riêng cho khu này",soon:false}); return; }
     if(r.kind==="prov"){
       var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; if(!d) return;
       out.push({type:"dest",id:d.id,name:r.oldName||d.name,title:r.oldName?(r.oldName+" → "+d.name):(d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:"")),sub:r.oldName?(r.oldName+" cũ nay thuộc "+d.name+" (sáp nhập 01/07/2025)"):("Đã có dữ liệu đầy đủ · "+regionLabel(d.region)),soon:false,draft:false});
@@ -1292,6 +1293,7 @@ function pickAcDest(prefix,type,id){
   var inputId=prefix==="ts"?"tsDest":"wDestInput", listId=prefix==="ts"?"tsDestAc":"wDestAc";
   var title="";
   if(type==="dest"){ var d=DESTINATIONS.filter(function(x){return x.id===id;})[0]; if(!d) return; title=d.name; searchDestId=d.id; }
+  else if(type==="area"){ var ar=window.btAreaById&&btAreaById(id), ap=ar&&provById(ar.prov); if(!ap) return; title=ar.name; searchDestId=ap.appId; if(prefix==="w"){ wiz.dest=ap.appId; wiz.area=ar.id; } }
   else {
     var parts=id.split("|"); var prov=provById(parts[0]); if(!prov) return;
     var arr=type==="pplace"?prov.places:prov.dishes; var found=null;
@@ -1308,6 +1310,7 @@ function resolveDestText(text){
   if(f==="tphcm"||f.indexOf("ho chi minh")>=0||f==="sai gon") return {type:"dest",id:"tp-ho-chi-minh"};
   var r=(window.btSearch?btSearch(text):[])[0];
   if(!r) return null;
+  if(r.kind==="area") return {type:"area",prov:r.prov.id,id:r.area.id};
   if(r.kind==="prov"){ var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; return d?{type:"dest",id:d.id}:null; }
   if(r.kind==="place") return {type:"pplace",prov:r.prov.id,id:r.x.id};
   if(r.kind==="dish") return {type:"pdish",prov:r.prov.id,id:r.x.id};
@@ -1497,9 +1500,12 @@ document.getElementById("searchInput").addEventListener("keydown",function(e){ i
 
 
 /* ================= 4 BƯỚC LẬP CHUYẾN ================= */
-var wiz={step:1, dest:"dalat", origin:"", budget:"vua", style:"cap_doi", days:[], editingId:null, editStart:"", editEnd:"", editTitle:"", titleLoaded:false};
+var wiz={step:1, dest:"dalat", area:"", origin:"", budget:"vua", style:"cap_doi", days:[], editingId:null, editStart:"", editEnd:"", editTitle:"", titleLoaded:false};
 function wizDestProv(){ return provById(wiz.dest); }
-function wizDestName(){ var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0]; return d?d.name:"Đà Lạt"; }
+function wizArea(){ var a=wiz.area&&window.btAreaById?btAreaById(wiz.area):null; return a&&provById(a.prov)===wizDestProv()?a:null; }
+/* Tỉnh dùng để tính tiền đi: khu (Quy Nhơn…) có tuyến riêng thì thay dòng tiền đi của tỉnh */
+function costProvFor(provId,areaId){ var p=provById(provId), a=areaId&&window.btAreaById?btAreaById(areaId):null; return (a&&p&&provById(a.prov)===p&&window.btAreaCostProv)?btAreaCostProv(a):p; }
+function wizDestName(){ var a=wizArea(); if(a) return a.name; var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0]; return d?d.name:"Đà Lạt"; }
 function wizTplKey(n){
   var key=n<=2?"2N1D":(n===3?"3N2D":"4N3D");
   if(wiz.dest==="dalat") return key;
@@ -1508,7 +1514,7 @@ function wizTplKey(n){
   return key;
 }
 function wizPickDest(id){
-  wiz.dest=id; searchDestId=id;
+  wiz.dest=id; searchDestId=id; wiz.area="";
   var d=DESTINATIONS.filter(function(x){return x.id===id;})[0];
   if(d){ var wd=document.getElementById("wDestInput"); if(wd) wd.value=d.name; syncDestInputs(d.name,"wDestInput"); }
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===id); });
@@ -1551,7 +1557,9 @@ function fillWizAddSel(){
     return;
   }
   var prov=wizDestProv(); if(!prov){ sel.innerHTML=""; return; }
-  sel.innerHTML = prov.places.map(function(p){ return '<option value="pplace:'+prov.id+'|'+p.id+'">Địa danh — '+esc(p.name)+'</option>'; }).join("") + prov.dishes.map(function(d){ return '<option value="pdish:'+prov.id+'|'+d.id+'">Món ăn — '+esc(d.name)+'</option>'; }).join("");
+  var ar=wizArea(), pls=prov.places;
+  if(ar){ pls=pls.filter(function(x){ return x.dist_from===ar.hub; }).concat(pls.filter(function(x){ return x.dist_from!==ar.hub; })); }
+  sel.innerHTML = pls.map(function(p){ return '<option value="pplace:'+prov.id+'|'+p.id+'">Địa danh — '+esc(p.name)+'</option>'; }).join("") + prov.dishes.map(function(d){ return '<option value="pdish:'+prov.id+'|'+d.id+'">Món ăn — '+esc(d.name)+'</option>'; }).join("");
 }
 function isoDate(d){ var m=("0"+(d.getMonth()+1)).slice(-2); var dd=("0"+d.getDate()).slice(-2); return d.getFullYear()+"-"+m+"-"+dd; }
 function pickDate(id){ var el=document.getElementById(id); if(!el) return; try{ if(typeof el.showPicker==="function"){ el.showPicker(); return; } }catch(e){} el.focus(); try{ el.click(); }catch(e){} }
@@ -1559,7 +1567,7 @@ function addDays(ds,n){ var d=new Date(ds+"T00:00:00"); d.setDate(d.getDate()+n)
 function daysBetween(a,b){ return Math.round((new Date(b+"T00:00:00")-new Date(a+"T00:00:00"))/86400000)+1; }
 function fmtDate(ds){ if(!ds) return ""; var p=ds.split("-"); return p[2]+"/"+p[1]+"/"+p[0]; }
 function startPlan(){
-  wiz={step:1,dest:(searchDestId||"dalat"),origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false};
+  wiz={step:1,dest:(searchDestId||"dalat"),area:"",origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false};
   var wd=document.getElementById("wDestInput"); if(wd) wd.value=(searchDestId==="dalat"||!searchDestText)?"Đà Lạt":searchDestText;
   var wo=document.getElementById("wOriginInput"); if(wo) wo.value=searchOrigin||"";
   var today=new Date(); var s=new Date(today.getTime()+7*86400000); var e=new Date(today.getTime()+9*86400000);
@@ -1632,7 +1640,14 @@ function buildWizDays(){
   }
   var key=wizTplKey(n);
   wiz.days=[];
-  if(wiz.dest==="dalat"){
+  var area=wizArea();
+  if(area && window.btAreaDays){
+    btAreaDays(area,n).forEach(function(list,di){
+      var its=list.map(function(o){ return {kind:"pplace", ref_id:"", title:o.place.name, gia_luc_lap:parsePriceSnap(o.place.price), session:o.session, note:"", done:false}; });
+      if(!its.length) its.push({kind:"note", ref_id:"", title:"Ngày tự do ở "+area.name+": nghỉ, đi chợ, ăn đặc sản", gia_luc_lap:0, session:"Cả ngày", note:"", done:false});
+      wiz.days.push({day_no:di+1, date:addDays(s,di), items:its});
+    });
+  } else if(wiz.dest==="dalat"){
     var tpl=ITINS[key].days;
     for(var d=0; d<n; d++){
       var items=[];
@@ -1784,7 +1799,7 @@ function renderWizDays(){
   document.getElementById("wSummary").innerHTML =
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(bud.per*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
     '<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin||"TP.HCM")+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>'+
-    (function(){ var comp=tripComponents(wizDestProv(), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
+    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,bud.per)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
@@ -1845,7 +1860,10 @@ function planMove(dir){
     var dText=wdEl?wdEl.value.trim():"";
     if(dText){
       var rr=resolveDestText(dText);
-      if(rr&&rr.type==="dest"){
+      wiz.area="";
+      if(rr&&rr.type==="area"){
+        var pa=provById(rr.prov); if(pa){ wiz.dest=pa.appId; searchDestId=pa.appId; wiz.area=rr.id; }
+      } else if(rr&&rr.type==="dest"){
         var rid=(rr.id==="tphcm")?"tp-ho-chi-minh":rr.id;
         wiz.dest=rid; searchDestId=rid;
       } else if(rr&&(rr.type==="pplace"||rr.type==="pdish")){
@@ -1871,10 +1889,10 @@ function editTrip(id){
   var t=tripById(id); if(!t) return;
   startPlan();
   wiz.editingId=id; wiz.editStart=t.start_date||""; wiz.editEnd=t.end_date||""; wiz.editTitle=t.title||""; wiz.titleLoaded=false;
-  wiz.dest=t.destination_id||"dalat"; searchDestId=wiz.dest;
-  var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0];
-  var wd=document.getElementById("wDestInput"); if(wd&&d) wd.value=d.name;
-  if(d) syncDestInputs(d.name,"wDestInput");
+  wiz.dest=t.destination_id||"dalat"; searchDestId=wiz.dest; wiz.area=t.area||"";
+  var d=DESTINATIONS.filter(function(x){return x.id===wiz.dest;})[0], dn=wizArea()?wizArea().name:(d?d.name:"");
+  var wd=document.getElementById("wDestInput"); if(wd&&dn) wd.value=dn;
+  if(dn) syncDestInputs(dn,"wDestInput");
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===wiz.dest); });
   wiz.origin=t.origin_city||"";
   var wo=document.getElementById("wOriginInput"); if(wo) wo.value=wiz.origin;
@@ -1899,7 +1917,7 @@ function savePlanTrip(){
   if(wiz.editingId){
     var old=tripById(wiz.editingId);
     if(old){
-      old.destination_id=wiz.dest; old.origin_city=wiz.origin||resolveOrigin(searchOrigin);
+      old.destination_id=wiz.dest; old.area=wizArea()?wiz.area:""; old.origin_city=wiz.origin||resolveOrigin(searchOrigin);
       old.title=document.getElementById("wTitle").value.trim()||old.title;
       old.start_date=document.getElementById("wStart").value; old.end_date=document.getElementById("wEnd").value;
       old.people_count=people; old.budget_total=bud.per*people; old.budget_label=bud.label; old.style=styleLabel;
@@ -1916,7 +1934,7 @@ function savePlanTrip(){
   var provCk=wizDestProv();
   var ckList=(wiz.dest!=="dalat" && provCk && provCk.checklist && provCk.checklist.length) ? provCk.checklist : CHECKLIST_DEFAULT;
   var trip={
-    id:uid(), destination_id:wiz.dest, origin_city:wiz.origin||resolveOrigin(searchOrigin),
+    id:uid(), destination_id:wiz.dest, area:(wizArea()?wiz.area:""), origin_city:wiz.origin||resolveOrigin(searchOrigin),
     title:document.getElementById("wTitle").value.trim()||("Chuyến "+wizDestName()),
     start_date:document.getElementById("wStart").value, end_date:document.getElementById("wEnd").value,
     people_count:people, budget_total:bud.per*people, budget_label:bud.label, style:styleLabel,
@@ -1968,7 +1986,9 @@ function tripProvId(t){
   var d=DESTINATIONS.filter(function(x){return x.id===t.destination_id;})[0];
   return d?d.provId:"lam-dong";
 }
+function tripArea(t){ var a=t&&t.area&&window.btAreaById?btAreaById(t.area):null; return a&&provById(a.prov)&&provById(a.prov).appId===t.destination_id?a:null; }
 function tripDestName(t){
+  var ta=tripArea(t); if(ta) return ta.name;
   var d=DESTINATIONS.filter(function(x){return x.id===t.destination_id;})[0];
   return d?d.name:"Đà Lạt";
 }
@@ -2037,6 +2057,12 @@ function tripRouteHtml(t){
     var prov=provById(t.destination_id); var nm=tripDestName(t);
     var headP='<div class="dayblock"><h3 style="margin-bottom:10px">Đi đến '+esc(nm)+(o?' — từ '+esc(o):"")+'</h3>';
     if(!prov) return headP+'<p class="muted" style="margin:0">Xem các tuyến ở mục “Đi đến” trong cẩm nang '+esc(nm)+'.</p></div>';
+    var ta=tripArea(t);
+    if(ta&&ta.cost){
+      var row=isHNOrigin(o)?ta.cost[1]:(isSGOrigin(o)||!o?ta.cost[0]:null);
+      if(row) return headP+'<div class="notebox"><b>'+esc(row.label.replace(/^Nếu đi từ Hà Nội:\s*/,"").replace(/,? thay máy bay SG/,""))+'</b><br/>'+esc(row.value)+' / người. Giá này là ước tính, chưa kiểm với hãng; xem giá thật trên trang hãng hoặc nhà xe trước khi đặt.</div></div>';
+      return headP+'<div class="notebox">Chưa có tuyến riêng '+esc(o)+' → '+esc(nm)+'. Tham khảo tuyến từ TP.HCM: '+esc(ta.cost[0].label)+' '+esc(ta.cost[0].value)+'.</div></div>';
+    }
     var arr=isSGOrigin(o)?prov.routes.sg:(isHNOrigin(o)?prov.routes.hn:null);
     if(arr&&arr.length) return headP+'<div class="listcol">'+arr.map(provRouteCard).join("")+'</div><p class="src">Khoảng giá + thời gian — kiểm '+(prov.checked||"06/11/2026")+'.</p></div>';
     if(o) return headP+'<div class="notebox">Chưa có tuyến riêng '+esc(o)+' → '+esc(nm)+' trong dữ liệu đã kiểm — tuyến này chưa được tra nên app không đoán giá/thời gian. Xem tuyến từ TP.HCM / Hà Nội ở mục “Đi đến” trong cẩm nang '+esc(nm)+' để tham khảo cách đi tiếp.</div></div>';
@@ -2073,7 +2099,7 @@ function renderTripDetail(){
   var html='<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h2 style="font-size:var(--fs-h2);margin:4px 0 4px;flex:1">'+esc(fullDurTitle(t.title))+'</h2><span style="margin-top:6px">'+tripStatusBadge(t)+'</span></div><p class="sec-sub" style="margin-bottom:10px">'+(t.origin_city?('Xuất phát từ <b style="color:var(--ink)">'+esc(t.origin_city)+'</b> → '+esc(tripDestName(t))+' · '):(esc(tripDestName(t))+" · "))+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+(tripDurLabel(t)?(' · '+tripDurLabel(t)):"")+' · '+t.people_count+' người · kiểu đi: '+esc(t.style||"—")+'</p>';
   var estSum=0, estUnknown=0;
   t.days.forEach(function(d){ d.items.forEach(function(it){ if(it.gia_luc_lap==null) estUnknown++; else estSum+=Number(it.gia_luc_lap||0); }); });
-  var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(provById(t.destination_id), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
+  var _budT=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compT=tripComponents(costProvFor(t.destination_id,t.area), _budT?_budT.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", estSum);
   /* "Còn lại" trừ theo số lớn hơn giữa ước tính cả nhóm và số đã chi, để không báo còn đủ tiền khi chưa ghi khoản chi nào */
   var estGroup=_compT.total*(t.people_count||1), used=Math.max(spent,estGroup), left=t.budget_total-used;
   var pct=t.budget_total?Math.min(100,Math.round(used/t.budget_total*100)):0;
@@ -2106,7 +2132,9 @@ function renderTripDetail(){
       tAddOpts=PLACES.map(function(p){return '<option value="place:'+p.id+'">'+esc(p.name)+'</option>';}).join("")+DISHES.map(function(d){return '<option value="dish:'+d.id+'">Món — '+esc(d.name)+'</option>';}).join("");
     } else {
       var tprov=provById(t.destination_id);
-      tAddOpts=tprov ? tprov.places.map(function(p){return '<option value="pplace:'+tprov.id+'|'+p.id+'">'+esc(p.name)+'</option>';}).join("")+tprov.dishes.map(function(d){return '<option value="pdish:'+tprov.id+'|'+d.id+'">Món — '+esc(d.name)+'</option>';}).join("") : "";
+      var tA=tripArea(t), tPl=tprov?tprov.places:[];
+      if(tA) tPl=tPl.filter(function(x){ return x.dist_from===tA.hub; }).concat(tPl.filter(function(x){ return x.dist_from!==tA.hub; }));
+      tAddOpts=tprov ? tPl.map(function(p){return '<option value="pplace:'+tprov.id+'|'+p.id+'">'+esc(p.name)+'</option>';}).join("")+tprov.dishes.map(function(d){return '<option value="pdish:'+tprov.id+'|'+d.id+'">Món — '+esc(d.name)+'</option>';}).join("") : "";
     }
     html+='<div class="dayblock"><h3 style="margin-bottom:8px">Thêm điểm vào chuyến</h3><div style="display:flex;gap:8px"><select id="tAddSel" style="flex:1;min-width:0;border:1.5px solid var(--line);border-radius:12px;padding:11px;font-size:var(--fs-body);background:var(--surface)">'+tAddOpts+'</select><select id="tAddDay" style="flex:0 0 100px;border:1.5px solid var(--line);border-radius:12px;padding:11px;font-size:var(--fs-body);background:var(--surface)">'+t.days.map(function(d){return '<option value="'+d.day_no+'">Ngày '+d.day_no+'</option>';}).join("")+'</select></div><button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="tripAddItem()">+ Thêm vào ngày đã chọn</button></div>';
   }
@@ -2196,7 +2224,7 @@ function tripSummaryText(t){
     d.items.forEach(function(it){ lines.push("- "+(it.session?it.session+": ":"")+it.title); if(it.gia_luc_lap) sum+=Number(it.gia_luc_lap); });
   });
   lines.push("");
-  var _budS=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compS=tripComponents(provById(t.destination_id), _budS?_budS.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum);
+  var _budS=BUDGETS.filter(function(b){return b.label===t.budget_label;})[0]; var _compS=tripComponents(costProvFor(t.destination_id,t.area), _budS?_budS.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum);
   lines.push("Tổng ước tính cả chuyến: khoảng "+fmt(_compS.total)+"/người. Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.");
   lines.push("Ngân sách chuyến: "+fmt(t.budget_total)+" · Đã chi: "+fmt(tripSpent(t)));
   return lines.join("\n");

@@ -72,7 +72,7 @@
     });
     return res;
   }
-  var ORDER = { prov: 0, place: 1, dish: 2, stay: 3 };
+  var ORDER = { area: -1, prov: 0, place: 1, dish: 2, stay: 3 };
   window.btSearch = function (q) {
     q = String(q || "").trim();
     if (!q || typeof PROV_DATA === "undefined") return [];
@@ -84,12 +84,41 @@
       if (prov && !res.some(function (r) { return r.kind === "prov" && r.prov.id === prov.id; }))
         res.push({ kind: "prov", prov: prov, x: null, s: 95, oldName: o.old });
     });
+    /* Gõ tên thành phố trung tâm của tỉnh (Nha Trang, Pleiku, Hạ Long, Sa Pa…): thẻ tỉnh lên đầu */
+    var fq = norm(q);
+    PROV_DATA.forEach(function (prov) {
+      String(prov.anchor || "").split("/").forEach(function (an) {
+        var k = norm(an.replace(/\(.*?\)/g, "").replace(/^\s*(TP|Thành phố)\s+/i, "")).trim();
+        if (k.length >= 4 && fq.indexOf(" " + k + " ") >= 0 && !res.some(function (r) { return r.kind === "prov" && r.prov.id === prov.id; }))
+          res.push({ kind: "prov", prov: prov, x: null, s: 98 });
+      });
+    });
+    /* Tên thành phố du lịch nằm trong tỉnh mới (Quy Nhơn, Phú Quốc, Vũng Tàu…): thẻ khu lên đầu, kèm mọi địa danh của khu */
+    var area = window.btAreaFor ? btAreaFor(q) : null, ap = area && provById(area.prov);
+    if (ap) {
+      res.push({ kind: "area", prov: ap, area: area, x: null, s: 99 });
+      btAreaPlaces(area).forEach(function (x) {
+        if (!res.some(function (r) { return r.kind === "place" && r.prov.id === ap.id && r.x.id === x.id; })) res.push({ kind: "place", prov: ap, x: x, s: 70 });
+      });
+    }
     res.sort(function (a, b) { return (b.s - a.s) || (ORDER[a.kind] - ORDER[b.kind]); });
     res.loose = loose;
     return res;
   };
   /* Thẻ kết quả dùng chung */
+  window.btPlanArea = function (id) {
+    var a = btAreaById(id), p = a && provById(a.prov); if (!p) return;
+    searchDestId = p.appId; searchDestText = a.name; syncDestInputs(a.name, null); startPlan();
+  };
   window.btSearchCard = function (r) {
+    if (r.kind === "area") {
+      var a = r.area, n = btAreaPlaces(a).length;
+      return '<div class="card"><div class="body"><h3>' + esc(a.name) + ' · ' + esc(r.prov.name) + '</h3><p class="muted">' +
+        (a.old && a.old !== r.prov.name ? 'Từ 01/07/2025, ' + esc(a.old) + ' cũ sáp nhập vào ' + esc(r.prov.name) + '. ' : 'Khu du lịch thuộc ' + esc(r.prov.name) + '. ') +
+        n + ' địa danh ở khu này xếp ngay bên dưới. Lập kế hoạch sẽ xếp lịch và tính tiền đi tới ' + esc(a.name) + ', không phải tới ' + esc(r.prov.anchor || r.prov.name) + '.</p>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px"><button class="btn btn-primary" onclick="btPlanArea(\'' + a.id + '\')">Lập kế hoạch đi ' + esc(a.name) + '</button>' +
+        '<button class="btn btn-ghost" onclick="openProvDetail(\'' + r.prov.id + '\')">Cẩm nang ' + esc(r.prov.name) + '</button></div></div></div>';
+    }
     if (r.kind === "prov") {
       if (r.oldName) return '<button class="card" onclick="openProvDetail(\'' + r.prov.id + '\')"><div class="body"><h3>' + esc(r.oldName) + ' cũ nay thuộc ' + esc(r.prov.name) + '</h3><p class="muted">Từ 01/07/2025, ' + esc(r.oldName) + ' sáp nhập vào ' + esc(r.prov.name) + '. Bấm để xem cẩm nang ' + esc(r.prov.name) + '.</p></div></button>';
       var d = DESTINATIONS.filter(function (x) { return (x.provId || x.id) === r.prov.id; })[0];
