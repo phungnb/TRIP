@@ -25,4 +25,25 @@
 /* Sự kiện đo lường gửi về Vercel Web Analytics (không gửi chữ người dùng gõ, chỉ loại sự kiện và mã tỉnh).
    Sự kiện tùy chỉnh chỉ hiện trong Vercel khi gói tài khoản hỗ trợ; gói không hỗ trợ thì lệnh bị bỏ qua, không lỗi. */
 window.va=window.va||function(){ (window.vaq=window.vaq||[]).push(arguments); };
-window.btTrack=function(name,data){ try{ window.va("event",{name:name,data:data||{}}); }catch(e){} };
+/* Đồng thời ghi vào Neon qua /api/sukien (miễn phí, xem được ngay), gom lại gửi một lần mỗi 10 giây hoặc khi rời trang. */
+(function(){
+  var q=[], ss="";
+  try{ ss=sessionStorage.getItem("bt_ss")||""; if(!ss){ ss=Math.random().toString(36).slice(2,12)+Date.now().toString(36); sessionStorage.setItem("bt_ss",ss); } }catch(e){ ss=Math.random().toString(36).slice(2,12); }
+  var local=location.hostname==="localhost"||location.hostname==="127.0.0.1";
+  function flush(){
+    if(!q.length||local) { q=[]; return; }
+    var body=JSON.stringify({ss:ss,ev:q.splice(0,20)});
+    try{
+      if(navigator.sendBeacon) navigator.sendBeacon("/api/sukien",new Blob([body],{type:"application/json"}));
+      else fetch("/api/sukien",{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true});
+    }catch(e){}
+  }
+  setInterval(flush,10000);
+  addEventListener("pagehide",flush);
+  document.addEventListener("visibilitychange",function(){ if(document.visibilityState==="hidden") flush(); });
+  window.btTrack=function(name,data){
+    data=data||{};
+    try{ window.va("event",{name:name,data:data}); }catch(e){}
+    try{ q.push({n:name,tinh:data.tinh||null,loai:data.loai||null,ngay:data.ngay==null?null:data.ngay}); if(q.length>=20) flush(); }catch(e){}
+  };
+})();

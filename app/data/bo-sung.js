@@ -106,7 +106,7 @@ var BO_SUNG = {
     patch: {
       "rh-lam-dong-thung-lung-vang": { price: "Người lớn 70.000đ, trẻ em 30.000đ", hours: "7:00–18:00", source: "vinwonders.com wonderpedia, bài 16/07/2025, đọc 21/11/2026" },
       "rh-lam-dong-thac-pongour": { price: "Người lớn khoảng 20.000đ, trẻ em 10.000đ (giá năm 2025, nên hỏi lại tại cổng)", hours: "7:00–17:00", source: "vinwonders.com wonderpedia, bài 20/07/2025, đọc 21/11/2026" },
-      "rh-lam-dong-ho-than-tho": { price: "Người lớn khoảng 20.000đ, trẻ em 10.000đ (giá cũ, kiểm lại tại cổng)", source: "vietnambooking.com, bảng giá điểm tham quan Đà Lạt (bài cũ), đọc 21/11/2026" },
+      "rh-lam-dong-ho-than-tho": { price: "Người lớn khoảng 20.000đ, trẻ em 10.000đ (giá cũ, kiểm lại tại cổng)", hours: "Khoảng 7:00–17:00 (ước tính, chưa kiểm)", source: "vietnambooking.com, bảng giá điểm tham quan Đà Lạt (bài cũ), đọc 21/11/2026" },
       "rh-binh-thuan-doi-cat-mui-ne": { price: "Miễn phí vào đồi; trượt cát, xe địa hình tính riêng", hours: "Đẹp nhất 5:00–8:00 sáng hoặc chiều muộn", duration: "1–2 giờ", note: "Đi sớm khi cát còn mát. Thỏa thuận giá ván trượt, xe ATV trước khi dùng." },
       "rh-binh-thuan-bau-trang": { price: "Xe jeep trong khu ~70.000–150.000đ/người hoặc ~800.000đ/xe (1–8 khách); tour jeep bình minh từ Mũi Né ~280.000đ/người", hours: "Bình minh hoặc hoàng hôn", duration: "2–3 giờ", note: "Hỏi rõ giá theo người hay theo xe trước khi lên. Cách Mũi Né ~40 km, đi tour jeep đón tại khách sạn tiện hơn tự lái." },
       "rh-binh-thuan-lang-chai-mui-ne": { price: "Miễn phí; hải sản theo giá người bán", hours: "Đẹp nhất 5:30–7:30 sáng khi thuyền về", duration: "1 giờ", note: "Ngắm từ trên đường Huỳnh Thúc Kháng nhìn xuống vịnh. Mua hải sản rồi nhờ chế biến tại chỗ, hỏi giá trước." },
@@ -159,6 +159,9 @@ var BO_SUNG = {
   },
 
   "da-nang": {
+    patch: {
+      "rh-quang-nam-thanh-co-chien-dan": { hours: "Khoảng 7:00–17:00 (ước tính, chưa kiểm)" }
+    },
     stays: [
       { id: "bs-old-yellow-house", name: "Old Yellow House", address: "51/5B Phan Châu Trinh, Hội An", area: "hoi-an", kind: "Homestay nhà cổ trong phố cổ (bếp, WC chung)", price: "~200.000–500.000đ/đêm", suitable: "Cặp đôi ngân sách thấp, muốn ở sát phố cổ" },
       { id: "bs-loong-boong", name: "Loong Boong Homestay", address: "172 Nguyễn Tri Phương, Cẩm Nam, Hội An", area: "hoi-an", kind: "Homestay kiểu nhà cổ, cách phố cổ ~0,8 km", price: "~300.000–600.000đ/đêm", suitable: "Gần trung tâm mà yên tĩnh" },
@@ -177,7 +180,7 @@ var BO_SUNG = {
     patch: {
       "rh-quang-binh-dong-thien-duong": { price: "Người lớn 250.000đ; trẻ 1,1–1,3 m và khách Việt trên 60 tuổi 125.000đ; xe điện 20.000–60.000đ", hours: "Mùa hè 7:00–16:30; mùa đông 7:30–16:00", duration: "1–2 giờ tuyến cầu gỗ 1 km", note: "Có thể đi bộ ~20 phút thay xe điện. Tháng 10–11 đường dễ trơn, mang giày bám." },
       "rh-quang-binh-dong-phong-nha": { price: "Vé 150.000đ/người lớn; thuyền thuê theo chiếc (tối đa 12 khách), hỏi giá tại bến", hours: "Ban ngày", duration: "2–3 giờ (gồm thuyền trên sông Son)", note: "Đi ghép thuyền với khách khác để chia tiền thuyền. Ghép thêm động Tiên Sơn (80.000đ) cùng bến." },
-      "rh-quang-binh-song-chay-hang-toi": { price: "Tour phổ thông ~250.000–450.000đ/người lớn (zipline, chèo kayak, tắm bùn)", duration: "Nửa ngày", note: "Mang quần áo thay; không hợp người sợ độ cao hoặc không biết bơi (có áo phao)." },
+      "rh-quang-binh-song-chay-hang-toi": { price: "Tour phổ thông ~250.000–450.000đ/người lớn (zipline, chèo kayak, tắm bùn)", hours: "Tour chạy ban ngày, khoảng 8:00–16:00 (ước tính, chưa kiểm)", duration: "Nửa ngày", note: "Mang quần áo thay; không hợp người sợ độ cao hoặc không biết bơi (có áo phao)." },
       "rh-quang-binh-suoi-nuoc-mooc": { price: "Khoảng 100.000–180.000đ/người lớn (các mức đang lệch, hỏi tại cổng)", duration: "2–3 giờ", note: "Hợp mùa hè (tháng 5–8), nước trong mát; mùa mưa có thể đóng cửa." }
     },
     stays: [
