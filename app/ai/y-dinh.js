@@ -13,10 +13,12 @@
     ["diden", /\b(di bang gi|bang gi|may bay|xe khach|tau hoa|tau hoả|tau lua|ve xe|ve may bay|ve tau|san bay|ben xe|nha ga|ga tau|tu ha noi|tu sai gon|tu hcm|tu tp hcm|tu tphcm|tu da nang|di den|toi bang|mat bao lau|bao lau|di tu|duong di|cach di|tau cao toc|ca no|ra dao)\b/],
     ["dilai", /\b(thue xe|xe may|taxi|grab|di lai|xe buyt|xe dien)\b/],
     ["angi", /\b(an gi|mon|quan an|quan nao|quan ngon|dac san|an sang|an toi|nha hang|an uong|ngon)\b/],
-    ["odau", /\b(o dau|khach san|homestay|dat phong|thue phong|phong o|nha nghi|resort|cho o|ngu o|ngu dau|luu tru)\b/],
+    ["odau", /\b(o dau|khach san|homestay|dat phong|thue phong|phong o|nha nghi|cho o|ngu o|ngu dau|luu tru)\b/],
     ["mua", /\b(mua nao|thang nao|thang may|thoi tiet|lanh khong|nong khong|thang \d+|mua dep|khi nao dep|luc nao dep|di luc nao|di khi nao)\b/],
     ["lichtrinh", /\b(lich trinh|may ngay|ngay dem|\dn\dd|\d ngay|di dau truoc|ke hoach)\b/],
-    ["didau", /\b(choi gi|co gi choi|co gi|di dau|tham quan|dia danh|diem|check in|song ao|di tich|bien|thac|nui)\b/]
+    ["didau", /\b(choi gi|co gi choi|co gi|di dau|tham quan|dia danh|diem|check in|song ao|di tich|bien|thac|nui)\b/],
+    /* "resort" đứng một mình mới là hỏi chỗ ở: "Cần Thơ Eco Resort mùa nào đẹp" là hỏi mùa của 1 địa danh */
+    ["odau", /\bresort\b/]
   ];
   /* "mưa" và "mùa" bỏ dấu đều thành "mua": xét mưa trên chữ có dấu, gõ không dấu thì cần cụm rõ nghĩa */
   function rainy(q, f) { return /(^|\s)mưa(\s|$)/.test(A.low(q)) || /\b(troi mua|khi mua|mua thi|neu mua|gap mua)\b/.test(f); }

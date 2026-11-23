@@ -21,15 +21,15 @@ function dung(W) {
 
   /* ---------- Bảng tên: dò thực thể độc lập với trợ lý ---------- */
   const TEN = [];
-  const add = (n, t, ref, rank) => { const f = fold(n); if (f && f.length >= 3) TEN.push({ f, t, ref, rank }); };
+  const add = (n, t, ref, rank) => { const f = fold(n); if (f && f.length >= 3) TEN.push({ f, t, ref, rank, l: String(n).toLowerCase() }); };
   P.forEach(p => {
     add(p.name, "prov", p.id, 1);
     String(p.anchor || "").split("/").forEach(a => { a = a.replace(/\(.*?\)/g, "").replace(/^\s*(TP|Thành phố)\s+/i, "").trim(); if (a && !KV.some(k => fold(k.name) === fold(a))) add(a, "prov", p.id, 1); });
     (p.places || []).forEach(x => {
       add(main(x.name), "item", { p, x, kind: "place" }, 3);
       /* gọi tắt = đuôi tên từ 2 chữ trở lên: "Thác Bản Giốc" → "Bản Giốc", "Khu du lịch Quốc gia Mũi Cà Mau" → "Mũi Cà Mau" */
-      const w = fold(main(x.name)).split(" ");
-      for (let i = 1; i + 2 <= w.length; i++) TEN.push({ f: w.slice(i).join(" "), t: "item", ref: { p, x, kind: "place" }, rank: 0.5, tat: 1 });
+      const w = fold(main(x.name)).split(" "), ow = main(x.name).toLowerCase().split(/\s+/);
+      for (let i = 1; i + 2 <= w.length; i++) TEN.push({ f: w.slice(i).join(" "), t: "item", ref: { p, x, kind: "place" }, rank: 0.5, tat: 1, l: ow.length === w.length ? ow.slice(i).join(" ") : null });
     });
     (p.dishes || []).forEach(x => add(main(x.name), "item", { p, x, kind: "dish" }, 2));
   });
@@ -43,16 +43,19 @@ function dung(W) {
   });
 
   /* tên gọi tắt trùng tên tỉnh/khu/món/địa danh khác thì bỏ (Bảo tàng Cần Thơ ≠ "Cần Thơ") */
-  { const that = new Set(TEN.filter(t => !t.tat).map(t => t.f)); for (let i = TEN.length - 1; i >= 0; i--) if (TEN[i].tat && that.has(TEN[i].f)) TEN.splice(i, 1); }
+  /* trừ khi khác dấu: "Hòn Dấu" (Đảo Hòn Dấu) không phải "Hòn Dầu" (Nam Du) */
+  { const full = TEN.filter(t => !t.tat); for (let i = TEN.length - 1; i >= 0; i--) { const t = TEN[i]; if (t.tat && full.some(u => u.f === t.f && (!t.l || !u.l || u.l === t.l || !A.marked(u.l) || !A.marked(t.l)))) TEN.splice(i, 1); } }
   /* đuôi tên chung của nhiều mục: chấp nhận mục nào trong số đó */
   { const by = {}; TEN.filter(t => t.tat).forEach(t => (by[t.f] = by[t.f] || []).push(t.ref)); TEN.filter(t => t.tat).forEach(t => { t.ref = Object.assign({}, t.ref, { alts: by[t.f] }); }); }
   /* Thực thể của 1 câu: tên dài nhất khớp trọn từ; bằng nhau thì đảo > khu > địa danh > món/tỉnh cũ > tỉnh */
   function dich(q) {
-    const f = fold(q); let best = null;
-    TEN.forEach(t => { if (!t.tat && has(f, t.f) && (!best || t.f.length > best.f.length || t.f.length === best.f.length && t.rank > best.rank)) best = t; });
+    (W.BT_BIEN_THE || []).forEach(v => { q = String(q).replace(new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"), "$1" + v[1]); });
+    const f = fold(q), ql = String(q).toLowerCase(), mk = A.marked(q), dung = t => mk && t.l && ql.indexOf(t.l) >= 0 ? 1 : 0;
+    let best = null;
+    TEN.forEach(t => { if (!t.tat && has(f, t.f) && (!best || t.f.length > best.f.length || t.f.length === best.f.length && (dung(t) - dung(best) || t.rank - best.rank) > 0)) best = t; });
     /* tên gọi tắt chỉ dùng khi không có tên đầy đủ nào, hoặc khi nó chứa trọn tên đầy đủ ("mũi cà mau" chứa "cà mau") */
     let bt = null; TEN.forEach(t => { if (t.tat && has(f, t.f) && (!bt || t.f.length > bt.f.length)) bt = t; });
-    if (bt && (!best || (bt.f.length > best.f.length && has(bt.f, best.f)))) best = bt;
+    if (bt && (!best || (bt.f.length > best.f.length && has(bt.f, best.f)) || (bt.f.length >= best.f.length && dung(bt) > dung(best)))) best = bt;
     return best;
   }
   function areaOfItem(it) { return it.kind === "place" && typeof W.btAreaOfPlace === "function" ? W.btAreaOfPlace(it.p, it.x) : null; }
