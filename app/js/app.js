@@ -709,7 +709,7 @@ function mReviewHtml(text,src,date){
   if(text){
     return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p style="margin:0;font-size:var(--fs-body);line-height:1.65">'+esc(text)+'</p></div>';
   }
-  return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="muted" style="margin:0">Chưa có nhận xét cho mục này trong dữ liệu đã kiểm ngày 06/11/2026.</p></div>';
+  return '<div class="mreview"><h3 style="font-size:var(--fs-body);margin:0 0 2px">Nhận xét tổng hợp của Bụi Code</h3><p class="muted" style="margin:0">Chưa có nhận xét tổng hợp cho mục này.</p></div>';
 }
 function appendReviewsToItemDetail(key,mText,mSrc,mDate,preHtml){
   var pad=document.querySelector("#itemDetail .pad");
