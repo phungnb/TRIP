@@ -185,7 +185,7 @@ document.getElementById("confirmVeil").addEventListener("click",function(e){ if(
 
 /* ================= ĐIỀU HƯỚNG ================= */
 var TITLES={
-  "explore":["Cẩm nang du lịch","Đi tự túc — đủ đi đâu, ở đâu, ăn gì, hết bao nhiêu"],
+  "explore":["BuiTrip","Cẩm nang du lịch tự túc 34 tỉnh thành"],
   "destinations":["Điểm đến","Đủ 34 tỉnh/thành — đã duyệt, lập được kế hoạch cho mọi tỉnh"],
   "dest-detail":["Đà Lạt","Lâm Đồng · kiểm dữ liệu "+CHECKED],
   "item-detail":["Chi tiết","Đà Lạt · kiểm dữ liệu "+CHECKED],
