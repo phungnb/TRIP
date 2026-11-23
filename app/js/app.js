@@ -274,11 +274,19 @@ function itinCard(key){
 }
 var regionFilter="all";
 function renderDestList(){
-  var q=(document.getElementById("destSearch").value||"").toLowerCase().trim();
-  var html=DESTINATIONS.filter(function(d){
-    return (regionFilter==="all"||d.region===regionFilter) && (!q || (d.name+" "+d.province).toLowerCase().indexOf(q)>=0);
-  }).map(destCard).join("");
-  document.getElementById("destList").innerHTML = html || '<div class="empty"><p class="muted" style="margin:0">Không thấy điểm đến nào khớp. Thử gõ “Đà Lạt”.</p></div>';
+  var raw=(document.getElementById("destSearch").value||"").trim();
+  var f=foldStr(raw);
+  var oldOf=function(d){ return (typeof SAP_NHAP!=="undefined"&&SAP_NHAP[d.provId||d.id])?SAP_NHAP[d.provId||d.id].join(" "):""; };
+  var provs=DESTINATIONS.filter(function(d){
+    return (regionFilter==="all"||d.region===regionFilter) && (!f || foldStr(d.name+" "+d.province+" "+oldOf(d)).indexOf(f)>=0);
+  });
+  var html=provs.map(destCard).join("");
+  /* Gõ tên địa danh, món: hiện thêm địa danh và món khớp, không chỉ tên tỉnh */
+  if(f && window.btSearch){
+    var hits=btSearch(raw).filter(function(r){ return (r.kind==="place"||r.kind==="dish") && (regionFilter==="all"||r.prov.region===regionFilter); });
+    if(hits.length) html+='<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Địa danh, món ăn khớp “'+esc(raw)+'”</h3><div class="listcol">'+hits.slice(0,30).map(btSearchCard).join("")+'</div>';
+  }
+  document.getElementById("destList").innerHTML = html || '<div class="empty"><p class="muted" style="margin:0">Không thấy tỉnh, địa danh hay món nào khớp “'+esc(raw)+'”. Thử gõ “Hội An”, “phở” hoặc tên tỉnh cũ như “Quảng Nam”.</p></div>';
 }
 document.querySelectorAll("#regionChips .chip").forEach(function(c){
   c.addEventListener("click",function(){
@@ -322,6 +330,7 @@ function renderAcList(listEl,items,prefix,kind){
   if(!items.length){ listEl.classList.remove("show"); listEl.innerHTML=""; return; }
   listEl.innerHTML=items.map(function(it){
     if(kind==="origin") return '<button type="button" class="ac-item" onmousedown="pickAcOrigin(\''+prefix+'\',\''+esc(it)+'\')"><span style="flex:1"><b>'+esc(it)+'</b><span>Điểm xuất phát gợi ý</span></span></button>';
+    if(it.type==="none") return '<div class="ac-item" style="cursor:default"><span style="flex:1"><b>'+esc(it.title)+'</b><span>'+esc(it.sub)+'</span></span></div>';
     return '<button type="button" class="ac-item" onmousedown="pickAcDest(\''+prefix+'\',\''+it.type+'\',\''+it.id+'\')"><span style="flex:1"><b>'+esc(it.title)+'</b><span>'+esc(it.sub)+'</span></span></button>';
   }).join("");
   listEl.classList.add("show");
@@ -1244,16 +1253,20 @@ function openProvDish(provId,dishId){
 /* ================= TÌM KIẾM: 34 TỈNH + MỌI ĐỊA DANH ================= */
 function destSuggestions(q){
   var f=foldStr(q).trim(); var out=[];
-  DESTINATIONS.forEach(function(d){
-    if(!f || foldStr(d.name+" "+d.province).indexOf(f)>=0)
-      out.push({type:"dest",id:d.id,name:d.name,title:d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:""),sub:"Đã có dữ liệu đầy đủ · "+regionLabel(d.region),soon:false,draft:false});
-  });
-  if(f && typeof PROV_DATA!=="undefined"){
-    PROV_DATA.forEach(function(prov){
-      prov.places.forEach(function(x){ if(wordMatch(x.name,q)) out.push({type:"pplace",id:prov.id+"|"+x.id,name:x.name,title:x.name,sub:"Địa danh ở "+prov.name,soon:false}); });
-      prov.dishes.forEach(function(x){ if(wordMatch(x.name,q)) out.push({type:"pdish",id:prov.id+"|"+x.id,name:x.name,title:x.name,sub:"Món ăn ở "+prov.name,soon:false}); });
-    });
+  if(!f){
+    DESTINATIONS.forEach(function(d){ out.push({type:"dest",id:d.id,name:d.name,title:d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:""),sub:"Đã có dữ liệu đầy đủ · "+regionLabel(d.region),soon:false,draft:false}); });
+    return out.slice(0,8);
   }
+  var hits=window.btSearch?btSearch(q):[];
+  hits.forEach(function(r){
+    if(r.kind==="prov"){
+      var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; if(!d) return;
+      out.push({type:"dest",id:d.id,name:r.oldName||d.name,title:r.oldName?(r.oldName+" → "+d.name):(d.name+(d.province&&foldStr(d.province)!==foldStr(d.name)?" · "+d.province:"")),sub:r.oldName?(r.oldName+" cũ nay thuộc "+d.name+" (sáp nhập 01/07/2025)"):("Đã có dữ liệu đầy đủ · "+regionLabel(d.region)),soon:false,draft:false});
+    }
+    else if(r.kind==="place") out.push({type:"pplace",id:r.prov.id+"|"+r.x.id,name:r.x.name,title:r.x.name,sub:"Địa danh ở "+r.prov.name,soon:false});
+    else if(r.kind==="dish") out.push({type:"pdish",id:r.prov.id+"|"+r.x.id,name:r.x.name,title:r.x.name,sub:"Món ăn ở "+r.prov.name,soon:false});
+  });
+  if(!out.length) out.push({type:"none",id:"",name:"",title:"Không thấy “"+q+"”",sub:"Thử gõ tên tỉnh mới, tên tỉnh cũ (vd Quảng Nam, Bình Định) hoặc tên địa danh.",soon:true});
   return out.slice(0,8);
 }
 function pickAcDest(prefix,type,id){
@@ -1274,16 +1287,11 @@ function pickAcDest(prefix,type,id){
 function resolveDestText(text){
   var f=foldStr(text).trim(); if(!f) return null;
   if(f==="tphcm"||f.indexOf("ho chi minh")>=0||f==="sai gon") return {type:"dest",id:"tp-ho-chi-minh"};
-  var i,d;
-  for(i=0;i<DESTINATIONS.length;i++){ d=DESTINATIONS[i]; if(foldStr(d.name)===f||foldStr(d.name).indexOf(f)>=0||f.indexOf(foldStr(d.name))>=0) return {type:"dest",id:d.id}; }
-  if(typeof PROV_DATA!=="undefined"){
-    for(i=0;i<PROV_DATA.length;i++){ var prov=PROV_DATA[i];
-      for(var j=0;j<prov.places.length;j++){ if(wordMatch(prov.places[j].name,text)) return {type:"pplace",prov:prov.id,id:prov.places[j].id}; }
-    }
-    for(i=0;i<PROV_DATA.length;i++){ var prov2=PROV_DATA[i];
-      for(var k=0;k<prov2.dishes.length;k++){ if(wordMatch(prov2.dishes[k].name,text)) return {type:"pdish",prov:prov2.id,id:prov2.dishes[k].id}; }
-    }
-  }
+  var r=(window.btSearch?btSearch(text):[])[0];
+  if(!r) return null;
+  if(r.kind==="prov"){ var d=DESTINATIONS.filter(function(x){ return (x.provId||x.id)===r.prov.id; })[0]; return d?{type:"dest",id:d.id}:null; }
+  if(r.kind==="place") return {type:"pplace",prov:r.prov.id,id:r.x.id};
+  if(r.kind==="dish") return {type:"pdish",prov:r.prov.id,id:r.x.id};
   return null;
 }
 function applyProvRouteHighlight(origin){
@@ -1418,38 +1426,31 @@ document.getElementById("searchInput").addEventListener("input",function(){
     st.forEach(function(x){ out.push(provStayCard(x,oldArea.prov)); });
     di.forEach(function(x){ out.push(provDishCard(x,oldArea.prov)); });
   }
-  DESTINATIONS.forEach(function(d){ if(wordMatch(d.name+" "+d.province,q) && (!scopeProv || (d.provId||d.id)===scopeProv.id)) out.push(destCard(d)); });
-  if(typeof PROV_DATA!=="undefined" && !oldArea){
-    PROV_DATA.forEach(function(prov){
-      if(scopeProv && prov.id!==scopeProv.id) return;
-      /* Gõ đúng tên tỉnh: hiện luôn các địa danh của tỉnh, không chỉ mục có tên tỉnh trong tên */
-      var wholeProv=scopeProv && prov.id===scopeProv.id && foldStr(q).trim()===foldStr(prov.name).trim();
-      prov.places.forEach(function(x){ if(wholeProv || wordMatch(x.name,q)) out.push(provPlaceCard(x,prov)); });
-      prov.dishes.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provDishCard(x,prov)); });
-      prov.stays.forEach(function(x){ if(wordMatch(x.name,q)) out.push(provStayCard(x,prov)); });
-    });
+  var looseNote="";
+  if(!oldArea){
+    var hits=window.btSearch?btSearch(q):[];
+    if(scopeProv) hits=hits.filter(function(r){ return r.prov.id===scopeProv.id; });
+    hits.forEach(function(r){ var c=btSearchCard(r); if(c) out.push(c); });
+    if(hits.loose) looseNote='<p class="small muted" style="margin:0 0 8px">Không có tên khớp đúng dấu “'+esc(q)+'”, dưới đây là kết quả gần đúng (bỏ dấu).</p>';
+    /* Gõ đúng tên tỉnh: hiện thêm mọi địa danh của tỉnh */
+    if(scopeProv && foldStr(q).trim()===foldStr(scopeProv.name).trim()){
+      var shown={}; hits.forEach(function(r){ if(r.kind==="place") shown[r.x.id]=1; });
+      scopeProv.places.forEach(function(x){ if(!shown[x.id]) out.push(provPlaceCard(x,scopeProv)); });
+    }
   }
   var rainOut=rainySearchHits(q).map(rainySearchCard);
   var allOut=rainOut.concat(out);
   /* Có kết quả thật thì hiện kết quả; chỉ báo "chưa có" khi dữ liệu thật sự trống */
   var gap=out.length?null:missingAreaFor(q);
   box.innerHTML = gap ? '<div class="empty"><p style="margin:0 0 8px"><b>'+esc(gap.name)+' chưa có trong app.</b> Sau sáp nhập 01/07/2025, nơi này thuộc '+esc(gap.provName)+', nhưng dữ liệu hiện mới phủ '+esc(gap.covered)+'. Đội Bụi Code đang bổ sung.</p><button class="btn btn-ghost btn-block" onclick="openProvDetail(\''+gap.prov+'\')">Xem cẩm nang '+esc(gap.provName)+' hiện có</button></div>'+(allOut.length?'<h3 class="sec-title" style="font-size:var(--fs-body);margin:14px 0 8px">Kết quả gần đúng khác</h3><div class="listcol">'+allOut.slice(0,10).join("")+'</div>':'')
-    : allOut.length ? '<div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
+    : allOut.length ? looseNote+'<p class="small muted" style="margin:0 0 8px">'+Math.min(allOut.length,30)+(allOut.length>30?'/'+allOut.length:'')+' kết quả, xếp theo độ khớp. Bấm vào mục cần xem.</p><div class="listcol">'+allOut.slice(0,30).join("")+'</div>'
     : '<div class="empty"><p class="muted" style="margin:0">Không thấy kết quả cho “'+esc(q)+'”. Thử “Eo Gió”, “chùa Keo”, “Cao Bằng” hoặc “Langbiang”.</p></div>';
 });
 /* Điểm nổi tiếng của vùng mới sáp nhập mà dữ liệu chưa có: tìm thì báo thẳng là
    chưa có + dẫn sang tỉnh mới, thay vì "không thấy kết quả" như thể nơi đó không tồn tại. */
-var MISSING_AREAS=[
-  {keys:["phu quoc","duong dong","an thoi","hon thom"],name:"Phú Quốc",prov:"an-giang",provName:"An Giang",covered:"khu vực Châu Đốc, Long Xuyên, Hà Tiên, Rạch Giá"},
-  {keys:["mui ne","phan thiet","bau trang","hon rom","ta cu","ke ga"],name:"Mũi Né / Phan Thiết",prov:"lam-dong",provName:"Lâm Đồng",covered:"Đà Lạt"},
-  {keys:["phong nha","dong hoi","son doong","thien duong","hang en","nhat le"],name:"Phong Nha / Đồng Hới",prov:"quang-tri",provName:"Quảng Trị",covered:"khu vực Quảng Trị cũ (Đông Hà)"},
-  {keys:["dong van","ma pi leng","ma pi leng","meo vac","lung cu","ha giang","quan ba","yen minh","hoang su phi"],name:"Hà Giang (Đồng Văn, Mã Pì Lèng)",prov:"tuyen-quang",provName:"Tuyên Quang",covered:"khu vực Tuyên Quang cũ"},
-  {keys:["mang den","kon tum","kon plong"],name:"Măng Đen / Kon Tum",prov:"quang-ngai",provName:"Quảng Ngãi",covered:"khu vực Quảng Ngãi cũ"},
-  {keys:["mu cang chai","nghia lo","yen bai"],name:"Mù Cang Chải / Yên Bái",prov:"lao-cai",provName:"Lào Cai",covered:"Sa Pa, Bắc Hà và một phần Yên Bái cũ"},
-  {keys:["con dao"],name:"Côn Đảo",prov:"tp-ho-chi-minh",provName:"TP Hồ Chí Minh",covered:"Sài Gòn, Bình Dương cũ, Vũng Tàu"},
-  {keys:["tam dao","mai chau","hoa binh","vinh phuc"],name:"Tam Đảo / Mai Châu",prov:"phu-tho",provName:"Phú Thọ",covered:"khu vực Phú Thọ cũ"},
-  {keys:["soc trang","hau giang","chua doi","chua som rong"],name:"Sóc Trăng / Hậu Giang",prov:"can-tho",provName:"Cần Thơ",covered:"khu vực Cần Thơ cũ"}
-];
+/* Các vùng từng thiếu (Phú Quốc, Mũi Né, Phong Nha, Hà Giang, Măng Đen, Côn Đảo, Tam Đảo, Sóc Trăng…) nay đã có dữ liệu,
+   nên không còn báo "chưa có trong app". Thêm lại vào đây nếu phát hiện vùng nổi tiếng thật sự trống. */
+var MISSING_AREAS=[];
 function missingAreaFor(q){
   var f=" "+foldStr(q).replace(/[^a-z0-9 ]+/g," ").replace(/\s+/g," ").trim()+" ";
   for(var i=0;i<MISSING_AREAS.length;i++){
@@ -1463,30 +1464,11 @@ function exploreSearchGo(){
   var inp=document.getElementById("searchInput");
   var text=inp?inp.value.trim():"";
   if(!text){ toast("Gõ điểm đến trước đã — ví dụ: Đà Lạt, Nha Trang, Hội An"); if(inp) inp.focus(); return; }
-  if(isRainQuery(text)){
-    /* Truy vấn trú mưa: hiện danh sách kết quả tìm kiếm trước (các thẻ
-       "Trời mưa thì đi đâu — <tỉnh>"), người dùng bấm vào 1 thẻ mới mở trang tỉnh. */
-    var inpEl=document.getElementById("searchInput");
-    if(inpEl) inpEl.dispatchEvent(new Event("input",{bubbles:true}));
-    var rbox=document.getElementById("searchResults");
-    if(rbox && rbox.innerHTML && typeof rbox.scrollIntoView==="function") rbox.scrollIntoView({block:"start",behavior:"smooth"});
-    else toast("Chưa thấy kết quả trú mưa cho từ khóa này");
-    return;
-  }
-  var r=resolveDestText(text);
-  if(!r){ var box=document.getElementById("searchResults"); if(box) box.scrollIntoView({block:"nearest",behavior:"smooth"}); return; }
-  if(r.type==="pplace"){ openProvPlace(r.prov,r.id); return; }
-  if(r.type==="pdish"){ openProvDish(r.prov,r.id); return; }
-  if(r.type==="place"){ openPlace(r.id); return; }
-  if(r.type==="dish"){ openDish(r.id); return; }
-  var rid=(r.id==="tphcm")?"tp-ho-chi-minh":r.id;
-  var d=DESTINATIONS.filter(function(x){return x.id===rid;})[0];
-  var prov=d?provById(d.provId||d.id):provById(rid);
-  if(prov){
-    openProvDetail(prov.id);
-    return;
-  }
-  var box2=document.getElementById("searchResults"); if(box2) box2.scrollIntoView({block:"nearest",behavior:"smooth"});
+  if(window.btTrack) btTrack("tim_kiem",{loai:"kham_pha"});
+  /* Không tự mở kết quả đầu tiên: hiện danh sách đã xếp hạng, người dùng chọn đúng mục */
+  inp.dispatchEvent(new Event("input",{bubbles:true}));
+  var box=document.getElementById("searchResults");
+  if(box && typeof box.scrollIntoView==="function") box.scrollIntoView({block:"start",behavior:"smooth"});
 }
 document.getElementById("searchGo").addEventListener("click",exploreSearchGo);
 document.getElementById("searchInput").addEventListener("keydown",function(e){ if(e.key==="Enter"){ e.preventDefault(); exploreSearchGo(); } });
