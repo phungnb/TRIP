@@ -2,11 +2,11 @@
    - Trang, JS, CSS, dữ liệu: lấy mạng trước (luôn bản mới khi có sóng), mất sóng thì dùng bản đã lưu.
    - Ảnh, thư viện bản đồ, phông chữ: lấy bản đã lưu trước, cập nhật nền.
    - Không lưu /api/ (trợ lý AI) và dịch vụ đăng nhập. */
-var VER = "bt-v5";
+var VER = "bt-v6";
 var CORE = ["/", "/index.html", "/css/style.css", "/manifest.webmanifest",
   "/data/prov-data.gon.js", "/data/sap-nhap.js", "/data/racehub-places.js", "/data/lam-giau.js", "/data/bo-sung.js", "/data/trung-tam.js", "/data/anh.js",
   "/js/bao-loi.js", "/js/lam-sach.js", "/js/visual.js", "/js/app.js", "/js/tim-kiem.js", "/js/home.js", "/js/theme.js",
-  "/js/explore-extras.js", "/js/faq.js", "/js/dong-gop.js", "/js/tro-ly.js", "/img/icon/icon-192.png"];
+  "/js/explore-extras.js", "/js/faq.js", "/js/dong-gop.js", "/js/tro-ly.js", "/js/chia-se.js", "/img/icon/icon-192.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(VER).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));
 });

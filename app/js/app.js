@@ -236,6 +236,8 @@ function syncHistory(){
 }
 window.addEventListener("popstate",function(){
   histGuard=false;
+  /* Dán link #/tinh/… vào tab đang mở: mở đúng trang đó thay vì coi là bấm Back (chia-se.js) */
+  if(location.hash && location.hash!==viewHash() && typeof window.btRouteHash==="function" && window.btRouteHash(location.hash)) return;
   if(navStack.length>0) goBack();
   else if(currentView!=="explore") show("explore",false);
 });
@@ -1044,7 +1046,7 @@ function renderProvDetail(){
     (p.cost.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Bảng tổng ước tính cả chuyến 3 ngày 2 đêm — 1 người, từ TP.HCM</h3><div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:6px 14px"><table class="cost">'+costRows+'</table></div><p class="small" style="margin-top:8px">Đây là tổng ước tính cả chuyến cho 1 người — cùng một cách tính với con số tổng ở trang kết quả khi lập chuyến (vé tham quan + ăn uống + di chuyển tới điểm đến + chỗ ở). Luôn là khoảng giá — kiểm lại trước ngày đi.</p>' : "")+
     (p.checklist && p.checklist.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Checklist gợi ý cho chuyến này</h3><div class="listcol">'+p.checklist.map(function(c){ return '<div class="menurow" style="cursor:default"><span style="flex:1">'+esc(c)+'</span></div>'; }).join("")+'</div>' : "")+
     provSeasonHtml(p)+provRainyHtml(p)+provCoupleHtml(p)+provBikeHtml(p)+provScamsHtml(p)+provPassesHtml(p)+provEmergencyHtml(p)+provPhotoHtml(p)+provRunningHtml(p)+
-    '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+
+    '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+(typeof shareBtnHtml==="function"?shareBtnHtml("btShareProv('"+p.id+"')"):"")+
     '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="openFaq()">Câu hỏi thường gặp</button>'+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="didau"><div class="pad">'+
