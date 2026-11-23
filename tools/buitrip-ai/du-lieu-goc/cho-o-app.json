@@ -1,0 +1,2243 @@
+[
+ {
+  "ten": "Hanoi Old Quarter Hostel",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~250.000–350.000đ/đêm (phòng dorm/giường đơn; phòng riêng cao hơn)",
+  "dia_chi": "Phố cổ, quận Hoàn Kiếm (địa chỉ cụ thể theo từng cơ sở — kiểm lại khi đặt)",
+  "ghi_chu": "Loai: Hostel | Ngay phố cổ, đi bộ ra Hồ Hoàn Kiếm | Phu hop: Du khách một mình, backpacker, nhóm bạn trẻ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Little Hanoi Hostel",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~280.000–380.000đ/đêm",
+  "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+  "ghi_chu": "Loai: Hostel | Phố cổ, gần Hồ Hoàn Kiếm | Phu hop: Backpacker, nhóm bạn trẻ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hanoi Phoenix",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~350.000–450.000đ/đêm",
+  "dia_chi": "Gần Hồ Hoàn Kiếm, phố cổ, quận Hoàn Kiếm",
+  "ghi_chu": "Loai: Khách sạn (không ghi hạng sao) | Gần Hồ Hoàn Kiếm, đi bộ được | Phu hop: Cặp đôi, gia đình nhỏ, khách công tác ngắn ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Queen Hotel Hanoi",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~300.000–400.000đ/đêm",
+  "dia_chi": "Phố cổ, gần chùa Ngọc Sơn, quận Hoàn Kiếm",
+  "ghi_chu": "Loai: Khách sạn (không ghi hạng sao) | Sát Hồ Hoàn Kiếm | Phu hop: Khách muốn ở trung tâm, dễ di chuyển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "AMI Old Quarter Hotel",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~1.700.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+  "dia_chi": "Phố cổ, quận Hoàn Kiếm (gần Nhà hát múa rối Thăng Long)",
+  "ghi_chu": "Loai: Khách sạn | Trung tâm phố cổ, đi bộ ra hồ | Phu hop: Gia đình nhỏ, khách cần tiện nghi cơ bản",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Golden Rooster Hotel",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~760.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+  "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+  "ghi_chu": "Loai: Khách sạn | Trung tâm phố cổ | Phu hop: Nhóm bạn, khách thích không khí sôi động",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "La Siesta Classic Hàng Thùng",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~2.400.000đ/đêm (giá tham khảo 1 nguồn — chưa kiểm được khoảng)",
+  "dia_chi": "Phố cổ, quận Hoàn Kiếm",
+  "ghi_chu": "Loai: 5 sao | Phố cổ, gần Hồ Hoàn Kiếm | Phu hop: Gia đình, cặp đôi nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hương Giang",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~280.000–380.000đ/đêm",
+  "dia_chi": "Quận Đống Đa, gần Văn Miếu (chưa xác minh được cơ sở — đang kiểm lại)",
+  "ghi_chu": "Loai: Khách sạn (không ghi hạng sao) | Cách Hồ Hoàn Kiếm ~2–3 km, đi xe ~10 phút | Phu hop: Khách tiết kiệm, khách thăm Văn Miếu",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu vực Hồ Tây (Tây Hồ)",
+  "tinh": "Hà Nội",
+  "loai": "cho_o",
+  "gia": "~2.600.000–6.500.000đ/đêm (khoảng rộng theo hạng — chưa kiểm được chi tiết từng khách sạn)",
+  "dia_chi": "Quanh Hồ Tây, quận Tây Hồ",
+  "ghi_chu": "Loai: Khách sạn 4–5 sao | Cách Hồ Hoàn Kiếm ~5–7 km | Phu hop: Khách nghỉ dưỡng, cặp đôi muốn yên tĩnh, view hồ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sheraton Hai Phong",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo theo VnExpress — chưa kiểm được khoảng trên)",
+  "dia_chi": "Trung tâm TP Hải Phòng (khu vực Hồng Bàng/Ngô Quyền)",
+  "ghi_chu": "Loai: 5 sao | Trung tâm thành phố | Phu hop: Khách công tác, cặp đôi/gia đình muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Melia Vinpearl Hai Phong Rivera",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo — chưa kiểm được khoảng trên)",
+  "dia_chi": "Trung tâm TP Hải Phòng",
+  "ghi_chu": "Loai: 5 sao | Trung tâm thành phố | Phu hop: Khách nghỉ dưỡng trong thành phố",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pullman Hai Phong Grand Hotel",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~2.000.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Trung tâm TP Hải Phòng",
+  "ghi_chu": "Loai: 5 sao | Trung tâm thành phố | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mercure Hai Phong",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "~1.200.000–2.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Trung tâm TP Hải Phòng",
+  "ghi_chu": "Loai: 4 sao | Trung tâm thành phố | Phu hop: Khách công tác, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Flamingo Cat Ba Beach Resort",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~1.500.000đ/đêm (trung bình theo VnExpress; cuối tuần/lễ cao hơn nhiều)",
+  "dia_chi": "Bãi tắm Cát Cò 1, thị trấn Cát Bà",
+  "ghi_chu": "Loai: Resort 4–5 sao | Cách trung tâm TP ~30 km + phà/cáp treo | Phu hop: Gia đình, cặp đôi nghỉ dưỡng biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hôtel Perle d'Orient Cat Ba – MGallery",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~1.500.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Thị trấn Cát Bà",
+  "ghi_chu": "Loai: 5 sao | Cách trung tâm TP ~30 km + phà/cáp treo | Phu hop: Khách nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Dream Dragon Resort (Đồi Rồng)",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "Từ ~2.500.000đ/đêm (theo VnExpress)",
+  "dia_chi": "Khu du lịch Đồi Rồng, phường Đồ Sơn",
+  "ghi_chu": "Loai: Resort 5 sao | Cách trung tâm TP ~20 km | Phu hop: Gia đình, khách nghỉ dưỡng biển cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hòn Dấu Resort",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "~1.000.000đ/đêm (quanh mức theo VnExpress)",
+  "dia_chi": "Phường Đồ Sơn",
+  "ghi_chu": "Loai: Resort | Cách trung tâm TP ~20 km | Phu hop: Gia đình, nhóm bạn đi biển Đồ Sơn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu trung tâm giá vừa (Hải Âu / nhà khách Hải Quân / BIDV Đồ Sơn...)",
+  "tinh": "Hải Phòng",
+  "loai": "cho_o",
+  "gia": "~300.000–700.000đ/đêm (theo VnExpress)",
+  "dia_chi": "Trung tâm TP và Đồ Sơn",
+  "ghi_chu": "Loai: Khách sạn 2–3 sao | Trung tâm hoặc Đồ Sơn (~20 km) | Phu hop: Khách tiết kiệm, food tour 1–2 ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vinpearl Resort & Spa Hạ Long",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~2.600.000–3.250.000đ/đêm (Deluxe Garden/Ocean kèm buffet sáng, theo bảng giá tới 30/11/2026)",
+  "dia_chi": "Đảo Rều, vịnh Hạ Long (đi tàu từ Bãi Cháy)",
+  "ghi_chu": "Loai: 5 sao | Cách trung tâm Bãi Cháy ~10 phút tàu | Phu hop: Gia đình, cặp đôi nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu Bãi Cháy 4–5 sao (Mường Thanh, Novotel, Wyndham...)",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~1.000.000–3.000.000đ/đêm (khoảng tham khảo, chưa kiểm được từng khách sạn)",
+  "dia_chi": "Đường Hạ Long, phường Bãi Cháy",
+  "ghi_chu": "Loai: 4–5 sao | Trung tâm khu du lịch Bãi Cháy, gần cảng tàu | Phu hop: Gia đình, khách đoàn, khách đi vịnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu Bãi Cháy 3 sao",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~500.000–1.000.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Đường Hạ Long / Vườn Đào, phường Bãi Cháy",
+  "ghi_chu": "Loai: 3 sao | Gần bãi biển Bãi Cháy, cảng tàu | Phu hop: Cặp đôi, gia đình nhỏ, khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu Hòn Gai",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~500.000–1.500.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Đường Trần Quốc Nghiễn / Lê Thánh Tông, phường Hòn Gai",
+  "ghi_chu": "Loai: 3–4 sao | Cách Bãi Cháy ~5 km qua cầu Bãi Cháy | Phu hop: Khách thích yên tĩnh, ăn uống địa phương rẻ hơn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Resort Tuần Châu",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~1.000.000–2.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Đảo Tuần Châu, TP Hạ Long",
+  "ghi_chu": "Loai: Resort 4 sao | Cách Bãi Cháy ~8 km | Phu hop: Gia đình có trẻ nhỏ (gần khu vui chơi)",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Du thuyền ngủ đêm vịnh Hạ Long (4–5 sao)",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~2.500.000–12.000.000đ/người/đêm tùy hạng du thuyền",
+  "dia_chi": "Xuất phát cảng Bãi Cháy/Tuần Châu",
+  "ghi_chu": "Loai: Du thuyền | Ngủ trên vịnh | Phu hop: Cặp đôi, gia đình muốn trải nghiệm vịnh trọn vẹn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay/khách sạn đảo Quan Lạn",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~300.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Đảo Quan Lạn, Vân Đồn",
+  "ghi_chu": "Loai: Homestay/khách sạn nhỏ | Cách Hạ Long ~60 km + tàu | Phu hop: Nhóm bạn, cặp đôi thích biển hoang sơ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Uông Bí (gần Yên Tử)",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~500.000–1.200.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "TP Uông Bí",
+  "ghi_chu": "Loai: 3–4 sao | Cách Hạ Long ~35–40 km | Phu hop: Khách hành hương Yên Tử, khách ở lại qua đêm mùa lễ hội",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Hạ Long (khu Hòn Gai/Bãi Cháy)",
+  "tinh": "Quảng Ninh",
+  "loai": "cho_o",
+  "gia": "~300.000–600.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Phường Hòn Gai / Bãi Cháy",
+  "ghi_chu": "Loai: Homestay | Trung tâm Hòn Gai hoặc Bãi Cháy | Phu hop: Nhóm bạn, gia đình nhỏ tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Mường Thanh Luxury Bắc Ninh",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~1.000.000–1.800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Đường Huyền Quang, TP Bắc Ninh",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP Bắc Ninh | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Le Indochina Bắc Ninh",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~900.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "TP Bắc Ninh",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP Bắc Ninh | Phu hop: Khách công tác (gần khu công nghiệp)",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn trung tâm TP Bắc Ninh 3 sao",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~500.000–900.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Đường Lý Thái Tổ / Trần Hưng Đạo, TP Bắc Ninh",
+  "ghi_chu": "Loai: 3 sao | Trung tâm thành phố | Phu hop: Khách đoàn, gia đình đi lễ hội",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Từ Sơn (gần đền Đô, làng Đông Hồ)",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~400.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "TP Từ Sơn",
+  "ghi_chu": "Loai: 3 sao | Cách TP Bắc Ninh ~15 km | Phu hop: Khách thăm đền Đô, Đông Hồ, bánh phu thê",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ/khách sạn giá vừa TP Bắc Ninh",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Trung tâm TP Bắc Ninh",
+  "ghi_chu": "Loai: Khách sạn 2 sao / nhà nghỉ | Trung tâm thành phố | Phu hop: Khách tiết kiệm, đi lễ 1 ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay làng Quan họ Diềm / Hòa Long",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~300.000–600.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Xã Hòa Long, TP Bắc Ninh",
+  "ghi_chu": "Loai: Homestay | Cách trung tâm TP ~5 km | Phu hop: Khách muốn trải nghiệm làng Quan họ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu công nghiệp Yên Phong (Sam Sung)",
+  "tinh": "Bắc Ninh",
+  "loai": "cho_o",
+  "gia": "~600.000–1.200.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Huyện Yên Phong",
+  "ghi_chu": "Loai: 3–4 sao | Cách trung tâm TP ~15 km | Phu hop: Khách công tác khu công nghiệp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn trung tâm TP Hưng Yên 3–4 sao",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~500.000–1.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Đường Điện Biên Phủ / Chu Mạnh Trinh, TP Hưng Yên",
+  "ghi_chu": "Loai: 3–4 sao | Trung tâm TP, cách cụm Phố Hiến 1–2 km | Phu hop: Khách đi lễ, gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Phố Hiến",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~400.000–800.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "58 Phạm Ngũ Lão, phường Phố Hiến, TP Hưng Yên",
+  "ghi_chu": "Loai: 3 sao | Ngay cụm di tích Phố Hiến, đi bộ được | Phu hop: Khách đi lễ Phố Hiến",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ/khách sạn giá vừa TP Hưng Yên",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Trung tâm TP Hưng Yên",
+  "ghi_chu": "Loai: Khách sạn 2 sao / nhà nghỉ | Trung tâm thành phố | Phu hop: Khách tiết kiệm, đi 1 ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn khu vực Văn Giang (Ecopark, giáp Hà Nội)",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~600.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Huyện Văn Giang, Hưng Yên (khu đô thị Ecopark)",
+  "ghi_chu": "Loai: 3–4 sao | Cách TP Hưng Yên ~30 km; cách Hà Nội ~15 km | Phu hop: Gia đình, khách nghỉ dưỡng ven đô",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay/farmstay Khoái Châu (vườn nhãn)",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~300.000–600.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Huyện Khoái Châu",
+  "ghi_chu": "Loai: Homestay | Cách TP Hưng Yên ~15 km | Phu hop: Gia đình, nhóm bạn đi mùa nhãn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Thái Bình cũ (khu vực TP Thái Bình, nay thuộc Hưng Yên)",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~400.000–900.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "TP Thái Bình (nay thuộc tỉnh Hưng Yên sau sáp nhập 2025)",
+  "ghi_chu": "Loai: 3–4 sao | Cách TP Hưng Yên ~35 km | Phu hop: Khách ghép tour Hưng Yên – Thái Bình (biển Cồn Vành, chùa Keo)",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ Văn Lâm (gần làng nghề, giáp Hà Nội)",
+  "tinh": "Hưng Yên",
+  "loai": "cho_o",
+  "gia": "~250.000–450.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Huyện Văn Lâm",
+  "ghi_chu": "Loai: Nhà nghỉ | Cách TP Hưng Yên ~25 km | Phu hop: Khách đi đường, khách thăm chùa Thái Lạc",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Tam Coc Garden Resort",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~1.500.000–3.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Tam Cốc, xã Ninh Hải, Hoa Lư",
+  "ghi_chu": "Loai: Resort 4 sao | Cách trung tâm TP ~8 km, ngay Tam Cốc | Phu hop: Cặp đôi, gia đình nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Emeralda Resort Ninh Binh",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~2.000.000–4.000.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Khu Vân Long, Gia Viễn (gần đầm Vân Long)",
+  "ghi_chu": "Loai: Resort 5 sao | Cách trung tâm TP ~17 km | Phu hop: Gia đình, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn trung tâm TP Ninh Bình 3–4 sao",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~500.000–1.200.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Đường Trần Hưng Đạo / Lương Văn Tụy, TP Ninh Bình",
+  "ghi_chu": "Loai: 3–4 sao | Trung tâm thành phố | Phu hop: Gia đình, khách đoàn, khách đi Tràng An/Tam Cốc",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Tam Cốc (khu vực Ninh Hải)",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~300.000–800.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Xã Ninh Hải, Hoa Lư (quanh bến Tam Cốc)",
+  "ghi_chu": "Loai: Homestay | Cách trung tâm TP ~8 km | Phu hop: Cặp đôi, nhóm bạn, khách thích ở gần sông",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Tràng An (khu vực Trường Yên)",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~300.000–700.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Xã Trường Yên, Hoa Lư",
+  "ghi_chu": "Loai: Homestay | Cách trung tâm TP ~7 km | Phu hop: Gia đình nhỏ, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Bái Đính (khu vực Gia Viễn)",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~600.000–1.500.000đ/đêm (khoảng tham khảo, chưa kiểm được)",
+  "dia_chi": "Gần chùa Bái Đính, Gia Viễn",
+  "ghi_chu": "Loai: 3–4 sao | Cách trung tâm TP ~12 km | Phu hop: Khách hành hương Bái Đính, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ/khách sạn giá vừa trung tâm TP",
+  "tinh": "Ninh Bình",
+  "loai": "cho_o",
+  "gia": "~250.000–500.000đ/đêm (khoảng tham khảo)",
+  "dia_chi": "Trung tâm TP Ninh Bình",
+  "ghi_chu": "Loai: Khách sạn 2 sao / nhà nghỉ | Trung tâm thành phố | Phu hop: Khách tiết kiệm, đi phượt",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Mường Thanh Lai Châu",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~600.000–1.200.000đ/đêm (có nguồn ghi từ 700.000đ/đêm)",
+  "dia_chi": "Đường Lê Duẩn, phường Tân Phong, TP Lai Châu",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Gia đình, khách muốn tiện nghi ngay trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hoàng Nhâm Luxury Hotel",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~800.000–1.200.000đ/đêm",
+  "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách muốn ở trung tâm, tiện nghi cao hơn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Minh Sơn",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm",
+  "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Putaleng",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm",
+  "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Bình Long",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm",
+  "dia_chi": "TP Lai Châu (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vàng A Chỉnh Homestay",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~400.000–500.000đ/đêm/phòng (có nguồn ghi 475.000đ/đêm)",
+  "dia_chi": "Bản Sin Suối Hồ, xã Sin Suối Hồ, Phong Thổ",
+  "ghi_chu": "Loai: Homestay | Cách TP Lai Châu ~30 km | Phu hop: Nhóm bạn, gia đình muốn ngủ bản",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Nhà tổ chim (The Birdhouse Bungalow)",
+  "tinh": "Lai Châu",
+  "loai": "cho_o",
+  "gia": "~650.000đ/đêm/phòng (có nguồn ghi ~1.200.000–1.500.000đ/đêm — mâu thuẫn, chưa thống nhất)",
+  "dia_chi": "Bản Sin Suối Hồ, xã Sin Suối Hồ, Phong Thổ",
+  "ghi_chu": "Loai: Homestay | Cách TP Lai Châu ~30 km | Phu hop: Cặp đôi, nhóm bạn, gia đình nghỉ dưỡng yên tĩnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Điện Biên Phủ",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "~900.000–1.500.000đ/đêm (Traveloka ghi từ 1.200.000đ/đêm)",
+  "dia_chi": "514 Võ Nguyên Giáp, phường Điện Biên Phủ, TP Điện Biên Phủ",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP, gần di tích | Phu hop: Gia đình, khách đoàn, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Điện Biên",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "Từ ~1.300.000đ/đêm (chưa kiểm được khoảng trên)",
+  "dia_chi": "42 Trần Đăng Ninh, phường Thanh Bình, TP Điện Biên Phủ",
+  "ghi_chu": "Loai: 5 sao (theo 1 nguồn TikTok) | Trung tâm TP | Phu hop: Khách muốn tiện nghi cao, có bể bơi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Him Lam (Him Lam Resort)",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "Từ ~600.000–870.000đ/đêm (phòng khách sạn); ~1.500.000đ/đêm (resort) — giá khác nhau theo loại phòng",
+  "dia_chi": "Tổ 6, phường Him Lam, TP Điện Biên Phủ",
+  "ghi_chu": "Loai: 3 sao | Cách trung tâm ~4 km | Phu hop: Gia đình, khách muốn yên tĩnh, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn A1",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "Từ ~550.000đ/đêm",
+  "dia_chi": "Số 3 Hoàng Công Chất, phường Mường Thanh, TP Điện Biên Phủ",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm, ở trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Thanh Nam",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "~800.000đ/đêm (theo Agoda ~32 USD — chưa kiểm được khoảng)",
+  "dia_chi": "TP Điện Biên Phủ (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách muốn ở trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Frontier Hostel & Tours",
+  "tinh": "Điện Biên",
+  "loai": "cho_o",
+  "gia": "~200.000đ/người/đêm (theo Agoda ~8 USD — chưa kiểm được khoảng)",
+  "dia_chi": "TP Điện Biên Phủ (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Hostel | Trung tâm TP | Phu hop: Khách bụi, đi một mình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Mộc Châu (Mường Thanh Holiday Mộc Châu)",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "~1.180.000–5.000.000đ/đêm (Traveloka ghi từ 1.277.778đ/đêm)",
+  "dia_chi": "Đường Hoàng Quốc Việt, thị trấn Nông trường Mộc Châu",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt) | Trung tâm thị trấn Nông trường | Phu hop: Gia đình, khách đoàn, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Thảo Nguyên Resort Mộc Châu (tên cũ: Thảo Nguyên Hotel Mộc Châu)",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "~800.000–1.800.000đ/đêm (có nguồn ghi từ 615.000đ/đêm; villa tới 6.000.000đ/đêm)",
+  "dia_chi": "Phiêng Luông, Mộc Châu (tiểu khu 32, thị trấn Nông trường)",
+  "ghi_chu": "Loai: 4 sao | Khu Phiêng Luông | Phu hop: Gia đình/nhóm bạn nghỉ dưỡng, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Phoenix Mộc Châu Resort",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "~800.000–1.500.000đ/đêm",
+  "dia_chi": "Rừng thông Bản Áng, xã Đông Sang, Mộc Châu",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Khu Bản Áng | Phu hop: Cặp đôi, gia đình nghỉ dưỡng ven rừng thông",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mộc Sa Mộc Châu Hotel",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "Từ ~700.000đ/đêm (chưa kiểm được khoảng trên)",
+  "dia_chi": "Thị trấn Mộc Châu (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm thị trấn | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mộc Châu Eco Garden",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "Từ ~750.000đ/đêm (chưa kiểm được khoảng trên)",
+  "dia_chi": "Thảo Nguyên, Mộc Châu",
+  "ghi_chu": "Loai: 4 sao (theo Hoteles.com) | Khu Thảo Nguyên | Phu hop: Gia đình, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bơ House (homestay)",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "~80.000đ/người/đêm",
+  "dia_chi": "Xóm 2, tiểu khu Cơ quan, thị trấn Nông trường Mộc Châu",
+  "ghi_chu": "Loai: Homestay | Trung tâm thị trấn Nông trường | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mộc Châu Island – Mountain Park and Resort",
+  "tinh": "Sơn La",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Xã Mường Sang, Mộc Châu (khu cầu kính Bạch Long)",
+  "ghi_chu": "Loai: Resort | Khu Mường Sang | Phu hop: Gia đình, khách muốn ở gần cầu kính",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hôtel de la Coupole – MGallery Sa Pa",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "1 Hoàng Liên, Sa Pa (chưa kiểm được số nhà chính xác tuyệt đối)",
+  "ghi_chu": "Loai: 5 sao | Trung tâm thị trấn | Phu hop: Cặp đôi, gia đình muốn nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Silk Path Grand Resort & Spa Sa Pa",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Sa Pa (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: 5 sao | Gần trung tâm | Phu hop: Gia đình, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Topas Ecolodge",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Thanh Kim, Sa Pa (cách trung tâm ~18 km)",
+  "ghi_chu": "Loai: Resort | Cách trung tâm ~18 km | Phu hop: Cặp đôi, khách nghỉ dưỡng yên tĩnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pao's Sapa Leisure Hotel",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Mường Hoa, Sa Pa (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: 5 sao | Gần trung tâm | Phu hop: Gia đình, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sapa Jade Hill Resort & Spa",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Sa Pa (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Resort | Gần trung tâm | Phu hop: Gia đình nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Little Sapa Homestay",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "~300.000–350.000đ/đêm (phòng gia đình 350.000đ; phòng King 300.000đ)",
+  "dia_chi": "42 Cầu Mây, Sa Pa",
+  "ghi_chu": "Loai: Homestay | Trung tâm thị trấn | Phu hop: Khách bụi, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "H'Mong CatCat Homestay",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "Từ ~300.000đ/đêm (phòng tập thể ~150.000đ/người)",
+  "dia_chi": "Số 8 Cát Cát, bản Cát Cát, Sa Pa",
+  "ghi_chu": "Loai: Homestay | Bản Cát Cát, cách trung tâm ~2 km | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Phơri's House",
+  "tinh": "Lào Cai",
+  "loai": "cho_o",
+  "gia": "~750.000đ/phòng 2 người/đêm (~30 USD; thêm người 10 USD)",
+  "dia_chi": "Bản Tả Van, xã Hầu Thào, Sa Pa",
+  "ghi_chu": "Loai: Homestay | Bản Tả Van, cách trung tâm ~10 km | Phu hop: Nhóm bạn, gia đình thích bản làng yên tĩnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Cao Bằng",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Từ ~1.110.000đ/đêm (có nguồn ghi từ ~1.597.222đ/đêm; suite cao hơn)",
+  "dia_chi": "42 Kim Đồng, phường Thục Phán, TP Cao Bằng",
+  "ghi_chu": "Loai: 5 sao | Trung tâm TP, phố đi bộ | Phu hop: Gia đình, khách đoàn, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bang Giang EcoGreen Hotel",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Từ ~500.000đ/đêm (chưa kiểm được khoảng trên)",
+  "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Indigen Riverside Hotel Cao Bang",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Từ ~700.000đ/đêm (chưa kiểm được khoảng trên)",
+  "dia_chi": "Phường Hợp Giang, TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Gần sông Bằng Giang | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bằng Giang Hotel",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bảo Ngọc Diamond Hotel",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "TP Cao Bằng (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Tit Mit",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "10 Đồng Khê, Tân Giang, TP Cao Bằng",
+  "ghi_chu": "Loai: Homestay | Chưa kiểm được khoảng cách tới trung tâm | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay tại làng đá Khuổi Ky",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+  "dia_chi": "Làng đá Khuổi Ky, xã Đàm Thủy, Trùng Khánh",
+  "ghi_chu": "Loai: Homestay | Cách TP Cao Bằng ~90 km, gần thác Bản Giốc | Phu hop: Nhóm bạn muốn ngủ gần thác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay tại làng rèn Phúc Sen (bản Pác Rằng)",
+  "tinh": "Cao Bằng",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm/phòng (theo ongvove.com; chưa kiểm được tên nhà cụ thể)",
+  "dia_chi": "Bản Pác Rằng, xã Phúc Sen, Quảng Hòa (Quốc lộ 3, cách TP Cao Bằng ~30 km)",
+  "ghi_chu": "Loai: Homestay | Cách TP Cao Bằng ~30 km | Phu hop: Nhóm bạn, gia đình muốn ngủ làng nghề",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Lạng Sơn",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "~1.300.000–3.100.000đ/đêm (Traveloka: 1.306.877–3.136.506đ)",
+  "dia_chi": "68 Ngô Quyền, phường Vĩnh Trại, TP Lạng Sơn",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt; Traveloka ghi Luxury) | Trung tâm TP, cách chợ Đông Kinh ~10 phút xe | Phu hop: Gia đình, khách đoàn, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Four Points by Sheraton Lạng Sơn (tên cũ: Vinpearl Lạng Sơn)",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "~700.000–2.000.000đ/đêm (phòng tiêu chuẩn từ 700.000đ; suite tới 2.000.000đ)",
+  "dia_chi": "Trung tâm TP Lạng Sơn, bờ sông Kỳ Cung, gần Vincom (chưa kiểm được số nhà cụ thể)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Cặp đôi, gia đình, khách công tác, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Bamboo Hill Hữu Liên",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá hiện hành",
+  "dia_chi": "Xã Hữu Liên, Hữu Lũng",
+  "ghi_chu": "Loai: Homestay | Cách TP Lạng Sơn ~70 km | Phu hop: Nhóm bạn, gia đình đi thảo nguyên",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ trên đỉnh Mẫu Sơn",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+  "dia_chi": "Đỉnh Mẫu Sơn, xã Công Sơn, Cao Lộc (chưa kiểm được tên cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ | Cách TP Lạng Sơn ~30 km | Phu hop: Nhóm bạn săn mây, ngủ lại đỉnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ tại Đồng Đăng",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+  "dia_chi": "Thị trấn Đồng Đăng, Cao Lộc (chưa kiểm được tên + số nhà cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ | Cách TP Lạng Sơn ~14 km, gần cửa khẩu Hữu Nghị | Phu hop: Khách đi cửa khẩu, chợ Đồng Đăng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay thung lũng Bắc Sơn",
+  "tinh": "Lạng Sơn",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được tên + khoảng giá hiện hành",
+  "dia_chi": "Huyện Bắc Sơn (chưa kiểm được tên + địa chỉ cụ thể)",
+  "ghi_chu": "Loai: Homestay | Cách TP Lạng Sơn ~70 km | Phu hop: Nhóm bạn ngắm lúa Bắc Sơn tháng 9–10",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Phú Thọ",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~1.900.000đ/đêm trở lên (có nguồn ghi từ ~900.000đ tùy hạng/đợt)",
+  "dia_chi": "Lô CC17, Quảng trường Hùng Vương, phường Gia Cẩm, TP Việt Trì",
+  "ghi_chu": "Loai: 5 sao | Trung tâm TP, gần Công viên Văn Lang | Phu hop: Gia đình, khách công tác muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Sài Gòn – Phú Thọ",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~900.000–1.700.000đ/đêm",
+  "dia_chi": "17A Trần Phú, phường Gia Cẩm, TP Việt Trì",
+  "ghi_chu": "Loai: 3 sao | Đối diện hồ, cách Công viên Văn Lang ~3 phút xe | Phu hop: Gia đình, cặp đôi ở trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Cross Vibe Viet Tri Hotel (X2 Vibe)",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~945.000–1.400.000đ/đêm",
+  "dia_chi": "Đường Hai Bà Trưng, phường Tiên Cát, TP Việt Trì",
+  "ghi_chu": "Loai: 3 sao | Gần Công viên Văn Lang, Đền Tam Giang | Phu hop: Cặp đôi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Tru by Hilton Viet Tri City Centre (tên cũ: SOJO Hotel Viet Tri)",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~700.000–1.200.000đ/đêm (mở 2025)",
+  "dia_chi": "938 Hùng Vương, TP Việt Trì",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP, gần Công viên Văn Lang | Phu hop: Khách công tác, gia đình, khách trẻ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Zen Hotel Việt Trì",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (thuê tháng từ ~200.000đ/ngày theo quảng cáo)",
+  "dia_chi": "Ngõ 101 đường Phú Đông, phường Việt Trì, TP Việt Trì",
+  "ghi_chu": "Loai: Không hạng sao | Trong TP Việt Trì | Phu hop: Khách tiết kiệm, ở dài ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vườn Vua Resort & Villas",
+  "tinh": "Phú Thọ",
+  "loai": "cho_o",
+  "gia": "~1.290.000–3.000.000đ/đêm (gồm tắm khoáng)",
+  "dia_chi": "Xã Trung Thịnh, huyện Thanh Thủy",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi resort) | Cách TP Việt Trì ~40 km | Phu hop: Gia đình nghỉ dưỡng khoáng nóng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Đông Á Plaza",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "~300.000–1.200.000đ/đêm (các nguồn ghi khác nhau: từ 300.000đ / ~45 USD)",
+  "dia_chi": "668 Phan Đình Phùng, phường Đồng Quang, TP Thái Nguyên",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Đông Á 1",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "~450.000–600.000đ/đêm (~19 USD)",
+  "dia_chi": "142 Hoàng Văn Thụ, TP Thái Nguyên",
+  "ghi_chu": "Loai: 2 sao | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Habana Hotel",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "~1.100.000đ/đêm (~47 USD)",
+  "dia_chi": "TP Thái Nguyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Trung tâm TP | Phu hop: Khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hoàng Mấm – Minh Cầu",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "~700.000–800.000đ/đêm (~30 USD)",
+  "dia_chi": "TP Thái Nguyên",
+  "ghi_chu": "Loai: 3 sao (có nguồn ghi 3,2 sao) | Trung tâm TP | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Galaxy Thái Nguyên",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng",
+  "dia_chi": "TP Thái Nguyên",
+  "ghi_chu": "Loai: 3 sao | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hải Âu Thái Nguyên",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng",
+  "dia_chi": "TP Thái Nguyên",
+  "ghi_chu": "Loai: 3 sao | Trung tâm TP | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Phúc Xuân Resort (Hồ Núi Cốc)",
+  "tinh": "Thái Nguyên",
+  "loai": "cho_o",
+  "gia": "~760.000đ/đêm (có bể bơi, ăn sáng)",
+  "dia_chi": "Khu vực Hồ Núi Cốc, huyện Đại Từ",
+  "ghi_chu": "Loai: Resort | Ngay Hồ Núi Cốc, cách TP ~15 km | Phu hop: Gia đình nghỉ dưỡng ven hồ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Tuyên Quang",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "~615.000–1.550.000đ/đêm (Trip.com từ ~615.000đ; vietnambooking từ ~1.552.000đ)",
+  "dia_chi": "207 đường Bình Thuận, tổ 13, phường Minh Xuân, TP Tuyên Quang",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Royal Palace Tuyên Quang (tên cũ: Royal Tuyên Quang Hotel)",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "~560.000–570.000đ/đêm",
+  "dia_chi": "TP Tuyên Quang",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Trung tâm TP | Phu hop: Gia đình, khách công tác, khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Tân Trang",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "~300.000–500.000đ/đêm (chưa kiểm được khoảng chính xác); cho thuê xe máy 80.000–100.000đ/ngày",
+  "dia_chi": "25 Nguyễn Trãi, phường Tân Quang, TP Tuyên Quang",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Trung tâm TP | Phu hop: Khách tiết kiệm, phượt",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Minh Thanh Guest House",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "~250.000–400.000đ/đêm (chưa kiểm được khoảng chính xác); cho thuê xe máy 80.000–140.000đ/ngày",
+  "dia_chi": "Tổ 10, phố Bình Ca, phường Nông Tiến, TP Tuyên Quang",
+  "ghi_chu": "Loai: Nhà nghỉ | Gần trung tâm TP | Phu hop: Khách phượt, tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khu nghỉ dưỡng suối khoáng Mỹ Lâm",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "~500.000–1.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Xã Phú Lâm, huyện Yên Sơn (suối khoáng Mỹ Lâm)",
+  "ghi_chu": "Loai: Resort | Cách TP ~13 km | Phu hop: Gia đình nghỉ dưỡng khoáng nóng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nature Na Hang Homestay",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "600.000–850.000đ/phòng/đêm (theo dulichvtv.com)",
+  "dia_chi": "Thôn Nà Va, xã Thượng Lâm, gần bến thuyền du lịch hồ Na Hang",
+  "ghi_chu": "Loai: Homestay | Cách TP Tuyên Quang ~110 km | Phu hop: Gia đình, cặp đôi đi hồ Na Hang",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pài Bjooc Homestay",
+  "tinh": "Tuyên Quang",
+  "loai": "cho_o",
+  "gia": "450.000–650.000đ/phòng riêng (theo dulichvtv.com); sàn tập thể 100.000–120.000đ/khách",
+  "dia_chi": "Thôn Tân Quang, xã Thái Bình, huyện Yên Sơn (gần hồ Na Hang)",
+  "ghi_chu": "Loai: Homestay | Cách TP Tuyên Quang ~110 km | Phu hop: Nhóm bạn, gia đình muốn ở nhà sàn người Tày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "FLC Luxury Hotel Sầm Sơn",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "~1.280.000–2.860.000đ/đêm (Studio Suite thấp điểm ~2.200.000đ, cao điểm ~2.860.000đ; ưu đãi có đợt từ ~1.280.000đ)",
+  "dia_chi": "Đường Hồ Xuân Hương, phường Quảng Cư, Sầm Sơn, TP Thanh Hóa",
+  "ghi_chu": "Loai: 5 sao | Ngay bãi biển Sầm Sơn | Phu hop: Gia đình, khách nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "FLC Grand Hotel Sầm Sơn",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "~2.050.000–2.600.000đ/đêm (Grand Comfort/Studio Suite; Family Suite ~3.950.000–4.400.000đ)",
+  "dia_chi": "Khu FLC Sầm Sơn, phường Sầm Sơn, TP Thanh Hóa",
+  "ghi_chu": "Loai: 5 sao | Ngay bãi biển Sầm Sơn | Phu hop: Gia đình, khách nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vinpearl Hotel Thanh Hóa",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "~1.500.000đ/đêm (có nguồn ghi từ ~1.200.000đ)",
+  "dia_chi": "27 Trần Phú, phường Điện Biên (Hạc Thành), TP Thanh Hóa",
+  "ghi_chu": "Loai: 5 sao | Trung tâm TP Thanh Hóa, cách Sầm Sơn ~16 km | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pù Luông Retreat",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng hiện hành — resort sinh thái Pù Luông thường ~1.000.000–2.500.000đ/đêm, kiểm lại trước khi đặt",
+  "dia_chi": "Xã Cổ Lũng, huyện Bá Thước (Pù Luông)",
+  "ghi_chu": "Loai: Resort sinh thái | Trong thung lũng Pù Luông, cách TP ~130 km | Phu hop: Cặp đôi, gia đình nghỉ dưỡng núi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pù Luông Eco Garden",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng hiện hành",
+  "dia_chi": "Xã Cổ Lũng, huyện Bá Thước (Pù Luông)",
+  "ghi_chu": "Loai: Homestay/resort sinh thái | Trong thung lũng Pù Luông | Phu hop: Nhóm bạn, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay nhà sàn bản Đôn (Pù Luông)",
+  "tinh": "Thanh Hóa",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/người/đêm (chưa kiểm được giá riêng từng nhà)",
+  "dia_chi": "Bản Đôn, xã Cổ Lũng, huyện Bá Thước",
+  "ghi_chu": "Loai: Homestay nhà sàn | Trong bản Pù Luông | Phu hop: Nhóm bạn, khách bụi thích ở nhà sàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Melia Vinpearl Cua Hoi Beach Resort",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~1.640.000–2.400.000đ/đêm",
+  "dia_chi": "Đường Bình Minh, phường Nghi Hải, Cửa Hội, TP Vinh",
+  "ghi_chu": "Loai: 5 sao | Ngay bãi biển Cửa Hội, cách trung tâm Vinh ~18 km | Phu hop: Gia đình, khách nghỉ dưỡng biển cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Cửa Lò",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~895.000–1.500.000đ/đêm (249 phòng)",
+  "dia_chi": "232 đường Bình Minh, phường Nghi Thu, Cửa Lò, TP Vinh",
+  "ghi_chu": "Loai: 4 sao | Ngay bãi biển Cửa Lò, cách sân bay Vinh ~10 km | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Sông Lam",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~770.000–1.730.000đ/đêm (Superior 770.000đ; Suite tới ~3.690.000đ)",
+  "dia_chi": "13 Quang Trung, TP Vinh",
+  "ghi_chu": "Loai: 5 sao | Trung tâm TP Vinh, cách ga Vinh ~4 km | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Phương Đông",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~1.200.000–1.490.000đ/đêm",
+  "dia_chi": "2 đường Trường Thi, TP Vinh",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP Vinh | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Thanh Niên Vinh",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~780.000đ/đêm trở lên",
+  "dia_chi": "74 đường Lê Hồng Phong, phường Hưng Bình, TP Vinh",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi 3 sao) | Trung tâm TP Vinh | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Mường Thanh Vinh",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "~680.000đ/đêm trở lên (có nguồn ghi trung bình ~499.000đ)",
+  "dia_chi": "1 đường Phan Bội Châu, TP Vinh",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Trung tâm TP Vinh | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sài Gòn Kim Liên Resort",
+  "tinh": "Nghệ An",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng hiện hành",
+  "dia_chi": "Xã Kim Liên, huyện Nam Đàn (gần Làng Sen)",
+  "ghi_chu": "Loai: Resort | Cách TP Vinh ~15 km, gần Kim Liên | Phu hop: Gia đình đi Kim Liên",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Hà Tĩnh",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~600.000–1.150.000đ/đêm (198 phòng)",
+  "dia_chi": "QL1A, ngã tư khu kinh tế Vũng Áng, phường Sông Trí, thị xã Kỳ Anh",
+  "ghi_chu": "Loai: 4 sao | Cách TP Hà Tĩnh ~60 km, gần cảng Vũng Áng | Phu hop: Gia đình, khách công tác khu Vũng Áng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Xuân Thành",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~1.090.000–1.610.000đ/đêm",
+  "dia_chi": "Thôn Thành Vân, xã Tiên Điền, huyện Nghi Xuân",
+  "ghi_chu": "Loai: 4 sao | Gần biển Xuân Thành, khu di tích Nguyễn Du | Phu hop: Gia đình nghỉ dưỡng biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Thiên Cầm Xanh Hotel",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~500.000–800.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Đường Nguyễn Thị Bích Châu, bờ kè Thiên Cầm, huyện Cẩm Xuyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Cách biển Thiên Cầm ~520 m | Phu hop: Gia đình đi biển Thiên Cầm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Lamer Thiên Cầm Hotel",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~290.000–860.000đ/đêm",
+  "dia_chi": "Biển Thiên Cầm, xã Liên Thành, huyện Cẩm Xuyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Cách biển Thiên Cầm ~160 m | Phu hop: Gia đình, khách tiết kiệm đi biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Dolphin Hotel Thiên Cầm",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~500.000–690.000đ/đêm",
+  "dia_chi": "Liên Thanh, Thiên Cầm, huyện Cẩm Xuyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Cách biển Thiên Cầm ~390 m | Phu hop: Gia đình đi biển Thiên Cầm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Seabird Hotel Thiên Cầm",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~1.280.000đ/đêm",
+  "dia_chi": "Bãi biển Thiên Cầm, huyện Cẩm Xuyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Ngay bãi biển Thiên Cầm | Phu hop: Gia đình nghỉ dưỡng biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Family Hotel Thiên Cầm",
+  "tinh": "Hà Tĩnh",
+  "loai": "cho_o",
+  "gia": "~500.000–1.840.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Thiên Cầm, huyện Cẩm Xuyên",
+  "ghi_chu": "Loai: Chưa kiểm được hạng sao | Gần biển Thiên Cầm | Phu hop: Gia đình đi biển Thiên Cầm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Quảng Trị",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~700.000–1.400.000đ/đêm (có nguồn ghi ~800.000–1.000.000đ)",
+  "dia_chi": "68 Lê Duẩn, TP Đông Hà",
+  "ghi_chu": "Loai: 4 sao | Trung tâm Đông Hà, cách ga Đông Hà ~1,5 km | Phu hop: Gia đình, khách đoàn, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Sài Gòn – Đông Hà",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~700.000–1.500.000đ/đêm (có nguồn ghi từ ~936.000đ; cách chợ Đông Hà ~250 m)",
+  "dia_chi": "01 Bùi Thị Xuân, Phường 2, TP Đông Hà",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi 3 sao) | Trung tâm Đông Hà | Phu hop: Khách tiết kiệm, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hữu Nghị",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~300.000–600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "68 Trần Hưng Đạo, Phường 1, TP Đông Hà",
+  "ghi_chu": "Loai: 2–3 sao | Trung tâm Đông Hà | Phu hop: Khách bụi, khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Nam Đông",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~300.000–700.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "348 Lê Duẩn, Phường Đông Lễ, TP Đông Hà",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm Đông Hà | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sơn Thủy Homestays (Mũi Si, Cửa Tùng)",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Thị trấn Cửa Tùng, huyện Vĩnh Linh (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Sát bãi Cửa Tùng, cách Đông Hà ~30–35 km | Phu hop: Nhóm bạn, gia đình tắm biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Retro Khe Sanh (Km62 QL9, Lương Lễ, Hướng Hóa)",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~400.000–500.000đ/đêm (phòng đôi nhìn ra núi; theo inhat.vn)",
+  "dia_chi": "Km62 QL9, Lương Lễ, huyện Hướng Hóa",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Cách Đông Hà ~65 km | Phu hop: Khách đi cung QL9, ở lại 1 đêm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay/nhà nghỉ thị xã Quảng Trị",
+  "tinh": "Quảng Trị",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Khu vực Thành Cổ, phường Quảng Trị (chưa kiểm được tên cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Sát Thành Cổ, cách Đông Hà ~28 km | Phu hop: Khách tham quan Thành Cổ – La Vang",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Holiday Huế",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~800.000–1.500.000đ/đêm",
+  "dia_chi": "38 Lê Lợi, TP Huế",
+  "ghi_chu": "Loai: 4 sao | Ven sông Hương, trung tâm; cách Đại Nội ~1 km | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "La Residence Hue Hotel & Spa",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~2.500.000–4.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "5 Lê Lợi, TP Huế",
+  "ghi_chu": "Loai: 5 sao | Ven sông Hương, đối diện cầu Trường Tiền | Phu hop: Cặp đôi, khách nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Indochine Palace",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~1.200.000–2.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "105A Hùng Vương, TP Huế",
+  "ghi_chu": "Loai: 4 sao | Trung tâm, cách cầu Trường Tiền ~1 km | Phu hop: Gia đình, khách hội nghị",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Pilgrimage Village Boutique Resort & Spa",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~1.500.000–3.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "130 Minh Mạng, TP Huế",
+  "ghi_chu": "Loai: 4 sao | Cách trung tâm ~3 km, gần lăng Tự Đức | Phu hop: Cặp đôi, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Êmm Hotel Huế",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~700.000–1.200.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "27 Hà Nội, TP Huế",
+  "ghi_chu": "Loai: 3 sao | Trung tâm, phố đi bộ Nguyễn Đình Chiểu | Phu hop: Cặp đôi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bonjour Hostel Huế",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~150.000–400.000đ/đêm (giường dorm–phòng riêng, chưa kiểm được)",
+  "dia_chi": "17/26 Nguyễn Công Trứ, TP Huế (địa chỉ theo nguồn, chưa kiểm lại)",
+  "ghi_chu": "Loai: Hostel (không hạng sao) | Trung tâm, gần chợ Đông Ba | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Alba Spa Hotel Huế",
+  "tinh": "Thành phố Huế",
+  "loai": "cho_o",
+  "gia": "~1.000.000–2.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Quốc lộ 1A, xã Phong Sơn, TP Huế (khu vực suối khoáng nóng Alba)",
+  "ghi_chu": "Loai: 4 sao | Cách trung tâm ~30 km về phía bắc | Phu hop: Gia đình, khách nghỉ dưỡng suối khoáng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Đà Nẵng",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~1.300.000–2.500.000đ/đêm (giá thấp mùa ~1.500.000–2.100.000đ)",
+  "dia_chi": "270 Võ Nguyên Giáp, phường Mỹ An, TP Đà Nẵng",
+  "ghi_chu": "Loai: 5 sao (có nguồn ghi 4 sao — mâu thuẫn) | Sát biển Mỹ Khê, cách Cầu Rồng ~3,5 km | Phu hop: Gia đình, khách nghỉ dưỡng biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Novotel Danang Premier Han River",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~1.500.000–3.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "36 Bạch Đằng, TP Đà Nẵng",
+  "ghi_chu": "Loai: 4 sao | Ven sông Hàn, cách Cầu Rồng ~1 km | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Furama Resort Đà Nẵng",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~2.500.000–5.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "103–105 Võ Nguyên Giáp, TP Đà Nẵng",
+  "ghi_chu": "Loai: 5 sao | Sát biển Mỹ Khê | Phu hop: Cặp đôi, khách nghỉ dưỡng cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Đà Nẵng",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~800.000–1.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "962 Ngô Quyền, quận Sơn Trà, TP Đà Nẵng",
+  "ghi_chu": "Loai: 4 sao | Ven sông Hàn phía Sơn Trà, cách Cầu Rồng ~2 km | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hilton Da Nang",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~2.000.000–4.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "50 Bạch Đằng, TP Đà Nẵng",
+  "ghi_chu": "Loai: 5 sao | Ven sông Hàn, trung tâm | Phu hop: Khách công tác, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn 3 sao khu vực biển Mỹ Khê",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~600.000–1.200.000đ/đêm",
+  "dia_chi": "Đường Võ Nguyên Giáp – Hồ Nghinh, TP Đà Nẵng (nhiều khách sạn 3 sao, chưa kiểm được tên cụ thể từng nhà)",
+  "ghi_chu": "Loai: 3 sao | Cách biển Mỹ Khê 100–300 m | Phu hop: Cặp đôi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay khu vực An Thượng",
+  "tinh": "Thành phố Đà Nẵng",
+  "loai": "cho_o",
+  "gia": "~300.000–700.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Khu phố An Thượng, phường Mỹ An, TP Đà Nẵng",
+  "ghi_chu": "Loai: Homestay (không hạng sao) | Cách biển Mỹ Khê ~200–500 m, nhiều quán ăn Tây | Phu hop: Khách bụi, nhóm bạn, khách nước ngoài",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Central Hotel Quảng Ngãi",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~700.000–1.500.000đ/đêm (theo nguồn dulich9)",
+  "dia_chi": "TP Quảng Ngãi (khu vực trung tâm, chưa kiểm được số nhà chính xác)",
+  "ghi_chu": "Loai: 3 sao | Trung tâm TP | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn 2–3 sao trung tâm TP Quảng Ngãi",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~250.000–500.000đ/đêm",
+  "dia_chi": "Khu vực đường Quang Trung – Phan Đình Phùng, TP Quảng Ngãi",
+  "ghi_chu": "Loai: 2–3 sao | Trung tâm TP, gần chợ và quán ram thịt nướng | Phu hop: Khách tiết kiệm, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Mỹ Khê (ven biển)",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~300.000–700.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Bãi biển Mỹ Khê, xã Tịnh Khê, TP Quảng Ngãi",
+  "ghi_chu": "Loai: 2–3 sao | Sát bãi Mỹ Khê, cách trung tâm ~12 km | Phu hop: Gia đình tắm biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ cảng Sa Kỳ",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Khu vực cảng Sa Kỳ, xã Bình Châu (nay xã Đông Sơn), TP Quảng Ngãi",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Cách cảng Sa Kỳ ~1 km; tiện đi tàu sớm ra Lý Sơn | Phu hop: Khách đi Lý Sơn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay/khách sạn trên đảo Lý Sơn",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~250.000–600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Đảo Lý Sơn (khu vực cầu cảng + thôn Đông)",
+  "ghi_chu": "Loai: Homestay/khách sạn mini (không hạng sao) | Trên đảo, thuê xe máy ngay tại chỗ ~150.000đ/ngày | Phu hop: Nhóm bạn, cặp đôi ở đảo 1–2 đêm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sa Huỳnh Resort",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~500.000–1.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Bãi biển Sa Huỳnh, phường Sa Huỳnh, TP Quảng Ngãi",
+  "ghi_chu": "Loai: 3 sao (chưa kiểm được hạng chính xác) | Sát bãi Sa Huỳnh, cách trung tâm ~60 km | Phu hop: Gia đình, khách nghỉ dưỡng biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ thị xã Đức Phổ (Sa Huỳnh)",
+  "tinh": "Quảng Ngãi",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Phường Sa Huỳnh / khu vực Đức Phổ, TP Quảng Ngãi",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Gần biển Sa Huỳnh + đồng muối | Phu hop: Khách đi cung nam Quảng Ngãi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Grand Gia Lai (tên cũ: Khách sạn Hoàng Anh Gia Lai)",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~800.000–1.600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "537 Hùng Vương, TP Pleiku",
+  "ghi_chu": "Loai: 4 sao | Trung tâm Pleiku | Phu hop: Gia đình, khách đoàn, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Pleiku (khách sạn 3 sao trung tâm)",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~400.000–800.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "03 Nguyễn Tất Thành, phường Hoa Lư, TP Pleiku",
+  "ghi_chu": "Loai: 3 sao | Trung tâm Pleiku | Phu hop: Khách tiết kiệm, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ khu vực Biển Hồ",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Đường đi Biển Hồ, TP Pleiku (chưa kiểm được tên + số nhà cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Cách Biển Hồ ~2–5 km | Phu hop: Khách muốn ở gần Biển Hồ, dậy sớm săn sương",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Pleiku",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Khu vực trung tâm TP Pleiku (chưa kiểm được tên + địa chỉ cụ thể)",
+  "ghi_chu": "Loai: Homestay (không hạng sao) | Trung tâm Pleiku | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn tại thị trấn Chư Sê (đi thác Phú Cường)",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~200.000–400.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Thị trấn Chư Sê, huyện Chư Sê (chưa kiểm được tên + số nhà cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Cách thác Phú Cường ~15 km | Phu hop: Khách đi cung thác Phú Cường",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Tre Xanh",
+  "tinh": "Gia Lai",
+  "loai": "cho_o",
+  "gia": "~500.000–900.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "18 Lê Lai, TP Pleiku",
+  "ghi_chu": "Loai: 3 sao | Trung tâm Pleiku | Phu hop: Khách công tác, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Buôn Ma Thuột",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~1.000.000–2.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "81 Nguyễn Tất Thành, TP Buôn Ma Thuột",
+  "ghi_chu": "Loai: 5 sao (chưa kiểm được hạng chính xác) | Trung tâm, cách Bảo tàng Cà phê ~2 km | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Dakruco",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~800.000–1.500.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "30 Nguyễn Chí Thanh, TP Buôn Ma Thuột",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Sài Gòn – Ban Mê",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~800.000–1.600.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "01–03 Phan Chu Trinh, TP Buôn Ma Thuột",
+  "ghi_chu": "Loai: 4 sao | Trung tâm TP | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn 3 sao trung tâm Buôn Ma Thuột",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~500.000–900.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Khu vực đường Lê Thánh Tông – Nguyễn Tất Thành, TP Buôn Ma Thuột",
+  "ghi_chu": "Loai: 3 sao | Trung tâm, gần chợ Buôn Ma Thuột | Phu hop: Cặp đôi, khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Lak Tented Camp (hồ Lắk)",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~1.000.000–2.000.000đ/đêm (chưa kiểm được khoảng chính xác)",
+  "dia_chi": "Ven hồ Lắk, thị trấn Liên Sơn, huyện Lắk",
+  "ghi_chu": "Loai: Khu cắm trại/glamping (không hạng sao) | Sát hồ Lắk, cách trung tâm ~56 km | Phu hop: Cặp đôi, nhóm bạn thích glamping",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Buôn Ma Thuột",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~250.000–600.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Khu vực trung tâm TP Buôn Ma Thuột (chưa kiểm được tên + địa chỉ cụ thể)",
+  "ghi_chu": "Loai: Homestay (không hạng sao) | Trung tâm TP | Phu hop: Khách bụi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nhà nghỉ Buôn Đôn",
+  "tinh": "Đắk Lắk",
+  "loai": "cho_o",
+  "gia": "~200.000–500.000đ/đêm (chưa kiểm được)",
+  "dia_chi": "Khu vực Buôn Đôn, huyện Buôn Đôn (chưa kiểm được tên + số nhà cụ thể)",
+  "ghi_chu": "Loai: Nhà nghỉ (không hạng sao) | Sát khu du lịch Buôn Đôn, cách trung tâm ~40 km | Phu hop: Khách muốn ở lại Buôn Đôn 1 đêm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sunrise Nha Trang Beach Hotel & Spa",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "Từ ~950.000đ/đêm (phòng cao hơn tới ~1.800.000đ)",
+  "dia_chi": "12–14 Trần Phú, phường Nha Trang",
+  "ghi_chu": "Loai: 4 sao | Sát bãi biển, đối diện Tháp Trầm Hương | Phu hop: Cặp đôi, gia đình muốn view biển",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nha Trang Lodge Hotel",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "~700.000–1.200.000đ/đêm (nguồn khác ghi Superior từ ~1.400.000đ — mâu thuẫn)",
+  "dia_chi": "42 Trần Phú, phường Nha Trang",
+  "ghi_chu": "Loai: 4 sao | Sát bãi biển, cách Quảng trường 2/4 ~50 m | Phu hop: Gia đình, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Masova Hotel Nha Trang",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "~400.000–3.000.000đ/đêm tùy hạng",
+  "dia_chi": "100A8–100A9 Trần Phú, phường Nha Trang",
+  "ghi_chu": "Loai: 4 sao | Cách bãi biển ~7 phút đi bộ | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Novotel Nha Trang",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng — khung 4 sao Trần Phú ~1.000.000–1.800.000đ/đêm",
+  "dia_chi": "50 Trần Phú, phường Nha Trang",
+  "ghi_chu": "Loai: 4 sao (chưa kiểm được hạng sao chính thức trong đợt này) | Sát bãi biển trung tâm | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Nha Trang",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng — khung 4 sao Trần Phú ~1.000.000–1.800.000đ/đêm",
+  "dia_chi": "60 Trần Phú, phường Nha Trang",
+  "ghi_chu": "Loai: 4 sao (chưa kiểm được hạng sao chính thức trong đợt này) | Sát bãi biển trung tâm | Phu hop: Gia đình, khách đoàn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn 2–3 sao khu Hùng Vương / Nguyễn Thị Minh Khai (nhóm tham khảo)",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "~350.000–800.000đ/đêm",
+  "dia_chi": "Đường Hùng Vương, Nguyễn Thị Minh Khai, Biệt Thự, phường Nha Trang",
+  "ghi_chu": "Loai: 2–3 sao | Cách bãi biển 5–10 phút đi bộ | Phu hop: Khách tiết kiệm, cặp đôi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vinpearl Resort Nha Trang (đảo Hòn Tre)",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng trong đợt này",
+  "dia_chi": "Đảo Hòn Tre, phường Nam Nha Trang",
+  "ghi_chu": "Loai: 5 sao (chưa kiểm được hạng sao chính thức trong đợt này) | Đi cáp treo/tàu từ cảng Trần Phú | Phu hop: Gia đình nghỉ dưỡng dài, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay / căn hộ khu vực trung tâm (nhóm tham khảo)",
+  "tinh": "Khánh Hòa",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng trong đợt này",
+  "dia_chi": "Khu vực phường Nha Trang, gần chợ Đầm / đường Trần Phú",
+  "ghi_chu": "Loai: Homestay/căn hộ | Đi bộ ra biển/chợ | Phu hop: Nhóm bạn, gia đình đông người",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Ngọc Phát",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~800.000–1.600.000đ/đêm (Deluxe/Suite tới ~2.485.000đ)",
+  "dia_chi": "10 Hồ Tùng Mậu, Phường Xuân Hương",
+  "ghi_chu": "Loai: 3 sao | Đối diện Quảng trường Lâm Viên, sát Hồ Xuân Hương | Phu hop: Gia đình, cặp đôi muốn ở trung tâm, view hồ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Nice Dream Hotel",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~750.000–1.200.000đ/đêm (hạng cao hơn tới ~1.800.000–2.500.000đ)",
+  "dia_chi": "1 Nguyễn Thị Minh Khai, Phường Xuân Hương",
+  "ghi_chu": "Loai: 3 sao | Cách chợ đêm ~110 m; Hồ Xuân Hương đi bộ vài phút | Phu hop: Khách thích đi chợ đêm, cặp đôi/nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sandals Flora Hotel",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~800.000–1.600.000đ/đêm",
+  "dia_chi": "37–40 Nguyễn Thị Minh Khai, Phường Xuân Hương",
+  "ghi_chu": "Loai: 3 sao | Cách Hồ Xuân Hương ~100 m, chợ đêm ~150 m | Phu hop: Cặp đôi, khách muốn view chợ đêm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hôtel Colline",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~1.450.000–2.200.000đ/đêm (Suite tới ~3.870.000đ)",
+  "dia_chi": "10 Phan Bội Châu, Phường Xuân Hương",
+  "ghi_chu": "Loai: 4 sao | Cách Hồ Xuân Hương ~200 m, chợ ~300 m, Quảng trường Lâm Viên ~500 m | Phu hop: Khách muốn tiện nghi 4 sao ngay trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Holiday Đà Lạt",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~1.250.000–1.600.000đ/đêm",
+  "dia_chi": "42 Phan Bội Châu, Phường Xuân Hương",
+  "ghi_chu": "Loai: 4 sao | Cách Hồ Xuân Hương 100 m, chợ đêm 600–750 m | Phu hop: Gia đình, khách đoàn, khách muốn hồ bơi/spa",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Zen Valley Dalat",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~800.000–1.950.000đ/đêm",
+  "dia_chi": "38 Khe Sanh, Phường 10",
+  "ghi_chu": "Loai: 3 sao | Cách Hồ Xuân Hương ~2,24 km, Ga Đà Lạt ~1,44 km | Phu hop: Cặp đôi/gia đình muốn yên tĩnh, view thông, bungalow/villa",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "New Life Hotel",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~550.000–1.200.000đ/đêm",
+  "dia_chi": "6 Đống Đa, Phường 3",
+  "ghi_chu": "Loai: 3 sao | Cách Quảng trường Lâm Viên ~2,7 km; chợ cần đi xe ~5 phút | Phu hop: Khách tiết kiệm, cặp đôi/gia đình muốn yên tĩnh, view đồi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Dalat Wonder Resort",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~1.150.000–2.000.000đ/đêm (villa 5,6–16,5 triệuđ/đêm)",
+  "dia_chi": "19 Hoa Hồng, Khu du lịch Hồ Tuyền Lâm, Phường 4",
+  "ghi_chu": "Loai: 4 sao (có nguồn ghi 5 sao — mâu thuẫn, chưa chốt) | Cách Hồ Xuân Hương ~6,07 km; trung tâm ~6–8,5 km, đi xe ~20–30 phút | Phu hop: Gia đình/nhóm bạn nghỉ dưỡng ven hồ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Terracotta Hotel & Resort Dalat",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "~1.300.000–1.950.000đ/đêm (villa 11,35–17,35 triệuđ/đêm)",
+  "dia_chi": "Phân khu 7.9, Khu du lịch Hồ Tuyền Lâm, Phường 3",
+  "ghi_chu": "Loai: 4 sao (một số nguồn ghi 5 sao — mâu thuẫn, chưa chốt) | Cách trung tâm ~6 km; ngay bờ Hồ Tuyền Lâm | Phu hop: Gia đình/đoàn, khách nghỉ dưỡng dài",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Thị Trấn Cổ",
+  "tinh": "Lâm Đồng",
+  "loai": "cho_o",
+  "gia": "Từ khoảng 400.000đ/đêm (chỉ 1 nguồn, chưa kiểm được khoảng trên)",
+  "dia_chi": "31 Đặng Thái Thân, Đà Lạt",
+  "ghi_chu": "Loai: Homestay | Chưa kiểm được con số chính xác | Phu hop: Khách bụi, cặp đôi tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "The Mira Central Park Hotel",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "Từ ~1.000.000đ/đêm (có nguồn ghi từ 1.411.200đ)",
+  "dia_chi": "1809 Nguyễn Ái Quốc, phường Tam Hiệp, TP Biên Hòa",
+  "ghi_chu": "Loai: 5 sao | Trung tâm, gần quảng trường | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Aurora Plaza Hotel",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "~600.000–1.300.000đ/đêm",
+  "dia_chi": "253 Phạm Văn Thuận, KP17, phường Tam Hiệp, TP Biên Hòa",
+  "ghi_chu": "Loai: 4 sao | Trung tâm | Phu hop: Khách công tác, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mansion Park Hotel & Apartment",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "~700.000–1.500.000đ/đêm (có nguồn ghi từ 880.000đ)",
+  "dia_chi": "K73 đường D8, KP7, phường Thống Nhất, TP Biên Hòa",
+  "ghi_chu": "Loai: 3 sao | Trung tâm | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Bcons PS Hotel",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "~500.000–1.000.000đ/đêm (có nguồn ghi từ 851.580đ)",
+  "dia_chi": "A9C Xa lộ Hà Nội, KP4, phường Tân Hiệp, TP Biên Hòa",
+  "ghi_chu": "Loai: 3 sao | Cách trung tâm ~5 km | Phu hop: Khách công tác, khách quá cảnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Biên Hòa",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "Từ ~400.000đ/đêm",
+  "dia_chi": "N30–40 Võ Thị Sáu, phường Thống Nhất, TP Biên Hòa",
+  "ghi_chu": "Loai: 2 sao | Trung tâm, yên tĩnh | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn 3 sao Long Khánh (nhóm tham khảo)",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "~600.000–1.200.000đ/đêm (khung 3 sao Đồng Nai)",
+  "dia_chi": "226 Nguyễn Trãi, Xuân Hòa, Long Khánh, Đồng Nai",
+  "ghi_chu": "Loai: 3 sao | Cách Biên Hòa ~50 km — chỉ hợp khi đi vườn trái cây Long Khánh | Phu hop: Khách đi vườn trái cây",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Lưu trú gần Cát Tiên / Suối Mơ (nhóm tham khảo)",
+  "tinh": "Đồng Nai",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá riêng trong đợt này",
+  "dia_chi": "Khu vực Tân Phú, Đồng Nai",
+  "ghi_chu": "Loai: Nhà nghỉ/homestay | Cách Biên Hòa ~130 km — chỉ hợp khi đi Cát Tiên | Phu hop: Khách đi rừng 2 ngày",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Melia Vinpearl Tây Ninh",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "~1.250.000–3.900.000đ/đêm (khoảng rộng theo nguồn)",
+  "dia_chi": "90 Lê Duẩn, KP5, phường 3, TP Tây Ninh",
+  "ghi_chu": "Loai: 5 sao | Trung tâm; cách núi Bà Đen ~12,7 km | Phu hop: Gia đình, khách nghỉ dưỡng",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Melia Vinpearl Tây Ninh Resort & Villas (chân núi Bà Đen)",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "2.500.000–6.000.000đ/đêm (1 nguồn, chưa kiểm được khoảng hẹp)",
+  "dia_chi": "Khu vực chân núi Bà Đen, phường Bình Minh (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: 5 sao | Cách trung tâm ~11 km | Phu hop: Gia đình nghỉ dưỡng, khách đi núi sớm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sài Gòn Tây Ninh Hotel",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "700.000–1.200.000đ/đêm",
+  "dia_chi": "Trung tâm TP Tây Ninh (chưa kiểm được số nhà chính xác)",
+  "ghi_chu": "Loai: 4 sao | Trung tâm | Phu hop: Khách công tác, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sunrise Tây Ninh Hotel",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "Từ ~1.168.200đ/đêm",
+  "dia_chi": "81 Hoàng Lê Kha, phường 3, TP Tây Ninh",
+  "ghi_chu": "Loai: 4 sao | Trung tâm | Phu hop: Khách công tác, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "HANZ Premium Mai Vy Hotel",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "Từ ~1.000.000đ/đêm",
+  "dia_chi": "150 đường 30/4, phường 3, TP Tây Ninh",
+  "ghi_chu": "Loai: 3–4 sao (nguồn mâu thuẫn) | Trung tâm | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hòa Bình Hotel Tây Ninh",
+  "tinh": "Tây Ninh",
+  "loai": "cho_o",
+  "gia": "400.000–700.000đ/đêm",
+  "dia_chi": "Trung tâm TP Tây Ninh (số nhà chưa kiểm được)",
+  "ghi_chu": "Loai: 3 sao | Trung tâm | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Rex Hotel Saigon",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "1.200.000–2.500.000đ/đêm",
+  "dia_chi": "141 Nguyễn Huệ, phường Sài Gòn (Quận 1 cũ)",
+  "ghi_chu": "Loai: 4 sao | ~0,5 km, đi bộ được | Phu hop: Cặp đôi, gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hotel Continental Saigon",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "1.500.000–3.000.000đ/đêm",
+  "dia_chi": "132–134 Đồng Khởi, phường Sài Gòn (Quận 1 cũ)",
+  "ghi_chu": "Loai: 4 sao | ~1 km | Phu hop: Khách yêu kiến trúc Pháp cổ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hotel Majestic Saigon",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "1.800.000–3.500.000đ/đêm",
+  "dia_chi": "01 Đồng Khởi, phường Sài Gòn (Quận 1 cũ)",
+  "ghi_chu": "Loai: 4–5 sao (chưa kiểm được hạng chính thức) | ~1 km | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Saigon Prince Hotel",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "1.000.000–2.200.000đ/đêm",
+  "dia_chi": "63 Nguyễn Huệ, phường Sài Gòn (Quận 1 cũ)",
+  "ghi_chu": "Loai: 4 sao | ~0,5 km | Phu hop: Gia đình, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Silverland Sakyo Hotel & Spa",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "1.500.000–3.000.000đ/đêm",
+  "dia_chi": "10A-B-C Lê Thánh Tôn, phường Bến Nghé (Quận 1 cũ)",
+  "ghi_chu": "Loai: 4 sao | ~0,5 km | Phu hop: Cặp đôi, gia đình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Hương Sen Annex Saigon",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "800.000–1.500.000đ/đêm",
+  "dia_chi": "4-6-8 Mạc Thị Bưởi, phường Bến Nghé (Quận 1 cũ)",
+  "ghi_chu": "Loai: 3 sao | ~0,5 km | Phu hop: Khách tiết kiệm, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "G8 Center Hotel Saigon (tên cũ: ÊMM Saigon Hotel)",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "700.000–1.200.000đ/đêm",
+  "dia_chi": "157 Pasteur, phường Bến Nghé (Quận 1 cũ)",
+  "ghi_chu": "Loai: 3 sao | ~1 km | Phu hop: Khách trẻ, cặp đôi",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "California Hotel Saigon",
+  "tinh": "TP.HCM",
+  "loai": "cho_o",
+  "gia": "Từ ~720.000đ/đêm (khoảng trên chưa kiểm được)",
+  "dia_chi": "52–54 Thủ Khoa Huân, phường Bến Thành (Quận 1 cũ)",
+  "ghi_chu": "Loai: 3 sao | ~0,3 km | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Cửu Long",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "Từ ~400.000đ/đêm (khoảng trên chưa kiểm được)",
+  "dia_chi": "Số 1 đường 1 Tháng 5, Phường 1, TP Vĩnh Long",
+  "ghi_chu": "Loai: 3 sao | Ngay trung tâm, sát bến phà An Bình | Phu hop: Gia đình, khách muốn tiện đi cù lao An Bình",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mekong Riverside Homestay",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "~471.000–650.000đ/đêm (Deluxe tới ~1.200.000đ)",
+  "dia_chi": "145A/11 (số 11) Ấp Bình Lương, xã An Bình, huyện Long Hồ",
+  "ghi_chu": "Loai: Homestay | Qua phà An Bình, ~4–6 km | Phu hop: Cặp đôi, gia đình thích miệt vườn, view sông",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Riverside Park Eco Resort",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "Từ ~828.000đ/đêm (khoảng trên chưa kiểm được)",
+  "dia_chi": "283/20 Ấp Bình Hòa, xã Bình Hòa Phước, huyện Long Hồ",
+  "ghi_chu": "Loai: Resort sinh thái | Qua phà An Bình, ~8–10 km | Phu hop: Gia đình/nhóm bạn nghỉ dưỡng miệt vườn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Phương Thảo Homestay",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "~450.000đ/phòng/đêm (khoảng trên chưa kiểm được)",
+  "dia_chi": "An Thành, xã An Bình, huyện Long Hồ",
+  "ghi_chu": "Loai: Homestay | Qua phà An Bình | Phu hop: Khách thích đổi gió, nhóm nhỏ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Song Me Home (Sông Mê Home)",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "~500.000đ/đêm cho 2 người (gồm ăn sáng, theo video 08/2026)",
+  "dia_chi": "Cù lao An Bình, huyện Long Hồ (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: Homestay | Qua phà An Bình | Phu hop: Cặp đôi, khách thích homestay vườn, ăn cơm nhà",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Ngọc Phượng Homestay",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "~150.000–300.000đ/đêm",
+  "dia_chi": "118C/10 Bình Lương, xã An Bình, huyện Long Hồ",
+  "ghi_chu": "Loai: Homestay | Qua phà An Bình | Phu hop: Khách bụi, cặp đôi tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Khánh Quỳnh",
+  "tinh": "Vĩnh Long",
+  "loai": "cho_o",
+  "gia": "Từ ~350.000đ/phòng/2 người (khoảng trên chưa kiểm được)",
+  "dia_chi": "TP Vĩnh Long (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm | Phu hop: Khách tiết kiệm ở trung tâm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn B.O.B Cao Lãnh",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "Từ ~730.000đ/đêm",
+  "dia_chi": "Số 105 Tôn Đức Thắng, Phường 1, TP Cao Lãnh",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~25 km (Cao Lãnh) | Phu hop: Khách đi Tràm Chim/Xẻo Quýt/Gáo Giồng, công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Thư Lê Hotel",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "~650.000đ/đêm",
+  "dia_chi": "Đường 30/4, Phường 1, TP Cao Lãnh",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~25 km (Cao Lãnh) | Phu hop: Khách đi cụm Cao Lãnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Trí Lê",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "~460.000đ/đêm",
+  "dia_chi": "TP Cao Lãnh (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~25 km (Cao Lãnh) | Phu hop: Khách tiết kiệm ở Cao Lãnh",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Bông Hồng Sa Đéc",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "Từ ~500.000đ/đêm",
+  "dia_chi": "Số 251A Nguyễn Sinh Sắc, Khóm 2, Phường 2, TP Sa Đéc",
+  "ghi_chu": "Loai: 3 sao | Trung tâm Sa Đéc | Phu hop: Gia đình, cặp đôi ở Sa Đéc",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Vạn Kim Long",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "Từ ~600.000đ/đêm",
+  "dia_chi": "Số 26 ĐT848, ấp Phú Long, xã Tân Phú Đông, TP Sa Đéc",
+  "ghi_chu": "Loai: Chưa kiểm được hạng (7 tầng, có villa sân vườn) | ~3–5 km | Phu hop: Gia đình, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hương Sen",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "Từ ~320.000đ/đêm",
+  "dia_chi": "Số 109 Trần Thị Nhượng, Phường 1, TP Sa Đéc",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm Sa Đéc | Phu hop: Khách bụi, cặp đôi tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sadec Farmstay",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "500.000–1.200.000đ/đêm (một nguồn ghi từ 180.000đ/người)",
+  "dia_chi": "Số 156, Tỉnh lộ ĐT848, ấp Khánh Nhơn, xã Tân Khánh Đông, TP Sa Đéc (trong KDL Hoa Kiểng Sa Đéc, ~3 ha)",
+  "ghi_chu": "Loai: Homestay/farmstay | ~3–5 km | Phu hop: Gia đình, nhóm bạn thích ở giữa làng hoa",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Maison en Bambou Phong – Le Vent (Nhà tre)",
+  "tinh": "Đồng Tháp",
+  "loai": "cho_o",
+  "gia": "~400.000đ/đêm (một nguồn ghi từ 300.000đ)",
+  "dia_chi": "Kế số 204A, Khóm Tân Hiệp, Tân Quý Đông, TP Sa Đéc",
+  "ghi_chu": "Loai: Homestay | ~2–3 km | Phu hop: Cặp đôi, khách thích homestay tre giữa vườn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Victoria Châu Đốc",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "~1.700.000–2.050.000đ/đêm (Deluxe từ 2.440.000đ; một số nguồn ghi từ 1.500.000đ hoặc 3.200.000đ)",
+  "dia_chi": "Số 1 Lê Lợi, phường Châu Phú B, TP Châu Đốc (bờ sông Hậu)",
+  "ghi_chu": "Loai: 4 sao | ~6–7 km (tới Miếu Bà) | Phu hop: Gia đình, cặp đôi muốn nghỉ dưỡng ven sông, khách hành hương cao cấp",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Victoria Núi Sam Lodge",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "~1.400.000–2.000.000đ/đêm (một nguồn ghi 1.500.000–3.000.000đ)",
+  "dia_chi": "Vĩnh Đông 1, phường Núi Sam, TP Châu Đốc",
+  "ghi_chu": "Loai: 4 sao (lodge) | Sát Miếu Bà | Phu hop: Cặp đôi, gia đình đi lễ Núi Sam",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "The CK Hotel (tên cũ: Khách sạn Trung Nguyễn)",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Từ ~325.000đ/đêm (Planet of Hotels ghi từ ~$13, trung bình ~$24 ~600.000đ)",
+  "dia_chi": "86 Bạch Đằng, TP Châu Đốc",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~6–7 km (tới Miếu Bà) | Phu hop: Khách bụi, khách hành hương tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Châu Phố",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Từ ~990.000đ/đêm",
+  "dia_chi": "TP Châu Đốc (địa chỉ chi tiết chưa kiểm được)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Chưa kiểm được | Phu hop: Gia đình, khách hành hương",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Phi Mai Hotel",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Từ ~529.000đ/đêm",
+  "dia_chi": "Tổ 7, đường Lê Đại Cương, khóm Vĩnh Đông 2, phường Núi Sam, TP Châu Đốc (khu Núi Sam, cách chợ Châu Đốc ~6–7 km, không phải gần chợ)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~6–7 km (tới Miếu Bà) | Phu hop: Khách tiết kiệm, khách đi Núi Sam/Miếu Bà",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hải Châu",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Chưa kiểm được khoảng giá",
+  "dia_chi": "63 Trương Nguyệt Anh, phường Châu Phú A, TP Châu Đốc",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Chưa kiểm được | Phu hop: Khách hành hương bình dân",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hùng Cường",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Từ ~550.000đ/đêm (các nguồn ghi 550.000–1.050.000đ/đêm — chênh lớn theo kênh/thời điểm)",
+  "dia_chi": "96 Đống Đa, TP Châu Đốc",
+  "ghi_chu": "Loai: 3 sao | Trung tâm Châu Đốc, cách Miếu Bà ~5 km | Phu hop: Gia đình, khách muốn ở trung tâm Châu Đốc, view sông",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hòa Bình",
+  "tinh": "An Giang",
+  "loai": "cho_o",
+  "gia": "Từ ~800.000–1.200.000đ/đêm (theo nguồn công khai)",
+  "dia_chi": "130 Trần Hưng Đạo, Phường Mỹ Bình, TP Long Xuyên",
+  "ghi_chu": "Loai: 3 sao | Trung tâm Long Xuyên, ~60 km từ Châu Đốc | Phu hop: Khách công tác, gia đình nghỉ tại Long Xuyên",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Cà Mau",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~1.150.000–1.650.000đ/đêm (Deluxe; Suite 2.200.000–9.750.000đ; một nguồn ghi từ 810.000–840.000đ)",
+  "dia_chi": "Lô C03A, Khu trung tâm hành chính – chính trị, Phường An Xuyên, TP Cà Mau",
+  "ghi_chu": "Loai: 5 sao | Trung tâm | Phu hop: Gia đình, khách công tác, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Ánh Nguyệt",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~475.000–1.268.000đ/đêm (một nguồn ghi từ 902.231đ)",
+  "dia_chi": "207 Phan Ngọc Hiển, Phường 6, TP Cà Mau",
+  "ghi_chu": "Loai: Chưa kiểm được hạng (một nguồn ghi 3 sao) | Trung tâm | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Quốc Tế",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~380.000–900.000đ/đêm (một nguồn ghi 22–60 USD)",
+  "dia_chi": "179 Phan Ngọc Hiển, Phường 6, TP Cà Mau",
+  "ghi_chu": "Loai: 3 sao | Trung tâm, cách sân bay Cà Mau ~800 m | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Nam Kiều",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~150.000–300.000đ/đêm",
+  "dia_chi": "132 Ngô Quyền, Phường 9, TP Cà Mau (một nguồn ghi 151A Ngô Quyền, Phường 9 — mâu thuẫn số nhà)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm | Phu hop: Khách tiết kiệm, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Hải Châu",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~270.000–600.000đ/đêm",
+  "dia_chi": "229 Hùng Vương, Phường 7, TP Cà Mau",
+  "ghi_chu": "Loai: 2 sao (72 phòng, 7 tầng) | Trung tâm | Phu hop: Khách tiết kiệm, gia đình nhỏ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Khách sạn Ozon",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "Từ ~501.500đ/đêm",
+  "dia_chi": "QL1A, ấp Chống Mỹ, thị trấn Năm Căn, huyện Năm Căn",
+  "ghi_chu": "Loai: 3 sao | ~50 km | Phu hop: Khách đi Đất Mũi muốn nghỉ gần hơn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Sao Kim Hotel Cà Mau",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "Từ ~425.000đ/đêm",
+  "dia_chi": "3 Lưu Tấn Tài, Phường 5, TP Cà Mau",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm | Phu hop: Khách tiết kiệm",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Homestay Du lịch sinh thái Đất Mũi – Quách Văn Ngãi",
+  "tinh": "Cà Mau",
+  "loai": "cho_o",
+  "gia": "~250.000–500.000đ/phòng/đêm (phòng đôi có điều hòa 300.000–500.000đ; dorm 100.000–150.000đ/người — các nguồn ghi khác nhau)",
+  "dia_chi": "Xã Đất Mũi, huyện Ngọc Hiển (cách cột mốc Mũi Cà Mau ~3 km)",
+  "ghi_chu": "Loai: Homestay sinh thái cộng đồng | Xã Đất Mũi, ~110 km từ TP Cà Mau | Phu hop: Nhóm bạn, khách muốn đón bình minh cực Nam",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mường Thanh Luxury Cần Thơ",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~1.500.000–11.500.000đ/đêm (Deluxe ~1.500.000đ; Suite cao hơn)",
+  "dia_chi": "Khu E1, Cồn Cái Khế, quận Ninh Kiều",
+  "ghi_chu": "Loai: 5 sao | ~2 km | Phu hop: Gia đình, khách công tác, khách muốn tiện nghi cao",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Wink Hotel Cần Thơ Centre",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~1.500.000đ/đêm",
+  "dia_chi": "Quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: 4 sao | Trung tâm | Phu hop: Khách trẻ, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Tru by Hilton Cần Thơ",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~989.000đ/đêm",
+  "dia_chi": "Khu vực Cái Khế, quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: 4 sao | ~2 km | Phu hop: Gia đình, khách công tác",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "LION 17 Hotel",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~550.000–700.000đ/đêm",
+  "dia_chi": "Quận Ninh Kiều, gần Bến Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | ~0,5 km | Phu hop: Khách tiết kiệm, gia đình nhỏ",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "ON Hotel Cần Thơ",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~250.000–350.000đ/đêm",
+  "dia_chi": "Quận Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: Chưa kiểm được hạng | Trung tâm | Phu hop: Khách tiết kiệm, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "De Rivé Homestay",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~350.000–500.000đ/đêm",
+  "dia_chi": "Quận Ninh Kiều, 2 phút tới Bến Ninh Kiều (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: Homestay | ~0,3 km | Phu hop: Cặp đôi, nhóm bạn",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Mekong Daniel's Homestay",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~600.000–2.300.000đ/đêm (phòng riêng/bungalow)",
+  "dia_chi": "Cầu Rạch Sung, xã Nhơn Nghĩa, huyện Phong Điền",
+  "ghi_chu": "Loai: Homestay | ~12 km | Phu hop: Gia đình, nhóm bạn thích sông nước",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ },
+ {
+  "ten": "Vàm Xáng Rustic Home",
+  "tinh": "Cần Thơ",
+  "loai": "cho_o",
+  "gia": "~1.300.000–1.600.000đ/đêm",
+  "dia_chi": "Huyện Phong Điền (địa chỉ đường cụ thể chưa kiểm được)",
+  "ghi_chu": "Loai: Homestay | ~15 km | Phu hop: Gia đình, nhóm bạn thích nghỉ dưỡng sinh thái",
+  "nguon": "Du lieu app BuiTrip (kiem 06/11/2026)"
+ }
+]

@@ -105,10 +105,58 @@
     if (x.itemKey) { var k = x.itemKey.split("|"); A.index().forEach(function (e) { if (!E.item && e.prov.id === k[0] && e.kind === k[1] && e.x.id === k[2]) E.item = e; }); }
     return E;
   }
+
+  /* ---- Engine mới (BuiTrip AI học từ phản hồi) — hỏi trước, chỉ dùng khi tự tin.
+     Nạp lười bởi ai/ai-loader.js (fetch ai/kb.json + ai-model.json + extra.json
+     khi trang rảnh). Không chắc (confidence < 0.9 hoặc score < 0.3) thì trả về
+     engine cũ bên dưới — không mất tính năng cũ, không đổi 120/120 câu live. */
+  function attrEsc(s) { return A.esc(String(s == null ? "" : s)).replace(/"/g, "&quot;"); }
+  function provIdByTinh(tinh) {
+    if (!tinh || typeof PROV_DATA === "undefined") return null;
+    var f = A.fold(tinh);
+    for (var i = 0; i < PROV_DATA.length; i++) {
+      if (A.fold(PROV_DATA[i].name) === f) return PROV_DATA[i].id;
+    }
+    return null;
+  }
+  var BT_INTENT_VN = { gia_ve: "giá vé", gio_mo_cua: "giờ mở cửa", mua_dep: "mùa đẹp",
+    cach_di: "cách đi", an: "món ăn", o: "chỗ ở", diem_choi: "điểm chơi",
+    lich_trinh: "lịch trình", chi_phi: "chi phí", mang_gi: "mang gì",
+    so_sanh: "so sánh", tinh_cu: "tỉnh cũ", vi_tri: "vị trí", chung_chung: "chung chung" };
+  function newAnswer(r, q, t0) {
+    var ent = null, provId = null, provName = "";
+    if (r.entity && typeof window.__btaiProvOf === "function") {
+      try {
+        var tinh = window.__btaiProvOf(r.entity);
+        if (tinh) { provId = provIdByTinh(tinh); provName = tinh; }
+      } catch (e) {}
+    }
+    if (provId) ent = { prov: provId };
+    var html = '<div class="ask-ans-new">' + A.esc(r.answer).replace(/\n/g, "<br>") + "</div>";
+    if (provId && typeof openProvDetail === "function")
+      html += '<div class="ask-btns"><button class="btn btn-primary" type="button" onclick="openProvDetail(\'' + provId + '\')">Mở cẩm nang ' + A.esc(provName) + '</button></div>';
+    html += '<div class="bt-ai-fb small" style="margin-top:8px">Câu trả lời này đúng không? ' +
+      '<button class="btn btn-ghost" type="button" onclick="btAiGood(this)" data-q="' + attrEsc(q) + '">Đúng</button> ' +
+      '<button class="btn btn-ghost" type="button" onclick="btAiBad(this)" data-q="' + attrEsc(q) + '" data-intent="' + attrEsc(r.intent) + '">Sai, sửa giúp</button></div>';
+    return { html: html, kind: "ainew", intent: r.intent, ent: ent, ms: Date.now() - t0 };
+  }
   A.ask = function (q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
     if (!q) return { html: "", kind: "", ms: 0 };
+    /* Engine mới trước: chỉ dùng khi tự tin, còn không thì chạy tiếp engine cũ. */
+    if (window.__btaiNew) {
+      try {
+        var nr = window.__btaiNew.ask(q);
+        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3) {
+          var nres = newAnswer(nr, q, t0);
+          if (nres) {
+            if (!(opt && opt.noCtx)) A.ctx.push({ q: q, intent: nr.intent, ent: nres.ent });
+            return nres;
+          }
+        }
+      } catch (e) {}
+    }
     A.index();
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";

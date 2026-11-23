@@ -1,0 +1,1340 @@
+[
+ {
+  "tinh": "Hà Nội",
+  "cost": [
+   {
+    "label": "Máy bay SG–HN khứ hồi",
+    "value": "3.000.000–5.000.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng phố cổ ~350.000–800.000đ/đêm)",
+    "value": "350.000–800.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (sáng 40k + trưa/tối 50–150k/bữa)",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Văn Miếu, Hoàng thành, Hỏa Lò, rối nước...)",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Đi lại nội thành (taxi/Grab/buýt)",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Phát sinh / mua sắm",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.300.000–7.950.000đ/người"
+   },
+   {
+    "label": "Nếu đi tàu thay máy bay (khứ hồi, ghế mềm/giường nằm)",
+    "value": "~1.800.000–4.800.000đ (rẻ hơn bay nhưng mất ~2 ngày di chuyển)"
+   }
+  ]
+ },
+ {
+  "tinh": "Hải Phòng",
+  "cost": [
+   {
+    "label": "Máy bay SG–HP khứ hồi",
+    "value": "2.000.000–5.000.000đ"
+   },
+   {
+    "label": "Tàu/phà/xe ra Cát Bà khứ hồi (từ trung tâm HP)",
+    "value": "200.000–600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng trung tâm/Cát Bà ~400.000–1.000.000đ/đêm)",
+    "value": "400.000–1.000.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (food tour rẻ; hải sản Cát Bà 1 bữa 150.000–350.000đ)",
+    "value": "450.000–1.000.000đ"
+   },
+   {
+    "label": "Vé tham quan (Lan Hạ, Vườn quốc gia, Đồ Sơn...)",
+    "value": "200.000–700.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.550.000–9.050.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (tàu/limousine khứ hồi thay máy bay)",
+    "value": "240.000–600.000đ (rẻ hơn bay ~1.800.000–4.400.000đ)"
+   }
+  ]
+ },
+ {
+  "tinh": "Quảng Ninh",
+  "cost": [
+   {
+    "label": "Máy bay SG–HN khứ hồi + xe HN–Hạ Long khứ hồi",
+    "value": "3.400.000–5.700.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng Bãi Cháy/Hòn Gai ~500.000–1.500.000đ/đêm)",
+    "value": "500.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (hải sản 1–2 bữa 200.000–350.000đ/người)",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Vé tham quan (tàu vịnh ~700.000–900.000đ + Bảo tàng + Sun World)",
+    "value": "800.000–1.500.000đ"
+   },
+   {
+    "label": "Đi lại nội thành + cáp treo Yên Tử (nếu đi)",
+    "value": "300.000–700.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "5.700.000–10.900.000đ/người"
+   },
+   {
+    "label": "Nếu ngủ du thuyền 2 ngày 1 đêm thay tàu ngày",
+    "value": "Cộng thêm ~1.000.000–2.500.000đ/người so với tàu ngày"
+   }
+  ]
+ },
+ {
+  "tinh": "Bắc Ninh",
+  "cost": [
+   {
+    "label": "Máy bay SG–HN khứ hồi + xe HN–BN khứ hồi",
+    "value": "3.200.000–5.300.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng TP Bắc Ninh ~400.000–900.000đ/đêm)",
+    "value": "400.000–900.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (món địa phương rẻ; gà Hồ 1 bữa ~150.000–250.000đ/người)",
+    "value": "400.000–800.000đ"
+   },
+   {
+    "label": "Vé tham quan (hầu hết miễn phí; gửi xe + trải nghiệm làng nghề)",
+    "value": "50.000–200.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày / taxi",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Mua đặc sản (bánh phu thê, tranh Đông Hồ, gốm)",
+    "value": "100.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.350.000–8.100.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (xe/tàu khứ hồi thay máy bay)",
+    "value": "120.000–400.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+   }
+  ]
+ },
+ {
+  "tinh": "Hưng Yên",
+  "cost": [
+   {
+    "label": "Máy bay SG–HN khứ hồi + xe HN–HY khứ hồi",
+    "value": "3.100.000–5.300.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng TP Hưng Yên ~400.000–800.000đ/đêm)",
+    "value": "400.000–800.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (gà Đông Tảo 1 bữa ~150.000–350.000đ/người)",
+    "value": "400.000–800.000đ"
+   },
+   {
+    "label": "Vé tham quan (hầu hết miễn phí; gửi xe + xe ôm)",
+    "value": "50.000–200.000đ"
+   },
+   {
+    "label": "Đi lại trong tỉnh (xe ôm/taxi/thuê xe máy)",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Mua đặc sản (nhãn lồng, chả gà, long nhãn)",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.200.000–7.800.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (xe khách khứ hồi thay máy bay)",
+    "value": "100.000–300.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+   }
+  ]
+ },
+ {
+  "tinh": "Ninh Bình",
+  "cost": [
+   {
+    "label": "Máy bay SG–HN khứ hồi + limousine HN–NB khứ hồi",
+    "value": "3.300.000–5.700.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng trung tâm/Tam Cốc ~400.000–1.000.000đ/đêm)",
+    "value": "400.000–1.000.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (dê núi 1 bữa 150.000–300.000đ/người)",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Tràng An 300k + Tam Cốc 250k + Hang Múa 100–150k + Bái Đính xe điện...)",
+    "value": "650.000–900.000đ"
+   },
+   {
+    "label": "Thuê xe máy/xe đạp 2–3 ngày",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "5.050.000–9.200.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (limousine/tàu khứ hồi thay máy bay)",
+    "value": "220.000–700.000đ (rẻ hơn bay ~3.000.000–5.000.000đ)"
+   }
+  ]
+ },
+ {
+  "tinh": "Lai Châu",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+   },
+   {
+    "label": "Xe HN–Lai Châu khứ hồi",
+    "value": "500.000–900.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng, TP + 1 đêm homestay bản)",
+    "value": "300.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (cầu kính là khoản lớn nhất)",
+    "value": "100.000–600.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày / thuê ô tô theo ngày",
+    "value": "300.000–1.000.000đ (chưa kiểm được giá thuê ô tô)"
+   },
+   {
+    "label": "Phát sinh (taxi, xe ôm, mua đặc sản)",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.750.000–9.000.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+    "value": "Trừ ~2.000.000–5.000.000đ tiền bay; tổng còn ~1.750.000–4.000.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Điện Biên",
+  "cost": [
+   {
+    "label": "Máy bay SGN–Điện Biên khứ hồi (bay thẳng)",
+    "value": "2.580.000–5.980.000đ (chưa gồm thuế phí)"
+   },
+   {
+    "label": "Xe sân bay khứ hồi + taxi trong TP",
+    "value": "150.000–300.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "600.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (bảo tàng, A1, hầm, Mường Phăng)",
+    "value": "150.000–250.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "300.000–900.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.330.000–10.130.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội bằng xe khách thay máy bay",
+    "value": "Xe khứ hồi 540.000–1.360.000đ thay cho vé bay HAN–DIN"
+   }
+  ]
+ },
+ {
+  "tinh": "Sơn La",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+   },
+   {
+    "label": "Xe HN–Mộc Châu khứ hồi",
+    "value": "500.000–600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "600.000–1.800.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (cầu kính Bạch Long là khoản lớn nhất)",
+    "value": "150.000–700.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.000.000–9.750.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+    "value": "Tổng còn ~2.000.000–4.750.000đ/người (1 nguồn ước tính ~2.500.000–3.500.000đ/người)"
+   }
+  ]
+ },
+ {
+  "tinh": "Lào Cai",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+   },
+   {
+    "label": "Xe HN–Sa Pa khứ hồi",
+    "value": "480.000–900.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng; 1 đêm trung tâm + 1 đêm bản/homestay)",
+    "value": "300.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Vé tham quan (cáp treo Fansipan là khoản lớn nhất)",
+    "value": "950.000–1.500.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phát sinh (taxi, xe ôm)",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.630.000–10.850.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+    "value": "Tổng còn ~2.630.000–5.850.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Cao Bằng",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+   },
+   {
+    "label": "Xe HN–Cao Bằng khứ hồi",
+    "value": "600.000–800.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "500.000–1.600.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Bản Giốc + Ngườm Ngao + Pác Bó)",
+    "value": "85.000–200.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày (xe số)",
+    "value": "360.000–540.000đ"
+   },
+   {
+    "label": "Thuê ô tô đi Bản Giốc/Pác Bó (nếu không tự chạy xe máy)",
+    "value": "Chưa kiểm được mức riêng"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính (tự chạy xe máy)",
+    "value": "4.095.000–9.310.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+    "value": "Tổng còn ~2.095.000–4.310.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Lạng Sơn",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ (chưa kiểm được mức hiện hành)"
+   },
+   {
+    "label": "Xe HN–Lạng Sơn khứ hồi (limousine)",
+    "value": "340.000–600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "600.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (chủ yếu miễn phí; Nhị Thanh + Thành Nhà Mạc)",
+    "value": "40.000–100.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày / taxi đi Mẫu Sơn, Đồng Đăng",
+    "value": "300.000–600.000đ (chưa kiểm được giá thuê ô tô)"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.830.000–9.000.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SGN–HAN)",
+    "value": "Tổng còn ~1.830.000–4.000.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Phú Thọ",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ"
+   },
+   {
+    "label": "Xe Hà Nội–Việt Trì khứ hồi",
+    "value": "200.000–560.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng trung tâm)",
+    "value": "600.000–1.900.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Đền Hùng, Bảo tàng, Thanh Thủy)",
+    "value": "300.000–700.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "250.000–600.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.950.000–9.060.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SG–HN)",
+    "value": "Trừ ~2.000.000–5.000.000đ tiền bay, tổng còn ~1.950.000–4.060.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Thái Nguyên",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ"
+   },
+   {
+    "label": "Xe Hà Nội–Thái Nguyên khứ hồi",
+    "value": "160.000–300.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng trung tâm)",
+    "value": "450.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Hồ Núi Cốc 130.000đ + thuyền)",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.560.000–8.700.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SG–HN)",
+    "value": "Trừ ~2.000.000–5.000.000đ tiền bay, tổng còn ~1.560.000–3.700.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Tuyên Quang",
+  "cost": [
+   {
+    "label": "Máy bay SGN–HAN khứ hồi",
+    "value": "2.000.000–5.000.000đ"
+   },
+   {
+    "label": "Xe Hà Nội–Tuyên Quang khứ hồi",
+    "value": "300.000–600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng trung tâm)",
+    "value": "330.000–1.550.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan + thuyền hồ Na Hang",
+    "value": "200.000–600.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng / xe đi Na Hang",
+    "value": "300.000–800.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.730.000–9.850.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (không bay SG–HN)",
+    "value": "Trừ ~2.000.000–5.000.000đ tiền bay, tổng còn ~1.730.000–4.850.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Thanh Hóa",
+  "cost": [
+   {
+    "label": "Máy bay SGN–THD khứ hồi",
+    "value": "1.700.000–4.700.000đ"
+   },
+   {
+    "label": "Xe sân bay Thọ Xuân – TP/Sầm Sơn khứ hồi",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng Sầm Sơn/TP)",
+    "value": "700.000–2.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (hải sản là khoản lớn)",
+    "value": "600.000–1.500.000đ"
+   },
+   {
+    "label": "Vé tham quan (Thành nhà Hồ, Lam Kinh, Sun World)",
+    "value": "400.000–800.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2 ngày + xăng / xe đi Pù Luông",
+    "value": "300.000–1.000.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "4.450.000–12.100.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (xe khách thay máy bay)",
+    "value": "Trừ ~1.700.000–4.700.000đ tiền bay, cộng xe HN–TH ~300.000–500.000đ khứ hồi"
+   }
+  ]
+ },
+ {
+  "tinh": "Nghệ An",
+  "cost": [
+   {
+    "label": "Máy bay SGN–VII khứ hồi",
+    "value": "1.600.000–4.000.000đ"
+   },
+   {
+    "label": "Xe sân bay Vinh – TP/Cửa Lò khứ hồi",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng Vinh/Cửa Lò)",
+    "value": "700.000–2.400.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày (hải sản là khoản lớn)",
+    "value": "500.000–1.200.000đ"
+   },
+   {
+    "label": "Vé tham quan (Lan Châu, VinWonders Cửa Hội)",
+    "value": "150.000–500.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2 ngày + xăng / xe buýt",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.500.000–9.500.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (xe khách/tàu thay máy bay)",
+    "value": "Trừ ~1.600.000–4.000.000đ tiền bay, cộng xe HN–Vinh ~500.000–700.000đ khứ hồi"
+   }
+  ]
+ },
+ {
+  "tinh": "Hà Tĩnh",
+  "cost": [
+   {
+    "label": "Máy bay SGN–VII khứ hồi",
+    "value": "1.600.000–4.000.000đ"
+   },
+   {
+    "label": "Xe Vinh–Hà Tĩnh khứ hồi + đi Thiên Cầm",
+    "value": "300.000–700.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng TP/Thiên Cầm)",
+    "value": "300.000–1.300.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–1.000.000đ"
+   },
+   {
+    "label": "Vé tham quan (Đồng Lộc, Hương Tích)",
+    "value": "20.000–100.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2 ngày + xăng",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Taxi / phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.020.000–8.000.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội (xe khách thay máy bay)",
+    "value": "Trừ ~1.600.000–4.000.000đ tiền bay, cộng xe HN–Hà Tĩnh ~500.000–800.000đ khứ hồi"
+   }
+  ]
+ },
+ {
+  "tinh": "Quảng Trị",
+  "cost": [
+   {
+    "label": "Xe SG–Đông Hà khứ hồi (giường nằm)",
+    "value": "1.100.000–2.000.000đ"
+   },
+   {
+    "label": "Bay SG–Huế khứ hồi + xe về Đông Hà (phương án khuyên dùng)",
+    "value": "1.600.000–4.000.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "400.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "300.000–600.000đ"
+   },
+   {
+    "label": "Taxi/xe buýt/phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính (đi xe khách)",
+    "value": "2.500.000–4.400.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (đi máy bay qua Huế)",
+    "value": "3.400.000–6.800.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Thành phố Huế",
+  "cost": [
+   {
+    "label": "Máy bay SG–Huế khứ hồi",
+    "value": "1.400.000–3.600.000đ"
+   },
+   {
+    "label": "Xe khách SG–Huế khứ hồi (nếu đi xe)",
+    "value": "900.000–1.400.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "700.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Đại Nội + 2–3 lăng)",
+    "value": "400.000–700.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "250.000–500.000đ"
+   },
+   {
+    "label": "Taxi/thuyền rồng/phát sinh",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Tổng ước tính (đi xe khách)",
+    "value": "2.900.000–4.500.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (đi máy bay)",
+    "value": "3.900.000–7.700.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Thành phố Đà Nẵng",
+  "cost": [
+   {
+    "label": "Máy bay SG–Đà Nẵng khứ hồi",
+    "value": "1.200.000–2.600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "600.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "500.000–1.000.000đ"
+   },
+   {
+    "label": "Vé tham quan (Bà Nà là khoản lớn nhất)",
+    "value": "1.000.000–1.500.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "250.000–500.000đ"
+   },
+   {
+    "label": "Taxi/Grab/phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính (không tính Bà Nà)",
+    "value": "3.100.000–5.500.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (có Bà Nà)",
+    "value": "4.100.000–7.000.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Quảng Ngãi",
+  "cost": [
+   {
+    "label": "Máy bay SG–Chu Lai khứ hồi + xe về TP",
+    "value": "1.800.000–3.600.000đ"
+   },
+   {
+    "label": "Xe khách/tàu SG–Quảng Ngãi khứ hồi (nếu đi đường bộ)",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Tàu Sa Kỳ–Lý Sơn khứ hồi + cano đảo Bé",
+    "value": "400.000–600.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (1 đêm TP + 1 đêm Lý Sơn, chia đôi phòng)",
+    "value": "500.000–1.000.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "50.000–150.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "300.000–500.000đ"
+   },
+   {
+    "label": "Taxi/xe buýt/phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính (đi đường bộ)",
+    "value": "2.050.000–3.950.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (đi máy bay)",
+    "value": "3.250.000–6.350.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Gia Lai",
+  "cost": [
+   {
+    "label": "Máy bay SG–Pleiku khứ hồi",
+    "value": "1.800.000–3.400.000đ"
+   },
+   {
+    "label": "Xe khách SG–Pleiku khứ hồi (nếu đi xe)",
+    "value": "600.000–1.000.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "400.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "50.000–200.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "350.000–550.000đ"
+   },
+   {
+    "label": "Taxi/phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính (đi xe khách)",
+    "value": "2.000.000–3.450.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (đi máy bay)",
+    "value": "3.200.000–6.850.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Đắk Lắk",
+  "cost": [
+   {
+    "label": "Máy bay SG–BMT khứ hồi",
+    "value": "1.800.000–3.800.000đ"
+   },
+   {
+    "label": "Xe khách SG–BMT khứ hồi (nếu đi xe)",
+    "value": "500.000–800.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "500.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Bảo tàng Cà phê là khoản lớn nhất)",
+    "value": "200.000–400.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày + xăng",
+    "value": "300.000–500.000đ"
+   },
+   {
+    "label": "Taxi/phát sinh",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính (đi xe khách)",
+    "value": "2.100.000–3.900.000đ/người"
+   },
+   {
+    "label": "Tổng ước tính (đi máy bay)",
+    "value": "3.400.000–7.200.000đ/người"
+   }
+  ]
+ },
+ {
+  "tinh": "Khánh Hòa",
+  "cost": [
+   {
+    "label": "Xe/tàu SG–Nha Trang khứ hồi",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "700.000–1.800.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (VinWonders là khoản lớn nhất)",
+    "value": "900.000–1.400.000đ"
+   },
+   {
+    "label": "Đi lại trong thành phố + xe sân bay",
+    "value": "200.000–500.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "2.850.000–5.800.000đ/người"
+   },
+   {
+    "label": "Nếu đi máy bay thay tàu/xe (cộng thêm)",
+    "value": "~500.000–1.000.000đ/chiều"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay (hạng mục lớn nhất)",
+    "value": "Từ ~914.000đ/chiều"
+   }
+  ]
+ },
+ {
+  "tinh": "Lâm Đồng",
+  "cost": [
+   {
+    "label": "Xe SG–Đà Lạt khứ hồi (giường nằm)",
+    "value": "300.000–900.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3 sao)",
+    "value": "600.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Taxi sân bay / phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.800.000–4.150.000đ/người"
+   },
+   {
+    "label": "Nếu đi máy bay thay xe khách (cộng thêm)",
+    "value": "~700.000–1.500.000đ/chiều"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay (hạng mục lớn nhất)",
+    "value": "~1.400.000–2.650.000đ/chiều"
+   }
+  ]
+ },
+ {
+  "tinh": "Đồng Nai",
+  "cost": [
+   {
+    "label": "Xe SG–Biên Hòa khứ hồi + xe đi Trị An/Cát Tiên",
+    "value": "300.000–800.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3 sao)",
+    "value": "500.000–1.500.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Cát Tiên + Bửu Long + Giang Điền)",
+    "value": "200.000–400.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.750.000–4.350.000đ/người"
+   },
+   {
+    "label": "Nếu đi Cát Tiên bằng ô tô thuê riêng cả ngày (cộng thêm)",
+    "value": "Chưa kiểm được mức riêng, hỏi giá trước"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–SGN (hạng mục lớn nhất)",
+    "value": "Chưa kiểm được mức trong đợt này"
+   }
+  ]
+ },
+ {
+  "tinh": "Tây Ninh",
+  "cost": [
+   {
+    "label": "Xe SG–Tây Ninh khứ hồi",
+    "value": "Chưa kiểm được — khoảng ước tính 160.000–300.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "400.000–1.200.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (cáp treo Bà Đen là khoản lớn nhất)",
+    "value": "450.000–700.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phát sinh",
+    "value": "100.000–300.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.760.000–3.850.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–SGN (hạng mục lớn nhất)",
+    "value": "Chưa kiểm được mức trong đợt này"
+   }
+  ]
+ },
+ {
+  "tinh": "TP.HCM",
+  "cost": [
+   {
+    "label": "Máy bay HAN–SGN khứ hồi",
+    "value": "2.000.000–5.000.000đ (khoảng tham khảo, chưa kiểm được mức cụ thể)"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng 3–4 sao)",
+    "value": "700.000–3.000.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan (Dinh + 2 bảo tàng + Củ Chi)",
+    "value": "250.000–400.000đ"
+   },
+   {
+    "label": "Đi lại trong thành phố (metro + xe công nghệ + buýt sông)",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "3.550.000–9.700.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ TP.HCM (khách nội thành / tỉnh lân cận)",
+    "value": "Trừ vé máy bay; xe khách lân cận chưa kiểm được giá riêng"
+   }
+  ]
+ },
+ {
+  "tinh": "Vĩnh Long",
+  "cost": [
+   {
+    "label": "Xe SG–Vĩnh Long khứ hồi",
+    "value": "260.000–440.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "300.000–650.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–800.000đ"
+   },
+   {
+    "label": "Vé tham quan + vườn trái cây",
+    "value": "100.000–250.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2 ngày",
+    "value": "260.000–500.000đ"
+   },
+   {
+    "label": "Phà + thuyền tham quan (chia nhóm)",
+    "value": "50.000–200.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.420.000–2.840.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+    "value": "~1.300.000đ/chiều (tham khảo) + xe VCA — Vĩnh Long"
+   }
+  ]
+ },
+ {
+  "tinh": "Đồng Tháp",
+  "cost": [
+   {
+    "label": "Xe SG–Đồng Tháp khứ hồi",
+    "value": "230.000–360.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "320.000–730.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–800.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "60.000–200.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Xuồng/tàu tham quan (chia nhóm)",
+    "value": "50.000–200.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.310.000–2.740.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+    "value": "~1.300.000đ/chiều (tham khảo) + xe VCA — Sa Đéc/Cao Lãnh"
+   }
+  ]
+ },
+ {
+  "tinh": "An Giang",
+  "cost": [
+   {
+    "label": "Xe SG–Châu Đốc khứ hồi",
+    "value": "240.000–310.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "300.000–2.050.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "200.000–560.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–450.000đ"
+   },
+   {
+    "label": "Phà + xe Cần Thơ — Châu Đốc phát sinh",
+    "value": "50.000–150.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.440.000–4.320.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+    "value": "~1.300.000đ/chiều (tham khảo) + xe VCA — Châu Đốc 120.000–210.000đ/vé"
+   }
+  ]
+ },
+ {
+  "tinh": "Cà Mau",
+  "cost": [
+   {
+    "label": "Xe SG–Cà Mau khứ hồi",
+    "value": "420.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "300.000–1.150.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "500.000–1.000.000đ"
+   },
+   {
+    "label": "Vé tham quan",
+    "value": "60.000–150.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày / xe đi Đất Mũi",
+    "value": "300.000–600.000đ"
+   },
+   {
+    "label": "Ca nô/xuồng (chia nhóm)",
+    "value": "100.000–500.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.680.000–3.820.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+    "value": "~1.300.000đ/chiều (tham khảo) + xe Cần Thơ — Cà Mau 160.000đ/vé"
+   }
+  ]
+ },
+ {
+  "tinh": "Cần Thơ",
+  "cost": [
+   {
+    "label": "Xe SG–Cần Thơ khứ hồi",
+    "value": "260.000–330.000đ"
+   },
+   {
+    "label": "Ở 2 đêm (chia đôi phòng)",
+    "value": "250.000–1.000.000đ"
+   },
+   {
+    "label": "Ăn 3 ngày",
+    "value": "450.000–900.000đ"
+   },
+   {
+    "label": "Vé tham quan + thuyền chợ nổi",
+    "value": "150.000–400.000đ"
+   },
+   {
+    "label": "Thuê xe máy 2–3 ngày",
+    "value": "200.000–400.000đ"
+   },
+   {
+    "label": "Tổng ước tính",
+    "value": "1.310.000–3.030.000đ/người"
+   },
+   {
+    "label": "Nếu đi từ Hà Nội — vé máy bay HAN–VCA (hạng mục lớn nhất)",
+    "value": "~1.300.000đ/chiều (tham khảo)"
+   }
+  ]
+ }
+]
