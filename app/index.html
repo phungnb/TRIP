@@ -11,10 +11,21 @@
 <script defer src="/_vercel/insights/script.js"></script>
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="BuiTrip" />
-<title>Cẩm nang du lịch</title>
+<title>Cẩm nang du lịch tự túc 34 tỉnh thành | BuiTrip</title>
+<link rel="canonical" href="https://buitrip.vercel.app/" />
 <meta name="description" content="Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam: địa danh, chỗ ở kèm số điện thoại, món ăn kèm quán và giá, chi phí ước tính, lịch trình mẫu và công cụ lập kế hoạch." />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam" />
+<meta property="og:title" content="Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam | BuiTrip" />
+<meta property="og:site_name" content="BuiTrip" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:url" content="https://buitrip.vercel.app/" />
+<meta property="og:image" content="https://buitrip.vercel.app/img/og-buitrip.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="BuiTrip: cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://buitrip.vercel.app/img/og-buitrip.jpg" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://buitrip.vercel.app/#org","name":"BuiTrip","url":"https://buitrip.vercel.app/","logo":"https://buitrip.vercel.app/img/icon/icon-512.png","email":"buitrip.hotro@gmail.com"},{"@type":"WebSite","name":"BuiTrip","url":"https://buitrip.vercel.app/","inLanguage":"vi","publisher":{"@id":"https://buitrip.vercel.app/#org"}}]}</script>
 <meta property="og:description" content="Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam: địa danh, chỗ ở kèm số điện thoại, món ăn kèm quán và giá, chi phí ước tính, lịch trình mẫu và công cụ lập kế hoạch." />
 <meta name="theme-color" content="#0f5c33" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,6 +44,7 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a class="skip-link" href="#appMain">Bỏ qua, tới nội dung chính</a>
 <div class="phone">
   <header class="topbar">
     <button class="back" id="btnBack" aria-label="Quay lại">
@@ -42,8 +54,8 @@
       <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.99-5.54 10.19-7.4 11.79a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
     </div>
     <div style="flex:1;min-width:0">
-      <h1 id="topTitle">Cẩm nang du lịch</h1>
-      <p class="sub" id="topSub">Đi tự túc — đủ đi đâu, ở đâu, ăn gì, hết bao nhiêu</p>
+      <h1 id="topTitle">BuiTrip</h1>
+      <p class="sub" id="topSub">Cẩm nang du lịch tự túc 34 tỉnh thành</p>
     </div>
     <button class="theme-btn" id="themeBtn" type="button" aria-label="Chuyển nền tối / sáng" title="Chuyển nền tối / sáng">
       <svg class="i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
@@ -51,7 +63,7 @@
     </button>
   </header>
 
-  <main id="appMain">
+  <main id="appMain" tabindex="-1">
     <!-- ============ KHÁM PHÁ ============ -->
     <section class="view" id="view-explore">
       <h1 class="sr-only">Cẩm nang du lịch tự túc 34 tỉnh thành Việt Nam</h1>
@@ -107,7 +119,7 @@
       <div class="pad">
         <div class="searchbar">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input id="destSearch" type="search" placeholder="Tìm điểm đến…" autocomplete="off" />
+          <input id="destSearch" type="search" placeholder="Tìm điểm đến…" autocomplete="off" aria-label="Tìm điểm đến theo tên tỉnh, địa danh hoặc món" />
         </div>
         <div class="chiprow" id="regionChips" style="margin-top:12px">
           <button class="chip on" data-region="all">Tất cả</button>
@@ -174,7 +186,7 @@
           <div class="field" style="margin-top:6px"><label for="wAddSel">Thêm điểm / món vào lịch trình</label>
             <div style="display:flex;gap:8px">
               <select id="wAddSel" style="flex:1;min-width:0"></select>
-              <select id="wAddDay" style="flex:0 0 104px"></select>
+              <select id="wAddDay" style="flex:0 0 104px" aria-label="Chọn ngày để thêm điểm"></select>
             </div>
             <button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="planAddItem()">+ Thêm vào ngày đã chọn</button>
           </div>
@@ -271,7 +283,7 @@
 
 <!-- confirm modal -->
 <div class="modal-veil" id="confirmVeil">
-  <div class="modal" role="alertdialog" aria-modal="true">
+  <div class="modal" role="alertdialog" aria-modal="true" aria-labelledby="confirmTitle" aria-describedby="confirmText">
     <h3 id="confirmTitle">Xóa mục này?</h3>
     <p class="muted" id="confirmText" style="margin:0"></p>
     <div class="row">

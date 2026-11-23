@@ -217,7 +217,7 @@
   .mreview{ background:var(--green-soft); border-radius:var(--r-md); padding:13px 14px; margin-top:18px; }
   .reviewbox{ background:var(--surface); border:1.5px solid var(--line); border-radius:var(--r-md); padding:14px; margin-top:14px; }
   .rv-item{ background:var(--surface2); border-radius:var(--r-md); padding:11px 12px; }
-  .rv-stars{ color:#d97706; font-size:var(--fs-body); letter-spacing:2px; }
+  .rv-stars{ color:#a14a05; font-size:var(--fs-body); letter-spacing:2px; }
   .rv-form label{ display:block; font-size:var(--fs-cap); font-weight:700; margin-bottom:6px; }
   .rv-form select,.rv-form textarea{ width:100%; box-sizing:border-box; border:1.5px solid var(--line); border-radius:12px; padding:11px 12px; font-size:var(--fs-body); background:var(--surface); color:var(--ink); font-family:inherit; }
   .bigmoney{ background:var(--green-soft); border-radius:var(--r-md); padding:14px 16px; margin:0 0 14px; }
@@ -560,3 +560,11 @@
 .dg-st.st-da_tra_loi,.dg-st.st-dong{ background:rgba(22,128,61,.15); color:var(--green); }
 @media print{ .tl-fab{ display:none !important; } }
 .tl-quick .ask-ans,.tl-quick{ font-size:15px; } .tl-quick a{ color:var(--green); }
+
+/* Truy cập bằng bàn phím: viền nổi rõ khi đi bằng Tab, link bỏ qua tới nội dung chính */
+:focus-visible{ outline:3px solid var(--orange); outline-offset:2px; }
+.searchbar:focus-within{ box-shadow:0 0 0 3px var(--orange); }
+.skip-link{ position:absolute; left:8px; top:-60px; z-index:9999; background:var(--green-d); color:#fff; padding:10px 14px; border-radius:10px; font-weight:700; text-decoration:none; }
+.skip-link:focus{ top:8px; }
+#appMain:focus{ outline:none; }
+:root[data-theme="dark"] .rv-stars{ color:#fbbf24; }
