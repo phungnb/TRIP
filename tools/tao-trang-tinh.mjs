@@ -98,7 +98,7 @@ ${it.map((d, i) => `<p><b>Ngày ${i + 1}:</b> ${d.map(s => esc(s.s) + ": " + esc
 
 <h2>Tỉnh thành khác</h2>
 <nav class="tinh">${PROV.filter(x => x.id !== p.id).map(x => `<a href="/tinh/${x.id}/">${esc(x.name)}</a>`).join("")}</nav>
-<footer class="muted">Giá là khoảng tham khảo, cập nhật ${esc(p.checked || "")}. Thấy sai, báo ngay trong app ở từng mục.</footer>
+<footer class="muted">Giá là khoảng tham khảo, cập nhật ${esc(p.checked || "")}. Thấy sai, báo ngay trong app ở từng mục. <a href="/chinh-sach/">Giới thiệu, chính sách và điều khoản</a>.</footer>
 </main>
 </body>
 </html>
@@ -111,6 +111,7 @@ export function sinh() {
   out["sitemap.xml"] = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>${SITE}/</loc></url>
+<url><loc>${SITE}/chinh-sach/</loc></url>
 ${PROV.map(p => `<url><loc>${SITE}/tinh/${p.id}/</loc></url>`).join("\n")}
 </urlset>
 `;
