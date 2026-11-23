@@ -16,6 +16,27 @@ function clean(v) {
   return (v == null ? "" : String(v)).trim();
 }
 
+// Cắt ghi chú ở ranh giới từ + dấu …, không cắt giữa từ
+// (lỗi cũ: ghi_chu.slice(0, 160) cắt "nên thử một lần ch", "cho quán Ph").
+function cut(s, n) {
+  s = clean(s || "");
+  if (s.length <= n) return s;
+  const t = s.slice(0, n).replace(/\s\S*$/, "");
+  return (t || s.slice(0, n)) + "…";
+}
+
+// Thành phố người hỏi nhắc tới (khớp nguyên từ, lấy tên dài nhất):
+// vd "ăn gì ở Quy Nhơn" -> "quy nhon". Trả "" nếu không nhắc thành phố nào.
+function cityInQuery(query) {
+  const qn = " " + normText(query) + " ";
+  let best = "";
+  for (const city of Object.keys(CITY_TO_PROVINCE)) {
+    const nc = normText(city);
+    if (qn.includes(" " + nc + " ") && nc.length > best.length) best = nc;
+  }
+  return best;
+}
+
 function hasPrice(e) {
   const g = clean(e.gia);
   return g !== "" && !g.toLowerCase().includes("chưa kiểm");
@@ -59,7 +80,7 @@ export function compose(intent, entries, query, historyEntities, extra) {
   const gia = top ? clean(top.gia) : "";
   const gio = top ? clean(top.gio) : "";
   const mua = top ? clean(top.mua_dep) : "";
-  const note = top ? clean(top.ghi_chu).slice(0, 300) : "";
+  const note = top ? cut(top.ghi_chu, 300) : "";
 
   // Món/chỗ ở/chi phí: trả theo danh sách đã lọc theo tỉnh, KHÔNG chặn bởi
   // ngưỡng điểm truy hồi (mục dài làm cosine loãng) — nhánh tự xử khi không có.
@@ -68,11 +89,22 @@ export function compose(intent, entries, query, historyEntities, extra) {
     const want = intent === "an" ? "mon_an" : "cho_o";
     const got = entries.filter(([, e]) => e.loai === want).map(([, e]) => e);
     if (got.length) {
+      // Món/chỗ ở ở khu nào thì món của khu đó lên trước (vd hỏi Quy Nhơn
+      // thì bún chả cá Quy Nhơn lên trước món Pleiku) — cùng tỉnh, chỉ đổi
+      // thứ tự hiển thị, không đổi thực thể trả về.
+      const city = cityInQuery(query);
+      if (city) {
+        got.sort((a, b) => {
+          const ka = normText((a.ten || "") + " " + (a.ghi_chu || "")).includes(city) ? 0 : 1;
+          const kb = normText((b.ten || "") + " " + (b.ghi_chu || "")).includes(city) ? 0 : 1;
+          return ka - kb;
+        });
+      }
       const lines = [];
       for (const e of got.slice(0, 5)) {
         let line = `- ${e.ten}`;
         if (clean(e.gia)) line += ` (${e.gia})`;
-        if (clean(e.ghi_chu)) line += `: ${e.ghi_chu.slice(0, 160)}`;
+        if (clean(e.ghi_chu)) line += `: ${cut(e.ghi_chu, 160)}`;
         lines.push(line);
       }
       return (

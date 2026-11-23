@@ -95,8 +95,12 @@ class BuiTripAI:
         if entries:
             self.history_entities.append(entries[0][1].get("ten") or "")
             self.history_entities = self.history_entities[-3:]
+        # Tỉnh của mục trả về (để app gắn nút "Mở cẩm nang"): lấy từ mục đầu,
+        # không lấy từ tên thực thể (tên thành phố như "Quy Nhơn" không phải
+        # tên mục trong kho nên tra tên sẽ không ra tỉnh).
+        entity_prov = entries[0][1].get("tinh") if entries else None
         return {"answer": answer, "intent": intent, "confidence": round(conf, 3),
-                "entity": entity,
+                "entity": entity, "entity_prov": entity_prov,
                 "score": round(entries[0][0], 3) if entries else 0.0}
 
     def feedback(self, q, correct_intent, correct_entity_name=None):

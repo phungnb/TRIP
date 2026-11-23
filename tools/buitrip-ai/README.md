@@ -204,3 +204,32 @@ tools/buitrip-ai/        (thư mục này) Pipeline Python + bản JS nguồn
 - Còn thiếu trong kho (ghi rõ để vòng sau bổ sung): Sơn Đoòng chưa có mục
   riêng; "vé Fansipan" vẫn truy hồi sai thực thể (nhưng dưới ngưỡng tự tin
   nên trả về engine cũ, không trả sai cho người dùng).
+
+## Bản sửa 23/11/2026 (sau PR #46): nút Mở cẩm nang + câu hỏi không dấu
+
+- Nút "Mở cẩm nang" từng thiếu ở câu trả lời mà thực thể là tên thành phố
+  ("Quy Nhơn"): `ask()` nay trả thêm `entity_prov` (tỉnh của mục đầu tiên
+  tìm được), `app/ai/index.js` ưu tiên dùng nó để gắn nút, tra theo tên
+  mục chỉ còn là dự phòng.
+- Câu hỏi không dấu: đo thật bằng `do-khong-dau.py` — 24 câu thật bỏ dấu:
+  intent 24/24, thực thể 24/24; trong 175 câu diễn đàn có 20 câu không
+  dấu (phần lớn là tiếng Anh TripAdvisor lọt qua bộ lọc), độ phủ 19/20 —
+  câu trượt duy nhất là mảnh câu "Gia,sau vay em" (không phải câu hỏi).
+  Kết quả bỏ dấu giống hệt có dấu (cùng thực thể, cùng độ tin cậy, cùng
+  điểm) vì cả huấn luyện lẫn truy hồi đều chuẩn hóa bỏ dấu trước khi so.
+- Ô tìm kiếm của app cũng đã xử lý không dấu từ trước (wordMatch so theo
+  từng từ đã bỏ dấu; gõ liền "sapa"/"phuquoc" có luật ghép từ riêng) —
+  kiểm live 23/11: "quy nhon" (25 kết quả, đầu trang Quy Nhơn · Gia Lai),
+  "sapa" (28, Sa Pa · Lào Cai), "hue" (29, Huế), "ba na" (2 kết quả đúng
+  chỗ — Cầu Vàng, Sun World Bà Nà Hills — nhưng không có mục tiêu đề
+  riêng "Bà Nà"). Trợ lý trả lời đúng cả 2 câu không dấu kiểm live
+  ("quy nhon di bang gi", "an gi o quy nhon").
+- 2 lỗi bắt được khi kiểm live câu "an gi o quy nhon" (đã sửa trong bản này):
+  (1) ghi chú món bị cắt giữa từ ("nên thử một lần ch", "cho quán Ph") vì
+  composer cắt cứng `ghi_chu[:160]`/`[:300]` — nay cắt ở ranh giới từ + "…".
+  (2) danh sách toàn món Pleiku vì kho KHÔNG CÓ món nào của Quy Nhơn/Phú
+  Quốc — bản này bổ sung món Quy Nhơn + Phú Quốc (có giá + nguồn, món nào
+  không kiểm được giá thì ghi rõ) và xếp món nhắc tới khu hỏi lên trước
+  trong danh sách cùng tỉnh.
+- Số đo sau sửa: 24/24 + 24/24; 175 câu 157/175; 120 câu live: engine mới
+  tự trả 80, đúng 80/80 qua cổng tự tin, 0 sai.

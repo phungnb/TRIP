@@ -19,6 +19,28 @@ def _clean(v):
     return (v or "").strip()
 
 
+def _cut(s, n):
+    """Cắt ghi chú ở ranh giới từ + dấu …, không cắt giữa từ
+    (lỗi cũ: ghi_chu[:160] cắt "nên thử một lần ch", "cho quán Ph")."""
+    s = (s or "").strip()
+    if len(s) <= n:
+        return s
+    t = s[:n].rsplit(" ", 1)[0]
+    return (t or s[:n]) + "…"
+
+
+def _city_in_query(query):
+    """Thành phố người hỏi nhắc tới (khớp nguyên từ, lấy tên dài nhất):
+    vd "ăn gì ở Quy Nhơn" -> "quy nhon". Trả "" nếu không nhắc thành phố nào."""
+    qn = " " + norm_text(query) + " "
+    best = ""
+    for c in CITY_TO_PROVINCE:
+        nc = norm_text(c)
+        if " " + nc + " " in qn and len(nc) > len(best):
+            best = nc
+    return best
+
+
 def _has_price(e):
     g = _clean(e.get("gia"))
     return g and "chưa kiểm" not in g.lower()
@@ -47,7 +69,7 @@ def compose(intent, entries, query, history_entities):
     gia = _clean(top.get("gia")) if top else ""
     gio = _clean(top.get("gio")) if top else ""
     mua = _clean(top.get("mua_dep")) if top else ""
-    note = _clean(top.get("ghi_chu"))[:300] if top else ""
+    note = _cut(top.get("ghi_chu"), 300) if top else ""
 
     # Món/chỗ ở/chi phí: trả theo danh sách đã lọc theo tỉnh, KHÔNG chặn bởi
     # ngưỡng điểm truy hồi (mục dài làm cosine loãng) — nhánh tự xử khi không có.
@@ -55,13 +77,19 @@ def compose(intent, entries, query, history_entities):
         kind = "món ăn" if intent == "an" else "chỗ ở"
         got = [e for _, e in entries if e.get("loai") == ("mon_an" if intent == "an" else "cho_o")]
         if got:
+            # Món/chỗ ở ở khu nào thì món của khu đó lên trước (vd hỏi Quy Nhơn
+            # thì bún chả cá Quy Nhơn lên trước món Pleiku) — cùng tỉnh, chỉ đổi
+            # thứ tự hiển thị, không đổi thực thể trả về.
+            city = _city_in_query(query)
+            if city:
+                got.sort(key=lambda e: 0 if city in norm_text((e.get("ten") or "") + " " + (e.get("ghi_chu") or "")) else 1)
             lines = []
             for e in got[:5]:
                 line = f"- {e.get('ten')}"
                 if _clean(e.get("gia")):
                     line += f" ({e['gia']})"
                 if _clean(e.get("ghi_chu")):
-                    line += f": {e['ghi_chu'][:160]}"
+                    line += f": {_cut(e['ghi_chu'], 160)}"
                 lines.append(line)
             return (f"{kind.capitalize()} ở {_display_place(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):\n"
                     + "\n".join(lines)

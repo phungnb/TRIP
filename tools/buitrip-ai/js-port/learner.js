@@ -115,11 +115,16 @@ export class BuiTripAI {
       this.historyEntities.push(entries[0][1].ten || "");
       this.historyEntities = this.historyEntities.slice(-3);
     }
+    // Tỉnh của mục trả về (để app gắn nút "Mở cẩm nang"): lấy từ mục đầu,
+    // không lấy từ tên thực thể (tên thành phố như "Quy Nhơn" không phải
+    // tên mục trong kho nên tra tên sẽ không ra tỉnh).
+    const entityProv = entries.length ? entries[0][1].tinh || null : null;
     return {
       answer,
       intent,
       confidence: round3(conf),
       entity,
+      entity_prov: entityProv,
       score: entries.length ? round3(entries[0][0]) : 0.0,
     };
   }
