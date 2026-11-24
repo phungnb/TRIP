@@ -49,7 +49,7 @@
   "rewrites": [
     {
       "source": "/auth/:path*",
-      "destination": "https://ep-noisy-cake-aolzjjha.neonauth.c-2.ap-southeast-1.aws.neon.tech/neondb/auth/:path*"
+      "destination": "/api/auth-proxy?p=:path*"
     }
   ]
 }
