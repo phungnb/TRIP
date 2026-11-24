@@ -41,7 +41,7 @@
     return v;
   }
   function frame(body) {
-    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["nk", "Nhật ký"]];
+    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["nk", "Nhật ký"], ["qtv", "Quản trị viên"]];
     root().innerHTML = '<div class="adm-in"><div class="adm-top"><h2 id="admTitle">Trang admin</h2><button class="btn btn-ghost" onclick="btAdminClose()">Đóng</button></div>' +
       '<div class="chiprow chiprow-scroll adm-tabs">' + tabs.map(function (t) { return '<button class="chip' + (tab === t[0] ? " on" : "") + '" onclick="btAdminTab(\'' + t[0] + '\')">' + t[1] + '</button>'; }).join("") + '</div>' +
       '<div id="admBody">' + body + '</div></div>';
@@ -67,7 +67,7 @@
     if (location.hash === "#/admin") history.replaceState(null, "", location.pathname + location.search);
   };
   window.btAdminTab = function (t) { tab = t; frame(""); show(); };
-  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else listAudit(); }
+  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else if (tab === "qtv") listAdmins(); else listAudit(); }
 
   /* bản sửa hiện có (kể cả mục ẩn, đã xóa) */
   function loadOv() {
@@ -331,12 +331,13 @@
   };
 
   /* ================= Nhật ký ================= */
-  var ACT = { sua: "Sửa", them: "Thêm", an: "Ẩn", hien: "Hiện lại", xoa: "Xóa", hoan_tac: "Quay lại", nhap_dong_gop: "Nhập đóng góp" };
+  var ACT = { sua: "Sửa", them: "Thêm", an: "Ẩn", hien: "Hiện lại", xoa: "Xóa", hoan_tac: "Quay lại", nhap_dong_gop: "Nhập đóng góp", cap_admin: "Cấp quyền admin", go_admin: "Gỡ quyền admin" };
   function shortV(v) { if (v == null) return "(trống)"; var s = typeof v === "string" ? v : JSON.stringify(v); return s.length > 160 ? s.slice(0, 160) + "…" : s; }
   function auditHtml(L, compact) {
     if (!L || !L.length) return '<p class="muted">Chưa có thay đổi nào.</p>';
     return '<div class="dg-list">' + L.map(function (a) {
       var p = provById(a.prov_id), canRevert = (a.field && a.action !== "nhap_dong_gop") || a.action === "an" || a.action === "hien" || a.action === "xoa";
+      if (a.kind === "admin") return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + '</p><p><b>' + esc(ACT[a.action] || a.action) + '</b> · ' + esc(shortV(a.new_value != null ? a.new_value : a.old_value)) + '</p>' + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') + '</div>';
       return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + (a.by_email && a.by_name ? ' &lt;' + esc(a.by_email) + '&gt;' : '') + '</p>' +
         '<p><b>' + esc(ACT[a.action] || a.action) + '</b>' + (compact ? '' : ' · ' + esc(KIND_LBL[a.kind] || a.kind) + ' <code>' + esc(a.item_id) + '</code> · ' + esc(p ? p.name : a.prov_id)) + (a.field ? ' · trường <code>' + esc(a.field) + '</code>' : '') + '</p>' +
         (a.field ? '<p class="small">' + esc(shortV(a.old_value)) + ' → ' + esc(shortV(a.new_value)) + '</p>' : '') + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') +
@@ -354,6 +355,35 @@
         toast_("Đã quay lại"); if (ED && tab === "sua" && document.getElementById("admItemLog")) editor(ED.provId, ED.kind, ED.from, ED.id, !!(ED.r && ED.r.is_new), null, null); else listAudit();
       });
     }).catch(function (e) { toast_(errMsg(e)); });
+  };
+
+  /* ================= Quản trị viên ================= */
+  function listAdmins() {
+    loading();
+    rpc("admin_list").then(function (L) {
+      body('<p class="small">Người được cấp quyền thấy trang này và sửa được dữ liệu. Người đó cần đăng ký tài khoản trong app trước. Không tự gỡ quyền của mình được, nên luôn còn ít nhất 1 admin.</p>' +
+        '<div class="notebox"><div class="field"><label for="admGrEmail">Email tài khoản cần cấp quyền</label><input id="admGrEmail" type="email" maxlength="200" autocomplete="off" placeholder="ten@vidu.com"></div>' +
+        '<div class="field"><label for="admGrNote">Ghi chú (không bắt buộc)</label><input id="admGrNote" maxlength="300"></div>' +
+        '<button class="btn btn-primary" onclick="btAdmGrant()">Cấp quyền admin</button></div>' +
+        '<h3>Đang có ' + (L || []).length + ' admin</h3><div class="dg-list">' + (L || []).map(function (a) {
+          return '<div class="dg-item"><p><b>' + esc(a.name || "(chưa đặt tên)") + '</b>' + (a.is_me ? ' <span class="small">(bạn)</span>' : '') + '</p><p class="small">' + esc(a.email || a.user_id) + ' · từ ' + esc(DG().fmtTime(a.created_at)) + '</p>' + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') +
+            (a.is_me ? '' : '<div id="admRv-' + esc(a.user_id) + '"><button class="btn btn-ghost" onclick="btAdmRevoke1(\'' + esc(a.user_id) + '\')">Gỡ quyền</button></div>') + '</div>';
+        }).join("") + '</div>');
+    }).catch(fail);
+  }
+  window.btAdmGrant = function () {
+    var em = (document.getElementById("admGrEmail").value || "").trim(), note = (document.getElementById("admGrNote").value || "").trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) return toast_("Email không hợp lệ");
+    rpc("admin_grant", { p_email: em, p_note: note || null }).then(function () { toast_("Đã cấp quyền admin cho " + em); listAdmins(); }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  window.btAdmRevoke1 = function (uid) {
+    var el = document.getElementById("admRv-" + uid); if (!el) return;
+    el.innerHTML = '<div class="field"><label for="admRvWhy">Lý do gỡ (không bắt buộc)</label><input id="admRvWhy" maxlength="300"></div>' +
+      '<button class="btn btn-orange" onclick="btAdmRevoke2(\'' + esc(uid) + '\')">Xác nhận gỡ quyền</button> <button class="btn btn-ghost" onclick="btAdminTab(\'qtv\')">Thôi</button>';
+  };
+  window.btAdmRevoke2 = function (uid) {
+    var why = ((document.getElementById("admRvWhy") || {}).value || "").trim();
+    rpc("admin_revoke", { p_user: uid, p_note: why || null }).then(function () { toast_("Đã gỡ quyền admin"); listAdmins(); }).catch(function (e) { toast_(errMsg(e)); });
   };
 
   /* ---------- đường vào: #/admin ---------- */

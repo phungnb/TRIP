@@ -103,7 +103,7 @@ try {
   await pa.reload({ waitUntil: "load" }); await pa.waitForTimeout(300);
   await pa.evaluate(() => { location.hash = "#/admin"; }); await pa.waitForTimeout(500);
   let ta = await pa.locator("#admView").innerText();
-  ok(/Duyệt đóng góp/.test(ta) && /Sửa dữ liệu/.test(ta) && /Nhật ký/.test(ta), "(2) Tài khoản admin mở được trang admin (3 thẻ)");
+  ok(/Duyệt đóng góp/.test(ta) && /Sửa dữ liệu/.test(ta) && /Nhật ký/.test(ta) && /Quản trị viên/.test(ta), "(2) Tài khoản admin mở được trang admin (4 thẻ)");
   ok((ta.match(/Chờ duyệt/g) || []).length >= 7, "(2) Thấy 7 đóng góp chờ duyệt");
   /* lọc theo loại */
   await pa.selectOption("#admKind", "mon_moi"); await pa.waitForTimeout(200);
@@ -186,6 +186,21 @@ try {
   await pa.fill("#admDelId", stay); await pa.evaluate(() => btAdmDel2()); await pa.waitForTimeout(500);
   const conSau2 = await pa.evaluate(([q, i]) => PROV_DATA.find(p => p.id === q).stays.some(x => x.id === i), [QN, stay]);
   ok(conSau1 && !conSau2, "Xóa hẳn cần gõ lại đúng mã mục (gõ sai không xóa)");
+  /* quản trị viên: cấp / gỡ quyền admin cho tài khoản khác */
+  await pa.evaluate(() => btAdminTab("qtv")); await pa.waitForTimeout(300);
+  const q1 = await pa.locator("#admBody").innerText();
+  const goMinh = await pa.locator("#admBody button", { hasText: "Gỡ quyền" }).count();
+  await pa.fill("#admGrEmail", "khongco@thu.local"); await pa.evaluate(() => btAdmGrant()); await pa.waitForTimeout(300);
+  const q2 = await pa.evaluate(() => window.__NEON.admins.length);
+  await pa.fill("#admGrEmail", "USER@thu.local"); await pa.evaluate(() => btAdmGrant()); await pa.waitForTimeout(300);
+  const q3 = await pa.locator("#admBody").innerText();
+  ok(/Đang có 1 admin/.test(q1) && /\(bạn\)/.test(q1) && goMinh === 0 && q2 === 1 && /Đang có 2 admin/.test(q3) && /user@thu\.local/.test(q3),
+    "Admin cấp quyền admin cho tài khoản khác theo email (email chưa đăng ký bị chặn, không tự gỡ quyền mình)");
+  await pa.evaluate(() => btAdmRevoke1("u-user")); await pa.fill("#admRvWhy", "thử gỡ"); await pa.evaluate(() => btAdmRevoke2("u-user")); await pa.waitForTimeout(300);
+  const q4 = await pa.locator("#admBody").innerText();
+  await pa.evaluate(() => btAdminTab("nk")); await pa.waitForTimeout(300);
+  const q5 = await pa.locator("#admBody").innerText();
+  ok(/Đang có 1 admin/.test(q4) && /Cấp quyền admin · user@thu\.local/.test(q5) && /Gỡ quyền admin · user@thu\.local/.test(q5), "Gỡ quyền admin 2 bước; nhật ký ghi cả cấp và gỡ");
   ok(A.err.length === 0, "Trang admin không lỗi JavaScript" + (A.err.length ? ": " + A.err[0] : ""));
   const banSua = JSON.parse(await pa.evaluate(() => JSON.stringify(Object.values(window.__NEON.ov))));
   await A.ctx.close();
