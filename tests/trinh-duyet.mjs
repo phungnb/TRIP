@@ -160,6 +160,17 @@ try {
   ok(nd.length === 0, NOI_DEN.length + " nơi đến: tìm, lập kế hoạch, lịch và tiền đi đúng chỗ" + (nd.length ? ": " + nd.join(" | ") : ""));
   ok(pageErr.length === 0, "Không có lỗi JavaScript" + (pageErr.length ? ": " + pageErr.slice(0, 3).join(" | ") : ""));
 
+  /* Chân trang chủ: 34 link /tinh/<id>/; bấm thường mở trang tỉnh trong app, không rời trang */
+  await page.goto(BASE, { waitUntil: "load" });
+  await page.waitForTimeout(400);
+  const ft = await page.evaluate(() => [...document.querySelectorAll(".home-tinh a")].map(a => a.getAttribute("href")));
+  ok(ft.length === 34 && ft.every(h => /^\/tinh\/[a-z0-9-]+\/$/.test(h)), "Chân trang chủ có 34 link /tinh/<id>/");
+  const truoc = page.url().split("#")[0];
+  await page.click('.home-tinh a[data-tinh="da-nang"]');
+  await page.waitForTimeout(300);
+  const sau = await page.evaluate(() => ({ v: document.querySelector(".view.active").id, t: document.getElementById("topTitle").textContent, u: location.href }));
+  ok(sau.v === "view-dest-detail" && sau.t === "Đà Nẵng" && sau.u.split("#")[0] === truoc, "Bấm link tỉnh ở chân trang mở Đà Nẵng ngay trong app");
+
   /* Mất sóng vẫn mở được (service worker) */
   const c2 = await browser.newContext({ ...devices["iPhone 13"] });
   await c2.route(/tile\.openstreetmap|googleapis|gstatic|unpkg|_vercel/, r => r.abort());

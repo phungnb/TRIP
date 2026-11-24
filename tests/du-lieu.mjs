@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { APP, napDuLieu } from "./nap-du-lieu.mjs";
-import { sinh } from "../tools/tao-trang-tinh.mjs";
+import { sinh, chanTrangTinh } from "../tools/tao-trang-tinh.mjs";
 import { taoFaq } from "../tools/tao-faq.mjs";
 const loi = [];
 const ok = (c, m) => { if (!c) loi.push(m); };
@@ -76,6 +76,16 @@ for (const ic of mf.icons) ok(fs.existsSync(path.join(APP, ic.src)), "manifest t
 for (const [rel, want] of Object.entries(sinh())) {
   const f = path.join(APP, rel);
   ok(fs.existsSync(f) && fs.readFileSync(f, "utf8") === want, "Trang " + rel + " chưa sinh lại theo dữ liệu mới: chạy node tools/tao-trang-tinh.mjs");
+}
+
+/* Chân trang chủ: đủ 34 liên kết /tinh/<id>/ khớp sitemap, không dùng #/tinh/ trong href */
+{
+  const idx = fs.readFileSync(path.join(APP, "index.html"), "utf8");
+  ok(idx.includes(chanTrangTinh()), "Chân trang 34 tỉnh trong index.html lệch dữ liệu: chạy node tools/tao-trang-tinh.mjs");
+  const hrefs = [...idx.matchAll(/<a href="(\/tinh\/[a-z0-9-]+\/)" data-tinh=/g)].map(m => m[1]);
+  const sm = fs.readFileSync(path.join(APP, "sitemap.xml"), "utf8");
+  ok(hrefs.length === 34 && hrefs.every(h => sm.includes("https://buitrip.com" + h + "<")), "Chân trang phải có 34 link /tinh/<id>/ đều nằm trong sitemap");
+  ok(!/href="[^"]*#\/tinh\//.test(idx), "index.html không được dùng href #/tinh/ (máy tìm kiếm bỏ qua phần sau #)");
 }
 
 /* FAQ cho máy tìm kiếm (JSON và JSON-LD trong index.html) phải khớp BT_FAQ trong ai/hoi-dap.js */

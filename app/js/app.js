@@ -2474,6 +2474,17 @@ function renderSaved(){
 /* ================= KHỞI TẠO ================= */
 attachTripAutocomplete("w");
 renderExplore(); renderDestList(); renderPlaces(); renderStays(); renderDishes(); renderRoutes(); renderSaved(); renderAcctStats();
+/* Liên kết /tinh/<id>/ (chân trang chủ) là đường dẫn thật cho máy tìm kiếm. Trong app, cú bấm
+   thường mở trang tỉnh tại chỗ; Ctrl/Cmd/Shift/chuột giữa vẫn mở trang tĩnh như link bình thường. */
+document.addEventListener("click",function(e){
+  if(e.defaultPrevented || e.button!==0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  var a=e.target && e.target.closest ? e.target.closest("a[data-tinh]") : null;
+  if(!a || (a.target && a.target!=="_self")) return;
+  var id=a.getAttribute("data-tinh");
+  if(!provById(id)) return;
+  e.preventDefault();
+  openProvDetail(id);
+});
 var startHash=location.hash||""; /* đọc trước khi show() ghi lại địa chỉ */
 show("explore",false);
 (function(){

@@ -6,7 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { APP, napDuLieu } from "../tests/nap-du-lieu.mjs";
 
-const SITE = "https://buitrip.vercel.app";
+const SITE = "https://buitrip.com";
 const { PROV, SAP } = napDuLieu();
 
 const esc = s => String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -105,6 +105,19 @@ ${it.map((d, i) => `<p><b>Ngày ${i + 1}:</b> ${d.map(s => esc(s.s) + ": " + esc
 `;
 }
 
+/* Chân trang chủ: 34 liên kết đường dẫn sạch /tinh/<id>/ (khớp sitemap) để máy tìm kiếm
+   đọc được liên kết nội bộ. Trong app, js/app.js chặn cú bấm thường và mở trang tỉnh tại chỗ. */
+export const TINH_BAT = "<!-- 34-TINH:BAT (sinh bởi tools/tao-trang-tinh.mjs) -->";
+export const TINH_HET = "<!-- 34-TINH:HET -->";
+export function chanTrangTinh() {
+  return TINH_BAT + `<nav class="home-tinh" aria-label="Cẩm nang 34 tỉnh thành">${PROV.map(p => `<a href="/tinh/${p.id}/" data-tinh="${p.id}">${esc(p.name)}</a>`).join("")}</nav>` + TINH_HET;
+}
+export function ganChanTrang(html) {
+  const a = html.indexOf(TINH_BAT), b = html.indexOf(TINH_HET);
+  if (a < 0 || b < a) throw new Error("index.html thiếu mốc " + TINH_BAT);
+  return html.slice(0, a) + chanTrangTinh() + html.slice(b + TINH_HET.length);
+}
+
 export function sinh() {
   const out = {};
   for (const p of PROV) out["tinh/" + p.id + "/index.html"] = trang(p);
@@ -126,5 +139,7 @@ if (import.meta.url === "file://" + process.argv[1]) {
     fs.mkdirSync(path.dirname(f), { recursive: true });
     fs.writeFileSync(f, s);
   }
-  console.log("Đã sinh " + Object.keys(files).length + " tệp");
+  const idx = path.join(APP, "index.html");
+  fs.writeFileSync(idx, ganChanTrang(fs.readFileSync(idx, "utf8")));
+  console.log("Đã sinh " + Object.keys(files).length + " tệp + chân trang 34 tỉnh trong index.html");
 }
