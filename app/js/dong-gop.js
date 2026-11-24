@@ -270,7 +270,8 @@
   function renderAcct(){
     var head=document.querySelector("#view-account .acct-head"); if(!head) return;
     var b=head.querySelector("b"), p=head.querySelector("p");
-    var box=document.getElementById("dgAcct");
+    var box=document.getElementById("dgAcct"), av=head.querySelector(".avatar");
+    if(av && !av._svg) av._svg=av.innerHTML;
     if(!box){ box=document.createElement("div"); box.id="dgAcct"; box.className="dg-acct"; head.parentNode.insertBefore(box,head.nextSibling); }
     if(typeof TITLES!=="undefined" && TITLES.account){
       TITLES.account[1]=me?"Đã đăng nhập: "+(me.name||me.email||""):"Chưa đăng nhập — dữ liệu giữ trong trình duyệt này";
@@ -278,11 +279,13 @@
     }
     if(me){
       b.textContent=me.name||me.email||"Đã đăng nhập";
+      if(av){ av.textContent=String(me.name||me.email||"?").trim().charAt(0).toUpperCase(); av.classList.add("has-name"); }
       p.textContent=(me.email||"")+" · Chuyến đi và mục đã lưu vẫn giữ trong trình duyệt này.";
       box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgContribute(\'\',null,\'dia_danh_moi\')">Gửi đóng góp mới</button><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<a class="btn btn-primary" href="#/admin">Trang admin</a><button class="btn btn-ghost" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
     } else {
       b.textContent="Chưa đăng nhập";
-      p.textContent="Không cần tài khoản để xem cẩm nang và lập chuyến (lưu trong trình duyệt). Đăng nhập để gửi đóng góp sửa thông tin, gợi ý địa danh.";
+      if(av && av._svg){ av.innerHTML=av._svg; av.classList.remove("has-name"); }
+      p.textContent="Xem cẩm nang và lập chuyến không cần tài khoản. Đăng nhập để gửi đóng góp sửa thông tin, gợi ý địa danh.";
       box.innerHTML='<button class="btn btn-primary btn-block" onclick="dgLogin(\'in\')">Đăng nhập / Tạo tài khoản</button>';
     }
   }

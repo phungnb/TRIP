@@ -214,7 +214,7 @@ function show(view, push){
   document.getElementById("appMain").scrollTop=0;
   if(view==="dest-detail"){ initMap(); if(typeof refreshProvMap==="function"){ setTimeout(refreshProvMap,400); setTimeout(refreshProvMap,1000); } }
   if(view==="trips") renderTrips();
-  if(view==="account") renderSaved();
+  if(view==="account"){ renderSaved(); renderAcctStats(); }
   syncHistory();
 }
 /* ================= NÚT QUAY LẠI CỦA ĐIỆN THOẠI + LINK CHIA SẺ =================
@@ -2316,6 +2316,16 @@ function deleteTrip(){
     toast("Đã xóa chuyến"); navStack=[]; show("trips",false);
   });
 }
+/* ================= TÀI KHOẢN: SỐ LIỆU NHANH (chuyến, đã lưu, tem — đều lưu trong máy) ================= */
+function renderAcctStats(){
+  var w=document.getElementById("acctStats"); if(!w) return;
+  var st={}; try{ st=JSON.parse(localStorage.getItem("buitrip_stamps")||"{}")||{}; }catch(e){}
+  var np={}; Object.keys(st).forEach(function(k){ np[k.split("|")[0]]=1; });
+  function tile(n,l,js,c){ return '<button class="acct-stat '+c+'" onclick="'+js+'"><b>'+n+'</b><span>'+l+'</span></button>'; }
+  w.innerHTML=tile(trips.length,"Chuyến đi","show('trips')","s-green")+
+    tile(saved.length,"Đã lưu","var e=document.getElementById('savedWrap');if(e)e.scrollIntoView({behavior:'smooth',block:'start'})","s-orange")+
+    tile(Object.keys(np).length+'<small>/34</small>',"Tỉnh có tem","window.openStampBook&&openStampBook()","s-blue");
+}
 /* ================= TÀI KHOẢN: ĐÃ LƯU ================= */
 function renderSaved(){
   var wrap=document.getElementById("savedWrap"); if(!wrap) return;
@@ -2336,7 +2346,7 @@ function renderSaved(){
 }
 /* ================= KHỞI TẠO ================= */
 attachTripAutocomplete("w");
-renderExplore(); renderDestList(); renderPlaces(); renderStays(); renderDishes(); renderRoutes(); renderSaved();
+renderExplore(); renderDestList(); renderPlaces(); renderStays(); renderDishes(); renderRoutes(); renderSaved(); renderAcctStats();
 var startHash=location.hash||""; /* đọc trước khi show() ghi lại địa chỉ */
 show("explore",false);
 (function(){
