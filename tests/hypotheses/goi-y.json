@@ -1,0 +1,499 @@
+[
+ {
+  "q": "nơi nào ngắm lúa chín tháng 9",
+  "mot": [
+   "Lào Cai",
+   "Lai Châu",
+   "Hà Giang",
+   "Cao Bằng",
+   "Điện Biên",
+   "Thanh Hóa",
+   "Lạng Sơn"
+  ],
+  "cam": [
+   "Phú Quốc",
+   "Cà Mau",
+   "Khánh Hòa",
+   "Đà Nẵng"
+  ]
+ },
+ {
+  "q": "tháng 12 đi đâu ấm",
+  "cam": [
+   "Hà Nội",
+   "Lào Cai",
+   "Cao Bằng",
+   "Lạng Sơn",
+   "Sơn La",
+   "Lai Châu",
+   "Hà Giang",
+   "Quảng Ninh"
+  ]
+ },
+ {
+  "q": "đi đâu gần Hà Nội cuối tuần",
+  "cam": [
+   "Phú Quốc",
+   "Lâm Đồng",
+   "Đà Nẵng",
+   "Khánh Hòa",
+   "TP.HCM",
+   "Cà Mau",
+   "Huế"
+  ]
+ },
+ {
+  "q": "cuối tuần từ Sài Gòn đi đâu",
+  "cam": [
+   "Hà Nội",
+   "Đà Nẵng",
+   "Huế",
+   "Lào Cai",
+   "Quảng Ninh"
+  ]
+ },
+ {
+  "q": "chỗ nào lặn biển ngắm san hô",
+  "mot": [
+   "Phú Quốc",
+   "Khánh Hòa",
+   "Côn Đảo",
+   "Quy Nhơn",
+   "An Giang",
+   "Phan Rang",
+   "Lý Sơn",
+   "Cù Lao Chàm",
+   "Hội An"
+  ],
+  "cam": [
+   "Hà Nội",
+   "Lào Cai",
+   "Cao Bằng"
+  ]
+ },
+ {
+  "q": "địa điểm leo núi đẹp nhất miền Bắc",
+  "mot": [
+   "Lào Cai",
+   "Lai Châu",
+   "Hà Giang",
+   "Sơn La",
+   "Cao Bằng"
+  ],
+  "cam": [
+   "TP.HCM",
+   "Cà Mau",
+   "Tây Ninh",
+   "Khánh Hòa",
+   "Lâm Đồng"
+  ]
+ },
+ {
+  "q": "tháng 6 nên đi đâu",
+  "cam": [
+   "Huế (",
+   "Lâm Đồng",
+   "Hà Nội"
+  ]
+ },
+ {
+  "q": "tết nên đi đâu",
+  "cam": [
+   "Hà Nội"
+  ]
+ },
+ {
+  "q": "mùa hè đi biển nào đẹp",
+  "mot": [
+   "Khánh Hòa",
+   "Thanh Hóa",
+   "Côn Đảo",
+   "Quy Nhơn",
+   "Đà Nẵng",
+   "Cát Bà",
+   "Quảng Ngãi",
+   "Nghệ An"
+  ],
+  "cam": [
+   "Phú Quốc",
+   "Lào Cai",
+   "Cao Bằng"
+  ]
+ },
+ {
+  "q": "đi đâu ngắm hoa tam giác mạch",
+  "mot": [
+   "Hà Giang",
+   "Sơn La",
+   "Cao Bằng"
+  ],
+  "cam": [
+   "Cà Mau",
+   "Phú Quốc",
+   "Khánh Hòa"
+  ]
+ },
+ {
+  "q": "đi biển với trẻ nhỏ nên đi đâu",
+  "cam": [
+   "Lào Cai",
+   "Cao Bằng",
+   "Hà Nội"
+  ]
+ },
+ {
+  "q": "tháng 10 nên đi đâu ở miền Bắc",
+  "cam": [
+   "TP.HCM",
+   "Đà Nẵng",
+   "Khánh Hòa",
+   "Cà Mau",
+   "Lâm Đồng"
+  ]
+ },
+ {
+  "q": "5 triệu đi đâu 3 ngày",
+  "kind": "goiy"
+ },
+ {
+  "q": "đi đâu ngắm mùa nước nổi",
+  "mot": [
+   "An Giang",
+   "Đồng Tháp",
+   "Vĩnh Long",
+   "Cần Thơ"
+  ],
+  "cam": [
+   "Hà Nội",
+   "Lào Cai"
+  ]
+ },
+ {
+  "q": "tháng 7 đi đâu mát",
+  "cam": [
+   "TP.HCM",
+   "Cà Mau",
+   "Cần Thơ",
+   "Hà Nội"
+  ]
+ },
+ {
+  "q": "chỗ nào tắm suối nước nóng",
+  "kind": "goiy"
+ },
+ {
+  "q": "nơi nào cắm trại đẹp",
+  "kind": "goiy"
+ },
+ {
+  "q": "tháng 3 đi đâu ngắm hoa ban",
+  "mot": [
+   "Điện Biên",
+   "Sơn La"
+  ],
+  "cam": [
+   "Cà Mau",
+   "Phú Quốc"
+  ]
+ },
+ {
+  "q": "đi đâu có thác đẹp tháng 8",
+  "mot": [
+   "Cao Bằng",
+   "Lào Cai",
+   "Đắk Lắk",
+   "Gia Lai",
+   "Sơn La"
+  ],
+  "cam": [
+   "Cà Mau",
+   "TP.HCM"
+  ]
+ },
+ {
+  "q": "nên đi đâu khi đi cùng bố mẹ già",
+  "kind": "goiy"
+ },
+ {
+  "q": "Đà Lạt có gì chơi",
+  "kind": "prov"
+ },
+ {
+  "q": "Quy Nhơn đi bằng gì",
+  "kind": "!goiy"
+ },
+ {
+  "q": "Hà Giang mùa nào đẹp",
+  "kind": "!goiy"
+ },
+ {
+  "q": "Phú Quốc ăn gì ngon",
+  "kind": "!goiy"
+ },
+ {
+  "q": "so sánh Phú Quốc và Nha Trang",
+  "kind": "compare"
+ },
+ {
+  "q": "lịch sử Hoàng thành Thăng Long",
+  "kind": "item",
+  "phaiCo": [
+   "Giới thiệu",
+   "CC BY-SA"
+  ]
+ },
+ {
+  "q": "Tại sao gọi là Hồ Gươm",
+  "kind": "item",
+  "phaiCo": [
+   "Giới thiệu Hồ Hoàn Kiếm"
+  ]
+ },
+ {
+  "q": "Văn Miếu Quốc Tử Giám là gì",
+  "kind": "item",
+  "phaiCo": [
+   "Giới thiệu"
+  ]
+ },
+ {
+  "q": "giới thiệu về Cột cờ Lũng Cú",
+  "kind": "item",
+  "phaiCo": [
+   "Giới thiệu",
+   "cực Bắc"
+  ]
+ },
+ {
+  "q": "Nhà tù Hỏa Lò xây năm nào",
+  "kind": "item",
+  "phaiCo": [
+   "App chưa có năm xây dựng"
+  ]
+ },
+ {
+  "q": "Cột cờ Lũng Cú ở đâu",
+  "kind": "item",
+  "phaiCo": [
+   "Cột cờ Lũng Cú"
+  ]
+ },
+ {
+  "q": "Thác Bản Giốc nằm ở đâu",
+  "kind": "item"
+ },
+ {
+  "q": "Sa Pa ở đâu rẻ",
+  "kind": "area"
+ },
+ {
+  "q": "hè này đưa 2 con nhỏ đi biển gần Hà Nội",
+  "mot": [
+   "Cát Bà",
+   "Hải Phòng",
+   "Quảng Ninh",
+   "Thanh Hóa"
+  ],
+  "cam": [
+   "Hà Nội",
+   "Khánh Hòa",
+   "Phú Quốc"
+  ]
+ },
+ {
+  "q": "đi đâu cho trẻ con chơi ở Đà Nẵng",
+  "phaiCo": [
+   "ở Đà Nẵng"
+  ]
+ },
+ {
+  "q": "săn mây ở đâu tháng 12",
+  "mot": [
+   "Lai Châu",
+   "Lào Cai",
+   "Lạng Sơn"
+  ],
+  "cam": [
+   "Cà Mau",
+   "Khánh Hòa"
+  ]
+ },
+ {
+  "q": "chỗ nào trekking 2 ngày gần Sa Pa",
+  "phaiCo": [
+   "ở Sa Pa",
+   "Fansipan"
+  ]
+ },
+ {
+  "q": "đèo nào đẹp nhất miền Bắc",
+  "mot": [
+   "Lai Châu",
+   "Lào Cai",
+   "Hà Giang",
+   "Cao Bằng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "cam": [
+   "Khánh Hòa",
+   "Đà Nẵng"
+  ]
+ },
+ {
+  "q": "tháng 11 có tam giác mạch ở đâu",
+  "mot": [
+   "Hà Giang"
+  ],
+  "cam": [
+   "Cà Mau"
+  ]
+ },
+ {
+  "q": "trăng mật tháng 4 nên đi đâu",
+  "phaiCo": [
+   "cặp đôi"
+  ],
+  "khongCo": [
+   "chỗ mát"
+  ]
+ },
+ {
+  "q": "đảo nào lãng mạn cho cặp đôi",
+  "phaiCo": [
+   "biển"
+  ]
+ },
+ {
+  "q": "đi chùa đầu năm ở đâu miền Nam",
+  "cam": [
+   "Hà Nội",
+   "Bắc Ninh",
+   "Lào Cai"
+  ]
+ },
+ {
+  "q": "3 triệu đi đâu 2 ngày từ Hà Nội",
+  "cam": [
+   "Phú Quốc",
+   "Lâm Đồng",
+   "Khánh Hòa"
+  ]
+ },
+ {
+  "q": "di bien voi be o dau",
+  "phaiCo": [
+   "đi cùng trẻ nhỏ"
+  ]
+ },
+ {
+  "q": "chỗ nào tắm biển tháng 12 ở miền Bắc",
+  "cam": [
+   "Điện Biên",
+   "Hà Giang",
+   "Lào Cai"
+  ],
+  "rong": true,
+  "phaiCo": [
+   "App chưa có nơi nào khớp"
+  ]
+ },
+ {
+  "q": "đi đâu có tuyết",
+  "mot": [
+   "Lào Cai",
+   "Lạng Sơn"
+  ],
+  "khongCo": [
+   "Tuyết Anh"
+  ]
+ },
+ {
+  "q": "tại sao gọi là Vịnh Hạ Long",
+  "kind": "item",
+  "phaiCo": [
+   "App chưa có giải thích tên gọi"
+  ]
+ },
+ {
+  "q": "Dinh Độc Lập xây năm nào",
+  "kind": "item",
+  "phaiCo": [
+   "App chưa có năm xây dựng"
+  ]
+ },
+ {
+  "q": "dl thang 6 co dep ko",
+  "kind": "prov",
+  "phaiCo": [
+   "Lâm Đồng"
+  ]
+ },
+ {
+  "q": "tháng 13 nên đi đâu",
+  "phaiCo": [
+   "Không có tháng 13"
+  ],
+  "rong": true
+ },
+ {
+  "q": "đi đâu ở Lào",
+  "phaiCo": [
+   "chỉ có cẩm nang trong nước"
+  ],
+  "rong": true
+ },
+ {
+  "q": "Cà phê Tùng Đà Lạt ở đâu",
+  "kind": "kho",
+  "phaiCo": [
+   "6 khu Hòa Bình"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "Mường Thanh",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "Phù điêu bắt sống phi công Mỹ ở đâu",
+  "kind": "kho",
+  "phaiCo": [
+   "đường Thanh Niên"
+  ]
+ },
+ {
+  "q": "massage người khiếm thị ở Huế",
+  "kind": "kho",
+  "phaiCo": [
+   "1/180 Phan Bội Châu"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "Bánh Khoái Hạnh Huế giá bao nhiêu",
+  "kind": "kho",
+  "phaiCo": [
+   "20.000–55.000đ/phần"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "đã cũ",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "đền Ngọc Sơn giá vé",
+  "kind": "item",
+  "phaiCo": [
+   "50.000đ"
+  ]
+ },
+ {
+  "q": "bánh khoái Huế",
+  "kind": "!kho"
+ }
+]

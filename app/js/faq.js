@@ -10,7 +10,7 @@
   var FAQ_VN=BT_FAQ; window.FAQ_VN=FAQ_VN;
   function fill(a){ return a.replace(/\{PLACE\}/g,nPlaces().toLocaleString("vi-VN")).replace(/\{DISH\}/g,nDishes().toLocaleString("vi-VN")); }
   function provLabel(p){ return p.id==="lam-dong"?"Lâm Đồng":p.name; }
-  window.askQuick=function(q){ var r=window.askBuiTrip(q); return r?r.html:""; };
+  window.askQuick=function(q){ var r=window.askBuiTrip(q); return r?r.html+(window.btAiFbBar?btAiFbBar(q,r):""):""; };
   window.btFindProv=function(q){ return BTAI.findProv(q); };
   window.askRun=function(){
     var i=document.getElementById("askInput"), o=document.getElementById("askOut"); if(!i||!o) return;

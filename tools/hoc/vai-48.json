@@ -1,0 +1,207 @@
+{
+ "ghi": "48 câu theo 6 vai, đánh giá 24/11/2026",
+ "cau": [
+  {
+   "nhom": "khach_lan_dau",
+   "q": "đi đà nẵng 3 ngày nên đi đâu"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "vé bà nà bao nhiêu"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "hội an có gì chơi buổi tối"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "từ sân bay đà nẵng về hội an bằng gì"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "ăn gì ở đà nẵng"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "ở đâu gần biển mỹ khê giá rẻ"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "đà nẵng tháng 12 có mưa không"
+  },
+  {
+   "nhom": "khach_lan_dau",
+   "q": "cầu rồng phun lửa mấy giờ"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "hà giang đi xe máy mấy ngày"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "đèo mã pí lèng ở đâu"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "thuê xe máy ở hà giang bao nhiêu"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "từ hà nội lên hà giang bằng xe khách"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "cột cờ lũng cú vé bao nhiêu"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "đồng văn có homestay nào"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "đi mù cang chải mùa nào đẹp"
+  },
+  {
+   "nhom": "phuot_xe_may",
+   "q": "cao bằng đi thác bản giốc bao xa"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "đi phú quốc với trẻ nhỏ chơi gì"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "vé vinwonders phú quốc trẻ em"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "vé tràng an trẻ em bao nhiêu"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "sa pa có cáp treo fansipan cho người già không"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "chùa bái đính có xe điện không"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "nha trang có bãi biển nào nước êm"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "đà lạt đi đâu cho người lớn tuổi"
+  },
+  {
+   "nhom": "gia_dinh_tre_nguoi_gia",
+   "q": "hạ long đi tàu ngủ đêm hết bao nhiêu"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "đi đà lạt 2 ngày hết bao nhiêu tiền"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "quy nhơn 3 ngày 2 triệu có đủ không"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "ở hostel hà nội giá rẻ"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "từ sài gòn đi vũng tàu bằng gì rẻ nhất"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "ăn gì rẻ ở huế"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "đi ninh bình 1 ngày từ hà nội"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "mộc châu tự túc hết bao nhiêu"
+  },
+  {
+   "nhom": "sinh_vien_it_tien",
+   "q": "cần thơ chợ nổi đi lúc mấy giờ"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "di da lat an gi"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "ve ha long bay bao nhieu"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "phu quoc mua nao dep"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "sapa o dau re"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "hoi an di bang gi tu da nang"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "quy nhon co gi choi"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "ha giang may ngay la du"
+  },
+  {
+   "nhom": "go_khong_dau",
+   "q": "con dao co can xin phep khong"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "thời tiết đà lạt ngày mai",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "đặt phòng giúp tôi ở nha trang",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "số điện thoại khách sạn mường thanh",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "visa cho người nước ngoài vào việt nam",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "đi sơn đoòng hết bao nhiêu tiền"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "bình ba có đi được không"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "chuyến bay hà nội phú quốc ngày 20/12 giá bao nhiêu",
+   "duPhong": true,
+   "loaiHoi": "ngoai"
+  },
+  {
+   "nhom": "cau_kho_ngoai_du_lieu",
+   "q": "nên đi đà lạt hay sa pa vào tháng 1"
+  }
+ ]
+}

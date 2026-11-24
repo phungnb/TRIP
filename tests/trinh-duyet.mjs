@@ -95,6 +95,27 @@ try {
     return thieu.length || nham.length ? q + " (thiếu: " + thieu.join("/") + "; nhầm: " + nham.join("/") + ")" : null;
   }).filter(Boolean), cau);
   ok(!sai.length, cau.length + " câu trợ lý trong báo cáo 1.014 trả đúng khu/đảo" + (sai.length ? ": " + sai.join(" | ") : ""));
+  /* Trợ lý v2: thanh Đúng/Chưa đúng dưới mọi câu, học trên máy, đoạn giới thiệu nạp lười */
+  await page.waitForFunction(() => typeof BT_BOI_CANH !== "undefined", null, { timeout: 8000 }).catch(() => {});
+  const v2 = await page.evaluate(() => {
+    const box = document.createElement("div"); document.body.appendChild(box);
+    box.innerHTML = askQuick("tháng 6 nên đi đâu");
+    const bar = !!box.querySelector(".bt-ai-fb"), goiy = /Gợi ý nơi đi: tháng 6/.test(box.textContent);
+    box.querySelector(".bt-ai-fb button:nth-of-type(2)").click();
+    const q = "phố cổ ăn gì";
+    box.innerHTML = askQuick(q);
+    box.querySelector(".bt-ai-fb button:nth-of-type(2)").click();
+    box.querySelector(".bt-ai-ten").value = "Hội An";
+    box.querySelector(".bt-ai-fix .btn-primary").click();
+    const hs = btAiSua(q), hoc = hs && hs.ten, sau = askQuick(q), suy = askQuick("phố cổ có gì chơi");
+    const gt = askQuick("Tại sao gọi là Hồ Gươm");
+    box.remove(); localStorage.removeItem("buitrip_ai_sua"); localStorage.removeItem("buitrip_ai_votes");
+    return { bar, goiy, hoc, sauHocAn: /Theo sửa bạn đã lưu/.test(sau) && /Hội An/.test(sau), suyRa: /Theo sửa bạn đã lưu/.test(suy) && /Hội An/.test(suy), gt: /CC BY-SA/.test(gt) };
+  });
+  ok(v2.bar && v2.goiy, "Trợ lý: gợi ý theo tháng, có thanh Đúng/Chưa đúng");
+  ok(v2.hoc === "Hội An" && v2.sauHocAn, "Trợ lý học trên máy: sửa 'phố cổ ăn gì' thành Hội An, hỏi lại trả theo Hội An");
+  ok(v2.suyRa, "Trợ lý học theo cụm: sau khi sửa, 'phố cổ có gì chơi' cũng hiểu là Hội An");
+  ok(v2.gt, "Trợ lý: câu giới thiệu Hồ Gươm có đoạn trích ghi giấy phép (boi-canh.js nạp lười)");
   const tk = await page.evaluate(() => ({
     sapa: btSearch("sapa").filter(r => r.kind === "place" && /Sa Pa/.test(r.x.name)).length,
     hv: btSearch("Hội Vân").some(r => r.x && /Đầm Vân Hội/.test(r.x.name)),

@@ -5,7 +5,12 @@ Trợ lý chạy hoàn toàn trên máy người dùng. "Học" ở đây là: g
 ## Luồng
 
 1. Nhật ký câu hỏi (`.jsonl`, mỗi dòng `{"q": "...", "ok": true|false}`).
-   Hiện app **chưa thu** câu người dùng gõ. Chỉ bật khi đã cập nhật chính sách quyền riêng tư và người dùng đồng ý rõ ràng.
+   App **không tự thu** câu người dùng gõ. Nguồn duy nhất là góp ý người dùng tự bấm gửi:
+   dưới mỗi câu trả lời có "Đúng / Chưa đúng"; "Chưa đúng" mở ô ghi nơi đúng, chỗ sai và nút "Lưu và gửi cho BuiTrip"
+   (gửi qua `/api/hotro`, lưu `svc.support`, chính sách mục 4).
+   `BT_DB_URL=... node tools/hoc/lay-gop-y.mjs` -> `tools/hoc/ra/nhat-ky.jsonl` (chỉ đọc bảng, bỏ tên, liên hệ, IP).
+   Học trên máy người dùng (không qua duyệt, chỉ máy đó): khi người dùng ghi nơi đúng mà app có trong dữ liệu,
+   trợ lý nhớ câu đó -> nơi đó (localStorage `buitrip_ai_sua`, tối đa 100 câu), hỏi lại đúng câu thì trả theo nơi đã sửa.
 2. `node tools/hoc/de-xuat.mjs --vao nhat-ky.jsonl` -> `tools/hoc/ra/de-xuat.json` và `de-xuat.md`.
    - `bien_the`: cách gõ gần với tên có trong dữ liệu (sai dấu, sai 1–2 chữ).
    - `thieu`: nơi/món được hỏi mà dữ liệu chưa có -> làm theo quy trình nhập dữ liệu.
@@ -19,3 +24,10 @@ Trợ lý chạy hoàn toàn trên máy người dùng. "Học" ở đây là: g
 ## Kiểm vòng học
 
 `cd tests && npm run hoc`: tạo nhật ký giả lập gõ sai, đạt khi đề xuất đúng tên ≥ 90%, áp vào sửa được ≥ 80%, có đề xuất cho ≥ 60% câu trượt.
+
+## Kiến thức mới từ Wikipedia
+
+Engine học trước (`tools/buitrip-ai/wiki_learn.py`, chạy hằng tuần bằng `wiki-weekly.sh`) gom phần bối cảnh Wikipedia vào `app/ai/kb.json`.
+`node tools/tao-boi-canh.mjs` lấy phần đó cho địa danh có trong app, cắt ở câu trọn vẹn, ghi `app/ai/boi-canh.js`.
+Trợ lý dùng cho câu hỏi giới thiệu, lịch sử ("Hồ Gươm vì sao có tên", "lịch sử Hoàng thành Thăng Long"), ghi giấy phép CC BY-SA 4.0 dưới đoạn trích.
+Không lấy giá, giờ, số điện thoại từ Wikipedia.

@@ -133,7 +133,8 @@
   function noRail(o) { return A.KHONG_TAU[key(o)] || (o.prov && !o.area && A.KHONG_TAU[o.prov.id]); }
 
   /* ---------- Địa danh, món ---------- */
-  function srcLine(x, p) { return '<p class="small">Nguồn: ' + esc(x.source || "dữ liệu cẩm nang") + ' · kiểm ' + esc(x.checked || p.checked || "06/11/2026") + '. Giá, giờ có thể đổi, kiểm lại trước khi đi.</p>'; }
+  /* không in nguồn, ngày kiểm trong câu trả lời (yêu cầu 23/11/2026: nguồn đưa vào mục chính sách của app) */
+  function srcLine() { return '<p class="small">Giá, giờ có thể đổi, kiểm lại trước khi đi.</p>'; }
   A.answerItem = function (e, want) {
     var x = e.x, p = e.prov, name = label(p), nm = x.name.split(" (")[0];
     if (x.banned) return '<p class="ask-h">' + esc(x.name) + ' (' + esc(name) + ')</p><p><b>Không đón khách du lịch.</b> ' + esc(x.note || "") + '</p>' + acts([openPlace(p, x, "Xem chi tiết")]);

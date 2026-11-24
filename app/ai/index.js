@@ -109,55 +109,68 @@
     return E;
   }
 
-  /* ---- Engine mới (BuiTrip AI học từ phản hồi) — hỏi trước, chỉ dùng khi tự tin.
-     Nạp lười bởi ai/ai-loader.js (fetch ai/kb.json + ai-model.json + extra.json
-     khi trang rảnh). Không chắc (confidence < 0.9 hoặc score < 0.3) thì trả về
-     engine cũ bên dưới — không mất tính năng cũ, không đổi 120/120 câu live. */
-  function attrEsc(s) { return A.esc(String(s == null ? "" : s)).replace(/"/g, "&quot;"); }
-  function provIdByTinh(tinh) {
-    if (!tinh || typeof PROV_DATA === "undefined") return null;
-    var f = A.fold(tinh);
-    for (var i = 0; i < PROV_DATA.length; i++) {
-      if (A.fold(PROV_DATA[i].name) === f) return PROV_DATA[i].id;
-    }
-    return null;
+  /* Kho thêm: khớp tên (hoặc tên trong ngoặc) dài nhất có nguyên văn trong câu; app có mục ngang tầm thì nhường app */
+  var KT = null;
+  function ktIdx() {
+    if (KT || typeof BT_KHO_THEM === "undefined") return KT;
+    KT = BT_KHO_THEM.map(function (x) {
+      var ns = [x.t.split(" (")[0].split(" — ")[0]], m = x.t.match(/\(([^)]+)\)/); if (m) ns.push(m[1]);
+      return { x: x, ks: ns.map(A.fold).filter(function (k) { return k.split(" ").length >= 2 && k.length >= 7; }) };
+    });
+    return KT;
   }
-  var BT_INTENT_VN = { gia_ve: "giá vé", gio_mo_cua: "giờ mở cửa", mua_dep: "mùa đẹp",
-    cach_di: "cách đi", an: "món ăn", o: "chỗ ở", diem_choi: "điểm chơi",
-    lich_trinh: "lịch trình", chi_phi: "chi phí", mang_gi: "mang gì",
-    so_sanh: "so sánh", tinh_cu: "tỉnh cũ", vi_tri: "vị trí", chung_chung: "chung chung" };
-  function newAnswer(r, q, t0) {
-    var ent = null, provId = null, provName = "";
-    /* Tỉnh lấy từ mục trả về trước (entity_prov); tên thành phố như "Quy Nhơn"
-       không phải tên mục trong kho nên tra theo tên sẽ không ra tỉnh. */
-    var tinh = r.entity_prov || "";
-    if (!tinh && r.entity && typeof window.__btaiProvOf === "function") {
-      try { tinh = window.__btaiProvOf(r.entity) || ""; } catch (e) {}
-    }
-    if (tinh) { provId = provIdByTinh(tinh); provName = tinh; }
-    if (provId) ent = { prov: provId };
-    var html = '<div class="ask-ans-new">' + A.esc(r.answer).replace(/\n/g, "<br>") + "</div>";
-    if (provId && typeof openProvDetail === "function")
-      html += '<div class="ask-btns"><button class="btn btn-primary" type="button" onclick="openProvDetail(\'' + provId + '\')">Mở cẩm nang ' + A.esc(provName) + '</button></div>';
-    html += '<div class="bt-ai-fb small" style="margin-top:8px">Câu trả lời này đúng không? ' +
-      '<button class="btn btn-ghost" type="button" onclick="btAiGood(this)" data-q="' + attrEsc(q) + '">Đúng</button> ' +
-      '<button class="btn btn-ghost" type="button" onclick="btAiBad(this)" data-q="' + attrEsc(q) + '" data-intent="' + attrEsc(r.intent) + '">Sai, sửa giúp</button></div>';
-    return { html: html, kind: "ainew", intent: r.intent, ent: ent, ms: Date.now() - t0 };
-  }
+  A.khoThem = function (q) {
+    var L = ktIdx(); if (!L) return null;
+    var f = " " + A.fold(q) + " ", best = null;
+    L.forEach(function (o) { o.ks.forEach(function (k) {
+      /* tên dài gõ thiếu đuôi ("Phù điêu bắt sống phi công Mỹ"): khớp phần đầu từ 4 chữ và từ 60% tên */
+      var t = k.split(" "), n = t.length;
+      while (n >= 4 && n >= Math.ceil(t.length * 0.6) && f.indexOf(" " + t.slice(0, n).join(" ") + " ") < 0) n--;
+      var kk = n === t.length || n >= 4 && n >= Math.ceil(t.length * 0.6) ? t.slice(0, n).join(" ") : "";
+      if (kk && f.indexOf(" " + kk + " ") >= 0 && (!best || kk.length > best.k.length)) best = { x: o.x, k: kk };
+    }); });
+    if (!best || A.isPlaceName(best.k)) return null;
+    var it = A.findItem(best.k);
+    if (it && it.s >= 90 && it.best.fm.length >= best.k.length) return null;
+    return best.x;
+  };
+  A.answerKhoThem = function (x) {
+    var L = { an: "Quán ăn, uống", o: "Chỗ ở", d: "Địa điểm" }[x.l] || "Địa điểm", li = [];
+    if (x.dc) li.push("<li>Địa chỉ: " + A.esc(x.dc) + (x.p ? ", " + A.esc(x.p) : "") + "</li>");
+    if (x.g) li.push("<li>" + (x.l === "o" ? "Giá phòng tham khảo: " : x.l === "an" ? "Giá tham khảo: " : "Giá vé tham khảo: ") + A.esc(x.g) + "</li>");
+    if (x.h) li.push("<li>Giờ mở cửa: " + A.esc(x.h) + "</li>");
+    return '<p><b>' + A.esc(x.t.split(" (")[0]) + '</b>' + (x.p ? ' (' + A.esc(x.p) + ')' : '') + '. ' + L + '.' + (x.m ? ' ' + A.esc(x.m) : '') + '</p>' +
+      (li.length ? '<ul>' + li.join("") + '</ul>' : '') +
+      (x.w ? '<p class="small">Phần mô tả dịch từ Wikivoyage tiếng Anh, giấy phép CC BY-SA.</p>' : '') +
+      '<p class="small">Mục này app chưa có trang riêng. ' + (x.g || x.h ? 'Giá, giờ có thể đổi, kiểm lại trước khi đi.' : 'Giá, giờ app chưa kiểm được.') + '</p>';
+  };
   function askCu(q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
     if (!q) return { html: "", kind: "", ms: 0 };
+    if (A.vietTat) q = A.vietTat(q);
     A.index();
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
+    /* "Cột cờ Lũng Cú ở đâu", "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh, không phải hỏi chỗ ngủ */
+    if (I.intent === "odau" && !/\b(khach san|homestay|resort|nha nghi|ngu|phong|luu tru|o dau (tot|re|dep|gan|ngon|on|hop)|nen o)\b/.test(A.fold(q))) {
+      var vq = q.replace(/\s*(nằm|nam)?\s*(ở|o)\s*(đâu|dau|chỗ nào|cho nao)\s*(vậy|vay|ạ|a|nhỉ|nhi)?\s*\??\s*$/i, "");
+      if (vq !== q) { var vi = A.isPlaceName(vq) ? null : A.findItem(vq, { kinds: ["place"] }); if (vi && vi.s >= 95 && !vi.ambiguous) I.intent = ""; }
+    }
     if (!I.from) { var fm = q.match(unmark(/(?:^|\s)(?:từ|tu)\s+(.{2,40}?)\s+(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s/i, q)) || q.match(unmark(/(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa)|\?|$)/i, q));
       if (fm) { var fe = entOf(fm[1]), fn = fe.area ? fe.area.name : fe.prov ? (fe.prov.alias ? fm[1].trim() : fe.prov.prov.name) : ""; if (fn) { I.from = "o"; A.setFrom(fn); if (!I.intent) I.intent = "diden"; } } }
     /* "từ A đi B", "đi B từ A": nơi cần trả lời là B, A chỉ là nơi xuất phát */
     var qd = destPart(q);
     var rest = A.rest(qd), f = A.fold(q), res = null;
     var useCtx = !(opt && opt.noCtx);
-    res = route(qd, I, rest, null);
+    /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
+    var gy = A.laGoiY ? A.laGoiY(q, null) : null;
+    if (gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
+    /* câu nêu đích danh 1 quán, chỗ ở, điểm nhỏ mà app chưa có trang, nhưng kho học có (ai/kho-them.js) */
+    if (!res) { var kt = A.khoThem(qd); if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
+    /* câu hỏi giới thiệu, lịch sử 1 địa danh */
+    if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
+    if (!res) res = route(qd, I, rest, null);
     if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
       var last = A.ctx.last(), E = fromCtx(last);
       if (E && (E.item || E.area || E.isle || E.prov)) { res = route(q, I, "", E); if (res) res.followed = true; }
@@ -177,24 +190,20 @@
     res.ent = ent; res.intent = I.intent; res.ms = Date.now() - t0;
     return res;
   };
-  /* Engine mới (ai/ai-loader.js) chỉ trả lời khi engine cũ không có câu trả lời (fallback) và engine mới tự tin.
-     Hỏi engine mới trước làm sai câu theo khu/đảo (Phú Quốc, Quy Nhơn, Cát Bà, Kỳ Co trả về dữ liệu cả tỉnh):
-     CI 23/11/2026, tests/trinh-duyet.mjs "23 câu trợ lý trong báo cáo 1.014". */
+  /* Một luồng duy nhất. Engine TF-IDF/Naive Bayes học trước đã gỡ khỏi app 24/11/2026 (làm hỏng 38 câu, cứu 2);
+     mã và kho của nó ở tools/buitrip-ai/, kho dùng làm nguồn đoạn giới thiệu (boi-canh.js). */
   A.ask = function (q, opt) {
-    var t0 = Date.now(), r = askCu(q, opt);
-    if (r && r.kind === "fallback" && window.__btaiNew) {
-      try {
-        var nr = window.__btaiNew.ask(String(q == null ? "" : q).trim());
-        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3) {
-          var nres = newAnswer(nr, q, t0);
-          if (nres) {
-            if (!(opt && opt.noCtx)) A.ctx.push({ q: q, intent: nr.intent, ent: nres.ent });
-            return nres;
-          }
-        }
-      } catch (e) {}
+    var t0 = Date.now(), r;
+    /* sửa người dùng đã lưu trên máy này (ai-loader.js): hỏi lại đúng câu đó thì hiểu theo nơi đã sửa */
+    var sua = !(opt && opt.noSua) && typeof window.btAiSua === "function" ? window.btAiSua(q) : null;
+    if (sua && A.fold(q).indexOf(A.fold(sua.ten)) < 0) {
+      r = askCu(String(q).replace(/[?.!\s]+$/, "") + " " + sua.ten, opt);
+      if (r && r.kind !== "fallback") {
+        r.html = '<p class="small">Theo sửa bạn đã lưu trên máy này, "' + A.esc(sua.cum) + '" là ' + A.esc(sua.ten) + '. <button class="btn btn-ghost" type="button" data-cum="' + A.esc(sua.cum) + '" onclick="btAiQuen(this)">Quên sửa này</button></p>' + r.html;
+        return r;
+      }
     }
-    return r;
+    return askCu(q, opt);
   };
   window.askBuiTrip = function (q, opt) { return A.ask(q, opt); };
   /* nút trong câu trả lời */
