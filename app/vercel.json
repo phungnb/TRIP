@@ -34,5 +34,16 @@
         }
       ]
     }
-  ]
+  ],
+  "crons": [
+    {
+      "path": "/api/hoc-ngay",
+      "schedule": "0 20 * * *"
+    }
+  ],
+  "functions": {
+    "api/hoc-ngay.js": {
+      "maxDuration": 30
+    }
+  }
 }

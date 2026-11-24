@@ -6,7 +6,7 @@
    Mã mục: địa danh / món / chỗ ở theo id; tuyến đi đến "sg:0" (nơi đi:thứ tự); đi lại trong tỉnh "0" (thứ tự). */
 (function () {
   if (typeof PROV_DATA === "undefined") return;
-  var KEY = "bt_du_lieu_sua", API = "/api/du-lieu";
+  var KEY = "bt_du_lieu_sua", KEY_DAY = "bt_bai_day", API = "/api/du-lieu";
   var BASE = {};   /* "prov|kind|from" -> { arr, items: [đối tượng gốc], snap: [bản chép nội dung gốc] } */
   var SIG = "";
   function clone(o) { return JSON.parse(JSON.stringify(o)); }
@@ -87,16 +87,28 @@
     try { document.dispatchEvent(new CustomEvent("bt:du-lieu", { detail: { n: rows.length } })); } catch (e) {}
     return true;
   }
+  /* Bài admin dạy trợ lý (ai_lessons, thẻ "Định hướng học"): window.BT_DAY, ai/bai-day.js đọc lúc trả lời */
+  var SIG_DAY = "";
+  function useDay(ai, save) {
+    ai = Array.isArray(ai) ? ai.filter(function (x) { return x && x.kind && x.data && typeof x.data === "object"; }) : [];
+    var s = JSON.stringify(ai); if (s === SIG_DAY) return false;
+    SIG_DAY = s; window.BT_DAY = ai;
+    if (save) { try { localStorage.setItem(KEY_DAY, s); } catch (e) {} }
+    try { document.dispatchEvent(new CustomEvent("bt:bai-day", { detail: { n: ai.length } })); } catch (e) {}
+    return true;
+  }
+  try { useDay(JSON.parse(localStorage.getItem(KEY_DAY) || "[]"), false); } catch (e) { window.BT_DAY = []; }
   /* tải bản mới; fresh = bỏ qua bộ đệm CDN (admin vừa lưu) */
   function refresh(fresh) {
     if (typeof fetch !== "function") return Promise.resolve(false);
     return fetch(API + (fresh ? "?t=" + Date.now() : ""), { cache: fresh ? "no-store" : "default" })
       .then(function (r) { if (!r.ok) throw new Error("du-lieu " + r.status); return r.json(); })
-      .then(function (j) { return use(j && Array.isArray(j.items) ? j.items : [], true); })
+      .then(function (j) { if (j && Array.isArray(j.ai)) useDay(j.ai, true); return use(j && Array.isArray(j.items) ? j.items : [], true); })
       .catch(function () { return false; });
   }
   window.BTSua = {
     apply: function (rows) { return use(rows, false); },
+    day: function (ai) { return useDay(ai, true); },
     refresh: refresh,
     /* admin vừa lưu 1 dòng: áp ngay trên máy này, không chờ mạng */
     put: function (row) {

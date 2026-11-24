@@ -25,6 +25,17 @@ Trợ lý chạy hoàn toàn trên máy người dùng. "Học" ở đây là: g
 
 `cd tests && npm run hoc`: tạo nhật ký giả lập gõ sai, đạt khi đề xuất đúng tên ≥ 90%, áp vào sửa được ≥ 80%, có đề xuất cho ≥ 60% câu trượt.
 
+## Admin định hướng nội dung học (trang admin, thẻ "Định hướng học")
+
+Vòng học ở trên vẫn chạy như cũ. Thêm phần admin chỉ hướng, không cần dòng lệnh, không cần deploy:
+
+- **Chương trình học**: admin thêm địa danh hoặc chủ đề cần học, đặt ưu tiên, tạm dừng / học tiếp.
+- **Nguồn và hạn mức**: chọn nguồn được lấy (Wikipedia / Wikivoyage tiếng Việt, tiếng Anh) và số đoạn tối đa mỗi ngày (0–50, mặc định 10). Hạn mức kiểm ở server.
+- **Việc hằng ngày** `app/api/hoc-ngay.js` (Vercel Cron 3 giờ sáng, `app/vercel.json`): với mục đến hạn (mỗi mục tối đa 1 lần / 6 ngày), tìm bài khớp tên trên nguồn đã bật, lấy đoạn giới thiệu, ghi vào hàng chờ. Chỉ API công khai Wikimedia; không lấy giá, giờ, số điện thoại.
+- **Chờ duyệt**: admin đọc, sửa (dịch nếu là tiếng Anh), gắn vào địa danh / chủ đề rồi duyệt; từ chối cần lý do. Chỉ đoạn đã duyệt mới lên trợ lý.
+- **Dạy trực tiếp**: câu hỏi + trả lời, tên gọi khác của tỉnh, cách gõ sai. Tắt / bật lại từng bài.
+- Mọi thay đổi vào nhật ký trang admin. Server: `neon/005_dinh_huong_hoc.sql`. Trợ lý dùng bài qua `app/ai/bai-day.js`.
+
 ## Kiến thức mới từ Wikipedia
 
 Engine học trước (`tools/buitrip-ai/wiki_learn.py`, chạy hằng tuần bằng `wiki-weekly.sh`) gom phần bối cảnh Wikipedia vào `app/ai/kb.json`.

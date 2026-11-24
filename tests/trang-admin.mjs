@@ -33,8 +33,10 @@ async function moTrang(role, api) {
   /* /api/du-lieu: "db" = trả bản sửa đang có trong Neon giả của chính trang; "loi" = 503 (mất kết nối Neon); mảng = dữ liệu cố định */
   await ctx.route(/\/api\/du-lieu/, async r => {
     if (api === "loi") return r.fulfill({ status: 503, contentType: "application/json", body: '{"error":"x"}' });
+    if (api && api.items) return r.fulfill({ contentType: "application/json", body: JSON.stringify(api) });
     const items = Array.isArray(api) ? api : JSON.parse(await page.evaluate(() => JSON.stringify(Object.values((window.__NEON || { ov: {} }).ov)))).filter(Boolean);
-    r.fulfill({ contentType: "application/json", body: JSON.stringify({ items }) });
+    const ai = Array.isArray(api) ? [] : JSON.parse(await page.evaluate(() => JSON.stringify(((window.__NEON || {}).ai || { lessons: [] }).lessons.filter(l => l.active).map(l => ({ id: l.id, kind: l.kind, data: l.data })))));
+    r.fulfill({ contentType: "application/json", body: JSON.stringify({ items, ai }) });
   });
   await page.addInitScript(rl => { try { if (rl) { localStorage.setItem("mock_role", rl); localStorage.setItem("bt_signed", "1"); } } catch (e) {} }, role);
   await page.goto(BASE, { waitUntil: "load" });
@@ -103,7 +105,7 @@ try {
   await pa.reload({ waitUntil: "load" }); await pa.waitForTimeout(300);
   await pa.evaluate(() => { location.hash = "#/admin"; }); await pa.waitForTimeout(500);
   let ta = await pa.locator("#admView").innerText();
-  ok(/Duyệt đóng góp/.test(ta) && /Sửa dữ liệu/.test(ta) && /Nhật ký/.test(ta) && /Quản trị viên/.test(ta), "(2) Tài khoản admin mở được trang admin (4 thẻ)");
+  ok(/Duyệt đóng góp/.test(ta) && /Sửa dữ liệu/.test(ta) && /Nhật ký/.test(ta) && /Quản trị viên/.test(ta) && /Định hướng học/.test(ta), "(2) Tài khoản admin mở được trang admin (5 thẻ)");
   ok((ta.match(/Chờ duyệt/g) || []).length >= 7, "(2) Thấy 7 đóng góp chờ duyệt");
   /* lọc theo loại */
   await pa.selectOption("#admKind", "mon_moi"); await pa.waitForTimeout(200);
@@ -201,6 +203,47 @@ try {
   await pa.evaluate(() => btAdminTab("nk")); await pa.waitForTimeout(300);
   const q5 = await pa.locator("#admBody").innerText();
   ok(/Đang có 1 admin/.test(q4) && /Cấp quyền admin · user@thu\.local/.test(q5) && /Gỡ quyền admin · user@thu\.local/.test(q5), "Gỡ quyền admin 2 bước; nhật ký ghi cả cấp và gỡ");
+  /* định hướng học: chương trình học, nguồn + hạn mức, dạy trực tiếp, duyệt kiến thức */
+  const hoiTL = q => pa.evaluate(x => { const r = askBuiTrip(x, { noCtx: true, noSua: true }); return { kind: r.kind, t: r.html.replace(/<[^>]+>/g, " ") }; }, q);
+  const tlTruoc = await hoiTL("Có cho mang thú cưng không?");
+  await pa.evaluate(() => btAdminTab("hoc")); await pa.waitForTimeout(300);
+  const h1 = await pa.locator("#admBody").innerText();
+  ok(/Nguồn và hạn mức/.test(h1) && /Chương trình học/.test(h1) && /Chờ duyệt \(0\)/.test(h1) && /Dạy trực tiếp/.test(h1), "Thẻ Định hướng học: có nguồn + hạn mức, chương trình học, hàng chờ duyệt, dạy trực tiếp");
+  await pa.fill("#admCtTarget", "Hồ Hoàn Kiếm"); await pa.selectOption("#admCtProv", "ha-noi"); await pa.selectOption("#admCtPri", "1");
+  await pa.evaluate(() => btHocCt()); await pa.waitForTimeout(300);
+  const h2 = await pa.locator("#admBody").innerText();
+  const ctId = await pa.evaluate(() => window.__NEON.ai.agenda[0].id);
+  await pa.evaluate(id => btHocCtSt(id, "tam_dung"), ctId); await pa.waitForTimeout(300);
+  const h3 = await pa.locator("#admBody").innerText();
+  ok(/Hồ Hoàn Kiếm/.test(h2) && /Đang học/.test(h2) && /Tạm dừng/.test(h3) && /Học tiếp/.test(h3), "Thêm mục vào chương trình học, tạm dừng / học tiếp được");
+  await pa.fill("#admBudget", "7"); await pa.evaluate(() => { document.querySelector('.admSrc[value="wikivoyage_vi"]').checked = false; }); await pa.evaluate(() => btHocNguon()); await pa.waitForTimeout(300);
+  const st4 = await pa.evaluate(() => window.__NEON.ai.settings);
+  ok(st4.daily_budget === 7 && st4.sources.join() === "wikipedia_vi", "Lưu nguồn được lấy và hạn mức đoạn mỗi ngày");
+  await pa.fill("#admB_q", "Có cho mang thú cưng không?"); await pa.evaluate(() => btHocBaiLuu()); await pa.waitForTimeout(300);
+  const e5 = await pa.locator("#admBMsg").innerText().catch(() => "");
+  await pa.fill("#admB_a", "Tùy từng nơi, hỏi chỗ ở trước khi đặt phòng."); await pa.evaluate(() => btHocBaiLuu()); await pa.waitForTimeout(500);
+  const tlSau = await hoiTL("Có cho mang thú cưng không?");
+  ok(/Câu trả lời cần/.test(e5) && tlTruoc.kind !== "day" && tlSau.kind === "day" && /Tùy từng nơi/.test(tlSau.t), "Dạy trực tiếp câu hỏi + trả lời: thiếu câu trả lời bị chặn; lưu xong trợ lý trả ngay, không cần deploy");
+  await pa.evaluate(() => btHocBk("go_sai")); await pa.fill("#admB_sai", "đà lạc"); await pa.fill("#admB_dung", "đà lạt"); await pa.evaluate(() => btHocBaiLuu()); await pa.waitForTimeout(500);
+  const tlGo = await hoiTL("đà lạc tháng mấy đẹp");
+  ok(/Lâm Đồng|Đà Lạt/.test(tlGo.t) && tlGo.kind !== "fallback", "Dạy cách gõ sai (đà lạc -> đà lạt): trợ lý hiểu ngay");
+  await pa.evaluate(id => { window.__NEON.ai.cands.push({ id: 9001, agenda_id: id, source: "wikipedia_vi", title: "Hồ Hoàn Kiếm", url: "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ho%C3%A0n_Ki%E1%BA%BFm", excerpt: "Hồ Hoàn Kiếm là hồ nước ngọt ở trung tâm Hà Nội, đoạn thử lấy về.", status: "cho_duyet" }); }, ctId);
+  await pa.evaluate(() => btAdminTab("hoc")); await pa.waitForTimeout(300);
+  const h6 = await pa.locator("#admBody").innerText();
+  await pa.evaluate(() => btHocDuyet(0, "tu_choi")); await pa.waitForTimeout(200);
+  const conCho = await pa.evaluate(() => window.__NEON.ai.cands[0].status);
+  await pa.fill("#admCdT0", "Hồ Hoàn Kiếm là hồ nước ngọt ở trung tâm Hà Nội, đoạn admin đã sửa khi duyệt."); await pa.evaluate(() => btHocDuyet(0, "da_duyet")); await pa.waitForTimeout(500);
+  const tlKt = await hoiTL("giới thiệu Hồ Hoàn Kiếm");
+  ok(/Chờ duyệt \(1\)/.test(h6) && conCho === "cho_duyet" && /đoạn admin đã sửa khi duyệt/.test(tlKt.t) && /CC BY-SA/.test(tlKt.t), "Duyệt đoạn kiến thức lấy về (từ chối cần lý do; sửa đoạn trước khi duyệt): trợ lý dùng ngay, ghi giấy phép");
+  const baiThu = await pa.evaluate(() => window.__NEON.ai.lessons.filter(l => l.kind === "hoi_dap")[0].id);
+  await pa.evaluate(id => btHocBaiBat(id, false), baiThu); await pa.waitForTimeout(500);
+  const tlTat = await hoiTL("Có cho mang thú cưng không?");
+  await pa.evaluate(id => btHocBaiBat(id, true), baiThu); await pa.waitForTimeout(500);
+  ok(tlTat.kind !== "day", "Tắt bài dạy: trợ lý thôi dùng bài đó ngay");
+  await pa.evaluate(() => btAdminTab("nk")); await pa.waitForTimeout(300);
+  const h7 = await pa.locator("#admBody").innerText();
+  ok(/Định hướng học · Thêm/.test(h7) && /Định hướng học · Sửa/.test(h7), "Nhật ký ghi các thay đổi định hướng học");
+  const baiDay = JSON.parse(await pa.evaluate(() => JSON.stringify(window.__NEON.ai.lessons.filter(l => l.active).map(l => ({ id: l.id, kind: l.kind, data: l.data })))));
   ok(A.err.length === 0, "Trang admin không lỗi JavaScript" + (A.err.length ? ": " + A.err[0] : ""));
   const banSua = JSON.parse(await pa.evaluate(() => JSON.stringify(Object.values(window.__NEON.ov))));
   await A.ctx.close();
@@ -213,11 +256,13 @@ try {
   await D.ctx.close();
 
   /* ---------- Máy khác mở app: nhận bản sửa qua /api/du-lieu ---------- */
-  const B = await moTrang("", banSua);
+  const B = await moTrang("", { items: banSua, ai: baiDay });
   await B.page.waitForTimeout(1500);
   const giaB = await B.page.evaluate(([q, i]) => PROV_DATA.find(p => p.id === q).places.find(x => x.id === i).price, [QN, place]);
   const monB = await B.page.evaluate(q => PROV_DATA.find(p => p.id === q).dishes.some(x => /Chả mực thử admin/.test(x.name)), QN);
   ok(/999\.000đ/.test(giaB) && monB, "Máy khác (không đăng nhập) mở app: nhận giá mới và món mới từ /api/du-lieu");
+  const tlB = await B.page.evaluate(() => { const r = askBuiTrip("Có cho mang thú cưng không?", { noCtx: true, noSua: true }); return r.kind + " " + r.html; });
+  ok(/^day /.test(tlB) && /Tùy từng nơi/.test(tlB), "Máy khác: trợ lý dùng bài admin dạy (nhận qua /api/du-lieu)");
   await B.ctx.close();
 
   /* ---------- 7. Lỗi kết nối Neon: app chạy bằng file tĩnh ---------- */

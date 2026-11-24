@@ -41,7 +41,7 @@
     return v;
   }
   function frame(body) {
-    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["nk", "Nhật ký"], ["qtv", "Quản trị viên"]];
+    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["hoc", "Định hướng học"], ["nk", "Nhật ký"], ["qtv", "Quản trị viên"]];
     root().innerHTML = '<div class="adm-in"><div class="adm-top"><h2 id="admTitle">Trang admin</h2><button class="btn btn-ghost" onclick="btAdminClose()">Đóng</button></div>' +
       '<div class="chiprow chiprow-scroll adm-tabs">' + tabs.map(function (t) { return '<button class="chip' + (tab === t[0] ? " on" : "") + '" onclick="btAdminTab(\'' + t[0] + '\')">' + t[1] + '</button>'; }).join("") + '</div>' +
       '<div id="admBody">' + body + '</div></div>';
@@ -67,7 +67,7 @@
     if (location.hash === "#/admin") history.replaceState(null, "", location.pathname + location.search);
   };
   window.btAdminTab = function (t) { tab = t; frame(""); show(); };
-  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else if (tab === "qtv") listAdmins(); else listAudit(); }
+  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else if (tab === "qtv") listAdmins(); else if (tab === "hoc") listHoc(); else listAudit(); }
 
   /* bản sửa hiện có (kể cả mục ẩn, đã xóa) */
   function loadOv() {
@@ -337,6 +337,7 @@
     if (!L || !L.length) return '<p class="muted">Chưa có thay đổi nào.</p>';
     return '<div class="dg-list">' + L.map(function (a) {
       var p = provById(a.prov_id), canRevert = (a.field && a.action !== "nhap_dong_gop") || a.action === "an" || a.action === "hien" || a.action === "xoa";
+      if (a.kind === "tro_ly") return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + '</p><p><b>Định hướng học · ' + esc(ACT[a.action] || a.action) + '</b> <code>' + esc(a.item_id) + '</code></p>' + (a.old_value != null ? '<p class="small">' + esc(shortV(a.old_value)) + ' → ' + esc(shortV(a.new_value)) + '</p>' : a.new_value != null ? '<p class="small">' + esc(shortV(a.new_value)) + '</p>' : '') + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') + '</div>';
       if (a.kind === "admin") return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + '</p><p><b>' + esc(ACT[a.action] || a.action) + '</b> · ' + esc(shortV(a.new_value != null ? a.new_value : a.old_value)) + '</p>' + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') + '</div>';
       return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + (a.by_email && a.by_name ? ' &lt;' + esc(a.by_email) + '&gt;' : '') + '</p>' +
         '<p><b>' + esc(ACT[a.action] || a.action) + '</b>' + (compact ? '' : ' · ' + esc(KIND_LBL[a.kind] || a.kind) + ' <code>' + esc(a.item_id) + '</code> · ' + esc(p ? p.name : a.prov_id)) + (a.field ? ' · trường <code>' + esc(a.field) + '</code>' : '') + '</p>' +
@@ -354,6 +355,126 @@
         if (window.BTSua) { var all = Object.keys(rowsOv).map(function (k) { return rowsOv[k]; }); BTSua.apply(all); BTSua.refresh(true); }
         toast_("Đã quay lại"); if (ED && tab === "sua" && document.getElementById("admItemLog")) editor(ED.provId, ED.kind, ED.from, ED.id, !!(ED.r && ED.r.is_new), null, null); else listAudit();
       });
+    }).catch(function (e) { toast_(errMsg(e)); });
+  };
+
+  /* ================= Định hướng học (trợ lý) =================
+     Trợ lý vẫn tự học như cũ. Ở đây admin: chọn nguồn + hạn mức trang/ngày, đặt chương trình học (địa danh, chủ đề),
+     duyệt đoạn kiến thức việc hằng ngày lấy về, và dạy trực tiếp (hỏi đáp, tên gọi khác, cách gõ sai). Server: neon/005_dinh_huong_hoc.sql */
+  var NGUON = [["wikipedia_vi", "Wikipedia tiếng Việt"], ["wikivoyage_vi", "Wikivoyage tiếng Việt"], ["wikipedia_en", "Wikipedia tiếng Anh"], ["wikivoyage_en", "Wikivoyage tiếng Anh"]];
+  var CT_ST = [["dang_hoc", "Đang học"], ["tam_dung", "Tạm dừng"], ["xong", "Xong"]];
+  var BAI = { hoi_dap: ["Hỏi đáp", [["q", "Câu hỏi người dùng hay gõ"], ["a", "Câu trả lời", "dai"], ["prov_id", "Tỉnh liên quan (không bắt buộc)", "tinh"]]],
+    ten_goi: ["Tên gọi khác của tỉnh", [["ten", "Tên gọi khác (vd: thành phố ngàn hoa)"], ["prov_id", "Tỉnh", "tinh"], ["ten_cu", "Tên tỉnh cũ (không bắt buộc)"]]],
+    go_sai: ["Cách gõ sai", [["sai", "Cách gõ sai hay gặp"], ["dung", "Tên đúng"]]],
+    kien_thuc: ["Kiến thức đã duyệt", [["ten", "Gắn vào địa danh / chủ đề"], ["prov_id", "Tỉnh", "tinh"], ["t", "Đoạn kiến thức", "dai"], ["bai", "Tên bài nguồn"], ["url", "Link nguồn"]]] };
+  var hoc = { lessons: [], bk: "hoi_dap", sua: null };
+  function tinhSel(id, val) { return '<select id="' + id + '"><option value="">(không chọn)</option>' + PROV_DATA.map(function (x) { return '<option value="' + x.id + '"' + (x.id === val ? " selected" : "") + '>' + esc(x.name) + '</option>'; }).join("") + '</select>'; }
+  function lbl2(arr, k) { for (var i = 0; i < arr.length; i++) if (arr[i][0] === k) return arr[i][1]; return k || ""; }
+  /* áp bài dạy mới ngay trên máy admin (máy khác nhận qua /api/du-lieu) */
+  function apDay() { if (window.BTSua && BTSua.day) BTSua.day(hoc.lessons.filter(function (l) { return l.active; }).map(function (l) { return { id: l.id, kind: l.kind, data: l.data }; })); if (window.BTSua) BTSua.refresh(true); }
+  function listHoc() {
+    loading();
+    Promise.all([rpc("admin_ai_state"), rpc("admin_ai_candidates", { p_status: "cho_duyet", p_agenda: null }), rpc("admin_ai_lessons")]).then(function (r) {
+      var S = r[0] || {}, s = S.settings || {}, C = r[1] || [], Lx = r[2] || [];
+      hoc.lessons = Lx;
+      var h = '<p class="small">Trợ lý vẫn tự học như cũ (nhớ câu người dùng sửa, đề xuất cách gõ từ góp ý). Ở đây bạn định hướng: chọn nội dung cần học, nguồn được lấy, duyệt kiến thức trước khi lên app, và dạy trực tiếp. Bài dạy áp ngay, không cần deploy.</p>';
+      /* 1. nguồn + hạn mức */
+      h += '<h3>Nguồn và hạn mức</h3><div class="notebox"><label class="small"><input type="checkbox" id="admHocOn"' + (s.enabled ? " checked" : "") + '> Cho phép tự lấy dữ liệu hằng ngày</label>' +
+        '<div class="adm-src">' + NGUON.map(function (n) { return '<label class="small"><input type="checkbox" class="admSrc" value="' + n[0] + '"' + ((s.sources || []).indexOf(n[0]) >= 0 ? " checked" : "") + '> ' + n[1] + '</label>'; }).join("") + '</div>' +
+        '<div class="field"><label for="admBudget">Tối đa số đoạn lấy mỗi ngày (0–50)</label><input id="admBudget" type="number" min="0" max="50" value="' + esc(s.daily_budget) + '"></div>' +
+        '<p class="small">Hôm nay đã lấy ' + esc(S.today || 0) + '/' + esc(s.daily_budget) + ' đoạn. Chỉ dùng API công khai của Wikimedia; không lấy giá, giờ, số điện thoại. Đoạn lấy về phải được duyệt mới lên app.</p>' +
+        '<button class="btn btn-ghost" onclick="btHocNguon()">Lưu nguồn và hạn mức</button></div>';
+      /* 2. chương trình học */
+      var AG = S.agenda || [];
+      h += '<h3>Chương trình học</h3><div class="notebox"><div class="adm-filt"><div class="field"><label for="admCtKind">Loại</label><select id="admCtKind"><option value="dia_danh">Địa danh</option><option value="chu_de">Chủ đề (lễ hội, nghề, món…)</option></select></div>' +
+        '<div class="field"><label for="admCtTarget">Cần học về</label><input id="admCtTarget" maxlength="160" placeholder="vd: Chùa Một Cột"></div>' +
+        '<div class="field"><label for="admCtProv">Tỉnh</label>' + tinhSel("admCtProv", "") + '</div>' +
+        '<div class="field"><label for="admCtPri">Ưu tiên</label><select id="admCtPri"><option value="1">Cao</option><option value="2" selected>Vừa</option><option value="3">Thấp</option></select></div></div>' +
+        '<div class="field"><label for="admCtNote">Ghi chú (không bắt buộc)</label><input id="admCtNote" maxlength="500"></div>' +
+        '<button class="btn btn-primary" onclick="btHocCt()">Thêm vào chương trình học</button></div>' +
+        (AG.length ? '<div class="dg-list">' + AG.map(function (g) {
+          return '<div class="dg-item"><div class="dg-top"><b>' + esc(g.target) + '</b><span class="dg-st">' + esc(lbl2(CT_ST, g.status)) + '</span></div>' +
+            '<p class="small">' + (g.kind === "chu_de" ? "Chủ đề" : "Địa danh") + (g.prov_id ? ' · ' + esc((provById(g.prov_id) || {}).name || g.prov_id) : '') + ' · ưu tiên ' + ["", "cao", "vừa", "thấp"][g.priority] + ' · đã chạy ' + g.runs + ' lần' + (g.last_run_at ? ', gần nhất ' + esc(DG().fmtTime(g.last_run_at)) : ', chưa chạy') + ' · chờ duyệt ' + g.cho + ' · đã duyệt ' + g.duyet + '</p>' +
+            (g.note ? '<p class="small">Ghi chú: ' + esc(g.note) + '</p>' : '') +
+            '<div class="dg-acts">' + CT_ST.filter(function (t) { return t[0] !== g.status; }).map(function (t) { return '<button class="btn btn-ghost" onclick="btHocCtSt(' + g.id + ',\'' + t[0] + '\')">' + (t[0] === "dang_hoc" ? "Học tiếp" : t[1]) + '</button>'; }).join("") + '</div></div>';
+        }).join("") + '</div>' : '<p class="muted">Chưa có mục nào. Thêm địa danh hoặc chủ đề bạn muốn trợ lý học.</p>');
+      hoc.ag = AG;
+      /* 3. hàng chờ duyệt */
+      hoc.c = C;
+      h += '<h3>Chờ duyệt (' + C.length + ')</h3>' + (C.length ? '<div class="dg-list">' + C.map(function (c, i) {
+        return '<div class="dg-item"><p><b>' + esc(c.target) + '</b> · ' + esc(lbl2(NGUON, c.source)) + ' · bài <a href="' + esc(c.url) + '" target="_blank" rel="noopener nofollow">' + esc(c.title) + '</a></p>' +
+          '<div class="field"><label for="admCdTen' + i + '">Gắn vào địa danh / chủ đề</label><input id="admCdTen' + i + '" maxlength="160" value="' + esc(c.target) + '"></div>' +
+          '<div class="field"><label for="admCdT' + i + '">Đoạn kiến thức (sửa được trước khi duyệt; đoạn tiếng Anh nên dịch)</label><textarea id="admCdT' + i + '" rows="5" maxlength="2000">' + esc(c.excerpt) + '</textarea></div>' +
+          '<div class="field"><label for="admCdNote' + i + '">Lý do (bắt buộc khi từ chối)</label><input id="admCdNote' + i + '" maxlength="500"></div>' +
+          '<div class="dg-acts"><button class="btn btn-ghost" onclick="btHocDuyet(' + i + ',\'tu_choi\')">Từ chối</button><button class="btn btn-primary" onclick="btHocDuyet(' + i + ',\'da_duyet\')">Duyệt, cho trợ lý dùng</button></div></div>';
+      }).join("") + '</div>' : '<p class="muted">Không có đoạn nào chờ duyệt. Việc tự lấy chạy mỗi ngày lúc 3 giờ sáng.</p>');
+      /* 4. dạy trực tiếp */
+      h += '<h3>Dạy trực tiếp</h3><div class="notebox" id="admBaiForm"></div>' +
+        '<h4>Bài đã dạy (' + Lx.length + ')</h4>' + (Lx.length ? '<div class="dg-list">' + Lx.map(function (l) {
+          var d = l.data || {}, tt = l.kind === "hoi_dap" ? d.q : l.kind === "ten_goi" ? d.ten + " → " + ((provById(d.prov_id) || {}).name || d.prov_id) : l.kind === "go_sai" ? d.sai + " → " + d.dung : d.ten;
+          var sub = l.kind === "hoi_dap" ? d.a : l.kind === "kien_thuc" ? d.t : "";
+          return '<div class="dg-item"><div class="dg-top"><b>' + esc(tt) + '</b><span class="dg-st">' + esc(BAI[l.kind][0]) + (l.active ? "" : " · đang tắt") + '</span></div>' + (sub ? '<p class="small">' + esc(String(sub).slice(0, 220)) + (String(sub).length > 220 ? "…" : "") + '</p>' : '') +
+            '<div class="dg-acts"><button class="btn btn-ghost" onclick="btHocBaiSua(' + l.id + ')">Sửa</button><button class="btn btn-ghost" onclick="btHocBaiBat(' + l.id + ',' + (!l.active) + ')">' + (l.active ? "Tắt" : "Bật lại") + '</button></div></div>';
+        }).join("") + '</div>' : '<p class="muted">Chưa có bài nào.</p>');
+      body(h); baiForm();
+    }).catch(fail);
+  }
+  function baiForm() {
+    var el = document.getElementById("admBaiForm"); if (!el) return;
+    var L0 = hoc.sua ? hoc.lessons.filter(function (l) { return l.id === hoc.sua; })[0] : null, k = L0 ? L0.kind : hoc.bk, d = L0 ? L0.data : {};
+    el.innerHTML = (L0 ? '<p class="small"><b>Đang sửa bài #' + L0.id + '</b> · <button class="btn btn-ghost" onclick="btHocBaiMoi()">Thôi, dạy bài mới</button></p>' :
+      '<div class="field"><label for="admBk">Loại bài</label><select id="admBk" onchange="btHocBk(this.value)">' + ["hoi_dap", "ten_goi", "go_sai"].map(function (x) { return '<option value="' + x + '"' + (x === k ? " selected" : "") + '>' + BAI[x][0] + '</option>'; }).join("") + '</select></div>') +
+      BAI[k][1].map(function (f) {
+        var id = "admB_" + f[0], v = d[f[0]] || "";
+        return '<div class="field"><label for="' + id + '">' + esc(f[1]) + '</label>' + (f[2] === "tinh" ? tinhSel(id, v) : f[2] === "dai" ? '<textarea id="' + id + '" rows="4" maxlength="2000">' + esc(v) + '</textarea>' : '<input id="' + id + '" maxlength="200" value="' + esc(v) + '">') + '</div>';
+      }).join("") +
+      (k === "hoi_dap" ? '<p class="small">Viết câu trả lời bằng dữ liệu đã kiểm; không ghi giá, giờ khi chưa kiểm được. Trợ lý trả câu này khi người dùng hỏi gần đúng câu hỏi trên.</p>' : '') +
+      '<div id="admBMsg"></div><button class="btn btn-primary" onclick="btHocBaiLuu()">' + (L0 ? "Lưu bài" : "Dạy trợ lý") + '</button>';
+  }
+  window.btHocBk = function (k) { hoc.bk = k; baiForm(); };
+  window.btHocBaiMoi = function () { hoc.sua = null; baiForm(); };
+  window.btHocBaiSua = function (id) { hoc.sua = id; baiForm(); var el = document.getElementById("admBaiForm"); if (el && el.scrollIntoView) el.scrollIntoView({ block: "start" }); };
+  window.btHocBaiLuu = function () {
+    var L0 = hoc.sua ? hoc.lessons.filter(function (l) { return l.id === hoc.sua; })[0] : null, k = L0 ? L0.kind : hoc.bk, d = {};
+    if (L0) Object.keys(L0.data || {}).forEach(function (x) { d[x] = L0.data[x]; });
+    BAI[k][1].forEach(function (f) { var el = document.getElementById("admB_" + f[0]); if (el) d[f[0]] = String(el.value || "").trim(); });
+    rpc("admin_ai_lesson_save", { p_id: L0 ? L0.id : null, p_kind: k, p_data: d, p_active: L0 ? L0.active : true, p_note: null }).then(function () {
+      hoc.sua = null; toast_(L0 ? "Đã lưu bài" : "Đã dạy trợ lý");
+      return rpc("admin_ai_lessons").then(function (Lx) { hoc.lessons = Lx || []; apDay(); listHoc(); });
+    }).catch(function (e) { var m = document.getElementById("admBMsg"); if (m) m.innerHTML = '<p class="dg-err" role="alert">' + esc(errMsg(e)) + '</p>'; });
+  };
+  window.btHocBaiBat = function (id, on) {
+    var l = hoc.lessons.filter(function (x) { return x.id === id; })[0]; if (!l) return;
+    rpc("admin_ai_lesson_save", { p_id: id, p_kind: l.kind, p_data: l.data, p_active: on, p_note: on ? "Bật lại" : "Tắt" }).then(function () {
+      return rpc("admin_ai_lessons").then(function (Lx) { hoc.lessons = Lx || []; apDay(); toast_(on ? "Đã bật lại" : "Đã tắt bài"); listHoc(); });
+    }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  window.btHocNguon = function () {
+    var src = [].slice.call(document.querySelectorAll(".admSrc")).filter(function (c) { return c.checked; }).map(function (c) { return c.value; });
+    var b = Number((document.getElementById("admBudget") || {}).value), on = !!(document.getElementById("admHocOn") || {}).checked;
+    if (!(b >= 0 && b <= 50)) return toast_("Hạn mức 0–50");
+    rpc("admin_ai_settings", { p_enabled: on, p_sources: src, p_budget: Math.round(b) }).then(function () { toast_("Đã lưu nguồn và hạn mức"); listHoc(); }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  window.btHocCt = function () {
+    var t = (document.getElementById("admCtTarget").value || "").trim();
+    if (t.length < 2) return toast_("Ghi nội dung cần học");
+    rpc("admin_ai_agenda_save", { p_id: null, p_kind: document.getElementById("admCtKind").value, p_target: t, p_prov: document.getElementById("admCtProv").value || null,
+      p_priority: +document.getElementById("admCtPri").value, p_status: "dang_hoc", p_note: (document.getElementById("admCtNote").value || "").trim() || null })
+      .then(function () { toast_("Đã thêm vào chương trình học"); listHoc(); }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  window.btHocCtSt = function (id, status) {
+    var g = (hoc.ag || []).filter(function (x) { return x.id === id; })[0]; if (!g) return;
+    rpc("admin_ai_agenda_save", { p_id: id, p_kind: g.kind, p_target: g.target, p_prov: g.prov_id, p_priority: g.priority, p_status: status, p_note: g.note })
+      .then(function () { toast_(lbl2(CT_ST, status)); listHoc(); }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  window.btHocDuyet = function (i, status) {
+    var c = hoc.c && hoc.c[i]; if (!c) return;
+    var note = ((document.getElementById("admCdNote" + i) || {}).value || "").trim();
+    if (status === "tu_choi" && note.length < 3) return toast_("Từ chối cần ghi lý do");
+    rpc("admin_ai_review", { p_id: c.id, p_status: status, p_ten: ((document.getElementById("admCdTen" + i) || {}).value || "").trim() || null,
+      p_text: ((document.getElementById("admCdT" + i) || {}).value || "").trim() || null, p_note: note || null }).then(function () {
+      if (status !== "da_duyet") { toast_("Đã từ chối"); return listHoc(); }
+      return rpc("admin_ai_lessons").then(function (Lx) { hoc.lessons = Lx || []; apDay(); toast_("Đã duyệt, trợ lý dùng ngay"); listHoc(); });
     }).catch(function (e) { toast_(errMsg(e)); });
   };
 

@@ -2,7 +2,8 @@
    Mô phỏng đúng hợp đồng RPC của neon/003_admin_du_lieu.sql (quyền admin, nhập đóng góp, nhật ký, hoàn tác, giới hạn 30/24 giờ)
    để kiểm GIAO DIỆN. Luật thật ở server đã kiểm riêng bằng SQL trên nhánh Neon. Vai: localStorage "mock_role" = admin | user. */
 (function () {
-  var S = window.__NEON = window.__NEON || { contribs: [], ov: {}, audit: [], n: 0, admins: ["u-admin"] };
+  var S = window.__NEON = window.__NEON || { contribs: [], ov: {}, audit: [], n: 0, admins: ["u-admin"], ai: null };
+  function aiInit() { if (!S.ai) S.ai = { settings: { id: 1, enabled: true, sources: ["wikipedia_vi", "wikivoyage_vi"], daily_budget: 10 }, agenda: [], cands: [], lessons: [] }; return S.ai; }
   var USERS = { "u-admin": { name: "Admin Thử", email: "admin@thu.local" }, "u-user": { name: "Người Thử", email: "user@thu.local" } };
   function role() { try { return localStorage.getItem("mock_role") || ""; } catch (e) { return ""; } }
   function user() { var r = role(); return r ? { id: "u-" + r, name: r === "admin" ? "Admin Thử" : "Người Thử", email: r + "@thu.local" } : null; }
@@ -12,7 +13,7 @@
   function key(p, k, i) { return p + "|" + k + "|" + i; }
   function aud(a) { a.id = ++S.n; a.at = new Date().toISOString(); a.by_name = user().name; a.by_email = user().email; S.audit.unshift(a); }
   function save() { try { localStorage.setItem("mock_neon", JSON.stringify(S)); } catch (e) {} }
-  try { var j = JSON.parse(localStorage.getItem("mock_neon") || "null"); if (j) { S.contribs = j.contribs; S.ov = j.ov; S.audit = j.audit; S.n = j.n; S.admins = j.admins || S.admins; } } catch (e) {}
+  try { var j = JSON.parse(localStorage.getItem("mock_neon") || "null"); if (j) { S.contribs = j.contribs; S.ov = j.ov; S.audit = j.audit; S.n = j.n; S.admins = j.admins || S.admins; S.ai = j.ai || null; } } catch (e) {}
   var RPC = {
     is_admin: function () { return ok(admin()); },
     admin_contributions: function (a) { return ok(S.contribs.filter(function (c) { return !a.p_status || c.status === a.p_status; }).map(function (c) { return Object.assign({ author_name: "Người Thử", author_email: "user@thu.local" }, c); })); },
@@ -51,6 +52,36 @@
     },
     admin_audit: function (a) { return ok(S.audit.filter(function (x) { return (!a.p_prov || x.prov_id === a.p_prov) && (!a.p_kind || x.kind === a.p_kind) && (!a.p_item || x.item_id === a.p_item); })); },
     admin_support: function () { return ok([]); },
+    admin_ai_state: function () { var X = aiInit(); return ok({ settings: X.settings, today: X.cands.length, lessons: X.lessons.filter(function (l) { return l.active; }).length,
+      agenda: X.agenda.map(function (g) { return Object.assign({}, g, { cho: X.cands.filter(function (c) { return c.agenda_id === g.id && c.status === "cho_duyet"; }).length, duyet: X.cands.filter(function (c) { return c.agenda_id === g.id && c.status === "da_duyet"; }).length }); }) }); },
+    admin_ai_settings: function (a) { var X = aiInit(); if (!(a.p_budget >= 0 && a.p_budget <= 50)) return no("Hạn mức 0–50 trang mỗi ngày"); X.settings = { id: 1, enabled: !!a.p_enabled, sources: a.p_sources, daily_budget: a.p_budget }; aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "nguon", action: "sua", new_value: X.settings }); save(); return ok(null); },
+    admin_ai_agenda_save: function (a) {
+      var X = aiInit(); if (String(a.p_target || "").trim().length < 2) return no("Nội dung cần học cần 2–160 ký tự");
+      if (!a.p_id) { var g = { id: ++S.n, kind: a.p_kind, target: a.p_target.trim(), prov_id: a.p_prov || null, priority: a.p_priority || 2, status: a.p_status, note: a.p_note, runs: 0, last_run_at: null }; X.agenda.push(g); aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "ct-" + g.id, action: "them", new_value: { target: g.target } }); save(); return ok(g.id); }
+      var o = X.agenda.filter(function (x) { return x.id === a.p_id; })[0]; if (!o) return no("Không thấy mục học");
+      aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "ct-" + o.id, action: "sua", old_value: { status: o.status }, new_value: { status: a.p_status } });
+      Object.assign(o, { kind: a.p_kind, target: a.p_target, prov_id: a.p_prov || null, priority: a.p_priority, status: a.p_status, note: a.p_note }); save(); return ok(o.id);
+    },
+    admin_ai_candidates: function (a) { var X = aiInit(); return ok(X.cands.filter(function (c) { return !a.p_status || c.status === a.p_status; }).map(function (c) { var g = X.agenda.filter(function (x) { return x.id === c.agenda_id; })[0] || {}; return Object.assign({ target: g.target, prov_id: g.prov_id }, c); })); },
+    admin_ai_review: function (a) {
+      var X = aiInit(), c = X.cands.filter(function (x) { return x.id === a.p_id; })[0]; if (!c) return no("Không thấy mục chờ duyệt"); if (c.status !== "cho_duyet") return no("Mục này đã được xử lý");
+      var g = X.agenda.filter(function (x) { return x.id === c.agenda_id; })[0] || {};
+      if (a.p_status === "tu_choi") { if (String(a.p_note || "").trim().length < 3) return no("Từ chối cần ghi lý do"); c.status = "tu_choi"; save(); return ok(null); }
+      var d = { ten: a.p_ten || g.target, prov_id: g.prov_id || "", bai: c.title, t: a.p_text || c.excerpt, nguon: c.source, url: c.url };
+      var l = { id: ++S.n, kind: "kien_thuc", data: d, active: true, candidate_id: c.id }; X.lessons.unshift(l); c.status = "da_duyet";
+      aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "bai-" + l.id, action: "them", new_value: d }); save(); return ok(l.id);
+    },
+    admin_ai_lessons: function () { return ok(aiInit().lessons.slice()); },
+    admin_ai_lesson_save: function (a) {
+      var X = aiInit(), d = {}; Object.keys(a.p_data || {}).forEach(function (k) { var v = String(a.p_data[k] || "").trim(); if (v) d[k] = v; });
+      if (a.p_kind === "hoi_dap" && (!(d.q && d.q.length >= 4) || !(d.a && d.a.length >= 4))) return no(!(d.q && d.q.length >= 4) ? "Câu hỏi cần 4–200 ký tự" : "Câu trả lời cần 4–1500 ký tự");
+      if (a.p_kind === "ten_goi" && !d.prov_id) return no("Tên gọi khác cần chọn tỉnh");
+      if (a.p_kind === "go_sai" && !(d.sai && d.dung)) return no("Cách gõ sai cần 2–60 ký tự");
+      if (!a.p_id) { var l = { id: ++S.n, kind: a.p_kind, data: d, active: a.p_active !== false }; X.lessons.unshift(l); aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "bai-" + l.id, action: "them", new_value: d }); save(); return ok(l.id); }
+      var o = X.lessons.filter(function (x) { return x.id === a.p_id; })[0]; if (!o) return no("Không thấy bài dạy");
+      aud({ prov_id: "he-thong", kind: "tro_ly", item_id: "bai-" + o.id, action: "sua", old_value: Object.assign({ _bat: o.active }, o.data), new_value: Object.assign({ _bat: a.p_active }, d) });
+      o.data = d; o.active = a.p_active !== false; save(); return ok(o.id);
+    },
     admin_list: function () { return ok(S.admins.map(function (id) { return { user_id: id, name: USERS[id].name, email: USERS[id].email, created_at: new Date().toISOString(), note: null, is_me: id === user().id }; })); },
     admin_grant: function (a) {
       var id = Object.keys(USERS).filter(function (k) { return USERS[k].email === String(a.p_email || "").trim().toLowerCase(); })[0];

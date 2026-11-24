@@ -18,6 +18,7 @@ Gọi từ trang: `askBuiTrip(câu hỏi, { noCtx })` trả `{ html, kind, inten
 | | `boi-canh.js` | Đoạn trích Wikipedia (CC BY-SA 4.0) cho 294 địa danh, nạp lười. Sinh bởi `tools/tao-boi-canh.mjs` |
 | | `kho-them.js` | 374 quán, chỗ ở, điểm nhỏ trong kho học (đợt 24/11) mà dữ liệu app chưa có; trả lời "X ở đâu, giá, giờ" khi câu nêu đích danh. Nạp lười. Sinh bởi `tools/tao-kho-them.mjs` (bỏ ghi chú nguồn, giữ giấy phép Wikivoyage) |
 | | `ai-loader.js` | Nạp lười `boi-canh.js`; thanh Đúng/Chưa đúng dưới mọi câu trả lời, học trên máy, gửi góp ý (`tools/hoc/README.md`). Engine TF-IDF học trước đã gỡ khỏi app, mã ở `tools/buitrip-ai/`, so sánh bằng `npm run so-sanh` |
+| 0, 4 | `bai-day.js` | Bài admin dạy ở thẻ "Định hướng học" (trang admin): câu hỏi + trả lời (trả trước mọi nhánh), cách gõ sai, tên gọi khác của tỉnh, đoạn kiến thức đã duyệt cho câu giới thiệu / chủ đề. Tải qua `/api/du-lieu` vào `window.BT_DAY`, áp ngay, không cần deploy. Kiểm: `tests/bai-day.mjs` |
 | 6 | `ngu-canh.js` | Nhớ 3 lượt hỏi gần nhất cho câu nối tiếp ("thế ăn gì"); "Hỏi lại từ đầu" xóa |
 | | `index.js` | Nối các bước, chọn nhánh trả lời |
 
