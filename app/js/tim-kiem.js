@@ -104,7 +104,7 @@
     function low(t) { return " " + String(t || "").toLowerCase().normalize("NFC").replace(/[^0-9a-zà-ỹđ]+/g, " ").trim() + " "; }
     var fq = marked ? low(q) : norm(q);
     PROV_DATA.forEach(function (prov) {
-      var EXTRA = { "tp-ho-chi-minh": ["Sài Gòn"], "dong-thap": ["Cao Lãnh"], "nghe-an": ["Cửa Lò"], "thanh-hoa": ["Sầm Sơn"] };
+      var EXTRA = { "tp-ho-chi-minh": ["Sài Gòn", "Hồ Chí Minh"], "dong-thap": ["Cao Lãnh"], "nghe-an": ["Cửa Lò"], "thanh-hoa": ["Sầm Sơn"] };
       [String(prov.id === "lam-dong" ? "Đà Lạt" : (prov.anchor || ""))].concat(EXTRA[prov.id] || []).join("/").split("/").forEach(function (an) {
         an = an.replace(/\(.*?\)/g, "").replace(/^\s*(TP|Thành phố)\s+/i, "");
         var k = (marked ? low(an) : norm(an)).trim();

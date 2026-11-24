@@ -409,7 +409,7 @@ function attachTripAutocomplete(prefix){
 attachTripAutocomplete("ts");
 function resolveDestText(text){
   var f=foldStr(text).trim(); if(!f) return null;
-  if(f==="tphcm"||f.indexOf("ho chi minh")>=0||f==="sai gon") return {type:"dest",id:"tphcm"};
+  if(f==="tphcm"||f.indexOf("ho chi minh")>=0||f==="sai gon") return {type:"dest",id:"tp-ho-chi-minh"};
   for(var i=0;i<DESTINATIONS.length;i++){ var d=DESTINATIONS[i]; if(foldStr(d.name)===f||foldStr(d.name).indexOf(f)>=0||f.indexOf(foldStr(d.name))>=0) return {type:"dest",id:d.id}; }
   for(var j=0;j<PLACES.length;j++){ if(foldStr(PLACES[j].name).indexOf(f)>=0) return {type:"place",id:PLACES[j].id}; }
   for(var k=0;k<DISHES.length;k++){ if(foldStr(DISHES[k].name).indexOf(f)>=0) return {type:"dish",id:DISHES[k].id}; }
@@ -830,7 +830,7 @@ function reportLinkHtml(kind,provId,itemId){
 }
 
 /* ================= CHI TIẾT ĐIỂM ĐẾN ĐỘNG (34 TỈNH) ================= */
-var currentProv=null, provSeg="tongquan", provCluster="all", provMap=null, provMapFor=null, provMapPts=[];
+var currentProv=null, provSeg="tongquan", provCluster="all", provMap=null, provMapFor=null, provMapPts=[], provMapResizeObs=null;
 function setTopForProv(p){
   document.getElementById("topTitle").textContent=p.name;
   document.getElementById("topSub").textContent=regionLabel(p.region)+" · kiểm dữ liệu "+(p.checked||"06/11/2026");
@@ -840,6 +840,7 @@ function openProvDetail(slug){
   if(window.btTrack) btTrack("mo_tinh",{tinh:p.id});
   currentProv=p; provSeg="tongquan"; provCluster="all"; provMapFor=null;
   if(provMap){ try{ provMap.remove(); }catch(e){} provMap=null; }
+  if(provMapResizeObs){ try{ provMapResizeObs.disconnect(); }catch(e){} provMapResizeObs=null; }
   renderProvDetail();
   show("dest-detail");
   setTopForProv(p);
@@ -1182,6 +1183,18 @@ function initProvMap(){
     setTimeout(fitProvMap,150);
     setTimeout(fitProvMap,450);
     observeProvMap();
+    /* Mảng xám bên trái (Hà Nội): khung bản đồ đổi kích thước sau khi Leaflet đã
+       tính ô gạch (layout shift do ảnh/font), invalidateSize theo mốc giờ không kịp.
+       Theo dõi kích thước khung bằng ResizeObserver để fit lại mỗi khi khung đổi. */
+    if(typeof ResizeObserver!=="undefined"){
+      if(provMapResizeObs){ try{ provMapResizeObs.disconnect(); }catch(e){} provMapResizeObs=null; }
+      var _roT=null;
+      provMapResizeObs=new ResizeObserver(function(){
+        if(_roT) clearTimeout(_roT);
+        _roT=setTimeout(fitProvMap,80);
+      });
+      provMapResizeObs.observe(el);
+    }
   }catch(e){
     var f3=document.getElementById("mapProvFallback"); if(f3) f3.style.display="block"; el.style.display="none"; hideProvMapLoading();
   }
@@ -1353,11 +1366,18 @@ function pickAcDest(prefix,type,id){
     var arr=type==="pplace"?prov.places:prov.dishes; var found=null;
     arr.forEach(function(x){ if(x.id===parts[1]) found=x; }); if(!found) return;
     title=found.name; searchDestId=prov.appId;
+    if(prefix==="w"){ wiz.dest=prov.appId; }
   }
   var inp=document.getElementById(inputId); if(inp) inp.value=title;
   syncDestInputs(title,inputId);
   hideAc(document.getElementById(listId));
   if(prefix==="w" && type==="dest"){ wiz.dest=id; }
+  /* Wizard: chọn qua autocomplete cũng phải làm mới như bấm thẻ (trước đây không gọi,
+     nên Bước 2 vẫn giữ tên tỉnh cũ/mặc định "Đà Lạt" dù đã chọn tỉnh khác) */
+  if(prefix==="w"){
+    document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===wiz.dest); });
+    fillWizAddSel(); updateWDaysInfo(); syncDestClearBtn();
+  }
 }
 function resolveDestText(text){
   var f=foldStr(text).trim(); if(!f) return null;
@@ -1924,6 +1944,25 @@ function pickTransportRows(prov,origin){
     var alt=(prov.cost||[]).filter(function(c){ return /nếu đi từ hà nội/i.test(c.label||"") && /thay máy bay/i.test(c.label||"") && !/^\s*(Trừ|Từ)/.test(c.value||"") && parseRangeVal(c.value); })[0];
     if(alt) return {mode:"hn",rows:[alt]};
     if(main[0] && /^Máy bay HAN/.test(main[0].label||"")) return {mode:"hn",rows:[main[0]]};
+    /* Fallback: bảng chi phí chưa có dòng HAN nhưng mục "Đi đến" (routes.hn) có tuyến
+       (gặp ở 7 tỉnh: Quảng Ninh, Quảng Trị, Huế, Đà Nẵng, Quảng Ngãi, Gia Lai, Đắk Lắk).
+       Ưu tiên máy bay, rồi tuyến đầu tiên có giá parse được. Giá một chiều ghi rõ "/chiều"
+       để bước tính nhân 2 cho khứ hồi. */
+    if(prov.routes && prov.routes.hn){
+      var hnFlight=null, hnAny=null;
+      prov.routes.hn.forEach(function(r){
+        if(!r || !r.price) return;
+        if(!parseRangeVal(r.price)) return;
+        if(!hnAny) hnAny=r;
+        if(!hnFlight && /^Máy bay/i.test(r.mode||"")) hnFlight=r;
+      });
+      var pick=hnFlight||hnAny;
+      if(pick){
+        var val=String(pick.price);
+        if(!/\/chiều/.test(val) && !/khứ hồi/i.test(val)) val=val+" /chiều";
+        return {mode:"hn",rows:[{label:pick.mode,value:val}]};
+      }
+    }
     return {mode:"fallback",rows:sgRows()};
   }
   if(isSGOrigin(origin)) return {mode:"sg",rows:sgRows()};

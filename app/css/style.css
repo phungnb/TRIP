@@ -41,6 +41,10 @@
     .tabbar{ display:none; }
     /* danh sách thẻ: 2 cột (desktop) / 3 cột (màn rộng) */
     .listcol:has(>.card), .listcol:has(>.rowcard){ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+    /* tiêu đề nhóm + nút "Xem tất cả" nằm trong listcol phải trải hết chiều ngang,
+       không chui vào 1 ô lưới (lệch sang cột phải) */
+    .listcol:has(>.card)>h3, .listcol:has(>.rowcard)>h3,
+    .listcol:has(>.card)>button, .listcol:has(>.rowcard)>button{ grid-column:1/-1; }
   }
   @media (min-width:1200px){
     .listcol:has(>.card), .listcol:has(>.rowcard){ grid-template-columns:repeat(3,1fr); }
@@ -49,6 +53,9 @@
   .view{ display:none; }
   .view.active{ display:block; }
   .pad{ padding:16px; }
+  /* Wizard: chừa chỗ dưới cùng để thanh nút dính (sticky) không đè mất mục cuối
+     (thẻ chọn tỉnh Bước 1, "Đi một mình" Bước 3, nội dung Ngày 1 Bước 4) */
+  #view-plan .pad{ padding-bottom:110px; }
   .sec-title{ font-size:var(--fs-h2); font-weight:800; margin:22px 0 4px; }
   .sec-sub{ font-size:var(--fs-cap); color:var(--ink2); margin:0 0 12px; line-height:1.5; }
   .muted{ color:var(--ink2); font-size:var(--fs-cap); line-height:1.55; }
