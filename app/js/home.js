@@ -34,12 +34,21 @@
   function art(a,h,ph){ return '<div class="poster" style="height:'+h+'px">'+ART_SCENE(a[0],a[1])+photoImg(ph,{sizes:"(max-width:640px) 80vw, 320px"})+'</div>'; }
   function provShort(id){ var p=provById(id); return p?(id==="lam-dong"?"Lâm Đồng":p.name):""; }
 
+  /* Bản quyền ảnh trên Hero: chỉ hiện icon (i) ở góc, bấm mới hiện dòng ghi công */
+  function slideCredit(s){
+    var ph=spotPhoto(s.place);
+    if(!ph||!ph.u) return "";
+    if(/^(CC0|Public domain)$/i.test(ph.l||"")) return "";
+    var t=(ph.a?ph.a:"")+(ph.l?" · "+ph.l:"");
+    if(!t) return "";
+    return '<details class="hs-credit"><summary aria-label="Bản quyền ảnh">i</summary><span>'+esc(t)+'</span></details>';
+  }
   /* ---------- Slide động ---------- */
   function slidesHtml(){
     var list=SPOTS.filter(function(s){ return s.slide && provById(s.prov); });
     var slides=list.map(function(s){
       var i=SPOTS.indexOf(s), p=provById(s.prov);
-      return '<div class="hs-slide" role="group" aria-roledescription="slide" aria-label="'+esc(s.title)+'">'+ART_SCENE(s.art[0],s.art[1])+photoImg(spotPhoto(s.place),{eager:list.indexOf(s)===0, sizes:"(max-width:960px) 100vw, 960px"})+
+      return '<div class="hs-slide" role="group" aria-roledescription="slide" aria-label="'+esc(s.title)+'">'+ART_SCENE(s.art[0],s.art[1])+photoImg(spotPhoto(s.place),{eager:list.indexOf(s)===0, sizes:"(max-width:960px) 100vw, 960px",noCredit:true})+slideCredit(s)+
         '<div class="hs-veil"></div><div class="hs-cap"><span class="hs-kicker">'+esc(provShort(s.prov))+' · '+esc(regionLabel(p.region))+'</span>'+
         '<h2>'+esc(s.title)+'</h2><p>'+esc(s.tag)+'</p>'+
         '<button class="hs-cta" onclick="homeSpotOpen('+i+')">Khám phá ngay <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></div>';
@@ -86,7 +95,8 @@
   }
   function renderSpots(){
     var box=document.getElementById("homeSpots"); if(!box) return;
-    box.innerHTML=SPOTS.filter(function(s){ return provById(s.prov) && (theme==="all"||s.themes.indexOf(theme)>=0); }).map(spotCard).join("");
+    /* Vịnh Hạ Long đã có trên Hero Carousel nên không lặp lại ở mục này */
+    box.innerHTML=SPOTS.filter(function(s){ return s.place!=="vinh-ha-long" && provById(s.prov) && (theme==="all"||s.themes.indexOf(theme)>=0); }).map(spotCard).join("");
     box.scrollLeft=0;
     document.querySelectorAll("#homeThemes .chip").forEach(function(c){ c.classList.toggle("on",c.getAttribute("data-t")===theme); });
   }
@@ -110,11 +120,11 @@
     if(h) h.textContent="Tháng "+m+" đi đâu đẹp?";
     var list=(typeof PROV_DATA!=="undefined"?PROV_DATA:[]).filter(function(p){ return goodInMonth(p.best_season,m); });
     var total=list.length;
-    /* Ưu tiên tỉnh có điểm nổi tiếng trong SPOTS, rồi lấy tối đa 10 */
+    /* Ưu tiên tỉnh có điểm nổi tiếng trong SPOTS, rồi lấy tối đa 6 */
     var hot={}; SPOTS.forEach(function(s,k){ if(hot[s.prov]==null) hot[s.prov]=k; });
     list.sort(function(a,b){ return (hot[a.id]!=null?hot[a.id]:99)-(hot[b.id]!=null?hot[b.id]:99); });
-    list=list.slice(0,10);
-    var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent=total+" tỉnh/thành có mùa đẹp rơi vào tháng "+m+" (theo cẩm nang từng tỉnh).";
+    list=list.slice(0,6);
+    var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent="Top "+list.length+" trong "+total+" tỉnh/thành có mùa đẹp rơi vào tháng "+m+" (theo cẩm nang từng tỉnh).";
     box.innerHTML=list.map(function(p){
       var a=provArt(p.id);
       return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110,provPhoto(p.id))+'<div class="season-body"><h3>'+esc(p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';
@@ -146,13 +156,6 @@
     }).join("");
   }
 
-  function renderStats(){
-    var box=document.getElementById("homeStats"); if(!box||typeof PROV_DATA==="undefined") return;
-    var pl=0,st=0,di=0; PROV_DATA.forEach(function(p){ pl+=p.places.length; st+=p.stays.length; di+=p.dishes.length; });
-    var f=function(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,"."); };
-    box.innerHTML='<div><b>'+PROV_DATA.length+'</b><span>tỉnh thành</span></div><div><b>'+f(pl)+'</b><span>địa danh</span></div><div><b>'+f(st)+'</b><span>chỗ ở</span></div><div><b>'+f(di)+'</b><span>món ăn</span></div>';
-  }
-
   /* Khi đang gõ tìm: ẩn phần gợi ý, chỉ còn kết quả */
   function bindSearchMode(){
     var inp=document.getElementById("searchInput"), v=document.getElementById("view-explore");
@@ -169,7 +172,7 @@
     var hs=document.getElementById("homeSlides"); if(hs){ hs.innerHTML=slidesHtml(); hsBind(); }
     var th=document.getElementById("homeThemes");
     if(th) th.innerHTML=THEMES.map(function(t){ return '<button class="chip'+(t[0]===theme?" on":"")+'" data-t="'+t[0]+'" onclick="homeTheme(\''+t[0]+'\')">'+t[1]+'</button>'; }).join("");
-    renderStats(); renderSpots(); renderSeason(); renderRegions(); renderDishes(); bindSearchMode();
+    renderSpots(); renderSeason(); renderRegions(); renderDishes(); bindSearchMode();
   }
   window.HOME_SPOTS=SPOTS;
   renderHome();
