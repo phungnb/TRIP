@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node du-lieu.mjs && node hoc.mjs && node bai-day.mjs && node hypotheses/generate.mjs && node hypotheses/run.mjs && node hypotheses/goi-y.mjs && node trinh-duyet.mjs && node trang-admin.mjs",
+    "test": "node du-lieu.mjs && node auth-proxy.mjs && node hoc.mjs && node bai-day.mjs && node hypotheses/generate.mjs && node hypotheses/run.mjs && node hypotheses/goi-y.mjs && node trinh-duyet.mjs && node trang-admin.mjs",
     "hypotheses": "node hypotheses/generate.mjs && node hypotheses/run.mjs",
     "hoc": "node hoc.mjs",
     "so-sanh": "node hypotheses/so-hai-tro-ly.mjs",
