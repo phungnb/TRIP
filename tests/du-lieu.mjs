@@ -46,6 +46,13 @@ const lo = [];
   if (o && typeof o === "object") for (const x in o) walk(o[x], Array.isArray(o) ? k : x);
 })(PROV, "");
 ok(lo.length === 0, "Còn ghi chú nguồn hiện cho người dùng:\n  " + lo.slice(0, 5).join("\n  "));
+/* Sau khi lọc ghi chú nguồn không còn ngoặc rỗng, ngoặc cụt "( cũ)" hay ghi chú tọa độ nội bộ */
+const sot = [];
+(function walk(o, k) {
+  if (typeof o === "string") { if (!SKIP.has(k) && /\(\s*\)|\(\s+\S|Tọa độ\s/.test(o)) sot.push(k + ": " + o.slice(0, 80)); return; }
+  if (o && typeof o === "object") for (const x in o) walk(o[x], Array.isArray(o) ? k : x);
+})(PROV, "");
+ok(sot.length === 0, "Chữ hiển thị còn sót sau khi lọc nguồn:\n  " + sot.slice(0, 5).join("\n  "));
 
 /* Ảnh khai báo phải có tệp thật */
 for (const kind of ["spot", "prov"]) for (const [id, ph] of Object.entries((PHOTOS || {})[kind] || {})) {
