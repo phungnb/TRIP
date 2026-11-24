@@ -9,7 +9,7 @@ export function napDuLieu(opt) {
   const ctx = { window: {}, console };
   ctx.window = ctx;
   vm.createContext(ctx);
-  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/an-o-moi.js", "data/gia-tham-khao.js", "data/trung-tam.js", "js/lam-sach.js", "data/anh.js"]) {
+  for (const f of ["data/prov-data.js", "data/sap-nhap.js", "data/racehub-places.js", "data/lam-giau.js", "data/bo-sung.js", "data/dia-diem-moi.js", "data/an-o-moi.js", "data/gia-tham-khao.js", "data/trung-tam.js", "data/khu-vuc.js", "data/ho-so-khu.js", "js/lam-sach.js", "data/anh.js"]) {
     if (bo.has(f) || !fs.existsSync(path.join(APP, f))) continue;
     vm.runInContext(fs.readFileSync(path.join(APP, f), "utf8"), ctx, { filename: f });
   }

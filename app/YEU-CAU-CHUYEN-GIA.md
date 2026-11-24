@@ -2,9 +2,11 @@
 
 File này liệt kê những việc M (người làm app) đang vướng, cần chuyên gia hoặc anh
 Nguyễn quyết/giúp. Mỗi mục ghi rõ: vấn đề là gì, cần gì, và M đã làm tới đâu.
-Cập nhật lần cuối: 16/11/2026.
+Cập nhật lần cuối: 24/11/2026.
 
-## 1. Khoảng cách Quảng Trị tính sai mốc — ĐÃ XỬ LÝ 18/11/2026
+## 1. Khoảng cách Quảng Trị tính sai mốc — ĐÃ XỬ LÝ 24/11/2026
+
+- **Cập nhật 24/11/2026 (quyết định của anh):** mốc tính khoảng cách đổi về **TP Đồng Hới**, trung tâm hành chính mới. 13 điểm Quảng Trị cũ có số km tính lại từ Đồng Hới (khoảng ước tính theo đường bộ, ghi dạng khoảng). Trang tỉnh ghi "Trung tâm hành chính và mốc tính khoảng cách: TP Đồng Hới". Cách xử lý 18/11 bên dưới đã thay.
 
 - **Đã xử lý (chuyên gia):** không tính lại số km. 13 điểm đều ở khu vực Quảng Trị cũ và số km theo nguồn đều tính từ Đông Hà, nên đặt lại mốc tính khoảng cách là **TP Đông Hà** (`anchor`, `lat/lng` trong `quang-tri.json` + `prov-data.js`). Trang tỉnh ghi rõ: "Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: TP Đông Hà". Khi thêm điểm Quảng Bình cũ thì tính từ Đồng Hới và tách cụm riêng.
 
@@ -19,7 +21,9 @@ Cập nhật lần cuối: 16/11/2026.
 - M đã làm: xác nhận lỗi có thật (đối chiếu Chợ Đông Hà). Chưa sửa vì cần số đúng,
   không đoán.
 
-## 2. Thiếu 5 điểm du lịch ở vùng mới sáp nhập — CẦN CHUYÊN GIA XÁC NHẬN DANH SÁCH
+## 2. Thiếu 5 điểm du lịch ở vùng mới sáp nhập — ĐÃ XỬ LÝ
+
+- **Đã có trong dữ liệu (kiểm 24/11/2026):** Phú Quốc (An Giang), Mũi Né / Phan Thiết (Lâm Đồng), Phong Nha (Quảng Trị), Đồng Văn và Mã Pì Lèng (Tuyên Quang), Măng Đen (Quảng Ngãi). Phần dưới là mô tả vấn đề cũ, giữ để tra lịch sử.
 
 - Vấn đề: sau sáp nhập 01/07/2025, 5 tỉnh còn thiếu điểm nổi tiếng của vùng sáp nhập:
   - **An Giang**: không có Phú Quốc.
@@ -31,9 +35,9 @@ Cập nhật lần cuối: 16/11/2026.
   giờ mở cửa), hoặc cho M tự tra và chuyên gia kiểm lại sau.
 - M đã làm: xác nhận cả 5 đều 0 lần xuất hiện trong dữ liệu (trừ ghi chú "chưa làm").
 
-## 3. Nhãn cho 772 nhận xét "của Bụi Code" — ĐÃ XỬ LÝ 18/11/2026
+## 3. Nhãn cho 772 nhận xét "của Bụi Code" — ĐÃ XỬ LÝ 24/11/2026
 
-- **Đã xử lý (chuyên gia):** tiêu đề đổi thành "Nhận xét tổng hợp của Bụi Code", dòng phụ: "Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bụi Code. Kiểm lại trước khi đi." Đặt ở đầu mục, áp cho cả 772 mục (`mReviewHtml` trong `js/app.js`).
+- **Đã xử lý:** tiêu đề mục là "Nhận xét tổng hợp của Bụi Code". Ngay dưới đoạn nhận xét có dòng phụ, đúng câu nguyên văn của chuyên gia: "Tổng hợp từ nguồn công khai (Google Maps, blog, báo du lịch), không phải trải nghiệm trực tiếp của đội Bui Code. Kiểm lại trước khi đi." kèm link chính sách `/chinh-sach/#nhan-xet` (`mReviewHtml` trong `js/app.js`). Đếm lại 24/11/2026: vẫn 772 mục có nhận xét (464 địa danh + 308 món); địa danh và món bổ sung sau này chưa có nhận xét.
 
 
 - Vấn đề: có 772 mục nhận xét (464 địa danh + 308 món) viết như người đã đi thật
@@ -45,17 +49,10 @@ Cập nhật lần cuối: 16/11/2026.
   "Nhận xét của Bụi Code" hay từng nhận xét. M sẽ áp dụng ngay khi có câu chốt.
 - M đã làm: đếm khớp 772 mục; chưa đổi gì vì đây là câu chữ hiển thị, cần duyệt.
 
-## 4. Repo chưa có file LICENSE — CẦN ANH CHỌN LOẠI
-
-- Vấn đề: repo TRIP chưa có LICENSE. Dữ liệu du lịch + code app nên có giấy phép rõ
-  ràng trước khi publish rộng.
-- Cần: anh/chuyên gia chọn loại (ví dụ MIT cho code, CC BY cho dữ liệu — hoặc một
-  loại duy nhất). M sẽ thêm file ngay khi có quyết định.
-
 ## 5. Repo đang PUBLIC — CẦN ANH CHỐT CÔNG KHAI HAY RIÊNG TƯ
 
 - Vấn đề: repo TRIP hiện là **Public** (ai cũng đọc được, kể cả các báo cáo nội bộ
-  trong thư mục `bao-cao/`).
+  trong thư mục `bao-cao/`). Cập nhật 24/11/2026: đã xóa 5 báo cáo nội bộ trong `bao-cao/` và thêm LICENSE MIT; còn chờ anh chốt Public hay Private.
 - Cần: anh chốt giữ Public hay chuyển Private. Nếu giữ Public thì có cần dọn báo
   cáo nội bộ ra khỏi repo không?
 
@@ -87,17 +84,24 @@ Cập nhật lần cuối: 16/11/2026.
 - Vấn đề: tải lại trang app thì trắng khoảng 18 giây mới hiện nội dung (ghi nhận
   16/11). Nghi ngờ do file dữ liệu lớn (1,15 MB) + ảnh base64, nhưng chưa xác minh.
 - Cần: chuyên gia xem code trong `app/` và cho hướng khắc phục (ví dụ: tách dữ liệu
-  theo tỉnh và tải khi cần, nén ảnh, hay chỉ là do link muse.ai tải chậm).
+  theo tỉnh và tải khi cần, nén ảnh, hay chỉ là do bản live cũ tải chậm; nay app live duy nhất là buitrip.vercel.app).
 - M đã làm: cây thư mục này đã tách dữ liệu ra file riêng `data/prov-data.js`
   (không còn nhúng base64 trong HTML), giảm kích thước trang từ 11,6 MB xuống
   còn ~3,5 MB. Chưa kiểm được có hết trắng trang không vì chưa có bản live mới.
 
 ## 10. Nợ dữ liệu nhỏ — CẦN CHUYÊN GIA KIỂM/ĐIỀN KHI CÓ THỂ
 
-- 63/249 chỗ ở chưa có số điện thoại (app đã ghi "Chưa có số — xem trên Booking").
-- 8 tọa độ còn trống, ~189/464 tọa độ là xấp xỉ (ghi rõ trong dữ liệu).
-- 211–254 địa chỉ còn dùng tên huyện/quận/thị trấn cũ (cấp huyện đã bỏ từ
-  01/07/2025) — cần rà lại theo địa giới mới.
+Số đếm lại 24/11/2026 trên toàn bộ dữ liệu app (878 địa danh, 696 chỗ ở, 646 món),
+đếm bằng script trên `tests/nap-du-lieu.mjs`:
+
+- 510/696 chỗ ở chưa có số điện thoại (app đã ghi "Chưa có số — xem trên Booking").
+- 131/878 địa danh chưa có tọa độ (không ghim trên bản đồ, ghi "Chưa có tọa độ",
+  không tính khoảng cách); 441 tọa độ là xấp xỉ (ghi rõ trong dữ liệu). 8 điểm cụ thể
+  cần nâng lên tọa độ chính xác: `dao-co-chi-lang-nam`, `lang-gom-chu-dau`,
+  `hang-sung-sot`, `lang-chai-cua-van`, `tay-yen-tu`, `lang-gom-tho-ha`, `con-vanh`,
+  `den-tran-thai-binh`.
+- 364/1.464 địa chỉ còn chữ "huyện/quận/thị xã/thị trấn" (cấp huyện đã bỏ từ
+  01/07/2025) — cần rà lại theo địa giới mới, tra theo nghị quyết từng tỉnh.
 - Một số mục lẻ: giá gộp Nhà tổ chim/Birdhouse chưa thống nhất (650.000đ vs
   1.200.000–1.500.000đ); số nhà MT Lai Châu (113 hay 133 đường Lê Duẩn) chưa chốt;
   Galaxy Thái Nguyên chưa đối chiếu (Galaxy River hay Galaxy Hotel Phổ Yên).

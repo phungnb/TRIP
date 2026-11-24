@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { APP, napDuLieu } from "./nap-du-lieu.mjs";
 import { sinh } from "../tools/tao-trang-tinh.mjs";
+import { taoFaq } from "../tools/tao-faq.mjs";
 const loi = [];
 const ok = (c, m) => { if (!c) loi.push(m); };
 const { PROV, SAP, PHOTOS } = napDuLieu();
@@ -26,6 +27,14 @@ for (const p of PROV) {
   }
   nPlace += p.places.length; nStay += p.stays.length; nDish += p.dishes.length;
   ok(p.itins && p.itins["3N2D"], p.id + ": thiếu lịch trình 3N2Đ");
+}
+/* ID phải duy nhất trên toàn bộ dữ liệu (sau khi nạp đủ các tệp bổ sung), kể cả giữa địa danh, chỗ ở và món:
+   lưu chuyến, tem check-in, thẻ chia sẻ đều tra theo id, trùng id là mở nhầm mục ở tỉnh khác. */
+const allIds = new Map();
+for (const p of PROV) for (const k of ["places", "stays", "dishes"]) for (const x of p[k] || []) {
+  const o = allIds.get(x.id);
+  ok(!o, "Trùng id toàn cục " + x.id + ": " + (o || "") + " và " + p.id + "/" + k);
+  if (!o) allIds.set(x.id, p.id + "/" + k);
 }
 for (const id of Object.keys(SAP || {})) ok(provIds.has(id), "SAP_NHAP có tỉnh lạ: " + id);
 
@@ -60,6 +69,12 @@ for (const ic of mf.icons) ok(fs.existsSync(path.join(APP, ic.src)), "manifest t
 for (const [rel, want] of Object.entries(sinh())) {
   const f = path.join(APP, rel);
   ok(fs.existsSync(f) && fs.readFileSync(f, "utf8") === want, "Trang " + rel + " chưa sinh lại theo dữ liệu mới: chạy node tools/tao-trang-tinh.mjs");
+}
+
+/* FAQ cho máy tìm kiếm (JSON và JSON-LD trong index.html) phải khớp BT_FAQ trong ai/hoi-dap.js */
+{
+  const f = taoFaq();
+  ok(fs.readFileSync(path.join(APP, "..", "faq-aeo-cam-nang-du-lich.json"), "utf8") === f.json && html === f.html, "FAQ lệch ai/hoi-dap.js hoặc số đếm: chạy node tools/tao-faq.mjs");
 }
 
 console.log("Dữ liệu: " + PROV.length + " tỉnh, " + nPlace + " địa danh, " + nStay + " chỗ ở, " + nDish + " món");

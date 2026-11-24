@@ -9,7 +9,7 @@ var TRUNG_TAM = {
   "an-giang": [["Long Xuyên", 10.386, 105.435], ["Rạch Giá", 10.012, 105.081], ["Hà Tiên", 10.383, 104.488], ["Dương Đông (Phú Quốc)", 10.217, 103.959, 1]],
   "lam-dong": [["Phan Thiết", 10.928, 108.102], ["Gia Nghĩa", 12.004, 107.690], ["Bảo Lộc", 11.548, 107.807]],
   "gia-lai": [["Quy Nhơn", 13.776, 109.224]],
-  "quang-tri": [["Đồng Hới", 17.469, 106.622]],
+  "quang-tri": [],
   "quang-ngai": [["TP Kon Tum", 14.355, 108.008]],
   "tp-ho-chi-minh": [["TP Vũng Tàu", 10.346, 107.084], ["Thủ Dầu Một", 10.980, 106.652], ["Côn Đảo", 8.683, 106.609, 1]],
   "tuyen-quang": [["TP Hà Giang", 22.823, 104.984]],
@@ -32,6 +32,9 @@ var TRUNG_TAM = {
 };
 /* Điểm gần 1 khu theo đường chim bay nhưng đường bộ đi từ thủ phủ (Cần Giờ cách Vũng Tàu 1 vịnh biển, đi từ TP.HCM): giữ thủ phủ làm gốc */
 var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-cu-chi": 1 };
+/* Tỉnh có km đường bộ kiểm tay từ thủ phủ cho điểm gốc (prov-data.js); điểm thêm sau (mã rh-, bs-, dm-) chưa có km kiểm tay
+   nên tính đường thẳng từ thủ phủ. Quảng Trị: thủ phủ TP Đồng Hới (NQ 202/2025/QH15). */
+var TRUNG_TAM_TINH_LAI = { "quang-tri": 1 };
 (function () {
   if (typeof PROV_DATA === "undefined") return;
   function hav(a, b, c, d) { var R = 6371, r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2); var h = x * x + Math.cos(a * r) * Math.cos(c * r) * y * y; return 2 * R * Math.asin(Math.sqrt(h)); }
@@ -47,7 +50,10 @@ var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-c
       var best = null, bd = 1e9;
       /* trung tâm đảo chỉ nhận điểm trên chính đảo đó (trong 30 km): Nam Du không thuộc Phú Quốc */
       hubs.forEach(function (h) { var d = hav(x.lat, x.lng, h.lat, h.lng); if (h.island && d > 30) return; if (d < bd) { bd = d; best = h; } });
-      if (!best || best.main) return; /* gần thủ phủ nhất: giữ km đã kiểm tay */
+      if (!best || best.main) { /* gần thủ phủ nhất: giữ km đã kiểm tay */
+        if (best && TRUNG_TAM_TINH_LAI[prov.id] && /^(rh|bs|dm)-/.test(x.id)) x.dist = Math.round(bd);
+        return;
+      }
       x.dist = Math.round(bd);
       x.dist_from = best.n;
       if (best.island) x.island = best.n;
@@ -56,7 +62,8 @@ var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-c
 })();
 /* Nhãn khoảng cách dùng chung cho thẻ và trang chi tiết */
 function placeDistLabel(x) {
-  if (x.dist == null || x.dist === "") return "Chưa có khoảng cách";
+  /* chưa có tọa độ thì không tin số km cũ (có thể tính từ mốc khác) */
+  if (x.dist == null || x.dist === "" || ("lat" in x && x.lat == null)) return "Chưa có khoảng cách";
   var from = x.dist_from || "trung tâm";
   return x.dist === 0 ? ("Ngay trung tâm " + from) : ("Cách " + from + " ~" + x.dist + " km");
 }
