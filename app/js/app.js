@@ -123,15 +123,22 @@ function lsGet(k,def){ try{ var v=boNhoTrinhDuyet.getItem(k); return v?JSON.pars
 function lsSet(k,v){ try{ boNhoTrinhDuyet.setItem(k,JSON.stringify(v)); }catch(e){} }
 var trips = lsGet(LS_TRIPS, []);
 var saved = lsGet(LS_SAVED, []); /* [{kind:'place'|'stay'|'dish', id}] */
-/* 24/11/2026: mã trùng giữa các tỉnh được thêm hậu tố tỉnh (vd chua-hang -> chua-hang-thai-nguyen); đổi mục đã lưu theo mã mới */
-(function(){ var DOI={"nui-ham-rong":1,"thanh-nha-mac":1,"chua-hang":1,"lon-cap-nach":1,"thang-co":1,"com-lam":1,"banh-ap-chao":1,"ga-nuong-com-lam":1,"ca-loc-nuong-trui":1,"lau-ca-linh-bong-dien-dien":1,"khach-san-hai-chau":1}, doi=0;
-  saved.forEach(function(x){ if(x&&x.prov&&/^p(place|dish|stay)$/.test(x.kind)&&DOI[x.id]){ x.id=x.id+"-"+x.prov; doi=1; } });
+/* 24/11/2026: mã trùng giữa các tỉnh được thêm hậu tố tỉnh (vd chua-hang -> chua-hang-thai-nguyen); đổi mục đã lưu theo mã mới.
+   doiMaCu() dùng chung cho cả mục đã lưu khi nạp trang lẫn mục đã lưu nhập từ file sao lưu (importTrips);
+   mục không có prov thì không xác định được tỉnh nên giữ nguyên mã cũ (giống hệt đường nạp trang). */
+var DOI_MA_CU={"nui-ham-rong":1,"thanh-nha-mac":1,"chua-hang":1,"lon-cap-nach":1,"thang-co":1,"com-lam":1,"banh-ap-chao":1,"ga-nuong-com-lam":1,"ca-loc-nuong-trui":1,"lau-ca-linh-bong-dien-dien":1,"khach-san-hai-chau":1};
+function doiMaCu(x){ if(x&&x.prov&&/^p(place|dish|stay)$/.test(x.kind)&&DOI_MA_CU[x.id]){ x.id=x.id+"-"+x.prov; return true; } return false; }
+(function(){ var doi=0;
+  saved.forEach(function(x){ if(doiMaCu(x)) doi=1; });
   if(doi) lsSet(LS_SAVED, saved); })();
 /* Nhãn thời gian viết tắt kiểu số-ngày-số-đêm trong tên chuyến đã lưu từ bản cũ
    được viết lại thành chữ đầy đủ (ví dụ: 3 ngày 2 đêm) ngay khi nạp chuyến,
-   để thẻ chuyến cũ lẫn mới đều hiện chữ đầy đủ, không còn viết tắt. */
+   để thẻ chuyến cũ lẫn mới đều hiện chữ đầy đủ, không còn viết tắt.
+   Chuyến 1 ngày do builder cũ sinh "1 ngày 0 đêm" cũng được viết lại thành "1 ngày". */
 function fullDurTitle(s){
-  return String(s==null?"":s).replace(/(\d+)\s*N\s*(\d+)\s*[ĐD]/gi,function(m,a,b){ return a+" ngày "+b+" đêm"; });
+  return String(s==null?"":s).replace(/(\d+)\s*N\s*(\d+)\s*[ĐD]/gi,function(m,a,b){ return a+" ngày "+b+" đêm"; })
+    /* Builder cũ sinh "1 ngày 0 đêm" cho chuyến 1 ngày; viết lại thành "1 ngày" (builder mới đã trả "1 ngày"). */
+    .replace(/1\s+ngày\s+0\s+đêm/gi,"1 ngày");
 }
 (function(){
   var changed=false;
@@ -1654,7 +1661,7 @@ function wizPickStyle(id){ wiz.style=id; document.querySelectorAll("[data-wstyle
 function updateWDaysInfo(){
   var s=document.getElementById("wStart").value, e=document.getElementById("wEnd").value, el=document.getElementById("wDaysInfo");
   var st=document.getElementById("wStartTxt"), et=document.getElementById("wEndTxt");
-  if(st) st.textContent=s?("Ngày "+fmtDate(s)+" (ngày/tháng/năm)"):""; if(et) et.textContent=e?("Ngày "+fmtDate(e)+" (ngày/tháng/năm)"):"";
+  if(st) st.textContent=s?("Ngày "+fmtDate(s)+" (ngày/tháng/năm)"):"(ngày/tháng/năm)"; if(et) et.textContent=e?("Ngày "+fmtDate(e)+" (ngày/tháng/năm)"):"(ngày/tháng/năm)";
   if(!s||!e){ el.textContent=""; return; }
   var n=daysBetween(s,e);
   if(n<1){ el.textContent="Ngày về đang trước ngày đi — kiểm lại giúp em."; return; }
@@ -1729,8 +1736,10 @@ function parsePriceSnap(txt){
 }
 /* Một nguồn giá cho mọi đường thêm điểm (mẫu dựng sẵn, thêm tay, thêm từ trang tỉnh): priceSnap nếu có, không thì số đầu của giá hiển thị */
 function itemSnap(x){ if(!x) return null; return x.priceSnap!=null ? x.priceSnap : parsePriceSnap(x.price); }
-/* Món tính theo nồi/mâm/con (lẩu gà lá é, gà nướng cơm lam...): giá là cho cả nhóm, chia theo số người trước khi cộng vào tổng /người */
-var RE_GIA_NHOM=/\/\s*(nồi|mâm|lẩu|con)\b|cho\s*1\s*con|nhóm\s*\d|\(\s*\d+\s*[–-]\s*\d+\s*người\s*\)/i;
+/* Món tính theo nồi/mâm/con (lẩu gà lá é, gà nướng cơm lam...): giá là cho cả nhóm, chia theo số người trước khi cộng vào tổng /người.
+   Dấu hiệu nhóm: "/nồi", "/mâm", "/N người" (vd "150.000đ/2 người"), "N người" kèm giá sau đó (vd "lẩu trâu 2 người 150.000đ",
+   "Nồi 2 người 250.000đ"), "/bữa nhóm", "theo nồi". Riêng "/người" không có số lượng thì là giá /người, không tính là nhóm. */
+var RE_GIA_NHOM=/\/\s*(nồi|mâm|lẩu|con)\b|\/\s*\d+\s*người\b|\d+\s*người\s+\d|cho\s*1\s*con|nhóm\s*\d|\(\s*\d+\s*[–-]\s*\d+\s*người\s*\)|\/\s*bữa\s+nhóm|theo\s+nồi/i;
 function isGroupPrice(x){ return !!(x && RE_GIA_NHOM.test(String(x.price||""))); }
 function wizPeople(){ var el=document.getElementById("wPeople"); return Math.max(1,Number(el&&el.value||2)); }
 function perPersonOf(total,people){ return total==null?null:Math.round(total/Math.max(1,people)/1000)*1000; }
@@ -1988,7 +1997,7 @@ function planAddItem(){
   renderWizDays(); toast("Đã thêm "+info.name+" vào ngày "+dayNo);
 }
 function planMove(dir){
-  if(dir<0){ wizShowStep(wiz.step-1); return; }
+  if(dir<0){ if(wiz.step<=1) return; wizShowStep(wiz.step-1); return; }
   if(wiz.step===1){
     var wdEl=document.getElementById("wDestInput");
     var dText=wdEl?wdEl.value.trim():"";
@@ -2184,7 +2193,7 @@ window.importTrips=function(inp){
       t.people_count=Math.max(1,Number(t.people_count)||1); t.title=String(t.title||"Chuyến đã nhập");
       trips.push(t); have[t.id]=1; addT++; });
     var key=function(x){ return x&&x.kind+":"+x.id; }, hs={}; saved.forEach(function(x){ hs[key(x)]=1; });
-    var addS=0; (Array.isArray(d.saved)?d.saved:[]).forEach(function(x){ if(x&&x.kind&&x.id&&!hs[key(x)]){ saved.push({kind:String(x.kind),id:String(x.id)}); hs[key(x)]=1; addS++; } });
+    var addS=0; (Array.isArray(d.saved)?d.saved:[]).forEach(function(x){ if(!x||!x.kind||!x.id) return; var nx={kind:String(x.kind),id:String(x.id)}; if(x.prov) nx.prov=String(x.prov); doiMaCu(nx); if(hs[key(nx)]) return; saved.push(nx); hs[key(nx)]=1; addS++; });
     var addM=0; if(d.stamps&&typeof d.stamps==="object"){ try{
       var cur=JSON.parse(localStorage.getItem("buitrip_stamps")||"{}")||{};
       Object.keys(d.stamps).forEach(function(k){ var v=d.stamps[k]; if(!cur[k]&&/^[a-z0-9-]+\|[a-z0-9-]+$/.test(k)&&v&&Number(v.t)){ cur[k]={t:Number(v.t),prov:k.split("|")[0],d:Number(v.d)||0}; addM++; } });
