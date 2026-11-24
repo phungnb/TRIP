@@ -55,7 +55,7 @@ try {
   await page.waitForTimeout(200);
   const nut = page.locator("#view-item-detail button", { hasText: /^Gửi đóng góp$/ });
   ok(await nut.count() === 1 && await nut.first().isVisible(), "(8) Trang chi tiết địa danh có nút \"Gửi đóng góp\" nhìn thấy được");
-  ok(await page.locator("#view-item-detail button", { hasText: "Báo thông tin sai" }).count() === 1, "(8) Nút Báo thông tin sai vẫn còn");
+  ok(await page.locator("#view-item-detail button", { hasText: "Gửi nhanh (không cần đăng nhập)" }).count() === 1, "(8) Nút Gửi nhanh (không cần đăng nhập) vẫn còn");
 
   async function gui(kind, fill) {
     await page.evaluate(([q, i, k]) => dgContribute(q, i, k), [QN, ["mon_moi", "cho_o_moi", "phuong_tien_moi", "dia_danh_moi"].includes(kind) ? null : place, kind]);
