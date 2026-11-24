@@ -2,8 +2,11 @@
    Tài khoản và dữ liệu nằm ở dự án Neon riêng "BuiTrip" (Neon Auth + Data API, phân quyền bằng RLS).
    SDK @neon/neon-js 0.10.2 đóng gói sẵn ở vendor/neon.js, chỉ tải khi cần (đăng nhập, gửi, duyệt). */
 (function(){
+  /* Đăng nhập đi qua cùng tên miền (/auth/* chuyển tiếp tới Neon Auth, app/vercel.json "rewrites"): cookie phiên là cookie của
+     chính app, Safari/iPhone không chặn như cookie bên thứ ba. Chạy ở máy (localhost) thì gọi thẳng Neon Auth. */
+  var AUTH_NEON="https://ep-noisy-cake-aolzjjha.neonauth.c-2.ap-southeast-1.aws.neon.tech/neondb/auth";
   var CFG={
-    auth:"https://ep-noisy-cake-aolzjjha.neonauth.c-2.ap-southeast-1.aws.neon.tech/neondb/auth",
+    auth:(/^https:\/\/[^/]+\.vercel\.app$|^https:\/\/(www\.)?buitrip\./.test(location.origin)?location.origin+"/auth":AUTH_NEON),
     data:"https://ep-noisy-cake-aolzjjha.apirest.c-2.ap-southeast-1.aws.neon.tech/neondb/rest/v1"
   };
   var FLAG="bt_signed";
@@ -110,6 +113,8 @@
   }
   function afterLogin(){
     renderAcct();
+    /* máy chủ báo đăng nhập được nhưng trình duyệt không giữ phiên: nói rõ, không báo "Đã đăng nhập" sai */
+    if(!me){ pending=null; sheet('<h3 id="dgTitle">Chưa giữ được phiên đăng nhập</h3><p>Tài khoản và mật khẩu đúng, nhưng trình duyệt không lưu được phiên đăng nhập. Tải lại trang rồi đăng nhập lại. Nếu vẫn bị, tắt chế độ duyệt riêng tư hoặc thử trình duyệt khác, rồi báo cho BuiTrip qua mục Hỗ trợ.</p><button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>'); return; }
     var p=pending; pending=null;
     if(p&&p.t==="form") openForm(p.prov,p.item,p.kind);
     else if(p&&p.t==="admin"){ closeSheet(); location.hash="#/admin"; }

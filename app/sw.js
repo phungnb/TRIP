@@ -2,7 +2,7 @@
    - Trang, JS, CSS, dữ liệu: lấy mạng trước (luôn bản mới khi có sóng), mất sóng thì dùng bản đã lưu.
    - Ảnh, thư viện bản đồ, phông chữ: lấy bản đã lưu trước, cập nhật nền.
    - Không lưu /api/ và dịch vụ đăng nhập. */
-var VER = "bt-v27";
+var VER = "bt-v28";
 var CORE = ["/", "/index.html", "/css/style.css", "/manifest.webmanifest", "/chinh-sach/",
   "/data/prov-data.gon.js", "/data/sap-nhap.js", "/data/racehub-places.js", "/data/lam-giau.js", "/data/bo-sung.js", "/data/dia-diem-moi.js", "/data/an-o-moi.js", "/data/gia-tham-khao.js", "/data/trung-tam.js", "/data/khu-vuc.js", "/data/ho-so-khu.js", "/js/du-lieu-sua.js", "/data/anh.js",
   "/js/bao-loi.js", "/js/lam-sach.js",
@@ -25,7 +25,7 @@ self.addEventListener("fetch", function (e) {
   if (req.method !== "GET") return;
   var u = new URL(req.url);
   var same = u.origin === self.location.origin;
-  if (same && (u.pathname.indexOf("/api/") === 0 || u.pathname.indexOf("/_vercel/") === 0)) return;
+  if (same && (u.pathname.indexOf("/api/") === 0 || u.pathname.indexOf("/auth/") === 0 || u.pathname.indexOf("/_vercel/") === 0)) return;
   var assetHost = /(^|\.)unpkg\.com$|fonts\.(googleapis|gstatic)\.com$/.test(u.hostname);
   if (!same && !assetHost) return;
   var isImg = req.destination === "image" || /\.(webp|png|jpe?g|svg)$/.test(u.pathname);
