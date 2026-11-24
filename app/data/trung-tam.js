@@ -62,7 +62,8 @@ var TRUNG_TAM_TINH_LAI = { "quang-tri": 1 };
 })();
 /* Nhãn khoảng cách dùng chung cho thẻ và trang chi tiết */
 function placeDistLabel(x) {
-  if (x.dist == null || x.dist === "") return "Chưa có khoảng cách";
+  /* chưa có tọa độ thì không tin số km cũ (có thể tính từ mốc khác) */
+  if (x.dist == null || x.dist === "" || ("lat" in x && x.lat == null)) return "Chưa có khoảng cách";
   var from = x.dist_from || "trung tâm";
   return x.dist === 0 ? ("Ngay trung tâm " + from) : ("Cách " + from + " ~" + x.dist + " km");
 }

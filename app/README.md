@@ -45,13 +45,13 @@ là tên đặt lại theo nội dung/vai trò.
 
 ## Dữ liệu — nguồn thật ở đâu
 
-- **Nguồn thật:** thư mục `../du-lieu-34-tinh/` (34 file JSON + 34 file MD + file
-  tổng hợp). Mọi số liệu trong app đều sinh ra từ đó.
-- `data/prov-data.js` là bản đã chuyển đổi từ các file JSON trên (biến `PROV_DATA`,
-  kèm `SPLIT_GUIDE` là hướng dẫn chia tiền nhóm). Sửa dữ liệu thì sửa ở
-  `../du-lieu-34-tinh/` rồi chuyển đổi lại, đừng sửa tay trong file này.
-- Số đếm hiện tại: **34 tỉnh, 464 địa danh, 249 chỗ ở, 308 món** (dữ liệu đợt 4,
-  16/11/2026: giá vé Pác Bó miễn phí, Bản Giốc 40.000đ).
+- **Nguồn thật duy nhất:** `data/prov-data.js` (biến `PROV_DATA`, kèm `SPLIT_GUIDE`).
+  Sửa dữ liệu thì sửa ở đây (hoặc các file nối thêm), rồi chạy
+  `node tools/tao-ban-gon.mjs` để sinh lại `data/prov-data.gon.js` (file trình duyệt nạp).
+  Danh sách đủ các file dữ liệu xem `README.md` ở gốc repo.
+- `../du-lieu-34-tinh/` chỉ là bản lưu cũ, không còn đồng bộ, không sửa.
+- Số đếm hiện tại (24/11/2026, `node tests/du-lieu.mjs`): **34 tỉnh, 878 địa danh,
+  696 chỗ ở, 646 món**.
 
 ## Nội dung đã xử lý trong cây này (so với bản live v24)
 
@@ -69,8 +69,7 @@ là tên đặt lại theo nội dung/vai trò.
 
 ## Lưu ý
 
-- App live hiện tại vẫn là bản v24 trên link muse.ai (chưa đồng bộ cây này).
-  Sau khi PR #1 gộp xong, cần đồng bộ lại app live từ cây này.
+- App live duy nhất: https://buitrip.vercel.app (Vercel tự triển khai từ nhánh `main`).
 - Chỗ ở ghi rõ "chưa kiểm chứng / chưa đối tác / chưa thu phí"; chỉ sau kiểm chứng
   mới gắn "Đã kiểm chứng — ngày …". Không nhận đặt phòng, không thu tiền.
 - Việc còn vướng xem `YEU-CAU-CHUYEN-GIA.md`.

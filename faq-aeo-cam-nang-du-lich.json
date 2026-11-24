@@ -80,7 +80,7 @@
       "name": "Đặt phòng ở đâu, cần đặt trước bao lâu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tab Ở đâu liệt kê chỗ ở theo khu vực, kèm khoảng giá một đêm và số điện thoại nếu có nguồn chính thức. Cuối tuần nên đặt trước 2–3 tuần, lễ và Tết nên đặt trước 1–2 tháng. Trước ngày đi, gọi lại xác nhận đặt phòng và chính sách hủy. App chưa nhận đặt phòng và chưa có đối tác."
+        "text": "Tab Ở đâu liệt kê chỗ ở theo khu vực, kèm khoảng giá một đêm và số điện thoại chính thức nếu có. Cuối tuần nên đặt trước 2–3 tuần, lễ và Tết nên đặt trước 1–2 tháng. Trước ngày đi, gọi lại xác nhận đặt phòng và chính sách hủy. App chưa nhận đặt phòng và chưa có đối tác."
       }
     },
     {
@@ -88,7 +88,7 @@
       "name": "Ăn gì, quán nào, giá bao nhiêu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tab Ăn gì của mỗi tỉnh ghi món đặc sản, quán gợi ý, địa chỉ và khoảng giá kèm ngày kiểm. Hiện có 308 món ở 34 tỉnh thành. Giá là khoảng tham khảo, không phải giá chốt; món hải sản và món tính theo cân nên hỏi giá trước."
+        "text": "Tab Ăn gì của mỗi tỉnh ghi món đặc sản, quán gợi ý, địa chỉ và khoảng giá kèm ngày kiểm. Hiện có 646 món ở 34 tỉnh thành. Giá là khoảng tham khảo, không phải giá chốt; món hải sản và món tính theo cân nên hỏi giá trước."
       }
     },
     {
@@ -120,7 +120,7 @@
       "name": "Số khẩn cấp là số nào?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Dùng chung cả nước: 113 công an, 114 cứu hỏa và cứu nạn, 115 cấp cứu, 112 tìm kiếm cứu nạn. Mục Số khẩn cấp của từng tỉnh có nút gọi và số riêng như đường dây nóng du lịch khi có nguồn chính thức. Tỉnh nào chưa tra được số riêng thì app ghi rõ, không đoán số."
+        "text": "Dùng chung cả nước: 113 công an, 114 cứu hỏa và cứu nạn, 115 cấp cứu, 112 tìm kiếm cứu nạn. Mục Số khẩn cấp của từng tỉnh có nút gọi và số riêng như đường dây nóng du lịch nếu có. Tỉnh nào chưa tra được số riêng thì app ghi rõ, không đoán số."
       }
     },
     {
@@ -144,7 +144,15 @@
       "name": "Sổ tem check-in là gì?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mỗi địa danh có nút Check-in lấy tem. App chỉ tính khi định vị cho thấy bạn đang ở cách điểm đó dưới 1 km (2 km nếu tọa độ là ước tính). Sổ tem gom tem theo 34 tỉnh thành, xem ở trang chủ hoặc tab Tài khoản. Tem lưu trên máy này."
+        "text": "Mỗi địa danh có nút Check-in lấy tem. App chỉ tính khi định vị cho thấy bạn đang ở cách điểm đó dưới 1 km (2 km nếu tọa độ là ước tính). Sổ tem gom tem theo 34 tỉnh thành, xem ở trang chủ hoặc tab Tài khoản. Tem chỉ lưu trên máy này; tải file sao lưu ở trang Sổ tem để khỏi mất khi đổi máy hoặc xóa dữ liệu trình duyệt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cài app ra màn hình điện thoại được không? Mất sóng có dùng được không?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Được. iPhone: mở trang bằng Safari, bấm nút Chia sẻ rồi chọn Thêm vào MH chính. Android: mở bằng Chrome, bấm menu ba chấm rồi chọn Cài đặt ứng dụng hoặc Thêm vào màn hình chính. Sau lần mở đầu có sóng, app lưu sẵn dữ liệu 34 tỉnh trên máy, lên đèo mất sóng vẫn xem được địa danh, giá, lịch trình; trợ lý Hỏi chạy ngay trên máy nên mất sóng vẫn hỏi được; riêng bản đồ cần có mạng."
       }
     },
     {
@@ -152,7 +160,7 @@
       "name": "Dữ liệu lấy từ đâu, có đúng không?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hiện có 464 địa danh và 308 món, mỗi mục ghi nguồn và ngày kiểm. Giá luôn ghi theo khoảng; chỗ nào chưa kiểm được, app ghi rõ là chưa kiểm được thay vì đoán. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."
+        "text": "Hiện có 878 địa danh và 646 món, được tổng hợp và kiểm định kỳ. Đây là thông tin tham khảo, có thể lệch so với thực tế; giá luôn ghi theo khoảng, chỗ nào chưa kiểm được thì app ghi rõ thay vì đoán. Một phần địa danh lấy từ Hộ chiếu khám phá RaceHub, giá và giờ mở cửa đang được bổ sung. Thấy sai thì bấm Báo thông tin sai ở từng mục hoặc gửi thư cho đội hỗ trợ."
       }
     },
     {
