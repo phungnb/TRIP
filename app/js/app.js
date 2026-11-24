@@ -1894,8 +1894,12 @@ function pickTransportRows(prov,origin){
 function transportChoices(prov){
   return (prov&&prov.cost||[]).filter(function(c){ var lb=(c.label||""); return /^(xe|bay|máy bay|vé máy bay|tàu|limousine|vé xe)/i.test(lb) && !/thuê|taxi|grab|nội (thành|ô)|tại chỗ|trong tỉnh|^xe (máy|đạp)/i.test(lb) && parseRangeVal(c.value); });
 }
-function tripComponents(prov,budgetId,nights,people,origin,estTotal,trLabel){
-  var transport=0, lodging=0, ok=false, mode="fallback", pk=null;
+/* Tiền món ăn trong lịch trình (để bù phần ăn uống còn thiếu so với bảng "Ăn N ngày" của tỉnh) */
+function dishSumOf(days){ var s=0; (days||[]).forEach(function(d){ (d.items||[]).forEach(function(it){ if((it.kind==="dish"||it.kind==="pdish")&&it.gia_luc_lap!=null) s+=Number(it.gia_luc_lap||0); }); }); return s; }
+/* Số phòng đôi cho cả nhóm: 1 người vẫn trả nguyên phòng, 3 người cần 2 phòng */
+function roomsFor(people){ return Math.max(1,Math.ceil(Math.max(1,people)/2)); }
+function tripComponents(prov,budgetId,nights,people,origin,estTotal,trLabel,dishSum){
+  var transport=0, lodging=0, food=0, ok=false, mode="fallback", pk=null;
   people=Math.max(1,people||1); nights=Math.max(0,nights||0);
   origin=resolveOrigin(origin);
   if(prov && prov.cost && prov.cost.length){
@@ -1905,9 +1909,14 @@ function tripComponents(prov,budgetId,nights,people,origin,estTotal,trLabel){
     if(trLabel && mode!=="same"){ var ch=transportChoices(prov).filter(function(c){ return c.label===trLabel; })[0]; if(ch){ pk={mode:"chon",rows:[ch]}; mode="chon"; } }
     if(mode==="same") ok=true;
     pk.rows.forEach(function(r){ var tr=parseRangeVal(r.value); if(tr){ var v=pickByBudget(tr,budgetId); if(/\/chiều/.test(r.value)) v*=2; transport+=v; ok=true; } });
-    if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights/people):0; } }
+    /* dòng "Ở 2 đêm (chia đôi phòng)" = phần 1 người khi 2 người chung 1 phòng trong 2 đêm, tức 1 phòng 1 đêm = share2.
+       Mỗi người = share2 × số đêm × số phòng đôi / số người (1 người trả nguyên phòng, 4 người cần 2 phòng). */
+    if(sRow){ var sr=parseRangeVal(sRow.value); if(sr){ var share2=pickByBudget(sr,budgetId); lodging=nights?Math.round(share2*nights*roomsFor(people)/people/1000)*1000:0; } }
+    /* Ăn uống: lịch trình chỉ ghi vài món đặc sản, chưa đủ 3 bữa/ngày. Bù phần còn thiếu theo dòng "Ăn N ngày" của bảng chi phí tỉnh. */
+    var fRow=null; prov.cost.forEach(function(c){ if(!fRow && /^ăn\b/i.test(c.label||"")) fRow=c; });
+    if(fRow && dishSum!=null){ var fr=parseRangeVal(fRow.value); if(fr){ var dn=Number(((fRow.label||"").match(/(\d+)\s*ngày/)||[])[1]||3); var need=Math.round(pickByBudget(fr,budgetId)/dn*(nights+1)/1000)*1000; food=Math.max(0,need-Number(dishSum||0)); } }
   }
-  return {base:estTotal, transport:transport, lodging:lodging, total:estTotal+transport+lodging, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId, farNote:(prov&&prov._farNote&&mode!=="same")?prov._farNote:""};
+  return {base:estTotal, transport:transport, lodging:lodging, food:food, rooms:roomsFor(people), total:estTotal+transport+lodging+food, ok:ok, mode:mode, origin:origin, rows:(pk&&pk.rows)||[], budgetId:budgetId, farNote:(prov&&prov._farNote&&mode!=="same")?prov._farNote:""};
 }
 /* Chỉ hiện khi tổng ước tính 1 người thấp hơn ngân sách 1 người đã chọn:
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
@@ -1929,7 +1938,7 @@ function transportNoteHtml0(comp,editable){
 }
 function totalNoteHtml(comp,destName,nights,people,editable){
   var how=(comp.rows||[]).length?' <span class="small">Cách tính tiền đi: '+comp.rows.map(function(r){ return esc(r.label)+' '+esc(r.value); }).join(" + ")+'; lấy mức '+({tiet_kiem:"thấp",vua:"giữa",thoai_mai:"cao"}[comp.budgetId]||"giữa")+' của khoảng giá theo ngân sách bạn chọn'+(/\/chiều/.test(comp.rows.map(function(r){return r.value;}).join(" "))?', giá một chiều nhân 2 cho khứ hồi':'')+'.</span>':'';
-  return 'Vé tham quan + ăn uống theo lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+how+' · Chỗ ở '+nights+' đêm (chia theo '+people+' người): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
+  return 'Vé tham quan + món trong lịch trình: <b style="color:var(--ink)">'+fmt(comp.base)+'</b> · Di chuyển tới '+esc(destName)+': <b style="color:var(--ink)">'+fmt(comp.transport)+'</b>'+transportNoteHtml(comp,editable)+how+' · Chỗ ở '+nights+' đêm ('+people+' người, '+(comp.rooms||roomsFor(people))+' phòng đôi): <b style="color:var(--ink)">'+fmt(comp.lodging)+'</b>'+(comp.food?(' · Ăn uống các bữa còn lại (ngoài món trong lịch trình, theo bảng chi phí tỉnh): <b style="color:var(--ink)">'+fmt(comp.food)+'</b>'):'')+'.<br/>Đã gồm vé tham quan, ăn uống, di chuyển tới điểm đến và chỗ ở. Chưa gồm chi tiêu cá nhân.';
 }
 function renderWizDays(){
   var people=Number(document.getElementById("wPeople").value||2);
@@ -1942,7 +1951,7 @@ function renderWizDays(){
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(budPer*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
     '<p class="small" style="margin:-6px 0 10px">Ngân sách mức '+esc(bud.label.toLowerCase())+' là '+fmt(bud.per)+'/người cho chuẩn 3 ngày 2 đêm; chuyến '+durText(wiz.days.length)+' quy theo số ngày: '+fmt(budPer)+'/người.</p>'+
     '<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin||"TP.HCM")+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>'+
-    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
+    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr, dishSumOf(wiz.days)); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
@@ -2055,12 +2064,12 @@ function editTrip(id){
 }
 /* Tiền đi lại + chỗ ở chụp lại lúc lưu chuyến: chi tiết, chia sẻ, in dùng đúng số này; chỉ đổi khi bấm "Tính lại theo giá mới" */
 function itemsSum(t){ var s=0; (t.days||[]).forEach(function(d){ d.items.forEach(function(it){ if(it.gia_luc_lap!=null) s+=Number(it.gia_luc_lap||0); }); }); return s; }
-function liveComp(t,sum){ var b=BUDGETS.filter(function(x){return x.label===t.budget_label;})[0]; return tripComponents(costProvFor(t.destination_id,t.area,t.focus), b?b.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum, t.transport_label||""); }
-function compSnapOf(t){ var c=liveComp(t,itemsSum(t)); return {transport:c.transport, lodging:c.lodging, ok:c.ok, mode:c.mode, origin:c.origin, rows:(c.rows||[]).map(function(r){ return {label:r.label,value:r.value}; }), budgetId:c.budgetId, farNote:c.farNote, at:todayISO()}; }
+function liveComp(t,sum){ var b=BUDGETS.filter(function(x){return x.label===t.budget_label;})[0]; return tripComponents(costProvFor(t.destination_id,t.area,t.focus), b?b.id:"vua", Math.max(0,(t.days?t.days.length:1)-1), t.people_count||1, t.origin_city||"", sum, t.transport_label||"", dishSumOf(t.days)); }
+function compSnapOf(t){ var c=liveComp(t,itemsSum(t)); return {transport:c.transport, lodging:c.lodging, food:c.food, rooms:c.rooms, ok:c.ok, mode:c.mode, origin:c.origin, rows:(c.rows||[]).map(function(r){ return {label:r.label,value:r.value}; }), budgetId:c.budgetId, farNote:c.farNote, at:todayISO()}; }
 function tripComp(t,sum){
   if(sum==null) sum=itemsSum(t);
   if(!t.comp_snap) return liveComp(t,sum);
-  var c=JSON.parse(JSON.stringify(t.comp_snap)); c.base=sum; c.total=sum+Number(c.transport||0)+Number(c.lodging||0); c.snap=true; return c;
+  var c=JSON.parse(JSON.stringify(t.comp_snap)); c.base=sum; c.total=sum+Number(c.transport||0)+Number(c.lodging||0)+Number(c.food||0); c.snap=true; return c;
 }
 window.tripRecalc=function(){ var t=tripById(currentTripId); if(!t) return; t.comp_snap=compSnapOf(t); saveTrips(); renderTripDetail(); toast("Đã tính lại tiền đi lại và chỗ ở theo giá mới nhất trong cẩm nang"); };
 function savePlanTrip(){
