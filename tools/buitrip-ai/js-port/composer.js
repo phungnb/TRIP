@@ -113,6 +113,13 @@ export function compose(intent, entries, query, historyEntities, extra) {
         "\nGiá có thể đổi; kiểm lại khi đặt."
       );
     }
+    if (!tinh) {
+      return (
+        `App chưa có danh sách ${kind} riêng đã kiểm chứng cho nơi này. ` +
+        `Bạn hỏi mình theo điểm cụ thể — vd "ăn gì ở Quy Nhơn" thì mình gợi ý theo ` +
+        `điểm đã có trong kho.`
+      );
+    }
     return (
       `App chưa có danh sách ${kind} riêng đã kiểm chứng cho ${tinh}. ` +
       `Bạn xem tab Ăn gì / Ở đâu trên trang ${tinh} trong app, hoặc hỏi ` +

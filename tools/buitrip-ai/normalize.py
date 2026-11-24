@@ -78,9 +78,72 @@ def norm_text(s):
     return s
 
 
+# Tên tỉnh cũ (sáp nhập 01/07/2025) — để tách dạng viết liền ("binhdinh").
+# (Trùng OLD_TO_NEW trong data_gen.py; normalize.py không import data_gen
+# để tránh vòng tròn.)
+OLD_PROVINCES = ("Bình Định", "Quảng Bình", "Kiên Giang", "Bà Rịa-Vũng Tàu",
+                 "Đắk Nông", "Phú Yên", "Tiền Giang", "Long An", "Hậu Giang",
+                 "Bình Dương", "Bình Phước", "Bắc Kạn", "Quảng Nam", "Bình Thuận")
+
+# Dạng viết liền của tên tỉnh/thành 2 chữ ("sapa" = "sa pa"): câu hỏi thật
+# hay viết liền; tách ra trong tokens() để khớp với dữ liệu (kho ghi "Sa Pa").
+# Chỉ tách khi token ĐÚNG bằng dạng viết liền của 1 tên có thật — không tách
+# "la", "an", "du" đứng riêng (chúng là từ thường).
+JOINED_PLACE = {}
+for _nm in (list(CITY_TO_PROVINCE.keys()) + list(CITY_TO_PROVINCE.values())
+            + list(OLD_PROVINCES)):
+    _t = norm_text(_nm).split()
+    if len(_t) > 1:
+        JOINED_PLACE["".join(_t)] = _t
+
+
 def tokens(s):
     """Token + bigram (giúp khớp 'quy nhon', 'ba na', 'sapa'...)."""
     t = norm_text(s).split()
-    feats = list(t)
-    feats += [f"{a}_{b}" for a, b in zip(t, t[1:])]
+    # Tách tên viết liền ("sapa" -> "sa", "pa") để khớp dữ liệu.
+    exp = []
+    for tok in t:
+        exp.extend(JOINED_PLACE.get(tok, [tok]))
+    feats = list(exp)
+    feats += [f"{a}_{b}" for a, b in zip(exp, exp[1:])]
     return feats
+
+
+# Từ hỏi/chức năng + từ theo ý định + loại địa danh chung + tính từ chung.
+# Dùng để tìm "token cụ thể" trong câu hỏi (luật chặn khớp giả, 24/11/2026):
+# token nào còn lại sau khi bỏ các từ này và tên tỉnh/thành phố thì là thứ
+# cụ thể người hỏi nhắc đích danh (vd "quốc lộ 51" còn lại "quoc lo 51").
+# Bỏ sót 1 từ ở đây thì câu đó chỉ thành "chung chung" (không chặn) — an toàn;
+# bỏ thừa 1 từ thì câu đó có thể bị chặn nhầm -> rơi về trợ lý cũ (cũng an toàn).
+QUESTION_WORDS = {
+    # Từ chức năng / từ hỏi chung
+    "co", "o", "la", "cua", "va", "voi", "nao", "gi", "may", "gio", "mo",
+    "bao", "nhieu", "the", "cho", "den", "tu", "di", "ve", "tren", "duoi",
+    "trong", "ngoai", "nay", "kia", "do", "ay", "thi", "ma", "se", "da",
+    "dang", "hay", "hoac", "neu", "khi", "vi", "de", "bang", "cach",
+    "sao", "con", "vay", "roi", "dau", "luc", "thoi", "nua", "khong",
+    "ko", "duoc",
+    # Từ xưng hô / nhờ vả / từ nối hay gặp trong câu hỏi diễn đàn
+    "du", "het", "nen", "nhu", "cung", "ca", "tat", "em", "anh", "ban",
+    "minh", "ta", "bac", "cac", "nguoi", "xin", "hoi", "nho", "giup",
+    "van", "tour", "combo", "lai",
+    # Giới từ hướng/thời gian hay gặp ("vào tháng mấy", "ra đảo", "lên núi")
+    "vao", "ra", "len", "xuong", "qua",
+    # Từ theo ý định (giá/giờ/mùa/cách đi/ăn/ở/điểm chơi/lịch trình/chi phí/...)
+    "gia", "ve", "gio", "mo", "cua", "dong", "mua", "dep", "thang",
+    "cach", "di", "bang", "an", "diem", "choi", "lich", "trinh", "chi",
+    "phi", "mang", "so", "sanh", "tinh", "cu", "vi", "tri", "chung",
+    "tham", "quan", "dia", "danh", "den", "lai", "thue", "xe", "may",
+    "taxi", "grab", "dat", "phong", "khach", "san", "homestay", "resort",
+    "nha", "nghi", "luu", "tru", "ngu", "sang", "toi", "hang", "dac",
+    "san", "mon", "ngon", "uong",
+    # Loại địa danh chung (không phải tên riêng): biển, núi, thác, chùa...
+    "bien", "nui", "thac", "ho", "chua", "dao", "lang", "bai", "den",
+    "hang", "cho", "suoi", "doi", "deo", "cau", "bao", "tang", "check",
+    "in", "song", "ao", "tich",
+    # Tính từ chung (ngon/rẻ/đẹp/nổi tiếng...) — không phải tên riêng
+    "ngon", "re", "dat", "dep", "noi", "tieng", "nhat", "tot", "xau",
+    "rong", "hep", "cao", "thap", "dai", "ngan", "lon", "nho", "moi",
+    "trua", "chieu", "dem", "som", "muon", "nhanh", "cham", "de", "kho",
+    "tien", "loi", "gan", "xa", "thuan",
+}

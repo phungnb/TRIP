@@ -157,8 +157,25 @@
     var qd = destPart(q);
     var rest = A.rest(qd), f = A.fold(q), res = null;
     var useCtx = !(opt && opt.noCtx);
+    /* Chặn ngữ cảnh cũ khi câu hỏi nhắc đích danh 1 thứ không có trong
+       dữ liệu (gặp 24/11/2026: "Quốc lộ 51 có điểm tham quan nào" bị nối
+       ngữ cảnh Phú Thọ từ câu trước, trả "Ăn gì ở Phú Thọ"). Bỏ qua ngữ
+       cảnh khi: phần còn lại (rest) không rỗng, không phải câu tiếp nối
+       (followCue sai), và rest không khớp mục nào trong dữ liệu
+       (findItem null hoặc yếu s < 70), và rest có số hoặc ≥2 từ (tên
+       riêng cụ thể). Câu tiếp nối thật ("giá vé bao nhiêu" -> rest rỗng;
+       "thế còn chỗ ở" -> followCue đúng) không bị ảnh hưởng. */
+    function unknownSpecific(q, rest) {
+      if (!rest) return false;
+      if (A.followCue(q)) return false;
+      var words = rest.split(" ").filter(function (w) { return w; });
+      if (!/\d/.test(rest) && words.length < 2) return false;
+      var it = null;
+      try { it = A.findItem(rest); } catch (e) {}
+      return !it || it.s < 70;
+    }
     res = route(qd, I, rest, null);
-    if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
+    if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length) && !unknownSpecific(q, rest)) {
       var last = A.ctx.last(), E = fromCtx(last);
       if (E && (E.item || E.area || E.isle || E.prov)) { res = route(q, I, "", E); if (res) res.followed = true; }
     }
@@ -177,24 +194,41 @@
     res.ent = ent; res.intent = I.intent; res.ms = Date.now() - t0;
     return res;
   };
-  /* Engine mới (ai/ai-loader.js) chỉ trả lời khi engine cũ không có câu trả lời (fallback) và engine mới tự tin.
-     Hỏi engine mới trước làm sai câu theo khu/đảo (Phú Quốc, Quy Nhơn, Cát Bà, Kỳ Co trả về dữ liệu cả tỉnh):
-     CI 23/11/2026, tests/trinh-duyet.mjs "23 câu trợ lý trong báo cáo 1.014". */
+  /* Engine mới (ai/ai-loader.js) hỏi TRƯỚC khi tự tin (conf >= 0.9, score >= 0.3);
+     không chắc thì trả về engine cũ — không mất tính năng cũ, không đổi 120/120 câu live.
+     NGOẠI LỆ: câu chung về 1 khu/đảo/tỉnh (vd "Phú Quốc có gì chơi",
+     "Quy Nhơn đi bằng gì") thì KHÔNG hỏi engine mới trước: engine mới chỉ
+     trả 1 mục lẻ (vd "Phú Quốc Explorer", "Jollibee Quy Nhơn") trong khi
+     engine cũ trả trang khu/đảo đầy đủ. Nhận biết câu chung: phần còn lại
+     sau khi bỏ từ hỏi (A.rest) chỉ còn đúng tên khu/đảo/tỉnh.
+     (CI 23/11/2026, tests/trinh-duyet.mjs "23 câu trợ lý trong báo cáo 1.014";
+     kiểm lại 24/11/2026: "Phú Quốc có gì chơi" -> "Phú Quốc Explorer",
+     "Quy Nhơn có gì chơi" -> "Jollibee Quy Nhơn", "Cát Bà có gì chơi" ->
+     "Cát Bà Wonder Hotel".) */
   A.ask = function (q, opt) {
-    var t0 = Date.now(), r = askCu(q, opt);
-    if (r && r.kind === "fallback" && window.__btaiNew) {
+    var t0 = Date.now(), qq = String(q == null ? "" : q).trim();
+    if (window.__btaiNew) {
+      var genericArea = false;
       try {
-        var nr = window.__btaiNew.ask(String(q == null ? "" : q).trim());
-        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3) {
-          var nres = newAnswer(nr, q, t0);
-          if (nres) {
-            if (!(opt && opt.noCtx)) A.ctx.push({ q: q, intent: nr.intent, ent: nres.ent });
-            return nres;
-          }
-        }
+        A.index();
+        var E0 = entOf(qq), r0 = A.rest(qq);
+        var nm = E0.isle ? E0.isle.name : E0.area ? E0.area.name : E0.prov ? E0.prov.prov.name : null;
+        if (nm && A.fold(r0) === A.fold(nm)) genericArea = true;
       } catch (e) {}
+      if (!genericArea) {
+        try {
+          var nr = window.__btaiNew.ask(qq);
+          if (nr && nr.confidence >= 0.9 && nr.score >= 0.3 && !nr.no_data) {
+            var nres = newAnswer(nr, qq, t0);
+            if (nres) {
+              if (!(opt && opt.noCtx)) A.ctx.push({ q: qq, intent: nr.intent, ent: nres.ent });
+              return nres;
+            }
+          }
+        } catch (e) {}
+      }
     }
-    return r;
+    return askCu(qq, opt);
   };
   window.askBuiTrip = function (q, opt) { return A.ask(q, opt); };
   /* nút trong câu trả lời */

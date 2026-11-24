@@ -94,6 +94,10 @@ def compose(intent, entries, query, history_entities):
             return (f"{kind.capitalize()} ở {_display_place(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):\n"
                     + "\n".join(lines)
                     + "\nGiá có thể đổi; kiểm lại khi đặt.")
+        if not tinh:
+            return (f"App chưa có danh sách {kind} riêng đã kiểm chứng cho nơi này. "
+                    f"Bạn hỏi mình theo điểm cụ thể — vd \"ăn gì ở Quy Nhơn\" thì "
+                    f"mình gợi ý theo điểm đã có trong kho.")
         return (f"App chưa có danh sách {kind} riêng đã kiểm chứng cho {tinh}. "
                 f"Bạn xem tab Ăn gì / Ở đâu trên trang {tinh} trong app, hoặc hỏi "
                 f"mình theo điểm cụ thể — vd \"ăn gì ở Quy Nhơn\" thì mình gợi ý theo "

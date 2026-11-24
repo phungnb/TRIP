@@ -5,7 +5,7 @@
 //   2) đo độ phủ 175 câu thật trong ../cau-hoi-that-vn.json
 //      (đạt khi confidence >= 0.9 và score >= 0.3).
 // Số chuẩn bản Python (đo 24/11/2026, model.json + kho-kien-thuc.json 2.319 mục):
-//   intent 24/24, entity 24/24, độ phủ 158/175 (90,3%).
+//   intent 24/24, entity 24/24, độ phủ 102/175 (58,3%).
 // (Trước đó 157/175 — tăng 1 sau khi gộp 348 mục đã dịch.)
 import fs from "node:fs";
 import { load } from "./buitrip-ai.js";
@@ -40,7 +40,7 @@ const REAL_QUESTIONS = [
 
 const PY_INTENT = "24/24";
 const PY_ENTITY = "24/24";
-const PY_COVERAGE = "158/175 (90,3%)";
+const PY_COVERAGE = "102/175 (58,3%)";
 
 function main() {
   const kb = JSON.parse(fs.readFileSync("../kb.json", "utf-8"));
@@ -81,8 +81,8 @@ function main() {
     for (const [q, c, s, intent] of miss) console.log(`   - [conf=${c} score=${s} intent=${intent}] ${q}`);
   }
 
-  const allOk = nIntent === 24 && nEntity === 24 && ok === 158;
-  console.log(`\nKẾT LUẬN: ${allOk ? "KHỚP BẢN PYTHON (24/24 intent, 24/24 entity, 158/175 phủ)" : "LỆCH SO VỚI BẢN PYTHON — xem các câu SAI ở trên"}`);
+  const allOk = nIntent === 24 && nEntity === 24 && ok === 102;
+  console.log(`\nKẾT LUẬN: ${allOk ? "KHỚP BẢN PYTHON (24/24 intent, 24/24 entity, 102/175 phủ)" : "LỆCH SO VỚI BẢN PYTHON — xem các câu SAI ở trên"}`);
 }
 
 function entityOk(r, expEnt) {

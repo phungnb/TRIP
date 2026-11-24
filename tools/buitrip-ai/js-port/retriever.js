@@ -68,6 +68,17 @@ export class Retriever {
       // cộng điểm khi TOÀN BỘ token tên điểm đều có trong câu hỏi
       // (vd "côn đảo" trong "côn đảo nằm ở đâu" thắng "cồn cỏ" dù gần giống)
       if (nameTok.size && [...nameTok].every((t) => qtok.has(t))) s += 2.5;
+      // Tên phụ trong ngoặc cũng là tên gọi thật (vd "(Hồ Gươm)",
+      // "(Cầu Vàng)"): khớp nguyên vẹn hoặc đủ token thì cộng như
+      // tên chính (gặp 24/11/2026: "Hồ Gươm ở đâu" ra "Hồ Dầu Tiếng",
+      // "Cầu Vàng giá bao nhiêu" ra "Cầu Rồng" vì chỉ xét tên trước ngoặc).
+      const pm = (this.kb[i].ten || "").match(/\(([^)]*)\)/);
+      if (pm) {
+        const alias = normText(pm[1]);
+        if (alias && qn.includes(alias)) s += 2.0;
+        const aliasTok = new Set(tokens(pm[1]));
+        if (aliasTok.size && [...aliasTok].every((t) => qtok.has(t))) s += 2.5;
+      }
       // cộng điểm khi mục nhắc đúng thành phố/khu người hỏi (vd món Phú Quốc
       // trong kho món An Giang — cùng tỉnh nhưng phải ưu tiên đúng khu).
       // LƯU Ý (giữ y bản Python): texts[i] là MẢNG token nên normText(city)

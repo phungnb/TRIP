@@ -6,6 +6,7 @@ Có cộng điểm học được từ phản hồi (learner.feedback): token n�
 from data_gen import OLD_TO_NEW
 from normalize import CITY_TO_PROVINCE, norm_text, same_province, tokens
 from tfidf import Tfidf
+import re
 
 
 class Retriever:
@@ -63,6 +64,18 @@ class Retriever:
             # (vd "côn đảo" trong "côn đảo nằm ở đâu" thắng "cồn cỏ" dù gần giống)
             if name_tok and name_tok <= qtok:
                 s += 2.5
+            # Tên phụ trong ngoặc cũng là tên gọi thật (vd "(Hồ Gươm)",
+            # "(Cầu Vàng)"): khớp nguyên vẹn hoặc đủ token thì cộng như
+            # tên chính (gặp 24/11/2026: "Hồ Gươm ở đâu" ra "Hồ Dầu Tiếng",
+            # "Cầu Vàng giá bao nhiêu" ra "Cầu Rồng" vì chỉ xét tên trước ngoặc).
+            m = re.search(r"\(([^)]*)\)", self.kb[i].get("ten") or "")
+            if m:
+                alias = norm_text(m.group(1))
+                if alias and alias in qn:
+                    s += 2.0
+                alias_tok = set(tokens(m.group(1)))
+                if alias_tok and alias_tok <= qtok:
+                    s += 2.5
             # cộng điểm khi mục nhắc đúng thành phố/khu người hỏi (vd món Phú Quốc
             # trong kho món An Giang — cùng tỉnh nhưng phải ưu tiên đúng khu)
             for city in cities_in_q:
