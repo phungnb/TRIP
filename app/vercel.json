@@ -51,5 +51,29 @@
       "source": "/auth/:path*",
       "destination": "/api/auth-proxy?p=:path*"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path((?!api/|auth/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.buitrip.com"
+        }
+      ],
+      "destination": "https://buitrip.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!api/|auth/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "buitrip.vercel.app"
+        }
+      ],
+      "destination": "https://buitrip.com/:path",
+      "permanent": true
+    }
   ]
 }
