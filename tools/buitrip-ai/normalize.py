@@ -53,10 +53,23 @@ CITY_TO_PROVINCE = {
 
 
 def prov_key(s):
-    """Chuẩn hóa tên tỉnh để so sánh: bỏ 'thành phố/tp', chỉ giữ token lõi."""
-    toks = [t for t in norm_text(s or "").split()
-            if t not in ("thanh", "pho", "tp")]
-    return " ".join(toks)
+    """Chuẩn hóa tên tỉnh để so sánh: bỏ 'thành phố/tp', chỉ giữ token lõi.
+    Chỉ bỏ 'thanh' khi nó đi với 'pho' ('thành phố') — 'Thanh Hóa' là
+    tên tỉnh, KHÔNG được rút thành 'hoa' (lỗi thật gặp 25/11/2026: mọi câu
+    có chữ 'hoa' đều khớp nhầm tỉnh Thanh Hóa)."""
+    toks = norm_text(s or "").split()
+    out = []
+    i = 0
+    while i < len(toks):
+        if toks[i] == "thanh" and i + 1 < len(toks) and toks[i + 1] == "pho":
+            i += 2
+            continue
+        if toks[i] in ("tp",):
+            i += 1
+            continue
+        out.append(toks[i])
+        i += 1
+    return " ".join(out)
 
 
 def same_province(tinh_entry, prov_norm):

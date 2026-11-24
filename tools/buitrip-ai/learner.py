@@ -15,6 +15,8 @@ from data_gen import OLD_TO_NEW, generate
 from naive_bayes import NaiveBayes
 from normalize import CITY_TO_PROVINCE, norm_text, prov_key, tokens
 from retriever import Retriever
+from slots import (SessionContext, enrich_entry, extract_slots, parse_cost,
+                   parse_cost_low, parse_hours, premise_check)
 from tfidf import Tfidf
 
 MODEL_PATH = "model.json"
@@ -62,9 +64,15 @@ class BuiTripAI:
         self.tfidf_q = Tfidf()
         self.extra_rows = []  # câu hỏi + nhãn do người dùng sửa (học thêm)
         self.history_entities = []
+        # Tầng 2 — bộ nhớ hội thoại có cấu trúc (SessionContext).
+        self.ctx = SessionContext()
+        # Tầng 3 — kho đã chuẩn hóa (suy trường mới từ dữ liệu sẵn có).
+        self.kb_enriched = [enrich_entry(e) for e in self.kb]
         # Tên tỉnh mới (từ kho) để nhận diện tỉnh trong câu hỏi
         self.provinces = sorted({prov_key(e.get("tinh")) for e in self.kb
                                  if e.get("tinh") and not e.get("loai")})
+        self.province_names = sorted({e.get("tinh") for e in self.kb
+                                      if e.get("tinh")})
 
     def _province_of(self, q):
         """Trả về tên tỉnh mới (dạng chuẩn hóa) nếu câu hỏi nhắc 1 tỉnh/tỉnh cũ/thành phố."""
@@ -91,6 +99,12 @@ class BuiTripAI:
         return len(rows)
 
     def ask(self, q):
+        # --- Tầng 1+2: trích slot, cập nhật context, gộp slot hiệu dụng ---
+        raw_slots = extract_slots(q, self.kb, self.province_names)
+        self.ctx.update(raw_slots)
+        slots = self.ctx.effective_slots(raw_slots)
+        # --- Tầng 1: kiểm tra tiền đề sai (đính chính lên đầu nếu có) ---
+        premise = premise_check(slots, self.kb)
         feats = tokens(q)
         intent, probs = self.nb.predict(feats)
         conf = probs.get(intent, 0.0)
@@ -136,7 +150,32 @@ class BuiTripAI:
                 if not entries[j][1].get("loai"):
                     entries = [entries[j]] + entries[:j] + entries[j + 1:]
                     break
+        # --- Tầng 3: lọc thời gian (close_hour >= giờ hỏi, hoặc mở qua đêm) ---
+        tf = slots.get("time_filter")
+        if tf and tf.get("type") == "after" and entries:
+            hour = tf["hour"]
+            kept = []
+            for score, e in entries:
+                enr = next((x for x in self.kb_enriched
+                            if x.get("ten") == e.get("ten")), None)
+                ch = enr.get("close_hour") if enr else None
+                if ch is None or ch >= hour or ch <= 5.0:
+                    kept.append((score, e))
+            if kept:
+                entries = kept
         answer = compose(intent, entries, q, self.history_entities)
+        # --- Tầng 3: tổng hợp đa ý định thành khối (khi >= 2 ý định) ---
+        multi = self._multi_intent_blocks(slots, q)
+        if multi:
+            answer = multi + "\n\n" + answer
+        # --- Tầng 1: đính chính tiền đề sai lên ĐẦU câu trả lời (sau khối
+        # đa ý định, để câu đính chính luôn là dòng đầu tiên) ---
+        if premise:
+            answer = premise["message"] + "\n\n" + answer
+        # --- Tầng 1: cảnh báo ngân sách khi nhân số người vượt budget ---
+        warn = self._budget_warning(slots)
+        if warn:
+            answer = answer + "\n\n" + warn
         entity = entries[0][1].get("ten") if entries else None
         if intent == "cach_di":
             # Thực thể đúng là ĐIỂM ĐẾN trong bảng tuyến, không phải điểm xuất phát
@@ -154,7 +193,85 @@ class BuiTripAI:
         entity_prov = entries[0][1].get("tinh") if entries else None
         return {"answer": answer, "intent": intent, "confidence": round(conf, 3),
                 "entity": entity, "entity_prov": entity_prov,
-                "score": round(entries[0][0], 3) if entries else 0.0}
+                "score": round(entries[0][0], 3) if entries else 0.0,
+                "slots": slots, "premise": premise}
+
+    def _multi_intent_blocks(self, slots, q):
+        """Khi intents >= 2 (vd [chi_phi, di_dau, an_gi]): trả 3 khối
+        Chi phí / Điểm đến / Ẩm thực để hiện trước CTA. Trả None nếu < 2 ý định."""
+        intents = slots.get("intents") or []
+        if len(intents) < 2:
+            return None
+        prov = slots.get("province")
+        people = slots.get("people") or 1
+        days = slots.get("days") or 2
+        blocks = []
+        # Khối chi phí (khi có chi_phi hoặc budget)
+        if "chi_phi" in intents or slots.get("budget_vnd"):
+            est = self._estimate_trip(prov, people, days)
+            if est is not None:
+                blocks.append("💰 Ước tính chi phí cho %d người (%dN%dĐ): ~%s VNĐ" % (
+                    people, days, max(days - 1, 1), format(est, ",").replace(",", ".")))
+        # Khối điểm đến
+        if "di_dau" in intents or "lich_trinh" in intents:
+            spots = self._top_for_province(prov, None, 3)
+            if spots:
+                blocks.append("🌲 Điểm đến: " + ", ".join(spots))
+        # Khối ẩm thực
+        if "an_gi" in intents:
+            dishes = self._top_for_province(prov, "mon_an", 3)
+            if dishes:
+                blocks.append("🍲 Món nên thử: " + ", ".join(dishes))
+        return "\n".join(blocks) if blocks else None
+
+    def _top_for_province(self, prov, loai, n):
+        out = []
+        for e in self.kb:
+            if prov and e.get("tinh") != prov:
+                continue
+            if loai and e.get("loai") != loai:
+                continue
+            if not loai and e.get("loai"):
+                continue
+            out.append((e.get("ten") or "").split("(")[0].strip())
+            if len(out) >= n:
+                break
+        return out
+
+    def _estimate_trip(self, prov, people, days):
+        """Ước tính tổng chi phí = (lưu trú + ăn + vé + đi lại) x người.
+        Dùng mục chi_phi của tỉnh (nếu có) làm mốc/người/chuyến.
+        Giá nằm ở 'gia', hoặc ở 'ghi_chu' sau cụm 'Tổng ước tính:'.
+        'Tổng ước tính' đã là tổng cả chuyến/người nên KHÔNG nhân thêm
+        số ngày (nhân ngày là sai — lỗi thật 25/11/2026: 2.975.000 x 2
+        người x 3 ngày = 17,85 triệu cho ngân sách 5 triệu).
+        Dùng đầu thấp của khoảng giá (mức tối thiểu đạt được) để ước tính
+        theo ngân sách người dùng nêu."""
+        for e in self.kb:
+            if e.get("loai") == "chi_phi" and (not prov or e.get("tinh") == prov):
+                c = parse_cost_low(e.get("gia") or "")
+                if c is None:
+                    gc = e.get("ghi_chu") or ""
+                    m = gc.find("Tổng ước tính")
+                    c = parse_cost_low(gc[m:] if m >= 0 else gc)
+                if c:
+                    return c * people
+        return None
+
+    def _budget_warning(self, slots):
+        """Cảnh báo khi tổng ước tính x số người vượt budget."""
+        budget = slots.get("budget_vnd")
+        people = slots.get("people") or 1
+        days = slots.get("days") or 2
+        if not budget:
+            return None
+        est = self._estimate_trip(slots.get("province"), people, days)
+        if est and est > budget:
+            return ("⚠️ Với %d người, ước tính ~%s VNĐ đã vượt ngân sách %s VNĐ "
+                    "của bạn. Bạn có thể rút ngắn ngày hoặc chọn chỗ ở rẻ hơn." % (
+                        people, format(est, ",").replace(",", "."),
+                        format(budget, ",").replace(",", ".")))
+        return None
 
     def feedback(self, q, correct_intent, correct_entity_name=None):
         """Sửa sai: thêm câu hỏi + nhãn đúng vào dữ liệu, huấn luyện lại ngay.

@@ -67,8 +67,24 @@ const ALIAS_RE = Object.entries(ALIASES).map(
 
 // Chuẩn hóa tên tỉnh để so sánh: bỏ 'thành phố/tp', chỉ giữ token lõi.
 export function provKey(s) {
-  const toks = normText(s || "").split(" ").filter((t) => t !== "" && t !== "thanh" && t !== "pho" && t !== "tp");
-  return toks.join(" ");
+  // Chỉ bỏ 'thanh' khi nó đi với 'pho' ('thành phố') — 'Thanh Hóa' là
+  // tên tỉnh, KHÔNG được rút thành 'hoa' (lỗi thật gặp 25/11/2026).
+  const toks = normText(s || "").split(" ").filter((t) => t !== "");
+  const out = [];
+  let i = 0;
+  while (i < toks.length) {
+    if (toks[i] === "thanh" && i + 1 < toks.length && toks[i + 1] === "pho") {
+      i += 2;
+      continue;
+    }
+    if (toks[i] === "tp") {
+      i += 1;
+      continue;
+    }
+    out.push(toks[i]);
+    i += 1;
+  }
+  return out.join(" ");
 }
 
 // Tỉnh trong kho có phải tỉnh người hỏi không (so theo token lõi).
