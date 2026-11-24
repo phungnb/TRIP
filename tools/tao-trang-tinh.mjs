@@ -115,7 +115,7 @@ export function sinh() {
 ${PROV.map(p => `<url><loc>${SITE}/tinh/${p.id}/</loc></url>`).join("\n")}
 </urlset>
 `;
-  out["robots.txt"] = `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`;
+  out["robots.txt"] = `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /admin/\nSitemap: ${SITE}/sitemap.xml\n`;
   return out;
 }
 

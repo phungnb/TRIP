@@ -237,6 +237,8 @@ function syncHistory(){
 }
 window.addEventListener("popstate",function(){
   histGuard=false;
+  /* Trang admin (#/admin) phủ lên trên, không đổi màn hình bên dưới (js/admin.js) */
+  if(location.hash==="#/admin"){ if(typeof window.btAdminOpen==="function" && !document.getElementById("admView")) window.btAdminOpen(); return; }
   /* Dán link #/tinh/… vào tab đang mở: mở đúng trang đó thay vì coi là bấm Back (chia-se.js) */
   if(location.hash && location.hash!==viewHash() && typeof window.btRouteHash==="function" && window.btRouteHash(location.hash)) return;
   if(navStack.length>0) goBack();

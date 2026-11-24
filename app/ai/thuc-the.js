@@ -5,6 +5,8 @@
   var fold = A.fold, low = A.low, has = A.has;
   var IDX = null;
   function main(n) { return String(n || "").split(" (")[0]; }
+  /* bản sửa của admin vừa áp (js/du-lieu-sua.js): dựng lại chỉ mục lần hỏi sau */
+  A.resetIndex = function () { IDX = null; };
   A.index = function () {
     if (IDX) return IDX;
     IDX = [];
