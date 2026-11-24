@@ -590,3 +590,4 @@
 .adm h3{ margin:12px 0 4px; }
 .adm-bulk label{ display:flex; align-items:center; gap:8px; }
 .adm-bulk input[type=checkbox],.adm .dg-top input[type=checkbox]{ width:auto; flex:none; }
+.adm-src{ display:flex; flex-wrap:wrap; gap:6px 14px; margin:8px 0; }

@@ -337,7 +337,9 @@
   };
   A.answerGioiThieu = function (e, q) {
     var x = e.x, p = e.prov, k = fold(x.name.split(" (")[0]), bc = typeof BT_BOI_CANH !== "undefined" ? BT_BOI_CANH[k] : null, h = "";
-    if (bc) h += '<p>' + esc(bc.t) + '</p><p class="small">Đoạn trên trích Wikipedia tiếng Việt, bài "' + esc(bc.bai) + '", giấy phép CC BY-SA 4.0.</p>';
+    var dk = A.dayKienThuc ? A.dayKienThuc(x.name, p.id) : null;
+    if (dk) { h += dk.html; bc = { bai: dk.bai, t: dk.t }; }
+    else if (bc) h += '<p>' + esc(bc.t) + '</p><p class="small">Đoạn trên trích Wikipedia tiếng Việt, bài "' + esc(bc.bai) + '", giấy phép CC BY-SA 4.0.</p>';
     else if (x.history) h += '<p>' + esc(String(x.history).replace(/^Theo một số tư liệu chưa chính thống,\s*/i, "").replace(/^./, function (c) { return c.toUpperCase(); })) + '</p><p class="small">Phần lịch sử tổng hợp từ tư liệu công khai, chưa đối chiếu nguồn chính thống.</p>';
     if (x.review_m) h += '<p><b>Nhận xét tổng hợp:</b> ' + esc(x.review_m) + '</p>';
     if (!h) return "";

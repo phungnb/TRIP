@@ -147,6 +147,7 @@
   function askCu(q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
+    if (A.dayGoSai) q = A.dayGoSai(q);
     if (!q) return { html: "", kind: "", ms: 0 };
     if (A.vietTat) q = A.vietTat(q);
     A.index();
@@ -163,13 +164,17 @@
     var qd = destPart(q);
     var rest = A.rest(qd), f = A.fold(q), res = null;
     var useCtx = !(opt && opt.noCtx);
+    /* câu hỏi admin dạy (ai/bai-day.js): admin định hướng nên trả trước mọi nhánh khác */
+    if (A.answerDay) { var dy = A.answerDay(q); if (dy) res = { kind: "day", html: dy, ent: null }; }
     /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
     var gy = A.laGoiY ? A.laGoiY(q, null) : null;
-    if (gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
+    if (!res && gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
     /* câu nêu đích danh 1 quán, chỗ ở, điểm nhỏ mà app chưa có trang, nhưng kho học có (ai/kho-them.js) */
     if (!res) { var kt = A.khoThem(qd); if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
     /* câu hỏi giới thiệu, lịch sử 1 địa danh */
     if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
+    /* chủ đề admin cho học, đoạn kiến thức đã duyệt */
+    if (!res && A.answerDayChuDe) { var dc = A.answerDayChuDe(q); if (dc) res = { kind: "day", html: dc, ent: null }; }
     if (!res) res = route(qd, I, rest, null);
     if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
       var last = A.ctx.last(), E = fromCtx(last);
