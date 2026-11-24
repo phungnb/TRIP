@@ -1,10 +1,15 @@
 /* Trợ lý BuiTrip: nạp lười đoạn giới thiệu địa danh, thanh góp ý dưới câu trả lời, học trên máy.
    Không gọi máy chủ ngoài, không key. Gửi góp ý chỉ khi người dùng bấm gửi (/api/hotro). */
 (function () {
-  /* ---- Đoạn giới thiệu địa danh (ai/boi-canh.js, ~97 KB): nạp lười khi trang rảnh ---- */
+  /* ---- Đoạn giới thiệu địa danh (ai/boi-canh.js, ~97 KB) và kho thêm: nạp lười khi trang rảnh ---- */
+  /* ai/kho-them.js (~83 KB): quán, chỗ ở, điểm nhỏ trong kho học mà dữ liệu app chưa có */
+  function nap(src, có) {
+    if (có || !document || !document.createElement) return;
+    var s = document.createElement("script"); s.src = src; s.async = true; document.head.appendChild(s);
+  }
   function bootBoiCanh() {
-    if (typeof BT_BOI_CANH !== "undefined" || !document || !document.createElement) return;
-    var s = document.createElement("script"); s.src = "ai/boi-canh.js"; s.async = true; document.head.appendChild(s);
+    nap("ai/boi-canh.js", typeof BT_BOI_CANH !== "undefined");
+    nap("ai/kho-them.js", typeof BT_KHO_THEM !== "undefined");
   }
   if (typeof window.addEventListener === "function")
     window.addEventListener("load", function () { setTimeout(bootBoiCanh, 1500); });

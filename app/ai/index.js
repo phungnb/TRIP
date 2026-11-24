@@ -109,6 +109,41 @@
     return E;
   }
 
+  /* Kho thêm: khớp tên (hoặc tên trong ngoặc) dài nhất có nguyên văn trong câu; app có mục ngang tầm thì nhường app */
+  var KT = null;
+  function ktIdx() {
+    if (KT || typeof BT_KHO_THEM === "undefined") return KT;
+    KT = BT_KHO_THEM.map(function (x) {
+      var ns = [x.t.split(" (")[0].split(" — ")[0]], m = x.t.match(/\(([^)]+)\)/); if (m) ns.push(m[1]);
+      return { x: x, ks: ns.map(A.fold).filter(function (k) { return k.split(" ").length >= 2 && k.length >= 7; }) };
+    });
+    return KT;
+  }
+  A.khoThem = function (q) {
+    var L = ktIdx(); if (!L) return null;
+    var f = " " + A.fold(q) + " ", best = null;
+    L.forEach(function (o) { o.ks.forEach(function (k) {
+      /* tên dài gõ thiếu đuôi ("Phù điêu bắt sống phi công Mỹ"): khớp phần đầu từ 4 chữ và từ 60% tên */
+      var t = k.split(" "), n = t.length;
+      while (n >= 4 && n >= Math.ceil(t.length * 0.6) && f.indexOf(" " + t.slice(0, n).join(" ") + " ") < 0) n--;
+      var kk = n === t.length || n >= 4 && n >= Math.ceil(t.length * 0.6) ? t.slice(0, n).join(" ") : "";
+      if (kk && f.indexOf(" " + kk + " ") >= 0 && (!best || kk.length > best.k.length)) best = { x: o.x, k: kk };
+    }); });
+    if (!best || A.isPlaceName(best.k)) return null;
+    var it = A.findItem(best.k);
+    if (it && it.s >= 90 && it.best.fm.length >= best.k.length) return null;
+    return best.x;
+  };
+  A.answerKhoThem = function (x) {
+    var L = { an: "Quán ăn, uống", o: "Chỗ ở", d: "Địa điểm" }[x.l] || "Địa điểm", li = [];
+    if (x.dc) li.push("<li>Địa chỉ: " + A.esc(x.dc) + (x.p ? ", " + A.esc(x.p) : "") + "</li>");
+    if (x.g) li.push("<li>" + (x.l === "o" ? "Giá phòng tham khảo: " : x.l === "an" ? "Giá tham khảo: " : "Giá vé tham khảo: ") + A.esc(x.g) + "</li>");
+    if (x.h) li.push("<li>Giờ mở cửa: " + A.esc(x.h) + "</li>");
+    return '<p><b>' + A.esc(x.t.split(" (")[0]) + '</b>' + (x.p ? ' (' + A.esc(x.p) + ')' : '') + '. ' + L + '.' + (x.m ? ' ' + A.esc(x.m) : '') + '</p>' +
+      (li.length ? '<ul>' + li.join("") + '</ul>' : '') +
+      (x.w ? '<p class="small">Phần mô tả dịch từ Wikivoyage tiếng Anh, giấy phép CC BY-SA.</p>' : '') +
+      '<p class="small">Mục này app chưa có trang riêng. ' + (x.g || x.h ? 'Giá, giờ có thể đổi, kiểm lại trước khi đi.' : 'Giá, giờ app chưa kiểm được.') + '</p>';
+  };
   function askCu(q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
@@ -131,6 +166,8 @@
     /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
     var gy = A.laGoiY ? A.laGoiY(q, null) : null;
     if (gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
+    /* câu nêu đích danh 1 quán, chỗ ở, điểm nhỏ mà app chưa có trang, nhưng kho học có (ai/kho-them.js) */
+    if (!res) { var kt = A.khoThem(qd); if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
     /* câu hỏi giới thiệu, lịch sử 1 địa danh */
     if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
     if (!res) res = route(qd, I, rest, null);

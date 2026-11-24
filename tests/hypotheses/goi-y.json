@@ -442,5 +442,58 @@
    "chỉ có cẩm nang trong nước"
   ],
   "rong": true
+ },
+ {
+  "q": "Cà phê Tùng Đà Lạt ở đâu",
+  "kind": "kho",
+  "phaiCo": [
+   "6 khu Hòa Bình"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "Mường Thanh",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "Phù điêu bắt sống phi công Mỹ ở đâu",
+  "kind": "kho",
+  "phaiCo": [
+   "đường Thanh Niên"
+  ]
+ },
+ {
+  "q": "massage người khiếm thị ở Huế",
+  "kind": "kho",
+  "phaiCo": [
+   "1/180 Phan Bội Châu"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "Bánh Khoái Hạnh Huế giá bao nhiêu",
+  "kind": "kho",
+  "phaiCo": [
+   "20.000–55.000đ/phần"
+  ],
+  "khongCo": [
+   "Wikivoyage ghi",
+   "đã cũ",
+   "giá cũ"
+  ]
+ },
+ {
+  "q": "đền Ngọc Sơn giá vé",
+  "kind": "item",
+  "phaiCo": [
+   "50.000đ"
+  ]
+ },
+ {
+  "q": "bánh khoái Huế",
+  "kind": "!kho"
  }
 ]
