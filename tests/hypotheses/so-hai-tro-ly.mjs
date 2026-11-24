@@ -55,7 +55,7 @@ function cham(c) {
   if (c.duPhong && !/App chưa có thông tin này/.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "thiếu dự phòng", ghi: "câu ngoài dữ liệu không dùng dự phòng" });
   if (c.phaiCo) c.phaiCo.forEach(s => { if (fold(k.text).indexOf(fold(s)) < 0) k.loi.push({ muc: "NẶNG", loai: "thiếu nội dung", ghi: "thiếu '" + s + "'" }); });
   /* lỗi riêng engine mới: in dữ liệu thô, ghi nguồn */
-  if (/\bLoai:|\bPhu hop:|tìm Google|tìm ngày|theo nguồn|mâu thuẫn/i.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "lộ dữ liệu thô", ghi: (k.text.match(/.{0,30}(Loai:|Phu hop:|tìm Google|tìm ngày|theo nguồn|mâu thuẫn).{0,30}/i) || [""])[0] });
+  if (/\bLoai:|\bPhu hop:|tìm Google|tìm ngày|theo nguồn|mâu thuẫn|Nguồn:/i.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "lộ dữ liệu thô", ghi: (k.text.match(/.{0,30}(Loai:|Phu hop:|tìm Google|tìm ngày|theo nguồn|mâu thuẫn|Nguồn:).{0,30}/i) || [""])[0] });
   return k;
 }
 const BO = [

@@ -151,13 +151,21 @@
     A.index();
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
+    /* "Cột cờ Lũng Cú ở đâu", "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh, không phải hỏi chỗ ngủ */
+    if (I.intent === "odau" && !/\b(khach san|homestay|resort|nha nghi|ngu|phong|luu tru|o dau (tot|re|dep|gan|ngon|on|hop)|nen o)\b/.test(A.fold(q))) {
+      var vq = q.replace(/\s*(nằm|nam)?\s*(ở|o)\s*(đâu|dau|chỗ nào|cho nao)\s*(vậy|vay|ạ|a|nhỉ|nhi)?\s*\??\s*$/i, "");
+      if (vq !== q) { var vi = A.isPlaceName(vq) ? null : A.findItem(vq, { kinds: ["place"] }); if (vi && vi.s >= 95 && !vi.ambiguous) I.intent = ""; }
+    }
     if (!I.from) { var fm = q.match(unmark(/(?:^|\s)(?:từ|tu)\s+(.{2,40}?)\s+(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s/i, q)) || q.match(unmark(/(?:^|\s)(?:đi|di|tới|toi|đến|den|ra|vào|vao|lên|len|về)\s+.{2,40}?\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:bằng gì|bang gi|mất bao lâu|mat bao lau|hết bao nhiêu|het bao nhieu|bao xa)|\?|$)/i, q));
       if (fm) { var fe = entOf(fm[1]), fn = fe.area ? fe.area.name : fe.prov ? (fe.prov.alias ? fm[1].trim() : fe.prov.prov.name) : ""; if (fn) { I.from = "o"; A.setFrom(fn); if (!I.intent) I.intent = "diden"; } } }
     /* "từ A đi B", "đi B từ A": nơi cần trả lời là B, A chỉ là nơi xuất phát */
     var qd = destPart(q);
     var rest = A.rest(qd), f = A.fold(q), res = null;
     var useCtx = !(opt && opt.noCtx);
-    res = route(qd, I, rest, null);
+    /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
+    var gy = A.laGoiY ? A.laGoiY(q, null) : null;
+    if (gy) res = { kind: "goiy", html: A.answerGoiY(q, gy) };
+    if (!res) res = route(qd, I, rest, null);
     if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
       var last = A.ctx.last(), E = fromCtx(last);
       if (E && (E.item || E.area || E.isle || E.prov)) { res = route(q, I, "", E); if (res) res.followed = true; }
