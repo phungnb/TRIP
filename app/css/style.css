@@ -1,7 +1,7 @@
 
   :root{
     --bg:#f8fafc; --surface:#ffffff; --surface2:#f1f5f9; --ink:#0f172a; --ink2:#475569; --ink3:#64748b;
-    --line:#e2e8f0; --accent:#e86a17; --accent-d:#c2410c; --accent-soft:#fdeede; --on-accent:#fff; --on-ink:#fff; --note-tx:#7c2d12; --page:#f8fafc; --topbar-bg:rgba(255,255,255,.96); --heart-bg:rgba(255,255,255,.94);
+    --line:#e2e8f0; --accent:#0f766e; --accent-d:#0b5e57; --accent-soft:#e6f4f2; --on-accent:#fff; --on-ink:#fff; --note-tx:#134e4a; --page:#f8fafc; --topbar-bg:rgba(255,255,255,.96); --heart-bg:rgba(255,255,255,.94);
     --amber-bg:#f1f5f9; --amber-tx:#475569; --red:#c0392b; --shadow:0 4px 16px rgba(15,23,42,.08);
     --r-lg:16px;
     /* Thang chữ 6 mức — cùng quy chuẩn RaceHub (docs/architecture/frontend.md §4.2): không đặt cỡ lẻ ngoài các mức này */
@@ -114,12 +114,12 @@
   .btn-block{ width:100%; box-sizing:border-box; }
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
   /* nút Đi — hành động chính trên thẻ chuyến */
-  .btn-go{ width:100%; border:0; border-radius:12px; background:var(--accent-d); color:var(--on-accent); font-size:var(--fs-h2); font-weight:800; letter-spacing:.02em; padding:13px 18px; box-shadow:0 4px 14px rgba(232,106,23,.38); display:flex; align-items:center; justify-content:center; }
+  .btn-go{ width:100%; border:0; border-radius:12px; background:var(--accent-d); color:var(--on-accent); font-size:var(--fs-h2); font-weight:800; letter-spacing:.02em; padding:13px 18px; box-shadow:0 4px 14px rgba(15,118,110,.38); display:flex; align-items:center; justify-content:center; }
   .btn-go:active{ transform:scale(.99); }
   .trip-card-foot{ padding:2px 14px 14px; }
   .badge-ongoing{ background:var(--accent); color:var(--on-accent); }
   .badge-upcoming{ background:var(--accent-soft); color:var(--accent-d); }
-  .today-hero{ background:var(--accent); color:var(--on-accent); border-radius:var(--r-lg); padding:16px; margin-bottom:12px; box-shadow:0 6px 18px rgba(23,122,69,.28); }
+  .today-hero{ background:var(--accent); color:var(--on-accent); border-radius:var(--r-lg); padding:16px; margin-bottom:12px; box-shadow:0 6px 18px rgba(15,118,110,.28); }
   .today-hero h3{ margin:0 0 4px; font-size:var(--fs-h2); }
   .today-hero p{ margin:0; font-size:var(--fs-cap); line-height:1.55; opacity:.94; }
   .today-day{ border:2px solid var(--accent); }
@@ -413,8 +413,8 @@
     color-scheme:dark;
     --page:#121212; --bg:#121212; --surface:#1e1e1e; --surface2:#262626; --line:#2e2e2e;
     --ink:#f5f5f5; --ink2:#a3a3a3; --ink3:#8a8a8a;
-    --accent:#ff8a3d; --accent-d:#ffb020; --accent-soft:rgba(255,138,61,.14); --on-accent:#1a1005; --on-ink:#1a1005;
-    --note-tx:#ffd08a;
+    --accent:#2dd4bf; --accent-d:#5eead4; --accent-soft:rgba(45,212,191,.14); --on-accent:#042f2e; --on-ink:#042f2e;
+    --note-tx:#99f6e4;
     --amber-bg:#262626; --amber-tx:#a3a3a3; --red:#ef4444;
     --topbar-bg:rgba(18,18,18,.92); --heart-bg:rgba(30,30,30,.9);
     --shadow:0 4px 16px rgba(0,0,0,.45);
@@ -614,10 +614,10 @@
 .adm-src{ display:flex; flex-wrap:wrap; gap:6px 14px; margin:8px 0; }
 
 /* ================= TÀI KHOẢN: thiết kế lại (thẻ nền xanh có đường đồng mức, số liệu nhanh, nhóm menu) ================= */
-:root{ --hero-a:#e86a17; --hero-b:#c2410c; --hero-ink:#fff; --hero-sub:rgba(255,255,255,.86); --hero-line:rgba(255,255,255,.14);
-  --tint-green:#fdeede; --tint-orange:#fdeede; --tint-blue:#fdeede; --tx-blue:#c2410c; }
-:root[data-theme="dark"]{ --hero-a:#1a2130; --hero-b:#0f141c; --hero-ink:#f2f5f9; --hero-sub:#9aa6b8; --hero-line:rgba(255,138,61,.16);
-  --tint-green:rgba(255,138,61,.14); --tint-orange:rgba(255,138,61,.14); --tint-blue:rgba(255,138,61,.14); --tx-blue:#ffb020; }
+:root{ --hero-a:#0f766e; --hero-b:#0b5e57; --hero-ink:#fff; --hero-sub:rgba(255,255,255,.86); --hero-line:rgba(255,255,255,.14);
+  --tint-green:#e6f4f2; --tint-orange:#e6f4f2; --tint-blue:#e6f4f2; --tx-blue:#0b5e57; }
+:root[data-theme="dark"]{ --hero-a:#1a2130; --hero-b:#0f141c; --hero-ink:#f2f5f9; --hero-sub:#9aa6b8; --hero-line:rgba(45,212,191,.16);
+  --tint-green:rgba(45,212,191,.14); --tint-orange:rgba(45,212,191,.14); --tint-blue:rgba(45,212,191,.14); --tx-blue:#5eead4; }
 #view-account .pad{ padding-top:14px; }
 .acct-hero{ position:relative; overflow:hidden; border-radius:22px; padding:18px 16px 16px; color:var(--hero-ink);
   background:radial-gradient(120% 90% at 100% 0%, rgba(255,255,255,.12), transparent 55%), linear-gradient(150deg,var(--hero-a),var(--hero-b));
