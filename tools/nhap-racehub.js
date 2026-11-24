@@ -100,7 +100,7 @@ labels["kham-pha-them"] = "Khám phá thêm";
 const js = "/* SINH TỰ ĐỘNG bởi tools/nhap-racehub.js ngày " + new Date().toISOString().slice(0, 10) + " — không sửa tay.\n" +
   "   Địa danh từ Hộ chiếu khám phá RaceHub, đã bỏ điểm trùng với dữ liệu Trip. Thông tin tham khảo. */\n" +
   "var RACEHUB_PLACES=" + JSON.stringify(out) + ";\nvar RACEHUB_ENRICH=" + JSON.stringify(enrich) + ";\nvar RACEHUB_CLUSTERS=" + JSON.stringify(labels) + ";\n" +
-  "(function(){ if(typeof PROV_DATA===\"undefined\") return; PROV_DATA.forEach(function(p){ var e=RACEHUB_ENRICH[p.id]; if(e) p.places.forEach(function(x){ var r=e[x.id]; if(r){ x.history=r.history; x.food_near=r.food_near; x.rh_note=r.rh_note; } }); var a=RACEHUB_PLACES[p.id]; if(a) p.places=p.places.concat(a); }); })();\n";
+  "/* Ngày kiểm dữ liệu RaceHub (giá vé là giá tham khảo theo thời giá) */\nvar RACEHUB_KIEM=\"23/11/2026\";\n(function(){ if(typeof PROV_DATA===\"undefined\") return; PROV_DATA.forEach(function(p){ var e=RACEHUB_ENRICH[p.id]; if(e) p.places.forEach(function(x){ var r=e[x.id]; if(r){ x.history=r.history; x.food_near=r.food_near; x.rh_note=r.rh_note; } }); var a=RACEHUB_PLACES[p.id]; if(a){ a.forEach(function(x){ if(!x.checked) x.checked=RACEHUB_KIEM; }); p.places=p.places.concat(a); } }); })();\n";
 fs.writeFileSync(path.join(APP, "data/racehub-places.js"), js);
 console.log(JSON.stringify(stat), "bytes", js.length);
 console.log(Object.entries(out).map(([k, v]) => k + ":" + v.length).join(" "));
