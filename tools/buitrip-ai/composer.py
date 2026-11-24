@@ -9,7 +9,7 @@ Luật bắt buộc (giống bản AI dùng Gemini, nhưng ở đây code thực
 import json
 
 from data_gen import OLD_TO_NEW
-from normalize import CITY_TO_PROVINCE, norm_text
+from normalize import CITY_TO_PROVINCE, name_in_q, norm_text
 
 with open("kien-thuc-bo-sung.json", encoding="utf-8") as f:
     EXTRA = json.load(f)
@@ -39,6 +39,34 @@ def _city_in_query(query):
         if " " + nc + " " in qn and len(nc) > len(best):
             best = nc
     return best
+
+
+def _city_prov_of_query(query):
+    """(thành phố, tỉnh) mà câu hỏi nhắc tới, vd ("Sa Pa", "Lào Cai").
+    Dùng cho bảng tuyến: bảng chỉ có tuyến tới tỉnh, câu hỏi có thể hỏi
+    1 thành phố trong tỉnh đó. So cả dạng viết liền ("sapa")."""
+    qn = norm_text(query)
+    qn_ns = qn.replace(" ", "")
+    best = None
+    for city, prov in CITY_TO_PROVINCE.items():
+        nc = norm_text(city)
+        if nc in qn or nc.replace(" ", "") in qn_ns:
+            if best is None or len(nc) > len(norm_text(best[0])):
+                best = (city, prov)
+    if best:
+        return best
+    for old, new in OLD_TO_NEW.items():
+        if norm_text(old) in qn:
+            return (old, new)
+    return (None, None)
+
+
+def _city_display(city_norm):
+    """Tên thành phố dạng có dấu từ dạng chuẩn hóa (vd 'quy nhon' -> 'Quy Nhơn')."""
+    for c in CITY_TO_PROVINCE:
+        if norm_text(c) == city_norm:
+            return c
+    return city_norm
 
 
 def _has_price(e):
@@ -81,8 +109,16 @@ def compose(intent, entries, query, history_entities):
             # thì bún chả cá Quy Nhơn lên trước món Pleiku) — cùng tỉnh, chỉ đổi
             # thứ tự hiển thị, không đổi thực thể trả về.
             city = _city_in_query(query)
+            city_note = ""
             if city:
                 got.sort(key=lambda e: 0 if city in norm_text((e.get("ten") or "") + " " + (e.get("ghi_chu") or "")) else 1)
+                # Luật chung 24/11/2026: hỏi món/chỗ ở của 1 thành phố mà
+                # không mục nào nhắc tới thành phố đó (vd "ăn gì ở An Khê"
+                # mà kho chỉ có món Pleiku) thì nói rõ đây là gợi ý cấp
+                # tỉnh, không giả vờ là món riêng của thành phố đó.
+                if not any(city in norm_text((e.get("ten") or "") + " " + (e.get("ghi_chu") or "")) for e in got[:5]):
+                    city_note = (f"\nChưa có danh sách riêng cho {_city_display(city)} trong kho — "
+                                 f"dưới đây là gợi ý chung của tỉnh {tinh}.")
             lines = []
             for e in got[:5]:
                 line = f"- {e.get('ten')}"
@@ -91,7 +127,7 @@ def compose(intent, entries, query, history_entities):
                 if _clean(e.get("ghi_chu")):
                     line += f": {_cut(e['ghi_chu'], 160)}"
                 lines.append(line)
-            return (f"{kind.capitalize()} ở {_display_place(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):\n"
+            return (f"{kind.capitalize()} ở {_display_place(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):{city_note}\n"
                     + "\n".join(lines)
                     + "\nGiá có thể đổi; kiểm lại khi đặt.")
         if not tinh:
@@ -112,7 +148,7 @@ def compose(intent, entries, query, history_entities):
             return (f"Chi phí tham quan {name} ({tinh}): vé {gia}. Vé máy bay/xe "
                     "tùy điểm xuất phát và ngày đi nên app chưa có giá cố định — "
                     "bạn tra vé tới sân bay/ga gần nhất rồi cộng thêm.")
-        return _fallback_no_data(tinh or name, "chi phí chuyến đi")
+        return _fallback_no_data(tinh or name or "chuyến đi này", "chi phí chuyến đi")
 
     # Không tìm thấy gì đáng tin -> dự phòng 3 phần
     if top is None or score < 0.08:
@@ -150,7 +186,7 @@ def compose(intent, entries, query, history_entities):
         qn = norm_text(query)
         for m in EXTRA.get("mua_dep_vung_cu", []):
             region = m["vung"].split("(")[0].strip()
-            if norm_text(region) and norm_text(region) in qn:
+            if norm_text(region) and name_in_q(region, query):
                 return (f"Đi {m['vung']} đẹp nhất: {m['mua']} "
                         f"Lưu ý: {m.get('sai_can_tranh', '')}")
         if mua:
@@ -171,9 +207,18 @@ def compose(intent, entries, query, history_entities):
     if intent == "cach_di":
         # Ưu tiên bảng tuyến đi đã kiểm chứng
         for t in EXTRA.get("tuyen_di", []):
-            if t["den"].lower() in query.lower() or t["den"].lower() in name.lower():
+            if name_in_q(t["den"], query) or name_in_q(t["den"], name):
                 return (f"Đi {t['den']}: {t['cach']} "
                         f"(Nguồn kiểm chứng: {t['nguon']}.)")
+        # Hỏi đi 1 thành phố mà bảng chỉ có tuyến tới TỈNH của thành phố
+        # đó (vd "đi Sa Pa bằng gì" -> tuyến "Lào Cai", trong cách đi có
+        # nhắc Sa Pa): lấy tuyến tỉnh, ghi rõ theo tuyến tới tỉnh.
+        city_q, prov_q = _city_prov_of_query(query)
+        if city_q and prov_q:
+            for t in EXTRA.get("tuyen_di", []):
+                if norm_text(t["den"]) == norm_text(prov_q):
+                    return (f"Đi {city_q} (theo tuyến tới {prov_q}): {t['cach']} "
+                            f"(Nguồn kiểm chứng: {t['nguon']}.)")
         if note:
             return f"Cách đi {name} ({tinh}): {note}"
         return _fallback_no_data(name, "cách đi")

@@ -104,6 +104,16 @@ function normText(s) {
   return out;
 }
 
+// Tên (vd 'Sa Pa', 'Sơn Đoòng') có trong câu hỏi không — so cả dạng
+// viết liền ('sapa') vì câu hỏi thật hay viết liền tên 2 chữ (gặp
+// 24/11/2026: 'đi sapa bằng gì' không khớp bảng tuyến vì 'sa pa' có
+// dấu cách còn câu hỏi viết liền).
+function nameInQ(name, q) {
+  const qn = normText(q);
+  const nn = normText(name);
+  return qn.includes(nn) || qn.replace(/ /g, "").includes(nn.replace(/ /g, ""));
+}
+
 // Dạng viết liền của tên tỉnh/thành 2 chữ ("sapa" = "sa pa"): câu hỏi thật
 // hay viết liền; tách ra trong tokens() để khớp với dữ liệu (kho ghi "Sa Pa").
 // Chỉ tách khi token ĐÚNG bằng dạng viết liền của 1 tên có thật — không tách
@@ -143,6 +153,13 @@ const QUESTION_WORDS = new Set([
   "du", "het", "nen", "nhu", "cung", "ca", "tat", "em", "anh", "ban",
   "minh", "ta", "bac", "cac", "nguoi", "xin", "hoi", "nho", "giup",
   "van", "tour", "combo", "lai",
+  // Từ đệm trong câu hỏi diễn đàn (thêm 24/11/2026 — không có chúng,
+  // "e xin ít đc ăn ngon ở qn" và "cho mh hỏi côn đảo nằm ở đâu" bị
+  // chặn nhầm vì còn token đệm; CỐ TÌNH không thêm "ba"/"tam"/"xem"/
+  // "gui"/"c" — chúng sẽ mở chặn cho mảnh bình luận không rõ chỗ,
+  // và "tam" là token tên "Tam Cốc"/"Tam Đảo")
+  "e", "mh", "a", "vs", "dc", "it", "nhung", "ad", "nam",
+  "hien", "phai", "kinh", "nghiem", "review", "z", "khu",
   // Giới từ hướng/thời gian hay gặp ("vào tháng mấy", "ra đảo", "lên núi")
   "vao", "ra", "len", "xuong", "qua",
   // Từ theo ý định (giá/giờ/mùa/cách đi/ăn/ở/điểm chơi/lịch trình/chi phí/...)
@@ -156,12 +173,25 @@ const QUESTION_WORDS = new Set([
   // Loại địa danh chung (không phải tên riêng): biển, núi, thác, chùa...
   "bien", "nui", "thac", "ho", "chua", "dao", "lang", "bai", "den",
   "hang", "cho", "suoi", "doi", "deo", "cau", "bao", "tang", "check",
-  "in", "song", "ao", "tich",
+  "in", "song", "ao", "tich", "hon",
+  // Loại tuyến đường chung ("quốc lộ", "tỉnh lộ" — số hiệu mới là
+  // thứ cụ thể: "Quốc lộ 14" còn lại "14", khác "Quốc lộ 51" còn "51")
+  "quoc", "lo",
   // Tính từ chung (ngon/rẻ/đẹp/nổi tiếng...) — không phải tên riêng
   "ngon", "re", "dat", "dep", "noi", "tieng", "nhat", "tot", "xau",
   "rong", "hep", "cao", "thap", "dai", "ngan", "lon", "nho", "moi",
-  "trua", "chieu", "dem", "som", "muon", "nhanh", "cham", "de", "kho",
+  "trua", "chieu", "dem", "ngay", "tuan", "som", "muon", "nhanh", "cham", "de", "kho",
   "tien", "loi", "gan", "xa", "thuan",
+  // Từ phương tiện chung — CỐ TÌNH KHÔNG có "ga"/"tau"/"bay" (gỡ
+  // 24/11/2026): "vé máy bay Quy Nhơn bao nhiêu" bị trả giá của
+  // quán Jollibee vì "bay" thành từ chung nên luật chặn không chạy;
+  // còn "Quy Nhơn có ga tàu/sân bay không" đã được bảng tuyến EXTRA
+  // cứu (luật chặn cho qua khi điểm đến có trong bảng tuyến).
+  // "lao" (cù lao — từ chung chỉ cù lao, vd "Cù Lao Xanh" khớp nhầm
+  // "Cù lao Mây" chỉ nhờ cụm "cu lao" — gặp 24/11/2026; "Lào Cai"
+  // không ảnh hưởng vì tên tỉnh/thành được bỏ ra khỏi token cụ thể
+  // theo tên, còn namedInQuestion so token thô nên vẫn khớp)
+  "lao",
 ]);
 
 // ===== tfidf.js =====
@@ -416,9 +446,37 @@ function cityInQuery(query) {
   return best;
 }
 
+// Tên thành phố dạng có dấu từ dạng chuẩn hóa (vd 'quy nhon' -> 'Quy Nhơn').
+function cityDisplay(cityNorm) {
+  for (const city of Object.keys(CITY_TO_PROVINCE)) {
+    if (normText(city) === cityNorm) return city;
+  }
+  return cityNorm;
+}
+
 function hasPrice(e) {
   const g = clean(e.gia);
   return g !== "" && !g.toLowerCase().includes("chưa kiểm");
+}
+
+// (thành phố, tỉnh) mà câu hỏi nhắc tới, vd ("Sa Pa", "Lào Cai").
+// Dùng cho bảng tuyến: bảng chỉ có tuyến tới tỉnh, câu hỏi có thể hỏi
+// 1 thành phố trong tỉnh đó. So cả dạng viết liền ("sapa").
+function cityProvOfQuery(query) {
+  const qn = normText(query);
+  const qnNs = qn.replace(/ /g, "");
+  let best = null;
+  for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
+    const nc = normText(city);
+    if (qn.includes(nc) || qnNs.includes(nc.replace(/ /g, ""))) {
+      if (!best || nc.length > normText(best[0]).length) best = [city, prov];
+    }
+  }
+  if (best) return best;
+  for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
+    if (qn.includes(normText(old))) return [old, nw];
+  }
+  return [null, null];
 }
 
 // Hỏi tỉnh cũ/thành phố thì hiện tên cũ cho người đọc dễ hiểu
@@ -472,12 +530,20 @@ function compose(intent, entries, query, historyEntities, extra) {
       // thì bún chả cá Quy Nhơn lên trước món Pleiku) — cùng tỉnh, chỉ đổi
       // thứ tự hiển thị, không đổi thực thể trả về.
       const city = cityInQuery(query);
+      let cityNote = "";
       if (city) {
         got.sort((a, b) => {
           const ka = normText((a.ten || "") + " " + (a.ghi_chu || "")).includes(city) ? 0 : 1;
           const kb = normText((b.ten || "") + " " + (b.ghi_chu || "")).includes(city) ? 0 : 1;
           return ka - kb;
         });
+        // Luật chung 24/11/2026: hỏi món/chỗ ở của 1 thành phố mà
+        // không mục nào nhắc tới thành phố đó (vd "ăn gì ở An Khê"
+        // mà kho chỉ có món Pleiku) thì nói rõ đây là gợi ý cấp
+        // tỉnh, không giả vờ là món riêng của thành phố đó.
+        if (!got.slice(0, 5).some((e) => normText((e.ten || "") + " " + (e.ghi_chu || "")).includes(city))) {
+          cityNote = `\nChưa có danh sách riêng cho ${cityDisplay(city)} trong kho — dưới đây là gợi ý chung của tỉnh ${tinh}.`;
+        }
       }
       const lines = [];
       for (const e of got.slice(0, 5)) {
@@ -487,7 +553,7 @@ function compose(intent, entries, query, historyEntities, extra) {
         lines.push(line);
       }
       return (
-        `${capitalize(kind)} ở ${displayPlace(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):\n` +
+        `${capitalize(kind)} ở ${displayPlace(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):${cityNote}\n` +
         lines.join("\n") +
         "\nGiá có thể đổi; kiểm lại khi đặt."
       );
@@ -522,7 +588,7 @@ function compose(intent, entries, query, historyEntities, extra) {
         "bạn tra vé tới sân bay/ga gần nhất rồi cộng thêm."
       );
     }
-    return fallbackNoData(tinh || name, "chi phí chuyến đi");
+    return fallbackNoData(tinh || name || "chuyến đi này", "chi phí chuyến đi");
   }
 
   // Không tìm thấy gì đáng tin -> dự phòng 3 phần
@@ -566,10 +632,9 @@ function compose(intent, entries, query, historyEntities, extra) {
 
   if (intent === "mua_dep") {
     // Mùa theo vùng cũ đã kiểm chứng — ưu tiên hơn mùa cấp tỉnh trong kho
-    const qn = normText(query);
     for (const m of extra.mua_dep_vung_cu || []) {
       const region = m.vung.split("(")[0].trim();
-      if (normText(region) && qn.includes(normText(region))) {
+      if (normText(region) && nameInQ(region, query)) {
         return `Đi ${m.vung} đẹp nhất: ${m.mua} Lưu ý: ${m.sai_can_tranh || ""}`;
       }
     }
@@ -598,8 +663,19 @@ function compose(intent, entries, query, historyEntities, extra) {
   if (intent === "cach_di") {
     // Ưu tiên bảng tuyến đi đã kiểm chứng
     for (const t of extra.tuyen_di || []) {
-      if (query.toLowerCase().includes(t.den.toLowerCase()) || name.toLowerCase().includes(t.den.toLowerCase())) {
+      if (nameInQ(t.den, query) || nameInQ(t.den, name)) {
         return `Đi ${t.den}: ${t.cach} (Nguồn kiểm chứng: ${t.nguon}.)`;
+      }
+    }
+    // Hỏi đi 1 thành phố mà bảng chỉ có tuyến tới TỈNH của thành phố
+    // đó (vd "đi Sa Pa bằng gì" -> tuyến "Lào Cai", trong cách đi có
+    // nhắc Sa Pa): lấy tuyến tỉnh, ghi rõ theo tuyến tới tỉnh.
+    const [cityQ, provQ] = cityProvOfQuery(query);
+    if (cityQ && provQ) {
+      for (const t of extra.tuyen_di || []) {
+        if (normText(t.den) === normText(provQ)) {
+          return `Đi ${cityQ} (theo tuyến tới ${provQ}): ${t.cach} (Nguồn kiểm chứng: ${t.nguon}.)`;
+        }
       }
     }
     if (note) return `Cách đi ${name} (${tinh}): ${note}`;
@@ -729,15 +805,49 @@ function isCityOrOverview(name) {
 
 function matchesSpecific(entryName, featSet, specific) {
   // Mục có khớp với thứ cụ thể người hỏi không: nhắc đích danh, hoặc
-  // chung đủ token cụ thể với tên mục (1 token thì chung token đó,
-  // >=2 token thì chung >=2). Dùng cho luật chặn khớp giả.
+  // chung đủ token cụ thể với tên mục. Dùng cho luật chặn khớp giả.
+  // - Mục tổng quan tỉnh/thành phố KHÔNG tính là khớp (vd 'Gia Lai
+  //   (tổng quan)' không khớp 'chùa An Lạc' chỉ vì câu hỏi có nhắc
+  //   'Gia Lai' — gặp 24/11/2026).
+  // - Cụm 2 chữ liên tiếp của tên mục xuất hiện trong câu hỏi (vd tên
+  //   'Khu di tích Yên Tử' chứa cụm 'yên tử', 'Quần thể Tràng An' chứa
+  //   'tràng an') — câu hỏi nhắc đúng tên đó dù tên đầy đủ dài hơn
+  //   (gặp 24/11/2026: 'Tràng An đi tuyến nào đẹp' bị chặn vì tên mục
+  //   dài, 'Sapa tháng 1 có tuyết' chỉ khớp nhờ cụm 'sa pa'). Cụm chỉ
+  //   tính khi chung ít nhất 1 token với token cụ thể của câu hỏi —
+  //   không thì cụm chung chung ('quốc lộ' trong 'Quốc lộ 14' khớp
+  //   nhầm 'Quốc lộ 51', cụm tên tỉnh 'đà lạt' trong 'Hotel Dalat'
+  //   khớp nhầm 'khách sạn Mặt Trời Đỏ ở Đà Lạt' — gặp 24/11/2026).
+  // - Chia sẻ token: luôn cần >=2 token chung VÀ chiếm HƠN nửa số token
+  //   nội dung của tên mục (tránh 'Chùa Thái Lạc' khớp nhầm 'chùa An
+  //   Lạc' chỉ vì chung 1 chữ 'Lạc' = đúng nửa, 'Bà bán mấy giờ' khớp
+  //   nhầm 'Thác Bản Ba' chỉ nhờ chữ 'Ba', và 'Đảo Hòn Tằm' khớp nhầm
+  //   'Tam Đảo' chỉ nhờ chữ 'tam' (Tằm ≠ Đảo) — gặp 24/11/2026).
+  //   Câu hỏi 1 token thật (vd 'vé Fansipan') khớp qua
+  //   namedInQuestion hoặc cụm 2 chữ ở trên, không cần đường này.
+  if (isCityOrOverview(entryName)) return false;
   if (namedInQuestion(entryName, featSet)) return true;
   if (!specific.size) return false;
-  const nameToks = new Set(normText((entryName || "").split("(")[0]).split(" ").filter(Boolean));
+  if (spanMatches(entryName, featSet, specific)) return true;
+  const nameToks = new Set(normText((entryName || "").split("(")[0]).split(" ").filter((t) => t && !QUESTION_WORDS.has(t)));
+  if (!nameToks.size) return false;
   let shared = 0;
   for (const t of nameToks) if (specific.has(t)) shared++;
-  if (specific.size === 1) return shared > 0;
-  return shared >= 2;
+  return shared >= 2 && shared / nameToks.size > 0.5;
+}
+
+function spanMatches(entryName, featSet, specific) {
+  // Cụm 2 chữ liên tiếp của tên mục xuất hiện trong câu hỏi VÀ chung
+  // ít nhất 1 token với token cụ thể — khớp mạnh, dùng cho luật đưa mùa
+  // (chỉ đưa lên mục đúng tên, không đưa mục khác tỉnh chỉ vì chung
+  // 1 chữ — vd 'Đảo Hòn Tằm' không được đưa lên cho 'Tam Đảo' dù
+  // chung chữ 'tam' (Tằm ≠ Đảo), gặp 24/11/2026).
+  if (!specific.size) return false;
+  const nameBigrams = new Set(tokens(entryName || "").filter((t) => t.includes("_")));
+  for (const b of nameBigrams) {
+    if (featSet.has(b) && b.split("_").some((t) => specific.has(t))) return true;
+  }
+  return false;
 }
 
 class BuiTripAI {
@@ -757,49 +867,74 @@ class BuiTripAI {
       if (e.tinh && !e.loai) provs.add(provKey(e.tinh));
     }
     this.provinces = [...provs].sort();
-    // Token của tên tỉnh/thành phố (để tìm token cụ thể trong câu hỏi).
-    // Thêm cả dạng viết liền ("sapa", "phuquoc", "quynhon") vì câu hỏi
-    // thật hay viết liền tên 2 chữ.
-    this._placeTokens = new Set();
-    const addPlace = (name) => {
-      const toks = normText(name).split(" ").filter(Boolean);
-      for (const t of toks) this._placeTokens.add(t);
-      if (toks.length > 1) this._placeTokens.add(toks.join(""));
-    };
-    for (const c of Object.keys(CITY_TO_PROVINCE)) addPlace(c);
-    for (const p of this.provinces) addPlace(p);
-    for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
-      addPlace(old);
-      addPlace(nw);
-    }
+    // Tên tỉnh/thành phố/tỉnh cũ (để tìm token cụ thể: chỉ bỏ token
+    // của tên nào câu hỏi NHẮC TRỌN TÊN — xem specificTokens).
+    this._placeNames = [
+      ...Object.keys(CITY_TO_PROVINCE).map((c) => normText(c)),
+      ...this.provinces,
+      ...Object.entries(OLD_TO_NEW).flatMap(([o, n]) => [normText(o), normText(n)]),
+    ];
     this._loadStoredBoosts();
   }
 
-  // Token 'cụ thể' trong câu hỏi: bỏ từ hỏi/chức năng + tên tỉnh/thành.
-  // Còn lại rỗng = câu hỏi chung chung (vd 'điểm tham quan ở Huế').
-  // Còn lại không rỗng = câu hỏi nhắc đích danh 1 thứ cụ thể
-  // (vd 'Quốc lộ 51' còn lại 'quoc lo 51').
+  // Token 'cụ thể' trong câu hỏi: bỏ từ hỏi/chức năng + token của
+  // tên tỉnh/thành mà câu hỏi NHẮC TRỌN TÊN. Còn lại rỗng = câu hỏi
+  // chung chung (vd 'điểm tham quan ở Huế'). Còn lại không rỗng =
+  // câu hỏi nhắc đích danh 1 thứ cụ thể (vd 'Quốc lộ 51' còn lại
+  // '51' sau khi bỏ 'quoc','lo' là từ loại đường). Chỉ bỏ token của
+  // tên được nhắc trọn tên: 'Hòn Sơn' không nhắc 'Sơn La' nên 'son'
+  // vẫn là token cụ thể (trước đây bảng token phẳng nuốt mất 'son'
+  // vì nó nằm trong 'Sơn La' — gặp 24/11/2026, 'Hòn Sơn' bị trả
+  // 'Hòn Khoai'). So cả dạng viết liền ('sapa') vì câu hỏi thật hay
+  // viết liền tên 2 chữ. Số vẫn giữ làm token cụ thể (số hiệu tuyến
+  // '14' khác '51').
   specificTokens(q) {
+    const qn = normText(q);
+    const qnNs = qn.replace(/ /g, "");
+    const qnPad = " " + qn + " ";
+    const named = new Set();
+    for (const nn of this._placeNames) {
+      // Khớp theo RANH GIỚI TỪ (dạng viết liền chỉ khi tên >=2 chữ):
+      // khớp chuỗi con trần sẽ nuốt token oan — vd tên tỉnh rút gọn
+      // "hoa" (Thanh Hóa qua provKey) là chuỗi con của "khoai"
+      // (gặp 24/11/2026).
+      if (qnPad.includes(" " + nn + " ")
+          || (nn.includes(" ") && qnNs.includes(nn.replace(/ /g, "")))) {
+        for (const t of nn.split(" ").filter(Boolean)) named.add(t);
+        if (nn.split(" ").filter(Boolean).length > 1) named.add(nn.replace(/ /g, ""));
+      }
+    }
     const out = new Set();
-    for (const t of normText(q).split(" ")) {
-      if (t && !QUESTION_WORDS.has(t) && !this._placeTokens.has(t)) out.add(t);
+    for (const t of qn.split(" ")) {
+      if (t && !QUESTION_WORDS.has(t) && !named.has(t)) out.add(t);
     }
     return out;
   }
 
   // Trả về tên tỉnh mới (dạng chuẩn hóa) nếu câu hỏi nhắc 1 tỉnh/tỉnh cũ/thành phố.
   // So cả dạng viết liền ("sapa") vì câu hỏi thật hay viết liền tên 2 chữ.
+  // Khớp theo RANH GIỚI TỪ, tên dài khớp trước — vì provKey rút
+  // "Thanh Hóa" còn "hoa", mà "hoa" là chuỗi con của "khoai" ("Hòn Khoai
+  // ở đâu" bị nhận nhầm tỉnh Thanh Hóa, rồi luật tỉnh chặn mất đáp án
+  // đúng — gặp 24/11/2026); và "Vinh" là 1 từ trong "Vĩnh Long" nên
+  // tên dài "Vĩnh Long" phải thắng tên ngắn "Vinh".
   provinceOf(q) {
     const qn = normText(q);
     const qnNs = qn.replace(/ /g, "");
-    for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
-      if (qn.includes(normText(old)) || qnNs.includes(normText(old).replace(/ /g, ""))) return nw;
-    }
-    for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
-      if (qn.includes(normText(city)) || qnNs.includes(normText(city).replace(/ /g, ""))) return prov;
-    }
-    for (const prov of this.provinces) {
-      if (prov && (qn.includes(prov) || qnNs.includes(prov.replace(/ /g, "")))) return prov;
+    const qnPad = " " + qn + " ";
+    const hit = (name) => {
+      const nn = normText(name);
+      if (qnPad.includes(" " + nn + " ")) return true;
+      return nn.includes(" ") && qnNs.includes(nn.replace(/ /g, ""));
+    };
+    const cands = [
+      ...Object.entries(OLD_TO_NEW),
+      ...Object.entries(CITY_TO_PROVINCE),
+      ...this.provinces.filter(Boolean).map((p) => [p, p]),
+    ];
+    cands.sort((a, b) => normText(b[0]).length - normText(a[0]).length);
+    for (const [name, res] of cands) {
+      if (hit(name)) return res;
     }
     return null;
   }
@@ -832,6 +967,11 @@ class BuiTripAI {
         for (let j = 0; j < entries.length; j++) {
           const e = entries[j][1];
           if (e.loai === "cho_o") continue;
+          // Hỏi món ("ăn bún chả cá ở Quy Nhơn") thì món đó không phải
+          // "điểm ở đâu" — để nguyên ý định an (danh sách món theo tỉnh,
+          // món Quy Nhơn lên trước) chứ đừng đổi thành vị trí của 1 món
+          // ở tỉnh khác (gặp 24/11/2026: ra "Bún chả cá nằm ở Khánh Hòa").
+          if (intent === "an" && (e.loai === "mon_an" || e.loai === "chi_phi")) continue;
           if (namedInQuestion(e.ten, featSet) && !isCityOrOverview(e.ten)) {
             intent = "vi_tri";
             entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];
@@ -844,13 +984,34 @@ class BuiTripAI {
       // Món/chỗ ở/chi phí PHẢI neo theo tỉnh người hỏi, không lấy top chung chung
       const loai = { an: "mon_an", o: "cho_o", chi_phi: "chi_phi" }[intent];
       const prov = this.provinceOf(q);
-      if (prov === null && this.specificTokens(q).size) {
-        // Hỏi món/chỗ ở/chi phí ở 1 nơi cụ thể mà kho không nhận ra
-        // tỉnh (vd "ăn gì ở Quốc lộ 51"): đừng liệt kê món bừa.
+      if (prov === null) {
+        // Không neo được tỉnh (vd "ăn gì ngon" không nêu nơi, hay
+        // "ăn gì ở Quốc lộ 51"): đừng liệt kê món/chỗ ở/chi phí bừa
+        // của 1 tỉnh bất kỳ — để composer trả câu "chưa có danh
+        // sách cho nơi này" (luật chung 24/11/2026).
         entries = [];
       } else {
-        const anchored = this.retriever.search(q, 5, loai, true, prov);
-        if (anchored.length) entries = anchored;
+        // Chỉ lấy đúng danh sách theo tỉnh; tỉnh không có mục loại
+        // này thì để trống (composer nói chưa có) chứ không lấy top
+        // chung chung rồi ghi nhầm tên tỉnh khác.
+        entries = this.retriever.search(q, 5, loai, true, prov);
+      }
+      if (entries.length) {
+        // Câu hỏi nêu 1 món/quán/khách sạn CỤ THỂ (vd "khách sạn
+        // Mặt Trời Đỏ ở Đà Lạt", "ăn bún chả cá Quy Nhơn") mà danh
+        // sách theo tỉnh không có mục nào khớp -> đừng liệt kê món
+        // bừa; để composer trả câu chưa có danh sách (luật chung
+        // 24/11/2026). Câu hỏi chỉ nêu tỉnh/thành phố (vd "ăn gì
+        // ở Quy Nhơn", "ăn gì ở An Khê") không bị chặn ở đây —
+        // token tỉnh/thành đã được specificTokens bỏ ra.
+        // Số (vd "2 ngày 1 đêm", "14h", "2N1Đ") không phải thứ cụ thể
+        // ở đây — bỏ mọi token bắt đầu bằng số khi kiểm (số hiệu tuyến
+        // như "Quốc lộ 14" đã được luật chặn chính xử lý bằng token số,
+        // không qua nhánh này).
+        const specific = new Set([...this.specificTokens(q)].filter((t) => !/^\d/.test(t)));
+        if (specific.size && !entries.some(([, e]) => matchesSpecific(e.ten, new Set(feats), specific))) {
+          entries = [];
+        }
       }
     }
     if (follow && this.historyEntities.length && (!entries.length || entries[0][0] < 0.3)) {
@@ -878,56 +1039,87 @@ class BuiTripAI {
       // Mùa đẹp là thuộc tính của ĐIỂM, không phải khách sạn/món ăn.
       // Top truy hồi hay toàn khách sạn (không có dữ liệu mùa) trong
       // khi điểm có mùa nằm sâu hơn (vd "Chợ đêm Sa Pa" hạng 5,
-      // "Happy Land Mộc Châu" hạng 7). Tìm sâu top 10, đưa mục địa
-      // danh đầu tiên CÓ dữ liệu mùa lên đầu; vùng đã có trong bảng
-      // EXTRA thì không cần (câu trả lời lấy từ bảng đó). Không có
-      // thì để nguyên (luật chặn bên dưới sẽ chặn, nhường trợ lý cũ).
-      const qn = normText(q);
-      const inExtra = (this.extra.mua_dep_vung_cu || []).some((m) => qn.includes(normText(String(m.vung).split("(")[0].trim())));
+      // "Happy Land Mộc Châu" hạng 7, "Vịnh Hạ Long" hạng 25).
+      // Tìm sâu top 30, đưa mục địa danh đầu tiên CÓ dữ liệu mùa
+      // lên đầu; vùng đã có trong bảng EXTRA thì không cần (câu
+      // trả lời lấy từ bảng đó). Không có thì để nguyên (luật
+      // chặn bên dưới sẽ chặn, nhường trợ lý cũ).
+      const inExtra = (this.extra.mua_dep_vung_cu || []).some((m) => nameInQ(String(m.vung).split("(")[0].trim(), q));
       const top = entries[0][1];
       if (!inExtra && !(top.mua_dep || "").trim()) {
-        const deep = this.retriever.search(q, 10);
+        // Chỉ đưa lên mục KHỚP với câu hỏi: nhắc đích danh, cụm
+        // 2 chữ, HOẶC cùng tỉnh với nơi hỏi (mùa là thuộc tính
+        // của vùng — vd "Mộc Châu mùa hoa mận": "Happy Land
+        // Mộc Châu" có mùa hoa mận dù tên không chứa "hoa mận").
+        // Không đưa mục khác tỉnh chỉ vì nó có dữ liệu mùa (vd
+        // 'Đảo Hòn Tằm' cho 'Tam Đảo', 'Hoàng thành Thăng Long'
+        // cho 'Hạ Long' — gặp 24/11/2026). Chỉ câu hỏi KHÔNG
+        // nêu nơi nào mới lấy mục đầu tiên có mùa (mục nào
+        // cũng được, vì câu hỏi không nêu nơi).
+        const featSet = new Set(feats);
+        const specific = this.specificTokens(q);
+        const provQ = this.provinceOf(q);
+        // Tìm sâu tới top 30 (không phải top 10): khách sạn hay
+        // xếp trên mục địa danh có mùa (vd Vịnh Hạ Long hạng 25,
+        // Buôn Akõ Dhông hạng 26, VinWonders Nha Trang hạng 26 —
+        // gặp 24/11/2026).
+        const deep = this.retriever.search(q, 30);
         for (const [ds, de] of deep) {
-          if (!de.loai && (de.mua_dep || "").trim()) {
+          const nameOk = namedInQuestion(de.ten, featSet)
+            || spanMatches(de.ten, featSet, specific);
+          const placeOk = provQ !== null && sameProvince(de.tinh, provQ);
+          const genericOk = provQ === null && !specific.size;
+          if (!de.loai && (de.mua_dep || "").trim()
+              && (nameOk || placeOk || genericOk)) {
             entries = [[ds, de], ...entries.filter(([, e]) => e !== de)];
             break;
           }
         }
       }
     }
-    // Chặn khớp giả (gặp 24/11/2026: "Quốc lộ 51 có điểm tham quan nào"
-    // trả "Cọ ỏm" Phú Thọ vì token "có"/"cọ" trùng nhau, conf 1.0
-    // score 0.591 vẫn qua cổng). Áp cho 6 ý định trả lời về 1 mục/1
-    // tuyến CỤ THỂ (gia_ve/gio_mo_cua/vi_tri/diem_choi/cach_di/
-    // mua_dep): câu hỏi nhắc đích danh 1 thứ mà top mục không có mục
-    // nào khớp tên -> đừng trả bừa; trả độ tin cậy 0 để trợ lý cũ thử
-    // (biết thì trả đúng, không biết thì báo chưa có dữ liệu). Các ý
-    // định khác (an/o/chi_phi/lich_trinh/so_sanh) trả lời theo tỉnh/
-    // vùng nên không chặn — danh sách theo tỉnh vẫn đúng kể cả khi câu
-    // hỏi không nêu tên mục nào. Không chặn câu tiếp nối (chủ thể ở
-    // câu trước). Ngoại lệ: cach_di/mua_dep có nguồn riêng ngoài kho
-    // (bảng tuyến/bảng mùa vùng cũ) — thứ hỏi nằm trong bảng thì cho
-    // qua; mua_dep cũng cho qua khi câu hỏi nhắc 1 tỉnh/thành cụ thể
-    // (vd "Mộc Châu mùa hoa mận nở vào tháng mấy": mùa của Mộc Châu
-    // nằm trong mục Mộc Châu, dù mục đó không được nêu tên).
-    if (!follow && (intent === "gia_ve" || intent === "gio_mo_cua" || intent === "vi_tri" || intent === "diem_choi" || intent === "cach_di" || intent === "mua_dep") && entries.length) {
+    // Chặn khớp giả — LUẬT CHUNG (24/11/2026, anh chốt "làm luật chung
+    // cho mọi câu đi", sau khi M chỉ đắp riêng 1 câu Quốc lộ 51):
+    // câu hỏi nhắc đích danh 1 thứ mà top mục không có mục nào khớp
+    // tên -> đừng trả bừa; trả độ tin cậy 0 để trợ lý cũ thử (biết
+    // thì trả đúng, không biết thì báo chưa có dữ liệu). Áp cho MỌI
+    // ý định trả lời về 1 mục/1 tuyến/1 danh sách CỤ THỂ (gia_ve/
+    // gio_mo_cua/vi_tri/diem_choi/cach_di/mua_dep/lich_trinh/so_sanh/
+    // chi_phi). Không chặn câu tiếp nối (chủ thể ở câu trước).
+    // Ngoại lệ: cach_di/mua_dep có nguồn riêng ngoài kho (bảng tuyến/
+    // bảng mùa vùng cũ) — thứ hỏi nằm trong bảng thì cho qua; mua_dep
+    // cũng cho qua khi câu hỏi nhắc 1 tỉnh/thành cụ thể (vd "Mộc Châu
+    // mùa hoa mận nở vào tháng mấy": mùa của Mộc Châu nằm trong mục
+    // Mộc Châu, dù mục đó không được nêu tên); chi_phi cho qua khi
+    // câu hỏi đã nêu tỉnh (bảng chi phí cấp tỉnh là dữ liệu thật).
+    // an/o không chặn ở đây vì đã neo theo tỉnh ở trên (không neo
+    // được tỉnh thì danh sách đã rỗng). mang_gi/chung_chung/tinh_cu
+    // không chặn: đáp án của chúng là gợi ý chung/khuyên chung,
+    // không nhận là dữ liệu của 1 mục cụ thể nào.
+    if (!follow && (intent === "gia_ve" || intent === "gio_mo_cua" || intent === "vi_tri" || intent === "diem_choi" || intent === "cach_di" || intent === "mua_dep" || intent === "lich_trinh" || intent === "so_sanh" || intent === "chi_phi") && entries.length) {
       let specific = this.specificTokens(q);
       let extraOk = false;
       // Đáp án có thể đến từ bảng EXTRA (tuyến đi/mùa vùng cũ) chứ không
       // từ mục kho — vd "đi Sơn Đoòng bằng gì" (Sơn Đoòng chưa có trong
       // kho nhưng có trong bảng tuyến). Có trong bảng thì không chặn.
       if (intent === "cach_di") {
-        const qn = normText(q);
-        if ((this.extra.tuyen_di || []).some((t) => qn.includes(normText(t.den)))) extraOk = true;
+        // Tuyến tới tỉnh của thành phố hỏi cũng tính (vd "đi Sa Pa
+        // bằng gì": bảng chỉ có tuyến tới "Lào Cai", trong đó cách
+        // đi có nhắc Sa Pa — gặp 24/11/2026, trước đây trả chú thích
+        // của 1 resort thay vì tuyến).
+        const provQ = this.provinceOf(q);
+        if ((this.extra.tuyen_di || []).some((t) => nameInQ(t.den, q) || (provQ !== null && normText(t.den) === normText(provQ)))) extraOk = true;
       } else if (intent === "mua_dep") {
-        const qn = normText(q);
-        if ((this.extra.mua_dep_vung_cu || []).some((m) => qn.includes(normText(String(m.vung).split("(")[0].trim())))) extraOk = true;
+        if ((this.extra.mua_dep_vung_cu || []).some((m) => nameInQ(String(m.vung).split("(")[0].trim(), q))) extraOk = true;
         else if (this.provinceOf(q) !== null) {
           // Câu hỏi nhắc 1 tỉnh/thành cụ thể (vd "Mộc Châu mùa hoa
           // mận"): mùa của vùng đó nằm trong mục của vùng, dù mục
           // đó không được nêu tên — không chặn theo tên.
           specific = new Set();
         }
+      } else if (intent === "chi_phi" && this.provinceOf(q) !== null) {
+        // Chi phí cấp tỉnh là dữ liệu thật (34 tỉnh đều có bảng
+        // chi phí) — câu hỏi đã nêu tỉnh thì không chặn theo tên mục.
+        extraOk = true;
       }
       const noData = () => ({
         answer: "App chưa có thông tin này trong kho dữ liệu hiện tại — câu hỏi nhắc tới một điểm/tuyến chưa có trong kho nên mình không trả bừa. Bạn thử hỏi về một điểm cụ thể đã có trong cẩm nang, vd \"vé Bà Nà Hills bao nhiêu\", \"đi Quy Nhơn bằng gì\".",
@@ -939,10 +1131,34 @@ class BuiTripAI {
         no_data: true,
       });
       if (extraOk) {
-        // đáp án lấy từ bảng EXTRA, không chặn
+        // đáp án lấy từ bảng EXTRA / bảng chi phí tỉnh, không chặn
       } else if (specific.size) {
         const featSet = new Set(feats);
-        if (!entries.some(([, e]) => matchesSpecific(e.ten, featSet, specific))) {
+        // So sánh cần khớp CẢ 2 bên (vd "so sánh A với B" mà chỉ
+        // khớp A thì bên B vẫn là mục bừa); các ý định khác cần
+        // khớp ít nhất 1 mục.
+        const need = intent === "so_sanh" ? 2 : 1;
+        // Câu hỏi nêu tỉnh/thành cụ thể thì mục khớp PHẢI ở
+        // đúng tỉnh đó — cùng tên ở tỉnh khác là 1 nơi khác
+        // (vd "Suối Vàng ở Lâm Đồng": "Thác Tình Yêu (Suối
+        // Vàng)" ở Lào Cai không được tính là khớp; mục đúng
+        // là "Hồ Suối Vàng" ở Lâm Đồng — gặp 24/11/2026).
+        // Mùa là thuộc tính của VÙNG: câu hỏi mùa nêu 1 nơi
+        // (vd "Mộc Châu mùa hoa mận") thì mục nào trong tỉnh
+        // đó CÓ dữ liệu mùa cũng trả đúng mùa vùng đó.
+        const provQ = this.provinceOf(q);
+        const hit = (e) => {
+          if (provQ !== null && !sameProvince(e.tinh, provQ)) return false;
+          if (matchesSpecific(e.ten, featSet, specific)) return true;
+          // Mùa là thuộc tính của VÙNG: chỉ tính khi câu hỏi
+          // nêu nơi (provQ) và mục ở đúng tỉnh đó CÓ dữ liệu
+          // mùa — không thì "Đảo Hòn Tằm" (có mùa) sẽ cứu
+          // "Tam Đảo" (không có mục nào) dù khác tỉnh
+          // (gặp 24/11/2026).
+          return intent === "mua_dep" && provQ !== null && (e.mua_dep || "").trim() !== "";
+        };
+        const hits = entries.filter(([, e]) => hit(e)).length;
+        if (hits < need) {
           return noData();
         }
       } else if (intent === "mua_dep") {
@@ -955,12 +1171,40 @@ class BuiTripAI {
         }
       }
     }
+    if (!follow && entries.length && this.specificTokens(q).size) {
+      // Mục khớp đích danh nằm sâu trong top 3 mà mục đầu không khớp
+      // (vd truy hồi xếp 1 mục khác lên trên): đưa mục khớp lên đầu
+      // để composer trả đúng thực thể. Khớp tính theo
+      // matchesSpecific (nhắc tên/cụm 2 chữ/chung >=2 token) —
+      // vd "Hòn Khoai ở đâu": mục đầu "Hòn Khô" chỉ khớp nhờ tiền
+      // tố "hon kho" của "hon khoai", còn "Đảo Hòn Khoai" khớp
+      // cụm "hon khoai" nên được đưa lên (gặp 24/11/2026).
+      // Mục khớp còn phải ĐÚNG TỈNH với nơi hỏi nêu (vd "Suối
+      // Vàng ở Lâm Đồng": "Thác Tình Yêu (Suối Vàng)" ở Lào Cai
+      // không được đưa lên, mục đúng là "Hồ Suối Vàng" ở Lâm
+      // Đồng — gặp 24/11/2026).
+      const featSet = new Set(feats);
+      const specific = this.specificTokens(q);
+      const provQ = this.provinceOf(q);
+      const match = (e) => matchesSpecific(e.ten, featSet, specific)
+        && (provQ === null || sameProvince(e.tinh, provQ));
+      if (!match(entries[0][1])) {
+        for (let j = 1; j < entries.length; j++) {
+          if (match(entries[j][1])) {
+            entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];
+            break;
+          }
+        }
+      }
+    }
     const answer = compose(intent, entries, q, this.historyEntities, this.extra);
     let entity = entries.length ? entries[0][1].ten || null : null;
     if (intent === "cach_di") {
       // Thực thể đúng là ĐIỂM ĐẾN trong bảng tuyến, không phải điểm xuất phát
+      // (tuyến tới tỉnh của thành phố hỏi cũng tính, vd Sa Pa -> Lào Cai).
+      const provQ = this.provinceOf(q);
       for (const t of this.extra.tuyen_di || []) {
-        if (normText(q).includes(normText(t.den))) {
+        if (nameInQ(t.den, q) || (provQ !== null && normText(t.den) === normText(provQ))) {
           entity = t.den;
           break;
         }

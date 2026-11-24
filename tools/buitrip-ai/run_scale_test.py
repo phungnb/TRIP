@@ -41,7 +41,7 @@ def main():
     for q, exp_intent, exp_ent in REAL_QUESTIONS:
         r = ai.ask(q)
         n_i += r["intent"] == exp_intent
-        n_e += exp_ent is None or (r["entity"] and exp_ent.lower() in r["entity"].lower())
+        n_e += bool(exp_ent is None or (r["entity"] and exp_ent.lower() in r["entity"].lower()))
     print(f"   24 CAU THAT (100k): intent {n_i}/24, entity {n_e}/24 "
           f"(so voi 7.712 cau: 24/24 va 22/24)")
 

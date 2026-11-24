@@ -78,6 +78,16 @@ def norm_text(s):
     return s
 
 
+def name_in_q(name, q):
+    """Tên (vd 'Sa Pa', 'Sơn Đoòng') có trong câu hỏi không — so cả dạng
+    viết liền ('sapa') vì câu hỏi thật hay viết liền tên 2 chữ (gặp
+    24/11/2026: 'đi sapa bằng gì' không khớp bảng tuyến vì 'sa pa' có
+    dấu cách còn câu hỏi viết liền)."""
+    qn = norm_text(q)
+    nn = norm_text(name)
+    return nn in qn or nn.replace(" ", "") in qn.replace(" ", "")
+
+
 # Tên tỉnh cũ (sáp nhập 01/07/2025) — để tách dạng viết liền ("binhdinh").
 # (Trùng OLD_TO_NEW trong data_gen.py; normalize.py không import data_gen
 # để tránh vòng tròn.)
@@ -127,6 +137,13 @@ QUESTION_WORDS = {
     "du", "het", "nen", "nhu", "cung", "ca", "tat", "em", "anh", "ban",
     "minh", "ta", "bac", "cac", "nguoi", "xin", "hoi", "nho", "giup",
     "van", "tour", "combo", "lai",
+    # Từ đệm trong câu hỏi diễn đàn (thêm 24/11/2026 — không có chúng,
+    # "e xin ít đc ăn ngon ở qn" và "cho mh hỏi côn đảo nằm ở đâu" bị
+    # chặn nhầm vì còn token đệm; CỐ TÌNH không thêm "ba"/"tam"/"xem"/
+    # "gui"/"c" — chúng sẽ mở chặn cho mảnh bình luận không rõ chỗ,
+    # và "tam" là token tên "Tam Cốc"/"Tam Đảo")
+    "e", "mh", "a", "vs", "dc", "it", "nhung", "ad", "nam",
+    "hien", "phai", "kinh", "nghiem", "review", "z", "khu",
     # Giới từ hướng/thời gian hay gặp ("vào tháng mấy", "ra đảo", "lên núi")
     "vao", "ra", "len", "xuong", "qua",
     # Từ theo ý định (giá/giờ/mùa/cách đi/ăn/ở/điểm chơi/lịch trình/chi phí/...)
@@ -140,10 +157,23 @@ QUESTION_WORDS = {
     # Loại địa danh chung (không phải tên riêng): biển, núi, thác, chùa...
     "bien", "nui", "thac", "ho", "chua", "dao", "lang", "bai", "den",
     "hang", "cho", "suoi", "doi", "deo", "cau", "bao", "tang", "check",
-    "in", "song", "ao", "tich",
+    "in", "song", "ao", "tich", "hon",
+    # Loại tuyến đường chung ("quốc lộ", "tỉnh lộ" — số hiệu mới là
+    # thứ cụ thể: "Quốc lộ 14" còn lại "14", khác "Quốc lộ 51" còn "51")
+    "quoc", "lo",
     # Tính từ chung (ngon/rẻ/đẹp/nổi tiếng...) — không phải tên riêng
     "ngon", "re", "dat", "dep", "noi", "tieng", "nhat", "tot", "xau",
     "rong", "hep", "cao", "thap", "dai", "ngan", "lon", "nho", "moi",
-    "trua", "chieu", "dem", "som", "muon", "nhanh", "cham", "de", "kho",
+    "trua", "chieu", "dem", "ngay", "tuan", "som", "muon", "nhanh", "cham", "de", "kho",
     "tien", "loi", "gan", "xa", "thuan",
+    # Từ phương tiện chung — CỐ TÌNH KHÔNG có "ga"/"tau"/"bay" (gỡ
+    # 24/11/2026): "vé máy bay Quy Nhơn bao nhiêu" bị trả giá của
+    # quán Jollibee vì "bay" thành từ chung nên luật chặn không chạy;
+    # còn "Quy Nhơn có ga tàu/sân bay không" đã được bảng tuyến EXTRA
+    # cứu (luật chặn cho qua khi điểm đến có trong bảng tuyến).
+    # "lao" (cù lao — từ chung chỉ cù lao, vd "Cù Lao Xanh" khớp nhầm
+    # "Cù lao Mây" chỉ nhờ cụm "cu lao" — gặp 24/11/2026; "Lào Cai"
+    # không ảnh hưởng vì tên tỉnh/thành được bỏ ra khỏi token cụ thể
+    # theo tên, còn _named_in_question so token thô nên vẫn khớp)
+    "lao",
 }

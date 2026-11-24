@@ -10,7 +10,7 @@
 // Khác bản Python ở 1 điểm: EXTRA (kien-thuc-bo-sung.json) không đọc từ file
 // trong module này nữa mà nhận qua tham số `extra` của compose() — phía app
 // tự fetch/lazy-load rồi truyền vào qua BuiTripAI.load(kb, model, extra).
-import { CITY_TO_PROVINCE, OLD_TO_NEW, normText } from "./normalize.js";
+import { CITY_TO_PROVINCE, OLD_TO_NEW, nameInQ, normText } from "./normalize.js";
 
 function clean(v) {
   return (v == null ? "" : String(v)).trim();
@@ -37,9 +37,37 @@ function cityInQuery(query) {
   return best;
 }
 
+// Tên thành phố dạng có dấu từ dạng chuẩn hóa (vd 'quy nhon' -> 'Quy Nhơn').
+function cityDisplay(cityNorm) {
+  for (const city of Object.keys(CITY_TO_PROVINCE)) {
+    if (normText(city) === cityNorm) return city;
+  }
+  return cityNorm;
+}
+
 function hasPrice(e) {
   const g = clean(e.gia);
   return g !== "" && !g.toLowerCase().includes("chưa kiểm");
+}
+
+// (thành phố, tỉnh) mà câu hỏi nhắc tới, vd ("Sa Pa", "Lào Cai").
+// Dùng cho bảng tuyến: bảng chỉ có tuyến tới tỉnh, câu hỏi có thể hỏi
+// 1 thành phố trong tỉnh đó. So cả dạng viết liền ("sapa").
+function cityProvOfQuery(query) {
+  const qn = normText(query);
+  const qnNs = qn.replace(/ /g, "");
+  let best = null;
+  for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
+    const nc = normText(city);
+    if (qn.includes(nc) || qnNs.includes(nc.replace(/ /g, ""))) {
+      if (!best || nc.length > normText(best[0]).length) best = [city, prov];
+    }
+  }
+  if (best) return best;
+  for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
+    if (qn.includes(normText(old))) return [old, nw];
+  }
+  return [null, null];
 }
 
 // Hỏi tỉnh cũ/thành phố thì hiện tên cũ cho người đọc dễ hiểu
@@ -93,12 +121,20 @@ export function compose(intent, entries, query, historyEntities, extra) {
       // thì bún chả cá Quy Nhơn lên trước món Pleiku) — cùng tỉnh, chỉ đổi
       // thứ tự hiển thị, không đổi thực thể trả về.
       const city = cityInQuery(query);
+      let cityNote = "";
       if (city) {
         got.sort((a, b) => {
           const ka = normText((a.ten || "") + " " + (a.ghi_chu || "")).includes(city) ? 0 : 1;
           const kb = normText((b.ten || "") + " " + (b.ghi_chu || "")).includes(city) ? 0 : 1;
           return ka - kb;
         });
+        // Luật chung 24/11/2026: hỏi món/chỗ ở của 1 thành phố mà
+        // không mục nào nhắc tới thành phố đó (vd "ăn gì ở An Khê"
+        // mà kho chỉ có món Pleiku) thì nói rõ đây là gợi ý cấp
+        // tỉnh, không giả vờ là món riêng của thành phố đó.
+        if (!got.slice(0, 5).some((e) => normText((e.ten || "") + " " + (e.ghi_chu || "")).includes(city))) {
+          cityNote = `\nChưa có danh sách riêng cho ${cityDisplay(city)} trong kho — dưới đây là gợi ý chung của tỉnh ${tinh}.`;
+        }
       }
       const lines = [];
       for (const e of got.slice(0, 5)) {
@@ -108,7 +144,7 @@ export function compose(intent, entries, query, historyEntities, extra) {
         lines.push(line);
       }
       return (
-        `${capitalize(kind)} ở ${displayPlace(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):\n` +
+        `${capitalize(kind)} ở ${displayPlace(query, tinh)} (theo dữ liệu app + tìm Google 23/11/2026):${cityNote}\n` +
         lines.join("\n") +
         "\nGiá có thể đổi; kiểm lại khi đặt."
       );
@@ -143,7 +179,7 @@ export function compose(intent, entries, query, historyEntities, extra) {
         "bạn tra vé tới sân bay/ga gần nhất rồi cộng thêm."
       );
     }
-    return fallbackNoData(tinh || name, "chi phí chuyến đi");
+    return fallbackNoData(tinh || name || "chuyến đi này", "chi phí chuyến đi");
   }
 
   // Không tìm thấy gì đáng tin -> dự phòng 3 phần
@@ -187,10 +223,9 @@ export function compose(intent, entries, query, historyEntities, extra) {
 
   if (intent === "mua_dep") {
     // Mùa theo vùng cũ đã kiểm chứng — ưu tiên hơn mùa cấp tỉnh trong kho
-    const qn = normText(query);
     for (const m of extra.mua_dep_vung_cu || []) {
       const region = m.vung.split("(")[0].trim();
-      if (normText(region) && qn.includes(normText(region))) {
+      if (normText(region) && nameInQ(region, query)) {
         return `Đi ${m.vung} đẹp nhất: ${m.mua} Lưu ý: ${m.sai_can_tranh || ""}`;
       }
     }
@@ -219,8 +254,19 @@ export function compose(intent, entries, query, historyEntities, extra) {
   if (intent === "cach_di") {
     // Ưu tiên bảng tuyến đi đã kiểm chứng
     for (const t of extra.tuyen_di || []) {
-      if (query.toLowerCase().includes(t.den.toLowerCase()) || name.toLowerCase().includes(t.den.toLowerCase())) {
+      if (nameInQ(t.den, query) || nameInQ(t.den, name)) {
         return `Đi ${t.den}: ${t.cach} (Nguồn kiểm chứng: ${t.nguon}.)`;
+      }
+    }
+    // Hỏi đi 1 thành phố mà bảng chỉ có tuyến tới TỈNH của thành phố
+    // đó (vd "đi Sa Pa bằng gì" -> tuyến "Lào Cai", trong cách đi có
+    // nhắc Sa Pa): lấy tuyến tỉnh, ghi rõ theo tuyến tới tỉnh.
+    const [cityQ, provQ] = cityProvOfQuery(query);
+    if (cityQ && provQ) {
+      for (const t of extra.tuyen_di || []) {
+        if (normText(t.den) === normText(provQ)) {
+          return `Đi ${cityQ} (theo tuyến tới ${provQ}): ${t.cach} (Nguồn kiểm chứng: ${t.nguon}.)`;
+        }
       }
     }
     if (note) return `Cách đi ${name} (${tinh}): ${note}`;

@@ -207,28 +207,50 @@
      "Cát Bà Wonder Hotel".) */
   A.ask = function (q, opt) {
     var t0 = Date.now(), qq = String(q == null ? "" : q).trim();
-    if (window.__btaiNew) {
-      var genericArea = false;
+    var genericArea = false;
+    try {
+      A.index();
+      var E0 = entOf(qq), r0 = A.rest(qq);
+      var nm = E0.isle ? E0.isle.name : E0.area ? E0.area.name : E0.prov ? E0.prov.prov.name : null;
+      if (nm && A.fold(r0) === A.fold(nm)) genericArea = true;
+    } catch (e) {}
+    if (window.__btaiNew && !genericArea) {
       try {
-        A.index();
-        var E0 = entOf(qq), r0 = A.rest(qq);
-        var nm = E0.isle ? E0.isle.name : E0.area ? E0.area.name : E0.prov ? E0.prov.prov.name : null;
-        if (nm && A.fold(r0) === A.fold(nm)) genericArea = true;
-      } catch (e) {}
-      if (!genericArea) {
-        try {
-          var nr = window.__btaiNew.ask(qq);
-          if (nr && nr.confidence >= 0.9 && nr.score >= 0.3 && !nr.no_data) {
-            var nres = newAnswer(nr, qq, t0);
-            if (nres) {
-              if (!(opt && opt.noCtx)) A.ctx.push({ q: qq, intent: nr.intent, ent: nres.ent });
-              return nres;
-            }
+        var nr = window.__btaiNew.ask(qq);
+        if (nr && nr.confidence >= 0.9 && nr.score >= 0.3 && !nr.no_data) {
+          var nres = newAnswer(nr, qq, t0);
+          if (nres) {
+            if (!(opt && opt.noCtx)) A.ctx.push({ q: qq, intent: nr.intent, ent: nres.ent });
+            return nres;
           }
-        } catch (e) {}
-      }
+        }
+      } catch (e) {}
     }
-    return askCu(qq, opt);
+    var cu = askCu(qq, opt);
+    /* Luật chung (24/11/2026): engine cũ cũng không được trả trang
+       khu/tỉnh/đảo thay thế khi câu hỏi nêu 1 thứ cụ thể không có trong
+       dữ liệu (vd "vé tham quan chùa An Lạc ở Gia Lai" trước đây trả
+       trang tỉnh Gia Lai dù chùa đó không có trong dữ liệu; "khách sạn
+       Mặt Trời Đỏ ở Đà Lạt" cũng vậy). Chỉ chặn khi: câu không phải câu
+       chung về khu/tỉnh/đảo; phần còn lại nêu tên riêng (≥2 từ hoặc có
+       số); tên đó không phải tên nơi (isPlaceName sai); và findItem
+       không khớp (null hoặc s < 70). Câu về nơi có thật ("Yên Tử ở
+       đâu?" — findItem khớp Yên Tử; "đi Măng Đen bằng gì" — Măng Đen là
+       tên nơi) không bị chặn. */
+    if (cu && (cu.kind === "area" || cu.kind === "prov" || cu.kind === "isle") && !genericArea) {
+      try {
+        var rb = A.rest(qq);
+        var wb = rb.split(" ").filter(function (w) { return w; });
+        if (rb && !A.isPlaceName(rb) && (/\d/.test(rb) || wb.length >= 2)) {
+          var itb = null;
+          try { itb = A.findItem(rb); } catch (e) {}
+          if (!itb || itb.s < 70) {
+            return { html: A.fallback({ what: 'mục "' + rb + '" trong dữ liệu app', how: A.howTo("unknown", {}), asked: qq }), kind: "fallback", intent: cu.intent, ent: null, ms: Date.now() - t0 };
+          }
+        }
+      } catch (e) {}
+    }
+    return cu;
   };
   window.askBuiTrip = function (q, opt) { return A.ask(q, opt); };
   /* nút trong câu trả lời */
