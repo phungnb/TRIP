@@ -46,20 +46,22 @@
     };
   }
 
-  /* ---------- Báo thông tin sai: gửi ngay trong app (mục Hỗ trợ, không cần đăng nhập) ---------- */
+  /* ---------- Gửi nhanh (không cần đăng nhập): gửi ngay trong app (mục Hỗ trợ) ----------
+     Nút "Gửi đóng góp" (cần đăng nhập, theo dõi được) do dong-gop.js chèn trước nút này.
+     Đổi tên nút này để khỏi trùng nhãn với "Gửi đóng góp". ---------- */
   window.tlReport = function (kind, provId, itemId) {
     var p = provById(provId), it = findItem(kind, provId, itemId);
     var label = kind === "pplace" ? "Địa danh" : (kind === "pstay" ? "Chỗ ở" : "Món ăn");
-    var txt = "Báo thông tin sai\nTỉnh/thành: " + (p ? p.name : provId) + "\n" + label + ": " + (it ? it.name : itemId) + " (mã: " + itemId + ")\n" +
+    var txt = "Gửi đóng góp\nTỉnh/thành: " + (p ? p.name : provId) + "\n" + label + ": " + (it ? it.name : itemId) + " (mã: " + itemId + ")\n" +
       "App đang ghi sai ở đâu (giá, giờ, địa chỉ...): \nThông tin đúng là: \nNguồn (link, ảnh bảng giá, hoặc 'tôi là chủ cơ sở'): ";
-    if (typeof window.tlOpen !== "function") { location.href = reportMailto("[Cẩm nang] Báo thông tin sai", txt.split("\n")); return; }
+    if (typeof window.tlOpen !== "function") { location.href = reportMailto("[Cẩm nang] Gửi đóng góp", txt.split("\n")); return; }
     tlOpen("ht");
     var m = document.getElementById("tlMsg");
     if (m) { m.value = txt; m.focus(); try { var k = txt.indexOf("(giá, giờ, địa chỉ...): ") + 24; m.setSelectionRange(k, k); } catch (e) {} }
   };
   window.reportLinkHtml = reportLinkHtml = function (kind, provId, itemId) {
     if (!provById(provId)) return "";
-    return '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="tlReport(\'' + kind + '\',\'' + provId + '\',\'' + itemId + '\')">Báo thông tin sai</button>' +
+    return '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="tlReport(\'' + kind + '\',\'' + provId + '\',\'' + itemId + '\')">Gửi nhanh (không cần đăng nhập)</button>' +
       '<p class="small" style="margin:6px 0 0">Gửi ngay trong app, không cần đăng nhập; đội BuiTrip trả lời ở mục Hỗ trợ của nút Hỏi. Chủ cơ sở muốn sửa thông tin cũng gửi qua đây, hoặc thư tới ' + esc(SUPPORT_EMAIL) + '.</p>';
   };
 

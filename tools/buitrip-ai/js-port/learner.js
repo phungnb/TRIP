@@ -16,6 +16,12 @@ import { compose } from "./composer.js";
 import { CITY_TO_PROVINCE, OLD_TO_NEW, normText, provKey, tokens } from "./normalize.js";
 import { NaiveBayes } from "./naive-bayes.js";
 import { Retriever } from "./retriever.js";
+import { SessionContext, enrichEntry, extractSlots, parseCost, parseCostLow, premiseCheck } from "./slots.js";
+
+function fmtVnd(n) {
+  // Định dạng số VNĐ kiểu Việt Nam (4.800.000) — khớp format(x, ",") của Python.
+  return String(Math.trunc(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
 
 const STORAGE_KEY = "buitrip_ai_boosts";
 
@@ -67,12 +73,17 @@ export class BuiTripAI {
     for (const [t, i, v] of model.boosts || []) this.boosts.set(boostKey(t, i), v);
     this.retriever.boosts = this.boosts; // cùng 1 Map để feedback cập nhật ngay
     this.historyEntities = [];
+    // Tầng 2 — bộ nhớ hội thoại có cấu trúc (SessionContext).
+    this.ctx = new SessionContext();
+    // Tầng 3 — kho đã chuẩn hóa (suy trường mới từ dữ liệu sẵn có).
+    this.kbEnriched = kb.map((e) => enrichEntry(e));
     // Tên tỉnh mới (từ kho) để nhận diện tỉnh trong câu hỏi
     const provs = new Set();
     for (const e of kb) {
       if (e.tinh && !e.loai) provs.add(provKey(e.tinh));
     }
     this.provinces = [...provs].sort();
+    this.provinceNames = [...new Set(kb.map((e) => e.tinh).filter(Boolean))].sort();
     this._loadStoredBoosts();
   }
 
@@ -92,6 +103,12 @@ export class BuiTripAI {
   }
 
   ask(q) {
+    // Tầng 1+2: trích slot, cập nhật context, gộp slot hiệu dụng
+    const rawSlots = extractSlots(q, this.kb, this.provinceNames);
+    this.ctx.update(rawSlots);
+    const slots = this.ctx.effectiveSlots(rawSlots);
+    // Tầng 1: kiểm tra tiền đề sai (đính chính lên đầu nếu có)
+    const premise = premiseCheck(slots, this.kb);
     const feats = tokens(q);
     let [intent, probs] = this.nb.predict(feats);
     const conf = probs[intent] || 0.0;
@@ -147,7 +164,27 @@ export class BuiTripAI {
         }
       }
     }
-    const answer = compose(intent, entries, q, this.historyEntities, this.extra);
+    // Tầng 3: lọc thời gian (close_hour >= giờ hỏi, hoặc mở qua đêm)
+    const tf = slots.time_filter;
+    if (tf && tf.type === "after" && entries.length) {
+      const hour = tf.hour;
+      const kept = [];
+      for (const [score, e] of entries) {
+        const enr = this.kbEnriched.find((x) => x.ten === e.ten);
+        const ch = enr ? enr.close_hour : null;
+        if (ch === null || ch >= hour || ch <= 5.0) kept.push([score, e]);
+      }
+      if (kept.length) entries = kept;
+    }
+    let answer = compose(intent, entries, q, this.historyEntities, this.extra);
+    // Tầng 3: tổng hợp đa ý định thành khối (khi >= 2 ý định)
+    const multi = this._multiIntentBlocks(slots, q);
+    if (multi) answer = multi + "\n\n" + answer;
+    // Tầng 1: đính chính tiền đề sai lên ĐẦU câu trả lời
+    if (premise) answer = premise.message + "\n\n" + answer;
+    // Tầng 1: cảnh báo ngân sách khi nhân số người vượt budget
+    const warn = this._budgetWarning(slots);
+    if (warn) answer = answer + "\n\n" + warn;
     let entity = entries.length ? entries[0][1].ten || null : null;
     if (intent === "cach_di") {
       // Thực thể đúng là ĐIỂM ĐẾN trong bảng tuyến, không phải điểm xuất phát
@@ -173,7 +210,75 @@ export class BuiTripAI {
       entity,
       entity_prov: entityProv,
       score: entries.length ? round3(entries[0][0]) : 0.0,
+      slots,
+      premise,
     };
+  }
+
+  _multiIntentBlocks(slots, q) {
+    const intents = slots.intents || [];
+    if (intents.length < 2) return null;
+    const prov = slots.province;
+    const people = slots.people || 1;
+    const days = slots.days || 2;
+    const blocks = [];
+    if (intents.includes("chi_phi") || slots.budget_vnd) {
+      const est = this._estimateTrip(prov, people, days);
+      if (est !== null && est !== undefined) {
+        blocks.push("💰 Ước tính chi phí cho " + people + " người (" + days + "N" + Math.max(days - 1, 1) + "Đ): ~" + fmtVnd(est) + " VNĐ");
+      }
+    }
+    if (intents.includes("di_dau") || intents.includes("lich_trinh")) {
+      const spots = this._topForProvince(prov, null, 3);
+      if (spots.length) blocks.push("🌲 Điểm đến: " + spots.join(", "));
+    }
+    if (intents.includes("an_gi")) {
+      const dishes = this._topForProvince(prov, "mon_an", 3);
+      if (dishes.length) blocks.push("🍲 Món nên thử: " + dishes.join(", "));
+    }
+    return blocks.length ? blocks.join("\n") : null;
+  }
+
+  _topForProvince(prov, loai, n) {
+    const out = [];
+    for (const e of this.kb) {
+      if (prov && e.tinh !== prov) continue;
+      if (loai && e.loai !== loai) continue;
+      if (!loai && e.loai) continue;
+      out.push((e.ten || "").split("(")[0].trim());
+      if (out.length >= n) break;
+    }
+    return out;
+  }
+
+  _estimateTrip(prov, people, days) {
+    // 'Tổng ước tính' đã là tổng cả chuyến/người nên KHÔNG nhân thêm số ngày.
+    // Dùng đầu thấp của khoảng giá (mức tối thiểu đạt được) để ước tính
+    // theo ngân sách người dùng nêu.
+    for (const e of this.kb) {
+      if (e.loai === "chi_phi" && (!prov || e.tinh === prov)) {
+        let c = parseCostLow(e.gia || "");
+        if (c === null || c === undefined) {
+          const gc = e.ghi_chu || "";
+          const m = gc.indexOf("Tổng ước tính");
+          c = parseCostLow(m >= 0 ? gc.slice(m) : gc);
+        }
+        if (c) return c * people;
+      }
+    }
+    return null;
+  }
+
+  _budgetWarning(slots) {
+    const budget = slots.budget_vnd;
+    const people = slots.people || 1;
+    const days = slots.days || 2;
+    if (!budget) return null;
+    const est = this._estimateTrip(slots.province, people, days);
+    if (est && est > budget) {
+      return "⚠️ Với " + people + " người, ước tính ~" + fmtVnd(est) + " VNĐ đã vượt ngân sách " + fmtVnd(budget) + " VNĐ của bạn. Bạn có thể rút ngắn ngày hoặc chọn chỗ ở rẻ hơn.";
+    }
+    return null;
   }
 
   // Sửa sai: chỉ tăng điểm cho token trong TÊN ĐIỂM (vd 'lăng', 'bác') —
