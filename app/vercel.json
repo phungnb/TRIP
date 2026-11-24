@@ -45,5 +45,11 @@
     "api/hoc-ngay.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/auth/:path*",
+      "destination": "/api/auth-proxy?p=:path*"
+    }
+  ]
 }
