@@ -164,7 +164,7 @@ function isSaved(kind,id){ return saved.some(function(s){ return s.kind===kind&&
 function toggleSave(kind,id,btn){
   if(isSaved(kind,id)){ saved=saved.filter(function(s){ return !(s.kind===kind&&s.id===id); }); toast("Đã bỏ lưu"); }
   else{ saved.push({kind:kind,id:id}); toast("Đã lưu — xem ở mục Tài khoản"); }
-  saveSaved(); renderSaved(); refreshHearts();
+  saveSaved(); renderSaved(); refreshHearts(); refreshSaveBtns(kind+":"+id,isSaved(kind,id));
 }
 function refreshHearts(){
   document.querySelectorAll("[data-heart]").forEach(function(b){
@@ -175,7 +175,13 @@ function refreshHearts(){
   });
 }
 function heartSvg(on){
-  return '<svg width="19" height="19" viewBox="0 0 24 24" fill="'+(on?"#d6336c":"none")+'" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>';
+  return '<svg width="19" height="19" viewBox="0 0 24 24" style="fill:'+(on?"var(--accent)":"none")+'" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>';
+}
+/* Cập nhật nút Lưu/Đã lưu ở trang chi tiết (icon tim + chữ, đổi tại chỗ, không tải lại trang) */
+function refreshSaveBtns(key,on){
+  document.querySelectorAll('[data-savebtn="'+key+'"]').forEach(function(b){
+    b.innerHTML=heartSvg(on)+'<span>'+(on?"Đã lưu":"Lưu")+'</span>';
+  });
 }
 var toastTimer=null;
 function toast(msg){
@@ -212,6 +218,7 @@ var navStack=[]; var currentView="explore";
 function show(view, push){
   if(push!==false && currentView!==view) navStack.push(currentView);
   currentView=view;
+  if(view!=="item-detail") currentItem=null;
   document.querySelectorAll(".view").forEach(function(v){ v.classList.remove("active"); });
   document.getElementById("view-"+view).classList.add("active");
   var t=TITLES[view]||TITLES.explore;
@@ -220,7 +227,7 @@ function show(view, push){
   document.getElementById("btnBack").classList.toggle("show", navStack.length>0);
   document.getElementById("brandMark").style.display = navStack.length>0 ? "none":"flex";
   var tabMap={explore:"explore",destinations:"destinations","dest-detail":"destinations","item-detail":null,"itin-detail":"explore",plan:null,trips:"trips","trip-detail":"trips",account:"account",faq:null,stamps:"account"};
-  document.querySelectorAll(".tabbar [data-tab]").forEach(function(b){ b.classList.toggle("active", b.getAttribute("data-tab")===tabMap[view]); });
+  document.querySelectorAll(".tabbar [data-tab], .topnav [data-tab]").forEach(function(b){ b.classList.toggle("active", b.getAttribute("data-tab")===tabMap[view]); });
   window.scrollTo(0,0);
   document.getElementById("appMain").scrollTop=0;
   if(view==="dest-detail"){ initMap(); if(typeof refreshProvMap==="function"){ setTimeout(refreshProvMap,400); setTimeout(refreshProvMap,1000); } }
@@ -236,6 +243,7 @@ function show(view, push){
 var histGuard=false;
 function viewHash(){
   if(currentView==="dest-detail" && currentProv) return "#/tinh/"+currentProv.id;
+  if(currentView==="item-detail" && currentItem && ITEM_PATH[currentItem.kind]) return "#/tinh/"+currentItem.provId+"/"+ITEM_PATH[currentItem.kind]+"/"+currentItem.itemId;
   return "";
 }
 function syncHistory(){
@@ -261,16 +269,17 @@ function goBack(){
   if(prev) show(prev,false); else show("explore",false);
 }
 document.getElementById("btnBack").addEventListener("click",function(){ if(histGuard){ try{ history.back(); return; }catch(e){} } goBack(); });
-document.querySelectorAll(".tabbar [data-tab]").forEach(function(b){
+document.querySelectorAll(".tabbar [data-tab], .topnav [data-tab]").forEach(function(b){
   b.addEventListener("click",function(){ navStack=[]; show(b.getAttribute("data-tab"),false); });
 });
 document.getElementById("fabPlan").addEventListener("click",function(){ startPlan(); });
+document.getElementById("topPlan").addEventListener("click",function(){ startPlan(); });
 
 
 
 /* ================= RENDER: KHÁM PHÁ & ĐIỂM ĐẾN ================= */
 function destCard(d){
-  return '<button class="card" onclick="openDestDetail()"><div class="thumbwrap"><img class="thumb" src="'+d.img+'" alt="Phong cảnh '+esc(d.name)+'" style="height:170px" /></div><div class="body"><h3>'+esc(d.name)+' · '+esc(d.province)+'</h3><p class="muted">'+esc(d.overview)+'</p><div class="meta-line"><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season)+'</span></div></div></button>';
+  return '<button class="card" onclick="openDestDetail()"><div class="thumbwrap"><img class="thumb" src="'+d.img+'" alt="Phong cảnh '+esc(d.name)+'" style="height:170px" /></div><div class="body"><h3>'+esc(d.name)+(d.name===d.province?"":" · "+esc(d.province))+'</h3><p class="muted">'+esc(d.overview)+'</p><div class="meta-line"><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season)+'</span></div></div></button>';
 }
 function placeCard(p,small){
   var img=PLACE_IMG[p.id]||PLACE_IMG["default"];
@@ -280,7 +289,7 @@ function placeCard(p,small){
   return '<div class="rowcard" style="position:relative;padding-right:52px"><button class="heart" data-heart="place:'+p.id+'" style="top:8px;right:8px" onclick="toggleSave(\'place\',\''+p.id+'\',this)">'+heartSvg(isSaved("place",p.id))+'</button><button style="all:unset;display:flex;gap:12px;width:100%;cursor:pointer;text-align:left" onclick="openPlace(\''+p.id+'\')"><img src="'+img+'" alt="'+esc(p.name)+'" /><div class="rc-body"><h3>'+esc(p.name)+'</h3><span class="badge badge-price">'+esc(CLUSTER_LABEL[p.cluster])+'</span><div class="meta-line"><span>'+(p.dist===0?"Ngay trung tâm":("Cách trung tâm ~"+p.dist+" km"))+'</span><span>'+esc(p.duration)+'</span></div><p class="price-line">'+esc(priceShort(p.price))+'</p><p class="small">Khoảng giá — kiểm '+CHECKED+'</p></div></button></div>';
 }
 function stayCard(s){
-  return '<div class="rowcard" style="position:relative;padding-right:52px"><button class="heart" data-heart="stay:'+s.id+'" style="top:8px;right:8px" onclick="toggleSave(\'stay\',\''+s.id+'\',this)">'+heartSvg(isSaved("stay",s.id))+'</button><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openStay(\''+s.id+'\')"><div class="rc-body"><h3>'+esc(s.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-unv">Chưa kiểm chứng</span><span class="badge badge-soon">'+esc(s.kind)+'</span></div><p class="muted">'+esc(s.areaLabel)+' · '+esc(s.address)+'</p><p class="price-line">'+esc(s.price)+'</p><p class="small">'+esc(s.dist)+' · Khoảng giá — kiểm '+CHECKED+'</p></div></button></div>';
+  return '<div class="rowcard" style="position:relative;padding-right:52px"><button class="heart" data-heart="stay:'+s.id+'" style="top:8px;right:8px" onclick="toggleSave(\'stay\',\''+s.id+'\',this)">'+heartSvg(isSaved("stay",s.id))+'</button><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openStay(\''+s.id+'\')"><div class="rc-body"><h3>'+esc(s.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-soon">'+esc(s.kind)+'</span></div><p class="muted">'+esc(s.areaLabel)+' · '+esc(s.address)+'</p><p class="price-line">'+esc(s.price)+'</p><p class="small">'+esc(s.dist)+' · Khoảng giá — kiểm '+CHECKED+'</p></div></button></div>';
 }
 function dishCard(d){
   return '<div class="rowcard" style="position:relative;padding-right:52px"><button class="heart" data-heart="dish:'+d.id+'" style="top:8px;right:8px" onclick="toggleSave(\'dish\',\''+d.id+'\',this)">'+heartSvg(isSaved("dish",d.id))+'</button><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openDish(\''+d.id+'\')"><div class="rc-body"><h3>'+esc(d.name)+'</h3><span class="badge badge-free">'+esc(d.mealLabel)+'</span><p class="muted" style="margin-top:6px">'+esc(d.desc)+'</p><p class="price-line">'+esc(d.price)+'</p><p class="small">'+d.restaurants.length+' quán tham khảo có địa chỉ · kiểm '+CHECKED+'</p></div></button></div>';
@@ -314,7 +323,7 @@ document.querySelectorAll("#regionChips .chip").forEach(function(c){
 document.getElementById("destSearch").addEventListener("input",renderDestList);
 /* ================= TÌM CHUYẾN ĐI (KHÁM PHÁ + LẬP CHUYẾN DÙNG CHUNG) ================= */
 var ORIGIN_SUGGESTIONS=["TP.HCM","Hà Nội","Đà Nẵng","Nha Trang","Cần Thơ","Huế"];
-var searchDestText="Đà Lạt", searchDestId="dalat", searchOrigin="";
+var searchDestText="", searchDestId="", searchOrigin="";
 function foldStr(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/đ/g,"d"); }
 function isSGOrigin(o){ var f=foldStr(o); return f.indexOf("ho chi minh")>=0||f.indexOf("hcm")>=0||f.indexOf("sai gon")>=0||f==="tphcm"||f==="tp.hcm"; }
 function isHNOrigin(o){ return foldStr(o).indexOf("ha noi")>=0; }
@@ -380,7 +389,7 @@ function attachTripAutocomplete(prefix){
       if(items.length===1 && foldStr(destInp.value.trim())===foldStr(items[0].name)){ hideAc(destList); return; }
       renderAcList(destList,items,prefix,"dest");
     };
-    destInp.addEventListener("input",function(){ searchDestText=destInp.value; syncDestInputs(destInp.value,destInp.id); showDest(); });
+    destInp.addEventListener("input",function(){ searchDestText=destInp.value; syncDestInputs(destInp.value,destInp.id); showDest(); if(prefix==="w") syncDestClearBtn(); });
     destInp.addEventListener("focus",showDest);
     destInp.addEventListener("blur",function(){ setTimeout(function(){ hideAc(destList); },150); });
     if(prefix==="ts") destInp.addEventListener("keydown",function(e){ if(e.key==="Enter"){ e.preventDefault(); hideAc(destList); doTripSearch(); } });
@@ -570,6 +579,7 @@ function detailHead(img,alt,title,badges){
 }
 function openPlace(id){
   var p=placeById(id); if(!p) return;
+  currentItem={kind:"place",provId:"lam-dong",itemId:id};
   var img=PLACE_IMG[p.id], sub=CLUSTER_LABEL[p.cluster]+" · "+(p.dist===0?"Ngay trung tâm":"Cách trung tâm ~"+p.dist+" km");
   /* Không có ảnh đúng địa danh thì không dùng ảnh mặc định (hồ, rừng thông) */
   document.getElementById("itemDetail").innerHTML =
@@ -577,35 +587,41 @@ function openPlace(id){
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+CHECKED+'</span></div>'+
     '<div class="kv">'+factCell("Mùa đẹp",placeSeason(p,provById("lam-dong")))+'<div class="cell"><div class="k">Giá vé tham khảo</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
-    '<p class="muted">Tọa độ: '+p.lat+", "+p.lng+' · <a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>'+
+    '<p class="muted">Tọa độ: '+p.lat+", "+p.lng+' · <a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Mở trên OpenStreetMap</a></p>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(p.note)+'</div>'+
-    '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSave(\'place\',\''+p.id+'\')">Lưu / bỏ lưu</button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
+    '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="place:'+p.id+'" onclick="toggleSave(\'place\',\''+p.id+'\')">'+heartSvg(isSaved('place',p.id))+'<span>'+(isSaved('place',p.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(p.source)+' · kiểm '+CHECKED+'. Giá là khoảng giá tham khảo, kiểm lại trước ngày đi.</p></div>';
   show("item-detail");
 }
 function openStay(id){
   var s=stayById(id); if(!s) return;
+  currentItem={kind:"stay",provId:"lam-dong",itemId:id};
   document.getElementById("itemDetail").innerHTML =
     detailHead("assets/images/mac-dinh.jpg",s.name,s.name, esc(s.kind)+" · "+esc(s.areaLabel)) +
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-unv">Chưa kiểm chứng — chưa đối tác — chưa thu phí</span><span class="badge badge-price">Khoảng giá — kiểm '+CHECKED+'</span></div>'+
     '<div class="kv"><div class="cell"><div class="k">Khoảng giá / đêm</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.price)+'</div></div><div class="cell"><div class="k">Khoảng cách</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.dist)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.suitable)+'</div></div><div class="cell"><div class="k">Trạng thái</div><div class="v" style="font-size:var(--fs-cap)">Giới thiệu sơ — tự kiểm tra giá/phòng trước khi đặt</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(s.address)+'</p>'+
     '<div class="notebox">App không nhận đặt phòng, không nhận tiền cho chỗ ở này. Giá tăng cuối tuần, lễ Tết và mùa Festival Hoa (tháng 12).</div>'+
-    '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSave(\'stay\',\''+s.id+'\')">Lưu / bỏ lưu</button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Lập kế hoạch</button></div>'+
+    '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="stay:'+s.id+'" onclick="toggleSave(\'stay\',\''+s.id+'\')">'+heartSvg(isSaved('stay',s.id))+'<span>'+(isSaved('stay',s.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Lập kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(s.source)+' · kiểm '+CHECKED+'.</p></div>';
   show("item-detail");
 }
 function openDish(id){
   var d=dishById(id); if(!d) return;
+  currentItem={kind:"dish",provId:"lam-dong",itemId:id};
   var rests=d.restaurants.map(function(r){
     return '<div class="card" style="margin-bottom:10px"><div class="body"><h3 style="font-size:var(--fs-body)">'+esc(r.name)+'</h3><p class="muted">'+esc(r.address)+'</p><p class="price-line">'+esc(r.price)+'</p></div></div>';
   }).join("");
+  /* Ảnh bìa món ăn: chỉ dùng ảnh món thật (PHOTOS.dish). Không có thì ô chờ nền cam nhạt,
+     KHÔNG dùng ảnh chợ/quảng trường (trước đây dùng ảnh chợ Đà Lạt cho mọi món). */
+  var phD=(typeof dishPhoto==="function")?dishPhoto(d.id):null;
+  var head=phD?detailHead(phD.u.replace("{w}","960"),d.name,d.name, esc(d.mealLabel)+" · "+esc(d.price)):'<div class="prov-hero" style="background:var(--accent-soft)"><h2 style="font-size:var(--fs-h1);line-height:1.25;margin:0 0 6px;font-weight:800">'+esc(d.name)+'</h2><p style="font-size:var(--fs-cap);margin:0">'+esc(d.mealLabel)+" · "+esc(d.price)+'</p><p style="font-size:var(--fs-cap);margin:6px 0 0;opacity:.75">Chưa có ảnh món ăn này</p></div><div class="pad">';
   document.getElementById("itemDetail").innerHTML =
-    detailHead("assets/images/cho-da-lat.jpg",d.name,d.name, esc(d.mealLabel)+" · "+esc(d.price)) +
+    head +
     '<p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(d.desc)+'</p>'+
     '<div class="kv"><div class="cell"><div class="k">Khoảng giá</div><div class="v" style="font-size:var(--fs-cap)">'+esc(d.price)+'</div></div><div class="cell"><div class="k">Buổi ăn</div><div class="v" style="font-size:var(--fs-cap)">'+esc(d.mealLabel)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 10px">Quán tham khảo (có địa chỉ)</h3>'+rests+
-    '<div style="display:flex;gap:10px;margin-top:8px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSave(\'dish\',\''+d.id+'\')">Lưu / bỏ lưu</button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
+    '<div style="display:flex;gap:10px;margin-top:8px"><button class="btn btn-ghost" style="flex:1" data-savebtn="dish:'+d.id+'" onclick="toggleSave(\'dish\',\''+d.id+'\')">'+heartSvg(isSaved('dish',d.id))+'<span>'+(isSaved('dish',d.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(d.source)+' · khoảng giá — kiểm '+CHECKED+'. Hỏi giá trước khi gọi món ở chợ đêm.</p></div>';
   show("item-detail");
 }
@@ -618,7 +634,7 @@ function openItin(key){
       html+='<div class="titem"><span class="sess">'+esc(it2.s)+'</span><div class="ti-body"><b>'+esc(it2.t)+'</b>';
       it2.refs.forEach(function(r){
         var info=refInfo(kindOfRef(r),r);
-        if(info) html+='<span><a href="#" onclick="event.preventDefault();openRef(\''+r+'\')" style="color:var(--green-d);font-weight:600;text-decoration:none">→ '+esc(info.name)+'</a></span>';
+        if(info) html+='<span><a href="#" onclick="event.preventDefault();openRef(\''+r+'\')" style="color:var(--accent-d);font-weight:600;text-decoration:none">→ '+esc(info.name)+'</a></span>';
       });
       html+='</div></div>';
     });
@@ -666,7 +682,7 @@ if(typeof TITLES!=="undefined"){
 function destCard(d){
   var p=provById(d.provId||d.id);
   var cnt=p?(p.places.length+" địa danh · "+p.stays.length+" chỗ ở · "+p.dishes.length+" món"):"";
-  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap">'+provPoster(p?p.id:d.provId,170)+'</div><div class="body"><h3>'+esc(d.name)+' · '+esc(d.province)+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
+  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap">'+provPoster(p?p.id:d.provId,170)+'</div><div class="body"><h3>'+esc(d.name)+(d.name===d.province?"":" · "+esc(d.province))+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
 }
 /* Trang chủ 34 tỉnh do js/home.js dựng (nạp sau file này) */
 function renderExplore(){}
@@ -770,18 +786,17 @@ openDish=function(id){
 };
 
 /* --- Lưu / bỏ lưu + Đưa vào kế hoạch cho mục của 34 tỉnh (nhất quán với trang Đà Lạt) --- */
-var currentProvItem=null;
+var currentItem=null;
+var ITEM_PATH={pplace:"dia-danh",pdish:"mon",pstay:"cho-o",place:"dia-danh",dish:"mon",stay:"cho-o"};
 function isSavedProv(kind,provId,itemId){ return saved.some(function(s){ return s.kind===kind&&s.prov===provId&&s.id===itemId; }); }
 function toggleSaveProv(kind,provId,itemId){
   if(isSavedProv(kind,provId,itemId)){ saved=saved.filter(function(s){ return !(s.kind===kind&&s.prov===provId&&s.id===itemId); }); toast("Đã bỏ lưu"); }
   else{ saved.push({kind:kind,prov:provId,id:itemId}); toast("Đã lưu — xem ở mục Tài khoản"); }
-  saveSaved(); renderSaved();
-  if(kind==="pplace") openProvPlace(provId,itemId);
-  else if(kind==="pstay") openProvStay(provId,itemId);
-  else openProvDish(provId,itemId);
+  saveSaved(); renderSaved(); refreshSaveBtns(kind+":"+provId+":"+itemId,isSavedProv(kind,provId,itemId));
 }
 function provItemActionsHtml(kind,provId,itemId){
-  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+(isSavedProv(kind,provId,itemId)?"Đã lưu — bấm để bỏ lưu":"Lưu / bỏ lưu")+'</button><button class="btn btn-orange" style="flex:1" onclick="'+(kind==="pstay"?("startPlanForProv('"+provId+"')"):("planWithItem('"+kind+"','"+provId+"','"+itemId+"')"))+'">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
+  var on=isSavedProv(kind,provId,itemId);
+  return '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="'+kind+':'+provId+':'+itemId+'" onclick="toggleSaveProv(\''+kind+'\',\''+provId+'\',\''+itemId+'\')">'+heartSvg(on)+'<span>'+(on?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="'+(kind==="pstay"?("startPlanForProv('"+provId+"')"):("planWithItem('"+kind+"','"+provId+"','"+itemId+"')"))+'">Đưa vào kế hoạch</button></div>'+reportLinkHtml(kind,provId,itemId);
 }
 /* ================= BÁO THÔNG TIN SAI =================
    Mở thư soạn sẵn gửi về hộp thư hỗ trợ, theo đúng mẫu báo lỗi của README:
@@ -837,16 +852,16 @@ function openProvRainy(provId){
     if(el){ el.scrollIntoView({block:"start",behavior:"smooth"}); el.classList.add("route-hl"); setTimeout(function(){ el.classList.remove("route-hl"); },2600); }
   },180);
 }
-function provPlaceCard(p,prov){
+function provPlaceCard(p,prov,showProv){
   /* chỉ hiện huy hiệu khi thiếu tọa độ: thẻ nào cũng ghi "có tọa độ" thì thành nhiễu */
   var coordBadge = p.lat==null ? '<span class="badge badge-soon">Chưa có tọa độ</span>' : "";
-  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvPlace(\''+prov.id+'\',\''+p.id+'\')"><div class="rc-body"><h3>'+esc(p.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-price">'+esc(clusterLabel(p.cluster))+'</span>'+oldAreaBadge(p)+coordBadge+'</div><div class="meta-line"><span>'+placeDistLabel(p)+'</span><span>'+esc(p.duration||"")+'</span></div><p class="price-line">'+esc(priceShort(p.price))+'</p><p class="small">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
+  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvPlace(\''+prov.id+'\',\''+p.id+'\')"><div class="rc-body"><h3>'+esc(p.name)+(showProv?" · "+esc(prov.name):"")+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-price">'+esc(clusterLabel(p.cluster))+'</span>'+oldAreaBadge(p)+coordBadge+'</div><div class="meta-line"><span>'+placeDistLabel(p)+'</span><span>'+esc(p.duration||"")+'</span></div><p class="price-line">'+esc(priceShort(p.price))+'</p><p class="small">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
 }
-function provStayCard(s,prov){
-  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvStay(\''+prov.id+'\',\''+s.id+'\')"><div class="rc-body"><h3>'+esc(s.name)+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0"><span class="badge badge-unv">Chưa kiểm chứng</span>'+(s.kind?'<span class="badge badge-soon">'+esc(s.kind)+'</span>':"")+'</div><p class="muted">'+esc(clusterLabel(s.area))+' · '+esc(s.address||"")+'</p><p class="price-line">'+esc(s.price||"")+'</p><p class="small">'+esc(s.dist||"")+' · Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p>'+(s.phone?'<p class="small" style="color:var(--green-d);font-weight:700;margin-top:4px">Có số điện thoại — mở ra để gọi đặt phòng</p>':"")+'</div></button></div>';
+function provStayCard(s,prov,showProv){
+  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvStay(\''+prov.id+'\',\''+s.id+'\')"><div class="rc-body"><h3>'+esc(s.name)+(showProv?" · "+esc(prov.name):"")+'</h3><div style="display:flex;gap:6px;flex-wrap:wrap;margin:4px 0">'+(s.kind?'<span class="badge badge-soon">'+esc(s.kind)+'</span>':"")+'</div><p class="muted">'+esc(clusterLabel(s.area))+' · '+esc(s.address||"")+'</p><p class="price-line">'+esc(s.price||"")+'</p><p class="small">'+esc(s.dist||"")+' · Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</p>'+(s.phone?'<p class="small" style="color:var(--accent-d);font-weight:700;margin-top:4px">Có số điện thoại — mở ra để gọi đặt phòng</p>':"")+'</div></button></div>';
 }
-function provDishCard(d,prov){
-  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvDish(\''+prov.id+'\',\''+d.id+'\')"><div class="rc-body"><h3>'+esc(d.name)+'</h3><span class="badge badge-free">'+esc(d.meal||"")+'</span><p class="price-line">'+esc(priceShort(d.price))+'</p><p class="small">'+(d.restaurants?d.restaurants.length:0)+' quán tham khảo có địa chỉ · kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
+function provDishCard(d,prov,showProv){
+  return '<div class="rowcard"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openProvDish(\''+prov.id+'\',\''+d.id+'\')"><div class="rc-body"><h3>'+esc(d.name)+(showProv?" · "+esc(prov.name):"")+'</h3><span class="badge badge-free">'+esc(d.meal||"")+'</span><p class="price-line">'+esc(priceShort(d.price))+'</p><p class="small">'+(d.restaurants?d.restaurants.length:0)+' quán tham khảo có địa chỉ · kiểm '+(prov.checked||"06/11/2026")+'</p></div></button></div>';
 }
 function provRouteCard(r){
   return '<div class="card"><div class="body"><h3 style="font-size:var(--fs-body)">'+esc(r.mode||"")+'</h3>'+(r.time?'<div class="meta-line"><span>Thời gian: '+esc(r.time)+'</span></div>':"")+'<p class="price-line">'+esc(r.price||"")+'</p>'+(r.note?'<p class="muted" style="margin-top:6px">'+esc(r.note)+'</p>':"")+'<p class="src">Nguồn: '+esc(r.source||"—")+'</p></div></div>';
@@ -1032,12 +1047,12 @@ function renderProvDetail(){
     var dh=days.map(function(day,di){
       var items=day.map(function(it){
         var links="";
-        if(it.gan){ links=it.gan.split(",").map(function(g){ g=g.trim(); var pl=null; p.places.forEach(function(x){ if(x.id===g) pl=x; }); return pl?'<span><a href="#" onclick="event.preventDefault();openProvPlace(\''+p.id+'\',\''+pl.id+'\')" style="color:var(--green-d);font-weight:600;text-decoration:none">→ '+esc(pl.name)+'</a></span>':""; }).join(""); }
+        if(it.gan){ links=it.gan.split(",").map(function(g){ g=g.trim(); var pl=null; p.places.forEach(function(x){ if(x.id===g) pl=x; }); return pl?'<span><a href="#" onclick="event.preventDefault();openProvPlace(\''+p.id+'\',\''+pl.id+'\')" style="color:var(--accent-d);font-weight:600;text-decoration:none">→ '+esc(pl.name)+'</a></span>':""; }).join(""); }
         return '<div class="titem"><span class="sess">'+esc(it.s||"")+'</span><div class="ti-body"><b>'+esc(it.t||"")+'</b>'+links+'</div></div>';
       }).join("");
       return '<div class="dayblock"><h3>Ngày '+(di+1)+'</h3>'+items+'</div>';
     }).join("");
-    return '<h3 style="font-size:var(--fs-h2);margin:18px 0 10px">Lịch trình '+esc(itinLabel(k))+' — '+days.length+' ngày</h3>'+dh;
+    return '<h3 style="font-size:var(--fs-h2);margin:18px 0 10px">Lịch trình gợi ý ('+esc(itinLabel(k))+')</h3>'+dh;
   }).join("") : '<p class="muted">Chưa có lịch trình mẫu trong dữ liệu tỉnh này.</p>';
   var routeGroup=function(title,arr,id){
     if(!arr||!arr.length) return "";
@@ -1055,7 +1070,6 @@ function renderProvDetail(){
   '</div>'+
   '<div class="segpane provpane active" data-ppane="tongquan"><div class="pad">'+
     '<p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+overviewText+'</p>'+
-    '<div class="kv"><div class="cell"><div class="k">Số ngày gợi ý</div><div class="v">'+p.suggested_days+' ngày</div></div><div class="cell"><div class="k">Mùa đẹp nhất'+(typeof KHU_VUC!=="undefined"&&KHU_VUC.filter(function(a){ return a.prov===p.id; }).length>1?" (khu "+esc(p.anchor||p.name)+")":"")+'</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.best_season||"—")+'</div></div><div class="cell"><div class="k">Dữ liệu đã có</div><div class="v" style="font-size:var(--fs-cap)">'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món</div></div><div class="cell"><div class="k">Ngày kiểm dữ liệu</div><div class="v">'+(p.checked||"06/11/2026")+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:18px 0 8px">Bản đồ các điểm ở '+esc(p.name)+'</h3><div style="position:relative"><div id="mapProv"></div><div class="map-loading" id="mapProvLoading"><span class="spin"></span><span>Đang tải bản đồ…</span></div></div><div class="map-fallback" id="mapProvFallback">Chưa tải được bản đồ (cần mạng để tải nền bản đồ Esri / OpenStreetMap). Các điểm vẫn xem được ở mục “Đi đâu”, kèm địa chỉ và khoảng cách từ trung tâm.</div>'+
     '<p class="small" style="margin-top:8px">Bản đồ: Esri, © OpenStreetMap contributors / Leaflet. Ghim có nhãn “xấp xỉ” là tọa độ khu vực — cần kiểm lại. Hiện có '+approxN+' điểm tọa độ xấp xỉ'+(unpinned.length?(', '+unpinned.length+' điểm chưa có tọa độ nên không ghim'):"")+'.</p>'+
     (unpinned.length? '<div class="notebox" style="margin-top:10px"><b>Chưa có tọa độ — chưa ghim lên bản đồ:</b><br/>'+unpinned.map(function(x){ return esc(x.name); }).join(" · ")+'</div>' : "")+
@@ -1065,6 +1079,7 @@ function renderProvDetail(){
     provSeasonHtml(p)+provRainyHtml(p)+provCoupleHtml(p)+provBikeHtml(p)+provScamsHtml(p)+provPassesHtml(p)+provEmergencyHtml(p)+provPhotoHtml(p)+provRunningHtml(p)+
     '<button class="btn btn-orange btn-block" style="margin-top:16px" onclick="startPlanForProv(\''+p.id+'\')">Lập kế hoạch đi '+esc(isDalat?"Đà Lạt":p.name)+'</button>'+(typeof shareBtnHtml==="function"?shareBtnHtml("btShareProv('"+p.id+"')"):"")+
     '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="openFaq()">Câu hỏi thường gặp</button>'+
+    '<p class="small" style="margin-top:18px">Dữ liệu tỉnh này: '+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món · gợi ý '+p.suggested_days+' ngày · kiểm '+(p.checked||"06/11/2026")+'.</p>'+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="didau"><div class="pad">'+
     '<div class="chiprow" id="provClusterChips"><button class="chip on" data-pcluster="all" onclick="setProvCluster(\'all\')">Tất cả cụm</button>'+clusters.map(function(c){ return '<button class="chip" data-pcluster="'+esc(c)+'" onclick="setProvCluster(\''+esc(c)+'\')">'+esc(clusterLabel(c))+'</button>'; }).join("")+'</div>'+
@@ -1194,7 +1209,15 @@ function observeProvMap(){
   provMapObserver.observe(el);
 }
 /* --- Chi tiết địa danh / chỗ ở / món của 34 tỉnh --- */
-function provItemHead(prov,title,sub,placeId){
+function provItemHead(prov,title,sub,placeId,kind){
+  kind=kind||"pplace";
+  /* Món ăn: chỉ dùng ảnh món thật (PHOTOS.dish). Không có thì ô chờ nền cam nhạt,
+     KHÔNG mượn ảnh tỉnh hay ảnh địa điểm (Phở bò Hà Nội từng hiện ảnh phố lồng đèn Hàng Mã). */
+  if(kind==="pdish"){
+    var phD=(typeof dishPhoto==="function")?dishPhoto(placeId):null;
+    if(phD) return '<div class="prov-hero prov-hero-art item-hero"><div class="poster prov-hero-bg">'+photoImg(phD,{eager:true})+'</div><div class="prov-hero-in"><h2>'+esc(title)+'</h2><p>'+esc(sub)+'</p></div></div><div class="pad">';
+    return '<div class="prov-hero" style="background:var(--accent-soft)"><h2 style="font-size:var(--fs-h1);line-height:1.25;margin:0 0 6px;font-weight:800">'+esc(title)+'</h2><p style="font-size:var(--fs-cap);margin:0">'+esc(sub)+'</p><p style="font-size:var(--fs-cap);margin:6px 0 0;opacity:.75">Chưa có ảnh món ăn này</p></div><div class="pad">';
+  }
   /* Địa danh: chỉ dùng ảnh chụp đúng địa danh đó (PHOTOS.spot). Không có thì để đầu trang trơn,
      KHÔNG mượn ảnh tỉnh hay tranh vẽ (Soi lần 2: Hội An hiện ảnh biển, Củ Chi hiện ảnh Quận 1).
      Chỗ ở, món ăn vẫn dùng hình của tỉnh làm nền. */
@@ -1238,11 +1261,12 @@ function factCell(label,full,isPrice){
 }
 function openProvPlace(provId,placeId){
   var prov=provById(provId); if(!prov) return;
+  currentItem={kind:"pplace",provId:provId,itemId:placeId};
   if(prov.id==="lam-dong" && placeById(placeId)){ openPlace(placeId); return; }
   var x=null; prov.places.forEach(function(i){ if(i.id===placeId) x=i; }); if(!x) return;
   var coordHtml = x.lat==null
     ? '<p class="muted"><b>Chưa có tọa độ</b> — điểm này chưa ghim được lên bản đồ. Địa chỉ ở trên là căn cứ để tìm đường.</p>'
-    : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--green-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
+    : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
   document.getElementById("itemDetail").innerHTML =
     provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
     (x.banned?'<div class="notebox" style="border-color:#b42318"><b>Không đón khách du lịch.</b> '+esc(x.note||"")+'</div>':"")+
@@ -1259,6 +1283,7 @@ function openProvPlace(provId,placeId){
 }
 function openProvStay(provId,stayId){
   var prov=provById(provId); if(!prov) return;
+  currentItem={kind:"pstay",provId:provId,itemId:stayId};
   var s=null; prov.stays.forEach(function(i){ if(i.id===stayId) s=i; }); if(!s) return;
   if(prov.id==="lam-dong"){ var old=null; STAYS.forEach(function(o){ if(foldStr(o.name)===foldStr(s.name)) old=o; }); if(old){ openStay(old.id); return; } }
   document.getElementById("itemDetail").innerHTML =
@@ -1277,13 +1302,14 @@ function openProvStay(provId,stayId){
 }
 function openProvDish(provId,dishId){
   var prov=provById(provId); if(!prov) return;
+  currentItem={kind:"pdish",provId:provId,itemId:dishId};
   if(prov.id==="lam-dong" && dishById(dishId)){ openDish(dishId); return; }
   var d=null; prov.dishes.forEach(function(i){ if(i.id===dishId) d=i; }); if(!d) return;
   var rests=(d.restaurants||[]).map(function(r){
     return '<div class="card" style="margin-bottom:10px"><div class="body"><h3 style="font-size:var(--fs-body)">'+esc(r.name||"")+'</h3><p class="muted">'+esc(r.address||"")+'</p><p class="price-line">'+esc(r.price||"")+'</p></div></div>';
   }).join("");
   document.getElementById("itemDetail").innerHTML =
-    provItemHead(prov, d.name, (d.meal||"")+" · "+(d.price||"")+" · "+prov.name) +
+    provItemHead(prov, d.name, (d.meal||"")+" · "+(d.price||"")+" · "+prov.name, d.id, "pdish") +
     '<div class="kv">'+factCell("Khoảng giá",d.price,true)+factCell("Buổi ăn",d.meal)+'</div>'+
     (d.desc?'<p style="margin:12px 0 0">'+esc(d.desc)+'</p>':"")+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 10px">Quán tham khảo (có địa chỉ)</h3>'+(rests||'<p class="muted">Chưa có quán tham khảo trong dữ liệu.</p>')+
@@ -1579,7 +1605,19 @@ function wizPickDest(id){
   var d=DESTINATIONS.filter(function(x){return x.id===id;})[0];
   if(d){ var wd=document.getElementById("wDestInput"); if(wd) wd.value=d.name; syncDestInputs(d.name,"wDestInput"); }
   document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===id); });
-  fillWizAddSel(); updateWDaysInfo();
+  fillWizAddSel(); updateWDaysInfo(); syncDestClearBtn();
+}
+/* Nút xóa nhanh (x) ở ô nhập điểm đến: xóa chữ, bỏ chọn tỉnh, không ép mặc định */
+function syncDestClearBtn(){
+  var c=document.getElementById("wDestClear"), wd=document.getElementById("wDestInput");
+  if(c) c.classList.toggle("show", !!(wd&&wd.value.trim()));
+}
+function clearWizDest(){
+  var wd=document.getElementById("wDestInput"); if(wd){ wd.value=""; wd.focus(); }
+  searchDestText=""; searchDestId=""; wiz.dest=""; wiz.area=""; wiz.focus="";
+  syncDestInputs("","wDestInput");
+  document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.remove("on"); });
+  fillWizAddSel(); updateWDaysInfo(); syncDestClearBtn();
 }
 /* "Đưa vào kế hoạch" từ trang địa danh/món: có chuyến sắp đi tới đúng tỉnh thì hỏi thêm vào chuyến đó,
    không thì lập chuyến mới và thêm sẵn mục này vào ngày 1. */
@@ -1629,16 +1667,15 @@ function addDays(ds,n){ var d=new Date(ds+"T00:00:00"); d.setDate(d.getDate()+n)
 function daysBetween(a,b){ return Math.round((new Date(b+"T00:00:00")-new Date(a+"T00:00:00"))/86400000)+1; }
 function fmtDate(ds){ if(!ds) return ""; var p=ds.split("-"); return p[2]+"/"+p[1]+"/"+p[0]; }
 function startPlan(){
-  wiz={step:1,dest:(searchDestId||"dalat"),area:"",focus:"",origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false,tr:""};
-  var wd=document.getElementById("wDestInput"); if(wd) wd.value=(searchDestId==="dalat"||!searchDestText)?"Đà Lạt":searchDestText;
+  wiz={step:1,dest:(searchDestId||""),area:"",focus:"",origin:resolveOrigin(searchOrigin),budget:"vua",style:"cap_doi",days:[],editingId:null,editStart:"",editEnd:"",editTitle:"",titleLoaded:false,tr:""};
+  var wd=document.getElementById("wDestInput"); if(wd) wd.value=searchDestText||"";
+  syncDestClearBtn();
   var wo=document.getElementById("wOriginInput"); if(wo) wo.value=searchOrigin||"";
   var today=new Date(); var s=new Date(today.getTime()+7*86400000); var e=new Date(today.getTime()+9*86400000);
   document.getElementById("wStart").value=isoDate(s);
   document.getElementById("wEnd").value=isoDate(e);
   document.getElementById("wDestList").innerHTML = DESTINATIONS.map(function(d){
-    var p=provById(d.provId||d.id);
-    var cnt=p?(p.places.length+" địa danh · "+p.stays.length+" chỗ ở · "+p.dishes.length+" món"):"";
-    return '<button class="optcard'+(wiz.dest===d.id?" on":"")+'" data-wdest="'+d.id+'" onclick="wizPickDest(\''+d.id+'\')">'+(d.img?'<img src="'+d.img+'" alt="'+esc(d.name)+'" style="width:64px;height:64px;border-radius:12px;object-fit:cover" />':"")+'<span style="flex:1"><h3>'+esc(d.name)+' · '+esc(d.province)+'</h3><span class="muted">Đã có đủ dữ liệu'+(cnt?(" — "+cnt):"")+' — lên được lịch trình ngay.</span></span></button>';
+    return '<button class="optcard'+(wiz.dest===d.id?" on":"")+'" data-wdest="'+d.id+'" onclick="wizPickDest(\''+d.id+'\')">'+(d.img?'<img src="'+d.img+'" alt="'+esc(d.name)+'" style="width:64px;height:64px;border-radius:12px;object-fit:cover" />':"")+'<span style="flex:1"><h3>'+esc(d.name)+(d.name===d.province?"":" · "+esc(d.province))+'</h3><span class="muted">Gợi ý '+d.suggested_days+' ngày</span></span></button>';
   }).join("");
   document.getElementById("wBudgetList").innerHTML = BUDGETS.map(function(b){
     return '<button class="optcard'+(wiz.budget===b.id?" on":"")+'" data-wbudget="'+b.id+'" onclick="wizPickBudget(\''+b.id+'\')"><span style="flex:1"><h3>'+esc(b.label)+' — '+fmt(b.per)+' / người</h3><span class="muted">'+esc(b.desc)+'</span></span></button>';
@@ -1922,7 +1959,7 @@ function tripComponents(prov,budgetId,nights,people,origin,estTotal,trLabel,dish
    giải thích là còn dư trong ngân sách, không phải tính thiếu. */
 function underBudgetNoteHtml(total,perBudget){
   if(perBudget && total>perBudget) return '<p class="over-budget" style="font-weight:700;color:var(--red)">Vượt ngân sách '+fmt(total-perBudget)+'/người (ngân sách '+fmt(perBudget)+'/người). Bớt điểm có vé, giảm số đêm, hoặc chọn mức ngân sách cao hơn.</p>';
-  if(perBudget && total>0 && total<perBudget) return '<p style="font-weight:700;color:var(--green-d)">Ước tính thấp hơn ngân sách bạn chọn — bạn còn dư trong ngân sách.</p>';
+  if(perBudget && total>0 && total<perBudget) return '<p style="font-weight:700;color:var(--accent-d)">Ước tính thấp hơn ngân sách bạn chọn — bạn còn dư trong ngân sách.</p>';
   return "";
 }
 function transportNoteHtml(comp,editable){
@@ -2025,6 +2062,8 @@ function planMove(dir){
       document.querySelectorAll("[data-wdest]").forEach(function(b){ b.classList.toggle("on", b.getAttribute("data-wdest")===wiz.dest); });
       fillWizAddSel();
     }
+    /* Không ép điểm đến mặc định: chưa chọn tỉnh thì dừng lại ở Bước 1 */
+    if(!wiz.dest){ toast("Chọn điểm đến trước đã — bấm 1 tỉnh trong danh sách bên dưới"); return; }
     var woEl2=document.getElementById("wOriginInput");
     wiz.origin=resolveOrigin(woEl2?woEl2.value:"");
     syncOriginInputs(woEl2&&woEl2.value.trim()?woEl2.value:wiz.origin,null);
@@ -2251,7 +2290,7 @@ function tripById(id){ for(var i=0;i<trips.length;i++) if(trips[i].id===id) retu
 function openTrip(id){ var t=tripById(id); currentTripId=id; tripTab=(t&&t.status==="ongoing")?"homnay":"lich"; renderTripDetail(); show("trip-detail"); }
 function tripDayItemsHtml(t,d,di){
   return d.items.map(function(it,ii){
-    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+    return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--accent);border-color:var(--accent)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
   }).join("");
 }
 function tripChecklistHtml(t){
@@ -2262,7 +2301,7 @@ function tripChecklistHtml(t){
 function tripExpensesHtml(t){
   if(!t.expenses.length) return '<div class="empty"><p class="muted" style="margin:0">Chưa có khoản thu chi nào trong chuyến này.</p></div>';
   return '<div class="listcol">'+t.expenses.map(function(e){
-    return '<div class="rowcard"><div class="rc-body"><h3 style="font-size:var(--fs-body)">'+esc(e.note||e.category)+' <span style="color:'+(e.kind==="thu"?"var(--green-d)":"var(--red)")+'">'+(e.kind==="thu"?"+":"−")+fmt(e.amount)+'</span></h3><p class="small">'+esc(e.category)+' · '+fmtDate(e.date)+'</p></div><button class="icon-btn danger" aria-label="Xóa khoản này" onclick="removeExpense(\''+e.id+'\')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+    return '<div class="rowcard"><div class="rc-body"><h3 style="font-size:var(--fs-body)">'+esc(e.note||e.category)+' <span style="color:'+(e.kind==="thu"?"var(--accent-d)":"var(--red)")+'">'+(e.kind==="thu"?"+":"−")+fmt(e.amount)+'</span></h3><p class="small">'+esc(e.category)+' · '+fmtDate(e.date)+'</p></div><button class="icon-btn danger" aria-label="Xóa khoản này" onclick="removeExpense(\''+e.id+'\')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
   }).join("")+'</div>';
 }
 function renderTripDetail(){
@@ -2296,7 +2335,7 @@ function renderTripDetail(){
     html+=tripRouteHtml(t);
     html+=t.days.map(function(d,di){
       var items=d.items.map(function(it,ii){
-        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--green);border-color:var(--green)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+        return '<div class="titem"><button class="check-box" style="'+(it.done?"background:var(--accent);border-color:var(--accent)":"background:var(--surface)")+'" aria-label="Đánh dấu đã đi" onclick="toggleTripItem('+di+','+ii+')">'+(it.done?'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>':"")+'</button><div class="ti-body"><b style="'+(it.done?"text-decoration:line-through;color:var(--ink3)":"")+'">'+esc(it.title)+'</b><span>'+esc(it.session||"")+(it.gia_luc_lap?" · ước tính "+fmt(it.gia_luc_lap):(it.gia_luc_lap===null?" · chưa có giá":""))+'</span>'+itemCtlHtml("trip",di,ii,it,t.days.length)+'</div>'+(it.ref_id?'<button class="icon-btn" aria-label="Xem chi tiết" onclick="openRef(\''+it.ref_id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>':"")+'<button class="icon-btn danger" aria-label="Xóa khỏi lịch trình" onclick="removeTripItem('+di+','+ii+')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
       }).join("");
       return '<div class="dayblock"><h3>Ngày '+d.day_no+' · '+fmtDate(d.date)+'</h3>'+(items||'<p class="muted" style="margin:0">Ngày này đang trống.</p>')+'</div>';
     }).join("");
@@ -2313,7 +2352,7 @@ function renderTripDetail(){
   }
   if(tripTab==="chi"){
     html+='<div style="margin-top:6px" class="listcol">'+(t.expenses.length? t.expenses.map(function(e){
-      return '<div class="rowcard"><div class="rc-body"><h3 style="font-size:var(--fs-body)">'+esc(e.note||e.category)+' <span style="color:'+(e.kind==="thu"?"var(--green-d)":"var(--red)")+'">'+(e.kind==="thu"?"+":"−")+fmt(e.amount)+'</span></h3><p class="small">'+esc(e.category)+' · '+fmtDate(e.date)+'</p></div><button class="icon-btn danger" aria-label="Xóa khoản này" onclick="removeExpense(\''+e.id+'\')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
+      return '<div class="rowcard"><div class="rc-body"><h3 style="font-size:var(--fs-body)">'+esc(e.note||e.category)+' <span style="color:'+(e.kind==="thu"?"var(--accent-d)":"var(--red)")+'">'+(e.kind==="thu"?"+":"−")+fmt(e.amount)+'</span></h3><p class="small">'+esc(e.category)+' · '+fmtDate(e.date)+'</p></div><button class="icon-btn danger" aria-label="Xóa khoản này" onclick="removeExpense(\''+e.id+'\')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
     }).join("") : '<div class="empty"><p class="muted" style="margin:0">Chưa có khoản thu chi nào. Thêm khoản đầu tiên ở dưới.</p></div>')+'</div>';
     html+='<div class="dayblock" style="margin-top:12px"><h3 style="margin-bottom:10px">Thêm khoản thu / chi</h3><div class="field"><label>Loại</label><select id="eKind"><option value="chi">Chi</option><option value="thu">Thu (hoàn tiền, được hỗ trợ…)</option></select></div><div class="field"><label>Số tiền (đ)</label><input type="number" id="eAmount" inputmode="numeric" placeholder="Ví dụ: 500000" /></div><div class="field"><label>Hạng mục</label><select id="eCat"><option>Ăn uống</option><option>Đi lại</option><option>Chỗ ở</option><option>Vé tham quan</option><option>Mua sắm</option><option>Khác</option></select></div><div class="field"><label>Ghi chú</label><input type="text" id="eNote" placeholder="Ví dụ: Lẩu gà lá é Tao Ngộ" /></div><button class="btn btn-primary btn-block" onclick="addExpense()">Thêm khoản — cập nhật tổng ngay</button></div>';
   }

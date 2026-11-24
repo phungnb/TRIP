@@ -26,7 +26,6 @@
   ];
   var THEMES=[["all","Tất cả"],["bien","Biển đảo"],["nui","Núi & săn mây"],["disan","Di sản & phố cổ"],["songnuoc","Sông nước"]];
   var DISH_PICK=[["ha-noi","pho-bo-ha-noi"],["hue","bun-bo-hue"],["da-nang","mi-quang"],["hai-phong","banh-da-cua"],["lam-dong","banh-can"],["khanh-hoa","nem-nuong-ninh-hoa"],["tp-ho-chi-minh","com-tam-suon-bi-cha"],["can-tho","lau-mam-can-tho"]];
-  var DISH_COL=["#e86a17","#c0392b","#d4a017","#177a45","#7a4bd1","#1f9cc0","#d9480f","#2f7a3c"];
 
   function findPlace(s){ var p=provById(s.prov); if(!p) return null; for(var i=0;i<p.places.length;i++) if(p.places[i].id===s.place) return p.places[i]; return null; }
   function spotOpen(i){ var s=SPOTS[i]; if(findPlace(s)) openProvPlace(s.prov,s.place); else openProvDetail(s.prov); }
@@ -146,13 +145,15 @@
     regionFilter=r; renderDestList();
   };
 
-  /* ---------- Món ngon khắp miền ---------- */
+  /* ---------- Món ngon khắp miền: slot ảnh thật 4:3 (chưa có ảnh thì ô chờ nền cam nhạt) ---------- */
   function renderDishes(){
     var box=document.getElementById("homeDishes"); if(!box) return;
-    box.innerHTML=DISH_PICK.map(function(x,k){
+    box.innerHTML=DISH_PICK.map(function(x){
       var p=provById(x[0]); if(!p) return "";
       var d=null; p.dishes.forEach(function(y){ if(y.id===x[1]) d=y; }); if(!d) d=p.dishes[0]; if(!d) return "";
-      return '<button class="dish" onclick="openProvDish(\''+p.id+'\',\''+d.id+'\')"><span class="dish-ic" style="background:'+DISH_COL[k%DISH_COL.length]+'"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18a9 9 0 0 1-18 0Z"/><path d="M8 7c0-1 1-1 1-2M12 7c0-1 1-1 1-2M16 7c0-1 1-1 1-2"/></svg></span><b>'+esc(d.name)+'</b><span class="dish-prov">'+esc(provShort(p.id))+'</span><span class="dish-price">'+esc(priceShort(d.price))+'</span></button>';
+      var ph=(typeof dishPhoto==="function")?dishPhoto(d.id):null;
+      var photo=ph?photoImg(ph,{sizes:"(max-width:640px) 40vw, 170px",noCredit:true}):"";
+      return '<button class="dish" onclick="openProvDish(\''+p.id+'\',\''+d.id+'\')"><span class="dish-photo">'+photo+'<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18a9 9 0 0 1-18 0Z"/><path d="M8 7c0-1 1-1 1-2M12 7c0-1 1-1 1-2M16 7c0-1 1-1 1-2"/></svg></span><b>'+esc(d.name)+'</b><span class="dish-prov">'+esc(provShort(p.id))+'</span><span class="dish-price">'+esc(priceShort(d.price))+'</span></button>';
     }).join("");
   }
 

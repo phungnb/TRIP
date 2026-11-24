@@ -285,8 +285,8 @@
     } else {
       b.textContent="Chưa đăng nhập";
       if(av && av._svg){ av.innerHTML=av._svg; av.classList.remove("has-name"); }
-      p.textContent="Xem cẩm nang và lập chuyến không cần tài khoản. Đăng nhập để gửi đóng góp sửa thông tin, gợi ý địa danh.";
-      box.innerHTML='<button class="btn btn-primary btn-block" onclick="dgLogin(\'in\')">Đăng nhập / Tạo tài khoản</button>';
+      p.textContent="Xem cẩm nang và lập chuyến không cần tài khoản. Chuyến đi và mục đã lưu hiện chỉ giữ trên máy này.";
+      box.innerHTML='<button class="btn btn-primary btn-block" onclick="dgLogin(\'in\')">Đăng nhập / Tạo tài khoản</button><p class="small" style="text-align:center;margin-top:10px"><span class="badge badge-soon">Sắp ra mắt</span> Đồng bộ chuyến đi và mục đã lưu giữa các thiết bị. Đăng nhập hiện dùng để gửi đóng góp sửa thông tin, gợi ý địa danh.</p>';
     }
   }
   window.dgRenderAcct=renderAcct;

@@ -5,7 +5,7 @@
   function cur(){ return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"; }
   function apply(t){
     document.documentElement.setAttribute("data-theme",t);
-    if(meta) meta.setAttribute("content",t==="dark"?"#0a0d12":"#0f5c33");
+    if(meta) meta.setAttribute("content",t==="dark"?"#121212":"#f8fafc");
     btn.setAttribute("aria-pressed",t==="dark"?"true":"false");
   }
   apply(cur());

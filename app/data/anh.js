@@ -48,3 +48,8 @@ var PHOTOS={"spot":{"vinh-ha-long":{"u":"img/anh/spot-vinh-ha-long-{w}.webp","t"
 "an-giang":{"u":"img/anh/prov-an-giang-{w}.webp","t":"Tra Su Cajuput Forest, An Giang, Viet Nam.jpg","a":"Namhoainguyen Nam","l":"CC BY-SA 4.0","p":"https://commons.wikimedia.org/wiki/File:Tra_Su_Cajuput_Forest,_An_Giang,_Viet_Nam.jpg"},
 "ca-mau":{"u":"img/anh/prov-ca-mau-{w}.webp","t":"DabacIsletCamau.jpg","a":"Genghiskhanviet","l":"Public domain","p":"https://commons.wikimedia.org/wiki/File:DabacIsletCamau.jpg"},
 "can-tho":{"u":"img/anh/prov-can-tho-{w}.webp","t":"Can-tho-tuonglamphotos.jpg","a":"Trantuonglam","l":"CC BY-SA 4.0","p":"https://commons.wikimedia.org/wiki/File:Can-tho-tuonglamphotos.jpg"}}};
+
+/* Ảnh món ăn thật (slot 4:3 ở mục "Món ngon phải thử"): thêm từng món vào PHOTOS.dish
+   theo mẫu {u:"img/anh/dish-<id>-{w}.webp", t:"<tên file Commons>", a:"<tác giả>", l:"CC BY-SA 4.0", p:"<link Commons>"}.
+   Chưa có ảnh thì thẻ món hiện ô chờ nền cam nhạt (không dùng ảnh địa điểm thay thế). */
+PHOTOS.dish={};

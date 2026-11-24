@@ -143,8 +143,8 @@
       var d = DESTINATIONS.filter(function (x) { return (x.provId || x.id) === r.prov.id; })[0];
       return d ? destCard(d) : "";
     }
-    if (r.kind === "place") return provPlaceCard(r.x, r.prov);
-    if (r.kind === "dish") return provDishCard(r.x, r.prov);
-    return provStayCard(r.x, r.prov);
+    if (r.kind === "place") return provPlaceCard(r.x, r.prov, true);
+    if (r.kind === "dish") return provDishCard(r.x, r.prov, true);
+    return provStayCard(r.x, r.prov, true);
   };
 })();

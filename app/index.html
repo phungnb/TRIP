@@ -63,6 +63,14 @@
     </button>
   </header>
 
+  <nav class="topnav" aria-label="Điều hướng chính (desktop)">
+    <button data-tab="explore" class="active">Khám phá</button>
+    <button data-tab="destinations">Điểm đến</button>
+    <button id="topPlan" class="plan">+ Lập kế hoạch</button>
+    <button data-tab="trips">Chuyến của tôi</button>
+    <button data-tab="account">Tài khoản</button>
+  </nav>
+
   <main id="appMain" tabindex="-1">
     <!-- ============ KHÁM PHÁ ============ -->
     <section class="view" id="view-explore">
@@ -142,7 +150,10 @@
           <p class="sec-sub">Đủ 34 tỉnh/thành đã duyệt — tỉnh nào cũng lập được lịch trình, dựng từ lịch trình mẫu và dữ liệu thật của chính tỉnh đó. Điểm xuất phát đã chọn ở trang Khám phá được mang sang đây, và ngược lại.</p>
           <div class="field ac-wrap">
             <label for="wDestInput">Bạn muốn đi đâu?</label>
-            <input id="wDestInput" type="text" placeholder="Bạn muốn đi đâu?" autocomplete="off" />
+            <div style="position:relative">
+              <input id="wDestInput" type="text" placeholder="Bạn muốn đi đâu?" autocomplete="off" style="padding-right:40px" />
+              <button type="button" class="ac-clear" id="wDestClear" aria-label="Xóa điểm đến" onclick="clearWizDest()">×</button>
+            </div>
             <div class="ac-list" id="wDestAc"></div>
           </div>
           <div class="field ac-wrap">
@@ -186,7 +197,7 @@
             <button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="planAddItem()">+ Thêm vào ngày đã chọn</button>
           </div>
         </div>
-        <div style="display:flex;gap:10px;margin-top:18px">
+        <div class="wiz-actions" style="display:flex;gap:10px;margin-top:18px">
           <button class="btn btn-ghost" id="wBack" style="flex:0 0 110px;visibility:hidden" onclick="planMove(-1)">Quay lại</button>
           <button class="btn btn-primary" id="wNext" style="flex:1" onclick="planMove(1)">Tiếp tục</button>
         </div>
@@ -277,14 +288,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.99-5.54 10.19-7.4 11.79a1 1 0 0 1-1.2 0C9.54 20.19 4 14.99 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
       Điểm đến
     </button>
-    <div class="fab-wrap">
-      <div>
-        <button class="fab" id="fabPlan" aria-label="Lập kế hoạch">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
-        </button>
-        <div class="fab-label">Lập kế hoạch</div>
-      </div>
-    </div>
+    <button id="fabPlan" aria-label="Lập kế hoạch">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+      Lập kế hoạch
+    </button>
     <button data-tab="trips">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
       Chuyến của tôi
