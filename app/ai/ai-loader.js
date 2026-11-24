@@ -4,12 +4,15 @@
    thì trả về engine cũ. Lỗi mạng / lỗi parse -> im lặng, app chạy như cũ.
    Không gọi máy chủ ngoài, không key. */
 (function () {
+  /* TẮT 24/11/2026: engine mới làm hỏng 38 câu, cứu 2 câu trên 349 câu kiểm (tests/hypotheses/so-hai-tro-ly.mjs).
+     Bật lại (BAT = true) khi engine mới không còn làm hỏng câu nào trong bộ so sánh. */
+  var BAT = false;
   var LOADED = false;
   function loadJSON(url) {
     return fetch(url).then(function (r) { if (!r.ok) throw new Error(url); return r.json(); });
   }
   function boot() {
-    if (LOADED || typeof window.BuiTripAI === "undefined") return;
+    if (!BAT || LOADED || typeof window.BuiTripAI === "undefined") return;
     LOADED = true;
     Promise.all([loadJSON("ai/kb.json"), loadJSON("ai/ai-model.json"), loadJSON("ai/extra.json")])
       .then(function (all) {

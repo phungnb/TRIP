@@ -1,0 +1,1617 @@
+{
+ "120 câu đã kiểm live": {
+  "CU": {
+   "ok": 118,
+   "n": 120,
+   "chan": 2,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "từ Quy Nhơn đi Pleiku bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\",\"old\":\"\",\"alias\":\"pleiku\"}",
+     "tra": "Đi đến Gia Lai từ Quy Nhơn Từ Hà Nội · Tàu HN–ga Quy Nhơn + xe lên Pleiku · Tàu ~18–20 giờ + xe ~3–4 giờ · Chưa kiểm đượ"
+    },
+    {
+     "q": "đi Pleiku từ Quy Nhơn mất bao lâu",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\",\"old\":\"\",\"alias\":\"pleiku\"}",
+     "tra": "Đi đến Gia Lai từ Quy Nhơn Từ Hà Nội · Tàu HN–ga Quy Nhơn + xe lên Pleiku · Tàu ~18–20 giờ + xe ~3–4 giờ · Chưa kiểm đượ"
+    }
+   ]
+  },
+  "MOI": {
+   "ok": 37,
+   "n": 120,
+   "chan": 49,
+   "tuTin": 81,
+   "tuTinDung": 17,
+   "sai": [
+    {
+     "q": "quy nhơn đi bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "Bình Định có gì chơi",
+     "loi": "NẶNG thiếu nội dung: không liệt kê điểm",
+     "tra": "Bảo tàng Bình Định (Gia Lai): Bảo tàng nhỏ nhưng có bộ sưu tập hiện vật Chăm lớn (khai quật cùng đoàn khảo cổ Bỉ, Nhật, "
+    },
+    {
+     "q": "Gia Lai có gì chơi",
+     "loi": "NẶNG thiếu nội dung: không liệt kê điểm",
+     "tra": "Gia Lai (tổng quan) (Gia Lai): Phố núi Pleiku giữa cao nguyên: Biển Hồ miệng núi lửa, núi lửa Chư Đăng Ya, đồi chè, thác"
+    },
+    {
+     "q": "Quy Nhơn có sân bay không",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "Quy Nhơn có ga tàu không",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "đi Quy Nhơn bằng tàu hoả được không",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "từ Hà Nội đi Quy Nhơn bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "từ TP.HCM đi Quy Nhơn bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "từ Đà Nẵng đi Quy Nhơn bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "từ Quy Nhơn đi Pleiku bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Quy Nhơn",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "đi Pleiku từ Quy Nhơn mất bao lâu",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Vé Tháp Đôi (Quy Nhơn — Bình Định cũ) (Gia Lai): Chưa kiểm được giá vé hiện hành — giá này app chưa kiểm chứng được, bạn"
+    },
+    {
+     "q": "Quy Nhơn khác Gia Lai như thế nào",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "So sánh theo dữ liệu app: - Gia Lai (tổng quan) (Gia Lai): Phố núi Pleiku giữa cao nguyên: Biển Hồ miệng núi lửa, núi lử"
+    },
+    {
+     "q": "đi Quy Nhơn tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | CHẶN sai điểm đến: nhắc dã quỳ (dữ liệu nơi khác)",
+     "tra": "Đi Quy Nhơn (Bình Định cũ) đẹp nhất: Mùa khô khoảng tháng 2-8 là đẹp nhất; tránh tháng 9-12 (mưa/bão). Lưu ý: Không dùng"
+    },
+    {
+     "q": "đi Quy Nhơn mùa nào đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | CHẶN sai điểm đến: nhắc dã quỳ (dữ liệu nơi khác)",
+     "tra": "Đi Quy Nhơn (Bình Định cũ) đẹp nhất: Mùa khô khoảng tháng 2-8 là đẹp nhất; tránh tháng 9-12 (mưa/bão). Lưu ý: Không dùng"
+    },
+    {
+     "q": "ăn gì ở Quy Nhơn",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy N",
+     "tra": "Món ăn ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy Nhơn (chưa kiểm được): Chuỗi "
+    },
+    {
+     "q": "ở đâu ở Quy Nhơn",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Avani Quy Nhơn",
+     "tra": "Chỗ ở ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Avani Quy Nhơn Resort & Spa (chưa kiểm được"
+    },
+    {
+     "q": "đi Quy Nhơn 2 ngày 1 đêm hết bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "Chi phí đi khu Quy Nhơn (Gia Lai) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SG–Pleik"
+    },
+    {
+     "q": "vé máy bay Quy Nhơn bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Vé Jollibee Quy Nhơn (Gia Lai): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Gi"
+    },
+    {
+     "q": "đi Quy Nhơn cần mang gì",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "Quảng Bình",
+     "loi": "CHẶN sai điểm đến: hỏi Quảng Bình, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|dish|mi-quang",
+     "tra": "Quảng Bình cũ nay thuộc tỉnh Quảng Trị (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Quảng Trị, nhưng c"
+    },
+    {
+     "q": "Bắc Kạn",
+     "loi": "CHẶN sai điểm đến: hỏi Bắc Kạn, trả {\"prov\":\"lao-cai\",\"itemKey\":\"lao-cai|place|thac-bac\"}",
+     "tra": "Bắc Kạn cũ nay thuộc tỉnh Thái Nguyên (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Thái Nguyên, nhưng "
+    },
+    {
+     "q": "Vĩnh Phúc",
+     "loi": "CHẶN sai điểm đến: hỏi Vĩnh Phúc, trả {\"prov\":\"nghe-an\",\"itemKey\":\"nghe-an|stay|gg-vinh-p",
+     "tra": "Vĩnh Phúc cũ nay thuộc tỉnh Phú Thọ (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Phú Thọ, nhưng các đi"
+    },
+    {
+     "q": "Quảng Nam",
+     "loi": "CHẶN sai điểm đến: hỏi Quảng Nam, trả {\"prov\":\"vinh-long\",\"itemKey\":\"vinh-long|dish|nam-m",
+     "tra": "Nấm mối (Vĩnh Long): Nấm mối là món theo mùa, ngon thì rất ngon — ngọt tự nhiên, xào hay nấu cháo đều hợp — nhưng giá th"
+    },
+    {
+     "q": "Kiên Giang",
+     "loi": "CHẶN sai điểm đến: hỏi Kiên Giang, trả {\"prov\":\"cao-bang\",\"itemKey\":\"cao-bang|dish|gg-xoi",
+     "tra": "Kiên Giang cũ nay thuộc tỉnh An Giang (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên An Giang, nhưng các"
+    },
+    {
+     "q": "Đắk Nông",
+     "loi": "CHẶN sai điểm đến: hỏi Đắk Nông, trả {\"prov\":\"thai-nguyen\",\"itemKey\":\"thai-nguyen|stay|gg",
+     "tra": "Đắk Nông cũ nay thuộc tỉnh Lâm Đồng (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Lâm Đồng, nhưng các đ"
+    },
+    {
+     "q": "Bến Tre",
+     "loi": "CHẶN sai điểm đến: hỏi Bến Tre, trả {\"prov\":\"tp-ho-chi-minh\",\"itemKey\":\"tp-ho-chi-minh|pl",
+     "tra": "Bến Tre cũ nay thuộc tỉnh Vĩnh Long (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Vĩnh Long, nhưng các "
+    },
+    {
+     "q": "Tiền Giang",
+     "loi": "CHẶN sai điểm đến: hỏi Tiền Giang, trả {\"prov\":\"ha-tinh\",\"itemKey\":\"ha-tinh|stay|gg-homes",
+     "tra": "Tiền Giang cũ nay thuộc tỉnh Đồng Tháp (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Đồng Tháp, nhưng c"
+    },
+    {
+     "q": "Long An",
+     "loi": "NẶNG lộ dữ liệu thô: Tây Ninh) (theo dữ liệu app + tìm Google 23/11/2026): - Nem bưởi Tây N",
+     "tra": "Món ăn ở khu Long An (Tây Ninh) (theo dữ liệu app + tìm Google 23/11/2026): - Nem bưởi Tây Ninh (80.000-120.000đ/đĩa (Só"
+    },
+    {
+     "q": "Hậu Giang",
+     "loi": "CHẶN sai điểm đến: hỏi Hậu Giang, trả {\"prov\":\"ca-mau\",\"itemKey\":\"ca-mau|dish|gg-hau-dat-",
+     "tra": "Hậu Giang cũ nay thuộc tỉnh Cần Thơ (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Cần Thơ, nhưng các đi"
+    },
+    {
+     "q": "Sóc Trăng",
+     "loi": "CHẶN sai điểm đến: hỏi Sóc Trăng, trả {\"prov\":\"lam-dong\",\"itemKey\":\"lam-dong|place|rh-bin",
+     "tra": "Sóc Trăng cũ nay thuộc tỉnh Cần Thơ (sáp nhập từ 01/07/2025). Trên app, bạn tìm điểm chơi theo tên Cần Thơ, nhưng các đi"
+    },
+    {
+     "q": "Thái Bình",
+     "loi": "CHẶN bịa số: số không có trong dữ liệu: 1218 , 1277",
+     "tra": "Đền Trần Thái Bình (Hưng Yên): Lễ khai ấn đầu năm rất đông; ngày thường vắng vẻ Tọa độ xấp xỉ, cần kiểm lại (chưa xác đị"
+    },
+    {
+     "q": "đi Côn Đảo bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Đi Côn Đảo: Bay tới sân bay Côn Đảo (VCS) hoặc đi tàu từ Trần Đề (Sóc Trăng) / Vũng Tàu. (Nguồn kiểm chứng: Kiểm live đợ"
+    },
+    {
+     "q": "đi Phú Quốc bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Phú Quốc | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Đi Phú Quốc: Bay thẳng tới sân bay Phú Quốc (PQC); hoặc đi Rạch Giá/Hà Tiên rồi đi phà/tàu cao tốc ra đảo. (Nguồn kiểm c"
+    },
+    {
+     "q": "đi Lý Sơn bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Lý Sơn",
+     "tra": "Đi Lý Sơn: Bắt buộc đi tàu từ cảng Sa Kỳ (cách TP Quảng Ngãi ~18-23 km). Bay tới Chu Lai (VCA) rồi đi xe về Quảng Ngãi. "
+    },
+    {
+     "q": "đi Cát Bà bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Cát Bà | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Đi Cát Bà: Tới Hải Phòng (bay Cát Bi HPH, tàu, limousine) rồi đi phà/tàu cao tốc/cáp treo ra đảo Cát Bà. (Nguồn kiểm chứ"
+    },
+    {
+     "q": "đi Cô Tô bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Cô Tô",
+     "tra": "Đi Cô Tô: Đi tàu từ cảng Cái Rồng (Vân Đồn, Quảng Ninh) ra đảo Cô Tô. (Nguồn kiểm chứng: Kiến thức chung, cần kiểm giờ t"
+    },
+    {
+     "q": "đi Phú Quý bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Phú Quý",
+     "tra": "Đi Phú Quý: Đi tàu/phà từ cảng Phan Thiết ra đảo Phú Quý. (Nguồn kiểm chứng: Kiến thức chung, cần kiểm giờ tàu tại cảng."
+    },
+    {
+     "q": "đi Nam Du bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Nam Du | CHẶN bịa số: số không có trong dữ liệu: 2.490.000đ",
+     "tra": "Đi Nam Du: Đi tàu từ Rạch Giá ra quần đảo Nam Du (Hòn Lớn). Tour 3N2Đ từ Rạch Giá từ 2.490.000đ (Saigon Star Travel). (N"
+    },
+    {
+     "q": "đi Sơn Đoòng bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Hang Sơn Đoòng",
+     "tra": "Đi Sơn Đoòng: Chỉ đi theo tour thám hiểm của Oxalis (đơn vị khai thác duy nhất), 80.000.000đ/người, tour 6 ngày 5 đêm, t"
+    },
+    {
+     "q": "đi Măng Đen bằng gì",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Kon Tum – Măng Đen | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Đi Măng Đen: Đi xe từ TP Kon Tum hoặc Pleiku lên thị trấn Măng Đen (đường đèo). Không đi qua TP Quảng Ngãi. (Nguồn kiểm "
+    },
+    {
+     "q": "đi Cần Giờ bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Rừng ngập mặn Cần Giờ – Lâm Viên Cần Giờ, trả {\"prov\":\"can-tho\"}",
+     "tra": "Đi Cần Thơ: Xe khách / giường nằm. 3–3,5 giờ (một nguồn ghi 4 giờ). Giá: Phương Trang 130.000–165.000đ/vé (limody ghi 13"
+    },
+    {
+     "q": "đi Cầu Vàng bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Cầu Vàng, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|place|cau-rong\" | CHẶN bịa số: số không có trong dữ liệu: 37,5  | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Cầu Rồng (Đà Nẵng): Đứng phía bờ đông (đường Trần Hưng Đạo) xem rõ nhất; cầu cấm xe lúc diễn ra show | Bối cảnh "
+    },
+    {
+     "q": "đi Kỳ Co bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Bãi biển Kỳ Co, trả {\"prov\":\"can-tho\",\"itemKey\":\"can-tho|place|vuo | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Vườn cò Bằng Lăng (Cần Thơ): Vườn cò lớn, hàng ngàn con cò trắng bay về tổ lúc hoàng hôn; đi chiều tối mới thấy "
+    },
+    {
+     "q": "đi Hầm Hô bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Hầm Hô, trả {\"prov\":\"dak-lak\",\"itemKey\":\"dak-lak|place|ho-lak\"} | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Hồ Lắk (Đắk Lắk): Hồ nước ngọt lớn nhất Tây Nguyên; có buôn làng M'nông ven hồ; Biệt điện Bảo Đại trên đồi cạnh "
+    },
+    {
+     "q": "đi Bảo tàng Quang Trung bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Bảo tàng Quang Trung (Gia Lai): Bảo tàng thờ vua Quang Trung (Nguyễn Huệ) và nhà Tây Sơn, tại quê hương ông ở Ph"
+    },
+    {
+     "q": "đi Cù Lao Xanh bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Cù Lao Xanh, trả {\"prov\":\"vinh-long\",\"itemKey\":\"vinh-long|place|cu | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Cù lao Mây (Vĩnh Long): Vẻ đẹp nguyên sơ, vườn trái cây, homestay địa phương; ít dịch vụ du lịch bài bản hơn An "
+    },
+    {
+     "q": "đi Chùa Ông Núi bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Chùa Ông Núi (Gia Lai): chưa kiểm được | Loại: Chùa trên núi ở Bình Định cũ; đã xác định thiếu từ phản biện vòng"
+    },
+    {
+     "q": "đi suối nước nóng Hội Vân bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Suối nước nóng Hội Vân (Gia Lai): chưa kiểm được | Loại: Suối nước nóng ở Bình Định cũ; đã xác định thiếu từ phả"
+    },
+    {
+     "q": "đi Bình Ba được không",
+     "loi": "CHẶN sai điểm đến: hỏi Bình Ba – Bình Hưng, trả {\"prov\":\"quang-ngai\",\"itemKey\":\"quang-nga | CHẶN gợi ý nơi cấm: đảo cấm khách mà không nói rõ",
+     "tra": "Cách đi Biển Bình Châu (Quảng Ngãi): Biển gần cảng Sa Kỳ (cùng huyện Bình Sơn), ghép được với ngày đi Lý Sơn; tọa độ xấp"
+    },
+    {
+     "q": "vé Cầu Vàng bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Cầu Vàng, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|place|cau-rong\"",
+     "tra": "Vé Cầu Rồng (Đà Nẵng): Miễn phí; xem phun lửa/phun nước miễn phí. Giờ mở cửa: Cả ngày; phun lửa + phun nước 21:00 thứ 6,"
+    },
+    {
+     "q": "vé Yên Tử bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Khu di tích Yên Tử, trả {\"prov\":\"thai-nguyen\",\"itemKey\":\"thai-nguy | NẶNG thiếu nội dung: giá không khớp trang chi tiết (Phí tham quan 0đ (miễn đến 31/12/2028 t",
+     "tra": "Vé Suối Cửa Tử (Thái Nguyên): Chưa kiểm được giá vé hiện hành — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy t"
+    },
+    {
+     "q": "vé Tràng An bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Ninh Bình, trả {\"prov\":\"lam-dong\",\"itemKey\":\"lam-dong|place|rh-bin",
+     "tra": "Vé Bàu Trắng (Lâm Đồng): Hằng Nga — Tour Mũi Né 2N1Đ: https://hangngatravel.com/du-lich-phan-thiet/du-lich-mui-ne-2-ngay"
+    },
+    {
+     "q": "vé Phong Nha bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Đồng Hới – Phong Nha, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Vé Bảo tàng Phòng không – Không quân (Hà Nội): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy t"
+    },
+    {
+     "q": "vé Sơn Đoòng bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Hang Sơn Đoòng, trả {\"prov\":\"can-tho\",\"itemKey\":\"can-tho|place|con | NẶNG thiếu nội dung: giá không khớp trang chi tiết (Chỉ đi tour thám hiểm của Oxalis (đơn v",
+     "tra": "Vé Cồn Sơn (Cần Thơ): Vé từ 20.000đ/người (vé tham quan + trải nghiệm tính riêng theo điểm; làm bánh xèo, cá lóc bay tín"
+    },
+    {
+     "q": "vé Đền Hùng bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Khu di tích lịch sử Đền Hùng, trả {\"prov\":\"phu-tho\",\"itemKey\":\"phu",
+     "tra": "Vé Bảo tàng Hùng Vương (Phú Thọ): 15.000đ/người lớn, trẻ em miễn phí. Giờ mở cửa: 7:00–16:00. Giá, giờ có thể đổi; kiểm "
+    },
+    {
+     "q": "vé Tháp Bà bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: cửa: 6:00–17:30 / 6:00–18:00 (mâu thuẫn). Giá, giờ có thể đổi; kiểm l",
+     "tra": "Vé Tháp Bà Ponagar (Khánh Hòa): 30.000đ/người lớn; trẻ em dưới 1 m miễn phí. Giờ mở cửa: 6:00–17:30 / 6:00–18:00 (mâu th"
+    },
+    {
+     "q": "vé Dinh Độc Lập bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: guồn cũ ghi 65.000đ/40.000đ — mâu thuẫn. Giờ mở cửa: 7:00–18:00 hàng ",
+     "tra": "Vé Dinh Độc Lập (Dinh Thống Nhất) (TP Hồ Chí Minh): Trọn gói người lớn 80.000đ (bảng mới 1/5/2026); vé chỉ dinh 40.000đ."
+    },
+    {
+     "q": "vé Địa đạo Củ Chi bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: Bến Dược) 85.000đ/người lớn — mâu thuẫn, cần kiểm tại quầy (nguồn cũ ",
+     "tra": "Vé Địa đạo Củ Chi (Bến Dược / Bến Đình) (TP Hồ Chí Minh): Khách nước ngoài 135.000đ (từ 1/2/2026: phí di tích 35.000đ + "
+    },
+    {
+     "q": "vé Mỹ Sơn bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: Việt 100.000đ theo Vinpearl — mâu thuẫn). Giờ mở cửa: Khoảng 6:30–17:",
+     "tra": "Vé Thánh địa Mỹ Sơn (Đà Nẵng): Khoảng 150.000đ/người lớn (khách nước ngoài; khách Việt 100.000đ theo Vinpearl — mâu thuẫ"
+    },
+    {
+     "q": "vé Núi Bà Đen bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: 26; có nguồn ghi 7:00–17:30 — mâu thuẫn). Giá, giờ có thể đổi; kiểm l",
+     "tra": "Vé Núi Bà Đen (Sun World Ba Den Mountain) (Tây Ninh): Vào cổng người lớn 10.000đ, trẻ em 5.000đ (có nguồn ghi 16.000đ). "
+    },
+    {
+     "q": "đi Quy Nhơn tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "Đi Quy Nhơn (Bình Định cũ) đẹp nhất: Mùa khô khoảng tháng 2-8 là đẹp nhất; tránh tháng 9-12 (mưa/bão). Lưu ý: Không dùng"
+    },
+    {
+     "q": "đi Phú Quốc tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"} | CHẶN sai điểm đến: nhắc nước nổi (dữ liệu nơi khác)",
+     "tra": "Đi Phú Quốc (Kiên Giang cũ) đẹp nhất: Mùa khô tháng 11-4, biển êm. Không dùng mùa An Giang (nước nổi Trà Sư, Vía Bà) cho"
+    },
+    {
+     "q": "đi Hà Giang tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"ha-tinh\"} | CHẶN sai điểm đến: nhắc Na Hang (dữ liệu nơi khác)",
+     "tra": "Đi Hà Giang (nay Tuyên Quang) đẹp nhất: Tháng 9-10 lúa chín Hoàng Su Phì, tháng 10-11 tam giác mạch, tháng 12-2 săn mây;"
+    },
+    {
+     "q": "đi Phan Thiết tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Phan Thiết – Mũi Né, trả {\"prov\":\"lai-chau\",\"itemKey\":\"lai-chau|di | NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "đi Hạ Long tháng mấy đẹp",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Novotel Hạ Long. Bạn kiểm theo cách này: xem web của Ban quản lý Novotel Hạ Long hoặc "
+    },
+    {
+     "q": "đi Mộc Châu tháng mấy đẹp",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Mộc Châu Retreat. Bạn kiểm theo cách này: xem web của Ban quản lý Mộc Châu Retreat hoặ"
+    },
+    {
+     "q": "đi Măng Đen tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Kon Tum – Măng Đen, trả {\"prov\":\"thai-nguyen\",\"itemKey\":\"thai-nguy",
+     "tra": "Đi Đền Đuổm (Thái Nguyên) đẹp nhất: Tháng 3–5 và tháng 9–11 (mát, đồi chè xanh); Hồ Núi Cốc đẹp nhất mùa xuân và mùa thu"
+    },
+    {
+     "q": "đi Buôn Ma Thuột tháng mấy đẹp",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Homestay Buôn Ma Thuột. Bạn kiểm theo cách này: xem web của Ban quản lý Homestay Buôn "
+    },
+    {
+     "q": "đi Nha Trang tháng mấy đẹp",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Novotel Nha Trang. Bạn kiểm theo cách này: xem web của Ban quản lý Novotel Nha Trang h"
+    },
+    {
+     "q": "đi Tràng An tháng mấy đẹp",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Trang An Retreat Homestay. Bạn kiểm theo cách này: xem web của Ban quản lý Trang An Re"
+    },
+    {
+     "q": "đi Tam Đảo tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Tam Đảo, trả {\"prov\":\"ha-noi\"}",
+     "tra": "App chưa có thông tin mùa đẹp của Rạp Tháng Tám. Bạn kiểm theo cách này: xem web của Ban quản lý Rạp Tháng Tám hoặc gọi "
+    },
+    {
+     "q": "đi Lý Sơn tháng mấy đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Lý Sơn, trả {\"prov\":\"quang-ngai\",\"itemKey\":\"quang-ngai|place|dm-ch",
+     "tra": "Đi Lý Sơn đẹp nhất: Tháng 4-8 biển êm; tránh tháng 10-12 bão. Lưu ý: Mở cẩm nang"
+    },
+    {
+     "q": "Quy Nhơn ăn gì ngon",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy N",
+     "tra": "Món ăn ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy Nhơn (chưa kiểm được): Chuỗi "
+    },
+    {
+     "q": "Quy Nhơn nên ở khu nào",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Avani Quy Nhơn",
+     "tra": "Chỗ ở ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Avani Quy Nhơn Resort & Spa (chưa kiểm được"
+    },
+    {
+     "q": "quy nhon",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "Vé Jollibee Quy Nhơn (Gia Lai): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Gi"
+    },
+    {
+     "q": "Mã Pì Lèng",
+     "loi": "CHẶN sai điểm đến: hỏi Đèo Mã Pí Lèng, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Vé Đền Bạch Mã (Hà Nội): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Giờ mở cử"
+    },
+    {
+     "q": "Mã Pí Lèng",
+     "loi": "CHẶN sai điểm đến: hỏi Đèo Mã Pí Lèng, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Vé Đền Bạch Mã (Hà Nội): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Giờ mở cử"
+    },
+    {
+     "q": "pho co hoi an",
+     "loi": "CHẶN sai điểm đến: hỏi Phố cổ Hội An, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|dish|cao-l | NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An",
+     "tra": "Món ăn ở khu Hội An (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An (30.000–60.000đ/tô): Cao lầu "
+    },
+    {
+     "q": "sapa",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"lao-cai\",\"itemKey\":\"lao-cai|stay|gg-sapa-mount",
+     "tra": "App chưa có danh sách món ăn riêng đã kiểm chứng cho Lào Cai. Bạn xem tab Ăn gì / Ở đâu trên trang Lào Cai trong app, ho"
+    },
+    {
+     "q": "Hội An",
+     "loi": "NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An",
+     "tra": "Món ăn ở khu Hội An (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An (30.000–60.000đ/tô): Cao lầu "
+    },
+    {
+     "q": "phu quoc",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Phú Quốc Explorer nằm ở An Giang. Tour lặn ngắm san hô. Giá gốc từ 15 USD. Mở cẩm nang"
+    },
+    {
+     "q": "can gio",
+     "loi": "CHẶN sai điểm đến: hỏi Rừng ngập mặn Cần Giờ – Lâm Viên Cần Giờ, trả {\"prov\":\"an-giang\"}",
+     "tra": "Sông Cửa Cạn (An Giang) mở cửa: chưa kiểm được. Vé: chưa kiểm được. Mở cẩm nang"
+    },
+    {
+     "q": "son doong",
+     "loi": "CHẶN sai điểm đến: hỏi Hang Sơn Đoòng, trả {\"prov\":\"can-tho\",\"itemKey\":\"can-tho|place|con",
+     "tra": "Cồn Sơn nằm ở Cù lao trên sông Hậu, phường Bùi Hữu Nghĩa, quận Bình Thủy (đi đò từ bến Cồn Sơn, đường Bùi Hữu Nghĩa) (Cầ"
+    }
+   ]
+  },
+  "GOP": {
+   "ok": 118,
+   "n": 120,
+   "chan": 2,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "từ Quy Nhơn đi Pleiku bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\",\"old\":\"\",\"alias\":\"pleiku\"}",
+     "tra": "Đi đến Gia Lai từ Quy Nhơn Từ Hà Nội · Tàu HN–ga Quy Nhơn + xe lên Pleiku · Tàu ~18–20 giờ + xe ~3–4 giờ · Chưa kiểm đượ"
+    },
+    {
+     "q": "đi Pleiku từ Quy Nhơn mất bao lâu",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\",\"old\":\"\",\"alias\":\"pleiku\"}",
+     "tra": "Đi đến Gia Lai từ Quy Nhơn Từ Hà Nội · Tàu HN–ga Quy Nhơn + xe lên Pleiku · Tàu ~18–20 giờ + xe ~3–4 giờ · Chưa kiểm đượ"
+    }
+   ]
+  }
+ },
+ "20 câu ngoài dữ liệu": {
+  "CU": {
+   "ok": 20,
+   "n": 20,
+   "chan": 0,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": []
+  },
+  "MOI": {
+   "ok": 0,
+   "n": 20,
+   "chan": 0,
+   "tuTin": 12,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "thời tiết Đà Nẵng hôm nay thế nào",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô:  Da Nang (Thành phố Đà Nẵng): Loai: 5 sao | Ven sông Hàn, trung t",
+     "tra": "So sánh theo dữ liệu app: - Đà Nẵng (tổng quan) (Đà Nẵng): Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo S"
+    },
+    {
+     "q": "mai Hà Nội có mưa không",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "vé máy bay Hà Nội đi Phú Quốc ngày 20/12 giá bao nhiêu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Chi phí đi khu Hà Nội (Hà Nội) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SG–HN khứ h"
+    },
+    {
+     "q": "đặt giúp mình phòng khách sạn ở Đà Lạt",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đ",
+     "tra": "Chỗ ở ở khu Đà Lạt (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đà Lạt (~150.000đ/đêm (tìm ngày"
+    },
+    {
+     "q": "đặt vé tàu Hà Nội Lào Cai cho mình",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "tỷ giá đô la hôm nay",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Vé Gỏi lá (Gia Lai): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Giá, giờ có t"
+    },
+    {
+     "q": "cách nấu phở bò",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "giá vàng hôm nay",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "đi Paris mùa nào đẹp",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "App chưa có thông tin mùa đẹp của Paris Beach Resort. Bạn kiểm theo cách này: xem web của Ban quản lý Paris Beach Resort"
+    },
+    {
+     "q": "đi Bangkok bằng gì",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô:  Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính",
+     "tra": "Cách đi Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm "
+    },
+    {
+     "q": "Hòn Ngọc Xanh Tưởng Tượng ở đâu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Hòn Dầu nằm ở An Giang. Chưa kiểm được. 0 lần trong bản local — cần đối chiếu lại bản live. | Loại: Đảo trong tour tham "
+    },
+    {
+     "q": "số điện thoại khách sạn Mường Thanh Quy Nhơn",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sài ",
+     "tra": "Chỗ ở ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sài Gòn – Quy Nhơn (1.200.000–1.5"
+    },
+    {
+     "q": "giờ mở cửa quán cà phê Cộng gần nhất",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cà phê Pleiku (Gia Lai) mở cửa: Uống sáng / chiều. Vé: 15.000–35.000đ/ly. Mở cẩm nang"
+    },
+    {
+     "q": "xe khách Phương Trang Sài Gòn Đà Lạt mấy giờ chạy",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Ga Đà Lạt (Lâm Đồng) mở cửa: Chưa kiểm được giờ đóng chính xác (6:00–17:00 / 7:00–18:00 / 7:00–19:00 / 7:30–17:00). Tàu:"
+    },
+    {
+     "q": "giá taxi từ sân bay Tân Sơn Nhất về Quận 1 hôm nay",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Vé Cồn Sơn (Cần Thơ): Vé từ 20.000đ/người (vé tham quan + trải nghiệm tính riêng theo điểm; làm bánh xèo, cá lóc bay tín"
+    },
+    {
+     "q": "visa đi Nhật cần gì",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "Đà Lạt hôm nay có sương mù không",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Ga Đà Lạt (Lâm Đồng): Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa | Bối cảnh ("
+    },
+    {
+     "q": "lịch bắn pháo hoa Đà Nẵng năm nay",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cách đi Đà Nẵng (tổng quan) (Đà Nẵng): Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo Sơn Trà, biển Mỹ Khê;"
+    },
+    {
+     "q": "mã giảm giá Vietjet",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "kể chuyện cười đi",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cuối tuần 2 ngày thì hợp đi gần: Quy Nhơn, Đà Lạt, Phú Quốc, Hạ Long đều đi được. Bạn đi từ đâu, đi mấy ngày, ngân sách "
+    }
+   ]
+  },
+  "GOP": {
+   "ok": 8,
+   "n": 20,
+   "chan": 0,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "mai Hà Nội có mưa không",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "vé máy bay Hà Nội đi Phú Quốc ngày 20/12 giá bao nhiêu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Chi phí đi khu Hà Nội (Hà Nội) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SG–HN khứ h"
+    },
+    {
+     "q": "đặt giúp mình phòng khách sạn ở Đà Lạt",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đ",
+     "tra": "Chỗ ở ở khu Đà Lạt (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đà Lạt (~150.000đ/đêm (tìm ngày"
+    },
+    {
+     "q": "đặt vé tàu Hà Nội Lào Cai cho mình",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "đi Paris mùa nào đẹp",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "App chưa có thông tin mùa đẹp của Paris Beach Resort. Bạn kiểm theo cách này: xem web của Ban quản lý Paris Beach Resort"
+    },
+    {
+     "q": "đi Bangkok bằng gì",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô:  Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính",
+     "tra": "Cách đi Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm "
+    },
+    {
+     "q": "số điện thoại khách sạn Mường Thanh Quy Nhơn",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sài ",
+     "tra": "Chỗ ở ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sài Gòn – Quy Nhơn (1.200.000–1.5"
+    },
+    {
+     "q": "giờ mở cửa quán cà phê Cộng gần nhất",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cà phê Pleiku (Gia Lai) mở cửa: Uống sáng / chiều. Vé: 15.000–35.000đ/ly. Mở cẩm nang"
+    },
+    {
+     "q": "xe khách Phương Trang Sài Gòn Đà Lạt mấy giờ chạy",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Ga Đà Lạt (Lâm Đồng) mở cửa: Chưa kiểm được giờ đóng chính xác (6:00–17:00 / 7:00–18:00 / 7:00–19:00 / 7:30–17:00). Tàu:"
+    },
+    {
+     "q": "visa đi Nhật cần gì",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "lịch bắn pháo hoa Đà Nẵng năm nay",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cách đi Đà Nẵng (tổng quan) (Đà Nẵng): Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo Sơn Trà, biển Mỹ Khê;"
+    },
+    {
+     "q": "kể chuyện cười đi",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Cuối tuần 2 ngày thì hợp đi gần: Quy Nhơn, Đà Lạt, Phú Quốc, Hạ Long đều đi được. Bạn đi từ đâu, đi mấy ngày, ngân sách "
+    }
+   ]
+  }
+ },
+ "161 câu thật từ diễn đàn": {
+  "CU": {
+   "ok": 150,
+   "n": 161,
+   "chan": 1,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "Dạ vậy ngày đầu em vẫn nên ở Lô Lô Chải là hợp lý à Bác",
+     "loi": "NẶNG không khớp mục đã có: có Làng văn hóa Lô Lô Chải trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Gõ tên tỉnh hoặc thành phố để xem danh sách "
+    },
+    {
+     "q": "em sinh viên budget 5 củ 2 người có đủ chơi khôg các bác. xuất phát từ Hà Nội",
+     "loi": "NẶNG không khớp mục đã có: có Hà Nội trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Gõ tên tỉnh hoặc thành phố để xem danh sách "
+    },
+    {
+     "q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua kh",
+     "loi": "NẶNG không khớp mục đã có: có Chợ phiên Mèo Vạc trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Xem bảng giá niêm yết ở cổng hoặc trang, fan"
+    },
+    {
+     "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
+     "loi": "NẶNG không khớp mục đã có: có Đảo Tuần Châu trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Gọi cảng tàu khách hoặc ban quản lý cảng để "
+    },
+    {
+     "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Nội, trả {\"area\":\"sa-pa\",\"prov\":\"lao-cai\"}",
+     "tra": "phần dưới là dữ liệu chung của Lào Cai (viết theo khu Sa Pa). Đi đến Lào Cai Từ TP.HCM · Máy bay SGN–HAN + tàu Hà Nội–Là"
+    },
+    {
+     "q": "ăn hải sản ở đâu???",
+     "loi": "NẶNG không khớp mục đã có: có Bãi An Hải trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: mục \"hải sản\" trong dữ liệu app. Cách khác: Tìm chỗ ở quanh hải sản trên bản đồ hoặc"
+    },
+    {
+     "q": "Cho mình hỏi thuê xe ở đâu ạ",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Thuê xe máy cần giấy tờ gì, cần kiểm tra gì? Cần căn cước và bằng lái xe máy phù hợp loại xe. Không giao bản gốc giấy tờ"
+    },
+    {
+     "q": "Lễ hội Vía Bà Chúa Xứ diễn ra khi nào?",
+     "loi": "NẶNG không khớp mục đã có: có Miếu Bà Chúa Xứ trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Xem dự báo của Trung tâm Dự báo khí tượng th"
+    },
+    {
+     "q": "Tôi đặt chỗ đã có mã vé điện tử, tra cứu trên web hãng k tìm thấy",
+     "loi": "NẶNG không khớp mục đã có: có Chùa Hang — Phước Điền Tự trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Xem bảng giá niêm yết ở cổng hoặc trang, fan"
+    }
+   ]
+  },
+  "MOI": {
+   "ok": 64,
+   "n": 161,
+   "chan": 49,
+   "tuTin": 144,
+   "tuTinDung": 56,
+   "sai": [
+    {
+     "q": "Các Bác ơi cho em hỏi, em dự định 14/03 có dự định du lịch 3 ngày 2 đêm. Em đang phân vân ",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"hue\"} | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Gợi ý lịch trình Huế (tổng quan) (Huế): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Mùa đẹp: Tháng 1–tháng 4 (m"
+    },
+    {
+     "q": "Phiền các Bác thêm 1 lần nữa, các Bác có thể lên lộ trình phù hợp giúp em theo phương án 1",
+     "loi": "CHẶN sai điểm đến: hỏi Sông Nho Quế, trả {\"prov\":\"lao-cai\",\"itemKey\":\"lao-cai|place|cho-p",
+     "tra": "Gợi ý lịch trình Chợ phiên Bắc Hà (Lào Cai): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Mùa đẹp: Tháng 9–10 lú"
+    },
+    {
+     "q": "Dạ vậy ngày đầu em vẫn nên ở Lô Lô Chải là hợp lý à Bác",
+     "loi": "CHẶN sai điểm đến: hỏi Làng văn hóa Lô Lô Chải, trả {\"prov\":\"an-giang\"} | NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (ch",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (chưa kiểm được): 43 phòng và villa quanh hồ b"
+    },
+    {
+     "q": "Vô tình xem youtube thấy có chổ này đẹp ghê mà em ko biết ở đâu, các Bác biết ở đâu share ",
+     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Chợ ",
+     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Chợ Tình (~250.000–500.000đ/đêm (tham khảo 2"
+    },
+    {
+     "q": "mình thấy chổ này trên đoạn DT176 không biết đoạn DT176 này về TP Hà Giang đi có ổn ko ạ. ",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"gia-lai\",\"itemKey\":\"gia-lai|place|chua-minh",
+     "tra": "Cách đi Chùa Minh Thành (Gia Lai): Chùa có kiến trúc Nhật–Trung độc đáo, tháp 9 tầng; nơi tu hành — ăn mặc kín đáo, giữ "
+    },
+    {
+     "q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua kh",
+     "loi": "CHẶN sai điểm đến: hỏi Chợ phiên Mèo Vạc, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|plac",
+     "tra": "So sánh theo dữ liệu app: - Hòn Mấu (An Giang): Chưa kiểm được (tour Hòn Mấu phụ thu 150.000đ/khách theo Cattour). | Loạ"
+    },
+    {
+     "q": "Ban đầu em định đi về theo đường này (Nét màu đỏ)... Nhưng do em vẫn còn chấp niệm cái chổ",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|place|dm-hon-",
+     "tra": "So sánh theo dữ liệu app: - Hòn Dầu (An Giang): Chưa kiểm được. 0 lần trong bản local — cần đối chiếu lại bản live. | Lo"
+    },
+    {
+     "q": "Đi Hà Giang như thế nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"ha-tinh\"}",
+     "tra": "So sánh theo dữ liệu app: - Chi phí đi Hà Tĩnh (Hà Tĩnh): Máy bay SGN–VII khứ hồi: 1.600.000–4.000.000đ | Xe Vinh–Hà Tĩn"
+    },
+    {
+     "q": "Thuê xe máy Hà Giang như nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"hue\"}",
+     "tra": "Đi Hà Giang (nay Tuyên Quang) đẹp nhất: Tháng 9-10 lúa chín Hoàng Su Phì, tháng 10-11 tam giác mạch, tháng 12-2 săn mây;"
+    },
+    {
+     "q": "Đến Hà Giang mùa nào đẹp nhất?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"tuyen-quang\",\"itemKey\":\"tuyen-quang|place|d",
+     "tra": "Đi Hà Giang (nay Tuyên Quang) đẹp nhất: Tháng 9-10 lúa chín Hoàng Su Phì, tháng 10-11 tam giác mạch, tháng 12-2 săn mây;"
+    },
+    {
+     "q": "Có thể đi Hà Giang bằng cách nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"cao-bang\",\"itemKey\":\"cao-bang|stay|bang-gia | NẶNG lộ dữ liệu thô:  Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính",
+     "tra": "Cách đi Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm "
+    },
+    {
+     "q": "Nên đi xe máy hay xe ô tô để khám phá Hà Giang?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"hue\",\"itemKey\":\"hue|place|pha-tam-giang\"}",
+     "tra": "Phá Tam Giang (Huế): Đầm phá nước lợ lớn nhất Đông Nam Á; hoàng hôn trên phá là điểm nhấn; ghép buổi chiều sau khi tham "
+    },
+    {
+     "q": "Cho em hỏi đường lên mộc châu chú ý gì?",
+     "loi": "NẶNG lộ dữ liệu thô: Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lu",
+     "tra": "Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lung Chieng Di, bungalow tre da co, co be boi ngoai troi | P"
+    },
+    {
+     "q": "Đi Mộc Châu gặp sương mù nên bật đèn pha hay chỉ bật cos thôi?",
+     "loi": "NẶNG lộ dữ liệu thô: Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lu",
+     "tra": "Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lung Chieng Di, bungalow tre da co, co be boi ngoai troi | P"
+    },
+    {
+     "q": "Xin thỉnh giáo đi Cát bà từ Hà nội bằng xe oto",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Cát Bà",
+     "tra": "Đi Cát Bà: Tới Hải Phòng (bay Cát Bi HPH, tàu, limousine) rồi đi phà/tàu cao tốc/cáp treo ra đảo Cát Bà. (Nguồn kiểm chứ"
+    },
+    {
+     "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
+     "loi": "CHẶN sai điểm đến: hỏi Đảo Tuần Châu, trả {\"prov\":\"ha-noi\"}",
+     "tra": "App chưa có thông tin giờ mở cửa của Hà Nội (tổng quan). Bạn kiểm theo cách này: xem web của Ban quản lý Hà Nội (tổng qu"
+    },
+    {
+     "q": "Du lịch Sapa mùa nào đẹp nhất? Nên đi vào tháng mấy?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"can-tho\",\"itemKey\":\"can-tho|place|lang-du-lich",
+     "tra": "Đi Làng du lịch Mỹ Khánh (Cần Thơ) đẹp nhất: Tháng 9–tháng 11 (mùa nước nổi, chợ nổi nhộn nhịp, trái cây nhiều); quanh n"
+    },
+    {
+     "q": "Nên đi Sapa tháng mấy?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"lai-chau\",\"itemKey\":\"lai-chau|dish|thang-co\"} | NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "Sapa tháng 1 có tuyết không",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"lai-chau\",\"itemKey\":\"lai-chau|dish|thang-co\"}",
+     "tra": "Thắng cố (Lào Cai): Thắng cố Sa Pa đậm vị, ăn nóng giữa chợ phiên rất hợp không khí vùng cao. Điểm yếu là mùi nội tạng n"
+    },
+    {
+     "q": "Thời điểm đi Sapa là khi nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"gia-lai\",\"itemKey\":\"gia-lai|dish|gg-goi-la\"}",
+     "tra": "Gỏi lá (Gia Lai): Gỏi từ nhiều loại lá rừng của người bản địa, món cuốn/gỏi đặc trưng Tây Nguyên Gia Lai. Mở cẩm nang"
+    },
+    {
+     "q": "Để có 1 chuyến Sapa thì bạn cần chuẩn bị những gì?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"hung-yen\",\"itemKey\":\"hung-yen|dish|gg-tuong-ba",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "Kinh nghiệm du lịch Sapa: Ăn gì, chơi ở đâu dành cho người mới",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: ở Gia Lai (theo dữ liệu app + tìm Google 23/11/2026): - Quán An (15.00",
+     "tra": "Món ăn ở Gia Lai (theo dữ liệu app + tìm Google 23/11/2026): - Quán An (15.000–30.000đ/đĩa 4 cái): Quán bánh xèo lớn nhấ"
+    },
+    {
+     "q": "Review Du Lịch Sapa Từ A – Z: Ăn Gì, Chơi Gì, Ở Đâu Đẹp?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"gia-lai\"} | NẶNG lộ dữ liệu thô: ở Gia Lai (theo dữ liệu app + tìm Google 23/11/2026): - Quán An (15.00",
+     "tra": "Món ăn ở Gia Lai (theo dữ liệu app + tìm Google 23/11/2026): - Quán An (15.000–30.000đ/đĩa 4 cái): Quán bánh xèo lớn nhấ"
+    },
+    {
+     "q": "Chi phí du lịch Sapa hết bao nhiêu?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"bac-ninh\"}",
+     "tra": "Chi phí đi Bắc Ninh (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SG–HN khứ hồi + xe HN–"
+    },
+    {
+     "q": "Cần chuẩn bị gì khi đi du lịch Sapa",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"ca-mau\",\"itemKey\":\"ca-mau|place|khai-long\"}",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "Mua gì ở Sapa?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|dish|gg-goi-ca-nam | NẶNG lộ dữ liệu thô: ố Đà Nẵng (theo dữ liệu app + tìm Google 23/11/2026): - Gỏi cá Nam Ô (",
+     "tra": "Món ăn ở Thành phố Đà Nẵng (theo dữ liệu app + tìm Google 23/11/2026): - Gỏi cá Nam Ô (30.000–120.000đ (Sakos, tìm ngày "
+    },
+    {
+     "q": "Sapa đi đâu?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|place|dm-hon-dau",
+     "tra": "Cuối tuần 2 ngày thì hợp đi gần: Quy Nhơn, Đà Lạt, Phú Quốc, Hạ Long đều đi được. Bạn đi từ đâu, đi mấy ngày, ngân sách "
+    },
+    {
+     "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
+     "loi": "NẶNG thiếu nội dung: không nói có ga/tàu hay không",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "Nên đi Sapa bằng tàu hay ô tô?",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"cao-bang\"}",
+     "tra": "Đi Cao Bằng: Máy bay SGN–HAN + xe khách Hà Nội–Cao Bằng. Bay ~2h05 + xe 6–7 giờ (~280 km). Giá: Bay SGN–HAN khoảng 1.000"
+    },
+    {
+     "q": "Cách lựa chọn phương tiện phù hợp khi đi Sapa",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"phu-tho\"}",
+     "tra": "Chi phí đi Phú Thọ (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SGN–HAN khứ hồi: 2.000."
+    },
+    {
+     "q": "Du lịch Hà Giang mùa thu tháng nào đẹp, đi cung nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"ca-mau\",\"itemKey\":\"ca-mau|place|khai-long\"}",
+     "tra": "Đi Hà Giang (nay Tuyên Quang) đẹp nhất: Tháng 9-10 lúa chín Hoàng Su Phì, tháng 10-11 tam giác mạch, tháng 12-2 săn mây;"
+    },
+    {
+     "q": "Đi phượt Hà Giang bằng xe máy cần chuẩn bị những gì?",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"cao-bang\",\"itemKey\":\"cao-bang|stay|bang-gia | NẶNG thiếu nội dung: không có đồ mang theo | NẶNG lộ dữ liệu thô:  Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính",
+     "tra": "Cách đi Bằng Giang Hotel (Cao Bằng): Loai: Chưa kiểm được hạng sao chính thức | Trung tâm TP | Phu hop: Khách tiết kiệm "
+    },
+    {
+     "q": "Mộc Châu mùa hoa mận nở vào tháng mấy?",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Mộc Châu Retreat. Bạn kiểm theo cách này: xem web của Ban quản lý Mộc Châu Retreat hoặ"
+    },
+    {
+     "q": "Mộc Châu mùa nào đẹp nhất?",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Mộc Châu Retreat. Bạn kiểm theo cách này: xem web của Ban quản lý Mộc Châu Retreat hoặ"
+    },
+    {
+     "q": "Mùa hoa mận Mộc Châu vào tháng mấy?",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Mộc Châu Retreat. Bạn kiểm theo cách này: xem web của Ban quản lý Mộc Châu Retreat hoặ"
+    },
+    {
+     "q": "Đi Mộc Châu từ Hà Nội thế nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Sơn La, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "Kết hợp Mộc Châu và Tà Xùa được không?",
+     "loi": "CHẶN sai điểm đến: hỏi Tà Xùa, trả {\"prov\":\"son-la\",\"itemKey\":\"son-la|stay|gg-moc-chau-re | NẶNG lộ dữ liệu thô: đi Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lu",
+     "tra": "Cách đi Mộc Châu Retreat (Sơn La): Loai: Homestay (retreat) | Thung lung Chieng Di, bungalow tre da co, co be boi ngoai "
+    },
+    {
+     "q": "Du lịch Điện Biên có gì?",
+     "loi": "CHẶN bịa số: số không có trong dữ liệu: 667.417 , 31.663.387 triệu",
+     "tra": "Điện Biên (tổng quan) (Điện Biên): Bối cảnh (Điện Biên, Wikipedia/Wikivoyage): Điện Biên là một tỉnh miền núi thuộc vùng"
+    },
+    {
+     "q": "Hạ Long 2 ngày 1 đêm nên ăn gì, chơi gì, đi đâu?",
+     "loi": "NẶNG thiếu nội dung: không có món",
+     "tra": "Gợi ý lịch trình Novotel Hạ Long (Quảng Ninh): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Lịch chi tiết theo s"
+    },
+    {
+     "q": "Nên du lịch Hạ Long 2 ngày 1 đêm tự túc vào mùa nào?",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "Gợi ý lịch trình Novotel Hạ Long (Quảng Ninh): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Lịch chi tiết theo s"
+    },
+    {
+     "q": "Đảo nào ở Quảng Ninh đẹp để tắm biển?",
+     "loi": "CHẶN sai điểm đến: hỏi Quảng Ninh, trả {\"prov\":\"quang-ninh\",\"itemKey\":\"quang-ninh|stay|ho | NẶNG lộ dữ liệu thô: uảng Ninh (theo dữ liệu app + tìm Google 23/11/2026): - Homestay/khách",
+     "tra": "Chỗ ở ở Quảng Ninh (theo dữ liệu app + tìm Google 23/11/2026): - Homestay/khách sạn đảo Quan Lạn (~300.000–800.000đ/đêm "
+    },
+    {
+     "q": "Đi tàu ra đảo có phụ thuộc thời tiết không?",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
+     "tra": "Đi Cô Tô: Đi tàu từ cảng Cái Rồng (Vân Đồn, Quảng Ninh) ra đảo Cô Tô. (Nguồn kiểm chứng: Kiến thức chung, cần kiểm giờ t"
+    },
+    {
+     "q": "Giá vé cáp treo Yên Tử hiện nay là bao nhiêu tiền?",
+     "loi": "CHẶN sai điểm đến: hỏi Khu di tích Yên Tử, trả {\"prov\":\"tuyen-quang\",\"itemKey\":\"tuyen-qua | NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Yên Tử ở đâu?",
+     "loi": "CHẶN sai điểm đến: hỏi Khu di tích Yên Tử, trả {\"prov\":\"quang-ninh\",\"itemKey\":\"quang-ninh | NẶNG lộ dữ liệu thô: uảng Ninh (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Uông",
+     "tra": "Chỗ ở ở Quảng Ninh (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Uông Bí (gần Yên Tử) (~500.000–1.200.000đ/đêm"
+    },
+    {
+     "q": "Bạn có biết giá vé tàu cao tốc Cô Tô là bao nhiêu và đặt vé online nhanh nhất như thế nào ",
+     "loi": "NẶNG lộ dữ liệu thô: tốc từ cảng Ao Tiên/Cái Rồng: mâu thuẫn, cần kiểm tại quầy — 220.000–",
+     "tra": "Vé Đảo Cô Tô (Quảng Ninh): Miễn phí vào đảo (không thu vé tham quan, bãi biển, hải đăng). Tàu cao tốc từ cảng Ao Tiên/Cá"
+    },
+    {
+     "q": "Cảng quốc tế Ao Tiên nằm ở đâu? Đường đi và các tuyến tàu chạy như thế nào?",
+     "loi": "NẶNG lộ dữ liệu thô:  ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc",
+     "tra": "Chỗ ở ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc Tế (~380.000–900.000đ/đêm (một nguồn ghi 22–"
+    },
+    {
+     "q": "24 tiếng ở Hà Nội ăn gì ngon, đi đâu chơi?",
+     "loi": "NẶNG lộ dữ liệu thô:  (Hà Nội) (theo dữ liệu app + tìm Google 23/11/2026): - Xôi xéo Hà Nội",
+     "tra": "Món ăn ở khu Hà Nội (Hà Nội) (theo dữ liệu app + tìm Google 23/11/2026): - Xôi xéo Hà Nội (chưa kiểm được): Xôi nếp dẻo "
+    },
+    {
+     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
+     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu ",
+     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu du lịch 688 (~500.000–1.000.000đ/đêm (th"
+    },
+    {
+     "q": "Ba Bể ở đâu, đi bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Hồ Ba Bể (Thái Nguyên): Hồ nước ngọt tự nhiên lớn, đi thuyền là chính; đường xa, nên đi 2 ngày 1 đêm hoặc ghép t"
+    },
+    {
+     "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Đà Lạt mấy nay có mưa kg ad, cập nhật cho mình tí thời tiết với.",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
+     "tra": "Đi Ga Đà Lạt (Lâm Đồng) đẹp nhất: Tháng 11 – tháng 4. Mở cẩm nang"
+    },
+    {
+     "q": "Địa chỉ ngắm hoa này ở đâu DL ạ.",
+     "loi": "NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đ",
+     "tra": "Chỗ ở ở khu Đà Lạt (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đà Lạt (~150.000đ/đêm (tìm ngày"
+    },
+    {
+     "q": "Tháng 10 ĐLat có mưa nhiều ko ạ ?",
+     "loi": "CHẶN sai điểm đến: hỏi Lâm Đồng, trả {\"prov\":\"lai-chau\",\"itemKey\":\"lai-chau|dish|thang-co",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "Đây là ở đâu nhỉ, suối Tía hả ad",
+     "loi": "NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (ch",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (chưa kiểm được): 43 phòng và villa quanh hồ b"
+    },
+    {
+     "q": "ăn hải sản ở đâu???",
+     "loi": "CHẶN sai điểm đến: hỏi Bãi An Hải, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|stay|khach- | NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Hải ",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Hải Châu (Chưa kiểm được khoảng giá): Loai: Chư"
+    },
+    {
+     "q": "Lễ hội diều ngày nào và diễn ra ở đâu ad ơi??",
+     "loi": "NẶNG lộ dữ liệu thô: yên Quang (theo dữ liệu app + tìm Google 23/11/2026): - Homestay LÊ (c",
+     "tra": "Chỗ ở ở Tuyên Quang (theo dữ liệu app + tìm Google 23/11/2026): - Homestay LÊ (chưa kiểm được): Loai: Homestay | Tren su"
+    },
+    {
+     "q": "Bà bán mấy giờ vậy bạn ơi.",
+     "loi": "NẶNG lộ dữ liệu thô: om); một nguồn ghi mở 24/24 — mâu thuẫn, cần kiểm tại quầy. Vé: Mâu t",
+     "tra": "Thác Bản Ba (Tuyên Quang) mở cửa: 7:00–18:00 hằng ngày (VinWonders, go.fechtin.com); một nguồn ghi mở 24/24 — mâu thuẫn,"
+    },
+    {
+     "q": "e xin ít đc ăn ngon ở qn vs ạ,",
+     "loi": "NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy N",
+     "tra": "Món ăn ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy Nhơn (chưa kiểm được): Chuỗi "
+    },
+    {
+     "q": "When you come to Quy Nhơn, what should you do?",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "So sánh theo dữ liệu app: - Jollibee Quy Nhơn (Gia Lai): Chuỗi thức ăn nhanh Philippines. Địa chỉ: Nguyễn Thiêp. - KFC Q"
+    },
+    {
+     "q": "Nhà xe đi Quy Nhơn - Bình Định từ Đà Lạt - Lâm Đồng được đánh giá tốt nhất?",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Bình Định",
+     "tra": "Đi Quy Nhơn: Máy bay tới sân bay Phù Cát (mã UIH), cách Quy Nhơn ~30 km; tàu hỏa tới ga Diêu Trì (cách Quy Nhơn ~10 km) "
+    },
+    {
+     "q": "Từ Đà Lạt - Lâm Đồng đi Quy Nhơn - Bình Định mất bao nhiêu tiếng khi di chuyển bằng xe khá",
+     "loi": "CHẶN sai điểm đến: hỏi Bình Định, trả {\"prov\":\"lam-dong\"}",
+     "tra": "App chưa có thông tin giá vé của Đà Lạt · Lâm Đồng (tổng quan). Bạn kiểm theo cách này: xem web của Ban quản lý Đà Lạt ·"
+    },
+    {
+     "q": "Ui ! Từ HN đi thế nào để đến Măng Đen ???",
+     "loi": "CHẶN sai điểm đến: hỏi Kon Tum – Măng Đen, trả {\"prov\":\"ha-noi\"}",
+     "tra": "So sánh theo dữ liệu app: - Hà Nội (tổng quan) (Hà Nội): Thủ đô nghìn năm văn hiến: phố cổ, hồ Gươm, di tích lịch sử và "
+    },
+    {
+     "q": "Where to go? What to do in Măng Đen?",
+     "loi": "CHẶN sai điểm đến: hỏi Kon Tum – Măng Đen, trả {\"prov\":\"thai-nguyen\",\"itemKey\":\"thai-nguy",
+     "tra": "Đi chơi biển/đảo mang: đồ bơi, kem chống nắng, mũ, nước uống, dép đi cát, áo khoác mỏng buổi tối. Đi núi mang: giày leo,"
+    },
+    {
+     "q": "Chị An e xin địa chỉ những món ăn ngon ở Huế",
+     "loi": "NẶNG lộ dữ liệu thô: Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Ốc Huế (chưa k",
+     "tra": "Món ăn ở khu Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Ốc Huế (chưa kiểm được): Ốc Huế hội đủ vị mặn, ngọt"
+    },
+    {
+     "q": "home base hoi an vs da nang?",
+     "loi": "CHẶN sai điểm đến: hỏi Đà Nẵng, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|dish|cao-lau-hoi | NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Mít trộn Đà Nẵ",
+     "tra": "Món ăn ở khu Hội An (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Mít trộn Đà Nẵng (khoảng 10.000đ/đĩa (Triphu"
+    },
+    {
+     "q": "Hoi An beach holiday too humid in May?",
+     "loi": "NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An",
+     "tra": "Món ăn ở khu Hội An (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An (30.000–60.000đ/tô): Cao lầu "
+    },
+    {
+     "q": "Hoi An floating lanterns",
+     "loi": "NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An",
+     "tra": "Món ăn ở khu Hội An (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Cao lầu Hội An (30.000–60.000đ/tô): Cao lầu "
+    },
+    {
+     "q": "đi tháng mấy",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "4N3Đ ở khách sạn nào em oi",
+     "loi": "NẶNG lộ dữ liệu thô:  Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Saku",
+     "tra": "Chỗ ở ở Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sakura (chưa kiểm được): Khách sạn giá rẻ gần k"
+    },
+    {
+     "q": "Hiện tại Sun Phú Quốc Airway đã có các chuyến bay nội địa trên toàn quốc chưa hay chỉ mới ",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Phú Quốc Explorer (An Giang): Tour lặn ngắm san hô. Giá gốc từ 15 USD. Mở cẩm nang"
+    },
+    {
+     "q": "Xin lịch trình tour đà lạt và tour cà mau",
+     "loi": "CHẶN sai điểm đến: hỏi Lâm Đồng, trả {\"prov\":\"ca-mau\"}",
+     "tra": "Gợi ý lịch trình Cà Mau (tổng quan) (Cà Mau): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Mùa đẹp: Tháng 12–thá"
+    },
+    {
+     "q": "Xin giá tour",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Mở tuyến nào vậy c? Bắt đầu đi từ đâu?",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    },
+    {
+     "q": "Gia,sau vay em",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "cho mh hỏi côn đảo nằm ở đâu vậy",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Côn Đảo nằm ở Quần đảo ngoài khơi Vũng Tàu, cách đất liền ~185 km (TP Hồ Chí Minh). Mở cẩm nang"
+    },
+    {
+     "q": "Cho mình hỏi thuê xe ở đâu ạ",
+     "loi": "NẶNG lộ dữ liệu thô: Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Imperial Huế (",
+     "tra": "Chỗ ở ở khu Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Imperial Huế (chưa kiểm được (tìm ngày 23/11/2026)):"
+    },
+    {
+     "q": "Rùa đẻ trứng vào tháng mấy ạ.",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "Giá vé bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Có mưa không em?",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
+     "tra": "App chưa có thông tin mùa đẹp của Cọ ỏm. Bạn kiểm theo cách này: xem web của Ban quản lý Cọ ỏm hoặc gọi trực tiếp quầy v"
+    },
+    {
+     "q": "bãi đầm trầu phải k nhỉ?",
+     "loi": "CHẶN sai điểm đến: hỏi Bãi Đầm Trầu, trả {\"prov\":\"an-giang\"}",
+     "tra": "Vé Bãi Sao (An Giang): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. Giờ mở cửa:"
+    },
+    {
+     "q": "Pic này ở chỗ nào ạ",
+     "loi": "NẶNG lộ dữ liệu thô:  Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Già",
+     "tra": "Chỗ ở ở Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Giàng (~350.000–400.000đ/phòng/đêm, phòng 3 đệ"
+    },
+    {
+     "q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Pháp hiệu của bà là gì?",
+     "loi": "NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Lẩu bò Ba Toa ",
+     "tra": "Món ăn ở khu La Gi (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Lẩu bò Ba Toa (200.000–400.000đ/nồi (Urbanb,"
+    },
+    {
+     "q": "Ở cầu cần thơ có rước được kg",
+     "loi": "NẶNG lộ dữ liệu thô: (Cần Thơ) (theo dữ liệu app + tìm Google 23/11/2026): - Bánh cống Cần ",
+     "tra": "Món ăn ở khu Cần Thơ (Cần Thơ) (theo dữ liệu app + tìm Google 23/11/2026): - Bánh cống Cần Thơ (10.000–35.000đ/cái): Bán"
+    },
+    {
+     "q": "Em đi chùa ở đâu vậy",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    },
+    {
+     "q": "Nên đi Phú Quốc tháng nào rẻ nhất?",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Đi Phú Quốc (Kiên Giang cũ) đẹp nhất: Mùa khô tháng 11-4, biển êm. Không dùng mùa An Giang (nước nổi Trà Sư, Vía Bà) cho"
+    },
+    {
+     "q": "Chi phí trung bình cho chuyến Phú Quốc 3N2Đ là bao nhiêu?",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Chi phí đi khu Phú Quốc (An Giang) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Xe SG–Châu Đốc "
+    },
+    {
+     "q": "Từ TP.HCM đi núi Sam bằng cách nào?",
+     "loi": "CHẶN sai điểm đến: hỏi An Giang, trả {\"prov\":\"tp-ho-chi-minh\"}",
+     "tra": "Đi TP.HCM: Máy bay HAN–SGN. Bay ~2 giờ. Giá: Một chiều khoảng tham khảo 1.000.000–2.500.000đ (chưa kiểm được mức cụ thể)"
+    },
+    {
+     "q": "Lễ hội Vía Bà Chúa Xứ diễn ra khi nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Miếu Bà Chúa Xứ, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|place|",
+     "tra": "Đi Miếu Bà Chúa Xứ Núi Sam (An Giang) đẹp nhất: Tháng 9–11 (mùa nước nổi: Trà Sư bèo xanh đẹp nhất); tháng 3–5 (mùa khô,"
+    },
+    {
+     "q": "Đi Vũng Tàu 2 ngày 1 đêm bao nhiêu tiền?",
+     "loi": "CHẶN sai điểm đến: hỏi Vũng Tàu, trả {\"prov\":\"tp-ho-chi-minh\"}",
+     "tra": "Chi phí đi khu Vũng Tàu (TP Hồ Chí Minh) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay H"
+    },
+    {
+     "q": "có ai vừa coi mà vừa cảm giác cái đầu nó lâng lâng theo như tui ko",
+     "loi": "NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Lang Toi (chưa",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Lang Toi (chưa kiểm được): Một trong hai hostel trên Bãi "
+    },
+    {
+     "q": "Cho xem CT tuor nha",
+     "loi": "NẶNG lộ dữ liệu thô: Khánh Hòa (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Tran",
+     "tra": "Chỗ ở ở Khánh Hòa (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Trang (từ ~770.000đ/đêm (tìm ngày 23/11/2026))"
+    },
+    {
+     "q": "Vi ở khách sạn nào ạ?",
+     "loi": "NẶNG lộ dữ liệu thô:  Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Saku",
+     "tra": "Chỗ ở ở Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sakura (chưa kiểm được): Khách sạn giá rẻ gần k"
+    },
+    {
+     "q": "Em muốn đặt phòng ạ",
+     "loi": "NẶNG lộ dữ liệu thô:  - Homestay A Hòa (Lai Châu): Loai: Homestay | Nha go H'Mong, gan",
+     "tra": "So sánh theo dữ liệu app: - Homestay A Hòa (Lai Châu): Loai: Homestay | Nha go H'Mong, gan duong trekking thac Trai Tim "
+    },
+    {
+     "q": "Vũng Tàu cuối tuần đông quá em ha",
+     "loi": "CHẶN sai điểm đến: hỏi Vũng Tàu, trả {\"prov\":\"quang-tri\",\"itemKey\":\"quang-tri|place|cho-d",
+     "tra": "Cuối tuần 2 ngày thì hợp đi gần: Quy Nhơn, Đà Lạt, Phú Quốc, Hạ Long đều đi được. Bạn đi từ đâu, đi mấy ngày, ngân sách "
+    },
+    {
+     "q": "Ở đâu mà cảnh đẹp quá vậy em",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    },
+    {
+     "q": "ai biết giá đợt đầu sao ko mng",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    }
+   ]
+  },
+  "GOP": {
+   "ok": 129,
+   "n": 161,
+   "chan": 6,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "Dạ vậy ngày đầu em vẫn nên ở Lô Lô Chải là hợp lý à Bác",
+     "loi": "CHẶN sai điểm đến: hỏi Làng văn hóa Lô Lô Chải, trả {\"prov\":\"an-giang\"} | NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (ch",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (chưa kiểm được): 43 phòng và villa quanh hồ b"
+    },
+    {
+     "q": "Vô tình xem youtube thấy có chổ này đẹp ghê mà em ko biết ở đâu, các Bác biết ở đâu share ",
+     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Chợ ",
+     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Chợ Tình (~250.000–500.000đ/đêm (tham khảo 2"
+    },
+    {
+     "q": "Bạn có thể nói chi tiết hơn đoạn này ko ạ \"Lượt về từ Mèo Vạc đi theo DT182 > DT176 qua kh",
+     "loi": "CHẶN sai điểm đến: hỏi Chợ phiên Mèo Vạc, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|plac",
+     "tra": "So sánh theo dữ liệu app: - Hòn Mấu (An Giang): Chưa kiểm được (tour Hòn Mấu phụ thu 150.000đ/khách theo Cattour). | Loạ"
+    },
+    {
+     "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
+     "loi": "CHẶN sai điểm đến: hỏi Đảo Tuần Châu, trả {\"prov\":\"ha-noi\"}",
+     "tra": "App chưa có thông tin giờ mở cửa của Hà Nội (tổng quan). Bạn kiểm theo cách này: xem web của Ban quản lý Hà Nội (tổng qu"
+    },
+    {
+     "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Nội, trả {\"area\":\"sa-pa\",\"prov\":\"lao-cai\"}",
+     "tra": "phần dưới là dữ liệu chung của Lào Cai (viết theo khu Sa Pa). Đi đến Lào Cai Từ TP.HCM · Máy bay SGN–HAN + tàu Hà Nội–Là"
+    },
+    {
+     "q": "Đi tàu ra đảo có phụ thuộc thời tiết không?",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
+     "tra": "Đi Cô Tô: Đi tàu từ cảng Cái Rồng (Vân Đồn, Quảng Ninh) ra đảo Cô Tô. (Nguồn kiểm chứng: Kiến thức chung, cần kiểm giờ t"
+    },
+    {
+     "q": "Cảng quốc tế Ao Tiên nằm ở đâu? Đường đi và các tuyến tàu chạy như thế nào?",
+     "loi": "NẶNG lộ dữ liệu thô:  ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc",
+     "tra": "Chỗ ở ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc Tế (~380.000–900.000đ/đêm (một nguồn ghi 22–"
+    },
+    {
+     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
+     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu ",
+     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu du lịch 688 (~500.000–1.000.000đ/đêm (th"
+    },
+    {
+     "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Đà Lạt mấy nay có mưa kg ad, cập nhật cho mình tí thời tiết với.",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
+     "tra": "Đi Ga Đà Lạt (Lâm Đồng) đẹp nhất: Tháng 11 – tháng 4. Mở cẩm nang"
+    },
+    {
+     "q": "Địa chỉ ngắm hoa này ở đâu DL ạ.",
+     "loi": "NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đ",
+     "tra": "Chỗ ở ở khu Đà Lạt (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đà Lạt (~150.000đ/đêm (tìm ngày"
+    },
+    {
+     "q": "Đây là ở đâu nhỉ, suối Tía hả ad",
+     "loi": "NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (ch",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - La Veranda (chưa kiểm được): 43 phòng và villa quanh hồ b"
+    },
+    {
+     "q": "ăn hải sản ở đâu???",
+     "loi": "CHẶN sai điểm đến: hỏi Bãi An Hải, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|stay|khach- | NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Hải ",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Hải Châu (Chưa kiểm được khoảng giá): Loai: Chư"
+    },
+    {
+     "q": "Lễ hội diều ngày nào và diễn ra ở đâu ad ơi??",
+     "loi": "NẶNG lộ dữ liệu thô: yên Quang (theo dữ liệu app + tìm Google 23/11/2026): - Homestay LÊ (c",
+     "tra": "Chỗ ở ở Tuyên Quang (theo dữ liệu app + tìm Google 23/11/2026): - Homestay LÊ (chưa kiểm được): Loai: Homestay | Tren su"
+    },
+    {
+     "q": "Bà bán mấy giờ vậy bạn ơi.",
+     "loi": "NẶNG lộ dữ liệu thô: om); một nguồn ghi mở 24/24 — mâu thuẫn, cần kiểm tại quầy. Vé: Mâu t",
+     "tra": "Thác Bản Ba (Tuyên Quang) mở cửa: 7:00–18:00 hằng ngày (VinWonders, go.fechtin.com); một nguồn ghi mở 24/24 — mâu thuẫn,"
+    },
+    {
+     "q": "e xin ít đc ăn ngon ở qn vs ạ,",
+     "loi": "NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy N",
+     "tra": "Món ăn ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy Nhơn (chưa kiểm được): Chuỗi "
+    },
+    {
+     "q": "đi tháng mấy",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "4N3Đ ở khách sạn nào em oi",
+     "loi": "NẶNG lộ dữ liệu thô:  Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Saku",
+     "tra": "Chỗ ở ở Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sakura (chưa kiểm được): Khách sạn giá rẻ gần k"
+    },
+    {
+     "q": "Xin giá tour",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Mở tuyến nào vậy c? Bắt đầu đi từ đâu?",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    },
+    {
+     "q": "Cho mình hỏi thuê xe ở đâu ạ",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Thuê xe máy cần giấy tờ gì, cần kiểm tra gì? Cần căn cước và bằng lái xe máy phù hợp loại xe. Không giao bản gốc giấy tờ"
+    },
+    {
+     "q": "Rùa đẻ trứng vào tháng mấy ạ.",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "App chưa có thông tin mùa đẹp của Thắng cố. Bạn kiểm theo cách này: xem web của Ban quản lý Thắng cố hoặc gọi trực tiếp "
+    },
+    {
+     "q": "Giá vé bao nhiêu",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Pic này ở chỗ nào ạ",
+     "loi": "NẶNG lộ dữ liệu thô:  Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Già",
+     "tra": "Chỗ ở ở Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Giàng (~350.000–400.000đ/phòng/đêm, phòng 3 đệ"
+    },
+    {
+     "q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
+     "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
+     "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
+    },
+    {
+     "q": "Lễ hội Vía Bà Chúa Xứ diễn ra khi nào?",
+     "loi": "CHẶN sai điểm đến: hỏi Miếu Bà Chúa Xứ, trả {\"prov\":\"an-giang\",\"itemKey\":\"an-giang|place|",
+     "tra": "Đi Miếu Bà Chúa Xứ Núi Sam (An Giang) đẹp nhất: Tháng 9–11 (mùa nước nổi: Trà Sư bèo xanh đẹp nhất); tháng 3–5 (mùa khô,"
+    },
+    {
+     "q": "có ai vừa coi mà vừa cảm giác cái đầu nó lâng lâng theo như tui ko",
+     "loi": "NẶNG lộ dữ liệu thô:  An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Lang Toi (chưa",
+     "tra": "Chỗ ở ở An Giang (theo dữ liệu app + tìm Google 23/11/2026): - Lang Toi (chưa kiểm được): Một trong hai hostel trên Bãi "
+    },
+    {
+     "q": "Cho xem CT tuor nha",
+     "loi": "NẶNG lộ dữ liệu thô: Khánh Hòa (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Tran",
+     "tra": "Chỗ ở ở Khánh Hòa (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Trang (từ ~770.000đ/đêm (tìm ngày 23/11/2026))"
+    },
+    {
+     "q": "Vi ở khách sạn nào ạ?",
+     "loi": "NẶNG lộ dữ liệu thô:  Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Saku",
+     "tra": "Chỗ ở ở Lâm Đồng (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Sakura (chưa kiểm được): Khách sạn giá rẻ gần k"
+    },
+    {
+     "q": "Ở đâu mà cảnh đẹp quá vậy em",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    },
+    {
+     "q": "ai biết giá đợt đầu sao ko mng",
+     "loi": "NẶNG lộ dữ liệu thô: Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort",
+     "tra": "Chỗ ở ở Hải Phòng (theo dữ liệu app + tìm Google 23/11/2026): - Hòn Dấu Resort (~1.000.000đ/đêm (quanh mức theo VnExpres"
+    }
+   ]
+  }
+ },
+ "48 câu theo vai (đánh giá 24/11)": {
+  "CU": {
+   "ok": 43,
+   "n": 48,
+   "chan": 2,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "từ sân bay đà nẵng về hội an bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Đà Nẵng, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|place|pho-co-hoi",
+     "tra": "Hội An (Quảng Nam cũ) nay thuộc Đà Nẵng. Trả lời theo dữ liệu riêng của khu Hội An. Đi đến Phố cổ Hội An (khu Hội An) từ"
+    },
+    {
+     "q": "ở đâu gần biển mỹ khê giá rẻ",
+     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
+    },
+    {
+     "q": "đà nẵng tháng 12 có mưa không",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
+    },
+    {
+     "q": "hoi an di bang gi tu da nang",
+     "loi": "CHẶN sai điểm đến: hỏi Đà Nẵng, trả {\"area\":\"hoi-an\",\"prov\":\"da-nang\"}",
+     "tra": "Hội An (Quảng Nam cũ) nay thuộc Đà Nẵng. Trả lời theo dữ liệu riêng của khu Hội An. Đi đến Hội An từ Đà Nẵng TP.HCM / Hà"
+    },
+    {
+     "q": "chuyến bay hà nội phú quốc ngày 20/12 giá bao nhiêu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Phú Quốc (Kiên Giang cũ) nay thuộc An Giang. Trả lời theo dữ liệu riêng của khu Phú Quốc, không dùng dữ liệu TP Châu Đốc"
+    }
+   ]
+  },
+  "MOI": {
+   "ok": 16,
+   "n": 48,
+   "chan": 19,
+   "tuTin": 37,
+   "tuTinDung": 15,
+   "sai": [
+    {
+     "q": "hội an có gì chơi buổi tối",
+     "loi": "NẶNG thiếu nội dung: không liệt kê điểm",
+     "tra": "Phố cổ Hội An (Đà Nẵng): Đi chiều–tối đẹp nhất (đèn lồng); phố đi bộ khung giờ nhất định; ghép trong ngày 3 hoặc đi riên"
+    },
+    {
+     "q": "từ sân bay đà nẵng về hội an bằng gì",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Đà Nẵng (tổng quan) (Đà Nẵng): Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo Sơn Trà, biển Mỹ Khê;"
+    },
+    {
+     "q": "ăn gì ở đà nẵng",
+     "loi": "NẶNG lộ dữ liệu thô: (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Mít trộn Đà Nẵ",
+     "tra": "Món ăn ở khu Đà Nẵng (Đà Nẵng) (theo dữ liệu app + tìm Google 23/11/2026): - Mít trộn Đà Nẵng (khoảng 10.000đ/đĩa (Triph"
+    },
+    {
+     "q": "ở đâu gần biển mỹ khê giá rẻ",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Biển Mỹ Khê nằm ở Đường Võ Nguyên Giáp, phường Mỹ An, TP Đà Nẵng (Đà Nẵng). Mở cẩm nang"
+    },
+    {
+     "q": "đèo mã pí lèng ở đâu",
+     "loi": "CHẶN sai điểm đến: hỏi Đèo Mã Pí Lèng, trả {\"prov\":\"cao-bang\",\"itemKey\":\"cao-bang|place|d | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Đèo Mã Phục nằm ở Xã Quốc Toản, Quảng Hòa (QL3, hướng TP Cao Bằng – Trà Lĩnh) (Cao Bằng). Mở cẩm nang"
+    },
+    {
+     "q": "thuê xe máy ở hà giang bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"tuyen-quang\"}",
+     "tra": "Chi phí đi khu Hà Giang (Tuyên Quang) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SGN–"
+    },
+    {
+     "q": "từ hà nội lên hà giang bằng xe khách",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "cột cờ lũng cú vé bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Cột cờ Lũng Cú, trả {\"prov\":\"lang-son\",\"itemKey\":\"lang-son|place|c | NẶNG thiếu nội dung: giá không khớp trang chi tiết (25.000đ/người lớn; trẻ dưới 1,2 m miễn ",
+     "tra": "Vé Cột cờ Phai Vệ (Lạng Sơn): Chưa kiểm được mức vé hiện hành — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy t"
+    },
+    {
+     "q": "đồng văn có homestay nào",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Giang, trả {\"prov\":\"lang-son\",\"itemKey\":\"lang-son|stay|gg-dong- | NẶNG thiếu nội dung: chỗ ở không có giá | NẶNG lộ dữ liệu thô: Đồng Lâm Homestay (Lạng Sơn): Loai: Homestay | Co khu camping ngo",
+     "tra": "Đồng Lâm Homestay (Lạng Sơn): Loai: Homestay | Co khu camping ngoai troi hon 1.000 m2, chua duoc 60-90 khach | Phu hop: "
+    },
+    {
+     "q": "đi mù cang chải mùa nào đẹp",
+     "loi": "CHẶN sai điểm đến: hỏi Yên Bái, trả {\"prov\":\"hue\",\"itemKey\":\"hue|place|chua-thien-mu\"}",
+     "tra": "Đi Chùa Thiên Mụ (Huế) đẹp nhất: Tháng 1–tháng 4 (mát, ít mưa; Festival Huế thường vào mùa này) và tháng 9–tháng 11; trá"
+    },
+    {
+     "q": "cao bằng đi thác bản giốc bao xa",
+     "loi": "CHẶN sai điểm đến: hỏi Thác Bản Giốc, trả {\"prov\":\"cao-bang\"}",
+     "tra": "Đi Cao Bằng: Máy bay SGN–HAN + xe khách Hà Nội–Cao Bằng. Bay ~2h05 + xe 6–7 giờ (~280 km). Giá: Bay SGN–HAN khoảng 1.000"
+    },
+    {
+     "q": "đi phú quốc với trẻ nhỏ chơi gì",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"} | NẶNG thiếu nội dung: không liệt kê điểm",
+     "tra": "Phú Quốc Explorer (An Giang): Tour lặn ngắm san hô. Giá gốc từ 15 USD. Mở cẩm nang"
+    },
+    {
+     "q": "vé vinwonders phú quốc trẻ em",
+     "loi": "CHẶN sai điểm đến: hỏi VinWonders Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Vé Phú Quốc Explorer (An Giang): chưa kiểm được — giá này app chưa kiểm chứng được, bạn hỏi lại tại quầy trước khi đi. G"
+    },
+    {
+     "q": "vé tràng an trẻ em bao nhiêu",
+     "loi": "CHẶN sai điểm đến: hỏi Ninh Bình, trả {\"prov\":\"lam-dong\",\"itemKey\":\"lam-dong|place|rh-bin",
+     "tra": "Vé Bàu Trắng (Lâm Đồng): Hằng Nga — Tour Mũi Né 2N1Đ: https://hangngatravel.com/du-lich-phan-thiet/du-lich-mui-ne-2-ngay"
+    },
+    {
+     "q": "nha trang có bãi biển nào nước êm",
+     "loi": "NẶNG lộ dữ liệu thô: ovotel Nha Trang (Khánh Hòa): Loai: 4 sao (chưa kiểm được hạng sa",
+     "tra": "Novotel Nha Trang (Khánh Hòa): Loai: 4 sao (chưa kiểm được hạng sao chính thức trong đợt này) | Sát bãi biển trung tâm |"
+    },
+    {
+     "q": "quy nhơn 3 ngày 2 triệu có đủ không",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"}",
+     "tra": "Gợi ý lịch trình Jollibee Quy Nhơn (Gia Lai): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Lịch chi tiết theo số"
+    },
+    {
+     "q": "ở hostel hà nội giá rẻ",
+     "loi": "CHẶN sai điểm đến: hỏi Hà Nội, trả {\"prov\":\"ha-noi\",\"itemKey\":\"ha-noi|stay|little-hanoi-h | NẶNG lộ dữ liệu thô:  (Hà Nội) (theo dữ liệu app + tìm Google 23/11/2026): - Little Hanoi H",
+     "tra": "Chỗ ở ở khu Hà Nội (Hà Nội) (theo dữ liệu app + tìm Google 23/11/2026): - Little Hanoi Hostel (~280.000–380.000đ/đêm): L"
+    },
+    {
+     "q": "từ sài gòn đi vũng tàu bằng gì rẻ nhất",
+     "loi": "CHẶN sai điểm đến: hỏi Vũng Tàu, trả {\"prov\":\"tp-ho-chi-minh\",\"itemKey\":\"tp-ho-chi-minh|d | NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Ốc Sài Gòn (TP.HCM): Phố ốc Vĩnh Khánh là 'thủ phủ' ốc Sài Gòn, món 30.000–100.000đ, ăn tối nhộn nhịp. Điểm yếu:"
+    },
+    {
+     "q": "ăn gì rẻ ở huế",
+     "loi": "NẶNG lộ dữ liệu thô: Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Ốc Huế (chưa k",
+     "tra": "Món ăn ở khu Huế (Huế) (theo dữ liệu app + tìm Google 23/11/2026): - Ốc Huế (chưa kiểm được): Ốc Huế hội đủ vị mặn, ngọt"
+    },
+    {
+     "q": "đi ninh bình 1 ngày từ hà nội",
+     "loi": "CHẶN sai điểm đến: hỏi Ninh Bình, trả {\"prov\":\"ha-noi\"}",
+     "tra": "Đi Hà Nội: Máy bay SGN–HAN. Bay ~2 giờ; nhiều chuyến/ngày. Giá: Một chiều đã gồm thuế phí ~1.500.000–2.500.000đ (theo Tr"
+    },
+    {
+     "q": "di da lat an gi",
+     "loi": "NẶNG thiếu nội dung: không có món",
+     "tra": "Cách đi Ga Đà Lạt (Lâm Đồng): Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa | Bố"
+    },
+    {
+     "q": "phu quoc mua nao dep",
+     "loi": "CHẶN sai điểm đến: hỏi Phú Quốc, trả {\"prov\":\"an-giang\"}",
+     "tra": "Đi Phú Quốc (Kiên Giang cũ) đẹp nhất: Mùa khô tháng 11-4, biển êm. Không dùng mùa An Giang (nước nổi Trà Sư, Vía Bà) cho"
+    },
+    {
+     "q": "sapa o dau re",
+     "loi": "CHẶN sai điểm đến: hỏi Sa Pa, trả {\"prov\":\"lao-cai\",\"itemKey\":\"lao-cai|stay|gg-sapa-mount | NẶNG lộ dữ liệu thô: ở Lào Cai (theo dữ liệu app + tìm Google 23/11/2026): - Sapa Mountain ",
+     "tra": "Chỗ ở ở Lào Cai (theo dữ liệu app + tìm Google 23/11/2026): - Sapa Mountain Resort (Từ ~$80/đêm, 8.7/10 Agoda (tham khảo"
+    },
+    {
+     "q": "hoi an di bang gi tu da nang",
+     "loi": "NẶNG thiếu nội dung: thiếu phương tiện + thời gian/giá",
+     "tra": "Cách đi Đà Nẵng (tổng quan) (Đà Nẵng): Thành phố biển hiện đại: Bà Nà Hills, Ngũ Hành Sơn, bán đảo Sơn Trà, biển Mỹ Khê;"
+    },
+    {
+     "q": "quy nhon co gi choi",
+     "loi": "CHẶN sai điểm đến: hỏi Quy Nhơn, trả {\"prov\":\"gia-lai\"} | NẶNG thiếu nội dung: không liệt kê điểm",
+     "tra": "Jollibee Quy Nhơn (Gia Lai): Chuỗi thức ăn nhanh Philippines. Địa chỉ: Nguyễn Thiêp. Mở cẩm nang"
+    },
+    {
+     "q": "thời tiết đà lạt ngày mai",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Gợi ý lịch trình Ga Đà Lạt (Lâm Đồng): ngày 1 tham quan điểm chính, ngày 2 đi điểm lân cận. Mùa đẹp: Tháng 11 – tháng 4."
+    },
+    {
+     "q": "đặt phòng giúp tôi ở nha trang",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: hánh Hòa) (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Tran",
+     "tra": "Chỗ ở ở khu Nha Trang (Khánh Hòa) (theo dữ liệu app + tìm Google 23/11/2026): - Isena Nha Trang (từ ~770.000đ/đêm (tìm n"
+    },
+    {
+     "q": "số điện thoại khách sạn mường thanh",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: Thanh Hóa (theo dữ liệu app + tìm Google 23/11/2026): - Mường Thanh Gr",
+     "tra": "Chỗ ở ở Thanh Hóa (theo dữ liệu app + tìm Google 23/11/2026): - Mường Thanh Grand Thanh Hóa (chưa kiểm được (tìm ngày 23"
+    },
+    {
+     "q": "visa cho người nước ngoài vào việt nam",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Vé Chợ Đầm (Khánh Hòa): Miễn phí vào chợ; đặc sản 50.000–300.000đ tùy món. Giờ mở cửa: Chợ ngày ~6:00–17:00 (chưa kiểm đ"
+    },
+    {
+     "q": "đi sơn đoòng hết bao nhiêu tiền",
+     "loi": "CHẶN sai điểm đến: hỏi Hang Sơn Đoòng, trả {\"prov\":\"son-la\"}",
+     "tra": "Chi phí đi Sơn La (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SGN–HAN khứ hồi: 2.000.0"
+    },
+    {
+     "q": "bình ba có đi được không",
+     "loi": "CHẶN sai điểm đến: hỏi Bình Ba – Bình Hưng, trả {\"prov\":\"lai-chau\",\"itemKey\":\"lai-chau|di | CHẶN gợi ý nơi cấm: đảo cấm khách mà không nói rõ",
+     "tra": "Cách đi Thắng cố (Lào Cai): Thắng cố Sa Pa đậm vị, ăn nóng giữa chợ phiên rất hợp không khí vùng cao. Điểm yếu là mùi nộ"
+    },
+    {
+     "q": "chuyến bay hà nội phú quốc ngày 20/12 giá bao nhiêu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Chi phí đi khu Hà Nội (Hà Nội) (ước tính theo dữ liệu app, kiểm 06/11/2026 — giá tùy thời điểm đặt): Máy bay SG–HN khứ h"
+    }
+   ]
+  },
+  "GOP": {
+   "ok": 41,
+   "n": 48,
+   "chan": 2,
+   "tuTin": 0,
+   "tuTinDung": 0,
+   "sai": [
+    {
+     "q": "từ sân bay đà nẵng về hội an bằng gì",
+     "loi": "CHẶN sai điểm đến: hỏi Đà Nẵng, trả {\"prov\":\"da-nang\",\"itemKey\":\"da-nang|place|pho-co-hoi",
+     "tra": "Hội An (Quảng Nam cũ) nay thuộc Đà Nẵng. Trả lời theo dữ liệu riêng của khu Hội An. Đi đến Phố cổ Hội An (khu Hội An) từ"
+    },
+    {
+     "q": "ở đâu gần biển mỹ khê giá rẻ",
+     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
+    },
+    {
+     "q": "đà nẵng tháng 12 có mưa không",
+     "loi": "NẶNG thiếu nội dung: không có tháng",
+     "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
+    },
+    {
+     "q": "hoi an di bang gi tu da nang",
+     "loi": "CHẶN sai điểm đến: hỏi Đà Nẵng, trả {\"area\":\"hoi-an\",\"prov\":\"da-nang\"}",
+     "tra": "Hội An (Quảng Nam cũ) nay thuộc Đà Nẵng. Trả lời theo dữ liệu riêng của khu Hội An. Đi đến Hội An từ Đà Nẵng TP.HCM / Hà"
+    },
+    {
+     "q": "số điện thoại khách sạn mường thanh",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng | NẶNG lộ dữ liệu thô: Thanh Hóa (theo dữ liệu app + tìm Google 23/11/2026): - Mường Thanh Gr",
+     "tra": "Chỗ ở ở Thanh Hóa (theo dữ liệu app + tìm Google 23/11/2026): - Mường Thanh Grand Thanh Hóa (chưa kiểm được (tìm ngày 23"
+    },
+    {
+     "q": "visa cho người nước ngoài vào việt nam",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Vé Chợ Đầm (Khánh Hòa): Miễn phí vào chợ; đặc sản 50.000–300.000đ tùy món. Giờ mở cửa: Chợ ngày ~6:00–17:00 (chưa kiểm đ"
+    },
+    {
+     "q": "chuyến bay hà nội phú quốc ngày 20/12 giá bao nhiêu",
+     "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần | NẶNG thiếu dự phòng: câu ngoài dữ liệu không dùng dự phòng",
+     "tra": "Phú Quốc (Kiên Giang cũ) nay thuộc An Giang. Trả lời theo dữ liệu riêng của khu Phú Quốc, không dùng dữ liệu TP Châu Đốc"
+    }
+   ]
+  }
+ }
+}
