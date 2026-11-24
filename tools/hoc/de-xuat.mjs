@@ -60,6 +60,7 @@ export function deXuat(dong, W = napAI()) {
     return best;
   };
 
+  const tenDung = s => { const ar = A.findArea(s), pv = A.findProv(s), it = A.findItem(s); return ar ? ar.name : pv ? pv.prov.name : it && it.s >= 90 && !it.ambiguous ? main(it.best.x.name) : ""; };
   const nhom = new Map();
   let tong = 0, truot = 0;
   for (const r of dong) {
@@ -73,6 +74,8 @@ export function deXuat(dong, W = napAI()) {
     const rest = String(A.rest(q) || "").toLowerCase().trim();
     let loai, ten = null;
     if (intent === "ngoai_mien") loai = "ngoai";
+    /* người dùng ghi nơi đúng và app có nơi đó: đề xuất cụm họ gõ -> tên đúng (vẫn cần người duyệt) */
+    else if (r.fix && rest && tenDung(r.fix) && fold(tenDung(r.fix)) !== fold(rest)) { loai = "bien_the"; ten = { l: tenDung(r.fix), loai: "người dùng sửa" }; }
     else if (!fb && r.ok === false) loai = "sai";
     else { const g = gan(rest); if (g && g.f !== fold(rest)) { loai = "bien_the"; ten = g; } else if (g) { loai = "bien_the"; ten = g; } else loai = "thieu"; }
     const key = loai + "|" + (loai === "ngoai" ? intent : fold(rest));

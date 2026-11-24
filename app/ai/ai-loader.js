@@ -20,8 +20,22 @@
   function saveVote(v) { var l = load("buitrip_ai_votes", "[]"); l.push(v); save("buitrip_ai_votes", l.slice(-200)); }
   function escQ(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
   function fold(s) { return typeof BTAI !== "undefined" && BTAI.fold ? BTAI.fold(s) : String(s || "").toLowerCase(); }
-  /* sửa đã học trên máy: câu hỏi (bỏ dấu) -> tên nơi đúng */
-  window.btAiSua = function (q) { var m = load("buitrip_ai_sua", "{}"); return m[fold(q)] || ""; };
+  /* Học trên máy theo CỤM TÊN, không chép nguyên câu: sửa "phố cổ ăn gì" thành Hội An thì nhớ "phố cổ" -> Hội An,
+     nên "phố cổ có gì chơi", "phố cổ đi bằng gì" cũng hiểu là Hội An. Cụm dài khớp trước. Trả { cum, ten } hoặc null. */
+  function cumOf(q) {
+    var r = typeof BTAI !== "undefined" && BTAI.rest ? BTAI.rest(q) : q;
+    r = fold(r).replace(/\s+/g, " ").trim();
+    return r && r.length >= 2 && r.split(" ").length <= 5 ? r : fold(q);
+  }
+  window.btAiSua = function (q) {
+    var m = load("buitrip_ai_sua", "{}"), f = " " + fold(q) + " ", best = null;
+    Object.keys(m).forEach(function (k) { if (f.indexOf(" " + k + " ") >= 0 && (!best || k.length > best.cum.length)) best = { cum: k, ten: m[k] }; });
+    return best;
+  };
+  window.btAiQuen = function (btn) {
+    var k = btn.getAttribute("data-cum") || "", m = load("buitrip_ai_sua", "{}"); delete m[k]; save("buitrip_ai_sua", m);
+    var p = btn.closest ? btn.closest("p") : null; if (p) p.textContent = "Đã quên sửa này trên máy này.";
+  };
   window.btAiFbBar = function (q, r) {
     if (!r || !r.html || r.kind === "ainew") return "";
     return '<div class="bt-ai-fb small" style="margin-top:8px">Câu trả lời này đúng ý bạn không? ' +
@@ -55,11 +69,12 @@
     if (ten && typeof BTAI !== "undefined") {
       var it = BTAI.findItem ? BTAI.findItem(ten) : null, ar = BTAI.findArea(ten), pv = BTAI.findProv(ten);
       var okTen = ar ? ar.name : pv ? pv.prov.name : it && it.s >= 90 && !it.ambiguous ? it.best.x.name.split(" (")[0] : "";
-      if (okTen) { var m = load("buitrip_ai_sua", "{}"), ks = Object.keys(m); if (ks.length >= 100) delete m[ks[0]]; m[fold(q)] = okTen; save("buitrip_ai_sua", m); hoc = okTen; }
+      var cum = cumOf(q);
+      if (okTen && cum !== fold(okTen)) { var m = load("buitrip_ai_sua", "{}"), ks = Object.keys(m); if (ks.length >= 100) delete m[ks[0]]; m[cum] = okTen; save("buitrip_ai_sua", m); hoc = okTen; }
     }
     saveVote({ q: q, ok: false, fix: ten, ghi: ghi, t: Date.now() });
     var done = function (t) { var b = btn.closest ? btn.closest(".bt-ai-fb") : null; if (b) b.innerHTML = '<span class="small">' + t + '</span>'; };
-    var hocTxt = hoc ? "Đã nhớ trên máy này: hỏi lại câu này, mình trả theo " + hoc + ". " : (ten ? "App chưa có nơi \"" + escQ(ten) + "\" trong dữ liệu nên chưa học được. " : "");
+    var hocTxt = hoc ? "Đã nhớ trên máy này: từ nay gõ \"" + escQ(cumOf(q)) + "\" mình hiểu là " + hoc + ". " : (ten ? "App chưa có nơi \"" + escQ(ten) + "\" trong dữ liệu nên chưa học được. " : "");
     if (!gui) return done(hocTxt + "Cảm ơn bạn.");
     if (typeof fetch !== "function") return done(hocTxt + "Chưa gửi được.");
     fetch("/api/hotro", { method: "POST", headers: { "content-type": "application/json" },

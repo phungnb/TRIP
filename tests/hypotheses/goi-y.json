@@ -285,5 +285,162 @@
  {
   "q": "Sa Pa ở đâu rẻ",
   "kind": "area"
+ },
+ {
+  "q": "hè này đưa 2 con nhỏ đi biển gần Hà Nội",
+  "mot": [
+   "Cát Bà",
+   "Hải Phòng",
+   "Quảng Ninh",
+   "Thanh Hóa"
+  ],
+  "cam": [
+   "Hà Nội",
+   "Khánh Hòa",
+   "Phú Quốc"
+  ]
+ },
+ {
+  "q": "đi đâu cho trẻ con chơi ở Đà Nẵng",
+  "phaiCo": [
+   "ở Đà Nẵng"
+  ]
+ },
+ {
+  "q": "săn mây ở đâu tháng 12",
+  "mot": [
+   "Lai Châu",
+   "Lào Cai",
+   "Lạng Sơn"
+  ],
+  "cam": [
+   "Cà Mau",
+   "Khánh Hòa"
+  ]
+ },
+ {
+  "q": "chỗ nào trekking 2 ngày gần Sa Pa",
+  "phaiCo": [
+   "ở Sa Pa",
+   "Fansipan"
+  ]
+ },
+ {
+  "q": "đèo nào đẹp nhất miền Bắc",
+  "mot": [
+   "Lai Châu",
+   "Lào Cai",
+   "Hà Giang",
+   "Cao Bằng",
+   "Sơn La",
+   "Điện Biên"
+  ],
+  "cam": [
+   "Khánh Hòa",
+   "Đà Nẵng"
+  ]
+ },
+ {
+  "q": "tháng 11 có tam giác mạch ở đâu",
+  "mot": [
+   "Hà Giang"
+  ],
+  "cam": [
+   "Cà Mau"
+  ]
+ },
+ {
+  "q": "trăng mật tháng 4 nên đi đâu",
+  "phaiCo": [
+   "cặp đôi"
+  ],
+  "khongCo": [
+   "chỗ mát"
+  ]
+ },
+ {
+  "q": "đảo nào lãng mạn cho cặp đôi",
+  "phaiCo": [
+   "biển"
+  ]
+ },
+ {
+  "q": "đi chùa đầu năm ở đâu miền Nam",
+  "cam": [
+   "Hà Nội",
+   "Bắc Ninh",
+   "Lào Cai"
+  ]
+ },
+ {
+  "q": "3 triệu đi đâu 2 ngày từ Hà Nội",
+  "cam": [
+   "Phú Quốc",
+   "Lâm Đồng",
+   "Khánh Hòa"
+  ]
+ },
+ {
+  "q": "di bien voi be o dau",
+  "phaiCo": [
+   "đi cùng trẻ nhỏ"
+  ]
+ },
+ {
+  "q": "chỗ nào tắm biển tháng 12 ở miền Bắc",
+  "cam": [
+   "Điện Biên",
+   "Hà Giang",
+   "Lào Cai"
+  ],
+  "rong": true,
+  "phaiCo": [
+   "App chưa có nơi nào khớp"
+  ]
+ },
+ {
+  "q": "đi đâu có tuyết",
+  "mot": [
+   "Lào Cai",
+   "Lạng Sơn"
+  ],
+  "khongCo": [
+   "Tuyết Anh"
+  ]
+ },
+ {
+  "q": "tại sao gọi là Vịnh Hạ Long",
+  "kind": "item",
+  "phaiCo": [
+   "App chưa có giải thích tên gọi"
+  ]
+ },
+ {
+  "q": "Dinh Độc Lập xây năm nào",
+  "kind": "item",
+  "phaiCo": [
+   "App chưa có năm xây dựng"
+  ]
+ },
+ {
+  "q": "dl thang 6 co dep ko",
+  "kind": "prov",
+  "phaiCo": [
+   "Lâm Đồng"
+  ]
+ },
+ {
+  "q": "tháng 13 nên đi đâu",
+  "phaiCo": [
+   "Không có tháng 13"
+  ],
+  "rong": true
+ },
+ {
+  "q": "đi đâu ở Lào",
+  "phaiCo": [
+   "chỉ có cẩm nang trong nước"
+  ],
+  "rong": true
  }
 ]

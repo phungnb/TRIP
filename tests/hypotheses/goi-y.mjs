@@ -18,11 +18,13 @@ for (const c of B) {
   const want = c.kind || "goiy";
   if (want.startsWith("!") ? r.kind === want.slice(1) : r.kind !== want) e.push("kind " + r.kind + ", cần " + want);
   if (r.kind === "goiy") {
-    if (!L.length) e.push("không có nơi nào");
+    if (!L.length && !c.rong) e.push("không có nơi nào");
+    if (L.length && c.rong) e.push("đáng lẽ không gợi ý nơi nào: " + L.join(", "));
     if (!/<button/.test(r.html)) e.push("thiếu nút");
     if (c.mot && !L.some(n => c.mot.some(m => n.indexOf(m) >= 0))) e.push("thiếu một trong: " + c.mot.join(", "));
     (c.cam || []).forEach(m => { const x = L.filter(n => n.indexOf(m) >= 0 || (m.endsWith("(") && n === m.slice(0, -2))); if (x.length) e.push("gợi ý nơi cấm: " + x.join(", ")); });
   }
+  (c.khongCo || []).forEach(m => { if (txt(r.html).indexOf(m) >= 0) e.push("không được có '" + m + "'"); });
   (c.phaiCo || []).forEach(m => { if (txt(r.html).indexOf(m) < 0) e.push("thiếu '" + m + "'"); });
   if (/Nguồn:|tìm Google|mâu thuẫn|\bLoai:/.test(txt(r.html))) e.push("lộ ghi chú nguồn");
   if (e.length) loi.push({ q: c.q, e, L }); else ok++;

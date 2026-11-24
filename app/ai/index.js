@@ -113,6 +113,7 @@
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
     if (!q) return { html: "", kind: "", ms: 0 };
+    if (A.vietTat) q = A.vietTat(q);
     A.index();
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
@@ -129,7 +130,7 @@
     var useCtx = !(opt && opt.noCtx);
     /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
     var gy = A.laGoiY ? A.laGoiY(q, null) : null;
-    if (gy) res = { kind: "goiy", html: A.answerGoiY(q, gy) };
+    if (gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
     /* câu hỏi giới thiệu, lịch sử 1 địa danh */
     if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
     if (!res) res = route(qd, I, rest, null);
@@ -157,10 +158,13 @@
   A.ask = function (q, opt) {
     var t0 = Date.now(), r;
     /* sửa người dùng đã lưu trên máy này (ai-loader.js): hỏi lại đúng câu đó thì hiểu theo nơi đã sửa */
-    var sua = !(opt && opt.noSua) && typeof window.btAiSua === "function" ? window.btAiSua(q) : "";
-    if (sua && A.fold(q).indexOf(A.fold(sua)) < 0) {
-      r = askCu(String(q).replace(/[?.!\s]+$/, "") + " " + sua, opt);
-      if (r && r.kind !== "fallback") { r.html = '<p class="small">Theo sửa bạn đã lưu trên máy này, hiểu là hỏi về ' + A.esc(sua) + '.</p>' + r.html; return r; }
+    var sua = !(opt && opt.noSua) && typeof window.btAiSua === "function" ? window.btAiSua(q) : null;
+    if (sua && A.fold(q).indexOf(A.fold(sua.ten)) < 0) {
+      r = askCu(String(q).replace(/[?.!\s]+$/, "") + " " + sua.ten, opt);
+      if (r && r.kind !== "fallback") {
+        r.html = '<p class="small">Theo sửa bạn đã lưu trên máy này, "' + A.esc(sua.cum) + '" là ' + A.esc(sua.ten) + '. <button class="btn btn-ghost" type="button" data-cum="' + A.esc(sua.cum) + '" onclick="btAiQuen(this)">Quên sửa này</button></p>' + r.html;
+        return r;
+      }
     }
     return askCu(q, opt);
   };

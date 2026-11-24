@@ -1206,7 +1206,7 @@
    ]
   },
   "GOP": {
-   "ok": 129,
+   "ok": 130,
    "n": 161,
    "chan": 5,
    "tuTin": 0,
@@ -1248,6 +1248,11 @@
      "tra": "Chỗ ở ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc Tế (~380.000–900.000đ/đêm (một nguồn ghi 22–"
     },
     {
+     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
+     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu ",
+     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu du lịch 688 (~500.000–1.000.000đ/đêm (th"
+    },
+    {
      "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
      "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
      "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
@@ -1256,11 +1261,6 @@
      "q": "Đà Lạt mấy nay có mưa kg ad, cập nhật cho mình tí thời tiết với.",
      "loi": "NẶNG thiếu nội dung: câu ngoài dữ liệu phải dùng dự phòng 3 phần",
      "tra": "Đi Ga Đà Lạt (Lâm Đồng) đẹp nhất: Tháng 11 – tháng 4. Mở cẩm nang"
-    },
-    {
-     "q": "Địa chỉ ngắm hoa này ở đâu DL ạ.",
-     "loi": "NẶNG lộ dữ liệu thô: Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đ",
-     "tra": "Chỗ ở ở khu Đà Lạt (Lâm Đồng) (theo dữ liệu app + tìm Google 23/11/2026): - Củi Homestay Đà Lạt (~150.000đ/đêm (tìm ngày"
     },
     {
      "q": "Đây là ở đâu nhỉ, suối Tía hả ad",
@@ -1281,11 +1281,6 @@
      "q": "Bà bán mấy giờ vậy bạn ơi.",
      "loi": "NẶNG lộ dữ liệu thô: om); một nguồn ghi mở 24/24 — mâu thuẫn, cần kiểm tại quầy. Vé: Mâu t",
      "tra": "Thác Bản Ba (Tuyên Quang) mở cửa: 7:00–18:00 hằng ngày (VinWonders, go.fechtin.com); một nguồn ghi mở 24/24 — mâu thuẫn,"
-    },
-    {
-     "q": "e xin ít đc ăn ngon ở qn vs ạ,",
-     "loi": "NẶNG lộ dữ liệu thô: (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy N",
-     "tra": "Món ăn ở khu Quy Nhơn (Gia Lai) (theo dữ liệu app + tìm Google 23/11/2026): - Jollibee Quy Nhơn (chưa kiểm được): Chuỗi "
     },
     {
      "q": "đi tháng mấy",
@@ -1385,8 +1380,8 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê",
-     "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
+     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
@@ -1588,8 +1583,8 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê",
-     "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
+     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
+     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
