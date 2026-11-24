@@ -676,13 +676,18 @@
     },
     {
      "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
-     "loi": "NẶNG không khớp mục đã có: có Đảo Tuần Châu trong dữ liệu nhưng trả fallback",
-     "tra": "App chưa có thông tin này. Chưa có: câu trả lời cho câu hỏi này. Cách khác: Gọi cảng tàu khách hoặc ban quản lý cảng để "
+     "loi": "NẶNG nhận dạng sai: không nhận ra Đảo Tuần Châu",
+     "tra": "Gợi ý nơi đi: đi từ Hà Nội Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Phú Thọ Nên gh"
     },
     {
      "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
      "loi": "CHẶN sai điểm đến: hỏi Hà Nội, trả {\"area\":\"sa-pa\",\"prov\":\"lao-cai\"}",
      "tra": "phần dưới là dữ liệu chung của Lào Cai (viết theo khu Sa Pa). Đi đến Lào Cai Từ TP.HCM · Máy bay SGN–HAN + tàu Hà Nội–Là"
+    },
+    {
+     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Gợi ý nơi đi: tháng 10 · miền Bắc Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Hà Nội "
     },
     {
      "q": "ăn hải sản ở đâu???",
@@ -707,11 +712,11 @@
    ]
   },
   "MOI": {
-   "ok": 64,
+   "ok": 63,
    "n": 161,
    "chan": 49,
    "tuTin": 144,
-   "tuTinDung": 56,
+   "tuTinDung": 55,
    "sai": [
     {
      "q": "Các Bác ơi cho em hỏi, em dự định 14/03 có dự định du lịch 3 ngày 2 đêm. Em đang phân vân ",
@@ -1119,6 +1124,11 @@
      "tra": "Chỗ ở ở Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Giàng (~350.000–400.000đ/phòng/đêm, phòng 3 đệ"
     },
     {
+     "q": "Mình xin thông tin combo nhé shop",
+     "loi": "NẶNG lộ dữ liệu thô: ằng năm (năm 2026: 4/9–2/11). Nguồn: vietnamtourism.com (https://w",
+     "tra": "Vé Lăng Chủ tịch Hồ Chí Minh (Lăng Bác) (Hà Nội): Miễn phí. Giờ: mùa nóng (1/4–31/10) 7:30–10:30 (T7, CN, lễ đến 11:00);"
+    },
+    {
      "q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
      "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
      "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
@@ -1201,9 +1211,9 @@
    ]
   },
   "GOP": {
-   "ok": 129,
+   "ok": 128,
    "n": 161,
-   "chan": 6,
+   "chan": 5,
    "tuTin": 0,
    "tuTinDung": 0,
    "sai": [
@@ -1224,8 +1234,8 @@
     },
     {
      "q": "cháu đi từ HN thì nên đi mấy giờ để đến tuần châu kịp chuyến phà 9-10 h ạ?",
-     "loi": "CHẶN sai điểm đến: hỏi Đảo Tuần Châu, trả {\"prov\":\"ha-noi\"}",
-     "tra": "App chưa có thông tin giờ mở cửa của Hà Nội (tổng quan). Bạn kiểm theo cách này: xem web của Ban quản lý Hà Nội (tổng qu"
+     "loi": "NẶNG nhận dạng sai: không nhận ra Đảo Tuần Châu",
+     "tra": "Gợi ý nơi đi: đi từ Hà Nội Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Phú Thọ Nên gh"
     },
     {
      "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
@@ -1244,8 +1254,8 @@
     },
     {
      "q": "Tháng 10 du lịch ở đâu miền Bắc?",
-     "loi": "NẶNG lộ dữ liệu thô: ái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu ",
-     "tra": "Chỗ ở ở Thái Nguyên (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn tàu du lịch 688 (~500.000–1.000.000đ/đêm (th"
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Gợi ý nơi đi: tháng 10 · miền Bắc Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Hà Nội "
     },
     {
      "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
@@ -1328,6 +1338,11 @@
      "tra": "Chỗ ở ở Lai Châu (theo dữ liệu app + tìm Google 23/11/2026): - Homestay A Giàng (~350.000–400.000đ/phòng/đêm, phòng 3 đệ"
     },
     {
+     "q": "Mình xin thông tin combo nhé shop",
+     "loi": "NẶNG lộ dữ liệu thô: ằng năm (năm 2026: 4/9–2/11). Nguồn: vietnamtourism.com (https://w",
+     "tra": "Vé Lăng Chủ tịch Hồ Chí Minh (Lăng Bác) (Hà Nội): Miễn phí. Giờ: mùa nóng (1/4–31/10) 7:30–10:30 (T7, CN, lễ đến 11:00);"
+    },
+    {
      "q": "Giá này bao gồm vé bay + Ks 3* + sbay 2 chiều?",
      "loi": "NẶNG lộ dữ liệu thô: uối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn",
      "tra": "Vé Du Già (Tuyên Quang): Miễn phí vào cổng thác/suối Du Già theo nhiều nguồn — mâu thuẫn, cần kiểm tại quầy (một nguồn g"
@@ -1367,7 +1382,7 @@
  },
  "48 câu theo vai (đánh giá 24/11)": {
   "CU": {
-   "ok": 43,
+   "ok": 42,
    "n": 48,
    "chan": 2,
    "tuTin": 0,
@@ -1380,13 +1395,18 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
-     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
+     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
      "loi": "NẶNG thiếu nội dung: không có tháng",
      "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
+    },
+    {
+     "q": "đèo mã pí lèng ở đâu",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Đèo Mã Pí Lèng (Tuyên Quang) Giá vé tham khảo: Miễn phí Giờ mở cửa: Ban ngày; đẹp nhất buổi sáng nắng Mùa đẹp: Mùa khu H"
     },
     {
      "q": "hoi an di bang gi tu da nang",
@@ -1570,7 +1590,7 @@
    ]
   },
   "GOP": {
-   "ok": 41,
+   "ok": 40,
    "n": 48,
    "chan": 2,
    "tuTin": 0,
@@ -1583,13 +1603,18 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG không khớp mục đã có: có Biển Mỹ Khê trong dữ liệu nhưng trả fallback",
-     "tra": "App chưa có thông tin này. Chưa có: mục \"gần biển mỹ khê\" trong dữ liệu app. Cách khác: Xem bảng giá niêm yết ở cổng hoặ"
+     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
      "loi": "NẶNG thiếu nội dung: không có tháng",
      "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
+    },
+    {
+     "q": "đèo mã pí lèng ở đâu",
+     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
+     "tra": "Đèo Mã Pí Lèng (Tuyên Quang) Giá vé tham khảo: Miễn phí Giờ mở cửa: Ban ngày; đẹp nhất buổi sáng nắng Mùa đẹp: Mùa khu H"
     },
     {
      "q": "hoi an di bang gi tu da nang",

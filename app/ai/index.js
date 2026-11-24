@@ -165,6 +165,8 @@
     /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
     var gy = A.laGoiY ? A.laGoiY(q, null) : null;
     if (gy) res = { kind: "goiy", html: A.answerGoiY(q, gy) };
+    /* câu hỏi giới thiệu, lịch sử 1 địa danh */
+    if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
     if (!res) res = route(qd, I, rest, null);
     if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
       var last = A.ctx.last(), E = fromCtx(last);
@@ -189,7 +191,14 @@
      Hỏi engine mới trước làm sai câu theo khu/đảo (Phú Quốc, Quy Nhơn, Cát Bà, Kỳ Co trả về dữ liệu cả tỉnh):
      CI 23/11/2026, tests/trinh-duyet.mjs "23 câu trợ lý trong báo cáo 1.014". */
   A.ask = function (q, opt) {
-    var t0 = Date.now(), r = askCu(q, opt);
+    var t0 = Date.now(), r;
+    /* sửa người dùng đã lưu trên máy này (ai-loader.js): hỏi lại đúng câu đó thì hiểu theo nơi đã sửa */
+    var sua = !(opt && opt.noSua) && typeof window.btAiSua === "function" ? window.btAiSua(q) : "";
+    if (sua && A.fold(q).indexOf(A.fold(sua)) < 0) {
+      r = askCu(String(q).replace(/[?.!\s]+$/, "") + " " + sua, opt);
+      if (r && r.kind !== "fallback") { r.html = '<p class="small">Theo sửa bạn đã lưu trên máy này, hiểu là hỏi về ' + A.esc(sua) + '.</p>' + r.html; return r; }
+    }
+    r = askCu(q, opt);
     if (r && r.kind === "fallback" && window.__btaiNew) {
       try {
         var nr = window.__btaiNew.ask(String(q == null ? "" : q).trim());

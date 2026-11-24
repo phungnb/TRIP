@@ -6,7 +6,7 @@ var VER = "bt-v23";
 var CORE = ["/", "/index.html", "/css/style.css", "/manifest.webmanifest", "/chinh-sach/",
   "/data/prov-data.gon.js", "/data/sap-nhap.js", "/data/racehub-places.js", "/data/lam-giau.js", "/data/bo-sung.js", "/data/dia-diem-moi.js", "/data/an-o-moi.js", "/data/gia-tham-khao.js", "/data/trung-tam.js", "/data/khu-vuc.js", "/data/ho-so-khu.js", "/data/anh.js",
   "/js/bao-loi.js", "/js/lam-sach.js",
-  "/ai/hoi-dap.js", "/ai/hoc-them.js", "/ai/de-nham.js", "/ai/chuan-hoa.js", "/ai/y-dinh.js", "/ai/thuc-the.js", "/ai/tra-loi.js", "/ai/goi-y.js", "/ai/ngu-canh.js", "/ai/index.js", "/js/visual.js", "/js/app.js", "/js/tim-kiem.js", "/js/home.js", "/js/theme.js",
+  "/ai/hoi-dap.js", "/ai/hoc-them.js", "/ai/de-nham.js", "/ai/chuan-hoa.js", "/ai/y-dinh.js", "/ai/thuc-the.js", "/ai/tra-loi.js", "/ai/goi-y.js", "/ai/boi-canh.js", "/ai/ngu-canh.js", "/ai/index.js", "/js/visual.js", "/js/app.js", "/js/tim-kiem.js", "/js/home.js", "/js/theme.js",
   "/js/explore-extras.js", "/js/faq.js", "/js/dong-gop.js", "/js/tro-ly.js", "/js/chia-se.js", "/img/icon/icon-192.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(VER).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));

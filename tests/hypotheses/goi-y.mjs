@@ -1,4 +1,4 @@
-/* Bộ thử lớp gợi ý nơi đi theo điều kiện (app/ai/goi-y.js).
+/* Bộ thử lớp suy luận (app/ai/goi-y.js): gợi ý nơi đi theo điều kiện, giới thiệu địa danh, câu hỏi vị trí.
    Mỗi câu: kind mong đợi (mặc định goiy), "mot" = phải có ít nhất 1 tên trong danh sách gợi ý,
    "cam" = không được có tên nào. Đều phải có nút, không dùng câu dự phòng.
    Chạy: node tests/hypotheses/goi-y.mjs */
@@ -23,6 +23,7 @@ for (const c of B) {
     if (c.mot && !L.some(n => c.mot.some(m => n.indexOf(m) >= 0))) e.push("thiếu một trong: " + c.mot.join(", "));
     (c.cam || []).forEach(m => { const x = L.filter(n => n.indexOf(m) >= 0 || (m.endsWith("(") && n === m.slice(0, -2))); if (x.length) e.push("gợi ý nơi cấm: " + x.join(", ")); });
   }
+  (c.phaiCo || []).forEach(m => { if (txt(r.html).indexOf(m) < 0) e.push("thiếu '" + m + "'"); });
   if (/Nguồn:|tìm Google|mâu thuẫn|\bLoai:/.test(txt(r.html))) e.push("lộ ghi chú nguồn");
   if (e.length) loi.push({ q: c.q, e, L }); else ok++;
 }

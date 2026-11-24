@@ -257,6 +257,40 @@
       (note.length ? '<p class="small">' + note.map(esc).join(" ") + '</p>' : '') +
       '<div class="ask-act">' + btns.join("") + '</div>' + chips(nq);
   };
+  /* ---------- Giới thiệu, lịch sử 1 địa danh ----------
+     "lịch sử Hoàng thành Thăng Long", "Chùa Một Cột có gì đặc biệt", "tại sao gọi là Hồ Gươm".
+     Lấy đoạn trích Wikipedia (ai/boi-canh.js, ghi giấy phép), không có thì dùng phần lịch sử trong dữ liệu app. */
+  var GT = /\b(lich su|gioi thieu|co gi dac biet|dac diem|y nghia|tai sao (goi|lai goi|co ten)|vi sao (goi|lai goi|co ten)|ten goi|xay (dung )?(nam|tu|khi|vao|tu nam) ?(nao|bao gio|luc nao)?|ai xay|nguon goc|truyen thuyet|ke ve|thong tin ve|tim hieu ve|la gi|la cai gi|co tu bao gio|co tu khi nao|bao nhieu tuoi|noi tieng vi|noi tieng ve)\b/;
+  var GT_BO = ("lich su|gioi thieu|ve|co gi dac biet|dac diem|y nghia|tai sao|vi sao|goi la|lai goi|co ten|ten goi|xay dung|xay|nam nao|tu nam nao|tu khi nao|khi nao|vao nam nao|bao gio|luc nao|ai|nguon goc|truyen thuyet|ke|thong tin|tim hieu|la gi|la cai gi|co tu|bao nhieu tuoi|noi tieng vi|noi tieng|cua|cho minh|cho toi|hoi|nhe|a|vay|nhi|duoc|nao|dac biet|gi|co|la|duoc xay|nam").split("|").map(function (x) { return x.split(" "); }).sort(function (a, b) { return b.length - a.length; });
+  A.laGioiThieu = function (q) {
+    var f = A.fold(q); if (!GT.test(f)) return null;
+    /* bỏ từ hỏi, giữ tên (có dấu nếu gõ có dấu) */
+    var words = String(q).replace(/[?!.,]/g, " ").split(/\s+/).filter(Boolean), fw = words.map(fold), keep = [];
+    for (var i = 0; i < words.length;) {
+      var n = 0;
+      /* cụm nhiều chữ bỏ ở mọi chỗ; chữ đơn ("cờ", "là", "về") chỉ bỏ ở đầu, cuối để không cắt tên */
+      for (var g = 0; g < GT_BO.length && !n; g++) { var ph = GT_BO[g]; if (ph.length > 1 && ph.every(function (t, j) { return fw[i + j] === t; })) n = ph.length; }
+      if (n) i += n; else keep.push(words[i++]);
+    }
+    var don = {}; GT_BO.forEach(function (ph) { if (ph.length === 1) don[ph[0]] = 1; });
+    while (keep.length && don[fold(keep[0])]) keep.shift();
+    while (keep.length && don[fold(keep[keep.length - 1])]) keep.pop();
+    var name = keep.join(" ").trim(); if (name.length < 3) return null;
+    var it = A.findItem(name, { kinds: ["place"] });
+    if (!it || it.ambiguous || !(it.s >= 90 || it.s >= 70 && (" " + fold(it.best.x.name) + " ").indexOf(" " + fold(name) + " ") >= 0)) return null;
+    return it.best;
+  };
+  A.answerGioiThieu = function (e, q) {
+    var x = e.x, p = e.prov, k = fold(x.name.split(" (")[0]), bc = typeof BT_BOI_CANH !== "undefined" ? BT_BOI_CANH[k] : null, h = "";
+    if (bc) h += '<p>' + esc(bc.t) + '</p><p class="small">Đoạn trên trích Wikipedia tiếng Việt, bài "' + esc(bc.bai) + '", giấy phép CC BY-SA 4.0.</p>';
+    else if (x.history) h += '<p>' + esc(String(x.history).replace(/^Theo một số tư liệu chưa chính thống,\s*/i, "").replace(/^./, function (c) { return c.toUpperCase(); })) + '</p><p class="small">Phần lịch sử tổng hợp từ tư liệu công khai, chưa đối chiếu nguồn chính thống.</p>';
+    if (x.review_m) h += '<p><b>Nhận xét tổng hợp:</b> ' + esc(x.review_m) + '</p>';
+    if (!h) return "";
+    /* hỏi năm xây mà đoạn giới thiệu không có năm, thế kỷ: nói thẳng là chưa có */
+    if (q && /\b(nam nao|bao gio|khi nao|bao nhieu tuoi|co tu)\b/.test(A.fold(q)) && !/\b(1\d{3}|20\d{2}|thế kỷ|thời (Lý|Trần|Lê|Nguyễn))\b/.test(h))
+      h = '<p><b>App chưa có năm xây dựng của ' + esc(x.name.split(" (")[0]) + '.</b> Hỏi ban quản lý di tích hoặc xem bảng giới thiệu tại cổng.</p>' + h;
+    return '<p class="ask-h">Giới thiệu ' + esc(x.name.split(" (")[0]) + ' (' + esc(p.name) + ')</p>' + h + A.answerItem(e, []).replace(/^<p class="ask-h">[^<]*<\/p>/, "");
+  };
   /* lấy lại chữ có dấu từ câu hỏi cho tên hiển thị */
   A.goiYTen = function (q, folded) { var w = String(q).split(/\s+/), n = folded.split(" ").length; for (var i = 0; i + n <= w.length; i++) { var c = w.slice(i, i + n).join(" "); if (fold(c) === folded) return c.toLowerCase(); } return folded; };
   A._goiYUnits = units;

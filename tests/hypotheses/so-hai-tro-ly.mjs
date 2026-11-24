@@ -11,6 +11,10 @@ import { moi } from "./cham.mjs";
 import { APP } from "../nap-du-lieu.mjs";
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
+/* --cong: cổng CI. Engine mới đang tắt (BAT = false trong ai-loader.js) thì bỏ qua.
+   Đang bật thì GOP phải đúng ít nhất bằng CU ở mọi bộ, không thì trượt. */
+const CONG = process.argv.includes("--cong");
+if (CONG && !/var BAT = true;/.test(fs.readFileSync(path.join(APP, "ai/ai-loader.js"), "utf8"))) { console.log("so-sanh: engine mới đang tắt, bỏ qua cổng"); process.exit(0); }
 const IN = (i => i > 0 ? +process.argv[i + 1] : 12)(process.argv.indexOf("--in"));
 const C = moi(), W = C.W, fold = C.fold, main = C.main;
 const cu = W.askBuiTrip;
@@ -87,3 +91,8 @@ for (const [f, ten] of BO) {
   r.MOI.sai.filter(s => /CHẶN|lộ dữ liệu/.test(s.loi)).slice(0, IN).forEach(s => console.log("    MOI: " + s.q + "\n         " + s.loi + "\n         -> " + s.tra));
 }
 fs.writeFileSync(path.join(DIR, "..", "..", "tools", "hoc", "ra-so-hai-tro-ly.json"), JSON.stringify(KQ, null, 1));
+if (CONG) {
+  const tut = Object.entries(KQ).filter(([, r]) => r.GOP.ok < r.CU.ok).map(([t, r]) => t + ": GOP " + r.GOP.ok + " < CU " + r.CU.ok);
+  if (tut.length) { console.log("so-sanh: TRƯỢT cổng, engine mới làm tụt\n  " + tut.join("\n  ")); process.exit(1); }
+  console.log("so-sanh: đạt cổng");
+}
