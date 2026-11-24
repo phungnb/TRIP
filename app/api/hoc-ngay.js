@@ -7,7 +7,7 @@
 const { sql } = require("./_db");
 
 const HOST = { wikipedia_vi: "vi.wikipedia.org", wikipedia_en: "en.wikipedia.org", wikivoyage_vi: "vi.wikivoyage.org", wikivoyage_en: "en.wikivoyage.org" };
-const UA = "BuiTripBot/1.0 (+https://buitrip.vercel.app; hoc-ngay)";
+const UA = "BuiTripBot/1.0 (+https://buitrip.com; hoc-ngay)";
 
 function fold(s) { return String(s || "").toLowerCase().replace(/đ/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim(); }
 /* tên bài phải khớp phần lớn chữ của mục cần học, tránh lấy nhầm bài khác */

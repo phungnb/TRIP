@@ -69,7 +69,7 @@ là tên đặt lại theo nội dung/vai trò.
 
 ## Lưu ý
 
-- App live duy nhất: https://buitrip.vercel.app (Vercel tự triển khai từ nhánh `main`).
+- App live duy nhất: https://buitrip.com (Vercel tự triển khai từ nhánh `main`).
 - Chỗ ở ghi rõ "chưa kiểm chứng / chưa đối tác / chưa thu phí"; chỉ sau kiểm chứng
   mới gắn "Đã kiểm chứng — ngày …". Không nhận đặt phòng, không thu tiền.
 - Việc còn vướng xem `YEU-CAU-CHUYEN-GIA.md`.

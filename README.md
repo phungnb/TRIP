@@ -2,7 +2,7 @@
 
 App web cho người đi tự túc: địa danh, chỗ ở, món ăn, phương tiện, lịch trình mẫu và chi phí, kèm ngày kiểm giá.
 
-- **App:** https://buitrip.vercel.app (Vercel tự triển khai từ nhánh `main`, thư mục gốc `app/`).
+- **App:** https://buitrip.com (Vercel tự triển khai từ nhánh `main`, thư mục gốc `app/`).
 - **Số đếm hiện tại (24/11/2026):** 878 địa danh · 696 chỗ ở · 646 món · 34 tỉnh/thành. Số này đếm sau khi nạp đủ các file dữ liệu của app (xem mục Nguồn dữ liệu), bằng `node tests/du-lieu.mjs`.
 - **Mọi giá là khoảng giá từ nguồn công khai, kèm ngày kiểm.** Chỗ ở chưa kiểm chứng ghi rõ "Chưa kiểm chứng / chưa đối tác / chưa thu phí". Chỗ nào chưa có dữ liệu thì ghi rõ chưa có, không đoán.
 

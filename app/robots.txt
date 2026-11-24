@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
-Sitemap: https://buitrip.vercel.app/sitemap.xml
+Sitemap: https://buitrip.com/sitemap.xml

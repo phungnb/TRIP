@@ -378,6 +378,15 @@
   .fact-more p{ margin:4px 0 0; font-size:var(--fs-cap); color:var(--ink2); line-height:1.5; font-weight:400; }
   /* Nút tròn Lập kế hoạch nhô lên 20 px + nút Hỏi nổi: chừa chỗ để không đè dòng cuối */
   main{ padding-bottom:110px; }
+  /* Chân trang chủ: 34 liên kết tỉnh dạng chữ nhỏ, không khung. Nằm trong <main> nên
+     padding-bottom 110px ở trên đã chừa chỗ cho thanh tab + nút nổi. */
+  .home-tinh{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 12px; margin:32px 2px 0; padding:0 0 12px; }
+  .home-tinh a{ font-size:12.5px; line-height:1.4; color:var(--ink3); text-decoration:none; padding:6px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .home-tinh a:hover, .home-tinh a:focus-visible{ color:var(--ink); text-decoration:underline; }
+  @media (min-width:380px){ .home-tinh{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+  @media (min-width:640px){ .home-tinh{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+  /* Khung app trên desktop chỉ rộng ~560px: 5 cột là vừa, 6 cột cắt chữ "Tuyên Quang" */
+  @media (min-width:900px){ .home-tinh{ grid-template-columns:repeat(5,minmax(0,1fr)); } }
 
 
   /* ================= NỀN TỐI — bảng màu RaceHub (globals.css: bg #0A0D12, surface #121720, brand #B6FF3B) ================= */
