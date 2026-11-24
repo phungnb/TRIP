@@ -123,6 +123,10 @@ function lsGet(k,def){ try{ var v=boNhoTrinhDuyet.getItem(k); return v?JSON.pars
 function lsSet(k,v){ try{ boNhoTrinhDuyet.setItem(k,JSON.stringify(v)); }catch(e){} }
 var trips = lsGet(LS_TRIPS, []);
 var saved = lsGet(LS_SAVED, []); /* [{kind:'place'|'stay'|'dish', id}] */
+/* 24/11/2026: mã trùng giữa các tỉnh được thêm hậu tố tỉnh (vd chua-hang -> chua-hang-thai-nguyen); đổi mục đã lưu theo mã mới */
+(function(){ var DOI={"nui-ham-rong":1,"thanh-nha-mac":1,"chua-hang":1,"lon-cap-nach":1,"thang-co":1,"com-lam":1,"banh-ap-chao":1,"ga-nuong-com-lam":1,"ca-loc-nuong-trui":1,"lau-ca-linh-bong-dien-dien":1,"khach-san-hai-chau":1}, doi=0;
+  saved.forEach(function(x){ if(x&&x.prov&&/^p(place|dish|stay)$/.test(x.kind)&&DOI[x.id]){ x.id=x.id+"-"+x.prov; doi=1; } });
+  if(doi) lsSet(LS_SAVED, saved); })();
 /* Nhãn thời gian viết tắt kiểu số-ngày-số-đêm trong tên chuyến đã lưu từ bản cũ
    được viết lại thành chữ đầy đủ (ví dụ: 3 ngày 2 đêm) ngay khi nạp chuyến,
    để thẻ chuyến cũ lẫn mới đều hiện chữ đầy đủ, không còn viết tắt. */
@@ -999,7 +1003,7 @@ function renderProvDetail(){
   var isDalat=p.id==="lam-dong";
   var hero = isDalat
     ? '<div class="hero"><img src="assets/images/mac-dinh.jpg" alt="Phong cảnh Đà Lạt nhìn từ trên cao" /><div class="veil"></div><div class="cap"><h2>Lâm Đồng</h2><p>'+esc(regionLabel(p.region))+' · Trung tâm: '+esc(p.anchor||"Đà Lạt")+' · Gợi ý '+p.suggested_days+' ngày · Mùa đẹp nhất: '+esc(p.best_season||"")+'</p></div></div>'
-    : '<div class="prov-hero prov-hero-art">'+provPoster(p.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính: TP Đồng Hới · Mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div></div>';
+    : '<div class="prov-hero prov-hero-art">'+provPoster(p.id,0,"prov-hero-bg")+'<div class="prov-hero-in"><h2>'+esc(p.name)+'</h2><p>'+esc(regionLabel(p.region))+' · '+(p.id==="quang-tri"?"Trung tâm hành chính và mốc tính khoảng cách: ":"Trung tâm tham chiếu: ")+esc(p.anchor||p.province)+' · Gợi ý '+p.suggested_days+' ngày</p><p>'+p.places.length+' địa danh · '+p.stays.length+' chỗ ở · '+p.dishes.length+' món ăn · Kiểm dữ liệu '+(p.checked||"06/11/2026")+'</p></div></div>';
   var overviewText = p.overview ? esc(p.overview) : ("Điểm đến "+esc(p.name)+" — trung tâm tham chiếu "+esc(p.anchor||p.province)+". Mùa đẹp nhất: "+esc(p.best_season||"—")+". Dữ liệu dưới đây gồm địa danh theo cụm (kèm điểm mở rộng ở khu vực tỉnh cũ sáp nhập, ghi rõ trong địa chỉ), chỗ ở, món ăn, tuyến đi đến, cách đi lại và lịch trình mẫu Giá là khoảng tham khảo.");
   var isTotal=function(c){ return (c.label||"").toLowerCase().indexOf("tổng")>=0; };
   var nTotals=p.cost.filter(isTotal).length;
@@ -1233,14 +1237,14 @@ function openProvPlace(provId,placeId){
   document.getElementById("itemDetail").innerHTML =
     provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
     (x.banned?'<div class="notebox" style="border-color:#b42318"><b>Không đón khách du lịch.</b> '+esc(x.note||"")+'</div>':"")+
-    '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(prov.checked||"06/11/2026")+'</span>'+'</div>'+
+    '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá — kiểm '+(x.checked||prov.checked||"06/11/2026")+'</span>'+'</div>'+
     '<div class="kv">'+factCell("Giá vé tham khảo",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(x.note||"")+'</div>'+
     provItemActionsHtml("pplace",prov.id,x.id)+
     mReviewHtml(x.review_m, x.review_m_src, x.review_m_date)+
     reviewBoxHtml(reviewKey("place",prov.id,x.id))+
-    '<p class="src">Nguồn: '+esc(x.source||"—")+' · kiểm '+(prov.checked||"06/11/2026")+'. Giá là khoảng giá tham khảo, kiểm lại trước ngày đi.</p></div>';
+    '<p class="src">Nguồn: '+esc(x.source||"—")+' · kiểm '+(x.checked||prov.checked||"06/11/2026")+'. Giá là khoảng giá tham khảo, kiểm lại trước ngày đi.</p></div>';
   show("item-detail");
   setItemTopbar(prov,"Địa danh");
 }
