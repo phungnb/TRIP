@@ -59,8 +59,8 @@
     if(km==null) return {mode:"Hỏi đường tại chỗ",why:"Chưa có khoảng cách trong dữ liệu."};
     if(km<=2) return {mode:"Đi bộ",why:"Gần, đi bộ khoảng "+Math.max(5,Math.round(km*13))+" phút."};
     if(km<=15) return {mode:"Taxi / xe công nghệ, hoặc xe máy thuê",why:"Khoảng "+Math.max(5,Math.round(km/25*60))+" phút trong phố."};
-    if(km<=70) return {mode:"Xe máy thuê hoặc ô tô có tài xế",why:"Khoảng "+fmtDur(km/40)+" đường ngoài phố (ước tính 40 km/h)."};
-    return {mode:"Xe khách / ô tô có tài xế, nên ngủ lại gần đó",why:"Khoảng "+fmtDur(km/50)+" (ước tính 50 km/h). Xa trung tâm, đi về trong ngày rất mệt."};
+    if(km<=70) return {mode:"Xe máy thuê hoặc ô tô có tài xế",why:"Khoảng "+fmtDur(km/40)+" đường ngoài phố."};
+    return {mode:"Xe khách / ô tô có tài xế, nên ngủ lại gần đó",why:"Khoảng "+fmtDur(km/50)+". Xa trung tâm, đi về trong ngày rất mệt."};
   }
   function fmtDur(h){ var m=Math.round(h*60/5)*5; if(m<60) return m+" phút"; var hh=Math.floor(m/60), mm=m%60; return hh+" giờ"+(mm?" "+mm+" phút":""); }
   function localOptions(prov){
@@ -79,7 +79,8 @@
     var opts=localOptions(prov);
     var h='<section class="guide"><h3 class="guide-h">Đi từ '+esc(x.dist_from||prov.anchor||prov.name)+'</h3>'+
       (x.island?'<p class="guide-note"><b>Điểm trên đảo:</b> ra '+esc(x.island)+' bằng máy bay hoặc tàu cao tốc, không đi đường bộ được. Km dưới đây tính trên đảo, từ '+esc(x.island)+'.</p>':'')+
-      '<div class="guide-row"><div class="guide-km"><b>'+(km==null?"—":(km===0?"0":"~"+km))+'</b><span>km</span></div><div><b>'+esc(sg.mode)+'</b><p>'+esc(sg.why)+'</p></div></div>'+
+      /* Ẩn dòng khoảng cách tự tham chiếu (km = 0) khi đang xem chính điểm trung tâm */
+      (km===0?'':'<div class="guide-row"><div class="guide-km"><b>'+(km==null?"—":"~"+km)+'</b><span>km</span></div><div><b>'+esc(sg.mode)+'</b><p>'+esc(sg.why)+'</p></div></div>')+
       (old&&!x.island?'<p class="guide-note">Thuộc khu vực '+esc(old)+' cũ'+(isMerged(prov.id)&&old!==oldList(prov.id)[0]?'. Nếu đi riêng khu này, nên lấy sân bay/bến xe phía '+esc(old)+' làm điểm xuất phát (đang bổ sung dữ liệu).':'.')+'</p>':'')+
       (opts.length?'<div class="guide-opts">'+opts.map(function(o){ return '<div><span>'+esc(o.mode)+'</span><b>'+esc(priceShort(o.price)||o.price||"")+'</b></div>'; }).join("")+'</div>':'')+
       (near.length?'<h4>Gần đó, đi cùng buổi</h4><div class="guide-chips">'+near.map(function(o){ return '<button class="chip" onclick="openProvPlace(\''+prov.id+'\',\''+o.id+'\')">'+esc(o.name.split(" (")[0])+'</button>'; }).join("")+'</div>':'')+
@@ -101,7 +102,7 @@
   function checkinBtn(prov,x){
     var k=prov.id+"|"+x.id, s=load()[k];
     if(s) return '<div class="stamp-done">'+stampIcon(22)+'<div><b>Đã có tem</b><span>Check-in '+new Date(s.t).toLocaleDateString("vi-VN")+'</span></div><button class="btn btn-ghost" onclick="openStampBook()">Sổ tem</button></div>';
-    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được. Tem tỉnh tính khi check-in ở bất kỳ địa danh nào khác của tỉnh. Biết vị trí chính xác, anh/chị bấm Báo thông tin sai để gửi cho đội BuiTrip.</p>';
+    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được. Tem tỉnh tính khi check-in ở bất kỳ địa danh nào khác của tỉnh. Biết vị trí chính xác, anh/chị bấm Gửi đóng góp để gửi cho đội BuiTrip.</p>';
     return '<button class="btn btn-primary btn-block stamp-btn" onclick="doCheckin(\''+prov.id+'\',\''+x.id+'\',this)">'+stampIcon(20)+' Check-in lấy tem</button><p class="notebox small" id="stampMsg" role="status" hidden style="margin:8px 0 0"></p><p class="small" style="margin:6px 0 0">Cần bật vị trí; chỉ tính khi anh/chị đang ở cách điểm này dưới '+(x.approx?'2 km (tọa độ điểm này là ước tính nên nới rộng)':'1 km')+'.</p>';
   }
   /* Báo lỗi ngay dưới nút (không chỉ toast thoáng qua) */
@@ -181,7 +182,7 @@
       '</section>';
   }
   /* Ghi chú chung: thông tin tham khảo */
-  var REF_NOTE='<p class="ref-note">Thông tin tham khảo, có thể lệch so với thực tế (giá, giờ mở cửa, khoảng cách). Kiểm lại trước khi đi; thấy sai thì bấm Báo thông tin sai.</p>';
+  var REF_NOTE='<p class="ref-note">Thông tin tham khảo, có thể lệch so với thực tế (giá, giờ mở cửa, khoảng cách). Kiểm lại trước khi đi; thấy sai thì bấm Gửi đóng góp.</p>';
   window.REF_NOTE=REF_NOTE;
   ["openProvStay","openProvDish"].forEach(function(fn){
     var f=window[fn]; if(typeof f!=="function") return;

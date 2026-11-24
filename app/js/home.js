@@ -123,7 +123,7 @@
     var hot={}; SPOTS.forEach(function(s,k){ if(hot[s.prov]==null) hot[s.prov]=k; });
     list.sort(function(a,b){ return (hot[a.id]!=null?hot[a.id]:99)-(hot[b.id]!=null?hot[b.id]:99); });
     list=list.slice(0,6);
-    var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent="Top "+list.length+" trong "+total+" tỉnh/thành có mùa đẹp rơi vào tháng "+m+" (theo cẩm nang từng tỉnh).";
+    var sub=document.getElementById("homeSeasonSub"); if(sub) sub.textContent="Điểm đến đẹp nhất tháng "+m+".";
     box.innerHTML=list.map(function(p){
       var a=provArt(p.id);
       return '<button class="season" onclick="openProvDetail(\''+p.id+'\')">'+art(a,110,provPhoto(p.id))+'<div class="season-body"><h3>'+esc(p.name)+'</h3><p>Mùa đẹp: '+esc(goodInMonth(p.best_season,m))+'</p></div></button>';

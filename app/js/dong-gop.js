@@ -145,7 +145,7 @@
     var title=it?it.name:(p?p.name:"BuiTrip");
     var provSel=p?'':'<div class="field"><label for="dgProvSel">Tỉnh/thành *</label><select id="dgProvSel" required><option value="">Chọn tỉnh/thành</option>'+(typeof PROV_DATA!=="undefined"?PROV_DATA:[]).map(function(x){ return '<option value="'+esc(x.id)+'">'+esc(x.name)+'</option>'; }).join("")+'</select></div>';
     sheet('<h3 id="dgTitle">Đóng góp: '+esc(title)+'</h3>'+
-      '<p class="muted" style="margin-top:0">'+esc(p?p.name:"")+(it?' · mã '+esc(it.id):'')+'. Bụi Code đọc và kiểm lại trước khi đưa vào app.</p>'+
+      '<p class="muted" style="margin-top:0">'+esc(p?p.name:"")+(it?' · mã '+esc(it.id):'')+'. BuiTrip đọc và kiểm lại trước khi đưa vào app.</p>'+
       '<form class="rv-form" onsubmit="return dgSubmit(event)">'+
       provSel+'<input type="hidden" id="dgProv" value="'+esc(provId||"")+'"><input type="hidden" id="dgItem" value="'+esc(itemId||"")+'"><input type="hidden" id="dgItemName" value="'+esc(it?it.name:"")+'">'+
       '<div class="field"><label for="dgKind">Loại đóng góp</label><select id="dgKind" onchange="dgKindChg()">'+KINDS.map(function(k){ return '<option value="'+k[0]+'"'+(k[0]===kind?" selected":"")+'>'+k[1]+'</option>'; }).join("")+'</select></div>'+
@@ -291,7 +291,7 @@
   }
   window.dgRenderAcct=renderAcct;
 
-  /* Nút "Gửi đóng góp" chèn trước "Báo thông tin sai". chia-se.js nạp SAU tệp này và gán lại reportLinkHtml,
+  /* Nút "Gửi đóng góp" chèn trước "Gửi nhanh (không cần đăng nhập)". chia-se.js nạp SAU tệp này và gán lại reportLinkHtml,
      nên bọc khi trang đã nạp xong mọi script (trước đây bọc ngay lúc nạp nên bị ghi đè, nút không hiện). */
   function wrapReport(){
     if(typeof window.reportLinkHtml!=="function"||window.reportLinkHtml._dg) return;
