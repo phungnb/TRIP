@@ -1,5 +1,5 @@
 /* Sinh app/ai/boi-canh.js: đoạn giới thiệu, bối cảnh lịch sử của địa danh, lấy từ phần "Bối cảnh" (Wikipedia tiếng Việt)
-   mà engine học trước đã gom trong app/ai/kb.json. Chỉ giữ địa danh có trong dữ liệu app, cắt ở câu trọn vẹn cuối cùng.
+   mà engine học trước đã gom trong tools/buitrip-ai/js-port/kb.json. Chỉ giữ địa danh có trong dữ liệu app, cắt ở câu trọn vẹn cuối cùng.
    Văn bản Wikipedia theo giấy phép CC BY-SA 4.0: trợ lý ghi giấy phép dưới đoạn trích, trang /chinh-sach/ ghi rõ.
    Chạy: node tools/tao-boi-canh.mjs  (rồi tăng VER trong app/sw.js) */
 import fs from "node:fs";
@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const fold = s => String(s || "").toLowerCase().replace(/đ/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
 const main = s => String(s || "").split(" (")[0];
-const kb = JSON.parse(fs.readFileSync(path.join(ROOT, "app/ai/kb.json"), "utf8"));
+const kb = JSON.parse(fs.readFileSync(path.join(ROOT, "tools/buitrip-ai/js-port/kb.json"), "utf8"));
 /* tên địa danh trong dữ liệu app: đọc prov-data.js, bo-sung.js… trong vm cho chắc */
 import vm from "node:vm";
 const ctx = { window: {}, console }; ctx.window = ctx; vm.createContext(ctx);

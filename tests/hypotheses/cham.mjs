@@ -173,7 +173,8 @@ function dung(W) {
     if (tg && tg.t === "isle" && ["diden", "tau"].includes(lq)) need(/tàu|ca nô|cano|phà|bay|thuyền/i.test(t), "đảo mà không nói tàu/bay");
     if (lq === "mua") need(/tháng|quanh năm/i.test(t), "không có tháng");
     if (lq === "angi") need(/đ(?![a-zà-ỹ])|\d+k|giá/i.test(t) || /món|đặc sản|ăn gì ở/i.test(t), "không có món");
-    if (lq === "odau") need(/đ(?![a-zà-ỹ])|\d+k|đêm|chưa kiểm được (khoảng )?giá/i.test(t), "chỗ ở không có giá");
+    /* "đèo Mã Pí Lèng ở đâu" là hỏi vị trí địa danh (trả mục item), "tháng 10 du lịch ở đâu" là xin gợi ý nơi đi (goiy): không đòi giá chỗ ở */
+    if (lq === "odau" && res.kind !== "goiy" && !(res.kind === "item" && res.ent && /\|place\|/.test(res.ent.itemKey || ""))) need(/đ(?![a-zà-ỹ])|\d+k|đêm|chưa kiểm được (khoảng )?giá/i.test(t), "chỗ ở không có giá");
     if (lq === "chiphi") need(/đ(?![a-zà-ỹ])|\d+k|triệu|tr\b/i.test(t), "không có chi phí");
     if (lq === "gia" && tg && tg.t === "item") { const pr = String(tg.ref.x.price || ""); const ns = pr.match(/\d{1,3}(?:\.\d{3})+|\d+k/g) || []; need(!ns.length || ns.some(n => t.indexOf(n) >= 0) || /miễn phí|không bán vé|không có vé/i.test(t), "giá không khớp trang chi tiết (" + pr.slice(0, 40) + ")"); }
     if (lq === "gia") need(/đ(?![a-zà-ỹ])|\d+k|miễn phí|không bán vé|không có vé|chưa kiểm|tùy điểm/i.test(t), "không có giá");

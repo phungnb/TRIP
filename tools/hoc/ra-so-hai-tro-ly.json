@@ -653,7 +653,7 @@
  },
  "161 câu thật từ diễn đàn": {
   "CU": {
-   "ok": 150,
+   "ok": 151,
    "n": 161,
    "chan": 1,
    "tuTin": 0,
@@ -683,11 +683,6 @@
      "q": "Hà Nội đi Sa Pa: tàu hỏa, xe khách hay xe máy nhiều ngày",
      "loi": "CHẶN sai điểm đến: hỏi Hà Nội, trả {\"area\":\"sa-pa\",\"prov\":\"lao-cai\"}",
      "tra": "phần dưới là dữ liệu chung của Lào Cai (viết theo khu Sa Pa). Đi đến Lào Cai Từ TP.HCM · Máy bay SGN–HAN + tàu Hà Nội–Là"
-    },
-    {
-     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
-     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
-     "tra": "Gợi ý nơi đi: tháng 10 · miền Bắc Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Hà Nội "
     },
     {
      "q": "ăn hải sản ở đâu???",
@@ -1211,7 +1206,7 @@
    ]
   },
   "GOP": {
-   "ok": 128,
+   "ok": 129,
    "n": 161,
    "chan": 5,
    "tuTin": 0,
@@ -1251,11 +1246,6 @@
      "q": "Cảng quốc tế Ao Tiên nằm ở đâu? Đường đi và các tuyến tàu chạy như thế nào?",
      "loi": "NẶNG lộ dữ liệu thô:  ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc",
      "tra": "Chỗ ở ở Cà Mau (theo dữ liệu app + tìm Google 23/11/2026): - Khách sạn Quốc Tế (~380.000–900.000đ/đêm (một nguồn ghi 22–"
-    },
-    {
-     "q": "Tháng 10 du lịch ở đâu miền Bắc?",
-     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
-     "tra": "Gợi ý nơi đi: tháng 10 · miền Bắc Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Hà Nội "
     },
     {
      "q": "Cho mình hỏi giá vé vào cổng bao nhiêu vậy shop",
@@ -1382,7 +1372,7 @@
  },
  "48 câu theo vai (đánh giá 24/11)": {
   "CU": {
-   "ok": 42,
+   "ok": 43,
    "n": 48,
    "chan": 2,
    "tuTin": 0,
@@ -1395,18 +1385,13 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê",
      "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
      "loi": "NẶNG thiếu nội dung: không có tháng",
      "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
-    },
-    {
-     "q": "đèo mã pí lèng ở đâu",
-     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
-     "tra": "Đèo Mã Pí Lèng (Tuyên Quang) Giá vé tham khảo: Miễn phí Giờ mở cửa: Ban ngày; đẹp nhất buổi sáng nắng Mùa đẹp: Mùa khu H"
     },
     {
      "q": "hoi an di bang gi tu da nang",
@@ -1590,7 +1575,7 @@
    ]
   },
   "GOP": {
-   "ok": 40,
+   "ok": 41,
    "n": 48,
    "chan": 2,
    "tuTin": 0,
@@ -1603,18 +1588,13 @@
     },
     {
      "q": "ở đâu gần biển mỹ khê giá rẻ",
-     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê | NẶNG thiếu nội dung: chỗ ở không có giá",
+     "loi": "NẶNG nhận dạng sai: không nhận ra Biển Mỹ Khê",
      "tra": "Gợi ý nơi đi: biển Xếp theo dữ liệu trong app (mùa đẹp, địa danh, khoảng cách, chi phí ước tính): Quảng Ninh Mùa: Tháng "
     },
     {
      "q": "đà nẵng tháng 12 có mưa không",
      "loi": "NẶNG thiếu nội dung: không có tháng",
      "tra": "Trời mưa ở Đà Nẵng Bảo tàng Điêu khắc Chăm Chợ Hàn – chợ Cồn Núi Thần Tài (Suối khoáng nóng) Mưa Đà Nẵng hay kéo dài cả "
-    },
-    {
-     "q": "đèo mã pí lèng ở đâu",
-     "loi": "NẶNG thiếu nội dung: chỗ ở không có giá",
-     "tra": "Đèo Mã Pí Lèng (Tuyên Quang) Giá vé tham khảo: Miễn phí Giờ mở cửa: Ban ngày; đẹp nhất buổi sáng nắng Mùa đẹp: Mùa khu H"
     },
     {
      "q": "hoi an di bang gi tu da nang",

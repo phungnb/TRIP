@@ -1,34 +1,6 @@
-/* BuiTrip AI mới (học từ phản hồi) — nạp lười khi trang rảnh.
-   Fetch ai/kb.json + ai/ai-model.json + ai/extra.json (~330 KB nén),
-   rồi để ai/index.js hỏi engine mới trước (chỉ khi tự tin), không chắc
-   thì trả về engine cũ. Lỗi mạng / lỗi parse -> im lặng, app chạy như cũ.
-   Không gọi máy chủ ngoài, không key. */
+/* Trợ lý BuiTrip: nạp lười đoạn giới thiệu địa danh, thanh góp ý dưới câu trả lời, học trên máy.
+   Không gọi máy chủ ngoài, không key. Gửi góp ý chỉ khi người dùng bấm gửi (/api/hotro). */
 (function () {
-  /* TẮT 24/11/2026: engine mới làm hỏng 38 câu, cứu 2 câu trên 349 câu kiểm (tests/hypotheses/so-hai-tro-ly.mjs).
-     Bật lại (BAT = true) khi engine mới không còn làm hỏng câu nào trong bộ so sánh. */
-  var BAT = false;
-  var LOADED = false;
-  function loadJSON(url) {
-    return fetch(url).then(function (r) { if (!r.ok) throw new Error(url); return r.json(); });
-  }
-  function boot() {
-    if (!BAT || LOADED || typeof window.BuiTripAI === "undefined") return;
-    LOADED = true;
-    Promise.all([loadJSON("ai/kb.json"), loadJSON("ai/ai-model.json"), loadJSON("ai/extra.json")])
-      .then(function (all) {
-        try {
-          window.__btaiNew = window.BuiTripAI.load(all[0], all[1], all[2]);
-          /* tên mục -> tỉnh, để nút "Mở cẩm nang" trong câu trả lời mới */
-          var byName = {};
-          all[0].forEach(function (e) { if (e.ten && !byName[e.ten]) byName[e.ten] = e.tinh || ""; });
-          window.__btaiProvOf = function (name) { return byName[name] || ""; };
-        } catch (e) { window.__btaiNew = null; }
-      })
-      .catch(function () { window.__btaiNew = null; });
-  }
-  if (typeof window.addEventListener === "function")
-    window.addEventListener("load", function () { setTimeout(boot, 500); });
-
   /* ---- Đoạn giới thiệu địa danh (ai/boi-canh.js, ~97 KB): nạp lười khi trang rảnh ---- */
   function bootBoiCanh() {
     if (typeof BT_BOI_CANH !== "undefined" || !document || !document.createElement) return;

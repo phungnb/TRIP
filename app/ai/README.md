@@ -16,7 +16,7 @@ Gọi từ trang: `askBuiTrip(câu hỏi, { noCtx })` trả `{ html, kind, inten
 | 4–5 | `tra-loi.js` | Lấy dữ liệu thật và ghép câu trả lời, hoặc trả câu dự phòng 3 phần |
 | 4 | `goi-y.js` | Suy luận trên dữ liệu: gợi ý nơi đi theo tháng, chủ đề, đối tượng, mát/ấm, vùng, nơi đi, số ngày, ngân sách; giới thiệu, lịch sử địa danh |
 | | `boi-canh.js` | Đoạn trích Wikipedia (CC BY-SA 4.0) cho 294 địa danh, nạp lười. Sinh bởi `tools/tao-boi-canh.mjs` |
-| | `ai-loader.js` | Thanh Đúng/Chưa đúng dưới mọi câu trả lời, học trên máy, gửi góp ý (`tools/hoc/README.md`). Engine học trước (`buitrip-ai-bundle.js`) đang tắt (`BAT = false`); cổng `tests/hypotheses/so-hai-tro-ly.mjs --cong` chặn bật lại khi nó làm tụt câu đúng |
+| | `ai-loader.js` | Nạp lười `boi-canh.js`; thanh Đúng/Chưa đúng dưới mọi câu trả lời, học trên máy, gửi góp ý (`tools/hoc/README.md`). Engine TF-IDF học trước đã gỡ khỏi app, mã ở `tools/buitrip-ai/`, so sánh bằng `npm run so-sanh` |
 | 6 | `ngu-canh.js` | Nhớ 3 lượt hỏi gần nhất cho câu nối tiếp ("thế ăn gì"); "Hỏi lại từ đầu" xóa |
 | | `index.js` | Nối các bước, chọn nhánh trả lời |
 

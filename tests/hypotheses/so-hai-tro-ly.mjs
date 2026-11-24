@@ -1,6 +1,6 @@
 /* So hai trợ lý trên cùng bộ câu, cùng bộ chấm (cham.mjs):
    - CU:  engine luật (app/ai/*.js), như khi engine mới chưa nạp.
-   - MOI: engine BuiTrip AI (ai/buitrip-ai-bundle.js + kb.json, ai-model.json, extra.json), luôn lấy câu trả lời của nó.
+   - MOI: engine học trước (tools/buitrip-ai/js-port: bundle + kb.json, ai-model.json, extra.json, đã gỡ khỏi app 24/11/2026), luôn lấy câu trả lời của nó.
    - GOP: như app đang chạy: engine cũ trước, engine mới chỉ khi cũ ra dự phòng và mới tự tin (confidence ≥ 0.9, score ≥ 0.3).
    Chạy: node tests/hypotheses/so-hai-tro-ly.mjs [--in 15] */
 import fs from "node:fs";
@@ -11,10 +11,6 @@ import { moi } from "./cham.mjs";
 import { APP } from "../nap-du-lieu.mjs";
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
-/* --cong: cổng CI. Engine mới đang tắt (BAT = false trong ai-loader.js) thì bỏ qua.
-   Đang bật thì GOP phải đúng ít nhất bằng CU ở mọi bộ, không thì trượt. */
-const CONG = process.argv.includes("--cong");
-if (CONG && !/var BAT = true;/.test(fs.readFileSync(path.join(APP, "ai/ai-loader.js"), "utf8"))) { console.log("so-sanh: engine mới đang tắt, bỏ qua cổng"); process.exit(0); }
 const IN = (i => i > 0 ? +process.argv[i + 1] : 12)(process.argv.indexOf("--in"));
 const C = moi(), W = C.W, fold = C.fold, main = C.main;
 const cu = W.askBuiTrip;
@@ -22,8 +18,9 @@ const cu = W.askBuiTrip;
 /* nạp engine mới trong vm */
 const ctx = { console, Math, JSON, Date, String, Number, Array, Object, RegExp, Set, Map, Infinity, parseFloat, parseInt, isNaN };
 ctx.window = ctx; ctx.self = ctx; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(APP, "ai/buitrip-ai-bundle.js"), "utf8"), ctx);
-const J = f => JSON.parse(fs.readFileSync(path.join(APP, "ai", f), "utf8"));
+const JP = path.join(DIR, "..", "..", "tools", "buitrip-ai", "js-port");
+vm.runInContext(fs.readFileSync(path.join(JP, "buitrip-ai-bundle.js"), "utf8"), ctx);
+const J = f => JSON.parse(fs.readFileSync(path.join(JP, f), "utf8"));
 const kb = J("kb.json");
 const NEW = ctx.BuiTripAI.load(kb, J("ai-model.json"), J("extra.json"));
 const tinhOf = {}; kb.forEach(e => { if (e.ten && !(e.ten in tinhOf)) tinhOf[e.ten] = e.tinh || ""; });
@@ -91,8 +88,3 @@ for (const [f, ten] of BO) {
   r.MOI.sai.filter(s => /CHẶN|lộ dữ liệu/.test(s.loi)).slice(0, IN).forEach(s => console.log("    MOI: " + s.q + "\n         " + s.loi + "\n         -> " + s.tra));
 }
 fs.writeFileSync(path.join(DIR, "..", "..", "tools", "hoc", "ra-so-hai-tro-ly.json"), JSON.stringify(KQ, null, 1));
-if (CONG) {
-  const tut = Object.entries(KQ).filter(([, r]) => r.GOP.ok < r.CU.ok).map(([t, r]) => t + ": GOP " + r.GOP.ok + " < CU " + r.CU.ok);
-  if (tut.length) { console.log("so-sanh: TRƯỢT cổng, engine mới làm tụt\n  " + tut.join("\n  ")); process.exit(1); }
-  console.log("so-sanh: đạt cổng");
-}
