@@ -40,11 +40,11 @@ try {
     PROV_DATA.forEach(pr => [["places", openProvPlace], ["stays", openProvStay], ["dishes", openProvDish]].forEach(([k, fn]) => pr[k].forEach(x => {
       fn(pr.id, x.id); n++;
       const v = document.querySelector("#view-item-detail");
-      if (!v || ![...v.querySelectorAll("a,button")].some(a => a.textContent.trim() === "Gửi nhanh (không cần đăng nhập)")) thieu.push(pr.id + "/" + x.id);
+      if (!v || ![...v.querySelectorAll("a,button")].some(a => a.textContent.trim() === "Đóng góp / Báo sai")) thieu.push(pr.id + "/" + x.id);
     })));
     return { n, thieu: thieu.slice(0, 5), soThieu: thieu.length };
   });
-  ok(r.soThieu === 0, "Mở " + r.n + " trang chi tiết, đều có nút Gửi nhanh (không cần đăng nhập)" + (r.soThieu ? " (thiếu: " + r.thieu.join(", ") + ")" : ""));
+  ok(r.soThieu === 0, "Mở " + r.n + " trang chi tiết, đều có nút Đóng góp / Báo sai" + (r.soThieu ? " (thiếu: " + r.thieu.join(", ") + ")" : ""));
 
   /* Trang tỉnh: mọi tab mở được, không hiện chữ "Nguồn:" */
   for (const id of ["ha-noi", "lam-dong", "gia-lai", "ca-mau"]) {
