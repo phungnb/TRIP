@@ -82,8 +82,14 @@
           <input id="searchInput" type="search" placeholder="Đi đâu? Hạ Long, Hội An, phở…" autocomplete="off" aria-label="Tìm điểm đến, địa danh, món ăn" />
           <button type="button" class="search-go" id="searchGo">Tìm</button>
         </div>
-        <div id="searchResults" style="margin-top:12px"></div>
+        <div class="chiprow" id="searchKindChips" style="display:none;margin-top:10px">
+          <button class="chip on" data-sk="all" onclick="setSearchKind('all')">Tất cả</button>
+          <button class="chip" data-sk="diden" onclick="setSearchKind('diden')">Đi đâu</button>
+          <button class="chip" data-sk="an" onclick="setSearchKind('an')">Ăn gì</button>
+          <button class="chip" data-sk="o" onclick="setSearchKind('o')">Ở đâu</button>
+        </div>
       </div>
+      <div id="searchResults" style="margin-top:12px"></div>
       <div class="home-curated">
         <div id="homeStampTeaser" style="margin-top:12px"></div>
         <p class="home-def">Đủ đi đâu, ở đâu, ăn gì, hết bao nhiêu: giá ghi khoảng kèm ngày kiểm, chỗ ở kèm số điện thoại khi tra được, lịch trình mẫu 2–4 ngày.</p>
@@ -161,7 +167,7 @@
             <input id="wOriginInput" type="text" placeholder="Bạn xuất phát từ đâu?" autocomplete="off" />
             <div class="ac-list" id="wOriginAc"></div>
           </div>
-          <p class="small" style="margin:-4px 0 12px">Để trống điểm xuất phát thì tính từ TP.HCM — tuyến có đủ dữ liệu nhất (xe khách, limousine, máy bay).</p>
+          <p class="small" style="margin:-4px 0 12px">Để trống điểm xuất phát thì tổng ước tính chưa gồm vé di chuyển — gõ TP.HCM, Hà Nội hoặc Đà Nẵng để xem đủ.</p>
           <div class="listcol" id="wDestList"></div>
         </div>
         <div class="wstep" data-wstep="2">
@@ -196,10 +202,6 @@
             </div>
             <button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="planAddItem()">+ Thêm vào ngày đã chọn</button>
           </div>
-        </div>
-        <div class="wiz-actions" style="display:flex;gap:10px;margin-top:18px">
-          <button class="btn btn-ghost" id="wBack" style="flex:0 0 110px;visibility:hidden" onclick="planMove(-1)">Quay lại</button>
-          <button class="btn btn-primary" id="wNext" style="flex:1" onclick="planMove(1)">Tiếp tục</button>
         </div>
       </div>
     </section>
@@ -249,7 +251,7 @@
             <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </a>
         </div>
-        <p class="sec-sub" style="margin-top:8px">Trong mỗi địa danh, chỗ ở, món ăn có nút "Gửi nhanh (không cần đăng nhập)" soạn sẵn thư.</p>
+        <p class="sec-sub" style="margin-top:8px">Trong mỗi địa danh, chỗ ở, món ăn có nút "Đóng góp / Báo sai" để báo sai hoặc gợi ý thêm mới, không cần đăng nhập.</p>
         <h2 class="sec-title">Đã lưu</h2>
         <p class="sec-sub">Địa danh, chỗ ở và món ăn anh/chị đã bấm tim lưu lại.</p>
         <div id="savedWrap"></div>
@@ -278,6 +280,12 @@
     <!-- ============ CÂU HỎI THƯỜNG GẶP ============ -->
     <section class="view" id="view-faq"><div class="pad" id="faqRoot"></div></section>
   </main>
+
+  <!-- Thanh nút wizard: nằm ngoài vùng cuộn, luôn ở đáy khung, không đè danh sách -->
+  <div class="wiz-actions" id="wizActionsBar" style="display:none">
+    <button class="btn btn-ghost" id="wBack" style="flex:0 0 110px;visibility:hidden" onclick="planMove(-1)">Quay lại</button>
+    <button class="btn btn-primary" id="wNext" style="flex:1" onclick="planMove(1)">Tiếp tục</button>
+  </div>
 
   <nav class="tabbar" aria-label="Điều hướng chính">
     <button data-tab="explore" class="active">

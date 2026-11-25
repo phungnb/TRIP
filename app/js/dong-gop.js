@@ -210,6 +210,120 @@
     return false;
   };
 
+  /* ---------- form đóng góp mở (không cần đăng nhập) -> tự mở Pull Request ----------
+     Gửi về /api/dong-gop (Vercel serverless): server kiểm hợp lệ, vá prov-data.js,
+     sinh lại prov-data.gon.js và mở PR trên GitHub. Admin chỉ cần bấm Merge. */
+  function parseMapsLink(url){
+    var u=String(url||"").trim(); if(!u) return null;
+    var m=u.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/)||u.match(/[?&]q=(-?\d+\.\d+),(-?\d+\.\d+)/)||u.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
+    if(!m) return null;
+    var lat=Number(m[1]), lng=Number(m[2]);
+    if(!(lat>=8&&lat<=24&&lng>=102&&lng<=118)) return null;
+    return {lat:lat,lng:lng};
+  }
+  window.dgPRMaps=function(el){
+    var st=document.getElementById(el.id+"St"); if(!st) return;
+    var c=parseMapsLink(el.value);
+    st.textContent=c?("Đã tách được tọa độ: "+c.lat+", "+c.lng):(el.value.trim()?"Chưa tách được tọa độ từ link này — dán link Google Maps dạng …/@vĩ-độ,kinh-độ,… hoặc bấm Chia sẻ → Sao chép liên kết trong Google Maps.":"");
+  };
+  window.dgPRMode=function(mode){
+    var b=document.getElementById("prMode"); if(b) b.value=mode;
+    ["bao-sai","them-moi"].forEach(function(m){
+      var sec=document.getElementById("prSec_"+m); if(!sec) return;
+      sec.hidden=(m!==mode);
+      /* ô ở mục đang ẩn phải disabled, nếu không trình duyệt chặn submit vì
+         trường required trống không focus được ("invalid form control") */
+      var ctrls=sec.querySelectorAll("input,select,textarea");
+      for(var i=0;i<ctrls.length;i++) ctrls[i].disabled=(m!==mode);
+      var chip=document.getElementById("prChip_"+m); if(chip) chip.classList.toggle("on",m===mode);
+    });
+  };
+  window.dgOpenPR=function(provId,itemId,kind){ openPRForm(provId||"",itemId||"",kind||""); };
+  function openPRForm(provId,itemId,kind){
+    var p=typeof provById==="function"?provById(provId):null, it=findItem(provId,itemId);
+    var mode=(itemId&&it)?"bao-sai":"them-moi";
+    var kindApi={pplace:"place",pdish:"dish",pstay:"stay"}[kind]||"place";
+    var provOpts=(typeof PROV_DATA!=="undefined"?PROV_DATA:[]).map(function(x){ return '<option value="'+esc(x.id)+'"'+(x.id===provId?" selected":"")+'>'+esc(x.name)+'</option>'; }).join("");
+    sheet('<h3 id="dgTitle">'+esc(it?("Đóng góp / Báo sai: "+it.name):"Đóng góp / Báo sai")+'</h3>'+
+      '<p class="muted" style="margin-top:0">'+(it?esc(p?p.name:"")+' · mã '+esc(it.id)+' · thông tin sai sẽ được kiểm lại trước khi đưa vào app.':'Gợi ý thêm địa danh, món ăn hoặc chỗ ở mới — BuiTrip kiểm lại rồi đưa vào app.')+'</p>'+
+      (it?'<div class="chiprow" style="margin-bottom:12px"><button type="button" class="chip on" id="prChip_bao-sai" onclick="dgPRMode(\'bao-sai\')">Báo sai mục này</button><button type="button" class="chip" id="prChip_them-moi" onclick="dgPRMode(\'them-moi\')">Thêm mới</button></div>':'')+
+      '<form class="rv-form" onsubmit="return dgPRSubmit(event)">'+
+      '<input type="hidden" id="prMode" value="'+mode+'">'+
+      '<input type="hidden" id="prProv" value="'+esc(provId)+'"><input type="hidden" id="prItem" value="'+esc(itemId)+'"><input type="hidden" id="prKind" value="'+esc(kindApi)+'">'+
+      '<input type="text" name="website" id="prHoney" style="display:none" tabindex="-1" autocomplete="off">'+
+      '<div id="prSec_bao-sai"'+(mode==="bao-sai"?"":" hidden")+'>'+
+        '<div class="field"><label for="prBField">Mục cần sửa</label><select id="prBField">'+FIELDS.map(function(f){ return '<option value="'+f[0]+'">'+f[1]+'</option>'; }).join("")+'</select></div>'+
+        '<div class="field"><label for="prBValue">Thông tin đúng là *</label><textarea id="prBValue" rows="4" maxlength="1000" placeholder="Vd: Giá vé đúng là 50.000đ/người lớn (bảng giá ở cổng, chụp 25/11/2026)"></textarea></div>'+
+        '<div class="field"><label for="prBMaps">Link Google Maps (không bắt buộc — để tách tọa độ nếu báo sai địa chỉ)</label><input id="prBMaps" type="url" maxlength="500" placeholder="https://maps.google.com/…" oninput="dgPRMaps(this)"><p class="small" id="prBMapsSt" style="margin:4px 0 0"></p></div>'+
+      '</div>'+
+      '<div id="prSec_them-moi"'+(mode==="them-moi"?"":" hidden")+'>'+
+        '<div class="field"><label for="prNKind">Thêm gì *</label><select id="prNKind"><option value="place">Địa danh mới</option><option value="dish">Món ăn / quán ăn mới</option><option value="stay">Chỗ ở mới</option></select></div>'+
+        '<div class="field"><label for="prNProv">Tỉnh/thành *</label><select id="prNProv" required><option value="">Chọn tỉnh/thành</option>'+provOpts+'</select></div>'+
+        '<div class="field"><label for="prNName">Tên *</label><input id="prNName" maxlength="160" required></div>'+
+        '<div class="field"><label for="prNAddr">Địa chỉ</label><input id="prNAddr" maxlength="300"></div>'+
+        '<div class="field"><label for="prNPrice">Giá tham khảo</label><input id="prNPrice" maxlength="200" placeholder="Vd: 150.000–400.000đ/người"></div>'+
+        '<div class="field"><label for="prNHours">Giờ mở cửa</label><input id="prNHours" maxlength="200" placeholder="Vd: 07:00–17:30"></div>'+
+        '<div class="field"><label for="prNMaps">Link Google Maps (bắt buộc với địa danh mới)</label><input id="prNMaps" type="url" maxlength="500" placeholder="https://maps.google.com/…" oninput="dgPRMaps(this)"><p class="small" id="prNMapsSt" style="margin:4px 0 0"></p><p class="small muted" style="margin:4px 0 0">Địa danh mới cần link Google Maps để lấy tọa độ. Món ăn / chỗ ở có thể để trống.</p></div>'+
+        '<div class="field"><label for="prNNote">Vì sao nên đi / ghi chú</label><textarea id="prNNote" rows="3" maxlength="1000"></textarea></div>'+
+      '</div>'+
+      '<div class="field"><label for="prName">Tên của anh/chị (để ghi công trong Pull Request)</label><input id="prName" maxlength="60" placeholder="Vd: Nguyễn Văn A"></div>'+
+      '<div id="prMsg"></div>'+
+      '<div class="row"><button class="btn btn-ghost" type="button" onclick="dgClose()">Hủy</button><button class="btn btn-primary" type="submit">Gửi đóng góp</button></div></form>'+
+      '<p class="small" style="margin-top:10px">Không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request trên GitHub — Admin bấm Merge là lên site. Lưu ý: đóng góp qua kênh này không hiện trong “Đóng góp của tôi” (chỉ theo dõi bằng link Pull Request nhận được sau khi gửi).</p>');
+    window.dgPRMode(mode);
+  }
+  window.dgPRSubmit=function(ev){
+    ev.preventDefault();
+    var mode=document.getElementById("prMode").value;
+    var honey=(document.getElementById("prHoney")||{}).value||"";
+    if(honey){ /* bẫy spam: bot điền ô ẩn thì báo thành công giả, không gửi gì */
+      sheet('<h3 id="dgTitle">Đã nhận đóng góp</h3><p>Cảm ơn anh/chị.</p><button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>');
+      return false;
+    }
+    var payload={mode:mode, contributor:(document.getElementById("prName").value||"").trim()||null, website:""};
+    var msgEl=document.getElementById("prMsg");
+    function fail(m){ msgEl.innerHTML=errBox(m); var b=ev.target.querySelector('[type=submit]'); b.disabled=false; b.textContent="Gửi đóng góp"; return false; }
+    if(mode==="bao-sai"){
+      payload.kind=document.getElementById("prKind").value;
+      payload.prov_id=document.getElementById("prProv").value;
+      payload.item_id=document.getElementById("prItem").value;
+      payload.field=document.getElementById("prBField").value;
+      payload.value=(document.getElementById("prBValue").value||"").trim();
+      payload.maps_url=(document.getElementById("prBMaps").value||"").trim()||null;
+      if(payload.value.length<3) return fail("Nội dung quá ngắn — ghi rõ thông tin đúng là gì.");
+      var c=payload.maps_url?parseMapsLink(payload.maps_url):null;
+      if(payload.maps_url&&!c) return fail("Chưa tách được tọa độ từ link Google Maps — kiểm tra lại link.");
+      if(c){ payload.lat=c.lat; payload.lng=c.lng; }
+    } else {
+      payload.kind=document.getElementById("prNKind").value;
+      payload.prov_id=document.getElementById("prNProv").value;
+      payload.name=(document.getElementById("prNName").value||"").trim();
+      payload.address=(document.getElementById("prNAddr").value||"").trim()||null;
+      payload.price=(document.getElementById("prNPrice").value||"").trim()||null;
+      payload.hours=(document.getElementById("prNHours").value||"").trim()||null;
+      payload.note=(document.getElementById("prNNote").value||"").trim()||null;
+      payload.maps_url=(document.getElementById("prNMaps").value||"").trim()||null;
+      if(!payload.prov_id) return fail("Chọn tỉnh/thành.");
+      if(payload.name.length<2) return fail("Tên quá ngắn.");
+      var c2=payload.maps_url?parseMapsLink(payload.maps_url):null;
+      if(payload.maps_url&&!c2) return fail("Chưa tách được tọa độ từ link Google Maps — kiểm tra lại link.");
+      if(payload.kind==="place"&&!c2) return fail("Địa danh mới cần link Google Maps để lấy tọa độ (bấm Chia sẻ → Sao chép liên kết trong Google Maps).");
+      if(c2){ payload.lat=c2.lat; payload.lng=c2.lng; }
+    }
+    var btn=ev.target.querySelector('[type=submit]'); btn.disabled=true; btn.textContent="Đang gửi…";
+    fetch("/api/dong-gop",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)}).then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(j){ return {status:r.status,body:j}; });
+    }).then(function(res){
+      if(res.status===503){
+        sheet('<h3 id="dgTitle">Tính năng đang chờ bật</h3><p>Admin chưa bật kênh đóng góp tự động (thiếu token GitHub trên máy chủ). Trong lúc chờ, anh/chị gửi qua mục Hỗ trợ của nút Hỏi — đội BuiTrip nhận và nhập tay.</p><div class="row"><button class="btn btn-ghost" onclick="dgClose();if(window.tlOpen)tlOpen(\'ht\')">Mở mục Hỗ trợ</button><button class="btn btn-primary" onclick="dgClose()">Đóng</button></div>');
+        return;
+      }
+      if(res.status!==200||!res.body||!res.body.ok) throw new Error((res.body&&res.body.error)||"Chưa gửi được, thử lại sau.");
+      sheet('<h3 id="dgTitle">Đã gửi — Pull Request đã mở</h3><p>Cảm ơn anh/chị. Đóng góp đã thành <a href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Pull Request #'+esc(String(res.body.pr_number))+' trên GitHub</a>. Admin bấm Merge là nội dung lên site. Lưu lại link này để theo dõi.</p><div class="row"><a class="btn btn-primary" href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Xem Pull Request</a><button class="btn btn-ghost" onclick="dgClose()">Đóng</button></div>');
+    }).catch(function(e){ fail(e.message||"Chưa gửi được, thử lại sau."); });
+    return false;
+  };
+
   /* ---------- đóng góp của tôi ---------- */
   window.dgMine=function(){
     if(!me) return needLogin({t:"mine"});
@@ -222,7 +336,7 @@
         return '<div class="dg-item"><div class="dg-top"><b>'+esc(x.place_name||(p?p.name:x.prov_id))+'</b><span class="dg-st st-'+esc(x.status)+'">'+esc(ST[x.status]||x.status)+'</span></div>'+
           '<p class="small">'+esc(lbl(KINDS,x.kind))+(x.field?' · '+esc(lbl(FIELDS,x.field)):'')+' · '+esc(fmtTime(x.created_at))+'</p><p>'+esc(x.value)+'</p>'+
           (x.review_note?'<p class="small"><b>Phản hồi:</b> '+esc(x.review_note)+'</p>':'')+'</div>';
-      }).join("")+'</div>':'<p class="muted">Chưa có đóng góp nào. Mở một địa danh, bấm "Gửi đóng góp" để bắt đầu.</p>')+
+      }).join("")+'</div>':'<p class="muted">Chưa có đóng góp nào qua tài khoản. Đóng góp mới qua nút “Đóng góp / Báo sai” sẽ mở Pull Request công khai trên GitHub.</p>')+
       '<button class="btn btn-ghost btn-block" style="margin-top:12px" onclick="dgClose()">Đóng</button>');
     }).catch(function(e){ sheet('<h3 id="dgTitle">Đóng góp của tôi</h3>'+errBox(e.message)+'<button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>'); });
   };
@@ -281,7 +395,7 @@
       b.textContent=me.name||me.email||"Đã đăng nhập";
       if(av){ av.textContent=String(me.name||me.email||"?").trim().charAt(0).toUpperCase(); av.classList.add("has-name"); }
       p.textContent=(me.email||"")+" · Chuyến đi và mục đã lưu vẫn giữ trong trình duyệt này.";
-      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgContribute(\'\',null,\'dia_danh_moi\')">Gửi đóng góp mới</button><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<a class="btn btn-primary" href="#/admin">Trang admin</a><button class="btn btn-ghost" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
+      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgOpenPR(\'\',null,\'\')">Gửi đóng góp mới</button><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<a class="btn btn-primary" href="#/admin">Trang admin</a><button class="btn btn-ghost" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
     } else {
       b.textContent="Chưa đăng nhập";
       if(av && av._svg){ av.innerHTML=av._svg; av.classList.remove("has-name"); }
@@ -291,14 +405,16 @@
   }
   window.dgRenderAcct=renderAcct;
 
-  /* Nút "Gửi đóng góp" chèn trước "Gửi nhanh (không cần đăng nhập)". chia-se.js nạp SAU tệp này và gán lại reportLinkHtml,
-     nên bọc khi trang đã nạp xong mọi script (trước đây bọc ngay lúc nạp nên bị ghi đè, nút không hiện). */
+  /* Nút đóng góp duy nhất: ghi đè reportLinkHtml (cả bản dự phòng app.js lẫn bản chia-se.js)
+     thành 1 nút "Đóng góp / Báo sai" mở form tự mở Pull Request, không cần đăng nhập.
+     Form đóng góp cũ (cần đăng nhập, lưu Neon) vẫn giữ trong file cho admin/theo dõi,
+     nhưng không còn đường vào từ giao diện. */
   function wrapReport(){
-    if(typeof window.reportLinkHtml!=="function"||window.reportLinkHtml._dg) return;
-    var _rep=window.reportLinkHtml;
+    if(typeof window.dgOpenPR!=="function"||typeof window.reportLinkHtml!=="function"||window.reportLinkHtml._dg) return;
     var f=function(kind,provId,itemId){
-      var base=_rep(kind,provId,itemId); if(!base) return base;
-      return '<button class="btn btn-primary btn-block dg-btn" style="margin-top:10px" onclick="dgContribute(\''+esc(provId)+'\',\''+esc(itemId)+'\')">Gửi đóng góp</button><p class="small" style="margin:4px 0 0">Sửa giá, giờ, địa chỉ hoặc gợi ý món, chỗ ở, phương tiện mới. Cần đăng nhập, theo dõi được trạng thái duyệt.</p>'+base;
+      if(typeof provById==="function"&&!provById(provId)) return "";
+      return '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="dgOpenPR(\''+esc(provId)+'\',\''+esc(itemId)+'\',\''+esc(kind)+'\')">Đóng góp / Báo sai</button>'+
+        '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request để đưa vào app.</p>';
     };
     f._dg=1; window.reportLinkHtml=f;
     try{ reportLinkHtml=f; }catch(e){}

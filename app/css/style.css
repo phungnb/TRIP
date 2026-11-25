@@ -53,9 +53,6 @@
   .view{ display:none; }
   .view.active{ display:block; }
   .pad{ padding:16px; }
-  /* Wizard: chừa chỗ dưới cùng để thanh nút dính (sticky) không đè mất mục cuối
-     (thẻ chọn tỉnh Bước 1, "Đi một mình" Bước 3, nội dung Ngày 1 Bước 4) */
-  #view-plan .pad{ padding-bottom:110px; }
   .sec-title{ font-size:var(--fs-h2); font-weight:800; margin:22px 0 4px; }
   .sec-sub{ font-size:var(--fs-cap); color:var(--ink2); margin:0 0 12px; line-height:1.5; }
   .muted{ color:var(--ink2); font-size:var(--fs-cap); line-height:1.55; }
@@ -77,8 +74,8 @@
   /* Nút xóa nhanh (x) trong ô nhập điểm đến của wizard */
   .ac-clear{ position:absolute; right:8px; top:50%; transform:translateY(-50%); width:28px; height:28px; border:0; border-radius:50%; background:var(--surface2); color:var(--ink2); font-size:18px; line-height:1; cursor:pointer; display:none; align-items:center; justify-content:center; }
   .ac-clear.show{ display:flex; }
-  /* Ghim nút Tiếp tục / Quay lại ở đáy wizard, ngay trên thanh điều hướng */
-  .wiz-actions{ position:sticky; bottom:0; z-index:20; background:var(--bg); padding:12px 0 6px; }
+  /* Thanh nút wizard ở đáy khung (ngoài vùng cuộn): luôn ở dưới cùng, không đè danh sách */
+  .wiz-actions{ flex:0 0 auto; display:flex; gap:10px; background:var(--surface); border-top:1px solid var(--line); padding:12px 16px calc(10px + env(safe-area-inset-bottom)); z-index:50; }
   .ac-item{ display:flex; width:100%; align-items:center; gap:10px; text-align:left; border:0; border-bottom:1px solid var(--line); background:var(--surface); padding:11px 12px; font-size:var(--fs-body); }
   .ac-item:last-child{ border-bottom:0; }
   .ac-item b{ display:block; font-size:var(--fs-body); }
@@ -123,7 +120,8 @@
   /* nút Đi — hành động chính trên thẻ chuyến */
   .btn-go{ width:100%; border:0; border-radius:12px; background:var(--accent-d); color:var(--on-accent); font-size:var(--fs-h2); font-weight:800; letter-spacing:.02em; padding:13px 18px; box-shadow:0 4px 14px rgba(15,118,110,.38); display:flex; align-items:center; justify-content:center; }
   .btn-go:active{ transform:scale(.99); }
-  .trip-card-foot{ padding:2px 14px 14px; }
+  .trip-card-foot{ padding:2px 14px 14px; display:flex; gap:8px; align-items:stretch; }
+  .trip-card-foot .btn-go{ flex:1; width:auto; }
   .badge-ongoing{ background:var(--accent); color:var(--on-accent); }
   .badge-upcoming{ background:var(--accent-soft); color:var(--accent-d); }
   .today-hero{ background:var(--accent); color:var(--on-accent); border-radius:var(--r-lg); padding:16px; margin-bottom:12px; box-shadow:0 6px 18px rgba(15,118,110,.28); }
@@ -383,7 +381,7 @@
   /* đang tìm: thu slide để kết quả lên ngay dưới ô tìm */
   #view-explore.searching .hs{ display:none; }
   /* Khi đang tìm: ghim ô tìm ở đầu danh sách kết quả, không tự cuộn khuất */
-  #view-explore.searching .home-search{ position:sticky; top:0; z-index:20; margin:0 16px; padding:10px 0; background:var(--bg); }
+  #view-explore.searching .home-search{ position:sticky; top:63px; z-index:20; margin:0 16px; padding:10px 0; background:var(--bg); }
 
   /* ================= QUY CHUẨN CHUNG VỚI RACEHUB ================= */
   /* Vùng chạm tối thiểu 44 px cho mọi nút/chip/tab (RaceHub frontend.md §4.2) */
