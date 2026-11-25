@@ -163,6 +163,7 @@
     if(!inp||!v) return;
     var upd=function(){
       var on=!!inp.value.trim(); v.classList.toggle("searching",on);
+      var sk=document.getElementById("searchKindChips"); if(sk) sk.style.display=on?"flex":"none";
       if(!on){ var b=document.getElementById("searchResults"); if(b) b.innerHTML=""; }
     };
     inp.addEventListener("input",upd); inp.addEventListener("search",upd);

@@ -4,7 +4,36 @@ on:
   push:
     branches: [main]
 jobs:
+  # PR từ form đóng góp (/api/dong-gop) chỉ vá prov-data.js + prov-data.gon.js:
+  # job này sinh lại prov-data.gon.js + 34 trang tĩnh tỉnh từ dữ liệu mới rồi đẩy
+  # lên đúng nhánh PR, để job kiem-tra (so khớp trang tĩnh + gon) luôn xanh.
+  # Push bằng GITHUB_TOKEN không kích hoạt workflow mới nên không lặp vô hạn.
+  sinh-gon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sinh lại bản gọn + trang tĩnh tỉnh
+        if: github.event_name == 'pull_request'
+        run: |
+          node tools/tao-ban-gon.mjs
+          node tools/tao-trang-tinh.mjs
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add app/data/prov-data.gon.js app/tinh/ app/sitemap.xml app/robots.txt app/index.html
+            git commit -m "Sinh lại prov-data.gon.js + trang tĩnh (CI)"
+            git push
+          fi
   kiem-tra:
+    needs: sinh-gon
     runs-on: ubuntu-latest
     timeout-minutes: 15
     defaults:

@@ -46,9 +46,9 @@
     };
   }
 
-  /* ---------- Gửi nhanh (không cần đăng nhập): gửi ngay trong app (mục Hỗ trợ) ----------
-     Nút "Gửi đóng góp" (cần đăng nhập, theo dõi được) do dong-gop.js chèn trước nút này.
-     Đổi tên nút này để khỏi trùng nhãn với "Gửi đóng góp". ---------- */
+  /* ---------- tlReport: đường dự phòng gửi báo sai qua mục Hỗ trợ của nút Hỏi ----------
+     Không còn nút nào gọi trực tiếp (nút duy nhất giờ là "Đóng góp / Báo sai" mở form
+     tự mở Pull Request); giữ lại cho form /api/dong-gop khi server trả 503. ---------- */
   window.tlReport = function (kind, provId, itemId) {
     var p = provById(provId), it = findItem(kind, provId, itemId);
     var label = kind === "pplace" ? "Địa danh" : (kind === "pstay" ? "Chỗ ở" : "Món ăn");
@@ -59,10 +59,12 @@
     var m = document.getElementById("tlMsg");
     if (m) { m.value = txt; m.focus(); try { var k = txt.indexOf("(giá, giờ, địa chỉ...): ") + 24; m.setSelectionRange(k, k); } catch (e) {} }
   };
+  /* Nút đóng góp duy nhất (ghi đè bản dự phòng ở app.js): form "Đóng góp / Báo sai"
+     không cần đăng nhập, gửi về /api/dong-gop để tự mở Pull Request. */
   window.reportLinkHtml = reportLinkHtml = function (kind, provId, itemId) {
     if (!provById(provId)) return "";
-    return '<button class="btn btn-ghost btn-block" style="margin-top:10px" onclick="tlReport(\'' + kind + '\',\'' + provId + '\',\'' + itemId + '\')">Gửi nhanh (không cần đăng nhập)</button>' +
-      '<p class="small" style="margin:6px 0 0">Gửi ngay trong app, không cần đăng nhập; đội BuiTrip trả lời ở mục Hỗ trợ của nút Hỏi. Chủ cơ sở muốn sửa thông tin cũng gửi qua đây, hoặc thư tới ' + esc(SUPPORT_EMAIL) + '.</p>';
+    return '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="dgOpenPR(\'' + provId + '\',\'' + itemId + '\',\'' + kind + '\')">Đóng góp / Báo sai</button>' +
+      '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request để đưa vào app.</p>';
   };
 
   /* ---------- Link sâu: #/tinh/<tỉnh> và #/tinh/<tỉnh>/<dia-danh|mon|cho-o>/<mã> ---------- */
@@ -109,8 +111,7 @@
       d.innerHTML = "<b>" + (b ? "Có chuyến mới chưa sao lưu" : "Chưa sao lưu chuyến nào") + "</b><br/><span class=\"small\">" + trips.length +
         " chuyến chỉ nằm trong trình duyệt này; đổi máy hoặc xóa dữ liệu trình duyệt là mất.</span>" +
         '<div style="margin-top:8px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button></div>';
-      var h = wrap.querySelector(".sec-sub") || wrap.firstChild;
-      if (h && h.nextSibling) wrap.insertBefore(d, h.nextSibling); else wrap.appendChild(d);
+      wrap.appendChild(d); /* xuống cuối trang: danh sách chuyến hiện trước, cảnh báo sao lưu ở dưới cùng */
     };
     try { renderTrips(); } catch (e) {}
   }

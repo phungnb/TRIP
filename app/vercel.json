@@ -44,6 +44,9 @@
   "functions": {
     "api/hoc-ngay.js": {
       "maxDuration": 30
+    },
+    "api/dong-gop.js": {
+      "maxDuration": 30
     }
   },
   "rewrites": [

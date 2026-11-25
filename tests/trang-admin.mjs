@@ -53,9 +53,10 @@ try {
   const place = await page.evaluate(q => PROV_DATA.find(p => p.id === q).places[0].id, QN);
   await page.evaluate(([q, i]) => openProvPlace(q, i), [QN, place]);
   await page.waitForTimeout(200);
-  const nut = page.locator("#view-item-detail button", { hasText: /^Gửi đóng góp$/ });
-  ok(await nut.count() === 1 && await nut.first().isVisible(), "(8) Trang chi tiết địa danh có nút \"Gửi đóng góp\" nhìn thấy được");
-  ok(await page.locator("#view-item-detail button", { hasText: "Gửi nhanh (không cần đăng nhập)" }).count() === 1, "(8) Nút Gửi nhanh (không cần đăng nhập) vẫn còn");
+  /* Pha H gộp 2 nút cũ ("Gửi đóng góp" + "Gửi nhanh") thành 1 nút "Đóng góp / Báo sai" */
+  const nut = page.locator("#view-item-detail button", { hasText: /^Đóng góp \/ Báo sai$/ });
+  ok(await nut.count() === 1 && await nut.first().isVisible(), "(8) Trang chi tiết địa danh có đúng 1 nút \"Đóng góp / Báo sai\" nhìn thấy được");
+  ok(await page.locator("#view-item-detail button", { hasText: /^(Gửi đóng góp|Gửi nhanh \(không cần đăng nhập\))$/ }).count() === 0, "(8) Không còn 2 nút cũ trùng chức năng");
 
   async function gui(kind, fill) {
     await page.evaluate(([q, i, k]) => dgContribute(q, i, k), [QN, ["mon_moi", "cho_o_moi", "phuong_tien_moi", "dia_danh_moi"].includes(kind) ? null : place, kind]);
