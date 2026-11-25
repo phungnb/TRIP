@@ -8,6 +8,17 @@
   if (typeof PROV_DATA === "undefined") return;
   var KEY = "bt_du_lieu_sua", KEY_DAY = "bt_bai_day", API = "/api/du-lieu";
   var BASE = {};   /* "prov|kind|from" -> { arr, items: [đối tượng gốc], snap: [bản chép nội dung gốc] } */
+  var PROV_FIELDS = ["scams", "emergency", "photoSpots", "running", "cost", "itins"];
+  var PROV_BASE = {};   /* prov_id -> bản chép 6 trường thông tin tỉnh lúc chưa có bản sửa */
+  function provBase(p) {
+    var b = PROV_BASE[p.id];
+    if (!b) { b = PROV_BASE[p.id] = {}; PROV_FIELDS.forEach(function (k) { b[k] = clone(p[k] == null ? null : p[k]); }); }
+    return b;
+  }
+  function provRestore(p) {
+    var b = PROV_BASE[p.id]; if (!b) return;
+    PROV_FIELDS.forEach(function (k) { p[k] = clone(b[k]); });
+  }
   var SIG = "";
   function clone(o) { return JSON.parse(JSON.stringify(o)); }
   function prov(id) { for (var i = 0; i < PROV_DATA.length; i++) if (PROV_DATA[i].id === id) return PROV_DATA[i]; return null; }
@@ -58,10 +69,12 @@
   function apply(rows) {
     rows = Array.isArray(rows) ? rows : [];
     Object.keys(BASE).forEach(function (k) { restore(BASE[k]); });
+    Object.keys(PROV_BASE).forEach(function (id) { var pp = prov(id); if (pp) provRestore(pp); });
     var rm = [], add = [];
     rows.forEach(function (r) {
       var p = prov(r.prov_id); if (!p || !r.data) return;
       var d = r.data || {}, kind = r.kind, from = "", idx = -1, id = r.item_id;
+      if (kind === "prov") { if (!r.deleted && !r.hidden) { provBase(p); PROV_FIELDS.forEach(function (k) { if (k in d) p[k] = clone(d[k]); }); } return; }
       if (kind === "route") { from = d.from || String(id).split(":")[0]; if (!r.is_new) idx = +String(id).split(":")[1]; }
       else if (kind === "local" && !r.is_new) idx = +id;
       if (!/^(sg|hn|dn)?$/.test(from)) return;

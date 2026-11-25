@@ -41,7 +41,7 @@
     return v;
   }
   function frame(body) {
-    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["hoc", "Định hướng học"], ["nk", "Nhật ký"], ["qtv", "Quản trị viên"]];
+    var tabs = [["duyet", "Duyệt đóng góp"], ["sua", "Sửa dữ liệu"], ["tinh", "Thông tin tỉnh"], ["hoc", "Định hướng học"], ["nk", "Nhật ký"], ["qtv", "Quản trị viên"]];
     root().innerHTML = '<div class="adm-in"><div class="adm-top"><h2 id="admTitle">Trang admin</h2><button class="btn btn-ghost" onclick="btAdminClose()">Đóng</button></div>' +
       '<div class="chiprow chiprow-scroll adm-tabs">' + tabs.map(function (t) { return '<button class="chip' + (tab === t[0] ? " on" : "") + '" onclick="btAdminTab(\'' + t[0] + '\')">' + t[1] + '</button>'; }).join("") + '</div>' +
       '<div id="admBody">' + body + '</div></div>';
@@ -67,7 +67,7 @@
     if (location.hash === "#/admin") history.replaceState(null, "", location.pathname + location.search);
   };
   window.btAdminTab = function (t) { tab = t; frame(""); show(); };
-  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else if (tab === "qtv") listAdmins(); else if (tab === "hoc") listHoc(); else listAudit(); }
+  function show() { if (tab === "duyet") listContrib(); else if (tab === "sua") listItems(); else if (tab === "tinh") listTinh(); else if (tab === "qtv") listAdmins(); else if (tab === "hoc") listHoc(); else listAudit(); }
 
   /* bản sửa hiện có (kể cả mục ẩn, đã xóa) */
   function loadOv() {
@@ -340,7 +340,7 @@
       if (a.kind === "tro_ly") return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + '</p><p><b>Định hướng học · ' + esc(ACT[a.action] || a.action) + '</b> <code>' + esc(a.item_id) + '</code></p>' + (a.old_value != null ? '<p class="small">' + esc(shortV(a.old_value)) + ' → ' + esc(shortV(a.new_value)) + '</p>' : a.new_value != null ? '<p class="small">' + esc(shortV(a.new_value)) + '</p>' : '') + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') + '</div>';
       if (a.kind === "admin") return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + '</p><p><b>' + esc(ACT[a.action] || a.action) + '</b> · ' + esc(shortV(a.new_value != null ? a.new_value : a.old_value)) + '</p>' + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') + '</div>';
       return '<div class="dg-item"><p class="small">#' + a.id + ' · ' + esc(DG().fmtTime(a.at)) + ' · ' + esc(a.by_name || a.by_email || "") + (a.by_email && a.by_name ? ' &lt;' + esc(a.by_email) + '&gt;' : '') + '</p>' +
-        '<p><b>' + esc(ACT[a.action] || a.action) + '</b>' + (compact ? '' : ' · ' + esc(KIND_LBL[a.kind] || a.kind) + ' <code>' + esc(a.item_id) + '</code> · ' + esc(p ? p.name : a.prov_id)) + (a.field ? ' · trường <code>' + esc(a.field) + '</code>' : '') + '</p>' +
+        '<p><b>' + esc(ACT[a.action] || a.action) + '</b>' + (compact ? '' : ' · ' + esc(a.kind === "prov" ? "Thông tin tỉnh" : (KIND_LBL[a.kind] || a.kind)) + ' <code>' + esc(a.item_id) + '</code> · ' + esc(p ? p.name : a.prov_id)) + (a.field ? ' · trường <code>' + esc(a.field) + '</code>' : '') + '</p>' +
         (a.field ? '<p class="small">' + esc(shortV(a.old_value)) + ' → ' + esc(shortV(a.new_value)) + '</p>' : '') + (a.note ? '<p class="small">Ghi chú: ' + esc(a.note) + '</p>' : '') +
         (canRevert ? '<button class="btn btn-ghost" onclick="btAdmRevert(' + a.id + ')">Quay lại trước thay đổi này</button>' : '') + '</div>';
     }).join("") + '</div>';
@@ -356,6 +356,162 @@
         toast_("Đã quay lại"); if (ED && tab === "sua" && document.getElementById("admItemLog")) editor(ED.provId, ED.kind, ED.from, ED.id, !!(ED.r && ED.r.is_new), null, null); else listAudit();
       });
     }).catch(function (e) { toast_(errMsg(e)); });
+  };
+
+  /* ================= Thông tin tỉnh =================
+     6 nhóm nội dung cấp tỉnh: cảnh báo chặt chém, số khẩn cấp, giờ đẹp chụp ảnh,
+     cho người chạy giải, bảng chi phí, lịch trình mẫu. Lưu qua admin_save_item kind='prov',
+     item_id = prov_id (1 dòng / tỉnh, cần chạy neon/006_thong_tin_tinh.sql trước). */
+  var TINH_F = ["scams", "emergency", "photoSpots", "running", "cost", "itins"];
+  var tinh = { prov: "", d: null };
+  function tinhMacDinh(k) {
+    if (k === "emergency") return { police: "113", ambulance: "115", fire: "114", source: "", extra: [] };
+    if (k === "running") return { races: [] };
+    if (k === "itins") return {};
+    return [];
+  }
+  function currentTinh(provId) {
+    var p = provById(provId) || {}, d = {};
+    TINH_F.forEach(function (k) {
+      var v = p[k];
+      d[k] = JSON.parse(JSON.stringify(v == null ? tinhMacDinh(k) : v));
+    });
+    var r = rowsOv[provId + "|prov|" + provId];
+    if (r) Object.keys(r.data || {}).forEach(function (k) { if (TINH_F.indexOf(k) >= 0) d[k] = JSON.parse(JSON.stringify(r.data[k])); });
+    return d;
+  }
+  function listTinh() {
+    loading();
+    loadOv().then(function () {
+      if (!tinh.prov) tinh.prov = (typeof currentProv !== "undefined" && currentProv && currentProv.id) || PROV_DATA[0].id;
+      if (!tinh.d) tinh.d = currentTinh(tinh.prov);
+      tinhVe();
+    }).catch(fail);
+  }
+  function tinhVe() {
+    var d = tinh.d, em = d.emergency || {}, ikeys = Object.keys(d.itins || {});
+    var h = '<p class="small">Sửa thông tin cấp tỉnh: cảnh báo chặt chém, số khẩn cấp, giờ đẹp chụp ảnh, cho người chạy giải, bảng chi phí, lịch trình mẫu. Lưu xong áp ngay, không cần deploy. Chuyển tỉnh sẽ bỏ các sửa chưa lưu.</p>' +
+      '<div class="adm-filt"><div class="field"><label for="admTinhProv">Tỉnh/thành</label><select id="admTinhProv" onchange="btTinhProv(this.value)">' + PROV_DATA.map(function (x) { return '<option value="' + x.id + '"' + (x.id === tinh.prov ? " selected" : "") + '>' + esc(x.name) + '</option>'; }).join("") + '</select></div></div>';
+    /* 1. cảnh báo chặt chém */
+    h += '<h3>Cảnh báo chặt chém (' + d.scams.length + ')</h3>' + d.scams.map(function (w, i) {
+      return '<div class="notebox"><div class="field"><label for="admT_sc_sit' + i + '">Tình huống ' + (i + 1) + '</label><textarea id="admT_sc_sit' + i + '" rows="3" maxlength="2000">' + esc(w.situation || "") + '</textarea></div>' +
+        '<div class="field"><label for="admT_sc_av' + i + '">Cách tránh</label><textarea id="admT_sc_av' + i + '" rows="3" maxlength="2000">' + esc(w.avoid || "") + '</textarea></div>' +
+        '<div class="field"><label for="admT_sc_src' + i + '">Nguồn</label><input id="admT_sc_src' + i + '" maxlength="500" value="' + esc(w.source || "") + '"></div>' +
+        '<button class="btn btn-ghost" onclick="btTinhXoa(\'scams\',' + i + ')">Xóa cảnh báo này</button></div>';
+    }).join("") + '<button class="btn btn-ghost" onclick="btTinhThem(\'scams\')">+ Thêm cảnh báo</button>';
+    /* 2. số khẩn cấp */
+    h += '<h3>Số khẩn cấp</h3><div class="notebox"><div class="field"><label for="admT_em_police">Công an</label><input id="admT_em_police" maxlength="20" value="' + esc(em.police || "") + '"></div>' +
+      '<div class="field"><label for="admT_em_amb">Cấp cứu</label><input id="admT_em_amb" maxlength="20" value="' + esc(em.ambulance || "") + '"></div>' +
+      '<div class="field"><label for="admT_em_fire">Chữa cháy</label><input id="admT_em_fire" maxlength="20" value="' + esc(em.fire || "") + '"></div>' +
+      '<div class="field"><label for="admT_em_src">Nguồn</label><input id="admT_em_src" maxlength="500" value="' + esc(em.source || "") + '"></div>' +
+      '<h4>Số liên hệ thêm (' + (em.extra || []).length + ')</h4>' + (em.extra || []).map(function (x, j) {
+        return '<div class="field"><label for="admT_emx_name' + j + '">Tên cơ sở ' + (j + 1) + '</label><input id="admT_emx_name' + j + '" maxlength="160" value="' + esc(x.name || "") + '"></div>' +
+          '<div class="field"><label for="admT_emx_num' + j + '">Số điện thoại</label><input id="admT_emx_num' + j + '" maxlength="40" value="' + esc(x.number || "") + '"></div>' +
+          '<div class="field"><label for="admT_emx_src' + j + '">Nguồn</label><input id="admT_emx_src' + j + '" maxlength="500" value="' + esc(x.source || "") + '"></div>' +
+          '<button class="btn btn-ghost" onclick="btTinhXoa(\'emx\',' + j + ')">Xóa số này</button>';
+      }).join("") + '<div style="margin-top:8px"><button class="btn btn-ghost" onclick="btTinhThem(\'emx\')">+ Thêm số liên hệ</button></div></div>';
+    /* 3. giờ đẹp chụp ảnh */
+    h += '<h3>Giờ đẹp chụp ảnh (' + d.photoSpots.length + ')</h3>' + d.photoSpots.map(function (w, i) {
+      return '<div class="notebox"><div class="field"><label for="admT_ph_pl' + i + '">Điểm chụp ' + (i + 1) + '</label><input id="admT_ph_pl' + i + '" maxlength="160" value="' + esc(w.place || "") + '"></div>' +
+        '<div class="field"><label for="admT_ph_ti' + i + '">Giờ đẹp</label><textarea id="admT_ph_ti' + i + '" rows="3" maxlength="1000">' + esc(w.time || "") + '</textarea></div>' +
+        '<div class="field"><label for="admT_ph_src' + i + '">Nguồn</label><input id="admT_ph_src' + i + '" maxlength="500" value="' + esc(w.source || "") + '"></div>' +
+        '<button class="btn btn-ghost" onclick="btTinhXoa(\'photoSpots\',' + i + ')">Xóa điểm này</button></div>';
+    }).join("") + '<button class="btn btn-ghost" onclick="btTinhThem(\'photoSpots\')">+ Thêm điểm chụp</button>';
+    /* 4. cho người chạy giải */
+    h += '<h3>Cho người chạy giải (' + (d.running.races || []).length + ' giải)</h3>' + (d.running.races || []).map(function (w, i) {
+      return '<div class="notebox"><div class="field"><label for="admT_ru_na' + i + '">Tên giải ' + (i + 1) + '</label><input id="admT_ru_na' + i + '" maxlength="160" value="' + esc(w.name || "") + '"></div>' +
+        '<div class="field"><label for="admT_ru_wh' + i + '">Thời gian</label><textarea id="admT_ru_wh' + i + '" rows="3" maxlength="1000">' + esc(w.when || "") + '</textarea></div>' +
+        '<div class="field"><label for="admT_ru_src' + i + '">Nguồn</label><input id="admT_ru_src' + i + '" maxlength="500" value="' + esc(w.source || "") + '"></div>' +
+        '<button class="btn btn-ghost" onclick="btTinhXoa(\'running\',' + i + ')">Xóa giải này</button></div>';
+    }).join("") + '<button class="btn btn-ghost" onclick="btTinhThem(\'running\')">+ Thêm giải chạy</button>';
+    /* 5. bảng chi phí */
+    h += '<h3>Bảng chi phí (' + d.cost.length + ' dòng)</h3>' + d.cost.map(function (w, i) {
+      return '<div class="notebox"><div class="field"><label for="admT_co_la' + i + '">Khoản ' + (i + 1) + '</label><input id="admT_co_la' + i + '" maxlength="160" value="' + esc(w.label || "") + '"></div>' +
+        '<div class="field"><label for="admT_co_va' + i + '">Giá</label><input id="admT_co_va' + i + '" maxlength="200" value="' + esc(w.value || "") + '"></div>' +
+        '<button class="btn btn-ghost" onclick="btTinhXoa(\'cost\',' + i + ')">Xóa dòng này</button></div>';
+    }).join("") + '<button class="btn btn-ghost" onclick="btTinhThem(\'cost\')">+ Thêm dòng chi phí</button>';
+    /* 6. lịch trình mẫu */
+    h += '<h3>Lịch trình mẫu</h3>' + ikeys.map(function (K, ki) {
+      var days = d.itins[K] || [];
+      return '<div class="notebox"><h4>' + esc(K) + ' <button class="btn btn-ghost" onclick="btTinhXoa(\'itkey\',' + ki + ')">Xóa lịch trình này</button></h4>' + days.map(function (day, di) {
+        var txt = day.map(function (s) { return (s.s || "") + " | " + (s.t || "") + (s.gan ? " | " + s.gan : ""); }).join("\n");
+        return '<div class="field"><label for="admT_it_' + ki + '_' + di + '">Ngày ' + (di + 1) + ' (mỗi dòng: Buổi | Nội dung | mã địa danh, phân cách dấu phẩy)</label><textarea id="admT_it_' + ki + '_' + di + '" rows="4">' + esc(txt) + '</textarea></div>' +
+          '<button class="btn btn-ghost" onclick="btTinhXoa(\'itday\',' + di + ',' + ki + ')">Xóa ngày này</button>';
+      }).join("") + '<div style="margin-top:8px"><button class="btn btn-ghost" onclick="btTinhThem(\'itday\',' + ki + ')">+ Thêm ngày</button></div></div>';
+    }).join("") +
+      '<div class="field"><label for="admT_it_keymoi">Thêm lịch trình mới (dạng 3N2D)</label><input id="admT_it_keymoi" maxlength="10" placeholder="vd: 5N4D"></div><button class="btn btn-ghost" onclick="btTinhThem(\'itkey\')">+ Thêm lịch trình</button>';
+    h += '<div id="admTinhMsg" style="margin-top:12px"></div><button class="btn btn-primary" onclick="btTinhLuu()">Lưu thông tin tỉnh</button>';
+    body(h);
+  }
+  /* gom giá trị đang gõ trên form về bản nháp (gọi trước mọi thao tác thêm/xóa/chuyển tỉnh/lưu) */
+  function tinhThu() {
+    var d = tinh.d; if (!d) return;
+    var g = function (id) { var el = document.getElementById(id); return el ? el.value : ""; };
+    d.scams = (d.scams || []).map(function (w, i) { return { situation: g("admT_sc_sit" + i).trim(), avoid: g("admT_sc_av" + i).trim(), source: g("admT_sc_src" + i).trim() }; });
+    d.emergency = { police: g("admT_em_police").trim(), ambulance: g("admT_em_amb").trim(), fire: g("admT_em_fire").trim(), source: g("admT_em_src").trim(),
+      extra: (d.emergency.extra || []).map(function (x, j) { return { name: g("admT_emx_name" + j).trim(), number: g("admT_emx_num" + j).trim(), source: g("admT_emx_src" + j).trim() }; }) };
+    d.photoSpots = (d.photoSpots || []).map(function (w, i) { return { place: g("admT_ph_pl" + i).trim(), time: g("admT_ph_ti" + i).trim(), source: g("admT_ph_src" + i).trim() }; });
+    d.running = { races: (d.running.races || []).map(function (w, i) { return { name: g("admT_ru_na" + i).trim(), when: g("admT_ru_wh" + i).trim(), source: g("admT_ru_src" + i).trim() }; }) };
+    d.cost = (d.cost || []).map(function (w, i) { return { label: g("admT_co_la" + i).trim(), value: g("admT_co_va" + i).trim() }; });
+    Object.keys(d.itins || {}).forEach(function (K, ki) {
+      d.itins[K] = (d.itins[K] || []).map(function (day, di) {
+        return g("admT_it_" + ki + "_" + di).split("\n").map(function (l) { var a = l.split("|").map(function (s) { return s.trim(); }); return (a[0] || a[1]) ? { s: a[0] || "", t: a[1] || "", gan: a[2] || "" } : null; }).filter(Boolean);
+      });
+    });
+  }
+  window.btTinhProv = function (v) { tinhThu(); tinh.prov = v; tinh.d = null; listTinh(); };
+  window.btTinhThem = function (kind, arg) {
+    tinhThu();
+    var d = tinh.d;
+    if (kind === "scams") d.scams.push({ situation: "", avoid: "", source: "" });
+    else if (kind === "emx") d.emergency.extra.push({ name: "", number: "", source: "" });
+    else if (kind === "photoSpots") d.photoSpots.push({ place: "", time: "", source: "" });
+    else if (kind === "running") d.running.races.push({ name: "", when: "", source: "" });
+    else if (kind === "cost") d.cost.push({ label: "", value: "" });
+    else if (kind === "itday") { var K = Object.keys(d.itins)[arg]; if (K) d.itins[K].push([]); }
+    else if (kind === "itkey") {
+      var el = document.getElementById("admT_it_keymoi"), K2 = (el ? el.value : "").trim().toUpperCase();
+      if (!/^[0-9]+N[0-9]+D$/.test(K2)) { toast_("Tên lịch trình phải dạng 3N2D"); return; }
+      if (d.itins[K2]) { toast_("Đã có lịch trình " + K2); return; }
+      d.itins[K2] = [[]];
+    }
+    tinhVe();
+  };
+  window.btTinhXoa = function (kind, i, arg) {
+    tinhThu();
+    var d = tinh.d;
+    if (kind === "scams") d.scams.splice(i, 1);
+    else if (kind === "emx") d.emergency.extra.splice(i, 1);
+    else if (kind === "photoSpots") d.photoSpots.splice(i, 1);
+    else if (kind === "running") d.running.races.splice(i, 1);
+    else if (kind === "cost") d.cost.splice(i, 1);
+    else if (kind === "itday") { var K = Object.keys(d.itins)[arg]; if (K) d.itins[K].splice(i, 1); }
+    else if (kind === "itkey") { var K2 = Object.keys(d.itins)[i]; if (K2) delete d.itins[K2]; }
+    tinhVe();
+  };
+  window.btTinhLuu = function () {
+    tinhThu();
+    var d = tinh.d, msg = document.getElementById("admTinhMsg");
+    var patch = {};
+    patch.scams = (d.scams || []).filter(function (w) { return w.situation || w.avoid; });
+    patch.emergency = { police: d.emergency.police, ambulance: d.emergency.ambulance, fire: d.emergency.fire, source: d.emergency.source,
+      extra: (d.emergency.extra || []).filter(function (x) { return x.name || x.number; }) };
+    patch.photoSpots = (d.photoSpots || []).filter(function (w) { return w.place || w.time; });
+    patch.running = { races: (d.running.races || []).filter(function (w) { return w.name || w.when; }) };
+    patch.cost = (d.cost || []).filter(function (w) { return w.label || w.value; });
+    patch.itins = {};
+    Object.keys(d.itins || {}).forEach(function (K) {
+      var days = (d.itins[K] || []).map(function (day) { return day.filter(function (s) { return s.s || s.t; }); }).filter(function (day) { return day.length; });
+      if (days.length) patch.itins[K] = days;
+    });
+    if (msg) msg.innerHTML = "";
+    rpc("admin_save_item", { p_prov: tinh.prov, p_kind: "prov", p_item: tinh.prov, p_patch: patch, p_base: {}, p_is_new: false, p_contrib: null, p_note: null }).then(function (res) {
+      var row = { prov_id: tinh.prov, kind: "prov", item_id: tinh.prov, data: patch, is_new: false, hidden: false, deleted: false, version: (res && res.version) || 0 };
+      rowsOv[tinh.prov + "|prov|" + tinh.prov] = row;
+      if (window.BTSua) { BTSua.put(row); BTSua.refresh(true); }
+      toast_("Đã lưu thông tin tỉnh");
+      tinh.d = null; listTinh();
+    }).catch(function (e) { if (msg) msg.innerHTML = '<p class="dg-err" role="alert">' + esc(errMsg(e)) + '</p>'; else toast_(errMsg(e)); });
   };
 
   /* ================= Định hướng học (trợ lý) =================
@@ -399,6 +555,10 @@
             '<div class="dg-acts">' + CT_ST.filter(function (t) { return t[0] !== g.status; }).map(function (t) { return '<button class="btn btn-ghost" onclick="btHocCtSt(' + g.id + ',\'' + t[0] + '\')">' + (t[0] === "dang_hoc" ? "Học tiếp" : t[1]) + '</button>'; }).join("") + '</div></div>';
         }).join("") + '</div>' : '<p class="muted">Chưa có mục nào. Thêm địa danh hoặc chủ đề bạn muốn trợ lý học.</p>');
       hoc.ag = AG;
+      /* 2b. nhập file học liệu hàng loạt (không cần mở Console) */
+      h += '<h3>Nhập file học liệu (hàng loạt)</h3><div class="notebox"><p class="small">Chọn file JSON dạng {"agenda": [...], "lessons": [...]}. Mỗi mục agenda cần kind (dia_danh/chu_de), target, prov_id, priority 1–3; mỗi bài cần kind "hoi_dap" với data {q, a, prov_id}. Mục đã có sẵn được bỏ qua, không nhập trùng. Nhập xong bài hỏi đáp áp ngay, không cần deploy.</p>' +
+        '<div class="field"><label for="admNhapFile">File JSON học liệu</label><input id="admNhapFile" type="file" accept=".json,application/json"></div>' +
+        '<div id="admNhapMsg"></div><button class="btn btn-primary" id="admNhapBtn" onclick="btHocNhapFile()">Nhập file</button></div>';
       /* 3. hàng chờ duyệt */
       hoc.c = C;
       h += '<h3>Chờ duyệt (' + C.length + ')</h3>' + (C.length ? '<div class="dg-list">' + C.map(function (c, i) {
@@ -466,6 +626,62 @@
     var g = (hoc.ag || []).filter(function (x) { return x.id === id; })[0]; if (!g) return;
     rpc("admin_ai_agenda_save", { p_id: id, p_kind: g.kind, p_target: g.target, p_prov: g.prov_id, p_priority: g.priority, p_status: status, p_note: g.note })
       .then(function () { toast_(lbl2(CT_ST, status)); listHoc(); }).catch(function (e) { toast_(errMsg(e)); });
+  };
+  function sleepMs(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  /* Nhập file học liệu hàng loạt: đọc JSON, bỏ qua mục đã có, ghi tuần tự từng mục (thử lại 1 lần khi lỗi). */
+  window.btHocNhapFile = function () {
+    if (hoc.dangNhap) { toast_("Đang nhập file, chờ xong đã"); return; }
+    var inp = document.getElementById("admNhapFile"), msg = document.getElementById("admNhapMsg"), btn = document.getElementById("admNhapBtn");
+    var f = inp && inp.files && inp.files[0];
+    if (!f) { toast_("Chọn file JSON trước"); return; }
+    hoc.dangNhap = true; if (btn) btn.disabled = true;
+    if (msg) msg.innerHTML = '<p class="muted">Đang đọc file…</p>';
+    var rd = new FileReader();
+    rd.onerror = function () { hoc.dangNhap = false; if (btn) btn.disabled = false; if (msg) msg.innerHTML = '<p class="dg-err" role="alert">Không đọc được file.</p>'; };
+    rd.onload = function () {
+      var data;
+      try { data = JSON.parse(rd.result); } catch (e) { hoc.dangNhap = false; if (btn) btn.disabled = false; if (msg) msg.innerHTML = '<p class="dg-err" role="alert">File không phải JSON hợp lệ.</p>'; return; }
+      var AG0 = Array.isArray(data.agenda) ? data.agenda : [], LS0 = Array.isArray(data.lessons) ? data.lessons : [];
+      if (!AG0.length && !LS0.length) { hoc.dangNhap = false; if (btn) btn.disabled = false; if (msg) msg.innerHTML = '<p class="dg-err" role="alert">File không có mục agenda hay lessons nào.</p>'; return; }
+      Promise.all([rpc("admin_ai_state"), rpc("admin_ai_lessons")]).then(function (r) {
+        var exAg = {}, exQ = {};
+        ((r[0] || {}).agenda || []).forEach(function (g) { exAg[g.kind + "|" + String(g.target || "").trim().toLowerCase() + "|" + (g.prov_id || "")] = 1; });
+        (r[1] || []).forEach(function (l) { if (l.kind === "hoi_dap" && l.data && l.data.q) exQ[String(l.data.q).trim().toLowerCase()] = 1; });
+        var agOk = 0, agBo = 0, lsOk = 0, lsBo = 0, loi = [];
+        var tick = function () { if (msg) msg.innerHTML = '<p class="muted">Đang nhập… agenda ' + agOk + '/' + AG0.length + ', bài ' + lsOk + '/' + LS0.length + (loi.length ? ', lỗi ' + loi.length : '') + '</p>'; };
+        var chuoi = Promise.resolve();
+        AG0.forEach(function (a) {
+          chuoi = chuoi.then(function () {
+            var k = String(a.kind || ""), t = String(a.target || "").trim(), p = String(a.prov_id || "").trim(), pr = +a.priority || 2;
+            if (exAg[k + "|" + t.toLowerCase() + "|" + p]) { agBo++; return; }
+            if ((k !== "dia_danh" && k !== "chu_de") || t.length < 2 || t.length > 160 || !(pr >= 1 && pr <= 3) || !/^[a-z0-9-]{2,40}$/.test(p)) { loi.push("agenda " + (t || "(trống)") + ": thiếu kind/target/tỉnh hoặc ưu tiên sai"); return; }
+            var note = a.note ? String(a.note).slice(0, 500) : null;
+            var goi = function () { return rpc("admin_ai_agenda_save", { p_id: null, p_kind: k, p_target: t, p_prov: p, p_priority: pr, p_status: "dang_hoc", p_note: note }); };
+            return goi().then(function () { agOk++; }, function () { return goi().then(function () { agOk++; }, function (e2) { loi.push("agenda " + t + ": " + errMsg(e2)); }); }).then(tick);
+          }).then(function () { return sleepMs(50); });
+        });
+        LS0.forEach(function (l) {
+          chuoi = chuoi.then(function () {
+            var d = l.data || {}, q = String(d.q || "").trim(), a = String(d.a || "").trim();
+            if (l.kind !== "hoi_dap") { loi.push("bài (kind " + (l.kind || "?") + "): chỉ nhập được bài hỏi đáp"); return; }
+            if (exQ[q.toLowerCase()]) { lsBo++; return; }
+            if (q.length < 4 || q.length > 200 || a.length < 4 || a.length > 1500) { loi.push("bài " + (q.slice(0, 40) || "(trống)") + ": câu hỏi/câu trả lời sai độ dài"); return; }
+            var dd = { q: q, a: a }; if (d.prov_id) dd.prov_id = String(d.prov_id);
+            var goi = function () { return rpc("admin_ai_lesson_save", { p_id: null, p_kind: "hoi_dap", p_data: dd, p_active: true, p_note: null }); };
+            return goi().then(function () { lsOk++; }, function () { return goi().then(function () { lsOk++; }, function (e2) { loi.push("bài " + q.slice(0, 40) + ": " + errMsg(e2)); }); }).then(tick);
+          }).then(function () { return sleepMs(50); });
+        });
+        return chuoi.then(function () {
+          hoc.dangNhap = false; if (btn) btn.disabled = false;
+          var tk = "Đã nhập " + agOk + " mục học + " + lsOk + " bài" + ((agBo || lsBo) ? " (bỏ qua " + (agBo + lsBo) + " mục đã có)" : "") + (loi.length ? " · lỗi " + loi.length + " mục: " + loi.slice(0, 3).join(" | ") : "");
+          return rpc("admin_ai_lessons").then(function (Lx) { hoc.lessons = Lx || []; apDay(); }, function () { }).then(function () { listHoc(); toast_(tk); });
+        });
+      }).catch(function (e) {
+        hoc.dangNhap = false; if (btn) btn.disabled = false;
+        if (msg) msg.innerHTML = '<p class="dg-err" role="alert">' + esc(errMsg(e)) + '</p>';
+      });
+    };
+    rd.readAsText(f);
   };
   window.btHocDuyet = function (i, status) {
     var c = hoc.c && hoc.c[i]; if (!c) return;
