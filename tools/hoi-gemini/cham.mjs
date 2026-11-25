@@ -6,6 +6,8 @@
      ra/truot.json         toàn bộ câu trượt (câu hỏi, đích, lỗi, trợ lý trả gì)
      ra/nhat-ky.jsonl      câu trượt dạng {q, ok:false} để đưa vào vòng học có duyệt sẵn có:
                            node tools/hoc/de-xuat.mjs --vao tools/hoi-gemini/ra/nhat-ky.jsonl
+   Lỗi "chậm" (trả sau 100 ms) phụ thuộc máy chạy, nên mặc định đếm riêng, không tính vào tỷ lệ đúng.
+   Muốn tính như tests/hypotheses thì thêm --tinh-cham.
      ra/bai-day.json       (chỉ khi --bai-day) file nhập hàng loạt cho thẻ "Định hướng học" của trang admin:
                            câu Gemini hỏi mà trợ lý trượt, ghép với câu trả lời trợ lý ĐÃ trả đúng cho câu mẫu
                            cùng thực thể, cùng loại. Không có câu mẫu đúng thì không đề xuất. Admin đọc rồi mới nhập. */
@@ -16,9 +18,9 @@ import { moi } from "../../tests/hypotheses/cham.mjs";
 import { chu } from "../../tests/nap-ai.mjs";
 
 const DIR = path.dirname(fileURLToPath(import.meta.url)), RA = path.join(DIR, "ra"), VAO = path.join(RA, "cau-hoi.json");
-const ARG = process.argv.slice(2), IN = +(ARG[ARG.indexOf("--in-loi") + 1] || 15), BAI = ARG.includes("--bai-day");
+const ARG = process.argv.slice(2), IN = +(ARG[ARG.indexOf("--in-loi") + 1] || 15), BAI = ARG.includes("--bai-day"), TINH_CHAM = ARG.includes("--tinh-cham");
 if (!fs.existsSync(VAO)) { console.error("Chưa có " + path.relative(process.cwd(), VAO) + ". Chạy trước: node tools/hoi-gemini/hoi-vu-vo.mjs"); process.exit(1); }
-const C = moi(), { fold, main } = C;
+const C = moi();
 const xs = JSON.parse(fs.readFileSync(VAO, "utf8")).cau;
 const pct = (a, b) => b ? (100 * a / b).toFixed(1) + "%" : "—";
 
@@ -27,8 +29,17 @@ const dich = d => d ? C.TEN.find(t => t.t === d.t && !t.tat && (!d.p || t.ref.p.
 function cham(c) {
   const o = { ky: c.ky, ctx: false, tg: dich(c.dich) };
   if (c.loaiHoi) o.loai = c.loaiHoi;
-  const k = C.chamHoi(c.q, "", o);
+  const k = boCham(C.chamHoi(c.q, "", o));
   if (c.duPhong && !/App chưa có thông tin này/.test(k.text)) k.loi.push({ muc: "NẶNG", loai: "thiếu dự phòng", ghi: "câu ngoài phạm vi không dùng dự phòng" });
+  return k;
+}
+
+/* Tách lỗi "chậm": đếm riêng, không tính là trượt (trừ khi --tinh-cham) */
+let soCham = 0;
+function boCham(k, dem = true) {
+  if (TINH_CHAM) return k;
+  const n = k.loi.length; k.loi = k.loi.filter(e => e.loai !== "chậm");
+  if (dem && k.loi.length < n) soCham++;
   return k;
 }
 
@@ -45,7 +56,7 @@ for (const c of xs) {
   truot.push({ q: c.q, nhom: g, dich: c.dich, loaiHoi: c.loaiHoi, loi: k.loi, tra: k.text.slice(0, 300) });
   /* đề xuất bài dạy: chỉ lỗi nhận dạng (không phải bịa số / nơi cấm), có câu mẫu cùng thực thể trả đúng */
   if (BAI && c.dich && MAU[c.loaiHoi] && !k.loi.some(e => e.loai === "bịa số" || e.loai === "gợi ý nơi cấm")) {
-    const qm = c.loaiHoi === "gia" && /món/.test(g) ? c.dich.ten + " giá bao nhiêu" : MAU[c.loaiHoi](c.dich.ten), km = C.chamHoi(qm, "", { tg: dich(c.dich), loai: c.loaiHoi });
+    const qm = c.loaiHoi === "gia" && /món/.test(g) ? c.dich.ten + " giá bao nhiêu" : MAU[c.loaiHoi](c.dich.ten), km = boCham(C.chamHoi(qm, "", { tg: dich(c.dich), loai: c.loaiHoi }), false);
     if (!km.loi.length && !/App chưa có thông tin này/.test(km.text)) {
       const pid = c.dich.p || (c.dich.t === "prov" ? c.dich.ref : c.dich.t === "area" ? (C.areaById(c.dich.ref) || {}).prov : null);
       bai.push({ kind: "hoi_dap", data: Object.assign({ q: c.q.slice(0, 200), a: chu(km.text).slice(0, 1500) }, pid ? { prov_id: pid } : {}), _cau_mau: qm });
@@ -56,6 +67,7 @@ for (const c of xs) {
 const L = [];
 L.push("# Chấm câu Gemini hỏi trợ lý BuiTrip", "", "Ngày chấm: " + new Date().toISOString().slice(0, 10) + ". Bộ chấm: tests/hypotheses/cham.mjs (đáp án suy từ dữ liệu app).", "");
 L.push("**ĐÚNG " + ok + "/" + xs.length + " (" + pct(ok, xs.length) + ")**, CHẶN " + truot.filter(t => t.loi.some(e => e.muc === "CHẶN")).length, "");
+if (!TINH_CHAM) L.push("Không tính " + soCham + " câu trả chậm hơn 100 ms (tiêu chí hiệu năng, phụ thuộc máy chạy; thêm --tinh-cham để tính).", "");
 L.push("| Nhóm | Đúng |", "|---|---|"); Object.keys(nh).sort().forEach(g => L.push("| " + g + " | " + nh[g][0] + "/" + nh[g][1] + " (" + pct(nh[g][0], nh[g][1]) + ") |"));
 L.push("", "| Loại lỗi | Số câu |", "|---|---|"); Object.entries(loai).sort((a, b) => b[1] - a[1]).forEach(([t, n]) => L.push("| " + t + " | " + n + " |"));
 L.push("", "## Câu trượt tiêu biểu", "");

@@ -36,7 +36,13 @@ node tools/hoi-gemini/cham.mjs [--bai-day] [--in-loi 20]
 
 ## Kết quả chạy giả lập 25/11/2026 (không gọi Gemini)
 
-Lệnh `--gia-lap --so 300 --moi 6 --hat 7` sinh 1.143 câu. Đúng 1.057/1.143 (92,5%), CHẶN 11.
+Lệnh `--gia-lap --so 300 --moi 6 --hat 7` sinh 1.143 câu. Đúng 1.057/1.143 (92,5%), CHẶN 11, có 86 câu trượt nội dung. `--bai-day` đề xuất 24 bài.
+
+Lỗi "chậm" (trả sau 100 ms) **không tính** vào tỷ lệ đúng, vì nó phụ thuộc máy chạy. Ví dụ cùng bộ câu này:
+- máy chạy CI không có câu chậm nào;
+- máy kiểm chứng của Muse có 231–294 câu chậm, nên nếu tính lỗi chậm thì chỉ còn đúng 791–853/1.143.
+
+`cham.mjs` in riêng số câu chậm. Thêm `--tinh-cham` để chấm như `tests/hypotheses`.
 
 Lỗi thật tìm được ngay ở chế độ giả lập: câu có hoàn cảnh đứng trước, ví dụ "nhà mình có con nhỏ, cho hỏi Làng Quan họ Diềm ở đâu", bị nhánh gợi ý theo đối tượng (`goi-y.js`) trả lời thay. Trợ lý bỏ qua địa danh đã nêu đích danh. Lỗi này nằm trong 64 câu "nhận dạng sai".
 
