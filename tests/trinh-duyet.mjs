@@ -171,6 +171,28 @@ try {
   const sau = await page.evaluate(() => ({ v: document.querySelector(".view.active").id, t: document.getElementById("topTitle").textContent, u: location.href }));
   ok(sau.v === "view-dest-detail" && sau.t === "Đà Nẵng" && sau.u.split("#")[0] === truoc, "Bấm link tỉnh ở chân trang mở Đà Nẵng ngay trong app");
 
+  /* Máy tính có chuột: dải thẻ ẩn thanh cuộn phải có nút ‹ › và kéo được bằng chuột; điện thoại không có nút */
+  ok(await page.evaluate(() => document.querySelectorAll(".hs-btn").length === 0), "Điện thoại: không hiện nút ‹ › trên dải thẻ");
+  const c3 = await browser.newContext({ viewport: { width: 800, height: 900 }, serviceWorkers: "block" });
+  await c3.route(/arcgisonline|tile\.openstreetmap|fonts\.googleapis|gstatic|_vercel/, r => r.abort());
+  const p3 = await c3.newPage();
+  await p3.goto(BASE, { waitUntil: "load" });
+  await p3.waitForTimeout(500);
+  const sp = p3.locator("#homeSpots"), nx = p3.locator("#homeSpots ~ .hs-next"), pv = p3.locator("#homeSpots ~ .hs-prev");
+  ok(await nx.isVisible() && !(await pv.isVisible()), "Máy tính: dải Điểm khám phá có nút › (nút ‹ ẩn khi ở đầu)");
+  await nx.click(); await p3.waitForTimeout(700);
+  const s1 = await sp.evaluate(e => e.scrollLeft);
+  ok(s1 > 100 && await pv.isVisible(), "Máy tính: bấm › trượt sang thẻ sau, hiện nút ‹");
+  const bx = await sp.boundingBox();
+  await p3.mouse.move(bx.x + bx.width * 0.8, bx.y + bx.height / 2); await p3.mouse.down();
+  await p3.mouse.move(bx.x + bx.width * 0.3, bx.y + bx.height / 2, { steps: 8 }); await p3.mouse.up();
+  await p3.waitForTimeout(400);
+  const s2 = await sp.evaluate(e => e.scrollLeft), vw = await p3.evaluate(() => (document.querySelector(".view.active") || {}).id);
+  ok(s2 > s1 + 100 && vw === "view-explore", "Máy tính: kéo chuột trượt dải thẻ, không mở nhầm thẻ");
+  await p3.locator("#homeThemes .chip").nth(1).click(); await p3.waitForTimeout(500);
+  ok(await sp.evaluate(e => e.children.length > 0) && await nx.count() === 1, "Máy tính: đổi tab chủ đề vẫn giữ 1 bộ nút");
+  await c3.close();
+
   /* Mất sóng vẫn mở được (service worker) */
   const c2 = await browser.newContext({ ...devices["iPhone 13"] });
   await c2.route(/tile\.openstreetmap|googleapis|gstatic|unpkg|_vercel/, r => r.abort());

@@ -663,3 +663,17 @@
 .acct-note .menurow{ font-weight:500; font-size:var(--fs-cap); line-height:1.5; color:var(--ink2); align-items:flex-start; }
 .acct-note .menurow svg{ color:var(--accent-d); flex:0 0 auto; margin-top:1px; }
 :root[data-theme="dark"] .acct-note .menurow svg{ color:var(--accent); }
+
+/* Trượt ngang bằng chuột (máy tính): nút ‹ › cho dải thẻ .hscroll, kéo bằng chuột cho cả dải chip.
+   Chỉ hiện trên thiết bị có chuột (hover + pointer fine); điện thoại vẫn vuốt như cũ. js/app.js: hsNav */
+.hs-wrap{ position:relative; }
+.hs-btn{ display:none; }
+@media (hover:hover) and (pointer:fine){
+  .hs-btn{ display:flex; position:absolute; top:50%; z-index:3; width:40px; height:40px; margin-top:-24px; border-radius:50%; border:1px solid var(--line); background:var(--surface); color:var(--ink); box-shadow:0 4px 14px rgba(15,23,42,.18); align-items:center; justify-content:center; cursor:pointer; padding:0; transition:opacity .15s; }
+  .hs-btn:hover{ background:var(--surface2); }
+  .hs-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .hs-btn[hidden]{ display:none; }
+  .hs-prev{ left:-6px; } .hs-next{ right:-6px; }
+  .hs-drag{ cursor:grab; } .hs-drag.hs-dragging{ cursor:grabbing; scroll-snap-type:none; user-select:none; }
+  .hs-drag.hs-dragging > *{ pointer-events:none; }
+}
