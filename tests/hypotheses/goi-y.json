@@ -495,5 +495,32 @@
  {
   "q": "bánh khoái Huế",
   "kind": "!kho"
+ },
+ {
+  "q": "nhà mình có con nhỏ, cho hỏi Làng Quan họ Diềm ở đâu",
+  "kind": "item",
+  "phaiCo": [
+   "Làng Quan họ Diềm"
+  ],
+  "khongCo": [
+   "Gợi ý nơi đi"
+  ]
+ },
+ {
+  "q": "nhà mình có con nhỏ, cho hỏi tương Nam Đàn là món gì",
+  "kind": "item",
+  "phaiCo": [
+   "Tương Nam Đàn"
+  ]
+ },
+ {
+  "q": "ba mẹ mình lớn tuổi, cho mình hỏi vé Bà Nà bao nhiêu",
+  "kind": "item",
+  "phaiCo": [
+   "Bà Nà"
+  ]
+ },
+ {
+  "q": "nhà mình có con nhỏ, cho hỏi nên đi đâu"
  }
 ]
