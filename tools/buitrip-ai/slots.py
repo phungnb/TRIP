@@ -18,6 +18,7 @@ _SPOT_TO_PROVINCE = {
     "moc chau": "Sơn La",
     "chua huong": "Hà Nội",
     "huong son": "Hà Nội",
+    "ruou bau da": "Gia Lai",
 }
 
 _EXTRA_ALIAS = {
@@ -52,6 +53,13 @@ def _is_city_or_overview(name):
     return n in _CITY_NORM or "tong quan" in norm_text(name or "")
 
 
+def _has_word(text, phrase):
+    """Cụm phrase có xuất hiện trọn từ trong text không (đệm khoảng trắng
+    2 đầu). Chặn kiểu chuỗi con xuyên từ: 'hue' trong 'huee', 'an' trong
+    'phan' — từ đơn chỉ được gán tỉnh khi khớp trọn từ (25/11/2026)."""
+    return bool(phrase) and (" " + phrase + " ") in (" " + (text or "") + " ")
+
+
 def detect_province(qn, provinces, skip_origin_text=None):
     """Tìm tỉnh trong câu hỏi (đã chuẩn hóa). Trả về tên tỉnh chuẩn hoặc None.
     Thứ tự: (1) tên tỉnh nêu rõ, (2) thành phố -> tỉnh, (3) alias địa danh.
@@ -61,18 +69,18 @@ def detect_province(qn, provinces, skip_origin_text=None):
         text = text.replace(skip_origin_text, " ")
     # (1) tên tỉnh nêu rõ (so theo token lõi để 'TP.HCM' khớp 'tp ho chi minh')
     for prov in provinces or []:
-        if prov and _prov_norm(prov) in text:
+        if prov and _has_word(text, _prov_norm(prov)):
             return prov
     # (2) thành phố/khu du lịch -> tỉnh (trừ alias địa danh)
     for alias, prov in _EXTRA_ALIAS.items():
-        if alias in text:
+        if _has_word(text, alias):
             return prov
     for city, prov in CITY_TO_PROVINCE.items():
-        if norm_text(city) in text:
+        if _has_word(text, norm_text(city)):
             return prov
     # (3) alias địa danh (chỉ khi không có tên tỉnh/thành nào)
     for alias, prov in _SPOT_TO_PROVINCE.items():
-        if alias in text:
+        if _has_word(text, alias):
             return prov
     return None
 
