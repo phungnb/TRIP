@@ -79,17 +79,21 @@
       if (it.ambiguous && E.prov) { var c = it.cands.filter(function (e) { return e.prov.id === E.prov.prov.id; }); if (c.length) it = { best: c[0], s: it.s, cands: c, ambiguous: c.length > 1 && c.some(function (e) { return e.fm !== c[0].fm; }) }; }
       if (it.ambiguous && !ctxEnt) return { kind: "askback", html: A.askBack(it.cands, ""), ent: null };
       var e = it.best, ent = { item: e, prov: e.prov.id };
+      /* đính chính tiền đề sai: câu khẳng định địa danh thuộc tỉnh X mà dữ liệu nói tỉnh Y
+         ("Chùa Hương ở Ninh Bình") thì đáp án bắt đầu bằng câu đính chính */
+      var dc = A.dinhChinh ? A.dinhChinh(q, e) : "";
+      var treEm = /\b(tre em|tre nho|tre con|em be|be nho)\b/.test(A.fold(q));
       if (e.kind === "place" && ["diden", "dilai", "chiphi", "mang", "angi", "odau", "lichtrinh", "khancap", "chatchem", "mua_mua"].indexOf(I.intent) >= 0) {
         var pa = typeof btAreaOfPlace === "function" ? btAreaOfPlace(e.prov, e.x) : null;
-        if (pa) return { kind: "area", html: A.answerArea(pa, I, e.x.name.split(" (")[0]), ent: ent };
+        if (pa) return { kind: "area", html: dc + A.answerArea(pa, I, e.x.name.split(" (")[0]), ent: ent };
         var lead = '<p class="ask-old">' + A.esc(e.x.name.split(" (")[0]) + ' thuộc ' + A.esc(e.prov.name) + (e.x.dist != null && typeof placeDistLabel === "function" ? ', ' + A.esc(placeDistLabel(e.x)).replace(/^C/, "c").replace(/^N/, "n") : '') + '.' + (e.x.price ? ' Giá vé tham khảo: ' + A.esc(e.x.price) + '.' : '') + (e.x.note && /tàu|thuyền|ca nô|đò|xe|đường/i.test(e.x.note) ? ' ' + A.esc(e.x.note) : '') + ' Cách đi tới ' + A.esc(e.prov.name) + ' bên dưới.</p>' + (I.intent === "diden" ? '' : '');
         /* đi từ chính tỉnh đó (từ TP.HCM đi Cần Giờ): tuyến liên tỉnh vô nghĩa, trả cách đi lại trong tỉnh */
         var FROMP = { sg: "tp-ho-chi-minh", hn: "ha-noi", dn: "da-nang" };
-        if (I.intent === "diden" && FROMP[I.from] === e.prov.id) return { kind: "prov", html: lead.replace(' Cách đi tới ' + A.esc(e.prov.name) + ' bên dưới.', ' Đi từ trong ' + A.esc(e.prov.name) + ': xem cách đi lại bên dưới.') + A.answerProv({ prov: e.prov, old: "" }, Object.assign({}, I, { intent: "dilai", from: "" })), ent: ent };
-        return { kind: "prov", html: lead + A.answerProv({ prov: e.prov, old: "" }, I), ent: ent };
+        if (I.intent === "diden" && FROMP[I.from] === e.prov.id) return { kind: "prov", html: dc + lead.replace(' Cách đi tới ' + A.esc(e.prov.name) + ' bên dưới.', ' Đi từ trong ' + A.esc(e.prov.name) + ': xem cách đi lại bên dưới.') + A.answerProv({ prov: e.prov, old: "" }, Object.assign({}, I, { intent: "dilai", from: "" })), ent: ent };
+        return { kind: "prov", html: dc + lead + A.answerProv({ prov: e.prov, old: "" }, I), ent: ent };
       }
       if (I.intent === "mua") I.want = ["season"];
-      return { kind: "item", html: A.answerItem(e, I.want), ent: ent };
+      return { kind: "item", html: dc + A.answerItem(e, I.want, { treEm: treEm }), ent: ent };
     }
     if (E.isle) return { kind: "isle", html: A.answerIsle(E.isle, I), ent: { isle: E.isle.id } };
     if (E.area) return { kind: "area", html: A.answerArea(E.area, I), ent: { area: E.area.id, prov: E.area.prov } };
@@ -167,7 +171,31 @@
     /* câu hỏi admin dạy (ai/bai-day.js): admin định hướng nên trả trước mọi nhánh khác */
     if (A.answerDay) { var dy = A.answerDay(q); if (dy) res = { kind: "day", html: dy, ent: null }; }
     /* câu xin gợi ý nơi đi theo điều kiện (tháng, chủ đề, đối tượng, nơi đi, ngân sách): ai/goi-y.js */
+    /* Địa danh/món nêu đích danh thắng nhánh gợi ý theo đối tượng: "nhà mình có con nhỏ,
+       cho hỏi Làng Quan họ Diềm ở đâu" phải trả thông tin làng, không phải gợi ý chung.
+       CHỈ kiểm khi laGoiY đã kích hoạt (câu có đối tượng/chủ đề gợi ý): gọi findItem thêm
+       1 lần cho mọi câu hỏi làm 252 câu vượt ngưỡng 100 ms của bộ kiểm hypotheses.
+       Ngoại lệ: "Đi <tên mục> với … chơi gì" — mục là điểm đến của chuyến, vẫn gợi ý theo đối tượng. */
     var gy = A.laGoiY ? A.laGoiY(q, null) : null;
+    if (gy && (I.intent === "odau" || I.intent === "didau" || I.intent === "angi" || !I.intent) && rest) {
+      var _it = A.findItem(rest);
+      if (_it && _it.s >= 70) {
+        var _ten = A.fold(_it.best.x.name.split(" (")[0].split(" — ")[0]);
+        /* chỉ tính là "nêu đích danh" khi tên chính của mục có nguyên văn trong câu hỏi:
+           "săn mây" khớp tên phụ "(săn mây)" của Tà Xùa hay "tuyết" khớp đầu tên
+           "Tuyết Anh Homestay" đều không phải nêu tên — câu đó vẫn là hỏi gợi ý. */
+        if (_ten && A.has(A.fold(qd), _ten) && (" " + A.fold(qd) + " ").indexOf(" di " + _ten + " ") < 0) {
+          gy = null;
+          /* "Tam Đảo ở đâu" có hoàn cảnh đứng trước: hỏi vị trí 1 địa danh/món, không phải hỏi chỗ ngủ —
+             trả thẻ mục như câu trơn (chuyên mục odau trong askCu chỉ kịp cho câu trơn; câu trơn ghi
+             điểm tuyệt đối nên qua được ngưỡng strong của route, câu có hoàn cảnh chỉ còn ~80 điểm).
+             Không áp khi câu có từ định tính sau "ở đâu" ("ở đâu rẻ/đẹp…": đó là hỏi khu, như "Sa Pa ở đâu rẻ")
+             và không áp khi mục mơ hồ ("Bánh tráng Trảng Bàng" không có trong dữ liệu, chỉ trùng tên
+             chung "Bánh tráng" với 4 món khác — để route tự hỏi lại hoặc về fallback, không ép thẻ mục). */
+          if (!_it.ambiguous && I.intent === "odau" && !/\b(khach san|homestay|resort|nha nghi|ngu|phong|luu tru|o dau (tot|re|dep|gan|ngon|on|hop)|nen o)\b/.test(A.fold(qd))) I.intent = "";
+        }
+      }
+    }
     if (!res && gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
     /* câu nêu đích danh 1 quán, chỗ ở, điểm nhỏ mà app chưa có trang, nhưng kho học có (ai/kho-them.js) */
     if (!res) { var kt = A.khoThem(qd); if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
@@ -176,7 +204,18 @@
     /* chủ đề admin cho học, đoạn kiến thức đã duyệt */
     if (!res && A.answerDayChuDe) { var dc = A.answerDayChuDe(q); if (dc) res = { kind: "day", html: dc, ent: null }; }
     if (!res) res = route(qd, I, rest, null);
-    if (!res && useCtx && (A.followCue(q) || I.intent || I.want.length)) {
+    /* Câu mới nêu thực thể lạ không khớp món/địa danh/tỉnh nào ("Rượu bầu đá ở đâu" sau "Hà Giang ở đâu"):
+       không được mượn tỉnh/khu lượt trước để trả chỗ ở — phải về fallback thành thật.
+       Chỉ kế thừa khi đúng là câu nối tiếp (followCue: thế/còn/ở đó…) hoặc câu không nêu thực thể
+       mới: rest rỗng, chỉ là tên nơi, hoặc chỉ còn từ chỉ định/thời gian ("chỗ", "đó", "tháng 12"). */
+    var la = (function (r) {
+      if (!r) return false;
+      if (A.isPlaceName(r)) return false;
+      var G = { "chỗ": 1, cho: 1, "đó": 1, do: 1, "đấy": 1, day: 1, "đây": 1, kia: 1, "này": 1, nay: 1, "nơi": 1, noi: 1, "tháng": 1, thang: 1, "năm": 1, nam: 1, "mùa": 1, mua: 1, "xuân": 1, xuan: 1, "hạ": 1, ha: 1, thu: 1, "đông": 1, dong: 1, "hè": 1, he: 1, "tết": 1, tet: 1, "lễ": 1, le: 1, "sáng": 1, sang: 1, "trưa": 1, trua: 1, "chiều": 1, chieu: 1, "tối": 1, toi: 1, "đêm": 1, dem: 1, "hôm": 1, hom: 1, mai: 1, "mốt": 1, mot: 1, "tuần": 1, tuan: 1, "cuối": 1, cuoi: 1, "đầu": 1, dau: 1, "giữa": 1, giua: 1, "ngày": 1, ngay: 1, "giờ": 1, gio: 1, "phút": 1, phut: 1 };
+      var ws = A.low(r).split(" ").filter(function (t) { return t && !G[t] && !/^\d+$/.test(t); });
+      return ws.length > 0;
+    })(rest);
+    if (!res && useCtx && (A.followCue(q) || !la) && (A.followCue(q) || I.intent || I.want.length)) {
       var last = A.ctx.last(), E = fromCtx(last);
       if (E && (E.item || E.area || E.isle || E.prov)) { res = route(q, I, "", E); if (res) res.followed = true; }
     }

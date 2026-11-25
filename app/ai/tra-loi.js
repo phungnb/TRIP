@@ -135,7 +135,11 @@
   /* ---------- Địa danh, món ---------- */
   /* không in nguồn, ngày kiểm trong câu trả lời (yêu cầu 23/11/2026: nguồn đưa vào mục chính sách của app) */
   function srcLine() { return '<p class="small">Giá, giờ có thể đổi, kiểm lại trước khi đi.</p>'; }
-  A.answerItem = function (e, want) {
+  /* "ăn chay" (có dấu) khác "chạy" (chạy bộ): kiểm trên chữ có dấu, ranh giới từ */
+  function laChay(q) { return /(^|[^0-9a-zà-ỹđ])chay([^0-9a-zà-ỹđ]|$)/i.test(A.low(q || "")); }
+  function monChay(d) { return laChay((d.name || "") + " " + (d.desc || "")); }
+
+  A.answerItem = function (e, want, opt) {
     var x = e.x, p = e.prov, name = label(p), nm = x.name.split(" (")[0];
     if (x.banned) return '<p class="ask-h">' + esc(x.name) + ' (' + esc(name) + ')</p><p><b>Không đón khách du lịch.</b> ' + esc(x.note || "") + '</p>' + acts([openPlace(p, x, "Xem chi tiết")]);
     if (e.kind === "dish") {
@@ -151,7 +155,7 @@
     if (!want.length) want = ["price", "hours", "season"];
     else if (want.indexOf("price") >= 0 && want.indexOf("hours") < 0) want = want.concat(["hours"]);
     var miss = [], rows = [];
-    if (want.indexOf("price") >= 0) { if (x.price) rows.push("<b>Giá vé tham khảo:</b> " + esc(x.price)); else miss.push("price"); }
+    if (want.indexOf("price") >= 0) { if (x.price) { rows.push("<b>Giá vé tham khảo:</b> " + esc(x.price)); if (opt && opt.treEm && !/trẻ em/i.test(x.price) && !/^miễn phí(\s|$|\.)/i.test(x.price.trim())) rows.push("<b>Giá vé trẻ em:</b> app chưa có riêng cho điểm này."); } else miss.push("price"); }
     if (want.indexOf("hours") >= 0) { if (x.hours) rows.push("<b>Giờ mở cửa:</b> " + esc(x.hours)); else miss.push("hours"); }
     if (want.indexOf("season") >= 0) rows.push("<b>Mùa đẹp:</b> " + esc(A.season(x, p)));
     var d = dist(x); if (d) rows.push(esc(d));
@@ -212,6 +216,11 @@
     if (intent === "dilai") return pr.local ? head + '<p class="ask-h">Đi lại ở ' + title + '</p><p>' + esc(pr.local) + '</p>' + ac : A.fallback({ area: a, prov: p, asked: I.q, what: "cách đi lại trong " + a.name, topic: "xe", lead: head });
     if (intent === "angi" || intent === "odau") {
       var arr = intent === "angi" ? p.dishes : p.stays, fl = arr.filter(inArea), lab = intent === "angi" ? "Ăn gì ở " : "Ở đâu tại ";
+      if (intent === "angi" && laChay(I.q)) {
+        fl = fl.filter(monChay);
+        if (!fl.length) return head + '<p class="ask-h">Món chay ở ' + title + '</p><p>App chưa có món chay riêng ghi trong dữ liệu ở ' + esc(a.name) + '.</p>' + ac;
+        lab = "Món chay ở ";
+      }
       if (!fl.length) return A.fallback({ area: a, prov: p, asked: I.q, topic: intent === "angi" ? "food" : "stay", what: (intent === "angi" ? "món ăn, quán" : "chỗ ở") + " riêng cho khu " + a.name, lead: head });
       var rows = intent === "angi" ? fl.slice(0, 6).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })
         : fl.slice(0, 6).map(function (s) { return "<b>" + esc(s.name.split(" (")[0]) + "</b> · " + esc(short(A.priceShort(s.price) || s.price, 40)) + (s.kind ? " · " + esc(s.kind) : ""); });
@@ -295,6 +304,11 @@
     if (intent === "angi") {
       var pd = pick(p.dishes); oldNote = note(pd.sc);
       if (!pd.l.length) return A.fallback({ prov: p, asked: I.q, topic: "food", what: "món ăn ở " + name });
+      if (laChay(I.q)) {
+        var ch = pd.l.filter(monChay), tenChay = esc(old && pd.sc ? old + " cũ" : name);
+        if (!ch.length) return oldNote + '<p class="ask-h">Món chay ở ' + tenChay + '</p><p>App chưa có món chay riêng ghi trong dữ liệu ở ' + esc(name) + '.</p>' + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
+        return oldNote + '<p class="ask-h">Món chay ở ' + tenChay + '</p>' + li(ch.slice(0, 5).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })) + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
+      }
       return oldNote + '<p class="ask-h">Ăn gì ở ' + esc(old && pd.sc ? old + " cũ" : name) + '</p>' + li(pd.l.slice(0, 5).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })) + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
     }
     if (intent === "odau") {

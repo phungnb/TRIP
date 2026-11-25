@@ -147,16 +147,55 @@ var KHU_VUC = [];
   window.btAreaById = function (id) { for (var i = 0; i < KHU_VUC.length; i++) if (KHU_VUC[i].id === id) return KHU_VUC[i]; return null; };
   window.btAreaByHub = function (prov, hub) { for (var i = 0; i < KHU_VUC.length; i++) if (KHU_VUC[i].prov === prov && KHU_VUC[i].hub === hub) return KHU_VUC[i]; return null; };
   /* Khu khớp câu gõ, theo từ. Gõ có dấu thì so có dấu với tên khu (gõ "Vĩnh Phúc" không khớp nhầm "Vinh");
-     gõ không dấu thì so bỏ dấu. keys là cách gõ khác (tên tỉnh cũ…), luôn so bỏ dấu. */
+     gõ không dấu thì so bỏ dấu. keys là cách gõ khác (tên tỉnh cũ…), luôn so bỏ dấu.
+     Khớp trên danh sách từ đã tách, không khớp chuỗi con trên chuỗi đã nối: "long an" trong
+     "Vĩnh Long ăn gì" là "Long" (đuôi tên tỉnh Vĩnh Long) + "ăn" nối qua biên từ, không phải khu Tân An.
+     Một keys chỉ được khớp khi không cắt ngang tên tỉnh/khu có trong câu — trừ khi keys đó chính là
+     trọn tên tỉnh/khu đó (vd "Bình Định" vẫn ra khu Quy Nhơn, "Long An" vẫn ra khu Tân An). */
   window.btAreaFor = function (q) {
     var f = " " + fold(q) + " ", lq = low(q), marked = /[^\x00-\x7f]/.test(String(q || "")), best = null, bl = 0;
+    var toks = fold(q).split(" ").filter(Boolean), ltoks = low(q).split(" ").filter(Boolean);
     function take(a, len) { if (len > bl) { best = a; bl = len; } }
+    /* các đoạn từ là tên tỉnh/tỉnh cũ/khu có trong câu: keys không được cắt ngang đoạn này */
+    var spans = [];
+    function addSpan(words) {
+      if (!words.length) return;
+      for (var i = 0; i + words.length <= toks.length; i++) {
+        var ok = true;
+        for (var j = 0; j < words.length; j++) if (toks[i + j] !== words[j]) { ok = false; break; }
+        if (ok) spans.push([i, i + words.length]);
+      }
+    }
+    if (typeof PROV_DATA !== "undefined") PROV_DATA.forEach(function (p) { addSpan(fold(p.name).split(" ")); });
+    if (typeof SAP_NHAP !== "undefined") Object.keys(SAP_NHAP).forEach(function (id) { SAP_NHAP[id].forEach(function (o) { addSpan(fold(o).split(" ")); }); });
+    KHU_VUC.forEach(function (a) { a.exact.forEach(function (e) { addSpan(fold(e).split(" ")); }); });
+    /* đoạn khớp [s,e) cắt ngang tên khi giao nhau nhưng không trùng hẳn */
+    function catNgang(s, e) {
+      for (var i = 0; i < spans.length; i++) { var sp = spans[i]; if (s < sp[1] && sp[0] < e && !(s === sp[0] && e === sp[1])) return true; }
+      return false;
+    }
+    function matchTokens(words, useLow) {
+      var T = useLow ? ltoks : toks, out = [];
+      if (!words.length) return out;
+      for (var i = 0; i + words.length <= T.length; i++) {
+        var ok = true;
+        for (var j = 0; j < words.length; j++) if (T[i + j] !== words[j]) { ok = false; break; }
+        if (ok) out.push([i, i + words.length]);
+      }
+      return out;
+    }
     KHU_VUC.forEach(function (a) {
       a.exact.forEach(function (e) {
         if (!e || e.length < 3) return;
-        if (marked ? lq.indexOf(" " + e + " ") >= 0 : f.indexOf(" " + fold(e) + " ") >= 0) take(a, e.length);
+        var words = (marked ? low(e) : fold(e)).split(" ").filter(Boolean);
+        matchTokens(words, marked).forEach(function (sp) { if (!catNgang(sp[0], sp[1])) take(a, e.length); });
       });
-      a.keys.forEach(function (k) { if (k && f.indexOf(" " + k + " ") >= 0) take(a, k.length); });      /* gõ liền cả tên thành 1 chữ: "quynhon", "phuquoc" */
+      a.keys.forEach(function (k) {
+        if (!k) return;
+        var words = fold(k).split(" ").filter(Boolean);
+        matchTokens(words, false).forEach(function (sp) { if (!catNgang(sp[0], sp[1])) take(a, k.length); });
+      });
+      /* gõ liền cả tên thành 1 chữ: "quynhon", "phuquoc" */
       var one = f.trim();
       if (one.indexOf(" ") < 0 && one.length >= 5) a.exact.concat(a.keys).forEach(function (e) { if (e && fold(e).replace(/ /g, "") === one) take(a, one.length); });
     });
