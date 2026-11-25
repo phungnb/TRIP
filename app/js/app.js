@@ -2628,3 +2628,36 @@ show("explore",false);
   window.addEventListener("orientationchange",fitApp);
   fitApp();
 })();
+
+/* Trượt ngang bằng chuột: dải thẻ .hscroll ẩn thanh cuộn nên máy tính không kéo được.
+   Thêm nút ‹ › (ẩn khi đã tới đầu/cuối) và kéo-thả bằng chuột cho .hscroll và dải chip cuộn.
+   Điện thoại không đổi (CSS chỉ hiện nút khi có chuột). Nội dung dải vẽ lại (innerHTML) vẫn đúng vì nút nằm ngoài dải. */
+(function hsNav(){
+  if(!window.matchMedia||!matchMedia("(hover:hover) and (pointer:fine)").matches) return;
+  var SVG='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>';
+  function nav(el){
+    if(el.__hs) return; el.__hs=1;
+    var w=document.createElement("div"); w.className="hs-wrap"; el.parentNode.insertBefore(w,el); w.appendChild(el);
+    var b=["prev","next"].map(function(k){ var x=document.createElement("button"); x.type="button"; x.className="hs-btn hs-"+k; x.setAttribute("aria-label",k==="prev"?"Xem thẻ trước":"Xem thẻ sau"); x.innerHTML=k==="prev"?SVG:SVG.replace('d="M15 18l-6-6 6-6"','d="M9 18l6-6-6-6"'); x.hidden=true;
+      x.addEventListener("click",function(){ el.scrollBy({left:(k==="prev"?-1:1)*Math.max(200,el.clientWidth*0.8),behavior:"smooth"}); }); w.appendChild(x); return x; });
+    function upd(){ var m=el.scrollWidth-el.clientWidth; b[0].hidden=el.scrollLeft<=4; b[1].hidden=m<=4||el.scrollLeft>=m-4; }
+    el.addEventListener("scroll",upd,{passive:true}); window.addEventListener("resize",upd);
+    if(window.MutationObserver) new MutationObserver(function(){ requestAnimationFrame(upd); }).observe(el,{childList:true});
+    if(window.ResizeObserver) new ResizeObserver(upd).observe(el);
+    upd(); drag(el);
+  }
+  /* kéo bằng chuột; kéo quá 5px thì chặn cú bấm để không mở nhầm thẻ */
+  function drag(el){
+    if(el.__hd) return; el.__hd=1; el.classList.add("hs-drag");
+    var x0=0,s0=0,down=false,moved=false;
+    el.addEventListener("mousedown",function(e){ if(e.button!==0) return; down=true; moved=false; x0=e.clientX; s0=el.scrollLeft; });
+    window.addEventListener("mousemove",function(e){ if(!down) return; var dx=e.clientX-x0; if(!moved&&Math.abs(dx)>5){ moved=true; el.classList.add("hs-dragging"); } if(moved){ el.scrollLeft=s0-dx; e.preventDefault(); } });
+    window.addEventListener("mouseup",function(){ if(!down) return; down=false; if(moved) setTimeout(function(){ el.classList.remove("hs-dragging"); },0); });
+    el.addEventListener("click",function(e){ if(moved){ e.preventDefault(); e.stopPropagation(); moved=false; } },true);
+    el.addEventListener("dragstart",function(e){ e.preventDefault(); });
+  }
+  function scan(){ document.querySelectorAll(".hscroll").forEach(nav); document.querySelectorAll(".chiprow-scroll").forEach(drag); }
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",scan); else scan();
+  var hen=0; /* gộp nhiều lần vẽ lại trong 1 khung hình thành 1 lần quét */
+  if(window.MutationObserver) new MutationObserver(function(){ if(hen) return; hen=requestAnimationFrame(function(){ hen=0; scan(); }); }).observe(document.body||document.documentElement,{childList:true,subtree:true});
+})();
