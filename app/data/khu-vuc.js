@@ -153,7 +153,7 @@ var KHU_VUC = [];
      Một keys chỉ được khớp khi không cắt ngang tên tỉnh/khu có trong câu — trừ khi keys đó chính là
      trọn tên tỉnh/khu đó (vd "Bình Định" vẫn ra khu Quy Nhơn, "Long An" vẫn ra khu Tân An). */
   window.btAreaFor = function (q) {
-    var f = " " + fold(q) + " ", lq = low(q), marked = /[^\x00-\x7f]/.test(String(q || "")), best = null, bl = 0;
+    var f = " " + fold(q) + " ", lq = low(q), marked = /[à-ỹđ]/i.test(String(q || "").normalize("NFC")) /* chỉ chữ có dấu tiếng Việt; gạch nối "–" không tính là gõ có dấu */, best = null, bl = 0;
     var toks = fold(q).split(" ").filter(Boolean), ltoks = low(q).split(" ").filter(Boolean);
     function take(a, len) { if (len > bl) { best = a; bl = len; } }
     /* các đoạn từ là tên tỉnh/tỉnh cũ/khu có trong câu: keys không được cắt ngang đoạn này */
@@ -169,9 +169,10 @@ var KHU_VUC = [];
     if (typeof PROV_DATA !== "undefined") PROV_DATA.forEach(function (p) { addSpan(fold(p.name).split(" ")); });
     if (typeof SAP_NHAP !== "undefined") Object.keys(SAP_NHAP).forEach(function (id) { SAP_NHAP[id].forEach(function (o) { addSpan(fold(o).split(" ")); }); });
     KHU_VUC.forEach(function (a) { a.exact.forEach(function (e) { addSpan(fold(e).split(" ")); }); });
-    /* đoạn khớp [s,e) cắt ngang tên khi giao nhau nhưng không trùng hẳn */
+    /* đoạn khớp [s,e) cắt ngang tên khi giao nhau mà không bao trọn tên đó. Khớp dài bao trọn 1 tên ngắn hơn
+       thì không tính là cắt ngang: "Phan Thiết – Mũi Né" chứa trọn "Phan Thiết" (cũng là tên khu) vẫn phải khớp. */
     function catNgang(s, e) {
-      for (var i = 0; i < spans.length; i++) { var sp = spans[i]; if (s < sp[1] && sp[0] < e && !(s === sp[0] && e === sp[1])) return true; }
+      for (var i = 0; i < spans.length; i++) { var sp = spans[i]; if (s < sp[1] && sp[0] < e && !(s <= sp[0] && sp[1] <= e)) return true; }
       return false;
     }
     function matchTokens(words, useLow) {
