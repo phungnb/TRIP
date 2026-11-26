@@ -560,5 +560,125 @@
  {
   "q": "từ Sài Gòn đi Vũng Tàu bằng gì",
   "kind": "!tuyen"
+ },
+ {
+  "q": "đà lạt đi hướng nào nhanh",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "đà lạt đi đường nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "lên đà lạt đi đèo nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "đường lên đà lạt có khó đi không",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "đà lạt đi lối nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "từ nha trang lên đà lạt đi đường nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "cách đi đà lạt nhanh nhất",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "không xếp hạng cách đi nhanh nhất"
+  ],
+  "khongCo": [
+   "Hồ Xuân Hương · Ngay trung tâm"
+  ]
+ },
+ {
+  "q": "đà lạt cách sài gòn bao xa",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến Lâm Đồng từ TP.HCM"
+  ],
+  "khongCo": [
+   "Quận 1 / Bến Thành"
+  ]
+ },
+ {
+  "q": "sapa đi hướng nào",
+  "kind": "area",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ]
+ },
+ {
+  "q": "hà giang đi đường nào",
+  "kind": "area",
+  "phaiCo": [
+   "Đi đến",
+   "chưa có dữ liệu chọn đường bộ"
+  ]
+ },
+ {
+  "q": "đi phú quốc nhanh nhất",
+  "kind": "area",
+  "phaiCo": [
+   "Đi đến"
+  ]
+ },
+ {
+  "q": "đi đà lạt bằng gì",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến"
+  ],
+  "khongCo": [
+   "Lưu ý:"
+  ]
  }
 ]

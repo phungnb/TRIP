@@ -20,6 +20,9 @@
     /* "tour ... khởi hành từ Sài Gòn": nơi hỏi là phần trước */
     m = q.match(/^(.*?)[\s,]+(?:khởi hành|xuất phát|khoi hanh|xuat phat)\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:ngày|ngay|lúc|luc)\b.*)?$/i);
     if (m && isFrom(m[2])) return m[1].trim();
+    /* "Đà Lạt cách Sài Gòn bao xa": nơi sau "cách" là nơi đi, nơi hỏi là phần trước */
+    m = q.match(unmark(/^(.{2,40}?)\s+(?:cách|cach)\s+(.{2,40}?)(\s+(?:bao xa|bao nhiêu km|bao nhieu km|mấy km|may km|bao lâu|bao lau|mấy tiếng|may tieng).*)$/i, q));
+    if (m && isFrom(m[2])) return (m[1] + (m[3] || "")).trim();
     return q;
   }
   function outOfDomain(I, q) {
@@ -262,6 +265,16 @@
       var topic = I.mode || (isle && I.intent === "diden" ? "thuy" : I.intent === "diden" ? "bay" : I.want[0] || (I.intent === "angi" ? "food" : I.intent === "odau" ? "stay" : I.intent === "mua" ? "season" : "unknown"));
       var how = A.howTo(topic, { itemName: nm }).concat(topic === "unknown" ? [] : A.howTo("unknown", {}));
       res = { kind: "fallback", html: A.fallback({ what: nm ? "mục \"" + nm + "\" trong dữ liệu app" : "câu trả lời cho câu hỏi này", how: how, asked: q }) };
+    }
+    /* "Đà Lạt đi hướng nào nhanh", "lên Đà Lạt đi đèo nào": app có cách đi (xe, bay, tàu) và thời gian, nhưng chưa có
+       dữ liệu chọn đường bộ, đèo hay xếp hạng nhanh nhất. Nói thẳng phần thiếu trước, không để người hỏi tưởng đã được trả lời. */
+    if (I.intent === "diden" && /^(prov|area|isle)$/.test(res.kind) && /Đi đến|Cách ra đảo|tuyến/.test(res.html)) {
+      var fr = " " + A.fold(qd) + " ", ghi = [];
+      if (/ (huong nao|duong nao|loi nao|nga nao|ngo nao|deo nao|kho di|de di khong|tuyen duong|cung duong|lo trinh di|di loi|duong (len|xuong|vao|ra|toi|den|ve|sang)) /.test(fr))
+        ghi.push("App chưa có dữ liệu chọn đường bộ (đi quốc lộ, đèo hay hướng nào) và tình trạng mặt đường. Tra lộ trình và tình hình giao thông trên bản đồ (Google Maps) trước khi đi.");
+      if (/ (nhanh nhat|di nhanh|nhanh hon|nhanh) /.test(fr))
+        ghi.push("App không xếp hạng cách đi nhanh nhất; so thời gian từng cách đi dưới đây (đã ghi là ước tính).");
+      if (ghi.length) res.html = '<p class="small"><b>Lưu ý:</b> ' + ghi.map(A.esc).join(" ") + '</p>' + res.html;
     }
     var ent = res.ent || null;
     if (ent && ent.item) { var it = ent.item; ent = { prov: it.prov.id, itemKey: it.prov.id + "|" + it.kind + "|" + it.x.id }; }
