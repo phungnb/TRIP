@@ -51,4 +51,4 @@ var BT_ALIAS = [
   ];
 
 /* Cách gõ sai dấu hay gặp: đổi về tên đúng trước khi tìm (lưu cả 2 dạng, không bắt người dùng gõ đúng) */
-var BT_BIEN_THE = [["mã pì lèng", "mã pí lèng"], ["mã pỳ lèng", "mã pí lèng"], ["hòn dáu", "hòn dấu"], ["sapa", "sa pa"], ["phan thiêt", "phan thiết"], ["lăng bác", "lăng chủ tịch"], ["lang bac", "lang chu tich"]];
+var BT_BIEN_THE = [["mã pì lèng", "mã pí lèng"], ["mã pỳ lèng", "mã pí lèng"], ["hòn dáu", "hòn dấu"], ["sapa", "sa pa"], ["phan thiêt", "phan thiết"], ["lăng bác", "lăng chủ tịch"], ["lang bac", "lang chu tich"], ["buôn mê thuột", "buôn ma thuột"], ["buon me thuot", "buon ma thuot"]];

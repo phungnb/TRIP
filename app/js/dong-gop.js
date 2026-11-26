@@ -180,7 +180,7 @@
     return {data:d};
   }
   function valueLabel(k){
-    return k==="sua_thong_tin"?"Thông tin đúng là":k==="bao_loi"?"Mô tả vấn đề":k==="anh"?"Link ảnh (ảnh do anh/chị chụp hoặc có giấy phép dùng lại)":"Tên, địa chỉ, vì sao nên đi";
+    return k==="sua_thong_tin"?"Thông tin đúng là":k==="bao_loi"?"Mô tả vấn đề":k==="anh"?"Link ảnh (ảnh do bạn chụp hoặc có giấy phép dùng lại)":"Tên, địa chỉ, vì sao nên đi";
   }
   window.dgKindChg=function(){
     var k=document.getElementById("dgKind").value;
@@ -204,15 +204,15 @@
     var btn=ev.target.querySelector('[type=submit]'); btn.disabled=true; btn.textContent="Đang gửi…";
     loadSdk().then(function(c){ return c.from("contributions").insert(row); }).then(function(r){
       if(r&&r.error) throw new Error(/30 đóng góp/.test(r.error.message)?"Quá 30 đóng góp trong 24 giờ, thử lại sau.":"Chưa gửi được: "+r.error.message.replace(/^.*?:\s*(?=[A-ZĐÀ-Ỹ])/,""));
-      sheet('<h3 id="dgTitle">Đã nhận đóng góp</h3><p>Cảm ơn anh/chị. Đóng góp đang ở trạng thái <b>Chờ duyệt</b>; theo dõi trong Tài khoản → Đóng góp của tôi.</p>'+
+      sheet('<h3 id="dgTitle">Đã nhận đóng góp</h3><p>Cảm ơn bạn. Đóng góp đang ở trạng thái <b>Chờ duyệt</b>; theo dõi trong Tài khoản → Đóng góp của tôi.</p>'+
         '<div class="row"><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button><button class="btn btn-primary" onclick="dgClose()">Xong</button></div>');
     }).catch(function(e){ btn.disabled=false; btn.textContent="Gửi"; document.getElementById("dgMsg").innerHTML=errBox(e.message); });
     return false;
   };
 
-  /* ---------- form đóng góp mở (không cần đăng nhập) -> tự mở Pull Request ----------
+  /* ---------- form đóng góp mở (không cần đăng nhập) -> gửi về máy chủ để duyệt ----------
      Gửi về /api/dong-gop (Vercel serverless): server kiểm hợp lệ, vá prov-data.js,
-     sinh lại prov-data.gon.js và mở PR trên GitHub. Admin chỉ cần bấm Merge. */
+     sinh lại prov-data.gon.js và gửi lên GitHub để duyệt. Admin duyệt xong nội dung lên site. */
   function parseMapsLink(url){
     var u=String(url||"").trim(); if(!u) return null;
     var m=u.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/)||u.match(/[?&]q=(-?\d+\.\d+),(-?\d+\.\d+)/)||u.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
@@ -266,10 +266,10 @@
         '<div class="field"><label for="prNMaps">Link Google Maps (bắt buộc với địa danh mới)</label><input id="prNMaps" type="url" maxlength="500" placeholder="https://maps.google.com/…" oninput="dgPRMaps(this)"><p class="small" id="prNMapsSt" style="margin:4px 0 0"></p><p class="small muted" style="margin:4px 0 0">Địa danh mới cần link Google Maps để lấy tọa độ. Món ăn / chỗ ở có thể để trống.</p></div>'+
         '<div class="field"><label for="prNNote">Vì sao nên đi / ghi chú</label><textarea id="prNNote" rows="3" maxlength="1000"></textarea></div>'+
       '</div>'+
-      '<div class="field"><label for="prName">Tên của anh/chị (để ghi công trong Pull Request)</label><input id="prName" maxlength="60" placeholder="Vd: Nguyễn Văn A"></div>'+
+      '<div class="field"><label for="prName">Tên của bạn (để ghi công khi cập nhật lên app)</label><input id="prName" maxlength="60" placeholder="Vd: Nguyễn Văn A"></div>'+
       '<div id="prMsg"></div>'+
       '<div class="row"><button class="btn btn-ghost" type="button" onclick="dgClose()">Hủy</button><button class="btn btn-primary" type="submit">Gửi đóng góp</button></div></form>'+
-      '<p class="small" style="margin-top:10px">Không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request trên GitHub — Admin bấm Merge là lên site. Lưu ý: đóng góp qua kênh này không hiện trong “Đóng góp của tôi” (chỉ theo dõi bằng link Pull Request nhận được sau khi gửi).</p>');
+      '<p class="small" style="margin-top:10px">Không cần đăng nhập. Đóng góp đúng sẽ được duyệt và cập nhật lên app. Lưu ý: đóng góp qua kênh này không hiện trong “Đóng góp của tôi” (chỉ theo dõi bằng link nhận được sau khi gửi).</p>');
     window.dgPRMode(mode);
   }
   window.dgPRSubmit=function(ev){
@@ -277,7 +277,7 @@
     var mode=document.getElementById("prMode").value;
     var honey=(document.getElementById("prHoney")||{}).value||"";
     if(honey){ /* bẫy spam: bot điền ô ẩn thì báo thành công giả, không gửi gì */
-      sheet('<h3 id="dgTitle">Đã nhận đóng góp</h3><p>Cảm ơn anh/chị.</p><button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>');
+      sheet('<h3 id="dgTitle">Đã nhận đóng góp</h3><p>Cảm ơn bạn.</p><button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>');
       return false;
     }
     var payload={mode:mode, contributor:(document.getElementById("prName").value||"").trim()||null, website:""};
@@ -315,11 +315,11 @@
       return r.json().catch(function(){ return {}; }).then(function(j){ return {status:r.status,body:j}; });
     }).then(function(res){
       if(res.status===503){
-        sheet('<h3 id="dgTitle">Tính năng đang chờ bật</h3><p>Admin chưa bật kênh đóng góp tự động (thiếu token GitHub trên máy chủ). Trong lúc chờ, anh/chị gửi qua mục Hỗ trợ của nút Hỏi — đội BuiTrip nhận và nhập tay.</p><div class="row"><button class="btn btn-ghost" onclick="dgClose();if(window.tlOpen)tlOpen(\'ht\')">Mở mục Hỗ trợ</button><button class="btn btn-primary" onclick="dgClose()">Đóng</button></div>');
+        sheet('<h3 id="dgTitle">Tính năng đang chờ bật</h3><p>Admin chưa bật kênh đóng góp tự động (thiếu token GitHub trên máy chủ). Trong lúc chờ, bạn gửi qua mục Hỗ trợ của nút Hỏi — đội BuiTrip nhận và nhập tay.</p><div class="row"><button class="btn btn-ghost" onclick="dgClose();if(window.tlOpen)tlOpen(\'ht\')">Mở mục Hỗ trợ</button><button class="btn btn-primary" onclick="dgClose()">Đóng</button></div>');
         return;
       }
       if(res.status!==200||!res.body||!res.body.ok) throw new Error((res.body&&res.body.error)||"Chưa gửi được, thử lại sau.");
-      sheet('<h3 id="dgTitle">Đã gửi — Pull Request đã mở</h3><p>Cảm ơn anh/chị. Đóng góp đã thành <a href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Pull Request #'+esc(String(res.body.pr_number))+' trên GitHub</a>. Admin bấm Merge là nội dung lên site. Lưu lại link này để theo dõi.</p><div class="row"><a class="btn btn-primary" href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Xem Pull Request</a><button class="btn btn-ghost" onclick="dgClose()">Đóng</button></div>');
+      sheet('<h3 id="dgTitle">Đã gửi — đang chờ duyệt</h3><p>Cảm ơn bạn. Đóng góp của bạn đã được ghi lại <a href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Đóng góp #'+esc(String(res.body.pr_number))+' trên GitHub</a> và sẽ được duyệt rồi cập nhật lên app. Lưu lại link này để theo dõi.</p><div class="row"><a class="btn btn-primary" href="'+esc(res.body.pr_url)+'" target="_blank" rel="noopener">Xem trên GitHub</a><button class="btn btn-ghost" onclick="dgClose()">Đóng</button></div>');
     }).catch(function(e){ fail(e.message||"Chưa gửi được, thử lại sau."); });
     return false;
   };
@@ -336,7 +336,7 @@
         return '<div class="dg-item"><div class="dg-top"><b>'+esc(x.place_name||(p?p.name:x.prov_id))+'</b><span class="dg-st st-'+esc(x.status)+'">'+esc(ST[x.status]||x.status)+'</span></div>'+
           '<p class="small">'+esc(lbl(KINDS,x.kind))+(x.field?' · '+esc(lbl(FIELDS,x.field)):'')+' · '+esc(fmtTime(x.created_at))+'</p><p>'+esc(x.value)+'</p>'+
           (x.review_note?'<p class="small"><b>Phản hồi:</b> '+esc(x.review_note)+'</p>':'')+'</div>';
-      }).join("")+'</div>':'<p class="muted">Chưa có đóng góp nào qua tài khoản. Đóng góp mới qua nút “Đóng góp / Báo sai” sẽ mở Pull Request công khai trên GitHub.</p>')+
+      }).join("")+'</div>':'<p class="muted">Chưa có đóng góp nào qua tài khoản. Đóng góp mới qua nút “Đóng góp / Báo sai” sẽ được ghi lại công khai trên GitHub.</p>')+
       '<button class="btn btn-ghost btn-block" style="margin-top:12px" onclick="dgClose()">Đóng</button>');
     }).catch(function(e){ sheet('<h3 id="dgTitle">Đóng góp của tôi</h3>'+errBox(e.message)+'<button class="btn btn-ghost btn-block" onclick="dgClose()">Đóng</button>'); });
   };
@@ -395,18 +395,18 @@
       b.textContent=me.name||me.email||"Đã đăng nhập";
       if(av){ av.textContent=String(me.name||me.email||"?").trim().charAt(0).toUpperCase(); av.classList.add("has-name"); }
       p.textContent=(me.email||"")+" · Chuyến đi và mục đã lưu vẫn giữ trong trình duyệt này.";
-      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgOpenPR(\'\',null,\'\')">Gửi đóng góp mới</button><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<a class="btn btn-primary" href="#/admin">Trang admin</a><button class="btn btn-ghost" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
+      box.innerHTML='<div class="dg-acts"><button class="btn btn-ghost" onclick="dgOpenPR(\'\',null,\'\')">Đóng góp / Báo sai</button><button class="btn btn-ghost" onclick="dgMine()">Đóng góp của tôi</button>'+(isAdmin?'<a class="btn btn-primary" href="#/admin">Trang admin</a><button class="btn btn-ghost" onclick="dgSupport(\'moi\')">Tin hỗ trợ</button>':'')+'<button class="btn btn-ghost" onclick="dgLogout()">Đăng xuất</button></div>';
     } else {
       b.textContent="Chưa đăng nhập";
       if(av && av._svg){ av.innerHTML=av._svg; av.classList.remove("has-name"); }
       p.textContent="Xem cẩm nang và lập chuyến không cần tài khoản. Chuyến đi và mục đã lưu hiện chỉ giữ trên máy này.";
-      box.innerHTML='<button class="btn btn-primary btn-block" onclick="dgLogin(\'in\')">Đăng nhập / Tạo tài khoản</button><p class="small" style="text-align:center;margin-top:10px"><span class="badge badge-soon">Sắp ra mắt</span> Đồng bộ chuyến đi và mục đã lưu giữa các thiết bị. Đăng nhập hiện dùng để gửi đóng góp sửa thông tin, gợi ý địa danh.</p>';
+      box.innerHTML='<button class="btn btn-primary btn-block" onclick="dgLogin(\'in\')">Đăng nhập / Tạo tài khoản</button><p class="small" style="text-align:center;margin-top:10px"><span class="badge badge-soon">Sắp ra mắt</span> Đồng bộ chuyến đi và mục đã lưu giữa các thiết bị.</p>';
     }
   }
   window.dgRenderAcct=renderAcct;
 
   /* Nút đóng góp duy nhất: ghi đè reportLinkHtml (cả bản dự phòng app.js lẫn bản chia-se.js)
-     thành 1 nút "Đóng góp / Báo sai" mở form tự mở Pull Request, không cần đăng nhập.
+     thành 1 nút "Đóng góp / Báo sai" mở form gửi về máy chủ để duyệt, không cần đăng nhập.
      Form đóng góp cũ (cần đăng nhập, lưu Neon) vẫn giữ trong file cho admin/theo dõi,
      nhưng không còn đường vào từ giao diện. */
   function wrapReport(){
@@ -414,7 +414,7 @@
     var f=function(kind,provId,itemId){
       if(typeof provById==="function"&&!provById(provId)) return "";
       return '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="dgOpenPR(\''+esc(provId)+'\',\''+esc(itemId)+'\',\''+esc(kind)+'\')">Đóng góp / Báo sai</button>'+
-        '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request để đưa vào app.</p>';
+        '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ được duyệt và cập nhật lên app.</p>';
     };
     f._dg=1; window.reportLinkHtml=f;
     try{ reportLinkHtml=f; }catch(e){}

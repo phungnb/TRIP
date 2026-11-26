@@ -86,7 +86,7 @@
       (near.length?'<h4>Gần đó, đi cùng buổi</h4><div class="guide-chips">'+near.map(function(o){ return '<button class="chip" onclick="openProvPlace(\''+prov.id+'\',\''+o.id+'\')">'+esc(o.name.split(" (")[0])+'</button>'; }).join("")+'</div>':'')+
       (stays.length?'<h4>'+(sameArea?'Chỗ ở cùng khu':'Chỗ ở ở trung tâm')+'</h4><div class="guide-list">'+stays.map(function(s){ return '<button onclick="openProvStay(\''+prov.id+'\',\''+s.id+'\')"><span>'+esc(s.name.split(" (")[0])+'</span><b>'+esc(priceShort(s.price)||"")+'</b></button>'; }).join("")+'</div>':'')+
       (dishes.length?'<h4>Món nên thử ở '+esc(prov.id==="lam-dong"?"Đà Lạt":prov.name)+'</h4><div class="guide-list">'+dishes.map(function(d){ return '<button onclick="openProvDish(\''+prov.id+'\',\''+d.id+'\')"><span>'+esc(d.name)+'</span><b>'+esc(priceShort(d.price)||"")+'</b></button>'; }).join("")+'</div>':'')+
-      '<p class="small" style="margin:10px 0 0">Km tính từ trung tâm du lịch gần nhất (đường thẳng, đường bộ thực tế dài hơn 20–40%). Thời gian và phương tiện là ước tính theo cự ly; giá thuê xe theo cẩm nang tỉnh.</p></section>';
+      '<p class="small" style="margin:10px 0 0">Km tính từ trung tâm du lịch gần nhất. Thời gian và phương tiện là ước tính theo cự ly; giá thuê xe theo cẩm nang tỉnh.</p></section>';
     return h;
   }
 
@@ -102,8 +102,8 @@
   function checkinBtn(prov,x){
     var k=prov.id+"|"+x.id, s=load()[k];
     if(s) return '<div class="stamp-done">'+stampIcon(22)+'<div><b>Đã có tem</b><span>Check-in '+new Date(s.t).toLocaleDateString("vi-VN")+'</span></div><button class="btn btn-ghost" onclick="openStampBook()">Sổ tem</button></div>';
-    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được. Tem tỉnh tính khi check-in ở bất kỳ địa danh nào khác của tỉnh. Biết vị trí chính xác, anh/chị bấm Gửi đóng góp để gửi cho đội BuiTrip.</p>';
-    return '<button class="btn btn-primary btn-block stamp-btn" onclick="doCheckin(\''+prov.id+'\',\''+x.id+'\',this)">'+stampIcon(20)+' Check-in lấy tem</button><p class="notebox small" id="stampMsg" role="status" hidden style="margin:8px 0 0"></p><p class="small" style="margin:6px 0 0">Cần bật vị trí; chỉ tính khi anh/chị đang ở cách điểm này dưới '+(x.approx?'2 km (tọa độ điểm này là ước tính nên nới rộng)':'1 km')+'.</p>';
+    if(x.lat==null) return '<p class="small">Điểm này chưa có tọa độ nên chưa check-in được. Tem tỉnh tính khi check-in ở bất kỳ địa danh nào khác của tỉnh. Biết vị trí chính xác, bạn bấm Gửi đóng góp để gửi cho đội BuiTrip.</p>';
+    return '<button class="btn btn-primary btn-block stamp-btn" onclick="doCheckin(\''+prov.id+'\',\''+x.id+'\',this)">'+stampIcon(20)+' Check-in lấy tem</button><p class="notebox small" id="stampMsg" role="status" hidden style="margin:8px 0 0"></p><p class="small" style="margin:6px 0 0">Cần bật vị trí; chỉ tính khi bạn đang ở cách điểm này dưới '+(x.approx?'2 km (tọa độ điểm này là ước tính nên nới rộng)':'1 km')+'.</p>';
   }
   /* Báo lỗi ngay dưới nút (không chỉ toast thoáng qua) */
   function say(m){ toast(m); var b=document.getElementById("stampMsg"); if(b){ b.textContent=m; b.hidden=false; } }
@@ -115,7 +115,7 @@
       var d=hav(pos.coords.latitude,pos.coords.longitude,x.lat,x.lng), lim=x.approx?2:1;
       if(d<=lim){ var s=load(); s[pid+"|"+xid]={t:Date.now(),prov:pid,d:Math.round(d*1000)}; save(s); toast("Đã lấy tem "+x.name.split(" (")[0]); refreshCheckin(prov,x); }
       else { var acc=pos.coords.accuracy?Math.round(pos.coords.accuracy):0;
-        say("Anh/chị đang cách điểm này khoảng "+(d<10?d.toFixed(1).replace(".",","):Math.round(d))+" km, cần dưới "+lim+" km mới lấy được tem."+(acc>500?" GPS đang sai số khoảng "+(acc>=1000?(acc/1000).toFixed(1).replace(".",",")+" km":acc+" m")+", ra chỗ thoáng đợi GPS ổn định rồi thử lại.":" Đến gần hơn rồi bấm lại.")); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } }
+        say("Bạn đang cách điểm này khoảng "+(d<10?d.toFixed(1).replace(".",","):Math.round(d))+" km, cần dưới "+lim+" km mới lấy được tem."+(acc>500?" GPS đang sai số khoảng "+(acc>=1000?(acc/1000).toFixed(1).replace(".",",")+" km":acc+" m")+", ra chỗ thoáng đợi GPS ổn định rồi thử lại.":" Đến gần hơn rồi bấm lại.")); if(btn){ btn.disabled=false; btn.innerHTML=stampIcon(20)+" Check-in lấy tem"; } }
     },function(err){
       var c=err&&err.code, m=c===1?"Trình duyệt đang chặn quyền vị trí. Bấm biểu tượng ổ khóa cạnh địa chỉ trang → Vị trí → Cho phép, rồi bấm Check-in lại."
         :c===3?"Lấy vị trí quá lâu (GPS yếu). Ra chỗ thoáng, bật Vị trí chính xác trong cài đặt máy, đợi 10–20 giây rồi bấm lại."
@@ -174,9 +174,11 @@
   /* Câu chuyện + món gần đó (từ Hộ chiếu khám phá RaceHub) */
   function storyHtml(x){
     var cul=x.from_racehub?"":(x.rh_note||"");
-    if(!x.history && !x.food_near && !cul) return "";
+    var his=x.history||"";
+    if(/^theo một số tư liệu chưa chính thống,\s*/i.test(his)) his=his.replace(/^theo một số tư liệu chưa chính thống,\s*/i,"").replace(/^./,function(c){return c.toUpperCase();});
+    if(!his && !x.food_near && !cul) return "";
     return '<section class="story"><h3 class="guide-h">Câu chuyện nơi này</h3>'+
-      (x.history?'<p>'+esc(x.history)+'</p>':'')+(cul?'<p>'+esc(cul)+'</p>':'')+
+      (his?'<p>'+esc(his)+'</p>':'')+(cul?'<p>'+esc(cul)+'</p>':'')+
       (x.food_near?'<div class="story-food"><b>Món nên thử gần đó: '+esc(x.food_near.name)+'</b>'+(x.food_near.desc?'<span>'+esc(x.food_near.desc)+'</span>':'')+'</div>':'')+
       (x.from_racehub&&x.runner_note?'<p class="small">Đi bộ, chạy bộ: '+esc(x.runner_note)+'</p>':'')+
       '</section>';

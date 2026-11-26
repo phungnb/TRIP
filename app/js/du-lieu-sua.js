@@ -56,9 +56,9 @@
   }
   function newItem(kind, id, d) {
     var o;
-    if (kind === "place") o = { id: id, name: "", address: "", lat: null, lng: null, approx: true, dist: null, price: "Chưa kiểm được", hours: "Chưa kiểm được", duration: "", suitable: "", note: "" };
-    else if (kind === "stay") o = { id: id, name: "", address: "", kind: "", price: "Chưa kiểm được giá", dist: "", suitable: "", status_text: "Chưa kiểm chứng / chưa đối tác / chưa thu phí" };
-    else if (kind === "dish") o = { id: id, name: "", meal: "Đặc sản địa phương", price: "Chưa kiểm được", desc: "", restaurants: [] };
+    if (kind === "place") o = { id: id, name: "", address: "", lat: null, lng: null, approx: true, dist: null, price: "Chưa có giá", hours: "Chưa kiểm được", duration: "", suitable: "", note: "" };
+    else if (kind === "stay") o = { id: id, name: "", address: "", kind: "", price: "Chưa có giá", dist: "", suitable: "", status_text: "Chưa kiểm chứng / chưa đối tác / chưa thu phí" };
+    else if (kind === "dish") o = { id: id, name: "", meal: "Đặc sản địa phương", price: "Chưa có giá", desc: "", restaurants: [] };
     else if (kind === "route") o = { id: id, mode: "", time: "", price: "", note: "" };
     else o = { id: id, mode: "", price: "", req: "", note: "" };
     o._moi = 1;

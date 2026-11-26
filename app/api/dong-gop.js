@@ -1,6 +1,6 @@
 /* Đóng góp mã nguồn mở: POST /api/dong-gop -> vá app/data/prov-data.js, sinh lại
-   prov-data.gon.js, tự mở Pull Request trên GitHub (nhánh dong-gop/<slug>).
-   Admin chỉ cần bấm Merge PR là Vercel tự deploy lên site.
+   prov-data.gon.js, gửi lên GitHub để duyệt (nhánh dong-gop/<slug>).
+   Admin duyệt xong là Vercel tự deploy lên site.
    Cần env GITHUB_TOKEN (fine-grained PAT: repo phungnb/TRIP, quyền Contents +
    Pull requests: Read + Write). Chưa có token -> 503, form hiện hướng dẫn gửi qua
    mục Hỗ trợ. Chống spam cơ bản: honeypot (ô website), giới hạn 10 đóng góp/IP/ngày
@@ -236,6 +236,6 @@ module.exports = async function handler(req, res) {
     return send(res, 200, { ok: true, pr_url: pr.html_url, pr_number: pr.number, branch });
   } catch (e) {
     console.error("dong-gop github write:", e.message);
-    return send(res, 503, { error: "Chưa mở được Pull Request, thử lại sau hoặc gửi qua mục Hỗ trợ." });
+    return send(res, 503, { error: "Chưa gửi được đóng góp, thử lại sau hoặc gửi qua mục Hỗ trợ." });
   }
 };

@@ -36,6 +36,16 @@ class NaiveBayes:
             self.log_prob[l] = {f: math.log((feat_count[l][f] + self.alpha) / denom)
                                 for f in self.vocab}
             self._unk = {l: math.log(self.alpha / denom) for l in self.labels}
+        # Làm tròn bảng log về 3 chữ số thập phân — KHỚP TUYỆT ĐỐI với mô hình
+        # JS đã lược (js-port/ai-model.json do prune_model.py sinh bằng
+        # round(x, 3)). Không làm tròn thì xác suất Python lệch JS ~0.0004
+        # (vd "Phở ở đâu": 0.65439 vs 0.65475) và confidence lệch 0.001 ở
+        # 6/31 câu probe, phá parity (25/11/2026). Đã kiểm: bảng sau làm tròn
+        # khớp ai-model.json 54572/54572 giá trị.
+        self.log_prior = {l: round(v, 3) for l, v in self.log_prior.items()}
+        self._unk = {l: round(v, 3) for l, v in self._unk.items()}
+        self.log_prob = {l: {f: round(v, 3) for f, v in d.items()}
+                         for l, d in self.log_prob.items()}
         return self
 
     def predict(self, feats):

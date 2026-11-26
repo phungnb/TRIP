@@ -54,11 +54,15 @@ export class Retriever {
       // Neo theo tỉnh: món/chỗ ở/chi phí phải cùng tỉnh người hỏi
       if (province !== null && !sameProvince(this.kb[i].tinh, province)) continue;
       let s = Tfidf.cosine(qvec, this.vecs[i]);
-      // cộng điểm khi tên mục khớp nhiều token câu hỏi
+      // cộng điểm khi tên mục khớp nhiều token câu hỏi — CHỈ khi chung
+      // >= 2 token, hoặc khớp TRỌN tên 1 token (vd "Huế"). 1 token phổ
+      // thông ("đá", "dầu" từ "ở đâu") không được kéo cả mục lên:
+      // lỗi thật 25/11/2026 — "Rượu bầu đá ở đâu" ra Bàu Trắng (chung
+      // mỗi "bau"), "Phở ở đâu" ra Hòn Dầu (chung mỗi "dau").
       const nameTok = new Set(tokens(this.kb[i].ten || ""));
-      if (nameTok.size) {
-        let inter = 0;
-        for (const t of nameTok) if (qtok.has(t)) inter++;
+      let inter = 0;
+      for (const t of nameTok) if (qtok.has(t)) inter++;
+      if (nameTok.size && (inter >= 2 || inter === nameTok.size)) {
         s += 1.5 * inter / nameTok.size;
       }
       // cộng điểm lớn khi tên điểm (bỏ phần trong ngoặc) xuất hiện nguyên vẹn trong câu hỏi

@@ -26,9 +26,9 @@ function fmtVnd(n) {
 const STORAGE_KEY = "buitrip_ai_boosts";
 
 function round3(x) {
-  // round(x, 3) của Python (làm tròn nửa chẵn) vs Math.round (nửa lên):
-  // chỉ lệch nhau ở đúng ngưỡng .0005 — giá trị confidence/score thực tế
-  // gần như không bao giờ rơi đúng ngưỡng đó.
+  // Làm tròn 3 chữ số thập phân, NỬA LÊN. Python learner.py dùng cùng luật
+  // (math.floor(x*1000+0.5)/1000) thay vì round(x, 3) làm tròn nửa chẵn —
+  // lệch 0.001 ở ngưỡng .0005, thực tế 6/31 câu probe chạm ngưỡng (25/11/2026).
   return Math.round(x * 1000) / 1000;
 }
 
@@ -62,6 +62,31 @@ function isCityOrOverview(name) {
   return CITY_NORM.has(n) || normText(name || "").includes("tong quan");
 }
 
+// Từ khóa lưu trú RÕ RÀNG (chuỗi đã chuẩn hóa, khớp trọn từ). Chỉ khi câu
+// có 1 trong các cụm này mới được coi là hỏi chỗ ở — "ở đâu" đứng một mình
+// KHÔNG đủ (lỗi thật 25/11/2026: "Rượu bầu đá ở đâu" ra homestay).
+const LODGING_WORDS = ["khach san", "homestay", "resort", "nha nghi",
+  "ngu o dau", "nghi o dau", "o dau ngon", "o dau re",
+  "o dau tai", "o tai", "cho o", "o dem", "qua dem",
+  "ngu dem", "ngu lai", "o lai", "thue phong"];
+
+function hasLodgingWord(qn) {
+  const padded = " " + (qn || "") + " ";
+  return LODGING_WORDS.some((w) => padded.includes(" " + w + " "));
+}
+
+function whereSubject(q) {
+  // Chủ thể X của câu '[X] ở đâu' (giữ dấu như người hỏi, vd 'Rượu bầu đá').
+  // Bỏ các từ hỏi ở đầu/cuối ('ở đâu', 'cho mình hỏi'...). Trả null khi
+  // không còn chủ thể (vd câu chỉ có 'ở đâu').
+  let s = String(q || "").trim().replace(/[?!.]+$/, "").trim();
+  s = s.replace(/^(cho\s+(minh\s+)?hoi|cho\s+hoi|xin\s+hoi)\s+/i, "").trim();
+  s = s.replace(/\s*(ở\s+đâu|o\s+dau)\s*/gi, " ").trim();
+  s = s.replace(/^(ở|đâu|o|dau)\s+/i, "").trim();
+  s = s.replace(/\s+(ở|đâu|o|dau)$/i, "").trim();
+  return s || null;
+}
+
 export class BuiTripAI {
   constructor(kb, model, extra) {
     this.kb = kb;
@@ -89,15 +114,21 @@ export class BuiTripAI {
 
   // Trả về tên tỉnh mới (dạng chuẩn hóa) nếu câu hỏi nhắc 1 tỉnh/tỉnh cũ/thành phố.
   provinceOf(q) {
+    // Thứ tự: (1) tên tỉnh mới nêu rõ, (2) thành phố, (3) tỉnh cũ — để
+    // 'Vĩnh Long' thắng 'Long An' trong 'Vĩnh Long ăn gì' (tên tỉnh mới
+    // phải thắng tỉnh cũ; lỗi thật 25/11/2026: Vĩnh Long bị neo về Tây Ninh).
+    // Khớp trọn từ (đệm khoảng trắng) — 'vinh' trong 'vinh long' không được
+    // gán về Nghệ An.
     const qn = normText(q);
-    for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
-      if (qn.includes(normText(old))) return nw;
+    const padded = " " + qn + " ";
+    for (const prov of this.provinces) {
+      if (prov && padded.includes(" " + prov + " ")) return prov;
     }
     for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
-      if (qn.includes(normText(city))) return prov;
+      if (padded.includes(" " + normText(city) + " ")) return prov;
     }
-    for (const prov of this.provinces) {
-      if (prov && qn.includes(prov)) return prov;
+    for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
+      if (padded.includes(" " + normText(old) + " ")) return nw;
     }
     return null;
   }
@@ -119,21 +150,100 @@ export class BuiTripAI {
       qn.startsWith("the con ") || qn.startsWith("o do ") ||
       qn.slice(0, 12).includes("the ");
     let entries = this.retriever.search(q, 3);
+    if (intent === "vi_tri") {
+      // NB đoán "vị trí" nhưng câu hỏi thực chất là hỏi chỗ ở hoặc
+      // hỏi "[tỉnh/thành] ở đâu": lật về "o" (trừ khi nhắc đích danh
+      // 1 chỗ ở cụ thể — "Khách sạn Sakura ở đâu" vẫn là vị trí
+      // của khách sạn đó). Lỗi thật 25/11/2026: "ngủ ở đâu tại Hội An"
+      // ra vị trí Phố cổ Hội An; "Đà Lạt ở đâu" ra Ga Đà Lạt.
+      const qn = normText(q);
+      const x0 = whereSubject(q);
+      const xn0 = x0 ? normText(x0) : "";
+      if (x0 && (CITY_NORM.has(xn0) || this.provinces.includes(xn0) ||
+                 xn0.includes("tong quan"))) {
+        intent = "o";
+      } else if (hasLodgingWord(qn)) {
+        const featSet = new Set(feats);
+        const namedStay = entries.some(([ , e]) =>
+          e.loai === "cho_o" && namedInQuestion(e.ten, featSet));
+        if (!namedStay) intent = "o";
+      }
+    }
     if (intent === "o") {
-      // "X ở đâu" hỏi vị trí của 1 điểm cụ thể, không phải hỏi chỗ ở.
-      // NB hay nhầm sang "o" vì cụm "ở đâu" (gặp 24/11/2026: "Cà phê
-      // Tùng Đà Lạt ở đâu" ra homestay, "Phù điêu... ở đâu" ra hostel).
-      // Chỉ sửa khi câu hỏi nhắc đích danh 1 mục không phải chỗ ở,
-      // không phải tên thành phố hay mục tổng quan tỉnh.
-      const featSet = new Set(feats);
-      for (let j = 0; j < entries.length; j++) {
-        const e = entries[j][1];
-        if (e.loai === "cho_o") continue;
-        if (namedInQuestion(e.ten, featSet) && !isCityOrOverview(e.ten)) {
-          intent = "vi_tri";
-          entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];
-          break;
+      // Ý định chỗ ở CHỈ kích hoạt khi câu có từ khóa lưu trú RÕ RÀNG
+      // (khách sạn, homestay, ngủ ở đâu, ở đâu tại [tỉnh]...), hoặc
+      // hỏi "[tỉnh/thành] ở đâu". "[X] ở đâu" mà X là món/đặc sản/
+      // địa danh thì TUYỆT ĐỐI KHÔNG trả danh sách homestay; X không
+      // có trong kho thì trả thẳng "App chưa có thông tin về [X]".
+      // Lỗi thật 25/11/2026: "Rượu bầu đá ở đâu" ra homestay Hà Giang.
+      const qn = normText(q);
+      if (!hasLodgingWord(qn)) {
+        const x = whereSubject(q);
+        const xn = x ? normText(x) : "";
+        if (x && (CITY_NORM.has(xn) || this.provinces.includes(xn) ||
+                  xn.includes("tong quan"))) {
+          // "[tỉnh/thành] ở đâu" -> vẫn là hỏi chỗ ở ở đó.
+        } else {
+          const featSet = new Set(feats);
+          let flipped = false;
+          for (let j = 0; j < entries.length; j++) {
+            const e = entries[j][1];
+            if (e.loai === "cho_o") continue;
+            if (isCityOrOverview(e.ten)) continue;
+            // Khớp đích danh (đủ token / >=4 token) hoặc khớp
+            // >= 2 token tên ("Bún chả" -> "Bún chả Hà Nội"):
+            // đều là hỏi vị trí của X, không phải hỏi chỗ ở.
+            const nameTok = new Set(tokens(e.ten || ""));
+            let shared = 0;
+            for (const t of nameTok) if (featSet.has(t)) shared++;
+            if (namedInQuestion(e.ten, featSet) || shared >= 2) {
+              intent = "vi_tri";
+              entries = [entries[j], ...entries.slice(0, j), ...entries.slice(j + 1)];
+              flipped = true;
+              break;
+            }
+          }
+          if (!flipped && !follow && x) {
+            return {
+              answer: "App chưa có thông tin về " + x + ".",
+              intent,
+              confidence: round3(conf),
+              entity: null,
+              entity_prov: null,
+              score: 0.0,
+              slots,
+              premise,
+            };
+          }
         }
+      }
+    }
+    if (intent === "vi_tri" && entries.length) {
+      // Hỏi vị trí mà mục top không hề khớp tên hỏi (chung < 2 token)
+      // thì đó là đáp án rác, không phải X: vd "Phở ở đâu" ra
+      // Chùa Trúc Lâm. Trả thẳng "không có thông tin về X" (hoặc
+      // dự phòng chung khi câu không có chủ thể, vd chỉ "ở đâu").
+      // Câu nối tiếp (follow) được miễn — ngữ cảnh xử lý ở dưới.
+      const top = entries[0][1];
+      const nameTok = new Set(tokens(top.ten || ""));
+      const featSet = new Set(feats);
+      let shared = 0;
+      for (const t of nameTok) if (featSet.has(t)) shared++;
+      if (shared < 2) {
+        const x = whereSubject(q);
+        if (x && !follow) {
+          return {
+            answer: "App chưa có thông tin về " + x + ".",
+            intent,
+            confidence: round3(conf),
+            entity: null,
+            entity_prov: null,
+            score: 0.0,
+            slots,
+            premise,
+          };
+        }
+        entries = [];
       }
     }
     if (intent === "an" || intent === "o" || intent === "chi_phi") {

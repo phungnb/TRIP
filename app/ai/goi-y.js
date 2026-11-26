@@ -43,7 +43,7 @@
     { id: "mat", ten: "mát", hoi: /\b(mat me|di dau mat|cho mat|noi mat|cho nao mat|tranh nong|tron nong|tron cai nong|mat mat|se lanh|lanh lanh)\b|\bmat\b/ },
     { id: "am", ten: "ấm", hoi: /\b(am ap|di dau am|noi am|cho am|tranh ret|tron ret|tron lanh|khong lanh)\b|\bam\b(?! (lich|thuc|nhac|thanh))/ }
   ];
-  var CUE = /\b(dep nhat|[a-z]+ nao (dep|hay|dang di|nen di|ok)|nen o dau|o dau|cho nao|di dau|noi nao|cho nao|choi dau|dia diem nao|diem nao|tinh nao|vung nao|khu nao|bien nao|dao nao|nen di|goi y|o dau (dep|hay|ngon|mat|am|re)|dia diem|dau dep|dau hay|dau choi|dau vui|dau mat|dau am|dau re|dau gan|di choi o dau|du lich o dau|di du lich dau|nen den)\b/;
+  var CUE = /\b(dep nhat|[a-z]+ nao (dep|hay|dang di|nen di|ok)|nen o dau|o dau|cho nao|di dau|noi nao|cho nao|choi dau|choi gi|dia diem nao|diem nao|tinh nao|vung nao|khu nao|bien nao|dao nao|nen di|goi y|o dau (dep|hay|ngon|mat|am|re)|dia diem|dau dep|dau hay|dau choi|dau vui|dau mat|dau am|dau re|dau gan|di choi o dau|du lich o dau|di du lich dau|nen den)\b/;
 
   /* ---------- Đọc điều kiện trong câu ---------- */
   function months(f, q) {
@@ -105,10 +105,10 @@
     var tsai = f.match(/\bthang (1[3-9]|[2-9]\d|0)\b/);
     if (tsai && /\b(di dau|nen di|choi dau)\b/.test(f)) return { thangSai: tsai[1], f: f };
     /* "đưa 2 con nhỏ đi biển gần Hà Nội": không có chữ "đi đâu" nhưng có chủ đề + đối tượng/nơi xuất phát */
-    var ngam = (o.chude.length || o.doituong.length) && (o.goc && o.goc.gan || o.doituong.length && o.chude.length) && /\b(di|dua|choi|tam)\b/.test(f);
+    var ngam = (o.chude.length || o.doituong.length) && (o.goc && o.goc.gan || o.doituong.length) && /\b(di|dua|choi|tam)\b/.test(f);
     if (!CUE.test(f) && !ngam) return null;
     /* hỏi KHI NÀO, BẰNG GÌ, BAO NHIÊU mà không hỏi Ở ĐÂU: để nhánh mùa, đường đi, chi phí trả lời */
-    var HOI_NOI = /\b(di dau|o dau|noi nao|cho nao|choi dau|dia diem|diem nao|tinh nao|vung nao|khu nao|bai nao|bien nao|dao nao|deo nao|goi y|dau dep|dau hay|nen den|dep nhat)\b/;
+    var HOI_NOI = /\b(di dau|o dau|noi nao|cho nao|choi dau|choi gi|dia diem|diem nao|tinh nao|vung nao|khu nao|bai nao|bien nao|dao nao|deo nao|goi y|dau dep|dau hay|nen den|dep nhat)\b/;
     if (!HOI_NOI.test(f) && /\b(mua nao|thang may|thang nao|khi nao|luc nao|bang gi|bao lau|bao nhieu|het bao nhieu|chi phi)\b/.test(f)) return null;
     /* "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh có tên riêng, không phải xin gợi ý */
     var vq = String(q).replace(/\s*(nằm|nam)?\s*(ở|o)\s*(đâu|dau)\s*(vậy|vay|ạ|a|nhỉ|nhi)?\s*\??\s*$/i, "");
@@ -122,8 +122,9 @@
     /* nhắc tên 1 địa danh cụ thể ("gần biển Mỹ Khê"): để nhánh địa danh, chỗ ở trả lời */
     if (A.findItem && A.rest) { var nm = String(A.rest(q) || "").replace(/^(gần|gan|quanh|cạnh|canh|sát|sat|ngay|tại|tai|ở|o)\s+/i, ""), it = nm && nm.length >= 4 ? A.findItem(nm, { kinds: ["place"] }) : null; if (it && it.s >= 95) return null; }
     if (E2.area || E2.isle || (E2.prov && !/\b(mien|tay bac|dong bac|tay nguyen|nam bo)\b/.test(rest))) {
-      /* có nơi đến + chủ đề/đối tượng ("trẻ con chơi gì ở Đà Nẵng", "trekking gần Sa Pa"): gợi ý trong nơi đó */
-      if (!(o.chude.length || o.doituong.length) || !HOI_NOI.test(f)) return null;
+      /* có nơi đến + chủ đề/đối tượng ("trẻ con chơi gì ở Đà Nẵng", "trekking gần Sa Pa"): gợi ý trong nơi đó.
+         Đối tượng ("với trẻ con", "với người cao tuổi") không cần chữ hỏi nơi: bản thân đối tượng đã là điều kiện lọc */
+      if (!(o.chude.length || o.doituong.length) || (!HOI_NOI.test(f) && !o.doituong.length)) return null;
       o.trong = E2.area ? { a: E2.area } : E2.isle ? null : { p: E2.prov.prov };
       if (!o.trong) return null;
     }
@@ -263,9 +264,11 @@
       return o.chude.every(function (t) { return t.du.test(pl.f); }) && o.doituong.every(function (t) { return t.du.test(pl.ai); });
     });
     var h = '<p class="ask-h">' + esc(moTa(o)) + ' ở ' + esc(nm) + '</p>';
-    if (!ok.length) return "";
-    if (false) return h + '<p>App chưa có địa danh nào ở ' + esc(nm) + ' khớp điều kiện này.</p><p>Cách khác: xem danh sách điểm trong cẩm nang ' + esc(nm) + ', hoặc hỏi nơi khác.</p>' +
-      '<div class="ask-act">' + btn("Cẩm nang " + nm, a && typeof btPlanArea === "function" ? "btPlanArea('" + a.id + "')" : "goProvSeg('" + p.id + "','tongquan')") + '</div>';
+    if (!ok.length) {
+      var dt = o.doituong.map(function (t) { return { treem: "trẻ em", capdoi: "cặp đôi", nguoigia: "người lớn tuổi" }[t.id] || t.ten; }).join(", ");
+      return h + '<p>App chưa có địa danh nào ở ' + esc(nm) + (dt ? ' ghi rõ hợp ' + esc(dt) : ' khớp điều kiện này') + ' trong dữ liệu.</p><p>Cách khác: xem danh sách điểm trong cẩm nang ' + esc(nm) + ', hoặc hỏi nơi khác.</p>' +
+        '<div class="ask-act">' + btn("Cẩm nang " + nm, a && typeof btPlanArea === "function" ? "btPlanArea('" + a.id + "')" : "goProvSeg('" + p.id + "','tongquan')") + '</div>';
+    }
     return h + '<p>Địa danh trong app hợp điều kiện:</p><ul class="ask-ul">' + ok.slice(0, 6).map(function (pl) {
       var x = pl.x, d = typeof placeDistLabel === "function" ? placeDistLabel(x) : "";
       return '<li><b>' + esc(x.name.split(" (")[0]) + '</b>' + (x.suitable ? '<br>Hợp: ' + esc(x.suitable) : '') + (d ? '<br>' + esc(d) : '') + '</li>';

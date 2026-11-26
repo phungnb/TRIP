@@ -30,7 +30,7 @@
   function findPlace(s){ var p=provById(s.prov); if(!p) return null; for(var i=0;i<p.places.length;i++) if(p.places[i].id===s.place) return p.places[i]; return null; }
   function spotOpen(i){ var s=SPOTS[i]; if(findPlace(s)) openProvPlace(s.prov,s.place); else openProvDetail(s.prov); }
   window.homeSpotOpen=spotOpen;
-  function art(a,h,ph){ return '<div class="poster" style="height:'+h+'px">'+ART_SCENE(a[0],a[1])+photoImg(ph,{sizes:"(max-width:640px) 80vw, 320px"})+'</div>'; }
+  function art(a,h,ph){ return '<div class="poster" style="height:'+h+'px">'+ART_SCENE(a[0],a[1])+photoImg(ph,{sizes:"(max-width:640px) 80vw, 320px",noCredit:true})+'</div>'; }
   function provShort(id){ var p=provById(id); return p?(id==="lam-dong"?"Lâm Đồng":p.name):""; }
 
   /* Bản quyền ảnh trên Hero: chỉ hiện icon (i) ở góc, bấm mới hiện dòng ghi công */

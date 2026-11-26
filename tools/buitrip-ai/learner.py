@@ -7,6 +7,7 @@ Không gọi API nào, không cần mạng, không cần key. Chạy hoàn toàn
   token->thực thể đúng -> huấn luyện lại. Đây là cách AI "học" thêm sau mỗi lần sai.
 """
 import json
+import math
 import os
 import re
 
@@ -55,6 +56,41 @@ def _is_city_or_overview(name):
     return n in _CITY_NORM or "tong quan" in norm_text(name or "")
 
 
+def round3(x):
+    """Làm tròn 3 chữ số thập phân, NỬA LÊN (khớp Math.round của JS).
+    round(x, 3) của Python làm tròn nửa chẵn nên lệch 0.001 với JS ở đúng
+    ngưỡng .0005 — thực tế 6/31 câu probe chạm ngưỡng này (vd 0.654/0.655),
+    nên phải dùng cùng một luật để giữ parity (25/11/2026)."""
+    return math.floor(x * 1000 + 0.5) / 1000
+
+
+# Từ khóa lưu trú RÕ RÀNG (chuỗi đã chuẩn hóa, khớp trọn từ). Chỉ khi câu
+# có 1 trong các cụm này mới được coi là hỏi chỗ ở — "ở đâu" đứng một mình
+# KHÔNG đủ (lỗi thật 25/11/2026: "Rượu bầu đá ở đâu" ra homestay).
+_LODGING_WORDS = ("khach san", "homestay", "resort", "nha nghi",
+                   "ngu o dau", "nghi o dau", "o dau ngon", "o dau re",
+                   "o dau tai", "o tai", "cho o", "o dem", "qua dem",
+                   "ngu dem", "ngu lai", "o lai", "thue phong")
+
+
+def _has_lodging_word(qn):
+    padded = " " + (qn or "") + " "
+    return any((" " + w + " ") in padded for w in _LODGING_WORDS)
+
+
+def _where_subject(q):
+    """Chủ thể X của câu '[X] ở đâu' (giữ dấu như người hỏi, vd 'Rượu bầu đá').
+    Bỏ các từ hỏi ở đầu/cuối ('ở đâu', 'cho mình hỏi'...). Trả None khi
+    không còn chủ thể (vd câu chỉ có 'ở đâu')."""
+    s = (q or "").strip()
+    s = re.sub(r"[?!.]+$", "", s).strip()
+    s = re.sub(r"^(cho\s+(minh\s+)?hoi|cho\s+hoi|xin\s+hoi)\s+", "", s, flags=re.I).strip()
+    s = re.sub(r"\s*(ở\s+đâu|o\s+dau)\s*", " ", s, flags=re.I).strip()
+    s = re.sub(r"^(ở|đâu|o|dau)\s+", "", s, flags=re.I).strip()
+    s = re.sub(r"\s+(ở|đâu|o|dau)$", "", s, flags=re.I).strip()
+    return s or None
+
+
 class BuiTripAI:
     def __init__(self):
         with open("kho-kien-thuc.json", encoding="utf-8") as f:
@@ -75,17 +111,23 @@ class BuiTripAI:
                                       if e.get("tinh")})
 
     def _province_of(self, q):
-        """Trả về tên tỉnh mới (dạng chuẩn hóa) nếu câu hỏi nhắc 1 tỉnh/tỉnh cũ/thành phố."""
+        """Trả về tên tỉnh mới (dạng chuẩn hóa) nếu câu hỏi nhắc 1 tỉnh/tỉnh cũ/thành phố.
+        Thứ tự: (1) tên tỉnh mới nêu rõ, (2) thành phố, (3) tỉnh cũ — để
+        'Vĩnh Long' thắng 'Long An' trong 'Vĩnh Long ăn gì' (tên tỉnh mới
+        phải thắng tỉnh cũ; lỗi thật 25/11/2026: Vĩnh Long bị neo về Tây Ninh).
+        Khớp trọn từ (đệm khoảng trắng) — 'vinh' trong 'vinh long' không được
+        gán về Nghệ An."""
         qn = norm_text(q)
-        for old, new in OLD_TO_NEW.items():
-            if norm_text(old) in qn:
-                return new
-        for city, prov in CITY_TO_PROVINCE.items():
-            if norm_text(city) in qn:
-                return prov
+        padded = " " + qn + " "
         for prov in self.provinces:
-            if prov and prov in qn:
+            if prov and (" " + prov + " ") in padded:
                 return prov
+        for city, prov in CITY_TO_PROVINCE.items():
+            if (" " + norm_text(city) + " ") in padded:
+                return prov
+        for old, new in OLD_TO_NEW.items():
+            if (" " + norm_text(old) + " ") in padded:
+                return new
         return None
 
     def train(self, rows=None):
@@ -113,21 +155,76 @@ class BuiTripAI:
         follow = qn.startswith(("the ", "con ", "tu do ", "the con ", "o do ")) \
             or "the " in qn[:12]
         entries = self.retriever.search(q, topn=3)
+        if intent == "vi_tri":
+            # NB đoán "vị trí" nhưng câu hỏi thực chất là hỏi chỗ ở hoặc
+            # hỏi "[tỉnh/thành] ở đâu": lật về "o" (trừ khi nhắc đích danh
+            # 1 chỗ ở cụ thể — "Khách sạn Sakura ở đâu" vẫn là vị trí
+            # của khách sạn đó). Lỗi thật 25/11/2026: "ngủ ở đâu tại Hội An"
+            # ra vị trí Phố cổ Hội An; "Đà Lạt ở đâu" ra Ga Đà Lạt.
+            qn = norm_text(q)
+            x0 = _where_subject(q)
+            xn0 = norm_text(x0) if x0 else ""
+            if x0 and (xn0 in _CITY_NORM or xn0 in set(self.provinces)
+                       or "tong quan" in xn0):
+                intent = "o"
+            elif _has_lodging_word(qn):
+                feat_set = set(feats)
+                if not any(e.get("loai") == "cho_o"
+                           and _named_in_question(e.get("ten"), feat_set)
+                           for _s, e in entries):
+                    intent = "o"
         if intent == "o":
-            # "X ở đâu" hỏi vị trí của 1 điểm cụ thể, không phải hỏi chỗ ở.
-            # NB hay nhầm sang "o" vì cụm "ở đâu" (gặp 24/11/2026: "Cà phê
-            # Tùng Đà Lạt ở đâu" ra homestay, "Phù điêu... ở đâu" ra hostel).
-            # Chỉ sửa khi câu hỏi nhắc đích danh 1 mục không phải chỗ ở,
-            # không phải tên thành phố hay mục tổng quan tỉnh.
-            feat_set = set(feats)
-            for j, (_s, e) in enumerate(entries):
-                if e.get("loai") == "cho_o":
-                    continue
-                if _named_in_question(e.get("ten"), feat_set) \
-                        and not _is_city_or_overview(e.get("ten")):
-                    intent = "vi_tri"
-                    entries = [entries[j]] + entries[:j] + entries[j + 1:]
-                    break
+            # Ý định chỗ ở CHỈ kích hoạt khi câu có từ khóa lưu trú RÕ RÀNG
+            # (khách sạn, homestay, ngủ ở đâu, ở đâu tại [tỉnh]...), hoặc
+            # hỏi "[tỉnh/thành] ở đâu". "[X] ở đâu" mà X là món/đặc sản/
+            # địa danh thì TUYỆT ĐỐI KHÔNG trả danh sách homestay; X không
+            # có trong kho thì trả thẳng "App chưa có thông tin về [X]".
+            # Lỗi thật 25/11/2026: "Rượu bầu đá ở đâu" ra homestay Hà Giang.
+            qn = norm_text(q)
+            if not _has_lodging_word(qn):
+                x = _where_subject(q)
+                xn = norm_text(x) if x else ""
+                if x and (xn in _CITY_NORM or xn in set(self.provinces)
+                          or "tong quan" in xn):
+                    # "[tỉnh/thành] ở đâu" -> vẫn là hỏi chỗ ở ở đó.
+                    pass
+                else:
+                    feat_set = set(feats)
+                    flipped = False
+                    for j, (_s, e) in enumerate(entries):
+                        if e.get("loai") == "cho_o":
+                            continue
+                        if _is_city_or_overview(e.get("ten")):
+                            continue
+                        # Khớp đích danh (đủ token / >=4 token) hoặc khớp
+                        # >= 2 token tên ("Bún chả" -> "Bún chả Hà Nội"):
+                        # đều là hỏi vị trí của X, không phải hỏi chỗ ở.
+                        if _named_in_question(e.get("ten"), feat_set) or \
+                                len(set(tokens(e.get("ten") or "")) & feat_set) >= 2:
+                            intent = "vi_tri"
+                            entries = [entries[j]] + entries[:j] + entries[j + 1:]
+                            flipped = True
+                            break
+                    if not flipped and not follow and x:
+                        return {"answer": "App chưa có thông tin về %s." % x,
+                                "intent": intent, "confidence": round3(conf),
+                                "entity": None, "entity_prov": None,
+                                "score": 0.0, "slots": slots, "premise": premise}
+        if intent == "vi_tri" and entries:
+            # Hỏi vị trí mà mục top không hề khớp tên hỏi (chung < 2 token)
+            # thì đó là đáp án rác, không phải X: vd "Phở ở đâu" ra
+            # Chùa Trúc Lâm. Trả thẳng "không có thông tin về X" (hoặc
+            # dự phòng chung khi câu không có chủ thể, vd chỉ "ở đâu").
+            # Câu nối tiếp (follow) được miễn — ngữ cảnh xử lý ở dưới.
+            top = entries[0][1]
+            if len(set(tokens(top.get("ten") or "")) & set(feats)) < 2:
+                x = _where_subject(q)
+                if x and not follow:
+                    return {"answer": "App chưa có thông tin về %s." % x,
+                            "intent": intent, "confidence": round3(conf),
+                            "entity": None, "entity_prov": None,
+                            "score": 0.0, "slots": slots, "premise": premise}
+                entries = []
         if intent in ("an", "o", "chi_phi"):
             # Món/chỗ ở/chi phí PHẢI neo theo tỉnh người hỏi, không lấy top chung chung
             loai = {"an": "mon_an", "o": "cho_o", "chi_phi": "chi_phi"}[intent]
@@ -191,9 +288,9 @@ class BuiTripAI:
         # không lấy từ tên thực thể (tên thành phố như "Quy Nhơn" không phải
         # tên mục trong kho nên tra tên sẽ không ra tỉnh).
         entity_prov = entries[0][1].get("tinh") if entries else None
-        return {"answer": answer, "intent": intent, "confidence": round(conf, 3),
+        return {"answer": answer, "intent": intent, "confidence": round3(conf),
                 "entity": entity, "entity_prov": entity_prov,
-                "score": round(entries[0][0], 3) if entries else 0.0,
+                "score": round3(entries[0][0]) if entries else 0.0,
                 "slots": slots, "premise": premise}
 
     def _multi_intent_blocks(self, slots, q):
