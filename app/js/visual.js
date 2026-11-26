@@ -162,9 +162,9 @@
   window.spotPhoto=function(placeId){ return (window.PHOTOS&&PHOTOS.spot&&PHOTOS.spot[placeId])||null; };
   /* Ảnh món ăn thật (PHOTOS.dish trong data/anh.js). Chưa có ảnh thì trả null để hiện ô chờ. */
   window.dishPhoto=function(dishId){ return (window.PHOTOS&&PHOTOS.dish&&PHOTOS.dish[dishId])||null; };
-  window.provPoster=function(provId,h,extraCls){
+  window.provPoster=function(provId,h,extraCls,noCredit){
     var a=window.provArt(provId), ph=window.provPhoto(provId);
     return '<div class="poster'+(extraCls?" "+extraCls:"")+'" style="height:'+(h||170)+'px">'+scene(a[0],a[1])+
-      window.photoImg(ph,{noCredit:h&&h<100, sizes:h&&h<100?"120px":null})+'</div>';
+      window.photoImg(ph,{noCredit:noCredit||(h&&h<100), sizes:h&&h<100?"120px":null})+'</div>';
   };
 })();

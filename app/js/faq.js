@@ -25,7 +25,7 @@
     return '<div class="ask-box"><label for="askInput" class="ask-lab">Hỏi nhanh</label>'+
       '<form class="ask-row" onsubmit="askRun();return false"><input id="askInput" type="search" enterkeyhint="search" autocomplete="off" placeholder="Ví dụ: Quy Nhơn ăn gì, Sa Pa tháng mấy đẹp"><button class="btn btn-primary" type="submit">Hỏi</button></form>'+
       '<div class="ask-chips">'+ex.map(function(t){ return '<button class="chip" type="button" onclick="askChip(\''+t.replace(/'/g,"\\'")+'\')">'+esc(t)+'</button>'; }).join("")+'</div>'+
-      '<div id="askOut" hidden></div><p class="small" style="margin:8px 0 0">Trả lời ngay từ dữ liệu cẩm nang trên máy. Hiểu cả tên tỉnh cũ và tên quen gọi.</p></div>';
+      '<div id="askOut" hidden></div><p class="small" style="margin:8px 0 0">Hiểu cả tên tỉnh cũ và tên quen gọi.</p></div>';
   }
   function provFaq(p){
     var name=provLabel(p), qs=[
