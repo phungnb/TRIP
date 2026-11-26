@@ -31,16 +31,34 @@
   };
 
   /* ---------- Tỉnh: tên mới, tên cũ (SAP_NHAP), tên quen gọi (BT_ALIAS) ---------- */
+  /* Tên cắt ngang nhau: "Ninh Bình đường nào" có "Bình Dương" (bình + đường bỏ dấu), "Hạ Long ăn gì" có "Long An".
+     Hai tên giao nhau mà không cái nào chứa trọn cái kia: gõ có dấu thì bỏ tên không khớp dấu; còn hòa thì giữ tên
+     đứng trước (người hỏi nêu tên trước, chữ sau là từ thường bị nối qua biên từ). */
+  function spansOf(toks, words) { var out = []; for (var i = 0; i + words.length <= toks.length; i++) { var ok = true; for (var j = 0; j < words.length; j++) if (toks[i + j] !== words[j]) { ok = false; break; } if (ok) out.push([i, i + words.length]); } return out; }
+  A.boCatNgang = function (q, list) {
+    /* list: [{s, e, ten}] (ten: tên gốc có dấu nếu có) — trả lại các mục không bị loại */
+    var lq = " " + low(q) + " ", mk = A.marked(q);
+    function dau(m) { return !m.ten || !A.marked(m.ten) || lq.indexOf(" " + low(m.ten) + " ") >= 0; }
+    return list.filter(function (m) {
+      return !list.some(function (n) {
+        if (n === m || !(m.s < n.e && n.s < m.e) || (m.s <= n.s && n.e <= m.e) || (n.s <= m.s && m.e <= n.e)) return false;
+        if (mk && dau(n) !== dau(m)) return dau(n);
+        return n.s < m.s;
+      });
+    });
+  };
   A.findProv = function (q) {
-    var f = fold(q), hit = null;
-    function take(id, old, len, alias, kind) { if (!hit || len > hit.len) hit = { prov: provById(id), old: old || "", len: len, alias: alias || "", kind: kind }; }
-    PROV_DATA.forEach(function (p) { var n = fold(p.name); if (n && has(f, n)) take(p.id, "", n.length, "", "prov"); });
+    var toks = fold(q).split(" ").filter(Boolean), C = [];
+    function add(name, ten, id, old, len, alias, kind) { spansOf(toks, fold(name).split(" ").filter(Boolean)).forEach(function (sp) { C.push({ s: sp[0], e: sp[1], ten: ten, id: id, old: old, len: len, alias: alias, kind: kind }); }); }
+    PROV_DATA.forEach(function (p) { var n = fold(p.name); if (n) add(n, p.name, p.id, "", n.length, "", "prov"); });
     if (typeof SAP_NHAP !== "undefined") Object.keys(SAP_NHAP).forEach(function (id) {
-      SAP_NHAP[id].forEach(function (o, i) { var on = fold(o); if (on && has(f, on)) take(id, i > 0 ? o : "", on.length + (i > 0 ? 1 : 0), "", i > 0 ? "old" : "prov"); });
+      SAP_NHAP[id].forEach(function (o, i) { var on = fold(o); if (on) add(on, o, id, i > 0 ? o : "", on.length + (i > 0 ? 1 : 0), "", i > 0 ? "old" : "prov"); });
     });
     (typeof BT_ALIAS !== "undefined" ? BT_ALIAS : []).forEach(function (a) {
-      if (has(f, a[0])) take(a[1], a[2] && SAP_NHAP[a[1]] && SAP_NHAP[a[1]][0] !== a[2] ? a[2] : "", a[0].length + 2, a[0], "alias");
+      add(a[0], "", a[1], a[2] && SAP_NHAP[a[1]] && SAP_NHAP[a[1]][0] !== a[2] ? a[2] : "", a[0].length + 2, a[0], "alias");
     });
+    var hit = null;
+    A.boCatNgang(q, C).forEach(function (m) { if (!hit || m.len > hit.len) hit = { prov: provById(m.id), old: m.old || "", len: m.len, alias: m.alias || "", kind: m.kind }; });
     return hit && hit.prov ? hit : null;
   };
   A.findArea = function (q) { return typeof btAreaFor === "function" ? btAreaFor(q) : null; };

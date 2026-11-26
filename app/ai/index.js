@@ -77,6 +77,9 @@
     else if (rest && (!A.isPlaceName(rest) || I.intent !== "chiphi" && (I.want.indexOf("price") >= 0 || I.want.indexOf("hours") >= 0))) it = A.findItem(rest);
     /* "vé Hội An": tên khu trùng tên thị trấn có phố cổ → hỏi phố cổ, không lấy mục khác chứa tên đó (Chợ Hội An) */
     if (it && E.area && rest && it.best.fm !== A.fold(rest)) { var pc = A.findItem("phố cổ " + rest); if (pc && pc.s >= 95 && !pc.ambiguous) it = pc; }
+    /* "Sa Pa vé tham quan bao nhiêu": chỉ nêu tên khu/tỉnh, tên đó trùng một phần nhiều mục (Chợ đêm Sa Pa…):
+       là hỏi giá vé chung của nơi đó, không hỏi lại "bạn hỏi nơi nào" */
+    if (it && it.ambiguous && !ctxEnt && rest && A.isPlaceName(rest) && (E.area || E.prov)) it = null;
     var strong = it && it.s >= (I.intent && I.intent !== "didau" ? (it.ambiguous ? 85 : 80) : 70);
     if (it && strong && !(I.intent === "diden" && I.mode && it.best.kind !== "place")) {
       if (it.ambiguous && E.prov) { var c = it.cands.filter(function (e) { return e.prov.id === E.prov.prov.id; }); if (c.length) it = { best: c[0], s: it.s, cands: c, ambiguous: c.length > 1 && c.some(function (e) { return e.fm !== c[0].fm; }) }; }
@@ -191,6 +194,8 @@
     }
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
+    /* "giá vé các điểm ở Hội An": chữ "điểm" làm ý định thành "đi đâu", nhưng câu hỏi là giá */
+    if (I.intent === "didau" && I.want.indexOf("price") >= 0) I.intent = "";
     /* "Cột cờ Lũng Cú ở đâu", "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh, không phải hỏi chỗ ngủ */
     if (I.intent === "odau" && !/\b(khach san|homestay|resort|nha nghi|ngu|phong|luu tru|o dau (tot|re|dep|gan|ngon|on|hop)|nen o)\b/.test(A.fold(q))) {
       var vq = q.replace(/\s*(nằm|nam)?\s*(ở|o)\s*(đâu|dau|chỗ nào|cho nao)\s*(vậy|vay|ạ|a|nhỉ|nhi)?\s*\??\s*$/i, "");

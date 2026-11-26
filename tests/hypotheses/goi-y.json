@@ -680,5 +680,195 @@
   "khongCo": [
    "Lưu ý:"
   ]
+ },
+ {
+  "q": "Huế đi mấy tiếng",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến Huế"
+  ]
+ },
+ {
+  "q": "tới Hội An kiểu gì",
+  "kind": "area",
+  "phaiCo": [
+   "Đi đến"
+  ]
+ },
+ {
+  "q": "Nha Trang đi sao cho nhanh",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến",
+   "không xếp hạng cách đi nhanh nhất"
+  ]
+ },
+ {
+  "q": "Đà Nẵng có gì ăn",
+  "kind": "prov",
+  "phaiCo": [
+   "Ăn gì ở Đà Nẵng"
+  ]
+ },
+ {
+  "q": "Sa Pa có gì ăn",
+  "kind": "area",
+  "phaiCo": [
+   "Ăn gì"
+  ]
+ },
+ {
+  "q": "Huế nên ở khu nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Ở đâu tại Huế"
+  ]
+ },
+ {
+  "q": "chỗ nghỉ ở Ninh Bình",
+  "kind": "prov",
+  "phaiCo": [
+   "Ở đâu tại Ninh Bình"
+  ]
+ },
+ {
+  "q": "Sa Pa có lạnh không",
+  "kind": "area",
+  "phaiCo": [
+   "Mùa"
+  ],
+  "khongCo": [
+   "App chưa có thông tin này"
+  ]
+ },
+ {
+  "q": "đi Huế thời điểm nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Mùa đẹp ở Huế"
+  ]
+ },
+ {
+  "q": "Đà Lạt mùa này có đẹp không",
+  "kind": "prov",
+  "phaiCo": [
+   "Mùa đẹp"
+  ]
+ },
+ {
+  "q": "giá vé các điểm ở Huế",
+  "kind": "prov",
+  "phaiCo": [
+   "Giá vé tham khảo ở Huế"
+  ]
+ },
+ {
+  "q": "giá vé các điểm ở Đà Lạt",
+  "kind": "prov",
+  "phaiCo": [
+   "Giá vé tham khảo"
+  ]
+ },
+ {
+  "q": "Sa Pa vé tham quan bao nhiêu",
+  "kind": "area",
+  "phaiCo": [
+   "Giá vé tham khảo"
+  ],
+  "khongCo": [
+   "Bạn hỏi nơi nào"
+  ]
+ },
+ {
+  "q": "du lịch Phú Quốc tốn kém không",
+  "kind": "area",
+  "phaiCo": [
+   "Chi phí"
+  ]
+ },
+ {
+  "q": "đi lại ở Huế bằng gì",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi lại trong Huế"
+  ],
+  "khongCo": [
+   "Đi đến Huế"
+  ]
+ },
+ {
+  "q": "di chuyển trong Đà Nẵng thế nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi lại trong Đà Nẵng"
+  ]
+ },
+ {
+  "q": "Nha Trang có an toàn không",
+  "kind": "prov",
+  "phaiCo": [
+   "Cẩn thận"
+  ]
+ },
+ {
+  "q": "đi Hạ Long cần lưu ý gì",
+  "kind": "prov",
+  "phaiCo": [
+   "Cẩn thận"
+  ]
+ },
+ {
+  "q": "đi Ninh Bình đường nào",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến Ninh Bình"
+  ],
+  "khongCo": [
+   "Bình Dương"
+  ]
+ },
+ {
+  "q": "ninh binh duong nao",
+  "kind": "prov",
+  "phaiCo": [
+   "Đi đến Ninh Bình"
+  ],
+  "khongCo": [
+   "Bình Dương"
+  ]
+ },
+ {
+  "q": "Hạ Long ăn gì",
+  "kind": "prov",
+  "phaiCo": [
+   "Ăn gì ở Quảng Ninh"
+  ],
+  "khongCo": [
+   "Tân An"
+  ]
+ },
+ {
+  "q": "ha long an gi",
+  "kind": "prov",
+  "phaiCo": [
+   "Ăn gì ở Quảng Ninh"
+  ],
+  "khongCo": [
+   "Tân An"
+  ]
+ },
+ {
+  "q": "Long An ăn gì",
+  "kind": "area",
+  "phaiCo": [
+   "Tân An"
+  ]
+ },
+ {
+  "q": "cho mình hỏi ăn gì ở Bình Thuận",
+  "kind": "area",
+  "phaiCo": [
+   "Ăn gì"
+  ]
  }
 ]
