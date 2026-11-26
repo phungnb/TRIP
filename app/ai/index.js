@@ -155,6 +155,15 @@
     if (!q) return { html: "", kind: "", ms: 0 };
     if (A.vietTat) q = A.vietTat(q);
     A.index();
+    /* "nhà mình có con nhỏ, cho hỏi Làng Quan họ Diềm ở đâu": phần kể hoàn cảnh đứng trước "cho hỏi" không được che
+       địa danh, món nêu đích danh phía sau (trước đây nhánh gợi ý theo đối tượng trả thay). Chỉ cắt khi phần sau
+       có tên 1 địa danh hoặc món chắc chắn; "nhà có con nhỏ, cho hỏi nên đi đâu" vẫn giữ nguyên để gợi ý theo đối tượng. */
+    var hm = null, reHoi = /(?:^|[\s,.;:!])cho\s+(?:(?:mình|minh|em|tôi|toi|tớ|anh|chị|chi|con|cháu|chau)\s+)?(?:hỏi|hoi)(?:\s+(?:chút|chut|xíu|xiu|với|voi|thăm|tham|nhé|nhe|ạ))?\s*[:,]?\s+/gi, mh;
+    while ((mh = reHoi.exec(q))) hm = { i: mh.index, end: mh.index + mh[0].length };
+    if (hm && hm.i > 0 && q.length - hm.end >= 3) {
+      var tail = q.slice(hm.end), ti = A.findItem(A.rest(tail), { kinds: ["place", "dish"] });
+      if (ti && ti.s >= 80 && !ti.ambiguous) q = tail;
+    }
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
     /* "Cột cờ Lũng Cú ở đâu", "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh, không phải hỏi chỗ ngủ */
