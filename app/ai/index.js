@@ -20,6 +20,9 @@
     /* "tour ... khởi hành từ Sài Gòn": nơi hỏi là phần trước */
     m = q.match(/^(.*?)[\s,]+(?:khởi hành|xuất phát|khoi hanh|xuat phat)\s+(?:từ|tu)\s+(.{2,40}?)(?:\s+(?:ngày|ngay|lúc|luc)\b.*)?$/i);
     if (m && isFrom(m[2])) return m[1].trim();
+    /* "Đà Lạt cách Sài Gòn bao xa": nơi sau "cách" là nơi đi, nơi hỏi là phần trước */
+    m = q.match(unmark(/^(.{2,40}?)\s+(?:cách|cach)\s+(.{2,40}?)(\s+(?:bao xa|bao nhiêu km|bao nhieu km|mấy km|may km|bao lâu|bao lau|mấy tiếng|may tieng).*)$/i, q));
+    if (m && isFrom(m[2])) return (m[1] + (m[3] || "")).trim();
     return q;
   }
   function outOfDomain(I, q) {
@@ -74,6 +77,9 @@
     else if (rest && (!A.isPlaceName(rest) || I.intent !== "chiphi" && (I.want.indexOf("price") >= 0 || I.want.indexOf("hours") >= 0))) it = A.findItem(rest);
     /* "vé Hội An": tên khu trùng tên thị trấn có phố cổ → hỏi phố cổ, không lấy mục khác chứa tên đó (Chợ Hội An) */
     if (it && E.area && rest && it.best.fm !== A.fold(rest)) { var pc = A.findItem("phố cổ " + rest); if (pc && pc.s >= 95 && !pc.ambiguous) it = pc; }
+    /* "Sa Pa vé tham quan bao nhiêu": chỉ nêu tên khu/tỉnh, tên đó trùng một phần nhiều mục (Chợ đêm Sa Pa…):
+       là hỏi giá vé chung của nơi đó, không hỏi lại "bạn hỏi nơi nào" */
+    if (it && it.ambiguous && !ctxEnt && rest && A.isPlaceName(rest) && (E.area || E.prov)) it = null;
     var strong = it && it.s >= (I.intent && I.intent !== "didau" ? (it.ambiguous ? 85 : 80) : 70);
     if (it && strong && !(I.intent === "diden" && I.mode && it.best.kind !== "place")) {
       if (it.ambiguous && E.prov) { var c = it.cands.filter(function (e) { return e.prov.id === E.prov.prov.id; }); if (c.length) it = { best: c[0], s: it.s, cands: c, ambiguous: c.length > 1 && c.some(function (e) { return e.fm !== c[0].fm; }) }; }
@@ -188,6 +194,8 @@
     }
     var I = { q: q, intent: A.intentOf(q), want: A.wantOf(q), mode: A.modeOf(q), from: A.fromOf(q), days: A.daysOf(q), budget: A.budgetOf(q) };
     if (I.mode && !I.intent) I.intent = "diden";
+    /* "giá vé các điểm ở Hội An": chữ "điểm" làm ý định thành "đi đâu", nhưng câu hỏi là giá */
+    if (I.intent === "didau" && I.want.indexOf("price") >= 0) I.intent = "";
     /* "Cột cờ Lũng Cú ở đâu", "Thác Bản Giốc nằm ở đâu": hỏi vị trí 1 địa danh, không phải hỏi chỗ ngủ */
     if (I.intent === "odau" && !/\b(khach san|homestay|resort|nha nghi|ngu|phong|luu tru|o dau (tot|re|dep|gan|ngon|on|hop)|nen o)\b/.test(A.fold(q))) {
       var vq = q.replace(/\s*(nằm|nam)?\s*(ở|o)\s*(đâu|dau|chỗ nào|cho nao)\s*(vậy|vay|ạ|a|nhỉ|nhi)?\s*\??\s*$/i, "");
@@ -262,6 +270,16 @@
       var topic = I.mode || (isle && I.intent === "diden" ? "thuy" : I.intent === "diden" ? "bay" : I.want[0] || (I.intent === "angi" ? "food" : I.intent === "odau" ? "stay" : I.intent === "mua" ? "season" : "unknown"));
       var how = A.howTo(topic, { itemName: nm }).concat(topic === "unknown" ? [] : A.howTo("unknown", {}));
       res = { kind: "fallback", html: A.fallback({ what: nm ? "mục \"" + nm + "\" trong dữ liệu app" : "câu trả lời cho câu hỏi này", how: how, asked: q }) };
+    }
+    /* "Đà Lạt đi hướng nào nhanh", "lên Đà Lạt đi đèo nào": app có cách đi (xe, bay, tàu) và thời gian, nhưng chưa có
+       dữ liệu chọn đường bộ, đèo hay xếp hạng nhanh nhất. Nói thẳng phần thiếu trước, không để người hỏi tưởng đã được trả lời. */
+    if (I.intent === "diden" && /^(prov|area|isle)$/.test(res.kind) && /Đi đến|Cách ra đảo|tuyến/.test(res.html)) {
+      var fr = " " + A.fold(qd) + " ", ghi = [];
+      if (/ (huong nao|duong nao|loi nao|nga nao|ngo nao|deo nao|kho di|de di khong|tuyen duong|cung duong|lo trinh di|di loi|duong (len|xuong|vao|ra|toi|den|ve|sang)) /.test(fr))
+        ghi.push("App chưa có dữ liệu chọn đường bộ (đi quốc lộ, đèo hay hướng nào) và tình trạng mặt đường. Tra lộ trình và tình hình giao thông trên bản đồ (Google Maps) trước khi đi.");
+      if (/ (nhanh nhat|di nhanh|nhanh hon|nhanh) /.test(fr))
+        ghi.push("App không xếp hạng cách đi nhanh nhất; so thời gian từng cách đi dưới đây (đã ghi là ước tính).");
+      if (ghi.length) res.html = '<p class="small"><b>Lưu ý:</b> ' + ghi.map(A.esc).join(" ") + '</p>' + res.html;
     }
     var ent = res.ent || null;
     if (ent && ent.item) { var it = ent.item; ent = { prov: it.prov.id, itemKey: it.prov.id + "|" + it.kind + "|" + it.x.id }; }

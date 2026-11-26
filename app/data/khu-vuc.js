@@ -169,6 +169,8 @@ var KHU_VUC = [];
     if (typeof PROV_DATA !== "undefined") PROV_DATA.forEach(function (p) { addSpan(fold(p.name).split(" ")); });
     if (typeof SAP_NHAP !== "undefined") Object.keys(SAP_NHAP).forEach(function (id) { SAP_NHAP[id].forEach(function (o) { addSpan(fold(o).split(" ")); }); });
     KHU_VUC.forEach(function (a) { a.exact.forEach(function (e) { addSpan(fold(e).split(" ")); }); });
+    /* tên quen gọi nhiều chữ (Hạ Long, Sài Gòn…): "Hạ Long ăn gì" không thành khu Tân An (Long An) */
+    if (typeof BT_ALIAS !== "undefined") BT_ALIAS.forEach(function (x) { if (x[0] && x[0].indexOf(" ") > 0) addSpan(x[0].split(" ")); });
     /* đoạn khớp [s,e) cắt ngang tên khi giao nhau mà không bao trọn tên đó. Khớp dài bao trọn 1 tên ngắn hơn
        thì không tính là cắt ngang: "Phan Thiết – Mũi Né" chứa trọn "Phan Thiết" (cũng là tên khu) vẫn phải khớp. */
     function catNgang(s, e) {

@@ -358,6 +358,13 @@
     }
     if (intent === "lichtrinh") return oldNote + '<p class="ask-h">Lịch trình ' + esc(name) + '</p><p>App có lịch mẫu xếp theo cụm khu vực. Gợi ý: ' + esc(String(p.suggested_days || 3)) + ' ngày.' + (I.days ? ' Muốn ' + esc(I.days) + ' thì bấm Lập kế hoạch và chọn số ngày.' : '') + '</p>' + acts([goSeg(p, "lichtrinh", "Xem lịch mẫu"), btn("Lập kế hoạch", "startPlanForProv('" + p.id + "')")]);
     var pp = pick(p.places), pl = pp.l; oldNote = note(pp.sc);
+    /* "giá vé các điểm ở Huế", "Huế vào cửa mất tiền không": trả giá vé các điểm, không trả thẻ giới thiệu tỉnh */
+    if (I.want.indexOf("price") >= 0 && !intent) {
+      var gv = pl.filter(function (x) { return x.price; });
+      if (!gv.length) return A.fallback({ prov: p, asked: I.q, topic: "price", what: "giá vé các điểm ở " + name, lead: oldNote });
+      return oldNote + '<p class="ask-h">Giá vé tham khảo ở ' + esc(old && pp.sc ? old + " cũ" : name) + '</p>' + li(gv.slice(0, 6).map(function (x) { return '<a href="javascript:void 0" onclick="openProvPlace(\'' + p.id + '\',\'' + x.id + '\')">' + esc(x.name.split(" (")[0]) + '</a>: ' + esc(short(x.price, 110)); })) +
+        '<p class="small">Giá tham khảo, có thể đổi; kiểm lại trước khi đi.</p>' + acts([goSeg(p, "didau", "Xem " + p.places.length + " địa danh")]);
+    }
     return oldNote + '<p class="ask-h">' + esc(name) + (old && pp.sc ? ' · khu ' + esc(old) + ' cũ' : '') + '</p><p>' + esc(short(p.overview, 220)) + '</p>' +
       li(pl.slice(0, 5).map(function (x) { return '<a href="javascript:void 0" onclick="openProvPlace(\'' + p.id + '\',\'' + x.id + '\')">' + esc(x.name.split(" (")[0]) + '</a>' + (x.dist != null && x.dist !== "" ? " · " + esc(dist(x)) : ""); })) +
       '<p class="small">Hỏi tiếp: "ăn gì ở ' + esc(name) + '", "ở đâu", "đi bằng gì", "mùa nào đẹp", "hết bao nhiêu tiền".</p>' + acts([goSeg(p, "didau", "Xem " + p.places.length + " địa danh")]);
