@@ -48,7 +48,7 @@
 
   /* ---------- tlReport: đường dự phòng gửi báo sai qua mục Hỗ trợ của nút Hỏi ----------
      Không còn nút nào gọi trực tiếp (nút duy nhất giờ là "Đóng góp / Báo sai" mở form
-     tự mở Pull Request); giữ lại cho form /api/dong-gop khi server trả 503. ---------- */
+     gửi lên GitHub để duyệt); giữ lại cho form /api/dong-gop khi server trả 503. ---------- */
   window.tlReport = function (kind, provId, itemId) {
     var p = provById(provId), it = findItem(kind, provId, itemId);
     var label = kind === "pplace" ? "Địa danh" : (kind === "pstay" ? "Chỗ ở" : "Món ăn");
@@ -60,11 +60,11 @@
     if (m) { m.value = txt; m.focus(); try { var k = txt.indexOf("(giá, giờ, địa chỉ...): ") + 24; m.setSelectionRange(k, k); } catch (e) {} }
   };
   /* Nút đóng góp duy nhất (ghi đè bản dự phòng ở app.js): form "Đóng góp / Báo sai"
-     không cần đăng nhập, gửi về /api/dong-gop để tự mở Pull Request. */
+     không cần đăng nhập, gửi về /api/dong-gop để gửi lên GitHub chờ duyệt. */
   window.reportLinkHtml = reportLinkHtml = function (kind, provId, itemId) {
     if (!provById(provId)) return "";
     return '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="dgOpenPR(\'' + provId + '\',\'' + itemId + '\',\'' + kind + '\')">Đóng góp / Báo sai</button>' +
-      '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request để đưa vào app.</p>';
+      '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ được duyệt và cập nhật lên app.</p>';
   };
 
   /* ---------- Link sâu: #/tinh/<tỉnh> và #/tinh/<tỉnh>/<dia-danh|mon|cho-o>/<mã> ---------- */

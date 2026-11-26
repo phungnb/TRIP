@@ -12,6 +12,7 @@ const SPOT_TO_PROVINCE = {
   "moc chau": "Sơn La",
   "chua huong": "Hà Nội",
   "huong son": "Hà Nội",
+  "ruou bau da": "Gia Lai",
 };
 
 const EXTRA_ALIAS = {
@@ -41,23 +42,30 @@ function isCityOrOverview(name) {
   return CITY_NORM.has(n) || normText(name || "").includes("tong quan");
 }
 
+function hasWord(text, phrase) {
+  // Cụm phrase có xuất hiện trọn từ trong text không (đệm khoảng trắng
+  // 2 đầu). Chặn kiểu chuỗi con xuyên từ: 'hue' trong 'huee', 'an' trong
+  // 'phan' — từ đơn chỉ được gán tỉnh khi khớp trọn từ (25/11/2026).
+  return !!phrase && (" " + (text || "") + " ").includes(" " + phrase + " ");
+}
+
 export function detectProvince(qn, provinces, skipOriginText) {
   let text = qn;
   if (skipOriginText) text = text.split(skipOriginText).join(" ");
   // (1) tên tỉnh nêu rõ
   for (const prov of provinces || []) {
-    if (prov && text.includes(provNorm(prov))) return prov;
+    if (prov && hasWord(text, provNorm(prov))) return prov;
   }
   // (2) thành phố/khu du lịch -> tỉnh
   for (const [alias, prov] of Object.entries(EXTRA_ALIAS)) {
-    if (text.includes(alias)) return prov;
+    if (hasWord(text, alias)) return prov;
   }
   for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
-    if (text.includes(normText(city))) return prov;
+    if (hasWord(text, normText(city))) return prov;
   }
   // (3) alias địa danh (chỉ khi không có tên tỉnh/thành nào)
   for (const [alias, prov] of Object.entries(SPOT_TO_PROVINCE)) {
-    if (text.includes(alias)) return prov;
+    if (hasWord(text, alias)) return prov;
   }
   return null;
 }

@@ -12,7 +12,7 @@
     ["hub", /\b(co san bay|san bay nao|san bay gan|co ga tau|co ga|ga tau nao|ga nao gan)\b/],
     ["diden", /\b(di bang gi|bang gi|may bay|xe khach|tau hoa|tau hoả|tau lua|ve xe|ve may bay|ve tau|san bay|ben xe|nha ga|ga tau|tu ha noi|tu sai gon|tu hcm|tu tp hcm|tu tphcm|tu da nang|di den|toi bang|mat bao lau|bao lau|di tu|duong di|cach di|bang cach nao|di the nao|tau cao toc|ca no|ra dao)\b/],
     ["dilai", /\b(thue xe|xe may|taxi|grab|di lai|xe buyt|xe dien)\b/],
-    ["angi", /\b(an gi|mon|quan an|quan nao|quan ngon|dac san|an sang|an toi|nha hang|an uong|ngon)\b/],
+    ["angi", /\b(an gi|an chay|mon chay|do chay|quan chay|mon|quan an|quan nao|quan ngon|dac san|an sang|an toi|nha hang|an uong|ngon)\b/],
     ["odau", /\b(o dau|khach san|homestay|dat phong|thue phong|phong o|nha nghi|cho o|ngu o|ngu dau|luu tru)\b/],
     ["mua", /\b(mua nao|thang nao|thang may|thoi tiet|lanh khong|nong khong|thang \d+|mua dep|khi nao dep|luc nao dep|di luc nao|di khi nao)\b/],
     ["lichtrinh", /\b(lich trinh|may ngay|ngay dem|\dn\dd|\d ngay|di dau truoc|ke hoach)\b/],

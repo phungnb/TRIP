@@ -89,10 +89,12 @@ export function provKey(s) {
 
 // Tỉnh trong kho có phải tỉnh người hỏi không (so theo token lõi).
 export function sameProvince(tinhEntry, provNorm) {
+  // So CHẶT bằng nhau sau provKey — cấm kiểu chuỗi con: 'vinh' trong
+  // 'vinh long' từng gán nhầm Vĩnh Long về Nghệ An (lỗi thật 25/11/2026).
+  // provKey đã gộp 'TP.HCM'='TP Hồ Chí Minh', 'Thành phố Đà Nẵng'='Đà Nẵng'
+  // nên bằng nhau là đủ, không cần nới chuỗi con.
   if (!tinhEntry || !provNorm) return false;
-  const a = provKey(tinhEntry);
-  const b = provKey(provNorm);
-  return a === b || a.includes(b) || b.includes(a);
+  return provKey(tinhEntry) === provKey(provNorm);
 }
 
 export function normText(s) {

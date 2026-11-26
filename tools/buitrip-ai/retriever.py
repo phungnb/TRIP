@@ -51,10 +51,15 @@ class Retriever:
             if province is not None and not same_province(self.kb[i].get("tinh"), province):
                 continue
             s = Tfidf.cosine(qvec, vec)
-            # cộng điểm khi tên mục khớp nhiều token câu hỏi
+            # cộng điểm khi tên mục khớp nhiều token câu hỏi — CHỈ khi chung
+            # >= 2 token, hoặc khớp TRỌN tên 1 token (vd "Huế"). 1 token phổ
+            # thông ("đá", "dầu" từ "ở đâu") không được kéo cả mục lên:
+            # lỗi thật 25/11/2026 — "Rượu bầu đá ở đâu" ra Bàu Trắng (chung
+            # mỗi "bau"), "Phở ở đâu" ra Hòn Dầu (chung mỗi "dau").
             name_tok = set(tokens(self.kb[i].get("ten") or ""))
-            if name_tok:
-                s += 1.5 * len(qtok & name_tok) / len(name_tok)
+            shared_name = qtok & name_tok
+            if name_tok and (len(shared_name) >= 2 or shared_name == name_tok):
+                s += 1.5 * len(shared_name) / len(name_tok)
             # cộng điểm lớn khi tên điểm (bỏ phần trong ngoặc) xuất hiện nguyên vẹn trong câu hỏi
             raw_name = (self.kb[i].get("ten") or "").split("(")[0].strip()
             if raw_name and norm_text(raw_name) and norm_text(raw_name) in qn:

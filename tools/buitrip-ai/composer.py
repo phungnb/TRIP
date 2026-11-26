@@ -48,14 +48,16 @@ def _has_price(e):
 
 def _display_place(query, tinh):
     """Hỏi tỉnh cũ/thành phố thì hiện tên cũ cho người đọc dễ hiểu
-    (vd khu Quy Nhơn (Gia Lai), khu Bình Định (Gia Lai))."""
+    (vd khu Quy Nhơn (Gia Lai), khu Bình Định (Gia Lai)).
+    Thứ tự: thành phố trước, tỉnh cũ sau — để 'Vĩnh Long' không bị hiện
+    thành 'khu Long An (Tây Ninh)' (lỗi thật 25/11/2026)."""
     qn = norm_text(query)
-    for old, new in OLD_TO_NEW.items():
-        if norm_text(old) in qn:
-            return f"khu {old} ({new})"
     for city, prov in CITY_TO_PROVINCE.items():
         if norm_text(city) in qn:
             return f"khu {city} ({prov})"
+    for old, new in OLD_TO_NEW.items():
+        if norm_text(old) in qn:
+            return f"khu {old} ({new})"
     return tinh
 
 

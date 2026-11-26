@@ -76,7 +76,7 @@ var KHU_HO_SO = {
       { from: "TP.HCM", mode: "Máy bay SGN–VCS (Côn Đảo)", time: "Bay ~55 phút", price: "~1.200.000–2.500.000đ/chiều; ít chuyến, mùa cao điểm hay hết vé" },
       { from: "Hà Nội", mode: "Máy bay HAN–VCS (bay thẳng)", time: "Bay ~2 giờ 15", price: "~2.000.000–3.500.000đ/chiều" },
       { from: "Cần Thơ / Sóc Trăng", mode: "Tàu cao tốc cảng Trần Đề–Côn Đảo", time: "~2,5–3 giờ", price: "~300.000–450.000đ/chiều" },
-      { from: "Vũng Tàu", mode: "Tàu cao tốc Vũng Tàu–Côn Đảo (chạy theo mùa) hoặc tàu khách chạy đêm", time: "Cao tốc ~4–5 giờ; tàu đêm ~12 giờ", price: "Chưa kiểm được giá" }],
+      { from: "Vũng Tàu", mode: "Tàu cao tốc Vũng Tàu–Côn Đảo (chạy theo mùa) hoặc tàu khách chạy đêm", time: "Cao tốc ~4–5 giờ; tàu đêm ~12 giờ", price: "Chưa có giá" }],
     local: "Thuê xe máy ~150.000–200.000đ/ngày; taxi sân bay vào thị trấn ~15 km.",
     pack: ["Đồ bơi, kính lặn", "Kem chống nắng", "Quần áo kín đáo, hương hoa khi viếng Hàng Dương", "Thuốc say sóng nếu đi tàu"]
   },
@@ -105,7 +105,7 @@ var KHU_HO_SO = {
     season: { best: "Tháng 2–8: khô, nắng; đẹp nhất tháng 2–4", avoid: "Tháng 9–12 mưa bão, phố cổ có thể ngập (thường tháng 10–11)", wear: "Đồ mỏng; váy, quần quá gối khi vào chùa, hội quán" },
     routes: [
       { from: "TP.HCM / Hà Nội", mode: "Bay tới Đà Nẵng (DAD), taxi hoặc xe buýt về Hội An (~30 km)", time: "Bay ~1 giờ 20 + xe ~45 phút", price: "Bay ~800.000–2.000.000đ/chiều; taxi ~350.000–450.000đ" },
-      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Đà Nẵng hoặc ga Tam Kỳ rồi xe", time: "Xe thêm ~45 phút–1 giờ", price: "Chưa kiểm được giá" }],
+      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Đà Nẵng hoặc ga Tam Kỳ rồi xe", time: "Xe thêm ~45 phút–1 giờ", price: "Chưa có giá" }],
     local: "Phố cổ đi bộ, xe đạp; taxi ra biển An Bàng ~10 phút.",
     pack: ["Ô hoặc áo mưa (tháng 9–12)", "Giày đi bộ"]
   },
@@ -113,7 +113,7 @@ var KHU_HO_SO = {
     season: { best: "Tháng 3–8: khô, hang mở, sông Son êm; tour Sơn Đoòng chạy khoảng tháng 1–8", avoid: "Tháng 9–12 mưa lũ, nhiều hang và tour đóng", wear: "Đồ thể thao nhanh khô, giày bám; áo ấm mỏng trong hang" },
     routes: [
       { from: "TP.HCM / Hà Nội", mode: "Bay tới Đồng Hới (VDH), xe lên Phong Nha (~45 km)", time: "Bay ~1,5 giờ + xe ~1 giờ", price: "Bay ~800.000–1.800.000đ/chiều" },
-      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Đồng Hới rồi xe", time: "Từ Hà Nội ~10–12 giờ", price: "Chưa kiểm được giá" },
+      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Đồng Hới rồi xe", time: "Từ Hà Nội ~10–12 giờ", price: "Chưa có giá" },
       { from: "Huế", mode: "Xe khách Huế–Phong Nha", time: "~4 giờ", price: "~200.000–300.000đ/chiều" }],
     local: "Thuê xe máy ở Phong Nha ~150.000đ/ngày; thuyền sông Son vào động Phong Nha.",
     pack: ["Giày bám, dép quai hậu lội nước", "Đèn pin", "Áo mưa"]
@@ -122,7 +122,7 @@ var KHU_HO_SO = {
     season: { best: "Tháng 2–8: khô, biển đẹp (khác Buôn Ma Thuột, nơi mùa khô là tháng 11–4)", avoid: "Tháng 9–12 mưa bão, lũ", wear: "Đồ đi biển, chống nắng" },
     routes: [
       { from: "TP.HCM / Hà Nội", mode: "Bay tới Tuy Hòa (TBB)", time: "Bay ~1–1,5 giờ", price: "~800.000–1.800.000đ/chiều" },
-      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Tuy Hòa", time: "Từ Sài Gòn ~9–11 giờ", price: "Chưa kiểm được giá" },
+      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Tuy Hòa", time: "Từ Sài Gòn ~9–11 giờ", price: "Chưa có giá" },
       { from: "Buôn Ma Thuột", mode: "Xe khách Buôn Ma Thuột–Tuy Hòa (~170 km)", time: "~4 giờ", price: "~150.000–250.000đ/chiều" }],
     local: "Thuê xe máy ~120.000–150.000đ/ngày.",
     pack: ["Đồ bơi", "Kem chống nắng"]
@@ -131,7 +131,7 @@ var KHU_HO_SO = {
     season: { best: "Gần như khô quanh năm; đẹp nhất tháng 1–8", avoid: "Tháng 9–11 mưa nhiều nhất trong năm", wear: "Rất nắng, gió: mũ, kính, khăn che, kem chống nắng" },
     routes: [
       { from: "TP.HCM / Hà Nội", mode: "Bay tới Cam Ranh (CXR), xe về Phan Rang (~60 km)", time: "Bay ~1 giờ (SG) / ~1 giờ 50 (HN) + xe ~1 giờ", price: "Bay ~700.000–2.000.000đ/chiều" },
-      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Tháp Chàm", time: "Từ Sài Gòn ~6–7 giờ", price: "Chưa kiểm được giá" },
+      { from: "Tàu hỏa", mode: "Tàu Thống Nhất tới ga Tháp Chàm", time: "Từ Sài Gòn ~6–7 giờ", price: "Chưa có giá" },
       { from: "Nha Trang", mode: "Xe khách Nha Trang–Phan Rang (~100 km)", time: "~2 giờ", price: "~100.000–150.000đ/chiều" }],
     local: "Thuê xe máy ~120.000–150.000đ/ngày; Vĩnh Hy cách Phan Rang ~40 km.",
     pack: ["Mũ, kính, khăn che nắng gió", "Đồ bơi, kính lặn ở Vĩnh Hy"]
@@ -154,7 +154,7 @@ var DAO_TIEP_CAN = [
     season: "Tháng 4–9: biển êm, ấm. Tháng 10–3 lạnh, gió mùa, tàu hay hủy; tháng 7–9 có bão, tàu dừng theo lệnh biên phòng." },
   { id: "phu-quy", name: "Phú Quý", keys: ["phu quy"], prov: "lam-dong",
     access: [{ from: "Phan Thiết", mode: "Tàu cao tốc cảng Phan Thiết–Phú Quý", time: "~2,5–3 giờ", price: "~350.000–400.000đ/chiều" },
-      { from: "Phan Thiết", mode: "Tàu gỗ, tàu chậm", time: "~4–5 giờ", price: "Chưa kiểm được giá" }],
+      { from: "Phan Thiết", mode: "Tàu gỗ, tàu chậm", time: "~4–5 giờ", price: "Chưa có giá" }],
     season: "Tháng 3–8 biển êm. Tháng 10–2 gió bấc, tàu thường hủy." },
   { id: "ly-son", name: "Lý Sơn", keys: ["ly son"], prov: "quang-ngai",
     access: [{ from: "Quảng Ngãi", mode: "Tàu cao tốc cảng Sa Kỳ–Lý Sơn", time: "~30–60 phút tùy tàu", price: "~150.000–200.000đ/chiều" }],

@@ -73,11 +73,14 @@ def prov_key(s):
 
 
 def same_province(tinh_entry, prov_norm):
-    """tinh trong kho có phải tỉnh người hỏi không (so theo token lõi)."""
+    """tinh trong kho có phải tỉnh người hỏi không (so theo token lõi).
+    So CHẶT bằng nhau sau prov_key — cấm kiểu chuỗi con: 'vinh' trong
+    'vinh long' từng gán nhầm Vĩnh Long về Nghệ An (lỗi thật 25/11/2026).
+    prov_key đã gộp 'TP.HCM'='TP Hồ Chí Minh', 'Thành phố Đà Nẵng'='Đà Nẵng'
+    nên bằng nhau là đủ, không cần nới chuỗi con."""
     if not tinh_entry or not prov_norm:
         return False
-    a, b = prov_key(tinh_entry), prov_key(prov_norm)
-    return a == b or a in b or b in a
+    return prov_key(tinh_entry) == prov_key(prov_norm)
 
 
 def norm_text(s):

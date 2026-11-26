@@ -14,8 +14,8 @@
       [["place", p.places], ["dish", p.dishes], ["stay", p.stays]].forEach(function (k) {
         (k[1] || []).forEach(function (x) {
           if (!x || !x.name) return;
-          var m = main(x.name);
-          IDX.push({ kind: k[0], prov: p, x: x, fm: fold(m), ff: fold(x.name), lw: low(x.name).split(" "), ftok: fold(x.name).split(" ") });
+          var m = main(x.name), fm0 = fold(m), ff0 = fold(x.name);
+          IDX.push({ kind: k[0], prov: p, x: x, fm: fm0, ff: ff0, lw: low(x.name).split(" "), ftok: fold(x.name).split(" "), fmp: " " + fm0 + " ", ffp: " " + ff0 + " ", ffx: ff0.length > fm0.length ? ff0.replace(fm0, "").replace(/[()]/g, " ").replace(/\s+/g, " ").trim() : "" });
         });
       });
     });
@@ -60,26 +60,41 @@
     return false;
   };
 
+  /* Đính chính tiền đề sai: câu hỏi gắn 1 địa danh với tỉnh sai ("Chùa Hương ở Ninh Bình").
+     Chỉ đính chính khi tỉnh sai được nêu làm nơi ở của địa danh ("ở/tại <tỉnh>"), không đính
+     chính nơi xuất phát ("từ Ninh Bình đi Chùa Hương"). Trả chuỗi HTML đính chính hoặc "". */
+  A.dinhChinh = function (q, e) {
+    if (!e || !e.prov || !e.x) return "";
+    var pv = A.findProv(q);
+    if (!pv || pv.prov.id === e.prov.id) return "";
+    var f = " " + fold(q) + " ", pn = fold(pv.prov.name);
+    if (f.indexOf(" o " + pn + " ") < 0 && f.indexOf(" tai " + pn + " ") < 0) return "";
+    return '<p class="ask-old">' + A.esc(main(e.x.name)) + ' ở ' + A.esc(e.prov.name) + ', không phải ' + A.esc(pv.prov.name) + '.</p>';
+  };
+
   /* ---------- Địa danh, món, chỗ ở ---------- */
-  function inOrder(hay, toks) { var pos = 0, h = " " + hay + " "; for (var i = 0; i < toks.length; i++) { var k = h.indexOf(" " + toks[i] + " ", pos); if (k < 0) return false; pos = k + toks[i].length + 1; } return true; }
+  /* hp: tên đã đệm sẵn " ... " (e.fmp); ptoks: từng từ đã đệm sẵn.
+     pos dừng ngay tại dấu cách cuối của từ vừa khớp (như bản cũ: k + len + 1),
+     để từ kề sau vẫn khớp được nhờ dấu cách chung đó. */
+  function inOrder(hp, ptoks) { var pos = 0; for (var i = 0; i < ptoks.length; i++) { var k = hp.indexOf(ptoks[i], pos); if (k < 0) return false; pos = k + ptoks[i].length - 1; } return true; }
   function joined(fm, r) { if (r.indexOf(" ") >= 0 || r.length < 4) return false; var w = fm.split(" "); for (var i = 0; i < w.length; i++) { var s = w[i]; for (var j = i + 1; j < w.length && s.length < r.length; j++) { s += w[j]; if (s === r) return true; } } return false; }
-  function score(e, r, rt, acc) {
+  function score(e, r, rt, acc, Rp, rtp, accF) {
     /* chữ người dùng gõ có dấu mà tên cũng có chữ đó (bỏ dấu) thì phải đúng dấu: "mưa" không khớp "múa" */
-    for (var i = 0; i < acc.length; i++) { var fa = fold(acc[i]); if (e.ftok.indexOf(fa) >= 0 && e.lw.indexOf(acc[i]) < 0) return 0; }
+    for (var i = 0; i < acc.length; i++) { if (e.ftok.indexOf(accF[i]) >= 0 && e.lw.indexOf(acc[i]) < 0) return 0; }
     var fm = e.fm;
     if (fm === r) return 100;
     /* câu gõ chứa trọn tên ("eo gió quy nhơn" chứa "eo gió"): tên phủ càng nhiều câu gõ càng sát */
-    if (fm.length >= 4 && has(r, fm)) return 78 + 8 * fm.length / r.length;
+    if (fm.length >= 4 && Rp.indexOf(e.fmp) >= 0) return 78 + 8 * fm.length / r.length;
     /* tên chứa cụm gõ: cụm phủ càng nhiều phần tên càng sát ("bản giốc" sát "Thác Bản Giốc" hơn "Chùa … Bản Giốc") */
-    if (r.length >= 4 && fm.indexOf(r) === 0 && has(fm, r)) return 85 + 3 * r.length / fm.length;
-    if (r.length >= 4 && has(fm, r)) return 80 + 8 * r.length / fm.length;
-    /* gõ đúng tên phụ trong ngoặc ("Sun World Hòn Thơm" của "Cáp treo Hòn Thơm (Sun World Hòn Thơm)") */
-    if (r.length >= 5 && e.ff.length > fm.length && e.ff.replace(fm, "").replace(/[()]/g, " ").replace(/\s+/g, " ").trim() === r) return 82;
-    if (r.length >= 5 && has(e.ff, r)) return 70;
+    if (r.length >= 4 && fm.indexOf(r) === 0 && e.fmp.indexOf(Rp) >= 0) return 85 + 3 * r.length / fm.length;
+    if (r.length >= 4 && e.fmp.indexOf(Rp) >= 0) return 80 + 8 * r.length / fm.length;
+    /* gõ đúng tên phụ trong ngoặc ("Sun World Hòn Thơm" của "Cáp treo Hòn Thơm (Sun World Hòn Thơm)"); e.ffx đã tính sẵn khi dựng chỉ mục */
+    if (r.length >= 5 && e.ffx === r) return 82;
+    if (r.length >= 5 && e.ffp.indexOf(Rp) >= 0) return 70;
     if (joined(fm, r)) return 75;
-    /* đủ các chữ, đúng thứ tự, có chữ xen giữa ("làng hoa sa đéc" / "Làng hoa kiểng Sa Đéc") */
-    if (rt.length >= 3 && inOrder(fm, rt)) return 60 + 20 * rt.length / fm.split(" ").length;
-    if (rt.length >= 2 && inOrder(fm, rt)) return 50;
+    /* đủ các chữ, đúng thứ tự, có chữ xen giữa ("làng hoa sa đéc" / "Làng hoa kiểng Sa Đéc");
+       inOrder là hàm thuần nên chỉ gọi 1 lần, không gọi lại 2 lần như trước */
+    if (rt.length >= 2 && inOrder(e.fmp, rtp)) return rt.length >= 3 ? 60 + 20 * rt.length / fm.split(" ").length : 50;
     return 0;
   }
   A.nhomDeNham = function (e) {
@@ -92,12 +107,16 @@
   A.findItem = function (rest, opt) {
     opt = opt || {};
     var r = fold(rest); if (r.length < 3) return null;
-    var rt = r.split(" "), acc = low(rest).split(" ").filter(function (t) { return A.marked(t); });
+    var rt = r.split(" "), acc = opt.noAcc ? [] : low(rest).split(" ").filter(function (t) { return A.marked(t); });
+    /* dạng bỏ dấu của các chữ có dấu, tính 1 lần (không gọi fold() lại cho từng mục như trước) */
+    var accF = acc.map(function (t) { return fold(t); });
+    /* chuỗi đệm sẵn, tính 1 lần cho cả lần quét (không cấp phát lại cho từng mục như trước) */
+    var Rp = " " + r + " ", rtp = rt.map(function (t) { return " " + t + " "; });
     var out = [];
     A.index().forEach(function (e) {
       if (opt.prov && e.prov.id !== opt.prov.id) return;
       if (opt.kinds && opt.kinds.indexOf(e.kind) < 0) return;
-      var s = score(e, r, rt, acc); if (!s) return;
+      var s = score(e, r, rt, acc, Rp, rtp, accF); if (!s) return;
       if (e.kind === "dish") s -= 3; else if (e.kind === "stay") s -= 10;
       out.push({ e: e, s: s });
     });
@@ -106,7 +125,25 @@
     if (low1 && !opt.retry) {
       var r2 = r.replace(/^(cap treo|sun world|vinwonders|khu du lich|khu di tich|khu|dong|dao|hon|chua|thac|nui|ho|bai bien|bai|bien|den|lang|cho|hang|dinh|cau|pho co|bao tang|deo) /, "");
       /* phần còn lại là tên tỉnh/khu ("biển Quy Nhơn") thì không thử lại: đó là hỏi cả vùng, không phải 1 mục */
-      if (r2 !== r && r2.split(" ").length >= 2 && !A.isPlaceName(r2)) { var lw2 = low(rest).split(" "); var again = A.findItem(lw2.slice(lw2.length - r2.split(" ").length).join(" "), Object.assign({}, opt, { retry: 1 })); if (again && again.s >= 70) return again; }
+      if (r2 !== r && r2.split(" ").length >= 2 && !A.isPlaceName(r2)) { var lw2 = low(rest).split(" "); var again = A.findItem(lw2.slice(lw2.length - r2.split(" ").length).join(" "), Object.assign({}, opt, { retry: 1 })); if (again && again.s >= 80 && !again.ambiguous) return again; }
+    }
+    /* không thấy: bỏ dần tối đa 2 chữ cuối câu gõ ("chùa một cột huế phải" → "chùa một cột"):
+       tên tỉnh/từ hỏi dính cuối câu không được chặn việc tìm địa danh.
+       Ngưỡng nhận 80 (không phải 70): khớp inOrder ở mức sàn 70 toàn là khớp trùng
+       từ chung ("du lịch điện" khớp "Khu du lịch Long Điền Sơn") — từng trả nhầm tỉnh. */
+    if (low1 && !opt.retry) {
+      var tk = r.split(" ");
+      for (var d = 1; d <= 2 && tk.length - d >= 2; d++) {
+        var r3 = tk.slice(0, tk.length - d).join(" ");
+        if (A.isPlaceName(r3)) continue;
+        var ag = A.findItem(r3, Object.assign({}, opt, { retry: 1 }));
+        if (ag && ag.s >= 80 && !ag.ambiguous) return ag;
+      }
+    }
+    /* gõ sai dấu (à thay vì ù: "chuà hương"): thử lại không kiểm dấu, chỉ khi cách có dấu không ra */
+    if (low1 && !opt.retry && !opt.noAcc) {
+      var ag2 = A.findItem(rest, Object.assign({}, opt, { retry: 1, noAcc: 1 }));
+      if (ag2 && ag2.s >= 80 && !ag2.ambiguous) return ag2;
     }
     if (!out.length) return null;
     out.sort(function (a, b) { return b.s - a.s; });

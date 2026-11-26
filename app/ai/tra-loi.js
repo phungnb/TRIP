@@ -89,7 +89,7 @@
       case "thuy": return ["Gọi cảng tàu khách hoặc ban quản lý cảng để hỏi lịch chạy trong ngày; tàu dừng khi biển động hoặc có lệnh cấm biển."];
       case "season": return ["Xem dự báo của Trung tâm Dự báo khí tượng thủy văn quốc gia (nchmf.gov.vn) cho tuần định đi.", "Hỏi nơi ở tại " + n + " về thời tiết tuần đó trước khi đặt vé."];
       case "food": return ["Tìm tên món kèm " + n + " trên bản đồ (Google Maps), đọc đánh giá gần đây và ảnh bảng giá.", "Hỏi chủ chỗ ở tại " + n + " quán người địa phương hay ăn."];
-      case "stay": return ["Tìm chỗ ở quanh " + n + " trên bản đồ hoặc các trang đặt phòng, gọi xác nhận giá và phòng trống trước khi chuyển tiền."];
+      case "stay": return ["Tìm chỗ ở quanh " + (placeOf(o) || "nơi này") + " trên bản đồ hoặc các trang đặt phòng, gọi xác nhận giá và phòng trống trước khi chuyển tiền."];
       case "weather": return ["Xem dự báo hôm nay trên nchmf.gov.vn hoặc ứng dụng thời tiết của điện thoại; app không có số liệu thời tiết theo ngày."];
       case "booking": return ["App không nhận đặt phòng, đặt vé, không giữ chỗ hộ. Gọi thẳng cơ sở, hãng xe, hãng bay hoặc dùng trang đặt chỗ của họ."];
       case "flightdate": return ["Giá vé máy bay theo ngày cụ thể thay đổi liên tục: tra trên web hoặc ứng dụng của hãng bay cho đúng ngày, giờ bay." + (sb ? " Sân bay gần " + n + ": " + sb + "." : "")];
@@ -135,7 +135,11 @@
   /* ---------- Địa danh, món ---------- */
   /* không in nguồn, ngày kiểm trong câu trả lời (yêu cầu 23/11/2026: nguồn đưa vào mục chính sách của app) */
   function srcLine() { return '<p class="small">Giá, giờ có thể đổi, kiểm lại trước khi đi.</p>'; }
-  A.answerItem = function (e, want) {
+  /* "ăn chay" (có dấu) khác "chạy" (chạy bộ): kiểm trên chữ có dấu, ranh giới từ */
+  function laChay(q) { return /(^|[^0-9a-zà-ỹđ])chay([^0-9a-zà-ỹđ]|$)/i.test(A.low(q || "")); }
+  function monChay(d) { return laChay((d.name || "") + " " + (d.desc || "")); }
+
+  A.answerItem = function (e, want, opt) {
     var x = e.x, p = e.prov, name = label(p), nm = x.name.split(" (")[0];
     if (x.banned) return '<p class="ask-h">' + esc(x.name) + ' (' + esc(name) + ')</p><p><b>Không đón khách du lịch.</b> ' + esc(x.note || "") + '</p>' + acts([openPlace(p, x, "Xem chi tiết")]);
     if (e.kind === "dish") {
@@ -146,12 +150,12 @@
     }
     if (e.kind === "stay") {
       return '<p class="ask-h">' + esc(x.name) + ' (' + esc(name) + ')</p>' + li(["Giá: " + esc(x.price || "app chưa có"), esc(x.kind || ""), esc(x.address || "")].filter(function (t) { return t; })) +
-        '<p class="small">Chưa kiểm chứng, chưa đối tác, chưa thu phí. Gọi xác nhận trước khi đặt.</p>' + acts([btn("Xem chỗ ở này", "openProvStay('" + p.id + "','" + x.id + "')")]);
+        '<p class="small">Gọi xác nhận trước khi đặt.</p>' + acts([btn("Xem chỗ ở này", "openProvStay('" + p.id + "','" + x.id + "')")]);
     }
     if (!want.length) want = ["price", "hours", "season"];
     else if (want.indexOf("price") >= 0 && want.indexOf("hours") < 0) want = want.concat(["hours"]);
     var miss = [], rows = [];
-    if (want.indexOf("price") >= 0) { if (x.price) rows.push("<b>Giá vé tham khảo:</b> " + esc(x.price)); else miss.push("price"); }
+    if (want.indexOf("price") >= 0) { if (x.price) { rows.push("<b>Giá vé tham khảo:</b> " + esc(x.price)); if (opt && opt.treEm && !/trẻ em/i.test(x.price) && !/^miễn phí(\s|$|\.)/i.test(x.price.trim())) rows.push("<b>Giá vé trẻ em:</b> app chưa có riêng cho điểm này."); } else miss.push("price"); }
     if (want.indexOf("hours") >= 0) { if (x.hours) rows.push("<b>Giờ mở cửa:</b> " + esc(x.hours)); else miss.push("hours"); }
     if (want.indexOf("season") >= 0) rows.push("<b>Mùa đẹp:</b> " + esc(A.season(x, p)));
     var d = dist(x); if (d) rows.push(esc(d));
@@ -212,10 +216,15 @@
     if (intent === "dilai") return pr.local ? head + '<p class="ask-h">Đi lại ở ' + title + '</p><p>' + esc(pr.local) + '</p>' + ac : A.fallback({ area: a, prov: p, asked: I.q, what: "cách đi lại trong " + a.name, topic: "xe", lead: head });
     if (intent === "angi" || intent === "odau") {
       var arr = intent === "angi" ? p.dishes : p.stays, fl = arr.filter(inArea), lab = intent === "angi" ? "Ăn gì ở " : "Ở đâu tại ";
+      if (intent === "angi" && laChay(I.q)) {
+        fl = fl.filter(monChay);
+        if (!fl.length) return head + '<p class="ask-h">Món chay ở ' + title + '</p><p>App chưa có món chay riêng ghi trong dữ liệu ở ' + esc(a.name) + '.</p>' + ac;
+        lab = "Món chay ở ";
+      }
       if (!fl.length) return A.fallback({ area: a, prov: p, asked: I.q, topic: intent === "angi" ? "food" : "stay", what: (intent === "angi" ? "món ăn, quán" : "chỗ ở") + " riêng cho khu " + a.name, lead: head });
       var rows = intent === "angi" ? fl.slice(0, 6).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })
         : fl.slice(0, 6).map(function (s) { return "<b>" + esc(s.name.split(" (")[0]) + "</b> · " + esc(short(A.priceShort(s.price) || s.price, 40)) + (s.kind ? " · " + esc(s.kind) : ""); });
-      return head + '<p class="ask-h">' + lab + title + '</p>' + li(rows) + (intent === "odau" ? '<p class="small">Chưa kiểm chứng, chưa đối tác, chưa thu phí. Gọi xác nhận trước khi đặt.</p>' : '') + ac;
+      return head + '<p class="ask-h">' + lab + title + '</p>' + li(rows) + (intent === "odau" ? '<p class="small">Gọi xác nhận trước khi đặt.</p>' : '') + ac;
     }
     if (intent === "khancap") return head + '<p class="ask-h">Số khẩn cấp</p>' + li(['Công an <a href="tel:113"><b>113</b></a>', 'Cứu hỏa <a href="tel:114"><b>114</b></a>', 'Cấp cứu <a href="tel:115"><b>115</b></a>']) + '<p class="small">App chưa có số bệnh viện, đường dây nóng riêng của khu ' + esc(a.name) + '; hỏi chỗ ở hoặc gọi 1022 (tổng đài dịch vụ công tỉnh, nếu tỉnh có) để được nối máy.</p>' + ac;
     if (intent === "chatchem" || intent === "mua_mua") return A.fallback({ area: a, prov: p, asked: I.q, what: (intent === "chatchem" ? "cảnh báo chặt chém" : "gợi ý khi trời mưa") + " riêng cho khu " + a.name, lead: head });
@@ -295,12 +304,17 @@
     if (intent === "angi") {
       var pd = pick(p.dishes); oldNote = note(pd.sc);
       if (!pd.l.length) return A.fallback({ prov: p, asked: I.q, topic: "food", what: "món ăn ở " + name });
+      if (laChay(I.q)) {
+        var ch = pd.l.filter(monChay), tenChay = esc(old && pd.sc ? old + " cũ" : name);
+        if (!ch.length) return oldNote + '<p class="ask-h">Món chay ở ' + tenChay + '</p><p>App chưa có món chay riêng ghi trong dữ liệu ở ' + esc(name) + '.</p>' + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
+        return oldNote + '<p class="ask-h">Món chay ở ' + tenChay + '</p>' + li(ch.slice(0, 5).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })) + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
+      }
       return oldNote + '<p class="ask-h">Ăn gì ở ' + esc(old && pd.sc ? old + " cũ" : name) + '</p>' + li(pd.l.slice(0, 5).map(function (d) { var r = (d.restaurants || [])[0]; return "<b>" + esc(d.name) + "</b> · " + esc(short(A.priceShort(d.price) || d.price, 40)) + (r ? " · " + esc(r.name) : ""); })) + acts([goSeg(p, "angi", "Xem đủ " + p.dishes.length + " món và quán")]);
     }
     if (intent === "odau") {
       var ps = pick(p.stays); oldNote = note(ps.sc);
       if (!ps.l.length) return A.fallback({ prov: p, asked: I.q, topic: "stay", what: "chỗ ở tại " + name });
-      return oldNote + '<p class="ask-h">Ở đâu tại ' + esc(old && ps.sc ? old + " cũ" : name) + '</p>' + li(ps.l.slice(0, 5).map(function (s) { return "<b>" + esc(s.name.split(" (")[0]) + "</b> · " + esc(short(A.priceShort(s.price) || s.price, 40)) + (s.kind ? " · " + esc(s.kind) : ""); })) + '<p class="small">Chưa kiểm chứng, chưa đối tác, chưa thu phí. Gọi xác nhận trước khi đặt.</p>' + acts([goSeg(p, "odau", "Xem " + p.stays.length + " chỗ ở theo khu")]);
+      return oldNote + '<p class="ask-h">Ở đâu tại ' + esc(old && ps.sc ? old + " cũ" : name) + '</p>' + li(ps.l.slice(0, 5).map(function (s) { return "<b>" + esc(s.name.split(" (")[0]) + "</b> · " + esc(short(A.priceShort(s.price) || s.price, 40)) + (s.kind ? " · " + esc(s.kind) : ""); })) + '<p class="small">Gọi xác nhận trước khi đặt.</p>' + acts([goSeg(p, "odau", "Xem " + p.stays.length + " chỗ ở theo khu")]);
     }
     if (intent === "chiphi") {
       var c = (p.cost || []).filter(function (r) { return /Tổng/i.test(r.label); });
@@ -352,9 +366,9 @@
   /* ---------- Tỉnh cũ nay thuộc tỉnh nào ---------- */
   A.answerBelongs = function (hit, I) {
     var p = hit.prov, olds = (SAP_NHAP[p.id] || []).slice(1);
-    if (hit.old) return '<p class="ask-h">' + esc(hit.old) + ' nay thuộc ' + esc(label(p)) + '</p><p>Từ 01/07/2025, theo Nghị quyết 202/2025/QH15, ' + esc(label(p)) + ' gồm ' + esc([SAP_NHAP[p.id][0]].concat(olds).join(" + ")) + ' cũ.</p>' + acts([goSeg(p, "tongquan", "Cẩm nang " + label(p))]);
+    if (hit.old) return '<p class="ask-h">Khu vực ' + esc(hit.old) + ' (' + esc(label(p)) + ')</p>' + acts([goSeg(p, "tongquan", "Cẩm nang " + label(p))]);
     if (hit.alias && hit.kind === "alias") { var a = (BT_ALIAS || []).filter(function (x) { return x[0] === hit.alias; })[0]; return '<p class="ask-h">' + esc(I.q.replace(/\s*(nay|bây giờ|giờ)?\s*thuộc.*$/i, "")) + ' nay thuộc ' + esc(label(p)) + '</p>' + (a && a[2] ? '<p>Trước 01/07/2025 thuộc ' + esc(a[2]) + '.</p>' : '') + acts([goSeg(p, "tongquan", "Cẩm nang " + label(p))]); }
-    return '<p class="ask-h">' + esc(label(p)) + ' là tỉnh, thành sau sáp nhập</p><p>' + (olds.length ? 'Từ 01/07/2025 gồm ' + esc([SAP_NHAP[p.id][0]].concat(olds).join(" + ")) + ' cũ.' : 'Không sáp nhập, giữ nguyên tên.') + '</p>' + acts([goSeg(p, "tongquan", "Cẩm nang " + label(p))]);
+    return '<p class="ask-h">' + esc(label(p)) + (olds.length ? ' (gồm ' + esc(olds.join(" + ")) + ' cũ, từ 01/07/2025)' : ' — không sáp nhập, giữ nguyên tên.') + '</p>' + acts([goSeg(p, "tongquan", "Cẩm nang " + label(p))]);
   };
 
   /* ---------- So sánh 2 nơi ---------- */

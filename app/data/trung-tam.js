@@ -3,7 +3,7 @@
    (Phú Quốc tính từ Châu Đốc, Côn Đảo tính từ Quận 1). File này gán mỗi địa danh vào trung tâm
    GẦN NHẤT trong tỉnh của nó (thủ phủ tỉnh mới + thành phố du lịch của tỉnh cũ), rồi tính lại km.
    Tọa độ trung tâm là tọa độ xấp xỉ khu trung tâm thành phố, đủ cho khoảng cách tham khảo.
-   km là khoảng cách đường thẳng; đường bộ thực tế thường dài hơn 20–40%.
+   km là khoảng cách ước tính theo đường chim bay; đường bộ thực tế thường dài hơn.
    island: true nghĩa là phải ra đảo bằng máy bay hoặc tàu, không đi đường bộ. */
 var TRUNG_TAM = {
   "an-giang": [["Long Xuyên", 10.386, 105.435], ["Rạch Giá", 10.012, 105.081], ["Hà Tiên", 10.383, 104.488], ["Dương Đông (Phú Quốc)", 10.217, 103.959, 1]],
@@ -33,7 +33,7 @@ var TRUNG_TAM = {
 /* Điểm gần 1 khu theo đường chim bay nhưng đường bộ đi từ thủ phủ (Cần Giờ cách Vũng Tàu 1 vịnh biển, đi từ TP.HCM): giữ thủ phủ làm gốc */
 var TRUNG_TAM_GIU = { "bs-rung-sac-can-gio": 1, "bs-bien-can-gio": 1, "dia-dao-cu-chi": 1 };
 /* Tỉnh có km đường bộ kiểm tay từ thủ phủ cho điểm gốc (prov-data.js); điểm thêm sau (mã rh-, bs-, dm-) chưa có km kiểm tay
-   nên tính đường thẳng từ thủ phủ. Quảng Trị: thủ phủ TP Đồng Hới (NQ 202/2025/QH15). */
+   nên tính theo đường chim bay từ thủ phủ. Quảng Trị: thủ phủ TP Đồng Hới (NQ 202/2025/QH15). */
 var TRUNG_TAM_TINH_LAI = { "quang-tri": 1 };
 (function () {
   if (typeof PROV_DATA === "undefined") return;

@@ -45,12 +45,14 @@ function hasPrice(e) {
 // Hỏi tỉnh cũ/thành phố thì hiện tên cũ cho người đọc dễ hiểu
 // (vd khu Quy Nhơn (Gia Lai), khu Bình Định (Gia Lai)).
 function displayPlace(query, tinh) {
+  // Thứ tự: thành phố trước, tỉnh cũ sau — để 'Vĩnh Long' không bị hiện
+  // thành 'khu Long An (Tây Ninh)' (lỗi thật 25/11/2026).
   const qn = normText(query);
-  for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
-    if (qn.includes(normText(old))) return `khu ${old} (${nw})`;
-  }
   for (const [city, prov] of Object.entries(CITY_TO_PROVINCE)) {
     if (qn.includes(normText(city))) return `khu ${city} (${prov})`;
+  }
+  for (const [old, nw] of Object.entries(OLD_TO_NEW)) {
+    if (qn.includes(normText(old))) return `khu ${old} (${nw})`;
   }
   return tinh;
 }

@@ -122,8 +122,8 @@ begin
     return null;
   end if;
   if p_field in ('name','mode') and char_length(btrim(t)) not between 2 and 160 then return 'Tên cần 2–160 ký tự'; end if;
-  if p_field = 'price' and btrim(t) <> '' and t !~* '[0-9]|miễn phí|chưa kiểm được|không thu' then
-    return 'Giá phải có con số, hoặc ghi "Miễn phí" / "Chưa kiểm được"';
+  if p_field = 'price' and btrim(t) <> '' and t !~* '[0-9]|miễn phí|chưa kiểm được|chưa có giá|không thu' then
+    return 'Giá phải có con số, hoặc ghi "Miễn phí" / "Chưa có giá"';
   end if;
   if p_field = 'phone' and btrim(t) <> '' and t !~ '^[0-9 +().–-]{6,40}$' then return 'Số điện thoại chỉ gồm số, dấu cách, + ( ) -'; end if;
   if char_length(t) > 1000 then return 'Trường "' || p_field || '" quá dài (tối đa 1000 ký tự)'; end if;

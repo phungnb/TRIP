@@ -19,7 +19,7 @@ var PLACES = [
   {id:"ga-da-lat",name:"Ga Đà Lạt",cluster:"trung-tam",address:"Số 1 Quang Trung, phường Xuân Hương",lat:11.94178,lng:108.45375,dist:2,price:"Tham quan 50.000đ/người lớn; tàu Đà Lạt–Trại Mát khứ hồi 100.000–170.000đ/người lớn",priceSnap:50000,hours:"Tham quan khoảng 7:00–17:00 (ước tính, chưa kiểm). Tàu: 7:45, 9:50, 11:55, 14:00, 16:05 (+ tàu đêm)",duration:"1–1,5 giờ; 2–2,5 giờ nếu đi tàu khứ hồi",suitable:"Người yêu kiến trúc/hoài cổ, gia đình có trẻ nhỏ",note:"Vé tàu hợp lệ được miễn vé tham quan riêng; gọi hỏi ga trước vì lịch tàu đổi theo mùa.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
   {id:"nha-tho-domaine",name:"Nhà thờ Domaine de Marie",cluster:"trung-tam",address:"Số 1 Ngô Quyền, phường Cam Ly, trên đồi Mai Anh",lat:11.94848,lng:108.43017,dist:2,price:"Miễn phí",priceSnap:0,hours:"Tham quan tự do, khung tham khảo 7:00–17:00; giờ lễ ngày thường 17:00, Chủ nhật 5:45, 8:00 & 16:30",duration:"30–60 phút; đẹp nhất 7:00–10:00 hoặc 14:00–16:00",suitable:"Người yêu kiến trúc/lịch sử, cặp đôi chụp ảnh",note:"Nhà thờ + tu viện đang hoạt động — tránh giờ lễ, ăn mặc lịch sự, giữ yên lặng.",source:"hoadalattravel.vn, tatravel.vn, agotourist.com"},
   {id:"thung-lung-tinh-yeu",name:"Thung lũng Tình Yêu",cluster:"phia-bac",address:"Số 3–5–7 Mai Anh Đào, phường Lâm Viên, quanh hồ Đa Thiện",lat:11.97746,lng:108.44978,dist:6,price:"Người lớn 225.000–250.000đ; trẻ em 1–1,39 m và người trên 60 tuổi 125.000đ; dưới 1 m miễn phí",priceSnap:250000,hours:"Khoảng 7:00–17:30 (chưa kiểm được giờ đóng chính xác)",duration:"Nửa ngày (3–4 giờ); đẹp nhất 8h–10h hoặc 15h–17h",suitable:"Cặp đôi, gia đình, nhóm bạn",note:"Vé gồm xe điện, đạp vịt, cồng chiêng, game 9D — một số trò thu thêm, hỏi rõ ở quầy; khu rất rộng, mang giày bệt.",source:"vinpearl.com, travelbui.com, agotourist.com"},
-  {id:"nui-langbiang",name:"Núi Langbiang",cluster:"phia-bac",address:"305 Langbiang, thị trấn Lạc Dương. Đỉnh Núi Bà 2.167 m; đồi Radar 1.929–1.950 m",lat:12.01964,lng:108.42435,dist:12,price:"Vé cổng người lớn 50.000đ, trẻ em 25.000đ. Xe jeep lên Radar khứ hồi 100.000–120.000đ/người (chưa kiểm được giá chính thức — có nguồn ghi ~200.000đ)",priceSnap:170000,hours:"7:00–17:00 (đa số nguồn; chưa kiểm được chính xác)",duration:"2–3 giờ; nửa ngày nếu leo bộ",suitable:"Người thích ngắm toàn cảnh/săn mây, nhóm bạn",note:"Jeep chỉ lên đồi Radar, KHÔNG lên đỉnh Núi Bà (leo bộ 3–4 giờ); jeep xuất phát khi đủ 5–6 khách nên có thể phải chờ.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
+  {id:"nui-langbiang",name:"Núi Langbiang",cluster:"phia-bac",address:"305 Langbiang, thị trấn Lạc Dương. Đỉnh Núi Bà 2.167 m; đồi Radar 1.929–1.950 m",lat:12.01964,lng:108.42435,dist:12,price:"Vé cổng người lớn 50.000đ, trẻ em 25.000đ. Xe jeep lên Radar khứ hồi 100.000–120.000đ/người (có nguồn ghi ~200.000đ)",priceSnap:170000,hours:"7:00–17:00 (đa số nguồn; chưa kiểm được chính xác)",duration:"2–3 giờ; nửa ngày nếu leo bộ",suitable:"Người thích ngắm toàn cảnh/săn mây, nhóm bạn",note:"Jeep chỉ lên đồi Radar, KHÔNG lên đỉnh Núi Bà (leo bộ 3–4 giờ); jeep xuất phát khi đủ 5–6 khách nên có thể phải chờ.",source:"hoadalattravel.vn, namthientravel.com.vn, agotourist.com"},
   {id:"lang-cu-lan",name:"Làng Cù Lần",cluster:"phia-bac",address:"Thôn Suối Cạn, phường Lang Biang, dưới chân núi Langbiang, ĐT722",lat:12.02588,lng:108.3637,dist:22,price:"Chưa kiểm được mức hiện hành — các nguồn ghi 100.000đ / 150.000đ / 200.000đ. Khoảng: 100.000–200.000đ/người lớn",priceSnap:150000,hours:"Khoảng 7:00–17:30 (chưa kiểm được chính xác)",duration:"2–4 giờ (nên dành nửa ngày tính cả di chuyển)",suitable:"Gia đình, nhóm bạn, đoàn team-building",note:"Đường Ankroet quanh co, dốc — gọi hotline KDL 0914 914 400 xác nhận giá trước ngày đi.",source:"lamdongtours.com, hoadalattravel.vn, newlifetravel.vn"},
   {id:"doi-che-cau-dat",name:"Đồi chè Cầu Đất",cluster:"phia-bac",address:"Thôn Cầu Đất, phường Xuân Trường, phía đông nam Đà Lạt, cao ~1.650 m",lat:11.88348,lng:108.55226,dist:24,price:"Chưa kiểm được mức hiện hành — mâu thuẫn: miễn phí hay 30.000đ. Khoảng: 0–30.000đ vé vào. Tour trà 90.000đ/người; tour săn mây trọn gói 250.000đ/người",priceSnap:0,hours:"7:30–17:00; săn mây 5:30–6:30 sáng (liên hệ trước để vào sớm)",duration:"1,5–2,5 giờ; đi trước 8:30 sáng hoặc sau 16:00",suitable:"Giới trẻ check-in/săn mây, cặp đôi, gia đình",note:"Nông trại đang hoạt động — không giẫm luống chè, không hái lá; đường xa, mang áo ấm.",source:"tatravel.vn, mia.vn, newlifetravel.vn"},
   {id:"ho-tuyen-lam",name:"Hồ Tuyền Lâm",cluster:"phia-nam",address:"Khu du lịch quốc gia Hồ Tuyền Lâm, phường Xuân Hương, phía nam Đà Lạt",lat:11.89937,lng:108.43714,dist:7,price:"Miễn phí vào khu hồ; kayak ~150.000–500.000đ; thuyền tham quan 300.000–500.000đ/chuyến; cắm trại từ 200.000đ/đêm",priceSnap:0,hours:"Khu hồ mở cả ngày/24h; kayak thường từ 8:30",duration:"1,5–2,5 giờ; đẹp nhất sáng sớm hoặc hoàng hôn",suitable:"Cặp đôi, gia đình, nhóm bạn",note:"Hồ rất rộng (vòng hồ ~20 km) — chọn 1 điểm dừng (bến thuyền dưới Thiền viện); đi kayak mặc áo phao.",source:"travelbui.com, mia.vn, saigonstartravel.com"},
@@ -48,14 +48,14 @@ var DISHES = [
   {id:"nem-nuong",name:"Nem nướng",meal:"trua",mealLabel:"Ăn trưa / ăn tối",price:"30.000–60.000đ/phần",priceSnap:45000,desc:"Nem nướng cuốn bánh tráng, rau sống, chấm tương đậu phộng nóng.",restaurants:[{name:"Nem nướng Bà Hùng",address:"328 Phan Đình Phùng, Phường 2 (CN: 52 Hoàng Văn Thụ; 3 Trần Hưng Đạo)",price:"30.000–60.000đ, 09:30–21:00"},{name:"Nem nướng Bà Nghĩa",address:"4 Bùi Thị Xuân",price:"~40.000–45.000đ/phần"}],source:"agotourist.com, cuongdulich.com"},
   {id:"ga-nuong-com-lam",name:"Gà nướng cơm lam",meal:"trua",mealLabel:"Ăn trưa / ăn tối (món nhóm)",price:"~230.000–400.000đ cho 1 con gà + cơm lam, nhóm 2–4 người",priceSnap:300000,desc:"Gà đồi nướng ống tre ăn cùng cơm lam — hợp bữa trưa trên đường đi Langbiang/Cầu Đất.",restaurants:[{name:"Gà nướng ôm xôi Tư Béo",address:"321 Hai Bà Trưng",price:"Gà ~230.000đ/con (1,2–1,4 kg)"},{name:"Cơm lam gà nướng Khương Duy",address:"QL722, ngã ba Mangline, Phường 7",price:"Món 35.000–200.000đ"}],source:"mia.vn, caonguyentourist.com"},
   {id:"bun-bo-ap-anh-sang",name:"Bún bò ấp Ánh Sáng",meal:"sang",mealLabel:"Ăn sáng / ăn trưa",price:"30.000–50.000đ/tô",priceSnap:40000,desc:"Khu ấp Ánh Sáng ven hồ nổi tiếng với hàng bún bò lâu năm.",restaurants:[{name:"Bún bò ấp Ánh Sáng — Quán Út Phi",address:"10 ấp Ánh Sáng, Phường 1",price:"~35.000–50.000đ/tô"},{name:"Bún bò Huế – Mì Quảng Út Vân",address:"36/36A ấp Ánh Sáng, Phường 1",price:"30.000–40.000đ/tô, 06:00–20:00"}],source:"saigonstartravel.com, agotourist.com"},
-  {id:"banh-canh",name:"Bánh canh",meal:"sang",mealLabel:"Ăn sáng / ăn trưa / ăn tối",price:"25.000–50.000đ/tô",priceSnap:35000,desc:"Bánh canh chả cá / giò heo, nước dùng trong — dễ ăn mọi buổi.",restaurants:[{name:"Bánh canh Xuân An",address:"15A Nhà Chung, Phường 3",price:"30.000–44.000đ/tô, 07:00–21:30, hơn 30 năm"},{name:"Bánh canh Phan Rang",address:"Đường Trần Phú hoặc Hai Bà Trưng (chưa kiểm được số nhà cụ thể)",price:"Chưa kiểm được giá riêng"}],source:"zalopay.vn, agotourist.com"},
+  {id:"banh-canh",name:"Bánh canh",meal:"sang",mealLabel:"Ăn sáng / ăn trưa / ăn tối",price:"25.000–50.000đ/tô",priceSnap:35000,desc:"Bánh canh chả cá / giò heo, nước dùng trong — dễ ăn mọi buổi.",restaurants:[{name:"Bánh canh Xuân An",address:"15A Nhà Chung, Phường 3",price:"30.000–44.000đ/tô, 07:00–21:30, hơn 30 năm"},{name:"Bánh canh Phan Rang",address:"Đường Trần Phú hoặc Hai Bà Trưng (chưa kiểm được số nhà cụ thể)",price:"Chưa có giá riêng"}],source:"zalopay.vn, agotourist.com"},
   {id:"sua-dau-nanh",name:"Sữa đậu nành nóng / dâu tây",meal:"toi",mealLabel:"Ăn tối (chợ đêm)",price:"Sữa đậu nành 7.000–15.000đ/ly; dâu tây lắc 15.000–20.000đ/hũ; kem dâu 20.000đ/ly",priceSnap:12000,desc:"Ly sữa đậu nành nóng ở chợ đêm lạnh — món kết ngày quen thuộc.",restaurants:[{name:"Sữa đậu nành Hoa Sữa",address:"Tăng Bạt Hổ, Phường 1 — số nhà mâu thuẫn (64 / 50 / 3F), cần kiểm lại",price:"16:00–22:00, cách chợ đêm ~50 m"},{name:"Dâu tây lắc",address:"276 Phan Đình Phùng",price:"15.000–20.000đ/hũ (nguồn cũ)"}],source:"vinwonders.com, namthientravel.com.vn, riviu.vn"}
 ];
 var ROUTES_SG = [
   {mode:"Xe khách / giường nằm",time:"6–8 tiếng; phần lớn chạy đêm, sáng tới nơi",price:"Giường nằm từ ~180.000đ; Phương Trang ~290.000–300.000đ/vé; Thành Bưởi 325.000–500.000đ/vé",note:"Phương Trang hotline 1900 6067. Số chuyến/ngày các nguồn mâu thuẫn — không chốt con số.",source:"motogo.vn, vexere.com, hoadalattravel.vn"},
   {mode:"Limousine",time:"6–8 tiếng",price:"~250.000–500.000đ/vé (phòng đôi VIP tới ~650.000–750.000đ); trung bình Vexere 11/2026 ~324.500–344.500đ/vé",note:"Đón/trả nhiều điểm trong thành phố hơn xe khách thường.",source:"hoadalattravel.vn, vexere.com"},
   {mode:"Máy bay SGN–DLI",time:"Bay ~50–55 phút",price:"Một chiều đã gồm thuế phí ~700.000–1.800.000đ (Vietjet ~717.000đ, Vietnam Airlines ~991.000đ)",note:"Vietnam Airlines, Vietjet, Pacific, Bamboo, Vietravel Airlines; chuyến sớm nhất ~06:10, muộn nhất ~19:50.",source:"bestprice.vn, traveloka.com, vexere.com"},
-  {mode:"Xe máy / ô tô riêng (QL20)",time:"Ô tô 6–7 tiếng; xe máy 7–10 tiếng",price:"Chưa kiểm được giá thuê theo tuyến",note:"TP.HCM → cao tốc Long Thành – Dầu Giây → QL20 → đèo Bảo Lộc → đèo Prenn (~310–320 km). Xe máy xuất phát 4–5h sáng, KHÔNG đi cao tốc, tránh đèo ban đêm/ngày mưa.",source:"buulong.com.vn, lamdongtours.com"}
+  {mode:"Xe máy / ô tô riêng (QL20)",time:"Ô tô 6–7 tiếng; xe máy 7–10 tiếng",price:"Chưa có giá thuê theo tuyến",note:"TP.HCM → cao tốc Long Thành – Dầu Giây → QL20 → đèo Bảo Lộc → đèo Prenn (~310–320 km). Xe máy xuất phát 4–5h sáng, KHÔNG đi cao tốc, tránh đèo ban đêm/ngày mưa.",source:"buulong.com.vn, lamdongtours.com"}
 ];
 var ROUTES_HN = [
   {mode:"Máy bay HAN–DLI (khuyên dùng)",time:"Bay thẳng 1h50; ~8–12 chuyến/ngày",price:"Một chiều đã gồm thuế phí ~1.400.000–2.650.000đ/chiều",note:"Vé máy bay là hạng mục lớn nhất khi đi từ Hà Nội.",source:"traveloka.com, vietnambooking.com, bestprice.vn"},
@@ -108,8 +108,8 @@ if(typeof GIA_THAM_KHAO!=="undefined") PLACES.forEach(function(p){ if(GIA_THAM_K
 var CHECKLIST_DEFAULT = ["Áo khoác (Đà Lạt lạnh buổi sáng/tối)","Áo mưa mỏng","Giày đi bộ / leo Langbiang","CCCD + bằng lái A1 (nếu thuê xe máy)","Tiền mặt lẻ (chợ đêm, quán nhỏ)","Sạc dự phòng","Thuốc cơ bản","Kem chống nắng"];
 var BUDGETS = [
   {id:"thap",label:"Tiết kiệm",per:1800000,desc:"Khoảng 1,8 triệu đ/người — xe khách đêm, homestay/3 sao chia phòng, ăn quán địa phương."},
-  {id:"vua",label:"Vừa phải",per:3000000,desc:"Khoảng 3 triệu đ/người — mức giữa của bảng chi phí 3 ngày 2 đêm đã kiểm (1,8–4,15 triệu)."},
-  {id:"cao",label:"Thoải mái",per:4150000,desc:"Khoảng 4,15 triệu đ/người — trần bảng chi phí: ở đẹp hơn, đi máy bay hoặc taxi nhiều hơn."}
+  {id:"vua",label:"Vừa phải",per:3000000,desc:"Khoảng 3 triệu đ/người — xe khách/limousine, khách sạn 3 sao, ăn quán địa phương."},
+  {id:"cao",label:"Thoải mái",per:4150000,desc:"Khoảng 4,15 triệu đ/người — ở đẹp hơn, đi máy bay hoặc taxi nhiều hơn."}
 ];
 var STYLES = [
   {id:"cap_doi",label:"Cặp đôi"},{id:"gia_dinh",label:"Gia đình"},{id:"nhom_ban",label:"Nhóm bạn"},{id:"mot_minh",label:"Đi một mình"}
@@ -456,7 +456,7 @@ function applyRouteHighlight(origin){
   if(sg) sg.classList.remove("route-hl"); if(hn) hn.classList.remove("route-hl");
   if(!note) return "routeOriginNote";
   if(!origin){
-    note.innerHTML="<b>Chưa chọn điểm xuất phát.</b> Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1, app sẽ làm nổi bật đúng tuyến cho anh/chị.";
+    note.innerHTML="<b>Chưa chọn điểm xuất phát.</b> Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1, app sẽ làm nổi bật đúng tuyến cho bạn.";
     return "routeOriginNote";
   }
   if(isSGOrigin(origin)){
@@ -469,7 +469,7 @@ function applyRouteHighlight(origin){
     note.innerHTML="<b>Tuyến từ "+esc(origin)+" → Đà Lạt đã được làm nổi bật bên dưới</b> — bay thẳng là cách khuyên dùng, kèm khoảng giá + thời gian.";
     return "routeSectionHN";
   }
-  note.innerHTML="<b>Chưa có tuyến "+esc(origin)+" → Đà Lạt trong dữ liệu đã kiểm.</b> Tuyến này chưa được tra nên app không đoán giá/thời gian. Anh/chị xem tuyến từ TP.HCM / Hà Nội bên dưới — thường sẽ bay hoặc đi xe tới 1 trong 2 đầu này rồi đi tiếp Đà Lạt.";
+  note.innerHTML="<b>Chưa có tuyến "+esc(origin)+" → Đà Lạt trong dữ liệu đã kiểm.</b> Tuyến này chưa được tra nên app không đoán giá/thời gian. Bạn xem tuyến từ TP.HCM / Hà Nội bên dưới — thường sẽ bay hoặc đi xe tới 1 trong 2 đầu này rồi đi tiếp Đà Lạt.";
   return "routeOriginNote";
 }
 function openDestDetailToRoutes(origin){
@@ -566,6 +566,7 @@ function initMap(){
   if(typeof L==="undefined"){ document.getElementById("mapFallback").style.display="block"; el.style.display="none"; return; }
   try{
     var map=L.map("map").setView([11.9404,108.4380],12);
+    map.attributionControl.setPrefix(false);
     var tiles=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",{maxZoom:18,attribution:"Tiles © Esri — Source: Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS User Community"});
     var tileFailed=false;
     tiles.on("tileerror",function(){ if(!tileFailed){ tileFailed=true; document.getElementById("mapFallback").style.display="block"; } });
@@ -592,7 +593,7 @@ function openPlace(id){
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-price">Khoảng giá tham khảo</span></div>'+
     '<div class="kv">'+factCell("Mùa đẹp",placeSeason(p,provById("lam-dong")))+'<div class="cell"><div class="k">Giá vé tham khảo</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.price)+'</div></div><div class="cell"><div class="k">Giờ mở cửa</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.hours)+'</div></div><div class="cell"><div class="k">Thời gian gợi ý</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.duration)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(p.suitable)+'</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
-    '<p class="muted">Tọa độ: '+p.lat+", "+p.lng+' · <a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Mở trên OpenStreetMap</a></p>'+
+    '<p class="muted"><a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Xem vị trí trên bản đồ</a></p>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(p.note)+'</div>'+
     '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="place:'+p.id+'" onclick="toggleSave(\'place\',\''+p.id+'\')">'+heartSvg(isSaved('place',p.id))+'<span>'+(isSaved('place',p.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(p.source)+' · kiểm '+CHECKED+'. Giá là khoảng giá tham khảo, kiểm lại trước ngày đi.</p></div>';
@@ -687,7 +688,7 @@ if(typeof TITLES!=="undefined"){
 function destCard(d){
   var p=provById(d.provId||d.id);
   var cnt=p?(p.places.length+" địa danh · "+p.stays.length+" chỗ ở · "+p.dishes.length+" món"):"";
-  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap">'+provPoster(p?p.id:d.provId,170)+'</div><div class="body"><h3>'+esc(d.name)+(d.name===d.province?"":" · "+esc(d.province))+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
+  return '<button class="card" onclick="openProvDetail(\''+(p?p.id:d.id)+'\')"><div class="thumbwrap">'+provPoster(p?p.id:d.provId,170,"",true)+'</div><div class="body"><h3>'+esc(d.name)+(d.name===d.province?"":" · "+esc(d.province))+'</h3><p class="muted">'+esc(d.overview||"")+'</p><div class="meta-line"><span>'+esc(regionLabel(d.region))+'</span><span>Gợi ý '+d.suggested_days+' ngày</span><span>Mùa đẹp: '+esc(d.best_season||"")+'</span><span>'+cnt+'</span></div></div></button>';
 }
 /* Trang chủ 34 tỉnh do js/home.js dựng (nạp sau file này) */
 function renderExplore(){}
@@ -714,17 +715,17 @@ function reviewBoxInner(key){
   var _tenMuc=(_kind==="pdish"||_kind==="dish")?"món ăn":((_kind==="pstay"||_kind==="stay")?"chỗ ở":"điểm đến");
   var html='<h3 style="font-size:var(--fs-body);margin:0 0 8px">Đánh giá của người dùng</h3>';
   if(!list.length){
-    html+='<p class="muted" style="margin:0 0 4px"><b style="color:var(--ink)">Chưa có đánh giá — bạn là người đầu tiên.</b></p><p class="small" style="margin:0 0 10px">Đánh giá của anh/chị giúp kiểm chứng thông tin '+_tenMuc+' này cho người đi sau.</p>';
+    html+='<p class="muted" style="margin:0 0 4px"><b style="color:var(--ink)">Chưa có đánh giá — bạn là người đầu tiên.</b></p><p class="small" style="margin:0 0 10px">Đánh giá của bạn giúp kiểm chứng thông tin '+_tenMuc+' này cho người đi sau.</p>';
   } else {
     html+='<div class="listcol" style="margin-bottom:12px">'+list.map(function(r){
-      return '<div class="rv-item"><div style="display:flex;justify-content:space-between;gap:8px"><span class="rv-stars">'+starsStr(r.rating)+'</span><span class="small">'+esc(r.date||"")+'</span></div><p style="margin:5px 0 6px;font-size:var(--fs-body);line-height:1.55">'+esc(r.comment||"")+'</p><span class="badge badge-soon">Chưa xác nhận đã đi thật</span></div>';
+      return '<div class="rv-item"><div style="display:flex;justify-content:space-between;gap:8px"><span class="rv-stars">'+starsStr(r.rating)+'</span><span class="small">'+esc(r.date||"")+'</span></div><p style="margin:5px 0 6px;font-size:var(--fs-body);line-height:1.55">'+esc(r.comment||"")+'</p></div>';
     }).join("")+'</div>';
   }
   var sid=sanId(key);
-  html+='<div class="rv-form"><label for="rvStars_'+sid+'">Số sao của anh/chị</label><select id="rvStars_'+sid+'"><option value="5">5 sao — rất đáng đi</option><option value="4">4 sao — đáng đi</option><option value="3" selected>3 sao — bình thường</option><option value="2">2 sao — chưa tốt</option><option value="1">1 sao — không nên đi</option></select>'+
-    '<label for="rvText_'+sid+'" style="margin-top:10px">Bình luận</label><textarea id="rvText_'+sid+'" rows="3" placeholder="Anh/chị thấy điểm này thế nào? Giá, giờ mở cửa trong app còn đúng không?"></textarea>'+
+  html+='<div class="rv-form"><label for="rvStars_'+sid+'">Số sao của bạn</label><select id="rvStars_'+sid+'"><option value="5">5 sao — rất đáng đi</option><option value="4">4 sao — đáng đi</option><option value="3" selected>3 sao — bình thường</option><option value="2">2 sao — chưa tốt</option><option value="1">1 sao — không nên đi</option></select>'+
+    '<label for="rvText_'+sid+'" style="margin-top:10px">Bình luận</label><textarea id="rvText_'+sid+'" rows="3" placeholder="Bạn thấy điểm này thế nào? Giá, giờ mở cửa trong app còn đúng không?"></textarea>'+
     '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="submitReview(\''+key+'\')">Gửi đánh giá</button>'+
-    '<p class="small" style="margin-top:8px">Đánh giá được lưu ngay trong trình duyệt này và hiện lại ở đây. Mọi đánh giá đều ghi rõ “Chưa xác nhận đã đi thật”.</p></div>';
+    '<p class="small" style="margin-top:8px">Đánh giá được lưu ngay trong trình duyệt này và hiện lại ở đây.</p></div>';
   return html;
 }
 function reviewBoxHtml(key){ return '<div class="reviewbox" id="rvbox_'+sanId(key)+'">'+reviewBoxInner(key)+'</div>'; }
@@ -741,7 +742,7 @@ function submitReview(key){
   lsSet(LS_REVIEWS,all);
   var box=document.getElementById("rvbox_"+sid);
   if(box) box.innerHTML=reviewBoxInner(key);
-  toast("Đã lưu đánh giá — cảm ơn anh/chị đã giúp kiểm chứng");
+  toast("Đã lưu đánh giá — cảm ơn bạn đã giúp kiểm chứng");
 }
 /* ================= NHẬN XÉT CỦA BỤI CODE ================= */
 function mReviewHtml(text,src,date){
@@ -808,7 +809,7 @@ function provItemActionsHtml(kind,provId,itemId){
 }
 /* ================= BÁO THÔNG TIN SAI =================
    Nút đóng góp duy nhất trên mọi trang chi tiết: mở form "Đóng góp / Báo sai"
-   (không cần đăng nhập) -> gửi về /api/dong-gop để tự mở Pull Request trên GitHub.
+   (không cần đăng nhập) -> gửi về /api/dong-gop để gửi lên GitHub chờ duyệt.
    Đường gửi thư mailto cũ không còn đường vào từ UI. */
 /* Giữ lại cho faq.js / tro-ly.js / chia-se.js (đường dự phòng khi trợ lý chưa nạp) */
 var SUPPORT_EMAIL="buitrip.hotro@gmail.com";
@@ -818,7 +819,7 @@ function reportMailto(subject,lines){
 function reportLinkHtml(kind,provId,itemId){
   var p=provById(provId); if(!p) return "";
   return '<button class="btn btn-primary btn-block" style="margin-top:10px" onclick="dgOpenPR(\''+esc(provId)+'\',\''+esc(itemId)+'\',\''+esc(kind)+'\')">Đóng góp / Báo sai</button>'+
-    '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ tự mở Pull Request để đưa vào app.</p>';
+    '<p class="small" style="margin:6px 0 0">Báo sai thông tin, hoặc gợi ý thêm địa danh, món ăn, chỗ ở mới — không cần đăng nhập. Đóng góp đúng sẽ được duyệt và cập nhật lên app.</p>';
 }
 
 /* ================= CHI TIẾT ĐIỂM ĐẾN ĐỘNG (34 TỈNH) ================= */
@@ -1081,8 +1082,7 @@ function renderProvDetail(){
   '<div class="segpane provpane active" data-ppane="tongquan"><div class="pad">'+
     '<p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+overviewText+'</p>'+
     '<h3 style="font-size:var(--fs-body);margin:18px 0 8px">Bản đồ các điểm ở '+esc(p.name)+'</h3><div style="position:relative"><div id="mapProv"></div><div class="map-loading" id="mapProvLoading"><span class="spin"></span><span>Đang tải bản đồ…</span></div></div><div class="map-fallback" id="mapProvFallback">Chưa tải được bản đồ (cần mạng để tải nền bản đồ Esri / OpenStreetMap). Các điểm vẫn xem được ở mục “Đi đâu”, kèm địa chỉ và khoảng cách từ trung tâm.</div>'+
-    '<p class="small" style="margin-top:8px">Bản đồ: Esri, © OpenStreetMap contributors / Leaflet.</p>'+
-    (unpinned.length? '<div class="notebox" style="margin-top:10px"><b>Chưa có tọa độ — chưa ghim lên bản đồ:</b><br/>'+unpinned.map(function(x){ return esc(x.name); }).join(" · ")+'</div>' : "")+
+    '<p class="small" style="margin-top:8px">Bản đồ: Esri, © OpenStreetMap contributors.</p>'+
     (p.cost.length? costTableHtml(p) : "")+
     (p.checklist && p.checklist.length? '<h3 style="font-size:var(--fs-body);margin:20px 0 8px">Checklist gợi ý cho chuyến này</h3><div class="listcol">'+p.checklist.map(function(c){ return '<div class="menurow" style="cursor:default"><span style="flex:1">'+esc(c)+'</span></div>'; }).join("")+'</div>' : "")+
     (typeof provAreasHtml==="function"?provAreasHtml(p,"tongquan"):"")+
@@ -1103,7 +1103,7 @@ function renderProvDetail(){
     '<p class="small" style="margin:0 0 12px">Hiện '+p.dishes.length+' món — món chỉ giới thiệu kèm quán tham khảo có địa chỉ, không xếp hạng.</p><div class="listcol">'+p.dishes.map(function(d){ return provDishCard(d,p); }).join("")+'</div>'+
   '</div></div>'+
   '<div class="segpane provpane" data-ppane="diden"><div class="pad">'+
-    '<div class="notebox" id="provRouteNote">Đang hiện các tuyến đã có dữ liệu từ TP.HCM, Hà Nội và sân bay/ga gần nhất. Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1 để app làm nổi bật đúng tuyến của anh/chị.</div>'+
+    '<div class="notebox" id="provRouteNote">Đang hiện các tuyến đã có dữ liệu từ TP.HCM, Hà Nội và sân bay/ga gần nhất. Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1 để app làm nổi bật đúng tuyến của bạn.</div>'+
     (p.routes.note? '<div class="notebox" style="margin-top:12px">'+esc(p.routes.note)+'</div>' : "")+
     (typeof provAreasHtml==="function"?provAreasHtml(p,"diden"):"")+
     routeGroup("Từ TP.HCM", p.routes.sg, "provRouteSG")+
@@ -1169,6 +1169,7 @@ function initProvMap(){
     provTilesLoaded=false;
     var center=[p.lat||10.8, p.lng||106.6];
     provMap=L.map("mapProv").setView(center,9);
+    provMap.attributionControl.setPrefix(false);
     var tiles=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",{maxZoom:18,attribution:"Tiles © Esri — Source: Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS User Community"});
     var failed=false;
     tiles.on("tileerror",function(){ if(!failed){ failed=true; var f2=document.getElementById("mapProvFallback"); if(f2) f2.style.display="block"; hideProvMapLoading(); } });
@@ -1288,7 +1289,7 @@ function openProvPlace(provId,placeId){
   var x=null; prov.places.forEach(function(i){ if(i.id===placeId) x=i; }); if(!x) return;
   var coordHtml = x.lat==null
     ? '<p class="muted"><b>Chưa có tọa độ</b> — điểm này chưa ghim được lên bản đồ. Địa chỉ ở trên là căn cứ để tìm đường.</p>'
-    : '<p class="muted">Tọa độ: '+x.lat+", "+x.lng+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+' · <a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Mở trên OpenStreetMap</a></p>';
+    : '<p class="muted"><a href="https://www.openstreetmap.org/?mlat='+x.lat+"&mlon="+x.lng+'#map=15/'+x.lat+"/"+x.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Xem vị trí trên bản đồ</a>'+(x.approx?' · <b>Tọa độ xấp xỉ, cần kiểm lại</b>':"")+'</p>';
   document.getElementById("itemDetail").innerHTML =
     provItemHead(prov, x.name, clusterLabel(x.cluster)+" · "+placeDistLabel(x)+" · "+prov.name, x.id) +
     (x.banned?'<div class="notebox" style="border-color:#b42318"><b>Không đón khách du lịch.</b> '+esc(x.note||"")+'</div>':"")+
@@ -1402,7 +1403,7 @@ function applyProvRouteHighlight(origin){
   var sg=document.getElementById("provRouteSG"), hn=document.getElementById("provRouteHN");
   if(sg) sg.classList.remove("route-hl"); if(hn) hn.classList.remove("route-hl");
   if(!note) return null;
-  if(!origin){ note.innerHTML="<b>Chưa chọn điểm xuất phát.</b> Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1, app sẽ làm nổi bật đúng tuyến cho anh/chị."; return note; }
+  if(!origin){ note.innerHTML="<b>Chưa chọn điểm xuất phát.</b> Mở Lập kế hoạch, gõ điểm xuất phát ở Bước 1, app sẽ làm nổi bật đúng tuyến cho bạn."; return note; }
   if(isSGOrigin(origin)){ if(sg) sg.classList.add("route-hl"); note.innerHTML="<b>Tuyến từ "+esc(origin)+" đã được làm nổi bật bên dưới</b> — kèm khoảng giá + thời gian đã kiểm."; return sg; }
   if(isHNOrigin(origin)){ if(hn) hn.classList.add("route-hl"); note.innerHTML="<b>Tuyến từ "+esc(origin)+" đã được làm nổi bật bên dưới</b> — kèm khoảng giá + thời gian đã kiểm."; return hn; }
   note.innerHTML="<b>Chưa có tuyến riêng từ "+esc(origin)+" trong dữ liệu đã kiểm.</b> Xem tuyến từ TP.HCM / Hà Nội bên dưới để tham khảo cách đi tiếp — app không đoán giá cho tuyến chưa tra.";
@@ -1913,7 +1914,7 @@ function wizItemPriceText(it){
   if(it.gia_luc_lap==null) return "Chưa có giá — kiểm lại trước khi đi";
   if(it.gia_nhom!=null) return "Ước tính "+fmt(it.gia_luc_lap)+" / người (cả nồi/mâm ~"+fmt(it.gia_nhom)+", chia đều cho nhóm)";
   if(it.gia_luc_lap) return "Ước tính "+fmt(it.gia_luc_lap)+((it.kind==="dish"||it.kind==="pdish")?" / phần":" / người");
-  return "Miễn phí / việc tự do";
+  return "Tự do tham quan";
 }
 function parseRangeVal(txt){
   if(!txt) return null;
@@ -2052,9 +2053,9 @@ function renderWizDays(){
   saveWizDraft();
   document.getElementById("wSummary").innerHTML =
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(budPer*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
-    '<p class="small" style="margin:-6px 0 10px">Ngân sách mức '+esc(bud.label.toLowerCase())+' là '+fmt(bud.per)+'/người cho chuẩn 3 ngày 2 đêm; chuyến '+durText(wiz.days.length)+' quy theo số ngày: '+fmt(budPer)+'/người.</p>'+
+    '<p class="small" style="margin:-6px 0 10px">Ngân sách mức '+esc(bud.label.toLowerCase())+' là '+fmt(bud.per)+'/người cho chuẩn 3 ngày 2 đêm'+(wiz.days.length!==3?'; chuyến '+durText(wiz.days.length)+' quy theo số ngày: '+fmt(budPer)+'/người':'')+'.</p>'+
     (wiz.origin?'<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin)+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>':'<p class="muted" style="margin:0 0 8px"><b style="color:var(--ink)">Chưa chọn điểm xuất phát</b> — tổng ước tính chưa gồm vé di chuyển. Gõ TP.HCM, Hà Nội hoặc Đà Nẵng ở Bước 1 để xem đủ.</p>')+
-    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr, dishSumOf(wiz.days)); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+' Giá từng điểm được ghi lại tại lúc lập chuyến, chuyến đã lưu không đổi khi cẩm nang cập nhật giá.</p></div>'; })();
+    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr, dishSumOf(wiz.days)); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+'</p></div>'; })();
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
@@ -2278,10 +2279,10 @@ function tripCardHtml(t){
   var spent=tripSpent(t); var pct=t.budget_total?Math.min(100,Math.round(spent/t.budget_total*100)):0;
   var doneCk=t.checklist.filter(function(c){return c.done;}).length;
   var dur=tripDurLabel(t);
-  return '<div class="card"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openTrip(\''+t.id+'\')">'+provPoster(tripProvId(t),120)+'<div class="body"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3 style="flex:1">'+esc(fullDurTitle(t.title))+'</h3>'+tripStatusBadge(t)+'</div><div class="meta-line">'+(t.origin_city?'<span>Xuất phát từ '+esc(t.origin_city)+' → '+esc(tripDestName(t))+'</span>':"")+'<span>'+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+'</span>'+(dur?'<span>'+dur+'</span>':"")+'<span>'+t.people_count+' người</span><span>'+esc(t.style||"")+'</span></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div><p class="small" style="margin-top:6px">Đã chi '+fmt(spent)+' / ngân sách '+fmt(t.budget_total)+' · Checklist '+doneCk+'/'+t.checklist.length+'</p></div></button><div class="trip-card-foot"><button class="btn-go" onclick="goTrip(\''+t.id+'\')">Đi</button><button class="icon-btn danger" aria-label="Xóa chuyến này" onclick="deleteTripQuick(\''+t.id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div></div>';
+  return '<div class="card"><button style="all:unset;display:block;width:100%;cursor:pointer;text-align:left" onclick="openTrip(\''+t.id+'\')">'+provPoster(tripProvId(t),120,"",true)+'<div class="body"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px"><h3 style="flex:1">'+esc(fullDurTitle(t.title))+'</h3>'+tripStatusBadge(t)+'</div><div class="meta-line">'+(t.origin_city?'<span>Xuất phát từ '+esc(t.origin_city)+' → '+esc(tripDestName(t))+'</span>':"")+'<span>'+fmtDate(t.start_date)+' → '+fmtDate(t.end_date)+'</span>'+(dur?'<span>'+dur+'</span>':"")+'<span>'+t.people_count+' người</span><span>'+esc(t.style||"")+'</span></div><div class="progress" style="margin-top:10px"><i style="width:'+pct+'%"></i></div><p class="small" style="margin-top:6px">Đã chi '+fmt(spent)+' / ngân sách '+fmt(t.budget_total)+' · Checklist '+doneCk+'/'+t.checklist.length+'</p></div></button><div class="trip-card-foot"><button class="btn-go" onclick="goTrip(\''+t.id+'\')">Xem lịch trình</button><button class="icon-btn danger" aria-label="Xóa chuyến này" onclick="deleteTripQuick(\''+t.id+'\')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div></div>';
 }
 function backupBoxHtml(){
-  return '<div class="notebox" style="margin-top:16px"><b>Sao lưu chuyến</b><br/><span class="small">Chuyến và mục đã lưu chỉ nằm trong trình duyệt này. Đổi máy hoặc xóa dữ liệu trình duyệt sẽ mất, nên tải file sao lưu về rồi nhập lại ở máy mới.</span><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button><button class="btn btn-ghost" onclick="document.getElementById(\'importTripsFile\').click()">Nhập từ file</button><input type="file" id="importTripsFile" accept=".json,application/json" style="display:none" onchange="importTrips(this)"/></div></div>';
+  return '<div class="notebox" style="margin-top:16px"><b>Sao lưu chuyến</b><br/><span class="small">Chuyến chỉ lưu trong trình duyệt này — tải file sao lưu để giữ lại khi đổi máy.</span><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="btn btn-ghost" onclick="exportTrips()">Tải file sao lưu</button><button class="btn btn-ghost" onclick="document.getElementById(\'importTripsFile\').click()">Nhập từ file</button><input type="file" id="importTripsFile" accept=".json,application/json" style="display:none" onchange="importTrips(this)"/></div></div>';
 }
 window.exportTrips=function(){
   var stamps={}; try{ stamps=JSON.parse(localStorage.getItem("buitrip_stamps")||"{}")||{}; }catch(e){}
@@ -2323,10 +2324,10 @@ window.importTrips=function(inp){
 function renderTrips(){
   var wrap=document.getElementById("tripListWrap");
   if(!trips.length){
-    wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><div class="empty"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><b style="font-size:var(--fs-h2)">Chưa có chuyến nào</b><p class="muted">Lập chuyến đầu tiên: chọn điểm đến trong đủ 34 tỉnh đã duyệt, chọn ngày và số người — app gợi ý lịch trình từ dữ liệu thật của tỉnh đó, sửa xong bấm Lưu là có ngay ở đây, không cần tải lại trang.</p><button class="btn btn-orange" onclick="startPlan()">+ Lập chuyến đầu tiên</button><p class="small" style="margin:14px 0 0">Chuyến và mục đã lưu chỉ nằm trong trình duyệt/máy này, tắt app mở lại vẫn còn, không cần đăng nhập, không ai khác xem được.</p></div>'+backupBoxHtml();
+    wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><div class="empty"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><b style="font-size:var(--fs-h2)">Chưa có chuyến nào</b><p class="muted">Lập chuyến đầu tiên: chọn điểm đến trong đủ 34 tỉnh đã duyệt, chọn ngày và số người — app gợi ý lịch trình từ dữ liệu thật của tỉnh đó, sửa xong bấm Lưu là có ngay ở đây, không cần tải lại trang.</p><button class="btn btn-orange" onclick="startPlan()">+ Lập chuyến đầu tiên</button></div>'+backupBoxHtml();
     return;
   }
-  wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><p class="sec-sub">Bấm <b>Đi</b> trên thẻ chuyến để bắt đầu đi: app mở ngay lịch trình hôm nay, checklist và thu chi của chuyến đó.</p><div class="listcol">'+trips.map(tripCardHtml).join("")+'</div><button class="btn btn-orange btn-block" style="margin-top:14px" onclick="startPlan()">+ Lập chuyến mới</button>'+backupBoxHtml();
+  wrap.innerHTML='<h2 class="sec-title" style="margin-top:2px">Chuyến đi của bạn</h2><p class="sec-sub">Bấm <b>Xem lịch trình</b> trên thẻ chuyến để bắt đầu đi: app mở ngay lịch trình hôm nay, checklist và thu chi của chuyến đó.</p><div class="listcol">'+trips.map(tripCardHtml).join("")+'</div><button class="btn btn-orange btn-block" style="margin-top:14px" onclick="startPlan()">+ Lập chuyến mới</button>'+backupBoxHtml();
 }
 function tripRouteHtml(t){
   var o=t.origin_city||"";

@@ -154,14 +154,14 @@
         else { var f = MAPF[x.field] || "note"; if (kind === "dish" && f === "note") f = "desc"; if (kind === "dish" && (f === "hours" || f === "address" || f === "phone")) f = "desc"; if (kind === "stay" && f === "hours") f = "note"; pre[f] = x.value; }
       } else if (x.kind === "dia_danh_moi") {
         kind = "place"; isNew = true;
-        pre = { name: d.ten || String(x.value).split(/[,.\n]/)[0].slice(0, 120), address: d.dia_chi || "", price: giaTxt(d, "/người") || "Chưa kiểm được", hours: d.gio || "Chưa kiểm được", note: d.vi_sao || (d.ten ? "" : x.value) };
+        pre = { name: d.ten || String(x.value).split(/[,.\n]/)[0].slice(0, 120), address: d.dia_chi || "", price: giaTxt(d, "/người") || "Chưa có giá", hours: d.gio || "Chưa kiểm được", note: d.vi_sao || (d.ten ? "" : x.value) };
         if (d.lat != null) pre.lat = d.lat; if (d.lng != null) pre.lng = d.lng;
       } else if (x.kind === "mon_moi") {
         kind = "dish"; isNew = true;
-        pre = { name: d.ten, price: giaTxt(d, "/phần") || "Chưa kiểm được", desc: d.mo_ta || "", restaurants: d.quan ? [{ name: d.quan, address: d.dia_chi || "", price: giaTxt(d, "/phần") }] : [] };
+        pre = { name: d.ten, price: giaTxt(d, "/phần") || "Chưa có giá", desc: d.mo_ta || "", restaurants: d.quan ? [{ name: d.quan, address: d.dia_chi || "", price: giaTxt(d, "/phần") }] : [] };
       } else if (x.kind === "cho_o_moi") {
         kind = "stay"; isNew = true;
-        pre = { name: d.ten, kind: lbl(DG().LOAI_O, d.loai), address: d.dia_chi || "", price: giaTxt(d, "/đêm") || "Chưa kiểm được giá", suitable: d.tien_ich || "" };
+        pre = { name: d.ten, kind: lbl(DG().LOAI_O, d.loai), address: d.dia_chi || "", price: giaTxt(d, "/đêm") || "Chưa có giá", suitable: d.tien_ich || "" };
       } else if (x.kind === "phuong_tien_moi") {
         var tu = fold(d.tu);
         from = /ho chi minh|hcm|sai gon/.test(tu) ? "sg" : /ha noi/.test(tu) ? "hn" : /da nang/.test(tu) ? "dn" : "";
