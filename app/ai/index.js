@@ -148,6 +148,28 @@
       (x.w ? '<p class="small">Phần mô tả dịch từ Wikivoyage tiếng Anh, giấy phép CC BY-SA.</p>' : '') +
       '<p class="small">Mục này app chưa có trang riêng. ' + (x.g || x.h ? 'Giá, giờ có thể đổi, kiểm lại trước khi đi.' : 'Giá, giờ app chưa kiểm được.') + '</p>';
   };
+  /* Hỏi theo tuyến đường ("quốc lộ 51 có điểm tham quan nào", "đi QL51 ghé đâu"): liệt kê điểm kho có mã tuyến (tu).
+     Tuyến app chưa có danh sách thì trả câu dự phòng nói đúng là thiếu danh sách điểm dọc tuyến đó. */
+  A.tuyenOf = function (q) {
+    var m = (" " + A.fold(q) + " ").match(/ (quoc lo|ql|tinh lo|dt) ?(\d{1,3})([a-z]?) /);
+    if (!m) return null;
+    var ql = m[1] === "quoc lo" || m[1] === "ql", so = m[2] + m[3].toUpperCase();
+    return { ma: (ql ? "QL" : "ĐT") + so, ten: (ql ? "Quốc lộ " : "Đường tỉnh ") + so };
+  };
+  A.coTuyen = function (ma) { return typeof BT_KHO_THEM !== "undefined" && BT_KHO_THEM.some(function (x) { return x.tu === ma && x.l !== "t"; }); };
+  A.answerTuyen = function (T, q) {
+    var L = typeof BT_KHO_THEM === "undefined" ? [] : BT_KHO_THEM.filter(function (x) { return x.tu === T.ma; }), esc = A.esc;
+    var tuyen = L.filter(function (x) { return x.l === "t"; })[0], ds = L.filter(function (x) { return x.l !== "t"; });
+    if (!ds.length) return A.fallback({ what: "danh sách điểm tham quan dọc " + T.ten, asked: q, how: ["Mở bản đồ (Google Maps), tìm " + T.ten + " rồi xem các điểm được đánh dấu dọc tuyến; đọc đánh giá gần đây trước khi ghé.", "Gõ tên tỉnh mà " + T.ten + " đi qua để xem danh sách điểm đã có trong app."] });
+    var li = ds.map(function (x) {
+      return "<li><b>" + esc(x.t.split(" (")[0]) + "</b>" + (x.p ? " (" + esc(x.p) + ")" : "") + (x.dc ? ": " + esc(x.dc) : "") + (x.g ? ". Vé: " + esc(x.g) : "") + "</li>";
+    });
+    var ask = ds.slice(0, 3).map(function (x) { return x.t.split(" (")[0] + " ở đâu"; });
+    return '<p class="ask-h">Điểm tham quan dọc ' + esc(T.ten) + '</p>' + (tuyen && tuyen.m ? '<p>' + esc(tuyen.m) + '</p>' : '') +
+      '<p>App có ' + ds.length + ' điểm nằm trên hoặc rẽ ngắn từ ' + esc(T.ten) + ':</p><ul class="ask-ul">' + li.join("") + '</ul>' +
+      '<p class="small">Giờ mở cửa các điểm này app chưa kiểm được; giá có thể đổi, kiểm lại trước khi đi.</p>' +
+      '<div class="ask-chips">' + ask.map(function (t) { return '<button class="chip" type="button" onclick="btAskChip(this.textContent)">' + esc(t) + '</button>'; }).join("") + '</div>';
+  };
   function askCu(q, opt) {
     var t0 = Date.now(); q = String(q == null ? "" : q).trim();
     if (typeof BT_BIEN_THE !== "undefined") BT_BIEN_THE.forEach(function (v) { var re = new RegExp("(^|\\s)" + v[0] + "(?=\\s|$|[?.,!])", "gi"); q = q.replace(re, "$1" + v[1]); });
@@ -207,7 +229,11 @@
     }
     if (!res && gy) { var gyh = A.answerGoiY(q, gy); if (gyh) res = { kind: "goiy", html: gyh, ent: gy.trong ? (gy.trong.a ? { area: gy.trong.a.id, prov: gy.trong.a.prov } : { prov: gy.trong.p.id }) : null }; }
     /* câu nêu đích danh 1 quán, chỗ ở, điểm nhỏ mà app chưa có trang, nhưng kho học có (ai/kho-them.js) */
-    if (!res) { var kt = A.khoThem(qd); if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
+    if (!res) { var kt = A.khoThem(qd), tq = I.mode || I.intent === "diden" ? null : A.tuyenOf(qd);
+      /* tuyến app chưa có điểm nào mà câu có nêu tỉnh/khu ("đoạn ĐT176 về TP Hà Giang đi ổn không"): để nhánh tỉnh/khu trả lời */
+      if (tq && !A.coTuyen(tq.ma)) { var te = entOf(qd); if (te.prov || te.area || te.isle) tq = null; }
+      if (tq && (!kt || kt.l === "t")) res = { kind: "tuyen", html: A.answerTuyen(tq, q), ent: null };
+      else if (kt) res = { kind: "kho", html: A.answerKhoThem(kt), ent: null }; }
     /* câu hỏi giới thiệu, lịch sử 1 địa danh */
     if (!res && A.laGioiThieu) { var gt = A.laGioiThieu(qd), gh = gt && A.answerGioiThieu(gt, q); if (gh) res = { kind: "item", html: gh, ent: { item: gt } }; }
     /* chủ đề admin cho học, đoạn kiến thức đã duyệt */
