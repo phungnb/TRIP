@@ -522,5 +522,43 @@
  },
  {
   "q": "nhà mình có con nhỏ, cho hỏi nên đi đâu"
+ },
+ {
+  "q": "quốc lộ 51 có điểm tham quan nào",
+  "kind": "tuyen",
+  "phaiCo": [
+   "Thiền viện Thường Chiếu",
+   "Chùa Đại Tòng Lâm",
+   "Núi Dinh",
+   "65 km"
+  ]
+ },
+ {
+  "q": "đi QL51 ghé đâu chơi",
+  "kind": "tuyen",
+  "phaiCo": [
+   "Hồ Đá Xanh"
+  ]
+ },
+ {
+  "q": "QL1A có điểm tham quan nào",
+  "kind": "tuyen",
+  "phaiCo": [
+   "danh sách điểm tham quan dọc Quốc lộ 1A"
+  ],
+  "khongCo": [
+   "Tìm tên món"
+  ]
+ },
+ {
+  "q": "Thiền viện Thường Chiếu ở đâu",
+  "kind": "kho",
+  "phaiCo": [
+   "Phước Thái"
+  ]
+ },
+ {
+  "q": "từ Sài Gòn đi Vũng Tàu bằng gì",
+  "kind": "!tuyen"
  }
 ]

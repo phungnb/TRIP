@@ -35,6 +35,8 @@ const LOAI = { mon_an: "an", cho_o: "o" };
 for (const e of kb) {
   const ten = String(e.ten || "").trim(), k = fold(main(ten));
   if (!ten || /\(tổng quan\)/.test(ten) || e.loai === "chi_phi" || /bình ba|bình hưng/i.test(ten + " " + e.ghi_chu)) { bo++; continue; }
+  /* điểm dọc tuyến mà app đã có trang: chỉ giữ tên + mã tuyến (a: 1) để trợ lý liệt kê đủ khi hỏi "QL51 có gì" */
+  if (e.tuyen && TEN.has(k)) { out.push({ t: ten, p: e.tinh || "", l: "d", tu: e.tuyen, a: 1 }); continue; }
   if (TEN.has(k) || TINH.has(k) || k.split(" ").length < 2) { bo++; continue; }
   const dc = sach(e.dia_chi) || sach((String(e.ghi_chu || "").match(/Địa chỉ:\s*([^]*?)(?:\.\s|\.$|$)/) || [])[1]);
   const r = { t: ten, p: e.tinh || "", l: LOAI[e.loai] || "d" };
@@ -43,10 +45,12 @@ for (const e of kb) {
   /* mô tả dịch từ Wikivoyage (CC BY-SA): trợ lý ghi giấy phép dưới mô tả */
   if (mt && /wikivoyage/i.test(e.nguon || "")) r.w = 1;
   if (gia) r.g = gia; if (gio) r.h = gio; if (mt) r.m = mt;
+  /* tu: mã tuyến đường điểm nằm dọc (QL51); l "t" là chính mục tuyến đường */
+  if (e.tuyen) r.tu = e.tuyen; if (e.loai === "tuyen") r.l = "t";
   if (!r.dc && !r.g && !r.h && !r.m) { bo++; continue; }
   out.push(r);
 }
 const js = "/* Mục trong kho học (đợt 24/11/2026) mà dữ liệu app chưa có. Sinh bởi tools/tao-kho-them.mjs, không sửa tay.\n" +
-  "   t: tên; p: tỉnh; l: d điểm / an quán ăn / o chỗ ở; dc: địa chỉ; g: giá tham khảo; h: giờ; m: mô tả; w: 1 = mô tả dịch từ Wikivoyage (CC BY-SA). */\nvar BT_KHO_THEM = " + JSON.stringify(out) + ";\n";
+  "   t: tên; p: tỉnh; l: d điểm / an quán ăn / o chỗ ở; dc: địa chỉ; g: giá tham khảo; h: giờ; m: mô tả; w: 1 = mô tả dịch từ Wikivoyage (CC BY-SA); tu: mã tuyến đường điểm nằm dọc, l t = mục tuyến đường; a: 1 = app đã có trang. */\nvar BT_KHO_THEM = " + JSON.stringify(out) + ";\n";
 fs.writeFileSync(path.join(ROOT, "app/ai/kho-them.js"), js);
 console.log("kho-them.js:", out.length, "mục,", Math.round(js.length / 1024), "KB; bỏ", bo);
