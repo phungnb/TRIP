@@ -116,6 +116,9 @@
   .btn-ghost{ background:var(--surface); color:var(--ink); border:1.5px solid var(--line); }
   .btn-danger{ background:#fdecea; color:var(--red); }
   .btn-block{ width:100%; box-sizing:border-box; }
+  /* Nút phụ liên kết đối tác (affiliate): chỉ hiện khi đã bật đối tác trong js/aff-config.js */
+  .aff-btn{ display:flex; align-items:center; justify-content:center; gap:8px; width:100%; box-sizing:border-box; margin-top:12px; padding:12px 16px; border:1.5px solid var(--line); border-radius:12px; background:var(--surface); color:var(--accent-d); font-size:var(--fs-cap); font-weight:700; text-decoration:none; }
+  .aff-note{ margin:6px 0 0; font-size:var(--fs-micro); color:var(--ink2); text-align:center; line-height:1.5; }
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
   /* nút Đi — hành động chính trên thẻ chuyến */
   .btn-go{ width:100%; border:0; border-radius:12px; background:var(--accent-d); color:var(--on-accent); font-size:var(--fs-h2); font-weight:800; letter-spacing:.02em; padding:13px 18px; box-shadow:0 4px 14px rgba(15,118,110,.38); display:flex; align-items:center; justify-content:center; }

@@ -18,7 +18,7 @@
      Đúng / Chưa đúng: ghi trong trình duyệt (localStorage "buitrip_ai_votes"), không gửi đi.
      Chưa đúng + ghi tên nơi đúng: trợ lý nhớ trên máy này, lần sau hỏi lại đúng câu đó thì trả theo nơi bạn sửa
        (localStorage "buitrip_ai_sua", tối đa 100 câu).
-     Gửi góp ý: chỉ khi người dùng bấm nút gửi, qua /api/hotro như tin hỗ trợ (chính sách mục 4).
+     Gửi góp ý: chỉ khi người dùng bấm nút gửi, qua /api/hotro như tin hỗ trợ (chính sách mục 5).
        Đội BuiTrip duyệt rồi đưa vào bản sau (tools/hoc/README.md). */
   function load(k, d) { try { return JSON.parse(localStorage.getItem(k) || d); } catch (e) { return JSON.parse(d); } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
@@ -61,7 +61,7 @@
       '<label class="small">Cần thông tin gì, sai ở đâu? <input class="bt-ai-ghi" type="text" maxlength="300" placeholder="vd: hỏi giờ mở cửa mà trả giá vé"></label> ' +
       '<button class="btn btn-primary" type="button" onclick="btAiFixSave(this,0)" data-q="' + escQ(q) + '" data-k="' + escQ(k) + '">Lưu trên máy này</button> ' +
       '<button class="btn btn-ghost" type="button" onclick="btAiFixSave(this,1)" data-q="' + escQ(q) + '" data-k="' + escQ(k) + '">Lưu và gửi cho BuiTrip</button>' +
-      '<p class="small bt-ai-msg" style="margin:6px 0 0">Gửi đi gồm câu hỏi và ghi chú bạn gõ, để đội BuiTrip sửa trợ lý (xem Chính sách, mục 4).</p></div>';
+      '<p class="small bt-ai-msg" style="margin:6px 0 0">Gửi đi gồm câu hỏi và ghi chú bạn gõ, để đội BuiTrip sửa trợ lý (xem Chính sách, mục 5).</p></div>';
   };
   window.btAiFixSave = function (btn, gui) {
     var box = btn.closest ? btn.closest(".bt-ai-fix") : null; if (!box) return;

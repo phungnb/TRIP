@@ -595,6 +595,7 @@ function openPlace(id){
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(p.address)+'</p>'+
     '<p class="muted"><a href="https://www.openstreetmap.org/?mlat='+p.lat+"&mlon="+p.lng+'#map=15/'+p.lat+"/"+p.lng+'" target="_blank" rel="noopener" style="color:var(--accent-d);font-weight:700">Xem vị trí trên bản đồ</a></p>'+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(p.note)+'</div>'+
+    (typeof BTAFF!=="undefined"?BTAFF.ticketBtn(provById("lam-dong"),p):"")+
     '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="place:'+p.id+'" onclick="toggleSave(\'place\',\''+p.id+'\')">'+heartSvg(isSaved('place',p.id))+'<span>'+(isSaved('place',p.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Đưa vào kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(p.source)+' · kiểm '+CHECKED+'. Giá là khoảng giá tham khảo, kiểm lại trước ngày đi.</p></div>';
   show("item-detail");
@@ -608,6 +609,7 @@ function openStay(id){
     '<div class="kv"><div class="cell"><div class="k">'+(/miễn phí/i.test(s.price||"")?"Giá":"Khoảng giá / đêm")+'</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.price)+'</div></div><div class="cell"><div class="k">Khoảng cách</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.dist)+'</div></div><div class="cell"><div class="k">Hợp với</div><div class="v" style="font-size:var(--fs-cap)">'+esc(s.suitable)+'</div></div><div class="cell"><div class="k">Trạng thái</div><div class="v" style="font-size:var(--fs-cap)">Giới thiệu sơ — tự kiểm tra giá/phòng trước khi đặt</div></div></div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(s.address)+'</p>'+
     '<div class="notebox">App không nhận đặt phòng, không nhận tiền cho chỗ ở này. Giá tăng cuối tuần, lễ Tết và mùa Festival Hoa (tháng 12).</div>'+
+    (typeof BTAFF!=="undefined"?BTAFF.stayBtn(provById("lam-dong"),s):"")+
     '<div style="display:flex;gap:10px;margin-top:18px"><button class="btn btn-ghost" style="flex:1" data-savebtn="stay:'+s.id+'" onclick="toggleSave(\'stay\',\''+s.id+'\')">'+heartSvg(isSaved('stay',s.id))+'<span>'+(isSaved('stay',s.id)?"Đã lưu":"Lưu")+'</span></button><button class="btn btn-orange" style="flex:1" onclick="startPlan()">Lập kế hoạch</button></div>'+
     '<p class="src">Nguồn: '+esc(s.source)+' · kiểm '+CHECKED+'.</p></div>';
   show("item-detail");
@@ -1297,6 +1299,7 @@ function openProvPlace(provId,placeId){
     '<div class="kv">'+factCell("Giá vé tham khảo",x.price,true)+factCell("Giờ mở cửa",x.hours)+factCell("Thời gian gợi ý",x.duration)+factCell("Hợp với",x.suitable)+factCell("Mùa đẹp",placeSeason(x,prov))+'</div>'+
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(x.address||"")+'</p>'+oldAreaBadge(x)+coordHtml+
     '<h3 style="font-size:var(--fs-body);margin:16px 0 6px">Lưu ý</h3><div class="notebox">'+esc(x.note||"")+'</div>'+
+    (typeof BTAFF!=="undefined"?BTAFF.ticketBtn(prov,x):"")+
     provItemActionsHtml("pplace",prov.id,x.id)+
     mReviewHtml(x.review_m, x.review_m_src, x.review_m_date)+
     reviewBoxHtml(reviewKey("place",prov.id,x.id))+
@@ -1316,6 +1319,7 @@ function openProvStay(provId,stayId){
     '<h3 style="font-size:var(--fs-body);margin:14px 0 6px">Địa chỉ</h3><p class="muted" style="font-size:var(--fs-body);color:var(--ink)">'+esc(s.address||"")+'</p>'+
     stayPhoneHtml(s,prov.name)+
     '<div class="notebox" style="margin-top:14px">App không nhận đặt phòng, không nhận tiền cho chỗ ở này.</div>'+
+    (typeof BTAFF!=="undefined"?BTAFF.stayBtn(prov,s):"")+
     provItemActionsHtml("pstay",prov.id,s.id)+
     mReviewHtml(null,null,null)+
     reviewBoxHtml(reviewKey("stay",prov.id,s.id))+
@@ -2055,7 +2059,8 @@ function renderWizDays(){
     '<div class="statgrid" style="margin-bottom:14px"><div class="cell"><b>'+wiz.days.length+' ngày</b><span>Số ngày</span></div><div class="cell"><b>'+people+' người</b><span>Số người</span></div><div class="cell"><b>'+fmt(budPer*people)+'</b><span>Ngân sách ('+esc(bud.label.toLowerCase())+')</span></div></div>'+
     '<p class="small" style="margin:-6px 0 10px">Ngân sách mức '+esc(bud.label.toLowerCase())+' là '+fmt(bud.per)+'/người cho chuẩn 3 ngày 2 đêm'+(wiz.days.length!==3?'; chuyến '+durText(wiz.days.length)+' quy theo số ngày: '+fmt(budPer)+'/người':'')+'.</p>'+
     (wiz.origin?'<p class="muted" style="margin:0 0 8px">Xuất phát từ <b style="color:var(--ink)">'+esc(wiz.origin)+'</b> → '+esc(wizDestName())+' — mục “Đi đến” trong chuyến sẽ dùng tuyến từ điểm xuất phát này.</p>':'<p class="muted" style="margin:0 0 8px"><b style="color:var(--ink)">Chưa chọn điểm xuất phát</b> — tổng ước tính chưa gồm vé di chuyển. Gõ TP.HCM, Hà Nội hoặc Đà Nẵng ở Bước 1 để xem đủ.</p>')+
-    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr, dishSumOf(wiz.days)); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+'</p></div>'; })();
+    (function(){ var comp=tripComponents(costProvFor(wiz.dest,wiz.area,wiz.focus), wiz.budget, Math.max(0,wiz.days.length-1), people, wiz.origin, est.total, wiz.tr, dishSumOf(wiz.days)); return '<div class="bigmoney"><div class="bm-k">TỔNG ƯỚC TÍNH CẢ CHUYẾN — 1 NGƯỜI</div><div class="bm-v">'+fmt(comp.total)+'/người</div>'+underBudgetNoteHtml(comp.total,budPer)+'<p>'+totalNoteHtml(comp, wizDestName(), Math.max(0,wiz.days.length-1), people, true)+(est.unknown?(' Chưa tính '+est.unknown+' mục <b style="color:var(--ink)">chưa có giá</b> trong dữ liệu — các mục đó ghi rõ “chưa có giá” ở từng ngày bên dưới, không tính là 0đ.'):"")+'</p></div>'; })()+
+    (typeof BTAFF!=="undefined"?BTAFF.transportBtn(wiz.origin,wizDestName()):"");
   document.getElementById("wDays").innerHTML = wiz.days.map(function(d,di){
     var items=d.items.map(function(it,ii){
       return '<div class="titem"><span class="sess">'+esc(it.session||"Tự do")+'</span><div class="ti-body"><b>'+esc(it.title)+'</b><span>'+wizItemPriceText(it)+'</span>'+itemCtlHtml("wiz",di,ii,it,wiz.days.length)+'</div><button class="icon-btn danger" aria-label="Bớt điểm này" onclick="wizRemoveItem('+di+','+ii+')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg></button></div>';
